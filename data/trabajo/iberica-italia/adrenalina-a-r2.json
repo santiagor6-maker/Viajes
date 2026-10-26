@@ -1,0 +1,353 @@
+{
+  "agente": "adrenalina",
+  "subregion": "iberica-italia",
+  "ronda": 2,
+  "paises": ["ES", "PT", "AD"],
+  "busquedas_usadas": 20,
+  "nota": "Ronda 2. Cada puntaje de este archivo reemplaza al de la ronda 1 para el mismo id. url_verificada=true: la URL apareció en resultados de WebSearch en esta ronda o en la anterior. url_verificada=false: dominio oficial ya usado en la ronda 1 y no comprobado ahora. url_tipo: 'operador' (web del parque u operador), 'turismo_oficial' (oficina de turismo pública que publica la actividad) o 'respaldo' (plataforma de reservas como Yumping o Checkyeti, usada solo como respaldo cuando no apareció la web propia del operador). Ningún puntaje de 4 o 5 se apoya solo en URLs de respaldo. Cuando no se tenían las coordenadas exactas del lugar del catálogo, km se calculó con coordenadas aproximadas del pueblo y se marca km_aprox=true.",
+  "puntajes": [
+    {
+      "id": "es-tarragona",
+      "puntaje": 5,
+      "justificacion": "PortAventura World está a 8 km. En Ferrari Land está Red Force, la montaña rusa más alta y rápida de Europa (112 m, 180 km/h), y en PortAventura Park, Shambhala y Dragon Khan. Es oferta de clase mundial a un trayecto corto de tren.",
+      "actividades": [
+        { "nombre": "PortAventura Park (Shambhala, Dragon Khan)", "tipo": "parque_diversiones", "km": 8, "lat": 41.0868, "lng": 1.1575, "temporada": "mar–ene (según calendario)", "url": "https://www.portaventuraworld.com/en/parks", "url_tipo": "operador", "url_verificada": true },
+        { "nombre": "Ferrari Land (Red Force, 112 m)", "tipo": "parque_diversiones", "km": 8, "lat": 41.0868, "lng": 1.1575, "temporada": "abr–ene (calendario más corto que el del parque)", "url": "https://www.portaventuraworld.com/en/ferrari-land", "url_tipo": "operador", "url_verificada": true },
+        { "nombre": "Red Force (ficha en RCDB)", "tipo": "parque_diversiones", "km": 8, "lat": 41.0868, "lng": 1.1575, "temporada": "abr–ene", "url": "https://rcdb.com/12016.htm", "url_tipo": "operador", "url_verificada": true }
+      ]
+    },
+    {
+      "id": "es-aiguestortes",
+      "puntaje": 5,
+      "justificacion": "Es la base de aventura más completa del Pirineo catalán. A 20 km está Llavorsí, epicentro del rafting en el Noguera Pallaresa, el río de aguas bravas más conocido del sur de Europa. Baqueira Beret queda a 14 km, y en Andorra, a 40–46 km, están Ordino Arcalís y el Tobotronc. La estación de Boí Taüll, la más alta del Pirineo, está a la entrada del parque, pero no se encontró su web oficial y no se lista.",
+      "actividades": [
+        { "nombre": "Baqueira Beret (esquí)", "tipo": "esqui", "km": 14, "lat": 42.6985, "lng": 0.933, "temporada": "dic–abr", "url": "https://www.baqueira.es/", "url_tipo": "operador", "url_verificada": false },
+        { "nombre": "Rafting en el Noguera Pallaresa con RocRoi (Llavorsí–Rialp y Llavorsí–Sort)", "tipo": "rafting", "km": 20, "lat": 42.495, "lng": 1.213, "temporada": "abr–sep (según caudal)", "url": "https://www.rocroi.com/en/centers/llavorsi/rafting-llavorsi/", "url_tipo": "operador", "url_verificada": true },
+        { "nombre": "Ordino Arcalís (esquí y freeride)", "tipo": "esqui", "km": 40, "lat": 42.628, "lng": 1.488, "temporada": "dic–abr", "url": "https://www.ordinoarcalis.com/", "url_tipo": "operador", "url_verificada": false },
+        { "nombre": "Tobotronc de Naturland (trineo alpino de 5,3 km)", "tipo": "alpine_coaster", "km": 46, "lat": 42.443, "lng": 1.538, "temporada": "todo el año (sujeto a meteorología)", "url": "https://naturland.ad/en/node/137", "url_tipo": "operador", "url_verificada": true }
+      ]
+    },
+    {
+      "id": "es-ordesa-monte-perdido",
+      "puntaje": 4,
+      "justificacion": "Se documenta ahora el barranquismo de la Sierra de Guara, referencia europea, a 41–53 km: el Mascún de Rodellar y el río Vero en Alquézar. Se suman el esquí en Formigal-Panticosa (29 km) y Cerler (49 km). Varias actividades destacadas, pero ninguna a menos de 25 km del cañón.",
+      "actividades": [
+        { "nombre": "Aramón Formigal-Panticosa (esquí)", "tipo": "esqui", "km": 29, "lat": 42.775, "lng": -0.365, "temporada": "dic–abr", "url": "https://www.aramon.com/", "url_tipo": "operador", "url_verificada": false },
+        { "nombre": "Aramón Cerler (esquí)", "tipo": "esqui", "km": 49, "lat": 42.588, "lng": 0.537, "temporada": "dic–abr", "url": "https://www.aramon.com/", "url_tipo": "operador", "url_verificada": false },
+        { "nombre": "Barranquismo en la Sierra de Guara (semana de cinco barrancos con guías titulados, base Alquézar)", "tipo": "canyoning", "km": 53, "lat": 42.1717, "lng": 0.0236, "temporada": "may–oct", "url": "https://www.spain.info/es/actividades/semana-barranquismo-sierra-guara/", "url_tipo": "turismo_oficial", "url_verificada": true }
+      ]
+    },
+    {
+      "id": "es-picos-de-europa",
+      "puntaje": 3,
+      "justificacion": "El descenso del Sella en canoa sale de Arriondas, a 34 km, con recorridos de 7, 10 o 15 km hasta Toraño o Llovio. Jaire Aventura, en Cangas de Onís, es el operador más veterano (desde 1993). Se mantiene el 3 de la ronda 1, ahora con la actividad documentada.",
+      "actividades": [
+        { "nombre": "Descenso del Sella en canoa (Jaire Aventura, desde Arriondas)", "tipo": "otro", "km": 34, "lat": 43.3906, "lng": -5.1847, "temporada": "abr–oct", "url": "https://www.turismoasturias.es/es/organiza-tu-viaje/deporte-y-aventura/aventura/jaire-aquasport", "url_tipo": "turismo_oficial", "url_verificada": true },
+        { "nombre": "Descenso del Sella en canoa (ficha de Spain.info)", "tipo": "otro", "km": 34, "lat": 43.3906, "lng": -5.1847, "temporada": "abr–oct", "url": "https://www.spain.info/es/actividades/descenso-sella-canoa/", "url_tipo": "turismo_oficial", "url_verificada": true }
+      ]
+    },
+    {
+      "id": "es-oviedo",
+      "puntaje": 2,
+      "justificacion": "El descenso del Sella en canoa, desde Arriondas, queda a 54 km, cerca del borde del radio. No hay parques ni otras actividades verificadas más cerca.",
+      "actividades": [
+        { "nombre": "Descenso del Sella en canoa (Jaire Aventura, desde Arriondas)", "tipo": "otro", "km": 54, "lat": 43.3906, "lng": -5.1847, "temporada": "abr–oct", "url": "https://www.turismoasturias.es/es/organiza-tu-viaje/deporte-y-aventura/aventura/jaire-aquasport", "url_tipo": "turismo_oficial", "url_verificada": true }
+      ]
+    },
+    {
+      "id": "es-tenerife-teide",
+      "puntaje": 4,
+      "justificacion": "Siam Park, a 24 km, es uno de los parques acuáticos más valorados del mundo. Su Tower of Power, de 28 m y casi vertical, termina en un tubo que cruza un acuario de tiburones. En Ifonche, a 16 km, hay vuelos biplaza en parapente de 20–25 minutos sobre la costa de Adeje; solo se encontraron en plataformas de reserva, así que van como respaldo. El 4 se apoya en Siam Park.",
+      "actividades": [
+        { "nombre": "Parapente biplaza desde Ifonche (Daydream Paragliding)", "tipo": "parapente", "km": 16, "lat": 28.135, "lng": -16.687, "temporada": "todo el año (según viento)", "url": "https://www.checkyeti.com/es/d/3763/27997", "url_tipo": "respaldo", "url_verificada": true },
+        { "nombre": "Siam Park (Tower of Power, caída casi vertical de 28 m)", "tipo": "parque_acuatico", "km": 24, "lat": 28.0726, "lng": -16.7259, "temporada": "todo el año", "url": "https://www.siampark.net/", "url_tipo": "operador", "url_verificada": true }
+      ]
+    },
+    {
+      "id": "es-tarifa-bolonia",
+      "puntaje": 4,
+      "justificacion": "Tarifa es una de las capitales europeas del kitesurf. En Valdevaqueros, a 3 km, hay escuelas con cursos de todos los niveles: con levante se usan cometas medianas y pequeñas, y con poniente, más grandes. Se sube de 3 a 4 porque la actividad ya está documentada con un operador.",
+      "actividades": [
+        { "nombre": "Kitesurf en Valdevaqueros (Kite Fun Tarifa, cursos)", "tipo": "otro", "km": 3, "lat": 36.068, "lng": -5.694, "temporada": "todo el año (mejor abr–oct)", "url": "https://en.kitefuntarifa.com/kitesurf-spots-tarifa/kitesurf-spot-valdevaqueros.html", "url_tipo": "operador", "url_verificada": true }
+      ]
+    },
+    {
+      "id": "es-el-puerto-de-santa-maria",
+      "puntaje": 3,
+      "justificacion": "El Circuito de Jerez – Ángel Nieto (MotoGP) está a 22 km y ofrece tandas y cursos de pilotaje según calendario. Es la misma oferta que lleva a Jerez a 3.",
+      "actividades": [
+        { "nombre": "Circuito de Jerez – Ángel Nieto (tandas y cursos de pilotaje)", "tipo": "motor", "km": 22, "lat": 36.7083, "lng": -6.0341, "temporada": "según calendario", "url": "https://www.circuitodejerez.com/", "url_tipo": "operador", "url_verificada": false }
+      ]
+    },
+    {
+      "id": "es-antequera",
+      "puntaje": 3,
+      "justificacion": "El Caminito del Rey está a 24 km. Tivoli World y Aqualand Torremolinos quedan a 45–47 km, casi una hora en coche, y por eso puntúa por debajo de Málaga, que los tiene a menos de 20 km.",
+      "actividades": [
+        { "nombre": "Caminito del Rey (pasarela colgada en el desfiladero de los Gaitanes)", "tipo": "otro", "km": 24, "lat": 36.913, "lng": -4.79, "temporada": "todo el año (cierra lunes)", "url": "https://www.caminitodelrey.info/", "url_tipo": "operador", "url_verificada": false },
+        { "nombre": "Aqualand Torremolinos", "tipo": "parque_acuatico", "km": 45, "lat": 36.618, "lng": -4.509, "temporada": "jun–sep", "url": "https://www.aqualand.es/", "url_tipo": "operador", "url_verificada": false },
+        { "nombre": "Tivoli World (Benalmádena)", "tipo": "parque_diversiones", "km": 47, "lat": 36.596, "lng": -4.537, "temporada": "abr–oct (según calendario)", "url": "https://www.tivoli.es/", "url_tipo": "operador", "url_verificada": false }
+      ]
+    },
+    {
+      "id": "es-alcala-de-henares",
+      "puntaje": 3,
+      "justificacion": "Parque Warner Madrid y el Parque de Atracciones de Madrid están a 34 km cada uno. Valdesquí queda fuera del radio (unos 61 km). Es la misma lógica que El Escorial, con 3.",
+      "actividades": [
+        { "nombre": "Parque Warner Madrid (Superman, Stunt Fall, Coaster Express, La Venganza del Enigma)", "tipo": "parque_diversiones", "km": 34, "lat": 40.2307, "lng": -3.5937, "temporada": "mar–ene (días seleccionados)", "url": "https://www.parquewarner.com/en", "url_tipo": "operador", "url_verificada": true },
+        { "nombre": "Parque de Atracciones de Madrid", "tipo": "parque_diversiones", "km": 34, "lat": 40.4113, "lng": -3.7502, "temporada": "todo el año (días seleccionados)", "url": "https://www.parquedeatracciones.es/prepara-tu-visita/informacion-relevante/sobre-el-parque", "url_tipo": "operador", "url_verificada": true }
+      ]
+    },
+    {
+      "id": "es-aranjuez",
+      "puntaje": 3,
+      "justificacion": "Parque Warner Madrid está a 22 km por la carretera de San Martín de la Vega y el Parque de Atracciones de Madrid, a 43 km.",
+      "actividades": [
+        { "nombre": "Parque Warner Madrid (Superman, Stunt Fall, Coaster Express, La Venganza del Enigma)", "tipo": "parque_diversiones", "km": 22, "lat": 40.2307, "lng": -3.5937, "temporada": "mar–ene (días seleccionados)", "url": "https://www.parquewarner.com/en", "url_tipo": "operador", "url_verificada": true },
+        { "nombre": "Parque de Atracciones de Madrid", "tipo": "parque_diversiones", "km": 43, "lat": 40.4113, "lng": -3.7502, "temporada": "todo el año (días seleccionados)", "url": "https://www.parquedeatracciones.es/prepara-tu-visita/informacion-relevante/sobre-el-parque", "url_tipo": "operador", "url_verificada": true }
+      ]
+    },
+    {
+      "id": "es-denia",
+      "puntaje": 3,
+      "justificacion": "Terra Mítica, en Benidorm, está a 39 km. No se pudo confirmar si su montaña rusa de madera Magnus Colossus funciona en 2026: algunas fuentes la dan por cerrada por costes de mantenimiento.",
+      "actividades": [
+        { "nombre": "Terra Mítica (Benidorm)", "tipo": "parque_diversiones", "km": 39, "lat": 38.5577, "lng": -0.1613, "temporada": "abr–oct (pendiente de confirmar)", "url": "https://www.terramiticapark.com/", "url_tipo": "operador", "url_verificada": false }
+      ],
+      "verificacion_pendiente": true
+    },
+    {
+      "id": "es-terra-mitica",
+      "puntaje": 3,
+      "justificacion": "Baja de 4 a 3 por honestidad. Es un parque temático grande, pero no se pudo confirmar el estado actual de su atracción principal, la montaña rusa de madera Magnus Colossus: fuentes de 2013–2014 la describen abierta y otras, cerrada por costes de mantenimiento. Tampoco se pudo verificar su web oficial ni su calendario. Si el orquestador confirma que Magnus Colossus opera, puede volver a 4.",
+      "actividades": [
+        { "nombre": "Terra Mítica (Benidorm)", "tipo": "parque_diversiones", "km": 0, "lat": 38.5577, "lng": -0.1613, "temporada": "abr–oct (pendiente de confirmar)", "url": "https://www.terramiticapark.com/", "url_tipo": "operador", "url_verificada": false }
+      ],
+      "verificacion_pendiente": true
+    },
+    {
+      "id": "es-getaria",
+      "puntaje": 2,
+      "justificacion": "Hay escuelas de surf en la playa de Zarautz, a 4 km, con clases para todos los niveles. Solo se encontraron en plataformas de reserva y no en webs propias.",
+      "actividades": [
+        { "nombre": "Clases de surf en Zarautz (Moor Surf Eskola)", "tipo": "otro", "km": 4, "lat": 43.284, "lng": -2.17, "temporada": "todo el año (mejor sep–nov)", "url": "https://www.yumping.com/surf/moor-surf-eskola-zarautz--e19652404", "url_tipo": "respaldo", "url_verificada": true }
+      ]
+    },
+    {
+      "id": "es-san-sebastian",
+      "puntaje": 2,
+      "justificacion": "Hay surf en la Zurriola y escuelas en Zarautz, a 16 km. Se mantiene el 2 de la ronda 1, ahora con una actividad listada como respaldo.",
+      "actividades": [
+        { "nombre": "Clases de surf en Zarautz (Moor Surf Eskola)", "tipo": "otro", "km": 16, "lat": 43.284, "lng": -2.17, "temporada": "todo el año (mejor sep–nov)", "url": "https://www.yumping.com/surf/moor-surf-eskola-zarautz--e19652404", "url_tipo": "respaldo", "url_verificada": true }
+      ]
+    },
+    {
+      "id": "es-cabrera",
+      "puntaje": 2,
+      "justificacion": "Aqualand El Arenal queda a 44 km, al otro lado del mar, en Mallorca. El parque nacional no tiene actividades de adrenalina propias.",
+      "actividades": [
+        { "nombre": "Aqualand El Arenal", "tipo": "parque_acuatico", "km": 44, "lat": 39.518, "lng": 2.748, "temporada": "may–oct", "url": "https://www.aqualand.es/", "url_tipo": "operador", "url_verificada": false }
+      ]
+    },
+    {
+      "id": "es-garajonay",
+      "puntaje": 2,
+      "justificacion": "En línea recta, Siam Park (51 km) y el parapente de Ifonche (55 km), en el sur de Tenerife, entran en el radio, pero hace falta el ferry de Los Cristianos (unos 50 min). En La Gomera no se verificó oferta propia.",
+      "actividades": [
+        { "nombre": "Siam Park (Tenerife, vía ferry)", "tipo": "parque_acuatico", "km": 51, "lat": 28.0726, "lng": -16.7259, "temporada": "todo el año", "url": "https://www.siampark.net/", "url_tipo": "operador", "url_verificada": true }
+      ]
+    },
+    {
+      "id": "es-zaragoza",
+      "puntaje": 1,
+      "justificacion": "No hay oferta verificada en el radio. La Sierra de Guara queda a unos 95 km y MotorLand Aragón, en Alcañiz, a más de 100 km. La ciudad tiene un pequeño parque de atracciones local, pero no se verificó su operador.",
+      "actividades": []
+    },
+    {
+      "id": "es-merida",
+      "puntaje": 1,
+      "justificacion": "No se identificaron parques ni actividades de adrenalina a menos de 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "es-formentera",
+      "puntaje": 1,
+      "justificacion": "Solo hay actividades náuticas suaves, como kayak y snorkel; no hay parques ni actividades de adrenalina en el radio.",
+      "actividades": []
+    },
+    {
+      "id": "es-caldera-de-taburiente",
+      "puntaje": 1,
+      "justificacion": "No se verificó oferta de adrenalina con operador en La Palma; la oferta mínima es senderismo exigente.",
+      "actividades": []
+    },
+    {
+      "id": "es-rias-baixas",
+      "puntaje": 1,
+      "justificacion": "Solo oferta mínima, como surf ocasional en A Lanzada, sin operador verificado.",
+      "actividades": []
+    },
+    {
+      "id": "es-ribera-del-duero",
+      "puntaje": 1,
+      "justificacion": "No hay parques ni actividades de adrenalina relevantes en el radio.",
+      "actividades": []
+    },
+    {
+      "id": "es-las-medulas",
+      "puntaje": 1,
+      "justificacion": "No hay oferta de adrenalina verificada en el radio.",
+      "actividades": []
+    },
+    {
+      "id": "es-cabaneros",
+      "puntaje": 1,
+      "justificacion": "No hay oferta de adrenalina en el radio; Parque Warner queda a más de 100 km.",
+      "actividades": []
+    },
+    {
+      "id": "pt-mafra",
+      "puntaje": 3,
+      "justificacion": "Ericeira, la única Reserva Mundial de Surf de Europa, está a 8 km. En Foz do Lizandro y São Julião hay clases diarias con entrenadores certificados por la ISA.",
+      "actividades": [
+        { "nombre": "Clases de surf en Ericeira (Rapture Surfcamps, entrenadores ISA)", "tipo": "otro", "km": 8, "lat": 38.9631, "lng": -9.4176, "temporada": "todo el año", "url": "https://www.rapturecamps.com/surfcamp/portugal/surf-lessons", "url_tipo": "operador", "url_verificada": true }
+      ],
+      "km_aprox": true
+    },
+    {
+      "id": "pt-sintra",
+      "puntaje": 3,
+      "justificacion": "Las clases de surf en la Reserva Mundial de Surf de Ericeira, a 18 km, ya tienen un operador documentado. Sube de 2 a 3.",
+      "actividades": [
+        { "nombre": "Clases de surf en Ericeira (Rapture Surfcamps, entrenadores ISA)", "tipo": "otro", "km": 18, "lat": 38.9631, "lng": -9.4176, "temporada": "todo el año", "url": "https://www.rapturecamps.com/surfcamp/portugal/surf-lessons", "url_tipo": "operador", "url_verificada": true }
+      ],
+      "km_aprox": true
+    },
+    {
+      "id": "pt-lisboa",
+      "puntaje": 3,
+      "justificacion": "Las clases de surf en Ericeira, Reserva Mundial de Surf, quedan a 36 km y tienen operador documentado. Sube de 2 a 3 por coherencia con Sintra y Mafra.",
+      "actividades": [
+        { "nombre": "Clases de surf en Ericeira (Rapture Surfcamps, entrenadores ISA)", "tipo": "otro", "km": 36, "lat": 38.9631, "lng": -9.4176, "temporada": "todo el año", "url": "https://www.rapturecamps.com/surfcamp/portugal/surf-lessons", "url_tipo": "operador", "url_verificada": true }
+      ],
+      "km_aprox": true
+    },
+    {
+      "id": "pt-amarante",
+      "puntaje": 2,
+      "justificacion": "El puente colgante 516 Arouca y los Passadiços do Paiva están a 38 km. Es el mismo criterio que Guimarães, con 2.",
+      "actividades": [
+        { "nombre": "Puente 516 Arouca y Passadiços do Paiva", "tipo": "otro", "km": 38, "lat": 40.94, "lng": -8.2, "temporada": "todo el año (sujeto a meteorología)", "url": "https://516arouca.pt/", "url_tipo": "operador", "url_verificada": false }
+      ],
+      "km_aprox": true
+    },
+    {
+      "id": "pt-angra-do-heroismo",
+      "puntaje": 2,
+      "justificacion": "En Angra hay buceo con Scubazores Divers: bautismos, inmersiones dobles y la zona de los Ilhéus das Cabras. No se encontró barranquismo con operador en Terceira, y el buceo es una actividad menor en esta escala.",
+      "actividades": [
+        { "nombre": "Buceo y snorkel en los Ilhéus das Cabras (Scubazores Divers)", "tipo": "otro", "km": 5, "lat": 38.6489, "lng": -27.1617, "temporada": "may–oct", "url": "https://app.advcollective.com/local-experts/water-activities-snorkeling-ilheus-das-cabras-scubazores-divers", "url_tipo": "respaldo", "url_verificada": true }
+      ],
+      "km_aprox": true
+    },
+    {
+      "id": "pt-elvas",
+      "puntaje": 1,
+      "justificacion": "No hay parques ni actividades de adrenalina verificadas en el radio.",
+      "actividades": []
+    },
+    {
+      "id": "pt-vale-do-coa",
+      "puntaje": 1,
+      "justificacion": "No hay oferta de adrenalina verificada en el radio; solo kayak suave en el Duero y el Côa, sin operador comprobado.",
+      "actividades": []
+    },
+    {
+      "id": "pt-azores-flores",
+      "puntaje": 3,
+      "justificacion": "Turismo de Azores destaca Flores como una de las islas de barranquismo del archipiélago. Ocidental Adventures, en Santa Cruz das Flores, ofrece desde un bautismo de unas 2 h hasta descensos avanzados. Se mantiene el 3, ahora con fuente oficial.",
+      "actividades": [
+        { "nombre": "Barranquismo en Flores (ficha de Visit Azores)", "tipo": "canyoning", "km": 10, "lat": 39.4536, "lng": -31.127, "temporada": "may–oct", "url": "https://www.visitazores.com/en/experience-the-azores/canyoning", "url_tipo": "turismo_oficial", "url_verificada": true },
+        { "nombre": "Bautismo de barranquismo (Ocidental Adventures, Santa Cruz das Flores)", "tipo": "canyoning", "km": 10, "lat": 39.4536, "lng": -31.127, "temporada": "may–oct", "url": "https://www.yumping.com/en/canyoning/ocidental-adventures--e19864200", "url_tipo": "respaldo", "url_verificada": true }
+      ],
+      "km_aprox": true
+    },
+    {
+      "id": "pt-madeira-funchal",
+      "puntaje": 3,
+      "justificacion": "EPIC Madeira, con guías certificados de barranquismo, ofrece salidas para principiantes e intermedios de 4–6 h con recogida en Funchal. Solo se encontró en plataformas de reserva. Las coordenadas son las del punto de recogida en Funchal, no las del barranco.",
+      "actividades": [
+        { "nombre": "Barranquismo con EPIC Madeira (recogida en Funchal)", "tipo": "canyoning", "km": 0, "lat": 32.6497, "lng": -16.9086, "temporada": "todo el año (según caudal)", "url": "https://www.checkyeti.com/en/d/1587/11952", "url_tipo": "respaldo", "url_verificada": true }
+      ],
+      "km_aprox": true
+    },
+    {
+      "id": "pt-peneda-geres",
+      "puntaje": 3,
+      "justificacion": "Hay barranquismo dentro del parque. Peneda Gerês Canyoning Center opera en los ríos Varziela y Laboreiro, con guías certificados, y Tobogã sale de Entre Ambos-os-Rios. Ambos se encontraron solo en plataformas de reserva y van como respaldo.",
+      "actividades": [
+        { "nombre": "Barranquismo en Peneda-Gerês (Tobogã Portugal Adventure, Entre Ambos-os-Rios)", "tipo": "canyoning", "km": 15, "lat": 41.82, "lng": -8.33, "temporada": "may–sep", "url": "https://www.yumping.com/it/multiavventura/toboga-portugal-adventure-tours--e19762493", "url_tipo": "respaldo", "url_verificada": true },
+        { "nombre": "Barranquismo en los ríos Varziela y Laboreiro (Peneda Gerês Canyoning Center)", "tipo": "canyoning", "km": 33, "lat": 42.027, "lng": -8.158, "temporada": "may–sep", "url": "https://www.checkyeti.com/it/p/4139/peneda-geres-canyoning-center", "url_tipo": "respaldo", "url_verificada": true }
+      ],
+      "km_aprox": true
+    },
+    {
+      "id": "pt-braga",
+      "puntaje": 2,
+      "justificacion": "El barranquismo de Peneda-Gerês, desde Entre Ambos-os-Rios, queda a unos 32 km. Se mantiene el 2, ahora con la actividad listada como respaldo.",
+      "actividades": [
+        { "nombre": "Barranquismo en Peneda-Gerês (Tobogã Portugal Adventure, Entre Ambos-os-Rios)", "tipo": "canyoning", "km": 32, "lat": 41.82, "lng": -8.33, "temporada": "may–sep", "url": "https://www.yumping.com/it/multiavventura/toboga-portugal-adventure-tours--e19762493", "url_tipo": "respaldo", "url_verificada": true }
+      ],
+      "km_aprox": true
+    }
+  ],
+  "nuevos": [
+    {
+      "id": "es-sierra-de-guara-alquezar",
+      "nombre": "Sierra de Guara y Alquézar",
+      "pais_iso": "ES",
+      "region": "Aragón (Huesca, Somontano)",
+      "lat": 42.1717,
+      "lng": 0.0236,
+      "tipo": "canyoning",
+      "destino_propio": true,
+      "puntaje": 5,
+      "justificacion": "Es la referencia europea del barranquismo: más de un centenar de barrancos y cañones, con Alquézar como base, donde operan más de 15 empresas con guías titulados. El río Vero tiene tramos para principiantes, como el Salto de la Bola, y el Mascún de Rodellar, a 15 km, es más largo y técnico. Por sí sola justifica 2–3 días de viaje.",
+      "temporada": "may–oct",
+      "actividades": [
+        { "nombre": "Barranco del Vero (tramo del Salto de la Bola, apto para iniciación con guía)", "tipo": "canyoning", "km": 1, "lat": 42.1717, "lng": 0.0236, "temporada": "may–oct", "url": "https://www.turismosomontano.es/images/RUTAS/barrancos/Barranco_Vero.pdf", "url_tipo": "turismo_oficial", "url_verificada": true },
+        { "nombre": "Semana de barranquismo en la Sierra de Guara (cinco barrancos con guías titulados)", "tipo": "canyoning", "km": 0, "lat": 42.1717, "lng": 0.0236, "temporada": "may–oct", "url": "https://www.spain.info/es/actividades/semana-barranquismo-sierra-guara/", "url_tipo": "turismo_oficial", "url_verificada": true },
+        { "nombre": "Vertientes Aventura, Alquézar (barrancos de nivel 1 a 4, vía ferrata, rafting)", "tipo": "canyoning", "km": 0, "lat": 42.1717, "lng": 0.0236, "temporada": "todo el año (barrancos secos en invierno)", "url": "https://www.yumping.com/multiaventura/vertientes-aventura--e1447", "url_tipo": "respaldo", "url_verificada": true }
+      ],
+      "fuentes": [
+        { "guia": "Spain.info (turismo oficial de España)", "url": "https://www.spain.info/es/actividades/semana-barranquismo-sierra-guara/", "url_verificada": true },
+        { "guia": "Turismo Somontano (comarca)", "url": "https://www.turismosomontano.es/images/RUTAS/barrancos/Barranco_Vero.pdf", "url_verificada": true },
+        { "guia": "Yumping (respaldo, ficha de operador)", "url": "https://www.yumping.com/multiaventura/vertientes-aventura--e1447", "url_verificada": true }
+      ],
+      "alerta": "El barranquismo es una actividad técnica: sin formación, contrata siempre un guía titulado. Los barrancos acuáticos dependen del caudal y de las tormentas de verano."
+    },
+    {
+      "id": "es-noguera-pallaresa-sort",
+      "nombre": "Noguera Pallaresa (Sort y Llavorsí)",
+      "pais_iso": "ES",
+      "region": "Cataluña (Lleida, Pallars Sobirà)",
+      "lat": 42.4131,
+      "lng": 1.13,
+      "tipo": "rafting",
+      "destino_propio": true,
+      "puntaje": 4,
+      "justificacion": "Es la capital del rafting en España. El Noguera Pallaresa es el río de aguas bravas más conocido del sur de Europa, y el descenso clásico de Llavorsí a Sort recorre 18 km de rápidos, como La Rentadora y La Sirga, en barcas de hasta 8 personas con guía. Hay tramos familiares, la variante panorámica de Collegats e hidrospeed. Aigüestortes queda a unos 25 km y Andorra la Vella, a unos 35.",
+      "temporada": "abr–sep (según caudal)",
+      "actividades": [
+        { "nombre": "Rafting Llavorsí–Rialp y Llavorsí–Moleta (RocRoi)", "tipo": "rafting", "km": 11, "lat": 42.495, "lng": 1.213, "temporada": "abr–sep", "url": "https://www.rocroi.com/en/centers/llavorsi/rafting-llavorsi/", "url_tipo": "operador", "url_verificada": true },
+        { "nombre": "Rafting en el Noguera Pallaresa, Llavorsí–Sort (18 km)", "tipo": "rafting", "km": 0, "lat": 42.4131, "lng": 1.13, "temporada": "abr–sep", "url": "https://visitpirineus.com/en/node/5241", "url_tipo": "turismo_oficial", "url_verificada": true }
+      ],
+      "fuentes": [
+        { "guia": "RocRoi (operador)", "url": "https://www.rocroi.com/en/centers/llavorsi/rafting-llavorsi/", "url_verificada": true },
+        { "guia": "RocRoi (blog, mejores descensos de Cataluña)", "url": "https://www.rocroi.com/en/blog/the-most-beautiful-rafting-tours-in-catalonia/", "url_verificada": true },
+        { "guia": "Visit Pirineus (Turisme de Lleida)", "url": "https://visitpirineus.com/en/node/5241", "url_verificada": true }
+      ],
+      "alerta": "Los tramos de clase III–IV exigen saber nadar y tienen una edad mínima que, según el tramo, va de 8 a 12 años. El caudal depende de los desembalses."
+    }
+  ]
+}
