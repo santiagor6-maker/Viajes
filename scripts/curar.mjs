@@ -66,7 +66,13 @@ const reg = (id) => {
   return lugares.get(id);
 };
 const limpiarFuente = (s) => ({ guia: s.guia, url: s.url, _v: s.url_verificada === true ? 2 : s.url_verificada === false ? 0 : 1 });
-const ponerPuntaje = (r, c, v) => { if (typeof v === 'number') r.puntajes[c] = Math.max(r.puntajes[c] ?? -1, v); };
+// una ronda posterior reemplaza el puntaje (las correcciones pueden bajarlo); en la misma ronda gana el mayor
+const ponerPuntaje = (r, c, v, ronda = 1) => {
+  if (typeof v !== 'number') return;
+  const prev = (r._ronda ??= {})[c] ?? 0;
+  if (ronda > prev) { r.puntajes[c] = v; r._ronda[c] = ronda; }
+  else if (ronda === prev) r.puntajes[c] = Math.max(r.puntajes[c] ?? -1, v);
+};
 const ponerBase = (r, e, prioridad) => {
   for (const k of ['nombre', 'pais_iso', 'region', 'lat', 'lng'])
     if (e[k] != null && (r[k] == null || prioridad > (r._prio?.[k] ?? -1))) { r[k] = e[k]; (r._prio ??= {})[k] = prioridad; }
@@ -90,7 +96,7 @@ for (const f of archivos) {
     const r = reg(e.id);
     r.origen.add(agente + (nuevo ? '*' : ''));
     ponerBase(r, e, esGuias ? 2 : nuevo ? 1 : 0);
-    ponerPuntaje(r, crit, e.puntaje);
+    ponerPuntaje(r, crit, e.puntaje, d.ronda || 1);
     if (e.justificacion) (r.just[crit] ??= []).push(e.justificacion);
     if (e.actividad) (r.just.actividad ??= []).push(e.actividad);
     if (e.unesco) r.unesco = true;
@@ -129,7 +135,7 @@ for (const fu of aj.fusiones || []) {
   for (const oid of fu.origenes) {
     const o = lugares.get(oid);
     if (!o) { console.warn(`  fusión: origen ${oid} no existe`); continue; }
-    for (const c of CRITERIOS) if (o.puntajes[c] != null) ponerPuntaje(dst, c, o.puntajes[c]);
+    for (const c of CRITERIOS) if (o.puntajes[c] != null) ponerPuntaje(dst, c, o.puntajes[c], o._ronda?.[c] ?? 1);
     for (const [c, js] of Object.entries(o.just)) (dst.just[c] ??= []).push(...js);
     dst.fuentes.push(...o.fuentes);
     for (const p of o.platos) if (!dst.platos.includes(p)) dst.platos.push(p);
