@@ -1,0 +1,393 @@
+{
+  "agente": "cultura-historia",
+  "subregion": "iberica-italia",
+  "ronda": 2,
+  "puntajes": [
+    {
+      "id": "es-aiguestortes",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "En la Vall de Boí, puerta occidental del parque, están las iglesias románicas catalanas de Sant Climent y Santa Maria de Taüll, Patrimonio Mundial desde 2000. Dentro del parque el interés es sobre todo natural.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/988" }
+      ]
+    },
+    {
+      "id": "es-caldera-de-taburiente",
+      "puntaje": 1,
+      "unesco": false,
+      "justificacion": "Parque esencialmente natural. Su interés cultural se limita a algunos petroglifos de los benahoaritas, los antiguos pobladores de La Palma.",
+      "fuentes": []
+    },
+    {
+      "id": "es-garajonay",
+      "puntaje": 1,
+      "unesco": true,
+      "justificacion": "Es Patrimonio Mundial natural por su laurisilva. En lo cultural solo destaca el silbo gomero de la isla, patrimonio inmaterial, que no es propio del parque.",
+      "fuentes": []
+    },
+    {
+      "id": "es-cabrera",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Tiene un castillo del siglo XIV sobre el puerto y el monumento a los prisioneros franceses de la Guerra de la Independencia (1809-1814), que fueron abandonados en la isla.",
+      "fuentes": []
+    },
+    {
+      "id": "es-cabaneros",
+      "puntaje": 1,
+      "unesco": false,
+      "justificacion": "Parque natural con poco interés cultural: arquitectura rural de los Montes de Toledo y centros de interpretación.",
+      "fuentes": []
+    },
+    {
+      "id": "es-formentera",
+      "puntaje": 2,
+      "unesco": true,
+      "justificacion": "Forma parte del bien mixto 'Ibiza, biodiversidad y cultura', aunque por su posidonia. Conserva el sepulcro megalítico de Ca na Costa, torres de defensa del siglo XVIII y el faro de la Mola.",
+      "fuentes": []
+    },
+    {
+      "id": "es-getaria",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "El Museo Cristóbal Balenciaga, junto al palacio Aldamar en el casco antiguo, guarda una de las colecciones de moda más importantes del mundo. Getaria es también la cuna de Juan Sebastián Elcano y tiene la iglesia gótica de San Salvador.",
+      "fuentes": [
+        { "guia": "Getaria Turismo (oficial)", "url": "https://getariaturismo.eus/en/balenciaga-museoa-eng/" },
+        { "guia": "Turismo Euskadi (oficial)", "url": "https://turismo.euskadi.eus/en/top10/museums/cristobal-balenciaga-museoa/webtur00-recursostop/en/" }
+      ]
+    },
+    {
+      "id": "es-el-puerto-de-santa-maria",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "El castillo de San Marcos, Monumento Nacional desde 1920, es una fortaleza-iglesia gótica de Alfonso X levantada sobre una mezquita; se visita con cata en las bodegas Caballero. Suma bodegas históricas del Marco de Jerez y es la ciudad natal de Rafael Alberti.",
+      "fuentes": [
+        { "guia": "Barceló Guía de Turismo", "url": "https://www.barcelo.com/guia-turismo/es/espana/cadiz/que-ver/castillo-de-san-marcos/" }
+      ]
+    },
+    {
+      "id": "es-denia",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "El castillo de origen andalusí domina la ciudad y alberga el museo arqueológico. Se suma el barrio marinero de Baix la Mar; el título de Ciudad Creativa UNESCO es de gastronomía.",
+      "fuentes": []
+    },
+    {
+      "id": "es-ribera-del-duero",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "El castillo de Peñafiel, Monumento Nacional desde 1917, alberga el Museo Provincial del Vino. Bajo él hay una red de bodegas subterráneas excavadas desde el siglo XV, y bajo el casco de Aranda de Duero se conservan bodegas medievales.",
+      "fuentes": [
+        { "guia": "Ruta del Vino Ribera del Duero (oficial)", "url": "https://rutadelvinoriberadelduero.es/en/accessible-cultural-resource-monument-castle-museums-and-interpretation-centres/museo-provincial-del" }
+      ]
+    },
+    {
+      "id": "es-rias-baixas",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "Combarro, Conjunto Histórico-Artístico desde 1972, tiene decenas de hórreos y cruceiros frente a la ría. Cerca están el casco de granito de Pontevedra y los pazos y plazas porticadas de Cambados.",
+      "fuentes": [
+        { "guia": "Carta de España (Gobierno de España)", "url": "https://www.inclusion.gob.es/web/cartaespana/w/combarro-el-pueblo-de-los-horreos" },
+        { "guia": "elDiario.es", "url": "https://www.eldiario.es/viajes/pueblo-pontevedres-horreos-frente-mar-conjuntos-impresionantes-galicia-pm_1_13316474.html" }
+      ]
+    },
+    {
+      "id": "es-portaventura",
+      "puntaje": 1,
+      "unesco": false,
+      "justificacion": "Parque temático; su interés cultural es solo la ambientación (Mediterrània, México, China). El patrimonio romano de Tarraco, a unos 10 km, ya cuenta como lugar propio.",
+      "fuentes": []
+    },
+    {
+      "id": "es-parque-warner",
+      "puntaje": 0,
+      "unesco": false,
+      "justificacion": "Parque de atracciones sin interés cultural.",
+      "fuentes": []
+    },
+    {
+      "id": "es-terra-mitica",
+      "puntaje": 1,
+      "unesco": false,
+      "justificacion": "Parque temático ambientado en las civilizaciones antiguas del Mediterráneo (Egipto, Grecia, Roma, Iberia). Es solo recreación, sin patrimonio real.",
+      "fuentes": []
+    },
+    {
+      "id": "es-skydive-empuriabrava",
+      "puntaje": 1,
+      "unesco": false,
+      "justificacion": "Zona de salto sin interés cultural propio. A unos 10 km están las ruinas grecorromanas de Empúries y Castelló d'Empúries; el Teatre-Museu Dalí de Figueres se añade como lugar propio.",
+      "fuentes": []
+    },
+    {
+      "id": "es-baqueira-beret",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "En el Val d'Aran hay iglesias románicas como Sant Andreu de Salardú y Santa Maria d'Arties, y se habla aranés, una lengua propia. Aun así, la estación es un destino de esquí.",
+      "fuentes": []
+    },
+    {
+      "id": "es-caminito-del-rey",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "La pasarela es una obra de ingeniería de 1901-1905 para el salto hidroeléctrico de El Chorro, que Alfonso XIII recorrió en 1921. Cerca están las ruinas mozárabes de Bobastro.",
+      "fuentes": []
+    },
+    {
+      "id": "pt-arouca-516-paiva",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "El Mosteiro de Santa Maria de Arouca, cisterciense, alberga un Museu de Arte Sacra de los más importantes del país. Tiene sillería y órgano barrocos y la tumba de Santa Mafalda.",
+      "fuentes": [
+        { "guia": "VisitPortugal (oficial)", "url": "https://www.visitportugal.com/es/node/135102" }
+      ]
+    },
+    {
+      "id": "pt-amarante",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "Tiene la iglesia y el convento de São Gonçalo (siglo XVI), con la tumba del santo, y el puente de 1790, que recuerda la resistencia frente a las tropas de Napoleón. En el antiguo convento está el Museu Amadeo de Souza-Cardoso, dedicado al pionero de la pintura moderna portuguesa.",
+      "fuentes": [
+        { "guia": "VisitPortugal (oficial)", "url": "https://www.visitportugal.com/pt-pt/node/132834" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/portugal/amarante/attractions/ponte-de-sao-goncalo/a/poi-sig/1374112/1004190" }
+      ]
+    }
+  ],
+  "nuevos": [
+    {
+      "id": "es-montserrat",
+      "nombre": "Montserrat (monasterio y macizo)",
+      "pais_iso": "ES",
+      "region": "Cataluña",
+      "lat": 41.5934,
+      "lng": 1.8375,
+      "tipo": "monumento",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "Es el gran centro espiritual de Cataluña: un monasterio benedictino fundado en 1025 cuya basílica guarda la Moreneta, talla románica del siglo XII. La Escolanía, uno de los coros infantiles más antiguos de Europa, canta a mediodía en días laborables, y el Museu de Montserrat completa la visita. Está a unos 50 km de Barcelona, con cremallera y funiculares.",
+      "fuentes": [
+        { "guia": "Montserrat Visita (oficial)", "url": "https://www.montserratvisita.com/pt/propostas-de-visita/visite-o-santuario/2024" }
+      ]
+    },
+    {
+      "id": "es-figueres-cadaques",
+      "nombre": "Triángulo daliniano: Figueres y Cadaqués (Portlligat)",
+      "pais_iso": "ES",
+      "region": "Cataluña",
+      "lat": 42.268,
+      "lng": 2.9595,
+      "tipo": "ciudad",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "Dalí concibió el Teatre-Museu de Figueres sobre el antiguo teatro municipal y está enterrado en él; es uno de los museos más visitados de España. La Fundació Gala-Salvador Dalí completa el triángulo con la Casa-Museu de Portlligat, en Cadaqués, y el castillo de Púbol.",
+      "fuentes": [
+        { "guia": "Patrimoni Cultural (Generalitat de Catalunya)", "url": "https://patrimoni.gencat.cat/en/collection/dali-theatre-museum-and-dali-triangle" }
+      ]
+    },
+    {
+      "id": "es-cadiz",
+      "nombre": "Cádiz",
+      "pais_iso": "ES",
+      "region": "Andalucía",
+      "lat": 36.5297,
+      "lng": -6.293,
+      "tipo": "ciudad",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "Los fenicios la fundaron hacia el 1100 a. C. como Gadir, y es una de las ciudades más antiguas de Occidente. En el casco antiguo están la catedral, el Teatro Romano y la Torre Tavira, vigía del siglo XVIII con cámara oscura. Es la cuna de la Constitución de 1812 y el barrio de La Viña es el corazón de su Carnaval.",
+      "fuentes": [
+        { "guia": "Spain.info (Turespaña)", "url": "https://www.spain.info/es/lugares-interes/torre-tavira/" },
+        { "guia": "Andalucia.com", "url": "https://www.andalucia.com/cities/cadiz/monuments/torre-tavira.htm" }
+      ]
+    },
+    {
+      "id": "es-albarracin",
+      "nombre": "Albarracín",
+      "pais_iso": "ES",
+      "region": "Aragón",
+      "lat": 40.4083,
+      "lng": -1.4433,
+      "tipo": "pueblo",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "Una votación de Lonely Planet la eligió el pueblo más bonito de España, por su conjunto medieval sobre un meandro del Guadalaviar: murallas y castillo andalusíes, casas de yeso rojizo, catedral y el Museo de Albarracín. En sus pinares hay abrigos de arte rupestre levantino, parte del Patrimonio Mundial del Arco Mediterráneo.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-towns-in-spain-results" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/beautiful-spanish-towns-to-visit" },
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/874" }
+      ]
+    },
+    {
+      "id": "es-teruel",
+      "nombre": "Teruel",
+      "pais_iso": "ES",
+      "region": "Aragón",
+      "lat": 40.3443,
+      "lng": -1.1069,
+      "tipo": "ciudad",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "Las torres de San Martín, El Salvador y San Pedro y la catedral de Santa María de Mediavilla, con su techumbre pintada, son el núcleo de la Arquitectura Mudéjar de Aragón (Patrimonio Mundial desde 1986). Se suman el Mausoleo de los Amantes y el modernismo de la plaza del Torico.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/378" },
+        { "guia": "Turismo de Aragón (oficial)", "url": "https://www.turismodearagon.com/rutas-por-aragon/mudejar-de-teruel-daroca-y-tierras-del-jiloca/" }
+      ]
+    },
+    {
+      "id": "es-pamplona",
+      "nombre": "Pamplona y Olite",
+      "pais_iso": "ES",
+      "region": "Navarra",
+      "lat": 42.8179,
+      "lng": -1.644,
+      "tipo": "ciudad",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "Es una de las grandes ciudades del Camino Francés, Patrimonio Mundial, con murallas, la Ciudadela renacentista abaluartada y la catedral gótica; del 6 al 14 de julio celebra los Sanfermines, fiesta de fama mundial. A unos 42 km, el Palacio Real de Olite, Monumento Nacional y residencia gótica de los reyes de Navarra, es su extensión natural.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/669/" },
+        { "guia": "Barceló Guía de Turismo", "url": "https://www.barcelo.com/guia-turismo/es/espana/pamplona/que-ver/" },
+        { "guia": "Culture Trip", "url": "https://theculturetrip.com/europe/spain/articles/top-places-to-visit-in-navarra" }
+      ]
+    },
+    {
+      "id": "es-cartagena",
+      "nombre": "Cartagena",
+      "pais_iso": "ES",
+      "region": "Región de Murcia",
+      "lat": 37.5995,
+      "lng": -0.985,
+      "tipo": "ciudad",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "Fundada por los cartagineses como Qart Hadasht, tiene un Teatro Romano del siglo I a. C., descubierto en 1987 y musealizado por Rafael Moneo, de los más importantes de España junto al de Mérida. Suma el ARQVA, Museo Nacional de Arqueología Subacuática, el Museo Refugio de la Guerra Civil y fachadas modernistas.",
+      "fuentes": [
+        { "guia": "Spain.info (Turespaña)", "url": "https://www.spain.info/es/destino/cartagena/" }
+      ]
+    },
+    {
+      "id": "es-trujillo",
+      "nombre": "Trujillo",
+      "pais_iso": "ES",
+      "region": "Extremadura",
+      "lat": 39.4597,
+      "lng": -5.8817,
+      "tipo": "ciudad",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "Cuna de Francisco Pizarro y de Orellana: su Plaza Mayor, con la estatua ecuestre de Pizarro, está rodeada de palacios pagados con la riqueza de la conquista, como el de la Conquista. La villa alta conserva castillo andalusí, la iglesia de Santa María la Mayor y la Torre de Bujaco.",
+      "fuentes": [
+        { "guia": "Spain.info (Turespaña)", "url": "https://www.spain.info/es/destino/trujillo/" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/spain/trujillo/attractions/torre-del-alfiler/a/poi-sig/1267670/360768" }
+      ]
+    },
+    {
+      "id": "es-guadalupe",
+      "nombre": "Real Monasterio de Santa María de Guadalupe",
+      "pais_iso": "ES",
+      "region": "Extremadura",
+      "lat": 39.453,
+      "lng": -5.3274,
+      "tipo": "monumento",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "Es Patrimonio Mundial desde 1993 y une cuatro siglos de estilos, del gótico-mudéjar al neoclásico. Tiene claustro mudéjar, una sacristía con ocho lienzos de Zurbarán y la Virgen de Guadalupe, símbolo ligado a la Reconquista y al Descubrimiento y venerado en toda Hispanoamérica.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/665" }
+      ]
+    },
+    {
+      "id": "es-a-coruna",
+      "nombre": "A Coruña",
+      "pais_iso": "ES",
+      "region": "Galicia",
+      "lat": 43.371,
+      "lng": -8.396,
+      "tipo": "ciudad",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "La Torre de Hércules (Patrimonio Mundial) es un faro romano de finales del siglo I que sigue en funcionamiento, único en el mundo. La ciudad suma la Ciudad Vieja medieval, las galerías acristaladas de la Marina y la plaza de María Pita.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/1312" }
+      ]
+    },
+    {
+      "id": "es-lugo",
+      "nombre": "Lugo",
+      "pais_iso": "ES",
+      "region": "Galicia",
+      "lat": 43.0099,
+      "lng": -7.556,
+      "tipo": "ciudad",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "Su muralla romana del siglo III, Patrimonio Mundial desde 2000, es el único recinto defensivo urbano romano que se conserva completo: más de 2 km con 85 torres, que se recorren por el adarve. Dentro están la catedral del Camino Primitivo y restos de termas romanas.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/987/maps/" }
+      ]
+    },
+    {
+      "id": "pt-aveiro",
+      "nombre": "Aveiro",
+      "pais_iso": "PT",
+      "region": "Centro",
+      "lat": 40.6405,
+      "lng": -8.6538,
+      "tipo": "ciudad",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "El Museu de Aveiro ocupa el convento de Jesús (siglo XV), con la tumba de la princesa Santa Joana y una iglesia de talla dorada. La ciudad suma una ruta de edificios art nouveau junto al canal central, moliceiros por la ría y la antigua estación de azulejos. Costa Nova es una extensión.",
+      "fuentes": [
+        { "guia": "VisitPortugal (oficial)", "url": "https://www.visitportugal.com/pt-pt/content/visita-aveiro" },
+        { "guia": "VisitPortugal (oficial)", "url": "https://www.visitportugal.com/pt-pt/destinos/aveiro/73753" }
+      ]
+    },
+    {
+      "id": "pt-fatima",
+      "nombre": "Santuario de Fátima",
+      "pais_iso": "PT",
+      "region": "Centro",
+      "lat": 39.6317,
+      "lng": -8.6731,
+      "tipo": "monumento",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "Es uno de los grandes santuarios marianos del mundo: la Capelinha das Aparições, la basílica de Nuestra Señora del Rosario con las tumbas de los tres pastorcitos y la basílica de la Santísima Trinidad. Las peregrinaciones del 12-13 de mayo reúnen unos 450.000 fieles. Está en la ruta de Tomar, Batalha y Alcobaça.",
+      "fuentes": [
+        { "guia": "Santuário de Fátima (oficial)", "url": "https://www.fatima.pt/pt/news/topdf/peregrinacao-de-maio-reuniu-cerca-de-450-mil-fieis-e-deixou-um-forte-apelo-a-paz" }
+      ]
+    },
+    {
+      "id": "pt-piodao",
+      "nombre": "Piódão y las Aldeias do Xisto",
+      "pais_iso": "PT",
+      "region": "Centro",
+      "lat": 40.2297,
+      "lng": -7.8244,
+      "tipo": "pueblo",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "Es una Aldea Histórica de Portugal en la Serra do Açor: casas de esquisto y pizarra en anfiteatro, con puertas pintadas de azul. Cerca, en Chãs d'Égua, hay grabados rupestres con centro de interpretación.",
+      "fuentes": [
+        { "guia": "Aldeias Históricas de Portugal (oficial)", "url": "https://aldeiashistoricasdeportugal.com/en/percurso/piodao-percurso-vermelho/" },
+        { "guia": "VisitPortugal (oficial)", "url": "https://www.visitportugal.com/pt-pt/node/132806" }
+      ]
+    },
+    {
+      "id": "pt-viana-do-castelo",
+      "nombre": "Viana do Castelo y Ponte de Lima",
+      "pais_iso": "PT",
+      "region": "Norte",
+      "lat": 41.6932,
+      "lng": -8.8329,
+      "tipo": "ciudad",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "Sobre la ciudad se alza la basílica de Santa Luzia (1904-1959, de Ventura Terra), con funicular. El centro histórico gira en torno a la Praça da República y en agosto se celebra la Romaria da Senhora d'Agonia, con trajes tradicionales. A unos 23 km, Ponte de Lima, considerada la villa más antigua de Portugal, tiene un puente romano-medieval sobre el Lima.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-viana-do-castelo-portugal" }
+      ]
+    }
+  ]
+}

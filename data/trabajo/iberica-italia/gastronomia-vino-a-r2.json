@@ -1,0 +1,508 @@
+{
+  "agente": "gastronomia-vino",
+  "subregion": "iberica-italia",
+  "ronda": 2,
+  "paises": [
+    "ES",
+    "PT",
+    "AD"
+  ],
+  "puntajes": [
+    {
+      "id": "es-oviedo",
+      "puntaje": 4,
+      "justificacion": "Es el mismo lugar que propuse en la ronda 1 como Asturias central, fusionado con Oviedo. Hay sidrerías con escanciado en la calle Gascona y en Gijón y Villaviciosa, fabada, cachopo y quesos asturianos, y en la región está Casa Marcial, con tres estrellas Michelin.",
+      "platos": [
+        "Fabada asturiana",
+        "Cachopo",
+        "Chorizo a la sidra",
+        "Sidra natural"
+      ],
+      "fuentes": [
+        {
+          "guia": "TasteAtlas",
+          "url": "https://www.tasteatlas.com/asturias"
+        },
+        {
+          "guia": "TasteAtlas",
+          "url": "https://www.tasteatlas.com/most-popular-dishes-in-asturias"
+        },
+        {
+          "guia": "Guía Michelin",
+          "url": "https://guide.michelin.com/gb/en/article/michelin-guide-ceremony/all-michelin-star-restaurants-in-spain-2026-the-full-list"
+        }
+      ]
+    },
+    {
+      "id": "es-zaragoza",
+      "puntaje": 3,
+      "justificacion": "El Tubo es una de las zonas de tapeo clásicas del norte de España. La ciudad es la capital del ternasco de Aragón, el cordero con indicación protegida de las provincias de Huesca, Teruel y Zaragoza, que se sirve asado con patatas. Se completa con la huerta del Ebro, con borraja, y con las frutas de Aragón.",
+      "platos": [
+        "Ternasco de Aragón asado",
+        "Borraja con patatas",
+        "Migas aragonesas",
+        "Frutas de Aragón"
+      ],
+      "fuentes": [
+        {
+          "guia": "TasteAtlas",
+          "url": "https://tasteatlas.com/ternasco-de-aragon"
+        }
+      ]
+    },
+    {
+      "id": "es-merida",
+      "puntaje": 3,
+      "justificacion": "La capital extremeña sirve la despensa de la región: ibérico de dehesa, Torta del Casar, migas y caldereta. A unos 25 km, en Tierra de Barros (Almendralejo), están las bodegas de la D.O. Ribera del Guadiana. La ciudad no tiene una escena de alta cocina propia.",
+      "platos": [
+        "Jamón Dehesa de Extremadura",
+        "Torta del Casar",
+        "Migas extremeñas",
+        "Caldereta de cordero"
+      ],
+      "fuentes": [
+        {
+          "guia": "TasteAtlas",
+          "url": "https://www.tasteatlas.com/best-rated-dishes-in-extremadura"
+        }
+      ]
+    },
+    {
+      "id": "es-portaventura",
+      "puntaje": 1,
+      "justificacion": "Es un parque temático con restauración de parque. La cocina marinera de Cambrils y Tarragona se cuenta en otros lugares.",
+      "platos": [],
+      "fuentes": []
+    },
+    {
+      "id": "es-formentera",
+      "puntaje": 2,
+      "justificacion": "Tiene cocina payesa propia, como la ensalada payesa con peix sec o el flaó, y chiringuitos de pescado conocidos, pero no es un destino gastronómico.",
+      "platos": [
+        "Ensalada payesa con peix sec",
+        "Flaó",
+        "Pescado a la brasa"
+      ],
+      "fuentes": []
+    },
+    {
+      "id": "es-aiguestortes",
+      "puntaje": 2,
+      "justificacion": "En Espot y en la Vall de Boí se come cocina de montaña del Pallars y de la Alta Ribagorça, con embutidos, trinxat y guisos de caza, pero el interés gastronómico es secundario.",
+      "platos": [
+        "Trinxat",
+        "Embutidos del Pallars",
+        "Guisos de caza"
+      ],
+      "fuentes": []
+    },
+    {
+      "id": "es-garajonay",
+      "puntaje": 3,
+      "justificacion": "El parque ocupa el centro de La Gomera, y en los pueblos de alrededor (Hermigua, Agulo, Vallehermoso) se prueban productos propios de la isla. El más conocido es el almogrote, una pasta de queso curado con pimiento, ajo y aceite. Se suman la miel de palma, sacada de la savia de la palmera canaria, y los potajes con gofio.",
+      "platos": [
+        "Almogrote gomero",
+        "Miel de palma",
+        "Potaje de berros con gofio",
+        "Papas arrugadas con mojo"
+      ],
+      "fuentes": [
+        {
+          "guia": "Turismo de Tenerife (receta del almogrote)",
+          "url": "https://www.webtenerife.co.uk/tenerife/gastronomy/local-produce/recipes-dishes/almogrote.htm"
+        },
+        {
+          "guia": "TasteAtlas",
+          "url": "https://www.tasteatlas.com/best-rated-dishes-in-canary-islands"
+        }
+      ]
+    },
+    {
+      "id": "es-caldera-de-taburiente",
+      "puntaje": 3,
+      "justificacion": "La isla tiene su propia D.O. La Palma desde 1994. Su subzona de Fuencaliente, que incluye El Paso y Los Llanos de Aridane al pie de la Caldera, es famosa por la malvasía dulce y por el vino de tea, envejecido en pino canario, un estilo que solo se hace aquí. También tiene la DOP Queso Palmero.",
+      "platos": [
+        "Malvasía de La Palma",
+        "Vino de tea",
+        "Queso Palmero DOP (ahumado)",
+        "Mojo palmero"
+      ],
+      "fuentes": [
+        {
+          "guia": "Consejo Regulador D.O. La Palma",
+          "url": "https://www.vinoslapalma.com/ficheros/el-malvasia-de-la-palma.pdf"
+        },
+        {
+          "guia": "Guía Peñín",
+          "url": "https://guiapenin.wine/en-la-palma-do-dop"
+        },
+        {
+          "guia": "Wikipedia (D.O. La Palma)",
+          "url": "https://en.wikipedia.org/wiki/La_Palma_(DO)"
+        }
+      ]
+    },
+    {
+      "id": "es-tarragona",
+      "puntaje": 3,
+      "justificacion": "El romesco nació, según la tradición, en las barcas del barrio pesquero del Serrallo, y en octubre se celebran las jornadas Romescvs + Macabevs con vinos de la D.O. Tarragona. Desde la ciudad se va a las calçotadas de Valls (unos 20 km) y al Priorat (unos 40 km).",
+      "platos": [
+        "Romesco del Serrallo",
+        "Calçots con salsa romesco",
+        "Arroz negro",
+        "Vinos D.O. Tarragona"
+      ],
+      "fuentes": [
+        {
+          "guia": "Ara (congreso del romesco)",
+          "url": "https://en.ara.cat/tarragona/romesco-is-the-star-of-an-international-congress_1_5499247.amp.html"
+        },
+        {
+          "guia": "Diari de Tarragona (jornadas del romesco)",
+          "url": "https://www.diaridetarragona.com/gastronomia/200142/tarragona-celebra-la-novena-edicio-de-les-jornades-del-romesco-fg21360775_amp.html"
+        }
+      ]
+    },
+    {
+      "id": "es-antequera",
+      "puntaje": 3,
+      "justificacion": "Tiene platos con nombre propio. La porra antequerana es más espesa que el salmorejo, lleva pimiento verde y se sirve con jamón y huevo. El mollete de Antequera es el pan del desayuno andaluz. De postre, bienmesabe conventual.",
+      "platos": [
+        "Porra antequerana",
+        "Mollete de Antequera",
+        "Bienmesabe antequerano"
+      ],
+      "fuentes": [
+        {
+          "guia": "Foods & Wines from Spain (ICEX)",
+          "url": "https://www.foodswinesfromspain.com/en/food/articles/2022/july/porra-spanish-soup"
+        },
+        {
+          "guia": "Wikipedia (porra antequerana)",
+          "url": "https://en.wikipedia.org/wiki/Porra_antequerana"
+        }
+      ]
+    },
+    {
+      "id": "es-parque-warner",
+      "puntaje": 1,
+      "justificacion": "Es un parque temático con restauración de parque.",
+      "platos": [],
+      "fuentes": []
+    },
+    {
+      "id": "es-cabrera",
+      "puntaje": 1,
+      "justificacion": "Es un parque nacional marítimo sin oferta gastronómica. Para comer hay que volver a la Colònia de Sant Jordi.",
+      "platos": [
+        "Pescado fresco (en la Colònia de Sant Jordi)"
+      ],
+      "fuentes": []
+    },
+    {
+      "id": "es-alcala-de-henares",
+      "puntaje": 3,
+      "justificacion": "Tiene una larga tradición de tapa gratis con cada caña o vino, y las tapas son más grandes que en otras ciudades, sobre todo en la calle San Segundo y alrededor de la calle Mayor. La cadena Índalo nació aquí. De dulce, la costrada alcalaína y las almendras garrapiñadas de las Clarisas.",
+      "platos": [
+        "Tapa gratis con la bebida",
+        "Costrada alcalaína",
+        "Almendras garrapiñadas",
+        "Huevos rotos"
+      ],
+      "fuentes": [
+        {
+          "guia": "The Olive Press (guía de tapas gratis)",
+          "url": "https://theolivepress.es/spain-news/2023/04/29/the-tradition-of-free-tapas-are-not-only-a-long-standing-tradition-in-granada-find-out-where-else-with-the-olive-press-tapas-guide/"
+        },
+        {
+          "guia": "Spanish Sabores",
+          "url": "https://spanishsabores.com/sightseeing-tapa-by-tapa-alcala-de-henares/"
+        }
+      ]
+    },
+    {
+      "id": "es-aranjuez",
+      "puntaje": 3,
+      "justificacion": "La huerta real de la vega del Tajo da sus productos más famosos, las fresas y fresones de Aranjuez y los espárragos de primavera, junto con alcachofas y tomates. Casa José, de Fernando del Cerro, es el restaurante de referencia de esa cocina de huerta.",
+      "platos": [
+        "Fresas y fresones de Aranjuez",
+        "Espárragos de Aranjuez",
+        "Faisán a la real",
+        "Verduras de la huerta"
+      ],
+      "fuentes": [
+        {
+          "guia": "Gastronosfera",
+          "url": "https://gastronosfera.com/tendencias/la-rica-huerta-de-aranjuez-y-la-gastrobotanica"
+        },
+        {
+          "guia": "Directo al Paladar",
+          "url": "https://www.directoalpaladar.com/curso-de-cocina/fernando-cerro-gran-cocinero-huerta-aranjuez-textura-verduras-no-importante"
+        }
+      ]
+    },
+    {
+      "id": "es-caminito-del-rey",
+      "puntaje": 1,
+      "justificacion": "Es una pasarela en un desfiladero. En El Chorro y Ardales solo hay ventas y bares sencillos.",
+      "platos": [
+        "Porra antequerana (en ventas de la zona)"
+      ],
+      "fuentes": []
+    },
+    {
+      "id": "es-terra-mitica",
+      "puntaje": 1,
+      "justificacion": "Es un parque temático con restauración de parque. Los arroces de la Marina Baixa se cuentan en Dénia y Valencia.",
+      "platos": [],
+      "fuentes": []
+    },
+    {
+      "id": "es-baqueira-beret",
+      "puntaje": 3,
+      "justificacion": "La cocina aranesa es una referencia del Pirineo, con la olla aranesa, el civet de jabalí y el foie. En Les, a unos 30 km, se produce el caviar Nacarii con agua de deshielo del Garona, y en marzo los restaurantes del valle celebran unas semanas del caviar.",
+      "platos": [
+        "Olla aranesa",
+        "Civet de jabalí",
+        "Caviar del Val d'Aran",
+        "Foie gras"
+      ],
+      "fuentes": [
+        {
+          "guia": "Visit Val d'Aran (turismo oficial)",
+          "url": "https://www.visitvaldaran.com/wp-content/uploads/2024/03/AranGastronomia_Cast.pdf"
+        },
+        {
+          "guia": "Visit Val d'Aran (turismo oficial)",
+          "url": "https://www.visitvaldaran.com/en/?p=41595"
+        },
+        {
+          "guia": "Ara (restaurantes del Val d'Aran)",
+          "url": "https://es.ara.cat/comer/restaurantes-valle-aran-olla-aranesa_130_5100908.html"
+        }
+      ]
+    },
+    {
+      "id": "es-las-medulas",
+      "puntaje": 3,
+      "justificacion": "Las Médulas está en plena D.O. Bierzo, con tintos de mencía y blancos de godello. Cacabelos, sede del Consejo Regulador y de la feria del vino, está a unos 20 km. Se come la cocina berciana del botillo, el pimiento asado y las castañas de los sotos que rodean el paraje.",
+      "platos": [
+        "Botillo del Bierzo",
+        "Pimiento asado del Bierzo",
+        "Vino de mencía D.O. Bierzo",
+        "Castañas del Bierzo"
+      ],
+      "fuentes": [
+        {
+          "guia": "Consejo Regulador D.O. Bierzo",
+          "url": "https://www.crdobierzo.es/es/descargar-documento/dossier-prensa-2021/210/"
+        },
+        {
+          "guia": "Festivales de España (Feria del Vino de Cacabelos)",
+          "url": "https://www.festivalesdeespana.com/festival/feria-del-vino-do-bierzo-de-cacabelos"
+        },
+        {
+          "guia": "TasteAtlas",
+          "url": "https://www.tasteatlas.com/best-rated-dishes-in-castile-and-leon"
+        }
+      ]
+    },
+    {
+      "id": "es-cabaneros",
+      "puntaje": 2,
+      "justificacion": "Los pueblos de los Montes de Toledo tienen cocina de caza, sobre todo de ciervo y jabalí, migas y queso manchego, pero la oferta es sencilla.",
+      "platos": [
+        "Caldereta de ciervo",
+        "Migas manchegas",
+        "Queso manchego"
+      ],
+      "fuentes": []
+    },
+    {
+      "id": "es-skydive-empuriabrava",
+      "puntaje": 2,
+      "justificacion": "Es un centro de paracaidismo. A pocos km están los viñedos de la D.O. Empordà y la cocina de pescado de Roses.",
+      "platos": [
+        "Vinos D.O. Empordà",
+        "Suquet de peix"
+      ],
+      "fuentes": []
+    },
+    {
+      "id": "pt-mafra",
+      "puntaje": 3,
+      "justificacion": "A 12 km, Ericeira es un pueblo de marisquerías y pescado, con un festival internacional del ouriço do mar, el erizo, en el que participan más de veinte restaurantes. En Mafra se comen el pão de Mafra, con su propio festival, y las queijadas.",
+      "platos": [
+        "Ouriço do mar (erizo) de Ericeira",
+        "Arroz de marisco",
+        "Pão de Mafra",
+        "Queijadas de Mafra"
+      ],
+      "fuentes": [
+        {
+          "guia": "Ericeira Mag",
+          "url": "https://www.ericeiramag.pt/en/sea-urchins-are-served-in-ericeira/"
+        },
+        {
+          "guia": "Time Out Lisboa (Festival do Ouriço do Mar)",
+          "url": "https://www.timeout.pt/lisboa/pt/restaurantes/festival-internacional-do-ourico-do-mar"
+        }
+      ]
+    },
+    {
+      "id": "pt-elvas",
+      "puntaje": 3,
+      "justificacion": "Es la ciudad de las ameixas d'Elvas DOP, ciruelas Rainha Cláudia Verde que se conservan en almíbar según una receta conventual y que se exportan desde el siglo XIX. Se sirven con la sericaia, un pastel alentejano. A eso se suma la cocina de porco preto del Alentejo.",
+      "platos": [
+        "Ameixas d'Elvas DOP",
+        "Sericaia com ameixas",
+        "Porco preto",
+        "Açorda alentejana"
+      ],
+      "fuentes": [
+        {
+          "guia": "DECO Proteste (DOP e IGP de fruta)",
+          "url": "https://www.deco.proteste.pt/alimentacao/alimentacao-saudavel/dicas/fruta-legumes-dop-igp-garantem-origem-produtos"
+        },
+        {
+          "guia": "Portugal.com",
+          "url": "https://www.portugal.com/food-drink/beyond-the-pastel-de-nata-9-best-portuguese-foods-that-are-still-under-the-radar/"
+        }
+      ]
+    },
+    {
+      "id": "pt-angra-do-heroismo",
+      "puntaje": 3,
+      "justificacion": "Terceira tiene su plato emblema, la alcatra: carne de vaca guisada horas en olla de barro con vino tinto, cebolla y especias, servida con massa sovada. La ligan a las fiestas del Espírito Santo y se encuentra en casi todos los restaurantes. También se prueban la tarta Dona Amélia y el vino de los Biscoitos.",
+      "platos": [
+        "Alcatra da Terceira",
+        "Massa sovada",
+        "Bolo Dona Amélia",
+        "Vino de los Biscoitos"
+      ],
+      "fuentes": [
+        {
+          "guia": "National Geographic",
+          "url": "https://www.nationalgeographic.com/travel/article/culinary-guide-azores-portugals-elemental-archipelago"
+        },
+        {
+          "guia": "Azores Getaways (qué comer en Terceira)",
+          "url": "https://azoresgetaways.com/destination/azores/islands/terceira/what-to-eat-terceira-island"
+        }
+      ]
+    },
+    {
+      "id": "pt-vale-do-coa",
+      "puntaje": 4,
+      "justificacion": "Foz Côa está en el Douro Superior, la subregión más interior de la D.O. Douro, donde está Quinta do Vale Meão, fundada en 1877 por Dona Antónia Ferreira. En la zona hay quintas que reciben visitas, como Vale Meão o Ervamoira, con reserva previa. A eso se suman el aceite y los almendros en flor.",
+      "platos": [
+        "Tintos del Douro Superior",
+        "Vino de Oporto",
+        "Aceite de oliva de Trás-os-Montes",
+        "Amêndoas cobertas"
+      ],
+      "fuentes": [
+        {
+          "guia": "¡HOLA! (Foz Côa y sus quintas)",
+          "url": "https://www.hola.com/us/lifestyle/20260801895777/secret-portuguese-town-world-heritage-almond-blossoms-vila-nova-de-foz-coa/"
+        },
+        {
+          "guia": "Fluxury Magazine (ruta del vino)",
+          "url": "https://www.fluxurymagazine.com/en/perfect-retreats-among-the-vineyards/"
+        },
+        {
+          "guia": "National Geographic",
+          "url": "https://www.nationalgeographic.com/travel/article/what-to-do-in-douro-valley-portugal"
+        }
+      ]
+    },
+    {
+      "id": "pt-arouca-516-paiva",
+      "puntaje": 3,
+      "justificacion": "Arouca da nombre a la raza bovina arouquesa, cuya carne es DOP desde 1994 y se come en vitela asada al horno o a la brasa. Conserva además una dulcería conventual del monasterio, con castanhas doces y barrigas de freira.",
+      "platos": [
+        "Vitela arouquesa assada",
+        "Castanhas doces de Arouca",
+        "Barrigas de freira"
+      ],
+      "fuentes": [
+        {
+          "guia": "Comisión Europea (eAmbrosia, registro DOP)",
+          "url": "https://webgate.ec.europa.eu/eambrosia-api/api/v1/attachments/71676"
+        },
+        {
+          "guia": "Wikipedia (raza arouquesa)",
+          "url": "https://en.wikipedia.org/wiki/Arouquesa"
+        }
+      ]
+    }
+  ],
+  "nuevos": [
+    {
+      "id": "es-priorat",
+      "nombre": "Priorat y Montsant (Gratallops, Porrera y Falset)",
+      "pais_iso": "ES",
+      "region": "Cataluña (Tarragona)",
+      "lat": 41.1458,
+      "lng": 0.8194,
+      "tipo": "region",
+      "puntaje": 5,
+      "justificacion": "Junto con Rioja, es una de las dos denominaciones de origen calificadas de España. Son tintos de garnacha y cariñena en laderas de llicorella, divididos en doce zonas de pueblo. Bodegas de Gratallops como Clos Mogador, Clos Figueras o Buil & Giné ofrecen visitas con cata, con cita previa, y la oferta enoturística la organizan juntas la DOQ Priorat y la D.O. Montsant. Está a unos 40 km de Tarragona.",
+      "platos": [
+        "Tinto DOQ Priorat (garnacha y cariñena)",
+        "Vinos D.O. Montsant",
+        "Aceite de oliva DOP Siurana",
+        "Avellanas de Reus"
+      ],
+      "fuentes": [
+        {
+          "guia": "Consell Regulador DOQ Priorat (dossier de prensa)",
+          "url": "https://www.doqpriorat.org/wp-content/uploads/2019/05/DOSSIERPREMSA-ENG.pdf"
+        },
+        {
+          "guia": "Costa Daurada (turismo oficial)",
+          "url": "https://costadaurada.info/en/taxonomy/term/181"
+        },
+        {
+          "guia": "Winetourism.com",
+          "url": "https://www.winetourism.com/es/tours-de-cata-de-vino-en-priorat/"
+        }
+      ]
+    },
+    {
+      "id": "es-penedes",
+      "nombre": "Penedès (Sant Sadurní d'Anoia y Vilafranca del Penedès)",
+      "pais_iso": "ES",
+      "region": "Cataluña (Barcelona)",
+      "lat": 41.4256,
+      "lng": 1.7865,
+      "tipo": "region",
+      "puntaje": 4,
+      "justificacion": "Sant Sadurní d'Anoia, la capital del cava, reúne unas 60 casas de cava, de pequeños elaboradores a Codorníu, Freixenet, Juvé & Camps o Raventós i Blanc. Varias abren sus cavas subterráneas, y en el pueblo está el Cava Centre. A 15 minutos, Vilafranca del Penedès tiene el Vinseum, reabierto en el Palau Reial, y es el centro de la D.O. Penedès, la tierra del xarel·lo. Se llega en tren desde Barcelona en unos 45 minutos.",
+      "platos": [
+        "Cava",
+        "Vino blanco de xarel·lo",
+        "Gall del Penedès",
+        "Xató"
+      ],
+      "fuentes": [
+        {
+          "guia": "Time Out (Sant Sadurní d'Anoia)",
+          "url": "https://www.timeout.es/barcelona/es/viaje/alt-penedes-un-dia-en-sant-sadurni-danoia"
+        },
+        {
+          "guia": "Diputació de Barcelona (Barcelona és molt més)",
+          "url": "https://www.barcelonaesmoltmes.cat/en/detallviatge/-/dades/3bd3LPr67IZT/detall/23_1_48/do-penedes"
+        },
+        {
+          "guia": "Catalan News (reapertura del Vinseum)",
+          "url": "https://www.catalannews.com/tag/wine%20museum"
+        },
+        {
+          "guia": "Ajuntament de Sant Sadurní (mapa turístico)",
+          "url": "https://santsadurni.cat/ARXIUS/turisme/ESP_Mapa_StSadurni_69X48_2025.pdf"
+        }
+      ]
+    }
+  ]
+}

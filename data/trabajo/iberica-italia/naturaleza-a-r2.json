@@ -1,0 +1,491 @@
+{
+  "agente": "naturaleza",
+  "subregion": "iberica-italia",
+  "ronda": 2,
+  "paises": [
+    "ES",
+    "PT",
+    "AD"
+  ],
+  "notas": "Ronda 2: se puntúan en naturaleza los 24 ids de ES/PT de data/lugares/europa.json que no figuraban en naturaleza-a.json (ronda 1), y se añaden los 7 lugares nuevos pedidos en cobertura.json (Cíes, Gran Canaria, Fuerteventura, Cabo de Gata, Bardenas Reales, Monfragüe y Benagil con los Sete Vales Suspensos). AD no tiene pendientes. Montserrat lo tiene que añadir cultura-historia: cuando exista su id, proponemos naturaleza 4 (Parque Natural de la Montaña de Montserrat).",
+  "puntajes": [
+    {
+      "id": "es-oviedo",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Ciudad con el monte Naranco a unos 3 km del centro; la costa central asturiana y la montaña quedan a 25–30 km. Picos de Europa está a más de 80 km.",
+      "actividad": "Subida a pie al monte Naranco (mirador del Sagrado Corazón) desde los monumentos prerrománicos",
+      "fuentes": []
+    },
+    {
+      "id": "es-zaragoza",
+      "puntaje": 1,
+      "unesco": false,
+      "justificacion": "Destino urbano; el verde se limita a las riberas del Ebro y al Parque Grande. Las Bardenas y el Moncayo quedan a más de 70 km.",
+      "actividad": "Paseo por las riberas del Ebro y el Parque Grande José Antonio Labordeta",
+      "fuentes": []
+    },
+    {
+      "id": "es-merida",
+      "puntaje": 1,
+      "unesco": false,
+      "justificacion": "Ciudad arqueológica junto al Guadiana, con poca naturaleza inmediata, salvo el embalse romano de Proserpina (a unos 5 km).",
+      "actividad": "Paseo fluvial por el Guadiana y baño en el embalse de Proserpina",
+      "fuentes": []
+    },
+    {
+      "id": "es-portaventura",
+      "puntaje": 1,
+      "unesco": false,
+      "justificacion": "Complejo de parques temáticos en zona turística; lo único natural cerca son las playas urbanas de Salou y La Pineda.",
+      "actividad": "Playa de Salou o Cap de Salou entre visitas al parque",
+      "fuentes": []
+    },
+    {
+      "id": "es-el-puerto-de-santa-maria",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Playas atlánticas (La Puntilla, Valdelagrana) y marismas del Parque Natural Bahía de Cádiz; Doñana queda a unos 25 km por Sanlúcar.",
+      "actividad": "Paseo por las marismas de Los Toruños, en el Parque Natural Bahía de Cádiz",
+      "fuentes": []
+    },
+    {
+      "id": "es-getaria",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "Pueblo costero con el monte San Antón (el 'ratón de Getaria') sobre el mar, a unos 6 km de Zumaia, donde empieza el flysch del Geoparque Mundial UNESCO de la Costa Vasca (unos 13 km de acantilados con unos 60 millones de años de registro geológico).",
+      "actividad": "Ruta del Flysch: tramo costero Zumaia–Deba por el GR-121 (unos 14 km) o salida en barco por los acantilados; subida al ratón de Getaria",
+      "fuentes": [
+        {
+          "guia": "Turismo Euskadi (oficial)",
+          "url": "https://turismo.euskadi.eus/es/top-viajes/la-ruta-del-flysch/webtur00-exptop/es/"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-day-trips-from-san-sebastian"
+        }
+      ]
+    },
+    {
+      "id": "es-tarragona",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Ciudad con playas urbanas (El Miracle, L'Arrabassada) y calas de la Costa Daurada al norte; el Delta del Ebro está a unos 80 km.",
+      "actividad": "Camí de Ronda de Tarragona hasta la playa de la Savinosa y la Punta de la Móra",
+      "fuentes": []
+    },
+    {
+      "id": "es-antequera",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "A unos 15 km está El Torcal, el primer espacio protegido de Andalucía (1929) y hoy Paraje Natural: un karst de rocas calizas apiladas con cabras monteses. Con la Peña de los Enamorados forma parte del bien UNESCO de los Dólmenes de Antequera. El Caminito del Rey queda a unos 25 km.",
+      "actividad": "Ruta Verde del Torcal Alto desde el Centro de Visitantes (circular corta, unos 3 km)",
+      "fuentes": [
+        {
+          "guia": "Spain.info (turismo oficial de España)",
+          "url": "https://www.spain.info/es/naturaleza/paraje-natural-torcal-antequera/"
+        },
+        {
+          "guia": "Junta de Andalucía (ficha del sendero)",
+          "url": "https://juntadeandalucia.es/medioambiente/portal/documents/20151/0bd76081-762d-1eb0-c723-3f18f496183a"
+        },
+        {
+          "guia": "UNESCO",
+          "url": "https://whc.unesco.org/en/list/1501"
+        }
+      ]
+    },
+    {
+      "id": "es-parque-warner",
+      "puntaje": 0,
+      "unesco": false,
+      "justificacion": "Parque temático en San Martín de la Vega, sin naturaleza relevante (las vegas del Jarama son lo único verde cerca).",
+      "actividad": "Ninguna actividad de naturaleza destacable",
+      "fuentes": []
+    },
+    {
+      "id": "es-rias-baixas",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "Rías de Arousa y Pontevedra con arenales como A Lanzada y frente a Ons y Sálvora, dos de los cuatro archipiélagos del Parque Nacional Marítimo-Terrestre de las Islas Atlánticas de Galicia.",
+      "actividad": "Barco a la isla de Ons y sendero al faro; paseo por el istmo y la playa de A Lanzada (O Grove–Sanxenxo)",
+      "fuentes": [
+        {
+          "guia": "Spain.info (turismo oficial de España)",
+          "url": "https://www.spain.info/es/naturaleza/parque-nacional-maritimo-terrestre-islas-atlanticas-galicia/"
+        }
+      ]
+    },
+    {
+      "id": "es-ribera-del-duero",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Paisaje de viñedo y páramo en la vega del Duero; las Hoces del Riaza, con su colonia de buitres, quedan a unos 40 km de Aranda.",
+      "actividad": "Paseo entre viñedos y excursión a las Hoces del río Riaza (Montejo de la Vega)",
+      "fuentes": []
+    },
+    {
+      "id": "es-alcala-de-henares",
+      "puntaje": 1,
+      "unesco": false,
+      "justificacion": "Destino urbano; los Cerros de Alcalá y la ribera del Henares son su único entorno natural.",
+      "actividad": "Paseo por la ribera del Henares y los Cerros",
+      "fuentes": []
+    },
+    {
+      "id": "es-aranjuez",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Paisaje cultural de jardines y sotos en la confluencia del Tajo y el Jarama; naturaleza domesticada, agradable pero secundaria.",
+      "actividad": "Paseo por el Jardín del Príncipe y los sotos junto al Tajo",
+      "fuentes": []
+    },
+    {
+      "id": "es-caminito-del-rey",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "Pasarela de 1905 colgada a unos 100 m sobre el desfiladero de los Gaitanes, en el Paraje Natural del Desfiladero de los Gaitanes: paredes calizas verticales, el río Guadalhorce y buitres leonados. Es naturaleza espectacular y de fácil acceso, aunque con cupo y reserva.",
+      "actividad": "Recorrido lineal Ardales–El Chorro, unos 7,7 km en un solo sentido (de los cuales unos 4,8 km de pasarelas)",
+      "fuentes": [
+        {
+          "guia": "Caminito del Rey (oficial)",
+          "url": "https://www.caminitodelrey.info/"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-hikes-in-andalucia"
+        }
+      ]
+    },
+    {
+      "id": "es-terra-mitica",
+      "puntaje": 1,
+      "unesco": false,
+      "justificacion": "Parque temático en Benidorm; la Serra Gelada es la naturaleza más cercana (a unos 8 km).",
+      "actividad": "Ruta por la Serra Gelada hasta el faro de l'Albir",
+      "fuentes": []
+    },
+    {
+      "id": "es-baqueira-beret",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "Alta montaña del Val d'Aran, en la vertiente atlántica del Pirineo, con circos glaciares y lagos; el Parque Nacional d'Aigüestortes queda a unos 14 km. En invierno es la gran estación de esquí de España.",
+      "actividad": "En verano, circuito de los lagos de Colomèrs desde los Banhs de Tredòs o entrada a Aigüestortes; en invierno, esquí y freeride",
+      "fuentes": [
+        {
+          "guia": "Baqueira Beret (oficial)",
+          "url": "https://www.baqueira.es/"
+        },
+        {
+          "guia": "MITECO (Aigüestortes, accesos)",
+          "url": "https://www.miteco.gob.es/es/parques-nacionales-oapn/red-parques-nacionales/parques-nacionales/aiguestortes/guia-visitante/accesos.html"
+        }
+      ]
+    },
+    {
+      "id": "es-las-medulas",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "Paisaje cultural Patrimonio Mundial: picachos de arcilla roja entre castañares, fruto de la minería romana de oro (ruina montium). El incendio de agosto de 2025 quemó gran parte del entorno; el mirador de Orellán ya está reconstruido, pero hay que confirmar qué sendas siguen abiertas.",
+      "actividad": "Mirador de Orellán y Senda de las Valiñas desde el pueblo de Las Médulas (unos 4 km)",
+      "fuentes": [
+        {
+          "guia": "UNESCO",
+          "url": "https://whc.unesco.org/en/list/803"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/points-of-interest/las-medulas-gold-mines/1528752"
+        },
+        {
+          "guia": "El Debate (reconstrucción de Orellán)",
+          "url": "https://www.eldebate.com/espana/castilla-y-leon/20251121/finaliza-reconstruccion-mirador-orellan-medulas-incendio-pasado-verano_357724.html"
+        }
+      ]
+    },
+    {
+      "id": "es-skydive-empuriabrava",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "La zona de salto linda con el Parc Natural dels Aiguamolls de l'Empordà (4.730 ha de marismas en la bahía de Roses, con más de 320 especies de aves inventariadas). El Cap de Creus queda a unos 20 km.",
+      "actividad": "Itinerarios y observatorios de aves desde el centro de El Cortalet (Castelló d'Empúries)",
+      "fuentes": [
+        {
+          "guia": "Spain.info (turismo oficial de España)",
+          "url": "https://www.spain.info/es/naturaleza/parque-natural-aiguamolls-emporda/"
+        }
+      ]
+    },
+    {
+      "id": "pt-arouca-516-paiva",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "Dentro del Geoparque Mundial UNESCO de Arouca (328 km², en la red desde 2009): garganta granítica del río Paiva, con aguas bravas, playas fluviales y cinco geositios a lo largo de las pasarelas. Los Passadiços cierran preventivamente con riesgo de incendio en verano.",
+      "actividad": "Passadiços do Paiva, unos 8,7 km lineales entre Areinho y Espiunca (unas 2 h 30), y cruce del puente 516 Arouca",
+      "fuentes": [
+        {
+          "guia": "Passadiços do Paiva (oficial)",
+          "url": "https://passadicosdopaiva.pt/en"
+        },
+        {
+          "guia": "516 Arouca (oficial)",
+          "url": "https://516arouca.pt/"
+        },
+        {
+          "guia": "Rough Guides",
+          "url": "https://www.roughguides.com/portugal/best-hikes/"
+        }
+      ]
+    },
+    {
+      "id": "pt-vale-do-coa",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "Cañón del Côa entre esquistos y viñedos del Douro Superior. A unos 17 km está la reserva de Faia Brava (unas 850 ha), zona piloto de Rewilding Europe con caballos garranos, buitres, alimoches y cigüeña negra. El Parque Natural do Douro Internacional (868 km²) queda a unos 30 km.",
+      "actividad": "Visita en 4x4 a los núcleos de grabados por el cañón y observación de aves en Faia Brava",
+      "fuentes": [
+        {
+          "guia": "Turismo Centro de Portugal",
+          "url": "https://centerofportugal.com/article/faia-brava-natural-reserve-2"
+        },
+        {
+          "guia": "Rewilding Europe",
+          "url": "https://rewildingeurope.com/blog/western-iberia-ii-faia-brava-portugal"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/points-of-interest/parque-arqueologico-do-vale-do-coa/1374764"
+        }
+      ]
+    },
+    {
+      "id": "pt-mafra",
+      "puntaje": 3,
+      "unesco": true,
+      "justificacion": "La Tapada Nacional de Mafra, antiguo coto real amurallado incluido en el bien UNESCO del Real Edificio, tiene más de 800 ha de bosque con ciervos, gamos y jabalíes en libertad. La costa de surf de Ericeira queda a unos 12 km.",
+      "actividad": "Sendero de unos 4,8 km por la Tapada (hay rutas de 7–9 km para ver más fauna)",
+      "fuentes": [
+        {
+          "guia": "Visit Lisboa (turismo oficial)",
+          "url": "https://www.visitlisboa.com/es/sitios/tapada-nacional-de-mafra"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/portugal/mafra/attractions/tapada-nacional-de-mafra/a/poi-sig/1117733/1294644"
+        }
+      ]
+    },
+    {
+      "id": "pt-elvas",
+      "puntaje": 1,
+      "unesco": false,
+      "justificacion": "Ciudad fortificada en la llanura alentejana; poca naturaleza relevante cerca, salvo el Guadiana.",
+      "actividad": "Paseo por el acueducto de Amoreira entre olivares",
+      "fuentes": []
+    },
+    {
+      "id": "pt-angra-do-heroismo",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "La ciudad se apoya en el cráter del Monte Brasil. A unos 13 km está el Algar do Carvão, monumento natural regional de unas 40 ha donde se baja por el interior de una antigua chimenea volcánica hasta una laguna. Terceira suma la Gruta do Natal y las fumarolas de Furnas do Enxofre.",
+      "actividad": "Sendero circular del Monte Brasil y descenso al Algar do Carvão (unos 45–60 min)",
+      "fuentes": [
+        {
+          "guia": "DGEG – Roteiro das Minas (geositio oficial)",
+          "url": "https://roteirodasminas.dgeg.gov.pt/en/lista-de-pontos/algar-do-carvao-geosite-en/"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-the-azores"
+        },
+        {
+          "guia": "Azores Getaways",
+          "url": "https://azoresgetaways.com/en-gb/destination/azores/terceira/algar-do-carvao"
+        }
+      ]
+    },
+    {
+      "id": "pt-amarante",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Pueblo a orillas del Tâmega, con las sierras del Marão y la Aboboreira a menos de 20 km.",
+      "actividad": "Paseo por la ribera del Tâmega y excursión a la Serra do Marão",
+      "fuentes": []
+    }
+  ],
+  "nuevos": [
+    {
+      "id": "es-islas-cies",
+      "nombre": "Islas Cíes (Parque Nacional de las Islas Atlánticas de Galicia)",
+      "pais_iso": "ES",
+      "region": "Galicia (Pontevedra)",
+      "lat": 42.2236,
+      "lng": -8.904,
+      "tipo": "isla",
+      "puntaje": 5,
+      "unesco": false,
+      "justificacion": "Es el gran atractivo del Parque Nacional Marítimo-Terrestre de las Islas Atlánticas de Galicia, también sitio Ramsar. La playa de Rodas, de arena blanca y agua turquesa, une dos de las islas, y The Guardian la eligió mejor playa del mundo. Desde Semana Santa a mediados de septiembre hace falta una autorización previa y gratuita de la Xunta, con un cupo de unas 1.800 personas al día, y después billete de barco desde Vigo, Cangas, Baiona o Sanxenxo.",
+      "actividad": "Baño en Rodas y sendero al Monte Faro (unos 7 km i/v); observatorio de aves de la Pedra da Campá",
+      "fuentes": [
+        {
+          "guia": "Spain.info (turismo oficial de España)",
+          "url": "https://www.spain.info/es/naturaleza/parque-nacional-maritimo-terrestre-islas-atlanticas-galicia/"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/spain/rias-baixas/attractions/parque-nacional-de-las-islas-atlanticas-de-galicia/a/poi-sig/1132175/1321044"
+        },
+        {
+          "guia": "Ramsar (ficha del sitio)",
+          "url": "https://rsis.ramsar.org/ris/2453"
+        },
+        {
+          "guia": "Direct Ferries (guía de acceso y autorización)",
+          "url": "https://www.directferries.es/blog/viajar-a-islas-cies"
+        }
+      ]
+    },
+    {
+      "id": "es-gran-canaria",
+      "nombre": "Gran Canaria (Roque Nublo y dunas de Maspalomas)",
+      "pais_iso": "ES",
+      "region": "Canarias",
+      "lat": 27.9708,
+      "lng": -15.6128,
+      "tipo": "isla",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "Isla Reserva de la Biosfera con dos paisajes de referencia. En las cumbres está el Parque Rural del Nublo, con el monolito volcánico del Roque Nublo (unos 80 m), dentro del paisaje cultural UNESCO Risco Caído y Montañas Sagradas. En la costa sur, la Reserva Natural Especial de las Dunas de Maspalomas reúne unas 400 ha de dunas, palmeral y la laguna de La Charca. La parte urbana es Las Palmas, con su barrio de Vegueta.",
+      "actividad": "Sendero al Roque Nublo desde la Degollada de la Becerra (unos 5 km i/v); paseo por las dunas de Maspalomas por los senderos señalizados",
+      "fuentes": [
+        {
+          "guia": "Hello Canary Islands (turismo oficial de Canarias)",
+          "url": "https://www.hellocanaryislands.com/nature-spaces/gran-canaria/nublo-rural-park/"
+        },
+        {
+          "guia": "Hello Canary Islands (turismo oficial de Canarias)",
+          "url": "https://www.hellocanaryislands.com/nature-areas/gran-canaria/maspalomas-dunes-nature-reserve/"
+        },
+        {
+          "guia": "UNESCO",
+          "url": "https://whc.unesco.org/en/list/1578"
+        }
+      ]
+    },
+    {
+      "id": "es-fuerteventura",
+      "nombre": "Fuerteventura (dunas de Corralejo y Jandía)",
+      "pais_iso": "ES",
+      "region": "Canarias",
+      "lat": 28.69,
+      "lng": -13.839,
+      "tipo": "isla",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "Isla Reserva de la Biosfera (2009). Al norte, el Parque Natural de las Dunas de Corralejo (unas 2.669 ha de arena blanca hasta la Montaña Roja) da frente a la isla de Lobos. Al sur, el Parque Natural de Jandía guarda la playa salvaje de Cofete. Por los alisios es destino de primer nivel para kite y windsurf.",
+      "actividad": "Paseo por las dunas de Corralejo (solo por senderos señalizados); pista sin asfaltar a la playa de Cofete; kite o windsurf en Sotavento",
+      "fuentes": [
+        {
+          "guia": "Spain.info (turismo oficial de España)",
+          "url": "https://spain.info/en/nature/dunas-corralejo-natural-park"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/spain/corralejo/attractions/parque-natural-de-corralejo/a/poi-sig/1462752/355117"
+        }
+      ]
+    },
+    {
+      "id": "es-cabo-de-gata",
+      "nombre": "Parque Natural Cabo de Gata-Níjar",
+      "pais_iso": "ES",
+      "region": "Andalucía (Almería)",
+      "lat": 36.765,
+      "lng": -2.106,
+      "tipo": "parque",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "Es la costa volcánica más salvaje del Mediterráneo español: unas 49.500 ha con acantilados, calas y playas vírgenes como Los Genoveses y Mónsul. Fue el primer parque natural marítimo-terrestre de Andalucía, y es Reserva de la Biosfera (1997), Geoparque Mundial UNESCO y humedal Ramsar, con flamencos en las salinas. Es el primer lugar de la provincia de Almería en la lista.",
+      "actividad": "A pie por la costa desde San José hasta Los Genoveses y Mónsul; flamencos en las salinas de Cabo de Gata; snorkel sobre posidonia",
+      "fuentes": [
+        {
+          "guia": "Spain.info (turismo oficial de España)",
+          "url": "https://www.spain.info/es/naturaleza/parque-natural-cabo-gata-nijar/"
+        },
+        {
+          "guia": "Spain.info (turismo oficial de España)",
+          "url": "https://www.spain.info/es/actividades/excursion-parque-natural-cabo-gata/"
+        }
+      ]
+    },
+    {
+      "id": "es-bardenas-reales",
+      "nombre": "Parque Natural de las Bardenas Reales",
+      "pais_iso": "ES",
+      "region": "Navarra",
+      "lat": 42.203,
+      "lng": -1.521,
+      "tipo": "parque",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "Paisaje semidesértico de cárcavas, cabezos y mesetas de arcilla y yeso, de unas 41.845 ha en el sureste de Navarra. Es parque natural desde 1999 y Reserva de la Biosfera de la UNESCO desde 2000. Su imagen es el Cabezo de Castildetierra, en la Bardena Blanca. Es el primer lugar de Navarra en la lista.",
+      "actividad": "Circuito por la Bardena Blanca hasta Castildetierra en coche, bici o a pie por las pistas autorizadas, desde el centro de información de Arguedas; el polígono de tiro militar es zona vedada",
+      "fuentes": [
+        {
+          "guia": "Spain.info (turismo oficial de España)",
+          "url": "https://www.spain.info/es/naturaleza/parque-natural-bardenas-reales/"
+        },
+        {
+          "guia": "Comunidad de Bardenas Reales (guía oficial)",
+          "url": "https://bardenasreales.es/wp-content/uploads/2022/09/GUIA-ESPANOL-2014.pdf"
+        }
+      ]
+    },
+    {
+      "id": "es-monfrague",
+      "nombre": "Parque Nacional de Monfragüe",
+      "pais_iso": "ES",
+      "region": "Extremadura (Cáceres)",
+      "lat": 39.8467,
+      "lng": -6.0306,
+      "tipo": "parque",
+      "puntaje": 5,
+      "unesco": false,
+      "justificacion": "Es uno de los grandes santuarios de rapaces de Europa: monte mediterráneo y roquedos sobre el Tajo y el Tiétar, con la mayor colonia de buitre negro del continente, águila imperial y cigüeña negra. Es Reserva de la Biosfera. Desde el mirador del Salto del Gitano, un farallón de unos 300 m, se ven los buitres a pocos metros.",
+      "actividad": "Ruta Roja de Villarreal de San Carlos al castillo de Monfragüe y al Salto del Gitano (unos 8 km lineales); observación de aves desde los miradores",
+      "fuentes": [
+        {
+          "guia": "Spain.info (turismo oficial de España)",
+          "url": "https://www.spain.info/es/naturaleza/parque-nacional-monfrague/"
+        }
+      ]
+    },
+    {
+      "id": "pt-benagil-sete-vales",
+      "nombre": "Gruta de Benagil y Percurso dos Sete Vales Suspensos",
+      "pais_iso": "PT",
+      "region": "Algarve (Lagoa)",
+      "lat": 37.0874,
+      "lng": -8.4262,
+      "tipo": "costa",
+      "puntaje": 5,
+      "unesco": false,
+      "justificacion": "Es la imagen más icónica del Algarve: una gruta marina con cúpula abierta al cielo y playa interior, entre acantilados dorados de caliza. El sendero de los Sete Vales Suspensos recorre la cima de los acantilados entre Praia da Marinha y Vale Centeanes. Es el primer lugar del Algarve central (Lagoa/Carvoeiro) en la lista. Desde agosto de 2024 está prohibido desembarcar en la playa de la gruta y entrar a nado, y los kayaks solo entran con visita guiada.",
+      "actividad": "Sendero de los Sete Vales Suspensos, unos 6 km lineales (2 h 30–3 h por sentido) con vista a la abertura de la gruta; visita a la gruta en barco o kayak guiado desde Benagil",
+      "fuentes": [
+        {
+          "guia": "Portugal Getaways (normativa de visita)",
+          "url": "https://portugalgetaways.com/destination/algarve/general-articles/benagil-cave"
+        },
+        {
+          "guia": "Novo-Monde (guía del sendero)",
+          "url": "https://www.novo-monde.com/en/hike-seven-hanging-valley-trail/"
+        },
+        {
+          "guia": "A Ticket to Take Off (guía del sendero)",
+          "url": "https://atickettotakeoff.com/en/algarve-seven-hanging-valleys-trail/"
+        }
+      ]
+    }
+  ]
+}
