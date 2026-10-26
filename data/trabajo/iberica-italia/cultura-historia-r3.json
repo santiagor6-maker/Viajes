@@ -1,0 +1,201 @@
+{
+  "agente": "cultura-historia",
+  "subregion": "iberica-italia",
+  "ronda": 3,
+  "puntajes": [
+    {
+      "id": "es-sierra-de-guara-alquezar",
+      "puntaje": 3,
+      "unesco": true,
+      "justificacion": "Alquézar es Conjunto Histórico-Artístico y su colegiata de Santa María la Mayor, levantada sobre un castillo de origen islámico, es Monumento Nacional y conserva un claustro con capiteles románicos. En el Parque Cultural del Río Vero hay más de sesenta abrigos con pintura rupestre que forman parte del Patrimonio Mundial del Arco Mediterráneo, con visitas guiadas desde Colungo.",
+      "fuentes": [
+        { "guia": "Spain.info (Turespaña)", "url": "https://www.spain.info/es/destino/alquezar/" },
+        { "guia": "Turismo de Aragón (oficial)", "url": "https://www.turismodearagon.com/ficha/alquezar/" },
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/874" }
+      ]
+    },
+    {
+      "id": "es-noguera-pallaresa-sort",
+      "puntaje": 1,
+      "unesco": false,
+      "justificacion": "Es un destino de rafting. En lo cultural solo hay algunas iglesias románicas de montaña en el Pallars Sobirà y el pequeño casco de Sort, sin monumentos de primer orden.",
+      "fuentes": []
+    },
+    {
+      "id": "es-priorat",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "La Cartoixa d'Escaladei (siglo XII) fue la primera cartuja de la península ibérica, y se visitan sus claustros, el refectorio y una celda reconstruida. Se suman el pueblo colgado de Siurana y las cooperativas modernistas de Falset; el paisaje Priorat-Montsant-Siurana es candidato a Patrimonio Mundial como paisaje agrícola cultural.",
+      "fuentes": [
+        { "guia": "Patrimoni Cultural (Generalitat de Catalunya)", "url": "https://patrimoni.gencat.cat/en/node/8019" },
+        { "guia": "Turisme Priorat (oficial)", "url": "https://www.turismepriorat.org/en/node/1136" }
+      ]
+    },
+    {
+      "id": "es-penedes",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "Las cavas modernistas de Sant Sadurní d'Anoia, como las de Codorníu de Puig i Cadafalch, muestran el patrimonio del cava. En Vilafranca del Penedès están el Vinseum (museo de las culturas del vino de Cataluña) y una de las grandes plazas castelleras; los castells son patrimonio inmaterial de la UNESCO.",
+      "fuentes": [
+        { "guia": "Catalan News (reapertura del Vinseum)", "url": "https://www.catalannews.com/tag/wine%20museum" },
+        { "guia": "Ajuntament de Sant Sadurní (mapa turístico)", "url": "https://santsadurni.cat/ARXIUS/turisme/ESP_Mapa_StSadurni_69X48_2025.pdf" }
+      ]
+    },
+    {
+      "id": "es-islas-cies",
+      "puntaje": 1,
+      "unesco": false,
+      "justificacion": "Parque nacional de interés sobre todo natural. Solo quedan las ruinas del antiguo monasterio de San Estevo, restos de un castro y los faros.",
+      "fuentes": []
+    },
+    {
+      "id": "es-gran-canaria",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "El paisaje cultural de Risco Caído y las Montañas Sagradas, en torno al Roque Nublo, es Patrimonio Mundial desde 2019. Tiene graneros y cuevas trogloditas de los antiguos canarios, que sirvieron como marcadores astronómicos. En la isla están además el barrio de Vegueta y la Casa de Colón en Las Palmas, y la Cueva Pintada de Gáldar.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/1578" }
+      ]
+    },
+    {
+      "id": "es-fuerteventura",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Betancuria fue la primera capital de Canarias (1404) y conserva la iglesia de Santa María. La montaña de Tindaya, sagrada para los majos, tiene grabados podomorfos; aun así, el destino es sobre todo de playas y dunas.",
+      "fuentes": []
+    },
+    {
+      "id": "es-cabo-de-gata",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Tiene el poblado minero de oro de Rodalquilar, el Cortijo del Fraile (que inspiró Bodas de sangre de Lorca), el castillo de San Felipe en Los Escullos y la alfarería de Níjar. El interés principal es natural.",
+      "fuentes": []
+    },
+    {
+      "id": "es-bardenas-reales",
+      "puntaje": 1,
+      "unesco": false,
+      "justificacion": "Paisaje semidesértico conocido por los rodajes de cine y series. Su único rasgo cultural propio es la gestión comunal de origen medieval de los pueblos congozantes; Tudela, cercana, ya queda fuera del parque.",
+      "fuentes": []
+    },
+    {
+      "id": "es-monfrague",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Tiene el castillo de origen andalusí con la ermita de la Virgen de Monfragüe, que se usa como mirador, y abrigos con pinturas rupestres esquemáticas en la sierra. El parque es sobre todo de aves.",
+      "fuentes": []
+    },
+    {
+      "id": "pt-benagil-sete-vales",
+      "puntaje": 1,
+      "unesco": false,
+      "justificacion": "Gruta y sendero de acantilados con interés casi solo natural. Lo único cultural es la arquitectura de las aldeas de pescadores de Benagil y Carvoeiro.",
+      "fuentes": []
+    },
+    {
+      "id": "it-finale-ligure",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "Finalborgo es uno de los Borghi più belli d'Italia: un pueblo amurallado de los marqueses Del Carretto, al que se entra por Porta Testa y Porta Reale, con Castel Gavone (siglo XII) en la colina. En el complejo de Santa Caterina, con dos claustros del siglo XV, está el Museo Archeologico del Finale, con restos del Paleolítico de las cuevas de la zona.",
+      "fuentes": [
+        { "guia": "MuDi Finale (oficial)", "url": "https://www.mudifinale.com/en/?p=6366" },
+        { "guia": "MuDi Finale (Castel Gavone)", "url": "https://mudifinale.com/en/?p=5831" },
+        { "guia": "Italia.it (ENIT)", "url": "https://www.italia.it/fr/ligurie/finale-ligure/musees/musee-archeologique-de-finale" }
+      ]
+    },
+    {
+      "id": "it-portofino-san-fruttuoso",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "La abadía benedictina de San Fruttuoso (siglo X) está en una cala a la que solo se llega por mar o a pie. Fue el panteón de los Doria, tiene una torre de vigía de los herederos de Andrea Doria y es propiedad del FAI desde 1983. Se suman Portofino, con el Castello Brown, y el Cristo degli Abissi sumergido en la bahía.",
+      "fuentes": [
+        { "guia": "FAI (Fondo per l'Ambiente Italiano)", "url": "https://fondoambiente.it/luoghi/abbazia-di-san-fruttuoso" },
+        { "guia": "Ministero della Cultura", "url": "https://cultura.gov.it/luogo/abbazia-di-san-fruttuoso" }
+      ]
+    },
+    {
+      "id": "it-isla-de-elba",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "Napoleón vivió exiliado en la isla en 1814-1815, y se visitan sus residencias de la Palazzina dei Mulini y la Villa di San Martino. Portoferraio conserva las fortificaciones mediceas de Cosmopoli, y la isla tiene una larga historia minera del hierro desde los etruscos.",
+      "fuentes": [
+        { "guia": "Visit Tuscany (turismo oficial)", "url": "https://www.visittuscany.com/it/itinerari/tre-giorni-allisola-delba-tra-mare-trekking-e-storia/" }
+      ]
+    },
+    {
+      "id": "it-zingaro-san-vito-lo-capo",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Tiene la tonnara de Scopello y su pequeño borgo, la Grotta dell'Uzzo con restos prehistóricos y, en San Vito, el santuario fortificado. El atractivo principal es la costa protegida.",
+      "fuentes": []
+    },
+    {
+      "id": "it-islas-egadi",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "En Levanzo, la Grotta del Genovese conserva incisiones de animales del Paleolítico superior y pinturas neolíticas, entre el arte prehistórico más importante de Italia; se visita con guía. En Favignana, el antiguo Stabilimento Florio, la gran almadraba del siglo XIX, es hoy museo, con hallazgos arqueológicos de la batalla de las Egadi (241 a. C.).",
+      "fuentes": [
+        { "guia": "Italics (Grotta del Genovese)", "url": "https://italics.art/en/?p=11087" },
+        { "guia": "Balarm", "url": "https://www.balarm.it/news/il-segreto-di-levanzo-che-pochi-conoscono-qui-c-e-una-delle-grotte-piu-antiche-d-italia-138206" },
+        { "guia": "FAI (Isola di Levanzo)", "url": "https://fondoambiente.it/luoghi/isola-di-levanzo" }
+      ]
+    },
+    {
+      "id": "it-gran-sasso-campo-imperatore",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "Rocca Calascio es un castillo-atalaya a unos 1.460 m, de los más altos de los Apeninos. Santo Stefano di Sessanio es un borgo medieval de los Medici con su torre, y el hotel de Campo Imperatore fue la prisión de Mussolini en 1943.",
+      "fuentes": [
+        { "guia": "Finestre sull'Arte", "url": "https://www.finestresullarte.info/viaggi/parco-del-gran-sasso-cosa-vedere-10-luoghi" },
+        { "guia": "Moveo (Telepass)", "url": "https://moveo.telepass.com/campo-imperatore-cosa-vedere/" }
+      ]
+    },
+    {
+      "id": "it-monti-sibillini-castelluccio",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Castelluccio y Norcia, cuna de san Benito, sufrieron graves daños en el terremoto de 2016 y la basílica de San Benedetto sigue en reconstrucción. Hoy el valor es sobre todo paisajístico, con la fioritura y las leyendas de la Sibila.",
+      "fuentes": []
+    },
+    {
+      "id": "it-riviera-del-conero",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Tiene la iglesia románica de Santa Maria di Portonovo (siglo XI), los cascos de Sirolo y Numana, y en Numana un antiquarium con ajuares picenos. Ancona queda a 15 km.",
+      "fuentes": []
+    },
+    {
+      "id": "it-alghero-capo-caccia",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "Alghero conserva gran parte de sus murallas y torres catalano-aragonesas sobre el mar, la catedral de Santa Maria, la iglesia gótico-catalana de San Francesco y el uso vivo del catalán, de ahí su apodo de \"pequeña Barcelona\". Cerca están el nuraghe de Palmavera y la necrópolis de Anghelu Ruju.",
+      "fuentes": [
+        { "guia": "Sardegna Turismo (oficial)", "url": "https://www.sardegnaturismo.it/it/luoghi/nord-ovest/alghero" }
+      ]
+    },
+    {
+      "id": "it-polignano-a-mare",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Tiene un casco blanco sobre el acantilado con el Arco Marchesale y el Museo Pino Pascali. Duplica it-polignano-monopoli (3 con Monopoli); por sí sola tiene interés cultural moderado.",
+      "fuentes": []
+    },
+    {
+      "id": "it-lago-de-iseo-monte-isola",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Tiene el santuario de la Ceriola en Monte Isola, los frescos de Romanino en Santa Maria della Neve de Pisogne y la Accademia Tadini de Lovere. El arte rupestre de Valcamonica, Patrimonio Mundial, queda fuera del lago.",
+      "fuentes": []
+    },
+    {
+      "id": "it-lago-de-orta",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "El Sacro Monte de Orta, con 20 capillas dedicadas a san Francisco, forma parte del sitio Patrimonio Mundial de los Sacri Monti de Piamonte y Lombardía. La isla de San Giulio guarda una basílica románica con un ambón de piedra del siglo XII, y Orta San Giulio tiene un casco histórico intacto.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/1068/" }
+      ]
+    }
+  ],
+  "nuevos": []
+}
