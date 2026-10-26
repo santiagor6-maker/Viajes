@@ -1,8 +1,8 @@
 {
   "pausado": false,
   "subregion": "iberica-italia",
-  "paso": "curador",
-  "ronda": 2,
+  "paso": "revisor",
+  "ronda": 1,
   "orden_subregiones": [
     "iberica-italia",
     "francia-alpes",
@@ -12,7 +12,7 @@
     "este-caucaso-turquia"
   ],
   "terminadas": [],
-  "notas": "Ronda 2: hacer logística SOLO de los ids nuevos de los archivos *-r2.json (los demás ya la tienen), luego curador (re-ejecutar scripts/curar.mjs, fusionar duplicados como Polignano y Torre Montale+Cesta), luego revisor. No recortar países por superar 30.",
+  "notas": "Revisor ronda 1 sobre iberica-italia (249 lugares). Agentes con nota <9.5 se re-ejecutan con comentarios (max 3 rondas). No recortar países por superar 30.",
   "historial": [
     {
       "fecha": "2026-10-26",
@@ -55,6 +55,12 @@
       "subregion": "iberica-italia",
       "paso": "logistica",
       "resultado": "Ronda 2: logística de 54 lugares nuevos + cruce r3 (cultura, naturaleza, gastronomía, adrenalina). Interrumpido por límite de uso del usuario y retomado."
+    },
+    {
+      "fecha": "2026-10-26",
+      "subregion": "iberica-italia",
+      "paso": "curador",
+      "resultado": "Ronda 2: 249 lugares (ES 83, PT 43, IT 91, MT 16, AD 6, SM 4, VA 6); 9 fusiones; validador sin errores; republicado"
     }
   ]
 }

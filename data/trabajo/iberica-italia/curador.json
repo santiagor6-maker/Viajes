@@ -26,6 +26,18 @@
     [
       "ad-grandvalira-pas-de-la-casa",
       "ad-estanys-de-juclar"
+    ],
+    [
+      "it-polignano-monopoli",
+      "it-polignano-a-mare"
+    ],
+    [
+      "sm-torre-cesta",
+      "sm-torre-montale"
+    ],
+    [
+      "it-orvieto",
+      "it-civita-di-bagnoregio"
     ]
   ],
   "descartados": [
@@ -36,12 +48,12 @@
     }
   ],
   "conteo_por_pais": {
-    "ES": 62,
-    "PT": 38,
-    "IT": 65,
+    "ES": 83,
+    "PT": 43,
+    "IT": 91,
     "MT": 16,
     "AD": 6,
-    "SM": 5,
+    "SM": 4,
     "VA": 6
   }
 }

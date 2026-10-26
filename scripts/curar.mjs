@@ -14,8 +14,12 @@
 //   "no_playa":   ["<id>"],      // quita la playa deducida de tipo costa/playa
 //   "ciudad":     ["<id>"],      // añade ciudad
 //   "no_ciudad":  ["<id>"],
-//   "por_que":    { "<id>": "2–3 frases en español" }
+//   "por_que":    { "<id>": "2–3 frases en español" },
+//   "quitar":     ["<id>"]       // ids que no se publican (además, nunca se publica un id sin nombre,
+//                                 // coordenadas, país o logística: p. ej. uno que solo aparece en puntajes)
 // }
+// Se ignoran los archivos que no son salida de agente (arrays o JSON sin "agente", p. ej. pendientes-*.json).
+// Opciones: --seco (no escribe), --volcar <ruta> (escribe la lista de lugares de la subregión en <ruta>).
 // Escribe data/lugares/<continente>.json (solo reemplaza los países de la subregión) y
 // data/trabajo/<subregion>/curador.json.
 import { readFileSync, writeFileSync, existsSync, readdirSync } from 'node:fs';
@@ -137,7 +141,12 @@ for (const fu of aj.fusiones || []) {
   for (const oid of fu.origenes) {
     const o = lugares.get(oid);
     if (!o) { console.warn(`  fusión: origen ${oid} no existe`); continue; }
-    for (const c of CRITERIOS) if (o.puntajes[c] != null) ponerPuntaje(dst, c, o.puntajes[c], o._ronda?.[c] ?? 1);
+    // al fusionar dos lugares distintos se conserva el mayor puntaje final de cada criterio
+    // (la regla "ronda posterior reemplaza" solo vale dentro del mismo id)
+    for (const c of CRITERIOS) if (o.puntajes[c] != null) {
+      dst.puntajes[c] = Math.max(dst.puntajes[c] ?? -1, o.puntajes[c]);
+      (dst._ronda ??= {})[c] = Math.max(dst._ronda[c] ?? 0, o._ronda?.[c] ?? 1);
+    }
     for (const [c, js] of Object.entries(o.just)) (dst.just[c] ??= []).push(...js);
     dst.fuentes.push(...o.fuentes);
     for (const p of o.platos) if (!dst.platos.includes(p)) dst.platos.push(p);

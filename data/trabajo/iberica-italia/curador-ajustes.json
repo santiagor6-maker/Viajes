@@ -31,6 +31,27 @@
       "nombre": "Canillo y Grandvalira (Soldeu, Vall d'Incles, Pas de la Casa)",
       "lat": 42.5768,
       "lng": 1.6676
+    },
+    {
+      "destino": "it-polignano-monopoli",
+      "origenes": [
+        "it-polignano-a-mare"
+      ],
+      "nombre": "Polignano a Mare y Monopoli"
+    },
+    {
+      "destino": "sm-torre-cesta",
+      "origenes": [
+        "sm-torre-montale"
+      ],
+      "nombre": "Torres Cesta y Montale"
+    },
+    {
+      "destino": "it-orvieto",
+      "origenes": [
+        "it-civita-di-bagnoregio"
+      ],
+      "nombre": "Orvieto y Civita di Bagnoregio"
     }
   ],
   "guias": {
@@ -781,6 +802,560 @@
           "url": "https://www.lonelyplanet.com/malta/sliema-st-julians-and-paceville/attractions"
         }
       ]
+    },
+    "es-montserrat": {
+      "puntaje": 4,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/destinations/spain/catalonia/montserrat"
+        },
+        {
+          "guia": "Rough Guides",
+          "url": "https://www.roughguides.com/spain/barcelona/montserrat/"
+        },
+        {
+          "guia": "Rick Steves",
+          "url": "https://classroom.ricksteves.com/videos/montserrat-the-heart-of-catalunya"
+        }
+      ]
+    },
+    "it-tivoli": {
+      "puntaje": 3,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/italy/lazio/tivoli/activities"
+        },
+        {
+          "guia": "Rick Steves",
+          "url": "https://www.travelagentcentral.com/europe/tivoli-still-romes-great-escape-2000-years-later"
+        }
+      ]
+    },
+    "es-cadiz": {
+      "puntaje": 4,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-cadiz"
+        },
+        {
+          "guia": "Frommer's",
+          "url": "https://www.frommers.com/destinations/cadiz/things-to-do/"
+        },
+        {
+          "guia": "Fodor's",
+          "url": "https://www.fodors.com/world/europe/spain/andalusia/places/cadiz/things-to-do/sights"
+        }
+      ]
+    },
+    "it-bergamo": {
+      "puntaje": 4,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/italy/lombardy-and-the-lakes/bergamo"
+        },
+        {
+          "guia": "Rough Guides",
+          "url": "https://www.roughguides.com/italy/lombardy-lakes/bergamo/"
+        },
+        {
+          "guia": "Fodor's",
+          "url": "https://www.fodors.com/world/europe/italy/lombardy-and-the-lakes/places/bergamo"
+        },
+        {
+          "guia": "Frommer's",
+          "url": "https://www.frommers.com/destinations/bergamo/planning-a-trip/"
+        }
+      ]
+    },
+    "it-reggia-di-caserta": {
+      "puntaje": 4,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www-lonelyplanet-com-6c06.imagizer.com/italy/caserta"
+        },
+        {
+          "guia": "Frommer's",
+          "url": "https://www.frommers.com/destinations/caserta/attractions/royal-palace--gardens/"
+        },
+        {
+          "guia": "Fodor's",
+          "url": "https://www.fodors.com/world/europe/italy/naples/things-to-do/sights/reviews/reggia-di-caserta-265158030"
+        }
+      ]
+    },
+    "es-islas-cies": {
+      "puntaje": 4,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/cies-islands-spain"
+        },
+        {
+          "guia": "Rough Guides",
+          "url": "https://www.roughguides.com/spain/best-islands/"
+        },
+        {
+          "guia": "National Geographic Traveler",
+          "url": "https://www.nationalgeographic.com/travel/article/spain-national-parks"
+        },
+        {
+          "guia": "Fodor's",
+          "url": "https://www.fodors.com/world/europe/spain/experiences/news/photos/the-15-best-beaches-in-spain"
+        }
+      ]
+    },
+    "it-isla-de-elba": {
+      "puntaje": 4,
+      "fuentes": [
+        {
+          "guia": "Fodor's",
+          "url": "https://www.fodors.com/world/europe/italy/tuscany/places/elba"
+        },
+        {
+          "guia": "Frommer's",
+          "url": "https://www.frommers.com/destinations/elba/"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-islands-to-visit-italy"
+        },
+        {
+          "guia": "Rick Steves",
+          "url": "https://blog.ricksteves.com/cameron/2019/07/tuscany-elba"
+        }
+      ]
+    },
+    "it-portofino-san-fruttuoso": {
+      "puntaje": 4,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/guide-to-portofino-italy"
+        },
+        {
+          "guia": "Rough Guides",
+          "url": "https://www.roughguides.com/italy/liguria/portofino/"
+        },
+        {
+          "guia": "Frommer's",
+          "url": "https://www.frommers.com/destinations/portofino/things-to-do/"
+        }
+      ]
+    },
+    "it-cefalu": {
+      "puntaje": 4,
+      "fuentes": [
+        {
+          "guia": "Rick Steves",
+          "url": "https://www.ricksteves.com/watch-read-listen/video/tv-show/sicily-delights"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-italian-small-towns-villages-to-visit"
+        },
+        {
+          "guia": "Frommer's",
+          "url": "https://www.frommers.com/destinations/tyrrhenian-coast/"
+        }
+      ]
+    },
+    "pt-benagil-sete-vales": {
+      "puntaje": 3,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-hikes-in-algarve"
+        },
+        {
+          "guia": "Rough Guides",
+          "url": "https://www.roughguides.com/portugal/things-to-do-algarve/"
+        }
+      ]
+    },
+    "it-alghero-capo-caccia": {
+      "puntaje": 4,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-alghero"
+        },
+        {
+          "guia": "Frommer's",
+          "url": "https://www.frommers.com/destinations/alghero/attractions/grotta-di-nettuno/"
+        },
+        {
+          "guia": "Fodor's",
+          "url": "https://www.fodors.com/world/europe/italy/sardinia/things-to-do/sights/reviews/capo-caccia-589406"
+        },
+        {
+          "guia": "Rough Guides",
+          "url": "https://www.roughguides.com/italy/one-week-sardinia-road-trip/"
+        }
+      ]
+    },
+    "es-gran-canaria": {
+      "puntaje": 4,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/guide-to-gran-canaria"
+        },
+        {
+          "guia": "Fodor's",
+          "url": "https://www.fodors.com/world/europe/spain/canary-islands/places/gran-canaria/maspalomas-and-the-southern-coast"
+        },
+        {
+          "guia": "Rough Guides",
+          "url": "https://www.roughguides.com/spain/first-timers-guide-to-the-canary-islands/"
+        },
+        {
+          "guia": "Frommer's",
+          "url": "https://www.frommers.com/destinations/gran-canaria/"
+        }
+      ]
+    },
+    "es-fuerteventura": {
+      "puntaje": 4,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/guide-to-fuerteventura-canary-islands"
+        },
+        {
+          "guia": "Fodor's",
+          "url": "https://www.fodors.com/world/europe/spain/canary-islands/places/fuerteventura"
+        },
+        {
+          "guia": "Rough Guides",
+          "url": "https://www.roughguides.com/spain/first-timers-guide-to-the-canary-islands/"
+        },
+        {
+          "guia": "Frommer's",
+          "url": "https://www.frommers.com/destinations/fuerteventura/"
+        }
+      ]
+    },
+    "it-vicenza": {
+      "puntaje": 3,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/destinations/italy/the-veneto/vicenza"
+        },
+        {
+          "guia": "Frommer's",
+          "url": "https://www.frommers.com/destinations/vicenza/things-to-do/"
+        }
+      ]
+    },
+    "it-ostia-antica": {
+      "puntaje": 4,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/points-of-interest/area-archeologica-di-ostia-antica/390445"
+        },
+        {
+          "guia": "Frommer's",
+          "url": "https://www.frommers.com/destinations/rome/side-trips/ostia/"
+        },
+        {
+          "guia": "Rough Guides",
+          "url": "https://www.roughguides.com/italy/best-day-trips-from-rome/"
+        }
+      ]
+    },
+    "es-pamplona": {
+      "puntaje": 4,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-pamplona"
+        },
+        {
+          "guia": "Frommer's",
+          "url": "https://www.frommers.com/destinations/pamplona/"
+        },
+        {
+          "guia": "Rough Guides",
+          "url": "https://www.roughguides.com/spain/euskal-herria-the-pais-vasco-and-navarra/pamplona/"
+        },
+        {
+          "guia": "Rick Steves",
+          "url": "https://www.ricksteves.com/watch-read-listen/read/articles/pamplonas-running-of-the-bulls"
+        }
+      ]
+    },
+    "it-polignano-monopoli": {
+      "puntaje": 2,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/guide-to-puglia"
+        }
+      ]
+    },
+    "it-bari": {
+      "puntaje": 3,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/guide-to-bari"
+        },
+        {
+          "guia": "Fodor's",
+          "url": "https://www.fodors.com/world/europe/italy/puglia-basilicata-and-calabria/things-to-do/sights?pois=635932"
+        }
+      ]
+    },
+    "it-erice-segesta": {
+      "puntaje": 3,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-road-trips-in-sicily"
+        },
+        {
+          "guia": "Rick Steves",
+          "url": "https://www.ricksteves.com/tours/italy/sicily"
+        }
+      ]
+    },
+    "es-albarracin": {
+      "puntaje": 3,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/spain/albarracin"
+        },
+        {
+          "guia": "Rough Guides",
+          "url": "https://www.roughguides.com/spain/aragon/"
+        }
+      ]
+    },
+    "it-perugia": {
+      "puntaje": 4,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/top-thing-to-do-in-perugia"
+        },
+        {
+          "guia": "Frommer's",
+          "url": "https://www.frommers.com/destinations/perugia/"
+        },
+        {
+          "guia": "Fodor's",
+          "url": "https://www.fodors.com/world/europe/italy/umbria-and-the-marches/places/perugia"
+        }
+      ]
+    },
+    "pt-fatima": {
+      "puntaje": 4,
+      "fuentes": [
+        {
+          "guia": "Rick Steves",
+          "url": "https://www.ricksteves.com/watch-read-listen/read/articles/witnessing-the-power-of-faith-in-fatima"
+        },
+        {
+          "guia": "Rough Guides",
+          "url": "https://www.roughguides.com/portugal/fatima-travel-guide/"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/points-of-interest/santuario-de-fatima/1403837"
+        },
+        {
+          "guia": "Fodor's",
+          "url": "https://www.fodors.com/world/europe/portugal/estremadura-and-the-ribatejo/places/fatima"
+        },
+        {
+          "guia": "Frommer's",
+          "url": "https://www.frommers.com/destinations/fatima/"
+        }
+      ]
+    },
+    "pt-aveiro": {
+      "puntaje": 4,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-aveiro"
+        },
+        {
+          "guia": "Rough Guides",
+          "url": "https://www.roughguides.com/portugal/aveiro-travel-guide/"
+        },
+        {
+          "guia": "Fodor's",
+          "url": "https://www.fodors.com/world/europe/portugal/coimbra-and-the-beiras/places/aveiro"
+        },
+        {
+          "guia": "Frommer's",
+          "url": "https://www.frommers.com/destinations/aveiro/attractions/overview"
+        }
+      ]
+    },
+    "es-a-coruna": {
+      "puntaje": 4,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/points-of-interest/torre-de-hercules/1004214"
+        },
+        {
+          "guia": "Frommer's",
+          "url": "https://www.frommers.com/destinations/a-coruna/things-to-do/"
+        },
+        {
+          "guia": "Fodor's",
+          "url": "https://www.fodors.com/world/europe/spain/galicia-and-asturias/places/a-coruna/things-to-do/sights"
+        }
+      ]
+    },
+    "es-cabo-de-gata": {
+      "puntaje": 4,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/spain/andalucia/costa-de-almeria/attractions/parque-natural-de-cabo-de-gata-nijar/a/poi-sig/1212511/360730"
+        },
+        {
+          "guia": "Rough Guides",
+          "url": "https://www.roughguides.com/spain/best-beaches/"
+        },
+        {
+          "guia": "Fodor's",
+          "url": "https://www.fodors.com/world/europe/spain/experiences/news/photos/the-15-best-beaches-in-spain"
+        }
+      ]
+    },
+    "it-spoleto": {
+      "puntaje": 4,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/italy/umbria-and-le-marche/spoleto/attractions/ponte-delle-torri/a/poi-sig/1519649/360089"
+        },
+        {
+          "guia": "Frommer's",
+          "url": "https://www.frommers.com/destinations/spoleto/things-to-do/"
+        },
+        {
+          "guia": "Fodor's",
+          "url": "https://www.fodors.com/world/europe/italy/umbria-and-the-marches/places/spoleto/things-to-do/sights"
+        }
+      ]
+    },
+    "es-sierra-de-guara-alquezar": {
+      "puntaje": 0,
+      "fuentes": []
+    },
+    "es-noguera-pallaresa-sort": {
+      "puntaje": 0,
+      "fuentes": []
+    },
+    "it-finale-ligure": {
+      "puntaje": 0,
+      "fuentes": []
+    },
+    "es-figueres-cadaques": {
+      "puntaje": 0,
+      "fuentes": []
+    },
+    "es-teruel": {
+      "puntaje": 0,
+      "fuentes": []
+    },
+    "es-cartagena": {
+      "puntaje": 0,
+      "fuentes": []
+    },
+    "es-trujillo": {
+      "puntaje": 0,
+      "fuentes": []
+    },
+    "es-guadalupe": {
+      "puntaje": 0,
+      "fuentes": []
+    },
+    "es-lugo": {
+      "puntaje": 0,
+      "fuentes": []
+    },
+    "pt-piodao": {
+      "puntaje": 0,
+      "fuentes": []
+    },
+    "pt-viana-do-castelo": {
+      "puntaje": 0,
+      "fuentes": []
+    },
+    "es-priorat": {
+      "puntaje": 0,
+      "fuentes": []
+    },
+    "es-penedes": {
+      "puntaje": 0,
+      "fuentes": []
+    },
+    "es-bardenas-reales": {
+      "puntaje": 0,
+      "fuentes": []
+    },
+    "es-monfrague": {
+      "puntaje": 0,
+      "fuentes": []
+    },
+    "it-castel-del-monte": {
+      "puntaje": 0,
+      "fuentes": []
+    },
+    "it-aquileia": {
+      "puntaje": 0,
+      "fuentes": []
+    },
+    "it-cividale-udine": {
+      "puntaje": 0,
+      "fuentes": []
+    },
+    "it-selinunte": {
+      "puntaje": 0,
+      "fuentes": []
+    },
+    "it-zingaro-san-vito-lo-capo": {
+      "puntaje": 0,
+      "fuentes": []
+    },
+    "it-islas-egadi": {
+      "puntaje": 0,
+      "fuentes": []
+    },
+    "it-gran-sasso-campo-imperatore": {
+      "puntaje": 0,
+      "fuentes": []
+    },
+    "it-monti-sibillini-castelluccio": {
+      "puntaje": 0,
+      "fuentes": []
+    },
+    "it-riviera-del-conero": {
+      "puntaje": 0,
+      "fuentes": []
+    },
+    "it-lago-de-iseo-monte-isola": {
+      "puntaje": 0,
+      "fuentes": []
+    },
+    "it-lago-de-orta": {
+      "puntaje": 0,
+      "fuentes": []
     }
   },
   "lugares": {
@@ -808,7 +1383,17 @@
     "it-cagliari",
     "it-taormina",
     "mt-comino-laguna-azul",
-    "mt-xlendi"
+    "mt-xlendi",
+    "es-islas-cies",
+    "es-fuerteventura",
+    "es-gran-canaria",
+    "es-cabo-de-gata",
+    "it-isla-de-elba",
+    "it-islas-egadi",
+    "it-cefalu",
+    "es-cadiz",
+    "it-polignano-monopoli",
+    "it-finale-ligure"
   ],
   "no_playa": [
     "es-praia-das-catedrais",
@@ -873,7 +1458,7 @@
     "es-rias-baixas": "Es la tierra del albariño, con bodegas visitables en el Salnés y Cambados como capital, y de la mejor despensa marisquera de España. La Festa do Marisco de O Grove, en octubre, y la Festa do Albariño, a principios de agosto, son las dos grandes citas. Se comen mejillones, navajas y vieiras frente a la ría.",
     "es-portaventura": "Es el mayor complejo de parques temáticos del sur de Europa. En Ferrari Land está Red Force, la montaña rusa más alta y rápida de Europa (112 m, 180 km/h), y en PortAventura Park, Shambhala y Dragon Khan. Tiene estación de tren propia y está a 8 km de Tarragona.",
     "es-parque-warner": "El gran parque de Madrid reúne la montaña rusa sin suelo de Superman, la de madera Coaster Express y la torre de caída La Venganza del Enigma, de unos 100 m. Al lado, Warner Beach es el parque acuático de verano. Está en San Martín de la Vega, a 25 km de la capital.",
-    "es-terra-mitica": "El gran parque temático de la Costa Blanca está dividido en zonas inspiradas en las civilizaciones del Mediterráneo, con la montaña rusa de madera Magnus Colossus y la invertida Titánide. Es la mejor opción de adrenalina desde Benidorm. Abre sobre todo de primavera a otoño.",
+    "es-terra-mitica": "Es el parque temático más grande de la Costa Blanca, dividido en zonas inspiradas en Egipto, Grecia, Roma e Iberia, a las afueras de Benidorm. Abre sobre todo de primavera a otoño. Antes de ir conviene confirmar en su web qué montañas rusas funcionan, porque el estado de la de madera Magnus Colossus no se pudo verificar.",
     "es-skydive-empuriabrava": "Es una de las zonas de salto más grandes de Europa, con saltos en tándem todo el año sobre el golfo de Roses y con el Pirineo a la vista. Se reserva el salto y en unas horas se cae libre desde 4.000 m. Girona y el Teatre-Museu Dalí de Figueres quedan a menos de 40 km.",
     "es-baqueira-beret": "Es la estación de esquí de referencia en España, con más de 160 km de pistas y buen freeride en el Val d'Aran. En verano el valle sirve de base para entrar en Aigüestortes, a 14 km. Los pueblos de Salardú y Arties tienen iglesias románicas y cocina aranesa, como la olla aranesa.",
     "es-caminito-del-rey": "Es una pasarela de un metro de ancho colgada a unos 100 m sobre el desfiladero de los Gaitanes, construida en 1905 y reabierta en 2015. Los 7,7 km se recorren en un solo sentido, con entrada reservada y cupo diario. Hay tren desde Málaga hasta la estación de El Chorro.",
@@ -952,7 +1537,7 @@
     "it-lecce": "La piedra dorada local, blanda y fácil de labrar, permitió las fachadas barrocas de Santa Croce y la Piazza del Duomo, junto a un anfiteatro romano en pleno centro. En sus pastelerías se desayuna pasticciotto con café con hielo y leche de almendra. Las calas del Salento quedan a 15–30 km.",
     "it-lucca": "Sus murallas renacentistas están intactas y se recorren en bici: son 4 km de paseo arbolado. Dentro esperan las iglesias románicas de San Michele y San Martino, la plaza ovalada del Anfiteatro y la casa natal de Puccini. Pisa está a 20 minutos en tren.",
     "it-modena": "Aquí está la Osteria Francescana de Massimo Bottura, dos veces número uno de World's 50 Best. En las acetaie de las afueras se ve envejecer el auténtico aceto balsamico tradizionale en baterías de barriles. Se acompaña con tortellini, gnocco fritto y lambrusco.",
-    "it-orvieto": "Sobre un peñasco de toba, el Duomo tiene una de las fachadas góticas más ricas de Italia y la capilla de San Brizio, con los frescos de Signorelli. Bajo la ciudad hay cuevas etruscas y el Pozzo di San Patrizio, un pozo de doble escalera. Civita di Bagnoregio, aislada en su colina, está a 20 km.",
+    "it-orvieto": "Sobre un peñasco de toba, el Duomo tiene una de las fachadas góticas más ricas de Italia y la capilla de San Brizio, con los frescos de Signorelli; bajo la ciudad hay cuevas etruscas y el Pozzo di San Patrizio. A 20 km por carretera, Civita di Bagnoregio, pueblo etrusco que se desmorona sobre la Valle dei Calanchi, solo se alcanza por una pasarela peatonal y cobra una entrada para su mantenimiento. Orvieto está en la línea Roma–Florencia, a algo más de una hora de Roma.",
     "it-parma": "Fue la primera Ciudad Creativa de la Gastronomía de la UNESCO en Italia y es el corazón de la Food Valley. Se visitan queserías de Parmigiano Reggiano por la mañana y secaderos de prosciutto y culatello por la tarde. El Duomo, con la cúpula de Correggio, y el Teatro Farnese completan la ciudad.",
     "it-turin": "El Museo Egizio tiene la mayor colección egipcia fuera de El Cairo, y las residencias de los Saboya, como el Palazzo Reale o Venaria, son Patrimonio Mundial. Es la ciudad del bicerin, el gianduiotto y el vermut, con el mercado de Porta Palazzo. La Mole Antonelliana alberga el Museo del Cine.",
     "it-gardaland": "Es el gran parque temático de Italia, junto al lago de Garda, con montañas rusas, un parque acuático LEGOLAND y el SEA LIFE Aquarium en el mismo resort. Abre de marzo a noviembre, con eventos de Halloween y Navidad. Verona está a 25 km y Peschiera, con estación de tren, al lado.",
@@ -1004,14 +1589,66 @@
     "mt-xlendi": "Una bahía estrecha entre acantilados en el suroeste de Gozo, con agua clara para el snorkel y el buceo y restaurantes de pescado a la orilla. Un camino sube a la torre de Xlendi, y la ruta costera de 12 km llega desde Mġarr. Es la mejor base de Gozo para dormir junto al mar.",
     "sm-centro-historico": "San Marino es la república más antigua del mundo, y su centro, Patrimonio Mundial, se asoma desde la cresta del Monte Titano. La Piazza della Libertà, con el Palazzo Pubblico y su cambio de guardia, funciona como un balcón sobre la Romaña y el Adriático. Se pide torta Tre Monti y vino sangiovese local.",
     "sm-torre-guaita": "La primera torre, del siglo XI, es el símbolo de la república y sirvió de prisión hasta 1975. Se suben sus murallas y su torre de campana, al borde del acantilado del Titano, con vistas sobre la Romaña. El Passo delle Streghe, un sendero de cresta de 1 km, la une con la Cesta.",
-    "sm-torre-cesta": "La segunda torre está en la cima más alta del Monte Titano, a unos 750 m, con vistas de 360 grados hasta Rímini y la costa. Dentro alberga el Museo de Armas Antiguas. Se llega por el sendero de cresta desde la Guaita.",
+    "sm-torre-cesta": "La segunda torre del Monte Titano corona su cima más alta, a unos 750 m, con vistas de 360 grados hasta Rímini y el Adriático, y dentro guarda el Museo de Armas Antiguas. Unos 300 m más allá, por el sendero de cresta, la pequeña Torre Montale (siglo XIII) solo se ve por fuera y cierra la ruta de las Tres Torres. Es un paseo tranquilo con los Apeninos al fondo.",
     "sm-borgo-maggiore": "Es el antiguo burgo del mercado, al pie de la ciudadela, con la iglesia modernista de Giovanni Michelucci, de los años sesenta. Desde aquí, un teleférico sube a la ciudad en dos minutos, con vistas sobre el valle. Es una buena base para comer piadina sin las multitudes de arriba.",
-    "sm-torre-montale": "La tercera torre, la más pequeña, se alza entre el bosque al final de la cresta del Titano y forma parte del conjunto Patrimonio Mundial. Por dentro no se visita, pero el paseo desde la Cesta es el tramo más tranquilo de la ruta de las Tres Torres. Desde allí se ven los Apeninos.",
     "va-basilica-san-pedro": "Es la mayor iglesia de la cristiandad, levantada sobre la tumba de San Pedro, con la Piedad de Miguel Ángel y el baldaquino de bronce de Bernini. La entrada es gratuita, aunque hay control de seguridad y un código de vestimenta. Conviene llegar a primera hora para verla con poca gente.",
     "va-capilla-sixtina": "Miguel Ángel pintó la bóveda entre 1508 y 1512 y, décadas después, el Juicio Final; en las paredes hay frescos de Botticelli y Perugino. Es la sala donde se reúne el cónclave. Se entra al final del recorrido de los Museos Vaticanos, con entrada reservada.",
     "va-museos-vaticanos": "Unos 7 km de galerías en 26 edificios guardan el Laocoonte, el Apolo de Belvedere, las Estancias de Rafael, la Pinacoteca y la Galería de los Mapas. El recorrido termina en la Capilla Sixtina. Hay que reservar la primera franja horaria para evitar las colas y las aglomeraciones.",
     "va-plaza-san-pedro": "La columnata elíptica de Bernini, con 284 columnas y un obelisco egipcio en el centro, abraza la plaza como dos brazos. Desde un punto marcado en el suelo, las cuatro filas de columnas se alinean en una sola. Los domingos a mediodía el Papa reza el Ángelus desde una ventana.",
     "va-cupula-san-pedro": "Se suben 551 escalones (320 si se usa el ascensor) por el interior de la cúpula de Miguel Ángel. A mitad de camino, la galería del tambor permite ver el interior de la basílica desde arriba, y en lo alto se abre toda Roma. Hay que reservar al menos 90 minutos y no es apta para quien sufra de claustrofobia.",
-    "va-jardines-vaticanos": "Unas 23 hectáreas de jardines renacentistas y barrocos ocupan la mitad del Estado, con la Casina de Pío IV, fuentes, grutas y las murallas leoninas. Solo se visitan con guía, con reserva a través de los Museos Vaticanos. Incluyen una pequeña estación de tren, la del país más pequeño del mundo."
-  }
+    "va-jardines-vaticanos": "Unas 23 hectáreas de jardines renacentistas y barrocos ocupan la mitad del Estado, con la Casina de Pío IV, fuentes, grutas y las murallas leoninas. Solo se visitan con guía, con reserva a través de los Museos Vaticanos. Incluyen una pequeña estación de tren, la del país más pequeño del mundo.",
+    "es-sierra-de-guara-alquezar": "Es la referencia europea del barranquismo: más de un centenar de cañones calizos, con Alquézar como base y más de 15 empresas de guías titulados, desde el tramo de iniciación del río Vero hasta el Mascún de Rodellar. El pueblo, colgado sobre el Vero, tiene una colegiata sobre un castillo de origen islámico y abrigos con pintura rupestre Patrimonio Mundial a pocos kilómetros. Por la tarde, bodegas de la D.O. Somontano en torno a Barbastro.",
+    "es-noguera-pallaresa-sort": "El descenso clásico de Llavorsí a Sort recorre 18 km de rápidos de clase III–IV, como La Rentadora y La Sirga, en el río de aguas bravas más conocido del sur de Europa. La temporada va de abril a mediados de octubre, y el deshielo de mayo y junio da el caudal más fuerte. El Parque Nacional d'Aigüestortes queda a unos 30 km por Espot.",
+    "it-finale-ligure": "Es un destino outdoor de primer nivel en la Riviera di Ponente: más de 200 senderos de mountain bike, unas 4.000 vías de escalada en caliza y, en octubre de 2026, el Mundial UCI de Enduro. Finalborgo, amurallado por los Del Carretto, guarda en el convento de Santa Caterina el museo con restos paleolíticos de las cuevas de la zona. Se llega en tren desde Génova y la playa queda al lado.",
+    "es-montserrat": "El monasterio benedictino, fundado en 1025, guarda la Moreneta y la Escolanía, uno de los coros infantiles más antiguos de Europa, que canta a mediodía los días laborables. Alrededor, las agujas de conglomerado del parque natural se recorren por senderos señalizados hasta Sant Jeroni (1.236 m). Desde Barcelona se llega en tren FGC y cremallera en algo más de una hora.",
+    "es-figueres-cadaques": "Dalí está enterrado en su Teatre-Museu de Figueres, y en Portlligat, junto a Cadaqués, se visita su casa-taller en grupos de ocho con reserva previa. Cadaqués es la puerta del Parque Natural del Cap de Creus, con una ruta a pie de unos 7 km hasta el faro entre roca modelada por la tramontana. Skydive Empuriabrava, a 12 km, ofrece saltos en tándem todo el año.",
+    "es-cadiz": "Fundada por los fenicios como Gadir hacia el 1100 a. C., conserva el Teatro Romano, la catedral de cúpula dorada y la Torre Tavira con su cámara oscura. Es la capital del pescaíto frito y las tortillitas de camarones, con el Mercado Central y los bares de La Viña, corazón del Carnaval. Las playas urbanas de La Caleta y La Victoria están a pocos minutos del casco antiguo.",
+    "es-albarracin": "Pueblo medieval de casas de yeso rojizo sobre un meandro del Guadalaviar, con murallas y castillo andalusíes, catedral y museo; muchos lo consideran el más bonito de España. A 5 km, los Pinares de Rodeno tienen areniscas rojas, senderos señalizados y abrigos de arte rupestre levantino Patrimonio Mundial. Conviene ir en coche y evitar los fines de semana de puente.",
+    "es-teruel": "Las torres de San Martín y El Salvador y la techumbre pintada de la catedral son el núcleo de la Arquitectura Mudéjar de Aragón, Patrimonio Mundial. Se suman el Mausoleo de los Amantes y el modernismo de la plaza del Torico. Es la capital del jamón de Teruel, la primera denominación de origen de jamón de España, y Albarracín queda a 35 km.",
+    "es-pamplona": "Las murallas, la Ciudadela renacentista y la catedral gótica marcan una de las grandes ciudades del Camino Francés, que del 6 al 14 de julio se vuelca en los Sanfermines. El Casco Viejo tiene una gran cultura del pintxo, y la Ribera aporta piquillos, pochas y alcachofas. A 42 km, el Palacio Real de Olite, residencia gótica de los reyes de Navarra, está rodeado de bodegas de la D.O. Navarra.",
+    "es-cartagena": "Fundada por los cartagineses como Qart Hadasht, tiene un Teatro Romano descubierto en 1987 y musealizado por Rafael Moneo, de los más importantes de España junto al de Mérida. El ARQVA, Museo Nacional de Arqueología Subacuática, y el Refugio de la Guerra Civil completan la visita. Se prueba el caldero del Mar Menor y el café asiático, y las calas vírgenes de Calblanque quedan a 15 km.",
+    "es-trujillo": "Cuna de Pizarro y de Orellana, su Plaza Mayor está rodeada de palacios pagados con la riqueza de la conquista, y la villa alta conserva un castillo andalusí y la Torre de Bujaco. Acoge la Feria Nacional del Queso y es buen sitio para la Torta del Casar y el ibérico de dehesa. En julio y agosto se superan a menudo los 38 °C.",
+    "es-guadalupe": "El Real Monasterio, Patrimonio Mundial, combina un claustro mudéjar con una sacristía de ocho lienzos de Zurbarán y la Virgen de Guadalupe, venerada en toda Hispanoamérica. Está dentro del Geoparque Villuercas-Ibores-Jara, con castañares y la subida a La Villuerca (1.601 m). La visita es guiada y cierra a mediodía; con transporte público conviene dormir allí.",
+    "es-a-coruna": "La Torre de Hércules es un faro romano del siglo I que sigue en funcionamiento, Patrimonio Mundial, al final de un largo paseo marítimo desde la playa de Riazor. La Ciudad Vieja, las galerías acristaladas de la Marina y la plaza de María Pita forman el centro. En la calle de la Estrella se tapea pulpo, percebes y empanada.",
+    "es-lugo": "Su muralla romana del siglo III es la única que se conserva completa: más de 2 km con 85 torres que se recorren gratis por el adarve. Dentro están la catedral del Camino Primitivo y restos de termas romanas. En las calles da Cruz y Nova las tapas van incluidas con la bebida.",
+    "pt-aveiro": "Los moliceiros, barcas pintadas que recogían algas, recorren hoy los canales de la ciudad entre edificios art nouveau. El Museu de Aveiro ocupa el convento de Jesús, con la tumba de Santa Joana, y los ovos moles con IGP son su dulce. Las casas de rayas de Costa Nova y las dunas de São Jacinto quedan a 15 minutos.",
+    "pt-fatima": "Uno de los mayores santuarios marianos del mundo, con la Capelinha das Aparições, la basílica del Rosario con las tumbas de los pastorcitos y la de la Santísima Trinidad, de 2007. Las peregrinaciones del 12-13 de mayo y de octubre reúnen cientos de miles de fieles y llenan el alojamiento. Se combina en el día con los monasterios de Batalha, Tomar y Alcobaça.",
+    "pt-piodao": "Aldea Histórica de casas de esquisto y pizarra en anfiteatro sobre un valle de la Serra do Açor, con las puertas pintadas de azul. Desde el pueblo salen senderos señalizados hacia Foz d'Égua y cerca están la Mata da Margaraça, uno de los últimos bosques autóctonos del centro de Portugal, y la cascada de Fraga da Pena. Solo se llega en coche por carreteras de montaña, y de abril a octubre hay riesgo alto de incendios.",
+    "pt-viana-do-castelo": "La basílica de Santa Luzia, con funicular, domina la desembocadura del Lima, y en agosto la Romaria d'Agonia llena el centro de trajes tradicionales. A 23 km, Ponte de Lima, la villa más antigua de Portugal, tiene un puente romano-medieval y es la capital del arroz de sarrabulho y del vinho verde Loureiro. La Ecovia do Lima une ambas en bici.",
+    "es-priorat": "Es una de las dos denominaciones calificadas de España: tintos de garnacha y cariñena en laderas de llicorella, con bodegas como Clos Mogador o Buil & Giné que abren con cita previa. La Cartoixa d'Escaladei fue la primera cartuja de la península, y la sierra de Montsant y Siurana atraen a senderistas y escaladores. PortAventura y Ferrari Land, con la montaña rusa Red Force, quedan a 29 km.",
+    "es-penedes": "Sant Sadurní d'Anoia reúne unas 60 casas de cava, varias con cavas subterráneas visitables a pie de la estación, como las modernistas de Codorníu. En Vilafranca del Penedès, el Vinseum explica la cultura del vino catalán y la plaza es una de las grandes de los castells. Se llega en tren desde Barcelona en unos 45 minutos.",
+    "es-islas-cies": "La playa de Rodas, de arena blanca y agua turquesa, une dos islas del Parque Nacional de las Islas Atlánticas, y un sendero de unos 7 km sube al faro de Monte Faro. Sin coches ni hoteles, en temporada solo se entra con una autorización gratuita de la Xunta y un cupo de unas 1.800 personas al día. El agua es fría incluso en agosto.",
+    "es-gran-canaria": "En las cumbres, el Roque Nublo y los graneros trogloditas de Risco Caído forman un paisaje cultural Patrimonio Mundial; la subida al monolito exige reserva gratuita desde 2025. En la costa sur, las dunas de Maspalomas suman unas 400 ha de arena junto al mar. Las Palmas añade el barrio de Vegueta, y Pozo Izquierdo es uno de los spots de windsurf de olas más exigentes del mundo.",
+    "es-fuerteventura": "Las dunas blancas de Corralejo bajan hasta el mar frente a la isla de Lobos, y en el sur la playa salvaje de Cofete se extiende al pie del macizo de Jandía. Los alisios la convierten en destino de kite y windsurf, con escuelas en Flag Beach todo el año. Se prueba el queso majorero DOP en queserías visitables.",
+    "es-cabo-de-gata": "Es la costa volcánica más salvaje del Mediterráneo español, con calas como Los Genoveses, Mónsul y San Pedro, a la que solo se llega a pie o en barco. Rodalquilar conserva su poblado minero de oro y en las salinas se ven flamencos. En verano el acceso en coche a las playas está regulado y hay poca sombra.",
+    "es-bardenas-reales": "Desierto de cárcavas y cabezos de arcilla de unas 42.000 ha, Reserva de la Biosfera, con el Cabezo de Castildetierra como imagen. Se recorre en coche, bici o a pie por pistas autorizadas desde el centro de Arguedas, evitando el polígono de tiro militar. En Tudela, a 20 km, se come la mejor verdura de Navarra.",
+    "es-monfrague": "Es uno de los grandes santuarios de rapaces de Europa, con la mayor colonia de buitre negro del continente, águila imperial y cigüeña negra. Desde el farallón del Salto del Gitano los buitres pasan a pocos metros, y la Ruta Roja sube al castillo desde Villarreal de San Carlos. Lo mejor es de febrero a junio y en la berrea de otoño.",
+    "pt-benagil-sete-vales": "La gruta de Benagil, con su cúpula abierta al cielo, es la imagen del Algarve, y desde 2024 solo se entra en barco o kayak con operador autorizado. Por encima, el sendero de los Sete Vales Suspensos recorre unos 6 km de acantilados dorados entre Praia da Marinha y Vale Centeanes. Zoomarine queda a 11 km.",
+    "it-tivoli": "Tiene dos sitios Patrimonio Mundial a 30 km de Roma: Villa Adriana, la residencia imperial del siglo II con el Canopo y el Teatro Marítimo, y Villa d'Este, modelo del jardín renacentista de fuentes. Villa Gregoriana añade una cascada del Aniene en una garganta. Se llega en bus Cotral desde el metro Ponte Mammolo.",
+    "it-ostia-antica": "Fue el puerto de la Roma imperial y conserva calles, termas con mosaicos, el teatro, insulae de varios pisos y el Piazzale delle Corporazioni con los mosaicos de los gremios. Está a unos 40 minutos del centro en metro y tren de cercanías, y en un día laborable tiene mucha menos gente que el Foro. Casi no hay sombra: en verano conviene ir temprano.",
+    "it-reggia-di-caserta": "El palacio borbónico de Vanvitelli, uno de los mayores de Europa, tiene un parque de 3 km de fuentes en eje hasta la Gran Cascata, con lanzadera y bicicletas de alquiler. Es Patrimonio Mundial junto con el Acueducto Carolino y la seda de San Leucio. La estación queda enfrente, a 40 minutos de Nápoles, y la provincia es la tierra de la mozzarella di bufala.",
+    "it-vicenza": "Es la ciudad de Palladio, Patrimonio Mundial junto con sus villas del Véneto: la Basilica Palladiana, el Teatro Olimpico (el teatro cubierto renacentista más antiguo que se conserva) y La Rotonda. El baccalà alla vicentina sobre polenta es su plato. Está en la línea Milán–Venecia, a 45 minutos de Venecia.",
+    "it-bergamo": "La Città Alta está rodeada de murallas venecianas Patrimonio Mundial y guarda la Piazza Vecchia y Santa Maria Maggiore con la Capilla Colleoni; abajo, la Accademia Carrara tiene Rafael, Mantegna y Bellini. Es tierra de casoncelli, polenta y quesos DOP como el Taleggio y el Strachítunt. El aeropuerto de Orio al Serio está a 10 minutos, y un funicular sube a la ciudad alta.",
+    "it-castel-del-monte": "El castillo octogonal de Federico II, de hacia 1240, con ocho torres también octogonales, mezcla la Antigüedad clásica, el mundo islámico y el gótico cisterciense, y es Patrimonio Mundial. Se alza aislado en la meseta de la Alta Murgia y da nombre a una DOC de Nero di Troia. Andria, cuna de la burrata, está a 20 minutos; sin coche es difícil llegar.",
+    "it-bari": "La Basílica de San Nicolás, prototipo del románico de Apulia, guarda las reliquias del santo, al que veneran católicos y ortodoxos. En las calles de Bari Vecchia las mujeres hacen orecchiette a mano en la puerta de casa, y se come focaccia barese, panino col polpo y crudo de mar en el puerto. Del aeropuerto al centro hay tren en 16 minutos.",
+    "it-polignano-monopoli": "Polignano a Mare tiene un casco blanco sobre acantilados con grutas marinas y la cala de Lama Monachile bajo un puente borbónico, sede del Red Bull Cliff Diving. A 9 km, Monopoli suma un casco amurallado, el castillo de Carlos V y calas al sur del puerto. Ambos están a media hora de Bari en tren y sirven de base para Alberobello y el valle de Itria.",
+    "it-aquileia": "Fue una de las mayores ciudades del Imperio romano, y su Basílica Patriarcal conserva el mayor pavimento de mosaico paleocristiano de Occidente, del siglo IV. La zona arqueológica, con el foro y el puerto fluvial, es Patrimonio Mundial. La Ciclovia Alpe Adria lleva en bici hasta la laguna de Grado, a 10 km.",
+    "it-cividale-udine": "El Tempietto Longobardo de Cividale, del siglo VIII, conserva estucos únicos de la Alta Edad Media, junto al Ponte del Diavolo sobre el Natisone. Udine, a 20 minutos en tren, suma los frescos de Tiepolo y una plaza de estilo veneciano. Es la puerta de los Colli Orientali del Friuli, con bodegas de Picolit y Schioppettino, y el rafting del Soča en Bovec queda a una hora.",
+    "it-cefalu": "Su catedral normanda de 1131, con el Cristo Pantocrátor en mosaico bizantino del ábside, forma parte del sitio Patrimonio Mundial de la Palermo árabe-normanda. El casco medieval desemboca en una larga playa de arena, y un sendero sube a la Rocca y al templo de Diana. Hay trenes frecuentes desde Palermo.",
+    "it-erice-segesta": "Erice es un pueblo medieval a 750 m sobre Trapani, con el castillo de Venus y repostería conventual de almendra, y se sube en teleférico. A 30 km, Segesta conserva un templo dórico casi intacto del siglo V a. C. y un teatro sobre el Monte Barbaro. En Trapani se come cuscús de pescado y busiate al pesto trapanese junto a las salinas.",
+    "it-selinunte": "La colonia griega que destruyó Cartago en el 409 a. C. es hoy un parque arqueológico de unos 270 ha frente al mar, de los mayores de Europa, con siete templos y la acrópolis amurallada. En las canteras de Cusa quedaron tambores de columna a medio tallar. Casi no hay sombra: en verano conviene ir a primera hora.",
+    "it-perugia": "En el Palazzo dei Priori, la Galleria Nazionale dell'Umbria reúne a Perugino, Piero della Francesca y Fra Angelico, frente a la Fontana Maggiore de los Pisano. La Rocca Paolina subterránea y el Arco Etrusco muestran sus capas de historia, y en julio llega Umbria Jazz. Es la ciudad de los Baci Perugina y de Eurochocolate, y Asís está a 20 km.",
+    "it-spoleto": "El Ponte delle Torri cruza una garganta de 80 m hacia Monteluco, y el Duomo guarda los frescos de Filippo Lippi. La Basílica de San Salvatore forma parte del sitio Patrimonio Mundial de los Longobardos, y el Festival dei Due Mondi llena la ciudad de junio a julio. A 21 km, bajo la Cascata delle Marmore, hay rafting de clase IV en el Nera.",
+    "it-portofino-san-fruttuoso": "La abadía de San Fruttuoso, del siglo X, está en una cala a la que solo se llega en barco o a pie, unas 2 horas por el sendero desde Portofino. En la bahía, el Cristo degli Abissi se ve buceando a unos 15 m dentro del área marina protegida. Recco y Camogli, en el mismo promontorio, son la cuna de la focaccia col formaggio.",
+    "it-isla-de-elba": "Es la mayor isla del Parque Nacional del Archipiélago Toscano, con calas, granitos y castañares en el Monte Capanne, desde cuya cima se ve Córcega con buen tiempo. Napoleón vivió aquí su exilio de 1814-1815, y se visitan sus residencias de Portoferraio y San Martino. Tiene vino propio, el Aleatico Passito DOCG, y se llega en ferri desde Piombino en una hora.",
+    "it-zingaro-san-vito-lo-capo": "La Riserva dello Zingaro protege 7 km de costa sin carretera entre Scopello y San Vito Lo Capo, con calas turquesa como Cala Capreria que solo se alcanzan a pie. San Vito tiene una de las playas de arena blanca más conocidas de Sicilia y celebra en septiembre el Cous Cous Fest. Tras el incendio de 2025 reabrió en 2026; dentro no hay agua ni bares.",
+    "it-islas-egadi": "Su área marina protegida es de las mayores del Mediterráneo, con praderas de posidonia, calas como Cala Rossa en Favignana y las grutas de Marettimo para bucear. En Levanzo, la Grotta del Genovese tiene grabados paleolíticos, y la antigua almadraba Florio es hoy museo. Se llega en hidroala desde Trapani en media hora.",
+    "it-gran-sasso-campo-imperatore": "El altiplano de Campo Imperatore, el pequeño Tíbet a unos 1.800 m, se extiende al pie del Corno Grande (2.912 m), la cumbre más alta de los Apeninos, cuya vía normal se sube en unas 4 horas. En el borde, Rocca Calascio y el borgo de Santo Stefano di Sessanio son de los pueblos de montaña más fotogénicos de Italia. Se comen arrosticini a la brasa en el propio altiplano.",
+    "it-monti-sibillini-castelluccio": "Entre finales de mayo y mediados de julio, el Pian Grande de Castelluccio se cubre de lentejas en flor, amapolas y acianos bajo el Monte Vettore. Norcia, a 30 km, es la capital de la trufa negra y de la norcinería. El pueblo sigue en reconstrucción tras el terremoto de 2016 y los fines de semana de la floración hay lanzaderas obligatorias.",
+    "it-riviera-del-conero": "Es el único promontorio calizo y boscoso de la costa adriática central, con calas de agua clara como Due Sorelle, a la que solo se llega en barco desde Numana. En Portonovo hay una iglesia románica del siglo XI y se comen moscioli salvajes, presidio Slow Food, con vino Conero DOCG. Sirolo está a 30 minutos de Ancona.",
+    "it-alghero-capo-caccia": "Alghero conserva murallas y torres catalano-aragonesas sobre el mar y todavía se habla catalán en sus calles. A 25 km, la Grotta di Nettuno se alcanza en barco desde el puerto o bajando los 654 escalones de la Escala del Cabirol por el acantilado de Capo Caccia. Bajo el cabo está la Grotta di Nereo, la mayor cueva submarina del Mediterráneo.",
+    "it-lago-de-iseo-monte-isola": "Es un lago prealpino menos masificado que Como o Garda, con Monte Isola en el centro, una isla montañosa sin coches a 15 minutos en barco desde Sulzano. En la orilla sur, las Torbiere del Sebino son un humedal protegido, y la Franciacorta empieza junto al lago. En Clusane se come tinca al horno con polenta.",
+    "it-lago-de-orta": "Orta San Giulio tiene un casco histórico intacto frente a la isla de San Giulio, con su basílica románica a pocos minutos en barca. Sobre el pueblo, el Sacro Monte, con 20 capillas dedicadas a san Francisco, forma parte del sitio Patrimonio Mundial de los Sacri Monti. Villa Crespi, de Antonino Cannavacciuolo, tiene dos estrellas Michelin."
+  },
+  "quitar": []
 }
