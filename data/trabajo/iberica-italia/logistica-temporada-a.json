@@ -1,0 +1,959 @@
+{
+  "agente": "logistica-temporada",
+  "subregion": "iberica-italia",
+  "ronda": 1,
+  "paises": ["ES", "PT", "AD"],
+  "fecha_consulta": "2026-10-26",
+  "nota": "Avisos oficiales consultados vía WebSearch (WebFetch bloqueado). Ningún lugar de la lista está en una zona con aviso superior al nivel país: el Nivel 3 de EE. UU. afecta solo a Ceuta, que no es candidato. Meses, días y costo se basan en conocimiento climático y turístico general; los accesos y cierres complicados se comprobaron con fuentes oficiales o con prensa reciente.",
+  "avisos_pais": [
+    { "pais_iso": "ES", "emisor": "EE. UU.", "nivel": "Level 2 - Exercise increased caution (terrorismo y disturbios); Ceuta en Level 3 desde el 1-ago-2026", "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.esp.html" },
+    { "pais_iso": "ES", "emisor": "Reino Unido (FCDO)", "nivel": "Sin desaconsejar viajes; riesgo de terrorismo, avisos de calor extremo, incendios e inundaciones", "url": "https://www.gov.uk/foreign-travel-advice/spain/safety-and-security" },
+    { "pais_iso": "ES", "emisor": "Canadá", "nivel": "Take normal security precautions", "url": "https://travel.gc.ca/destinations/spain" },
+    { "pais_iso": "PT", "emisor": "EE. UU.", "nivel": "Level 1 - Exercise normal precautions (23-dic-2025)", "url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/portugal-travel-advisory.html" },
+    { "pais_iso": "PT", "emisor": "Reino Unido (FCDO)", "nivel": "Sin desaconsejar viajes; alto riesgo de incendios forestales de abril a octubre", "url": "https://www.gov.uk/foreign-travel-advice/portugal" },
+    { "pais_iso": "PT", "emisor": "Canadá", "nivel": "Take normal security precautions (también Azores)", "url": "https://travel.gc.ca/destinations/portugal" },
+    { "pais_iso": "AD", "emisor": "EE. UU.", "nivel": "Level 1 - Exercise normal precautions (21-may-2026)", "url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/andorra-travel-advisory.html" },
+    { "pais_iso": "AD", "emisor": "Reino Unido (FCDO)", "nivel": "Sin desaconsejar viajes; acceso solo por Francia o España; EHIC/GHIC no válidas", "url": "https://www.gov.uk/foreign-travel-advice/andorra/safety-and-security" },
+    { "pais_iso": "AD", "emisor": "Canadá", "nivel": "Take normal security precautions; aludes en invierno y senderos sin señalizar", "url": "https://travel.gc.ca/destinations/andorra" }
+  ],
+  "logistica": [
+    {
+      "id": "es-barcelona", "puntaje": 5, "mejor_epoca": [4, 5, 6, 9, 10], "dias_sugeridos": 4, "costo": "$$$",
+      "acceso": "Aeropuerto de El Prat con tren y metro, y AVE desde Madrid (unas 2 h 30); en la ciudad, metro y a pie, sin coche.",
+      "alerta": "Hay muchos carteristas en Ciutat Vella, Las Ramblas y el metro. EE. UU. mantiene España en Nivel 2 por terrorismo en lugares concurridos. Sagrada Família y Park Güell exigen entrada con hora.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-spain" },
+        { "guia": "travel.state.gov (España)", "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.esp.html" },
+        { "guia": "GOV.UK (España, seguridad)", "url": "https://www.gov.uk/foreign-travel-advice/spain/safety-and-security" }
+      ]
+    },
+    {
+      "id": "es-madrid", "puntaje": 5, "mejor_epoca": [4, 5, 6, 9, 10], "dias_sugeridos": 3, "costo": "$$$",
+      "acceso": "Aeropuerto de Barajas con metro y Cercanías; es el nudo central del AVE; la ciudad tiene un metro excelente y no hace falta coche.",
+      "alerta": "Hay carteristas en Sol, Gran Vía y el metro. En julio y agosto se alcanzan 38-40 °C. EE. UU. mantiene España en Nivel 2.",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/spain/things-to-do-madrid/" },
+        { "guia": "travel.state.gov (España)", "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.esp.html" }
+      ]
+    },
+    {
+      "id": "es-granada-alhambra", "puntaje": 4, "mejor_epoca": [3, 4, 5, 10, 11], "dias_sugeridos": 2, "costo": "$$",
+      "acceso": "AVE desde Madrid (unas 3 h 20) y bus o tren desde Málaga (1 h 30); aeropuerto pequeño; centro a pie y microbuses al Albayzín.",
+      "alerta": "Las entradas a la Alhambra son nominativas y se agotan con semanas o meses de antelación en primavera y otoño. Cómpralas solo en la web oficial (tickets.alhambra-patronato.es).",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-spain" },
+        { "guia": "Guía de entradas a la Alhambra 2026", "url": "https://enriquealex.com/espana/como-conseguir-entradas-alhambra/" }
+      ]
+    },
+    {
+      "id": "es-sevilla", "puntaje": 4, "mejor_epoca": [2, 3, 4, 5, 10, 11], "dias_sugeridos": 3, "costo": "$$",
+      "acceso": "AVE desde Madrid (unas 2 h 30); aeropuerto con bus al centro; casco histórico a pie y tranvía.",
+      "alerta": "En julio y agosto hace calor extremo, a menudo por encima de 40 °C; el FCDO incluye avisos de temperaturas extremas en España. En Semana Santa y en la Feria los precios del alojamiento se disparan.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-spain" },
+        { "guia": "GOV.UK (España, seguridad)", "url": "https://www.gov.uk/foreign-travel-advice/spain/safety-and-security" }
+      ]
+    },
+    {
+      "id": "es-cordoba", "puntaje": 4, "mejor_epoca": [3, 4, 5, 10, 11], "dias_sugeridos": 2, "costo": "$$",
+      "acceso": "AVE desde Madrid (1 h 45) y Sevilla (45 min); la Mezquita y la judería quedan a pie desde la estación.",
+      "alerta": "Es de las ciudades más calurosas de España: en verano las máximas llegan a 40-45 °C. Los patios abiertos al público son en mayo.",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/spain/things-to-do/" },
+        { "guia": "GOV.UK (España, seguridad)", "url": "https://www.gov.uk/foreign-travel-advice/spain/safety-and-security" }
+      ]
+    },
+    {
+      "id": "es-toledo", "puntaje": 5, "mejor_epoca": [3, 4, 5, 6, 9, 10, 11], "dias_sugeridos": 1, "costo": "$$",
+      "acceso": "AVE desde Madrid-Atocha en unos 33 min; al casco alto, escaleras mecánicas o bus urbano desde la estación.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/spain/itinerary" }
+      ]
+    },
+    {
+      "id": "es-segovia", "puntaje": 5, "mejor_epoca": [4, 5, 6, 9, 10], "dias_sugeridos": 1, "costo": "$$",
+      "acceso": "AVE o Avant desde Madrid-Chamartín (unos 30 min) hasta Segovia-Guiomar y bus urbano al acueducto, o bus directo desde Moncloa (1 h 15).",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/spain/itinerary" }
+      ]
+    },
+    {
+      "id": "es-salamanca", "puntaje": 5, "mejor_epoca": [4, 5, 6, 9, 10], "dias_sugeridos": 2, "costo": "$$",
+      "acceso": "Tren desde Madrid (alrededor de 1 h 30) o bus; casco histórico peatonal a pie.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/watch-read-listen/video/tv-show/toledo-and-salamanca" }
+      ]
+    },
+    {
+      "id": "es-avila", "puntaje": 5, "mejor_epoca": [4, 5, 6, 9, 10], "dias_sugeridos": 1, "costo": "$$",
+      "acceso": "Tren desde Madrid-Chamartín (alrededor de 1 h 30) o bus; las murallas quedan a pie desde la estación.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/destinations/spain/castilla-y-leon" }
+      ]
+    },
+    {
+      "id": "es-el-escorial", "puntaje": 5, "mejor_epoca": [4, 5, 6, 9, 10], "dias_sugeridos": 1, "costo": "$$",
+      "acceso": "Cercanías C-8 desde Atocha o Chamartín (alrededor de 1 h) o bus interurbano desde Moncloa (unos 50 min).",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/spain/experiences/news/photos/ultimate-things-to-do-in-spain" }
+      ]
+    },
+    {
+      "id": "es-san-sebastian", "puntaje": 4, "mejor_epoca": [6, 7, 8, 9], "dias_sugeridos": 3, "costo": "$$$",
+      "acceso": "Aeropuertos de Hondarribia (20 min) y Bilbao (bus de 1 h 15); tren desde Madrid; la ciudad se recorre a pie.",
+      "alerta": "De noviembre a marzo llueve mucho. En verano el alojamiento es de los más caros de España y conviene reservar con tiempo.",
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/watch-read-listen/read/articles/the-best-of-the-basque-country" }
+      ]
+    },
+    {
+      "id": "es-bilbao", "puntaje": 5, "mejor_epoca": [5, 6, 7, 8, 9, 10], "dias_sugeridos": 2, "costo": "$$",
+      "acceso": "Aeropuerto con bus al centro (20 min); metro y tranvía; el Guggenheim queda a pie desde el Casco Viejo.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/tours/spain/basque" }
+      ]
+    },
+    {
+      "id": "es-santiago-de-compostela", "puntaje": 4, "mejor_epoca": [5, 6, 7, 8, 9], "dias_sugeridos": 2, "costo": "$$",
+      "acceso": "Aeropuerto Rosalía de Castro (20 min en bus) y AVE desde Madrid (unas 3 h 15); casco histórico peatonal.",
+      "alerta": "Es muy lluviosa de noviembre a marzo. 2027 es Año Santo Compostelano: espera una afluencia récord de peregrinos y alojamiento caro.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-spain" }
+      ]
+    },
+    {
+      "id": "es-picos-de-europa", "puntaje": 3, "mejor_epoca": [6, 7, 9, 10], "dias_sugeridos": 3, "costo": "$$",
+      "acceso": "El coche es casi imprescindible (bases: Cangas de Onís, Arenas de Cabrales, Potes). En temporada alta y puentes, a los Lagos de Covadonga solo se sube en autobús desde Cangas.",
+      "alerta": "La Ruta del Cares sufre desprendimientos y cierres preventivos (a finales de julio de 2026 cerró tres días tras herir a dos senderistas): consulta su estado antes de ir. Las restricciones de coches en los Lagos van aproximadamente del 1 de junio a mediados de octubre, y agosto está muy masificado.",
+      "fuentes": [
+        { "guia": "Turismo de Asturias (Ruta del Cares)", "url": "https://www.turismoasturias.es/es/descubre/naturaleza/rutas/senderismo/ruta-del-cares" },
+        { "guia": "Turismo de Asturias (acceso a Lagos)", "url": "https://www.turismoasturias.es/es/organiza-tu-viaje/como-llegar/acceso-a-lagos" },
+        { "guia": "Diario de León (reapertura del Cares)", "url": "https://www.diariodeleon.es/leon/provincia/260802/2093042/reabre-ruta-cares-descartarse-nuevos-riesgos-inmediatos-desprendimientos.html" }
+      ]
+    },
+    {
+      "id": "es-santillana-altamira", "puntaje": 4, "mejor_epoca": [5, 6, 7, 8, 9, 10], "dias_sugeridos": 1, "costo": "$$",
+      "acceso": "Coche o bus desde Santander (unos 30 km); el Museo de Altamira está a 2 km del pueblo.",
+      "alerta": "La cueva original no se visita: solo la Neocueva y el museo, que cierra los lunes y tiene aforo limitado, así que conviene reservar.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/guide-to-green-spain" },
+        { "guia": "El viaje de Sofi (visita a Altamira)", "url": "https://elviajedesofi.com/visita-a-la-cueva-de-altamira-la-capilla-sixtina-del-arte-prehistorico-precios-horarios/" }
+      ]
+    },
+    {
+      "id": "es-praia-das-catedrais", "puntaje": 3, "mejor_epoca": [5, 6, 9, 10], "dias_sugeridos": 1, "costo": "$$",
+      "acceso": "Coche por la A-8, a unos 10 km al oeste de Ribadeo; aparcamiento junto al acantilado. Solo se baja a la arena con marea baja.",
+      "alerta": "En Semana Santa y del 1 de julio al 30 de septiembre hace falta una autorización gratuita de la Xunta (hasta 30 días antes, con cupo diario). Consulta la tabla de mareas para no quedarte atrapado.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-beaches-in-spain" },
+        { "guia": "El Español (autorización 2026)", "url": "https://www.elespanol.com/quincemil/vivir/20260418/fecha-acceso-playas-famosas-galicia-requerira-autorizacion-partir-dia-trt/1003744209017_0.html" }
+      ]
+    },
+    {
+      "id": "es-valencia", "puntaje": 5, "mejor_epoca": [3, 4, 5, 6, 9, 10], "dias_sugeridos": 3, "costo": "$$",
+      "acceso": "AVE desde Madrid (alrededor de 1 h 40); aeropuerto con metro; en la ciudad, bici, metro y a pie.",
+      "alerta": "Entre septiembre y noviembre puede haber episodios de DANA con lluvias torrenciales: sigue los avisos de AEMET. Durante las Fallas (15-19 de marzo) la ciudad se satura.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-valencia" },
+        { "guia": "GOV.UK (España, seguridad)", "url": "https://www.gov.uk/foreign-travel-advice/spain/safety-and-security" }
+      ]
+    },
+    {
+      "id": "es-mallorca", "puntaje": 4, "mejor_epoca": [4, 5, 6, 9, 10], "dias_sugeridos": 5, "costo": "$$$",
+      "acceso": "Aeropuerto de Palma con vuelos de toda Europa; coche recomendado para la Tramuntana; también tren de Sóller y red de buses TIB.",
+      "alerta": "Del 15 de mayo al 15 de octubre de 2026, la carretera al Cap de Formentor estuvo cerrada a coches privados de día (solo bus lanzadera TIB, taxi, bici o a pie). Julio y agosto están saturados y son caros.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/mallorca-vs-ibiza" },
+        { "guia": "DGT (restricciones Formentor 2026)", "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/estado-del-trafico/rutas-de-interes/2026_Formentor_ESP.pdf" }
+      ]
+    },
+    {
+      "id": "es-menorca", "puntaje": 4, "mejor_epoca": [5, 6, 9, 10], "dias_sugeridos": 4, "costo": "$$$",
+      "acceso": "Vuelo a Maó o ferry desde Barcelona y Mallorca; coche o moto para las calas, y buses de verano a las principales.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/guide-to-menorca" }
+      ]
+    },
+    {
+      "id": "es-ibiza", "puntaje": 4, "mejor_epoca": [5, 6, 9, 10], "dias_sugeridos": 4, "costo": "$$$",
+      "acceso": "Aeropuerto con vuelos de toda Europa y ferry desde Barcelona, Valencia y Dénia; coche o bus para las calas.",
+      "alerta": "Julio y agosto son muy caros. De noviembre a abril cierran los clubes y muchos hoteles.",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/spain/the-balearic-islands/ibiza/" }
+      ]
+    },
+    {
+      "id": "es-tenerife-teide", "puntaje": 4, "mejor_epoca": [3, 4, 5, 6, 9, 10, 11], "dias_sugeridos": 4, "costo": "$$",
+      "acceso": "Vuelos a Tenerife Norte y Sur; coche hasta el Parque Nacional del Teide y teleférico hasta La Rambleta (3.555 m).",
+      "alerta": "Para subir al pico (3.715 m) hace falta permiso del Parque Nacional, que se agota con 2-3 meses de antelación; desde enero de 2026 el acceso al cráter tiene tasa. Puede haber mal de altura, y el teleférico cierra con viento o nieve.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-national-parks-spain" },
+        { "guia": "RTVC (reservas del pico del Teide)", "url": "https://rtvc.es/cambios-reservas-accesos-pico-del-teide-sendero-telesforo-bravo-21-mayo-2025/" },
+        { "guia": "Turismo de Tenerife (regulación de acceso)", "url": "https://www.webtenerife.com/-/media/files/que-visitar/parque-nacional-del-teide/relateddocument/nueva-regulacion-acceso-teide-web.pdf" }
+      ]
+    },
+    {
+      "id": "es-lanzarote", "puntaje": 4, "mejor_epoca": [1, 2, 3, 4, 5, 10, 11, 12], "dias_sugeridos": 3, "costo": "$$",
+      "acceso": "Vuelos directos a Arrecife desde toda Europa; hace falta coche de alquiler. En Timanfaya se entra en coche hasta el Islote de Hilario y la Ruta de los Volcanes se hace en el bus del parque.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/choose-best-canary-island-for-you" },
+        { "guia": "MITECO (Timanfaya, infraestructuras)", "url": "https://www.miteco.gob.es:443/content/dam/miteco/es/parques-nacionales-oapn/red-parques-nacionales/parques-nacionales/timan_info_infraestructuras_tcm30-67618.pdf" }
+      ]
+    },
+    {
+      "id": "es-ronda", "puntaje": 4, "mejor_epoca": [3, 4, 5, 10, 11], "dias_sugeridos": 2, "costo": "$$",
+      "acceso": "Bus desde Málaga y Sevilla (unas 2 h) o tren con transbordo; la ciudad se recorre a pie.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/spain/white-hill-towns" }
+      ]
+    },
+    {
+      "id": "es-pueblos-blancos-cadiz", "puntaje": 3, "mejor_epoca": [3, 4, 5, 10, 11], "dias_sugeridos": 3, "costo": "$$",
+      "acceso": "Ruta en coche de alquiler desde Sevilla, Jerez o Málaga; los buses comarcales entre pueblos son escasos.",
+      "alerta": "Grazalema es de los lugares más lluviosos de España entre noviembre y marzo; en verano hace mucho calor.",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/spain/best-white-villages-andalucia/" }
+      ]
+    },
+    {
+      "id": "es-tarifa-bolonia", "puntaje": 4, "mejor_epoca": [5, 6, 9, 10], "dias_sugeridos": 2, "costo": "$$",
+      "acceso": "Bus desde Algeciras, Cádiz y Sevilla a Tarifa; a Bolonia (unos 20 km) en la práctica solo se llega en coche; ferry a Tánger (1 h).",
+      "alerta": "Muchos días sopla un Levante muy fuerte: ideal para kitesurf, incómodo para la playa.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-beaches-in-spain" }
+      ]
+    },
+    {
+      "id": "es-jerez-de-la-frontera", "puntaje": 4, "mejor_epoca": [3, 4, 5, 9, 10, 11], "dias_sugeridos": 2, "costo": "$$",
+      "acceso": "Aeropuerto propio; tren a Sevilla (1 h) y Cádiz (40 min); bodegas y escuela ecuestre en el centro o cerca.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/day-trips-from-seville" }
+      ]
+    },
+    {
+      "id": "es-malaga", "puntaje": 5, "mejor_epoca": [3, 4, 5, 6, 9, 10, 11], "dias_sugeridos": 2, "costo": "$$",
+      "acceso": "Aeropuerto internacional con Cercanías al centro (unos 12 min); AVE desde Madrid (unas 2 h 40); centro peatonal.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://lonelyplanet.com/destinations/spain" }
+      ]
+    },
+    {
+      "id": "es-ubeda-baeza", "puntaje": 3, "mejor_epoca": [3, 4, 5, 10, 11], "dias_sugeridos": 2, "costo": "$$",
+      "acceso": "Sin tren práctico: bus desde Jaén (alrededor de 1 h) o Granada (unas 2 h), o coche; Baeza está a 9 km de Úbeda.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Time Out", "url": "https://www.timeout.com/spain/things-to-do/amazing-places-to-visit-in-spain" }
+      ]
+    },
+    {
+      "id": "es-alpujarras-sierra-nevada", "puntaje": 3, "mejor_epoca": [4, 5, 6, 9, 10], "dias_sugeridos": 3, "costo": "$$",
+      "acceso": "Coche desde Granada (unos 1 h 15 hasta Pampaneira o Capileira, por carreteras de curvas); buses limitados. La estación de esquí está a unos 45 min de Granada.",
+      "alerta": "Los senderos de cumbre (Mulhacén, Veleta) están nevados aproximadamente de noviembre a mayo; la temporada de esquí va de diciembre a abril.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-national-parks-spain" }
+      ]
+    },
+    {
+      "id": "es-donana", "puntaje": 3, "mejor_epoca": [2, 3, 4, 5, 10, 11], "dias_sugeridos": 2, "costo": "$$",
+      "acceso": "Coche desde Sevilla (alrededor de 1 h hasta El Rocío o El Acebuche); el interior del parque solo se visita en 4x4 guiado desde El Acebuche (unas 4 h) o en barco desde Sanlúcar.",
+      "alerta": "En verano hay calor fuerte y mosquitos; las plazas de las visitas guiadas son limitadas y conviene reservar.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-national-parks-spain" },
+        { "guia": "Civitatis (visita guiada Doñana)", "url": "https://www.civitatis.com/es/almonte/visita-guiada-donana/" }
+      ]
+    },
+    {
+      "id": "es-cuenca", "puntaje": 4, "mejor_epoca": [4, 5, 6, 9, 10], "dias_sugeridos": 2, "costo": "$$",
+      "acceso": "AVE desde Madrid (alrededor de 55 min) hasta Cuenca-Fernando Zóbel y bus urbano al casco alto; coche para la Ciudad Encantada (unos 25 km).",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-cuenca" }
+      ]
+    },
+    {
+      "id": "es-ordesa-monte-perdido", "puntaje": 3, "mejor_epoca": [6, 7, 8, 9, 10], "dias_sugeridos": 3, "costo": "$$",
+      "acceso": "Coche hasta Torla. En verano, Semana Santa y puentes, a la Pradera de Ordesa solo se sube en autobús desde el aparcamiento de Torla; los billetes se compran en taquilla y el aforo puede completarse.",
+      "alerta": "Las rutas altas tienen nieve de noviembre a mayo y en verano hay tormentas de tarde. El aforo de la Pradera es limitado: llega temprano.",
+      "fuentes": [
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/spain/the-pyrenees/things-to-do/sights/reviews/ordesa-and-monte-perdido-national-park-451118" },
+        { "guia": "MITECO / Ayto. Torla (folleto buses 2025)", "url": "https://www.miteco.gob.es/content/dam/miteco/es/parques-nacionales-oapn/red-parques-nacionales/parques-nacionales/ordesa/FOLLETO_BUSES_2025.pdf" }
+      ]
+    },
+    {
+      "id": "es-la-rioja", "puntaje": 3, "mejor_epoca": [5, 6, 9, 10], "dias_sugeridos": 2, "costo": "$$",
+      "acceso": "Tren a Logroño y Haro; las bodegas y la Rioja Alavesa se recorren en coche o con tour, y las visitas a bodega se reservan.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-spain-in-fall" }
+      ]
+    },
+    {
+      "id": "es-burgos", "puntaje": 5, "mejor_epoca": [5, 6, 7, 8, 9, 10], "dias_sugeridos": 1, "costo": "$$",
+      "acceso": "Tren desde Madrid-Chamartín (menos de 2 h) o bus; la catedral y el casco histórico quedan a pie.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/destinations/spain/castilla-y-leon/burgos" }
+      ]
+    },
+    {
+      "id": "es-leon", "puntaje": 5, "mejor_epoca": [5, 6, 7, 8, 9, 10], "dias_sugeridos": 2, "costo": "$$",
+      "acceso": "AVE desde Madrid (unas 2 h); la catedral y el Barrio Húmedo quedan a pie desde la estación.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/destinations/spain/castilla-y-leon" }
+      ]
+    },
+    {
+      "id": "es-caceres", "puntaje": 4, "mejor_epoca": [3, 4, 5, 10, 11], "dias_sugeridos": 2, "costo": "$$",
+      "acceso": "Bus o tren desde Madrid (unas 3 h 30-4 h) o coche por la A-5; la ciudad monumental se recorre a pie.",
+      "alerta": "En julio y agosto hace calor extremo, a menudo por encima de 40 °C.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/destinations/spain/extremadura/caceres" }
+      ]
+    },
+    {
+      "id": "es-girona", "puntaje": 5, "mejor_epoca": [4, 5, 6, 9, 10], "dias_sugeridos": 2, "costo": "$$",
+      "acceso": "AVE desde Barcelona (unos 40 min) y aeropuerto Girona-Costa Brava; el casco antiguo se recorre a pie.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-catalonia" }
+      ]
+    },
+    {
+      "id": "pt-lisboa", "puntaje": 5, "mejor_epoca": [3, 4, 5, 6, 9, 10], "dias_sugeridos": 4, "costo": "$$",
+      "acceso": "Aeropuerto con metro al centro (unos 20 min); en la ciudad, tranvías, metro y ferris; las colinas son empinadas.",
+      "alerta": "Hay carteristas en el tranvía 28, la Baixa y Alfama, y robos en coches de alquiler (lo advierten Canadá y EE. UU.).",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-portugal" },
+        { "guia": "travel.gc.ca (Portugal)", "url": "https://travel.gc.ca/destinations/portugal" },
+        { "guia": "travel.state.gov (Portugal)", "url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/portugal-travel-advisory.html" }
+      ]
+    },
+    {
+      "id": "pt-sintra", "puntaje": 4, "mejor_epoca": [3, 4, 5, 6, 9, 10], "dias_sugeridos": 2, "costo": "$$",
+      "acceso": "Tren CP desde Lisboa-Rossio (unos 40 min). A la Pena no se sube en coche privado: bus 434, a pie o en tuk-tuk. Al Cabo da Roca, bus 403.",
+      "alerta": "La entrada al Palacio da Pena tiene franja horaria estricta; en julio y agosto hay colas largas y atascos.",
+      "fuentes": [
+        { "guia": "Parques de Sintra (oficial)", "url": "https://bilheteira.parquesdesintra.pt/info/parque-e-palacio-da-pena/1202/en" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/portugal/things-to-do/" }
+      ]
+    },
+    {
+      "id": "pt-porto", "puntaje": 5, "mejor_epoca": [4, 5, 6, 9, 10], "dias_sugeridos": 3, "costo": "$$",
+      "acceso": "Aeropuerto con metro al centro (unos 30 min); Alfa Pendular desde Lisboa (unas 2 h 50); el centro se recorre a pie, con cuestas.",
+      "alerta": "Hay carteristas en la Ribeira y el metro, y robos en coches (lo advierte Canadá).",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/portugal/things-to-do-porto/" },
+        { "guia": "travel.gc.ca (Portugal)", "url": "https://travel.gc.ca/destinations/portugal" }
+      ]
+    },
+    {
+      "id": "pt-valle-del-duero", "puntaje": 4, "mejor_epoca": [5, 6, 9, 10], "dias_sugeridos": 2, "costo": "$$",
+      "acceso": "Tren regional CP de la Linha do Douro desde Porto-São Bento a Régua y Pinhão (unas 2 h 20); para quintas y miradores, coche o tour; también cruceros fluviales.",
+      "alerta": "En julio y agosto hace calor fuerte y, de abril a octubre, hay riesgo de incendios forestales (FCDO). La vendimia, en septiembre, llena el alojamiento.",
+      "fuentes": [
+        { "guia": "CP (horarios regionales Douro)", "url": "https://cp.pt/info/documents/d/cp/comboios-regionais-porto-regua-douro" },
+        { "guia": "GOV.UK (Portugal)", "url": "https://www.gov.uk/foreign-travel-advice/portugal" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/portugal/itinerary" }
+      ]
+    },
+    {
+      "id": "pt-guimaraes", "puntaje": 5, "mejor_epoca": [4, 5, 6, 9, 10], "dias_sugeridos": 1, "costo": "$$",
+      "acceso": "Tren urbano CP desde Porto-São Bento (alrededor de 1 h 10); el centro histórico se recorre a pie.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/portugal/porto-and-the-north/experiences/news/photos/10-things-to-do-in-porto-besides-drink-port" }
+      ]
+    },
+    {
+      "id": "pt-braga", "puntaje": 5, "mejor_epoca": [4, 5, 6, 9, 10], "dias_sugeridos": 1, "costo": "$$",
+      "acceso": "Tren urbano CP desde Oporto (alrededor de 1 h); a Bom Jesus, bus urbano y funicular de agua o la escalinata a pie.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/portugal/best-road-trips/" }
+      ]
+    },
+    {
+      "id": "pt-peneda-geres", "puntaje": 3, "mejor_epoca": [5, 6, 7, 9, 10], "dias_sugeridos": 3, "costo": "$",
+      "acceso": "Hace falta coche (alrededor de 1 h 30 desde Oporto o Braga hasta Gerês); los buses son escasos.",
+      "alerta": "En verano se cobra un peaje diario por vehículo para entrar en la Mata da Albergaria (2025: 1,50 €, de 11 a 18 h, hasta mediados de septiembre). De abril a octubre hay alto riesgo de incendios (FCDO).",
+      "fuentes": [
+        { "guia": "e-konomista (portagens Gerês)", "url": "https://www.e-konomista.pt/portagens-regressam-este-verao-ao-parque-nacional-da-peneda‑geres/" },
+        { "guia": "GOV.UK (Portugal)", "url": "https://www.gov.uk/foreign-travel-advice/portugal" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-national-parks-portugal" }
+      ]
+    },
+    {
+      "id": "pt-coimbra", "puntaje": 5, "mejor_epoca": [3, 4, 5, 6, 9, 10], "dias_sugeridos": 2, "costo": "$$",
+      "acceso": "Tren Alfa Pendular desde Lisboa (alrededor de 1 h 45) u Oporto (alrededor de 1 h) a Coimbra-B y enlace al centro; ciudad en cuesta a pie.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/portugal/itinerary" }
+      ]
+    },
+    {
+      "id": "pt-serra-da-estrela", "puntaje": 3, "mejor_epoca": [5, 6, 9, 10], "dias_sugeridos": 2, "costo": "$",
+      "acceso": "Hace falta coche (bases: Manteigas, Seia, Covilhã); hay tren a Covilhã y Guarda, pero no bus práctico hasta la Torre.",
+      "alerta": "De diciembre a marzo, la carretera a la Torre (EN339) cierra a menudo por nieve; en verano hay riesgo de incendios (FCDO).",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/portugal/serra-da-estrela-travel-guide/" },
+        { "guia": "Observador (cierre por nieve, ene-2026)", "url": "https://observador.pt/2026/01/21/acessos-a-serra-da-estrela-cortados-devido-a-neve-2/" }
+      ]
+    },
+    {
+      "id": "pt-monsanto", "puntaje": 3, "mejor_epoca": [3, 4, 5, 6, 9, 10, 11], "dias_sugeridos": 1, "costo": "$",
+      "acceso": "Hace falta coche (unos 50 km desde Castelo Branco); el pueblo, muy empinado, se recorre solo a pie.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-villages-portugal" }
+      ]
+    },
+    {
+      "id": "pt-nazare", "puntaje": 4, "mejor_epoca": [5, 6, 9, 10, 11], "dias_sugeridos": 1, "costo": "$$",
+      "acceso": "Bus desde Lisboa (alrededor de 1 h 45); funicular al Sítio y al faro; no hay tren directo.",
+      "alerta": "El mar es peligroso: corrientes fuertes en la playa y olas gigantes en Praia do Norte (de octubre a marzo). Báñate solo con bandera verde y no bajes a las rocas.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-portugal" }
+      ]
+    },
+    {
+      "id": "pt-obidos", "puntaje": 5, "mejor_epoca": [4, 5, 6, 9, 10], "dias_sugeridos": 1, "costo": "$$",
+      "acceso": "Bus directo desde Lisboa-Campo Grande (alrededor de 1 h); la villa amurallada se recorre a pie.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/portugal/itinerary" }
+      ]
+    },
+    {
+      "id": "pt-alcobaca", "puntaje": 4, "mejor_epoca": [3, 4, 5, 6, 9, 10, 11], "dias_sugeridos": 1, "costo": "$$",
+      "acceso": "Bus desde Lisboa (alrededor de 1 h 45) o Nazaré (unos 20 min); en coche se combina fácilmente con Batalha y Óbidos.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-road-trips-in-portugal" }
+      ]
+    },
+    {
+      "id": "pt-batalha", "puntaje": 4, "mejor_epoca": [3, 4, 5, 6, 9, 10, 11], "dias_sugeridos": 1, "costo": "$$",
+      "acceso": "Bus desde Lisboa (unas 2 h) o Leiria (unos 20 min); mejor en coche, combinando con Alcobaça y Tomar.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/portugal/itinerary" }
+      ]
+    },
+    {
+      "id": "pt-tomar", "puntaje": 4, "mejor_epoca": [4, 5, 6, 9, 10], "dias_sugeridos": 1, "costo": "$$",
+      "acceso": "Tren CP desde Lisboa (unas 2 h); el Convento de Cristo está en lo alto, a unos 15 min a pie del centro.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/tours/portugal/best-portugal-tour" }
+      ]
+    },
+    {
+      "id": "pt-peniche-berlengas", "puntaje": 3, "mejor_epoca": [6, 7, 8, 9], "dias_sugeridos": 2, "costo": "$$",
+      "acceso": "Bus desde Lisboa (alrededor de 1 h 30) a Peniche; barco a la Berlenga en temporada (unos 40-60 min), si el mar lo permite.",
+      "alerta": "El aforo es de 550 visitantes simultáneos: hay que registrarse antes y pagar una tasa en BerlengasPass. Los barcos se cancelan con mar de fondo y la travesía suele marear.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-portugal" },
+        { "guia": "Postal (registro previo Berlengas)", "url": "https://postal.pt/economia/turistas-sujeitos-a-registo-previo-para-visitar-berlengas-a-partir-de-hoje/" }
+      ]
+    },
+    {
+      "id": "pt-evora", "puntaje": 4, "mejor_epoca": [3, 4, 5, 10, 11], "dias_sugeridos": 2, "costo": "$$",
+      "acceso": "Tren Intercidades desde Lisboa (alrededor de 1 h 30) o bus; el centro amurallado se recorre a pie.",
+      "alerta": "En julio y agosto hace calor extremo, a menudo cerca de 40 °C.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-portugal" }
+      ]
+    },
+    {
+      "id": "pt-monsaraz", "puntaje": 3, "mejor_epoca": [3, 4, 5, 10, 11], "dias_sugeridos": 1, "costo": "$",
+      "acceso": "Hace falta coche (unos 50 km desde Évora); el pueblo amurallado es peatonal.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/portugal/best-road-trips/" }
+      ]
+    },
+    {
+      "id": "pt-marvao", "puntaje": 3, "mejor_epoca": [3, 4, 5, 6, 9, 10, 11], "dias_sugeridos": 1, "costo": "$",
+      "acceso": "Hace falta coche (unos 20 km desde Portalegre, cerca de la frontera con Cáceres); el pueblo se recorre a pie.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-road-trips-in-portugal" }
+      ]
+    },
+    {
+      "id": "pt-arrabida", "puntaje": 3, "mejor_epoca": [5, 6, 9, 10], "dias_sugeridos": 1, "costo": "$$",
+      "acceso": "Coche desde Lisboa (unos 45 min, vía Setúbal); en temporada de baño se limita el aparcamiento junto a las playas y hay bus lanzadera desde Setúbal.",
+      "alerta": "En verano hay riesgo de incendios forestales (FCDO).",
+      "fuentes": [
+        { "guia": "Time Out", "url": "https://www.timeout.com/portugal/travel/best-places-to-visit-in-portugal" },
+        { "guia": "GOV.UK (Portugal)", "url": "https://www.gov.uk/foreign-travel-advice/portugal" }
+      ]
+    },
+    {
+      "id": "pt-costa-vicentina", "puntaje": 3, "mejor_epoca": [3, 4, 5, 6, 9, 10], "dias_sugeridos": 3, "costo": "$$",
+      "acceso": "Coche recomendado; hay bus desde Lisboa a Vila Nova de Milfontes (unas 3 h). La Rota Vicentina se hace a pie, por etapas.",
+      "alerta": "Los acantilados no tienen valla y el mar tiene corrientes fuertes; en verano hay riesgo de incendios (FCDO).",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-hikes-in-portugal" },
+        { "guia": "GOV.UK (Portugal)", "url": "https://www.gov.uk/foreign-travel-advice/portugal" }
+      ]
+    },
+    {
+      "id": "pt-sagres", "puntaje": 4, "mejor_epoca": [3, 4, 5, 6, 9, 10], "dias_sugeridos": 2, "costo": "$$",
+      "acceso": "Desde el aeropuerto de Faro, alrededor de 1 h 15 en coche, o bus desde Lagos (unos 45 min); el coche es útil para las playas.",
+      "alerta": "Viento fuerte y acantilados sin protección en el Cabo de São Vicente.",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/portugal/things-to-do/" }
+      ]
+    },
+    {
+      "id": "pt-lagos", "puntaje": 5, "mejor_epoca": [4, 5, 6, 9, 10], "dias_sugeridos": 3, "costo": "$$",
+      "acceso": "Tren regional o bus desde Faro (alrededor de 1 h 45); las playas y la Ponta da Piedade se visitan a pie o en barco.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/portugal/itinerary" }
+      ]
+    },
+    {
+      "id": "pt-tavira", "puntaje": 5, "mejor_epoca": [4, 5, 6, 9, 10], "dias_sugeridos": 2, "costo": "$$",
+      "acceso": "Tren regional desde Faro (unos 35 min); barco a la Ilha de Tavira, con menos frecuencia en invierno.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-portugal" }
+      ]
+    },
+    {
+      "id": "pt-madeira-funchal", "puntaje": 4, "mejor_epoca": [4, 5, 6, 7, 8, 9, 10], "dias_sugeridos": 5, "costo": "$$",
+      "acceso": "Vuelos directos a Funchal desde Lisboa y gran parte de Europa; en Funchal, bus y teleférico; al macizo central (Pico do Arieiro, alrededor de 1 h), coche o tour.",
+      "alerta": "El viento desvía vuelos con frecuencia. Desde 2026 los senderos PR exigen reserva y tasa en SIMplifica (PR1 Arieiro-Ruivo: 10,50 €; en mayo de 2026 cerraba de lunes a jueves por obras). En verano hay riesgo de incendios (FCDO).",
+      "fuentes": [
+        { "guia": "Visit Madeira (FAQ oficial)", "url": "https://visitmadeira.com/en/travel-info/faq/" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/first-time-guide-to-madeira" },
+        { "guia": "GOV.UK (Portugal)", "url": "https://www.gov.uk/foreign-travel-advice/portugal" }
+      ]
+    },
+    {
+      "id": "pt-madeira-rabacal", "puntaje": 3, "mejor_epoca": [4, 5, 6, 7, 8, 9, 10], "dias_sugeridos": 1, "costo": "$$",
+      "acceso": "Coche o tour desde Funchal (alrededor de 1 h 15) hasta el aparcamiento de Rabaçal en la ER105; desde allí, lanzadera municipal o 2 km a pie hasta la casa forestal.",
+      "alerta": "La PR6 exige reserva y tasa en SIMplifica. El aparcamiento se llena antes de las 9:30 y la ER105 hacia Encumeada ha tenido cierres temporales.",
+      "fuentes": [
+        { "guia": "Câmara Municipal da Calheta (PR6)", "url": "https://www.cmcalheta.pt/en/visit/walking-routes/list-of-routes/pr-6-levada-das-25-fontes" },
+        { "guia": "Visit Madeira (FAQ oficial)", "url": "https://visitmadeira.com/en/travel-info/faq/" }
+      ]
+    },
+    {
+      "id": "pt-madeira-porto-moniz", "puntaje": 4, "mejor_epoca": [5, 6, 7, 8, 9, 10], "dias_sugeridos": 1, "costo": "$$",
+      "acceso": "Coche desde Funchal (alrededor de 1 h 15 por la vía rápida) o bus regional; las piscinas naturales tienen entrada.",
+      "alerta": "Las piscinas naturales cierran con mar fuerte.",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://roughguides.com/portugal/trips/madeira-sao-miguel-guided-island-adventures-trip" }
+      ]
+    },
+    {
+      "id": "pt-azores-sete-cidades", "puntaje": 3, "mejor_epoca": [5, 6, 7, 8, 9], "dias_sugeridos": 2, "costo": "$$",
+      "acceso": "Vuelos a Ponta Delgada desde Lisboa, Oporto y Norteamérica; a Sete Cidades, unos 30 min en coche (el bus es escaso).",
+      "alerta": "Muchos días la niebla tapa los miradores (Vista do Rei): mira las webcams antes de subir.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-the-azores" },
+        { "guia": "travel.gc.ca (Azores)", "url": "https://travel.gc.ca/destinations/azores" }
+      ]
+    },
+    {
+      "id": "pt-azores-furnas", "puntaje": 3, "mejor_epoca": [5, 6, 7, 8, 9, 10], "dias_sugeridos": 2, "costo": "$$",
+      "acceso": "Coche desde Ponta Delgada (unos 45 min) o bus regional; Terra Nostra y Poça da Dona Beija tienen entrada.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-the-azores" }
+      ]
+    },
+    {
+      "id": "pt-azores-pico", "puntaje": 3, "mejor_epoca": [5, 6, 7, 8, 9], "dias_sugeridos": 3, "costo": "$$",
+      "acceso": "Vuelo interinsular SATA, o ferry desde Horta (Faial) en unos 30 min; en la isla hace falta coche.",
+      "alerta": "Para subir a la Montanha do Pico hay que registrarse en la Casa da Montanha (unos 25 € hasta el Piquinho) y el aforo es limitado. El tiempo cambia de golpe y hay niebla.",
+      "fuentes": [
+        { "guia": "SIARAM / Governo dos Açores (Casa da Montanha)", "url": "https://siaram.azores.gov.pt/centros-interpretacao/casa-da-montanha/_horario.html" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-the-azores" }
+      ]
+    },
+    {
+      "id": "pt-azores-faial", "puntaje": 3, "mejor_epoca": [5, 6, 7, 8, 9], "dias_sugeridos": 2, "costo": "$$",
+      "acceso": "Vuelos a Horta desde Lisboa y Ponta Delgada; ferry a Pico (unos 30 min); a la Caldeira y a Capelinhos, coche o taxi.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-the-azores" }
+      ]
+    },
+    {
+      "id": "pt-azores-flores", "puntaje": 2, "mejor_epoca": [6, 7, 8, 9], "dias_sugeridos": 3, "costo": "$$",
+      "acceso": "Solo por vuelo SATA Air Açores desde Ponta Delgada, Terceira o Horta (alrededor de 1 h); en la isla hace falta coche.",
+      "alerta": "Los vuelos se cancelan a menudo por mal tiempo, sobre todo de noviembre a febrero: deja días de margen antes del vuelo internacional.",
+      "fuentes": [
+        { "guia": "Azores Getaways (cómo llegar a Flores)", "url": "https://azoresgetaways.com/en-eu/destination/azores/flores/flores-how-to-get-there" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-the-azores" }
+      ]
+    },
+    {
+      "id": "ad-andorra-la-vella-escaldes", "puntaje": 4, "mejor_epoca": [1, 2, 3, 6, 7, 8, 9, 12], "dias_sugeridos": 2, "costo": "$$",
+      "acceso": "Sin aeropuerto ni tren: bus directo desde el aeropuerto de Barcelona (unas 3-4 h) o desde Toulouse; el centro se recorre a pie.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "GOV.UK (Andorra)", "url": "https://www.gov.uk/foreign-travel-advice/andorra/safety-and-security" },
+        { "guia": "Ordino Arcalís (cómo llegar desde Barcelona)", "url": "https://ordinoarcalis.com/en/blog/how-to-get-andorra-from-barcelona" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/guide-to-andorra" }
+      ]
+    },
+    {
+      "id": "ad-vall-del-madriu", "puntaje": 3, "mejor_epoca": [6, 7, 8, 9, 10], "dias_sugeridos": 1, "costo": "$$",
+      "acceso": "A pie desde Escaldes-Engordany (el valle no tiene carreteras); la travesía completa requiere dormir en refugio.",
+      "alerta": "Es alta montaña: nieve aproximadamente de noviembre a mayo y tormentas en verano. Canadá advierte de que los senderos pueden no estar señalizados.",
+      "fuentes": [
+        { "guia": "travel.gc.ca (Andorra)", "url": "https://travel.gc.ca/destinations/andorra" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/guide-to-andorra" }
+      ]
+    },
+    {
+      "id": "ad-grandvalira-pas-de-la-casa", "puntaje": 4, "mejor_epoca": [1, 2, 3, 7, 8, 12], "dias_sugeridos": 3, "costo": "$$$",
+      "acceso": "Bus desde Andorra la Vella a Soldeu y Pas de la Casa (30-45 min); a Pas de la Casa también se llega desde Francia.",
+      "alerta": "Fuera de pista hay riesgo de aludes (lo advierte Canadá); en invierno el Port d'Envalira (2.408 m) puede exigir cadenas.",
+      "fuentes": [
+        { "guia": "travel.gc.ca (Andorra)", "url": "https://travel.gc.ca/destinations/andorra" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/paid-content-andorra-winter-getaway" }
+      ]
+    },
+    {
+      "id": "ad-ordino-arcalis", "puntaje": 4, "mejor_epoca": [1, 2, 3, 6, 7, 8, 9, 12], "dias_sugeridos": 2, "costo": "$$",
+      "acceso": "Bus desde Andorra la Vella a Ordino (unos 20 min); a Arcalís por la carretera CG-3 hasta el final del valle, con bus de esquí en invierno.",
+      "alerta": "Hay riesgo de aludes en el freeride fuera de pista.",
+      "fuentes": [
+        { "guia": "travel.gc.ca (Andorra)", "url": "https://travel.gc.ca/destinations/andorra" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/guide-to-andorra" }
+      ]
+    },
+    {
+      "id": "ad-estanys-de-juclar", "puntaje": 3, "mejor_epoca": [6, 7, 8, 9, 10], "dias_sugeridos": 1, "costo": "$$",
+      "acceso": "Coche o bus hasta Soldeu y carretera de la Vall d'Incles hasta el aparcamiento final; luego, unas 2 h a pie hasta el refugio y los lagos.",
+      "alerta": "La ruta de alta montaña solo es practicable sin nieve, aproximadamente de junio a octubre.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/guide-to-andorra" }
+      ]
+    },
+    {
+      "id": "ad-coma-pedrosa", "puntaje": 2, "mejor_epoca": [7, 8, 9], "dias_sugeridos": 1, "costo": "$$",
+      "acceso": "Bus o coche hasta Arinsal; la ascensión supone unos 1.400 m de desnivel (7-8 h ida y vuelta) pasando por el refugio de Comapedrosa.",
+      "alerta": "La cumbre (2.942 m) solo es factible sin nieve, aproximadamente de julio a septiembre. Hay tormentas de tarde y es una ascensión exigente; Canadá advierte de los senderos sin señalizar.",
+      "fuentes": [
+        { "guia": "travel.gc.ca (Andorra)", "url": "https://travel.gc.ca/destinations/andorra" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/guide-to-andorra" }
+      ]
+    },
+    {
+      "id": "ad-naturlandia", "puntaje": 4, "mejor_epoca": [1, 2, 3, 6, 7, 8, 9, 12], "dias_sugeridos": 1, "costo": "$$",
+      "acceso": "Coche o bus desde Sant Julià de Lòria hasta la Rabassa, por unos 20 min de carretera de montaña.",
+      "alerta": "El Tobotronc y algunas actividades cierran por lluvia, viento o nieve.",
+      "fuentes": [
+        { "guia": "Fodor's", "url": "https://www.fodors.com/news/trip-ideas/best-things-to-do-in-andorra" }
+      ]
+    },
+    {
+      "id": "ad-canillo-sant-joan-de-caselles", "puntaje": 4, "mejor_epoca": [5, 6, 7, 8, 9, 10], "dias_sugeridos": 1, "costo": "$$",
+      "acceso": "Bus de línea desde Andorra la Vella (20-25 min); la iglesia está junto a la carretera CG-2, a la salida de Canillo.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Culture Trip", "url": "https://theculturetrip.com/europe/andorra/articles/20-must-visit-attractions-in-andorra" }
+      ]
+    },
+    {
+      "id": "es-merida", "puntaje": 4, "mejor_epoca": [3, 4, 5, 9, 10], "dias_sugeridos": 2, "costo": "$$",
+      "acceso": "Tren o bus desde Madrid (unas 4-5 h) y Sevilla (unas 3 h); los monumentos se visitan a pie.",
+      "alerta": "En julio y agosto hace calor extremo; el Festival de Teatro Clásico se celebra por la noche.",
+      "fuentes": [
+        { "guia": "UNESCO (lista de España)", "url": "https://whc.unesco.org/en/statesparties/es/" }
+      ]
+    },
+    {
+      "id": "es-tarragona", "puntaje": 5, "mejor_epoca": [4, 5, 6, 9, 10], "dias_sugeridos": 1, "costo": "$$",
+      "acceso": "Tren regional desde Barcelona (alrededor de 1 h) o AVE a Camp de Tarragona y bus; las ruinas se recorren a pie.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "UNESCO (lista de España)", "url": "https://whc.unesco.org/en/statesparties/es/" }
+      ]
+    },
+    {
+      "id": "es-zaragoza", "puntaje": 5, "mejor_epoca": [3, 4, 5, 6, 9, 10], "dias_sugeridos": 2, "costo": "$$",
+      "acceso": "AVE desde Madrid (alrededor de 1 h 20) y Barcelona (alrededor de 1 h 30); centro a pie y tranvía.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "UNESCO (lista de España)", "url": "https://whc.unesco.org/en/statesparties/es/" }
+      ]
+    },
+    {
+      "id": "es-oviedo", "puntaje": 5, "mejor_epoca": [5, 6, 7, 8, 9, 10], "dias_sugeridos": 2, "costo": "$$",
+      "acceso": "Aeropuerto de Asturias (unos 45 min en bus) y tren desde Madrid; el Naranco está a unos 3 km del centro (bus urbano o a pie).",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/669/" }
+      ]
+    },
+    {
+      "id": "es-antequera", "puntaje": 4, "mejor_epoca": [3, 4, 5, 10, 11], "dias_sugeridos": 1, "costo": "$$",
+      "acceso": "AVE a Antequera-Santa Ana desde Madrid, Sevilla o Granada, o bus desde Málaga (unos 45 min); los dólmenes están a 1 km del centro y El Torcal requiere coche.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "UNESCO (lista de España)", "url": "https://whc.unesco.org/en/statesparties/es/" }
+      ]
+    },
+    {
+      "id": "es-alcala-de-henares", "puntaje": 5, "mejor_epoca": [3, 4, 5, 6, 9, 10, 11], "dias_sugeridos": 1, "costo": "$$",
+      "acceso": "Cercanías desde Madrid-Atocha (unos 35-40 min); el casco histórico se recorre a pie.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "UNESCO (lista de España)", "url": "https://whc.unesco.org/en/statesparties/es/" }
+      ]
+    },
+    {
+      "id": "es-aranjuez", "puntaje": 5, "mejor_epoca": [4, 5, 6, 9, 10], "dias_sugeridos": 1, "costo": "$$",
+      "acceso": "Cercanías C-3 desde Madrid-Atocha (alrededor de 45 min); el palacio y los jardines quedan a pie desde la estación.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "UNESCO (lista de España)", "url": "https://whc.unesco.org/en/statesparties/es/" }
+      ]
+    },
+    {
+      "id": "es-las-medulas", "puntaje": 3, "mejor_epoca": [4, 5, 6, 9, 10], "dias_sugeridos": 1, "costo": "$",
+      "acceso": "Hace falta coche (unos 25 km desde Ponferrada); paseos a pie desde el pueblo de Las Médulas y desde el mirador de Orellán.",
+      "alerta": "El incendio de agosto de 2025 quemó gran parte del entorno. El mirador de Orellán se reconstruyó en noviembre de 2025 y el Aula Arqueológica sigue en obras: confirma qué sendas están abiertas.",
+      "fuentes": [
+        { "guia": "UNESCO (lista de España)", "url": "https://whc.unesco.org/en/statesparties/es/" },
+        { "guia": "Diario de León (visitas en 2026)", "url": "https://www.diariodeleon.es/bierzo/260804/2093223/visitas-medulas-bajan-50-ano-devastador-incendio.html" },
+        { "guia": "El Debate (reconstrucción de Orellán)", "url": "https://www.eldebate.com/espana/castilla-y-leon/20251121/finaliza-reconstruccion-mirador-orellan-medulas-incendio-pasado-verano_357724.html" }
+      ]
+    },
+    {
+      "id": "pt-angra-do-heroismo", "puntaje": 3, "mejor_epoca": [5, 6, 7, 8, 9], "dias_sugeridos": 2, "costo": "$$",
+      "acceso": "Vuelos a Terceira (Lajes) desde Lisboa, Ponta Delgada y Norteamérica; unos 30 min en bus o taxi hasta Angra; el centro se recorre a pie.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "UNESCO (lista de Portugal)", "url": "https://whc.unesco.org/en/statesparties/pt/" },
+        { "guia": "travel.gc.ca (Azores)", "url": "https://travel.gc.ca/destinations/azores" }
+      ]
+    },
+    {
+      "id": "pt-mafra", "puntaje": 5, "mejor_epoca": [3, 4, 5, 6, 9, 10, 11], "dias_sugeridos": 1, "costo": "$$",
+      "acceso": "Bus desde Lisboa-Campo Grande (alrededor de 1 h) o coche (unos 40 km); se combina con Ericeira.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "UNESCO (lista de Portugal)", "url": "https://whc.unesco.org/en/statesparties/pt/" }
+      ]
+    },
+    {
+      "id": "pt-elvas", "puntaje": 4, "mejor_epoca": [3, 4, 5, 10, 11], "dias_sugeridos": 1, "costo": "$",
+      "acceso": "Bus desde Lisboa (unas 3 h) o coche; está a unos 15 km de Badajoz.",
+      "alerta": "En julio y agosto hace calor extremo.",
+      "fuentes": [
+        { "guia": "UNESCO (lista de Portugal)", "url": "https://whc.unesco.org/en/statesparties/pt/" }
+      ]
+    },
+    {
+      "id": "pt-vale-do-coa", "puntaje": 3, "mejor_epoca": [3, 4, 5, 6, 9, 10], "dias_sugeridos": 2, "costo": "$",
+      "acceso": "Hace falta coche (Vila Nova de Foz Côa, a unas 2 h 30 de Oporto); los núcleos de grabados solo se visitan con guía en todoterreno desde el Museu do Côa o Castelo Melhor, con reserva previa.",
+      "alerta": "Las plazas diarias por núcleo son limitadas y algunos núcleos cierran temporalmente: confirma por teléfono o correo.",
+      "fuentes": [
+        { "guia": "Fundação Côa Parque (visitas guiadas)", "url": "https://arte-coa.pt/en/product-category/tickets/guided-visit-to-the-park" },
+        { "guia": "UNESCO (lista de Portugal)", "url": "https://whc.unesco.org/en/statesparties/pt/" }
+      ]
+    },
+    {
+      "id": "es-aiguestortes", "puntaje": 3, "mejor_epoca": [6, 7, 8, 9, 10], "dias_sugeridos": 3, "costo": "$$",
+      "acceso": "Coche hasta Espot o Boí (unas 4 h desde Barcelona); el interior del parque está cerrado a vehículos privados: se entra en taxi 4x4 desde ambos pueblos o a pie.",
+      "alerta": "En cotas altas hay nieve de noviembre a mayo, y en verano tormentas de tarde.",
+      "fuentes": [
+        { "guia": "MITECO (Aigüestortes, accesos)", "url": "https://www.miteco.gob.es/es/parques-nacionales-oapn/red-parques-nacionales/parques-nacionales/aiguestortes/guia-visitante/accesos.html" }
+      ]
+    },
+    {
+      "id": "es-caldera-de-taburiente", "puntaje": 3, "mejor_epoca": [3, 4, 5, 6, 9, 10, 11], "dias_sugeridos": 2, "costo": "$$",
+      "acceso": "Vuelo o ferry a La Palma; desde Los Llanos de Aridane, pista de 13 km hasta Los Brecitos, donde no se puede aparcar: se sube en taxi 4x4 desde el barranco de Las Angustias y se baja a pie.",
+      "alerta": "Tras lluvias fuertes, el barranco de Las Angustias puede cerrarse por crecidas y desprendimientos.",
+      "fuentes": [
+        { "guia": "MITECO (Taburiente, accesos)", "url": "https://www.miteco.gob.es/es/red-parques-nacionales/nuestros-parques/taburiente/guia-visitante/accesos.html" }
+      ]
+    },
+    {
+      "id": "es-garajonay", "puntaje": 3, "mejor_epoca": [3, 4, 5, 6, 9, 10, 11], "dias_sugeridos": 2, "costo": "$$",
+      "acceso": "Ferry Fred. Olsen o Naviera Armas desde Los Cristianos (Tenerife) a San Sebastián de La Gomera (unos 50 min); de allí, coche o guagua hasta el parque.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/380" },
+        { "guia": "Ferryhopper (Fred. Olsen Los Cristianos)", "url": "https://www.ferryhopper.com/es/blog/featured/fred-olsen-los-cristianos" }
+      ]
+    },
+    {
+      "id": "es-cabrera", "puntaje": 3, "mejor_epoca": [5, 6, 7, 8, 9, 10], "dias_sugeridos": 1, "costo": "$$",
+      "acceso": "Solo por mar: barcos autorizados desde la Colònia de Sant Jordi (unos 40 min, sobre todo en verano), o barco propio con autorización previa de navegación y fondeo.",
+      "alerta": "Las excursiones se cancelan con mal estado del mar.",
+      "fuentes": [
+        { "guia": "Govern de les Illes Balears (PN Cabrera)", "url": "https://caib.es/sites/espaisnaturalsprotegits/es/parque_nacional_maritimoterrestre_del_archipielago_de_cabrera/" }
+      ]
+    },
+    {
+      "id": "es-cabaneros", "puntaje": 3, "mejor_epoca": [3, 4, 5, 9, 10, 11], "dias_sugeridos": 2, "costo": "$",
+      "acceso": "Hace falta coche (unas 2 h desde Madrid o 1 h 30 desde Toledo hasta Horcajo de los Montes o Retuerta del Bullaque); las rutas en 4x4 por la raña se hacen con concesionarios y reserva.",
+      "alerta": "La berrea (septiembre y octubre) agota el alojamiento de la zona; en verano hace calor fuerte.",
+      "fuentes": [
+        { "guia": "MITECO (ficha de la Red de Parques Nacionales)", "url": "https://www.miteco.gob.es/content/dam/miteco/es/parques-nacionales-oapn/red-parques-nacionales/la-red/fichareddeparquesnacionalesseptiembre2022_tcm30-545677.pdf" }
+      ]
+    },
+    {
+      "id": "es-formentera", "puntaje": 3, "mejor_epoca": [5, 6, 9, 10], "dias_sugeridos": 3, "costo": "$$$",
+      "acceso": "Ferry desde Ibiza (unos 30 min, alrededor de 30 salidas diarias en temporada); en la isla, bici, moto o coche de alquiler.",
+      "alerta": "Del 1 de junio al 30 de septiembre, entrar con coche propio requiere autorización del Consell de Formentera (cupo limitado y tasa).",
+      "fuentes": [
+        { "guia": "La Voz de Ibiza (límite de vehículos 2026)", "url": "https://lavozdeibiza.com/actualidad/formentera-decide-el-viernes-el-nuevo-techo-de-vehiculos-para-la-temporada-turistica-de-2026/" },
+        { "guia": "Ibiza Travel (turismo oficial)", "url": "https://ibiza.travel/en/directorio/parque-natural-de-ses-salines-deivissa-i-formentera/" }
+      ]
+    },
+    {
+      "id": "es-getaria", "puntaje": 5, "mejor_epoca": [5, 6, 7, 8, 9, 10], "dias_sugeridos": 1, "costo": "$$$",
+      "acceso": "Bus desde San Sebastián (unos 30-40 min) o coche por la costa (N-634); el pueblo se recorre a pie.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Time Out (World's 50 Best 2025)", "url": "https://www.timeout.com/news/the-spanish-restaurant-named-second-best-in-the-world-in-2025-062325" }
+      ]
+    },
+    {
+      "id": "es-el-puerto-de-santa-maria", "puntaje": 5, "mejor_epoca": [4, 5, 6, 9, 10], "dias_sugeridos": 1, "costo": "$$",
+      "acceso": "Tren desde Jerez (unos 10 min) y Cádiz (unos 30 min), y catamarán por la bahía desde Cádiz; las bodegas quedan a pie.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Guía Michelin", "url": "https://guide.michelin.com/gb/en/article/michelin-guide-ceremony/all-michelin-star-restaurants-in-spain-2026-the-full-list" }
+      ]
+    },
+    {
+      "id": "es-denia", "puntaje": 4, "mejor_epoca": [4, 5, 6, 9, 10], "dias_sugeridos": 2, "costo": "$$",
+      "acceso": "Bus o coche desde Valencia o Alicante (alrededor de 1 h 30-2 h); ferry a Ibiza y Formentera.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Guía Michelin", "url": "https://guide.michelin.com/gb/en/article/michelin-guide-ceremony/all-michelin-star-restaurants-in-spain-2026-the-full-list" }
+      ]
+    },
+    {
+      "id": "es-ribera-del-duero", "puntaje": 3, "mejor_epoca": [5, 6, 9, 10], "dias_sugeridos": 2, "costo": "$$",
+      "acceso": "Hace falta coche: Aranda de Duero está a 1 h 45 de Madrid por la A-1 y Peñafiel, a unos 40 min de Aranda. Las bodegas se visitan con reserva previa.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "TasteAtlas", "url": "https://www.tasteatlas.com/most-popular-food-in-castile-and-leon" }
+      ]
+    },
+    {
+      "id": "es-rias-baixas", "puntaje": 3, "mejor_epoca": [5, 6, 7, 8, 9, 10], "dias_sugeridos": 3, "costo": "$$",
+      "acceso": "Coche desde Santiago o Vigo (unos 45 min a Cambados u O Grove); los buses interurbanos son limitados.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "TasteAtlas", "url": "https://www.tasteatlas.com/galicia" }
+      ]
+    },
+    {
+      "id": "es-asturias-sidra", "puntaje": 5, "mejor_epoca": [5, 6, 7, 8, 9, 10], "dias_sugeridos": 3, "costo": "$$",
+      "acceso": "Aeropuerto de Asturias y tren desde Madrid; buses frecuentes entre Oviedo, Gijón y Villaviciosa (30-45 min).",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "TasteAtlas", "url": "https://www.tasteatlas.com/asturias" }
+      ]
+    },
+    {
+      "id": "pt-vila-nova-de-gaia", "puntaje": 5, "mejor_epoca": [4, 5, 6, 9, 10], "dias_sugeridos": 1, "costo": "$$",
+      "acceso": "A pie desde la Ribeira de Oporto por el puente Luís I (5-10 min), en metro (línea D) o con el teleférico de Gaia.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/portugal/porto-and-the-north/experiences/news/photos/10-things-to-do-in-porto-besides-drink-port" }
+      ]
+    },
+    {
+      "id": "pt-matosinhos", "puntaje": 5, "mejor_epoca": [4, 5, 6, 7, 8, 9, 10], "dias_sugeridos": 1, "costo": "$$",
+      "acceso": "Metro (línea A) desde el centro de Oporto (unos 30 min); muy cerca del aeropuerto.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Guía Michelin", "url": "https://guide.michelin.com/en/article/michelin-guide-ceremony/All%20MICHELIN-Starred%20Restaurants%20in%20Portugal%202026" }
+      ]
+    },
+    {
+      "id": "pt-amarante", "puntaje": 4, "mejor_epoca": [4, 5, 6, 9, 10], "dias_sugeridos": 1, "costo": "$",
+      "acceso": "Bus desde Oporto (alrededor de 1 h) o coche por la A4 (unos 60 km); no hay tren.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Idealista (estrellas Michelin 2026)", "url": "https://www.idealista.pt/en/news/lifestyle-in-portugal/2026/03/12/74391-portugal-s-10-new-michelin-stars-in-2026" }
+      ]
+    },
+    {
+      "id": "es-portaventura", "puntaje": 4, "mejor_epoca": [4, 5, 6, 9, 10], "dias_sugeridos": 2, "costo": "$$$",
+      "acceso": "Tren regional desde Barcelona hasta la estación de PortAventura (alrededor de 1 h 20); aeropuerto de Reus a unos 10 km.",
+      "alerta": "Abre por temporadas y con calendario propio (Ferrari Land, más corto); en invierno hay muchos días cerrado: consulta el calendario oficial.",
+      "fuentes": [
+        { "guia": "PortAventura World (oficial)", "url": "https://www.portaventuraworld.com/en/parks" }
+      ]
+    },
+    {
+      "id": "es-parque-warner", "puntaje": 4, "mejor_epoca": [4, 5, 6, 9, 10], "dias_sugeridos": 1, "costo": "$$$",
+      "acceso": "Coche desde Madrid (unos 30 km, alrededor de 30 min) o bus interurbano hasta San Martín de la Vega.",
+      "alerta": "Abre solo en días seleccionados (aproximadamente de marzo a enero) y en julio y agosto hace mucho calor.",
+      "fuentes": [
+        { "guia": "Parque Warner (oficial)", "url": "https://www.parquewarner.com/en" }
+      ]
+    },
+    {
+      "id": "es-terra-mitica", "puntaje": 4, "mejor_epoca": [4, 5, 6, 9, 10], "dias_sugeridos": 1, "costo": "$$",
+      "acceso": "Coche o TRAM de Alicante hasta Benidorm, y luego bus o taxi al parque (unos 5 km); el aeropuerto de Alicante está a unos 50 min.",
+      "alerta": "La temporada va aproximadamente de abril a octubre; el calendario está pendiente de verificar con el operador.",
+      "fuentes": [
+        { "guia": "Terra Mítica (oficial)", "url": "https://www.terramiticapark.com/" }
+      ]
+    },
+    {
+      "id": "es-skydive-empuriabrava", "puntaje": 3, "mejor_epoca": [4, 5, 6, 7, 8, 9, 10], "dias_sugeridos": 1, "costo": "$$$",
+      "acceso": "Coche desde Girona (unos 45 min) o Barcelona (unas 2 h); también bus desde Figueres a Empuriabrava.",
+      "alerta": "Los saltos dependen del viento y del tiempo: reserva con un día de margen.",
+      "fuentes": [
+        { "guia": "Skydive Empuriabrava (oficial)", "url": "https://www.skydiveempuriabrava.com/" }
+      ]
+    },
+    {
+      "id": "es-baqueira-beret", "puntaje": 3, "mejor_epoca": [1, 2, 3, 12], "dias_sugeridos": 4, "costo": "$$$",
+      "acceso": "Coche por el túnel de Vielha (unas 4 h 30 desde Barcelona) o bus a Vielha y lanzadera de esquí; el puerto de la Bonaigua puede cerrar o exigir cadenas.",
+      "alerta": "La temporada de esquí va aproximadamente de diciembre a abril; fuera de pista hay riesgo de aludes.",
+      "fuentes": [
+        { "guia": "Baqueira Beret (oficial)", "url": "https://www.baqueira.es/" }
+      ]
+    },
+    {
+      "id": "es-caminito-del-rey", "puntaje": 3, "mejor_epoca": [3, 4, 5, 10, 11], "dias_sugeridos": 1, "costo": "$$",
+      "acceso": "Coche, o tren desde Málaga a El Chorro (unos 45 min); bus lanzadera entre la salida y el acceso norte de Ardales.",
+      "alerta": "Se entra con hora reservada en la web oficial (caminitodelrey.info) y las plazas se agotan semanas antes. Cierra los lunes y el 1 de enero y los días 24, 25 y 31 de diciembre, y también con viento o lluvia fuertes.",
+      "fuentes": [
+        { "guia": "Caminito del Rey (oficial)", "url": "https://www.caminitodelrey.info/" },
+        { "guia": "caminodelrey.es (cómo reservar)", "url": "https://caminodelrey.es/the-booking-portal-for-the-caminito-del-rey-how-to-buy-an-entrance-ticket/" }
+      ]
+    },
+    {
+      "id": "pt-arouca-516-paiva", "puntaje": 3, "mejor_epoca": [3, 4, 5, 6, 9, 10], "dias_sugeridos": 1, "costo": "$",
+      "acceso": "Coche desde Oporto (alrededor de 1 h hasta Arouca o la playa fluvial de Areinho); las entradas se compran online, con hora fija para el puente 516.",
+      "alerta": "Los Passadiços cierran por riesgo de incendio en verano (cierre preventivo en julio de 2025). El incendio de 2024 destruyó tramos que luego se reconstruyeron: consulta el estado antes de ir.",
+      "fuentes": [
+        { "guia": "516 Arouca (oficial)", "url": "https://516arouca.pt/" },
+        { "guia": "Renascença (cierre por incendio, jul-2025)", "url": "https://rr.pt/noticia/pais/2025/07/28/passadicos-do-paiva-e-ponte-suspensa-encerrados-devido-a-incendio/434301/" },
+        { "guia": "Geeky Explorer (entradas y logística)", "url": "https://www.geekyexplorer.com/paiva-walkways" }
+      ]
+    }
+  ]
+}
