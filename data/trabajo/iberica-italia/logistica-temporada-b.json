@@ -1,0 +1,812 @@
+{
+  "agente": "logistica-temporada",
+  "subregion": "iberica-italia",
+  "paises": ["IT", "MT", "SM", "VA"],
+  "ronda": 1,
+  "avisos_pais": [
+    { "pais_iso": "IT", "emisor": "US State Department", "nivel": "Level 2 - Exercise increased caution (terrorismo)", "url": "https://travel.state.gov/en/international-travel/travel-advisories/italy.html" },
+    { "pais_iso": "IT", "emisor": "UK FCDO", "nivel": "Sin restricción de viaje; amenaza terrorista posible, hurtos en centros turísticos, manifestaciones sin aviso", "url": "https://gov.uk/foreign-travel-advice/italy/safety-and-security" },
+    { "pais_iso": "IT", "emisor": "Global Affairs Canada", "nivel": "Exercise a high degree of caution (terrorismo); protestas violentas en Turín en febrero de 2026", "url": "https://travel.gc.ca/destinations/italy" },
+    { "pais_iso": "MT", "emisor": "US State Department", "nivel": "Level 1 - Exercise normal precautions (emitido el 9 jul 2026; aviso de corrientes de resaca en playas)", "url": "https://travel.state.gov/en/international-travel/travel-advisories/malta.html" },
+    { "pais_iso": "MT", "emisor": "UK FCDO", "nivel": "Sin restricción de viaje; el ferry a Gozo se suspende con temporales de viento", "url": "https://www.gov.uk/foreign-travel-advice/malta" },
+    { "pais_iso": "MT", "emisor": "Global Affairs Canada", "nivel": "Take normal security precautions", "url": "https://travel.gc.ca/destinations/malta" },
+    { "pais_iso": "SM", "emisor": "US State Department (vía CIA World Factbook, que reproduce el aviso)", "nivel": "Exercise increased caution (terrorismo), equivalente a Level 2; se entra por Italia", "url": "https://www.cia.gov/the-world-factbook/countries/san-marino/travel-facts" },
+    { "pais_iso": "SM", "emisor": "UK FCDO", "nivel": "Sin restricción de viaje; se entra por Italia (ver también el aviso de Italia)", "url": "https://www.gov.uk/foreign-travel-advice/san-marino" },
+    { "pais_iso": "SM", "emisor": "Global Affairs Canada", "nivel": "Take normal security precautions", "url": "https://travel.gc.ca/destinations/san-marino" },
+    { "pais_iso": "VA", "emisor": "US State Department", "nivel": "Exercise increased caution (terrorismo), equivalente a Level 2", "url": "https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/HolySee.html" },
+    { "pais_iso": "VA", "emisor": "UK FCDO (el aviso de Italia cubre la Ciudad del Vaticano)", "nivel": "Sin restricción de viaje; hurtos frecuentes en zonas turísticas", "url": "https://gov.uk/foreign-travel-advice/italy/safety-and-security" }
+  ],
+  "logistica": [
+    {
+      "id": "it-venecia", "puntaje": 4, "mejor_epoca": [3, 4, 5, 9, 10, 11], "dias_sugeridos": 3, "costo": "$$$",
+      "acceso": "Tren a Venezia Santa Lucia o vuelo a Marco Polo y después vaporetto o Alilaguna; ciudad sin coches.",
+      "alerta": "Tasa de acceso para excursionistas de un día (5 € con 4 días de antelación, 10 € después) en 60 días marcados entre el 3 de abril y el 26 de julio de 2026, de 8:30 a 16:00; quien pernocta queda exento. Acqua alta frecuente de octubre a enero.",
+      "fuentes": [
+        { "guia": "Comune di Venezia – Access Fee", "url": "https://cda.veneziaunica.it/en/access-fee" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-italy" }
+      ]
+    },
+    {
+      "id": "it-milan", "puntaje": 5, "mejor_epoca": [3, 4, 5, 6, 9, 10], "dias_sugeridos": 2, "costo": "$$$",
+      "acceso": "Aeropuertos de Malpensa, Linate y Bérgamo; alta velocidad a Milano Centrale; metro en toda la ciudad.",
+      "alerta": "La Última Cena (Santa Maria delle Grazie) se agota semanas antes: reservar con antelación.",
+      "fuentes": [
+        { "guia": "Time Out", "url": "https://www.timeout.com/milan/things-to-do/best-things-to-do-in-milan" },
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/93/" }
+      ]
+    },
+    {
+      "id": "it-lago-de-como", "puntaje": 4, "mejor_epoca": [4, 5, 6, 9, 10], "dias_sugeridos": 3, "costo": "$$$",
+      "acceso": "Tren desde Milán a Varenna (~1 h) o a Como; barcos entre Bellagio, Varenna y Menaggio.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-lake-como-italy" }
+      ]
+    },
+    {
+      "id": "it-lago-de-garda", "puntaje": 4, "mejor_epoca": [4, 5, 6, 9, 10], "dias_sugeridos": 3, "costo": "$$",
+      "acceso": "Tren Milán–Venecia a Desenzano o Peschiera del Garda; barcos entre los pueblos; coche útil para la orilla norte (Limone, Riva).",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/guide-to-italian-lakes" }
+      ]
+    },
+    {
+      "id": "it-lago-maggiore", "puntaje": 4, "mejor_epoca": [4, 5, 6, 9, 10], "dias_sugeridos": 2, "costo": "$$$",
+      "acceso": "Tren desde Milán a Stresa (~1 h) y barcos a las Islas Borromeas, cuyos palacios abren de primavera a otoño.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/guide-to-italian-lakes" }
+      ]
+    },
+    {
+      "id": "it-dolomitas", "puntaje": 3, "mejor_epoca": [1, 2, 3, 6, 7, 9], "dias_sugeridos": 5, "costo": "$$$",
+      "acceso": "Tren a Bolzano o Brunico y buses locales; coche recomendable. La carretera de peaje a Tre Cime (Rifugio Auronzo) exige reserva online: 40 € por coche en 2026.",
+      "alerta": "Muchos remontes y refugios cierran de mediados de octubre a diciembre y de abril a junio. Varios pasos por encima de 2.000 m cierran en invierno y los demás exigen neumáticos de invierno o cadenas.",
+      "fuentes": [
+        { "guia": "Dolomiti.it – strada Tre Cime", "url": "https://www.dolomiti.it/it/auronzo-misurina/news/tre-cime-strada-pedaggio-accesso-prenotazione-online" },
+        { "guia": "Südtirol.info – passi dolomitici", "url": "https://www.suedtirol.info/it/informazioni/come-arrivare/passi-dolomitici" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/guide-to-the-dolomites" }
+      ]
+    },
+    {
+      "id": "it-verona", "puntaje": 5, "mejor_epoca": [4, 5, 6, 9, 10], "dias_sugeridos": 2, "costo": "$$",
+      "acceso": "Alta velocidad Milán–Venecia hasta Verona Porta Nuova; el centro se recorre a pie.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/italy/frommers-favorite-experiences/" }
+      ]
+    },
+    {
+      "id": "it-turin", "puntaje": 5, "mejor_epoca": [3, 4, 5, 9, 10, 11], "dias_sugeridos": 2, "costo": "$$",
+      "acceso": "Alta velocidad desde Milán (~1 h) y aeropuerto de Caselle; metro y tranvía.",
+      "alerta": "En febrero de 2026 hubo manifestaciones violentas en Turín; evitar concentraciones y protestas.",
+      "fuentes": [
+        { "guia": "Global Affairs Canada", "url": "https://travel.gc.ca/destinations/italy" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-turin" }
+      ]
+    },
+    {
+      "id": "it-valle-de-aosta-monte-bianco", "puntaje": 4, "mejor_epoca": [1, 2, 3, 7, 8, 9], "dias_sugeridos": 3, "costo": "$$$",
+      "acceso": "Tren a Aosta (~2 h desde Turín) y bus o coche a Courmayeur; teleférico Skyway hasta Punta Helbronner.",
+      "alerta": "El teleférico del Monte Bianco se cierra con viento fuerte y en paradas técnicas de entretemporada.",
+      "fuentes": [
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/italy/active-pursuits/" }
+      ]
+    },
+    {
+      "id": "it-cinque-terre", "puntaje": 4, "mejor_epoca": [4, 5, 6, 9, 10], "dias_sugeridos": 2, "costo": "$$$",
+      "acceso": "Tren regional desde La Spezia (Cinque Terre Express, cada 15–30 min); sin coche. El Sentiero Azzurro requiere Cinque Terre Card, con precio según el color del día.",
+      "alerta": "El tramo Manarola–Corniglia sigue cerrado (no reabrirá antes de 2028). La Via dell'Amore solo se recorre con franja reservada y pago extra. Los senderos cierran con lluvia y en verano hay multitudes.",
+      "fuentes": [
+        { "guia": "Parco Nazionale delle Cinque Terre – Card", "url": "https://card.parconazionale5terre.it/en" },
+        { "guia": "La Spezia Guide", "url": "https://laspeziaguide.com/insider-guide/everything-cinque-terre/cinque-terre-card-explained/" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/watch-read-listen/video/tv-show/season-8/italys-riviera-cinque-terre" }
+      ]
+    },
+    {
+      "id": "it-bolonia", "puntaje": 5, "mejor_epoca": [3, 4, 5, 9, 10, 11], "dias_sugeridos": 2, "costo": "$$",
+      "acceso": "Nudo de alta velocidad (Florencia 35 min, Milán ~1 h); Marconi Express desde el aeropuerto.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Time Out", "url": "https://www.timeout.com/italy/travel/best-places-to-visit-in-italy" }
+      ]
+    },
+    {
+      "id": "it-ravena", "puntaje": 5, "mejor_epoca": [3, 4, 5, 9, 10], "dias_sugeridos": 1, "costo": "$$",
+      "acceso": "Tren regional desde Bolonia (~1 h 10); mosaicos a poca distancia a pie.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/italy/things-to-do/" }
+      ]
+    },
+    {
+      "id": "it-trieste", "puntaje": 5, "mejor_epoca": [4, 5, 6, 9, 10], "dias_sugeridos": 2, "costo": "$$",
+      "acceso": "Tren desde Venecia (~2 h) y aeropuerto de Trieste; bus al Castillo de Miramare.",
+      "alerta": "La bora puede soplar con rachas muy fuertes en invierno.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-trieste-italy" }
+      ]
+    },
+    {
+      "id": "it-florencia", "puntaje": 5, "mejor_epoca": [3, 4, 5, 10, 11], "dias_sugeridos": 3, "costo": "$$$",
+      "acceso": "Alta velocidad a Firenze Santa Maria Novella (Roma ~1 h 30, Milán ~1 h 55); centro peatonal y ZTL con multas para coches.",
+      "alerta": "Uffizi y Accademia con largas colas en temporada alta: conviene reservar franja.",
+      "fuentes": [
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/italy/florence" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-italy" }
+      ]
+    },
+    {
+      "id": "it-pisa", "puntaje": 5, "mejor_epoca": [3, 4, 5, 9, 10], "dias_sugeridos": 1, "costo": "$$",
+      "acceso": "Tren desde Florencia (~1 h) y aeropuerto Galileo Galilei unido por el PisaMover; subida a la Torre con hora reservada.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/italy/suggested-itineraries/in-two-weeks/" }
+      ]
+    },
+    {
+      "id": "it-lucca", "puntaje": 5, "mejor_epoca": [4, 5, 6, 9, 10], "dias_sugeridos": 1, "costo": "$$",
+      "acceso": "Tren regional desde Florencia (~1 h 20) o Pisa (~30 min); las murallas se recorren en bicicleta.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/tours/italy/village-italy" }
+      ]
+    },
+    {
+      "id": "it-siena", "puntaje": 5, "mejor_epoca": [4, 5, 6, 9, 10], "dias_sugeridos": 2, "costo": "$$",
+      "acceso": "Bus rápido o tren desde Florencia (~1 h 15); centro peatonal.",
+      "alerta": "Durante el Palio (2 de julio y 16 de agosto) hay multitudes y los precios se disparan.",
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/tours/italy/village-italy" }
+      ]
+    },
+    {
+      "id": "it-san-gimignano", "puntaje": 4, "mejor_epoca": [4, 5, 6, 9, 10], "dias_sugeridos": 1, "costo": "$$",
+      "acceso": "Tren a Poggibonsi (desde Florencia o Siena) y bus de ~25 min, o coche con aparcamiento fuera de las murallas.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/gallery/most-beautiful-places-in-italy/" }
+      ]
+    },
+    {
+      "id": "it-val-d-orcia", "puntaje": 3, "mejor_epoca": [4, 5, 6, 9, 10], "dias_sugeridos": 3, "costo": "$$$",
+      "acceso": "Coche casi imprescindible (~2 h desde Florencia); transporte público escaso entre Pienza, Montalcino y Montepulciano.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Time Out", "url": "https://www.timeout.com/italy/travel/most-beautiful-places" }
+      ]
+    },
+    {
+      "id": "it-asis", "puntaje": 5, "mejor_epoca": [4, 5, 6, 9, 10], "dias_sugeridos": 1, "costo": "$$",
+      "acceso": "Tren desde Roma o Florencia (~2–2 h 30) hasta Assisi y bus de 10 min a la ciudad alta.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/destinations/italy/umbria-and-le-marche/assisi" }
+      ]
+    },
+    {
+      "id": "it-orvieto", "puntaje": 5, "mejor_epoca": [4, 5, 6, 9, 10], "dias_sugeridos": 1, "costo": "$$",
+      "acceso": "Tren Roma–Florencia (~1 h desde Roma) y funicular a la ciudad alta; Civita di Bagnoregio a 20 km en bus o coche.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/watch-read-listen/video/tv-show/italy-hill-towns" }
+      ]
+    },
+    {
+      "id": "it-roma", "puntaje": 5, "mejor_epoca": [3, 4, 5, 10, 11], "dias_sugeridos": 4, "costo": "$$$",
+      "acceso": "Aeropuertos de Fiumicino y Ciampino; Roma Termini es el gran nudo ferroviario; metro, bus y mucho a pie.",
+      "alerta": "Muchos carteristas en el metro, los buses y los grandes monumentos; huelgas de transporte frecuentes.",
+      "fuentes": [
+        { "guia": "UK FCDO", "url": "https://gov.uk/foreign-travel-advice/italy/safety-and-security" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-italy" }
+      ]
+    },
+    {
+      "id": "it-napoles", "puntaje": 4, "mejor_epoca": [3, 4, 5, 9, 10, 11], "dias_sugeridos": 3, "costo": "$$",
+      "acceso": "Alta velocidad desde Roma (~1 h 10) y aeropuerto de Capodichino; metro y funiculares.",
+      "alerta": "Hurtos y tirones más frecuentes que en otras ciudades; vigilar bolsos y móviles en el centro y la zona de la estación.",
+      "fuentes": [
+        { "guia": "UK FCDO", "url": "https://gov.uk/foreign-travel-advice/italy/safety-and-security" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-southern-italy" }
+      ]
+    },
+    {
+      "id": "it-pompeya-herculano", "puntaje": 5, "mejor_epoca": [3, 4, 5, 10, 11], "dias_sugeridos": 2, "costo": "$$",
+      "acceso": "Tren Circumvesuviana desde Nápoles o Sorrento (~35 min) a Pompei Scavi y Ercolano Scavi.",
+      "alerta": "Calor extremo y casi sin sombra en julio y agosto; carteristas en la Circumvesuviana.",
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/watch-read-listen/read/articles/naples-sorrento-and-the-amalfi-coast" }
+      ]
+    },
+    {
+      "id": "it-costa-amalfitana", "puntaje": 3, "mejor_epoca": [4, 5, 6, 9, 10], "dias_sugeridos": 4, "costo": "$$$$",
+      "acceso": "Bus SITA o ferry desde Sorrento, Salerno o Nápoles (los ferris operan sobre todo de abril a octubre); la SS163 es lenta y estrecha.",
+      "alerta": "En 2026 la SS163 aplica matrículas alternas (pares e impares) en fechas punta, de 10:00 a 18:00. Muchos ferris y hoteles cierran de noviembre a marzo.",
+      "fuentes": [
+        { "guia": "Napolike – targhe alterne 2026", "url": "https://www.napolike.it/costiera-amalfitana-targhe-alterne-2026-date-e-orari-ecco-cosa-cambia" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/italy/amalfi-coast" }
+      ]
+    },
+    {
+      "id": "it-capri", "puntaje": 4, "mejor_epoca": [4, 5, 6, 9, 10], "dias_sugeridos": 2, "costo": "$$$$",
+      "acceso": "Aliscafo desde Nápoles (~50 min) o Sorrento (~20–30 min), con más de 20 salidas diarias; la tasa de desembarco de 5 € va incluida en el billete.",
+      "alerta": "Los barcos y la Gruta Azul se suspenden con mar agitado; en verano hay masificación de excursionistas.",
+      "fuentes": [
+        { "guia": "Ferryhopper – Capri", "url": "https://www.ferryhopper.com/it/ferries/italy/capri" },
+        { "guia": "Positano.com – Napoli–Capri", "url": "https://www.positano.com/it/t/napoli/capri" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/tours/italy/south-italy" }
+      ]
+    },
+    {
+      "id": "it-paestum", "puntaje": 4, "mejor_epoca": [3, 4, 5, 9, 10], "dias_sugeridos": 1, "costo": "$$",
+      "acceso": "Tren regional desde Salerno (~35 min); la estación está a unos 10 min a pie de los templos.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/campania-italy-must-see-travel-guide" }
+      ]
+    },
+    {
+      "id": "it-matera", "puntaje": 4, "mejor_epoca": [4, 5, 6, 9, 10], "dias_sugeridos": 2, "costo": "$$",
+      "acceso": "Sin alta velocidad: tren de Ferrovie Appulo Lucane o bus desde Bari (~1 h 30); el aeropuerto de Bari está a unos 65 km.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-southern-italy" }
+      ]
+    },
+    {
+      "id": "it-alberobello-valle-d-itria", "puntaje": 3, "mejor_epoca": [4, 5, 6, 9, 10], "dias_sugeridos": 3, "costo": "$$",
+      "acceso": "Coche recomendable; trenes de Ferrovie del Sud Est desde Bari a Alberobello y Locorotondo, con servicio reducido en festivos.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-puglia" }
+      ]
+    },
+    {
+      "id": "it-lecce", "puntaje": 5, "mejor_epoca": [4, 5, 6, 9, 10], "dias_sugeridos": 2, "costo": "$$",
+      "acceso": "Tren desde Bari (~1 h 30) o aeropuerto de Brindisi (~40 min); centro histórico a pie.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-southern-italy" }
+      ]
+    },
+    {
+      "id": "it-tropea", "puntaje": 4, "mejor_epoca": [5, 6, 9, 10], "dias_sugeridos": 3, "costo": "$$",
+      "acceso": "Tren regional desde Lamezia Terme, donde está el aeropuerto (~1 h); fuera de temporada, muchos servicios de playa cierran.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/why-you-should-visit-tropea-italy" }
+      ]
+    },
+    {
+      "id": "it-palermo-monreale", "puntaje": 5, "mejor_epoca": [3, 4, 5, 10, 11], "dias_sugeridos": 3, "costo": "$$",
+      "acceso": "Aeropuerto Falcone-Borsellino (tren o bus de ~50 min al centro); bus urbano a Monreale (~30 min).",
+      "alerta": "Hay carteristas en los mercados (Ballarò, Vucciria) y en el transporte público.",
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/tours/italy/sicily-2026" },
+        { "guia": "UK FCDO", "url": "https://gov.uk/foreign-travel-advice/italy/safety-and-security" }
+      ]
+    },
+    {
+      "id": "it-taormina", "puntaje": 4, "mejor_epoca": [4, 5, 6, 9, 10], "dias_sugeridos": 2, "costo": "$$$",
+      "acceso": "Tren a Taormina-Giardini (~1 h desde Catania) y bus o teleférico al pueblo; el aeropuerto de Catania queda a ~1 h.",
+      "alerta": "La ceniza del Etna cerró o limitó varias veces el aeropuerto de Catania entre julio y septiembre de 2026: conviene tener margen en los vuelos.",
+      "fuentes": [
+        { "guia": "SicurAUTO – Aeroporto Catania", "url": "https://www.sicurauto.it/news/traffico-e-viabilita/aeroporto-catania-situazione-14-settembre-voli-fermi-16/" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/tours/italy/sicily-2026" }
+      ]
+    },
+    {
+      "id": "it-siracusa-ortigia", "puntaje": 4, "mejor_epoca": [4, 5, 6, 9, 10], "dias_sugeridos": 2, "costo": "$$",
+      "acceso": "Tren o bus desde Catania (~1 h 15); Ortigia se recorre a pie.",
+      "alerta": "El aeropuerto más cercano (Catania) sufre cierres por la ceniza del Etna (verano de 2026).",
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/tours/italy/sicily-2026" },
+        { "guia": "SicurAUTO – Aeroporto Catania", "url": "https://www.sicurauto.it/news/traffico-e-viabilita/aeroporto-catania-situazione-14-settembre-voli-fermi-16/" }
+      ]
+    },
+    {
+      "id": "it-agrigento-valle-templos", "puntaje": 4, "mejor_epoca": [3, 4, 5, 10, 11], "dias_sugeridos": 1, "costo": "$$",
+      "acceso": "Tren o bus desde Palermo (~2 h) y bus urbano a la Valle; el coche ayuda a combinarla con la Scala dei Turchi.",
+      "alerta": "Casi sin sombra: evitar las horas centrales en verano.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-sicily" }
+      ]
+    },
+    {
+      "id": "it-etna", "puntaje": 3, "mejor_epoca": [5, 6, 9, 10], "dias_sugeridos": 1, "costo": "$$",
+      "acceso": "Bus diario desde Catania al Rifugio Sapienza (1.900 m), teleférico a 2.500 m y 4x4 hasta ~2.900 m; a los cráteres de la cima solo se sube con guía autorizado.",
+      "alerta": "Volcán muy activo: en julio, agosto y septiembre de 2026 hubo coladas y cierres del aeropuerto de Catania. Las ordenanzas municipales limitan el acceso a los cráteres de la cima y cambian con la actividad, así que hay que consultar los boletines del INGV antes de subir.",
+      "fuentes": [
+        { "guia": "Geopop – boletín INGV", "url": "https://www.geopop.it/etna-in-eruzione-colate-nella-valle-del-bove-voli-sospesi-nellaeroporto-di-catania-bollettino-ingv/" },
+        { "guia": "LiveUniversity – normas zona cumbre", "url": "https://catania.liveuniversity.it/2020/10/30/etna-cronaca-guide-turistiche/amp/" },
+        { "guia": "Touring Club – Funivia dell'Etna", "url": "https://www.touringclub.it/destinazioni/nicolosi/fare/127470-funivia-delletna" }
+      ]
+    },
+    {
+      "id": "it-islas-eolias", "puntaje": 3, "mejor_epoca": [5, 6, 9, 10], "dias_sugeridos": 4, "costo": "$$$",
+      "acceso": "Aliscafo de Liberty Lines desde Milazzo (~1 h a Lipari, todo el año) y ferris Siremar con coches; enlaces entre islas desde Lipari.",
+      "alerta": "En Stromboli, la subida exige guía vulcanológico y una cota máxima (400 m en las ordenanzas recientes) que cambia según la actividad del volcán. Los barcos se cancelan con mar agitado.",
+      "fuentes": [
+        { "guia": "Traghetti.com – Milazzo–Lipari", "url": "https://www.traghetti.com/traghetti-isole-eolie/traghetti-milazzo-lipari" },
+        { "guia": "BlogSicilia – ordinanza Stromboli", "url": "https://www.blogsicilia.it/messina/escursioni-sullo-stromboli-sino-a-400-metri-ma-solo-con-le-guide-alpine-e-vulcanologiche/555405/" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-sicily" }
+      ]
+    },
+    {
+      "id": "it-golfo-di-orosei", "puntaje": 3, "mejor_epoca": [5, 6, 9, 10], "dias_sugeridos": 3, "costo": "$$$",
+      "acceso": "Coche imprescindible (Olbia a ~1 h 30 de Cala Gonone); a las calas se llega en barco desde Cala Gonone o Santa Maria Navarrese en temporada.",
+      "alerta": "Los senderos del Supramonte (Gola Su Gorropu, Cala Goloritzé) son exigentes y muy calurosos en verano; con viento fuerte se cancelan los barcos.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-sardinia" }
+      ]
+    },
+    {
+      "id": "it-la-maddalena-costa-smeralda", "puntaje": 3, "mejor_epoca": [5, 6, 9], "dias_sugeridos": 3, "costo": "$$$$",
+      "acceso": "Ferry de Palau a La Maddalena (~20 min, todo el año); el aeropuerto de Olbia está a ~40 km y el coche es recomendable.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-sardinia" }
+      ]
+    },
+    {
+      "id": "it-cagliari", "puntaje": 5, "mejor_epoca": [4, 5, 6, 9, 10], "dias_sugeridos": 2, "costo": "$$",
+      "acceso": "Aeropuerto de Elmas con tren al centro; ferris desde Civitavecchia y Nápoles.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-cagliari-sardinia" }
+      ]
+    },
+    {
+      "id": "mt-valletta", "puntaje": 5, "mejor_epoca": [3, 4, 5, 10, 11], "dias_sugeridos": 2, "costo": "$$",
+      "acceso": "Bus desde el aeropuerto (~25 min); ferris a Sliema y a las Tres Ciudades.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/is-valletta-europes-most-underrated-city/" },
+        { "guia": "US State Department", "url": "https://travel.state.gov/en/international-travel/travel-advisories/malta.html" }
+      ]
+    },
+    {
+      "id": "mt-tres-ciudades", "puntaje": 5, "mejor_epoca": [3, 4, 5, 10, 11], "dias_sugeridos": 1, "costo": "$$",
+      "acceso": "Ferry o dgħajsa desde La Valeta (5–10 min) bajando con el ascensor de Barrakka.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Time Out", "url": "https://www.timeout.com/malta/travel/best-places-to-visit-in-malta" }
+      ]
+    },
+    {
+      "id": "mt-mdina-rabat", "puntaje": 5, "mejor_epoca": [3, 4, 5, 10, 11], "dias_sugeridos": 1, "costo": "$$",
+      "acceso": "Bus desde La Valeta (~30 min).",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/article/make-the-most-of-malta-a-first-timers-guide/" }
+      ]
+    },
+    {
+      "id": "mt-hipogeo-hal-saflieni", "puntaje": 3, "mejor_epoca": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], "dias_sugeridos": 1, "costo": "$$",
+      "acceso": "Bus a Paola desde La Valeta (~15 min); visitas guiadas con aforo diario muy reducido y reserva en Heritage Malta.",
+      "alerta": "Las entradas se agotan semanas o meses antes. Las de último minuto (50 €) solo se venden el día anterior, por orden de llegada.",
+      "fuentes": [
+        { "guia": "Heritage Malta", "url": "https://heritagemalta.mt/explore/hal-saflieni-hypogeum/" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/article/make-the-most-of-malta-a-first-timers-guide/" }
+      ]
+    },
+    {
+      "id": "mt-hagar-qim-mnajdra-gruta-azul", "puntaje": 4, "mejor_epoca": [3, 4, 5, 10, 11], "dias_sugeridos": 1, "costo": "$$",
+      "acceso": "Bus desde La Valeta o el aeropuerto hasta Qrendi; barcas a la Gruta Azul desde Wied iż-Żurrieq, a unos 2 km.",
+      "alerta": "Las barcas a la Gruta Azul no salen con mar agitado.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-malta" }
+      ]
+    },
+    {
+      "id": "mt-marsaxlokk", "puntaje": 5, "mejor_epoca": [3, 4, 5, 10, 11], "dias_sugeridos": 1, "costo": "$$",
+      "acceso": "Bus desde La Valeta (~30 min); el mercado de pescado es el domingo por la mañana.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Time Out", "url": "https://www.timeout.com/malta/travel/best-places-to-visit-in-malta" }
+      ]
+    },
+    {
+      "id": "mt-acantilados-dingli", "puntaje": 5, "mejor_epoca": [2, 3, 4, 5, 10, 11], "dias_sugeridos": 1, "costo": "$",
+      "acceso": "Bus desde La Valeta vía Rabat (~45 min); senderos al borde del acantilado sin vallas.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/malta_walks" }
+      ]
+    },
+    {
+      "id": "mt-golden-bay", "puntaje": 4, "mejor_epoca": [5, 6, 9, 10], "dias_sugeridos": 1, "costo": "$$",
+      "acceso": "Bus directo desde La Valeta (~50 min) o desde Buġibba.",
+      "alerta": "Hay corrientes de resaca en las playas: respetar las banderas.",
+      "fuentes": [
+        { "guia": "US State Department", "url": "https://travel.state.gov/en/international-travel/travel-advisories/malta.html" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/malta-gozos-best-beaches" }
+      ]
+    },
+    {
+      "id": "mt-mellieha", "puntaje": 4, "mejor_epoca": [5, 6, 9, 10], "dias_sugeridos": 2, "costo": "$$",
+      "acceso": "Bus desde La Valeta (~1 h); Popeye Village está a unos 2 km de la bahía.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/malta/" }
+      ]
+    },
+    {
+      "id": "mt-comino-laguna-azul", "puntaje": 3, "mejor_epoca": [5, 6, 9, 10], "dias_sugeridos": 1, "costo": "$$",
+      "acceso": "Barco desde Ċirkewwa (Malta) o Mġarr (Gozo). La Laguna Azul exige reserva gratuita en bluelagooncomino.mt, en franjas de 8:00–13:00, 13:30–17:30 y 18:00–22:00, con un máximo de 4.000 personas a la vez.",
+      "alerta": "Sin reserva se niega el acceso y puede haber multa; en verano hay masificación y casi no hay sombra.",
+      "fuentes": [
+        { "guia": "Malta Tourism Authority", "url": "https://mta.com.mt/news/new-visitor-booking-system-cominos-blue-lagoon/" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/article/make-the-most-of-malta-a-first-timers-guide/" }
+      ]
+    },
+    {
+      "id": "mt-victoria-ciudadela", "puntaje": 4, "mejor_epoca": [3, 4, 5, 9, 10, 11], "dias_sugeridos": 1, "costo": "$$",
+      "acceso": "Ferry de Gozo Channel Ċirkewwa–Mġarr (~25 min, todo el año) o fast ferry desde La Valeta, y bus a Victoria (~15 min).",
+      "alerta": "El ferry a Gozo puede suspenderse con temporales de viento, como ocurrió en enero de 2026.",
+      "fuentes": [
+        { "guia": "UK FCDO", "url": "https://www.gov.uk/foreign-travel-advice/malta" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/things-to-do-in-gozo-malta/" }
+      ]
+    },
+    {
+      "id": "mt-ggantija", "puntaje": 4, "mejor_epoca": [3, 4, 5, 9, 10, 11], "dias_sugeridos": 1, "costo": "$$",
+      "acceso": "En Xagħra, a unos 10 min en bus o coche desde Victoria; se llega a Gozo en ferry desde Ċirkewwa.",
+      "alerta": "El ferry a Gozo puede suspenderse con temporales de viento.",
+      "fuentes": [
+        { "guia": "UK FCDO", "url": "https://www.gov.uk/foreign-travel-advice/malta" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/things-to-do-in-gozo-malta/" }
+      ]
+    },
+    {
+      "id": "mt-dwejra", "puntaje": 4, "mejor_epoca": [5, 6, 9, 10], "dias_sugeridos": 1, "costo": "$$",
+      "acceso": "Bus o coche desde Victoria (~15 min); el buceo se organiza con centros de Gozo.",
+      "alerta": "Bucear en el Blue Hole solo con operador; con mar del noroeste las condiciones se vuelven peligrosas.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-malta" }
+      ]
+    },
+    {
+      "id": "mt-ramla-bay", "puntaje": 4, "mejor_epoca": [5, 6, 9, 10], "dias_sugeridos": 1, "costo": "$$",
+      "acceso": "Bus o coche desde Victoria (~15 min).",
+      "alerta": "Hay corrientes de resaca en las playas: respetar las banderas.",
+      "fuentes": [
+        { "guia": "US State Department", "url": "https://travel.state.gov/en/international-travel/travel-advisories/malta.html" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-malta" }
+      ]
+    },
+    {
+      "id": "mt-xlendi", "puntaje": 4, "mejor_epoca": [5, 6, 9, 10], "dias_sugeridos": 1, "costo": "$$",
+      "acceso": "Bus desde Victoria (~10 min).",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/things-to-do-in-gozo-malta/" }
+      ]
+    },
+    {
+      "id": "sm-centro-historico", "puntaje": 4, "mejor_epoca": [4, 5, 6, 9, 10], "dias_sugeridos": 1, "costo": "$$",
+      "acceso": "Sin tren ni aeropuerto: bus desde la estación de Rímini (~50 min) o coche, y teleférico desde Borgo Maggiore.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/italy/emilia-romagna/places/romagna/san-marino" },
+        { "guia": "UK FCDO", "url": "https://www.gov.uk/foreign-travel-advice/san-marino" }
+      ]
+    },
+    {
+      "id": "sm-torre-guaita", "puntaje": 4, "mejor_epoca": [4, 5, 6, 9, 10], "dias_sugeridos": 1, "costo": "$$",
+      "acceso": "Unos 10 min a pie desde la Piazza della Libertà; las escaleras interiores son empinadas.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/points-of-interest/torre-guaita/1432921" }
+      ]
+    },
+    {
+      "id": "sm-torre-cesta", "puntaje": 4, "mejor_epoca": [4, 5, 6, 9, 10], "dias_sugeridos": 1, "costo": "$$",
+      "acceso": "Sendero de cresta de ~10 min desde la Guaita; dentro hay un museo de armas.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/points-of-interest/torre-cesta/1137960" }
+      ]
+    },
+    {
+      "id": "sm-torre-montale", "puntaje": 4, "mejor_epoca": [4, 5, 6, 9, 10], "dias_sugeridos": 1, "costo": "$",
+      "acceso": "Sendero boscoso corto desde la Cesta; solo se ve por fuera.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/italy/emilia-romagna/places/romagna/san-marino/things-to-do/sights" }
+      ]
+    },
+    {
+      "id": "sm-borgo-maggiore", "puntaje": 4, "mejor_epoca": [4, 5, 6, 9, 10], "dias_sugeridos": 1, "costo": "$$",
+      "acceso": "Bus desde Rímini o coche (aparcamientos); teleférico a la Città.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/italy/emilia-romagna/san-marino/" }
+      ]
+    },
+    {
+      "id": "va-basilica-san-pedro", "puntaje": 5, "mejor_epoca": [1, 2, 3, 10, 11], "dias_sugeridos": 1, "costo": "$",
+      "acceso": "Metro A Ottaviano (~10 min a pie); entrada gratuita tras control de seguridad.",
+      "alerta": "Código de vestimenta estricto (hombros y rodillas cubiertos) y largas colas en el control de seguridad.",
+      "fuentes": [
+        { "guia": "US State Department – Holy See", "url": "https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/HolySee.html" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/rome/attractions/st-peters-basilica/" }
+      ]
+    },
+    {
+      "id": "va-cupula-san-pedro", "puntaje": 4, "mejor_epoca": [1, 2, 3, 10, 11], "dias_sugeridos": 1, "costo": "$",
+      "acceso": "Acceso desde el pórtico de la basílica: 551 escalones, o 320 si se usa el ascensor.",
+      "alerta": "El tramo final es estrecho e inclinado: no apto para claustrofobia ni movilidad reducida.",
+      "fuentes": [
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/rome/attractions/st-peters-basilica/" }
+      ]
+    },
+    {
+      "id": "va-museos-vaticanos", "puntaje": 4, "mejor_epoca": [1, 2, 3, 11], "dias_sugeridos": 1, "costo": "$$",
+      "acceso": "Metro A Cipro u Ottaviano (~10 min a pie). Las entradas con franja horaria solo se venden en tickets.museivaticani.va; abre de lunes a sábado.",
+      "alerta": "Hay webs clónicas que venden entradas mucho más caras. Cierra los domingos, salvo el último del mes (gratis, de 9:00 a 14:00, con colas enormes).",
+      "fuentes": [
+        { "guia": "Musei Vaticani – venta oficial", "url": "https://tickets.museivaticani.va" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/rome/things-to-do/in-vatican-city/" }
+      ]
+    },
+    {
+      "id": "va-capilla-sixtina", "puntaje": 4, "mejor_epoca": [1, 2, 3, 11], "dias_sugeridos": 1, "costo": "$$",
+      "acceso": "Solo se entra por el recorrido de los Museos Vaticanos, con la misma entrada.",
+      "alerta": "Prohibido fotografiar; a media mañana se forman aglomeraciones.",
+      "fuentes": [
+        { "guia": "Musei Vaticani – venta oficial", "url": "https://tickets.museivaticani.va" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/points-of-interest/sistine-chapel/1027806" }
+      ]
+    },
+    {
+      "id": "va-plaza-san-pedro", "puntaje": 5, "mejor_epoca": [1, 2, 3, 4, 5, 10, 11, 12], "dias_sugeridos": 1, "costo": "$",
+      "acceso": "Metro A Ottaviano; acceso libre.",
+      "alerta": "Durante audiencias y celebraciones papales hay cierres parciales y controles.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "http://www.lonelyplanet.com/italy/rome/sights/religious/st-peter-s-basilica" }
+      ]
+    },
+    {
+      "id": "va-jardines-vaticanos", "puntaje": 3, "mejor_epoca": [3, 4, 5, 9, 10], "dias_sugeridos": 1, "costo": "$$$",
+      "acceso": "Solo con visita guiada (a pie o en minibús) reservada en la web de los Museos Vaticanos.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/rome/things-to-do/in-vatican-city/" }
+      ]
+    },
+    {
+      "id": "it-padova", "puntaje": 5, "mejor_epoca": [3, 4, 5, 9, 10, 11], "dias_sugeridos": 2, "costo": "$$",
+      "acceso": "Tren desde Venecia (~30 min) o Milán (~2 h); la Capilla de los Scrovegni exige reserva por franja horaria.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/824/" }
+      ]
+    },
+    {
+      "id": "it-urbino", "puntaje": 4, "mejor_epoca": [4, 5, 6, 9, 10], "dias_sugeridos": 1, "costo": "$$",
+      "acceso": "Sin tren: bus desde Pesaro (~1 h) o coche; ciudad en colina con cuestas.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/828/" }
+      ]
+    },
+    {
+      "id": "it-mantova-sabbioneta", "puntaje": 4, "mejor_epoca": [4, 5, 9, 10], "dias_sugeridos": 2, "costo": "$$",
+      "acceso": "Tren desde Verona (~45 min) o Milán (~2 h); a Sabbioneta, a ~30 km, mejor en coche.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/1287/" }
+      ]
+    },
+    {
+      "id": "it-ferrara", "puntaje": 5, "mejor_epoca": [4, 5, 6, 9, 10], "dias_sugeridos": 1, "costo": "$$",
+      "acceso": "Tren desde Bolonia (~30 min) o Venecia (~1 h 30); las murallas se recorren en bicicleta.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/733/" }
+      ]
+    },
+    {
+      "id": "it-genova", "puntaje": 5, "mejor_epoca": [3, 4, 5, 6, 9, 10], "dias_sugeridos": 2, "costo": "$$",
+      "acceso": "Tren desde Milán (~1 h 30) o Turín y aeropuerto Cristoforo Colombo; centro histórico a pie.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/1211/" }
+      ]
+    },
+    {
+      "id": "it-su-nuraxi-barumini", "puntaje": 3, "mejor_epoca": [3, 4, 5, 9, 10], "dias_sugeridos": 1, "costo": "$$",
+      "acceso": "Coche desde Cagliari (~1 h); visita guiada por turnos; transporte público escaso.",
+      "alerta": "Calor intenso y sin sombra en julio y agosto.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/833/" }
+      ]
+    },
+    {
+      "id": "it-villa-romana-del-casale", "puntaje": 3, "mejor_epoca": [3, 4, 5, 9, 10], "dias_sugeridos": 1, "costo": "$$",
+      "acceso": "Coche desde Catania (~1 h 15) o Palermo (~2 h); buses limitados hasta Piazza Armerina.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/832/" }
+      ]
+    },
+    {
+      "id": "it-val-di-noto", "puntaje": 3, "mejor_epoca": [4, 5, 6, 9, 10], "dias_sugeridos": 3, "costo": "$$",
+      "acceso": "Coche recomendable desde Catania (Noto a ~1 h 15); trenes y buses lentos entre Noto, Modica y Ragusa.",
+      "alerta": "El aeropuerto de Catania sufre cierres por la ceniza del Etna (verano de 2026).",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/1024/" },
+        { "guia": "SicurAUTO – Aeroporto Catania", "url": "https://www.sicurauto.it/news/traffico-e-viabilita/aeroporto-catania-situazione-14-settembre-voli-fermi-16/" }
+      ]
+    },
+    {
+      "id": "mt-templos-tarxien", "puntaje": 5, "mejor_epoca": [1, 2, 3, 4, 5, 10, 11, 12], "dias_sugeridos": 1, "costo": "$$",
+      "acceso": "Bus a Paola desde La Valeta (~15 min); a pocos minutos a pie del Hipogeo.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/132/" }
+      ]
+    },
+    {
+      "id": "it-parque-gran-paradiso", "puntaje": 3, "mejor_epoca": [6, 7, 8, 9], "dias_sugeridos": 3, "costo": "$$",
+      "acceso": "Bus desde Aosta a Cogne (~50 min) y a pie hasta Valnontey; coche útil para el resto de valles.",
+      "alerta": "Los refugios abren aproximadamente de mediados de junio a septiembre; puede quedar nieve en cota alta hasta junio.",
+      "fuentes": [
+        { "guia": "Valle d'Aosta Turismo (lovevda.it)", "url": "https://gestwww.lovevda.it/Media/Default/Allegati-PDF/pagina%20singola_GP_StambeccoIT.pdf" }
+      ]
+    },
+    {
+      "id": "it-parque-stelvio", "puntaje": 3, "mejor_epoca": [6, 7, 8, 9], "dias_sugeridos": 3, "costo": "$$$",
+      "acceso": "Coche o bus por Tirano y Bormio. El Paso del Stelvio (2.757 m) abrió el 22 de mayo de 2026 y suele cerrar entre finales de octubre y principios de noviembre.",
+      "alerta": "El paso está cerrado en invierno, y algunos días de verano se cierra al tráfico por eventos ciclistas (Enjoy Stelvio).",
+      "fuentes": [
+        { "guia": "Valtellina Mobile – chiusura Stelvio 2026", "url": "https://valtellinamobile.it/chiusura-passo-stelvio-2026/" },
+        { "guia": "Motori Magazine – Enjoy Stelvio 2026", "url": "https://www.motorimagazine.it/passi-alpini-senza-traffico-tutte-le-chiusure-e-gli-appuntamenti-di-enjoy-stelvio-valtellina-2026/" },
+        { "guia": "Trentino.com", "url": "https://www.trentino.com/it/cultura-e-territorio/natura-e-paesaggio/parchi-naturali/parco-nazionale-dello-stelvio/" }
+      ]
+    },
+    {
+      "id": "it-parque-abruzzo", "puntaje": 3, "mejor_epoca": [5, 6, 9, 10], "dias_sugeridos": 3, "costo": "$$",
+      "acceso": "Coche recomendable desde Roma (~2 h 30 hasta Pescasseroli); buses escasos.",
+      "alerta": "Zona de oso marsicano: no acercarse ni dejar comida. En temporada alta algunos senderos limitan el número de visitantes.",
+      "fuentes": [
+        { "guia": "Italia.it (ENIT)", "url": "https://www.italia.it/it/italia/parco-nazionale-abruzzo-lazio-e-molise" }
+      ]
+    },
+    {
+      "id": "it-gargano", "puntaje": 3, "mejor_epoca": [5, 6, 9], "dias_sugeridos": 3, "costo": "$$",
+      "acceso": "Coche casi imprescindible desde Foggia (~1 h 30 a Vieste); barcos a las grutas marinas en temporada.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Gargano_National_Park" },
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/1133/" }
+      ]
+    },
+    {
+      "id": "it-cilento", "puntaje": 3, "mejor_epoca": [5, 6, 9, 10], "dias_sugeridos": 3, "costo": "$$",
+      "acceso": "Tren desde Salerno o Nápoles a Pisciotta-Palinuro o Sapri; coche para el interior y las calas.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Parks.it", "url": "https://www.parks.it/parco.nazionale.cilento/Eindex.php" }
+      ]
+    },
+    {
+      "id": "it-sila", "puntaje": 3, "mejor_epoca": [6, 7, 8, 9, 10], "dias_sugeridos": 2, "costo": "$",
+      "acceso": "Coche desde Cosenza (~40 min a Camigliatello); transporte público mínimo.",
+      "alerta": "La reserva FAI de los Giganti della Sila está cerrada temporalmente por mantenimiento extraordinario (caída de árboles), sin fecha de reapertura.",
+      "fuentes": [
+        { "guia": "FAI – visita I Giganti della Sila", "url": "https://fondoambiente.it/luoghi/i-giganti-della-sila/visita" },
+        { "guia": "FAI – chiusura temporanea", "url": "https://fondoambiente.it/news/i-giganti-della-sila-chiudono-temporaneamente-ma-il-casino-mollo-resta-aperto" }
+      ]
+    },
+    {
+      "id": "it-pollino", "puntaje": 3, "mejor_epoca": [5, 6, 7, 9, 10], "dias_sugeridos": 3, "costo": "$",
+      "acceso": "Coche por la autovía A2 y Rotonda hasta el Colle dell'Impiso; transporte público casi inexistente.",
+      "alerta": "Las gargantas del Raganello solo deben recorrerse con guía: hay riesgo de crecidas repentinas (la de agosto de 2018 causó víctimas mortales entre los excursionistas).",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/1133/" }
+      ]
+    },
+    {
+      "id": "it-foreste-casentinesi", "puntaje": 3, "mejor_epoca": [5, 6, 9, 10], "dias_sugeridos": 2, "costo": "$$",
+      "acceso": "Coche desde Florencia (~1 h 30 a Camaldoli); buses comarcales limitados.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Parco Nazionale Foreste Casentinesi", "url": "https://www.parcoforestecasentinesi.it/sites/default/files/CRINALI%202017%20ok.pdf" }
+      ]
+    },
+    {
+      "id": "it-aspromonte", "puntaje": 3, "mejor_epoca": [5, 6, 9, 10], "dias_sugeridos": 2, "costo": "$",
+      "acceso": "Coche desde Reggio Calabria (~45 min a Gambarie).",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/1133/" }
+      ]
+    },
+    {
+      "id": "it-langhe-barolo", "puntaje": 3, "mejor_epoca": [4, 5, 9, 10, 11], "dias_sugeridos": 3, "costo": "$$$",
+      "acceso": "Alba está a ~1 h de Turín y tiene trenes regionales, pero los pueblos del vino requieren coche o tour.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Paesaggi Vitivinicoli UNESCO", "url": "https://www.paesaggivitivinicoliunesco.it/en/unesco-site-vineyard-landscape/introduction-to-the-unesco-site/discover-the-site" }
+      ]
+    },
+    {
+      "id": "it-chianti-classico", "puntaje": 3, "mejor_epoca": [4, 5, 6, 9, 10], "dias_sugeridos": 3, "costo": "$$$",
+      "acceso": "Coche por la SR222 Chiantigiana desde Florencia (Greve a ~45 min); buses comarcales limitados.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Consorzio Vino Chianti Classico", "url": "https://chianticlassico.com/en/?p=2166" }
+      ]
+    },
+    {
+      "id": "it-parma", "puntaje": 5, "mejor_epoca": [3, 4, 5, 9, 10, 11], "dias_sugeridos": 2, "costo": "$$",
+      "acceso": "Tren desde Bolonia (~1 h) o Milán (~1 h 15); las queserías y los secaderos se visitan en coche o con tour.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Visit Italy (UNESCO Parma)", "url": "https://visititaly.eu/unesco/parma-unesco-heritage-gastronomy-cuisine" }
+      ]
+    },
+    {
+      "id": "it-modena", "puntaje": 5, "mejor_epoca": [3, 4, 5, 9, 10, 11], "dias_sugeridos": 2, "costo": "$$",
+      "acceso": "Tren desde Bolonia (~25 min); las acetaie de la provincia se visitan en coche o con tour.",
+      "alerta": "La Osteria Francescana se reserva con meses de antelación.",
+      "fuentes": [
+        { "guia": "Visit Modena", "url": "https://www.visitmodena.it/en/discover-modena/land-of-flavors/the-vinegar-factories" }
+      ]
+    },
+    {
+      "id": "it-franciacorta", "puntaje": 3, "mejor_epoca": [4, 5, 6, 9, 10], "dias_sugeridos": 2, "costo": "$$$",
+      "acceso": "Coche desde Milán (~1 h) o Brescia; el tren regional Brescia–Iseo tiene estaciones en la zona.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Consorzio Franciacorta", "url": "https://franciacorta.wine/en/consortium/associazione-strada-franciacorta/" }
+      ]
+    },
+    {
+      "id": "it-colinas-prosecco", "puntaje": 3, "mejor_epoca": [4, 5, 6, 9, 10], "dias_sugeridos": 2, "costo": "$$",
+      "acceso": "Tren a Conegliano desde Venecia (~1 h) y después coche o bicicleta por la Strada del Prosecco.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/ES/list/1571" }
+      ]
+    },
+    {
+      "id": "mt-sliema-st-julians", "puntaje": 5, "mejor_epoca": [3, 4, 5, 6, 9, 10, 11], "dias_sugeridos": 2, "costo": "$$",
+      "acceso": "Bus desde el aeropuerto (~40 min) y ferry a La Valeta (~10 min).",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Michelin (Guía Malta 2025)", "url": "https://www.michelin.com/en/publications/products-and-services/the-2025-malta-michelin-guide-selection-celebrates-a-newly-awarded-one-michelin-star-restaurant" }
+      ]
+    },
+    {
+      "id": "it-gardaland", "puntaje": 4, "mejor_epoca": [4, 5, 6, 9, 10], "dias_sugeridos": 1, "costo": "$$$",
+      "acceso": "Tren Milán–Venecia a Peschiera del Garda y lanzadera al parque (~5 min); aparcamiento propio.",
+      "alerta": "Temporada de finales de marzo a principios de noviembre (en 2026, Halloween hasta el 1 de noviembre); fuera de ella solo abre en eventos navideños.",
+      "fuentes": [
+        { "guia": "Sitio oficial", "url": "https://www.gardaland.it/" },
+        { "guia": "Quotidiano.net – stagione 2026", "url": "https://www.quotidiano.net/itinerari/news/gardaland-stagione-2026-qqqqewsm" }
+      ]
+    },
+    {
+      "id": "it-mirabilandia", "puntaje": 4, "mejor_epoca": [5, 6, 9], "dias_sugeridos": 1, "costo": "$$$",
+      "acceso": "A ~10 km de Rávena por la SS16; el coche es lo más práctico y hay bus desde Rávena en temporada.",
+      "alerta": "Solo abre de abril a noviembre según calendario; cerrado en invierno.",
+      "fuentes": [
+        { "guia": "Sitio oficial", "url": "https://www.mirabilandia.it/" },
+        { "guia": "Italia.it (ENIT)", "url": "https://www.italia.it/it/emilia-romagna/cosa-fare/mirabilandia" }
+      ]
+    },
+    {
+      "id": "it-volo-dell-angelo", "puntaje": 2, "mejor_epoca": [6, 7, 8, 9], "dias_sugeridos": 1, "costo": "$$",
+      "acceso": "Coche imprescindible: Castelmezzano está a ~45 min de Potenza y a unas 2 h 30 de Nápoles o Bari; reserva online.",
+      "alerta": "Temporada corta: de mayo a principios de noviembre, a diario solo en julio y agosto y el resto en fines de semana. Se suspende con viento y tiene límites de peso.",
+      "fuentes": [
+        { "guia": "Sitio oficial", "url": "https://www.volodellangelo.com/" },
+        { "guia": "Touring Club Italiano", "url": "https://www.touringclub.it/notizie/bandiere-arancioni/il-volo-dellangelo-emozione-unica-a-castelmezzano" }
+      ]
+    }
+  ]
+}
