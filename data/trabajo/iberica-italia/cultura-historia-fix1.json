@@ -1,0 +1,654 @@
+{
+  "agente": "cultura-historia",
+  "subregion": "iberica-italia",
+  "ronda": 4,
+  "puntajes": [
+    {
+      "id": "es-madrid",
+      "puntaje": 5,
+      "unesco": true,
+      "justificacion": "El Paseo del Prado y el Buen Retiro son Patrimonio Mundial desde 2021 y reúnen el Prado, el Thyssen y el Reina Sofía, uno de los ejes museísticos de referencia mundial; se suman el Palacio Real y el Madrid de los Austrias.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/1618" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/spain/things-to-do-madrid/" }
+      ]
+    },
+    {
+      "id": "es-bilbao",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "El Guggenheim de Gehry es un museo de referencia mundial; con el Museo de Bellas Artes y el Casco Viejo de las Siete Calles. A unos 15 km está el Puente de Vizcaya, Patrimonio Mundial.",
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/watch-read-listen/read/articles/the-best-of-the-basque-country" },
+        { "guia": "UNESCO (Puente de Vizcaya)", "url": "https://whc.unesco.org/en/list/1217" }
+      ]
+    },
+    {
+      "id": "es-valencia",
+      "puntaje": 5,
+      "unesco": true,
+      "justificacion": "La Lonja de la Seda (Patrimonio Mundial) es una obra maestra del gótico civil, y la catedral con el Miguelete y el Santo Cáliz, las Torres de Serranos y el Museo de Bellas Artes completan un casco histórico de primer orden. Suma la Ciudad de las Artes y las Ciencias de Calatrava y las Fallas, Patrimonio Cultural Inmaterial de la Humanidad desde 2016.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/782/" },
+        { "guia": "UNESCO (Patrimonio Inmaterial, Fallas)", "url": "https://ich.unesco.org/en/RL/00859" }
+      ]
+    },
+    {
+      "id": "es-tenerife-teide",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "San Cristóbal de La Laguna (Patrimonio Mundial) fue la primera ciudad colonial española no amurallada y su trazado sirvió de modelo a muchas ciudades de América; el Teide es además Patrimonio Mundial natural. La Orotava completa la visita con su casco de casonas canarias con balcones de madera.",
+      "fuentes": [
+        { "guia": "UNESCO (San Cristóbal de La Laguna)", "url": "https://whc.unesco.org/en/list/929" },
+        { "guia": "UNESCO (Parque Nacional del Teide)", "url": "https://whc.unesco.org/en/list/1258" }
+      ]
+    },
+    {
+      "id": "es-donana",
+      "puntaje": 2,
+      "unesco": true,
+      "justificacion": "Patrimonio Mundial natural; su interés cultural es sobre todo la aldea de El Rocío y su multitudinaria romería.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/685" }
+      ]
+    },
+    {
+      "id": "es-ordesa-monte-perdido",
+      "puntaje": 1,
+      "unesco": true,
+      "justificacion": "Bien mixto UNESCO (Pirineos-Monte Perdido) por su paisaje pastoril de trashumancia, pero la visita es esencialmente de naturaleza.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/773" }
+      ]
+    },
+    {
+      "id": "es-la-rioja",
+      "puntaje": 3,
+      "unesco": true,
+      "justificacion": "Los monasterios de Yuso y Suso en San Millán de la Cogolla (Patrimonio Mundial, cuna del castellano escrito), el Camino Francés por Logroño y Santo Domingo de la Calzada y bodegas de autor como Marqués de Riscal (Gehry).",
+      "fuentes": [
+        { "guia": "UNESCO (San Millán de Yuso y Suso)", "url": "https://whc.unesco.org/en/list/805" },
+        { "guia": "UNESCO (Caminos de Santiago)", "url": "https://whc.unesco.org/en/list/669/" }
+      ]
+    },
+    {
+      "id": "es-merida",
+      "puntaje": 5,
+      "unesco": true,
+      "justificacion": "El Conjunto Arqueológico de Mérida (Patrimonio Mundial) es el mejor legado romano de España: teatro y anfiteatro, puente sobre el Guadiana y el Museo Nacional de Arte Romano de Moneo; sede del Festival de Teatro Clásico.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/664" }
+      ]
+    },
+    {
+      "id": "es-tarragona",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "El Conjunto Arqueológico de Tarraco (Patrimonio Mundial), antigua capital de la Hispania Citerior: anfiteatro frente al mar, circo, murallas y el acueducto de Les Ferreres.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/875" }
+      ]
+    },
+    {
+      "id": "es-zaragoza",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "La Aljafería, la Seo y la torre de San Pablo forman parte de la Arquitectura Mudéjar de Aragón (Patrimonio Mundial); además, la Basílica del Pilar con frescos de Goya.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/378" }
+      ]
+    },
+    {
+      "id": "es-oviedo",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "Los Monumentos de Oviedo y del Reino de Asturias (Santa María del Naranco, San Miguel de Lillo, Cámara Santa) son Patrimonio Mundial y únicos en Europa; Oviedo es inicio del Camino Primitivo.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/312" },
+        { "guia": "UNESCO (Caminos de Santiago)", "url": "https://whc.unesco.org/en/list/669/" }
+      ]
+    },
+    {
+      "id": "es-antequera",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "El Sitio de los Dólmenes de Antequera (Menga, Viera y El Romeral, con El Torcal y la Peña de los Enamorados) es Patrimonio Mundial desde 2016; la ciudad suma Alcazaba e iglesias barrocas.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/1501" }
+      ]
+    },
+    {
+      "id": "es-alcala-de-henares",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "Primera ciudad universitaria planificada del mundo (Patrimonio Mundial), con el Colegio de San Ildefonso y la casa natal de Cervantes; entrega anual del Premio Cervantes.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/876" }
+      ]
+    },
+    {
+      "id": "es-aranjuez",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "El Paisaje Cultural de Aranjuez (Patrimonio Mundial) une el Palacio Real, los jardines del Príncipe y de la Isla y la Casa del Labrador junto al Tajo.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/1044" }
+      ]
+    },
+    {
+      "id": "es-las-medulas",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "Mayor mina de oro a cielo abierto del Imperio romano, Patrimonio Mundial: picachos rojizos modelados por la técnica de ruina montium, con aula arqueológica y miradores.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/803" }
+      ]
+    },
+    {
+      "id": "es-albarracin",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "Una votación de Lonely Planet la eligió el pueblo más bonito de España por su conjunto medieval sobre un meandro del Guadalaviar, con murallas y castillo andalusíes, casas de yeso rojizo y catedral. En sus pinares hay abrigos de arte rupestre levantino que forman parte del Patrimonio Mundial del Arco Mediterráneo.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-towns-in-spain-results" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/beautiful-spanish-towns-to-visit" },
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/874" }
+      ]
+    },
+    {
+      "id": "es-el-puerto-de-santa-maria",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "El castillo de San Marcos (1264), Monumento Nacional desde 1920, es una fortaleza-iglesia de Alfonso X levantada sobre una mezquita del siglo X y se visita junto a las bodegas Caballero. Suma bodegas históricas del Marco de Jerez y es la ciudad natal de Rafael Alberti.",
+      "fuentes": [
+        { "guia": "IAPH, Junta de Andalucía (repositorio de patrimonio)", "url": "https://repositorio.iaph.es/handle/11532/148042?locale=en" },
+        { "guia": "Diputación de Cádiz (ruta de monumentos)", "url": "https://dipucadiz.es/export/sites/default/iedt/.galerias-de-ficheros/formacion-empleo/ecoturismo-cadiz/02-ruta-monumentos.pdf" }
+      ]
+    },
+    {
+      "id": "es-pamplona",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "Primera gran ciudad del Camino Francés (Patrimonio Mundial), conserva uno de los recintos amurallados renacentistas mejor conservados de Europa, la Ciudadela y la catedral gótica, y del 6 al 14 de julio celebra los Sanfermines. A unos 42 km, el Palacio Real de Olite, residencia gótica de los reyes de Navarra, es su extensión natural.",
+      "fuentes": [
+        { "guia": "UNESCO (Caminos de Santiago)", "url": "https://whc.unesco.org/en/list/669/" },
+        { "guia": "Ayuntamiento de Pamplona (oficina de turismo)", "url": "https://www.pamplona.es/sites/default/files/2020-12/TARJETA%20MODELO%20CASTELLANO.pdf" }
+      ]
+    },
+    {
+      "id": "es-cadiz",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "Fundada por los fenicios hacia el 1100 a. C. como Gadir, es una de las ciudades más antiguas de Occidente, con catedral, Teatro Romano y la Torre Tavira, vigía del siglo XVIII con cámara oscura. Es la cuna de la Constitución de 1812 y de un Carnaval célebre, con el barrio de La Viña como corazón.",
+      "fuentes": [
+        { "guia": "Spain.info (Turespaña)", "url": "https://www.spain.info/es/lugares-interes/torre-tavira/" }
+      ]
+    },
+    {
+      "id": "es-penedes",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "Las cavas modernistas de Sant Sadurní d'Anoia, como las de Codorníu de Puig i Cadafalch, muestran el patrimonio del cava. En Vilafranca del Penedès, el Vinseum (museo de las culturas del vino de Cataluña, en un antiguo palacio real de los siglos XII-XIII) y una gran plaza castellera, con los castells como patrimonio inmaterial de la UNESCO.",
+      "fuentes": [
+        { "guia": "Penedès Turisme (oficial)", "url": "https://www.penedesturisme.cat/en/penedes-events/company/vinseum-museum-wine-cultures-catalonia" },
+        { "guia": "Ajuntament de Sant Sadurní (mapa turístico)", "url": "https://santsadurni.cat/ARXIUS/turisme/ESP_Mapa_StSadurni_69X48_2025.pdf" }
+      ]
+    },
+    {
+      "id": "es-montserrat",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "Monasterio benedictino fundado en 1025 cuya basílica guarda la Moreneta, talla románica del siglo XII y patrona de Cataluña. La Escolanía, uno de los coros infantiles más antiguos de Europa, canta a las 13 h de lunes a viernes, y el Museu de Montserrat completa la visita.",
+      "fuentes": [
+        { "guia": "Montserrat Visita (oficial)", "url": "https://www.montserratvisita.com/pt/propostas-de-visita/visite-o-santuario/2024" }
+      ]
+    },
+    {
+      "id": "es-cartagena",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "Fundada por los cartagineses como Qart Hadasht, conserva un Teatro Romano del siglo I a. C., descubierto en 1987 y musealizado por Rafael Moneo. Suma el ARQVA (Museo Nacional de Arqueología Subacuática), el Museo Refugio de la Guerra Civil y fachadas modernistas.",
+      "fuentes": [
+        { "guia": "Spain.info (Turespaña)", "url": "https://www.spain.info/es/destino/cartagena/" }
+      ]
+    },
+    {
+      "id": "es-guadalupe",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "Patrimonio Mundial desde 1993, el monasterio une cuatro siglos de estilos, del gótico-mudéjar al neoclásico, con claustro mudéjar y una sacristía con ocho lienzos de Zurbarán. Su Virgen, ligada a la Reconquista y al Descubrimiento, se venera en toda Hispanoamérica.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/665" }
+      ]
+    },
+    {
+      "id": "es-gran-canaria",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "El paisaje cultural de Risco Caído y las Montañas Sagradas (Patrimonio Mundial, 2019), en torno al Roque Nublo, reúne graneros y cuevas de los antiguos canarios usados como marcadores astronómicos. La isla suma el barrio de Vegueta con la Casa de Colón en Las Palmas y la Cueva Pintada de Gáldar.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/1578" }
+      ]
+    },
+    {
+      "id": "pt-lisboa",
+      "puntaje": 5,
+      "unesco": true,
+      "justificacion": "El Monasterio de los Jerónimos y la Torre de Belém (Patrimonio Mundial), la Alfama, el Museo Gulbenkian, el Museo Nacional del Azulejo y el fado, patrimonio inmaterial.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/263" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-portugal" }
+      ]
+    },
+    {
+      "id": "pt-sintra",
+      "puntaje": 5,
+      "unesco": true,
+      "justificacion": "Paisaje cultural de Sintra, Patrimonio Mundial: Palacio da Pena, Quinta da Regaleira, Castelo dos Mouros y Palacio Nacional, el primer centro del romanticismo europeo.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/723" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/watch-read-listen/read/articles/portugal-aristocratic-getaways" }
+      ]
+    },
+    {
+      "id": "pt-porto",
+      "puntaje": 5,
+      "unesco": true,
+      "justificacion": "Centro histórico Patrimonio Mundial: Ribeira, Sé, Torre dos Clérigos, Palácio da Bolsa y la estación de São Bento con azulejos; además el Museo de Serralves.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/755" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/portugal/things-to-do-porto/" }
+      ]
+    },
+    {
+      "id": "pt-valle-del-duero",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "El Alto Douro Vinhateiro es Patrimonio Mundial como paisaje cultural: terrazas de viñedo, quintas y pueblos ligados a dos siglos de producción de oporto.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/1046" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/portugal/itinerary" }
+      ]
+    },
+    {
+      "id": "pt-guimaraes",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "Centro histórico Patrimonio Mundial y 'cuna de Portugal': castillo del siglo X, Paço dos Duques de Bragança y plazas medievales muy bien conservadas.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/1031" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/portugal/best-road-trips/" }
+      ]
+    },
+    {
+      "id": "pt-braga",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "El santuario del Bom Jesus do Monte, con su escalinata barroca, es Patrimonio Mundial (2019); la Sé de Braga es la catedral más antigua de Portugal.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/1590" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/portugal/best-road-trips/" }
+      ]
+    },
+    {
+      "id": "pt-coimbra",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "Universidad de Coimbra – Alta y Sofía, Patrimonio Mundial, con la Biblioteca Joanina barroca; la Sé Velha románica y el fado de Coimbra.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/1387" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/portugal/itinerary" }
+      ]
+    },
+    {
+      "id": "pt-alcobaca",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "Monasterio cisterciense de Santa Maria (Patrimonio Mundial), una de las mayores abadías góticas, con las tumbas de Pedro I e Inés de Castro.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/505" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/portugal/itinerary" }
+      ]
+    },
+    {
+      "id": "pt-batalha",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "Monasterio de Santa Maria da Vitória (Patrimonio Mundial), obra cumbre del gótico portugués y del manuelino, con las Capillas Imperfectas.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/264" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/portugal/itinerary" }
+      ]
+    },
+    {
+      "id": "pt-tomar",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "Convento de Cristo (Patrimonio Mundial), antigua sede templaria con la charola románica y la célebre ventana manuelina.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/265" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/tours/portugal/best-portugal-tour" }
+      ]
+    },
+    {
+      "id": "pt-evora",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "Centro histórico Patrimonio Mundial con el templo romano, la catedral, la Capela dos Ossos y, en los alrededores, el crómlech megalítico de los Almendres.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/361" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/portugal/itinerary" }
+      ]
+    },
+    {
+      "id": "pt-madeira-funchal",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "La Sé de Funchal (finales del siglo XV), con techumbre de cedro tallada, las bodegas históricas de vino de Madeira y la Fiesta de la Flor dan interés cultural a la capital. La laurisilva Patrimonio Mundial está en el interior de la isla, no en Funchal.",
+      "fuentes": [
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/how-to-visit-the-madeira-islands-wine-and-history" }
+      ]
+    },
+    {
+      "id": "pt-madeira-rabacal",
+      "puntaje": 1,
+      "unesco": true,
+      "justificacion": "Ruta de naturaleza en la laurisilva (Patrimonio Mundial natural); el único interés cultural son las propias levadas, canales históricos de riego.",
+      "fuentes": [
+        { "guia": "UNESCO (Laurisilva de Madeira)", "url": "https://whc.unesco.org/en/list/934" }
+      ]
+    },
+    {
+      "id": "pt-azores-pico",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "El paisaje de la cultura del viñedo de la isla del Pico, con sus currais de piedra volcánica, es Patrimonio Mundial; también el Museo de los Balleneros en Lajes.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/1117" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-the-azores" }
+      ]
+    },
+    {
+      "id": "pt-angra-do-heroismo",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "Su zona central es Patrimonio Mundial: puerto clave de las rutas atlánticas de los siglos XV-XIX, con trazado renacentista, catedral y fortalezas de São João Baptista y São Sebastião.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/206" }
+      ]
+    },
+    {
+      "id": "pt-mafra",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "El Real Edificio de Mafra (Patrimonio Mundial, 2019) reúne palacio, basílica, convento y una biblioteca barroca de unos 36.000 volúmenes, junto con su tapada de caza.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/1573" }
+      ]
+    },
+    {
+      "id": "pt-elvas",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "Ciudad-guarnición fronteriza Patrimonio Mundial: el mayor sistema de fortificaciones abaluartadas terrestres del mundo, con los fuertes de Santa Luzia y Graça y el acueducto de Amoreira.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/1367" }
+      ]
+    },
+    {
+      "id": "pt-vale-do-coa",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "Los sitios de arte rupestre prehistórico del valle del Côa (Patrimonio Mundial, junto a Siega Verde) conservan unas 5.000 figuras animales paleolíticas grabadas al aire libre; el Museu do Côa es el punto de visita.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/866" }
+      ]
+    },
+    {
+      "id": "pt-fatima",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "Uno de los grandes santuarios marianos del mundo: la Capelinha das Aparições y las basílicas del Rosario, con las tumbas de los tres pastorcitos, y de la Santísima Trinidad. Las peregrinaciones del 12-13 de mayo reúnen hasta unos 450.000 fieles en años de máxima afluencia, como 2024.",
+      "fuentes": [
+        { "guia": "Santuário de Fátima (oficial)", "url": "https://www.fatima.pt/pt/news/topdf/peregrinacao-de-maio-reuniu-cerca-de-450-mil-fieis-e-deixou-um-forte-apelo-a-paz" }
+      ]
+    },
+    {
+      "id": "pt-viana-do-castelo",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "La basílica de Santa Luzia (1904-1959), con funicular, domina un centro histórico en torno a la Praça da República, y en agosto la Romaria da Senhora d'Agonia saca a la calle los trajes tradicionales. A unos 23 km, Ponte de Lima conserva un puente romano-medieval sobre el Lima.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-viana-do-castelo-portugal" }
+      ]
+    },
+    {
+      "id": "ad-vall-del-madriu",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "Único Patrimonio Mundial de Andorra: paisaje cultural de bancales, bordas, caminos y antiguas fargas que muestra siglos de vida pastoril de alta montaña.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/1160" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/guide-to-andorra" }
+      ]
+    },
+    {
+      "id": "ad-canillo-sant-joan-de-caselles",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "Sant Joan de Caselles (siglos XI-XII) es uno de los mejores templos románicos de Andorra, con campanario lombardo, una Majestad románica de estuco y un retablo renacentista de la vida de san Juan; cerca está el santuario de Meritxell.",
+      "fuentes": [
+        { "guia": "Visit Andorra (oficial)", "url": "https://visitandorra.com/en/culture/church-of-sant-joan-de-caselles/" }
+      ]
+    },
+    {
+      "id": "it-lago-de-como",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "El Sacro Monte de Ossuccio, componente del sitio Patrimonio Mundial de los Sacri Monti de Piamonte y Lombardía, se suma a villas de jardín como Villa Carlotta, con esculturas de Canova, y Villa del Balbianello. Completa la visita el Duomo gótico-renacentista de Como.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/1068/" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-lake-como-italy" }
+      ],
+      "nota": "Igualado con it-lago-de-orta (4), que comparte el sitio UNESCO 1068."
+    },
+    {
+      "id": "it-pisa",
+      "puntaje": 5,
+      "unesco": true,
+      "justificacion": "La Piazza del Duomo es uno de los conjuntos monumentales más reconocibles del mundo y el modelo del románico pisano que se difundió por el Mediterráneo: catedral, baptisterio, camposanto con el fresco del Triunfo de la Muerte y la Torre inclinada. Es un sitio UNESCO icónico en sí mismo, aunque el resto de la ciudad (Lungarni, Scuola Normale) sea secundario.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/395/" }
+      ],
+      "nota": "Se mantiene en 5 por la regla de la escala (sitio UNESCO icónico de primer nivel mundial); Verona y Bolonia son ciudades UNESCO completas, pero sin una pieza de ese reconocimiento global, y quedan en 4."
+    },
+    {
+      "id": "it-padova",
+      "puntaje": 5,
+      "unesco": true,
+      "justificacion": "Tiene dos sitios Patrimonio Mundial: los ciclos de frescos del siglo XIV, con la Capilla de los Scrovegni de Giotto, que inauguró la pintura moderna, y el Orto Botanico (1545), el jardín botánico universitario más antiguo que se conserva. Se suman la Basílica del Santo y la universidad de Galileo.",
+      "fuentes": [
+        { "guia": "UNESCO (frescos del siglo XIV de Padua)", "url": "https://whc.unesco.org/en/list/1623" },
+        { "guia": "UNESCO (Orto Botanico)", "url": "https://whc.unesco.org/en/list/824/" },
+        { "guia": "UNESCO (decisión 44 COM 8B.20)", "url": "https://whc.unesco.org/en/decisions/7939/" }
+      ]
+    },
+    {
+      "id": "it-bari",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "La Basílica de San Nicolás (1087-1197) es el prototipo del románico de Apulia y guarda en su cripta las reliquias del santo, venerado por católicos y ortodoxos. La ciudad vieja suma la catedral de San Sabino, el Castillo Normando-Suevo y sus calles, donde se hacen orecchiette a mano.",
+      "fuentes": [
+        { "guia": "Università di Bari (red Viaggio Adriatico)", "url": "https://viaggioadriatico.ict.uniba.it/rete-interadriatica-interadriatic-network/resources-1/basilica-di-san-nicola-di-bari/view@set_language=en.html" }
+      ]
+    },
+    {
+      "id": "it-selinunte",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "La colonia griega fundada en el siglo VII a. C. y destruida por Cartago en el 409 a. C. es hoy un parque arqueológico de unas 270 ha frente al mar, de los mayores de Europa. Tiene siete templos, la acrópolis amurallada y, a 13 km, las canteras de Cusa, donde quedaron tambores de columna a medio tallar.",
+      "fuentes": [
+        { "guia": "Regione Siciliana (Parco archeologico di Selinunte, Cave di Cusa e Pantelleria)", "url": "https://regione.sicilia.it/istituzioni/regione/strutture-regionali/assessorato-beni-culturali-identita-siciliana/dipartimento-beni-culturali-identita-siciliana/organizzazione/servizio-parco-archeologico-selinunte-cave-cusa-pantelleria" },
+        { "guia": "I.Sicily (Universidad de Oxford)", "url": "https://isicily.classics.ox.ac.uk/museum/190" }
+      ]
+    },
+    {
+      "id": "it-perugia",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "En el Palazzo dei Priori está la Galleria Nazionale dell'Umbria, con Perugino, Piero della Francesca y Fra Angelico, frente a la Fontana Maggiore de los Pisano. La ciudad conserva el Arco Etrusco y la Rocca Paolina subterránea, y celebra Umbria Jazz en julio.",
+      "fuentes": [
+        { "guia": "Galleria Nazionale dell'Umbria (oficial)", "url": "https://gallerianazionaledellumbria.it/en" }
+      ]
+    },
+    {
+      "id": "it-polignano-monopoli",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "Polignano tiene un casco blanco sobre el acantilado, con el Arco Marchesale, el antiguo barrio judío y el Museo Pino Pascali, sobre la cala de Lama Monachile. Monopoli, a 9 km, tiene casco amurallado, el castillo de Carlos V y la catedral barroca de la Madonna della Madia.",
+      "fuentes": [
+        { "guia": "Italia.it (ENIT)", "url": "https://www.italia.it/it/puglia/bari/polignano" }
+      ]
+    },
+    {
+      "id": "it-polignano-a-mare",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Casco blanco sobre el acantilado con el Arco Marchesale, el antiguo barrio judío de via Giudea y el Museo Pino Pascali de arte contemporáneo, en el antiguo matadero. Por sí sola tiene un interés cultural moderado.",
+      "fuentes": [
+        { "guia": "Italia.it (ENIT)", "url": "https://www.italia.it/it/puglia/bari/polignano" }
+      ],
+      "nota": "Fusionado en it-polignano-monopoli."
+    },
+    {
+      "id": "sm-torre-guaita",
+      "puntaje": 3,
+      "unesco": true,
+      "justificacion": "La primera torre (siglo XI), símbolo de la república, conserva murallas, campana y celdas usadas como prisión hasta 1975. Es un componente del sitio Patrimonio Mundial del Monte Titano y se visita en poco tiempo junto al centro histórico.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/1245/" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/points-of-interest/torre-guaita/1432921" }
+      ],
+      "nota": "Baja de 4 a 3: el sitio 1245 completo ya puntúa 4 en sm-centro-historico."
+    },
+    {
+      "id": "sm-torre-montale",
+      "puntaje": 1,
+      "unesco": true,
+      "justificacion": "La tercera torre (siglo XIII) pertenece al sitio Patrimonio Mundial del Monte Titano, pero no se visita por dentro: solo se ve desde el sendero de cresta, a unos 300 m de la Torre Cesta.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/1245/" }
+      ],
+      "nota": "Fusionada en sm-torre-cesta; no debe volver como candidato propio."
+    }
+  ],
+  "nuevos": [
+    {
+      "id": "es-elche",
+      "nombre": "Elche (Palmeral)",
+      "pais_iso": "ES",
+      "region": "Comunidad Valenciana",
+      "lat": 38.2656,
+      "lng": -0.6978,
+      "tipo": "ciudad",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "El Palmeral de Elche (Patrimonio Mundial, 2000) es un paisaje de huertos de palmeras heredado de al-Ándalus, con un sistema de riego histórico que sigue en uso, como el Huerto del Cura. En la basílica de Santa María se representa cada agosto el Misteri d'Elx, drama sacro medieval, y en La Alcudia apareció la Dama de Elche.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/930/documents" }
+      ]
+    },
+    {
+      "id": "es-poblet",
+      "nombre": "Monasterio de Poblet",
+      "pais_iso": "ES",
+      "region": "Cataluña",
+      "lat": 41.3803,
+      "lng": 1.0822,
+      "tipo": "monumento",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "Una de las mayores abadías cistercienses de Europa (Patrimonio Mundial, 1991), con iglesia del siglo XII, claustro y el panteón real de los reyes de la Corona de Aragón. Sigue habitado por monjes y está a unos 45 km de Tarragona, en la Ruta del Císter con Santes Creus y Vallbona.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/518" }
+      ]
+    }
+  ],
+  "fuentes_quitar": [
+    { "id": "es-madrid", "url": "https://whc.unesco.org/en/statesparties/es/" },
+    { "id": "es-bilbao", "url": "https://whc.unesco.org/en/statesparties/es/" },
+    { "id": "es-tenerife-teide", "url": "https://whc.unesco.org/en/statesparties/es/" },
+    { "id": "es-donana", "url": "https://whc.unesco.org/en/statesparties/es/" },
+    { "id": "es-ordesa-monte-perdido", "url": "https://whc.unesco.org/en/statesparties/es/" },
+    { "id": "es-la-rioja", "url": "https://whc.unesco.org/en/statesparties/es/" },
+    { "id": "es-merida", "url": "https://whc.unesco.org/en/statesparties/es/" },
+    { "id": "es-tarragona", "url": "https://whc.unesco.org/en/statesparties/es/" },
+    { "id": "es-zaragoza", "url": "https://whc.unesco.org/en/statesparties/es/" },
+    { "id": "es-oviedo", "url": "https://whc.unesco.org/en/statesparties/es/" },
+    { "id": "es-antequera", "url": "https://whc.unesco.org/en/statesparties/es/" },
+    { "id": "es-alcala-de-henares", "url": "https://whc.unesco.org/en/statesparties/es/" },
+    { "id": "es-aranjuez", "url": "https://whc.unesco.org/en/statesparties/es/" },
+    { "id": "es-las-medulas", "url": "https://whc.unesco.org/en/statesparties/es/" },
+    { "id": "pt-lisboa", "url": "https://whc.unesco.org/en/statesparties/pt/" },
+    { "id": "pt-sintra", "url": "https://whc.unesco.org/en/statesparties/pt/" },
+    { "id": "pt-porto", "url": "https://whc.unesco.org/en/statesparties/pt/" },
+    { "id": "pt-valle-del-duero", "url": "https://whc.unesco.org/en/statesparties/pt/" },
+    { "id": "pt-guimaraes", "url": "https://whc.unesco.org/en/statesparties/pt/" },
+    { "id": "pt-braga", "url": "https://whc.unesco.org/en/statesparties/pt/" },
+    { "id": "pt-coimbra", "url": "https://whc.unesco.org/en/statesparties/pt/" },
+    { "id": "pt-alcobaca", "url": "https://whc.unesco.org/en/statesparties/pt/" },
+    { "id": "pt-batalha", "url": "https://whc.unesco.org/en/statesparties/pt/" },
+    { "id": "pt-tomar", "url": "https://whc.unesco.org/en/statesparties/pt/" },
+    { "id": "pt-evora", "url": "https://whc.unesco.org/en/statesparties/pt/" },
+    { "id": "pt-madeira-funchal", "url": "https://whc.unesco.org/en/statesparties/pt/" },
+    { "id": "pt-madeira-rabacal", "url": "https://whc.unesco.org/en/statesparties/pt/" },
+    { "id": "pt-azores-pico", "url": "https://whc.unesco.org/en/statesparties/pt/" },
+    { "id": "pt-angra-do-heroismo", "url": "https://whc.unesco.org/en/statesparties/pt/" },
+    { "id": "pt-mafra", "url": "https://whc.unesco.org/en/statesparties/pt/" },
+    { "id": "pt-elvas", "url": "https://whc.unesco.org/en/statesparties/pt/" },
+    { "id": "pt-vale-do-coa", "url": "https://whc.unesco.org/en/statesparties/pt/" },
+    { "id": "ad-vall-del-madriu", "url": "https://whc.unesco.org/en/statesparties/ad/" },
+    { "id": "es-el-puerto-de-santa-maria", "url": "https://www.barcelo.com/guia-turismo/es/espana/cadiz/que-ver/castillo-de-san-marcos/" },
+    { "id": "es-pamplona", "url": "https://www.barcelo.com/guia-turismo/es/espana/pamplona/que-ver/" },
+    { "id": "es-pamplona", "url": "https://theculturetrip.com/europe/spain/articles/top-places-to-visit-in-navarra" },
+    { "id": "es-cadiz", "url": "https://www.andalucia.com/cities/cadiz/monuments/torre-tavira.htm" },
+    { "id": "es-penedes", "url": "https://www.catalannews.com/tag/wine%20museum" },
+    { "id": "ad-canillo-sant-joan-de-caselles", "url": "https://theculturetrip.com/europe/andorra/articles/20-must-visit-attractions-in-andorra" },
+    { "id": "it-bari", "url": "https://en.wikipedia.org/wiki/Basilica_of_Saint_Nicholas,_Bari" },
+    { "id": "it-bari", "url": "https://museionline.info/puglia-musei-monumenti/basilica-di-san-nicola-di-bari" },
+    { "id": "it-selinunte", "url": "https://it.wikivoyage.org/wiki/Selinunte" },
+    { "id": "it-perugia", "url": "https://en.wikipedia.org/wiki/Galleria_Nazionale_dell%27Umbria" },
+    { "id": "it-polignano-monopoli", "url": "https://blog.italotreno.com/idee-di-viaggio/cosa-vedere-a-polignano-a-mare-in-un-giorno/" },
+    { "id": "it-polignano-monopoli", "url": "https://www.trenitalia.com/content/trenitalia/it/intercity/consigli-di-viaggio/raggiungi-la-costa-pugliese.html" },
+    { "id": "it-venecia", "url": "https://whc.unesco.org/en/statesparties/it/" },
+    { "id": "it-milan", "url": "https://whc.unesco.org/en/statesparties/it/" },
+    { "id": "it-verona", "url": "https://whc.unesco.org/en/statesparties/it/" },
+    { "id": "it-turin", "url": "https://whc.unesco.org/en/statesparties/it/" },
+    { "id": "it-cinque-terre", "url": "https://whc.unesco.org/en/statesparties/it/" },
+    { "id": "it-bolonia", "url": "https://whc.unesco.org/en/statesparties/it/" },
+    { "id": "it-ravena", "url": "https://whc.unesco.org/en/statesparties/it/" },
+    { "id": "it-florencia", "url": "https://whc.unesco.org/en/statesparties/it/" },
+    { "id": "it-pisa", "url": "https://whc.unesco.org/en/statesparties/it/" },
+    { "id": "it-siena", "url": "https://whc.unesco.org/en/statesparties/it/" },
+    { "id": "it-san-gimignano", "url": "https://whc.unesco.org/en/statesparties/it/" },
+    { "id": "it-asis", "url": "https://whc.unesco.org/en/statesparties/it/" },
+    { "id": "it-roma", "url": "https://whc.unesco.org/en/statesparties/it/" },
+    { "id": "it-napoles", "url": "https://whc.unesco.org/en/statesparties/it/" },
+    { "id": "it-pompeya-herculano", "url": "https://whc.unesco.org/en/statesparties/it/" },
+    { "id": "it-costa-amalfitana", "url": "https://whc.unesco.org/en/statesparties/it/" },
+    { "id": "it-paestum", "url": "https://whc.unesco.org/en/statesparties/it/" },
+    { "id": "it-matera", "url": "https://whc.unesco.org/en/statesparties/it/" },
+    { "id": "it-alberobello-valle-d-itria", "url": "https://whc.unesco.org/en/statesparties/it/" },
+    { "id": "it-palermo-monreale", "url": "https://whc.unesco.org/en/statesparties/it/" },
+    { "id": "it-siracusa-ortigia", "url": "https://whc.unesco.org/en/statesparties/it/" },
+    { "id": "it-agrigento-valle-templos", "url": "https://whc.unesco.org/en/statesparties/it/" },
+    { "id": "it-su-nuraxi-barumini", "url": "https://whc.unesco.org/en/statesparties/it/" },
+    { "id": "it-val-di-noto", "url": "https://whc.unesco.org/en/statesparties/it/" },
+    { "id": "mt-valletta", "url": "https://whc.unesco.org/en/statesparties/mt/" },
+    { "id": "mt-hipogeo-hal-saflieni", "url": "https://whc.unesco.org/en/statesparties/mt/" },
+    { "id": "mt-hagar-qim-mnajdra-gruta-azul", "url": "https://whc.unesco.org/en/statesparties/mt/" },
+    { "id": "mt-ggantija", "url": "https://whc.unesco.org/en/statesparties/mt/" },
+    { "id": "sm-centro-historico", "url": "https://whc.unesco.org/en/statesparties/sm" }
+  ],
+  "correcciones_base": []
+}
