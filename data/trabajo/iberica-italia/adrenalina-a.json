@@ -1,0 +1,1317 @@
+{
+  "agente": "adrenalina",
+  "subregion": "iberica-italia",
+  "ronda": 1,
+  "paises": [
+    "ES",
+    "PT",
+    "AD"
+  ],
+  "nota": "url_verificada=true: la URL apareció en resultados de WebSearch en esta ronda. url_verificada=false: dominio oficial conocido que no se pudo comprobar, porque se agotó el límite de búsquedas y el sandbox no permite abrir páginas. verificacion_pendiente=true: el puntaje o la ficha se basan en parte en oferta sin operador verificado.",
+  "puntajes": [
+    {
+      "id": "es-barcelona",
+      "puntaje": 3,
+      "justificacion": "El Tibidabo, parque histórico con montaña rusa y atracciones sobre la ciudad, está a 6 km. PortAventura y Ferrari Land quedan a ~95 km, fuera del radio, pero son la gran excursión de adrenalina desde Barcelona (ver destino propio es-portaventura).",
+      "actividades": [
+        {
+          "nombre": "Parque de Atracciones Tibidabo",
+          "tipo": "parque_diversiones",
+          "km": 6,
+          "lat": 41.4218,
+          "lng": 2.1191,
+          "temporada": "mar–dic (días seleccionados)",
+          "url": "https://tibidabo.cat/ca/parc-atraccions/atraccions?language=en",
+          "url_verificada": true
+        }
+      ]
+    },
+    {
+      "id": "es-madrid",
+      "puntaje": 4,
+      "justificacion": "Dos parques grandes dentro del radio: Parque Warner (montañas rusas Superman, Stunt Fall, la de madera Coaster Express y la torre de caída La Venganza del Enigma) a 23 km y el Parque de Atracciones de la Casa de Campo a 4 km; en invierno, esquí en Valdesquí a 48 km.",
+      "actividades": [
+        {
+          "nombre": "Parque de Atracciones de Madrid",
+          "tipo": "parque_diversiones",
+          "km": 4,
+          "lat": 40.4113,
+          "lng": -3.7502,
+          "temporada": "todo el año (días seleccionados)",
+          "url": "https://www.parquedeatracciones.es/prepara-tu-visita/informacion-relevante/sobre-el-parque",
+          "url_verificada": true
+        },
+        {
+          "nombre": "Parque Warner Madrid (Superman, Stunt Fall, Coaster Express, La Venganza del Enigma)",
+          "tipo": "parque_diversiones",
+          "km": 23,
+          "lat": 40.2307,
+          "lng": -3.5937,
+          "temporada": "mar–ene (días seleccionados)",
+          "url": "https://www.parquewarner.com/en",
+          "url_verificada": true
+        },
+        {
+          "nombre": "Valdesquí (esquí, Sierra de Guadarrama)",
+          "tipo": "esqui",
+          "km": 48,
+          "lat": 40.798,
+          "lng": -3.958,
+          "temporada": "dic–mar",
+          "url": "https://www.valdesqui.es/",
+          "url_verificada": false
+        }
+      ]
+    },
+    {
+      "id": "es-granada-alhambra",
+      "puntaje": 3,
+      "justificacion": "La estación de Sierra Nevada, la más meridional de las grandes estaciones de Europa, está a unos 20 km: esquí de diciembre a abril y, combinable el mismo día, la Alhambra.",
+      "actividades": [
+        {
+          "nombre": "Estación de esquí de Sierra Nevada (Pradollano)",
+          "tipo": "esqui",
+          "km": 20,
+          "lat": 37.096,
+          "lng": -3.398,
+          "temporada": "dic–abr",
+          "url": "https://sierranevada.es/",
+          "url_verificada": false
+        }
+      ]
+    },
+    {
+      "id": "es-sevilla",
+      "puntaje": 3,
+      "justificacion": "Isla Mágica, parque temático con montañas rusas y el parque acuático Agua Mágica, está en la isla de la Cartuja, a 3 km del centro.",
+      "actividades": [
+        {
+          "nombre": "Isla Mágica y Agua Mágica",
+          "tipo": "parque_diversiones",
+          "km": 3,
+          "lat": 37.4076,
+          "lng": -6.0046,
+          "temporada": "abr–nov (según calendario)",
+          "url": "https://www.islamagica.es/",
+          "url_verificada": true
+        }
+      ]
+    },
+    {
+      "id": "es-cordoba",
+      "puntaje": 1,
+      "justificacion": "No se identificaron parques ni actividades de adrenalina destacadas a menos de 60 km; Isla Mágica queda a ~120 km.",
+      "actividades": []
+    },
+    {
+      "id": "es-toledo",
+      "puntaje": 3,
+      "justificacion": "Parque Warner Madrid queda a 55 km, en el límite del radio. Se citan además tirolinas sobre el Tajo. Oferta mencionada sin operador oficial verificado en esta ronda (límite de búsquedas agotado); no se incluye como actividad.",
+      "actividades": [
+        {
+          "nombre": "Parque Warner Madrid (Superman, Stunt Fall, Coaster Express, La Venganza del Enigma)",
+          "tipo": "parque_diversiones",
+          "km": 55,
+          "lat": 40.2307,
+          "lng": -3.5937,
+          "temporada": "mar–ene (días seleccionados)",
+          "url": "https://www.parquewarner.com/en",
+          "url_verificada": true
+        }
+      ],
+      "verificacion_pendiente": true
+    },
+    {
+      "id": "es-segovia",
+      "puntaje": 2,
+      "justificacion": "Valdesquí, estación pequeña de la Sierra de Guadarrama, está a 21 km; los parques de Madrid quedan fuera del radio (~66 km).",
+      "actividades": [
+        {
+          "nombre": "Valdesquí (esquí, Sierra de Guadarrama)",
+          "tipo": "esqui",
+          "km": 21,
+          "lat": 40.798,
+          "lng": -3.958,
+          "temporada": "dic–mar",
+          "url": "https://www.valdesqui.es/",
+          "url_verificada": false
+        }
+      ]
+    },
+    {
+      "id": "es-salamanca",
+      "puntaje": 1,
+      "justificacion": "Sin parques ni actividades de adrenalina relevantes en el radio de 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "es-avila",
+      "puntaje": 1,
+      "justificacion": "Sin oferta relevante dentro de 60 km; Valdesquí queda a ~63 km.",
+      "actividades": []
+    },
+    {
+      "id": "es-el-escorial",
+      "puntaje": 3,
+      "justificacion": "Parque de Atracciones de Madrid a 39 km y esquí en Valdesquí a 28 km; Parque Warner queda justo fuera del radio (~62 km).",
+      "actividades": [
+        {
+          "nombre": "Valdesquí (esquí, Sierra de Guadarrama)",
+          "tipo": "esqui",
+          "km": 28,
+          "lat": 40.798,
+          "lng": -3.958,
+          "temporada": "dic–mar",
+          "url": "https://www.valdesqui.es/",
+          "url_verificada": false
+        },
+        {
+          "nombre": "Parque de Atracciones de Madrid",
+          "tipo": "parque_diversiones",
+          "km": 39,
+          "lat": 40.4113,
+          "lng": -3.7502,
+          "temporada": "todo el año (días seleccionados)",
+          "url": "https://www.parquedeatracciones.es/prepara-tu-visita/informacion-relevante/sobre-el-parque",
+          "url_verificada": true
+        }
+      ]
+    },
+    {
+      "id": "es-san-sebastian",
+      "puntaje": 2,
+      "justificacion": "Surf en la playa de la Zurriola y la costa guipuzcoana; sin grandes parques en el radio. Oferta mencionada sin operador oficial verificado en esta ronda (límite de búsquedas agotado); no se incluye como actividad.",
+      "actividades": [],
+      "verificacion_pendiente": true
+    },
+    {
+      "id": "es-bilbao",
+      "puntaje": 2,
+      "justificacion": "Surf en la costa vizcaína (Sopelana, Mundaka); sin grandes parques en el radio. Oferta mencionada sin operador oficial verificado en esta ronda (límite de búsquedas agotado); no se incluye como actividad.",
+      "actividades": [],
+      "verificacion_pendiente": true
+    },
+    {
+      "id": "es-santiago-de-compostela",
+      "puntaje": 1,
+      "justificacion": "Oferta de adrenalina mínima en el radio.",
+      "actividades": []
+    },
+    {
+      "id": "es-picos-de-europa",
+      "puntaje": 3,
+      "justificacion": "Destino clásico de deporte de aventura: descenso en canoa del Sella, barranquismo y escalada en los macizos. Oferta mencionada sin operador oficial verificado en esta ronda (límite de búsquedas agotado); no se incluye como actividad.",
+      "actividades": [],
+      "verificacion_pendiente": true
+    },
+    {
+      "id": "es-santillana-altamira",
+      "puntaje": 2,
+      "justificacion": "Surf en las playas cántabras cercanas (Somo, Liencres). Oferta mencionada sin operador oficial verificado en esta ronda (límite de búsquedas agotado); no se incluye como actividad.",
+      "actividades": [],
+      "verificacion_pendiente": true
+    },
+    {
+      "id": "es-praia-das-catedrais",
+      "puntaje": 1,
+      "justificacion": "Oferta de adrenalina mínima en el radio.",
+      "actividades": []
+    },
+    {
+      "id": "es-valencia",
+      "puntaje": 1,
+      "justificacion": "No hay parques grandes dentro de 60 km; Terra Mítica (Benidorm) queda a ~105 km, fuera del radio (ver destino propio es-terra-mitica).",
+      "actividades": []
+    },
+    {
+      "id": "es-mallorca",
+      "puntaje": 3,
+      "justificacion": "Aqualand El Arenal, a 24 km de la sierra, y barranquismo en la Serra de Tramuntana (Torrent de Pareis). Oferta mencionada sin operador oficial verificado en esta ronda (límite de búsquedas agotado); no se incluye como actividad.",
+      "actividades": [
+        {
+          "nombre": "Aqualand El Arenal",
+          "tipo": "parque_acuatico",
+          "km": 24,
+          "lat": 39.518,
+          "lng": 2.748,
+          "temporada": "may–oct",
+          "url": "https://www.aqualand.es/",
+          "url_verificada": false
+        }
+      ],
+      "verificacion_pendiente": true
+    },
+    {
+      "id": "es-menorca",
+      "puntaje": 1,
+      "justificacion": "Oferta de adrenalina mínima; actividades náuticas suaves.",
+      "actividades": []
+    },
+    {
+      "id": "es-ibiza",
+      "puntaje": 1,
+      "justificacion": "Oferta de adrenalina mínima en la isla.",
+      "actividades": []
+    },
+    {
+      "id": "es-tenerife-teide",
+      "puntaje": 4,
+      "justificacion": "Siam Park, en Costa Adeje a 24 km, es uno de los parques acuáticos más valorados del mundo (Tower of Power, caída casi vertical). Se suma el parapente en tándem en las laderas del sur. Oferta mencionada sin operador oficial verificado en esta ronda (límite de búsquedas agotado); no se incluye como actividad.",
+      "actividades": [
+        {
+          "nombre": "Siam Park (Tower of Power, caída casi vertical de 28 m)",
+          "tipo": "parque_acuatico",
+          "km": 24,
+          "lat": 28.0726,
+          "lng": -16.7259,
+          "temporada": "todo el año",
+          "url": "https://www.siampark.net/",
+          "url_verificada": false
+        }
+      ],
+      "verificacion_pendiente": true
+    },
+    {
+      "id": "es-lanzarote",
+      "puntaje": 2,
+      "justificacion": "Surf en la playa de Famara y deportes de viento. Oferta mencionada sin operador oficial verificado en esta ronda (límite de búsquedas agotado); no se incluye como actividad.",
+      "actividades": [],
+      "verificacion_pendiente": true
+    },
+    {
+      "id": "es-ronda",
+      "puntaje": 3,
+      "justificacion": "El Caminito del Rey está a 39 km; Tivoli World y Aqualand Torremolinos quedan en el borde del radio (59–60 km).",
+      "actividades": [
+        {
+          "nombre": "Caminito del Rey (pasarela colgada en el desfiladero de los Gaitanes)",
+          "tipo": "otro",
+          "km": 39,
+          "lat": 36.913,
+          "lng": -4.79,
+          "temporada": "todo el año (cierra lunes)",
+          "url": "https://www.caminitodelrey.info/",
+          "url_verificada": false
+        },
+        {
+          "nombre": "Tivoli World (Benalmádena)",
+          "tipo": "parque_diversiones",
+          "km": 59,
+          "lat": 36.596,
+          "lng": -4.537,
+          "temporada": "abr–oct (según calendario)",
+          "url": "https://www.tivoli.es/",
+          "url_verificada": false
+        },
+        {
+          "nombre": "Aqualand Torremolinos",
+          "tipo": "parque_acuatico",
+          "km": 60,
+          "lat": 36.618,
+          "lng": -4.509,
+          "temporada": "jun–sep",
+          "url": "https://www.aqualand.es/",
+          "url_verificada": false
+        }
+      ]
+    },
+    {
+      "id": "es-pueblos-blancos-cadiz",
+      "puntaje": 3,
+      "justificacion": "El Caminito del Rey (56 km) y el Circuito de Jerez (57 km) están en el límite del radio; en la Sierra de Grazalema hay barranquismo (Garganta Verde). Oferta mencionada sin operador oficial verificado en esta ronda (límite de búsquedas agotado); no se incluye como actividad.",
+      "actividades": [
+        {
+          "nombre": "Caminito del Rey (pasarela colgada en el desfiladero de los Gaitanes)",
+          "tipo": "otro",
+          "km": 56,
+          "lat": 36.913,
+          "lng": -4.79,
+          "temporada": "todo el año (cierra lunes)",
+          "url": "https://www.caminitodelrey.info/",
+          "url_verificada": false
+        },
+        {
+          "nombre": "Circuito de Jerez – Ángel Nieto (tandas y cursos de pilotaje)",
+          "tipo": "motor",
+          "km": 57,
+          "lat": 36.7083,
+          "lng": -6.0341,
+          "temporada": "según calendario",
+          "url": "https://www.circuitodejerez.com/",
+          "url_verificada": false
+        }
+      ],
+      "verificacion_pendiente": true
+    },
+    {
+      "id": "es-tarifa-bolonia",
+      "puntaje": 3,
+      "justificacion": "Tarifa es una de las capitales europeas del kitesurf y el windsurf por el levante y el poniente. Oferta mencionada sin operador oficial verificado en esta ronda (límite de búsquedas agotado); no se incluye como actividad.",
+      "actividades": [],
+      "verificacion_pendiente": true
+    },
+    {
+      "id": "es-jerez-de-la-frontera",
+      "puntaje": 3,
+      "justificacion": "El Circuito de Jerez – Ángel Nieto (MotoGP) está a 9 km y ofrece tandas y cursos de pilotaje según calendario.",
+      "actividades": [
+        {
+          "nombre": "Circuito de Jerez – Ángel Nieto (tandas y cursos de pilotaje)",
+          "tipo": "motor",
+          "km": 9,
+          "lat": 36.7083,
+          "lng": -6.0341,
+          "temporada": "según calendario",
+          "url": "https://www.circuitodejerez.com/",
+          "url_verificada": false
+        }
+      ]
+    },
+    {
+      "id": "es-malaga",
+      "puntaje": 4,
+      "justificacion": "Tres propuestas en el radio: Tivoli World (17 km), Aqualand Torremolinos (14 km) y el Caminito del Rey (39 km).",
+      "actividades": [
+        {
+          "nombre": "Aqualand Torremolinos",
+          "tipo": "parque_acuatico",
+          "km": 14,
+          "lat": 36.618,
+          "lng": -4.509,
+          "temporada": "jun–sep",
+          "url": "https://www.aqualand.es/",
+          "url_verificada": false
+        },
+        {
+          "nombre": "Tivoli World (Benalmádena)",
+          "tipo": "parque_diversiones",
+          "km": 17,
+          "lat": 36.596,
+          "lng": -4.537,
+          "temporada": "abr–oct (según calendario)",
+          "url": "https://www.tivoli.es/",
+          "url_verificada": false
+        },
+        {
+          "nombre": "Caminito del Rey (pasarela colgada en el desfiladero de los Gaitanes)",
+          "tipo": "otro",
+          "km": 39,
+          "lat": 36.913,
+          "lng": -4.79,
+          "temporada": "todo el año (cierra lunes)",
+          "url": "https://www.caminitodelrey.info/",
+          "url_verificada": false
+        }
+      ]
+    },
+    {
+      "id": "es-ubeda-baeza",
+      "puntaje": 1,
+      "justificacion": "Sin parques ni actividades destacadas verificadas en el radio.",
+      "actividades": []
+    },
+    {
+      "id": "es-alpujarras-sierra-nevada",
+      "puntaje": 3,
+      "justificacion": "La estación de esquí de Sierra Nevada está a unos 15 km.",
+      "actividades": [
+        {
+          "nombre": "Estación de esquí de Sierra Nevada (Pradollano)",
+          "tipo": "esqui",
+          "km": 15,
+          "lat": 37.096,
+          "lng": -3.398,
+          "temporada": "dic–abr",
+          "url": "https://sierranevada.es/",
+          "url_verificada": false
+        }
+      ]
+    },
+    {
+      "id": "es-donana",
+      "puntaje": 2,
+      "justificacion": "Isla Mágica (59 km) y el Circuito de Jerez (48 km) quedan en el borde del radio; el parque nacional en sí no ofrece adrenalina.",
+      "actividades": [
+        {
+          "nombre": "Circuito de Jerez – Ángel Nieto (tandas y cursos de pilotaje)",
+          "tipo": "motor",
+          "km": 48,
+          "lat": 36.7083,
+          "lng": -6.0341,
+          "temporada": "según calendario",
+          "url": "https://www.circuitodejerez.com/",
+          "url_verificada": false
+        },
+        {
+          "nombre": "Isla Mágica y Agua Mágica",
+          "tipo": "parque_diversiones",
+          "km": 59,
+          "lat": 37.4076,
+          "lng": -6.0046,
+          "temporada": "abr–nov (según calendario)",
+          "url": "https://www.islamagica.es/",
+          "url_verificada": true
+        }
+      ]
+    },
+    {
+      "id": "es-cuenca",
+      "puntaje": 1,
+      "justificacion": "Sin oferta de adrenalina verificada en el radio.",
+      "actividades": []
+    },
+    {
+      "id": "es-ordesa-monte-perdido",
+      "puntaje": 4,
+      "justificacion": "Pirineo aragonés: esquí en Formigal-Panticosa (29 km) y Cerler (49 km). La Sierra de Guara, referencia europea del barranquismo, queda a unos 50 km. Oferta mencionada sin operador oficial verificado en esta ronda (límite de búsquedas agotado); no se incluye como actividad.",
+      "actividades": [
+        {
+          "nombre": "Aramón Formigal-Panticosa (esquí)",
+          "tipo": "esqui",
+          "km": 29,
+          "lat": 42.775,
+          "lng": -0.365,
+          "temporada": "dic–abr",
+          "url": "https://www.aramon.com/",
+          "url_verificada": false
+        },
+        {
+          "nombre": "Aramón Cerler (esquí)",
+          "tipo": "esqui",
+          "km": 49,
+          "lat": 42.588,
+          "lng": 0.537,
+          "temporada": "dic–abr",
+          "url": "https://www.aramon.com/",
+          "url_verificada": false
+        }
+      ],
+      "verificacion_pendiente": true
+    },
+    {
+      "id": "es-la-rioja",
+      "puntaje": 1,
+      "justificacion": "Oferta de adrenalina mínima verificada en el radio.",
+      "actividades": []
+    },
+    {
+      "id": "es-burgos",
+      "puntaje": 1,
+      "justificacion": "Oferta de adrenalina mínima en el radio.",
+      "actividades": []
+    },
+    {
+      "id": "es-leon",
+      "puntaje": 1,
+      "justificacion": "Oferta de adrenalina mínima verificada en el radio.",
+      "actividades": []
+    },
+    {
+      "id": "es-caceres",
+      "puntaje": 1,
+      "justificacion": "Oferta de adrenalina mínima en el radio.",
+      "actividades": []
+    },
+    {
+      "id": "es-girona",
+      "puntaje": 4,
+      "justificacion": "Skydive Empuriabrava, una de las zonas de salto más conocidas de Europa, está a 39 km: tándem todo el año.",
+      "actividades": [
+        {
+          "nombre": "Skydive Empuriabrava (paracaidismo en tándem)",
+          "tipo": "paracaidismo",
+          "km": 39,
+          "lat": 42.26,
+          "lng": 3.108,
+          "temporada": "todo el año",
+          "url": "https://www.skydiveempuriabrava.com/",
+          "url_verificada": false
+        }
+      ]
+    },
+    {
+      "id": "pt-lisboa",
+      "puntaje": 2,
+      "justificacion": "Surf en Ericeira (reserva mundial de surf) y Carcavelos, dentro del radio. Oferta mencionada sin operador oficial verificado en esta ronda (límite de búsquedas agotado); no se incluye como actividad.",
+      "actividades": [],
+      "verificacion_pendiente": true
+    },
+    {
+      "id": "pt-sintra",
+      "puntaje": 2,
+      "justificacion": "Ericeira y la playa del Guincho (surf y kitesurf) están a menos de 25 km. Oferta mencionada sin operador oficial verificado en esta ronda (límite de búsquedas agotado); no se incluye como actividad.",
+      "actividades": [],
+      "verificacion_pendiente": true
+    },
+    {
+      "id": "pt-porto",
+      "puntaje": 3,
+      "justificacion": "El puente colgante 516 Arouca y los Passadiços do Paiva están a 43 km; surf en Matosinhos.",
+      "actividades": [
+        {
+          "nombre": "Puente 516 Arouca y Passadiços do Paiva",
+          "tipo": "otro",
+          "km": 43,
+          "lat": 40.94,
+          "lng": -8.2,
+          "temporada": "todo el año (sujeto a meteorología)",
+          "url": "https://516arouca.pt/",
+          "url_verificada": false
+        }
+      ]
+    },
+    {
+      "id": "pt-valle-del-duero",
+      "puntaje": 1,
+      "justificacion": "Oferta mínima en el radio; el puente 516 Arouca queda a ~62 km.",
+      "actividades": []
+    },
+    {
+      "id": "pt-guimaraes",
+      "puntaje": 2,
+      "justificacion": "El puente 516 Arouca y los Passadiços do Paiva están a 56 km, en el borde del radio.",
+      "actividades": [
+        {
+          "nombre": "Puente 516 Arouca y Passadiços do Paiva",
+          "tipo": "otro",
+          "km": 56,
+          "lat": 40.94,
+          "lng": -8.2,
+          "temporada": "todo el año (sujeto a meteorología)",
+          "url": "https://516arouca.pt/",
+          "url_verificada": false
+        }
+      ]
+    },
+    {
+      "id": "pt-braga",
+      "puntaje": 2,
+      "justificacion": "Barranquismo y rafting en Peneda-Gerês, a menos de 50 km. Oferta mencionada sin operador oficial verificado en esta ronda (límite de búsquedas agotado); no se incluye como actividad.",
+      "actividades": [],
+      "verificacion_pendiente": true
+    },
+    {
+      "id": "pt-peneda-geres",
+      "puntaje": 3,
+      "justificacion": "Barranquismo, rafting y kayak en los ríos del parque nacional. Oferta mencionada sin operador oficial verificado en esta ronda (límite de búsquedas agotado); no se incluye como actividad.",
+      "actividades": [],
+      "verificacion_pendiente": true
+    },
+    {
+      "id": "pt-coimbra",
+      "puntaje": 1,
+      "justificacion": "Oferta de adrenalina mínima verificada en el radio.",
+      "actividades": []
+    },
+    {
+      "id": "pt-serra-da-estrela",
+      "puntaje": 2,
+      "justificacion": "Única estación de esquí de Portugal continental (pequeña) y parapente en Linhares da Beira. Oferta mencionada sin operador oficial verificado en esta ronda (límite de búsquedas agotado); no se incluye como actividad.",
+      "actividades": [],
+      "verificacion_pendiente": true
+    },
+    {
+      "id": "pt-monsanto",
+      "puntaje": 1,
+      "justificacion": "Oferta de adrenalina mínima en el radio.",
+      "actividades": []
+    },
+    {
+      "id": "pt-nazare",
+      "puntaje": 3,
+      "justificacion": "Praia do Norte tiene las olas gigantes más famosas del mundo (octubre a marzo). Es un espectáculo para mirar y solo apto para surfistas expertos. Oferta mencionada sin operador oficial verificado en esta ronda (límite de búsquedas agotado); no se incluye como actividad.",
+      "actividades": [],
+      "verificacion_pendiente": true
+    },
+    {
+      "id": "pt-obidos",
+      "puntaje": 2,
+      "justificacion": "El surf de Peniche (Supertubos) está a unos 20 km. Oferta mencionada sin operador oficial verificado en esta ronda (límite de búsquedas agotado); no se incluye como actividad.",
+      "actividades": [],
+      "verificacion_pendiente": true
+    },
+    {
+      "id": "pt-alcobaca",
+      "puntaje": 2,
+      "justificacion": "Las olas de Nazaré están a 10 km. Oferta mencionada sin operador oficial verificado en esta ronda (límite de búsquedas agotado); no se incluye como actividad.",
+      "actividades": [],
+      "verificacion_pendiente": true
+    },
+    {
+      "id": "pt-batalha",
+      "puntaje": 1,
+      "justificacion": "Oferta mínima; Nazaré queda a ~25 km (solo espectáculo de olas).",
+      "actividades": []
+    },
+    {
+      "id": "pt-tomar",
+      "puntaje": 1,
+      "justificacion": "Oferta de adrenalina mínima en el radio.",
+      "actividades": []
+    },
+    {
+      "id": "pt-peniche-berlengas",
+      "puntaje": 3,
+      "justificacion": "Supertubos es una de las olas de referencia del surf europeo (etapa del circuito mundial). Oferta mencionada sin operador oficial verificado en esta ronda (límite de búsquedas agotado); no se incluye como actividad.",
+      "actividades": [],
+      "verificacion_pendiente": true
+    },
+    {
+      "id": "pt-evora",
+      "puntaje": 1,
+      "justificacion": "Oferta de adrenalina mínima verificada en el radio.",
+      "actividades": []
+    },
+    {
+      "id": "pt-monsaraz",
+      "puntaje": 1,
+      "justificacion": "Oferta de adrenalina mínima en el radio.",
+      "actividades": []
+    },
+    {
+      "id": "pt-marvao",
+      "puntaje": 1,
+      "justificacion": "Oferta de adrenalina mínima en el radio.",
+      "actividades": []
+    },
+    {
+      "id": "pt-arrabida",
+      "puntaje": 2,
+      "justificacion": "Parapente y kayak en la costa de la Arrábida. Oferta mencionada sin operador oficial verificado en esta ronda (límite de búsquedas agotado); no se incluye como actividad.",
+      "actividades": [],
+      "verificacion_pendiente": true
+    },
+    {
+      "id": "pt-costa-vicentina",
+      "puntaje": 2,
+      "justificacion": "Surf en las playas atlánticas de la costa. Oferta mencionada sin operador oficial verificado en esta ronda (límite de búsquedas agotado); no se incluye como actividad.",
+      "actividades": [],
+      "verificacion_pendiente": true
+    },
+    {
+      "id": "pt-sagres",
+      "puntaje": 2,
+      "justificacion": "Surf en las playas del oeste algarvío; Zoomarine queda a 57 km, en el borde del radio.",
+      "actividades": [
+        {
+          "nombre": "Zoomarine Algarve (atracciones y parque acuático)",
+          "tipo": "parque_acuatico",
+          "km": 57,
+          "lat": 37.127,
+          "lng": -8.315,
+          "temporada": "mar–nov",
+          "url": "https://www.zoomarine.pt/",
+          "url_verificada": false
+        }
+      ]
+    },
+    {
+      "id": "pt-lagos",
+      "puntaje": 3,
+      "justificacion": "Zoomarine Algarve está a 32 km; hay surf en la costa oeste cercana.",
+      "actividades": [
+        {
+          "nombre": "Zoomarine Algarve (atracciones y parque acuático)",
+          "tipo": "parque_acuatico",
+          "km": 32,
+          "lat": 37.127,
+          "lng": -8.315,
+          "temporada": "mar–nov",
+          "url": "https://www.zoomarine.pt/",
+          "url_verificada": false
+        }
+      ]
+    },
+    {
+      "id": "pt-tavira",
+      "puntaje": 2,
+      "justificacion": "Zoomarine Algarve queda a 59 km, en el borde del radio.",
+      "actividades": [
+        {
+          "nombre": "Zoomarine Algarve (atracciones y parque acuático)",
+          "tipo": "parque_acuatico",
+          "km": 59,
+          "lat": 37.127,
+          "lng": -8.315,
+          "temporada": "mar–nov",
+          "url": "https://www.zoomarine.pt/",
+          "url_verificada": false
+        }
+      ]
+    },
+    {
+      "id": "pt-madeira-funchal",
+      "puntaje": 3,
+      "justificacion": "Barranquismo, parapente y los carros de cesto del Monte. Oferta mencionada sin operador oficial verificado en esta ronda (límite de búsquedas agotado); no se incluye como actividad.",
+      "actividades": [],
+      "verificacion_pendiente": true
+    },
+    {
+      "id": "pt-madeira-rabacal",
+      "puntaje": 3,
+      "justificacion": "Zona de barranquismo de referencia en Madeira. Oferta mencionada sin operador oficial verificado en esta ronda (límite de búsquedas agotado); no se incluye como actividad.",
+      "actividades": [],
+      "verificacion_pendiente": true
+    },
+    {
+      "id": "pt-madeira-porto-moniz",
+      "puntaje": 2,
+      "justificacion": "Barranquismo en el norte de Madeira. Oferta mencionada sin operador oficial verificado en esta ronda (límite de búsquedas agotado); no se incluye como actividad.",
+      "actividades": [],
+      "verificacion_pendiente": true
+    },
+    {
+      "id": "pt-azores-sete-cidades",
+      "puntaje": 2,
+      "justificacion": "Barranquismo y kayak en São Miguel. Oferta mencionada sin operador oficial verificado en esta ronda (límite de búsquedas agotado); no se incluye como actividad.",
+      "actividades": [],
+      "verificacion_pendiente": true
+    },
+    {
+      "id": "pt-azores-furnas",
+      "puntaje": 2,
+      "justificacion": "Barranquismo y kayak en São Miguel. Oferta mencionada sin operador oficial verificado en esta ronda (límite de búsquedas agotado); no se incluye como actividad.",
+      "actividades": [],
+      "verificacion_pendiente": true
+    },
+    {
+      "id": "pt-azores-pico",
+      "puntaje": 2,
+      "justificacion": "Ascenso al volcán Pico (2.351 m) y buceo. Oferta mencionada sin operador oficial verificado en esta ronda (límite de búsquedas agotado); no se incluye como actividad.",
+      "actividades": [],
+      "verificacion_pendiente": true
+    },
+    {
+      "id": "pt-azores-faial",
+      "puntaje": 2,
+      "justificacion": "Buceo y deportes náuticos en Horta. Oferta mencionada sin operador oficial verificado en esta ronda (límite de búsquedas agotado); no se incluye como actividad.",
+      "actividades": [],
+      "verificacion_pendiente": true
+    },
+    {
+      "id": "pt-azores-flores",
+      "puntaje": 3,
+      "justificacion": "Flores tiene uno de los mejores barrancos de Europa por sus cascadas. Oferta mencionada sin operador oficial verificado en esta ronda (límite de búsquedas agotado); no se incluye como actividad.",
+      "actividades": [],
+      "verificacion_pendiente": true
+    },
+    {
+      "id": "ad-andorra-la-vella-escaldes",
+      "puntaje": 5,
+      "justificacion": "Todo Andorra cabe en el radio de 60 km: Grandvalira (el mayor dominio esquiable de los Pirineos), Ordino Arcalís, el Tobotronc de Naturland (un trineo alpino de 5,3 km, de los más largos del mundo) y Baqueira Beret a 53 km.",
+      "actividades": [
+        {
+          "nombre": "Tobotronc de Naturland (trineo alpino de 5,3 km)",
+          "tipo": "alpine_coaster",
+          "km": 7,
+          "lat": 42.443,
+          "lng": 1.538,
+          "temporada": "todo el año (sujeto a meteorología)",
+          "url": "https://naturland.ad/en/node/137",
+          "url_verificada": true
+        },
+        {
+          "nombre": "Grandvalira (esquí, mayor dominio de los Pirineos)",
+          "tipo": "esqui",
+          "km": 14,
+          "lat": 42.577,
+          "lng": 1.668,
+          "temporada": "dic–abr",
+          "url": "https://www.grandvalira.com/",
+          "url_verificada": false
+        },
+        {
+          "nombre": "Ordino Arcalís (esquí y freeride)",
+          "tipo": "esqui",
+          "km": 14,
+          "lat": 42.628,
+          "lng": 1.488,
+          "temporada": "dic–abr",
+          "url": "https://www.ordinoarcalis.com/",
+          "url_verificada": false
+        },
+        {
+          "nombre": "Baqueira Beret (esquí)",
+          "tipo": "esqui",
+          "km": 53,
+          "lat": 42.6985,
+          "lng": 0.933,
+          "temporada": "dic–abr",
+          "url": "https://www.baqueira.es/",
+          "url_verificada": false
+        }
+      ]
+    },
+    {
+      "id": "ad-vall-del-madriu",
+      "puntaje": 5,
+      "justificacion": "Todo Andorra cabe en el radio de 60 km: Grandvalira (el mayor dominio esquiable de los Pirineos), Ordino Arcalís, el Tobotronc de Naturland (un trineo alpino de 5,3 km, de los más largos del mundo) y Baqueira Beret a 59 km.",
+      "actividades": [
+        {
+          "nombre": "Tobotronc de Naturland (trineo alpino de 5,3 km)",
+          "tipo": "alpine_coaster",
+          "km": 7,
+          "lat": 42.443,
+          "lng": 1.538,
+          "temporada": "todo el año (sujeto a meteorología)",
+          "url": "https://naturland.ad/en/node/137",
+          "url_verificada": true
+        },
+        {
+          "nombre": "Grandvalira (esquí, mayor dominio de los Pirineos)",
+          "tipo": "esqui",
+          "km": 12,
+          "lat": 42.577,
+          "lng": 1.668,
+          "temporada": "dic–abr",
+          "url": "https://www.grandvalira.com/",
+          "url_verificada": false
+        },
+        {
+          "nombre": "Ordino Arcalís (esquí y freeride)",
+          "tipo": "esqui",
+          "km": 17,
+          "lat": 42.628,
+          "lng": 1.488,
+          "temporada": "dic–abr",
+          "url": "https://www.ordinoarcalis.com/",
+          "url_verificada": false
+        },
+        {
+          "nombre": "Baqueira Beret (esquí)",
+          "tipo": "esqui",
+          "km": 59,
+          "lat": 42.6985,
+          "lng": 0.933,
+          "temporada": "dic–abr",
+          "url": "https://www.baqueira.es/",
+          "url_verificada": false
+        }
+      ]
+    },
+    {
+      "id": "ad-grandvalira-pas-de-la-casa",
+      "puntaje": 5,
+      "justificacion": "Todo Andorra cabe en el radio de 60 km: Grandvalira (el mayor dominio esquiable de los Pirineos), Ordino Arcalís, el Tobotronc de Naturland (un trineo alpino de 5,3 km, de los más largos del mundo).",
+      "actividades": [
+        {
+          "nombre": "Grandvalira (esquí, mayor dominio de los Pirineos)",
+          "tipo": "esqui",
+          "km": 7,
+          "lat": 42.577,
+          "lng": 1.668,
+          "temporada": "dic–abr",
+          "url": "https://www.grandvalira.com/",
+          "url_verificada": false
+        },
+        {
+          "nombre": "Tobotronc de Naturland (trineo alpino de 5,3 km)",
+          "tipo": "alpine_coaster",
+          "km": 19,
+          "lat": 42.443,
+          "lng": 1.538,
+          "temporada": "todo el año (sujeto a meteorología)",
+          "url": "https://naturland.ad/en/node/137",
+          "url_verificada": true
+        },
+        {
+          "nombre": "Ordino Arcalís (esquí y freeride)",
+          "tipo": "esqui",
+          "km": 22,
+          "lat": 42.628,
+          "lng": 1.488,
+          "temporada": "dic–abr",
+          "url": "https://www.ordinoarcalis.com/",
+          "url_verificada": false
+        }
+      ]
+    },
+    {
+      "id": "ad-ordino-arcalis",
+      "puntaje": 5,
+      "justificacion": "Todo Andorra cabe en el radio de 60 km: Grandvalira (el mayor dominio esquiable de los Pirineos), Ordino Arcalís, el Tobotronc de Naturland (un trineo alpino de 5,3 km, de los más largos del mundo) y Baqueira Beret a 52 km.",
+      "actividades": [
+        {
+          "nombre": "Ordino Arcalís (esquí y freeride)",
+          "tipo": "esqui",
+          "km": 9,
+          "lat": 42.628,
+          "lng": 1.488,
+          "temporada": "dic–abr",
+          "url": "https://www.ordinoarcalis.com/",
+          "url_verificada": false
+        },
+        {
+          "nombre": "Grandvalira (esquí, mayor dominio de los Pirineos)",
+          "tipo": "esqui",
+          "km": 11,
+          "lat": 42.577,
+          "lng": 1.668,
+          "temporada": "dic–abr",
+          "url": "https://www.grandvalira.com/",
+          "url_verificada": false
+        },
+        {
+          "nombre": "Tobotronc de Naturland (trineo alpino de 5,3 km)",
+          "tipo": "alpine_coaster",
+          "km": 13,
+          "lat": 42.443,
+          "lng": 1.538,
+          "temporada": "todo el año (sujeto a meteorología)",
+          "url": "https://naturland.ad/en/node/137",
+          "url_verificada": true
+        },
+        {
+          "nombre": "Baqueira Beret (esquí)",
+          "tipo": "esqui",
+          "km": 52,
+          "lat": 42.6985,
+          "lng": 0.933,
+          "temporada": "dic–abr",
+          "url": "https://www.baqueira.es/",
+          "url_verificada": false
+        }
+      ]
+    },
+    {
+      "id": "ad-estanys-de-juclar",
+      "puntaje": 5,
+      "justificacion": "Todo Andorra cabe en el radio de 60 km: Grandvalira (el mayor dominio esquiable de los Pirineos), Ordino Arcalís, el Tobotronc de Naturland (un trineo alpino de 5,3 km, de los más largos del mundo).",
+      "actividades": [
+        {
+          "nombre": "Grandvalira (esquí, mayor dominio de los Pirineos)",
+          "tipo": "esqui",
+          "km": 6,
+          "lat": 42.577,
+          "lng": 1.668,
+          "temporada": "dic–abr",
+          "url": "https://www.grandvalira.com/",
+          "url_verificada": false
+        },
+        {
+          "nombre": "Ordino Arcalís (esquí y freeride)",
+          "tipo": "esqui",
+          "km": 19,
+          "lat": 42.628,
+          "lng": 1.488,
+          "temporada": "dic–abr",
+          "url": "https://www.ordinoarcalis.com/",
+          "url_verificada": false
+        },
+        {
+          "nombre": "Tobotronc de Naturland (trineo alpino de 5,3 km)",
+          "tipo": "alpine_coaster",
+          "km": 24,
+          "lat": 42.443,
+          "lng": 1.538,
+          "temporada": "todo el año (sujeto a meteorología)",
+          "url": "https://naturland.ad/en/node/137",
+          "url_verificada": true
+        }
+      ]
+    },
+    {
+      "id": "ad-coma-pedrosa",
+      "puntaje": 5,
+      "justificacion": "Todo Andorra cabe en el radio de 60 km: Grandvalira (el mayor dominio esquiable de los Pirineos), Ordino Arcalís, el Tobotronc de Naturland (un trineo alpino de 5,3 km, de los más largos del mundo) y Baqueira Beret a 43 km.",
+      "actividades": [
+        {
+          "nombre": "Ordino Arcalís (esquí y freeride)",
+          "tipo": "esqui",
+          "km": 5,
+          "lat": 42.628,
+          "lng": 1.488,
+          "temporada": "dic–abr",
+          "url": "https://www.ordinoarcalis.com/",
+          "url_verificada": false
+        },
+        {
+          "nombre": "Tobotronc de Naturland (trineo alpino de 5,3 km)",
+          "tipo": "alpine_coaster",
+          "km": 18,
+          "lat": 42.443,
+          "lng": 1.538,
+          "temporada": "todo el año (sujeto a meteorología)",
+          "url": "https://naturland.ad/en/node/137",
+          "url_verificada": true
+        },
+        {
+          "nombre": "Grandvalira (esquí, mayor dominio de los Pirineos)",
+          "tipo": "esqui",
+          "km": 18,
+          "lat": 42.577,
+          "lng": 1.668,
+          "temporada": "dic–abr",
+          "url": "https://www.grandvalira.com/",
+          "url_verificada": false
+        },
+        {
+          "nombre": "Baqueira Beret (esquí)",
+          "tipo": "esqui",
+          "km": 43,
+          "lat": 42.6985,
+          "lng": 0.933,
+          "temporada": "dic–abr",
+          "url": "https://www.baqueira.es/",
+          "url_verificada": false
+        }
+      ]
+    },
+    {
+      "id": "ad-naturlandia",
+      "puntaje": 5,
+      "justificacion": "Todo Andorra cabe en el radio de 60 km: Grandvalira (el mayor dominio esquiable de los Pirineos), Ordino Arcalís, el Tobotronc de Naturland (un trineo alpino de 5,3 km, de los más largos del mundo) y Baqueira Beret a 57 km.",
+      "actividades": [
+        {
+          "nombre": "Tobotronc de Naturland (trineo alpino de 5,3 km)",
+          "tipo": "alpine_coaster",
+          "km": 0,
+          "lat": 42.443,
+          "lng": 1.538,
+          "temporada": "todo el año (sujeto a meteorología)",
+          "url": "https://naturland.ad/en/node/137",
+          "url_verificada": true
+        },
+        {
+          "nombre": "Grandvalira (esquí, mayor dominio de los Pirineos)",
+          "tipo": "esqui",
+          "km": 18,
+          "lat": 42.577,
+          "lng": 1.668,
+          "temporada": "dic–abr",
+          "url": "https://www.grandvalira.com/",
+          "url_verificada": false
+        },
+        {
+          "nombre": "Ordino Arcalís (esquí y freeride)",
+          "tipo": "esqui",
+          "km": 21,
+          "lat": 42.628,
+          "lng": 1.488,
+          "temporada": "dic–abr",
+          "url": "https://www.ordinoarcalis.com/",
+          "url_verificada": false
+        },
+        {
+          "nombre": "Baqueira Beret (esquí)",
+          "tipo": "esqui",
+          "km": 57,
+          "lat": 42.6985,
+          "lng": 0.933,
+          "temporada": "dic–abr",
+          "url": "https://www.baqueira.es/",
+          "url_verificada": false
+        }
+      ]
+    },
+    {
+      "id": "ad-canillo-sant-joan-de-caselles",
+      "puntaje": 5,
+      "justificacion": "Todo Andorra cabe en el radio de 60 km: Grandvalira (el mayor dominio esquiable de los Pirineos), Ordino Arcalís, el Tobotronc de Naturland (un trineo alpino de 5,3 km, de los más largos del mundo) y Baqueira Beret a 56 km.",
+      "actividades": [
+        {
+          "nombre": "Grandvalira (esquí, mayor dominio de los Pirineos)",
+          "tipo": "esqui",
+          "km": 6,
+          "lat": 42.577,
+          "lng": 1.668,
+          "temporada": "dic–abr",
+          "url": "https://www.grandvalira.com/",
+          "url_verificada": false
+        },
+        {
+          "nombre": "Ordino Arcalís (esquí y freeride)",
+          "tipo": "esqui",
+          "km": 11,
+          "lat": 42.628,
+          "lng": 1.488,
+          "temporada": "dic–abr",
+          "url": "https://www.ordinoarcalis.com/",
+          "url_verificada": false
+        },
+        {
+          "nombre": "Tobotronc de Naturland (trineo alpino de 5,3 km)",
+          "tipo": "alpine_coaster",
+          "km": 16,
+          "lat": 42.443,
+          "lng": 1.538,
+          "temporada": "todo el año (sujeto a meteorología)",
+          "url": "https://naturland.ad/en/node/137",
+          "url_verificada": true
+        },
+        {
+          "nombre": "Baqueira Beret (esquí)",
+          "tipo": "esqui",
+          "km": 56,
+          "lat": 42.6985,
+          "lng": 0.933,
+          "temporada": "dic–abr",
+          "url": "https://www.baqueira.es/",
+          "url_verificada": false
+        }
+      ]
+    }
+  ],
+  "nuevos": [
+    {
+      "id": "es-portaventura",
+      "nombre": "PortAventura World (PortAventura Park y Ferrari Land)",
+      "pais_iso": "ES",
+      "region": "Cataluña",
+      "lat": 41.0868,
+      "lng": 1.1575,
+      "tipo": "parque_diversiones",
+      "destino_propio": true,
+      "puntaje": 5,
+      "justificacion": "Es el mayor complejo de parques temáticos del sur de Europa. En Ferrari Land está Red Force, la montaña rusa más alta y rápida de Europa (112 m, 180 km/h), y en PortAventura Park, Shambhala y Dragon Khan. Está a ~95 km de Barcelona, fuera del radio de cualquier candidato, y por sí solo justifica 1–2 días.",
+      "temporada": "mar–ene (según calendario)",
+      "fuentes": [
+        {
+          "guia": "Sitio oficial",
+          "url": "https://www.portaventuraworld.com/en/parks",
+          "url_verificada": true
+        },
+        {
+          "guia": "Sitio oficial",
+          "url": "https://www.portaventuraworld.com/en/ferrari-land",
+          "url_verificada": true
+        },
+        {
+          "guia": "RCDB",
+          "url": "https://rcdb.com/12016.htm",
+          "url_verificada": true
+        }
+      ]
+    },
+    {
+      "id": "es-parque-warner",
+      "nombre": "Parque Warner Madrid",
+      "pais_iso": "ES",
+      "region": "Comunidad de Madrid",
+      "lat": 40.2307,
+      "lng": -3.5937,
+      "tipo": "parque_diversiones",
+      "destino_propio": true,
+      "puntaje": 4,
+      "justificacion": "Parque temático en San Martín de la Vega con Superman: Atracción de Acero (montaña rusa sin suelo), Stunt Fall, la de madera Coaster Express y la torre de caída La Venganza del Enigma (~100 m). Tiene al lado el parque acuático Warner Beach.",
+      "temporada": "mar–ene (días seleccionados)",
+      "fuentes": [
+        {
+          "guia": "Sitio oficial",
+          "url": "https://www.parquewarner.com/en",
+          "url_verificada": true
+        },
+        {
+          "guia": "Sitio oficial",
+          "url": "https://www.parquewarner.com/blog/las-atracciones-de-parque-warner-madrid-con-mas-adrenalina",
+          "url_verificada": true
+        }
+      ]
+    },
+    {
+      "id": "es-terra-mitica",
+      "nombre": "Terra Mítica (Benidorm)",
+      "pais_iso": "ES",
+      "region": "Comunidad Valenciana",
+      "lat": 38.5577,
+      "lng": -0.1613,
+      "tipo": "parque_diversiones",
+      "destino_propio": true,
+      "puntaje": 4,
+      "justificacion": "El gran parque temático de la Costa Blanca, con la montaña rusa de madera Magnus Colossus e Inferno. Queda fuera del radio de Valencia (~105 km) y es la base de adrenalina de Benidorm.",
+      "temporada": "abr–oct",
+      "verificacion_pendiente": true,
+      "fuentes": [
+        {
+          "guia": "Sitio oficial",
+          "url": "https://www.terramiticapark.com/",
+          "url_verificada": false
+        }
+      ]
+    },
+    {
+      "id": "es-skydive-empuriabrava",
+      "nombre": "Skydive Empuriabrava",
+      "pais_iso": "ES",
+      "region": "Cataluña",
+      "lat": 42.26,
+      "lng": 3.108,
+      "tipo": "paracaidismo",
+      "destino_propio": true,
+      "puntaje": 4,
+      "justificacion": "Una de las zonas de salto más grandes y conocidas de Europa, en la Costa Brava. Ofrece saltos en tándem todo el año con vistas al golfo de Roses y al Pirineo.",
+      "temporada": "todo el año",
+      "verificacion_pendiente": true,
+      "fuentes": [
+        {
+          "guia": "Sitio oficial",
+          "url": "https://www.skydiveempuriabrava.com/",
+          "url_verificada": false
+        }
+      ]
+    },
+    {
+      "id": "es-baqueira-beret",
+      "nombre": "Baqueira Beret",
+      "pais_iso": "ES",
+      "region": "Cataluña (Val d'Aran)",
+      "lat": 42.6985,
+      "lng": 0.933,
+      "tipo": "esqui",
+      "destino_propio": true,
+      "puntaje": 4,
+      "justificacion": "La estación de esquí de referencia en España, en el Val d'Aran. Tiene gran dominio esquiable y freeride, y queda a ~53 km de Andorra la Vella.",
+      "temporada": "dic–abr",
+      "verificacion_pendiente": true,
+      "fuentes": [
+        {
+          "guia": "Sitio oficial",
+          "url": "https://www.baqueira.es/",
+          "url_verificada": false
+        }
+      ]
+    },
+    {
+      "id": "es-caminito-del-rey",
+      "nombre": "Caminito del Rey",
+      "pais_iso": "ES",
+      "region": "Andalucía",
+      "lat": 36.913,
+      "lng": -4.79,
+      "tipo": "otro",
+      "destino_propio": true,
+      "puntaje": 3,
+      "justificacion": "Pasarela colgada a unos 100 m sobre el desfiladero de los Gaitanes: emoción por la altura, apta para todos con reserva previa. Está a 39 km de Málaga y de Ronda.",
+      "temporada": "todo el año (cierra lunes)",
+      "verificacion_pendiente": true,
+      "fuentes": [
+        {
+          "guia": "Sitio oficial",
+          "url": "https://www.caminitodelrey.info/",
+          "url_verificada": false
+        }
+      ]
+    },
+    {
+      "id": "pt-arouca-516-paiva",
+      "nombre": "Puente 516 Arouca y Passadiços do Paiva",
+      "pais_iso": "PT",
+      "region": "Norte",
+      "lat": 40.94,
+      "lng": -8.2,
+      "tipo": "otro",
+      "destino_propio": true,
+      "puntaje": 3,
+      "justificacion": "Puente peatonal colgante de 516 m a unos 175 m sobre el río Paiva, entre los más largos del mundo, junto a 8 km de pasarelas. Es excursión de día desde Oporto (43 km).",
+      "temporada": "todo el año (sujeto a meteorología)",
+      "verificacion_pendiente": true,
+      "fuentes": [
+        {
+          "guia": "Sitio oficial",
+          "url": "https://516arouca.pt/",
+          "url_verificada": false
+        }
+      ]
+    }
+  ]
+}

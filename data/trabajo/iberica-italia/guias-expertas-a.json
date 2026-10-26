@@ -1,0 +1,2320 @@
+{
+  "agente": "guias-expertas",
+  "subregion": "iberica-italia",
+  "ronda": 1,
+  "candidatos": [
+    {
+      "id": "es-barcelona",
+      "nombre": "Barcelona",
+      "pais_iso": "ES",
+      "region": "Cataluña",
+      "lat": 41.3874,
+      "lng": 2.1686,
+      "tipo": "ciudad",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": [
+        "Lonely Planet",
+        "Rick Steves",
+        "Rough Guides",
+        "Fodor's",
+        "Time Out",
+        "National Geographic",
+        "DK Eyewitness"
+      ],
+      "justificacion": "Top pick en todas las guías consultadas: Lonely Planet destaca el modernismo (Sagrada Família, Casa Vicens); Rick Steves la incluye ya en un viaje de 6 días; Rough Guides y Fodor's le dedican sus listas de imprescindibles; Time Out y NatGeo la sitúan entre las grandes ciudades del país.",
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-spain"
+        },
+        {
+          "guia": "Rick Steves",
+          "url": "https://www.ricksteves.com/europe/spain/itinerary"
+        },
+        {
+          "guia": "Rough Guides",
+          "url": "https://www.roughguides.com/spain/things-to-do-barcelona/"
+        },
+        {
+          "guia": "Fodor's",
+          "url": "https://www.fodors.com/world/europe/spain/barcelona/experiences/news/photos/25-ultimate-things-to-do-in-barcelona"
+        },
+        {
+          "guia": "Time Out",
+          "url": "https://www.timeout.com/spain/things-to-do/amazing-places-to-visit-in-spain"
+        },
+        {
+          "guia": "National Geographic",
+          "url": "https://www.nationalgeographic.com/travel/article/spain-essentials-travel-guide"
+        },
+        {
+          "guia": "DK Eyewitness",
+          "url": "https://www.rizzolibookstore.com/product/dk-top-10-barcelona"
+        }
+      ]
+    },
+    {
+      "id": "es-madrid",
+      "nombre": "Madrid",
+      "pais_iso": "ES",
+      "region": "Comunidad de Madrid",
+      "lat": 40.4168,
+      "lng": -3.7038,
+      "tipo": "ciudad",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": [
+        "Michelin Guide Vert",
+        "Lonely Planet",
+        "Rick Steves",
+        "Rough Guides",
+        "Fodor's",
+        "Time Out",
+        "DK Eyewitness"
+      ],
+      "justificacion": "Madrid figura con ★★★ en la Guía Verde Michelin España Centro y es top pick en Lonely Planet, Rick Steves (base de cualquier itinerario), Rough Guides (Prado, Retiro), Fodor's (triángulo del arte) y Time Out.",
+      "fuentes": [
+        {
+          "guia": "Michelin Guide Vert",
+          "url": "https://side-ecom-prod-export.cdi.ch/en/9782067265066-guide-vert-espagne-du-centre"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-spain"
+        },
+        {
+          "guia": "Rick Steves",
+          "url": "https://www.ricksteves.com/europe/spain/itinerary"
+        },
+        {
+          "guia": "Rough Guides",
+          "url": "https://www.roughguides.com/spain/things-to-do-madrid/"
+        },
+        {
+          "guia": "Fodor's",
+          "url": "https://www.fodors.com/world/europe/spain/madrid/experiences/news/photos/25-ultimate-things-to-do-in-madrid"
+        },
+        {
+          "guia": "Time Out",
+          "url": "https://www.timeout.com/spain/things-to-do/amazing-places-to-visit-in-spain"
+        },
+        {
+          "guia": "DK Eyewitness",
+          "url": "https://www.penguinrandomhouse.com/books/851144/dk-top-10-madrid-by-dk-travel/"
+        }
+      ]
+    },
+    {
+      "id": "es-granada-alhambra",
+      "nombre": "Granada y la Alhambra",
+      "pais_iso": "ES",
+      "region": "Andalucía",
+      "lat": 37.1773,
+      "lng": -3.5986,
+      "tipo": "ciudad",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": [
+        "Michelin Guide Vert",
+        "Lonely Planet",
+        "Rick Steves",
+        "Rough Guides",
+        "Time Out"
+      ],
+      "justificacion": "La Alhambra y el mirador de San Nicolás tienen ★★★ en la Guía Verde Michelin; Rough Guides la llama el monumento más visitado de España; top pick también en Lonely Planet, Rick Steves (Sevilla & Granada) y Time Out. Se fusiona ciudad y monumento.",
+      "fuentes": [
+        {
+          "guia": "Michelin Guide Vert",
+          "url": "https://editions.michelin.com/produits/grenade-malaga-2"
+        },
+        {
+          "guia": "Michelin Guide Vert",
+          "url": "https://boutique.laventure.michelin.com/produit/guide-vert-andalousie-ebook"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-spain"
+        },
+        {
+          "guia": "Rick Steves",
+          "url": "https://store.ricksteves.com/products/sevilla-granada-guidebook"
+        },
+        {
+          "guia": "Rough Guides",
+          "url": "https://www.roughguides.com/spain/things-to-do/"
+        },
+        {
+          "guia": "Time Out",
+          "url": "https://www.timeout.com/spain/things-to-do/amazing-places-to-visit-in-spain"
+        }
+      ]
+    },
+    {
+      "id": "es-sevilla",
+      "nombre": "Sevilla",
+      "pais_iso": "ES",
+      "region": "Andalucía",
+      "lat": 37.3891,
+      "lng": -5.9845,
+      "tipo": "ciudad",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": [
+        "Michelin Guide Vert",
+        "Lonely Planet",
+        "Rick Steves",
+        "Rough Guides",
+        "Fodor's",
+        "Time Out",
+        "National Geographic"
+      ],
+      "justificacion": "Real Alcázar, catedral, Semana Santa y Feria: top pick en Lonely Planet, Rick Steves (la ciudad a la que más noches dedica), Rough Guides, Fodor's (catedral entre las mayores del mundo), Time Out y NatGeo; citada entre los sitios estrellados de la Guía Verde Michelin.",
+      "fuentes": [
+        {
+          "guia": "Michelin Guide Vert",
+          "url": "https://boutique.laventure.michelin.com/produit/guide-vert-espagne-ebook/"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-spain"
+        },
+        {
+          "guia": "Rick Steves",
+          "url": "https://store.ricksteves.com/products/sevilla-granada-guidebook"
+        },
+        {
+          "guia": "Rough Guides",
+          "url": "https://www.roughguides.com/spain/things-to-do/"
+        },
+        {
+          "guia": "Fodor's",
+          "url": "https://www.fodors.com/world/europe/spain/experiences/news/photos/ultimate-things-to-do-in-spain"
+        },
+        {
+          "guia": "Time Out",
+          "url": "https://www.timeout.com/spain/things-to-do/amazing-places-to-visit-in-spain"
+        },
+        {
+          "guia": "National Geographic",
+          "url": "https://www.nationalgeographic.com/travel/article/spain-essentials-travel-guide"
+        }
+      ]
+    },
+    {
+      "id": "es-cordoba",
+      "nombre": "Córdoba",
+      "pais_iso": "ES",
+      "region": "Andalucía",
+      "lat": 37.8882,
+      "lng": -4.7794,
+      "tipo": "ciudad",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": [
+        "Rough Guides",
+        "Rick Steves",
+        "Lonely Planet"
+      ],
+      "justificacion": "Rough Guides llama a la Mezquita-Catedral uno de los edificios más bellos del mundo; Rick Steves incluye un recorrido autoguiado por la Mezquita; Lonely Planet la recoge entre lo mejor de Andalucía.",
+      "fuentes": [
+        {
+          "guia": "Rough Guides",
+          "url": "https://www.roughguides.com/spain/things-to-do/"
+        },
+        {
+          "guia": "Rick Steves",
+          "url": "https://store.ricksteves.com/products/sevilla-granada-guidebook"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-andalucia"
+        },
+        {
+          "guia": "Rough Guides",
+          "url": "https://www.roughguides.com/spain/best-places-to-visit/"
+        }
+      ]
+    },
+    {
+      "id": "es-toledo",
+      "nombre": "Toledo",
+      "pais_iso": "ES",
+      "region": "Castilla-La Mancha",
+      "lat": 39.8628,
+      "lng": -4.0273,
+      "tipo": "ciudad",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": [
+        "Rick Steves",
+        "Rough Guides",
+        "Fodor's",
+        "National Geographic",
+        "Time Out"
+      ],
+      "justificacion": "Rick Steves la pone en su itinerario mínimo de 3 días junto a Madrid; Rough Guides destaca su mezcla cristiana, musulmana y judía; Fodor's la incluye en sus 43 experiencias definitivas; NatGeo y Time Out la recomiendan como gran excursión histórica.",
+      "fuentes": [
+        {
+          "guia": "Rick Steves",
+          "url": "https://www.ricksteves.com/europe/spain/itinerary"
+        },
+        {
+          "guia": "Rick Steves",
+          "url": "https://www.ricksteves.com/watch-read-listen/video/tv-show/toledo-and-salamanca"
+        },
+        {
+          "guia": "Rough Guides",
+          "url": "https://www.roughguides.com/spain/things-to-do/"
+        },
+        {
+          "guia": "Fodor's",
+          "url": "https://www.fodors.com/world/europe/spain/experiences/news/photos/ultimate-things-to-do-in-spain"
+        },
+        {
+          "guia": "National Geographic",
+          "url": "https://www.nationalgeographic.com/travel/article/spain-essentials-travel-guide"
+        },
+        {
+          "guia": "Time Out",
+          "url": "https://www.timeout.com/spain/things-to-do/amazing-places-to-visit-in-spain"
+        }
+      ]
+    },
+    {
+      "id": "es-segovia",
+      "nombre": "Segovia",
+      "pais_iso": "ES",
+      "region": "Castilla y León",
+      "lat": 40.9429,
+      "lng": -4.1088,
+      "tipo": "ciudad",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": [
+        "Rick Steves",
+        "Rough Guides",
+        "National Geographic",
+        "Michelin Guide Vert"
+      ],
+      "justificacion": "Acueducto romano y Alcázar: excursión del tour Best of Spain de Rick Steves, imprescindible en Rough Guides, clásico de NatGeo y señalada entre los incontournables de la Guía Verde Michelin España Centro.",
+      "fuentes": [
+        {
+          "guia": "Rick Steves",
+          "url": "https://www.ricksteves.com/tours/spain/best-spain-tour"
+        },
+        {
+          "guia": "Rick Steves",
+          "url": "https://www.ricksteves.com/europe/spain/itinerary"
+        },
+        {
+          "guia": "Rough Guides",
+          "url": "https://www.roughguides.com/spain/things-to-do/"
+        },
+        {
+          "guia": "National Geographic",
+          "url": "https://www.nationalgeographic.com/travel/article/spain-essentials-travel-guide"
+        },
+        {
+          "guia": "Michelin Guide Vert",
+          "url": "https://side-ecom-prod-export.cdi.ch/en/9782067265066-guide-vert-espagne-du-centre"
+        }
+      ]
+    },
+    {
+      "id": "es-salamanca",
+      "nombre": "Salamanca",
+      "pais_iso": "ES",
+      "region": "Castilla y León",
+      "lat": 40.9701,
+      "lng": -5.6635,
+      "tipo": "ciudad",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": [
+        "Lonely Planet",
+        "Rick Steves",
+        "National Geographic"
+      ],
+      "justificacion": "Ciudad universitaria de piedra dorada: Lonely Planet la destaca, Rick Steves le dedica un episodio (Plaza Mayor) y la añade en viajes de 15 días, NatGeo la propone como alternativa a Madrid.",
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-spain"
+        },
+        {
+          "guia": "Rick Steves",
+          "url": "https://www.ricksteves.com/watch-read-listen/video/tv-show/toledo-and-salamanca"
+        },
+        {
+          "guia": "Rick Steves",
+          "url": "https://www.ricksteves.com/europe/spain/itinerary"
+        },
+        {
+          "guia": "National Geographic",
+          "url": "https://www.nationalgeographic.com/travel/article/lesser-known-alternative-cities-spain"
+        }
+      ]
+    },
+    {
+      "id": "es-avila",
+      "nombre": "Ávila",
+      "pais_iso": "ES",
+      "region": "Castilla y León",
+      "lat": 40.6566,
+      "lng": -4.6818,
+      "tipo": "ciudad",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": [
+        "Lonely Planet",
+        "Rick Steves",
+        "National Geographic"
+      ],
+      "justificacion": "Murallas medievales completas: Lonely Planet dice que parecen sacadas de un plató, Rick Steves la incluye en su ruta por Castilla y NatGeo la cita entre las excursiones clásicas desde Madrid.",
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/destinations/spain/castilla-y-leon"
+        },
+        {
+          "guia": "Rick Steves",
+          "url": "https://www.ricksteves.com/watch-read-listen/video/tv-show/toledo-and-salamanca"
+        },
+        {
+          "guia": "National Geographic",
+          "url": "https://www.nationalgeographic.com/travel/article/spain-essentials-travel-guide"
+        }
+      ]
+    },
+    {
+      "id": "es-el-escorial",
+      "nombre": "San Lorenzo de El Escorial",
+      "pais_iso": "ES",
+      "region": "Comunidad de Madrid",
+      "lat": 40.5891,
+      "lng": -4.1475,
+      "tipo": "monumento",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": [
+        "Fodor's",
+        "Rick Steves",
+        "DK Eyewitness"
+      ],
+      "justificacion": "Monasterio real a 45 km de Madrid: experiencia definitiva de Fodor's (destaca la biblioteca), capítulo de excursiones en Rick Steves Best of Spain y entrada del DK Eyewitness Top 10 Madrid.",
+      "fuentes": [
+        {
+          "guia": "Fodor's",
+          "url": "https://www.fodors.com/world/europe/spain/experiences/news/photos/ultimate-things-to-do-in-spain"
+        },
+        {
+          "guia": "Rick Steves",
+          "url": "https://store.ricksteves.com/products/best-of-spain-guidebook"
+        },
+        {
+          "guia": "DK Eyewitness",
+          "url": "https://www.penguinrandomhouse.com/books/851144/dk-top-10-madrid-by-dk-travel/"
+        }
+      ]
+    },
+    {
+      "id": "es-san-sebastian",
+      "nombre": "San Sebastián / Donostia",
+      "pais_iso": "ES",
+      "region": "País Vasco",
+      "lat": 43.3183,
+      "lng": -1.9812,
+      "tipo": "ciudad",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": [
+        "Lonely Planet",
+        "Rick Steves",
+        "Rough Guides",
+        "National Geographic"
+      ],
+      "justificacion": "Pintxos, estrellas Michelin y La Concha: top pick en Lonely Planet, base ideal del País Vasco para Rick Steves, imprescindible gastronómico en Rough Guides y protagonista del País Vasco en Best of the World 2026 de NatGeo.",
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-spain"
+        },
+        {
+          "guia": "Rick Steves",
+          "url": "https://www.ricksteves.com/watch-read-listen/read/articles/the-best-of-the-basque-country"
+        },
+        {
+          "guia": "Rough Guides",
+          "url": "https://www.roughguides.com/spain/things-to-do/"
+        },
+        {
+          "guia": "National Geographic",
+          "url": "https://www.nationalgeographic.com/travel/best-of-the-world-2026/article/basque-country-spain"
+        },
+        {
+          "guia": "National Geographic",
+          "url": "https://www.nationalgeographic.com/travel/article/best-beaches-in-spain"
+        }
+      ]
+    },
+    {
+      "id": "es-bilbao",
+      "nombre": "Bilbao",
+      "pais_iso": "ES",
+      "region": "País Vasco",
+      "lat": 43.263,
+      "lng": -2.935,
+      "tipo": "ciudad",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": [
+        "Rick Steves",
+        "Lonely Planet",
+        "Time Out",
+        "National Geographic"
+      ],
+      "justificacion": "El Guggenheim de Gehry es el gran reclamo: Rick Steves termina allí su tour vasco, Lonely Planet lo destaca en la España Verde, Time Out la elige entre las mejores ciudades y NatGeo lo considera visita obligada.",
+      "fuentes": [
+        {
+          "guia": "Rick Steves",
+          "url": "https://www.ricksteves.com/watch-read-listen/read/articles/the-best-of-the-basque-country"
+        },
+        {
+          "guia": "Rick Steves",
+          "url": "https://www.ricksteves.com/tours/spain/basque"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/guide-to-green-spain"
+        },
+        {
+          "guia": "Time Out",
+          "url": "https://www.timeout.com/spain/things-to-do/amazing-places-to-visit-in-spain"
+        },
+        {
+          "guia": "National Geographic",
+          "url": "https://www.nationalgeographic.com/travel/best-of-the-world-2026/article/basque-country-spain"
+        }
+      ]
+    },
+    {
+      "id": "es-santiago-de-compostela",
+      "nombre": "Santiago de Compostela",
+      "pais_iso": "ES",
+      "region": "Galicia",
+      "lat": 42.8782,
+      "lng": -8.5448,
+      "tipo": "ciudad",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": [
+        "Michelin Guide Vert",
+        "Lonely Planet",
+        "Fodor's",
+        "Rough Guides",
+        "Rick Steves"
+      ],
+      "justificacion": "Meta del Camino: citada con ★★★ en la Guía Verde Michelin España, top pick en Lonely Planet, experiencia definitiva de Fodor's, destacada por Rough Guides y cubierta en la guía Spain de Rick Steves.",
+      "fuentes": [
+        {
+          "guia": "Michelin Guide Vert",
+          "url": "https://boutique.laventure.michelin.com/en/product/guide-vert-espagne-ebook"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-spain"
+        },
+        {
+          "guia": "Fodor's",
+          "url": "https://www.fodors.com/world/europe/spain/experiences/news/photos/ultimate-things-to-do-in-spain"
+        },
+        {
+          "guia": "Rough Guides",
+          "url": "https://www.roughguides.com/spain/best-places-to-visit/"
+        },
+        {
+          "guia": "Rick Steves",
+          "url": "https://store.ricksteves.com/products/spain-guidebook"
+        }
+      ]
+    },
+    {
+      "id": "es-picos-de-europa",
+      "nombre": "Picos de Europa",
+      "pais_iso": "ES",
+      "region": "Asturias / Cantabria / León",
+      "lat": 43.195,
+      "lng": -4.858,
+      "tipo": "parque",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": [
+        "Michelin Guide Vert",
+        "Rough Guides",
+        "Fodor's",
+        "Lonely Planet",
+        "Time Out",
+        "National Geographic"
+      ],
+      "justificacion": "★★★ en la Guía Verde Michelin; Rough Guides y Fodor's lo recomiendan para senderismo; Lonely Planet destaca la Ruta del Cares; Time Out lo nombró el lugar más bonito del mundo; NatGeo recuerda que es el primer parque nacional del país.",
+      "fuentes": [
+        {
+          "guia": "Michelin Guide Vert",
+          "url": "https://boutique.laventure.michelin.com/en/product/guide-vert-espagne-ebook"
+        },
+        {
+          "guia": "Rough Guides",
+          "url": "https://www.roughguides.com/spain/things-to-do/"
+        },
+        {
+          "guia": "Fodor's",
+          "url": "https://www.fodors.com/world/europe/spain/experiences/news/photos/ultimate-things-to-do-in-spain"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/guide-to-green-spain"
+        },
+        {
+          "guia": "Time Out",
+          "url": "https://www.timeout.com/news/this-spanish-mountain-range-has-just-been-named-the-worlds-most-beautiful-place-032326"
+        },
+        {
+          "guia": "National Geographic",
+          "url": "https://www.nationalgeographic.com/travel/article/spain-national-parks"
+        }
+      ]
+    },
+    {
+      "id": "es-santillana-altamira",
+      "nombre": "Santillana del Mar y Altamira",
+      "pais_iso": "ES",
+      "region": "Cantabria",
+      "lat": 43.3891,
+      "lng": -4.1067,
+      "tipo": "pueblo",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": [
+        "Lonely Planet",
+        "Rough Guides"
+      ],
+      "justificacion": "Lonely Planet recomienda visitar las pinturas de Altamira en su guía de la España Verde; Rough Guides cubre Santillana y la costa cántabra.",
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/guide-to-green-spain"
+        },
+        {
+          "guia": "Rough Guides",
+          "url": "https://www.roughguides.com/spain/cantabria-and-asturias/"
+        }
+      ]
+    },
+    {
+      "id": "es-praia-das-catedrais",
+      "nombre": "Playa de las Catedrales",
+      "pais_iso": "ES",
+      "region": "Galicia",
+      "lat": 43.5537,
+      "lng": -7.1574,
+      "tipo": "costa",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": [
+        "Lonely Planet"
+      ],
+      "justificacion": "Lonely Planet destaca sus arcos y bóvedas tallados por el mar entre las mejores playas de España.",
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-spain"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-beaches-in-spain"
+        }
+      ]
+    },
+    {
+      "id": "es-valencia",
+      "nombre": "Valencia",
+      "pais_iso": "ES",
+      "region": "Comunidad Valenciana",
+      "lat": 39.4699,
+      "lng": -0.3763,
+      "tipo": "ciudad",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": [
+        "Michelin Guide Vert",
+        "Lonely Planet",
+        "Time Out",
+        "Rough Guides",
+        "Fodor's"
+      ],
+      "justificacion": "Ciudad de las Artes y las Ciencias, Fallas y paella: citada con ★★★ en la Guía Verde Michelin España, top pick en Lonely Planet y Time Out, con guías de Rough Guides y Fodor's.",
+      "fuentes": [
+        {
+          "guia": "Michelin Guide Vert",
+          "url": "https://boutique.laventure.michelin.com/en/product/guide-vert-espagne-ebook"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-valencia"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-spain"
+        },
+        {
+          "guia": "Time Out",
+          "url": "https://www.timeout.com/valencia/things-to-do/best-things-to-do-in-valencia"
+        },
+        {
+          "guia": "Rough Guides",
+          "url": "https://www.roughguides.com/spain/perfect-valencia-city-break/"
+        },
+        {
+          "guia": "Fodor's",
+          "url": "https://www.fodors.com/world/europe/spain/catalonia-valencia-and-the-costa-blanca/travel-tips/planning-your-time-82824890"
+        }
+      ]
+    },
+    {
+      "id": "es-mallorca",
+      "nombre": "Mallorca (Palma y Serra de Tramuntana)",
+      "pais_iso": "ES",
+      "region": "Islas Baleares",
+      "lat": 39.6953,
+      "lng": 2.9,
+      "tipo": "isla",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": [
+        "Lonely Planet",
+        "Rough Guides"
+      ],
+      "justificacion": "Lonely Planet destaca Deià y la Tramuntana (Patrimonio UNESCO) y la vida local todo el año; Rough Guides la considera la isla más completa (\"para quien lo quiere todo\").",
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/mallorca-vs-ibiza"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-spain"
+        },
+        {
+          "guia": "Rough Guides",
+          "url": "https://www.roughguides.com/spain/best-balearic-islands-to-visit/"
+        },
+        {
+          "guia": "Rough Guides",
+          "url": "https://www.roughguides.com/spain/best-islands/"
+        }
+      ]
+    },
+    {
+      "id": "es-menorca",
+      "nombre": "Menorca",
+      "pais_iso": "ES",
+      "region": "Islas Baleares",
+      "lat": 39.9496,
+      "lng": 4.1104,
+      "tipo": "isla",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": [
+        "Lonely Planet",
+        "Rough Guides",
+        "National Geographic"
+      ],
+      "justificacion": "Calas vírgenes y Camí de Cavalls: guía específica de Lonely Planet, \"slow burn\" ideal para Rough Guides y recomendada por NatGeo por playas y pueblos.",
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/guide-to-menorca"
+        },
+        {
+          "guia": "Rough Guides",
+          "url": "https://www.roughguides.com/spain/best-balearic-islands-to-visit/"
+        },
+        {
+          "guia": "National Geographic",
+          "url": "https://www.nationalgeographic.com/travel/article/best-beaches-in-spain"
+        }
+      ]
+    },
+    {
+      "id": "es-ibiza",
+      "nombre": "Ibiza",
+      "pais_iso": "ES",
+      "region": "Islas Baleares",
+      "lat": 38.9067,
+      "lng": 1.4206,
+      "tipo": "isla",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": [
+        "Rough Guides",
+        "Lonely Planet",
+        "Time Out"
+      ],
+      "justificacion": "Dalt Vila (UNESCO), calas y senderismo fuera de temporada: Rough Guides, Lonely Planet y Time Out la destacan más allá de la fiesta.",
+      "fuentes": [
+        {
+          "guia": "Rough Guides",
+          "url": "https://www.roughguides.com/spain/the-balearic-islands/ibiza/"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/mallorca-vs-ibiza"
+        },
+        {
+          "guia": "Time Out",
+          "url": "https://www.timeout.com/spain/things-to-do/amazing-places-to-visit-in-spain"
+        }
+      ]
+    },
+    {
+      "id": "es-tenerife-teide",
+      "nombre": "Tenerife y el Teide",
+      "pais_iso": "ES",
+      "region": "Canarias",
+      "lat": 28.2724,
+      "lng": -16.6425,
+      "tipo": "isla",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": [
+        "Rough Guides",
+        "Lonely Planet",
+        "Fodor's",
+        "National Geographic"
+      ],
+      "justificacion": "El Teide, cumbre más alta de España: imprescindible en Rough Guides, Lonely Planet (parques nacionales y Canarias), Fodor's (se puede ascender al volcán) y NatGeo.",
+      "fuentes": [
+        {
+          "guia": "Rough Guides",
+          "url": "https://www.roughguides.com/spain/things-to-do/"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-canary-islands"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-national-parks-spain"
+        },
+        {
+          "guia": "Fodor's",
+          "url": "https://www.fodors.com/world/europe/spain/experiences/news/photos/ultimate-things-to-do-in-spain"
+        },
+        {
+          "guia": "National Geographic",
+          "url": "https://www.nationalgeographic.com/travel/article/the-ultimate-guide-to-your-canary-islands-adventure"
+        }
+      ]
+    },
+    {
+      "id": "es-lanzarote",
+      "nombre": "Lanzarote",
+      "pais_iso": "ES",
+      "region": "Canarias",
+      "lat": 29.0469,
+      "lng": -13.6,
+      "tipo": "isla",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": [
+        "Rough Guides",
+        "Lonely Planet",
+        "Time Out"
+      ],
+      "justificacion": "Campos de lava, La Geria y la obra de César Manrique: Rough Guides la recomienda entre lo mejor de España, Lonely Planet la elige para arte y arquitectura, Time Out la destaca.",
+      "fuentes": [
+        {
+          "guia": "Rough Guides",
+          "url": "https://www.roughguides.com/spain/things-to-do/"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/choose-best-canary-island-for-you"
+        },
+        {
+          "guia": "Time Out",
+          "url": "https://www.timeout.com/spain/things-to-do/amazing-places-to-visit-in-spain"
+        }
+      ]
+    },
+    {
+      "id": "es-ronda",
+      "nombre": "Ronda",
+      "pais_iso": "ES",
+      "region": "Andalucía",
+      "lat": 36.7423,
+      "lng": -5.1671,
+      "tipo": "pueblo",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": [
+        "Rick Steves",
+        "Lonely Planet",
+        "Rough Guides"
+      ],
+      "justificacion": "Pueblo sobre el Tajo con la plaza de toros más antigua: Rick Steves la destaca entre los pueblos blancos y en su tour, Lonely Planet como excursión desde Sevilla y Rough Guides en Andalucía.",
+      "fuentes": [
+        {
+          "guia": "Rick Steves",
+          "url": "https://www.ricksteves.com/europe/spain/white-hill-towns"
+        },
+        {
+          "guia": "Rick Steves",
+          "url": "https://www.ricksteves.com/tours/spain/best-spain-tour"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/day-trips-from-seville"
+        },
+        {
+          "guia": "Rough Guides",
+          "url": "https://www.roughguides.com/spain/andalucia/"
+        }
+      ]
+    },
+    {
+      "id": "es-pueblos-blancos-cadiz",
+      "nombre": "Pueblos blancos de Cádiz (Arcos, Grazalema, Zahara)",
+      "pais_iso": "ES",
+      "region": "Andalucía",
+      "lat": 36.798,
+      "lng": -5.4,
+      "tipo": "region",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": [
+        "Rick Steves",
+        "Rough Guides",
+        "Fodor's",
+        "Lonely Planet"
+      ],
+      "justificacion": "Ruta de los Pueblos Blancos: capítulo propio en Rick Steves (Arcos de la Frontera), lista de Rough Guides, experiencia definitiva de Fodor's y presente en los pueblos más bonitos de Lonely Planet.",
+      "fuentes": [
+        {
+          "guia": "Rick Steves",
+          "url": "https://www.ricksteves.com/europe/spain/white-hill-towns"
+        },
+        {
+          "guia": "Rough Guides",
+          "url": "https://www.roughguides.com/spain/best-white-villages-andalucia/"
+        },
+        {
+          "guia": "Fodor's",
+          "url": "https://www.fodors.com/world/europe/spain/experiences/news/photos/ultimate-things-to-do-in-spain"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/beautiful-spanish-towns-to-visit"
+        }
+      ]
+    },
+    {
+      "id": "es-tarifa-bolonia",
+      "nombre": "Tarifa y playa de Bolonia",
+      "pais_iso": "ES",
+      "region": "Andalucía",
+      "lat": 36.042,
+      "lng": -5.68,
+      "tipo": "costa",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": [
+        "Lonely Planet",
+        "Rough Guides",
+        "National Geographic"
+      ],
+      "justificacion": "Bolonia (4 km de arena junto a Baelo Claudia) figura entre las mejores playas de Lonely Planet y Rough Guides; Tarifa es destino de kitesurf para Lonely Planet y NatGeo.",
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-beaches-in-spain"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/where-locals-go-under-the-radar-destinations-spain"
+        },
+        {
+          "guia": "Rough Guides",
+          "url": "https://www.roughguides.com/spain/best-beaches/"
+        },
+        {
+          "guia": "National Geographic",
+          "url": "https://www.nationalgeographic.com/travel/article/best-beaches-in-spain"
+        }
+      ]
+    },
+    {
+      "id": "es-jerez-de-la-frontera",
+      "nombre": "Jerez de la Frontera",
+      "pais_iso": "ES",
+      "region": "Andalucía",
+      "lat": 36.685,
+      "lng": -6.1261,
+      "tipo": "ciudad",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": [
+        "Rick Steves",
+        "Lonely Planet",
+        "Rough Guides",
+        "National Geographic"
+      ],
+      "justificacion": "Cuna del jerez y meca ecuestre (Rick Steves); bodegas visitables (Lonely Planet); cata de jerez en Rough Guides; flamenco en NatGeo.",
+      "fuentes": [
+        {
+          "guia": "Rick Steves",
+          "url": "https://www.ricksteves.com/europe/spain/white-hill-towns"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/day-trips-from-seville"
+        },
+        {
+          "guia": "Rough Guides",
+          "url": "https://www.roughguides.com/spain/things-to-do/"
+        },
+        {
+          "guia": "National Geographic",
+          "url": "https://www.nationalgeographic.com/travel/article/spain-essentials-travel-guide"
+        }
+      ]
+    },
+    {
+      "id": "es-malaga",
+      "nombre": "Málaga",
+      "pais_iso": "ES",
+      "region": "Andalucía",
+      "lat": 36.7213,
+      "lng": -4.4214,
+      "tipo": "ciudad",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": [
+        "Michelin Guide Vert",
+        "Lonely Planet"
+      ],
+      "justificacion": "Guía Verde Michelin Granada & Málaga (Museo Picasso ★★); Lonely Planet la destaca en su página de destino España.",
+      "fuentes": [
+        {
+          "guia": "Michelin Guide Vert",
+          "url": "https://editions.michelin.com/produits/grenade-malaga-2"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://lonelyplanet.com/destinations/spain"
+        }
+      ]
+    },
+    {
+      "id": "es-ubeda-baeza",
+      "nombre": "Úbeda y Baeza",
+      "pais_iso": "ES",
+      "region": "Andalucía",
+      "lat": 38.0133,
+      "lng": -3.3705,
+      "tipo": "ciudad",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": [
+        "Time Out",
+        "Rough Guides"
+      ],
+      "justificacion": "Conjuntos renacentistas Patrimonio UNESCO en Jaén: Time Out los incluye entre los mejores lugares de España y Rough Guides los cubre en Andalucía.",
+      "fuentes": [
+        {
+          "guia": "Time Out",
+          "url": "https://www.timeout.com/spain/things-to-do/amazing-places-to-visit-in-spain"
+        },
+        {
+          "guia": "Rough Guides",
+          "url": "https://www.roughguides.com/spain/andalucia/"
+        }
+      ]
+    },
+    {
+      "id": "es-alpujarras-sierra-nevada",
+      "nombre": "Las Alpujarras y Sierra Nevada",
+      "pais_iso": "ES",
+      "region": "Andalucía",
+      "lat": 36.9614,
+      "lng": -3.3586,
+      "tipo": "montana",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": [
+        "Rough Guides",
+        "Lonely Planet"
+      ],
+      "justificacion": "Pueblos blancos y caminos de herradura en la ladera sur de Sierra Nevada (Rough Guides); Lonely Planet destaca el mayor parque nacional de España con la estación de esquí más meridional de Europa.",
+      "fuentes": [
+        {
+          "guia": "Rough Guides",
+          "url": "https://www.roughguides.com/spain/things-to-do/"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-national-parks-spain"
+        },
+        {
+          "guia": "Rough Guides",
+          "url": "https://shop.roughguides.com/book/rough-guide-spain"
+        }
+      ]
+    },
+    {
+      "id": "es-donana",
+      "nombre": "Parque Nacional de Doñana",
+      "pais_iso": "ES",
+      "region": "Andalucía",
+      "lat": 37,
+      "lng": -6.43,
+      "tipo": "parque",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": [
+        "Lonely Planet",
+        "Rough Guides"
+      ],
+      "justificacion": "Uno de los humedales más importantes de Europa según Lonely Planet; Rough Guides lo propone como destino familiar.",
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-national-parks-spain"
+        },
+        {
+          "guia": "Rough Guides",
+          "url": "https://shop.roughguides.com/book/rough-guide-spain"
+        }
+      ]
+    },
+    {
+      "id": "es-cuenca",
+      "nombre": "Cuenca",
+      "pais_iso": "ES",
+      "region": "Castilla-La Mancha",
+      "lat": 40.0704,
+      "lng": -2.1374,
+      "tipo": "ciudad",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": [
+        "Lonely Planet"
+      ],
+      "justificacion": "Casas colgadas sobre la hoz del Huécar y la Ciudad Encantada cercana: artículo dedicado de Lonely Planet.",
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-cuenca"
+        }
+      ]
+    },
+    {
+      "id": "es-ordesa-monte-perdido",
+      "nombre": "Ordesa y Monte Perdido",
+      "pais_iso": "ES",
+      "region": "Aragón",
+      "lat": 42.65,
+      "lng": -0.05,
+      "tipo": "parque",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": [
+        "Lonely Planet",
+        "Fodor's",
+        "National Geographic",
+        "Rough Guides"
+      ],
+      "justificacion": "Gran parque pirenaico (UNESCO): Lonely Planet lo destaca por sus cumbres y la ruta a la Cola de Caballo, Fodor's tiene reseña propia, NatGeo lo incluye entre los mejores parques nacionales y Rough Guides cubre Aragón.",
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-spain"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-national-parks-spain"
+        },
+        {
+          "guia": "Fodor's",
+          "url": "https://www.fodors.com/world/europe/spain/the-pyrenees/things-to-do/sights/reviews/ordesa-and-monte-perdido-national-park-451118"
+        },
+        {
+          "guia": "National Geographic",
+          "url": "https://www.nationalgeographic.com/travel/article/spain-national-parks"
+        },
+        {
+          "guia": "Rough Guides",
+          "url": "https://www.roughguides.com/spain/aragon/"
+        }
+      ]
+    },
+    {
+      "id": "es-la-rioja",
+      "nombre": "La Rioja (región vinícola)",
+      "pais_iso": "ES",
+      "region": "La Rioja",
+      "lat": 42.54,
+      "lng": -2.62,
+      "tipo": "region",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": [
+        "Lonely Planet",
+        "Rough Guides",
+        "Fodor's"
+      ],
+      "justificacion": "La región vinícola más famosa de España: Lonely Planet la elige para otoño (vendimia), Rough Guides y Fodor's recomiendan rutas de vino.",
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-spain-in-fall"
+        },
+        {
+          "guia": "Rough Guides",
+          "url": "https://www.roughguides.com/spain/things-to-do/"
+        },
+        {
+          "guia": "Fodor's",
+          "url": "https://www.fodors.com/world/europe/spain/experiences/news/photos/ultimate-things-to-do-in-spain"
+        }
+      ]
+    },
+    {
+      "id": "es-burgos",
+      "nombre": "Burgos",
+      "pais_iso": "ES",
+      "region": "Castilla y León",
+      "lat": 42.3439,
+      "lng": -3.6969,
+      "tipo": "ciudad",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": [
+        "Lonely Planet",
+        "Rough Guides"
+      ],
+      "justificacion": "Catedral gótica Patrimonio UNESCO: Lonely Planet la llama uno de los grandes templos de España y Rough Guides la incluye entre sus imprescindibles.",
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/destinations/spain/castilla-y-leon/burgos"
+        },
+        {
+          "guia": "Rough Guides",
+          "url": "https://www.roughguides.com/spain/best-places-to-visit/"
+        }
+      ]
+    },
+    {
+      "id": "es-leon",
+      "nombre": "León",
+      "pais_iso": "ES",
+      "region": "Castilla y León",
+      "lat": 42.5987,
+      "lng": -5.5671,
+      "tipo": "ciudad",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": [
+        "Lonely Planet",
+        "Rick Steves"
+      ],
+      "justificacion": "Lonely Planet sitúa su catedral (vidrieras) entre las más impresionantes de Europa; Rick Steves la cubre en su guía Spain.",
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/destinations/spain/castilla-y-leon"
+        },
+        {
+          "guia": "Rick Steves",
+          "url": "https://store.ricksteves.com/products/spain-guidebook"
+        }
+      ]
+    },
+    {
+      "id": "es-caceres",
+      "nombre": "Cáceres",
+      "pais_iso": "ES",
+      "region": "Extremadura",
+      "lat": 39.4753,
+      "lng": -6.3724,
+      "tipo": "ciudad",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": [
+        "Lonely Planet",
+        "National Geographic"
+      ],
+      "justificacion": "Ciudad monumental Patrimonio UNESCO: Lonely Planet destaca la Torre de Bujaco y NatGeo su casco amurallado \"inquietantemente bello\".",
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/destinations/spain/extremadura/caceres"
+        },
+        {
+          "guia": "National Geographic",
+          "url": "https://www.nationalgeographic.com/travel/article/lesser-known-alternative-cities-spain"
+        }
+      ]
+    },
+    {
+      "id": "es-girona",
+      "nombre": "Girona",
+      "pais_iso": "ES",
+      "region": "Cataluña",
+      "lat": 41.9794,
+      "lng": 2.8214,
+      "tipo": "ciudad",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": [
+        "Lonely Planet"
+      ],
+      "justificacion": "Barrio judío y murallas medievales: Lonely Planet la incluye entre lo mejor de Cataluña fuera de Barcelona.",
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-catalonia"
+        }
+      ]
+    },
+    {
+      "id": "pt-lisboa",
+      "nombre": "Lisboa",
+      "pais_iso": "PT",
+      "region": "Lisboa",
+      "lat": 38.7223,
+      "lng": -9.1393,
+      "tipo": "ciudad",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": [
+        "Michelin Guide Vert",
+        "Lonely Planet",
+        "Rick Steves",
+        "Rough Guides",
+        "Time Out"
+      ],
+      "justificacion": "Torre de Belém ★★★ y Alfama ★★ en la Guía Verde Michelin; top pick en Lonely Planet, Rick Steves (núcleo del itinerario de 3 días), Rough Guides (Alfama, fado) y Time Out.",
+      "fuentes": [
+        {
+          "guia": "Michelin Guide Vert",
+          "url": "https://boutique.laventure.michelin.com/produit/guide-vert-wego-lisbonne-2026-ebook"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-portugal"
+        },
+        {
+          "guia": "Rick Steves",
+          "url": "https://www.ricksteves.com/europe/portugal/itinerary"
+        },
+        {
+          "guia": "Rick Steves",
+          "url": "https://www.ricksteves.com/watch-read-listen/video/tv-show/lisbon"
+        },
+        {
+          "guia": "Rough Guides",
+          "url": "https://www.roughguides.com/portugal/things-to-do/"
+        },
+        {
+          "guia": "Time Out",
+          "url": "https://www.timeout.com/portugal/travel/best-places-to-visit-in-portugal"
+        }
+      ]
+    },
+    {
+      "id": "pt-sintra",
+      "nombre": "Sintra (y Cabo da Roca)",
+      "pais_iso": "PT",
+      "region": "Lisboa",
+      "lat": 38.7976,
+      "lng": -9.39,
+      "tipo": "pueblo",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": [
+        "Michelin Guide Vert",
+        "Rick Steves",
+        "Rough Guides",
+        "Lonely Planet"
+      ],
+      "justificacion": "Sintra ★★★ en la Guía Verde Michelin Portugal; Rick Steves, Rough Guides (\"cuento de hadas de palacios\") y Lonely Planet la destacan. Incluye el Cabo da Roca, a menos de 15 km.",
+      "fuentes": [
+        {
+          "guia": "Michelin Guide Vert",
+          "url": "https://editions.michelin.com/produits/portugal-2/"
+        },
+        {
+          "guia": "Rick Steves",
+          "url": "https://www.ricksteves.com/watch-read-listen/read/articles/portugal-aristocratic-getaways"
+        },
+        {
+          "guia": "Rough Guides",
+          "url": "https://www.roughguides.com/portugal/things-to-do/"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-portugal"
+        }
+      ]
+    },
+    {
+      "id": "pt-porto",
+      "nombre": "Oporto",
+      "pais_iso": "PT",
+      "region": "Norte",
+      "lat": 41.1579,
+      "lng": -8.6291,
+      "tipo": "ciudad",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": [
+        "Michelin Guide Vert",
+        "Lonely Planet",
+        "Rick Steves",
+        "Rough Guides",
+        "Fodor's"
+      ],
+      "justificacion": "Porto ★★ en la Guía Verde Michelin; Ribeira, bodegas de Gaia y Livraria Lello: top pick en Lonely Planet, Rick Steves, Rough Guides y Fodor's.",
+      "fuentes": [
+        {
+          "guia": "Michelin Guide Vert",
+          "url": "https://editions.michelin.com/produits/portugal-2/"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-portugal"
+        },
+        {
+          "guia": "Rick Steves",
+          "url": "https://www.ricksteves.com/europe/portugal/itinerary"
+        },
+        {
+          "guia": "Rough Guides",
+          "url": "https://www.roughguides.com/portugal/things-to-do-porto/"
+        },
+        {
+          "guia": "Fodor's",
+          "url": "https://www.fodors.com/world/europe/portugal/porto-and-the-north/experiences/news/photos/10-things-to-do-in-porto-besides-drink-port"
+        }
+      ]
+    },
+    {
+      "id": "pt-valle-del-duero",
+      "nombre": "Valle del Duero",
+      "pais_iso": "PT",
+      "region": "Norte",
+      "lat": 41.191,
+      "lng": -7.546,
+      "tipo": "region",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": [
+        "Lonely Planet",
+        "Rick Steves",
+        "Rough Guides",
+        "Fodor's"
+      ],
+      "justificacion": "Viñedos en terrazas Patrimonio UNESCO: destacado por Lonely Planet, Rick Steves (itinerario de 14 días y tours), Rough Guides (vendimia) y Fodor's.",
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-portugal"
+        },
+        {
+          "guia": "Rick Steves",
+          "url": "https://www.ricksteves.com/europe/portugal/itinerary"
+        },
+        {
+          "guia": "Rough Guides",
+          "url": "https://www.roughguides.com/portugal/things-to-do/"
+        },
+        {
+          "guia": "Fodor's",
+          "url": "https://www.fodors.com/world/europe/portugal/porto-and-the-north"
+        }
+      ]
+    },
+    {
+      "id": "pt-guimaraes",
+      "nombre": "Guimarães",
+      "pais_iso": "PT",
+      "region": "Norte",
+      "lat": 41.4425,
+      "lng": -8.2918,
+      "tipo": "ciudad",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": [
+        "Fodor's",
+        "Rough Guides"
+      ],
+      "justificacion": "Cuna de Portugal: Fodor's la considera la mejor excursión desde Oporto y Rough Guides destaca su núcleo medieval UNESCO.",
+      "fuentes": [
+        {
+          "guia": "Fodor's",
+          "url": "https://www.fodors.com/world/europe/portugal/porto-and-the-north/experiences/news/photos/10-things-to-do-in-porto-besides-drink-port"
+        },
+        {
+          "guia": "Rough Guides",
+          "url": "https://www.roughguides.com/portugal/best-road-trips/"
+        }
+      ]
+    },
+    {
+      "id": "pt-braga",
+      "nombre": "Braga (Bom Jesus do Monte)",
+      "pais_iso": "PT",
+      "region": "Norte",
+      "lat": 41.5454,
+      "lng": -8.4265,
+      "tipo": "ciudad",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": [
+        "Rough Guides"
+      ],
+      "justificacion": "Centro espiritual del país con el santuario de Bom Jesus (UNESCO), recogido por Rough Guides.",
+      "fuentes": [
+        {
+          "guia": "Rough Guides",
+          "url": "https://www.roughguides.com/portugal/best-road-trips/"
+        }
+      ]
+    },
+    {
+      "id": "pt-peneda-geres",
+      "nombre": "Parque Nacional da Peneda-Gerês",
+      "pais_iso": "PT",
+      "region": "Norte",
+      "lat": 41.73,
+      "lng": -8.16,
+      "tipo": "parque",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": [
+        "Rough Guides",
+        "Lonely Planet",
+        "National Geographic"
+      ],
+      "justificacion": "Único parque nacional de Portugal: imprescindible en Rough Guides, destacado por Lonely Planet para senderismo y con artículo propio en NatGeo.",
+      "fuentes": [
+        {
+          "guia": "Rough Guides",
+          "url": "https://www.roughguides.com/portugal/things-to-do/"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-national-parks-portugal"
+        },
+        {
+          "guia": "National Geographic",
+          "url": "https://www.nationalgeographic.com/travel/article/peneda-geres-portugal"
+        }
+      ]
+    },
+    {
+      "id": "pt-coimbra",
+      "nombre": "Coimbra",
+      "pais_iso": "PT",
+      "region": "Centro",
+      "lat": 40.2033,
+      "lng": -8.4103,
+      "tipo": "ciudad",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": [
+        "Lonely Planet",
+        "Rick Steves",
+        "Rough Guides"
+      ],
+      "justificacion": "Universidad de 1290 y Biblioteca Joanina: Lonely Planet, Rick Steves (episodio de TV e itinerario de 8 días) y Rough Guides (fado estudiantil) la recomiendan.",
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-portugal"
+        },
+        {
+          "guia": "Rick Steves",
+          "url": "https://www.ricksteves.com/watch-read-listen/video/tv-show/portugal"
+        },
+        {
+          "guia": "Rick Steves",
+          "url": "https://www.ricksteves.com/europe/portugal/itinerary"
+        },
+        {
+          "guia": "Rough Guides",
+          "url": "https://www.roughguides.com/portugal/things-to-do/"
+        }
+      ]
+    },
+    {
+      "id": "pt-serra-da-estrela",
+      "nombre": "Serra da Estrela",
+      "pais_iso": "PT",
+      "region": "Centro",
+      "lat": 40.3215,
+      "lng": -7.6115,
+      "tipo": "montana",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": [
+        "Lonely Planet",
+        "Rough Guides"
+      ],
+      "justificacion": "Sierra más alta del Portugal continental: Lonely Planet la destaca y Rough Guides le dedica una guía (base en Manteigas).",
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-portugal"
+        },
+        {
+          "guia": "Rough Guides",
+          "url": "https://www.roughguides.com/portugal/serra-da-estrela-travel-guide/"
+        }
+      ]
+    },
+    {
+      "id": "pt-monsanto",
+      "nombre": "Monsanto",
+      "pais_iso": "PT",
+      "region": "Centro",
+      "lat": 40.0386,
+      "lng": -7.115,
+      "tipo": "pueblo",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": [
+        "Lonely Planet"
+      ],
+      "justificacion": "Aldea entre peñascos de granito, destacada entre los pueblos más bonitos de Portugal por Lonely Planet.",
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-villages-portugal"
+        }
+      ]
+    },
+    {
+      "id": "pt-nazare",
+      "nombre": "Nazaré",
+      "pais_iso": "PT",
+      "region": "Centro",
+      "lat": 39.6012,
+      "lng": -9.07,
+      "tipo": "costa",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": [
+        "Lonely Planet",
+        "Rick Steves"
+      ],
+      "justificacion": "Olas gigantes y tradición pesquera: Lonely Planet la destaca y Rick Steves la usa como base de su día 10 (Óbidos, Alcobaça, Batalha, Fátima).",
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-portugal"
+        },
+        {
+          "guia": "Rick Steves",
+          "url": "https://www.ricksteves.com/europe/portugal/itinerary"
+        },
+        {
+          "guia": "Rick Steves",
+          "url": "https://www.ricksteves.com/watch-read-listen/video/tv-show/portugal"
+        }
+      ]
+    },
+    {
+      "id": "pt-obidos",
+      "nombre": "Óbidos",
+      "pais_iso": "PT",
+      "region": "Centro",
+      "lat": 39.3606,
+      "lng": -9.1571,
+      "tipo": "pueblo",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": [
+        "Lonely Planet",
+        "Rick Steves"
+      ],
+      "justificacion": "Villa amurallada recomendada por Lonely Planet e incluida en el itinerario de Rick Steves.",
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-portugal"
+        },
+        {
+          "guia": "Rick Steves",
+          "url": "https://www.ricksteves.com/europe/portugal/itinerary"
+        }
+      ]
+    },
+    {
+      "id": "pt-alcobaca",
+      "nombre": "Alcobaça",
+      "pais_iso": "PT",
+      "region": "Centro",
+      "lat": 39.548,
+      "lng": -8.98,
+      "tipo": "monumento",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": [
+        "Lonely Planet",
+        "Rick Steves"
+      ],
+      "justificacion": "Lonely Planet llama a su monasterio cisterciense (UNESCO) uno de los mejores de Iberia; Rick Steves lo incluye en su ruta.",
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-road-trips-in-portugal"
+        },
+        {
+          "guia": "Rick Steves",
+          "url": "https://www.ricksteves.com/europe/portugal/itinerary"
+        }
+      ]
+    },
+    {
+      "id": "pt-batalha",
+      "nombre": "Batalha",
+      "pais_iso": "PT",
+      "region": "Centro",
+      "lat": 39.6596,
+      "lng": -8.825,
+      "tipo": "monumento",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": [
+        "Rick Steves",
+        "Rough Guides"
+      ],
+      "justificacion": "Monasterio gótico UNESCO: Rick Steves lo considera el mayor logro arquitectónico de Portugal; Rough Guides lo destaca.",
+      "fuentes": [
+        {
+          "guia": "Rick Steves",
+          "url": "https://www.ricksteves.com/europe/portugal/itinerary"
+        },
+        {
+          "guia": "Rough Guides",
+          "url": "https://www.roughguides.com/portugal/best-road-trips/"
+        }
+      ]
+    },
+    {
+      "id": "pt-tomar",
+      "nombre": "Tomar (Convento de Cristo)",
+      "pais_iso": "PT",
+      "region": "Centro",
+      "lat": 39.6036,
+      "lng": -8.415,
+      "tipo": "monumento",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": [
+        "Lonely Planet",
+        "Rick Steves"
+      ],
+      "justificacion": "Convento de los Templarios (UNESCO) destacado por Lonely Planet; visitado en el tour Best of Portugal de Rick Steves.",
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-road-trips-in-portugal"
+        },
+        {
+          "guia": "Rick Steves",
+          "url": "https://www.ricksteves.com/tours/portugal/best-portugal-tour"
+        }
+      ]
+    },
+    {
+      "id": "pt-peniche-berlengas",
+      "nombre": "Peniche e islas Berlengas",
+      "pais_iso": "PT",
+      "region": "Centro",
+      "lat": 39.356,
+      "lng": -9.381,
+      "tipo": "costa",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": [
+        "Lonely Planet"
+      ],
+      "justificacion": "Surf y excursiones en barco a la reserva de las Berlengas, recomendado por Lonely Planet.",
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-portugal"
+        }
+      ]
+    },
+    {
+      "id": "pt-evora",
+      "nombre": "Évora",
+      "pais_iso": "PT",
+      "region": "Alentejo",
+      "lat": 38.5714,
+      "lng": -7.9135,
+      "tipo": "ciudad",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": [
+        "Lonely Planet",
+        "Rick Steves",
+        "Rough Guides"
+      ],
+      "justificacion": "Templo romano, murallas y casas encaladas (UNESCO): destacada por Lonely Planet, Rick Steves (itinerario y tour Best of Portugal) y Rough Guides.",
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-portugal"
+        },
+        {
+          "guia": "Rick Steves",
+          "url": "https://www.ricksteves.com/europe/portugal/itinerary"
+        },
+        {
+          "guia": "Rick Steves",
+          "url": "https://www.ricksteves.com/tours/portugal/best-portugal-tour"
+        },
+        {
+          "guia": "Rough Guides",
+          "url": "https://www.roughguides.com/portugal/things-to-do/"
+        }
+      ]
+    },
+    {
+      "id": "pt-monsaraz",
+      "nombre": "Monsaraz",
+      "pais_iso": "PT",
+      "region": "Alentejo",
+      "lat": 38.443,
+      "lng": -7.38,
+      "tipo": "pueblo",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": [
+        "Rough Guides"
+      ],
+      "justificacion": "Rough Guides recomienda pernoctar en esta villa medieval sobre el Alqueva.",
+      "fuentes": [
+        {
+          "guia": "Rough Guides",
+          "url": "https://www.roughguides.com/portugal/best-road-trips/"
+        }
+      ]
+    },
+    {
+      "id": "pt-marvao",
+      "nombre": "Marvão",
+      "pais_iso": "PT",
+      "region": "Alentejo",
+      "lat": 39.3936,
+      "lng": -7.3765,
+      "tipo": "pueblo",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": [
+        "Lonely Planet"
+      ],
+      "justificacion": "Aldea fortificada en lo alto de un risco con vistas amplísimas, destacada por Lonely Planet.",
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-road-trips-in-portugal"
+        }
+      ]
+    },
+    {
+      "id": "pt-arrabida",
+      "nombre": "Sierra de la Arrábida",
+      "pais_iso": "PT",
+      "region": "Setúbal",
+      "lat": 38.48,
+      "lng": -8.98,
+      "tipo": "parque",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": [
+        "Time Out",
+        "Lonely Planet"
+      ],
+      "justificacion": "Calas tranquilas y más de 40 km de senderos (Time Out); Lonely Planet la incluye entre las reservas naturales.",
+      "fuentes": [
+        {
+          "guia": "Time Out",
+          "url": "https://www.timeout.com/portugal/travel/best-places-to-visit-in-portugal"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-national-parks-portugal"
+        }
+      ]
+    },
+    {
+      "id": "pt-costa-vicentina",
+      "nombre": "Costa Vicentina (Vila Nova de Milfontes)",
+      "pais_iso": "PT",
+      "region": "Alentejo",
+      "lat": 37.725,
+      "lng": -8.783,
+      "tipo": "costa",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": [
+        "Rough Guides",
+        "Lonely Planet"
+      ],
+      "justificacion": "Rota Vicentina de 340 km (Rough Guides) y costa salvaje del suroeste; Lonely Planet propone Vila Nova de Milfontes como alternativa tranquila al Algarve.",
+      "fuentes": [
+        {
+          "guia": "Rough Guides",
+          "url": "https://www.roughguides.com/portugal/things-to-do/"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-hikes-in-portugal"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-portugal"
+        }
+      ]
+    },
+    {
+      "id": "pt-sagres",
+      "nombre": "Sagres y Cabo de São Vicente",
+      "pais_iso": "PT",
+      "region": "Algarve",
+      "lat": 37.009,
+      "lng": -8.94,
+      "tipo": "costa",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": [
+        "Michelin Guide Vert",
+        "Rick Steves",
+        "Rough Guides"
+      ],
+      "justificacion": "Pointe de Sagres ★★★ en la Guía Verde Michelin; Rick Steves (Cape Sagres y Cabo São Vicente en su tour) y Rough Guides (acantilados y surf) la destacan.",
+      "fuentes": [
+        {
+          "guia": "Michelin Guide Vert",
+          "url": "https://editions.michelin.com/produits/portugal-2/"
+        },
+        {
+          "guia": "Rick Steves",
+          "url": "https://www.ricksteves.com/europe/portugal/itinerary"
+        },
+        {
+          "guia": "Rick Steves",
+          "url": "https://www.ricksteves.com/tours/portugal/best-portugal-tour"
+        },
+        {
+          "guia": "Rough Guides",
+          "url": "https://www.roughguides.com/portugal/things-to-do/"
+        }
+      ]
+    },
+    {
+      "id": "pt-lagos",
+      "nombre": "Lagos (Algarve occidental)",
+      "pais_iso": "PT",
+      "region": "Algarve",
+      "lat": 37.1028,
+      "lng": -8.673,
+      "tipo": "costa",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": [
+        "Rick Steves",
+        "Rough Guides"
+      ],
+      "justificacion": "Acantilados y murallas antiguas: Rick Steves la incluye (con Salema) en su itinerario de 6 días y Rough Guides la destaca en el Algarve.",
+      "fuentes": [
+        {
+          "guia": "Rick Steves",
+          "url": "https://www.ricksteves.com/europe/portugal/itinerary"
+        },
+        {
+          "guia": "Rough Guides",
+          "url": "https://www.roughguides.com/portugal/things-to-do/"
+        }
+      ]
+    },
+    {
+      "id": "pt-tavira",
+      "nombre": "Tavira",
+      "pais_iso": "PT",
+      "region": "Algarve",
+      "lat": 37.127,
+      "lng": -7.6506,
+      "tipo": "pueblo",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": [
+        "Lonely Planet",
+        "Rick Steves"
+      ],
+      "justificacion": "Alternativa tranquila en el Algarve oriental según Lonely Planet; cubierta en profundidad por la guía Portugal de Rick Steves.",
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-portugal"
+        },
+        {
+          "guia": "Rick Steves",
+          "url": "https://store.ricksteves.com/products/portugal-guidebook"
+        }
+      ]
+    },
+    {
+      "id": "pt-madeira-funchal",
+      "nombre": "Madeira: Funchal y macizo central (Pico do Arieiro–Pico Ruivo)",
+      "pais_iso": "PT",
+      "region": "Madeira",
+      "lat": 32.6669,
+      "lng": -16.9241,
+      "tipo": "isla",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": [
+        "Lonely Planet",
+        "Rough Guides",
+        "National Geographic",
+        "Time Out"
+      ],
+      "justificacion": "Levadas UNESCO, ruta Pico do Arieiro–Pico Ruivo, teleférico a Monte y vino de Madeira: destacada por Lonely Planet, Rough Guides, NatGeo y Time Out.",
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-madeira"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/first-time-guide-to-madeira"
+        },
+        {
+          "guia": "Rough Guides",
+          "url": "https://www.roughguides.com/portugal/things-to-do/"
+        },
+        {
+          "guia": "National Geographic",
+          "url": "https://www.nationalgeographic.com/travel/article/how-to-visit-the-madeira-islands-wine-and-history"
+        },
+        {
+          "guia": "Time Out",
+          "url": "https://www.timeout.com/madeira/things-to-do/the-best-things-to-do-in-madeira"
+        }
+      ]
+    },
+    {
+      "id": "pt-madeira-rabacal",
+      "nombre": "Rabaçal y Levada das 25 Fontes (Madeira)",
+      "pais_iso": "PT",
+      "region": "Madeira",
+      "lat": 32.754,
+      "lng": -17.13,
+      "tipo": "parque",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": [
+        "Lonely Planet",
+        "National Geographic"
+      ],
+      "justificacion": "Levada das 25 Fontes y bosque de laurisilva, recomendada por Lonely Planet y NatGeo.",
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-madeira"
+        },
+        {
+          "guia": "National Geographic",
+          "url": "https://www.nationalgeographic.com/travel/article/how-to-visit-the-madeira-islands-wine-and-history"
+        }
+      ]
+    },
+    {
+      "id": "pt-madeira-porto-moniz",
+      "nombre": "Porto Moniz (Madeira)",
+      "pais_iso": "PT",
+      "region": "Madeira",
+      "lat": 32.867,
+      "lng": -17.17,
+      "tipo": "costa",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": [
+        "Rough Guides"
+      ],
+      "justificacion": "Piscinas naturales volcánicas en la costa noroeste, incluidas en el itinerario insular de Rough Guides.",
+      "fuentes": [
+        {
+          "guia": "Rough Guides",
+          "url": "https://roughguides.com/portugal/trips/madeira-sao-miguel-guided-island-adventures-trip"
+        }
+      ]
+    },
+    {
+      "id": "pt-azores-sete-cidades",
+      "nombre": "Sete Cidades (São Miguel, Azores)",
+      "pais_iso": "PT",
+      "region": "Azores",
+      "lat": 37.86,
+      "lng": -25.79,
+      "tipo": "parque",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": [
+        "Lonely Planet",
+        "Rough Guides"
+      ],
+      "justificacion": "Lagunas de cráter destacadas por Lonely Planet en sus mejores lugares de Portugal y su guía de Azores; Rough Guides incluye São Miguel en su viaje insular.",
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-portugal"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-the-azores"
+        },
+        {
+          "guia": "Rough Guides",
+          "url": "https://roughguides.com/portugal/trips/madeira-sao-miguel-guided-island-adventures-trip"
+        }
+      ]
+    },
+    {
+      "id": "pt-azores-furnas",
+      "nombre": "Furnas (São Miguel, Azores)",
+      "pais_iso": "PT",
+      "region": "Azores",
+      "lat": 37.772,
+      "lng": -25.308,
+      "tipo": "pueblo",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": [
+        "Lonely Planet"
+      ],
+      "justificacion": "Aguas termales y cocido en fumarolas; Lonely Planet lo recomienda como excursión clave en São Miguel.",
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-the-azores"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-the-azores"
+        }
+      ]
+    },
+    {
+      "id": "pt-azores-pico",
+      "nombre": "Isla de Pico (Azores)",
+      "pais_iso": "PT",
+      "region": "Azores",
+      "lat": 38.468,
+      "lng": -28.399,
+      "tipo": "isla",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": [
+        "Lonely Planet"
+      ],
+      "justificacion": "Cumbre más alta de Portugal, viñedos UNESCO y avistamiento de ballenas, según Lonely Planet.",
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-the-azores"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-the-azores"
+        }
+      ]
+    },
+    {
+      "id": "pt-azores-faial",
+      "nombre": "Faial (Horta, Azores)",
+      "pais_iso": "PT",
+      "region": "Azores",
+      "lat": 38.535,
+      "lng": -28.63,
+      "tipo": "isla",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": [
+        "Lonely Planet"
+      ],
+      "justificacion": "Puerto de Horta y la caldera; Lonely Planet la propone como base del triángulo central.",
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-the-azores"
+        }
+      ]
+    },
+    {
+      "id": "pt-azores-flores",
+      "nombre": "Isla de Flores (Azores)",
+      "pais_iso": "PT",
+      "region": "Azores",
+      "lat": 39.45,
+      "lng": -31.2,
+      "tipo": "isla",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": [
+        "Lonely Planet"
+      ],
+      "justificacion": "Decenas de cascadas y siete lagunas: Lonely Planet la recomienda para naturaleza.",
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-the-azores"
+        }
+      ]
+    },
+    {
+      "id": "ad-andorra-la-vella-escaldes",
+      "nombre": "Andorra la Vella y Escaldes-Engordany (Caldea)",
+      "pais_iso": "AD",
+      "region": "Andorra la Vella / Escaldes-Engordany",
+      "lat": 42.5063,
+      "lng": 1.5218,
+      "tipo": "ciudad",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": [
+        "Lonely Planet",
+        "Fodor's"
+      ],
+      "justificacion": "Barri Antic, Casa de la Vall, Museo Carmen Thyssen y el balneario Caldea: Lonely Planet y Fodor's los destacan como núcleo cultural del país.",
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/guide-to-andorra"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/destinations/andorra/andorra-la-vella"
+        },
+        {
+          "guia": "Fodor's",
+          "url": "https://www.fodors.com/news/trip-ideas/best-things-to-do-in-andorra"
+        }
+      ]
+    },
+    {
+      "id": "ad-vall-del-madriu",
+      "nombre": "Vall del Madriu-Perafita-Claror",
+      "pais_iso": "AD",
+      "region": "Escaldes-Engordany",
+      "lat": 42.49,
+      "lng": 1.59,
+      "tipo": "parque",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": [
+        "Lonely Planet",
+        "Fodor's",
+        "Culture Trip"
+      ],
+      "justificacion": "Único Patrimonio Mundial de Andorra: Lonely Planet y Fodor's lo destacan para senderismo; Culture Trip lo incluye entre sus imprescindibles.",
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/guide-to-andorra"
+        },
+        {
+          "guia": "Fodor's",
+          "url": "https://www.fodors.com/news/trip-ideas/best-things-to-do-in-andorra"
+        },
+        {
+          "guia": "Culture Trip",
+          "url": "https://theculturetrip.com/europe/andorra/articles/20-must-visit-attractions-in-andorra"
+        }
+      ]
+    },
+    {
+      "id": "ad-grandvalira-pas-de-la-casa",
+      "nombre": "Grandvalira y Pas de la Casa",
+      "pais_iso": "AD",
+      "region": "Encamp / Canillo",
+      "lat": 42.542,
+      "lng": 1.733,
+      "tipo": "montana",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": [
+        "Lonely Planet",
+        "National Geographic"
+      ],
+      "justificacion": "La mayor estación de esquí de los Pirineos; Pas de la Casa es el pueblo con más ambiente après-ski (Lonely Planet, NatGeo).",
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/guide-to-andorra"
+        },
+        {
+          "guia": "National Geographic",
+          "url": "https://www.nationalgeographic.com/travel/article/paid-content-andorra-winter-getaway"
+        }
+      ]
+    },
+    {
+      "id": "ad-ordino-arcalis",
+      "nombre": "Ordino y Ordino Arcalís",
+      "pais_iso": "AD",
+      "region": "Ordino",
+      "lat": 42.5562,
+      "lng": 1.5332,
+      "tipo": "pueblo",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": [
+        "Lonely Planet",
+        "National Geographic"
+      ],
+      "justificacion": "Pueblo tradicional y estación de freeride Ordino Arcalís, destacados por Lonely Planet y NatGeo.",
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/guide-to-andorra"
+        },
+        {
+          "guia": "National Geographic",
+          "url": "https://www.nationalgeographic.com/travel/article/paid-content-andorra-winter-getaway"
+        }
+      ]
+    },
+    {
+      "id": "ad-estanys-de-juclar",
+      "nombre": "Estanys de Juclar",
+      "pais_iso": "AD",
+      "region": "Canillo",
+      "lat": 42.606,
+      "lng": 1.724,
+      "tipo": "parque",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": [
+        "Lonely Planet"
+      ],
+      "justificacion": "Lagos alpinos entre las rutas de senderismo más populares según Lonely Planet.",
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/guide-to-andorra"
+        }
+      ]
+    },
+    {
+      "id": "ad-coma-pedrosa",
+      "nombre": "Comapedrosa",
+      "pais_iso": "AD",
+      "region": "La Massana",
+      "lat": 42.592,
+      "lng": 1.444,
+      "tipo": "montana",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": [
+        "Lonely Planet"
+      ],
+      "justificacion": "Cumbre más alta de Andorra (2.942 m) y parque natural; ascensión recomendada por Lonely Planet.",
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/guide-to-andorra"
+        }
+      ]
+    },
+    {
+      "id": "ad-naturlandia",
+      "nombre": "Naturlandia (Sant Julià de Lòria)",
+      "pais_iso": "AD",
+      "region": "Sant Julià de Lòria",
+      "lat": 42.443,
+      "lng": 1.538,
+      "tipo": "parque",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": [
+        "Lonely Planet",
+        "Fodor's"
+      ],
+      "justificacion": "Parque de montaña con uno de los toboganes alpinos más largos, citado por Lonely Planet y Fodor's.",
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/guide-to-andorra"
+        },
+        {
+          "guia": "Fodor's",
+          "url": "https://www.fodors.com/news/trip-ideas/best-things-to-do-in-andorra"
+        }
+      ]
+    },
+    {
+      "id": "ad-canillo-sant-joan-de-caselles",
+      "nombre": "Canillo (Sant Joan de Caselles)",
+      "pais_iso": "AD",
+      "region": "Canillo",
+      "lat": 42.582,
+      "lng": 1.601,
+      "tipo": "pueblo",
+      "puntaje": 1,
+      "guias_que_lo_recomiendan": [
+        "Culture Trip"
+      ],
+      "justificacion": "Iglesia románica de los siglos XI-XII con pinturas murales; solo mención menor en Culture Trip.",
+      "fuentes": [
+        {
+          "guia": "Culture Trip",
+          "url": "https://theculturetrip.com/europe/andorra/articles/20-must-visit-attractions-in-andorra"
+        }
+      ]
+    }
+  ]
+}

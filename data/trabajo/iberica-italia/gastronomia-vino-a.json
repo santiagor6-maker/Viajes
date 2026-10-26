@@ -1,0 +1,1508 @@
+{
+  "agente": "gastronomia-vino",
+  "subregion": "iberica-italia",
+  "ronda": 1,
+  "paises": [
+    "ES",
+    "PT",
+    "AD"
+  ],
+  "puntajes": [
+    {
+      "id": "es-barcelona",
+      "puntaje": 5,
+      "justificacion": "Una de las capitales gastronómicas del mundo: cuatro triestrellados Michelin 2026 (ABaC, Disfrutar, Lasarte y Cocina Hermanos Torres) y Enigma en la lista World's 50 Best 2025, además del mercado de la Boqueria y la cultura del vermut y las tapas.",
+      "platos": [
+        "Pa amb tomàquet",
+        "Bomba de la Barceloneta",
+        "Butifarra amb mongetes",
+        "Crema catalana"
+      ],
+      "fuentes": [
+        {
+          "guia": "Guía Michelin",
+          "url": "https://guide.michelin.com/gb/en/article/michelin-guide-ceremony/all-michelin-star-restaurants-in-spain-2026-the-full-list"
+        },
+        {
+          "guia": "Time Out (World's 50 Best 2025)",
+          "url": "https://www.timeout.com/news/the-spanish-restaurant-named-second-best-in-the-world-in-2025-062325"
+        },
+        {
+          "guia": "TasteAtlas",
+          "url": "https://www.tasteatlas.com/best-dishes-in-barcelona"
+        }
+      ]
+    },
+    {
+      "id": "es-madrid",
+      "puntaje": 5,
+      "justificacion": "Escena de primer nivel: DiverXO conserva sus tres estrellas y figura en World's 50 Best 2025; tabernas centenarias, mercados como San Miguel y una oferta de alta cocina en constante crecimiento.",
+      "platos": [
+        "Cocido madrileño",
+        "Bocadillo de calamares",
+        "Callos a la madrileña",
+        "Churros con chocolate (San Ginés)"
+      ],
+      "fuentes": [
+        {
+          "guia": "Guía Michelin",
+          "url": "https://guide.michelin.com/gb/en/article/michelin-guide-ceremony/all-michelin-star-restaurants-in-spain-2026-the-full-list"
+        },
+        {
+          "guia": "Turismo de Madrid",
+          "url": "https://www.esmadrid.com/en/node/65669"
+        },
+        {
+          "guia": "Time Out (World's 50 Best 2025)",
+          "url": "https://www.timeout.com/news/the-spanish-restaurant-named-second-best-in-the-world-in-2025-062325"
+        },
+        {
+          "guia": "TasteAtlas",
+          "url": "https://www.tasteatlas.com/best-dishes-in-madrid"
+        }
+      ]
+    },
+    {
+      "id": "es-granada-alhambra",
+      "puntaje": 4,
+      "justificacion": "Ciudad de la tapa gratis con cada consumición y una cocina con huella andalusí; la provincia aporta el jamón de Trevélez y la repostería de Santa Fe.",
+      "platos": [
+        "Tortilla del Sacromonte",
+        "Remojón granadino",
+        "Piononos de Santa Fe",
+        "Jamón de Trevélez"
+      ],
+      "fuentes": [
+        {
+          "guia": "TasteAtlas",
+          "url": "https://www.tasteatlas.com/best-rated-dishes-in-province-of-granada"
+        },
+        {
+          "guia": "TasteAtlas",
+          "url": "https://www.tasteatlas.com/best-rated-dishes-in-andalusia"
+        }
+      ]
+    },
+    {
+      "id": "es-sevilla",
+      "puntaje": 4,
+      "justificacion": "Capital del tapeo andaluz, con bares históricos de barrio y especialidades propias como el solomillo al whisky o el serranito; muy buena base para el vino del Marco de Jerez.",
+      "platos": [
+        "Solomillo al whisky",
+        "Serranito",
+        "Espinacas con garbanzos",
+        "Pringá"
+      ],
+      "fuentes": [
+        {
+          "guia": "TasteAtlas",
+          "url": "https://www.tasteatlas.com/best-dishes-in-seville"
+        },
+        {
+          "guia": "TasteAtlas",
+          "url": "https://www.tasteatlas.com/best-rated-dishes-in-andalusia"
+        }
+      ]
+    },
+    {
+      "id": "es-cordoba",
+      "puntaje": 4,
+      "justificacion": "Cuna del salmorejo y del rabo de toro; Noor, de Paco Morales, revisa la cocina andalusí y tiene tres estrellas Michelin. Cerca, los vinos de Montilla-Moriles.",
+      "platos": [
+        "Salmorejo",
+        "Rabo de toro",
+        "Flamenquín",
+        "Berenjenas con miel"
+      ],
+      "fuentes": [
+        {
+          "guia": "Guía Michelin",
+          "url": "https://guide.michelin.com/gb/en/article/michelin-guide-ceremony/all-michelin-star-restaurants-in-spain-2026-the-full-list"
+        },
+        {
+          "guia": "TasteAtlas",
+          "url": "https://www.tasteatlas.com/best-dishes-in-cordoba-spain"
+        }
+      ]
+    },
+    {
+      "id": "es-toledo",
+      "puntaje": 3,
+      "justificacion": "Cocina manchega de caza y despensa propia: perdiz a la toledana, queso manchego y el célebre mazapán conventual.",
+      "platos": [
+        "Perdiz estofada a la toledana",
+        "Mazapán de Toledo",
+        "Carcamusas",
+        "Queso manchego"
+      ],
+      "fuentes": [
+        {
+          "guia": "TasteAtlas",
+          "url": "https://www.tasteatlas.com/best-rated-dishes-in-castilla-la-mancha"
+        },
+        {
+          "guia": "TasteAtlas",
+          "url": "https://www.tasteatlas.com/province-of-toledo"
+        }
+      ]
+    },
+    {
+      "id": "es-segovia",
+      "puntaje": 4,
+      "justificacion": "Destino de peregrinación para el cochinillo asado en horno de leña, plato emblema de la cocina castellana; también ponche segoviano y judiones de La Granja.",
+      "platos": [
+        "Cochinillo asado",
+        "Ponche segoviano",
+        "Judiones de La Granja",
+        "Lechazo asado"
+      ],
+      "fuentes": [
+        {
+          "guia": "TasteAtlas",
+          "url": "https://www.tasteatlas.com/best-dishes-in-segovia"
+        },
+        {
+          "guia": "TasteAtlas",
+          "url": "https://www.tasteatlas.com/segovia"
+        }
+      ]
+    },
+    {
+      "id": "es-salamanca",
+      "puntaje": 3,
+      "justificacion": "Buena mesa castellana con el ibérico de Guijuelo a 50 km, el hornazo y bares de tapas animados por la vida universitaria.",
+      "platos": [
+        "Jamón de Guijuelo",
+        "Hornazo",
+        "Farinato",
+        "Chanfaina"
+      ],
+      "fuentes": [
+        {
+          "guia": "TasteAtlas",
+          "url": "https://www.tasteatlas.com/best-rated-dishes-in-castile-and-leon"
+        }
+      ]
+    },
+    {
+      "id": "es-avila",
+      "puntaje": 3,
+      "justificacion": "Famosa por el chuletón de ternera de Ávila y las yemas de Santa Teresa; cocina de asador castellana.",
+      "platos": [
+        "Chuletón de Ávila",
+        "Yemas de Santa Teresa",
+        "Judías del Barco",
+        "Patatas revolconas"
+      ],
+      "fuentes": [
+        {
+          "guia": "TasteAtlas",
+          "url": "https://www.tasteatlas.com/best-rated-dishes-in-castile-and-leon"
+        }
+      ]
+    },
+    {
+      "id": "es-el-escorial",
+      "puntaje": 2,
+      "justificacion": "Restaurantes correctos de cocina madrileña y de caza de la sierra, sin entidad gastronómica propia destacada.",
+      "platos": [
+        "Cocido madrileño",
+        "Carnes de la sierra de Guadarrama"
+      ],
+      "fuentes": []
+    },
+    {
+      "id": "es-san-sebastian",
+      "puntaje": 5,
+      "justificacion": "Referencia mundial: Arzak y Akelaŕe tienen tres estrellas y Martín Berasategui está en Lasarte-Oria, a 8 km; los bares de pintxos de la Parte Vieja y la tarta de queso de La Viña completan una de las mayores densidades de estrellas por habitante del mundo.",
+      "platos": [
+        "Gilda",
+        "Tarta de queso de La Viña",
+        "Txuleta a la brasa",
+        "Kokotxas al pil-pil"
+      ],
+      "fuentes": [
+        {
+          "guia": "Guía Michelin",
+          "url": "https://guide.michelin.com/gb/en/article/michelin-guide-ceremony/all-michelin-star-restaurants-in-spain-2026-the-full-list"
+        },
+        {
+          "guia": "Euskal Kultura",
+          "url": "https://www.euskalkultura.eus/english/news/donostia-san-sebastian-named-the-best-food-destination-in-the-world"
+        },
+        {
+          "guia": "TasteAtlas",
+          "url": "https://www.tasteatlas.com/best-dishes-in-san-sebastian"
+        }
+      ]
+    },
+    {
+      "id": "es-bilbao",
+      "puntaje": 4,
+      "justificacion": "Pintxos en el Casco Viejo y el mercado de La Ribera; a corta distancia están Azurmendi (tres estrellas, Larrabetzu) y Asador Etxebarri (Atxondo, en el top de World's 50 Best 2025).",
+      "platos": [
+        "Bacalao al pil-pil",
+        "Marmitako",
+        "Txangurro",
+        "Txakoli"
+      ],
+      "fuentes": [
+        {
+          "guia": "Guía Michelin",
+          "url": "https://guide.michelin.com/gb/en/article/michelin-guide-ceremony/all-michelin-star-restaurants-in-spain-2026-the-full-list"
+        },
+        {
+          "guia": "Time Out (World's 50 Best 2025)",
+          "url": "https://www.timeout.com/news/the-spanish-restaurant-named-second-best-in-the-world-in-2025-062325"
+        },
+        {
+          "guia": "TasteAtlas",
+          "url": "https://www.tasteatlas.com/basque-country"
+        }
+      ]
+    },
+    {
+      "id": "es-santiago-de-compostela",
+      "puntaje": 4,
+      "justificacion": "El Mercado de Abastos y las pulperías hacen de Santiago una gran puerta a la despensa gallega: marisco, pulpo á feira y quesos de tetilla.",
+      "platos": [
+        "Pulpo á feira",
+        "Tarta de Santiago",
+        "Queso de tetilla",
+        "Pimientos de Padrón"
+      ],
+      "fuentes": [
+        {
+          "guia": "TasteAtlas",
+          "url": "https://www.tasteatlas.com/best-dishes-in-santiago-de-compostela"
+        },
+        {
+          "guia": "TasteAtlas",
+          "url": "https://www.tasteatlas.com/galicia"
+        }
+      ]
+    },
+    {
+      "id": "es-picos-de-europa",
+      "puntaje": 3,
+      "justificacion": "Tierra de quesos azules madurados en cueva (Cabrales, Picón Bejes-Tresviso) y de fabada; Casa Marcial (tres estrellas) está en Arriondas, a las puertas del macizo.",
+      "platos": [
+        "Queso de Cabrales",
+        "Picón Bejes-Tresviso",
+        "Fabada asturiana",
+        "Cocido lebaniego"
+      ],
+      "fuentes": [
+        {
+          "guia": "TasteAtlas",
+          "url": "https://www.tasteatlas.com/asturias"
+        },
+        {
+          "guia": "TasteAtlas",
+          "url": "https://www.tasteatlas.com/cantabria"
+        },
+        {
+          "guia": "Guía Michelin",
+          "url": "https://guide.michelin.com/gb/en/article/michelin-guide-ceremony/all-michelin-star-restaurants-in-spain-2026-the-full-list"
+        }
+      ]
+    },
+    {
+      "id": "es-santillana-altamira",
+      "puntaje": 3,
+      "justificacion": "Buena cocina montañesa cántabra: cocido montañés, sobaos y quesadas pasiegas, y las anchoas de Santoña cerca.",
+      "platos": [
+        "Cocido montañés",
+        "Sobao pasiego",
+        "Quesada pasiega",
+        "Anchoas de Santoña"
+      ],
+      "fuentes": [
+        {
+          "guia": "TasteAtlas",
+          "url": "https://www.tasteatlas.com/best-rated-dishes-in-cantabria"
+        },
+        {
+          "guia": "TasteAtlas",
+          "url": "https://www.tasteatlas.com/cantabria"
+        }
+      ]
+    },
+    {
+      "id": "es-praia-das-catedrais",
+      "puntaje": 2,
+      "justificacion": "Zona de marisco y pescado de la Mariña lucense (Ribadeo, Foz), sin oferta gastronómica de referencia.",
+      "platos": [
+        "Marisco de la ría de Ribadeo",
+        "Pulpo á feira"
+      ],
+      "fuentes": []
+    },
+    {
+      "id": "es-valencia",
+      "puntaje": 5,
+      "justificacion": "Cuna de la paella y la cocina de arroz, con el Mercado Central, la huerta, la horchata de chufa y la Albufera; varios estrellados Michelin en la Comunitat.",
+      "platos": [
+        "Paella valenciana",
+        "Arroz del senyoret",
+        "All i pebre",
+        "Horchata con fartons"
+      ],
+      "fuentes": [
+        {
+          "guia": "TasteAtlas",
+          "url": "https://www.tasteatlas.com/valencia"
+        },
+        {
+          "guia": "TasteAtlas",
+          "url": "https://www.tasteatlas.com/province-of-valencia"
+        },
+        {
+          "guia": "Alicante Plaza (Michelin 2026)",
+          "url": "https://alicanteplaza.es/alicanteplaza/gastroplaza/guia-michelin-2026-tres-nuevas-estrellas-en-la-comunitat-quique-dacosta-mentor-chef-award"
+        }
+      ]
+    },
+    {
+      "id": "es-mallorca",
+      "puntaje": 3,
+      "justificacion": "Despensa propia muy marcada (ensaimada, sobrasada, pa amb oli) y vinos de Binissalem y Pla i Llevant; oferta creciente de restaurantes de autor.",
+      "platos": [
+        "Ensaimada",
+        "Sobrasada",
+        "Pa amb oli",
+        "Tumbet"
+      ],
+      "fuentes": [
+        {
+          "guia": "TasteAtlas",
+          "url": "https://www.tasteatlas.com/best-rated-dishes-in-mallorca"
+        },
+        {
+          "guia": "TasteAtlas",
+          "url": "https://www.tasteatlas.com/mallorca"
+        }
+      ]
+    },
+    {
+      "id": "es-menorca",
+      "puntaje": 3,
+      "justificacion": "La caldereta de langosta de Fornells y el queso Mahón-Menorca son productos de referencia; también ginebra local.",
+      "platos": [
+        "Caldereta de langosta",
+        "Queso Mahón-Menorca",
+        "Sobrasada menorquina",
+        "Pomada (gin con limonada)"
+      ],
+      "fuentes": [
+        {
+          "guia": "TasteAtlas",
+          "url": "https://www.tasteatlas.com/best-rated-dishes-in-menorca"
+        },
+        {
+          "guia": "TasteAtlas",
+          "url": "https://www.tasteatlas.com/menorca"
+        }
+      ]
+    },
+    {
+      "id": "es-ibiza",
+      "puntaje": 2,
+      "justificacion": "Cocina payesa (bullit de peix, flaó) y algunos restaurantes de playa conocidos, pero no es un destino gastronómico de referencia.",
+      "platos": [
+        "Bullit de peix",
+        "Flaó",
+        "Sofrit pagès"
+      ],
+      "fuentes": [
+        {
+          "guia": "TasteAtlas",
+          "url": "https://www.tasteatlas.com/best-rated-dishes-in-balearic-islands"
+        }
+      ]
+    },
+    {
+      "id": "es-tenerife-teide",
+      "puntaje": 3,
+      "justificacion": "Cocina canaria con papas arrugadas y mojos, guachinches del norte donde se sirve vino de cosecha propia y quesos isleños.",
+      "platos": [
+        "Papas arrugadas con mojo",
+        "Conejo en salmorejo",
+        "Queso asado con mojo",
+        "Vino del norte de Tenerife"
+      ],
+      "fuentes": [
+        {
+          "guia": "TasteAtlas",
+          "url": "https://www.tasteatlas.com/tenerife"
+        },
+        {
+          "guia": "TasteAtlas",
+          "url": "https://www.tasteatlas.com/best-rated-dishes-in-canary-islands"
+        }
+      ]
+    },
+    {
+      "id": "es-lanzarote",
+      "puntaje": 3,
+      "justificacion": "Los viñedos de malvasía en hoyos de ceniza volcánica de La Geria, con bodegas visitables, y la cocina canaria de papas, mojos y queso de cabra.",
+      "platos": [
+        "Malvasía volcánica de La Geria",
+        "Papas arrugadas con mojo",
+        "Queso de cabra majorero",
+        "Cherne"
+      ],
+      "fuentes": [
+        {
+          "guia": "TasteAtlas",
+          "url": "https://www.tasteatlas.com/canary-islands"
+        },
+        {
+          "guia": "TasteAtlas",
+          "url": "https://www.tasteatlas.com/best-rated-dishes-in-canary-islands"
+        }
+      ]
+    },
+    {
+      "id": "es-ronda",
+      "puntaje": 3,
+      "justificacion": "Cocina serrana de caza y guisos (rabo de toro, chivo) y una pequeña zona vinícola, la Serranía de Ronda, con bodegas visitables.",
+      "platos": [
+        "Rabo de toro",
+        "Sopa de tomate rondeña",
+        "Chacinas de la serranía"
+      ],
+      "fuentes": [
+        {
+          "guia": "TasteAtlas",
+          "url": "https://www.tasteatlas.com/best-rated-dishes-in-andalusia"
+        }
+      ]
+    },
+    {
+      "id": "es-pueblos-blancos-cadiz",
+      "puntaje": 3,
+      "justificacion": "Sierra de quesos de cabra payoya (Villaluenga, Grazalema) y chacinas; cocina de venta andaluza.",
+      "platos": [
+        "Queso payoyo",
+        "Sopa de tomate",
+        "Chacinas serranas"
+      ],
+      "fuentes": [
+        {
+          "guia": "TasteAtlas",
+          "url": "https://www.tasteatlas.com/best-rated-dishes-in-andalusia"
+        }
+      ]
+    },
+    {
+      "id": "es-tarifa-bolonia",
+      "puntaje": 3,
+      "justificacion": "Costa del atún rojo de almadraba (Zahara, Barbate, Tarifa), con temporada en primavera y buenas ventas de pescado.",
+      "platos": [
+        "Atún rojo de almadraba",
+        "Tortillitas de camarones",
+        "Urta a la roteña"
+      ],
+      "fuentes": [
+        {
+          "guia": "TasteAtlas",
+          "url": "https://www.tasteatlas.com/best-rated-dishes-in-andalusia"
+        }
+      ]
+    },
+    {
+      "id": "es-jerez-de-la-frontera",
+      "puntaje": 5,
+      "justificacion": "Capital del Marco de Jerez, una de las grandes regiones de vino de generoso del mundo, con bodegas visitables y tabancos; Aponiente (tres estrellas) está en El Puerto de Santa María, a 15 km.",
+      "platos": [
+        "Finos y olorosos de Jerez",
+        "Riñones al jerez",
+        "Berza jerezana",
+        "Tortillitas de camarones"
+      ],
+      "fuentes": [
+        {
+          "guia": "Guía Michelin",
+          "url": "https://guide.michelin.com/gb/en/article/michelin-guide-ceremony/all-michelin-star-restaurants-in-spain-2026-the-full-list"
+        },
+        {
+          "guia": "TasteAtlas",
+          "url": "https://www.tasteatlas.com/best-rated-dishes-in-andalusia"
+        }
+      ]
+    },
+    {
+      "id": "es-malaga",
+      "puntaje": 3,
+      "justificacion": "Espetos de sardina en los chiringuitos, fritura malagueña, mercado de Atarazanas y vinos dulces de Málaga.",
+      "platos": [
+        "Espeto de sardinas",
+        "Fritura malagueña",
+        "Ajoblanco",
+        "Ensalada malagueña"
+      ],
+      "fuentes": [
+        {
+          "guia": "TasteAtlas",
+          "url": "https://www.tasteatlas.com/malaga"
+        },
+        {
+          "guia": "TasteAtlas",
+          "url": "https://www.tasteatlas.com/local-food-in-malaga"
+        }
+      ]
+    },
+    {
+      "id": "es-ubeda-baeza",
+      "puntaje": 3,
+      "justificacion": "En el corazón del olivar de Jaén, la mayor zona productora de aceite de oliva del mundo; cocina de andrajos y ochíos.",
+      "platos": [
+        "Aceite de oliva virgen extra de Jaén",
+        "Andrajos",
+        "Ochíos de Úbeda",
+        "Pipirrana"
+      ],
+      "fuentes": [
+        {
+          "guia": "TasteAtlas",
+          "url": "https://www.tasteatlas.com/best-rated-dishes-in-andalusia"
+        }
+      ]
+    },
+    {
+      "id": "es-alpujarras-sierra-nevada",
+      "puntaje": 3,
+      "justificacion": "Secaderos del jamón de Trevélez y cocina alpujarreña de montaña.",
+      "platos": [
+        "Jamón de Trevélez",
+        "Plato alpujarreño",
+        "Migas"
+      ],
+      "fuentes": [
+        {
+          "guia": "TasteAtlas",
+          "url": "https://www.tasteatlas.com/best-rated-dishes-in-province-of-granada"
+        },
+        {
+          "guia": "TasteAtlas",
+          "url": "https://www.tasteatlas.com/best-rated-cured-meats-in-andalusia"
+        }
+      ]
+    },
+    {
+      "id": "es-donana",
+      "puntaje": 1,
+      "justificacion": "Espacio natural; la gastronomía está en los pueblos vecinos como El Rocío o Sanlúcar, no en el parque.",
+      "platos": [
+        "Langostinos de Sanlúcar (fuera del parque)"
+      ],
+      "fuentes": []
+    },
+    {
+      "id": "es-cuenca",
+      "puntaje": 3,
+      "justificacion": "Cocina conquense de pastor y caza con productos propios como el morteruelo o el alajú.",
+      "platos": [
+        "Morteruelo",
+        "Zarajos",
+        "Ajoarriero",
+        "Alajú"
+      ],
+      "fuentes": [
+        {
+          "guia": "TasteAtlas",
+          "url": "https://www.tasteatlas.com/best-rated-dishes-in-castilla-la-mancha"
+        },
+        {
+          "guia": "TasteAtlas",
+          "url": "https://www.tasteatlas.com/castilla-la-mancha"
+        }
+      ]
+    },
+    {
+      "id": "es-ordesa-monte-perdido",
+      "puntaje": 1,
+      "justificacion": "Parque natural; en Torla y Broto se come cocina pirenaica sencilla (ternasco, migas).",
+      "platos": [
+        "Ternasco de Aragón",
+        "Migas a la pastora"
+      ],
+      "fuentes": []
+    },
+    {
+      "id": "es-la-rioja",
+      "puntaje": 5,
+      "justificacion": "La región vinícola más conocida de España: Haro con su barrio de la Estación, Briones y la Rioja Alavesa con bodegas visitables; la calle Laurel de Logroño es un clásico del pincho.",
+      "platos": [
+        "Patatas a la riojana",
+        "Chuletillas al sarmiento",
+        "Pimientos del cristal",
+        "Vino de Rioja"
+      ],
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-spain-in-fall"
+        },
+        {
+          "guia": "TasteAtlas",
+          "url": "https://www.tasteatlas.com/30-traditional-products-defining-spanish-restaurants-and-colmados-in-the-uk"
+        }
+      ]
+    },
+    {
+      "id": "es-burgos",
+      "puntaje": 3,
+      "justificacion": "Morcilla de arroz, queso fresco de Burgos y lechazo asado, en una ciudad de asadores castellanos.",
+      "platos": [
+        "Morcilla de Burgos",
+        "Queso de Burgos",
+        "Lechazo asado",
+        "Olla podrida"
+      ],
+      "fuentes": [
+        {
+          "guia": "TasteAtlas",
+          "url": "https://www.tasteatlas.com/best-dishes-in-burgos"
+        },
+        {
+          "guia": "TasteAtlas",
+          "url": "https://www.tasteatlas.com/burgos"
+        }
+      ]
+    },
+    {
+      "id": "es-leon",
+      "puntaje": 4,
+      "justificacion": "Su Barrio Húmedo es uno de los mejores circuitos de tapas de España (tapa incluida con la bebida); cecina, botillo y vinos del Bierzo.",
+      "platos": [
+        "Cecina de León",
+        "Botillo del Bierzo",
+        "Morcilla de León",
+        "Mantecadas de Astorga"
+      ],
+      "fuentes": [
+        {
+          "guia": "TasteAtlas",
+          "url": "https://www.tasteatlas.com/best-rated-dishes-in-castile-and-leon"
+        }
+      ]
+    },
+    {
+      "id": "es-caceres",
+      "puntaje": 4,
+      "justificacion": "Atrio, con tres estrellas Michelin y una bodega legendaria, en plena ciudad monumental; la provincia aporta la Torta del Casar y el ibérico de dehesa.",
+      "platos": [
+        "Torta del Casar",
+        "Jamón Dehesa de Extremadura",
+        "Migas extremeñas",
+        "Morcilla patatera"
+      ],
+      "fuentes": [
+        {
+          "guia": "Guía Michelin",
+          "url": "https://guide.michelin.com/gb/en/article/michelin-guide-ceremony/all-michelin-star-restaurants-in-spain-2026-the-full-list"
+        },
+        {
+          "guia": "TasteAtlas",
+          "url": "https://www.tasteatlas.com/best-rated-dishes-in-extremadura"
+        }
+      ]
+    },
+    {
+      "id": "es-girona",
+      "puntaje": 4,
+      "justificacion": "Sede de El Celler de Can Roca, tres estrellas Michelin y uno de los restaurantes más influyentes del mundo, y puerta del Empordà con sus vinos y su cocina de mar y montaña.",
+      "platos": [
+        "Xuixos de Girona",
+        "Butifarra dulce",
+        "Arròs a la cassola de l'Empordà"
+      ],
+      "fuentes": [
+        {
+          "guia": "Guía Michelin",
+          "url": "https://guide.michelin.com/gb/en/article/michelin-guide-ceremony/all-michelin-star-restaurants-in-spain-2026-the-full-list"
+        }
+      ]
+    },
+    {
+      "id": "pt-lisboa",
+      "puntaje": 5,
+      "justificacion": "Gran destino gastronómico: tres restaurantes con dos estrellas Michelin 2026 (entre ellos Fifty Seconds, nuevo en la categoría), pastéis de nata de Belém, tascas, marisquerías y la cocina emblemática de Portugal.",
+      "platos": [
+        "Pastel de nata",
+        "Bacalhau à brás",
+        "Bifana",
+        "Polvo à lagareiro"
+      ],
+      "fuentes": [
+        {
+          "guia": "Guía Michelin",
+          "url": "https://guide.michelin.com/en/article/michelin-guide-ceremony/All%20MICHELIN-Starred%20Restaurants%20in%20Portugal%202026"
+        },
+        {
+          "guia": "Guía Michelin (nota de prensa)",
+          "url": "https://espacioprensa.michelin.es/wp-content/uploads/2026/03/CP_Guia-MICHELIN-Portugal-2026_EN.pdf"
+        },
+        {
+          "guia": "TasteAtlas",
+          "url": "https://www.tasteatlas.com/best-dishes-in-lisbon"
+        }
+      ]
+    },
+    {
+      "id": "pt-sintra",
+      "puntaje": 3,
+      "justificacion": "Dulces propios (travesseiros y queijadas de Sintra) y, en la costa, el vino de Colares de viñas en arena.",
+      "platos": [
+        "Travesseiro de Sintra",
+        "Queijada de Sintra",
+        "Vino de Colares"
+      ],
+      "fuentes": [
+        {
+          "guia": "TasteAtlas",
+          "url": "https://www.tasteatlas.com/best/search/portugal"
+        }
+      ]
+    },
+    {
+      "id": "pt-porto",
+      "puntaje": 5,
+      "justificacion": "Una de las escenas más dinámicas de la península: cuatro nuevas estrellas Michelin 2026 (DOP, Éon, Gastro by Elemento, InDiferente), Antiqvvm con dos, francesinhas, tripas y la cultura del vino de Oporto.",
+      "platos": [
+        "Francesinha",
+        "Tripas à moda do Porto",
+        "Bacalhau à Gomes de Sá",
+        "Vino de Oporto"
+      ],
+      "fuentes": [
+        {
+          "guia": "Guía Michelin",
+          "url": "https://guide.michelin.com/en/article/michelin-guide-ceremony/All%20MICHELIN-Starred%20Restaurants%20in%20Portugal%202026"
+        },
+        {
+          "guia": "Porto Secreto (Michelin 2026)",
+          "url": "https://portosecreto.co/en/restaurants-michelin-guide-portugal-2026/"
+        },
+        {
+          "guia": "TasteAtlas",
+          "url": "https://www.tasteatlas.com/best-dishes-in-porto"
+        }
+      ]
+    },
+    {
+      "id": "pt-valle-del-duero",
+      "puntaje": 5,
+      "justificacion": "La región vinícola del Duero, origen del vino de Oporto y de grandes tintos, con quintas visitables en bancales sobre el río; en 2026 Schistó (Peso da Régua) ganó una estrella Michelin.",
+      "platos": [
+        "Vino de Oporto y tintos del Douro",
+        "Cabrito assado",
+        "Bola de carne de Lamego"
+      ],
+      "fuentes": [
+        {
+          "guia": "Idealista (estrellas Michelin 2026)",
+          "url": "https://www.idealista.pt/en/news/lifestyle-in-portugal/2026/03/12/74391-portugal-s-10-new-michelin-stars-in-2026"
+        },
+        {
+          "guia": "Fodor's",
+          "url": "https://www.fodors.com/world/europe/portugal/porto-and-the-north"
+        }
+      ]
+    },
+    {
+      "id": "pt-guimaraes",
+      "puntaje": 3,
+      "justificacion": "Repostería conventual como el toucinho do céu, cocina minhota de rojões y vinho verde de la región.",
+      "platos": [
+        "Toucinho do céu de Guimarães",
+        "Rojões à minhota",
+        "Vinho verde"
+      ],
+      "fuentes": [
+        {
+          "guia": "TasteAtlas",
+          "url": "https://www.tasteatlas.com/best/search/portugal"
+        }
+      ]
+    },
+    {
+      "id": "pt-braga",
+      "puntaje": 2,
+      "justificacion": "Buena cocina minhota (bacalhau à Braga, pudim Abade de Priscos), pero con poca proyección gastronómica propia.",
+      "platos": [
+        "Bacalhau à Braga",
+        "Pudim Abade de Priscos"
+      ],
+      "fuentes": []
+    },
+    {
+      "id": "pt-peneda-geres",
+      "puntaje": 2,
+      "justificacion": "Carne de raza barrosã y cabrito en aldeas de montaña; interés gastronómico secundario.",
+      "platos": [
+        "Carne barrosã",
+        "Cabrito assado"
+      ],
+      "fuentes": []
+    },
+    {
+      "id": "pt-coimbra",
+      "puntaje": 3,
+      "justificacion": "A 20 km está la Mealhada, capital del leitão da Bairrada, y la ciudad tiene chanfana y los pastéis de Tentúgal; vinos de la Bairrada cerca.",
+      "platos": [
+        "Leitão da Bairrada",
+        "Chanfana",
+        "Pastel de Tentúgal"
+      ],
+      "fuentes": [
+        {
+          "guia": "TasteAtlas",
+          "url": "https://www.tasteatlas.com/best/search/portugal"
+        }
+      ]
+    },
+    {
+      "id": "pt-serra-da-estrela",
+      "puntaje": 3,
+      "justificacion": "Tierra del queijo Serra da Estrela, el queso de oveja más famoso de Portugal, y de embutidos de montaña.",
+      "platos": [
+        "Queijo Serra da Estrela",
+        "Requeijão",
+        "Morcela da Guarda"
+      ],
+      "fuentes": [
+        {
+          "guia": "TasteAtlas",
+          "url": "https://www.tasteatlas.com/best/search/portugal"
+        }
+      ]
+    },
+    {
+      "id": "pt-monsanto",
+      "puntaje": 1,
+      "justificacion": "Aldea histórica con cocina de la Beira Baixa sencilla.",
+      "platos": [
+        "Queijo de Castelo Branco"
+      ],
+      "fuentes": []
+    },
+    {
+      "id": "pt-nazare",
+      "puntaje": 3,
+      "justificacion": "Pueblo pesquero con caldeiradas y el pescado secado al sol en la playa, una tradición viva.",
+      "platos": [
+        "Caldeirada de peixe",
+        "Peixe seco",
+        "Sardinhas assadas"
+      ],
+      "fuentes": [
+        {
+          "guia": "TasteAtlas",
+          "url": "https://www.tasteatlas.com/best-rated-seafood-dishes-in-portugal"
+        }
+      ]
+    },
+    {
+      "id": "pt-obidos",
+      "puntaje": 3,
+      "justificacion": "Famoso por la ginjinha servida en vaso de chocolate y por su festival internacional del chocolate.",
+      "platos": [
+        "Ginja de Óbidos",
+        "Pão de ló"
+      ],
+      "fuentes": [
+        {
+          "guia": "TasteAtlas",
+          "url": "https://www.tasteatlas.com/best/search/portugal"
+        }
+      ]
+    },
+    {
+      "id": "pt-alcobaca",
+      "puntaje": 2,
+      "justificacion": "La cocina monumental del monasterio y la feria de dulces conventuales tienen interés, pero la oferta es limitada.",
+      "platos": [
+        "Pão de ló de Alfeizerão",
+        "Doces conventuais"
+      ],
+      "fuentes": []
+    },
+    {
+      "id": "pt-batalha",
+      "puntaje": 1,
+      "justificacion": "Visita monumental; poca oferta gastronómica propia.",
+      "platos": [
+        "Doces conventuais"
+      ],
+      "fuentes": []
+    },
+    {
+      "id": "pt-tomar",
+      "puntaje": 2,
+      "justificacion": "Repostería local (fatias de Tomar) y la Festa dos Tabuleiros, ligada al pan.",
+      "platos": [
+        "Fatias de Tomar",
+        "Queijadas"
+      ],
+      "fuentes": []
+    },
+    {
+      "id": "pt-peniche-berlengas",
+      "puntaje": 3,
+      "justificacion": "Importante puerto pesquero con marisquerías y caldeiradas de pescado fresco.",
+      "platos": [
+        "Caldeirada de Peniche",
+        "Percebes",
+        "Sardinhas assadas"
+      ],
+      "fuentes": [
+        {
+          "guia": "TasteAtlas",
+          "url": "https://www.tasteatlas.com/best-rated-seafood-dishes-in-portugal"
+        }
+      ]
+    },
+    {
+      "id": "pt-evora",
+      "puntaje": 4,
+      "justificacion": "Capital de la cocina alentejana y base de la Rota dos Vinhos do Alentejo; en 2026 A Cozinha do Paço (Évora) y MAPA (Montemor-o-Novo, a 30 km) ganaron estrella Michelin.",
+      "platos": [
+        "Porco preto",
+        "Migas alentejanas",
+        "Açorda alentejana",
+        "Vinos del Alentejo"
+      ],
+      "fuentes": [
+        {
+          "guia": "Idealista (estrellas Michelin 2026)",
+          "url": "https://www.idealista.pt/en/news/lifestyle-in-portugal/2026/03/12/74391-portugal-s-10-new-michelin-stars-in-2026"
+        },
+        {
+          "guia": "Euronews (estrellas Michelin 2026)",
+          "url": "https://www.euronews.com/culture/2026/03/11/michelin-guide-2026-the-ten-new-portuguese-restaurants-honoured-with-a-star"
+        }
+      ]
+    },
+    {
+      "id": "pt-monsaraz",
+      "puntaje": 2,
+      "justificacion": "Pueblo sobre el embalse de Alqueva, cerca de las bodegas de Reguengos de Monsaraz; interés sobre todo como parada de vino.",
+      "platos": [
+        "Vinos de Reguengos",
+        "Ensopado de borrego"
+      ],
+      "fuentes": []
+    },
+    {
+      "id": "pt-marvao",
+      "puntaje": 1,
+      "justificacion": "Cocina alentejana sencilla y fiesta de la castaña en otoño.",
+      "platos": [
+        "Castañas",
+        "Sopa de cação"
+      ],
+      "fuentes": []
+    },
+    {
+      "id": "pt-arrabida",
+      "puntaje": 3,
+      "justificacion": "Entre Azeitão y Setúbal: queso de Azeitão, moscatel de Setúbal con bodegas visitables y el choco frito de Setúbal.",
+      "platos": [
+        "Queijo de Azeitão",
+        "Moscatel de Setúbal",
+        "Choco frito"
+      ],
+      "fuentes": [
+        {
+          "guia": "TasteAtlas",
+          "url": "https://www.tasteatlas.com/best/search/portugal"
+        }
+      ]
+    },
+    {
+      "id": "pt-costa-vicentina",
+      "puntaje": 2,
+      "justificacion": "Percebes y pescado de costa en pueblos pequeños; oferta modesta.",
+      "platos": [
+        "Percebes",
+        "Pescado a la brasa"
+      ],
+      "fuentes": []
+    },
+    {
+      "id": "pt-sagres",
+      "puntaje": 2,
+      "justificacion": "Pescado y percebes en un destino más de naturaleza que gastronómico.",
+      "platos": [
+        "Percebes",
+        "Pescado grelhado"
+      ],
+      "fuentes": []
+    },
+    {
+      "id": "pt-lagos",
+      "puntaje": 3,
+      "justificacion": "Buena cocina algarvía de mar (cataplana, sardinas) y presencia en la Guía Michelin 2026 del Algarve.",
+      "platos": [
+        "Cataplana de marisco",
+        "Sardinhas assadas",
+        "Dom Rodrigo"
+      ],
+      "fuentes": [
+        {
+          "guia": "Essential Algarve (Michelin 2026)",
+          "url": "https://www.essential-algarve.com/algarve/algarve-restaurants-recognised-in-michelin-guide-portugal-2026/"
+        }
+      ]
+    },
+    {
+      "id": "pt-tavira",
+      "puntaje": 3,
+      "justificacion": "Muy cerca está Santa Luzia, la capital del pulpo del Algarve; buena cocina de mar y atún.",
+      "platos": [
+        "Polvo à Santa Luzia",
+        "Atum de Tavira",
+        "Cataplana"
+      ],
+      "fuentes": [
+        {
+          "guia": "TasteAtlas",
+          "url": "https://www.tasteatlas.com/best-rated-seafood-dishes-in-portugal"
+        }
+      ]
+    },
+    {
+      "id": "pt-madeira-funchal",
+      "puntaje": 4,
+      "justificacion": "Vino de Madeira con bodegas históricas visitables en Funchal, mercado dos Lavradores e Il Gallo d'Oro con dos estrellas Michelin.",
+      "platos": [
+        "Vino de Madeira",
+        "Espetada",
+        "Bolo do caco",
+        "Lapas grelhadas"
+      ],
+      "fuentes": [
+        {
+          "guia": "National Geographic",
+          "url": "https://www.nationalgeographic.com/travel/article/how-to-visit-the-madeira-islands-wine-and-history"
+        },
+        {
+          "guia": "Guía Michelin",
+          "url": "https://guide.michelin.com/en/article/michelin-guide-ceremony/All%20MICHELIN-Starred%20Restaurants%20in%20Portugal%202026"
+        }
+      ]
+    },
+    {
+      "id": "pt-madeira-rabacal",
+      "puntaje": 1,
+      "justificacion": "Ruta de senderismo; sin oferta gastronómica.",
+      "platos": [
+        "Poncha (en los pueblos cercanos)"
+      ],
+      "fuentes": []
+    },
+    {
+      "id": "pt-madeira-porto-moniz",
+      "puntaje": 1,
+      "justificacion": "Algún restaurante de pescado junto a las piscinas naturales.",
+      "platos": [
+        "Pescado espada negro"
+      ],
+      "fuentes": []
+    },
+    {
+      "id": "pt-azores-sete-cidades",
+      "puntaje": 1,
+      "justificacion": "Paisaje volcánico; poca oferta gastronómica propia.",
+      "platos": [
+        "Queijo de São Miguel"
+      ],
+      "fuentes": []
+    },
+    {
+      "id": "pt-azores-furnas",
+      "puntaje": 3,
+      "justificacion": "El cozido das Furnas se cocina enterrado en la tierra volcánica; cerca están las plantaciones de té de Gorreana.",
+      "platos": [
+        "Cozido das Furnas",
+        "Bolo lêvedo",
+        "Té de Gorreana"
+      ],
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-the-azores"
+        }
+      ]
+    },
+    {
+      "id": "pt-azores-pico",
+      "puntaje": 4,
+      "justificacion": "La viña en corrales de lava de Pico es Patrimonio UNESCO y produce verdelho con bodegas visitables; también queso de Pico.",
+      "platos": [
+        "Vinho Verdelho do Pico",
+        "Queijo do Pico",
+        "Polvo guisado"
+      ],
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-the-azores"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-the-azores"
+        }
+      ]
+    },
+    {
+      "id": "pt-azores-faial",
+      "puntaje": 2,
+      "justificacion": "El Peter Café Sport de Horta y la cocina de pescado tienen su encanto, pero la oferta es limitada.",
+      "platos": [
+        "Gin do Peter",
+        "Pescado azoriano"
+      ],
+      "fuentes": []
+    },
+    {
+      "id": "pt-azores-flores",
+      "puntaje": 1,
+      "justificacion": "Isla remota con oferta gastronómica mínima.",
+      "platos": [
+        "Queso local"
+      ],
+      "fuentes": []
+    },
+    {
+      "id": "ad-andorra-la-vella-escaldes",
+      "puntaje": 3,
+      "justificacion": "Cocina pirenaica en bordas de montaña (trinxat, escudella, caracoles a la llauna) y algunos restaurantes en la Guía Michelin España y Andorra.",
+      "platos": [
+        "Trinxat",
+        "Escudella",
+        "Cargols a la llauna",
+        "Embutidos de montaña"
+      ],
+      "fuentes": [
+        {
+          "guia": "Guía Michelin",
+          "url": "https://guide.michelin.com/gb/en/article/michelin-guide-ceremony/all-michelin-star-restaurants-in-spain-2026-the-full-list"
+        }
+      ]
+    },
+    {
+      "id": "ad-vall-del-madriu",
+      "puntaje": 1,
+      "justificacion": "Valle natural; solo refugios.",
+      "platos": [
+        "Trinxat (en refugios)"
+      ],
+      "fuentes": []
+    },
+    {
+      "id": "ad-grandvalira-pas-de-la-casa",
+      "puntaje": 2,
+      "justificacion": "Restaurantes de estación de esquí y bordas en Soldeu; interés gastronómico secundario.",
+      "platos": [
+        "Trinxat",
+        "Escudella"
+      ],
+      "fuentes": []
+    },
+    {
+      "id": "ad-ordino-arcalis",
+      "puntaje": 2,
+      "justificacion": "Bordas tradicionales con cocina de montaña en Ordino.",
+      "platos": [
+        "Trinxat",
+        "Carnes a la brasa"
+      ],
+      "fuentes": []
+    },
+    {
+      "id": "ad-estanys-de-juclar",
+      "puntaje": 0,
+      "justificacion": "Lagos de alta montaña sin oferta gastronómica.",
+      "platos": [],
+      "fuentes": []
+    },
+    {
+      "id": "ad-coma-pedrosa",
+      "puntaje": 0,
+      "justificacion": "Cima de montaña; solo refugio.",
+      "platos": [],
+      "fuentes": []
+    },
+    {
+      "id": "ad-naturlandia",
+      "puntaje": 1,
+      "justificacion": "Parque de ocio con restauración básica.",
+      "platos": [],
+      "fuentes": []
+    },
+    {
+      "id": "ad-canillo-sant-joan-de-caselles",
+      "puntaje": 1,
+      "justificacion": "Pueblo con algún restaurante de cocina andorrana.",
+      "platos": [
+        "Escudella"
+      ],
+      "fuentes": []
+    }
+  ],
+  "nuevos": [
+    {
+      "id": "es-getaria",
+      "nombre": "Getaria",
+      "pais_iso": "ES",
+      "region": "País Vasco",
+      "lat": 43.3036,
+      "lng": -2.2045,
+      "tipo": "pueblo",
+      "puntaje": 4,
+      "justificacion": "Pueblo pesquero de asadores de pescado a la brasa; Elkano figura en World's 50 Best 2025 y es tierra del txakoli de Getaria, con bodegas en las laderas.",
+      "platos": [
+        "Rodaballo a la parrilla",
+        "Txakoli de Getaria",
+        "Kokotxas",
+        "Anchoas"
+      ],
+      "fuentes": [
+        {
+          "guia": "Time Out (World's 50 Best 2025)",
+          "url": "https://www.timeout.com/news/the-spanish-restaurant-named-second-best-in-the-world-in-2025-062325"
+        },
+        {
+          "guia": "TasteAtlas",
+          "url": "https://www.tasteatlas.com/best-rated-seafood-dishes-in-basque-country"
+        }
+      ]
+    },
+    {
+      "id": "es-el-puerto-de-santa-maria",
+      "nombre": "El Puerto de Santa María",
+      "pais_iso": "ES",
+      "region": "Andalucía",
+      "lat": 36.594,
+      "lng": -6.233,
+      "tipo": "ciudad",
+      "puntaje": 4,
+      "justificacion": "Vértice del Marco de Jerez con bodegas visitables y freidurías de marisco; aquí está Aponiente, de Ángel León, con tres estrellas Michelin.",
+      "platos": [
+        "Marisco cocido",
+        "Pescaíto frito",
+        "Vino fino",
+        "Tortillitas de camarones"
+      ],
+      "fuentes": [
+        {
+          "guia": "Guía Michelin",
+          "url": "https://guide.michelin.com/gb/en/article/michelin-guide-ceremony/all-michelin-star-restaurants-in-spain-2026-the-full-list"
+        },
+        {
+          "guia": "TasteAtlas",
+          "url": "https://www.tasteatlas.com/best-rated-dishes-in-andalusia"
+        }
+      ]
+    },
+    {
+      "id": "es-denia",
+      "nombre": "Dénia",
+      "pais_iso": "ES",
+      "region": "Comunidad Valenciana",
+      "lat": 38.8408,
+      "lng": 0.1057,
+      "tipo": "ciudad",
+      "puntaje": 4,
+      "justificacion": "Ciudad de la gamba roja y los arroces marineros, sede del triestrellado Quique Dacosta y Ciudad Creativa de la Gastronomía de la UNESCO.",
+      "platos": [
+        "Gamba roja de Dénia",
+        "Arroz a banda",
+        "Arroz negro",
+        "Coca de mollitas"
+      ],
+      "fuentes": [
+        {
+          "guia": "Guía Michelin",
+          "url": "https://guide.michelin.com/gb/en/article/michelin-guide-ceremony/all-michelin-star-restaurants-in-spain-2026-the-full-list"
+        },
+        {
+          "guia": "Alicante Plaza (Michelin 2026)",
+          "url": "https://alicanteplaza.es/alicanteplaza/gastroplaza/guia-michelin-2026-tres-nuevas-estrellas-en-la-comunitat-quique-dacosta-mentor-chef-award"
+        }
+      ]
+    },
+    {
+      "id": "es-ribera-del-duero",
+      "nombre": "Ribera del Duero (Aranda de Duero y Peñafiel)",
+      "pais_iso": "ES",
+      "region": "Castilla y León",
+      "lat": 41.6704,
+      "lng": -3.6892,
+      "tipo": "region",
+      "puntaje": 4,
+      "justificacion": "Región vinícola de grandes tintos de tempranillo con bodegas subterráneas visitables en Aranda y el museo del vino del castillo de Peñafiel; capital del lechazo asado en horno de leña.",
+      "platos": [
+        "Lechazo asado",
+        "Vino tinto de Ribera del Duero",
+        "Morcilla de Burgos",
+        "Torta de Aranda"
+      ],
+      "fuentes": [
+        {
+          "guia": "TasteAtlas",
+          "url": "https://www.tasteatlas.com/most-popular-food-in-castile-and-leon"
+        },
+        {
+          "guia": "TasteAtlas",
+          "url": "https://www.tasteatlas.com/best-rated-dishes-in-castile-and-leon"
+        }
+      ]
+    },
+    {
+      "id": "es-rias-baixas",
+      "nombre": "Rías Baixas (Cambados y O Grove)",
+      "pais_iso": "ES",
+      "region": "Galicia",
+      "lat": 42.5146,
+      "lng": -8.8136,
+      "tipo": "region",
+      "puntaje": 4,
+      "justificacion": "Tierra del albariño, con bodegas visitables en el Salnés, y de la mejor despensa marisquera de España, con la Festa do Marisco de O Grove.",
+      "platos": [
+        "Albariño",
+        "Mejillones y vieiras",
+        "Navajas",
+        "Pulpo á feira"
+      ],
+      "fuentes": [
+        {
+          "guia": "TasteAtlas",
+          "url": "https://www.tasteatlas.com/galicia"
+        },
+        {
+          "guia": "TasteAtlas",
+          "url": "https://www.tasteatlas.com/most-popular-food-in-galicia"
+        }
+      ]
+    },
+    {
+      "id": "es-asturias-sidra",
+      "nombre": "Asturias central (Oviedo, Gijón y la ruta de la sidra)",
+      "pais_iso": "ES",
+      "region": "Asturias",
+      "lat": 43.3614,
+      "lng": -5.8494,
+      "tipo": "region",
+      "puntaje": 4,
+      "justificacion": "Sidrerías con escanciado en Oviedo, Gijón y Villaviciosa, fabada, cachopo y quesos de vaca y cabra; en la región está Casa Marcial, con tres estrellas Michelin.",
+      "platos": [
+        "Fabada asturiana",
+        "Cachopo",
+        "Chorizo a la sidra",
+        "Sidra natural"
+      ],
+      "fuentes": [
+        {
+          "guia": "TasteAtlas",
+          "url": "https://www.tasteatlas.com/asturias"
+        },
+        {
+          "guia": "TasteAtlas",
+          "url": "https://www.tasteatlas.com/most-popular-dishes-in-asturias"
+        },
+        {
+          "guia": "Guía Michelin",
+          "url": "https://guide.michelin.com/gb/en/article/michelin-guide-ceremony/all-michelin-star-restaurants-in-spain-2026-the-full-list"
+        }
+      ]
+    },
+    {
+      "id": "pt-vila-nova-de-gaia",
+      "nombre": "Vila Nova de Gaia (bodegas de vino de Oporto)",
+      "pais_iso": "PT",
+      "region": "Norte",
+      "lat": 41.1375,
+      "lng": -8.6135,
+      "tipo": "ciudad",
+      "puntaje": 4,
+      "justificacion": "Al otro lado del Duero desde Oporto se concentran las bodegas históricas del vino de Oporto, con visitas y catas; The Yeatman tiene dos estrellas Michelin.",
+      "platos": [
+        "Vino de Oporto (tawny, ruby, blanco)",
+        "Francesinha",
+        "Tripas à moda do Porto"
+      ],
+      "fuentes": [
+        {
+          "guia": "Guía Michelin",
+          "url": "https://guide.michelin.com/en/article/michelin-guide-ceremony/All%20MICHELIN-Starred%20Restaurants%20in%20Portugal%202026"
+        },
+        {
+          "guia": "Fodor's",
+          "url": "https://www.fodors.com/world/europe/portugal/porto-and-the-north/experiences/news/photos/10-things-to-do-in-porto-besides-drink-port"
+        },
+        {
+          "guia": "TasteAtlas",
+          "url": "https://www.tasteatlas.com/best-rated-dishes-in-porto-district"
+        }
+      ]
+    },
+    {
+      "id": "pt-matosinhos",
+      "nombre": "Matosinhos y Leça da Palmeira",
+      "pais_iso": "PT",
+      "region": "Norte",
+      "lat": 41.1844,
+      "lng": -8.6963,
+      "tipo": "ciudad",
+      "puntaje": 4,
+      "justificacion": "Calles enteras de restaurantes de pescado y marisco a la brasa junto al puerto; en Leça da Palmeira, la Casa de Chá da Boa Nova (Siza Vieira) tiene dos estrellas Michelin.",
+      "platos": [
+        "Peixe grelhado",
+        "Sardinhas assadas",
+        "Arroz de marisco",
+        "Polvo assado"
+      ],
+      "fuentes": [
+        {
+          "guia": "Guía Michelin",
+          "url": "https://guide.michelin.com/en/article/michelin-guide-ceremony/All%20MICHELIN-Starred%20Restaurants%20in%20Portugal%202026"
+        },
+        {
+          "guia": "TasteAtlas",
+          "url": "https://www.tasteatlas.com/best-rated-dishes-in-porto-district"
+        }
+      ]
+    },
+    {
+      "id": "pt-amarante",
+      "nombre": "Amarante",
+      "pais_iso": "PT",
+      "region": "Norte",
+      "lat": 41.2717,
+      "lng": -8.0826,
+      "tipo": "pueblo",
+      "puntaje": 3,
+      "justificacion": "Ciudad de dulces conventuales a orillas del Tâmega, en plena región del vinho verde; Largo do Paço obtuvo una estrella Michelin en 2026.",
+      "platos": [
+        "Papos de anjo",
+        "Lérias de Amarante",
+        "Vinho verde"
+      ],
+      "fuentes": [
+        {
+          "guia": "Idealista (estrellas Michelin 2026)",
+          "url": "https://www.idealista.pt/en/news/lifestyle-in-portugal/2026/03/12/74391-portugal-s-10-new-michelin-stars-in-2026"
+        },
+        {
+          "guia": "Euronews (estrellas Michelin 2026)",
+          "url": "https://www.euronews.com/culture/2026/03/11/michelin-guide-2026-the-ten-new-portuguese-restaurants-honoured-with-a-star"
+        }
+      ]
+    }
+  ]
+}

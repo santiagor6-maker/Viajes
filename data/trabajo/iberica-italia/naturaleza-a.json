@@ -1,0 +1,1106 @@
+{
+  "agente": "naturaleza",
+  "subregion": "iberica-italia",
+  "ronda": 1,
+  "paises": [
+    "ES",
+    "PT",
+    "AD"
+  ],
+  "puntajes": [
+    {
+      "id": "es-barcelona",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Ciudad con playas urbanas (Barceloneta) y la sierra de Collserola como pulmón verde; la naturaleza es secundaria frente a lo urbano.",
+      "actividad": "Paseo por la Carretera de les Aigües en Collserola o playas urbanas",
+      "fuentes": []
+    },
+    {
+      "id": "es-madrid",
+      "puntaje": 1,
+      "unesco": false,
+      "justificacion": "Entorno urbano; el Retiro y la Casa de Campo son parques urbanos. La sierra de Guadarrama queda a más de 50 km.",
+      "actividad": "Paseo por el Retiro; excursión de día a la sierra de Guadarrama",
+      "fuentes": []
+    },
+    {
+      "id": "es-granada-alhambra",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Ciudad monumental con Sierra Nevada a unos 30 km; la naturaleza se disfruta como excursión.",
+      "actividad": "Excursión a Sierra Nevada (Pradollano / Veleta)",
+      "fuentes": []
+    },
+    {
+      "id": "es-sevilla",
+      "puntaje": 1,
+      "unesco": false,
+      "justificacion": "Destino urbano; el Guadalquivir y el parque de María Luisa son su verde. Doñana queda a más de 60 km.",
+      "actividad": "Paseo por el parque de María Luisa",
+      "fuentes": []
+    },
+    {
+      "id": "es-cordoba",
+      "puntaje": 1,
+      "unesco": false,
+      "justificacion": "Ciudad patrimonial con escasa naturaleza inmediata; Sierra Morena al norte.",
+      "actividad": "Paseo por los Sotos de la Albolafia junto al Guadalquivir",
+      "fuentes": []
+    },
+    {
+      "id": "es-toledo",
+      "puntaje": 1,
+      "unesco": false,
+      "justificacion": "Ciudad sobre un meandro del Tajo; el paisaje fluvial es el telón de fondo, no el atractivo principal.",
+      "actividad": "Senda ecológica junto al Tajo alrededor del casco",
+      "fuentes": []
+    },
+    {
+      "id": "es-segovia",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "A los pies de la sierra de Guadarrama (Parque Nacional) y los pinares de Valsaín, a unos 15 km.",
+      "actividad": "Excursión a los pinares de Valsaín / Peñalara",
+      "fuentes": []
+    },
+    {
+      "id": "es-salamanca",
+      "puntaje": 1,
+      "unesco": false,
+      "justificacion": "Entorno urbano en la meseta; las Arribes del Duero y la sierra de Francia quedan lejos.",
+      "actividad": "Paseo por la ribera del Tormes",
+      "fuentes": []
+    },
+    {
+      "id": "es-avila",
+      "puntaje": 1,
+      "unesco": false,
+      "justificacion": "Ciudad amurallada en la meseta; la sierra de Gredos está a más de 50 km.",
+      "actividad": "Excursión de día a la sierra de Gredos",
+      "fuentes": []
+    },
+    {
+      "id": "es-el-escorial",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Junto al monte Abantos y el bosque de La Herrería, en la vertiente de Guadarrama.",
+      "actividad": "Subida al monte Abantos o a la Silla de Felipe II",
+      "fuentes": []
+    },
+    {
+      "id": "es-san-sebastian",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "La bahía de La Concha está entre las playas urbanas más bellas de España según NatGeo, enmarcada por los montes Urgull e Igueldo; costa cantábrica abrupta hacia Pasaia.",
+      "actividad": "Baño en La Concha y subida al monte Igueldo; ruta costera a Pasaia (GR-121)",
+      "fuentes": [
+        {
+          "guia": "National Geographic",
+          "url": "https://www.nationalgeographic.com/travel/article/best-beaches-in-spain"
+        }
+      ]
+    },
+    {
+      "id": "es-bilbao",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Ciudad industrial; a unos 35 km quedan la Reserva de la Biosfera de Urdaibai y San Juan de Gaztelugatxe.",
+      "actividad": "Excursión a San Juan de Gaztelugatxe y Urdaibai",
+      "fuentes": []
+    },
+    {
+      "id": "es-santiago-de-compostela",
+      "puntaje": 1,
+      "unesco": false,
+      "justificacion": "Entorno urbano; la naturaleza gallega (rías, costa) queda a más de 40 km.",
+      "actividad": "Paseo por la Alameda y el parque de Bonaval",
+      "fuentes": []
+    },
+    {
+      "id": "es-picos-de-europa",
+      "puntaje": 5,
+      "unesco": false,
+      "justificacion": "Primer parque nacional de España (1918), macizos calizos con el Naranjo de Bulnes, lagos de Covadonga, rebeco y oso pardo; más de 30 rutas autoguiadas y unos 30 miradores. Ojo: Turismo Asturias publicó un cierre preventivo de la Ruta del Cares por desprendimientos; verificar estado antes de ir.",
+      "actividad": "Ruta del Cares Poncebos–Caín, 11 km por sentido (22 km i/v); lagos de Covadonga",
+      "fuentes": [
+        {
+          "guia": "Spain.info (turismo oficial de España)",
+          "url": "https://www.spain.info/en/nature/picos-europa-national-park/"
+        },
+        {
+          "guia": "Spain.info (turismo oficial de España)",
+          "url": "https://www.spain.info/en/hiking-trails/cares-trail-hiking-spain/"
+        },
+        {
+          "guia": "Turismo Asturias",
+          "url": "https://www.turismoasturias.es/es/descubre/naturaleza/rutas/senderismo/ruta-del-cares"
+        },
+        {
+          "guia": "Time Out",
+          "url": "https://www.timeout.com/news/this-spanish-mountain-range-has-just-been-named-the-worlds-most-beautiful-place-032326"
+        }
+      ]
+    },
+    {
+      "id": "es-santillana-altamira",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Pueblo medieval y cueva prehistórica; la costa cántabra (dunas de Liencres) está cerca, pero no es el foco.",
+      "actividad": "Excursión a las dunas de Liencres",
+      "fuentes": []
+    },
+    {
+      "id": "es-praia-das-catedrais",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "Monumento natural de arcos y bóvedas de roca tallados por el mar, solo transitables en bajamar; no apta para el baño. En verano (1 jul–30 sep) y Semana Santa exige autorización gratuita online.",
+      "actividad": "Paseo bajo los arcos en marea baja (consultar tablas de mareas y reservar acceso)",
+      "fuentes": [
+        {
+          "guia": "Spain.info (turismo oficial de España)",
+          "url": "https://www.spain.info/en/beach/as-catedrais/"
+        },
+        {
+          "guia": "Turismo de Galicia",
+          "url": "https://turismo.gal/que-visitar/destacados/praia-das-catedrais?langId=en_US%3D"
+        }
+      ]
+    },
+    {
+      "id": "es-valencia",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Gran ciudad con playas urbanas y el Parque Natural de l'Albufera a unos 10 km al sur.",
+      "actividad": "Paseo en barca al atardecer por l'Albufera (El Palmar)",
+      "fuentes": []
+    },
+    {
+      "id": "es-mallorca",
+      "puntaje": 5,
+      "unesco": true,
+      "justificacion": "La Serra de Tramuntana es paisaje cultural Patrimonio UNESCO: cordillera de unos 90–100 km de Andratx a Formentor con el Puig Major (1.445 m), calas y terrazas de piedra en seco.",
+      "actividad": "Ruta de Pedra en Sec (GR 221), 8–10 etapas de Andratx a Pollença; etapa Deià–Sóller",
+      "fuentes": [
+        {
+          "guia": "Spain.info (turismo oficial de España)",
+          "url": "https://www.spain.info/en/nature/sierra-tramuntana-cultural-landscape/"
+        },
+        {
+          "guia": "UNESCO",
+          "url": "https://whc.unesco.org/en/list/1371"
+        },
+        {
+          "guia": "Book a Trekking",
+          "url": "https://bookatrekking.com/es/blog/gr221-mallorca"
+        }
+      ]
+    },
+    {
+      "id": "es-menorca",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "Toda la isla es Reserva de la Biosfera; calas vírgenes, acantilados y faros unidos por el histórico Camí de Cavalls.",
+      "actividad": "Camí de Cavalls (GR 223), unos 185 km en 20 etapas alrededor de la isla",
+      "fuentes": [
+        {
+          "guia": "Spain.info (turismo oficial de España)",
+          "url": "https://www.spain.info/es/rutas-senderismo/cami-de-cavalls-senderismo-espana/"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/guide-to-menorca"
+        }
+      ]
+    },
+    {
+      "id": "es-ibiza",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "El Parque Natural de ses Salines (sur de Ibiza y norte de Formentera) reúne dunas, sabinares, salinas con flamencos y praderas de posidonia, protegidas dentro del bien UNESCO 'Ibiza, biodiversidad y cultura'.",
+      "actividad": "Playas de ses Salines y es Cavallet; observación de aves en las salinas",
+      "fuentes": [
+        {
+          "guia": "Ibiza Travel (turismo oficial)",
+          "url": "https://ibiza.travel/en/directorio/parque-natural-de-ses-salines-deivissa-i-formentera/"
+        },
+        {
+          "guia": "Ibiza Travel (turismo oficial)",
+          "url": "https://ibiza.travel/en/playas/ses-salines/"
+        },
+        {
+          "guia": "UNESCO",
+          "url": "https://whc.unesco.org/en/list/417"
+        }
+      ]
+    },
+    {
+      "id": "es-tenerife-teide",
+      "puntaje": 5,
+      "unesco": true,
+      "justificacion": "Parque Nacional del Teide (1954, UNESCO): volcán de unos 3.715–3.718 m, techo de España, 18.990 ha y 41 senderos señalizados; cielos de referencia para la observación astronómica.",
+      "actividad": "Teleférico a La Rambleta y sendero 10 (Telesforo Bravo) al pico, con permiso gratuito que se agota con meses de antelación",
+      "fuentes": [
+        {
+          "guia": "Spain.info (turismo oficial de España)",
+          "url": "https://www.spain.info/en/nature/teide-national-park/"
+        },
+        {
+          "guia": "UNESCO",
+          "url": "https://whc.unesco.org/en/list/1258"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-national-parks-spain"
+        }
+      ]
+    },
+    {
+      "id": "es-lanzarote",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "Parque Nacional de Timanfaya (51 km²), paisaje volcánico de las erupciones de 1730–1736 y 1824 en torno a las Montañas del Fuego; único parque nacional español predominantemente geológico.",
+      "actividad": "Ruta de los Volcanes en bus desde el Islote de Hilario; Ruta del Litoral desde El Golfo, 12 km (unas 4 h)",
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/spain/parque-nacional-de-timanfaya/attractions/parque-nacional-de-timanfaya/a/poi-sig/1465310/1338687"
+        },
+        {
+          "guia": "MITECO (decreto de creación)",
+          "url": "https://miteco.gob.es/content/dam/miteco/es/parques-nacionales-oapn/red-parques-nacionales/legislacion/timan_creacion_tcm30-66609.pdf"
+        }
+      ]
+    },
+    {
+      "id": "es-ronda",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "La ciudad se asoma al Tajo, garganta de más de 100 m que abre el río Guadalevín; puerta de la Serranía de Ronda y de la sierra de Grazalema.",
+      "actividad": "Bajada a los miradores del fondo del Tajo bajo el Puente Nuevo",
+      "fuentes": [
+        {
+          "guia": "Rick Steves",
+          "url": "https://www.ricksteves.com/europe/spain/white-hill-towns"
+        }
+      ]
+    },
+    {
+      "id": "es-pueblos-blancos-cadiz",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "Parque Natural Sierra de Grazalema, primera Reserva de la Biosfera de España (1977): pinsapares, la sierra más lluviosa de la península y la Garganta Verde, cañón de paredes de hasta 400 m cerca de Zahara.",
+      "actividad": "Sendero de la Garganta Verde (barranquismo opcional) desde Zahara de la Sierra",
+      "fuentes": [
+        {
+          "guia": "Turismo de Andalucía",
+          "url": "https://www.andalucia.org/es/espacios-naturales-sierra-de-grazalema"
+        },
+        {
+          "guia": "Turismo de Andalucía",
+          "url": "https://www.andalucia.org/es/barranquismo-en-la-garganta-verde"
+        }
+      ]
+    },
+    {
+      "id": "es-tarifa-bolonia",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "La duna de Bolonia (más de 30 m de alto y 200 m de ancho) en el Parque Natural del Estrecho, playa virgen con vistas a África y viento ideal para kitesurf.",
+      "actividad": "Subida a la duna de Bolonia; kitesurf en Tarifa",
+      "fuentes": [
+        {
+          "guia": "Spain.info (turismo oficial de España)",
+          "url": "https://www.spain.info/en/beach/bolonia/"
+        },
+        {
+          "guia": "Turismo de Andalucía",
+          "url": "https://www.andalucia.org/en/tarifa-natural-spaces-duna-de-bolonia"
+        }
+      ]
+    },
+    {
+      "id": "es-jerez-de-la-frontera",
+      "puntaje": 1,
+      "unesco": false,
+      "justificacion": "Ciudad del vino y el caballo; poca naturaleza inmediata (Doñana y la costa a 30–50 km).",
+      "actividad": "Excursión a Sanlúcar y la desembocadura del Guadalquivir",
+      "fuentes": []
+    },
+    {
+      "id": "es-malaga",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Playas urbanas y los Montes de Málaga; el Caminito del Rey y El Torcal quedan a 40–60 km.",
+      "actividad": "Excursión al Caminito del Rey o al Torcal de Antequera",
+      "fuentes": []
+    },
+    {
+      "id": "es-ubeda-baeza",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Ciudades renacentistas entre olivares; el Parque Natural de Cazorla queda a unos 50 km.",
+      "actividad": "Excursión a la sierra de Cazorla (nacimiento del Guadalquivir)",
+      "fuentes": []
+    },
+    {
+      "id": "es-alpujarras-sierra-nevada",
+      "puntaje": 5,
+      "unesco": false,
+      "justificacion": "Parque Nacional de Sierra Nevada, el más extenso de la Red (86.208 ha), con más de 15 cumbres de más de 3.000 m y el Mulhacén, techo de la península; pueblos blancos colgados en el barranco del Poqueira.",
+      "actividad": "Ruta Pampaneira–Bubión–Capileira por el barranco del Poqueira (6–9 km); ascenso al Mulhacén o al Veleta en verano",
+      "fuentes": [
+        {
+          "guia": "Spain.info (turismo oficial de España)",
+          "url": "https://www.spain.info/es/naturaleza/parque-nacional-sierra-nevada/"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-national-parks-spain"
+        }
+      ]
+    },
+    {
+      "id": "es-donana",
+      "puntaje": 5,
+      "unesco": true,
+      "justificacion": "Humedal de referencia en Europa (UNESCO 1994, Reserva de la Biosfera y Ramsar): marismas, lagunas, pinares y dunas móviles de más de 30 m; más de 400 especies de aves, lince ibérico y águila imperial.",
+      "actividad": "Senderos de El Acebuche y La Rocina; visita guiada en 4x4 por la marisma y las dunas",
+      "fuentes": [
+        {
+          "guia": "Spain.info (turismo oficial de España)",
+          "url": "https://www.spain.info/en/nature/donana-national-park/"
+        },
+        {
+          "guia": "UNESCO",
+          "url": "https://whc.unesco.org/en/list/685"
+        }
+      ]
+    },
+    {
+      "id": "es-cuenca",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "Las casas colgadas se asoman a las hoces del Huécar y el Júcar; a unos 25 km está la Ciudad Encantada, laberinto de rocas calizas en la Serranía de Cuenca.",
+      "actividad": "Recorrido por la Ciudad Encantada (unos 3 km) y senda de las hoces",
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-cuenca"
+        }
+      ]
+    },
+    {
+      "id": "es-ordesa-monte-perdido",
+      "puntaje": 5,
+      "unesco": true,
+      "justificacion": "Cañón glaciar del bien UNESCO Pirineos–Monte Perdido: hayedos, fajas y cascadas hasta el circo de Soaso; uno de los grandes parques de montaña de Europa. En temporada alta solo se accede en autobús desde Torla.",
+      "actividad": "Pradera de Ordesa–Cola de Caballo por el GR-11, unos 17,5 km i/v y 500 m de desnivel (variante por la Faja de Pelay, unos 20 km)",
+      "fuentes": [
+        {
+          "guia": "Spain.info (turismo oficial de España)",
+          "url": "https://www.spain.info/es/rutas-senderismo/wanderrouten-cola-caballo-ordesa-pyrenaen/"
+        },
+        {
+          "guia": "UNESCO",
+          "url": "https://whc.unesco.org/en/list/773"
+        },
+        {
+          "guia": "Fodor's",
+          "url": "https://www.fodors.com/world/europe/spain/the-pyrenees/things-to-do/sights/reviews/ordesa-and-monte-perdido-national-park-451118"
+        },
+        {
+          "guia": "National Geographic",
+          "url": "https://www.nationalgeographic.com/travel/article/spain-national-parks"
+        }
+      ]
+    },
+    {
+      "id": "es-la-rioja",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Paisaje de viñedos con la sierra de Cantabria al norte; naturaleza agradable pero secundaria.",
+      "actividad": "Paseo entre viñedos de Laguardia a Elciego",
+      "fuentes": []
+    },
+    {
+      "id": "es-burgos",
+      "puntaje": 1,
+      "unesco": false,
+      "justificacion": "Destino urbano; poca naturaleza inmediata.",
+      "actividad": "Paseo por el Espolón y la ribera del Arlanzón",
+      "fuentes": []
+    },
+    {
+      "id": "es-leon",
+      "puntaje": 1,
+      "unesco": false,
+      "justificacion": "Destino urbano; la montaña leonesa queda a más de 40 km.",
+      "actividad": "Paseo por la ribera del Bernesga",
+      "fuentes": []
+    },
+    {
+      "id": "es-caceres",
+      "puntaje": 1,
+      "unesco": false,
+      "justificacion": "Ciudad monumental; el Parque Nacional de Monfragüe está a unos 80 km.",
+      "actividad": "Excursión a Monfragüe para ver buitres y cigüeña negra",
+      "fuentes": []
+    },
+    {
+      "id": "es-girona",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Ciudad sobre el Onyar con la Costa Brava y la zona volcánica de la Garrotxa a menos de 50 km.",
+      "actividad": "Vía Verde del Carrilet o excursión a la Garrotxa",
+      "fuentes": []
+    },
+    {
+      "id": "pt-lisboa",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Capital junto al estuario del Tajo; playas de Cascais y Costa da Caparica y el parque Sintra-Cascais a menos de 30 km.",
+      "actividad": "Excursión a las playas de Costa da Caparica o Cascais",
+      "fuentes": []
+    },
+    {
+      "id": "pt-sintra",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "Paisaje cultural UNESCO de bosques húmedos en la sierra de Sintra, dentro del Parque Natural Sintra-Cascais, que llega a los acantilados del Cabo da Roca, el punto más occidental del continente.",
+      "actividad": "Sendero desde Sintra hasta la Cruz Alta y el Palacio da Pena; acantilados del Cabo da Roca",
+      "fuentes": [
+        {
+          "guia": "UNESCO",
+          "url": "https://whc.unesco.org/en/list/723"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-portugal"
+        }
+      ]
+    },
+    {
+      "id": "pt-porto",
+      "puntaje": 1,
+      "unesco": false,
+      "justificacion": "Ciudad sobre el Duero; la naturaleza se limita a la ribera y a las playas de Foz.",
+      "actividad": "Paseo por la ribera hasta Foz do Douro",
+      "fuentes": []
+    },
+    {
+      "id": "pt-valle-del-duero",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "Paisaje UNESCO del Alto Duero: laderas de viñedos en terrazas sobre el río, uno de los paisajes agrícolas más espectaculares de Europa.",
+      "actividad": "Crucero por el Duero o tren de la Linha do Douro hasta Pinhão; miradores sobre las terrazas",
+      "fuentes": [
+        {
+          "guia": "UNESCO",
+          "url": "https://whc.unesco.org/en/list/1046"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-portugal"
+        }
+      ]
+    },
+    {
+      "id": "pt-guimaraes",
+      "puntaje": 1,
+      "unesco": false,
+      "justificacion": "Ciudad histórica; la sierra da Penha (teleférico) es su único verde destacado.",
+      "actividad": "Teleférico a la Penha",
+      "fuentes": []
+    },
+    {
+      "id": "pt-braga",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "El santuario de Bom Jesus está en una ladera boscosa y Peneda-Gerês queda a unos 40 km.",
+      "actividad": "Subida a pie por la escalinata de Bom Jesus; excursión a Gerês",
+      "fuentes": []
+    },
+    {
+      "id": "pt-peneda-geres",
+      "puntaje": 5,
+      "unesco": false,
+      "justificacion": "Único parque nacional de Portugal: granito, robledales, cascadas, caballos garranos y aldeas comunitarias junto a la frontera gallega; NatGeo le dedica un artículo propio.",
+      "actividad": "Senderos a las cascadas de Arado y por la vía romana Geira",
+      "fuentes": [
+        {
+          "guia": "National Geographic",
+          "url": "https://www.nationalgeographic.com/travel/article/peneda-geres-portugal"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-national-parks-portugal"
+        }
+      ]
+    },
+    {
+      "id": "pt-coimbra",
+      "puntaje": 1,
+      "unesco": false,
+      "justificacion": "Ciudad universitaria; poca naturaleza inmediata (Mata Nacional do Choupal).",
+      "actividad": "Paseo por el Choupal junto al Mondego",
+      "fuentes": []
+    },
+    {
+      "id": "pt-serra-da-estrela",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "Sierra más alta del Portugal continental (Torre, 1.993 m), con valles glaciares y lagunas; Manteigas es la base recomendada.",
+      "actividad": "Ruta por el valle glaciar del Zêzere desde Manteigas",
+      "fuentes": [
+        {
+          "guia": "Rough Guides",
+          "url": "https://www.roughguides.com/portugal/serra-da-estrela-travel-guide/"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-portugal"
+        }
+      ]
+    },
+    {
+      "id": "pt-monsanto",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Aldea encajada entre peñascos de granito con vistas amplias sobre la llanura de la Beira Baixa.",
+      "actividad": "Subida al castillo entre bolos de granito",
+      "fuentes": []
+    },
+    {
+      "id": "pt-nazare",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "Praia do Norte, famosa por algunas de las olas surfeadas más grandes del mundo gracias a su cañón submarino, y acantilados del Sítio sobre la playa.",
+      "actividad": "Ver las olas gigantes (oct–mar) desde el faro del fuerte de São Miguel Arcanjo",
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-portugal"
+        }
+      ]
+    },
+    {
+      "id": "pt-obidos",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Villa amurallada cerca de la laguna de Óbidos y la costa atlántica.",
+      "actividad": "Paseo o kayak en la Lagoa de Óbidos",
+      "fuentes": []
+    },
+    {
+      "id": "pt-alcobaca",
+      "puntaje": 1,
+      "unesco": false,
+      "justificacion": "Destino monumental; poca naturaleza inmediata.",
+      "actividad": "Visita a la cercana costa de São Martinho do Porto",
+      "fuentes": []
+    },
+    {
+      "id": "pt-batalha",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Monasterio a unos 20 km del Parque Natural Serras de Aire e Candeeiros y sus grutas.",
+      "actividad": "Excursión a las grutas de Mira de Aire",
+      "fuentes": []
+    },
+    {
+      "id": "pt-tomar",
+      "puntaje": 1,
+      "unesco": false,
+      "justificacion": "Ciudad templaria con la Mata dos Sete Montes como parque.",
+      "actividad": "Paseo por la Mata dos Sete Montes",
+      "fuentes": []
+    },
+    {
+      "id": "pt-peniche-berlengas",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "Península de surf y acantilados frente al archipiélago de las Berlengas, reserva natural con aves marinas y aguas transparentes.",
+      "actividad": "Barco a Berlenga Grande y sendero al fuerte de São João Baptista",
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-portugal"
+        }
+      ]
+    },
+    {
+      "id": "pt-evora",
+      "puntaje": 1,
+      "unesco": false,
+      "justificacion": "Ciudad monumental en la llanura alentejana; poca naturaleza.",
+      "actividad": "Excursión al crómlech de los Almendres entre alcornocales",
+      "fuentes": []
+    },
+    {
+      "id": "pt-monsaraz",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "Villa medieval sobre el gran embalse de Alqueva, entorno de cielos oscuros muy apreciado para observar estrellas.",
+      "actividad": "Kayak en el Alqueva y observación astronómica nocturna",
+      "fuentes": [
+        {
+          "guia": "Rough Guides",
+          "url": "https://www.roughguides.com/portugal/best-road-trips/"
+        }
+      ]
+    },
+    {
+      "id": "pt-marvao",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "Aldea fortificada en un risco del Parque Natural da Serra de São Mamede con vistas que alcanzan España.",
+      "actividad": "Ruta por la sierra de São Mamede desde Marvão",
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-road-trips-in-portugal"
+        }
+      ]
+    },
+    {
+      "id": "pt-arrabida",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "Sierra calcárea cubierta de matorral mediterráneo que cae sobre calas de aguas turquesa; más de 40 km de senderos según Time Out.",
+      "actividad": "Senderos de la sierra y baño en Portinho da Arrábida / Galapinhos",
+      "fuentes": [
+        {
+          "guia": "Time Out",
+          "url": "https://www.timeout.com/portugal/travel/best-places-to-visit-in-portugal"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-national-parks-portugal"
+        }
+      ]
+    },
+    {
+      "id": "pt-costa-vicentina",
+      "puntaje": 5,
+      "unesco": false,
+      "justificacion": "Costa atlántica salvaje y protegida del suroeste, con acantilados y playas vírgenes recorridos por la Rota Vicentina (unos 340 km según Rough Guides).",
+      "actividad": "Trilho dos Pescadores de la Rota Vicentina, etapa Vila Nova de Milfontes–Almograve",
+      "fuentes": [
+        {
+          "guia": "Rough Guides",
+          "url": "https://www.roughguides.com/portugal/things-to-do/"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-hikes-in-portugal"
+        }
+      ]
+    },
+    {
+      "id": "pt-sagres",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "Acantilados del Cabo de São Vicente y la punta de Sagres en el extremo suroeste de Europa, con surf y paso de aves migratorias.",
+      "actividad": "Atardecer en el Cabo de São Vicente; surf en las playas de Sagres",
+      "fuentes": [
+        {
+          "guia": "Rough Guides",
+          "url": "https://www.roughguides.com/portugal/things-to-do/"
+        },
+        {
+          "guia": "Michelin Guide Vert",
+          "url": "https://editions.michelin.com/produits/portugal-2/"
+        }
+      ]
+    },
+    {
+      "id": "pt-lagos",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "Acantilados dorados, arcos y grutas de la Ponta da Piedade y calas del Algarve occidental.",
+      "actividad": "Kayak o barco por las grutas de la Ponta da Piedade",
+      "fuentes": [
+        {
+          "guia": "Rough Guides",
+          "url": "https://www.roughguides.com/portugal/things-to-do/"
+        },
+        {
+          "guia": "Rick Steves",
+          "url": "https://www.ricksteves.com/europe/portugal/itinerary"
+        }
+      ]
+    },
+    {
+      "id": "pt-tavira",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "Base tranquila del Algarve oriental junto a la laguna costera de la Ria Formosa y la isla-barrera de Tavira.",
+      "actividad": "Ferry a la Ilha de Tavira y paseo a la Praia do Barril",
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-portugal"
+        }
+      ]
+    },
+    {
+      "id": "pt-madeira-funchal",
+      "puntaje": 5,
+      "unesco": false,
+      "justificacion": "Macizo volcánico central de Madeira con cumbres sobre el mar de nubes y senderos de cresta entre los más espectaculares de Europa.",
+      "actividad": "Vereda do Areeiro (PR1) Pico do Arieiro–Pico Ruivo, unos 7 km",
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-madeira"
+        },
+        {
+          "guia": "Time Out",
+          "url": "https://www.timeout.com/madeira/things-to-do/the-best-things-to-do-in-madeira"
+        }
+      ]
+    },
+    {
+      "id": "pt-madeira-rabacal",
+      "puntaje": 5,
+      "unesco": true,
+      "justificacion": "Corazón de la laurisilva de Madeira, bosque relicto Patrimonio Natural UNESCO, con levadas que llevan a cascadas y lagunas.",
+      "actividad": "Levada das 25 Fontes y Levada do Risco desde Rabaçal",
+      "fuentes": [
+        {
+          "guia": "UNESCO",
+          "url": "https://whc.unesco.org/en/list/934"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-madeira"
+        }
+      ]
+    },
+    {
+      "id": "pt-madeira-porto-moniz",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "Piscinas naturales de lava en la costa norte de Madeira, batida por el Atlántico.",
+      "actividad": "Baño en las piscinas naturales volcánicas",
+      "fuentes": [
+        {
+          "guia": "Rough Guides",
+          "url": "https://roughguides.com/portugal/trips/madeira-sao-miguel-guided-island-adventures-trip"
+        }
+      ]
+    },
+    {
+      "id": "pt-azores-sete-cidades",
+      "puntaje": 5,
+      "unesco": false,
+      "justificacion": "Caldera volcánica con las lagunas gemelas Azul y Verde, uno de los paisajes más icónicos de las Azores.",
+      "actividad": "Mirador da Vista do Rei y ruta por el borde de la caldera",
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-the-azores"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-portugal"
+        }
+      ]
+    },
+    {
+      "id": "pt-azores-furnas",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "Valle volcánico activo con fumarolas, laguna y aguas termales ferruginosas.",
+      "actividad": "Laguna das Furnas y baño termal en Terra Nostra o Poça da Dona Beija",
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-the-azores"
+        }
+      ]
+    },
+    {
+      "id": "pt-azores-pico",
+      "puntaje": 5,
+      "unesco": true,
+      "justificacion": "Volcán de Pico, cumbre más alta de Portugal (2.351 m), viñedos en lava Patrimonio UNESCO y avistamiento de cetáceos.",
+      "actividad": "Ascenso al Montanha do Pico (unos 1.100 m de desnivel, con registro previo); salida de avistamiento de ballenas",
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-the-azores"
+        },
+        {
+          "guia": "UNESCO",
+          "url": "https://whc.unesco.org/en/list/1117"
+        }
+      ]
+    },
+    {
+      "id": "pt-azores-faial",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "Gran caldera central y el volcán de Capelinhos, que en 1957–58 añadió tierra nueva a la isla.",
+      "actividad": "Vuelta al borde de la Caldeira y visita a Capelinhos",
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-the-azores"
+        }
+      ]
+    },
+    {
+      "id": "pt-azores-flores",
+      "puntaje": 5,
+      "unesco": false,
+      "justificacion": "La isla más occidental de Europa: decenas de cascadas, siete lagunas de cráter y acantilados basálticos como la Rocha dos Bordões.",
+      "actividad": "Senderos a Poço do Bacalhau y Poço da Ribeira do Ferreiro",
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-the-azores"
+        }
+      ]
+    },
+    {
+      "id": "ad-andorra-la-vella-escaldes",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Núcleo urbano en un valle pirenaico, con montaña a pocos minutos y acceso a pie al Madriu desde Escaldes.",
+      "actividad": "Inicio del sendero al valle del Madriu desde Escaldes",
+      "fuentes": []
+    },
+    {
+      "id": "ad-vall-del-madriu",
+      "puntaje": 5,
+      "unesco": true,
+      "justificacion": "Valle glaciar sin carreteras, paisaje cultural Patrimonio UNESCO y único sitio Patrimonio Mundial de Andorra, con lagos, bordas y refugios.",
+      "actividad": "Travesía Escaldes–refugio de l'Illa por el valle del Madriu (jornada larga)",
+      "fuentes": [
+        {
+          "guia": "UNESCO",
+          "url": "https://whc.unesco.org/en/list/1160"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/guide-to-andorra"
+        },
+        {
+          "guia": "Fodor's",
+          "url": "https://www.fodors.com/news/trip-ideas/best-things-to-do-in-andorra"
+        }
+      ]
+    },
+    {
+      "id": "ad-grandvalira-pas-de-la-casa",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "El mayor dominio esquiable del Pirineo, entre circos y lagos de alta montaña; en verano, senderismo y BTT.",
+      "actividad": "Esquí en invierno; senderismo estival en el entorno de Pas de la Casa",
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/guide-to-andorra"
+        },
+        {
+          "guia": "National Geographic",
+          "url": "https://www.nationalgeographic.com/travel/article/paid-content-andorra-winter-getaway"
+        }
+      ]
+    },
+    {
+      "id": "ad-ordino-arcalis",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "Valle de Ordino, el más verde de Andorra, con el circo de Arcalís y los lagos de Tristaina, y el parque natural del valle de Sorteny cerca.",
+      "actividad": "Circuito de los lagos de Tristaina desde Arcalís; freeride en invierno",
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/guide-to-andorra"
+        }
+      ]
+    },
+    {
+      "id": "ad-estanys-de-juclar",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "Lagos glaciares en la cabecera de la Vall d'Incles, junto a la frontera francesa; de las rutas más populares del país según Lonely Planet.",
+      "actividad": "Ruta desde la Vall d'Incles al refugio y lagos de Juclar",
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/guide-to-andorra"
+        }
+      ]
+    },
+    {
+      "id": "ad-coma-pedrosa",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "Cumbre más alta de Andorra (2.942 m) dentro de un parque natural comunal de lagos y circos glaciares.",
+      "actividad": "Ascensión al Comapedrosa desde Arinsal por el refugio y el estany Negre",
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/guide-to-andorra"
+        }
+      ]
+    },
+    {
+      "id": "ad-naturlandia",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "Parque de montaña en bosques de la Rabassa, con actividades al aire libre y parque de fauna pirenaica.",
+      "actividad": "Senderismo y fauna en la Rabassa; Tobotronc",
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/guide-to-andorra"
+        },
+        {
+          "guia": "Fodor's",
+          "url": "https://www.fodors.com/news/trip-ideas/best-things-to-do-in-andorra"
+        }
+      ]
+    },
+    {
+      "id": "ad-canillo-sant-joan-de-caselles",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Iglesia románica en el valle de Canillo, base cercana para la Vall d'Incles y el mirador del Roc del Quer.",
+      "actividad": "Mirador del Roc del Quer",
+      "fuentes": []
+    }
+  ],
+  "nuevos": [
+    {
+      "id": "es-aiguestortes",
+      "nombre": "Parque Nacional d'Aigüestortes i Estany de Sant Maurici",
+      "pais_iso": "ES",
+      "region": "Cataluña (Lleida)",
+      "lat": 42.5826,
+      "lng": 1.001,
+      "tipo": "parque",
+      "puntaje": 5,
+      "unesco": false,
+      "justificacion": "Único parque nacional de Cataluña (declarado en 1955): alta montaña granítica con cerca de 200 lagos glaciares, bosques de pino negro y los Encantats sobre el lago de Sant Maurici.",
+      "actividad": "Ruta Espot–Estany de Sant Maurici–Estany de Ratera; o los meandros de Aigüestortes desde Boí",
+      "fuentes": [
+        {
+          "guia": "MITECO (Red de Parques Nacionales)",
+          "url": "https://www.miteco.gob.es/es/parques-nacionales-oapn/red-parques-nacionales/funcionamiento.html"
+        },
+        {
+          "guia": "MITECO (ficha de la Red)",
+          "url": "https://www.miteco.gob.es/content/dam/miteco/es/parques-nacionales-oapn/red-parques-nacionales/la-red/fichareddeparquesnacionalesseptiembre2022_tcm30-545677.pdf"
+        }
+      ]
+    },
+    {
+      "id": "es-caldera-de-taburiente",
+      "nombre": "Parque Nacional de la Caldera de Taburiente (La Palma)",
+      "pais_iso": "ES",
+      "region": "Canarias",
+      "lat": 28.72,
+      "lng": -17.87,
+      "tipo": "parque",
+      "puntaje": 5,
+      "unesco": false,
+      "justificacion": "Enorme caldera erosiva de unos 8 km de diámetro y paredes de hasta 2.000 m, con pinar canario, arroyos y cascadas; parque nacional desde 1954.",
+      "actividad": "Ruta Los Brecitos–Playa de Taburiente–Cascada de Colores–barranco de las Angustias (unos 15 km)",
+      "fuentes": [
+        {
+          "guia": "MITECO (Red de Parques Nacionales)",
+          "url": "https://www.miteco.gob.es/es/parques-nacionales-oapn/red-parques-nacionales/funcionamiento.html"
+        },
+        {
+          "guia": "MITECO (ficha de la Red)",
+          "url": "https://www.miteco.gob.es/content/dam/miteco/es/parques-nacionales-oapn/red-parques-nacionales/la-red/fichareddeparquesnacionalesseptiembre2022_tcm30-545677.pdf"
+        }
+      ]
+    },
+    {
+      "id": "es-garajonay",
+      "nombre": "Parque Nacional de Garajonay (La Gomera)",
+      "pais_iso": "ES",
+      "region": "Canarias",
+      "lat": 28.1039,
+      "lng": -17.2436,
+      "tipo": "parque",
+      "puntaje": 5,
+      "unesco": true,
+      "justificacion": "Uno de los mejores bosques de laurisilva del mundo, relicto del Terciario envuelto en nieblas; Patrimonio Natural UNESCO desde 1986.",
+      "actividad": "Subida al Alto de Garajonay (1.487 m) y sendero de El Cedro por la laurisilva",
+      "fuentes": [
+        {
+          "guia": "UNESCO",
+          "url": "https://whc.unesco.org/en/list/380"
+        }
+      ]
+    },
+    {
+      "id": "es-cabrera",
+      "nombre": "Parque Nacional Marítimo-Terrestre del Archipiélago de Cabrera",
+      "pais_iso": "ES",
+      "region": "Islas Baleares",
+      "lat": 39.1496,
+      "lng": 2.933,
+      "tipo": "isla",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "Archipiélago casi virgen al sur de Mallorca con fondos de posidonia, aves marinas y lagartija balear; uno de los parques nacionales de la Red.",
+      "actividad": "Excursión en barco desde la Colònia de Sant Jordi con baño en la Cova Blava y subida al castillo",
+      "fuentes": [
+        {
+          "guia": "MITECO (ficha de la Red)",
+          "url": "https://www.miteco.gob.es/content/dam/miteco/es/parques-nacionales-oapn/red-parques-nacionales/la-red/fichareddeparquesnacionalesseptiembre2022_tcm30-545677.pdf"
+        }
+      ]
+    },
+    {
+      "id": "es-cabaneros",
+      "nombre": "Parque Nacional de Cabañeros",
+      "pais_iso": "ES",
+      "region": "Castilla-La Mancha (Ciudad Real / Toledo)",
+      "lat": 39.3247,
+      "lng": -4.642,
+      "tipo": "parque",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "Mejor muestra de bosque mediterráneo y raña de los Montes de Toledo, con ciervos, buitre negro y águila imperial; la berrea de septiembre es su gran espectáculo.",
+      "actividad": "Ruta del Boquerón del Estena o del Chorro de los Navalucillos; ruta en 4x4 por la raña y berrea (sep–oct)",
+      "fuentes": [
+        {
+          "guia": "MITECO (ficha de la Red)",
+          "url": "https://www.miteco.gob.es/content/dam/miteco/es/parques-nacionales-oapn/red-parques-nacionales/la-red/fichareddeparquesnacionalesseptiembre2022_tcm30-545677.pdf"
+        }
+      ]
+    },
+    {
+      "id": "es-formentera",
+      "nombre": "Formentera",
+      "pais_iso": "ES",
+      "region": "Islas Baleares",
+      "lat": 38.695,
+      "lng": 1.45,
+      "tipo": "isla",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "Playas de arena blanca y agua turquesa sobre praderas de posidonia; el norte de la isla forma parte del Parque Natural de ses Salines y del bien UNESCO 'Ibiza, biodiversidad y cultura'.",
+      "actividad": "Playas de ses Illetes y Llevant; paso a S'Espalmador; faro del cabo de Barbaria en bici",
+      "fuentes": [
+        {
+          "guia": "Ibiza Travel (turismo oficial)",
+          "url": "https://ibiza.travel/en/directorio/parque-natural-de-ses-salines-deivissa-i-formentera/"
+        },
+        {
+          "guia": "UNESCO",
+          "url": "https://whc.unesco.org/en/list/417"
+        }
+      ]
+    }
+  ]
+}

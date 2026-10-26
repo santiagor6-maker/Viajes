@@ -1,0 +1,1002 @@
+{
+  "agente": "adrenalina",
+  "subregion": "iberica-italia",
+  "ronda": 1,
+  "alcance": "Solo IT, MT, SM, VA (ES/PT/AD en otro archivo).",
+  "nota_verificacion": "En esta ronda no hubo acceso directo a la web (proxy 403/DNS) y se agotó el cupo de búsquedas. Solo se citan URLs oficiales que aparecieron en resultados de búsqueda: Gardaland, Mirabilandia, Leolandia, Volo dell'Angelo, Turismo Roma (Cinecittà World), RCDB (MagicLand) e Italia.it. Muchos puntajes se basan en oferta conocida que sigue pendiente de verificar (campo pendiente_verificacion); falta añadir sus actividades con URL oficial en la ronda 2.",
+  "puntajes": [
+    {
+      "id": "it-venecia",
+      "puntaje": 2,
+      "justificacion": "Sin actividad de adrenalina verificada a menos de 60 km; la laguna y la costa del Véneto ofrecen sobre todo parques acuáticos de playa (Jesolo). Gardaland queda a unos 115 km, fuera del radio.",
+      "actividades": [],
+      "pendiente_verificacion": [
+        "Aqualandia (Lido di Jesolo, parque acuático)"
+      ],
+      "verificacion": "pendiente"
+    },
+    {
+      "id": "it-milan",
+      "puntaje": 3,
+      "justificacion": "Leolandia (≈31 km) es un parque temático notable pero de perfil familiar. El Autodromo de Monza ofrece experiencias de conducción en pista.",
+      "actividades": [
+        {
+          "nombre": "Leolandia",
+          "tipo": "parque_diversiones",
+          "km": 31,
+          "lat": 45.604,
+          "lng": 9.53,
+          "temporada": "mar–ene (por calendario)",
+          "url": "https://www.leolandia.it/"
+        }
+      ],
+      "pendiente_verificacion": [
+        "Autodromo Nazionale Monza (experiencias de conducción)"
+      ],
+      "verificacion": "parcial"
+    },
+    {
+      "id": "it-lago-de-como",
+      "puntaje": 3,
+      "justificacion": "Leolandia queda a ≈47 km. El norte del lago (Colico, Domaso) es conocido por el kitesurf y el windsurf, y desde las montañas cercanas se hace parapente.",
+      "actividades": [
+        {
+          "nombre": "Leolandia",
+          "tipo": "parque_diversiones",
+          "km": 47,
+          "lat": 45.604,
+          "lng": 9.53,
+          "temporada": "mar–ene (por calendario)",
+          "url": "https://www.leolandia.it/"
+        }
+      ],
+      "pendiente_verificacion": [
+        "Kitesurf/windsurf en Colico-Domaso",
+        "Parapente en el Alto Lario"
+      ],
+      "verificacion": "parcial"
+    },
+    {
+      "id": "it-lago-de-garda",
+      "puntaje": 5,
+      "justificacion": "Oferta de clase mundial: Gardaland (≈21 km), uno de los grandes parques de Europa, más la capital europea del windsurf (Torbole), escalada y vía ferrata en Arco, canyoning y parapente desde el Monte Baldo.",
+      "actividades": [
+        {
+          "nombre": "Gardaland",
+          "tipo": "parque_diversiones",
+          "km": 21,
+          "lat": 45.455,
+          "lng": 10.714,
+          "temporada": "mar–nov (+ eventos Halloween/Navidad)",
+          "url": "https://www.gardaland.it/"
+        }
+      ],
+      "pendiente_verificacion": [
+        "Windsurf/kitesurf en Torbole y Malcesine",
+        "Escalada y vías ferratas en Arco",
+        "Parapente en Monte Baldo",
+        "Canevaworld/Movieland (Lazise)"
+      ],
+      "verificacion": "parcial"
+    },
+    {
+      "id": "it-lago-maggiore",
+      "puntaje": 4,
+      "justificacion": "Varias actividades destacadas cerca: el salto bungee de la presa de Verzasca (Suiza, ≈40 km) y el rafting en el río Sesia (Valsesia, ≈25 km). Ninguna se verificó con sitio oficial en esta ronda.",
+      "actividades": [],
+      "pendiente_verificacion": [
+        "Bungee en la presa de Verzasca (CH)",
+        "Rafting/canyoning en Valsesia"
+      ],
+      "verificacion": "pendiente"
+    },
+    {
+      "id": "it-dolomitas",
+      "puntaje": 5,
+      "justificacion": "Capital alpina de la adrenalina: esquí en Dolomiti Superski, vías ferratas históricas, alpine coasters de verano y parapente en tándem desde el Col Rodella. Aún no está verificada con fuentes oficiales.",
+      "actividades": [],
+      "pendiente_verificacion": [
+        "Dolomiti Superski (esquí)",
+        "Vías ferratas de Dolomitas",
+        "Alpine coaster Alpe Lusia (Moena)",
+        "Parapente tándem Col Rodella / Seiser Alm"
+      ],
+      "verificacion": "pendiente"
+    },
+    {
+      "id": "it-verona",
+      "puntaje": 5,
+      "justificacion": "Gardaland, uno de los parques top de Europa, está a ≈22 km. A esa misma distancia están los parques de Lazise y las actividades del lago de Garda.",
+      "actividades": [
+        {
+          "nombre": "Gardaland",
+          "tipo": "parque_diversiones",
+          "km": 22,
+          "lat": 45.455,
+          "lng": 10.714,
+          "temporada": "mar–nov (+ eventos Halloween/Navidad)",
+          "url": "https://www.gardaland.it/"
+        }
+      ],
+      "pendiente_verificacion": [
+        "Canevaworld/Movieland (Lazise)"
+      ],
+      "verificacion": "parcial"
+    },
+    {
+      "id": "it-turin",
+      "puntaje": 2,
+      "justificacion": "Oferta menor dentro del radio. Las grandes estaciones de esquí de la Via Lattea (Sestriere) quedan al límite, a unos 65 km, y no hay ningún parque mayor verificado.",
+      "actividades": [],
+      "pendiente_verificacion": [
+        "Esquí en Via Lattea (Sestriere, ~65 km)"
+      ],
+      "verificacion": "pendiente"
+    },
+    {
+      "id": "it-valle-de-aosta-monte-bianco",
+      "puntaje": 5,
+      "justificacion": "Destino alpino de primer nivel: esquí y freeride en Courmayeur, el Skyway Monte Bianco, rafting en el Dora Baltea, canyoning y vías ferratas. Aún no está verificado con fuentes oficiales.",
+      "actividades": [],
+      "pendiente_verificacion": [
+        "Esquí Courmayeur Mont Blanc",
+        "Skyway Monte Bianco",
+        "Rafting Dora Baltea",
+        "Canyoning en el valle de Aosta"
+      ],
+      "verificacion": "pendiente"
+    },
+    {
+      "id": "it-cinque-terre",
+      "puntaje": 2,
+      "justificacion": "Actividades menores: kayak de mar, buceo en el área protegida y escalada sobre el mar. No hay parques ni grandes actividades en el radio.",
+      "actividades": [],
+      "pendiente_verificacion": [
+        "Kayak y buceo en el Parque Nacional Cinque Terre"
+      ],
+      "verificacion": "pendiente"
+    },
+    {
+      "id": "it-bolonia",
+      "puntaje": 2,
+      "justificacion": "Mirabilandia queda a ≈75 km, fuera del radio. Dentro de él está el circuito de Imola (≈33 km), con jornadas de pista.",
+      "actividades": [],
+      "pendiente_verificacion": [
+        "Autodromo Enzo e Dino Ferrari (Imola)"
+      ],
+      "verificacion": "pendiente"
+    },
+    {
+      "id": "it-ravena",
+      "puntaje": 5,
+      "justificacion": "Mirabilandia (≈10 km) es el parque más grande de Italia, con montañas rusas de récord (Katun, iSpeed) y un parque acuático. Es una oferta de clase europea.",
+      "actividades": [
+        {
+          "nombre": "Mirabilandia (con Mirabeach)",
+          "tipo": "parque_diversiones",
+          "km": 10,
+          "lat": 44.339,
+          "lng": 12.263,
+          "temporada": "abr–nov",
+          "url": "https://www.mirabilandia.it/"
+        }
+      ],
+      "verificacion": "completa"
+    },
+    {
+      "id": "it-trieste",
+      "puntaje": 2,
+      "justificacion": "Algo menor: escalada en la Val Rosandra y la espeleología turística de la Grotta Gigante.",
+      "actividades": [],
+      "pendiente_verificacion": [
+        "Grotta Gigante",
+        "Escalada en Val Rosandra"
+      ],
+      "verificacion": "pendiente"
+    },
+    {
+      "id": "it-florencia",
+      "puntaje": 2,
+      "justificacion": "Dentro del radio solo hay experiencias de motor en el circuito de Mugello (≈30 km). Ningún parque mayor.",
+      "actividades": [],
+      "pendiente_verificacion": [
+        "Circuito del Mugello (experiencias de pista)"
+      ],
+      "verificacion": "pendiente"
+    },
+    {
+      "id": "it-pisa",
+      "puntaje": 2,
+      "justificacion": "Oferta menor. Cavallino Matto (costa de Livorno) queda al límite del radio.",
+      "actividades": [],
+      "pendiente_verificacion": [
+        "Cavallino Matto (Marina di Castagneto, ~62 km)"
+      ],
+      "verificacion": "pendiente"
+    },
+    {
+      "id": "it-lucca",
+      "puntaje": 2,
+      "justificacion": "Algo menor: rafting y canyoning en la Garfagnana y en los Alpes Apuanos.",
+      "actividades": [],
+      "pendiente_verificacion": [
+        "Rafting en el río Lima / canyoning en Alpes Apuanos"
+      ],
+      "verificacion": "pendiente"
+    },
+    {
+      "id": "it-siena",
+      "puntaje": 1,
+      "justificacion": "Mínimo: no hay parques ni actividades de aventura relevantes a menos de 60 km.",
+      "actividades": [],
+      "verificacion": "sin_oferta"
+    },
+    {
+      "id": "it-san-gimignano",
+      "puntaje": 1,
+      "justificacion": "Mínimo: no hay parques ni actividades de aventura relevantes a menos de 60 km.",
+      "actividades": [],
+      "verificacion": "sin_oferta"
+    },
+    {
+      "id": "it-val-d-orcia",
+      "puntaje": 2,
+      "justificacion": "Algo menor: esquí en el Monte Amiata (≈30 km), una estación pequeña.",
+      "actividades": [],
+      "pendiente_verificacion": [
+        "Esquí en Monte Amiata"
+      ],
+      "verificacion": "pendiente"
+    },
+    {
+      "id": "it-asis",
+      "puntaje": 2,
+      "justificacion": "Algo menor: rafting en el río Nera junto a la Cascata delle Marmore (≈58 km, al límite del radio).",
+      "actividades": [],
+      "pendiente_verificacion": [
+        "Rafting en Cascata delle Marmore / río Nera"
+      ],
+      "verificacion": "pendiente"
+    },
+    {
+      "id": "it-orvieto",
+      "puntaje": 2,
+      "justificacion": "Algo menor: rafting en el río Nera y la Cascata delle Marmore (≈52 km).",
+      "actividades": [],
+      "pendiente_verificacion": [
+        "Rafting en Cascata delle Marmore / río Nera"
+      ],
+      "verificacion": "pendiente"
+    },
+    {
+      "id": "it-roma",
+      "puntaje": 4,
+      "justificacion": "Dos parques temáticos grandes dentro del radio: Cinecittà World (≈21 km), con la montaña rusa indoor Inferno y el Volarium, y MagicLand en Valmontone (≈39 km). Ninguno es de clase mundial.",
+      "actividades": [
+        {
+          "nombre": "Cinecittà World",
+          "tipo": "parque_diversiones",
+          "km": 21,
+          "lat": 41.718,
+          "lng": 12.445,
+          "temporada": "mar–ene (por calendario)",
+          "url": "https://www.turismoroma.it/it/luoghi/cinecitt%C3%A0-world-il-parco-del-cinema-e-della-tv-di-roma"
+        },
+        {
+          "nombre": "MagicLand (ex Rainbow MagicLand)",
+          "tipo": "parque_diversiones",
+          "km": 39,
+          "lat": 41.776,
+          "lng": 12.933,
+          "temporada": "mar–ene (por calendario)",
+          "url": "https://rcdb.com/5627.htm"
+        }
+      ],
+      "pendiente_verificacion": [
+        "Zoomarine (Torvaianica)"
+      ],
+      "verificacion": "parcial"
+    },
+    {
+      "id": "it-napoles",
+      "puntaje": 2,
+      "justificacion": "Algo menor: Edenlandia (parque urbano) y el trekking al Vesuvio.",
+      "actividades": [],
+      "pendiente_verificacion": [
+        "Edenlandia",
+        "Ascenso al Vesuvio"
+      ],
+      "verificacion": "pendiente"
+    },
+    {
+      "id": "it-pompeya-herculano",
+      "puntaje": 2,
+      "justificacion": "Algo menor: el ascenso al cráter del Vesuvio.",
+      "actividades": [],
+      "pendiente_verificacion": [
+        "Ascenso al Vesuvio"
+      ],
+      "verificacion": "pendiente"
+    },
+    {
+      "id": "it-costa-amalfitana",
+      "puntaje": 2,
+      "justificacion": "Algo menor: buceo, kayak y trekking expuesto (Sentiero degli Dei).",
+      "actividades": [],
+      "pendiente_verificacion": [
+        "Buceo y kayak en la Costa Amalfitana"
+      ],
+      "verificacion": "pendiente"
+    },
+    {
+      "id": "it-capri",
+      "puntaje": 2,
+      "justificacion": "Algo menor: buceo y kayak por grutas marinas.",
+      "actividades": [],
+      "pendiente_verificacion": [
+        "Buceo/kayak en Capri"
+      ],
+      "verificacion": "pendiente"
+    },
+    {
+      "id": "it-paestum",
+      "puntaje": 3,
+      "justificacion": "Al menos una actividad notable: rafting en el río Calore, en el Cilento (≈20 km).",
+      "actividades": [],
+      "pendiente_verificacion": [
+        "Rafting en el río Calore (Felitto/Castelcivita)"
+      ],
+      "verificacion": "pendiente"
+    },
+    {
+      "id": "it-matera",
+      "puntaje": 4,
+      "justificacion": "El Volo dell'Angelo (≈49 km) es una de las tirolesas más espectaculares de Europa, hasta 120 km/h entre dos pueblos de las Dolomitas Lucanas. Es una experiencia única que justifica la excursión.",
+      "actividades": [
+        {
+          "nombre": "Volo dell'Angelo (Castelmezzano–Pietrapertosa)",
+          "tipo": "tirolesa",
+          "km": 49,
+          "lat": 40.526,
+          "lng": 16.053,
+          "temporada": "primavera–otoño",
+          "url": "https://www.volodellangelo.com/"
+        }
+      ],
+      "verificacion": "completa"
+    },
+    {
+      "id": "it-alberobello-valle-d-itria",
+      "puntaje": 2,
+      "justificacion": "Algo menor: Zoosafari Fasanolandia (≈20 km), un parque de atracciones de tamaño medio.",
+      "actividades": [],
+      "pendiente_verificacion": [
+        "Zoosafari Fasanolandia"
+      ],
+      "verificacion": "pendiente"
+    },
+    {
+      "id": "it-lecce",
+      "puntaje": 1,
+      "justificacion": "Mínimo: buceo y deportes náuticos en la costa del Salento.",
+      "actividades": [],
+      "pendiente_verificacion": [
+        "Buceo en la costa salentina"
+      ],
+      "verificacion": "pendiente"
+    },
+    {
+      "id": "it-tropea",
+      "puntaje": 2,
+      "justificacion": "Algo menor: buceo y kitesurf en la Costa degli Dei.",
+      "actividades": [],
+      "pendiente_verificacion": [
+        "Buceo en Capo Vaticano"
+      ],
+      "verificacion": "pendiente"
+    },
+    {
+      "id": "it-palermo-monreale",
+      "puntaje": 1,
+      "justificacion": "Mínimo: buceo en reservas cercanas (Capo Gallo). No hay parques relevantes.",
+      "actividades": [],
+      "verificacion": "sin_oferta"
+    },
+    {
+      "id": "it-taormina",
+      "puntaje": 4,
+      "justificacion": "Varias actividades destacadas: excursiones guiadas a los cráteres del Etna (≈30 km), body rafting y canyoning en las Gole dell'Alcantara (≈15 km) y el parque Etnaland (≈45 km). Aún no están verificadas con fuentes oficiales.",
+      "actividades": [],
+      "pendiente_verificacion": [
+        "Excursiones al Etna",
+        "Gole dell'Alcantara (body rafting/canyoning)",
+        "Etnaland"
+      ],
+      "verificacion": "pendiente"
+    },
+    {
+      "id": "it-siracusa-ortigia",
+      "puntaje": 2,
+      "justificacion": "Algo menor: buceo en el área marina del Plemmirio y canyoning en Cavagrande del Cassibile.",
+      "actividades": [],
+      "pendiente_verificacion": [
+        "Buceo Plemmirio",
+        "Cavagrande del Cassibile"
+      ],
+      "verificacion": "pendiente"
+    },
+    {
+      "id": "it-agrigento-valle-templos",
+      "puntaje": 1,
+      "justificacion": "Mínimo: no hay actividades de aventura relevantes dentro del radio.",
+      "actividades": [],
+      "verificacion": "sin_oferta"
+    },
+    {
+      "id": "it-etna",
+      "puntaje": 4,
+      "justificacion": "Varias actividades destacadas: trekking guiado a los cráteres activos, esquí en Etna Sur y Norte, Gole dell'Alcantara y Etnaland (≈30 km). Aún no están verificadas con fuentes oficiales.",
+      "actividades": [],
+      "pendiente_verificacion": [
+        "Excursiones guiadas a cráteres del Etna",
+        "Esquí Etna Sud/Nord",
+        "Etnaland",
+        "Gole dell'Alcantara"
+      ],
+      "verificacion": "pendiente"
+    },
+    {
+      "id": "it-islas-eolias",
+      "puntaje": 4,
+      "justificacion": "Varias actividades destacadas: el ascenso nocturno guiado al Stromboli (volcán activo), el cráter de Vulcano y buceo volcánico. Aún no están verificadas con fuentes oficiales.",
+      "actividades": [],
+      "pendiente_verificacion": [
+        "Trekking guiado al Stromboli",
+        "Buceo en las Eolias"
+      ],
+      "verificacion": "pendiente"
+    },
+    {
+      "id": "it-golfo-di-orosei",
+      "puntaje": 4,
+      "justificacion": "Varias actividades destacadas: canyoning en la Gola di Gorropu, escalada deportiva de fama internacional en Cala Gonone, buceo en cuevas y coasteering. Aún no están verificadas con fuentes oficiales.",
+      "actividades": [],
+      "pendiente_verificacion": [
+        "Gola di Gorropu (canyoning/trekking)",
+        "Escalada en Cala Gonone",
+        "Buceo en cuevas"
+      ],
+      "verificacion": "pendiente"
+    },
+    {
+      "id": "it-la-maddalena-costa-smeralda",
+      "puntaje": 3,
+      "justificacion": "Al menos una actividad notable: kitesurf y windsurf en Porto Pollo, más buceo en el parque nacional.",
+      "actividades": [],
+      "pendiente_verificacion": [
+        "Kitesurf/windsurf en Porto Pollo",
+        "Buceo en La Maddalena"
+      ],
+      "verificacion": "pendiente"
+    },
+    {
+      "id": "it-cagliari",
+      "puntaje": 2,
+      "justificacion": "Algo menor: kitesurf en el Poetto y buceo.",
+      "actividades": [],
+      "pendiente_verificacion": [
+        "Kitesurf en Poetto"
+      ],
+      "verificacion": "pendiente"
+    },
+    {
+      "id": "mt-valletta",
+      "puntaje": 4,
+      "justificacion": "Todo el archipiélago está a menos de 60 km, y es uno de los mejores destinos de buceo del Mediterráneo (pecios, cuevas, Blue Hole de Gozo). También hay coasteering, escalada en acantilados y un parque acuático. Sin parques mayores. Aún no está verificado con fuentes oficiales.",
+      "actividades": [],
+      "pendiente_verificacion": [
+        "Buceo en pecios y cuevas (Malta/Gozo)",
+        "Coasteering y escalada en acantilados",
+        "Splash & Fun Water Park (Baħar iċ-Ċagħaq)"
+      ],
+      "verificacion": "pendiente"
+    },
+    {
+      "id": "mt-tres-ciudades",
+      "puntaje": 4,
+      "justificacion": "Todo el archipiélago está a menos de 60 km, y es uno de los mejores destinos de buceo del Mediterráneo (pecios, cuevas, Blue Hole de Gozo). También hay coasteering, escalada en acantilados y un parque acuático. Sin parques mayores. Aún no está verificado con fuentes oficiales.",
+      "actividades": [],
+      "pendiente_verificacion": [
+        "Buceo en pecios y cuevas (Malta/Gozo)",
+        "Coasteering y escalada en acantilados",
+        "Splash & Fun Water Park (Baħar iċ-Ċagħaq)"
+      ],
+      "verificacion": "pendiente"
+    },
+    {
+      "id": "mt-mdina-rabat",
+      "puntaje": 4,
+      "justificacion": "Todo el archipiélago está a menos de 60 km, y es uno de los mejores destinos de buceo del Mediterráneo (pecios, cuevas, Blue Hole de Gozo). También hay coasteering, escalada en acantilados y un parque acuático. Sin parques mayores. Aún no está verificado con fuentes oficiales.",
+      "actividades": [],
+      "pendiente_verificacion": [
+        "Buceo en pecios y cuevas (Malta/Gozo)",
+        "Coasteering y escalada en acantilados",
+        "Splash & Fun Water Park (Baħar iċ-Ċagħaq)"
+      ],
+      "verificacion": "pendiente"
+    },
+    {
+      "id": "mt-hipogeo-hal-saflieni",
+      "puntaje": 4,
+      "justificacion": "Todo el archipiélago está a menos de 60 km, y es uno de los mejores destinos de buceo del Mediterráneo (pecios, cuevas, Blue Hole de Gozo). También hay coasteering, escalada en acantilados y un parque acuático. Sin parques mayores. Aún no está verificado con fuentes oficiales.",
+      "actividades": [],
+      "pendiente_verificacion": [
+        "Buceo en pecios y cuevas (Malta/Gozo)",
+        "Coasteering y escalada en acantilados",
+        "Splash & Fun Water Park (Baħar iċ-Ċagħaq)"
+      ],
+      "verificacion": "pendiente"
+    },
+    {
+      "id": "mt-hagar-qim-mnajdra-gruta-azul",
+      "puntaje": 4,
+      "justificacion": "Todo el archipiélago está a menos de 60 km, y es uno de los mejores destinos de buceo del Mediterráneo (pecios, cuevas, Blue Hole de Gozo). También hay coasteering, escalada en acantilados y un parque acuático. Sin parques mayores. Aún no está verificado con fuentes oficiales.",
+      "actividades": [],
+      "pendiente_verificacion": [
+        "Buceo en pecios y cuevas (Malta/Gozo)",
+        "Coasteering y escalada en acantilados",
+        "Splash & Fun Water Park (Baħar iċ-Ċagħaq)"
+      ],
+      "verificacion": "pendiente"
+    },
+    {
+      "id": "mt-marsaxlokk",
+      "puntaje": 4,
+      "justificacion": "Todo el archipiélago está a menos de 60 km, y es uno de los mejores destinos de buceo del Mediterráneo (pecios, cuevas, Blue Hole de Gozo). También hay coasteering, escalada en acantilados y un parque acuático. Sin parques mayores. Aún no está verificado con fuentes oficiales.",
+      "actividades": [],
+      "pendiente_verificacion": [
+        "Buceo en pecios y cuevas (Malta/Gozo)",
+        "Coasteering y escalada en acantilados",
+        "Splash & Fun Water Park (Baħar iċ-Ċagħaq)"
+      ],
+      "verificacion": "pendiente"
+    },
+    {
+      "id": "mt-acantilados-dingli",
+      "puntaje": 4,
+      "justificacion": "Todo el archipiélago está a menos de 60 km, y es uno de los mejores destinos de buceo del Mediterráneo (pecios, cuevas, Blue Hole de Gozo). También hay coasteering, escalada en acantilados y un parque acuático. Sin parques mayores. Aún no está verificado con fuentes oficiales.",
+      "actividades": [],
+      "pendiente_verificacion": [
+        "Buceo en pecios y cuevas (Malta/Gozo)",
+        "Coasteering y escalada en acantilados",
+        "Splash & Fun Water Park (Baħar iċ-Ċagħaq)"
+      ],
+      "verificacion": "pendiente"
+    },
+    {
+      "id": "mt-golden-bay",
+      "puntaje": 4,
+      "justificacion": "Todo el archipiélago está a menos de 60 km, y es uno de los mejores destinos de buceo del Mediterráneo (pecios, cuevas, Blue Hole de Gozo). También hay coasteering, escalada en acantilados y un parque acuático. Sin parques mayores. Aún no está verificado con fuentes oficiales.",
+      "actividades": [],
+      "pendiente_verificacion": [
+        "Buceo en pecios y cuevas (Malta/Gozo)",
+        "Coasteering y escalada en acantilados",
+        "Splash & Fun Water Park (Baħar iċ-Ċagħaq)"
+      ],
+      "verificacion": "pendiente"
+    },
+    {
+      "id": "mt-mellieha",
+      "puntaje": 4,
+      "justificacion": "Todo el archipiélago está a menos de 60 km, y es uno de los mejores destinos de buceo del Mediterráneo (pecios, cuevas, Blue Hole de Gozo). También hay coasteering, escalada en acantilados y un parque acuático. Sin parques mayores. Aún no está verificado con fuentes oficiales.",
+      "actividades": [],
+      "pendiente_verificacion": [
+        "Buceo en pecios y cuevas (Malta/Gozo)",
+        "Coasteering y escalada en acantilados",
+        "Splash & Fun Water Park (Baħar iċ-Ċagħaq)"
+      ],
+      "verificacion": "pendiente"
+    },
+    {
+      "id": "mt-comino-laguna-azul",
+      "puntaje": 4,
+      "justificacion": "Gozo y Comino son referencia mundial del buceo recreativo (Blue Hole, Inland Sea, cuevas de Comino), y desde aquí se alcanza todo el archipiélago maltés. Aún no está verificado con fuentes oficiales.",
+      "actividades": [],
+      "pendiente_verificacion": [
+        "Buceo en pecios y cuevas (Malta/Gozo)",
+        "Coasteering y escalada en acantilados",
+        "Splash & Fun Water Park (Baħar iċ-Ċagħaq)"
+      ],
+      "verificacion": "pendiente"
+    },
+    {
+      "id": "mt-victoria-ciudadela",
+      "puntaje": 4,
+      "justificacion": "Gozo y Comino son referencia mundial del buceo recreativo (Blue Hole, Inland Sea, cuevas de Comino), y desde aquí se alcanza todo el archipiélago maltés. Aún no está verificado con fuentes oficiales.",
+      "actividades": [],
+      "pendiente_verificacion": [
+        "Buceo en pecios y cuevas (Malta/Gozo)",
+        "Coasteering y escalada en acantilados",
+        "Splash & Fun Water Park (Baħar iċ-Ċagħaq)"
+      ],
+      "verificacion": "pendiente"
+    },
+    {
+      "id": "mt-ggantija",
+      "puntaje": 4,
+      "justificacion": "Gozo y Comino son referencia mundial del buceo recreativo (Blue Hole, Inland Sea, cuevas de Comino), y desde aquí se alcanza todo el archipiélago maltés. Aún no está verificado con fuentes oficiales.",
+      "actividades": [],
+      "pendiente_verificacion": [
+        "Buceo en pecios y cuevas (Malta/Gozo)",
+        "Coasteering y escalada en acantilados",
+        "Splash & Fun Water Park (Baħar iċ-Ċagħaq)"
+      ],
+      "verificacion": "pendiente"
+    },
+    {
+      "id": "mt-dwejra",
+      "puntaje": 5,
+      "justificacion": "Capital del buceo mediterráneo: el Blue Hole, el Inland Sea y el arco sumergido de Dwejra figuran entre los mejores puntos de inmersión de Europa. A esto se suman coasteering y salto desde rocas. Aún no está verificado con fuentes oficiales.",
+      "actividades": [],
+      "pendiente_verificacion": [
+        "Buceo en Blue Hole / Inland Sea (Dwejra)",
+        "Coasteering en Gozo"
+      ],
+      "verificacion": "pendiente"
+    },
+    {
+      "id": "mt-ramla-bay",
+      "puntaje": 4,
+      "justificacion": "Gozo y Comino son referencia mundial del buceo recreativo (Blue Hole, Inland Sea, cuevas de Comino), y desde aquí se alcanza todo el archipiélago maltés. Aún no está verificado con fuentes oficiales.",
+      "actividades": [],
+      "pendiente_verificacion": [
+        "Buceo en pecios y cuevas (Malta/Gozo)",
+        "Coasteering y escalada en acantilados",
+        "Splash & Fun Water Park (Baħar iċ-Ċagħaq)"
+      ],
+      "verificacion": "pendiente"
+    },
+    {
+      "id": "mt-xlendi",
+      "puntaje": 4,
+      "justificacion": "Gozo y Comino son referencia mundial del buceo recreativo (Blue Hole, Inland Sea, cuevas de Comino), y desde aquí se alcanza todo el archipiélago maltés. Aún no está verificado con fuentes oficiales.",
+      "actividades": [],
+      "pendiente_verificacion": [
+        "Buceo en pecios y cuevas (Malta/Gozo)",
+        "Coasteering y escalada en acantilados",
+        "Splash & Fun Water Park (Baħar iċ-Ċagħaq)"
+      ],
+      "verificacion": "pendiente"
+    },
+    {
+      "id": "sm-centro-historico",
+      "puntaje": 4,
+      "justificacion": "Mirabilandia está a ≈47–48 km, y la Riviera Romagnola (≈20 km) suma parques acuáticos y temáticos (Aquafan, Oltremare, Fiabilandia) y el circuito de Misano.",
+      "actividades": [
+        {
+          "nombre": "Mirabilandia (con Mirabeach)",
+          "tipo": "parque_diversiones",
+          "km": 47,
+          "lat": 44.339,
+          "lng": 12.263,
+          "temporada": "abr–nov",
+          "url": "https://www.mirabilandia.it/"
+        }
+      ],
+      "pendiente_verificacion": [
+        "Aquafan (Riccione)",
+        "Oltremare (Riccione)",
+        "Misano World Circuit"
+      ],
+      "verificacion": "parcial"
+    },
+    {
+      "id": "sm-torre-guaita",
+      "puntaje": 4,
+      "justificacion": "Mirabilandia está a ≈47–48 km, y la Riviera Romagnola (≈20 km) suma parques acuáticos y temáticos (Aquafan, Oltremare, Fiabilandia) y el circuito de Misano.",
+      "actividades": [
+        {
+          "nombre": "Mirabilandia (con Mirabeach)",
+          "tipo": "parque_diversiones",
+          "km": 48,
+          "lat": 44.339,
+          "lng": 12.263,
+          "temporada": "abr–nov",
+          "url": "https://www.mirabilandia.it/"
+        }
+      ],
+      "pendiente_verificacion": [
+        "Aquafan (Riccione)",
+        "Oltremare (Riccione)",
+        "Misano World Circuit"
+      ],
+      "verificacion": "parcial"
+    },
+    {
+      "id": "sm-torre-cesta",
+      "puntaje": 4,
+      "justificacion": "Mirabilandia está a ≈47–48 km, y la Riviera Romagnola (≈20 km) suma parques acuáticos y temáticos (Aquafan, Oltremare, Fiabilandia) y el circuito de Misano.",
+      "actividades": [
+        {
+          "nombre": "Mirabilandia (con Mirabeach)",
+          "tipo": "parque_diversiones",
+          "km": 48,
+          "lat": 44.339,
+          "lng": 12.263,
+          "temporada": "abr–nov",
+          "url": "https://www.mirabilandia.it/"
+        }
+      ],
+      "pendiente_verificacion": [
+        "Aquafan (Riccione)",
+        "Oltremare (Riccione)",
+        "Misano World Circuit"
+      ],
+      "verificacion": "parcial"
+    },
+    {
+      "id": "sm-torre-montale",
+      "puntaje": 4,
+      "justificacion": "Mirabilandia está a ≈47–48 km, y la Riviera Romagnola (≈20 km) suma parques acuáticos y temáticos (Aquafan, Oltremare, Fiabilandia) y el circuito de Misano.",
+      "actividades": [
+        {
+          "nombre": "Mirabilandia (con Mirabeach)",
+          "tipo": "parque_diversiones",
+          "km": 48,
+          "lat": 44.339,
+          "lng": 12.263,
+          "temporada": "abr–nov",
+          "url": "https://www.mirabilandia.it/"
+        }
+      ],
+      "pendiente_verificacion": [
+        "Aquafan (Riccione)",
+        "Oltremare (Riccione)",
+        "Misano World Circuit"
+      ],
+      "verificacion": "parcial"
+    },
+    {
+      "id": "sm-borgo-maggiore",
+      "puntaje": 4,
+      "justificacion": "Mirabilandia está a ≈47–48 km, y la Riviera Romagnola (≈20 km) suma parques acuáticos y temáticos (Aquafan, Oltremare, Fiabilandia) y el circuito de Misano.",
+      "actividades": [
+        {
+          "nombre": "Mirabilandia (con Mirabeach)",
+          "tipo": "parque_diversiones",
+          "km": 47,
+          "lat": 44.339,
+          "lng": 12.263,
+          "temporada": "abr–nov",
+          "url": "https://www.mirabilandia.it/"
+        }
+      ],
+      "pendiente_verificacion": [
+        "Aquafan (Riccione)",
+        "Oltremare (Riccione)",
+        "Misano World Circuit"
+      ],
+      "verificacion": "parcial"
+    },
+    {
+      "id": "va-basilica-san-pedro",
+      "puntaje": 4,
+      "justificacion": "Comparte radio con Roma: Cinecittà World (≈21 km) y MagicLand en Valmontone (≈42 km) son dos parques temáticos grandes, aunque no de clase mundial.",
+      "actividades": [
+        {
+          "nombre": "Cinecittà World",
+          "tipo": "parque_diversiones",
+          "km": 20,
+          "lat": 41.718,
+          "lng": 12.445,
+          "temporada": "mar–ene (por calendario)",
+          "url": "https://www.turismoroma.it/it/luoghi/cinecitt%C3%A0-world-il-parco-del-cinema-e-della-tv-di-roma"
+        },
+        {
+          "nombre": "MagicLand (ex Rainbow MagicLand)",
+          "tipo": "parque_diversiones",
+          "km": 42,
+          "lat": 41.776,
+          "lng": 12.933,
+          "temporada": "mar–ene (por calendario)",
+          "url": "https://rcdb.com/5627.htm"
+        }
+      ],
+      "verificacion": "completa"
+    },
+    {
+      "id": "va-cupula-san-pedro",
+      "puntaje": 4,
+      "justificacion": "Comparte radio con Roma: Cinecittà World (≈21 km) y MagicLand en Valmontone (≈42 km) son dos parques temáticos grandes, aunque no de clase mundial.",
+      "actividades": [
+        {
+          "nombre": "Cinecittà World",
+          "tipo": "parque_diversiones",
+          "km": 20,
+          "lat": 41.718,
+          "lng": 12.445,
+          "temporada": "mar–ene (por calendario)",
+          "url": "https://www.turismoroma.it/it/luoghi/cinecitt%C3%A0-world-il-parco-del-cinema-e-della-tv-di-roma"
+        },
+        {
+          "nombre": "MagicLand (ex Rainbow MagicLand)",
+          "tipo": "parque_diversiones",
+          "km": 42,
+          "lat": 41.776,
+          "lng": 12.933,
+          "temporada": "mar–ene (por calendario)",
+          "url": "https://rcdb.com/5627.htm"
+        }
+      ],
+      "verificacion": "completa"
+    },
+    {
+      "id": "va-museos-vaticanos",
+      "puntaje": 4,
+      "justificacion": "Comparte radio con Roma: Cinecittà World (≈21 km) y MagicLand en Valmontone (≈42 km) son dos parques temáticos grandes, aunque no de clase mundial.",
+      "actividades": [
+        {
+          "nombre": "Cinecittà World",
+          "tipo": "parque_diversiones",
+          "km": 21,
+          "lat": 41.718,
+          "lng": 12.445,
+          "temporada": "mar–ene (por calendario)",
+          "url": "https://www.turismoroma.it/it/luoghi/cinecitt%C3%A0-world-il-parco-del-cinema-e-della-tv-di-roma"
+        },
+        {
+          "nombre": "MagicLand (ex Rainbow MagicLand)",
+          "tipo": "parque_diversiones",
+          "km": 42,
+          "lat": 41.776,
+          "lng": 12.933,
+          "temporada": "mar–ene (por calendario)",
+          "url": "https://rcdb.com/5627.htm"
+        }
+      ],
+      "verificacion": "completa"
+    },
+    {
+      "id": "va-capilla-sixtina",
+      "puntaje": 4,
+      "justificacion": "Comparte radio con Roma: Cinecittà World (≈21 km) y MagicLand en Valmontone (≈42 km) son dos parques temáticos grandes, aunque no de clase mundial.",
+      "actividades": [
+        {
+          "nombre": "Cinecittà World",
+          "tipo": "parque_diversiones",
+          "km": 21,
+          "lat": 41.718,
+          "lng": 12.445,
+          "temporada": "mar–ene (por calendario)",
+          "url": "https://www.turismoroma.it/it/luoghi/cinecitt%C3%A0-world-il-parco-del-cinema-e-della-tv-di-roma"
+        },
+        {
+          "nombre": "MagicLand (ex Rainbow MagicLand)",
+          "tipo": "parque_diversiones",
+          "km": 42,
+          "lat": 41.776,
+          "lng": 12.933,
+          "temporada": "mar–ene (por calendario)",
+          "url": "https://rcdb.com/5627.htm"
+        }
+      ],
+      "verificacion": "completa"
+    },
+    {
+      "id": "va-plaza-san-pedro",
+      "puntaje": 4,
+      "justificacion": "Comparte radio con Roma: Cinecittà World (≈21 km) y MagicLand en Valmontone (≈42 km) son dos parques temáticos grandes, aunque no de clase mundial.",
+      "actividades": [
+        {
+          "nombre": "Cinecittà World",
+          "tipo": "parque_diversiones",
+          "km": 21,
+          "lat": 41.718,
+          "lng": 12.445,
+          "temporada": "mar–ene (por calendario)",
+          "url": "https://www.turismoroma.it/it/luoghi/cinecitt%C3%A0-world-il-parco-del-cinema-e-della-tv-di-roma"
+        },
+        {
+          "nombre": "MagicLand (ex Rainbow MagicLand)",
+          "tipo": "parque_diversiones",
+          "km": 42,
+          "lat": 41.776,
+          "lng": 12.933,
+          "temporada": "mar–ene (por calendario)",
+          "url": "https://rcdb.com/5627.htm"
+        }
+      ],
+      "verificacion": "completa"
+    },
+    {
+      "id": "va-jardines-vaticanos",
+      "puntaje": 4,
+      "justificacion": "Comparte radio con Roma: Cinecittà World (≈21 km) y MagicLand en Valmontone (≈42 km) son dos parques temáticos grandes, aunque no de clase mundial.",
+      "actividades": [
+        {
+          "nombre": "Cinecittà World",
+          "tipo": "parque_diversiones",
+          "km": 21,
+          "lat": 41.718,
+          "lng": 12.445,
+          "temporada": "mar–ene (por calendario)",
+          "url": "https://www.turismoroma.it/it/luoghi/cinecitt%C3%A0-world-il-parco-del-cinema-e-della-tv-di-roma"
+        },
+        {
+          "nombre": "MagicLand (ex Rainbow MagicLand)",
+          "tipo": "parque_diversiones",
+          "km": 42,
+          "lat": 41.776,
+          "lng": 12.933,
+          "temporada": "mar–ene (por calendario)",
+          "url": "https://rcdb.com/5627.htm"
+        }
+      ],
+      "verificacion": "completa"
+    }
+  ],
+  "nuevos": [
+    {
+      "id": "it-gardaland",
+      "nombre": "Gardaland Resort",
+      "pais_iso": "IT",
+      "region": "Véneto",
+      "lat": 45.455,
+      "lng": 10.714,
+      "tipo": "parque_diversiones",
+      "destino_propio": true,
+      "puntaje": 5,
+      "justificacion": "Uno de los grandes parques temáticos de Europa (Merlin Entertainments), junto al lago de Garda. El resort suma el parque acuático LEGOLAND Water Park y el SEA LIFE Aquarium. Justifica el viaje por sí solo. Temporada de marzo a noviembre, con eventos de Halloween y Navidad.",
+      "fuentes": [
+        {
+          "guia": "Sitio oficial",
+          "url": "https://www.gardaland.it/"
+        }
+      ]
+    },
+    {
+      "id": "it-mirabilandia",
+      "nombre": "Mirabilandia",
+      "pais_iso": "IT",
+      "region": "Emilia-Romaña",
+      "lat": 44.339,
+      "lng": 12.263,
+      "tipo": "parque_diversiones",
+      "destino_propio": true,
+      "puntaje": 5,
+      "justificacion": "Es el parque de diversiones más grande de Italia (más de 550.000 m²), con Katun, considerado el mejor inverted coaster de Europa. Incluye el parque acuático Mirabeach y está cerca de Rávena y de la Riviera Romagnola. Justifica el viaje por sí solo. Temporada de abril a noviembre.",
+      "fuentes": [
+        {
+          "guia": "Sitio oficial",
+          "url": "https://www.mirabilandia.it/"
+        },
+        {
+          "guia": "Italia.it (ENIT)",
+          "url": "https://www.italia.it/it/emilia-romagna/cosa-fare/mirabilandia"
+        }
+      ]
+    },
+    {
+      "id": "it-volo-dell-angelo",
+      "nombre": "Volo dell'Angelo (Dolomitas Lucanas)",
+      "pais_iso": "IT",
+      "region": "Basilicata",
+      "lat": 40.526,
+      "lng": 16.053,
+      "tipo": "tirolesa",
+      "destino_propio": true,
+      "puntaje": 5,
+      "justificacion": "Doble tirolesa entre Castelmezzano y Pietrapertosa sobre las Dolomitas Lucanas: sale a unos 1.020 m de altitud y llega a 110–120 km/h. Es una experiencia única en Europa, que combina la adrenalina con dos de los pueblos más bellos de Italia. Funciona de primavera a otoño, con reserva previa.",
+      "fuentes": [
+        {
+          "guia": "Sitio oficial",
+          "url": "https://www.volodellangelo.com/"
+        },
+        {
+          "guia": "Italia.it (ENIT)",
+          "url": "https://www.italia.it/en/basilicata/things-to-do/zipline-basilicata"
+        }
+      ]
+    }
+  ]
+}

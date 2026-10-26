@@ -1,0 +1,1097 @@
+{
+  "agente": "cultura-historia",
+  "subregion": "iberica-italia",
+  "ronda": 1,
+  "puntajes": [
+    {
+      "id": "it-venecia",
+      "puntaje": 5,
+      "unesco": true,
+      "justificacion": "Ciudad lagunar completa declarada Patrimonio Mundial: Basílica y Plaza de San Marcos, Palacio Ducal, Gallerie dell'Accademia y la Bienal de arte. Antigua potencia marítima cuyo conjunto urbano sobre 118 islas no tiene equivalente.",
+      "fuentes": [
+        {
+          "guia": "UNESCO",
+          "url": "https://whc.unesco.org/en/list/394/"
+        },
+        {
+          "guia": "UNESCO (Italia)",
+          "url": "https://whc.unesco.org/en/statesparties/it/"
+        }
+      ]
+    },
+    {
+      "id": "it-milan",
+      "puntaje": 5,
+      "unesco": true,
+      "justificacion": "La Última Cena de Leonardo en Santa Maria delle Grazie es un sitio UNESCO icónico; se suman el Duomo gótico, la Pinacoteca de Brera, el Castello Sforzesco y la Scala.",
+      "fuentes": [
+        {
+          "guia": "UNESCO",
+          "url": "https://whc.unesco.org/en/list/93/"
+        },
+        {
+          "guia": "UNESCO (Italia)",
+          "url": "https://whc.unesco.org/en/statesparties/it/"
+        }
+      ]
+    },
+    {
+      "id": "it-lago-de-como",
+      "puntaje": 3,
+      "unesco": true,
+      "justificacion": "Villas históricas de jardín (Villa Carlotta, Villa del Balbianello), el Duomo de Como y el Sacro Monte de Ossuccio, componente del sitio UNESCO de los Sacri Monti de Piamonte y Lombardía.",
+      "fuentes": [
+        {
+          "guia": "UNESCO",
+          "url": "https://whc.unesco.org/en/list/1068/"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-lake-como-italy"
+        }
+      ]
+    },
+    {
+      "id": "it-lago-de-garda",
+      "puntaje": 3,
+      "unesco": true,
+      "justificacion": "La Rocca Scaligera y las Grotte di Catullo (villa romana) en Sirmione, más palafitos prehistóricos de sus orillas incluidos en el sitio UNESCO de los Palafitos alpinos.",
+      "fuentes": [
+        {
+          "guia": "UNESCO",
+          "url": "https://whc.unesco.org/en/list/1363/"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/guide-to-italian-lakes"
+        }
+      ]
+    },
+    {
+      "id": "it-lago-maggiore",
+      "puntaje": 3,
+      "unesco": true,
+      "justificacion": "Palacios barrocos de los Borromeo en Isola Bella e Isola Madre, la Rocca di Angera y el Sacro Monte de Ghiffa, parte del sitio UNESCO de los Sacri Monti.",
+      "fuentes": [
+        {
+          "guia": "UNESCO",
+          "url": "https://whc.unesco.org/en/list/1068/"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/guide-to-italian-lakes"
+        }
+      ]
+    },
+    {
+      "id": "it-dolomitas",
+      "puntaje": 2,
+      "unesco": true,
+      "justificacion": "Sitio UNESCO por valores naturales, no culturales; el interés cultural está en la cultura ladina, los museos al aire libre de la Primera Guerra Mundial y pueblos como Ortisei o Cortina.",
+      "fuentes": [
+        {
+          "guia": "UNESCO",
+          "url": "https://whc.unesco.org/en/list/1237/"
+        }
+      ]
+    },
+    {
+      "id": "it-verona",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "Ciudad UNESCO con la Arena romana (sede del festival de ópera de verano), Castelvecchio, San Zeno Maggiore y la Piazza delle Erbe; trama urbana romana, medieval y renacentista muy completa.",
+      "fuentes": [
+        {
+          "guia": "UNESCO",
+          "url": "https://whc.unesco.org/en/list/797/"
+        },
+        {
+          "guia": "UNESCO (Italia)",
+          "url": "https://whc.unesco.org/en/statesparties/it/"
+        }
+      ]
+    },
+    {
+      "id": "it-turin",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "Las Residencias de la Casa de Saboya (Palazzo Reale, Venaria) son UNESCO y el Museo Egizio es la gran colección egipcia fuera de El Cairo; se suma el Museo del Cine en la Mole Antonelliana.",
+      "fuentes": [
+        {
+          "guia": "UNESCO",
+          "url": "https://whc.unesco.org/en/list/823/"
+        },
+        {
+          "guia": "UNESCO (Italia)",
+          "url": "https://whc.unesco.org/en/statesparties/it/"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-turin"
+        }
+      ]
+    },
+    {
+      "id": "it-valle-de-aosta-monte-bianco",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "El atractivo es alpino; como complemento, la Aosta romana (Arco de Augusto, teatro) y castillos medievales como Fénis y el Forte di Bard.",
+      "fuentes": []
+    },
+    {
+      "id": "it-cinque-terre",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "Paisaje cultural UNESCO (con Portovenere y las islas): cinco pueblos marineros con terrazas de viñedo construidas durante siglos e iglesias góticas ligures; más paisaje humanizado que museos.",
+      "fuentes": [
+        {
+          "guia": "UNESCO",
+          "url": "https://whc.unesco.org/en/list/826/"
+        },
+        {
+          "guia": "UNESCO (Italia)",
+          "url": "https://whc.unesco.org/en/statesparties/it/"
+        }
+      ]
+    },
+    {
+      "id": "it-bolonia",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "Sus pórticos son Patrimonio Mundial; tiene la universidad más antigua de Europa (Archiginnasio), las Dos Torres, San Petronio, el complejo de Santo Stefano y un gran casco medieval.",
+      "fuentes": [
+        {
+          "guia": "UNESCO",
+          "url": "https://whc.unesco.org/en/list/1650/"
+        },
+        {
+          "guia": "UNESCO (Italia)",
+          "url": "https://whc.unesco.org/en/statesparties/it/"
+        }
+      ]
+    },
+    {
+      "id": "it-ravena",
+      "puntaje": 5,
+      "unesco": true,
+      "justificacion": "Ocho monumentos paleocristianos y bizantinos UNESCO (San Vitale, Mausoleo de Gala Placidia, Sant'Apollinare) con los mejores mosaicos de los siglos V-VI de Occidente; también la tumba de Dante.",
+      "fuentes": [
+        {
+          "guia": "UNESCO",
+          "url": "https://whc.unesco.org/en/list/788/"
+        },
+        {
+          "guia": "UNESCO (Italia)",
+          "url": "https://whc.unesco.org/en/statesparties/it/"
+        }
+      ]
+    },
+    {
+      "id": "it-trieste",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "Arquitectura habsburguesa en la Piazza Unità d'Italia, el Castillo de Miramare, teatro romano y cafés literarios (Joyce, Svevo); la basílica UNESCO de Aquilea queda a unos 45 km.",
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/top-things-to-do-trieste-italy"
+        },
+        {
+          "guia": "Fodor's",
+          "url": "https://www.fodors.com/world/europe/italy/the-veneto-and-friuli-venezia-giulia/places/trieste"
+        }
+      ]
+    },
+    {
+      "id": "it-florencia",
+      "puntaje": 5,
+      "unesco": true,
+      "justificacion": "Cuna del Renacimiento y centro histórico UNESCO: Duomo y cúpula de Brunelleschi, Uffizi, David de Miguel Ángel en la Accademia, Palazzo Pitti y Santa Croce, entre los museos de referencia del mundo.",
+      "fuentes": [
+        {
+          "guia": "UNESCO",
+          "url": "https://whc.unesco.org/en/list/174/"
+        },
+        {
+          "guia": "UNESCO (Italia)",
+          "url": "https://whc.unesco.org/en/statesparties/it/"
+        }
+      ]
+    },
+    {
+      "id": "it-pisa",
+      "puntaje": 5,
+      "unesco": true,
+      "justificacion": "La Piazza del Duomo (Campo dei Miracoli) es un icono mundial UNESCO: catedral románica, baptisterio, camposanto y la Torre inclinada; el resto de la ciudad aporta Lungarni y la Scuola Normale.",
+      "fuentes": [
+        {
+          "guia": "UNESCO",
+          "url": "https://whc.unesco.org/en/list/395/"
+        },
+        {
+          "guia": "UNESCO (Italia)",
+          "url": "https://whc.unesco.org/en/statesparties/it/"
+        }
+      ]
+    },
+    {
+      "id": "it-lucca",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "Murallas renacentistas intactas que se recorren a pie, iglesias románicas (San Michele in Foro, San Martino), la Piazza dell'Anfiteatro sobre el anfiteatro romano y la casa natal de Puccini.",
+      "fuentes": [
+        {
+          "guia": "Rick Steves",
+          "url": "https://www.ricksteves.com/tours/italy/village-italy"
+        },
+        {
+          "guia": "Frommer's",
+          "url": "https://www.frommers.com/slideshows/818204-the-very-best-of-italy-where-to-go/"
+        }
+      ]
+    },
+    {
+      "id": "it-siena",
+      "puntaje": 5,
+      "unesco": true,
+      "justificacion": "Ciudad medieval completa y UNESCO: Piazza del Campo, Palazzo Pubblico con los frescos del Buen Gobierno, el Duomo con su pavimento de mármol y el Palio de julio y agosto.",
+      "fuentes": [
+        {
+          "guia": "UNESCO",
+          "url": "https://whc.unesco.org/en/list/717/"
+        },
+        {
+          "guia": "UNESCO (Italia)",
+          "url": "https://whc.unesco.org/en/statesparties/it/"
+        }
+      ]
+    },
+    {
+      "id": "it-san-gimignano",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "Centro histórico UNESCO con 14 torres medievales que se conservan, la Collegiata con frescos del Trecento y el Palazzo Comunale; un conjunto pequeño pero muy bien conservado.",
+      "fuentes": [
+        {
+          "guia": "UNESCO",
+          "url": "https://whc.unesco.org/en/list/550/"
+        },
+        {
+          "guia": "UNESCO (Italia)",
+          "url": "https://whc.unesco.org/en/statesparties/it/"
+        }
+      ]
+    },
+    {
+      "id": "it-val-d-orcia",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "Paisaje cultural UNESCO del Renacimiento, con Pienza (ciudad ideal de Pío II, también UNESCO), Montepulciano y la abadía de Sant'Antimo; sin grandes museos.",
+      "fuentes": [
+        {
+          "guia": "UNESCO",
+          "url": "https://whc.unesco.org/en/list/1026/"
+        },
+        {
+          "guia": "UNESCO",
+          "url": "https://whc.unesco.org/en/list/789/"
+        }
+      ]
+    },
+    {
+      "id": "it-asis",
+      "puntaje": 5,
+      "unesco": true,
+      "justificacion": "La Basílica de San Francisco, con los frescos de Giotto, Cimabue y Lorenzetti, y el conjunto franciscano UNESCO son de primer nivel mundial y un centro de peregrinación.",
+      "fuentes": [
+        {
+          "guia": "UNESCO",
+          "url": "https://whc.unesco.org/en/list/990/"
+        },
+        {
+          "guia": "UNESCO (Italia)",
+          "url": "https://whc.unesco.org/en/statesparties/it/"
+        }
+      ]
+    },
+    {
+      "id": "it-orvieto",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "Su Duomo gótico tiene una de las fachadas más ricas de Italia y la capilla de San Brizio, con los frescos de Signorelli; debajo hay una ciudad etrusca subterránea y el Pozzo di San Patrizio.",
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/destinations/italy/umbria"
+        },
+        {
+          "guia": "Rick Steves",
+          "url": "https://www.ricksteves.com/watch-read-listen/video/tv-show/italy-hill-towns"
+        }
+      ]
+    },
+    {
+      "id": "it-roma",
+      "puntaje": 5,
+      "unesco": true,
+      "justificacion": "Centro histórico UNESCO con 2.500 años de capas: Coliseo, Foros, Panteón, Galleria Borghese, Musei Capitolini y las iglesias barrocas de Bernini y Borromini. Es un patrimonio único en el mundo.",
+      "fuentes": [
+        {
+          "guia": "UNESCO",
+          "url": "https://whc.unesco.org/en/list/91/"
+        },
+        {
+          "guia": "UNESCO (Italia)",
+          "url": "https://whc.unesco.org/en/statesparties/it/"
+        }
+      ]
+    },
+    {
+      "id": "it-napoles",
+      "puntaje": 5,
+      "unesco": true,
+      "justificacion": "Centro histórico UNESCO entre los más extensos de Europa, con el Museo Arqueológico Nacional (tesoros de Pompeya), Capodimonte, la Capilla Sansevero (Cristo velado) y la Nápoles subterránea.",
+      "fuentes": [
+        {
+          "guia": "UNESCO",
+          "url": "https://whc.unesco.org/en/list/726/"
+        },
+        {
+          "guia": "UNESCO (Italia)",
+          "url": "https://whc.unesco.org/en/statesparties/it/"
+        }
+      ]
+    },
+    {
+      "id": "it-pompeya-herculano",
+      "puntaje": 5,
+      "unesco": true,
+      "justificacion": "Las ciudades romanas sepultadas por el Vesubio en el 79 d. C., con casas, frescos y calles intactos. Es un sitio UNESCO icónico y sin parangón para entender la vida cotidiana romana.",
+      "fuentes": [
+        {
+          "guia": "UNESCO",
+          "url": "https://whc.unesco.org/en/list/829/"
+        },
+        {
+          "guia": "UNESCO (Italia)",
+          "url": "https://whc.unesco.org/en/statesparties/it/"
+        }
+      ]
+    },
+    {
+      "id": "it-costa-amalfitana",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "Paisaje cultural UNESCO: catedral árabe-normanda de Amalfi, antigua república marinera, y Ravello con Villa Rufolo, Villa Cimbrone y su festival de música.",
+      "fuentes": [
+        {
+          "guia": "UNESCO",
+          "url": "https://whc.unesco.org/en/list/830/"
+        },
+        {
+          "guia": "UNESCO (Italia)",
+          "url": "https://whc.unesco.org/en/statesparties/it/"
+        }
+      ]
+    },
+    {
+      "id": "it-capri",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Ruinas de Villa Jovis de Tiberio, la Certosa di San Giacomo y Villa San Michele en Anacapri; el atractivo principal es paisajístico.",
+      "fuentes": []
+    },
+    {
+      "id": "it-paestum",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "Tres templos dóricos griegos de los mejor conservados del mundo y un museo con la Tumba del Nadador, dentro del sitio UNESCO de Cilento.",
+      "fuentes": [
+        {
+          "guia": "UNESCO",
+          "url": "https://whc.unesco.org/en/list/842/"
+        },
+        {
+          "guia": "UNESCO (Italia)",
+          "url": "https://whc.unesco.org/en/statesparties/it/"
+        }
+      ]
+    },
+    {
+      "id": "it-matera",
+      "puntaje": 5,
+      "unesco": true,
+      "justificacion": "Los Sassi y el Parque de las Iglesias Rupestres (UNESCO) son un hábitat troglodita continuo desde el Paleolítico, con iglesias excavadas con frescos; fue Capital Europea de la Cultura en 2019.",
+      "fuentes": [
+        {
+          "guia": "UNESCO",
+          "url": "https://whc.unesco.org/en/list/670/"
+        },
+        {
+          "guia": "UNESCO (Italia)",
+          "url": "https://whc.unesco.org/en/statesparties/it/"
+        }
+      ]
+    },
+    {
+      "id": "it-alberobello-valle-d-itria",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "Los trulli de Alberobello (UNESCO), construcciones de piedra en seco con techo cónico únicas en el mundo, junto a los pueblos blancos de Ostuni, Locorotondo y Cisternino.",
+      "fuentes": [
+        {
+          "guia": "UNESCO",
+          "url": "https://whc.unesco.org/en/list/787/"
+        },
+        {
+          "guia": "UNESCO (Italia)",
+          "url": "https://whc.unesco.org/en/statesparties/it/"
+        }
+      ]
+    },
+    {
+      "id": "it-lecce",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "La 'Florencia del barroco': fachada de Santa Croce, la Piazza del Duomo y un anfiteatro romano en pleno centro, todo labrado en la piedra dorada local.",
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-southern-italy"
+        },
+        {
+          "guia": "National Geographic",
+          "url": "https://www.nationalgeographic.com/travel/article/italy-beyond-the-bucket-list"
+        }
+      ]
+    },
+    {
+      "id": "it-tropea",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Casco antiguo sobre el acantilado, con la catedral normanda y el santuario de Santa Maria dell'Isola; es sobre todo un destino de playa.",
+      "fuentes": []
+    },
+    {
+      "id": "it-palermo-monreale",
+      "puntaje": 5,
+      "unesco": true,
+      "justificacion": "El conjunto árabe-normando UNESCO (Capilla Palatina, catedrales de Palermo, Monreale y Cefalú) y los mosaicos dorados de Monreale reflejan una síntesis cultural única. Se suman el barroco y el Teatro Massimo.",
+      "fuentes": [
+        {
+          "guia": "UNESCO",
+          "url": "https://whc.unesco.org/en/list/1487/"
+        },
+        {
+          "guia": "UNESCO (Italia)",
+          "url": "https://whc.unesco.org/en/statesparties/it/"
+        }
+      ]
+    },
+    {
+      "id": "it-taormina",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "El Teatro Antiguo greco-romano, con el Etna de fondo, acoge el festival Taormina Arte; se suman un casco medieval (Corso Umberto, Palazzo Corvaja) e Isola Bella.",
+      "fuentes": [
+        {
+          "guia": "Rick Steves",
+          "url": "https://www.ricksteves.com/tours/italy/sicily-2026"
+        },
+        {
+          "guia": "Frommer's",
+          "url": "https://www.frommers.com/destinations/italy/frommers-favorite-experiences/"
+        }
+      ]
+    },
+    {
+      "id": "it-siracusa-ortigia",
+      "puntaje": 5,
+      "unesco": true,
+      "justificacion": "Siracusa y la necrópolis de Pantalica son UNESCO. Ortigia conserva el Duomo construido sobre el templo de Atenea y el Parque de Neápolis tiene el teatro griego, donde sigue el festival de teatro clásico. Fue la gran polis griega de Occidente.",
+      "fuentes": [
+        {
+          "guia": "UNESCO",
+          "url": "https://whc.unesco.org/en/list/1200/"
+        },
+        {
+          "guia": "UNESCO (Italia)",
+          "url": "https://whc.unesco.org/en/statesparties/it/"
+        }
+      ]
+    },
+    {
+      "id": "it-agrigento-valle-templos",
+      "puntaje": 5,
+      "unesco": true,
+      "justificacion": "Sitio UNESCO icónico con el Templo de la Concordia, uno de los templos dóricos más completos del mundo, y la mayor serie de templos griegos fuera de Grecia, además del Museo Arqueológico Regional.",
+      "fuentes": [
+        {
+          "guia": "UNESCO",
+          "url": "https://whc.unesco.org/en/list/831/"
+        },
+        {
+          "guia": "UNESCO (Italia)",
+          "url": "https://whc.unesco.org/en/statesparties/it/"
+        }
+      ]
+    },
+    {
+      "id": "it-etna",
+      "puntaje": 1,
+      "unesco": true,
+      "justificacion": "Patrimonio Mundial por valores naturales; el interés cultural es marginal (viñedos históricos y pueblos de piedra volcánica en sus laderas).",
+      "fuentes": [
+        {
+          "guia": "UNESCO",
+          "url": "https://whc.unesco.org/en/list/1427/"
+        }
+      ]
+    },
+    {
+      "id": "it-islas-eolias",
+      "puntaje": 2,
+      "unesco": true,
+      "justificacion": "Sitio UNESCO natural; en lo cultural destaca el Museo Arqueológico Eólico de Lipari, con su castillo y acrópolis, y el pueblo prehistórico de Panarea.",
+      "fuentes": [
+        {
+          "guia": "UNESCO",
+          "url": "https://whc.unesco.org/en/list/908/"
+        }
+      ]
+    },
+    {
+      "id": "it-golfo-di-orosei",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Cultura nurágica en el Supramonte: la aldea de Tiscali dentro de una dolina y el poblado de Serra Orrios; el resto es naturaleza.",
+      "fuentes": []
+    },
+    {
+      "id": "it-la-maddalena-costa-smeralda",
+      "puntaje": 1,
+      "unesco": false,
+      "justificacion": "Poco patrimonio: el Compendio Garibaldino de Caprera y la arquitectura de autor de Porto Cervo (años 60); el atractivo es marino.",
+      "fuentes": []
+    },
+    {
+      "id": "it-cagliari",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "El barrio amurallado de Castello, la catedral y el Museo Arqueológico Nacional con los Gigantes de Mont'e Prama y bronces nurágicos; es la base para ir a Su Nuraxi (UNESCO).",
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-cagliari-sardinia"
+        },
+        {
+          "guia": "National Geographic",
+          "url": "https://www.nationalgeographic.com/travel/article/sardinia-Italy-must-see-travel-guide"
+        }
+      ]
+    },
+    {
+      "id": "mt-valletta",
+      "puntaje": 5,
+      "unesco": true,
+      "justificacion": "Capital UNESCO, ciudad fortificada de los Caballeros de San Juan (1566) con la Concatedral de San Juan y la Decapitación de Caravaggio, el Palacio del Gran Maestre y los Jardines de Barrakka. Es una de las mayores concentraciones históricas del mundo por área.",
+      "fuentes": [
+        {
+          "guia": "UNESCO",
+          "url": "https://whc.unesco.org/en/list/131/"
+        },
+        {
+          "guia": "UNESCO (Malta)",
+          "url": "https://whc.unesco.org/en/statesparties/mt/"
+        }
+      ]
+    },
+    {
+      "id": "mt-tres-ciudades",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "Escenario del Gran Sitio de 1565: el Fuerte San Ángel, el Palacio del Inquisidor (de los pocos que se conservan en Europa) y las murallas de Senglea y Cospicua frente a La Valeta.",
+      "fuentes": [
+        {
+          "guia": "Time Out",
+          "url": "https://www.timeout.com/malta/travel/best-places-to-visit-in-malta"
+        },
+        {
+          "guia": "Bradt",
+          "url": "https://www.bradtguides.com/?p=107966"
+        }
+      ]
+    },
+    {
+      "id": "mt-mdina-rabat",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "Antigua capital amurallada, de trazado medieval y barroco, con la catedral de San Pablo y palacios nobles; en Rabat están las catacumbas de San Pablo y Santa Ágata.",
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-malta"
+        },
+        {
+          "guia": "Rough Guides",
+          "url": "https://www.roughguides.com/article/make-the-most-of-malta-a-first-timers-guide/"
+        }
+      ]
+    },
+    {
+      "id": "mt-hipogeo-hal-saflieni",
+      "puntaje": 5,
+      "unesco": true,
+      "justificacion": "Necrópolis subterránea neolítica (c. 4000-2500 a. C.), única en el mundo, con salas talladas que imitan la arquitectura de los templos y la pintura en ocre del 'Sancta Sanctorum'. Las visitas tienen cupo y conviene reservar con meses de antelación.",
+      "fuentes": [
+        {
+          "guia": "UNESCO",
+          "url": "https://whc.unesco.org/en/list/130/"
+        },
+        {
+          "guia": "UNESCO (Malta)",
+          "url": "https://whc.unesco.org/en/statesparties/mt/"
+        }
+      ]
+    },
+    {
+      "id": "mt-hagar-qim-mnajdra-gruta-azul",
+      "puntaje": 5,
+      "unesco": true,
+      "justificacion": "Templos megalíticos UNESCO del IV-III milenio a. C., más antiguos que las pirámides, en un acantilado sobre el mar; Mnajdra está alineado con los solsticios. La Gruta Azul cercana es solo paisaje.",
+      "fuentes": [
+        {
+          "guia": "UNESCO",
+          "url": "https://whc.unesco.org/en/list/132/"
+        },
+        {
+          "guia": "UNESCO (Malta)",
+          "url": "https://whc.unesco.org/en/statesparties/mt/"
+        }
+      ]
+    },
+    {
+      "id": "mt-marsaxlokk",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Pueblo pesquero tradicional con barcas luzzu pintadas y mercado dominical; cerca está el santuario arqueológico de Tas-Silġ.",
+      "fuentes": []
+    },
+    {
+      "id": "mt-acantilados-dingli",
+      "puntaje": 1,
+      "unesco": false,
+      "justificacion": "Paisaje natural; en las cercanías están las enigmáticas rodadas prehistóricas ('cart ruts') y el palacio Verdala.",
+      "fuentes": []
+    },
+    {
+      "id": "mt-golden-bay",
+      "puntaje": 1,
+      "unesco": false,
+      "justificacion": "Playa; lo único cultural son los restos de baños romanos de Għajn Tuffieħa y una torre de vigía de los Caballeros.",
+      "fuentes": []
+    },
+    {
+      "id": "mt-mellieha",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "El santuario de la Virgen en la gruta de Mellieħa, la Torre Roja de Santa Ágata y Popeye Village, el decorado de la película de 1980.",
+      "fuentes": []
+    },
+    {
+      "id": "mt-comino-laguna-azul",
+      "puntaje": 1,
+      "unesco": false,
+      "justificacion": "Atractivo marino; solo la Torre de Santa María, de los Caballeros (1618), aporta historia.",
+      "fuentes": []
+    },
+    {
+      "id": "mt-victoria-ciudadela",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "La Ciudadela fortificada de Gozo, habitada desde la Edad del Bronce y reconstruida por los Caballeros, con catedral barroca, museos y paseo de ronda sobre la isla.",
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-malta"
+        },
+        {
+          "guia": "Rough Guides",
+          "url": "https://www.roughguides.com/articles/things-to-do-in-gozo-malta/"
+        }
+      ]
+    },
+    {
+      "id": "mt-ggantija",
+      "puntaje": 5,
+      "unesco": true,
+      "justificacion": "Templos megalíticos UNESCO (c. 3600 a. C.), de las estructuras exentas más antiguas del mundo, más antiguos que Stonehenge y las pirámides, con centro de interpretación.",
+      "fuentes": [
+        {
+          "guia": "UNESCO",
+          "url": "https://whc.unesco.org/en/list/132/"
+        },
+        {
+          "guia": "UNESCO (Malta)",
+          "url": "https://whc.unesco.org/en/statesparties/mt/"
+        }
+      ]
+    },
+    {
+      "id": "mt-dwejra",
+      "puntaje": 1,
+      "unesco": false,
+      "justificacion": "Geología y buceo; solo la torre de Qawra (s. XVII) y la leyenda de Fungus Rock dan algo de historia.",
+      "fuentes": []
+    },
+    {
+      "id": "mt-ramla-bay",
+      "puntaje": 1,
+      "unesco": false,
+      "justificacion": "Playa; cerca están la cueva de Calipso, vinculada a la Odisea, y restos de una villa romana.",
+      "fuentes": []
+    },
+    {
+      "id": "mt-xlendi",
+      "puntaje": 1,
+      "unesco": false,
+      "justificacion": "Pueblo costero con una torre de vigía de 1650; poco patrimonio.",
+      "fuentes": []
+    },
+    {
+      "id": "sm-centro-historico",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "Centro histórico UNESCO de la república más antigua del mundo: Palazzo Pubblico, Basílica del Santo, conventos de los siglos XIV-XVI y murallas sobre el Monte Titano. Es testimonio vivo de una ciudad-estado medieval.",
+      "fuentes": [
+        {
+          "guia": "UNESCO",
+          "url": "https://whc.unesco.org/en/list/1245/"
+        },
+        {
+          "guia": "UNESCO (San Marino)",
+          "url": "https://whc.unesco.org/en/statesparties/sm"
+        }
+      ]
+    },
+    {
+      "id": "sm-torre-guaita",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "La primera torre (s. XI), símbolo de la república e incluida en el sitio UNESCO del Monte Titano, conserva murallas, campana y celdas usadas como prisión hasta 1975.",
+      "fuentes": [
+        {
+          "guia": "UNESCO",
+          "url": "https://whc.unesco.org/en/list/1245/"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/points-of-interest/torre-guaita/1432921"
+        }
+      ]
+    },
+    {
+      "id": "sm-torre-cesta",
+      "puntaje": 3,
+      "unesco": true,
+      "justificacion": "La segunda torre, en la cima más alta del Titano y parte del sitio UNESCO, alberga el Museo de Armas Antiguas.",
+      "fuentes": [
+        {
+          "guia": "UNESCO",
+          "url": "https://whc.unesco.org/en/list/1245/"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/points-of-interest/torre-cesta/1137960"
+        }
+      ]
+    },
+    {
+      "id": "sm-torre-montale",
+      "puntaje": 2,
+      "unesco": true,
+      "justificacion": "La tercera torre forma parte del conjunto UNESCO del Monte Titano, pero está cerrada al público y solo se ve por fuera.",
+      "fuentes": [
+        {
+          "guia": "UNESCO",
+          "url": "https://whc.unesco.org/en/list/1245/"
+        }
+      ]
+    },
+    {
+      "id": "sm-borgo-maggiore",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Antiguo burgo de mercado al pie de la ciudadela, con la iglesia modernista de Giovanni Michelucci (años 60) y el funicular a la ciudad.",
+      "fuentes": []
+    },
+    {
+      "id": "va-basilica-san-pedro",
+      "puntaje": 5,
+      "unesco": true,
+      "justificacion": "La mayor iglesia de la cristiandad, sobre la tumba de San Pedro, con la Piedad de Miguel Ángel y el baldaquino de Bernini; toda la Ciudad del Vaticano es Patrimonio Mundial.",
+      "fuentes": [
+        {
+          "guia": "UNESCO",
+          "url": "https://whc.unesco.org/en/list/286/"
+        }
+      ]
+    },
+    {
+      "id": "va-cupula-san-pedro",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "La cúpula de Miguel Ángel, cumbre de la arquitectura renacentista; en la subida se ve el interior de la basílica desde el tambor y en lo alto hay vistas de Roma.",
+      "fuentes": [
+        {
+          "guia": "UNESCO",
+          "url": "https://whc.unesco.org/en/list/286/"
+        }
+      ]
+    },
+    {
+      "id": "va-museos-vaticanos",
+      "puntaje": 5,
+      "unesco": true,
+      "justificacion": "Una de las colecciones de arte más importantes del mundo: Laocoonte y el Apolo de Belvedere, las Estancias de Rafael, la Pinacoteca y la Galería de los Mapas.",
+      "fuentes": [
+        {
+          "guia": "UNESCO",
+          "url": "https://whc.unesco.org/en/list/286/"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/points-of-interest/vatican-museums/1256585"
+        }
+      ]
+    },
+    {
+      "id": "va-capilla-sixtina",
+      "puntaje": 5,
+      "unesco": true,
+      "justificacion": "La bóveda (1508-1512) y el Juicio Final de Miguel Ángel, con frescos de Botticelli y Perugino en las paredes; es la sede del cónclave y una obra maestra universal.",
+      "fuentes": [
+        {
+          "guia": "UNESCO",
+          "url": "https://whc.unesco.org/en/list/286/"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/points-of-interest/sistine-chapel/1027806"
+        }
+      ]
+    },
+    {
+      "id": "va-plaza-san-pedro",
+      "puntaje": 5,
+      "unesco": true,
+      "justificacion": "La columnata elíptica de Bernini (1656-1667), con 284 columnas y el obelisco egipcio, es una obra maestra del urbanismo barroco y está dentro del sitio UNESCO.",
+      "fuentes": [
+        {
+          "guia": "UNESCO",
+          "url": "https://whc.unesco.org/en/list/286/"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "http://www.lonelyplanet.com/italy/rome/sights/religious/st-peter-s-basilica"
+        }
+      ]
+    },
+    {
+      "id": "va-jardines-vaticanos",
+      "puntaje": 3,
+      "unesco": true,
+      "justificacion": "Jardines renacentistas y barrocos con la Casina de Pío IV, fuentes, la torre de San Juan y las murallas leoninas; forman parte del territorio UNESCO y solo se visitan con guía.",
+      "fuentes": [
+        {
+          "guia": "UNESCO",
+          "url": "https://whc.unesco.org/en/list/286/"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://lonelyplanet.com/vatican-city/attractions/vatican-gardens/a/poi-sig/390497/1321012"
+        }
+      ]
+    }
+  ],
+  "nuevos": [
+    {
+      "id": "it-padova",
+      "nombre": "Padua",
+      "pais_iso": "IT",
+      "region": "Véneto",
+      "lat": 45.4064,
+      "lng": 11.8768,
+      "tipo": "ciudad",
+      "puntaje": 5,
+      "unesco": true,
+      "justificacion": "Tiene dos sitios UNESCO: la Capilla de los Scrovegni, con el ciclo de Giotto que inauguró la pintura moderna, dentro de los frescos del siglo XIV, y el Orto Botanico (1545), el jardín botánico universitario más antiguo que se conserva. Se suman la Basílica del Santo y la universidad de Galileo.",
+      "fuentes": [
+        {
+          "guia": "UNESCO",
+          "url": "https://whc.unesco.org/en/list/824/"
+        },
+        {
+          "guia": "UNESCO (decisión 44 COM 8B.20)",
+          "url": "https://whc.unesco.org/en/decisions/7939/"
+        }
+      ]
+    },
+    {
+      "id": "it-urbino",
+      "nombre": "Urbino",
+      "pais_iso": "IT",
+      "region": "Marcas",
+      "lat": 43.7262,
+      "lng": 12.6366,
+      "tipo": "ciudad",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "Pequeña ciudad que fue un gran centro del Renacimiento europeo, con centro histórico UNESCO. Tiene el Palacio Ducal de Federico da Montefeltro con la Galería Nacional de las Marcas (Piero della Francesca, Rafael) y la casa natal de Rafael, dentro de murallas casi intactas.",
+      "fuentes": [
+        {
+          "guia": "UNESCO",
+          "url": "https://whc.unesco.org/en/list/828/"
+        }
+      ]
+    },
+    {
+      "id": "it-mantova-sabbioneta",
+      "nombre": "Mantua y Sabbioneta",
+      "pais_iso": "IT",
+      "region": "Lombardía",
+      "lat": 45.1564,
+      "lng": 10.7914,
+      "tipo": "ciudad",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "Dos modelos urbanos del Renacimiento inscritos juntos en la UNESCO. En Mantua están el Palacio Ducal con la Cámara de los Esposos de Mantegna, el Palazzo Te de Giulio Romano y Sant'Andrea de Alberti; Sabbioneta, a unos 30 km, es una 'ciudad ideal' de los Gonzaga.",
+      "fuentes": [
+        {
+          "guia": "UNESCO",
+          "url": "https://whc.unesco.org/en/list/1287/"
+        }
+      ]
+    },
+    {
+      "id": "it-ferrara",
+      "nombre": "Ferrara",
+      "pais_iso": "IT",
+      "region": "Emilia-Romaña",
+      "lat": 44.8381,
+      "lng": 11.6198,
+      "tipo": "ciudad",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "Ciudad del Renacimiento UNESCO: el Castello Estense, el Palazzo dei Diamanti y la Addizione Erculea de Biagio Rossetti, uno de los primeros planes urbanísticos modernos. Las murallas se recorren en bicicleta y el sitio incluye las delicias estenses del delta del Po.",
+      "fuentes": [
+        {
+          "guia": "UNESCO",
+          "url": "https://whc.unesco.org/en/list/733/"
+        }
+      ]
+    },
+    {
+      "id": "it-genova",
+      "nombre": "Génova (Strade Nuove y Palazzi dei Rolli)",
+      "pais_iso": "IT",
+      "region": "Liguria",
+      "lat": 44.4108,
+      "lng": 8.9336,
+      "tipo": "ciudad",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "Las Strade Nuove (Via Garibaldi) y los Palazzi dei Rolli, palacios renacentistas y barrocos de los siglos XVI-XVII, son UNESCO; los Musei di Strada Nuova ocupan el Palazzo Rosso y el Palazzo Bianco. Se suma uno de los cascos medievales más grandes de Europa.",
+      "fuentes": [
+        {
+          "guia": "UNESCO",
+          "url": "https://whc.unesco.org/en/list/1211/"
+        }
+      ]
+    },
+    {
+      "id": "it-su-nuraxi-barumini",
+      "nombre": "Su Nuraxi di Barumini",
+      "pais_iso": "IT",
+      "region": "Cerdeña",
+      "lat": 39.7058,
+      "lng": 8.9906,
+      "tipo": "monumento",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "El mejor ejemplo de la civilización nurágica de Cerdeña (Edad del Bronce, desde el s. XVII a. C.): una torre-fortaleza central con un poblado de cabañas de piedra a su alrededor, inscrito en la UNESCO en 1997.",
+      "fuentes": [
+        {
+          "guia": "UNESCO",
+          "url": "https://whc.unesco.org/en/list/833/"
+        },
+        {
+          "guia": "UNESCO (Italia)",
+          "url": "https://whc.unesco.org/en/statesparties/it/"
+        }
+      ]
+    },
+    {
+      "id": "it-villa-romana-del-casale",
+      "nombre": "Villa Romana del Casale (Piazza Armerina)",
+      "pais_iso": "IT",
+      "region": "Sicilia",
+      "lat": 37.3654,
+      "lng": 14.3347,
+      "tipo": "monumento",
+      "puntaje": 5,
+      "unesco": true,
+      "justificacion": "La UNESCO la considera el ejemplo supremo de villa de lujo romana: unos 3.500 m² de mosaicos del siglo IV (las 'chicas en bikini', la Gran Cacería), únicos por calidad y extensión.",
+      "fuentes": [
+        {
+          "guia": "UNESCO",
+          "url": "https://whc.unesco.org/en/list/832/"
+        }
+      ]
+    },
+    {
+      "id": "it-val-di-noto",
+      "nombre": "Ciudades barrocas del Val di Noto (Noto, Ragusa Ibla, Modica)",
+      "pais_iso": "IT",
+      "region": "Sicilia",
+      "lat": 36.8929,
+      "lng": 15.0696,
+      "tipo": "region",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "Ocho ciudades reconstruidas tras el terremoto de 1693 en un barroco tardío homogéneo e inscritas en la UNESCO en 2002. Destacan la catedral y el Corso de Noto, el Duomo di San Giorgio de Ragusa Ibla y San Giorgio de Modica.",
+      "fuentes": [
+        {
+          "guia": "UNESCO",
+          "url": "https://whc.unesco.org/en/list/1024/"
+        },
+        {
+          "guia": "UNESCO (Italia)",
+          "url": "https://whc.unesco.org/en/statesparties/it/"
+        }
+      ]
+    },
+    {
+      "id": "mt-templos-tarxien",
+      "nombre": "Templos de Tarxien",
+      "pais_iso": "MT",
+      "region": "Malta",
+      "lat": 35.8692,
+      "lng": 14.5119,
+      "tipo": "monumento",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "Complejo de cuatro templos megalíticos (c. 3150-2500 a. C.), parte del sitio UNESCO de los Templos Megalíticos de Malta, con relieves de espirales y animales. Está a pocos minutos a pie del Hipogeo de Ħal Saflieni.",
+      "fuentes": [
+        {
+          "guia": "UNESCO",
+          "url": "https://whc.unesco.org/en/list/132/"
+        },
+        {
+          "guia": "UNESCO (Malta)",
+          "url": "https://whc.unesco.org/en/statesparties/mt/"
+        }
+      ]
+    }
+  ]
+}

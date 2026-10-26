@@ -1,0 +1,992 @@
+{
+  "agente": "naturaleza",
+  "subregion": "iberica-italia",
+  "ronda": 1,
+  "paises": [
+    "IT",
+    "MT",
+    "SM",
+    "VA"
+  ],
+  "puntajes": [
+    {
+      "id": "it-venecia",
+      "puntaje": 3,
+      "unesco": true,
+      "justificacion": "La laguna véneta (incluida en el sitio UNESCO) suma barene, canales e islas como Burano y Torcello; naturaleza húmeda singular, aunque la experiencia es sobre todo urbana.",
+      "actividad": "Paseo en vaporetto/kayak por la laguna norte hasta Torcello y Burano",
+      "fuentes": [
+        {
+          "guia": "Fodor's",
+          "url": "https://www.fodors.com/world/europe/italy/venice"
+        }
+      ]
+    },
+    {
+      "id": "it-milan",
+      "puntaje": 1,
+      "unesco": false,
+      "justificacion": "Entorno urbano; la naturaleza relevante (lagos de Como y Maggiore) queda a más de 45 km.",
+      "actividad": "Excursión de día a los lagos",
+      "fuentes": []
+    },
+    {
+      "id": "it-lago-de-como",
+      "puntaje": 5,
+      "unesco": false,
+      "justificacion": "Lago alpino glaciar encajonado entre montañas de más de 2.000 m: uno de los paisajes lacustres más icónicos de Europa, con villas, miradores y rutas de orilla.",
+      "actividad": "Greenway del Lago di Como (~10 km, Colonno–Griante) y barco entre Bellagio y Varenna",
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-lake-como-italy"
+        },
+        {
+          "guia": "Fodor's",
+          "url": "https://www.fodors.com/world/europe/italy/lombardy-and-the-lakes/places/lake-como"
+        }
+      ]
+    },
+    {
+      "id": "it-lago-de-garda",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "El mayor lago de Italia: orilla mediterránea al sur y fiordo alpino al norte con Monte Baldo; senderismo, vela y windsurf muy accesibles.",
+      "actividad": "Sentiero del Ponale (Riva del Garda–Lago di Ledro) y teleférico al Monte Baldo",
+      "fuentes": [
+        {
+          "guia": "National Geographic",
+          "url": "https://www.nationalgeographic.com/travel/article/best-ways-to-explore-italys-great-outdoors"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/guide-to-italian-lakes"
+        }
+      ]
+    },
+    {
+      "id": "it-lago-maggiore",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "Gran lago prealpino con las Islas Borromeas y jardines botánicos; cerca están el Mottarone y el Parque Nacional Val Grande, la mayor zona salvaje de los Alpes.",
+      "actividad": "Barco a Isola Bella e Isola Madre y subida al Mottarone",
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/guide-to-italian-lakes"
+        }
+      ]
+    },
+    {
+      "id": "it-dolomitas",
+      "puntaje": 5,
+      "unesco": true,
+      "justificacion": "Patrimonio Natural UNESCO (2009) por su paisaje y geología: 18 cumbres de más de 3.000 m, praderas del Alpe di Siusi y agujas como las Tre Cime.",
+      "actividad": "Vuelta a las Tre Cime di Lavaredo desde el Rifugio Auronzo (~10 km, 4-5 h)",
+      "fuentes": [
+        {
+          "guia": "UNESCO",
+          "url": "https://whc.unesco.org/en/list/1237/"
+        },
+        {
+          "guia": "Hiking Project",
+          "url": "https://www.hikingproject.com/trail/7090007/tre-cime-di-lavaredo-loop"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/guide-to-the-dolomites"
+        }
+      ]
+    },
+    {
+      "id": "it-verona",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Ciudad histórica; el lago de Garda (~30 km) y los montes Lessini aportan naturaleza cercana.",
+      "actividad": "Excursión a Garda o a la Lessinia",
+      "fuentes": []
+    },
+    {
+      "id": "it-turin",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Ciudad con colinas del Po (Superga) y vistas a los Alpes; los grandes parques (Gran Paradiso) quedan a 1-2 h.",
+      "actividad": "Subida en tranvía de cremallera a Superga",
+      "fuentes": []
+    },
+    {
+      "id": "it-valle-de-aosta-monte-bianco",
+      "puntaje": 5,
+      "unesco": false,
+      "justificacion": "Valle a los pies del Mont Blanc (4.808 m), techo de Europa occidental, con glaciares, refugios y el Tour du Mont Blanc; escenario alpino de primer nivel.",
+      "actividad": "Skyway Monte Bianco de Courmayeur a Punta Helbronner (3.466 m) y etapas del Tour du Mont Blanc",
+      "fuentes": [
+        {
+          "guia": "Frommer's",
+          "url": "https://www.frommers.com/destinations/italy/active-pursuits/"
+        }
+      ]
+    },
+    {
+      "id": "it-cinque-terre",
+      "puntaje": 5,
+      "unesco": true,
+      "justificacion": "Acantilados ligures en terrazas dentro del Parque Nacional de las Cinque Terre y del paisaje cultural UNESCO; costa icónica para caminar entre cinco pueblos.",
+      "actividad": "Sentiero Azzurro Riomaggiore–Monterosso (~12 km, 5-6 h; tramos con pase de pago)",
+      "fuentes": [
+        {
+          "guia": "UNESCO",
+          "url": "https://whc.unesco.org/en/list/826"
+        },
+        {
+          "guia": "Cinqueterre.eu.com",
+          "url": "https://www.cinqueterre.eu.com/en/sentiero-azzurro"
+        }
+      ]
+    },
+    {
+      "id": "it-bolonia",
+      "puntaje": 1,
+      "unesco": false,
+      "justificacion": "Entorno urbano; colinas boloñesas y el Santuario de San Luca como única naturaleza próxima.",
+      "actividad": "Paseo por los pórticos hasta San Luca",
+      "fuentes": []
+    },
+    {
+      "id": "it-ravena",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "El Parque Regional del Delta del Po y las pinedas costeras (Pineta di Classe) están cerca.",
+      "actividad": "Bicicleta por la Pineta di Classe y las salinas de Cervia",
+      "fuentes": []
+    },
+    {
+      "id": "it-trieste",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "Entre el Carso y el Adriático: acantilados, la reserva marina de Miramare y la Strada Napoleonica con vistas al golfo.",
+      "actividad": "Strada Napoleonica Opicina–Prosecco (~5 km) y Castillo/reserva de Miramare",
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/top-things-to-do-trieste-italy"
+        }
+      ]
+    },
+    {
+      "id": "it-florencia",
+      "puntaje": 1,
+      "unesco": false,
+      "justificacion": "Ciudad de arte; colinas de Fiesole y jardín de Boboli como naturaleza más cercana.",
+      "actividad": "Paseo a Fiesole o al Piazzale Michelangelo",
+      "fuentes": []
+    },
+    {
+      "id": "it-pisa",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Cercano al Parque Regional de San Rossore y a la costa toscana.",
+      "actividad": "Bici o caballo en San Rossore-Migliarino",
+      "fuentes": []
+    },
+    {
+      "id": "it-lucca",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Murallas arboladas y acceso a la Garfagnana y los Alpes Apuanos.",
+      "actividad": "Vuelta en bici por las murallas (4 km)",
+      "fuentes": []
+    },
+    {
+      "id": "it-siena",
+      "puntaje": 1,
+      "unesco": false,
+      "justificacion": "Ciudad medieval; el paisaje de colinas de las Crete Senesi rodea la ciudad.",
+      "actividad": "Ruta en coche por las Crete Senesi",
+      "fuentes": []
+    },
+    {
+      "id": "it-san-gimignano",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Pueblo sobre colinas de viñedos de Vernaccia, con paseos rurales.",
+      "actividad": "Caminata por la campiña y la Via Francigena",
+      "fuentes": []
+    },
+    {
+      "id": "it-val-d-orcia",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "Paisaje cultural UNESCO de colinas onduladas, cipreses y termas (Bagno Vignoni); uno de los paisajes rurales más fotografiados del mundo, ideal a pie o en bici.",
+      "actividad": "Etapa de la Via Francigena San Quirico d'Orcia–Bagno Vignoni (~9 km)",
+      "fuentes": [
+        {
+          "guia": "Time Out",
+          "url": "https://www.timeout.com/italy/travel/most-beautiful-places"
+        },
+        {
+          "guia": "National Geographic",
+          "url": "https://www.nationalgeographic.com/travel/article/ultimate-ways-to-see-italy"
+        }
+      ]
+    },
+    {
+      "id": "it-asis",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Ciudad en la ladera del Monte Subasio (parque regional), con senderos hacia el Eremo delle Carceri.",
+      "actividad": "Sendero al Eremo delle Carceri (~4 km)",
+      "fuentes": []
+    },
+    {
+      "id": "it-orvieto",
+      "puntaje": 1,
+      "unesco": false,
+      "justificacion": "Ciudad sobre peñasco de toba; poca naturaleza destacada.",
+      "actividad": "Vuelta por el anillo de la rupe",
+      "fuentes": []
+    },
+    {
+      "id": "it-roma",
+      "puntaje": 1,
+      "unesco": false,
+      "justificacion": "Entorno urbano; parques como Villa Borghese y la Appia Antica.",
+      "actividad": "Bici por el Parque de la Appia Antica",
+      "fuentes": []
+    },
+    {
+      "id": "it-napoles",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Bahía de Nápoles con el Vesubio y los Campos Flégreos a corta distancia.",
+      "actividad": "Excursión al cráter del Vesubio",
+      "fuentes": []
+    },
+    {
+      "id": "it-pompeya-herculano",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Junto al Parque Nacional del Vesubio, aunque la visita es arqueológica.",
+      "actividad": "Subida al Gran Cono del Vesubio",
+      "fuentes": []
+    },
+    {
+      "id": "it-costa-amalfitana",
+      "puntaje": 5,
+      "unesco": true,
+      "justificacion": "Costa acantilada icónica, paisaje cultural UNESCO con terrazas de limoneros y tres reservas naturales; senderismo de clase mundial sobre el mar.",
+      "actividad": "Sentiero degli Dei Bomerano–Nocelle (~7 km, 2-3 h, mayormente bajada)",
+      "fuentes": [
+        {
+          "guia": "UNESCO",
+          "url": "https://whc.unesco.org/en/list/830/"
+        },
+        {
+          "guia": "Full Suitcase",
+          "url": "https://fullsuitcase.com/path-of-the-gods-hike-amalfi-coast/"
+        }
+      ]
+    },
+    {
+      "id": "it-capri",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "Isla caliza con farallones, grutas marinas y senderos de costa de gran belleza, aunque muy concurrida.",
+      "actividad": "Vuelta a la isla en barco (Grotta Azzurra, Faraglioni) y Sentiero dei Fortini",
+      "fuentes": [
+        {
+          "guia": "Rough Guides",
+          "url": "https://www.roughguides.com/gallery/most-beautiful-places-in-italy/"
+        },
+        {
+          "guia": "DK Eyewitness",
+          "url": "https://penguinrandomhouse.com/books/840418/dk-top-10-naples-and-the-amalfi-coast-by-dk-travel"
+        }
+      ]
+    },
+    {
+      "id": "it-paestum",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Playas y pinedas junto a los templos; puerta de entrada al Parque Nacional del Cilento.",
+      "actividad": "Playa de Paestum y excursión al Cilento",
+      "fuentes": []
+    },
+    {
+      "id": "it-matera",
+      "puntaje": 3,
+      "unesco": true,
+      "justificacion": "Los Sassi se asoman a la Gravina y al Parque de la Murgia Materana (dentro del sitio UNESCO), con cañón, cuevas e iglesias rupestres.",
+      "actividad": "Sendero por la Gravina de Matera y la Murgia (puente tibetano, ~3 km)",
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-southern-italy"
+        },
+        {
+          "guia": "National Geographic",
+          "url": "https://www.nationalgeographic.com/travel/article/best-classic-italian-journeys-to-explore-italy"
+        }
+      ]
+    },
+    {
+      "id": "it-alberobello-valle-d-itria",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Campiña de olivos y trulli; naturaleza rural suave.",
+      "actividad": "Ciclovía de la Valle d'Itria",
+      "fuentes": []
+    },
+    {
+      "id": "it-lecce",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Ciudad barroca a 15-30 km de las costas del Salento (Torre dell'Orso, Grotta della Poesia).",
+      "actividad": "Escapada a las calas del Salento adriático",
+      "fuentes": []
+    },
+    {
+      "id": "it-tropea",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "La Costa degli Dei combina acantilados, aguas turquesa y playas como las de Tropea y Capo Vaticano; de las mejores costas del sur de Italia.",
+      "actividad": "Playa bajo el Santuario de Santa Maria dell'Isola y miradores de Capo Vaticano",
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/why-you-should-visit-tropea-italy"
+        },
+        {
+          "guia": "Time Out",
+          "url": "https://www.timeout.com/italy/travel/most-beautiful-places"
+        }
+      ]
+    },
+    {
+      "id": "it-palermo-monreale",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Monte Pellegrino y la playa de Mondello aportan naturaleza junto a la ciudad.",
+      "actividad": "Subida al Monte Pellegrino y baño en Mondello",
+      "fuentes": []
+    },
+    {
+      "id": "it-taormina",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "Balcón sobre el mar Jónico con vistas al Etna, la reserva de Isola Bella y las Gole dell'Alcantara cerca.",
+      "actividad": "Baño en la reserva de Isola Bella y excursión al Etna",
+      "fuentes": [
+        {
+          "guia": "Rough Guides",
+          "url": "https://www.roughguides.com/gallery/most-beautiful-places-in-italy/"
+        },
+        {
+          "guia": "UNESCO",
+          "url": "https://whc.unesco.org/en/list/1427/"
+        }
+      ]
+    },
+    {
+      "id": "it-siracusa-ortigia",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "Base para reservas costeras: Plemmirio (marina) y Vendicari (lagunas con flamencos y calas).",
+      "actividad": "Ruta por la Riserva di Vendicari hasta la playa de Calamosche",
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/italy/sicily/attractions"
+        }
+      ]
+    },
+    {
+      "id": "it-agrigento-valle-templos",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Visita arqueológica; la Scala dei Turchi (acantilado de marga blanca) está a ~15 km.",
+      "actividad": "Escapada a la Scala dei Turchi",
+      "fuentes": []
+    },
+    {
+      "id": "it-etna",
+      "puntaje": 5,
+      "unesco": true,
+      "justificacion": "Patrimonio Natural UNESCO (2013): el estratovolcán más activo del mundo y la mayor montaña de una isla mediterránea (3.300+ m).",
+      "actividad": "Cráteres Silvestri y subida guiada a los cráteres de cima desde el Rifugio Sapienza",
+      "fuentes": [
+        {
+          "guia": "UNESCO",
+          "url": "https://whc.unesco.org/en/list/1427/"
+        }
+      ]
+    },
+    {
+      "id": "it-islas-eolias",
+      "puntaje": 5,
+      "unesco": true,
+      "justificacion": "Patrimonio Natural UNESCO por su vulcanismo activo (dieron nombre a las erupciones estrombolianas y vulcanianas); mar, calas y volcanes.",
+      "actividad": "Trekking al atardecer en Stromboli hasta la cota 400 m sobre la Sciara del Fuoco y Gran Cratere de Vulcano",
+      "fuentes": [
+        {
+          "guia": "UNESCO",
+          "url": "https://whc.unesco.org/en/list/908/"
+        },
+        {
+          "guia": "Holidoit (excursión guiada Stromboli)",
+          "url": "https://www.holidoit.com/e/trekking-al-tramonto-sullo-stromboli"
+        }
+      ]
+    },
+    {
+      "id": "it-golfo-di-orosei",
+      "puntaje": 5,
+      "unesco": false,
+      "justificacion": "Costa salvaje de acantilados calizos del Supramonte con calas de agua turquesa (Goloritzé, Luna, Mariolu) y el trekking Selvaggio Blu, de los más duros del Mediterráneo.",
+      "actividad": "Bajada a Cala Goloritzé desde el altiplano del Golgo (~1h30, 470 m de desnivel; acceso limitado)",
+      "fuentes": [
+        {
+          "guia": "Sardegna Turismo (oficial)",
+          "url": "https://www.sardegnaturismo.it/it/node/250946"
+        },
+        {
+          "guia": "Sardegna Turismo (oficial)",
+          "url": "https://sardegnaturismo.it/it/supramonte-di-baunei-sul-tetto-del-mondo"
+        }
+      ]
+    },
+    {
+      "id": "it-la-maddalena-costa-smeralda",
+      "puntaje": 5,
+      "unesco": false,
+      "justificacion": "Parque Nacional del Archipiélago de La Maddalena: granitos rosados, aguas cristalinas y la Spiaggia Rosa de Budelli (zona de protección integral).",
+      "actividad": "Excursión en barco por Budelli, Spargi y Santa Maria (Spiaggia Rosa solo desde el mar)",
+      "fuentes": [
+        {
+          "guia": "Sardegna Turismo (oficial)",
+          "url": "https://www.sardegnaturismo.it/it/esplora/spiaggia-rosa"
+        },
+        {
+          "guia": "Ministero della Cultura (IDESE)",
+          "url": "https://idese.cultura.gov.it/en/place/spiaggia-rosa/"
+        },
+        {
+          "guia": "National Geographic",
+          "url": "https://www.nationalgeographic.com/travel/article/sardinia-Italy-must-see-travel-guide"
+        }
+      ]
+    },
+    {
+      "id": "it-cagliari",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "Ciudad con la playa del Poetto, el parque de Molentargius (flamencos) y el promontorio de la Sella del Diavolo.",
+      "actividad": "Sendero de la Sella del Diavolo y observación de flamencos en Molentargius",
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-cagliari-sardinia"
+        }
+      ]
+    },
+    {
+      "id": "mt-valletta",
+      "puntaje": 1,
+      "unesco": false,
+      "justificacion": "Ciudad amurallada; el Gran Puerto es el único paisaje natural destacado.",
+      "actividad": "Paseo por los Upper Barrakka Gardens",
+      "fuentes": []
+    },
+    {
+      "id": "mt-tres-ciudades",
+      "puntaje": 1,
+      "unesco": false,
+      "justificacion": "Entorno urbano portuario.",
+      "actividad": "Paseo en dgħajsa por el puerto",
+      "fuentes": []
+    },
+    {
+      "id": "mt-mdina-rabat",
+      "puntaje": 1,
+      "unesco": false,
+      "justificacion": "Ciudad fortificada; los acantilados de Dingli y Buskett están a pocos km.",
+      "actividad": "Excursión a Buskett y Dingli",
+      "fuentes": []
+    },
+    {
+      "id": "mt-hipogeo-hal-saflieni",
+      "puntaje": 0,
+      "unesco": true,
+      "justificacion": "Sitio arqueológico subterráneo en zona urbana, sin naturaleza relevante.",
+      "actividad": "Visita guiada al hipogeo",
+      "fuentes": []
+    },
+    {
+      "id": "mt-hagar-qim-mnajdra-gruta-azul",
+      "puntaje": 3,
+      "unesco": true,
+      "justificacion": "Templos megalíticos sobre acantilados del sur con sendero costero, junto a la Gruta Azul de Wied iż-Żurrieq.",
+      "actividad": "Sendero Ħaġar Qim–Mnajdra y barca a la Gruta Azul",
+      "fuentes": [
+        {
+          "guia": "National Geographic",
+          "url": "https://www.nationalgeographic.com/travel/article/malta_walks"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-malta"
+        }
+      ]
+    },
+    {
+      "id": "mt-marsaxlokk",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Pueblo pesquero; cerca está St Peter's Pool, piscina natural en la península de Delimara.",
+      "actividad": "Baño en St Peter's Pool",
+      "fuentes": []
+    },
+    {
+      "id": "mt-acantilados-dingli",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "Los acantilados más altos de Malta (~250 m) sobre el mar, con vistas a Filfla y caminos de borde.",
+      "actividad": "Caminata por el borde de los acantilados hasta Buskett",
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-malta"
+        },
+        {
+          "guia": "National Geographic",
+          "url": "https://www.nationalgeographic.com/travel/article/malta_walks"
+        }
+      ]
+    },
+    {
+      "id": "mt-golden-bay",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "Playas de arena (Golden Bay, Għajn Tuffieħa) enmarcadas por el Parque Natural Majjistral.",
+      "actividad": "Baño y senderos del Majjistral hasta la torre de Għajn Tuffieħa",
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/malta-gozos-best-beaches"
+        },
+        {
+          "guia": "Time Out",
+          "url": "https://www.timeout.com/europe/things-to-do/best-beaches-malta-gozo-comino"
+        }
+      ]
+    },
+    {
+      "id": "mt-mellieha",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "Għadira Bay, la playa de arena más grande de Malta, junto a la reserva de aves de Għadira.",
+      "actividad": "Playa de Għadira y paseo por la reserva natural",
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/malta-gozos-best-beaches"
+        }
+      ]
+    },
+    {
+      "id": "mt-comino-laguna-azul",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "Isla casi deshabitada con la Laguna Azul de aguas turquesa, cuevas marinas y garriga; el baño más famoso del archipiélago.",
+      "actividad": "Snorkel en la Laguna Azul y vuelta a pie por Comino",
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://lonelyplanet.com/malta/comino/activities"
+        },
+        {
+          "guia": "Time Out",
+          "url": "https://www.timeout.com/malta/travel/best-places-to-visit-in-malta"
+        }
+      ]
+    },
+    {
+      "id": "mt-victoria-ciudadela",
+      "puntaje": 1,
+      "unesco": false,
+      "justificacion": "Ciudadela urbana con vistas panorámicas a Gozo.",
+      "actividad": "Paseo por las murallas",
+      "fuentes": []
+    },
+    {
+      "id": "mt-ggantija",
+      "puntaje": 1,
+      "unesco": true,
+      "justificacion": "Templos megalíticos en la meseta de Xagħra; poca naturaleza.",
+      "actividad": "Visita al complejo de templos",
+      "fuentes": []
+    },
+    {
+      "id": "mt-dwejra",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "Costa volcánica-caliza con el Inland Sea, Fungus Rock y el Blue Hole, uno de los mejores puntos de buceo del Mediterráneo (el Azure Window colapsó en 2017).",
+      "actividad": "Buceo/snorkel en el Blue Hole y barca por el Inland Sea",
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-malta"
+        },
+        {
+          "guia": "National Geographic",
+          "url": "https://www.nationalgeographic.com/travel/article/spend-weekend-malta"
+        }
+      ]
+    },
+    {
+      "id": "mt-ramla-bay",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "Playa de arena rojiza con dunas protegidas en el norte de Gozo, bajo la Gruta de Calipso.",
+      "actividad": "Baño en Ramla y paseo hasta el mirador de la Gruta de Calipso",
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-malta"
+        },
+        {
+          "guia": "Time Out",
+          "url": "https://www.timeout.com/malta/travel/best-places-to-visit-in-malta"
+        }
+      ]
+    },
+    {
+      "id": "mt-xlendi",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "Bahía estrecha entre acantilados, con aguas claras para buceo y snorkel y caminos de costa.",
+      "actividad": "Snorkel en la bahía y caminata a la torre de Xlendi",
+      "fuentes": [
+        {
+          "guia": "Rough Guides",
+          "url": "https://www.roughguides.com/articles/things-to-do-in-gozo-malta/"
+        }
+      ]
+    },
+    {
+      "id": "sm-centro-historico",
+      "puntaje": 2,
+      "unesco": true,
+      "justificacion": "Ciudad sobre la cresta del Monte Titano con vistas a los Apeninos y al Adriático; naturaleza limitada.",
+      "actividad": "Miradores desde la Piazza della Libertà",
+      "fuentes": []
+    },
+    {
+      "id": "sm-torre-guaita",
+      "puntaje": 3,
+      "unesco": true,
+      "justificacion": "Fortaleza encaramada en el borde del acantilado del Monte Titano, con vistas amplias de la Romaña y el mar.",
+      "actividad": "Passo delle Streghe: sendero de cresta Guaita–Cesta (~1 km)",
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/points-of-interest/torre-guaita/1432921"
+        }
+      ]
+    },
+    {
+      "id": "sm-torre-cesta",
+      "puntaje": 3,
+      "unesco": true,
+      "justificacion": "En la cima más alta del Monte Titano (~750 m), sobre paredes calizas; vistas a 360 grados.",
+      "actividad": "Sendero de cresta desde la Guaita y bosque del Monte Titano",
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/points-of-interest/torre-cesta/1137960"
+        }
+      ]
+    },
+    {
+      "id": "sm-torre-montale",
+      "puntaje": 2,
+      "unesco": true,
+      "justificacion": "Torre entre el bosque en la cresta del Titano; no se visita por dentro.",
+      "actividad": "Paseo boscoso desde la Cesta",
+      "fuentes": []
+    },
+    {
+      "id": "sm-borgo-maggiore",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Pueblo a los pies del Titano, unido por teleférico con vistas.",
+      "actividad": "Teleférico Borgo Maggiore–Città",
+      "fuentes": []
+    },
+    {
+      "id": "va-basilica-san-pedro",
+      "puntaje": 0,
+      "unesco": true,
+      "justificacion": "Monumento urbano sin naturaleza.",
+      "actividad": "—",
+      "fuentes": []
+    },
+    {
+      "id": "va-cupula-san-pedro",
+      "puntaje": 1,
+      "unesco": true,
+      "justificacion": "Solo aporta vistas panorámicas sobre Roma y los jardines.",
+      "actividad": "Subida a la cúpula (551 escalones)",
+      "fuentes": []
+    },
+    {
+      "id": "va-museos-vaticanos",
+      "puntaje": 0,
+      "unesco": true,
+      "justificacion": "Museo, sin naturaleza.",
+      "actividad": "—",
+      "fuentes": []
+    },
+    {
+      "id": "va-capilla-sixtina",
+      "puntaje": 0,
+      "unesco": true,
+      "justificacion": "Interior artístico, sin naturaleza.",
+      "actividad": "—",
+      "fuentes": []
+    },
+    {
+      "id": "va-plaza-san-pedro",
+      "puntaje": 0,
+      "unesco": true,
+      "justificacion": "Plaza urbana.",
+      "actividad": "—",
+      "fuentes": []
+    },
+    {
+      "id": "va-jardines-vaticanos",
+      "puntaje": 2,
+      "unesco": true,
+      "justificacion": "Unas 23 ha de jardines históricos y bosquete; naturaleza ornamental dentro de la ciudad.",
+      "actividad": "Visita guiada a los jardines (reserva en los Museos Vaticanos)",
+      "fuentes": []
+    }
+  ],
+  "nuevos": [
+    {
+      "id": "it-parque-gran-paradiso",
+      "nombre": "Parque Nacional Gran Paradiso (Cogne, Valnontey)",
+      "pais_iso": "IT",
+      "region": "Valle de Aosta / Piamonte",
+      "lat": 45.5897,
+      "lng": 7.3415,
+      "tipo": "montaña",
+      "puntaje": 5,
+      "unesco": false,
+      "justificacion": "El parque nacional más antiguo de Italia (1922), en torno al único cuatromil íntegramente italiano; refugio histórico del íbice alpino, con glaciares, lagos y rebecos fáciles de observar.",
+      "actividad": "Valnontey–Rifugio Vittorio Sella (921 m de desnivel, ~2h30) y prolongación a los lagos del Lauson",
+      "fuentes": [
+        {
+          "guia": "Valle d'Aosta Turismo (lovevda.it)",
+          "url": "https://gestwww.lovevda.it/Media/Default/Allegati-PDF/pagina%20singola_GP_StambeccoIT.pdf"
+        },
+        {
+          "guia": "Komoot",
+          "url": "https://www.komoot.com/it-it/smarttour/e1267686434/valnontey-lillaz-ed-epinel-da-cogne-nel-parco-nazionale-del-gran-paradiso"
+        },
+        {
+          "guia": "Montagna.tv",
+          "url": "https://www.montagna.tv/260868/al-lago-del-lauson-nel-parco-nazionale-gran-paradiso/"
+        }
+      ]
+    },
+    {
+      "id": "it-parque-stelvio",
+      "nombre": "Parque Nacional del Stelvio (Ortles-Cevedale)",
+      "pais_iso": "IT",
+      "region": "Lombardía / Trentino-Alto Adigio",
+      "lat": 46.5286,
+      "lng": 10.4531,
+      "tipo": "montaña",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "Uno de los mayores parques alpinos (más de 130.000 ha, fundado en 1935) con el macizo Ortles-Cevedale, glaciares, ciervos y el mítico puerto del Stelvio (2.757 m).",
+      "actividad": "Valle dei Forni desde Santa Caterina Valfurva hacia el glaciar, o Val di Rabbi/Val Martello en el sector trentino",
+      "fuentes": [
+        {
+          "guia": "Trentino.com (turismo oficial)",
+          "url": "https://www.trentino.com/it/cultura-e-territorio/natura-e-paesaggio/parchi-naturali/parco-nazionale-dello-stelvio/"
+        },
+        {
+          "guia": "Regione Lombardia",
+          "url": "https://www.regione.lombardia.it/ambiente-e-territorio/montagna/parco-nazionale-dello-stelvio"
+        }
+      ]
+    },
+    {
+      "id": "it-parque-abruzzo",
+      "nombre": "Parque Nacional de Abruzzo, Lacio y Molise (Pescasseroli)",
+      "pais_iso": "IT",
+      "region": "Abruzzo",
+      "lat": 41.8075,
+      "lng": 13.7883,
+      "tipo": "naturaleza",
+      "puntaje": 5,
+      "unesco": true,
+      "justificacion": "Parque emblemático de los Apeninos (1922-23), hogar del oso pardo marsicano y del rebeco de Abruzos; sus hayedos viejos (Val Cervara, Coppo del Morto) son Patrimonio Natural UNESCO desde 2017.",
+      "actividad": "Val Fondillo–Camosciara (Opi/Civitella Alfedena) y observación de fauna al amanecer",
+      "fuentes": [
+        {
+          "guia": "Italia.it (ENIT, turismo oficial)",
+          "url": "https://www.italia.it/it/italia/parco-nazionale-abruzzo-lazio-e-molise"
+        },
+        {
+          "guia": "Italia.it (ENIT, turismo oficial)",
+          "url": "https://www.italia.it/it/abruzzo/l-aquila/cosa-fare/itinerario-7-giorni-parco-nazionale-abruzzo"
+        },
+        {
+          "guia": "UNESCO",
+          "url": "https://whc.unesco.org/en/list/1133/"
+        }
+      ]
+    },
+    {
+      "id": "it-gargano",
+      "nombre": "Parque Nacional del Gargano y Foresta Umbra",
+      "pais_iso": "IT",
+      "region": "Apulia",
+      "lat": 41.8167,
+      "lng": 15.9833,
+      "tipo": "naturaleza",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "Promontorio sobre el Adriático con la Foresta Umbra, uno de los mayores bosques de frondosas de Italia (hayedo UNESCO), y una costa de acantilados blancos, grutas y calas entre Vieste y Mattinata.",
+      "actividad": "Senderos de la Foresta Umbra y barco por las grutas marinas de Vieste (Baia delle Zagare)",
+      "fuentes": [
+        {
+          "guia": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Gargano_National_Park"
+        },
+        {
+          "guia": "Viaggiando Italia",
+          "url": "https://www.viaggiando-italia.it/foresta-umbra-parco-nazionale-gargano/"
+        },
+        {
+          "guia": "UNESCO",
+          "url": "https://whc.unesco.org/en/list/1133/"
+        }
+      ]
+    },
+    {
+      "id": "it-cilento",
+      "nombre": "Parque Nacional del Cilento (Palinuro)",
+      "pais_iso": "IT",
+      "region": "Campania",
+      "lat": 40.034,
+      "lng": 15.283,
+      "tipo": "costa",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "Segundo parque nacional de Italia por superficie: reserva de la biosfera, geoparque y sitio UNESCO; costa de grutas en Palinuro y Marina di Camerota, y montañas como el Cervati.",
+      "actividad": "Barco a la Grotta Azzurra de Palinuro y sendero a la Baia degli Infreschi",
+      "fuentes": [
+        {
+          "guia": "Parks.it (portal de parques italianos)",
+          "url": "https://www.parks.it/parco.nazionale.cilento/Eindex.php"
+        },
+        {
+          "guia": "Visit Naples",
+          "url": "https://www.visitnaples.eu/en/neapolitanity/discover-naples/cilento-is-a-world-heritage-site-archaeology-and-nature-in-a-unesco-site"
+        }
+      ]
+    },
+    {
+      "id": "it-sila",
+      "nombre": "Parque Nacional de la Sila (Camigliatello, Lorica)",
+      "pais_iso": "IT",
+      "region": "Calabria",
+      "lat": 39.3394,
+      "lng": 16.4467,
+      "tipo": "naturaleza",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "Meseta de bosques de pino laricio y lagos (Arvo, Cecita) en el corazón de Calabria; la reserva de los Gigantes de la Sila (FAI) guarda pinos de unos 350 años y hasta 45 m.",
+      "actividad": "Etapa Camigliatello–Lorica del Sentiero Italia y reserva Giganti della Sila (visitas suspendidas temporalmente desde julio de 2026 por caída de árboles; consultar FAI)",
+      "fuentes": [
+        {
+          "guia": "FAI – Fondo Ambiente Italiano",
+          "url": "https://fondoambiente.it/news/i-giganti-di-fallistro-storia-e-cultura-in-una-riserva-di-natura"
+        },
+        {
+          "guia": "FAI – Fondo Ambiente Italiano",
+          "url": "https://fondoambiente.it/news/i-giganti-della-sila-chiudono-temporaneamente-ma-il-casino-mollo-resta-aperto"
+        },
+        {
+          "guia": "Sentiero Italia CAI (vasentiero.org)",
+          "url": "https://www.vasentiero.org/stage/camigliatello-silano-lorica"
+        }
+      ]
+    },
+    {
+      "id": "it-pollino",
+      "nombre": "Parque Nacional del Pollino",
+      "pais_iso": "IT",
+      "region": "Basilicata / Calabria",
+      "lat": 39.9531,
+      "lng": 16.0397,
+      "tipo": "montaña",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "El mayor parque nacional de Italia, con el pino loricato, gargantas como las del Raganello y hayedos viejos incluidos en el Patrimonio Natural UNESCO (Cozzo Ferriero).",
+      "actividad": "Ruta a la Serra di Crispo ('Giardino degli Dei', pinos loricatos) desde el Colle dell'Impiso",
+      "fuentes": [
+        {
+          "guia": "UNESCO",
+          "url": "https://whc.unesco.org/en/list/1133/"
+        }
+      ]
+    },
+    {
+      "id": "it-foreste-casentinesi",
+      "nombre": "Parque Nacional de las Foreste Casentinesi (Camaldoli)",
+      "pais_iso": "IT",
+      "region": "Toscana / Emilia-Romaña",
+      "lat": 43.796,
+      "lng": 11.82,
+      "tipo": "naturaleza",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "Bosques de abetos y hayas entre Toscana y Romaña; la reserva integral de Sasso Fratino es Patrimonio Natural UNESCO. Lobo, ciervo y monasterios de Camaldoli y La Verna.",
+      "actividad": "Sendero de Camaldoli al Sacro Eremo y Monte Falco–Falterona (nacimiento del Arno)",
+      "fuentes": [
+        {
+          "guia": "UNESCO",
+          "url": "https://whc.unesco.org/en/list/1133/"
+        },
+        {
+          "guia": "Parco Nazionale Foreste Casentinesi",
+          "url": "https://www.parcoforestecasentinesi.it/sites/default/files/CRINALI%202017%20ok.pdf"
+        }
+      ]
+    },
+    {
+      "id": "it-aspromonte",
+      "nombre": "Parque Nacional del Aspromonte (Gambarie)",
+      "pais_iso": "IT",
+      "region": "Calabria",
+      "lat": 38.166,
+      "lng": 15.833,
+      "tipo": "montaña",
+      "puntaje": 3,
+      "unesco": true,
+      "justificacion": "Macizo del extremo de Calabria entre dos mares, con cascadas, fiumare y el hayedo de la Valle Infernale, incorporado al Patrimonio Natural UNESCO en 2021.",
+      "actividad": "Ruta a las cascadas Maesano y subida al Montalto (1.955 m) desde Gambarie",
+      "fuentes": [
+        {
+          "guia": "UNESCO",
+          "url": "https://whc.unesco.org/en/list/1133/"
+        }
+      ]
+    }
+  ]
+}
