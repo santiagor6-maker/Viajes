@@ -1,0 +1,462 @@
+{
+  "agente": "gastronomia-vino",
+  "subregion": "iberica-italia",
+  "ronda": 3,
+  "puntajes": [
+    {
+      "id": "es-sierra-de-guara-alquezar",
+      "puntaje": 3,
+      "justificacion": "Alquézar está dentro de la D.O. Somontano, con bodegas visitables en torno a Barbastro, y la zona tiene buena cocina altoaragonesa de ternasco y longaniza.",
+      "platos": ["Vino D.O. Somontano", "Ternasco de Aragón", "Longaniza de Graus", "Aceite del Somontano"],
+      "fuentes": [
+        {"guia": "Turismo Somontano (comarca)", "url": "https://www.turismosomontano.es/images/RUTAS/barrancos/Barranco_Vero.pdf"},
+        {"guia": "Spain.info (turismo oficial de España)", "url": "https://www.spain.info/es/actividades/semana-barranquismo-sierra-guara/"}
+      ]
+    },
+    {
+      "id": "es-noguera-pallaresa-sort",
+      "puntaje": 2,
+      "justificacion": "Cocina pirenaica del Pallars (embutidos, setas, guisos de montaña) para recuperar fuerzas después del rafting; no es un destino gastronómico.",
+      "platos": ["Girella del Pallars", "Trinxat", "Xolís (embutido curado)"],
+      "fuentes": []
+    },
+    {
+      "id": "es-montserrat",
+      "puntaje": 2,
+      "justificacion": "El mercadillo del santuario vende mató con miel y quesos de payés, y el licor Aromes de Montserrat se elabora aquí; la visita es sobre todo espiritual y de paisaje.",
+      "platos": ["Mató con miel", "Licor Aromes de Montserrat", "Coca de recapte"],
+      "fuentes": []
+    },
+    {
+      "id": "es-figueres-cadaques",
+      "puntaje": 3,
+      "justificacion": "El Alt Empordà tiene cocina de mar y montaña muy propia, la D.O. Empordà con bodegas visitables y las anchoas de L'Escala muy cerca; en Cadaqués se come buen pescado de roca.",
+      "platos": ["Suquet de peix", "Anchoas de L'Escala", "Vino D.O. Empordà", "Erizos de mar (garoinada)"],
+      "fuentes": [
+        {"guia": "Patrimoni Cultural (Generalitat de Catalunya)", "url": "https://patrimoni.gencat.cat/en/collection/dali-theatre-museum-and-dali-triangle"}
+      ]
+    },
+    {
+      "id": "es-cadiz",
+      "puntaje": 4,
+      "justificacion": "Es la capital del pescaíto frito y las tortillitas de camarones, con freidurías y el Mercado Central de Abastos. Está en pleno Marco de Jerez, y Aponiente (tres estrellas Michelin, El Puerto de Santa María) queda a 20 km.",
+      "platos": ["Pescaíto frito", "Tortillitas de camarones", "Atún rojo de almadraba", "Manzanilla y fino"],
+      "fuentes": [
+        {"guia": "TasteAtlas", "url": "https://www.tasteatlas.com/best-rated-dishes-in-andalusia"},
+        {"guia": "Guía Michelin", "url": "https://guide.michelin.com/gb/en/article/michelin-guide-ceremony/all-michelin-star-restaurants-in-spain-2026-the-full-list"}
+      ]
+    },
+    {
+      "id": "es-albarracin",
+      "puntaje": 2,
+      "justificacion": "Cocina serrana turolense de jamón, migas y caza en un pueblo más monumental que gastronómico.",
+      "platos": ["Jamón de Teruel DOP", "Migas de pastor", "Ternasco"],
+      "fuentes": []
+    },
+    {
+      "id": "es-teruel",
+      "puntaje": 3,
+      "justificacion": "Es la capital del jamón de Teruel, la primera D.O. de jamón de España. También tiene buen melocotón de Calanda y la repostería de los Amantes.",
+      "platos": ["Jamón de Teruel DOP", "Delicias de Teruel (tostada de jamón)", "Suspiros de amante", "Melocotón de Calanda"],
+      "fuentes": [
+        {"guia": "Turismo de Aragón (oficial)", "url": "https://www.turismodearagon.com/rutas-por-aragon/mudejar-de-teruel-daroca-y-tierras-del-jiloca/"}
+      ]
+    },
+    {
+      "id": "es-pamplona",
+      "puntaje": 4,
+      "justificacion": "El Casco Viejo tiene una gran cultura del pintxo y del txikiteo. La huerta de la Ribera aporta pimientos del piquillo, pochas y alcachofas, y en Olite y la D.O. Navarra hay bodegas visitables.",
+      "platos": ["Pintxos del Casco Viejo", "Bacalao al ajoarriero", "Pimientos del piquillo rellenos", "Pochas a la navarra"],
+      "fuentes": [
+        {"guia": "Barceló Guía de Turismo (comida navarra)", "url": "https://www.barcelo.com/guia-turismo/en/spain/pamplona/things-to-do/typical-navarran-food/"},
+        {"guia": "In Your Pocket", "url": "https://www.inyourpocket.com/spain/pamplona/articles/spanish-food-5-must-try-dishes-in-pamplona"}
+      ]
+    },
+    {
+      "id": "es-cartagena",
+      "puntaje": 3,
+      "justificacion": "Tiene platos propios muy marcados: el caldero del Mar Menor, el café asiático y los michirones. Además, la despensa de la huerta murciana queda muy cerca.",
+      "platos": ["Caldero del Mar Menor", "Café asiático", "Michirones", "Pastel de carne murciano"],
+      "fuentes": [
+        {"guia": "Spain.info (Turespaña)", "url": "https://www.spain.info/es/destino/cartagena/"}
+      ]
+    },
+    {
+      "id": "es-trujillo",
+      "puntaje": 3,
+      "justificacion": "Acoge la Feria Nacional del Queso y está en el corazón de la dehesa extremeña: Torta del Casar, ibérico y cocina de caza y cordero.",
+      "platos": ["Torta del Casar", "Jamón Dehesa de Extremadura", "Migas extremeñas", "Caldereta de cordero"],
+      "fuentes": [
+        {"guia": "Spain.info (Turespaña)", "url": "https://www.spain.info/es/destino/trujillo/"},
+        {"guia": "TasteAtlas", "url": "https://www.tasteatlas.com/best-rated-dishes-in-extremadura"}
+      ]
+    },
+    {
+      "id": "es-guadalupe",
+      "puntaje": 2,
+      "justificacion": "Cocina de las Villuercas (quesos de cabra, miel, cabrito) y la hospedería del monasterio; interés gastronómico secundario.",
+      "platos": ["Queso de Ibores DOP", "Miel de las Villuercas", "Cabrito asado"],
+      "fuentes": []
+    },
+    {
+      "id": "es-a-coruna",
+      "puntaje": 3,
+      "justificacion": "La calle de la Estrella y su entorno son famosos por las tapas, con marisco de la ría, pulpo y empanada gallega. La Plaza de Lugo es uno de los grandes mercados de abastos de Galicia.",
+      "platos": ["Pulpo á feira", "Percebes y nécoras", "Empanada gallega", "Tortilla de Betanzos"],
+      "fuentes": [
+        {"guia": "TasteAtlas", "url": "https://www.tasteatlas.com/galicia"},
+        {"guia": "TasteAtlas", "url": "https://www.tasteatlas.com/most-popular-food-in-galicia"}
+      ]
+    },
+    {
+      "id": "es-lugo",
+      "puntaje": 3,
+      "justificacion": "Tiene una gran ruta de tapas gratis con la consumición en las calles da Cruz y Nova, y una cocina de interior con pulpo, carne de vacuno gallego y quesos. La Ribeira Sacra queda cerca.",
+      "platos": ["Pulpo á feira", "Ternera Gallega IGP", "Queso de San Simón da Costa", "Vino de la Ribeira Sacra"],
+      "fuentes": [
+        {"guia": "TasteAtlas", "url": "https://www.tasteatlas.com/galicia"}
+      ]
+    },
+    {
+      "id": "pt-aveiro",
+      "puntaje": 3,
+      "justificacion": "Tiene dulces muy propios: los ovos moles de Aveiro, con IGP. También hay caldeiradas de anguila de la ría y bacalao, y la Bairrada del leitão queda a 30 km.",
+      "platos": ["Ovos moles de Aveiro IGP", "Caldeirada de enguias", "Tripas de Aveiro", "Espumante da Bairrada"],
+      "fuentes": [
+        {"guia": "VisitPortugal (oficial)", "url": "https://www.visitportugal.com/pt-pt/destinos/aveiro/73753"},
+        {"guia": "TasteAtlas", "url": "https://www.tasteatlas.com/best/search/portugal"}
+      ]
+    },
+    {
+      "id": "pt-fatima",
+      "puntaje": 1,
+      "justificacion": "Santuario con restauración orientada a peregrinos; poco interés gastronómico.",
+      "platos": ["Leitão (en la región)", "Pastéis de Fátima"],
+      "fuentes": []
+    },
+    {
+      "id": "pt-piodao",
+      "puntaje": 2,
+      "justificacion": "Aldeas de pizarra con cocina serrana de cabrito, miel y aguardiente de madroño; la zona del queso Serra da Estrela queda cerca.",
+      "platos": ["Cabrito assado", "Aguardente de medronho", "Queijo Serra da Estrela"],
+      "fuentes": []
+    },
+    {
+      "id": "pt-viana-do-castelo",
+      "puntaje": 3,
+      "justificacion": "Está en el corazón del Vinho Verde: Ponte de Lima es la capital del arroz de sarrabulho y del Loureiro. En Viana hay bacalao, pescado del Atlántico y la repostería de las bolas de Berlim.",
+      "platos": ["Arroz de sarrabulho à moda de Ponte de Lima", "Vinho Verde Loureiro", "Bacalhau à Gil Eanes", "Sopa seca minhota"],
+      "fuentes": [
+        {"guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-viana-do-castelo-portugal"},
+        {"guia": "TasteAtlas", "url": "https://www.tasteatlas.com/best/search/portugal"}
+      ]
+    },
+    {
+      "id": "es-islas-cies",
+      "puntaje": 1,
+      "justificacion": "Parque nacional con un único restaurante-camping; el marisco y el pescado se comen en Vigo o Cangas.",
+      "platos": ["Mejillones de la ría de Vigo", "Ostras de la calle de la Pescadería (Vigo)"],
+      "fuentes": []
+    },
+    {
+      "id": "es-gran-canaria",
+      "puntaje": 3,
+      "justificacion": "Cocina canaria con productos propios como el queso de flor de Guía, el ron de Arucas, el café de Agaete (el único de Europa) y vinos de la D.O. Gran Canaria.",
+      "platos": ["Papas arrugadas con mojo", "Queso de flor de Guía", "Café de Agaete", "Sancocho canario"],
+      "fuentes": [
+        {"guia": "TasteAtlas", "url": "https://www.tasteatlas.com/best-rated-dishes-in-canary-islands"},
+        {"guia": "TasteAtlas", "url": "https://www.tasteatlas.com/canary-islands"}
+      ]
+    },
+    {
+      "id": "es-fuerteventura",
+      "puntaje": 3,
+      "justificacion": "Es la tierra del queso majorero DOP, de cabra, con queserías visitables, y tiene buena cocina de cabrito y pescado; fuera de eso, la oferta es sencilla.",
+      "platos": ["Queso majorero DOP", "Cabrito en salsa", "Papas arrugadas con mojo", "Vieja sancochada"],
+      "fuentes": [
+        {"guia": "TasteAtlas", "url": "https://www.tasteatlas.com/best-rated-dishes-in-canary-islands"}
+      ]
+    },
+    {
+      "id": "es-cabo-de-gata",
+      "puntaje": 2,
+      "justificacion": "Pescado y gurullos almerienses en San José y La Isleta del Moro; buena comida sencilla de costa.",
+      "platos": ["Gurullos con conejo", "Pescado de la lonja", "Tomate RAF"],
+      "fuentes": []
+    },
+    {
+      "id": "es-bardenas-reales",
+      "puntaje": 2,
+      "justificacion": "El parque no tiene oferta propia, pero Tudela, a 20 km, es la capital de la verdura navarra (alcachofa, cogollos, espárrago).",
+      "platos": ["Menestra de verduras de Tudela", "Cogollos de Tudela", "Espárrago de Navarra IGP"],
+      "fuentes": []
+    },
+    {
+      "id": "es-monfrague",
+      "puntaje": 2,
+      "justificacion": "Dehesa de cerdo ibérico y quesos extremeños en los pueblos del entorno (Torrejón el Rubio, Villarreal de San Carlos); interés secundario.",
+      "platos": ["Jamón ibérico de dehesa", "Pimentón de la Vera", "Torta del Casar"],
+      "fuentes": []
+    },
+    {
+      "id": "pt-benagil-sete-vales",
+      "puntaje": 2,
+      "justificacion": "Restaurantes de pescado en Benagil, Carvoeiro y Ferragudo; cocina algarvía correcta en un destino de naturaleza.",
+      "platos": ["Cataplana de marisco", "Sardinhas assadas", "Dom Rodrigo"],
+      "fuentes": []
+    },
+    {
+      "id": "it-finale-ligure",
+      "puntaje": 2,
+      "justificacion": "Cocina ligur de focaccia y pesto, con los blancos Pigato y Vermentino de la Riviera di Ponente; buena comida, pero no un destino foodie.",
+      "platos": ["Focaccia ligure", "Trofie al pesto", "Pigato Riviera Ligure di Ponente"],
+      "fuentes": []
+    },
+    {
+      "id": "it-tivoli",
+      "puntaje": 2,
+      "justificacion": "Trattorias de cocina romana y de los Castelli; interés secundario frente a las villas.",
+      "platos": ["Pizza sfogliata tiburtina", "Porchetta", "Fettuccine all'amatriciana"],
+      "fuentes": []
+    },
+    {
+      "id": "it-ostia-antica",
+      "puntaje": 1,
+      "justificacion": "Yacimiento arqueológico; el pescado se come en el Lido di Ostia o en Fiumicino.",
+      "platos": ["Fritto misto (Fiumicino)", "Spaghetti alle vongole"],
+      "fuentes": []
+    },
+    {
+      "id": "it-civita-di-bagnoregio",
+      "puntaje": 2,
+      "justificacion": "Bruschette con aceite de la Tuscia y el blanco Est! Est!! Est!!! de Montefiascone en las cercanías; oferta pequeña.",
+      "platos": ["Bruschetta con aceite de la Tuscia", "Est! Est!! Est!!! di Montefiascone", "Lombrichelli"],
+      "fuentes": []
+    },
+    {
+      "id": "it-reggia-di-caserta",
+      "puntaje": 3,
+      "justificacion": "La provincia de Caserta es el corazón productor de la mozzarella di bufala campana DOP, con caseifici visitables. En la zona también se elaboran vinos de Pallagrello y Casavecchia.",
+      "platos": ["Mozzarella di bufala campana DOP", "Pizza napoletana", "Pallagrello bianco"],
+      "fuentes": [
+        {"guia": "UNESCO", "url": "https://whc.unesco.org/en/list/549/"}
+      ]
+    },
+    {
+      "id": "it-vicenza",
+      "puntaje": 3,
+      "justificacion": "El baccalà alla vicentina sobre polenta es su plato emblema; el queso Asiago DOP y los vinos de Breganze (Torcolato) completan una buena despensa local.",
+      "platos": ["Baccalà alla vicentina con polenta", "Asiago DOP", "Bigoli", "Torcolato di Breganze"],
+      "fuentes": [
+        {"guia": "TasteAtlas", "url": "https://tasteatlas.com/la-rosina/baccala-alla-vicentina"},
+        {"guia": "TasteAtlas", "url": "https://www.tasteatlas.com/best-rated-fish-dishes-in-veneto"}
+      ]
+    },
+    {
+      "id": "it-bergamo",
+      "puntaje": 4,
+      "justificacion": "Es la ciudad de los casoncelli y de una de las mayores concentraciones de quesos DOP de Europa (Taleggio, Strachítunt, Branzi). Da Vittorio, en Brusaporto, tiene tres estrellas Michelin y está a 10 km.",
+      "platos": ["Casoncelli alla bergamasca", "Polenta taragna", "Strachítunt DOP", "Polenta e osei (dulce)"],
+      "fuentes": [
+        {"guia": "VisitBergamo (casoncelli)", "url": "https://visitbergamo.net/en/casoncelli"},
+        {"guia": "Wikipedia (lista de restaurantes con estrella Michelin en Italia)", "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Italy"}
+      ]
+    },
+    {
+      "id": "it-castel-del-monte",
+      "puntaje": 3,
+      "justificacion": "Da nombre a la DOC Castel del Monte (Nero di Troia, rosado de Bombino Nero). La vecina Andria es la cuna de la burrata.",
+      "platos": ["Burrata di Andria IGP", "Castel del Monte Nero di Troia", "Orecchiette con cime di rapa"],
+      "fuentes": [
+        {"guia": "TasteAtlas", "url": "https://www.tasteatlas.com/best-rated-dishes-in-apulia"}
+      ]
+    },
+    {
+      "id": "it-bari",
+      "puntaje": 4,
+      "justificacion": "Tiene una escena callejera de primer orden: la focaccia barese, el panino col polpo, la sgagliozza y las orecchiette hechas a mano en la calle del Arco Basso. Además, se come crudo de mar en el puerto.",
+      "platos": ["Focaccia barese", "Panino col polpo", "Orecchiette con cime di rapa", "Sgagliozze y popizze"],
+      "fuentes": [
+        {"guia": "TasteAtlas", "url": "https://www.tasteatlas.com/best-rated-dishes-in-apulia"},
+        {"guia": "TasteAtlas", "url": "https://www.tasteatlas.com/50-most-popular-dishes-in-apulia"}
+      ]
+    },
+    {
+      "id": "it-polignano-monopoli",
+      "puntaje": 3,
+      "justificacion": "Crudo de mar y erizos en la costa, el caffè speciale de Polignano y la cocina apulia de masseria en el interior de Monopoli.",
+      "platos": ["Crudo di mare", "Caffè speciale de Polignano", "Ricci di mare", "Burrata"],
+      "fuentes": [
+        {"guia": "TasteAtlas", "url": "https://www.tasteatlas.com/best-rated-dishes-in-apulia"},
+        {"guia": "Italo Treno (blog)", "url": "https://blog.italotreno.com/idee-di-viaggio/cosa-vedere-a-polignano-a-mare-in-un-giorno/"}
+      ]
+    },
+    {
+      "id": "it-aquileia",
+      "puntaje": 2,
+      "justificacion": "Está dentro de la DOC Friuli Aquileia, con algunas bodegas en la llanura; Grado y su boreto de pescado quedan a 10 km.",
+      "platos": ["Boreto alla gradese", "Refosco Friuli Aquileia", "Frico"],
+      "fuentes": []
+    },
+    {
+      "id": "it-cividale-udine",
+      "puntaje": 4,
+      "justificacion": "Cividale es la puerta de los Colli Orientali del Friuli (Picolit, Schioppettino, Ramandolo), con bodegas visitables y la gubana. En Udine hay cultura del tajut en las osterie, y San Daniele está a 25 km.",
+      "platos": ["Frico", "Cjarsons", "Gubana de Cividale", "Prosciutto di San Daniele DOP"],
+      "fuentes": [
+        {"guia": "TasteAtlas", "url": "https://tasteatlas.com/best-dishes-in-udine"}
+      ]
+    },
+    {
+      "id": "it-cefalu",
+      "puntaje": 2,
+      "justificacion": "Pescado y la pasta a taianu típica de la ciudad, pero la oferta es sobre todo turística.",
+      "platos": ["Pasta a taianu", "Sarde a beccafico", "Cannoli"],
+      "fuentes": []
+    },
+    {
+      "id": "it-erice-segesta",
+      "puntaje": 4,
+      "justificacion": "Trapani es la capital del cuscús de pescado y de las busiate al pesto trapanese, y tiene salinas con sal IGP. En Erice hay repostería de almendra conventual, y Marsala queda a 30 km.",
+      "platos": ["Couscous alla trapanese", "Busiate al pesto trapanese", "Genovesi ericine", "Marsala"],
+      "fuentes": [
+        {"guia": "Frommer's (Osteria La Bettolaccia, Trapani)", "url": "https://www.frommers.com/destinations/trapani/restaurants/osteria-la-bettolaccia"},
+        {"guia": "Italia.it (Erice)", "url": "https://www.italia.it/it/sicilia/trapani/erice"}
+      ]
+    },
+    {
+      "id": "it-selinunte",
+      "puntaje": 2,
+      "justificacion": "Pescado en Marinella; la vecina Castelvetrano aporta las aceitunas Nocellara del Belice DOP y el pan negro.",
+      "platos": ["Nocellara del Belice DOP", "Pane nero di Castelvetrano", "Pescado de Marinella"],
+      "fuentes": []
+    },
+    {
+      "id": "it-perugia",
+      "puntaje": 3,
+      "justificacion": "Ciudad del chocolate (Perugina, Baci y el festival Eurochocolate) con cocina umbra de trufa, porchetta y torta al testo.",
+      "platos": ["Baci Perugina", "Torta al testo", "Porchetta umbra", "Torciglione"],
+      "fuentes": [
+        {"guia": "Great Italian Chefs (guía de Umbría)", "url": "https://www.greatitalianchefs.com/features/umbria-food-guide-cuisine"},
+        {"guia": "Falstaff (restaurantes en Perugia)", "url": "https://www.falstaff.com/en/listings/the-best-restaurants-with-2-falstaff-forks-in-perugia"}
+      ]
+    },
+    {
+      "id": "it-spoleto",
+      "puntaje": 3,
+      "justificacion": "Tiene trufa negra y strangozzi propios, y a 20 km está Montefalco, con su Sagrantino DOCG y bodegas visitables. En la zona se produce también el Trebbiano Spoletino.",
+      "platos": ["Strangozzi al tartufo nero", "Sagrantino di Montefalco DOCG", "Trebbiano Spoletino", "Crescionda"],
+      "fuentes": [
+        {"guia": "Great Italian Chefs (guía de Umbría)", "url": "https://www.greatitalianchefs.com/features/umbria-food-guide-cuisine"},
+        {"guia": "Walks of Italy", "url": "https://www.walksofitaly.com/blog/food-and-wine/what-foods-to-eat-in-umbria-and-tuscany-culinary-specialties-florence"}
+      ]
+    },
+    {
+      "id": "it-portofino-san-fruttuoso",
+      "puntaje": 3,
+      "justificacion": "Liguria del pesto y la focaccia: Camogli y Recco, cuna de la focaccia col formaggio IGP, están en el mismo promontorio; buen pescado en San Fruttuoso y Camogli.",
+      "platos": ["Focaccia di Recco col formaggio IGP", "Trofie al pesto", "Pansoti con salsa di noci", "Acciughe"],
+      "fuentes": [
+        {"guia": "Gulliver (itinerario)", "url": "https://www.gulliver.it/itinerari/san-fruttuoso-abbazia-di-da-camogli-traversata-portofino-santa-margherita-ligure/2024/02/03/299957/"}
+      ]
+    },
+    {
+      "id": "it-isla-de-elba",
+      "puntaje": 3,
+      "justificacion": "Tiene vino propio, el Aleatico dell'Elba Passito DOCG, con bodegas en la isla, además de dulces como la schiaccia briaca y cocina de pescado toscana.",
+      "platos": ["Aleatico dell'Elba Passito DOCG", "Schiaccia briaca", "Gurguglione", "Cacciucco"],
+      "fuentes": [
+        {"guia": "Visit Tuscany (turismo oficial)", "url": "https://www.visittuscany.com/it/itinerari/tre-giorni-allisola-delba-tra-mare-trekking-e-storia/"}
+      ]
+    },
+    {
+      "id": "it-zingaro-san-vito-lo-capo",
+      "puntaje": 3,
+      "justificacion": "San Vito Lo Capo celebra cada septiembre el Cous Cous Fest y en Scopello se sirve pane cunzato; cocina trapanense de pescado.",
+      "platos": ["Couscous di pesce", "Pane cunzato", "Busiate al pesto trapanese"],
+      "fuentes": [
+        {"guia": "Frommer's (Trapani)", "url": "https://www.frommers.com/destinations/trapani/restaurants/osteria-la-bettolaccia"},
+        {"guia": "SiViaggia", "url": "https://siviaggia.it/vacanze-natura/escursioni-riserva-zingaro-quali-fare/410124/"}
+      ]
+    },
+    {
+      "id": "it-islas-egadi",
+      "puntaje": 3,
+      "justificacion": "Favignana fue la gran almadraba del Mediterráneo (ex Stabilimento Florio) y conserva la cocina del atún rojo y la bottarga; en Marettimo se comen erizos y langosta.",
+      "platos": ["Tonno rosso di Favignana", "Bottarga di tonno", "Couscous di pesce", "Ricci di mare"],
+      "fuentes": [
+        {"guia": "Italia.it (ENIT, turismo oficial)", "url": "https://www.italia.it/it/sicilia/trapani/area-marina-protetta-isole-egadi"},
+        {"guia": "Wikivoyage", "url": "https://it.wikivoyage.org/wiki/Isole_Egadi"}
+      ]
+    },
+    {
+      "id": "it-gran-sasso-campo-imperatore",
+      "puntaje": 3,
+      "justificacion": "Cocina pastoral abruzzesa muy propia: arrosticini a la brasa en el refugio de Campo Imperatore, lenteja de Santo Stefano di Sessanio, pecorino canestrato y azafrán de L'Aquila DOP.",
+      "platos": ["Arrosticini", "Lenticchia di Santo Stefano di Sessanio", "Canestrato di Castel del Monte", "Zafferano dell'Aquila DOP"],
+      "fuentes": [
+        {"guia": "Moveo (Telepass)", "url": "https://moveo.telepass.com/campo-imperatore-cosa-vedere/"},
+        {"guia": "Finestre sull'Arte", "url": "https://www.finestresullarte.info/viaggi/parco-del-gran-sasso-cosa-vedere-10-luoghi"}
+      ]
+    },
+    {
+      "id": "it-monti-sibillini-castelluccio",
+      "puntaje": 4,
+      "justificacion": "La lenteja de Castelluccio IGP florece en el propio altiplano, y Norcia, a 30 km, es la capital de la norcinería y de la trufa negra. Allí se elaboran el prosciutto di Norcia IGP y el pecorino.",
+      "platos": ["Lenticchia di Castelluccio IGP", "Prosciutto di Norcia IGP", "Tartufo nero di Norcia", "Ciauscolo IGP"],
+      "fuentes": [
+        {"guia": "Guía Michelin", "url": "https://guide.michelin.com/it/it/notizia/travel/l-onirica-fioritura-di-castelluccio"},
+        {"guia": "Great Italian Chefs (guía de Umbría)", "url": "https://www.greatitalianchefs.com/features/umbria-food-guide-cuisine"}
+      ]
+    },
+    {
+      "id": "it-riviera-del-conero",
+      "puntaje": 3,
+      "justificacion": "Los moscioli salvajes de Portonovo (Presidio Slow Food) y el Conero DOCG de Montepulciano, con bodegas en el promontorio, más el brodetto all'anconetana.",
+      "platos": ["Moscioli selvatici di Portonovo", "Rosso Conero / Conero DOCG", "Brodetto all'anconetana", "Olive all'ascolana"],
+      "fuentes": [
+        {"guia": "TheWom Travel", "url": "https://travel.thewom.it/italia/marche/sentieri-conero.html"}
+      ]
+    },
+    {
+      "id": "it-alghero-capo-caccia",
+      "puntaje": 3,
+      "justificacion": "Cocina de raíz catalana con la aragosta alla catalana como emblema, y bodegas visitables como Sella & Mosca (Torbato, Vermentino, Cannonau).",
+      "platos": ["Aragosta alla catalana", "Torbato di Alghero", "Ricci di mare", "Seadas"],
+      "fuentes": [
+        {"guia": "Catavino", "url": "https://catavino.net/alghero-where-catalan-and-sardinian-cuisine-merge/"},
+        {"guia": "Mes Prestiges", "url": "https://mesprestiges.com/en/sardinia/stories/alghero-the-catalan-table"}
+      ]
+    },
+    {
+      "id": "it-polignano-a-mare",
+      "puntaje": 3,
+      "justificacion": "Crudo de mar, erizos y el caffè speciale del Mago del Gelo; buena cocina apulia de costa (duplicado de it-polignano-monopoli).",
+      "platos": ["Crudo di mare", "Caffè speciale", "Polpo alla pignata", "Focaccia barese"],
+      "fuentes": [
+        {"guia": "TasteAtlas", "url": "https://www.tasteatlas.com/best-rated-dishes-in-apulia"},
+        {"guia": "Freedome", "url": "https://freedome.it/blog/cosa-fare-polignano-mare-esperienze-originali/"}
+      ]
+    },
+    {
+      "id": "it-lago-de-iseo-monte-isola",
+      "puntaje": 3,
+      "justificacion": "Linda con la Franciacorta y su Strada del vino. En la orilla se come la tinca al forno de Clusane, y en Monte Isola se elaboran sardinas secas de lago y salame.",
+      "platos": ["Tinca al forno con polenta (Clusane)", "Sardine essiccate di Monte Isola", "Franciacorta DOCG", "Salame di Monte Isola"],
+      "fuentes": [
+        {"guia": "Consorzio Franciacorta", "url": "https://franciacorta.wine/en/consortium/associazione-strada-franciacorta/"},
+        {"guia": "VisitBergamo", "url": "https://visitbergamo.net/public/fr/document/32"}
+      ]
+    },
+    {
+      "id": "it-lago-de-orta",
+      "puntaje": 3,
+      "justificacion": "Villa Crespi de Antonino Cannavacciuolo, en Orta San Giulio, tiene dos estrellas Michelin. Cerca están el gorgonzola de Novara y los tintos del Alto Piamonte (Ghemme, Gattinara).",
+      "platos": ["Gorgonzola DOP", "Ghemme DOCG", "Mortadella di fegato (mortadella d'Orta)", "Pescado de lago"],
+      "fuentes": [
+        {"guia": "Wikipedia (lista de restaurantes con estrella Michelin en Italia)", "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Italy"}
+      ]
+    }
+  ],
+  "nuevos": []
+}

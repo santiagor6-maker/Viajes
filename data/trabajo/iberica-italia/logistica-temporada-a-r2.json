@@ -1,0 +1,258 @@
+{
+  "agente": "logistica-temporada",
+  "subregion": "iberica-italia",
+  "ronda": 2,
+  "paises": ["ES", "PT"],
+  "fecha_consulta": "2026-10-26",
+  "nota": "Ronda 2: solo los 26 lugares nuevos de pendientes-logistica-a-r2.json. Los avisos de país se reutilizan de logistica-temporada-a.json (ronda 1) sin repetir la consulta. Ninguno de los lugares está en una zona con aviso superior al nivel país (el Nivel 3 de EE. UU. afecta solo a Ceuta). Meses, días y costo se basan en conocimiento climático y turístico general. Las reglas de acceso (Cíes, Roque Nublo, Benagil, Bardenas, Genoveses/Mónsul, Montserrat, Monfragüe, Guara, Noguera Pallaresa, Piódão, Guadalupe, Portlligat, Albarracín, Lobos) se comprobaron con WebSearch (WebFetch bloqueado).",
+  "avisos_pais": [
+    { "pais_iso": "ES", "emisor": "EE. UU.", "nivel": "Level 2 - Exercise increased caution (terrorismo y disturbios); Ceuta en Level 3 desde el 1-ago-2026", "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.esp.html" },
+    { "pais_iso": "ES", "emisor": "Reino Unido (FCDO)", "nivel": "Sin desaconsejar viajes; riesgo de terrorismo, avisos de calor extremo, incendios e inundaciones", "url": "https://www.gov.uk/foreign-travel-advice/spain/safety-and-security" },
+    { "pais_iso": "ES", "emisor": "Canadá", "nivel": "Take normal security precautions", "url": "https://travel.gc.ca/destinations/spain" },
+    { "pais_iso": "PT", "emisor": "EE. UU.", "nivel": "Level 1 - Exercise normal precautions (23-dic-2025)", "url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/portugal-travel-advisory.html" },
+    { "pais_iso": "PT", "emisor": "Reino Unido (FCDO)", "nivel": "Sin desaconsejar viajes; alto riesgo de incendios forestales de abril a octubre", "url": "https://www.gov.uk/foreign-travel-advice/portugal" },
+    { "pais_iso": "PT", "emisor": "Canadá", "nivel": "Take normal security precautions (también Azores)", "url": "https://travel.gc.ca/destinations/portugal" }
+  ],
+  "logistica": [
+    {
+      "id": "es-sierra-de-guara-alquezar", "puntaje": 3, "mejor_epoca": [5, 6, 7, 8, 9], "dias_sugeridos": 3, "costo": "$$",
+      "acceso": "En coche desde Huesca (unos 50 km) o Barbastro (25 km); el transporte público hasta Alquézar es casi inexistente.",
+      "alerta": "Cada barranco tiene su propia normativa (PRUG del Parque Natural, Decreto 204/2014) y algunos están prohibidos todo el año, como Cuevas de la Reina. Los barrancos acuáticos se hacen sobre todo de mayo a septiembre, y conviene ir con guía titulado. En julio y agosto hay mucha gente en el Vero.",
+      "fuentes": [
+        { "guia": "Spain.info (turismo oficial de España)", "url": "https://www.spain.info/es/actividades/semana-barranquismo-sierra-guara/" },
+        { "guia": "Gobierno de Aragón (normativa de barranquismo en Guara)", "url": "https://www.aragon.es/documents/20127/66252682/Normativa_barranquismo_Guara.pdf" },
+        { "guia": "Montaña Regulada (Cuevas de la Reina)", "url": "https://montanaregulada.org/en/area/cuevas-de-la-reina" }
+      ]
+    },
+    {
+      "id": "es-noguera-pallaresa-sort", "puntaje": 3, "mejor_epoca": [5, 6, 7, 8, 9], "dias_sugeridos": 2, "costo": "$$",
+      "acceso": "En coche desde Lleida (unas 2 h) o Barcelona (unas 3 h 30) por la N-260; hay autobús de línea con pocas salidas al día.",
+      "alerta": "La temporada de rafting va de abril (algunos operadores abren a mediados de marzo) a mediados de octubre. Lo más emocionante es el deshielo de mayo y junio. El caudal depende de las sueltas de las hidroeléctricas, así que hay que reservar con un operador.",
+      "fuentes": [
+        { "guia": "RocRoi (operador)", "url": "https://www.rocroi.com/en/centers/llavorsi/rafting-llavorsi/" },
+        { "guia": "Estiber (blog del operador, temporada)", "url": "https://www.estiber.com/blog/rafting-en-cataluna/" },
+        { "guia": "Hotel Les Brases (temporada en el Pallars Sobirà)", "url": "https://www.hotellesbrases.com/en/blog/rafting-in-the-pallars-sobira-de-llavorsi-a-sort" }
+      ]
+    },
+    {
+      "id": "es-montserrat", "puntaje": 5, "mejor_epoca": [3, 4, 5, 6, 9, 10, 11], "dias_sugeridos": 1, "costo": "$$",
+      "acceso": "Tren FGC R5 desde Plaça Espanya (unos 60 min) y luego el cremallera desde Monistrol (15 min) o el Aeri; funciona todo el año, sin coche.",
+      "alerta": "Los fines de semana y festivos hay mucha gente. Revisa el último cremallera y el último tren de vuelta en fgc.cat y cremallerademontserrat.cat.",
+      "fuentes": [
+        { "guia": "Montserrat Visita (oficial)", "url": "https://www.montserratvisita.com/pt/propostas-de-visita/visite-o-santuario/2024" },
+        { "guia": "Barcelona Tourist Guide (tren a Montserrat)", "url": "https://www.barcelona-tourist-guide.com/es/faq/pueblos/montserrat/monserrat-expreso-tren-visita.html" },
+        { "guia": "Surt de Casa (Cremallera y funiculares)", "url": "https://surtdecasa.cat/barcelona/llocs-interes/monistrol-de-montserrat/cremallera-i-funiculars-de-montserrat" }
+      ]
+    },
+    {
+      "id": "es-figueres-cadaques", "puntaje": 4, "mejor_epoca": [5, 6, 9, 10], "dias_sugeridos": 2, "costo": "$$$",
+      "acceso": "AVE o Rodalies desde Barcelona hasta Figueres (55 min a 2 h) y bus de línea a Cadaqués (aprox. 1 h); Portlligat está a 1 km a pie.",
+      "alerta": "La Casa-Museo de Portlligat exige reserva previa y se visita en grupos de 8 a 10 personas, que salen cada 10 minutos. La carretera GI-614 a Cadaqués tiene muchas curvas y en julio y agosto el aparcamiento se satura. Hay días de tramontana fuerte.",
+      "fuentes": [
+        { "guia": "Patrimoni Cultural (Generalitat de Catalunya)", "url": "https://patrimoni.gencat.cat/en/collection/dali-theatre-museum-and-dali-triangle" },
+        { "guia": "Barcelona Urbana (qué ver en Cadaqués)", "url": "https://barcelonaurbana.com/blog/que-ver-en-cadaques" },
+        { "guia": "Barcelona Urbana (Cadaqués y Portlligat en bus)", "url": "https://barcelonaurbana.com/ca/blog/cadaques-i-portlligat-en-bus-des-de-barcelona-horaris-i-preus-de-la-casa-dali" }
+      ]
+    },
+    {
+      "id": "es-cadiz", "puntaje": 5, "mejor_epoca": [4, 5, 6, 9, 10], "dias_sugeridos": 2, "costo": "$$",
+      "acceso": "Tren desde Sevilla (aprox. 1 h 40) y Alvia desde Madrid; el aeropuerto de Jerez queda a 45 min; el casco antiguo se recorre a pie.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Spain.info (Turespaña)", "url": "https://www.spain.info/es/lugares-interes/torre-tavira/" },
+        { "guia": "GOV.UK (España, seguridad)", "url": "https://www.gov.uk/foreign-travel-advice/spain/safety-and-security" }
+      ]
+    },
+    {
+      "id": "es-albarracin", "puntaje": 3, "mejor_epoca": [4, 5, 6, 9, 10], "dias_sugeridos": 2, "costo": "$$",
+      "acceso": "En coche desde Teruel (35 km, unos 30 min); hay unos 2 autobuses al día desde Teruel, así que conviene ir en coche, sobre todo para los Pinares de Rodeno.",
+      "alerta": "En invierno hace mucho frío y hay heladas. Los fines de semana y los puentes se llena y el aparcamiento junto al casco es limitado.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/874" },
+        { "guia": "Omio (bus Teruel-Albarracín)", "url": "https://www.omio.es/viajes/teruel/albarracin" }
+      ]
+    },
+    {
+      "id": "es-teruel", "puntaje": 4, "mejor_epoca": [4, 5, 6, 9, 10], "dias_sugeridos": 1, "costo": "$",
+      "acceso": "Tren regional en la línea Zaragoza-Valencia (unas 2 h 30 desde cada una) y bus desde Madrid y Valencia; no hay AVE; el centro mudéjar se recorre a pie.",
+      "alerta": "Los inviernos son de los más fríos de España, con heladas frecuentes. La Partida de Diego (febrero) y la Vaquilla (julio) llenan el alojamiento.",
+      "fuentes": [
+        { "guia": "Turismo de Aragón (oficial)", "url": "https://www.turismodearagon.com/rutas-por-aragon/mudejar-de-teruel-daroca-y-tierras-del-jiloca/" },
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/378" }
+      ]
+    },
+    {
+      "id": "es-pamplona", "puntaje": 4, "mejor_epoca": [5, 6, 9, 10], "dias_sugeridos": 2, "costo": "$$",
+      "acceso": "Alvia desde Madrid (unas 3 h) y bus desde Bilbao y San Sebastián; Olite está a 40 km al sur, con bus de línea o en coche.",
+      "alerta": "En San Fermín (6-14 de julio) el alojamiento se multiplica de precio y se agota. Los encierros son peligrosos: hay heridos cada año y conviene verlos desde balcones o gradas.",
+      "fuentes": [
+        { "guia": "UNESCO (Caminos de Santiago)", "url": "https://whc.unesco.org/en/list/669/" },
+        { "guia": "Barceló Guía de Turismo", "url": "https://www.barcelo.com/guia-turismo/es/espana/pamplona/que-ver/" }
+      ]
+    },
+    {
+      "id": "es-cartagena", "puntaje": 5, "mejor_epoca": [3, 4, 5, 6, 9, 10, 11], "dias_sugeridos": 2, "costo": "$$",
+      "acceso": "Tren Renfe desde Madrid vía Murcia; el aeropuerto de Murcia-Corvera queda a unos 30 min; el centro y el Teatro Romano se recorren a pie.",
+      "alerta": "En julio y agosto hace calor húmedo. En Semana Santa y en Carthagineses y Romanos (septiembre) hay mucha gente.",
+      "fuentes": [
+        { "guia": "Spain.info (Turespaña)", "url": "https://www.spain.info/es/destino/cartagena/" }
+      ]
+    },
+    {
+      "id": "es-trujillo", "puntaje": 4, "mejor_epoca": [3, 4, 5, 10, 11], "dias_sugeridos": 1, "costo": "$",
+      "acceso": "Sin tren; bus desde Cáceres (unos 45 min) y desde Madrid (unas 3 h); en coche por la A-5; el casco se recorre a pie.",
+      "alerta": "En julio y agosto se superan a menudo los 38-40 °C. El FCDO incluye avisos de calor extremo en España.",
+      "fuentes": [
+        { "guia": "Spain.info (Turespaña)", "url": "https://www.spain.info/es/destino/trujillo/" },
+        { "guia": "GOV.UK (España, seguridad)", "url": "https://www.gov.uk/foreign-travel-advice/spain/safety-and-security" }
+      ]
+    },
+    {
+      "id": "es-guadalupe", "puntaje": 3, "mejor_epoca": [3, 4, 5, 10, 11], "dias_sugeridos": 1, "costo": "$",
+      "acceso": "Samar ofrece unos 2 buses al día desde Madrid (Estación Sur, unas 3 h 45 a 4 h) y hay bus desde Cáceres (unas 2 h 20); en coche es mucho más cómodo.",
+      "alerta": "Con transporte público conviene dormir allí. El monasterio se visita con guía en horario de mañana y tarde, y cierra a mediodía.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/665" },
+        { "guia": "Frommer's (Guadalupe, planificación)", "url": "https://www.frommers.com/destinations/guadalupe/planning-a-trip/" },
+        { "guia": "El viaje de Sofi (qué ver en Guadalupe)", "url": "https://www.elviajedesofi.com/que-ver-en-guadalupe-un-pueblo-encantador-en-caceres/" }
+      ]
+    },
+    {
+      "id": "es-a-coruna", "puntaje": 5, "mejor_epoca": [5, 6, 7, 8, 9], "dias_sugeridos": 2, "costo": "$$",
+      "acceso": "Tren de alta velocidad desde Madrid (unas 3 h 30) y Eje Atlántico desde Santiago (30 min); aeropuerto de Alvedro; se puede ir a pie o en bus hasta la Torre de Hércules.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/1312" }
+      ]
+    },
+    {
+      "id": "es-lugo", "puntaje": 4, "mejor_epoca": [5, 6, 7, 8, 9], "dias_sugeridos": 1, "costo": "$",
+      "acceso": "Bus desde Santiago y A Coruña (aprox. 1 h 30) y tren con conexiones lentas; la muralla romana se recorre a pie y gratis.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/987/maps/" }
+      ]
+    },
+    {
+      "id": "pt-aveiro", "puntaje": 5, "mejor_epoca": [4, 5, 6, 7, 8, 9, 10], "dias_sugeridos": 1, "costo": "$$",
+      "acceso": "Tren CP desde Oporto (40 min a 1 h 15) y Alfa Pendular desde Lisboa; la estación está a 15 min a pie de los canales.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "VisitPortugal (oficial)", "url": "https://www.visitportugal.com/pt-pt/destinos/aveiro/73753" }
+      ]
+    },
+    {
+      "id": "pt-fatima", "puntaje": 4, "mejor_epoca": [4, 5, 6, 9, 10], "dias_sugeridos": 1, "costo": "$",
+      "acceso": "Bus Rede Expressos desde Lisboa (aprox. 1 h 30) y Coímbra; la estación de tren de Fátima está a unos 20 km del santuario.",
+      "alerta": "En las peregrinaciones del 12-13 de mayo (unos 450.000 fieles en 2026) y del 12-13 de octubre hay multitudes extremas y el alojamiento se agota.",
+      "fuentes": [
+        { "guia": "Santuário de Fátima (oficial)", "url": "https://www.fatima.pt/pt/news/topdf/peregrinacao-de-maio-reuniu-cerca-de-450-mil-fieis-e-deixou-um-forte-apelo-a-paz" }
+      ]
+    },
+    {
+      "id": "pt-piodao", "puntaje": 3, "mejor_epoca": [4, 5, 6, 9, 10], "dias_sugeridos": 2, "costo": "$",
+      "acceso": "Solo en coche, por carreteras de montaña sinuosas (EN344 desde Coja y Arganil); está a unos 90 km de Coímbra y a unas 2 h 30 de Oporto.",
+      "alerta": "El FCDO señala un alto riesgo de incendios forestales de abril a octubre en Portugal, y la Serra do Açor es una zona muy expuesta. Las carreteras son estrechas y con curvas, y no hay transporte público práctico.",
+      "fuentes": [
+        { "guia": "Aldeias Históricas de Portugal (oficial)", "url": "https://aldeiashistoricasdeportugal.com/en/percurso/piodao-percurso-vermelho/" },
+        { "guia": "Quanto Custa Viajar (cómo llegar a Piódão)", "url": "https://quantocustaviajar.com/blog/aldeia-de-piodao-em-portugal" },
+        { "guia": "GOV.UK (Portugal)", "url": "https://www.gov.uk/foreign-travel-advice/portugal" }
+      ]
+    },
+    {
+      "id": "pt-viana-do-castelo", "puntaje": 4, "mejor_epoca": [5, 6, 7, 8, 9], "dias_sugeridos": 2, "costo": "$$",
+      "acceso": "Tren CP desde Oporto (aprox. 1 h 30); Ponte de Lima está a 25 km, en bus de línea o coche.",
+      "alerta": "Durante la Romaria d'Agonia (agosto) el alojamiento se llena.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-viana-do-castelo-portugal" }
+      ]
+    },
+    {
+      "id": "es-priorat", "puntaje": 3, "mejor_epoca": [4, 5, 6, 9, 10], "dias_sugeridos": 2, "costo": "$$",
+      "acceso": "En coche desde Reus o Tarragona (unos 45 min); el tren R15 llega a Falset y Marçà, pero las bodegas están dispersas.",
+      "alerta": "Las visitas a bodegas se reservan con antelación. Las carreteras son estrechas y con curvas, y en julio y agosto hace mucho calor.",
+      "fuentes": [
+        { "guia": "Costa Daurada (turismo oficial)", "url": "https://costadaurada.info/en/taxonomy/term/181" },
+        { "guia": "Winetourism.com", "url": "https://www.winetourism.com/es/tours-de-cata-de-vino-en-priorat/" }
+      ]
+    },
+    {
+      "id": "es-penedes", "puntaje": 5, "mejor_epoca": [4, 5, 6, 9, 10], "dias_sugeridos": 1, "costo": "$$",
+      "acceso": "Rodalies R4 desde Barcelona a Sant Sadurní (unos 45 min) y Vilafranca (unos 55 min); varias caves están a pie de la estación.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Time Out (Sant Sadurní d'Anoia)", "url": "https://www.timeout.es/barcelona/es/viaje/alt-penedes-un-dia-en-sant-sadurni-danoia" },
+        { "guia": "Diputació de Barcelona (Barcelona és molt més)", "url": "https://www.barcelonaesmoltmes.cat/en/detallviatge/-/dades/3bd3LPr67IZT/detall/23_1_48/do-penedes" }
+      ]
+    },
+    {
+      "id": "es-islas-cies", "puntaje": 3, "mejor_epoca": [6, 7, 8, 9], "dias_sugeridos": 1, "costo": "$$",
+      "acceso": "Barco desde Vigo, Cangas o Baiona (unos 40 min); en temporada alta hace falta una autorización gratuita de la Xunta antes de comprar el billete.",
+      "alerta": "En Semana Santa y del 15 de mayo al 15 de septiembre hay que pedir antes la autorización en autorizacionillasatlanticas.xunta.gal. Después quedan 2 horas para comprar el barco, y el cupo es de unas 1.800 personas al día. Fuera de esa temporada hay pocos barcos y dependen del tiempo. No hay papeleras: hay que bajarse la basura.",
+      "fuentes": [
+        { "guia": "Parque Nacional Illas Atlánticas (instrucciones oficiales de autorización)", "url": "https://illasatlanticas.gal/sites/default/files/resource/documents/2024-05/VISIT%20AUTHORISATION%20INSTRUCTIONS.pdf" },
+        { "guia": "Turismo Rías Baixas (cómo obtener la autorización)", "url": "https://turismoriasbaixas.com/-/noticia-como-obtener-la-autorizacion-para-las-islas-cies" },
+        { "guia": "Spain.info (turismo oficial de España)", "url": "https://www.spain.info/es/naturaleza/parque-nacional-maritimo-terrestre-islas-atlanticas-galicia/" }
+      ]
+    },
+    {
+      "id": "es-gran-canaria", "puntaje": 4, "mejor_epoca": [1, 2, 3, 4, 5, 10, 11, 12], "dias_sugeridos": 3, "costo": "$$",
+      "acceso": "Vuelo a Gran Canaria (LPA; unas 2 h 45 desde Madrid); a Maspalomas se llega en bus, pero para la cumbre conviene coche, aparcando en Cruz de los Llanos o Tejeda y siguiendo en lanzadera.",
+      "alerta": "Desde febrero de 2025, el Espacio Protegido del Roque Nublo exige reserva previa gratuita en grancanariasenderos.com, con franjas de 9:00 a 17:00. Se eliminó el aparcamiento junto al sendero y hay lanzaderas desde Tejeda y Cruz de los Llanos.",
+      "fuentes": [
+        { "guia": "Hello Canary Islands (turismo oficial de Canarias)", "url": "https://www.hellocanaryislands.com/nature-spaces/gran-canaria/nublo-rural-park/" },
+        { "guia": "RTVC (balance del control de acceso, ago-2026)", "url": "https://rtvc.es/sistema-control-acceso-roque-nublo-cumple-ano-medio-100-000-visitas-20-agosto-2026/" },
+        { "guia": "elDiario.es (nuevas normas y reserva previa)", "url": "https://www.eldiario.es/canariasahora/sociedad/nuevas-normas-acceso-espacio-protegido-roque-nublo-sistema-reserva-previa_1_12022599.html" }
+      ]
+    },
+    {
+      "id": "es-fuerteventura", "puntaje": 4, "mejor_epoca": [3, 4, 5, 6, 9, 10, 11], "dias_sugeridos": 4, "costo": "$$",
+      "acceso": "Vuelo a Fuerteventura (FUE) o ferry desde Lanzarote a Corralejo; las dunas están en la FV-1 junto a Corralejo, y para Jandía y Cofete hace falta coche.",
+      "alerta": "Está prohibido salir de las pistas autorizadas en las dunas. La pista de tierra a Cofete suele quedar fuera del seguro del coche de alquiler, y en esa playa hay corrientes peligrosas. La isla de Lobos exige un permiso gratuito previo y tiene un cupo diario limitado.",
+      "fuentes": [
+        { "guia": "Spain.info (turismo oficial de España)", "url": "https://spain.info/en/nature/dunas-corralejo-natural-park" },
+        { "guia": "Lopesan (guía de las dunas de Corralejo, 2026)", "url": "https://www.lopesan.com/blog/en/corralejo-natural-park-dunes/" },
+        { "guia": "Barceló (Corralejo, cupo de Lobos)", "url": "https://www.barcelo.com/guia-turismo/en/spain/fuerteventura/things-to-do/corralejo/" }
+      ]
+    },
+    {
+      "id": "es-cabo-de-gata", "puntaje": 3, "mejor_epoca": [4, 5, 6, 9, 10], "dias_sugeridos": 3, "costo": "$$",
+      "acceso": "En coche desde Almería (unos 40 min a San José); el bus de línea es escaso; en verano hay lanzadera desde San José a Genoveses y Mónsul.",
+      "alerta": "De mediados de junio a mediados de septiembre se regula el acceso en coche a Genoveses y Mónsul: el aparcamiento cuesta unos 5 € y se cierra la barrera cuando se llena. Hay poca sombra y mucho calor en verano.",
+      "fuentes": [
+        { "guia": "Spain.info (turismo oficial de España)", "url": "https://www.spain.info/es/naturaleza/parque-natural-cabo-gata-nijar/" },
+        { "guia": "¡Hola! Viajes (Playa de los Genoveses, ago-2026)", "url": "https://www.hola.com/viajes/20260825919793/playa-genoveses-cabo-gata-almeria/" }
+      ]
+    },
+    {
+      "id": "es-bardenas-reales", "puntaje": 3, "mejor_epoca": [3, 4, 5, 10, 11], "dias_sugeridos": 1, "costo": "$",
+      "acceso": "Solo en coche o bicicleta desde Arguedas o Tudela, por pistas de tierra a un máximo de 30 km/h; no hay transporte público.",
+      "alerta": "Hay un polígono de tiro militar en el centro: durante los ejercicios se corta la vía perimetral, así que conviene consultar los avisos en bardenasreales.es. Algunas zonas cierran del 1 de febrero al 8 de septiembre por nidificación. Se puede entrar desde las 8:00 hasta una hora antes del anochecer. En verano se superan los 40 °C y no hay servicios.",
+      "fuentes": [
+        { "guia": "Comunidad de Bardenas Reales (guía oficial)", "url": "https://bardenasreales.es/wp-content/uploads/2022/09/GUIA-ESPANOL-2014.pdf" },
+        { "guia": "Noticias de Navarra (cortes por ejercicios de tiro)", "url": "https://www.noticiasdenavarra.com/navarra/2024/05/20/intensas-practicas-tiro-bombardeo-bardenas-8256512.html" },
+        { "guia": "Spain.info (turismo oficial de España)", "url": "https://www.spain.info/es/naturaleza/parque-natural-bardenas-reales/" }
+      ]
+    },
+    {
+      "id": "es-monfrague", "puntaje": 3, "mejor_epoca": [2, 3, 4, 5, 9, 10], "dias_sugeridos": 2, "costo": "$",
+      "acceso": "En coche desde Plasencia (unos 25 km a Villarreal de San Carlos) o Trujillo por la EX-208; no hay línea regular de bus fiable.",
+      "alerta": "En verano hace mucho calor y hay poca actividad de aves. La mejor observación es de febrero a junio, y en septiembre y octubre está la berrea.",
+      "fuentes": [
+        { "guia": "MITECO, Red de Parques Nacionales (accesos a Monfragüe)", "url": "https://www.miteco.gob.es/en/red-parques-nacionales/nuestros-parques/monfrague/guia-visitante/mapa-accessos.html" },
+        { "guia": "Spain.info (turismo oficial de España)", "url": "https://www.spain.info/es/naturaleza/parque-nacional-monfrague/" }
+      ]
+    },
+    {
+      "id": "pt-benagil-sete-vales", "puntaje": 4, "mejor_epoca": [4, 5, 6, 9, 10], "dias_sugeridos": 1, "costo": "$$",
+      "acceso": "En coche o taxi desde Faro (aprox. 1 h) o Lagoa; los barcos y kayaks guiados salen de Benagil, Portimão y Armação de Pêra; el sendero (5,7 km) va de Praia da Marinha a Vale Centeanes.",
+      "alerta": "Desde agosto de 2024 está prohibido desembarcar en la playa interior de la gruta, entrar a nado y alquilar kayak sin guía. Solo se puede entrar con operadores autorizados, con tiempos máximos y sin navegar entre el ocaso y el amanecer. En mayo de 2026 volcó un barco y hubo que rescatar a 12 personas. En el sendero hay acantilados con vallas que no se deben cruzar y poca sombra.",
+      "fuentes": [
+        { "guia": "Barlavento (nuevas reglas de acceso a Benagil)", "url": "https://www.barlavento.pt/grutas-de-benagil-tem-novas-regras-de-acesso-a-partir-de-hoje/" },
+        { "guia": "Observador (rescate de 12 personas, may-2026)", "url": "https://observador.pt/2026/05/23/doze-pessoas-resgatadas-das-grutas-de-benagil-apos-barco-virar/" },
+        { "guia": "Portugal Getaways (normativa de visita)", "url": "https://portugalgetaways.com/destination/algarve/general-articles/benagil-cave" },
+        { "guia": "A Ticket to Take Off (guía del sendero)", "url": "https://atickettotakeoff.com/pt/algarve-trilho-sete-vales-suspensos/" }
+      ]
+    }
+  ]
+}

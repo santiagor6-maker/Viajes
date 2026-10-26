@@ -1,0 +1,280 @@
+{
+  "agente": "logistica-temporada",
+  "subregion": "iberica-italia",
+  "ronda": 2,
+  "nota": "Solo los 28 lugares nuevos de pendientes-logistica-b-r2.json. Los avisos de país de IT ya están en logistica-temporada-b.json (ronda 1): US Level 2, UK sin restricción, Canadá alto grado de precaución. it-polignano-monopoli e it-polignano-a-mare probablemente son duplicados; se entregan ambos para que el curador los fusione.",
+  "avisos_pais": [],
+  "logistica": [
+    {
+      "id": "it-finale-ligure", "puntaje": 5, "mejor_epoca": [3, 4, 5, 6, 9, 10, 11], "dias_sugeridos": 3, "costo": "$$",
+      "acceso": "Tren regional por la línea Génova–Ventimiglia: ~55 min desde Génova y ~20 min desde Savona; aeropuerto de Génova a ~70 km.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "UCI Mountain Bike World Series (organizador oficial)", "url": "https://ucimtbworldseries.com/news/finale-outdoor-region-courses-released" },
+        { "guia": "Omio (trenes Génova–Finale Ligure)", "url": "https://www.omio.it/treni/genova/finale-ligure" }
+      ]
+    },
+    {
+      "id": "it-tivoli", "puntaje": 5, "mejor_epoca": [4, 5, 6, 9, 10], "dias_sugeridos": 1, "costo": "$$",
+      "acceso": "Bus Cotral desde metro Ponte Mammolo (línea B), ~1 h; hay que comprar el billete antes de subir. Bus local de 5 min entre Villa Adriana y el centro de Tivoli. Tren regional desde Tiburtina hasta Tivoli.",
+      "alerta": "Villa d'Este abre los lunes solo por la tarde (desde las 14:00). El primer domingo del mes la entrada es gratis y se limita el aforo. Reserva opcional vía CoopCulture.",
+      "fuentes": [
+        { "guia": "Ministero della Cultura (Villa d'Este)", "url": "https://cultura.gov.it/luogo/villa-adriana-e-villa-d-este-villa-d-este" },
+        { "guia": "Romewise (excursión a Tivoli)", "url": "https://romewise.com/day-trips-itineraries/how-to-arrange-a-tivoli-day-trip-from-rome/" },
+        { "guia": "UNESCO (Villa Adriana)", "url": "https://whc.unesco.org/en/list/907/" }
+      ]
+    },
+    {
+      "id": "it-ostia-antica", "puntaje": 5, "mejor_epoca": [3, 4, 5, 9, 10, 11], "dias_sugeridos": 1, "costo": "$$",
+      "acceso": "Metro B hasta Piramide y tren Roma–Lido hasta Ostia Antica, ~35-40 min desde el centro de Roma.",
+      "alerta": "Suele cerrar los lunes; el horario cambia según la temporada. Casi no hay sombra: en julio y agosto conviene ir temprano.",
+      "fuentes": [
+        { "guia": "Italia.it (ENIT)", "url": "https://www.italia.it/it/lazio/roma/parco-archeologico-di-ostia-antica" },
+        { "guia": "Voloscontato (billetes y horarios)", "url": "https://www.voloscontato.it/informazioni-utili/parco-archeologico-di-ostia-antica-come-comprare-i-biglietti-costo-riduzioni-orari.php" }
+      ]
+    },
+    {
+      "id": "it-civita-di-bagnoregio", "puntaje": 4, "mejor_epoca": [4, 5, 6, 9, 10, 11], "dias_sugeridos": 1, "costo": "$$",
+      "acceso": "Coche hasta Bagnoregio (~30 min desde Orvieto) o bus Cotral desde Orvieto o Viterbo; desde ahí, 10-15 min a pie y un puente peatonal en subida. Sin coches en el pueblo.",
+      "alerta": "Se paga una entrada para el mantenimiento (unos 5 €; cambia según el día y la temporada), en taquilla o en línea. Hay pocos buses, sobre todo en festivos y por la tarde. Fines de semana con mucha gente.",
+      "fuentes": [
+        { "guia": "Visit Lazio", "url": "https://www.visitlazio.com/en/?p=38381" },
+        { "guia": "Moveo Telepass (cómo llegar)", "url": "https://moveo.telepass.com/come-arrivare-civita-di-bagnoregio/" },
+        { "guia": "TheWom Travel", "url": "https://travel.thewom.it/italia/lazio/il-borgo-sospeso-piu-affascinante-ditalia.html" }
+      ]
+    },
+    {
+      "id": "it-reggia-di-caserta", "puntaje": 5, "mejor_epoca": [3, 4, 5, 9, 10, 11], "dias_sugeridos": 1, "costo": "$$",
+      "acceso": "Tren regional desde Nápoles a Caserta (~40 min); la estación está frente al palacio.",
+      "alerta": "Cierra los martes, salvo aperturas especiales. Los días de entrada gratis el acceso va por franjas: reservar en TicketOne. El parque mide unos 3 km: hay lanzadera y alquiler de bicicletas.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/549/" },
+        { "guia": "Ministero della Cultura (Reggia di Caserta, cierre del martes)", "url": "https://cultura.gov.it/evento/apertura-straordinaria-martedi-15-agosto-alla-reggia-di-caserta" }
+      ]
+    },
+    {
+      "id": "it-vicenza", "puntaje": 5, "mejor_epoca": [3, 4, 5, 6, 9, 10], "dias_sugeridos": 2, "costo": "$$",
+      "acceso": "Tren en la línea Milán–Venecia (~45 min desde Venecia y ~30 min desde Verona). El centro se recorre a pie; las villas palladianas de fuera piden coche.",
+      "alerta": "El Teatro Olimpico cierra los lunes (de martes a domingo, 9-17; en julio y agosto, 10-18).",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/712/" },
+        { "guia": "Vicenzaè (horarios oficiales de los monumentos 2024)", "url": "https://www.vicenzae.org/images/MONUMENTI_orari_MENSILE/2024/Modalit_2024_Vicenza__centro_storico.pdf" }
+      ]
+    },
+    {
+      "id": "it-bergamo", "puntaje": 5, "mejor_epoca": [3, 4, 5, 6, 9, 10, 11], "dias_sugeridos": 1, "costo": "$$",
+      "acceso": "Aeropuerto de Orio al Serio a 10 min; tren desde Milán (~50 min); bus 1 y funicular hasta la Città Alta.",
+      "alerta": "El centro histórico de la Città Alta es ZTL las 24 horas, con cámaras que también miden el tiempo de permanencia (desde dic. 2025). No subir en coche.",
+      "fuentes": [
+        { "guia": "Italia.it (funicular de Bérgamo)", "url": "https://www.italia.it/it/lombardia/bergamo/funicolare-bergamo" },
+        { "guia": "Autovia (ZTL Bergamo 2026)", "url": "https://www.autovia.it/ztl-bergamo-guida-completa/" },
+        { "guia": "VisitBergamo (UNESCO)", "url": "https://unesco.visitbergamo.net/en/" }
+      ]
+    },
+    {
+      "id": "it-castel-del-monte", "puntaje": 3, "mejor_epoca": [4, 5, 6, 9, 10], "dias_sugeridos": 1, "costo": "$$",
+      "acceso": "Coche desde Andria (~20 min) o Bari (~1 h). El coche se deja en los aparcamientos de abajo y se sube en lanzadera (unos 2 € ida y vuelta).",
+      "alerta": "El transporte público es casi inexistente: hace falta coche o excursión. Entrada de unos 10 €; menores de 18 gratis.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/398/" },
+        { "guia": "NostroFiglio (aparcamiento y lanzadera 2026)", "url": "https://www.nostrofiglio.it/famiglia/viaggi/castel-del-monte-con-i-bambini-alla-scoperta-del-castello-che-sembra-un-disegno" },
+        { "guia": "GreenMe", "url": "https://www.greenme.it/viaggi/italia/castel-del-monte/" }
+      ]
+    },
+    {
+      "id": "it-bari", "puntaje": 5, "mejor_epoca": [4, 5, 6, 9, 10], "dias_sugeridos": 2, "costo": "$$",
+      "acceso": "Tren Ferrotramviaria del aeropuerto a Bari Centrale (~16 min, de 5:00 a 24:00); Bari Vecchia está a 15 min a pie. Ferris a Grecia, Albania y Croacia.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "ITA Airways (tren Ferrotramviaria al aeropuerto)", "url": "https://www.ita-airways.com/it_it/fly-ita/additional-services/partner/transfer/ferrotramviaria.html" },
+        { "guia": "MuseiOnline (Basilica di San Nicola)", "url": "https://museionline.info/puglia-musei-monumenti/basilica-di-san-nicola-di-bari" }
+      ]
+    },
+    {
+      "id": "it-polignano-monopoli", "puntaje": 5, "mejor_epoca": [5, 6, 9, 10], "dias_sugeridos": 2, "costo": "$$",
+      "acceso": "Tren regional Trenitalia desde Bari: ~30 min a Polignano y ~35 min a Monopoli. Entre ambos, 10 min en tren.",
+      "alerta": "En julio y agosto la Lama Monachile y el centro histórico se llenan: ir temprano. Las cuevas marinas se ven en barca privada, con salidas que dependen del estado del mar.",
+      "fuentes": [
+        { "guia": "Trenitalia (costa de Apulia)", "url": "https://www.trenitalia.com/content/trenitalia/it/intercity/consigli-di-viaggio/raggiungi-la-costa-pugliese.html" },
+        { "guia": "Italo Treno (blog)", "url": "https://blog.italotreno.com/idee-di-viaggio/cosa-vedere-a-polignano-a-mare-in-un-giorno/" }
+      ]
+    },
+    {
+      "id": "it-aquileia", "puntaje": 4, "mejor_epoca": [4, 5, 6, 9, 10], "dias_sugeridos": 1, "costo": "$$",
+      "acceso": "No tiene estación: tren Venecia–Trieste hasta Cervignano y bus de 8 km, o bus Udine–Grado; en coche, 1 h 15 desde Venecia.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/825/" },
+        { "guia": "Wikivoyage (Aquileia)", "url": "https://it.wikivoyage.org/wiki/Aquileia" },
+        { "guia": "Frommer's (excursiones desde Trieste)", "url": "https://www.frommers.com/destinations/trieste/side-trips/" }
+      ]
+    },
+    {
+      "id": "it-cividale-udine", "puntaje": 5, "mejor_epoca": [4, 5, 6, 9, 10], "dias_sugeridos": 2, "costo": "$$",
+      "acceso": "Udine tiene tren directo a Venecia (~1 h 30-2 h). De Udine a Cividale, tren FUC de ~20 min con unas 36 conexiones diarias coordinadas con Trenitalia.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/1318/" },
+        { "guia": "Trenitalia (Cividale del Friuli–Venezia)", "url": "https://www.trenitalia.com/it/regionale/collegamenti-regionale/viaggia-tra-cividale-del-friuli-e-venezia.html" }
+      ]
+    },
+    {
+      "id": "it-cefalu", "puntaje": 5, "mejor_epoca": [4, 5, 6, 9, 10], "dias_sugeridos": 2, "costo": "$$",
+      "acceso": "Tren regional desde Palermo (~45-70 min, salidas frecuentes); el centro está a 10-15 min a pie de la estación.",
+      "alerta": "La subida a la Rocca no tiene sombra: en verano, a primera hora y con agua. En julio y agosto, multitudes y aparcamiento difícil.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/1487/" },
+        { "guia": "Lonely Planet (La Rocca)", "url": "https://www.lonelyplanet.fr/poi/la-rocca" }
+      ]
+    },
+    {
+      "id": "it-erice-segesta", "puntaje": 3, "mejor_epoca": [4, 5, 6, 9, 10], "dias_sugeridos": 2, "costo": "$$",
+      "acceso": "Teleférico de Trapani a Erice (~10 min) o carretera de montaña. A Segesta (~30 min de Trapani) mejor en coche; dentro del parque, lanzadera al teatro.",
+      "alerta": "El teleférico abre los lunes solo desde las 14:00 y cierra del 3 nov. al 4 dic. de 2026 por mantenimiento (confirmar en funiviaerice.it). Erice suele estar entre niebla.",
+      "fuentes": [
+        { "guia": "Funivia Erice (oficial)", "url": "https://funiviaerice.it/en" },
+        { "guia": "Bluekeys (teleférico 2026)", "url": "https://bluekeys.it/it/blog/agrigento-to-erice-transfer" },
+        { "guia": "Ministero della Cultura (Segesta)", "url": "https://cultura.gov.it/luogo/area-archeologica-di-segesta" },
+        { "guia": "Italia.it (Erice)", "url": "https://www.italia.it/it/sicilia/trapani/erice" }
+      ]
+    },
+    {
+      "id": "it-selinunte", "puntaje": 3, "mejor_epoca": [3, 4, 5, 9, 10, 11], "dias_sugeridos": 1, "costo": "$$",
+      "acceso": "Coche (~1 h 15 desde Trapani o Agrigento); bus local escaso desde Castelvetrano. Lanzadera eléctrica de pago dentro del parque.",
+      "alerta": "El parque es enorme y casi sin sombra: en verano, ir a primera hora. Las Cave di Cusa abren de marzo a octubre solo por la mañana.",
+      "fuentes": [
+        { "guia": "Wikivoyage", "url": "https://it.wikivoyage.org/wiki/Selinunte" },
+        { "guia": "MuseiOnline (Parco archeologico di Selinunte)", "url": "https://www.museionline.info/sicilia-musei-monumenti/parco-archeologico-di-selinunte" }
+      ]
+    },
+    {
+      "id": "it-perugia", "puntaje": 5, "mejor_epoca": [4, 5, 6, 7, 9, 10], "dias_sugeridos": 2, "costo": "$$",
+      "acceso": "Tren desde Florencia o Roma (~2 h) y aeropuerto San Francesco de Asís. El Minimetrò y las escaleras mecánicas de la Rocca Paolina suben al casco antiguo.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Galleria Nazionale dell'Umbria (oficial)", "url": "https://gallerianazionaledellumbria.it/en" },
+        { "guia": "Visit Italy (Minimetrò de Perugia)", "url": "https://www.visititaly.eu/it/luoghi-e-itinerari/visita-perugia-sul-minimetro" }
+      ]
+    },
+    {
+      "id": "it-spoleto", "puntaje": 5, "mejor_epoca": [4, 5, 6, 7, 9, 10], "dias_sugeridos": 1, "costo": "$$",
+      "acceso": "Tren regional desde Roma (~1 h 30) o Perugia (~1 h); pasillos mecánicos suben de la parte baja a la Rocca.",
+      "alerta": "Durante el Festival dei Due Mondi (finales de junio a julio) suben precios y ocupación. Los recorridos altos de la Rocca Albornoz piden reserva.",
+      "fuentes": [
+        { "guia": "Umbria Tourism (Ponte delle Torri)", "url": "https://umbriatourism.it/-/ponte-delle-torri-di-spoleto" },
+        { "guia": "Ministero della Cultura (Rocca Albornoz)", "url": "https://cultura.gov.it/evento/apertura-dei-percorsi-panoramici-delle-torri-della-rocca-albornoz" },
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/1318/" }
+      ]
+    },
+    {
+      "id": "it-portofino-san-fruttuoso", "puntaje": 3, "mejor_epoca": [4, 5, 6, 9, 10], "dias_sugeridos": 2, "costo": "$$$",
+      "acceso": "Tren regional a Camogli, Recco o Santa Margherita. A San Fruttuoso se llega solo en barco (todo el año desde Camogli, ~30 min; en temporada también desde Portofino, Rapallo y Génova) o a pie (2-2,5 h).",
+      "alerta": "Desde mayo de 2024 una ordenanza de Camogli cierra la Via dei Tubi y el Passo del Bacio tras un accidente mortal: no usarlos. Con mar agitado se suspenden los barcos y la abadía puede cerrar.",
+      "fuentes": [
+        { "guia": "Mentelocale (San Fruttuoso: barcos, senderos, trenes)", "url": "https://www.mentelocale.it/genova/135186-abbazia-di-san-fruttuoso-come-arrivare-orari-di-apertura-battelli-sentieri-treni.htm" },
+        { "guia": "Trenitalia (tren + barco a San Fruttuoso)", "url": "https://www.trenitalia.com/content/trenitalia/it/regionale/collegamenti-regionale/san-fruttuoso-link.html" },
+        { "guia": "Komoot (cierre de la Via dei Tubi desde mayo de 2024)", "url": "https://www.komoot.com/guide/3908410/mountain-passes-around-camogli" },
+        { "guia": "Wikiloc (ordenanza del alcalde de Camogli)", "url": "https://it.wikiloc.com/waypoints/2fT7e3/san-rocco" }
+      ]
+    },
+    {
+      "id": "it-isla-de-elba", "puntaje": 3, "mejor_epoca": [5, 6, 9, 10], "dias_sugeridos": 4, "costo": "$$$",
+      "acceso": "Ferri Piombino–Portoferraio con Moby, Toremar o Blu Navy (~1 h; rápido de 40 min). En la isla, mejor con coche o moto.",
+      "alerta": "En julio y agosto hay que reservar con antelación el ferri con coche. La telecabina del Monte Capanne funciona solo de abril a octubre.",
+      "fuentes": [
+        { "guia": "Visit Tuscany (turismo oficial)", "url": "https://www.visittuscany.com/it/itinerari/tre-giorni-allisola-delba-tra-mare-trekking-e-storia/" },
+        { "guia": "Direct Ferries (Piombino–Portoferraio)", "url": "https://www.directferries.it/piombino_portoferraio_traghetto.htm" },
+        { "guia": "Kupi (telecabina del Monte Capanne)", "url": "https://www.kupi.com/en/explore/italy/elba/cabinovia-monte-capanne" }
+      ]
+    },
+    {
+      "id": "it-zingaro-san-vito-lo-capo", "puntaje": 3, "mejor_epoca": [4, 5, 6, 9, 10], "dias_sugeridos": 2, "costo": "$$",
+      "acceso": "Coche hasta la entrada sur (Scopello, ~1 h desde Palermo) o la norte (desde San Vito Lo Capo); bus escaso. Dentro solo se va a pie; aparcamiento de pago.",
+      "alerta": "Un incendio en verano de 2025 quemó unas 1.600 ha. La reserva reabrió el 14 de marzo de 2026 por la entrada sur y el 9 de mayo de 2026 por la norte. No hay agua ni bares dentro (llevar 1,5-2 l). Entrada de unos 5 €. En verano, calor fuerte y riesgo de incendio.",
+      "fuentes": [
+        { "guia": "Regione Siciliana (reapertura tras el incendio)", "url": "https://www.regione.sicilia.it/la-regione-informa/riserva-zingaro-sabato-14-marzo-riapre-dopo-l-incendio-estate-scorsa" },
+        { "guia": "Fanpage (horarios y precios)", "url": "https://www.fanpage.it/stile-e-trend/viaggi/riserva-dello-zingaro-orari-prezzi-e-mappa-delle-spiagge-nellarea-naturale-in-sicilia/" },
+        { "guia": "Balarm (ficha de la reserva)", "url": "https://www.balarm.it/luoghi/riserva-naturale-orientata-dello-zingaro-castellammare-del-golfo-2363" }
+      ]
+    },
+    {
+      "id": "it-islas-egadi", "puntaje": 3, "mejor_epoca": [5, 6, 9, 10], "dias_sugeridos": 3, "costo": "$$$",
+      "acceso": "Hidroala Liberty Lines desde Trapani: Favignana ~30-40 min y Marettimo ~1 h 15. Ferri Siremar para vehículos. En Favignana, bicicleta.",
+      "alerta": "Con viento o mar agitado se cancelan hidroalas, sobre todo a Marettimo. En agosto hay que reservar barco y alojamiento con antelación.",
+      "fuentes": [
+        { "guia": "Italia.it (ENIT, turismo oficial)", "url": "https://www.italia.it/it/sicilia/trapani/area-marina-protetta-isole-egadi" },
+        { "guia": "Traghettilines (Trapani–Marettimo)", "url": "https://www.traghettilines.it/it/isole-egadi/traghetti-trapani-marettimo.aspx" },
+        { "guia": "Wikivoyage", "url": "https://it.wikivoyage.org/wiki/Isole_Egadi" }
+      ]
+    },
+    {
+      "id": "it-gran-sasso-campo-imperatore", "puntaje": 3, "mejor_epoca": [6, 7, 8, 9], "dias_sugeridos": 2, "costo": "$$",
+      "acceso": "Hace falta coche (A24, salida Assergi; ~1 h 30 desde Roma). Teleférico Fonte Cerreto–Campo Imperatore. A Rocca Calascio, coche hasta Calascio y 20-45 min a pie (lanzadera solo en temporada alta).",
+      "alerta": "La carretera a Campo Imperatore suele cerrar en invierno por nieve. En 2025 se cambiaron los cables del teleférico, que opera bajo controles mensuales de ANSFISA: confirmar la apertura con el Centro Turistico Gran Sasso. Sin transporte público a Rocca Calascio.",
+      "fuentes": [
+        { "guia": "Moveo Telepass (Campo Imperatore)", "url": "https://moveo.telepass.com/campo-imperatore-cosa-vedere/" },
+        { "guia": "EspansioneTV/ANSA (sustitución de cables del teleférico, 2025)", "url": "https://www.espansionetv.it/2025/04/28/funivia-gran-sasso-al-via-la-sostituzione-delle-funi-portanti" },
+        { "guia": "Moveo Telepass (Rocca Calascio)", "url": "https://moveo.telepass.com/rocca-calascio-2/" }
+      ]
+    },
+    {
+      "id": "it-monti-sibillini-castelluccio", "puntaje": 3, "mejor_epoca": [5, 6, 7, 9], "dias_sugeridos": 2, "costo": "$$",
+      "acceso": "Coche desde Norcia por la SP 477 (~30 min); sin transporte público útil. Desde Marcas se llega por Forca di Presta.",
+      "alerta": "El pueblo sigue en reconstrucción tras el terremoto de 2016 y tiene pocos servicios. La floración tiene su pico de finales de junio a mediados de julio. Esos fines de semana hay plan de tráfico con lanzaderas obligatorias y está prohibido aparcar en los prados. La SP 477 se cierra durante las tormentas de nieve y en invierno limita los vehículos pesados.",
+      "fuentes": [
+        { "guia": "Montagna.tv (normas para la floración)", "url": "https://www.montagna.tv/183923/regole-e-divieti-per-vedere-la-fioritura-di-castelluccio-di-norcia/" },
+        { "guia": "SiViaggia (floración 2026)", "url": "https://siviaggia.it/notizie/castelluccio-di-norcia-fioritura-2026/587710/" },
+        { "guia": "Provincia di Perugia (ordenanza invernal de la SP 477)", "url": "https://www.provincia.perugia.it/node/50928" },
+        { "guia": "Italia.it (ENIT, turismo oficial)", "url": "https://www.italia.it/it/umbria/perugia/castelluccio-di-norcia" }
+      ]
+    },
+    {
+      "id": "it-riviera-del-conero", "puntaje": 4, "mejor_epoca": [5, 6, 7, 9], "dias_sugeridos": 2, "costo": "$$",
+      "acceso": "Coche o bus desde Ancona (~30 min a Sirolo). A la playa de las Due Sorelle solo se llega en barco desde Numana (en temporada alta también desde Sirolo y Marcelli).",
+      "alerta": "El sendero a las Due Sorelle (Passo del Lupo) está prohibido, con multas. Los barcos salen sobre todo en verano. Algunos años Sirolo limita el aforo del 1 ago. al 15 sep. con reserva gratuita en turismosirolo.it. No hay servicios en la playa.",
+      "fuentes": [
+        { "guia": "SiViaggia (cómo llegar a las Due Sorelle)", "url": "https://siviaggia.it/idee-di-viaggio/come-arrivare-alla-spiaggia-le-due-sorelle-a-sirolo/156900/" },
+        { "guia": "SiViaggia (aforo limitado en las Due Sorelle)", "url": "https://siviaggia.it/notizie/spiaggia-delle-due-sorelle-marche-numero-chiuso/477042/" },
+        { "guia": "Il Resto del Carlino (aforo limitado y multas)", "url": "https://www.ilrestodelcarlino.it/ancona/cronaca/spiaggia-delle-due-sorelle-numero-chiuso-7d6b1281" }
+      ]
+    },
+    {
+      "id": "it-alghero-capo-caccia", "puntaje": 4, "mejor_epoca": [4, 5, 6, 9, 10], "dias_sugeridos": 3, "costo": "$$",
+      "acceso": "Aeropuerto de Alghero-Fertilia a 10 km. Grotta di Nettuno: barco desde el puerto de Alghero (~40 min; billete aparte) o coche/bus a Capo Caccia y los 654 escalones de la Escala del Cabirol.",
+      "alerta": "La cueva solo se visita con mar en calma: con temporal se suspenden barcos y visitas. Para entrar por tierra hay que reservar antes; en invierno el horario es corto (10-15 h).",
+      "fuentes": [
+        { "guia": "Sardegna Turismo (oficial)", "url": "https://sardegnaturismo.it/it/esplora/grotte-di-nettuno" },
+        { "guia": "Blu Alghero (horarios de la Grotta di Nettuno)", "url": "https://www.blualghero-sardinia.com/it/le-grotte-di-nettuno-alghero/" },
+        { "guia": "Idealista (Escala del Cabirol)", "url": "https://www.idealista.it/news/node/444105" }
+      ]
+    },
+    {
+      "id": "it-polignano-a-mare", "puntaje": 5, "mejor_epoca": [5, 6, 9, 10], "dias_sugeridos": 1, "costo": "$$",
+      "acceso": "Tren regional desde Bari (~30 min); el centro histórico y la Lama Monachile están a 10 min a pie de la estación. Las grutas, en barca privada desde el puerto.",
+      "alerta": "En julio y agosto, la cala y el casco antiguo se llenan: ir temprano. Las salidas en barca dependen del estado del mar.",
+      "fuentes": [
+        { "guia": "Spiagge.it (guía 2026)", "url": "https://www.spiagge.it/magazine/scoprire-polignano-a-mare-posti-imperdibili-estate-1/" },
+        { "guia": "Trenitalia (costa de Apulia)", "url": "https://www.trenitalia.com/content/trenitalia/it/intercity/consigli-di-viaggio/raggiungi-la-costa-pugliese.html" }
+      ]
+    },
+    {
+      "id": "it-lago-de-iseo-monte-isola", "puntaje": 4, "mejor_epoca": [4, 5, 6, 9, 10], "dias_sugeridos": 2, "costo": "$$",
+      "acceso": "Tren Brescia–Iseo–Edolo hasta Sulzano (~45 min desde Brescia) y ferri a Peschiera Maraglio cada 15-20 min. En Monte Isola no circulan coches: el coche se deja en Sulzano (aparcamiento de pago).",
+      "alerta": "Los barcos de larga distancia por el lago (desde Iseo o Tavernola) funcionan sobre todo de finales de marzo a octubre.",
+      "fuentes": [
+        { "guia": "Wikivoyage (Peschiera Maraglio)", "url": "https://it.wikivoyage.org/wiki/Peschiera_Maraglio" },
+        { "guia": "Montagna di Viaggi (cómo llegar y aparcar en Sulzano)", "url": "https://www.montagnadiviaggi.it/2025/02/monte-isola-come-arrivare-dove-parcheggiare.html" },
+        { "guia": "VisitBergamo", "url": "https://visitbergamo.net/public/fr/document/32" }
+      ]
+    },
+    {
+      "id": "it-lago-de-orta", "puntaje": 4, "mejor_epoca": [4, 5, 6, 9, 10], "dias_sugeridos": 1, "costo": "$$",
+      "acceso": "Coche desde Milán (~1 h 15) o tren Novara–Domodossola hasta Orta-Miasino y 15 min a pie. Barca de pocos minutos a la Isola San Giulio desde Piazza Motta.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "MilanoFree (excursión de un día desde Milán)", "url": "https://www.milanofree.it/milano/turismo/lago-dorta-cosa-vedere-in-giornata-da-milano-orta-san-giulio-e-isola-di-san-giulio.html" },
+        { "guia": "UNESCO (Sacri Monti, Sacro Monte di Orta)", "url": "https://whc.unesco.org/en/list/1068/" }
+      ]
+    }
+  ]
+}

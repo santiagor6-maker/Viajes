@@ -1,7 +1,7 @@
 {
   "pausado": false,
   "subregion": "iberica-italia",
-  "paso": "logistica",
+  "paso": "curador",
   "ronda": 2,
   "orden_subregiones": [
     "iberica-italia",
@@ -49,6 +49,12 @@
       "subregion": "iberica-italia",
       "paso": "huecos",
       "resultado": "8 especialistas r2: ~53 lugares nuevos (Montserrat, Cíes, Priorat, Tivoli, Caserta, Elba, Egadi, Benagil, Guara, Finale Ligure...), puntuación cruzada completa, adrenalina corregida en MT/SM/VA"
+    },
+    {
+      "fecha": "2026-10-26",
+      "subregion": "iberica-italia",
+      "paso": "logistica",
+      "resultado": "Ronda 2: logística de 54 lugares nuevos + cruce r3 (cultura, naturaleza, gastronomía, adrenalina). Interrumpido por límite de uso del usuario y retomado."
     }
   ]
 }

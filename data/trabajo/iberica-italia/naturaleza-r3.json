@@ -1,0 +1,441 @@
+{
+  "agente": "naturaleza",
+  "subregion": "iberica-italia",
+  "ronda": 3,
+  "notas": "Ronda 3, solo puntuación cruzada: se puntúan en naturaleza los 36 lugares nuevos de pendientes-logistica-a-r2.json y pendientes-logistica-b-r2.json que no creó este agente. Se excluyen los ids que ya están en los nuevos de naturaleza-a-r2.json y naturaleza-b-r2.json. it-polignano-monopoli duplica en gran parte a it-polignano-a-mare (de naturaleza), así que conviene fusionarlos.",
+  "puntajes": [
+    {
+      "id": "es-sierra-de-guara-alquezar",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "Es el Parque Natural de la Sierra y Cañones de Guara, una de las referencias del barranquismo en Europa, con cañones calizos como el del río Vero junto a Alquézar. Es naturaleza destacada y de fácil acceso, aunque como paisaje no llega al nivel de un parque nacional emblemático.",
+      "actividad": "Descenso guiado del barranco del río Vero desde Alquézar; pasarelas del río Vero (circular corta desde el pueblo)",
+      "fuentes": [
+        {
+          "guia": "Spain.info (turismo oficial de España)",
+          "url": "https://www.spain.info/es/actividades/semana-barranquismo-sierra-guara/"
+        },
+        {
+          "guia": "Turismo Somontano (comarca)",
+          "url": "https://www.turismosomontano.es/images/RUTAS/barrancos/Barranco_Vero.pdf"
+        }
+      ]
+    },
+    {
+      "id": "es-noguera-pallaresa-sort",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "Es el gran río de aguas bravas del Pirineo catalán, en el Parc Natural de l'Alt Pirineu. El Parque Nacional d'Aigüestortes i Estany de Sant Maurici queda a unos 30 km por Espot. Es alta montaña accesible, con mucha oferta de actividades.",
+      "actividad": "Rafting por la Noguera Pallaresa, tramo Llavorsí–Rialp (unos 14 km); excursión a Sant Maurici desde Espot",
+      "fuentes": [
+        {
+          "guia": "RocRoi (operador)",
+          "url": "https://www.rocroi.com/en/centers/llavorsi/rafting-llavorsi/"
+        },
+        {
+          "guia": "Visit Pirineus (Turisme de Lleida)",
+          "url": "https://visitpirineus.com/en/node/5241"
+        }
+      ]
+    },
+    {
+      "id": "es-montserrat",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "El macizo de conglomerado y sus agujas son Parque Natural de la Montaña de Montserrat desde 1987: unas 7.689 ha, de las cuales unas 1.765 son reserva natural. Tiene una red de senderos señalizados y funiculares desde el monasterio. Es un paisaje icónico de Cataluña y de fácil acceso desde Barcelona.",
+      "actividad": "Subida a Sant Jeroni (1.236 m) desde el monasterio o con el funicular de Sant Joan; circular Can Maçana–Roca Foradada–Refugi Agulles (unos 7,5 km, exigente)",
+      "fuentes": [
+        {
+          "guia": "Sensación Rural (rutas del parque natural)",
+          "url": "https://www.sensacionrural.es/blog/rutas-senderos-parque-natural-montserrat/"
+        },
+        {
+          "guia": "Komoot",
+          "url": "https://www.komoot.com/es-es/guide/508694/rutas-de-senderismo-en-muntanya-de-montserrat"
+        },
+        {
+          "guia": "Montserrat Visita (oficial)",
+          "url": "https://www.montserratvisita.com/pt/propostas-de-visita/visite-o-santuario/2024"
+        }
+      ]
+    },
+    {
+      "id": "es-figueres-cadaques",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "Cadaqués y Portlligat son la puerta del Parque Natural del Cap de Creus, de unas 14.000 ha terrestres y marinas. Es el extremo oriental de la península, con roca esquistosa modelada por la tramontana, calas y aves rapaces como el águila perdicera. Figueres, en cambio, es urbana.",
+      "actividad": "Ruta a pie de Cadaqués al faro del Cap de Creus (algo más de 7 km por el parque); calas en kayak",
+      "fuentes": [
+        {
+          "guia": "Spain.info (turismo oficial de España)",
+          "url": "https://www.spain.info/en/nature/cap-creus-natural-park/"
+        },
+        {
+          "guia": "Spain.info (turismo oficial de España)",
+          "url": "https://www.spain.info/en/destination/cadaques/"
+        }
+      ]
+    },
+    {
+      "id": "es-cadiz",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Ciudad en istmo con buenas playas urbanas atlánticas: La Victoria (unos 2,9 km), La Caleta y Cortadura, que es seminatural. Las marismas del Parque Natural Bahía de Cádiz están al lado. Es más un destino urbano y de playa que de naturaleza.",
+      "actividad": "Atardecer y baño en La Victoria o Cortadura; paseo hasta el castillo de San Sebastián por La Caleta",
+      "fuentes": [
+        {
+          "guia": "Cádiz Turismo (Diputación)",
+          "url": "https://www.cadizturismo.com/playas/la-victoria"
+        },
+        {
+          "guia": "Spain.info (turismo oficial de España)",
+          "url": "https://www.spain.info/en/beach/caleta-cadiz/"
+        }
+      ]
+    },
+    {
+      "id": "es-albarracin",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "Pueblo encajado en una hoz del Guadalaviar. A unos 5 km está el Paisaje Protegido de los Pinares de Rodeno (unas 6.829 ha), con areniscas rojas erosionadas en crestas y torreones, pinar resinero y abrigos con arte rupestre levantino. Fue el primer espacio protegido de Teruel. La Sierra de Albarracín y el nacimiento del Tajo completan el entorno.",
+      "actividad": "Senderos señalizados (S) del Rodeno desde el Centro de Interpretación de Dornaque, hasta los abrigos del Navazo; paseo por la ribera del Guadalaviar",
+      "fuentes": [
+        {
+          "guia": "Turismo de Aragón (oficial)",
+          "url": "https://www.turismodearagon.com/ficha/paisaje-protegido-de-los-pinares-de-rodeno/"
+        },
+        {
+          "guia": "Gobierno de Aragón (orientaciones del espacio)",
+          "url": "https://www.aragon.es/documents/20127/674325/orientaciones_rodeno.pdf/034662f2-cb57-188b-edc7-e660b7b6e4a2"
+        }
+      ]
+    },
+    {
+      "id": "es-teruel",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Ciudad mudéjar sobre el Turia. La Sierra de Albarracín y los Pinares de Rodeno quedan a unos 35 km, y la Sierra de Javalambre a unos 40.",
+      "actividad": "Excursión al Rodeno y a Albarracín; en invierno, esquí en Javalambre",
+      "fuentes": []
+    },
+    {
+      "id": "es-pamplona",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Pamplona es urbana, con parques fluviales a lo largo del Arga. Desde Olite, las Bardenas Reales quedan a unos 30 km (tienen ficha propia), y desde Pamplona, el Pirineo navarro y Urbasa a unos 50 km.",
+      "actividad": "Paseo por el Parque Fluvial del Arga; excursión desde Olite a las Bardenas Reales",
+      "fuentes": []
+    },
+    {
+      "id": "es-cartagena",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Ciudad portuaria. Las calas vírgenes del Parque Regional de Calblanque, Monte de las Cenizas y Peña del Águila quedan a unos 15 km, y el Mar Menor y Cabo Tiñoso, a algo más.",
+      "actividad": "Excursión a las calas de Calblanque (Cala Magre, Playa Larga)",
+      "fuentes": []
+    },
+    {
+      "id": "es-trujillo",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Villa sobre un berrocal granítico en la penillanura extremeña, buena para ver aves esteparias. El Parque Nacional de Monfragüe (con ficha propia) queda a unos 45 km.",
+      "actividad": "Avistamiento de aves esteparias en los Llanos de Trujillo; excursión a Monfragüe",
+      "fuentes": []
+    },
+    {
+      "id": "es-guadalupe",
+      "puntaje": 3,
+      "unesco": true,
+      "justificacion": "Guadalupe está dentro del Geoparque Mundial UNESCO Villuercas-Ibores-Jara (unos 2.544 km²), conocido por su relieve apalachense de sierras y valles paralelos y por rocas de las más antiguas de Europa. El techo es La Villuerca (1.601 m), y hay castañares y robledales.",
+      "actividad": "Subida a La Villuerca o ruta por los castañares del entorno de Guadalupe; geositios del geoparque",
+      "fuentes": [
+        {
+          "guia": "Spain.info (turismo oficial de España)",
+          "url": "https://www.spain.info/es/naturaleza/geoparque-villuercas-ibores-jara/"
+        },
+        {
+          "guia": "Geoparque Villuercas Ibores Jara (folleto oficial)",
+          "url": "https://geoparquevilluercas.es/wp-content/uploads/2025/08/2504-folleto-general.pdf"
+        }
+      ]
+    },
+    {
+      "id": "es-a-coruna",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Ciudad en península atlántica, con un largo paseo marítimo, las playas urbanas de Riazor y Orzán y el cabo de la Torre de Hércules. La Costa da Morte y las Fragas do Eume quedan a 50–60 km.",
+      "actividad": "Paseo marítimo desde Riazor hasta la Torre de Hércules y el Monte de San Pedro",
+      "fuentes": []
+    },
+    {
+      "id": "es-lugo",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Ciudad amurallada junto al Miño, dentro de la Reserva de la Biosfera Terras do Miño, con paseos fluviales. La naturaleza es tranquila y secundaria.",
+      "actividad": "Paseo fluvial del Miño desde el Puente Romano",
+      "fuentes": []
+    },
+    {
+      "id": "pt-aveiro",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "Laguna costera de la Ria de Aveiro, con salinas y canales. Muy cerca están las playas de Costa Nova y Barra y la Reserva Natural das Dunas de São Jacinto, con dunas y pinar atlántico al norte de la ría.",
+      "actividad": "Paseo en moliceiro por la ría y las salinas; bici hasta Costa Nova; sendero por la Reserva de São Jacinto",
+      "fuentes": [
+        {
+          "guia": "VisitPortugal (oficial)",
+          "url": "https://www.visitportugal.com/pt-pt/content/visita-aveiro"
+        }
+      ]
+    },
+    {
+      "id": "pt-fatima",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Santuario en el borde del Parque Natural das Serras de Aire e Candeeiros, con macizo calizo, cuevas como Mira de Aire y huellas de dinosaurio en Ourém-Torres Novas. El lugar en sí es religioso y urbano.",
+      "actividad": "Visita a las Grutas de Mira de Aire y al Monumento Natural das Pegadas de Dinossáurios",
+      "fuentes": []
+    },
+    {
+      "id": "pt-piodao",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "Aldea de esquisto en anfiteatro sobre un valle de la Serra do Açor. La Mata da Margaraça, uno de los últimos bosques autóctonos del centro de Portugal, y la cascada de Fraga da Pena quedan cerca. La Serra da Estrela está a unos 50 km. Es naturaleza de montaña destacada y poco masificada.",
+      "actividad": "Percurso Vermelho de Piódão (PR señalizado por las laderas y aldeas vecinas como Foz d'Égua); Fraga da Pena",
+      "fuentes": [
+        {
+          "guia": "Aldeias Históricas de Portugal (oficial)",
+          "url": "https://aldeiashistoricasdeportugal.com/en/percurso/piodao-percurso-vermelho/"
+        },
+        {
+          "guia": "VisitPortugal (oficial)",
+          "url": "https://www.visitportugal.com/pt-pt/node/132806"
+        }
+      ]
+    },
+    {
+      "id": "pt-viana-do-castelo",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "Desembocadura del Lima, con el Monte de Santa Luzia como mirador y playas atlánticas de surf y kite, como Cabedelo. Ponte de Lima tiene la Ecovia do Lima. El Parque Nacional da Peneda-Gerês queda a unos 50 km.",
+      "actividad": "Subida al Monte de Santa Luzia; bici por la Ecovia do Rio Lima hasta Ponte de Lima (unos 25 km)",
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-viana-do-castelo-portugal"
+        }
+      ]
+    },
+    {
+      "id": "es-priorat",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "El Parc Natural de la Serra de Montsant (más de 9.200 ha, techo en la Roca Corbatera, a 1.163 m) es una sierra de conglomerado con cingles, cuevas y gargantas como el Congost de Fraguerau. Siurana es una de las escuelas de escalada más conocidas de Europa, y el viñedo en terrazas de llicorella completa el paisaje.",
+      "actividad": "Congost de Fraguerau y subida al Montsant desde La Morera de Montsant; escalada en Siurana",
+      "fuentes": [
+        {
+          "guia": "Costa Daurada (turismo oficial, parques naturales)",
+          "url": "https://costadaurada.info/en/node/3253"
+        },
+        {
+          "guia": "Costa Daurada (turismo oficial, guía de naturaleza)",
+          "url": "https://costadaurada.info/sites/default/files/naturaleza_es.pdf"
+        }
+      ]
+    },
+    {
+      "id": "es-penedes",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Llanura de viñedo y colinas, con vistas a Montserrat, que queda a unos 25 km. Es paisaje agrícola agradable, pero sin espacios naturales destacados en el lugar.",
+      "actividad": "Ruta a pie o en bici entre viñedos y cavas de Sant Sadurní",
+      "fuentes": []
+    },
+    {
+      "id": "it-finale-ligure",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "La Finale Outdoor Region combina mar, mesetas kársticas de caliza (altipiani delle Manie) y valles con cientos de vías de escalada y una red de senderos de MTB de primer nivel; acoge el Mundial UCI de MTB de 2026. Es naturaleza destacada y muy accesible desde la costa.",
+      "actividad": "Rutas de MTB y enduro de la Finale Outdoor Region; escalada en la Rocca di Perti; sendero del Pellegrino entre Varigotti y Noli",
+      "fuentes": [
+        {
+          "guia": "UCI Mountain Bike World Series (organizador oficial)",
+          "url": "https://ucimtbworldseries.com/news/finale-outdoor-region-courses-released"
+        },
+        {
+          "guia": "Warner Bros. Discovery Sports (comunicado oficial, Mundial UCI 2026)",
+          "url": "https://media.wbdsports.com/post/finale-outdoor-region-liguria-to-host-the-2026-uci-mountain-bike"
+        }
+      ]
+    },
+    {
+      "id": "it-tivoli",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Los jardines de Villa d'Este son paisaje cultural. Lo natural es Villa Gregoriana, con la gran cascada del Aniene en una garganta, y el Parque Regional de los Montes Lucretili, a pocos km.",
+      "actividad": "Recorrido por la garganta y la cascada de Villa Gregoriana",
+      "fuentes": []
+    },
+    {
+      "id": "it-ostia-antica",
+      "puntaje": 1,
+      "unesco": false,
+      "justificacion": "Yacimiento arqueológico entre pinos. Lo más cercano son las playas del Lido di Ostia y la Reserva del Litorale Romano (Castelfusano).",
+      "actividad": "Paseo por la Pineta di Castelfusano",
+      "fuentes": []
+    },
+    {
+      "id": "it-civita-di-bagnoregio",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "El pueblo se alza sobre un espolón de toba en medio de la Valle dei Calanchi, un paisaje de cárcavas de arcilla en continua erosión que es el motivo de su candidatura UNESCO como paisaje cultural. El Lago di Bolsena, volcánico, queda a unos 15 km. Es un paisaje muy fotogénico, pero de extensión reducida.",
+      "actividad": "Cruce de la pasarela peatonal y sendero por la Valle dei Calanchi; baño en el Lago di Bolsena",
+      "fuentes": [
+        {
+          "guia": "UNESCO (Lista Indicativa)",
+          "url": "https://whc.unesco.org/en/tentativelists/6182/"
+        },
+        {
+          "guia": "Visit Lazio",
+          "url": "https://www.visitlazio.com/en/?p=38381"
+        }
+      ]
+    },
+    {
+      "id": "it-reggia-di-caserta",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "El parque de la Reggia (unas 120 ha, con la Gran Cascata y el Jardín Inglés) es naturaleza diseñada y no salvaje, igual que Aranjuez.",
+      "actividad": "Paseo de unos 3 km por el eje de fuentes hasta la Gran Cascata y el Jardín Inglés",
+      "fuentes": []
+    },
+    {
+      "id": "it-vicenza",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Ciudad al pie de los Colli Berici, colinas boscosas con senderos y miradores como el de Monte Berico. Los Prealpes vicentinos quedan a unos 30 km.",
+      "actividad": "Subida a Monte Berico y paseo por los Colli Berici",
+      "fuentes": []
+    },
+    {
+      "id": "it-bergamo",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "La Città Alta está dentro del Parque Regional de los Colli di Bergamo, con senderos hasta San Vigilio. Los Prealpes Orobie y el lago de Iseo quedan a 30–40 km.",
+      "actividad": "Funicular a San Vigilio y senderos de los Colli di Bergamo",
+      "fuentes": []
+    },
+    {
+      "id": "it-castel-del-monte",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "El castillo está dentro del Parque Nacional de la Alta Murgia, una meseta caliza de pseudoestepa con dolinas como el Pulo di Altamura. Es un paisaje abierto y austero, de interés moderado para el viajero medio.",
+      "actividad": "Ruta en bici o a pie por la Alta Murgia alrededor del castillo",
+      "fuentes": []
+    },
+    {
+      "id": "it-bari",
+      "puntaje": 1,
+      "unesco": false,
+      "justificacion": "Destino urbano con paseo marítimo (Lungomare) y la playa urbana de Pane e Pomodoro; poca naturaleza relevante.",
+      "actividad": "Paseo por el Lungomare Nazario Sauro",
+      "fuentes": []
+    },
+    {
+      "id": "it-polignano-monopoli",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "Costa caliza con acantilados, grutas marinas y calas como Lama Monachile en Polignano y Porto Ghiacciolo o Cala Porta Vecchia en Monopoli. Es el mismo entorno que it-polignano-a-mare (3), y conviene fusionar los dos ids.",
+      "actividad": "Baño en Lama Monachile y barco por las grutas marinas; calas al sur de Monopoli",
+      "fuentes": [
+        {
+          "guia": "Spiagge.it",
+          "url": "https://www.spiagge.it/magazine/scoprire-polignano-a-mare-posti-imperdibili-estate-1/"
+        },
+        {
+          "guia": "Trenitalia (costa de Apulia)",
+          "url": "https://www.trenitalia.com/content/trenitalia/it/intercity/consigli-di-viaggio/raggiungi-la-costa-pugliese.html"
+        }
+      ]
+    },
+    {
+      "id": "it-aquileia",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Llanura friulana a unos 10 km de la laguna de Grado y Marano, con la Riserva della Foce dell'Isonzo y la Isola della Cona para ver aves.",
+      "actividad": "Bici por la Ciclovia Alpe Adria hasta Grado y la laguna",
+      "fuentes": []
+    },
+    {
+      "id": "it-cividale-udine",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Cividale está sobre la garganta del Natisone, que se ve desde el Ponte del Diavolo, en la entrada de las Valli del Natisone. Udine es urbana, y los Prealpes Julianos quedan a unos 30 km.",
+      "actividad": "Paseo por la ribera del Natisone bajo el Ponte del Diavolo y por las Valli del Natisone",
+      "fuentes": []
+    },
+    {
+      "id": "it-cefalu",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "La Rocca, un promontorio calizo de unos 270 m, domina el pueblo y la larga playa urbana. El Parque de las Madonie, Geoparque Mundial UNESCO, empieza a unos 15 km.",
+      "actividad": "Sendero a la Rocca por el Tempio di Diana (unos 2,7 km de subida, con entrada); excursión a las Madonie",
+      "fuentes": [
+        {
+          "guia": "Balarm",
+          "url": "https://www.balarm.it/news/dal-castello-sembra-di-vedere-un-cavalluccio-marino-una-giornata-alla-rocca-di-cefalu-136465"
+        },
+        {
+          "guia": "Balarm (visita naturalística a la Rocca)",
+          "url": "https://www.balarm.it/eventi/il-promontorio-degli-dei-visita-guidata-naturalistica-al-tempio-di-diana-con-tacus-114477"
+        }
+      ]
+    },
+    {
+      "id": "it-erice-segesta",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "Al pie de Erice está la Riserva Naturale delle Saline di Trapani e Paceco, de unos 1.000 ha. La gestiona WWF, es sitio Ramsar y tiene más de 230 especies de aves; en 2026 los flamencos criaron allí por primera vez. Desde el Monte Erice (751 m) se ven las Egadi, y el Zingaro queda a unos 35 km.",
+      "actividad": "Birdwatching y atardecer en las salinas de Trapani-Paceco (Via del Sale); bajada a pie de Erice por el sentiero del Monte",
+      "fuentes": [
+        {
+          "guia": "SiViaggia",
+          "url": "https://siviaggia.it/vacanze-natura/le-saline-di-trapani-tra-terra-mare-e-un-tramonto-strepitoso/473847/amp/"
+        },
+        {
+          "guia": "Balarm",
+          "url": "https://www.balarm.it/news/di-quelle-cose-a-cui-non-ci-si-abitua-mai-i-fenicotteri-rosa-e-la-riserva-delle-saline-130352"
+        },
+        {
+          "guia": "La Sicilia (nidificación de flamencos, 2026)",
+          "url": "https://www.lasicilia.it/news/attualita/3060796/storico-traguardo-il-fenicottero-rosa-nidifica-per-la-prima-volta-nella-riserva-delle-saline-di-trapani-e-paceco.html"
+        }
+      ]
+    },
+    {
+      "id": "it-selinunte",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Parque arqueológico frente al mar, junto a la Riserva Naturale Foce del Fiume Belice, con dunas y una playa poco urbanizada.",
+      "actividad": "Paseo por las dunas y la playa de la Foce del Belice",
+      "fuentes": []
+    },
+    {
+      "id": "it-perugia",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Ciudad en colina con vistas al valle del Tíber. El lago Trasimeno queda a unos 25 km y el Monte Subasio, sobre Asís, a unos 25.",
+      "actividad": "Excursión al lago Trasimeno (barco a la Isola Maggiore)",
+      "fuentes": []
+    },
+    {
+      "id": "it-spoleto",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "El Ponte delle Torri cruza la garganta del Tessino hacia el bosque sagrado de Monteluco. La antigua vía férrea Spoleto–Norcia, hoy vía verde, lleva hacia la Valnerina y los Sibillini.",
+      "actividad": "Sentiero del Ponte delle Torri y subida a Monteluco; bici por la ex-ferrovia Spoleto–Norcia",
+      "fuentes": []
+    }
+  ],
+  "nuevos": []
+}
