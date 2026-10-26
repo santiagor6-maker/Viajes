@@ -1,0 +1,416 @@
+{
+  "agente": "cultura-historia",
+  "subregion": "iberica-italia",
+  "ronda": 2,
+  "puntajes": [
+    {
+      "id": "it-modena",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "El Duomo románico de Wiligelmo, la Torre Ghirlandina y la Piazza Grande son Patrimonio Mundial desde 1997. Se suman el Palazzo Ducale, la Galleria Estense y el Museo Casa Enzo Ferrari.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/827/" },
+        { "guia": "Visit Modena", "url": "https://www.visitmodena.it/en/discover-modena/land-of-flavors/the-vinegar-factories" }
+      ]
+    },
+    {
+      "id": "it-parma",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "El Complejo de la Pilotta reúne el Teatro Farnese (1618), considerado el primer teatro moderno de Occidente, la Galleria Nazionale y la Biblioteca Palatina. El Duomo, con la cúpula de Correggio, y el Baptisterio de Antelami forman uno de los conjuntos románicos más importantes del norte de Italia.",
+      "fuentes": [
+        { "guia": "Ministero della Cultura (Teatro Farnese)", "url": "https://cultura.gov.it/luogo/complesso-monumentale-della-pilotta-teatro-farnese" },
+        { "guia": "Ministero della Cultura (Pilotta)", "url": "https://cultura.gov.it/luogo/complesso-monumentale-della-pilotta-1" }
+      ]
+    },
+    {
+      "id": "it-langhe-barolo",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "Los paisajes vitícolas de Langhe-Roero y Monferrato son un paisaje cultural Patrimonio Mundial. Tiene castillos como el de Grinzane Cavour (dentro del sitio) y el Castello Falletti de Barolo, con el museo del vino WiMu, y en Alba se conservan torres medievales.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/1390/" },
+        { "guia": "Paesaggi Vitivinicoli UNESCO", "url": "https://www.paesaggivitivinicoliunesco.it/en/unesco-site-vineyard-landscape/introduction-to-the-unesco-site/discover-the-site" }
+      ]
+    },
+    {
+      "id": "it-colinas-prosecco",
+      "puntaje": 3,
+      "unesco": true,
+      "justificacion": "Paisaje cultural Patrimonio Mundial desde 2019, con viñas en terrazas ciglioni trabajadas a mano durante siglos. Se completa con el castillo de Conegliano, la abadía cisterciense de Follina y el Molinetto della Croda; tiene pocos monumentos de primer nivel.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/1571/" }
+      ]
+    },
+    {
+      "id": "it-chianti-classico",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "Un territorio de castillos (Brolio, Meleto), pievi románicas y borghi fortificados como Volpaia, con la abadía vallombrosana de Badia a Passignano, que guarda una Última Cena de Ghirlandaio. Sus límites se fijaron por bando del gran duque en 1716.",
+      "fuentes": [
+        { "guia": "Visit Tuscany (Volpaia)", "url": "https://www.visittuscany.com/it/localita/il-borgo-di-volpaia/" },
+        { "guia": "Consorzio Vino Chianti Classico", "url": "https://chianticlassico.com/en/?p=2166" }
+      ]
+    },
+    {
+      "id": "it-gargano",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "El santuario de San Miguel Arcángel de Monte Sant'Angelo, una gruta de peregrinación desde el siglo V, forma parte del sitio Patrimonio Mundial de los Longobardos en Italia. San Giovanni Rotondo, ligado a Padre Pio, y el casco blanco de Vieste completan la visita.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/1318/" }
+      ]
+    },
+    {
+      "id": "it-cilento",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "El parque es Patrimonio Mundial junto con Paestum, Velia y la Certosa di Padula. Dentro están Velia (la Elea de Parménides, con la Porta Rosa) y la Certosa di Padula, una de las mayores cartujas de Europa. Paestum se puntúa aparte.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/842/" },
+        { "guia": "Visit Naples", "url": "https://www.visitnaples.eu/en/neapolitanity/discover-naples/cilento-is-a-world-heritage-site-archaeology-and-nature-in-a-unesco-site" }
+      ]
+    },
+    {
+      "id": "it-foreste-casentinesi",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "Dentro del parque están el Santuario de La Verna, donde según la tradición san Francisco recibió los estigmas (con terracotas de los Della Robbia), y el monasterio y el Eremo de Camaldoli, casa madre de los camaldulenses fundada por san Romualdo. Patrimonio Mundial solo por sus hayedos, que es un valor natural.",
+      "fuentes": [
+        { "guia": "Visit Tuscany (eremos del Casentino)", "url": "https://www.visittuscany.com/it/idee/gli-eremi-del-casentino-viaggio-tra-fede-e-natura/" },
+        { "guia": "Italia.it (ENIT)", "url": "https://www.italia.it/it/toscana/cosa-fare/tour-casentino-toscana-7-cose-fare-vedere" }
+      ]
+    },
+    {
+      "id": "it-parque-abruzzo",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Tiene pueblos de piedra de los Apeninos como Opi, Pescasseroli y Civitella Alfedena, y cerca está Scanno, con su traje tradicional. El interés es sobre todo natural.",
+      "fuentes": []
+    },
+    {
+      "id": "it-parque-gran-paradiso",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Nació como reserva real de caza de Víctor Manuel II, de la que quedan las mulateras reales y casas de caza. En Cogne se mantiene el encaje de bolillos; el resto es naturaleza.",
+      "fuentes": []
+    },
+    {
+      "id": "it-parque-stelvio",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Restos de trincheras y fortines de la Primera Guerra Mundial en el frente del Ortles, el centro histórico de Bormio con baños termales de origen romano y, en Val Venosta, la pequeña ciudad amurallada de Glorenza.",
+      "fuentes": []
+    },
+    {
+      "id": "it-pollino",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Pueblos arbëreshë (de origen albanés), como Civita y San Paolo Albanese, que conservan su lengua y su rito bizantino, y el pueblo escalonado de Morano Calabro con su castillo normando.",
+      "fuentes": []
+    },
+    {
+      "id": "it-sila",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "La abadía florense de San Giovanni in Fiore, fundada por Joaquín de Fiore, y la arquitectura rural de montaña de Camigliatello; poco patrimonio más allá de eso.",
+      "fuentes": []
+    },
+    {
+      "id": "it-volo-dell-angelo",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Castelmezzano y Pietrapertosa son pueblos encajados en la roca; en Pietrapertosa están los restos de un castillo tallado en la piedra y el barrio de la Arabata. El atractivo principal es la tirolesa.",
+      "fuentes": []
+    },
+    {
+      "id": "it-franciacorta",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Tiene la abadía olivetana de Rodengo Saiano y el monasterio de San Pietro in Lamosa, además de villas y castillos entre viñedos; Brescia, con sus sitios longobardos Patrimonio Mundial, queda a unos 25 km.",
+      "fuentes": []
+    },
+    {
+      "id": "it-gardaland",
+      "puntaje": 0,
+      "unesco": false,
+      "justificacion": "Parque temático sin patrimonio; la cultura del entorno (Sirmione, Verona) ya se puntúa en it-lago-de-garda e it-verona.",
+      "fuentes": []
+    },
+    {
+      "id": "it-mirabilandia",
+      "puntaje": 0,
+      "unesco": false,
+      "justificacion": "Parque de atracciones sin patrimonio; los mosaicos de Rávena, a 10 km, ya se puntúan en it-ravena.",
+      "fuentes": []
+    },
+    {
+      "id": "mt-sliema-st-julians",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Tiene el Fuerte Tigné (1792), la torre de vigía de St Julian's, el Palacio Spinola y casas de época británica en el paseo marítimo; enfrente, en Manoel Island, está el Fuerte Manoel de los Caballeros. Funciona sobre todo como base para ir a La Valeta.",
+      "fuentes": []
+    },
+    {
+      "id": "sm-torre-montale",
+      "puntaje": 1,
+      "unesco": true,
+      "justificacion": "La tercera torre (s. XIII) pertenece al sitio Patrimonio Mundial del Monte Titano, pero no se visita por dentro: solo se ve por fuera desde el sendero de cresta, a unos 300 m de la Torre Cesta. Lo bajo de 2 a 1 y propongo fusionarla con sm-torre-cesta.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/1245/" }
+      ]
+    }
+  ],
+  "nuevos": [
+    {
+      "id": "it-tivoli",
+      "nombre": "Tivoli (Villa d'Este y Villa Adriana)",
+      "pais_iso": "IT",
+      "region": "Lacio",
+      "lat": 41.9636,
+      "lng": 12.798,
+      "tipo": "ciudad",
+      "puntaje": 5,
+      "unesco": true,
+      "justificacion": "Tiene dos sitios Patrimonio Mundial a 30 km de Roma. Villa Adriana es la gran residencia imperial del siglo II, con el Canopo y el Teatro Marítimo, y Villa d'Este es el modelo del jardín renacentista de fuentes, con la Fontana dell'Organo y los Cien Fuentes.",
+      "fuentes": [
+        { "guia": "UNESCO (Villa Adriana)", "url": "https://whc.unesco.org/en/list/907/" },
+        { "guia": "UNESCO (Villa d'Este)", "url": "https://whc.unesco.org/en/list/1025/" }
+      ]
+    },
+    {
+      "id": "it-ostia-antica",
+      "nombre": "Ostia Antica",
+      "pais_iso": "IT",
+      "region": "Lacio",
+      "lat": 41.7556,
+      "lng": 12.2918,
+      "tipo": "monumento",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "Fue el puerto de la Roma imperial y conserva calles, termas, el teatro, insulae de varios pisos y el Piazzale delle Corporazioni con mosaicos de los gremios. El parque incluye además los puertos de Claudio y Trajano, la necrópolis de Isola Sacra y el Museo delle Navi; está a 25 km de Roma en tren de cercanías.",
+      "fuentes": [
+        { "guia": "Italia.it (ENIT)", "url": "https://www.italia.it/it/lazio/roma/parco-archeologico-di-ostia-antica" },
+        { "guia": "Parco archeologico di Ostia antica (MiC, reglamento)", "url": "https://ostiaantica.cultura.gov.it/wp-content/uploads/2025/11/Regolamento-PA-OANT_def_30.09.2025.pdf" }
+      ]
+    },
+    {
+      "id": "it-civita-di-bagnoregio",
+      "nombre": "Civita di Bagnoregio",
+      "pais_iso": "IT",
+      "region": "Lacio",
+      "lat": 42.6275,
+      "lng": 12.1136,
+      "tipo": "pueblo",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "Pueblo de origen etrusco sobre un peñasco de toba que se erosiona, al que solo se llega por una pasarela peatonal, sobre el valle de los calanchi. Está en la Lista Indicativa de la UNESCO como paisaje cultural desde 2017; dentro tiene la iglesia de San Donato y casas medievales.",
+      "fuentes": [
+        { "guia": "UNESCO (Lista Indicativa)", "url": "https://whc.unesco.org/en/tentativelists/6182/" },
+        { "guia": "Visit Lazio", "url": "https://www.visitlazio.com/en/?p=38381" }
+      ]
+    },
+    {
+      "id": "it-reggia-di-caserta",
+      "nombre": "Reggia di Caserta",
+      "pais_iso": "IT",
+      "region": "Campania",
+      "lat": 41.0732,
+      "lng": 14.327,
+      "tipo": "monumento",
+      "puntaje": 5,
+      "unesco": true,
+      "justificacion": "El palacio real borbónico de Vanvitelli (s. XVIII), uno de los mayores de Europa, tiene un parque de 3 km de fuentes en eje. Es Patrimonio Mundial junto con el Acueducto Carolino y el complejo sedero de San Leucio, y está a 40 min de Nápoles en tren.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/549/" }
+      ]
+    },
+    {
+      "id": "it-vicenza",
+      "nombre": "Vicenza y las villas palladianas",
+      "pais_iso": "IT",
+      "region": "Véneto",
+      "lat": 45.5477,
+      "lng": 11.5464,
+      "tipo": "ciudad",
+      "puntaje": 5,
+      "unesco": true,
+      "justificacion": "Es la ciudad de Palladio y es Patrimonio Mundial junto con sus villas del Véneto. Tiene la Basilica Palladiana, el Teatro Olimpico (el teatro cubierto renacentista más antiguo que se conserva, con su escena en perspectiva) y La Rotonda, el modelo de la arquitectura palladiana en todo el mundo.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/712/" }
+      ]
+    },
+    {
+      "id": "it-bergamo",
+      "nombre": "Bérgamo (Città Alta)",
+      "pais_iso": "IT",
+      "region": "Lombardía",
+      "lat": 45.7035,
+      "lng": 9.6627,
+      "tipo": "ciudad",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "La Città Alta está rodeada de las murallas venecianas de 1561-1588, Patrimonio Mundial. Dentro están la Piazza Vecchia, Santa Maria Maggiore con la Capilla Colleoni, y abajo la Accademia Carrara, con Rafael, Mantegna y Bellini.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/1533/" },
+        { "guia": "VisitBergamo (UNESCO)", "url": "https://unesco.visitbergamo.net/en/" }
+      ]
+    },
+    {
+      "id": "it-castel-del-monte",
+      "nombre": "Castel del Monte",
+      "pais_iso": "IT",
+      "region": "Apulia",
+      "lat": 41.0848,
+      "lng": 16.2709,
+      "tipo": "monumento",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "El castillo octogonal de Federico II (hacia 1240), con ocho torres también octogonales, mezcla la Antigüedad clásica, el mundo islámico y el gótico cisterciense, y es Patrimonio Mundial. Está aislado sobre una colina de la Murgia y aparece en la moneda italiana de 1 céntimo.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/398/" }
+      ]
+    },
+    {
+      "id": "it-bari",
+      "nombre": "Bari (Bari Vecchia)",
+      "pais_iso": "IT",
+      "region": "Apulia",
+      "lat": 41.1302,
+      "lng": 16.8701,
+      "tipo": "ciudad",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "La Basílica de San Nicolás (1087-1197) es el prototipo del románico de Apulia y guarda en su cripta las reliquias del santo, venerado por católicos y ortodoxos. La ciudad vieja suma la catedral de San Sabino, el Castillo Normando-Suevo y sus calles, donde se hacen orecchiette a mano.",
+      "fuentes": [
+        { "guia": "Wikipedia (Basílica de San Nicolás)", "url": "https://en.wikipedia.org/wiki/Basilica_of_Saint_Nicholas,_Bari" },
+        { "guia": "MuseiOnline", "url": "https://museionline.info/puglia-musei-monumenti/basilica-di-san-nicola-di-bari" }
+      ]
+    },
+    {
+      "id": "it-polignano-monopoli",
+      "nombre": "Polignano a Mare y Monopoli",
+      "pais_iso": "IT",
+      "region": "Apulia",
+      "lat": 40.996,
+      "lng": 17.219,
+      "tipo": "pueblo",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "Polignano tiene un casco blanco sobre el acantilado, con el Arco Marchesale, el antiguo barrio judío y el Museo Pino Pascali, sobre la cala de Lama Monachile. Monopoli, a 9 km, tiene casco amurallado, el castillo de Carlos V y la catedral barroca de la Madonna della Madia.",
+      "fuentes": [
+        { "guia": "Italo Treno (blog)", "url": "https://blog.italotreno.com/idee-di-viaggio/cosa-vedere-a-polignano-a-mare-in-un-giorno/" },
+        { "guia": "Trenitalia (costa de Apulia)", "url": "https://www.trenitalia.com/content/trenitalia/it/intercity/consigli-di-viaggio/raggiungi-la-costa-pugliese.html" }
+      ]
+    },
+    {
+      "id": "it-aquileia",
+      "nombre": "Aquilea",
+      "pais_iso": "IT",
+      "region": "Friuli-Venecia Julia",
+      "lat": 45.7696,
+      "lng": 13.37,
+      "tipo": "monumento",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "Fue una de las mayores ciudades del Imperio romano. Su Basílica Patriarcal conserva el mayor pavimento de mosaico paleocristiano de Occidente (s. IV), y la zona arqueológica, con el foro, el puerto fluvial y el museo, es Patrimonio Mundial.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/825/" }
+      ]
+    },
+    {
+      "id": "it-cividale-udine",
+      "nombre": "Cividale del Friuli y Udine",
+      "pais_iso": "IT",
+      "region": "Friuli-Venecia Julia",
+      "lat": 46.0936,
+      "lng": 13.4346,
+      "tipo": "ciudad",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "El Tempietto Longobardo de Cividale (s. VIII), con estucos únicos de la Alta Edad Media, forma parte del sitio Patrimonio Mundial de los Longobardos, junto al Ponte del Diavolo sobre el Natisone. Udine, a 17 km, suma los frescos de Tiepolo en el Palacio Patriarcal y la Piazza della Libertà de estilo veneciano.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/1318/" }
+      ]
+    },
+    {
+      "id": "it-cefalu",
+      "nombre": "Cefalú",
+      "pais_iso": "IT",
+      "region": "Sicilia",
+      "lat": 38.0385,
+      "lng": 14.0216,
+      "tipo": "ciudad",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "Su catedral normanda (1131), con el Cristo Pantocrátor en mosaico bizantino del ábside, forma parte del sitio Patrimonio Mundial de la Palermo árabe-normanda. Tiene además un casco medieval junto a la playa, el lavadero árabe y la Rocca con el templo de Diana.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/1487/" }
+      ]
+    },
+    {
+      "id": "it-erice-segesta",
+      "nombre": "Erice, Trapani y Segesta",
+      "pais_iso": "IT",
+      "region": "Sicilia",
+      "lat": 38.037,
+      "lng": 12.5866,
+      "tipo": "region",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "Erice es un pueblo medieval a 750 m sobre Trapani, con el Castello di Venere normando sobre el antiguo santuario de Venus Ericina, y se sube en teleférico. A 30 km, Segesta conserva un templo dórico casi intacto (s. V a. C.) y un teatro sobre el Monte Barbaro donde se celebra un festival en verano.",
+      "fuentes": [
+        { "guia": "Italia.it (Erice)", "url": "https://www.italia.it/it/sicilia/trapani/erice" },
+        { "guia": "Italia.it (Parco archeologico di Segesta)", "url": "https://www.italia.it/en/sicilia/calatafimi/cultural-places/parco-archeologico-di-segesta" },
+        { "guia": "Ministero della Cultura (Segesta)", "url": "https://cultura.gov.it/luogo/area-archeologica-di-segesta" }
+      ]
+    },
+    {
+      "id": "it-selinunte",
+      "nombre": "Selinunte",
+      "pais_iso": "IT",
+      "region": "Sicilia",
+      "lat": 37.5838,
+      "lng": 12.8249,
+      "tipo": "monumento",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "La colonia griega fundada en el siglo VII a. C. y destruida por Cartago en el 409 a. C. es hoy un parque arqueológico de unos 270 ha frente al mar, de los mayores de Europa. Tiene siete templos, la acrópolis amurallada y las canteras de Cusa, donde quedaron tambores de columna a medio tallar.",
+      "fuentes": [
+        { "guia": "I.Sicily (Universidad de Oxford)", "url": "https://isicily.classics.ox.ac.uk/museum/190" },
+        { "guia": "Wikivoyage", "url": "https://it.wikivoyage.org/wiki/Selinunte" }
+      ]
+    },
+    {
+      "id": "it-perugia",
+      "nombre": "Perugia",
+      "pais_iso": "IT",
+      "region": "Umbría",
+      "lat": 43.1107,
+      "lng": 12.3893,
+      "tipo": "ciudad",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "En el Palazzo dei Priori está la Galleria Nazionale dell'Umbria, con Perugino, Piero della Francesca y Fra Angelico, frente a la Fontana Maggiore de los Pisano. La ciudad conserva el Arco Etrusco y la Rocca Paolina subterránea, y celebra Umbria Jazz en julio.",
+      "fuentes": [
+        { "guia": "Galleria Nazionale dell'Umbria (oficial)", "url": "https://gallerianazionaledellumbria.it/en" },
+        { "guia": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Galleria_Nazionale_dell%27Umbria" }
+      ]
+    },
+    {
+      "id": "it-spoleto",
+      "nombre": "Spoleto",
+      "pais_iso": "IT",
+      "region": "Umbría",
+      "lat": 42.735,
+      "lng": 12.7386,
+      "tipo": "ciudad",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "La Basílica de San Salvatore es un componente del sitio Patrimonio Mundial de los Longobardos, y el Tempietto del Clitunno queda a 12 km. El Duomo guarda los frescos de Filippo Lippi, el Ponte delle Torri cruza el valle, y en verano se celebra el Festival dei Due Mondi.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/1318/" }
+      ]
+    }
+  ]
+}

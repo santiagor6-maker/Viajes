@@ -1,0 +1,398 @@
+{
+  "agente": "gastronomia-vino",
+  "subregion": "iberica-italia",
+  "ronda": 2,
+  "paises": [
+    "IT",
+    "MT",
+    "SM",
+    "VA"
+  ],
+  "nota": "Ronda 2: puntuación cruzada de los ids IT de otros agentes que tenían gastronomía 0 y nueva revisión de mt-hipogeo-hal-saflieni y mt-comino-laguna-azul, según cobertura.json. En IT/MT/SM/VA ningún pedido de gastronomia-vino pide lugares nuevos, así que nuevos[] queda vacío. SM y VA ya estaban puntuados en la ronda 1.",
+  "puntajes": [
+    {
+      "id": "it-genova",
+      "puntaje": 4,
+      "justificacion": "Cuna del pesto alla genovese y de la focaccia, con farinata en los hornos de los caruggi, el Mercato Orientale y una cultura de comida callejera que National Geographic destaca; un ranking internacional de ciudades para comer la sitúa entre las 15 primeras del mundo.",
+      "platos": [
+        "Trofie o trenette al pesto genovese",
+        "Focaccia genovese",
+        "Farinata de garbanzo",
+        "Pansoti con salsa di noci"
+      ],
+      "fuentes": [
+        {
+          "guia": "National Geographic",
+          "url": "https://www.nationalgeographic.com/travel/article/guide-genoa-italian-city-championing-street-food-art-history"
+        },
+        {
+          "guia": "Dolce Via (ranking de ciudades para comer)",
+          "url": "https://www.dolcevia.com/en/articles/genoa-secures-spot-among-worlds-finest-food-destinations-showcasing-pesto-farinata-and-more"
+        }
+      ]
+    },
+    {
+      "id": "it-val-di-noto",
+      "puntaje": 4,
+      "justificacion": "Ragusa Ibla tiene alta cocina reconocida por Michelin: Duomo, de Ciccio Sultano, con dos estrellas, y Locanda Don Serafino, con una. Modica elabora el único chocolate con IGP de Europa (2018), y en Noto se toma granita de almendra. Los tintos Cerasuolo di Vittoria y Nero d'Avola se hacen en la zona.",
+      "platos": [
+        "Cioccolato di Modica IGP",
+        "Granita de almendra con brioche (Noto)",
+        "Scacce ragusane",
+        "Cerasuolo di Vittoria DOCG"
+      ],
+      "fuentes": [
+        {
+          "guia": "Guía Michelin",
+          "url": "https://guide.michelin.com/it/it/notizia/travel/ragusa-bellezza-arroccata-e-stelle-michelin"
+        },
+        {
+          "guia": "La Sicilia (Ragusa food valley)",
+          "url": "https://www.lasicilia.it/news/ragusa/1141822/ragusa-la-food-valley-accende-i-fornelli-avanti-tutta-a-fiamma-bassa.html"
+        },
+        {
+          "guia": "Balarm (Cioccolato di Modica IGP)",
+          "url": "https://www.balarm.it/news/quello-di-modica-e-l-unico-igp-d-europa-la-storia-che-non-sai-di-un-cioccolato-per-cui-si-sono-battuti-123156"
+        }
+      ]
+    },
+    {
+      "id": "it-padova",
+      "puntaje": 4,
+      "justificacion": "A unos 8 km, en Sarmeola di Rubano, está Le Calandre, de Massimiliano Alajmo, con tres estrellas Michelin en 2026. En la ciudad se toma café en el histórico Caffè Pedrocchi y spritz en las plazas delle Erbe y dei Frutti, con mercado bajo el Palazzo della Ragione. Los vinos de los Colli Euganei quedan a media hora.",
+      "platos": [
+        "Bigoli all'anatra",
+        "Spritz en Piazza delle Erbe",
+        "Café Pedrocchi (con menta)",
+        "Fior d'Arancio de los Colli Euganei"
+      ],
+      "fuentes": [
+        {
+          "guia": "Relais & Châteaux (Le Calandre, 3 estrellas Michelin 2026)",
+          "url": "https://www.relaischateaux.com/gb/restaurant/ristorante-le-calandre/"
+        }
+      ]
+    },
+    {
+      "id": "it-ferrara",
+      "puntaje": 3,
+      "justificacion": "Cocina de la corte de los Este con varios productos protegidos: cappellacci di zucca ferraresi IGP, salama da sugo con puré, pan coppia ferrarese IGP y pampepato. Las anguilas de las valles de Comacchio quedan cerca.",
+      "platos": [
+        "Cappellacci di zucca ferraresi IGP",
+        "Salama da sugo con purè",
+        "Coppia ferrarese IGP",
+        "Pampepato"
+      ],
+      "fuentes": [
+        {
+          "guia": "Ferrara Terra e Acqua (turismo oficial)",
+          "url": "https://ferraraterraeacqua.kelvar.redturtle.it/en/immerse-yourself-in-the-land/food/ferrara-main-traditional-foods"
+        },
+        {
+          "guia": "Ferrara Terra e Acqua (turismo oficial)",
+          "url": "https://ferraraterraeacqua.kelvar.redturtle.it/en/immerse-yourself-in-the-land/food/ferrara-main-traditional-foods/cappellacci-di-zucca-ferraresi-igp"
+        },
+        {
+          "guia": "QN Itinerari (Ferrara y Comacchio)",
+          "url": "https://www.quotidiano.net/itinerari/gusto/corte-ferrara-valli-comacchio-terra-e-mare-o1ogjkh7"
+        }
+      ]
+    },
+    {
+      "id": "it-mantova-sabbioneta",
+      "puntaje": 4,
+      "justificacion": "Los tortelli di zucca (calabaza, mostarda y amaretti) son el plato símbolo de Mantua según la Guía Michelin. A unos 20 km de Sabbioneta y 35 km de Mantua, Dal Pescatore, en Canneto sull'Oglio, conserva sus tres estrellas Michelin en 2026. Se completa con risotto alla pilota y torta sbrisolona.",
+      "platos": [
+        "Tortelli di zucca",
+        "Risotto alla pilota",
+        "Luccio in salsa",
+        "Torta sbrisolona"
+      ],
+      "fuentes": [
+        {
+          "guia": "Guía Michelin",
+          "url": "https://guide.michelin.com/it/it/notizia/features/pensi-a-mantova...-ed-e-subito-tortello-di-zucca"
+        },
+        {
+          "guia": "Relais & Châteaux (Dal Pescatore)",
+          "url": "https://www.relaischateaux.com/it/restaurant/restaurant-dal-pescatore-santini/"
+        }
+      ]
+    },
+    {
+      "id": "it-urbino",
+      "puntaje": 3,
+      "justificacion": "Buena cocina local con productos propios: la crescia sfogliata de Urbino, un pan plano hojaldrado con manteca y pimienta, y la Casciotta d'Urbino DOP (1996), un queso de oveja y vaca. Las colinas del Metauro dan el blanco Bianchello.",
+      "platos": [
+        "Crescia sfogliata di Urbino",
+        "Casciotta d'Urbino DOP",
+        "Bianchello del Metauro"
+      ],
+      "fuentes": [
+        {
+          "guia": "Italia.it (ENIT, productos típicos de las Marcas)",
+          "url": "https://www.italia.it/it/marche/cosa-fare/prodotti-piatti-tipici-marchigiani"
+        },
+        {
+          "guia": "Wikipedia (Casciotta d'Urbino)",
+          "url": "https://en.wikipedia.org/wiki/Casciotta_d%27Urbino"
+        }
+      ]
+    },
+    {
+      "id": "it-cilento",
+      "puntaje": 4,
+      "justificacion": "Es la cuna moderna de la Dieta Mediterránea, Patrimonio Inmaterial de la UNESCO desde 2010: Ancel Keys vivió en Pioppi (Pollica), una de las comunidades emblemáticas de la candidatura. La zona tiene mozzarella de búfala de la llanura del Sele, higos blancos del Cilento DOP, alici di menaica y aceite del Cilento.",
+      "platos": [
+        "Mozzarella di bufala campana DOP",
+        "Fico bianco del Cilento DOP",
+        "Alici di menaica",
+        "Cacioricotta del Cilento"
+      ],
+      "fuentes": [
+        {
+          "guia": "Visit Italy (Cilento y Dieta Mediterránea)",
+          "url": "https://www.visititaly.eu/it/cibo-e-sapori/cilento-prodotti-tipici-dieta-mediterranea"
+        },
+        {
+          "guia": "L'Espresso (Pollica, FAO 2026)",
+          "url": "https://lespresso.it/c/sostenibilita/2026/10/1/fao-pollica-cilento-premio-food-hero-custode-dieta-mediterranea-sindaco-stefano-pisani/65027"
+        }
+      ]
+    },
+    {
+      "id": "it-gargano",
+      "puntaje": 3,
+      "justificacion": "Productos muy propios: el caciocavallo podolico (Presidio Slow Food), los únicos agrumeti de la costa adriática con la Arancia del Gargano IGP y el limón femminello, el pan de Monte Sant'Angelo y la paposcia de Vico y Rodi.",
+      "platos": [
+        "Caciocavallo podolico",
+        "Arancia del Gargano IGP",
+        "Paposcia",
+        "Pane di Monte Sant'Angelo"
+      ],
+      "fuentes": [
+        {
+          "guia": "ONAF (Caciocavallo Podolico Dauno)",
+          "url": "https://www.onaf.it/uploads/public/formaggi/9816_caciocavallo-podolico-dauno-reg-puglia.pdf"
+        },
+        {
+          "guia": "Gambero Rosso (dónde comer en el Gargano)",
+          "url": "https://www.gamberorosso.it/ristoranti/dove-mangiare-sul-gargano-i-migliori-ristoranti/"
+        },
+        {
+          "guia": "MIPAAF (Arancia del Gargano IGP)",
+          "url": "https://www.unionalimentari.com/wp-content/uploads/2024/09/Comunicato-MIPAAF-modifica-disciplinare-arancia-del-gargano-IGP.pdf"
+        }
+      ]
+    },
+    {
+      "id": "it-parque-stelvio",
+      "puntaje": 3,
+      "justificacion": "Por el lado lombardo, Bormio y la Alta Valtellina tienen una cocina de montaña marcada: pizzoccheri de trigo sarraceno (IGP), bresaola della Valtellina IGP, queso Bitto DOP y sciatt. Las terrazas de los tintos Valtellina Superiore empiezan valle abajo.",
+      "platos": [
+        "Pizzoccheri",
+        "Bresaola della Valtellina IGP",
+        "Bitto DOP",
+        "Sciatt"
+      ],
+      "fuentes": [
+        {
+          "guia": "QN Itinerari (gastronomía de la Valtellina)",
+          "url": "https://www.quotidiano.net/itinerari/lombardia/gastronomia-della-valtellina-sapori-unici-una-festa-per-il-palato-hgyfihka"
+        },
+        {
+          "guia": "Gambero Rosso (Valtellina)",
+          "url": "https://www.gamberorosso.it/ristoranti/dove-mangiare-in-valtellina-e-valchiavenna-i-migliori-ristoranti/"
+        }
+      ]
+    },
+    {
+      "id": "it-sila",
+      "puntaje": 3,
+      "justificacion": "Productos de altura con denominación: la Patata della Sila IGP (su consorcio está en Camigliatello, con sagra cada octubre desde 1978), el Caciocavallo Silano DOP, los porcini de los pinares y los embutidos calabreses.",
+      "platos": [
+        "Patata della Sila IGP",
+        "Caciocavallo Silano DOP",
+        "Porcini silani",
+        "Soppressata di Calabria DOP"
+      ],
+      "fuentes": [
+        {
+          "guia": "Touring Club Italiano (qué comer en Taverna, Sila)",
+          "url": "https://www.touringclub.it/notizie/bandiere-arancioni/che-cosa-mangiare-taverna"
+        },
+        {
+          "guia": "FreshPlaza (Patata della Sila IGP)",
+          "url": "https://www.freshplaza.com/article/9375567/the-campaign-of-potatoes-from-sila-is-livening-up/"
+        }
+      ]
+    },
+    {
+      "id": "it-pollino",
+      "puntaje": 3,
+      "justificacion": "En la vertiente calabresa, Saracena elabora el Moscato di Saracena, un passito raro y Presidio Slow Food. En la lucana, el peperone di Senise IGP se seca para los peperoni cruschi y se come con carne podolica en los pueblos arbëreshë.",
+      "platos": [
+        "Moscato di Saracena",
+        "Peperoni cruschi (peperone di Senise IGP)",
+        "Lagane e ceci",
+        "Carne podolica"
+      ],
+      "fuentes": [
+        {
+          "guia": "Italia.it (ENIT, pueblos del Pollino)",
+          "url": "https://www.italia.it/fr/calabre/que-faire/itineraire-entre-les-villages-du-pollino"
+        },
+        {
+          "guia": "Italia.it (ENIT, peperone crusco)",
+          "url": "https://www.italia.it/es/basilicata/que-hacer/pizza-franco-pepe-historia-peperone-crusco"
+        },
+        {
+          "guia": "Dissapore (variedades de pimiento, Senise IGP)",
+          "url": "https://www.dissapore.com/cucina/tipi-di-peperoni-varieta-italiane-da-conoscere/"
+        }
+      ]
+    },
+    {
+      "id": "it-parque-abruzzo",
+      "puntaje": 3,
+      "justificacion": "Cocina pastoril de los Apeninos: arrosticini de carnero, que Gambero Rosso presenta como símbolo de la trashumancia abrucesa, pecorinos de montaña y pasta casera, en trattorias de Pescasseroli y Opi con carne y quesos de la zona.",
+      "platos": [
+        "Arrosticini",
+        "Pecorino de los Abruzos",
+        "Sagne e fagioli",
+        "Cordero a la brasa"
+      ],
+      "fuentes": [
+        {
+          "guia": "Gambero Rosso (productos típicos de Abruzzo)",
+          "url": "https://www.gamberorosso.it/notizie/cucina-abruzzese-i-prodotti-tipici/"
+        }
+      ]
+    },
+    {
+      "id": "it-parque-gran-paradiso",
+      "puntaje": 3,
+      "justificacion": "Cogne tiene platos propios: la seupetta (riso, pan, fontina y mantequilla gratinados), la mocetta curada y la crema di Cogne. Los pastos del parque dan la Fontina DOP, y la zuppa del Gran Paradiso se sirve en sus restaurantes.",
+      "platos": [
+        "Seupetta di Cogne",
+        "Fontina DOP",
+        "Mocetta",
+        "Crema di Cogne"
+      ],
+      "fuentes": [
+        {
+          "guia": "Italia.it (ENIT, productos típicos del Valle de Aosta)",
+          "url": "https://www.italia.it/it/valle-aosta/cosa-fare/itinerario-in-valle-aosta-tra-i-prodotti-tipici"
+        },
+        {
+          "guia": "e-borghi (receta de la seupetta de Cogne)",
+          "url": "https://www.e-borghi.com/en/traditional-cooking/recipe-the-seupetta-from-cogne/"
+        },
+        {
+          "guia": "Gambero Rosso (Parque Gran Paradiso)",
+          "url": "https://www.gamberorosso.it/?p=93210"
+        }
+      ]
+    },
+    {
+      "id": "it-foreste-casentinesi",
+      "puntaje": 3,
+      "justificacion": "El Casentino tiene cocina de montaña toscana propia: tortelli di patate con patata roja de Cetica, prosciutto del Casentino y la castaña Marrone di Caprese Michelangelo DOP, junto con jabalí y setas del bosque.",
+      "platos": [
+        "Tortelli di patate",
+        "Marrone di Caprese Michelangelo DOP",
+        "Prosciutto del Casentino",
+        "Pappardelle al cinghiale"
+      ],
+      "fuentes": [
+        {
+          "guia": "Visit Tuscany (Marrone di Caprese Michelangelo DOP)",
+          "url": "https://www.visittuscany.com/en/food/pdo-chestnut-from-caprese-michelangelo/"
+        },
+        {
+          "guia": "Dissapore (tortelli di patate)",
+          "url": "https://www.dissapore.com/ricette/ricetta-tortelli-di-patate/"
+        }
+      ]
+    },
+    {
+      "id": "it-villa-romana-del-casale",
+      "puntaje": 2,
+      "justificacion": "Algo de interés: Piazza Armerina está en la zona del Piacentinu Ennese DOP, un queso de oveja con azafrán y pimienta y Presidio Slow Food, y la cocina campesina de Enna sirve maccu di fave. La visita, sin embargo, es arqueológica.",
+      "platos": [
+        "Piacentinu Ennese DOP",
+        "Maccu di fave",
+        "Arancine"
+      ],
+      "fuentes": [
+        {
+          "guia": "Fondazione Slow Food (Piacentinu de Enna)",
+          "url": "https://www.fondazioneslowfood.com/en/slow-food-presidia/enna-piacentinu/"
+        }
+      ]
+    },
+    {
+      "id": "it-su-nuraxi-barumini",
+      "puntaje": 2,
+      "justificacion": "Algo de interés: agriturismi de la Marmilla con cocina sarda de interior (porceddu, pane carasau, pecorino), pero el sitio es arqueológico y no un destino gastronómico.",
+      "platos": [
+        "Porceddu",
+        "Pane carasau",
+        "Pecorino sardo DOP"
+      ],
+      "fuentes": []
+    },
+    {
+      "id": "it-volo-dell-angelo",
+      "puntaje": 2,
+      "justificacion": "Algo de interés: Castelmezzano y Pietrapertosa tienen trattorias de cocina lucana de montaña (peperoni cruschi, strascinati, cordero), pero la visita es la tirolesa.",
+      "platos": [
+        "Peperoni cruschi",
+        "Strascinati",
+        "Cutturiddi (cordero guisado)"
+      ],
+      "fuentes": []
+    },
+    {
+      "id": "it-gardaland",
+      "puntaje": 1,
+      "justificacion": "Poco: restauración de parque temático. Fuera del resort, los vinos Bardolino, Chiaretto y Lugana de la orilla sur se cuentan en it-lago-de-garda.",
+      "platos": [
+        "Bardolino Chiaretto",
+        "Bigoli con sardelle de lago"
+      ],
+      "fuentes": []
+    },
+    {
+      "id": "it-mirabilandia",
+      "puntaje": 1,
+      "justificacion": "Poco: restauración de parque de atracciones. La piadina romagnola y la cocina de Rávena se cuentan en it-ravena.",
+      "platos": [
+        "Piadina romagnola IGP",
+        "Squacquerone di Romagna DOP"
+      ],
+      "fuentes": []
+    },
+    {
+      "id": "mt-hipogeo-hal-saflieni",
+      "puntaje": 1,
+      "justificacion": "Revisado (pedido de cobertura): el hipogeo no tiene oferta gastronómica propia, pero Paola tiene pastizzerie de barrio y Marsaxlokk, el gran destino de pescado de Malta, está a unos 5 km. Se sube de 0 a 1.",
+      "platos": [
+        "Pastizzi (en Paola)",
+        "Kinnie"
+      ],
+      "fuentes": []
+    },
+    {
+      "id": "mt-comino-laguna-azul",
+      "puntaje": 1,
+      "justificacion": "Revisado (pedido de cobertura): solo hay quioscos para bañistas en la Laguna Azul y el restaurante del único hotel de la isla. Lo mínimo: 1.",
+      "platos": [
+        "Granizado de fruta",
+        "Ħobż biż-żejt"
+      ],
+      "fuentes": []
+    }
+  ],
+  "nuevos": []
+}
