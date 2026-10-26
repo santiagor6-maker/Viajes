@@ -1,7 +1,7 @@
 {
   "pausado": false,
   "subregion": "iberica-italia",
-  "paso": "curador",
+  "paso": "cobertura",
   "ronda": 1,
   "orden_subregiones": [
     "iberica-italia",
@@ -12,7 +12,7 @@
     "este-caucaso-turquia"
   ],
   "terminadas": [],
-  "notas": "Las fuentes no verificadas de la ronda 1 se corrigen en el paso revisor (rondas de revisión), no en un paso aparte.",
+  "notas": "Fuentes no verificadas se corrigen en las rondas del revisor. No recortar países por superar 30 lugares: el usuario quiere muchos; cobertura solo pide lo que falte. Revisar puntajes de adrenalina inflados en MT/VA/SM.",
   "historial": [
     {
       "fecha": "2026-10-26",
@@ -31,6 +31,12 @@
       "subregion": "iberica-italia",
       "paso": "logistica",
       "resultado": "205 lugares con logística (ES/PT/AD 111, IT/MT/SM/VA 94); avisos de EE.UU./UK/Canadá"
+    },
+    {
+      "fecha": "2026-10-26",
+      "subregion": "iberica-italia",
+      "paso": "curador",
+      "resultado": "198 lugares (ES 62, PT 38, IT 65, MT 16, AD 6, SM 5, VA 6); 6 fusiones, 1 descarte; validador sin errores; publicado como en revisión"
     }
   ]
 }

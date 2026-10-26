@@ -692,7 +692,7 @@ function vistaPais() {
   const sr = S.subregiones.find((s) => s.id === p.subregion);
   let h = `<button class="volver" data-act="continente">← ${esc(sr?.nombre || 'Continente')}</button>
     <div class="grupo"><span class="ceja">${esc(NOMBRE_CONT[p.continente] || '')}</span><h2>${esc(p.nombre)}</h2>
-    <span class="sub">${p.total_lugares ? `${p.total_lugares} destinos` : 'Todavía no investigado'}${typeof p.nota_revisor === 'number' ? ` · revisión ${fmt1(p.nota_revisor)} / 10` : ''}${p.revision_pendiente ? ' · revisión pendiente' : ''}</span>
+    <span class="sub">${p.total_lugares ? `${p.total_lugares} destinos` : 'Todavía no investigado'}${typeof p.nota_revisor === 'number' ? ` · revisión ${fmt1(p.nota_revisor)} / 10` : p.total_lugares ? ' · en revisión de calidad' : ''}${p.revision_pendiente ? ' · revisión pendiente' : ''}</span>
     ${p.total_lugares ? barraEstado(c) : ''}</div>${avisoDatos()}`;
   if (p.justificacion) h += `<p class="sub" style="margin:0">${esc(p.justificacion)}</p>`;
   if (!p.total_lugares && !props.length) {

@@ -1,0 +1,47 @@
+{
+  "agente": "curador",
+  "subregion": "iberica-italia",
+  "fecha": "2026-10-26",
+  "fusionados": [
+    [
+      "es-oviedo",
+      "es-asturias-sidra"
+    ],
+    [
+      "pt-porto",
+      "pt-vila-nova-de-gaia"
+    ],
+    [
+      "pt-porto",
+      "pt-matosinhos"
+    ],
+    [
+      "mt-hipogeo-hal-saflieni",
+      "mt-templos-tarxien"
+    ],
+    [
+      "ad-grandvalira-pas-de-la-casa",
+      "ad-canillo-sant-joan-de-caselles"
+    ],
+    [
+      "ad-grandvalira-pas-de-la-casa",
+      "ad-estanys-de-juclar"
+    ]
+  ],
+  "descartados": [
+    {
+      "id": "it-aspromonte",
+      "global": 1.8,
+      "motivo": "global 1.8 < 2 (guías 0, mejor temático 3, logística 3)"
+    }
+  ],
+  "conteo_por_pais": {
+    "ES": 62,
+    "PT": 38,
+    "IT": 65,
+    "MT": 16,
+    "AD": 6,
+    "SM": 5,
+    "VA": 6
+  }
+}

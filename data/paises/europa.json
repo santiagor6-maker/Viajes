@@ -99,78 +99,78 @@
       "iso": "ES",
       "nombre": "España",
       "subregion": "iberica-italia",
-      "total_lugares": 0,
+      "total_lugares": 62,
       "excepcion_minimo": false,
       "justificacion": null,
       "nota_revisor": null,
       "revision_pendiente": false,
-      "estado": "sin_investigar"
+      "estado": "investigado"
     },
     {
       "iso": "PT",
       "nombre": "Portugal",
       "subregion": "iberica-italia",
-      "total_lugares": 0,
+      "total_lugares": 38,
       "excepcion_minimo": false,
       "justificacion": null,
       "nota_revisor": null,
       "revision_pendiente": false,
-      "estado": "sin_investigar"
+      "estado": "investigado"
     },
     {
       "iso": "IT",
       "nombre": "Italia",
       "subregion": "iberica-italia",
-      "total_lugares": 0,
+      "total_lugares": 65,
       "excepcion_minimo": false,
       "justificacion": null,
       "nota_revisor": null,
       "revision_pendiente": false,
-      "estado": "sin_investigar"
+      "estado": "investigado"
     },
     {
       "iso": "MT",
       "nombre": "Malta",
       "subregion": "iberica-italia",
-      "total_lugares": 0,
+      "total_lugares": 16,
       "excepcion_minimo": false,
       "justificacion": null,
       "nota_revisor": null,
       "revision_pendiente": false,
-      "estado": "sin_investigar"
+      "estado": "investigado"
     },
     {
       "iso": "AD",
       "nombre": "Andorra",
       "subregion": "iberica-italia",
-      "total_lugares": 0,
+      "total_lugares": 6,
       "excepcion_minimo": false,
-      "justificacion": null,
+      "justificacion": "Microestado de 468 km² en los Pirineos: 6 lugares que cubren la capital (Barri Antic, Caldea), su único Patrimonio Mundial (Vall del Madriu), los dos dominios de esquí (Grandvalira-Canillo con los lagos de Juclar y Ordino Arcalís), el techo del país (Comapedrosa) y el parque de montaña Naturlandia. Canillo y Juclar se fusionaron con Grandvalira para no superar el máximo de 6.",
       "nota_revisor": null,
       "revision_pendiente": false,
-      "estado": "sin_investigar"
+      "estado": "investigado"
     },
     {
       "iso": "SM",
       "nombre": "San Marino",
       "subregion": "iberica-italia",
-      "total_lugares": 0,
+      "total_lugares": 5,
       "excepcion_minimo": false,
-      "justificacion": null,
+      "justificacion": "Microestado de 61 km² sobre el Monte Titano: 5 lugares, el centro histórico Patrimonio Mundial, las tres torres (Guaita, Cesta y Montale, visitas distintas unidas por el sendero de cresta) y Borgo Maggiore con el teleférico. No hay más lugares con entidad propia.",
       "nota_revisor": null,
       "revision_pendiente": false,
-      "estado": "sin_investigar"
+      "estado": "investigado"
     },
     {
       "iso": "VA",
       "nombre": "Ciudad del Vaticano",
       "subregion": "iberica-italia",
-      "total_lugares": 0,
+      "total_lugares": 6,
       "excepcion_minimo": false,
-      "justificacion": null,
+      "justificacion": "Estado de 0,44 km² dentro de Roma: 6 lugares que corresponden a visitas separadas, cada una con su entrada, horario y cola: la basílica, la subida a la cúpula, la plaza, los Museos Vaticanos, la Capilla Sixtina (que se visita al final de los Museos, pero la tratan aparte todas las guías) y los Jardines con visita guiada.",
       "nota_revisor": null,
       "revision_pendiente": false,
-      "estado": "sin_investigar"
+      "estado": "investigado"
     },
     {
       "iso": "FR",

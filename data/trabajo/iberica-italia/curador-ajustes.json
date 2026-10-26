@@ -1,0 +1,1017 @@
+{
+  "fusiones": [
+    {
+      "destino": "es-oviedo",
+      "origenes": [
+        "es-asturias-sidra"
+      ],
+      "nombre": "Oviedo y la Asturias central (ruta de la sidra)"
+    },
+    {
+      "destino": "pt-porto",
+      "origenes": [
+        "pt-vila-nova-de-gaia",
+        "pt-matosinhos"
+      ],
+      "nombre": "Oporto (con Vila Nova de Gaia y Matosinhos)"
+    },
+    {
+      "destino": "mt-hipogeo-hal-saflieni",
+      "origenes": [
+        "mt-templos-tarxien"
+      ],
+      "nombre": "Hipogeo de Ħal Saflieni y templos de Tarxien"
+    },
+    {
+      "destino": "ad-grandvalira-pas-de-la-casa",
+      "origenes": [
+        "ad-canillo-sant-joan-de-caselles",
+        "ad-estanys-de-juclar"
+      ],
+      "nombre": "Canillo y Grandvalira (Soldeu, Vall d'Incles, Pas de la Casa)",
+      "lat": 42.5768,
+      "lng": 1.6676
+    }
+  ],
+  "guias": {
+    "es-merida": {
+      "puntaje": 3,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/destinations/spain/extremadura/merida"
+        }
+      ]
+    },
+    "es-tarragona": {
+      "puntaje": 3,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-tarragona"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/guide-to-tarragona-spain"
+        }
+      ]
+    },
+    "es-zaragoza": {
+      "puntaje": 4,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-zaragoza"
+        },
+        {
+          "guia": "Rough Guides",
+          "url": "https://www.roughguides.com/spain/aragon/zaragoza/"
+        },
+        {
+          "guia": "Fodor's",
+          "url": "https://www.fodors.com/world/europe/spain/the-pyrenees/places/zaragoza"
+        },
+        {
+          "guia": "Frommer's",
+          "url": "https://www.frommers.com/destinations/zaragoza/things-to-do/"
+        }
+      ]
+    },
+    "es-alcala-de-henares": {
+      "puntaje": 2,
+      "fuentes": [
+        {
+          "guia": "Frommer's",
+          "url": "https://www.frommers.com/destinations/alcala-de-henares/planning-a-trip/"
+        }
+      ]
+    },
+    "es-aranjuez": {
+      "puntaje": 2,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/day-trips-from-madrid"
+        }
+      ]
+    },
+    "es-antequera": {
+      "puntaje": 3,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/points-of-interest/antequera-dolmens-site/1206989"
+        },
+        {
+          "guia": "Rough Guides",
+          "url": "https://www.roughguides.com/destinations/europe/spain/andalucia/antequera-and-around/"
+        },
+        {
+          "guia": "Fodor's",
+          "url": "https://www.fodors.com/world/europe/spain/costa-del-sol-and-costa-de-almeria/places/antequera/things-to-do/sights"
+        },
+        {
+          "guia": "Frommer's",
+          "url": "https://www.frommers.com/destinations/antequera/things-to-do/"
+        }
+      ]
+    },
+    "es-las-medulas": {
+      "puntaje": 2,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/points-of-interest/las-medulas-gold-mines/1528752"
+        }
+      ]
+    },
+    "es-caminito-del-rey": {
+      "puntaje": 4,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-hikes-in-andalucia"
+        },
+        {
+          "guia": "National Geographic",
+          "url": "https://www.nationalgeographic.com/travel/article/beyond-camino-de-santiago-alternative-hikes-spain"
+        },
+        {
+          "guia": "Fodor's",
+          "url": "https://www.fodors.com/world/europe/spain/costa-del-sol-and-costa-de-almeria/things-to-do/sights/reviews/caminito-del-rey-128030930"
+        }
+      ]
+    },
+    "pt-arouca-516-paiva": {
+      "puntaje": 4,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/arouca-suspension-bridge-portugal"
+        },
+        {
+          "guia": "Time Out",
+          "url": "https://www.timeout.com/news/the-worlds-longest-pedestrian-suspension-bridge-has-opened-in-portugal-050521"
+        },
+        {
+          "guia": "Frommer's",
+          "url": "https://www.frommers.com/blogs/passportable/the-world-s-longest-suspension-bridge-has-a-see-through-walkway/"
+        },
+        {
+          "guia": "Rough Guides",
+          "url": "https://www.roughguides.com/portugal/best-hikes/"
+        }
+      ]
+    },
+    "es-oviedo": {
+      "puntaje": 4,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/destinations/spain/asturias/oviedo"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-asturias"
+        },
+        {
+          "guia": "National Geographic",
+          "url": "https://www.nationalgeographic.com/travel/article/best-trips-2020-asturias-spain"
+        },
+        {
+          "guia": "Frommer's",
+          "url": "https://www.frommers.com/destinations/oviedo/"
+        },
+        {
+          "guia": "Fodor's",
+          "url": "https://www.fodors.com/world/europe/spain/galicia-and-asturias/things-to-do/sights?pois=632725"
+        }
+      ]
+    },
+    "es-getaria": {
+      "puntaje": 3,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-day-trips-from-san-sebastian"
+        },
+        {
+          "guia": "Rough Guides",
+          "url": "https://www.roughguides.com/spain/trips/northern-spain-self-drive-tour/"
+        }
+      ]
+    },
+    "es-el-puerto-de-santa-maria": {
+      "puntaje": 3,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/destinations/spain/andalucia/el-puerto-de-santa-maria"
+        },
+        {
+          "guia": "Frommer's",
+          "url": "https://www.frommers.com/destinations/el-puerto-de-santa-maria/"
+        },
+        {
+          "guia": "Fodor's",
+          "url": "https://www.fodors.com/world/europe/spain/andalusia/places/puerto-de-santa-maria"
+        }
+      ]
+    },
+    "es-ribera-del-duero": {
+      "puntaje": 3,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/guide-to-spain-wine-regions"
+        },
+        {
+          "guia": "Frommer's",
+          "url": "https://www.frommers.com/destinations/spain/things-to-do/the-best-wines--vineyards/"
+        }
+      ]
+    },
+    "es-rias-baixas": {
+      "puntaje": 3,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/guide-to-spain-wine-regions"
+        },
+        {
+          "guia": "Fodor's",
+          "url": "https://www.fodors.com/world/europe/spain/galicia-and-asturias/experiences/wine-tasting-in-rias-baixas-133531140"
+        }
+      ]
+    },
+    "es-aiguestortes": {
+      "puntaje": 3,
+      "fuentes": [
+        {
+          "guia": "National Geographic",
+          "url": "https://www.nationalgeographic.com/travel/article/trade-barcelona-crowds-for-catalonia-only-national-park"
+        },
+        {
+          "guia": "Rough Guides",
+          "url": "https://roughguides.com/destinations/europe/spain/catalunya/the-catalan-pyrenees/parc-nacional-daiguestortes-i-estany-de-sant-maurici"
+        }
+      ]
+    },
+    "es-baqueira-beret": {
+      "puntaje": 2,
+      "fuentes": [
+        {
+          "guia": "Fodor's",
+          "url": "https://www.fodors.com/world/europe/spain/the-pyrenees/places/salardu"
+        }
+      ]
+    },
+    "es-garajonay": {
+      "puntaje": 3,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-canary-islands"
+        },
+        {
+          "guia": "National Geographic",
+          "url": "https://www.nationalgeographic.com/travel/article/the-ultimate-guide-to-your-canary-islands-adventure"
+        }
+      ]
+    },
+    "es-caldera-de-taburiente": {
+      "puntaje": 3,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/destinations/canary-islands/la-palma"
+        },
+        {
+          "guia": "Rough Guides",
+          "url": "https://www.roughguides.com/spain/first-timers-guide-to-the-canary-islands/"
+        }
+      ]
+    },
+    "es-formentera": {
+      "puntaje": 4,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/guide-to-formentera"
+        },
+        {
+          "guia": "Rough Guides",
+          "url": "https://www.roughguides.com/spain/best-islands/"
+        },
+        {
+          "guia": "Fodor's",
+          "url": "https://www.fodors.com/world/europe/spain/ibiza-and-the-balearic-islands/places/formentera"
+        }
+      ]
+    },
+    "es-cabrera": {
+      "puntaje": 3,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/points-of-interest/parc-nacional-maritim-terrestre-de-l-arxipelag-de-cabrera/1164237"
+        },
+        {
+          "guia": "Fodor's",
+          "url": "https://www.fodors.com/world/europe/spain/ibiza-and-the-balearic-islands/things-to-do/sights/reviews/illa-de-cabrera-463987"
+        }
+      ]
+    },
+    "es-cabaneros": {
+      "puntaje": 2,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-national-parks-spain"
+        }
+      ]
+    },
+    "es-denia": {
+      "puntaje": 2,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/destinations/spain/denia"
+        }
+      ]
+    },
+    "es-portaventura": {
+      "puntaje": 3,
+      "fuentes": [
+        {
+          "guia": "Rough Guides",
+          "url": "https://www.roughguides.com/spain/spain-with-kids/"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/points-of-interest/portaventura/1205125"
+        },
+        {
+          "guia": "National Geographic",
+          "url": "https://www.nationalgeographic.com/travel/article/europe-best-theme-parks-families"
+        }
+      ]
+    },
+    "es-parque-warner": {
+      "puntaje": 3,
+      "fuentes": [
+        {
+          "guia": "Rough Guides",
+          "url": "https://www.roughguides.com/spain/spain-with-kids/"
+        },
+        {
+          "guia": "Time Out",
+          "url": "https://www.timeout.com/madrid/things-to-do/parque-warner"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://lonelyplanet.com/spain/attractions/warner-brothers-movie-world/a/poi-sig/1205278/1326657"
+        }
+      ]
+    },
+    "es-terra-mitica": {
+      "puntaje": 2,
+      "fuentes": [
+        {
+          "guia": "Time Out",
+          "url": "https://www.timeout.com/spain/things-to-do/best-things-benidorm"
+        }
+      ]
+    },
+    "es-skydive-empuriabrava": {
+      "puntaje": 0
+    },
+    "pt-mafra": {
+      "puntaje": 3,
+      "fuentes": [
+        {
+          "guia": "Rough Guides",
+          "url": "https://www.roughguides.com/portugal/mafra-travel-guide/"
+        },
+        {
+          "guia": "Fodor's",
+          "url": "https://fodors.com/world/europe/portugal/estremadura-and-the-ribatejo/things-to-do/sights/reviews/palacio-nacional-de-mafra-595289"
+        }
+      ]
+    },
+    "pt-elvas": {
+      "puntaje": 3,
+      "fuentes": [
+        {
+          "guia": "Rough Guides",
+          "url": "https://roughguides.com/destinations/europe/portugal/alentejo/elvas"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/portugal/elvas/attractions/forte-da-graca/a/poi-sig/1539291/1300065"
+        },
+        {
+          "guia": "Fodor's",
+          "url": "https://www.fodors.com/world/europe/portugal/evora-and-the-alentejo/things-to-do/sights/reviews/castelo-de-elvas-595671"
+        }
+      ]
+    },
+    "pt-amarante": {
+      "puntaje": 1,
+      "fuentes": [
+        {
+          "guia": "Rough Guides",
+          "url": "https://www.roughguides.com/portugal/itineraries/"
+        }
+      ]
+    },
+    "pt-angra-do-heroismo": {
+      "puntaje": 3,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-the-azores"
+        },
+        {
+          "guia": "National Geographic",
+          "url": "https://www.nationalgeographic.com/travel/article/things-to-do-azores-islands"
+        },
+        {
+          "guia": "Fodor's",
+          "url": "https://www.fodors.com/world/europe/portugal/experiences/news/photos/10-reasons-to-visit-this-volcanic-island-thats-obsessed-with-cows"
+        }
+      ]
+    },
+    "pt-vale-do-coa": {
+      "puntaje": 3,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/points-of-interest/parque-arqueologico-do-vale-do-coa/1374764"
+        },
+        {
+          "guia": "National Geographic",
+          "url": "https://www.nationalgeographic.com/travel/article/what-to-do-in-douro-valley-portugal"
+        }
+      ]
+    },
+    "it-padova": {
+      "puntaje": 4,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/destinations/italy/the-veneto/padua"
+        },
+        {
+          "guia": "Fodor's",
+          "url": "https://www.fodors.com/world/europe/italy/the-veneto-and-friuli-venezia-giulia/places/padua"
+        },
+        {
+          "guia": "Frommer's",
+          "url": "https://www.frommers.com/destinations/padua/things-to-do/"
+        },
+        {
+          "guia": "National Geographic",
+          "url": "https://www.nationalgeographic.com/travel/article/these-frescoes-shattered-conventions-in-the-italian-art-world"
+        }
+      ]
+    },
+    "it-genova": {
+      "puntaje": 3,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-genoa"
+        },
+        {
+          "guia": "National Geographic",
+          "url": "https://www.nationalgeographic.com/travel/article/guide-genoa-italian-city-championing-street-food-art-history"
+        }
+      ]
+    },
+    "it-ferrara": {
+      "puntaje": 3,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://lonelyplanet.com/destinations/italy/emilia-romagna-and-san-marino/ferrara"
+        },
+        {
+          "guia": "Time Out",
+          "url": "https://www.timeout.com/italy/travel/most-underrated-italian-cities"
+        }
+      ]
+    },
+    "it-urbino": {
+      "puntaje": 3,
+      "fuentes": [
+        {
+          "guia": "National Geographic",
+          "url": "https://www.nationalgeographic.com/travel/article/lesser-known-unesco-world-heritage-sites-italy"
+        },
+        {
+          "guia": "Rough Guides",
+          "url": "https://www.roughguides.com/articles/6-enticing-alternatives-to-italys-big-sights/"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-alternative-destinations-italy"
+        }
+      ]
+    },
+    "it-mantova-sabbioneta": {
+      "puntaje": 1,
+      "fuentes": [
+        {
+          "guia": "Rick Steves (foro)",
+          "url": "https://community.ricksteves.com/travel-forum/italy/padua-vicenza-or-mantua"
+        }
+      ]
+    },
+    "it-villa-romana-del-casale": {
+      "puntaje": 4,
+      "fuentes": [
+        {
+          "guia": "Rick Steves",
+          "url": "https://www.ricksteves.com/watch-read-listen/video/sicily-mosaics"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/points-of-interest/villa-romana-del-casale/1408603"
+        },
+        {
+          "guia": "Frommer's",
+          "url": "https://www.frommers.com/destinations/piazza-armerina/attractions/villa-romana-del-casale/"
+        },
+        {
+          "guia": "Fodor's",
+          "url": "https://www.fodors.com/world/europe/italy/sicily/things-to-do/sights/reviews/villa-romana-del-casale-imperial-roman-villa-155040"
+        }
+      ]
+    },
+    "it-val-di-noto": {
+      "puntaje": 3,
+      "fuentes": [
+        {
+          "guia": "Rough Guides",
+          "url": "https://www.roughguides.com/italy/sicily/"
+        },
+        {
+          "guia": "Frommer's",
+          "url": "https://www.frommers.com/destinations/sicily/suggested-itineraries/in-two-weeks/"
+        }
+      ]
+    },
+    "it-su-nuraxi-barumini": {
+      "puntaje": 3,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/italy/attractions/nuraghe-su-nuraxi/a/poi-sig/1138386/1325262"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-sardinia"
+        },
+        {
+          "guia": "Fodor's",
+          "url": "https://www.fodors.com/world/europe/italy/sardinia/things-to-do/sights?pois=636075"
+        }
+      ]
+    },
+    "it-langhe-barolo": {
+      "puntaje": 4,
+      "fuentes": [
+        {
+          "guia": "Fodor's",
+          "url": "https://www.fodors.com/world/europe/italy/experiences/news/photos/10-italian-wine-regions-you-need-to-visit"
+        },
+        {
+          "guia": "Rough Guides",
+          "url": "https://www.roughguides.com/italy/tours/italy-wine-tour/"
+        },
+        {
+          "guia": "Frommer's",
+          "url": "https://www.frommers.com/destinations/italy/the-best-wine-growing-regions/"
+        }
+      ]
+    },
+    "it-chianti-classico": {
+      "puntaje": 4,
+      "fuentes": [
+        {
+          "guia": "Fodor's",
+          "url": "https://www.fodors.com/world/europe/italy/experiences/news/photos/10-italian-wine-regions-you-need-to-visit"
+        },
+        {
+          "guia": "Rough Guides",
+          "url": "https://www.roughguides.com/italy/tours/italy-wine-tour/"
+        },
+        {
+          "guia": "Frommer's",
+          "url": "https://www.frommers.com/destinations/italy/the-best-wine-growing-regions/"
+        }
+      ]
+    },
+    "it-franciacorta": {
+      "puntaje": 3,
+      "fuentes": [
+        {
+          "guia": "Frommer's",
+          "url": "https://www.frommers.com/destinations/italy/the-best-wine-growing-regions/"
+        },
+        {
+          "guia": "Fodor's",
+          "url": "https://www.fodors.com/world/europe/italy/experiences/news/photos/10-italian-wine-regions-you-need-to-visit"
+        }
+      ]
+    },
+    "it-colinas-prosecco": {
+      "puntaje": 3,
+      "fuentes": [
+        {
+          "guia": "Frommer's",
+          "url": "https://www.frommers.com/destinations/italy/the-best-wine-growing-regions/"
+        },
+        {
+          "guia": "Fodor's",
+          "url": "https://www.fodors.com/world/europe/italy/experiences/news/photos/10-italian-wine-regions-you-need-to-visit"
+        }
+      ]
+    },
+    "it-parma": {
+      "puntaje": 3,
+      "fuentes": [
+        {
+          "guia": "National Geographic",
+          "url": "https://www.nationalgeographic.com/travel/article/chef-angela-hartnetts-guide-eating-emilia-romagna"
+        },
+        {
+          "guia": "Frommer's",
+          "url": "https://www.frommers.com/slideshows/847841-the-best-eats-in-emilia-romagna/"
+        }
+      ]
+    },
+    "it-modena": {
+      "puntaje": 3,
+      "fuentes": [
+        {
+          "guia": "National Geographic",
+          "url": "https://www.nationalgeographic.com/travel/article/chef-angela-hartnetts-guide-eating-emilia-romagna"
+        },
+        {
+          "guia": "Frommer's",
+          "url": "https://www.frommers.com/slideshows/847841-the-best-eats-in-emilia-romagna/"
+        }
+      ]
+    },
+    "it-parque-gran-paradiso": {
+      "puntaje": 3,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-national-parks-italy"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-hikes-italy"
+        }
+      ]
+    },
+    "it-parque-stelvio": {
+      "puntaje": 3,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-national-parks-italy"
+        }
+      ]
+    },
+    "it-parque-abruzzo": {
+      "puntaje": 3,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/abruzzo-national-park-italy"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-national-parks-italy"
+        }
+      ]
+    },
+    "it-gargano": {
+      "puntaje": 3,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-southern-italy"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-national-parks-italy"
+        }
+      ]
+    },
+    "it-pollino": {
+      "puntaje": 2,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-national-parks-italy"
+        }
+      ]
+    },
+    "it-cilento": {
+      "puntaje": 2,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-national-parks-italy"
+        }
+      ]
+    },
+    "it-sila": {
+      "puntaje": 1,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://media.lonelyplanet.com/shop/pdfs/italy-10-puglia-basilicata-calabria-preview.pdf"
+        }
+      ]
+    },
+    "it-foreste-casentinesi": {
+      "puntaje": 0
+    },
+    "it-aspromonte": {
+      "puntaje": 0
+    },
+    "it-gardaland": {
+      "puntaje": 3,
+      "fuentes": [
+        {
+          "guia": "Frommer's",
+          "url": "https://www.frommers.com/trip-ideas/cultural-immersion/unexpected-family-destination-lake-garda-italy/"
+        },
+        {
+          "guia": "National Geographic",
+          "url": "https://www.nationalgeographic.com/travel/article/europe-best-theme-parks-families"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/italy-with-kids"
+        }
+      ]
+    },
+    "it-mirabilandia": {
+      "puntaje": 0
+    },
+    "it-volo-dell-angelo": {
+      "puntaje": 0
+    },
+    "mt-sliema-st-julians": {
+      "puntaje": 3,
+      "fuentes": [
+        {
+          "guia": "Fodor's",
+          "url": "https://www.fodors.com/world/europe/malta/places/sliema-and-st-julians"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/malta/sliema-st-julians-and-paceville/attractions"
+        }
+      ]
+    }
+  },
+  "lugares": {
+    "it-capri": {
+      "lat": 40.5508,
+      "lng": 14.2426
+    },
+    "it-golfo-di-orosei": {
+      "lat": 40.2817,
+      "lng": 9.6306
+    }
+  },
+  "playa": [
+    "es-mallorca",
+    "es-menorca",
+    "es-ibiza",
+    "es-formentera",
+    "es-lanzarote",
+    "es-san-sebastian",
+    "pt-tavira",
+    "pt-arrabida",
+    "it-la-maddalena-costa-smeralda",
+    "it-islas-eolias",
+    "it-gargano",
+    "it-cagliari",
+    "it-taormina",
+    "mt-comino-laguna-azul",
+    "mt-xlendi"
+  ],
+  "no_playa": [
+    "es-praia-das-catedrais",
+    "mt-dwejra"
+  ],
+  "por_que": {
+    "es-barcelona": "Siete obras de Gaudí son Patrimonio Mundial, entre ellas la Sagrada Família, el Park Güell y la Casa Milà, y junto al Palau de la Música y Sant Pau forman la mayor concentración de modernismo del mundo. En la mesa compite con cualquier capital: cuatro triestrellados Michelin, la Boqueria y la ronda de vermut y tapas. El Tibidabo, con su parque de atracciones sobre la ciudad, queda a 6 km.",
+    "es-madrid": "El Paseo del Prado y el Retiro, Patrimonio Mundial desde 2021, reúnen el Prado, el Thyssen y el Reina Sofía a pocos minutos a pie entre sí. Se come de tasca centenaria a triestrellado (DiverXO), con cocido, bocadillo de calamares y el mercado de San Miguel. Como extra, el Parque Warner queda a 23 km y Valdesquí a 48 km.",
+    "es-granada-alhambra": "La Alhambra es la única ciudad palatina nazarí que se conserva, y con el Generalife y el Albayzín forma uno de los conjuntos islámicos más importantes del mundo. En sus bares la tapa llega gratis con cada bebida. A 20 km, la estación de Sierra Nevada permite esquiar por la mañana y ver los palacios por la tarde.",
+    "es-sevilla": "La catedral gótica más grande de Europa, con la Giralda, el Real Alcázar mudéjar y el Archivo de Indias forman su núcleo Patrimonio Mundial. Es la capital del tapeo andaluz y vive en la calle la Semana Santa y la Feria de Abril. Isla Mágica, con montañas rusas, está a 3 km del centro.",
+    "es-cordoba": "La Mezquita-Catedral del siglo VIII, con su bosque de arcos bicolores, es uno de los edificios más singulares del mundo, rodeada por la judería y el puente romano. En mayo los Patios abren sus puertas cubiertos de flores. Es la cuna del salmorejo y del rabo de toro, y Noor reinterpreta la cocina andalusí con tres estrellas Michelin.",
+    "es-toledo": "Sobre un peñón rodeado por el Tajo se concentran la catedral primada, dos sinagogas medievales, una mezquita del siglo X y los grandes lienzos de El Greco. La ciudad de las tres culturas está a media hora de Madrid en AVE. Para el final, mazapán conventual y perdiz a la toledana.",
+    "es-segovia": "El acueducto romano de 128 pilares cruza la ciudad hasta un Alcázar de cuento y una catedral gótica tardía, todo dentro de un casco Patrimonio Mundial. Se viene sobre todo a comer cochinillo asado en horno de leña. Los pinares de Valsaín y la sierra de Guadarrama quedan a 15 km.",
+    "es-salamanca": "Una de las universidades más antiguas de Europa y dos catedrales, la vieja románica y la nueva gótica, se reparten un casco de piedra dorada Patrimonio Mundial. La Plaza Mayor barroca de Churriguera es el centro de la vida estudiantil. El ibérico de Guijuelo llega desde 50 km.",
+    "es-avila": "Sus murallas medievales son las más completas de España, con 82 torres y nueve puertas, y se pueden recorrer por el adarve. Extramuros quedan iglesias románicas como San Vicente y los lugares de Santa Teresa. En la mesa mandan el chuletón de Ávila y las yemas de la santa.",
+    "es-el-escorial": "El monasterio-palacio de Felipe II, modelo del estilo herreriano, guarda el panteón de los reyes de España, una biblioteca con frescos y pinturas de Tiziano y El Greco. Está a 45 km de Madrid, al pie del monte Abantos. La Silla de Felipe II ofrece la mejor vista del conjunto.",
+    "es-san-sebastian": "Pocas ciudades tienen tantas estrellas Michelin por habitante: Arzak y Akelaře en la ciudad y Berasategui a 8 km, además de los bares de pintxos de la Parte Vieja. La Concha, entre los montes Urgull e Igueldo, es una de las mejores playas urbanas de Europa. En septiembre acoge el Festival de Cine.",
+    "es-bilbao": "El Guggenheim de Gehry cambió la ciudad y hoy comparte ría con el Bellas Artes y el Casco Viejo de las Siete Calles. Los pintxos de La Ribera son el aperitivo, y Azurmendi y Etxebarri, dos de los mejores restaurantes del mundo, están a menos de 40 km. San Juan de Gaztelugatxe se visita en una excursión de medio día.",
+    "es-santiago-de-compostela": "La catedral del Pórtico de la Gloria y la plaza del Obradoiro son la meta del Camino, en un casco de granito Patrimonio Mundial que se recorre a pie. El Mercado de Abastos y las pulperías reúnen lo mejor de la despensa gallega. Mejor llegar con paraguas, porque llueve casi todo el año.",
+    "es-picos-de-europa": "España declaró aquí su primer parque nacional, en 1918: macizos calizos con el Naranjo de Bulnes, los lagos de Covadonga y osos pardos. La Ruta del Cares, 11 km de sendero excavado en la garganta, es la caminata más famosa del país. Al bajar esperan el queso de Cabrales madurado en cueva y el descenso del Sella en canoa.",
+    "es-santillana-altamira": "La cueva de Altamira fue la primera donde se identificó arte paleolítico, y su Neocueva reproduce los bisontes a escala real junto al Museo Nacional. A 2 km, Santillana del Mar conserva intacta su villa medieval con colegiata románica. Para merendar, sobaos y quesada pasiega.",
+    "es-praia-das-catedrais": "Arcos y bóvedas de pizarra de hasta 30 m tallados por el mar, que solo se recorren a pie en marea baja. Hay que consultar la tabla de mareas, y en verano y Semana Santa reservar el acceso gratuito por internet. No es playa para bañarse, sino un paseo geológico en la Mariña lucense.",
+    "es-valencia": "Cuna de la paella, con el Mercado Central, la huerta y los arrozales de la Albufera a 10 km del centro. La Lonja de la Seda es una obra maestra del gótico civil y contrasta con la Ciudad de las Artes y las Ciencias de Calatrava. En marzo, las Fallas llenan la ciudad de monumentos de cartón y pólvora.",
+    "es-mallorca": "La Serra de Tramuntana, paisaje cultural Patrimonio Mundial, recorre 90 km de terrazas de piedra seca, calas y pueblos como Deià y Valldemossa, unidos por la ruta GR 221. Palma suma una catedral gótica sobre el mar. Fuera de temporada es una isla de senderismo, ensaimada y vinos de Binissalem.",
+    "es-menorca": "La isla entera es Reserva de la Biosfera, y sus calas vírgenes se unen por el Camí de Cavalls, 185 km de sendero costero. Los talayots y taulas de la Menorca Talayótica son Patrimonio Mundial desde 2023. En Fornells se come la caldereta de langosta, y el queso de Mahón tiene denominación propia.",
+    "es-ibiza": "Más allá de la fiesta, Dalt Vila es una acrópolis amurallada Patrimonio Mundial, con necrópolis fenicia y bastiones renacentistas. El Parque Natural de ses Salines reúne dunas, salinas con flamencos y praderas de posidonia. En primavera y otoño las calas y los senderos están casi vacíos.",
+    "es-tenerife-teide": "El Teide, de 3.715 m y techo de España, se sube en teleférico y por el sendero Telesforo Bravo, que exige un permiso gratuito con meses de antelación. Su cielo es de los mejores de Europa para observar estrellas. Abajo esperan La Laguna, ciudad Patrimonio Mundial, los guachinches del norte y Siam Park, a 24 km.",
+    "es-lanzarote": "En Timanfaya se ven los campos de lava de las erupciones de 1730–1736, y César Manrique dejó en la isla obras integradas en el volcán, como los Jameos del Agua o el Mirador del Río. En La Geria las vides crecen en hoyos de ceniza negra, con bodegas de malvasía. Famara es la playa del surf.",
+    "es-ronda": "El Puente Nuevo cruza a más de 100 m sobre el Tajo, la garganta que parte la ciudad, junto a una de las plazas de toros más antiguas de España y unos baños árabes. Es la puerta de la Serranía y de la sierra de Grazalema. El Caminito del Rey queda a 39 km.",
+    "es-pueblos-blancos-cadiz": "Arcos, Grazalema y Zahara cuelgan de peñas y castillos dentro del Parque Natural Sierra de Grazalema, la primera Reserva de la Biosfera de España y la sierra más lluviosa de la península. La Garganta Verde, con paredes de hasta 400 m, se recorre a pie o haciendo barranquismo. Para comer, queso payoyo y chacinas.",
+    "es-tarifa-bolonia": "La duna de Bolonia, de más de 30 m, cae sobre una playa virgen con vistas a África y junto a las ruinas romanas de Baelo Claudia. Tarifa, a 20 km, es una de las capitales europeas del kitesurf por sus vientos de levante y poniente. En primavera es temporada de atún rojo de almadraba.",
+    "es-jerez-de-la-frontera": "Es la capital del jerez, con bodegas históricas que se visitan con cata y tabancos donde se sirve fino de barril. También es cuna del flamenco y del caballo andaluz: la Real Escuela Andaluza del Arte Ecuestre ofrece espectáculos semanales. El Circuito de Jerez, de MotoGP, está a 9 km y ofrece tandas de pilotaje.",
+    "es-malaga": "En pocas manzanas reúne el Museo Picasso, el Pompidou, el Carmen Thyssen, la Alcazaba y un teatro romano. Se come espeto de sardinas en los chiringuitos y fritura en el mercado de Atarazanas. Tivoli World y Aqualand quedan a menos de 20 km, y el Caminito del Rey a 39.",
+    "es-ubeda-baeza": "Andrés de Vandelvira levantó aquí dos de los primeros conjuntos renacentistas de España, como la plaza Vázquez de Molina, y ambas ciudades son Patrimonio Mundial desde 2003. Las rodea un mar de olivos, la mayor zona productora de aceite del mundo, con almazaras que se visitan. La sierra de Cazorla está a 50 km.",
+    "es-alpujarras-sierra-nevada": "El Parque Nacional de Sierra Nevada, el más extenso de España, tiene más de 15 cumbres de más de 3.000 m, con el Mulhacén como techo de la península. Los pueblos del barranco del Poqueira, como Pampaneira, Bubión y Capileira, conservan tejados planos bereberes y acequias moriscas. En Trevélez se curan jamones al aire de la sierra.",
+    "es-donana": "Es uno de los grandes humedales de Europa: marismas, dunas móviles y pinares donde viven más de 400 especies de aves, el lince ibérico y el águila imperial. Solo se recorre a fondo en las visitas guiadas en 4x4 o por los senderos de El Acebuche y La Rocina. En la aldea de El Rocío se ven caballos por calles de arena.",
+    "es-cuenca": "Las Casas Colgadas se asoman a la hoz del Huécar, en una ciudad amurallada con la primera catedral gótica de Castilla y el Museo de Arte Abstracto Español. A 25 km, la Ciudad Encantada es un laberinto de rocas calizas modeladas por la erosión. Se come morteruelo y, de postre, alajú.",
+    "es-ordesa-monte-perdido": "Un cañón glaciar de hayedos, fajas y cascadas sube hasta el circo de Soaso y la Cola de Caballo, dentro del bien UNESCO Pirineos–Monte Perdido. En temporada alta solo se entra en autobús desde Torla. Formigal y la Sierra de Guara, referencia europea del barranquismo, completan el plan de aventura.",
+    "es-la-rioja": "Es la región vinícola más conocida de España: el barrio de la Estación de Haro, Briones y las bodegas de autor de la Rioja Alavesa, como Marqués de Riscal de Gehry. En San Millán de la Cogolla, los monasterios de Yuso y Suso son la cuna del castellano escrito. La calle Laurel de Logroño cierra el día con pinchos.",
+    "es-burgos": "La catedral gótica de Burgos, Patrimonio Mundial, guarda la tumba del Cid y se completa con el monasterio de Las Huelgas y la Cartuja de Miraflores. A 15 km está Atapuerca, y en la ciudad el Museo de la Evolución Humana. En los asadores mandan la morcilla de arroz y el lechazo.",
+    "es-leon": "Su catedral gótica tiene 1.800 m² de vidrieras medievales, y San Isidoro guarda un panteón románico pintado, conocido como la Capilla Sixtina del románico. En el Barrio Húmedo la tapa viene incluida con la bebida. Por la ciudad pasa el Camino Francés y en ella está la Casa Botines de Gaudí.",
+    "es-caceres": "La ciudad monumental conserva unas 30 torres y casas-palacio de los siglos XIV al XVI casi sin intrusiones modernas, y es Patrimonio Mundial. Dentro de sus murallas está Atrio, con tres estrellas Michelin y una bodega legendaria. Se prueban la Torta del Casar y el ibérico de dehesa.",
+    "es-girona": "El Barri Vell reúne la catedral con la nave gótica más ancha del mundo, el Call judío y unas murallas que se recorren a pie. Aquí está El Celler de Can Roca, uno de los restaurantes más influyentes del mundo. A 39 km, Skydive Empuriabrava ofrece saltos en tándem todo el año.",
+    "es-oviedo": "Santa María del Naranco, San Miguel de Lillo y la Cámara Santa son Patrimonio Mundial y ejemplos únicos del prerrománico asturiano del siglo IX. En la calle Gascona y en las sidrerías de Gijón y Villaviciosa se escancia la sidra desde lo alto, con fabada y cachopo. Oviedo es también el inicio del Camino Primitivo.",
+    "es-merida": "El teatro y el anfiteatro romanos, el puente sobre el Guadiana y el Museo Nacional de Arte Romano de Moneo forman el mejor legado romano de España, Patrimonio Mundial. Cada verano el teatro vuelve a usarse en el Festival de Teatro Clásico. Una entrada conjunta da acceso a casi todos los yacimientos durante varios días.",
+    "es-tarragona": "Tarraco fue capital de la Hispania Citerior: su anfiteatro frente al mar, el circo, las murallas y el acueducto de Les Ferreres son Patrimonio Mundial. El paseo arqueológico por la muralla recorre restos del siglo III a. C. En primavera, Tarraco Viva recrea la vida romana, y PortAventura está a 8 km.",
+    "es-zaragoza": "La Aljafería, palacio islámico del siglo XI con techumbres mudéjares, y la Seo forman parte de la arquitectura mudéjar de Aragón, Patrimonio Mundial. La Basílica del Pilar conserva frescos de Goya, y su torre tiene ascensor y mirador. En El Tubo se tapea, y el 12 de octubre la ciudad celebra las fiestas del Pilar.",
+    "es-antequera": "Los dólmenes de Menga, Viera y El Romeral, de unos 2.500 años a. C., son Patrimonio Mundial junto con el karst del Torcal y la Peña de los Enamorados. Menga, de 25 m de largo, tiene losas de hasta 180 toneladas. La ciudad suma una alcazaba e iglesias barrocas, y el Caminito del Rey queda a unos 20 km.",
+    "es-alcala-de-henares": "Fue la primera ciudad universitaria planificada del mundo y es Patrimonio Mundial, con el Colegio de San Ildefonso y la casa natal de Cervantes. Cada abril se entrega aquí el Premio Cervantes. Está a 40 minutos de Madrid en Cercanías, y su calle Mayor porticada se llena de nidos de cigüeña.",
+    "es-aranjuez": "El Palacio Real, los jardines del Príncipe y de la Isla y la Casa del Labrador junto al Tajo forman un paisaje cultural Patrimonio Mundial. El Museo de Falúas Reales guarda las barcas de recreo de la corte. Se llega en 45 minutos desde Atocha, y en temporada también en el Tren de la Fresa.",
+    "es-las-medulas": "Fue la mayor mina de oro a cielo abierto del Imperio romano, y hoy deja picachos rojizos entre castaños, modelados por la técnica de la ruina montium. El mirador de Orellán ofrece la mejor vista del conjunto, Patrimonio Mundial. El aula arqueológica del pueblo explica cómo se derribaban montañas con agua.",
+    "es-formentera": "Ses Illetes y Llevant son arenales blancos sobre praderas de posidonia, parte del Parque Natural de ses Salines y del bien UNESCO de Ibiza. La isla se recorre en bici hasta el faro de Cap de Barbaria. Desde 2026 limita los coches que entran, y en mayo, junio o septiembre es mucho más tranquila.",
+    "es-aiguestortes": "El único parque nacional de Cataluña tiene unos 200 lagos glaciares entre granito y pino negro, con los Encantats sobre el lago de Sant Maurici. La ruta de Espot a los lagos de Sant Maurici y Ratera, o los meandros de Aigüestortes desde Boí, se hacen en el día. Los más fuertes completan la travesía Carros de Foc.",
+    "es-garajonay": "Es uno de los mejores bosques de laurisilva del mundo, un relicto del Terciario casi siempre envuelto en niebla, Patrimonio Mundial desde 1986. Se sube al Alto de Garajonay, de 1.487 m, y se baja por el sendero de El Cedro. El parque ofrece caminatas guiadas gratuitas con reserva, y se llega en ferry desde Los Cristianos, en Tenerife.",
+    "es-caldera-de-taburiente": "Una caldera de unos 8 km de diámetro y paredes de hasta 2.000 m guarda pinar canario, arroyos y la Cascada de Colores. La ruta de Los Brecitos al barranco de las Angustias baja a su interior, y el Roque de los Muchachos ofrece la vista desde arriba. La Palma es además una isla de cielos limpios para la astronomía.",
+    "es-cabrera": "Un archipiélago casi virgen al sur de Mallorca, con fondos de posidonia, aves marinas y lagartijas endémicas, y un cupo diario de visitantes. La excursión en barco desde la Colònia de Sant Jordi incluye el baño en la Cova Blava y la subida al castillo. Para dormir, el refugio del parque tiene solo 12 habitaciones.",
+    "es-cabaneros": "Es la mejor muestra de bosque mediterráneo y raña de los Montes de Toledo, con ciervos, buitre negro y águila imperial, y recibe pocos visitantes. Su gran espectáculo es la berrea de septiembre, que se sigue en rutas en 4x4. Se combina bien con un viaje a Toledo.",
+    "es-getaria": "En este puerto pesquero los asadores hacen el pescado a la brasa en la calle, y Elkano, conocido por su rodaballo, figura en World's 50 Best. En las laderas sobre el mar se elabora el txakoli de Getaria, con bodegas que se visitan. El Museo Balenciaga y el flysch de Zumaia, a 6 km, completan la visita.",
+    "es-el-puerto-de-santa-maria": "Es un vértice del Marco de Jerez: Osborne tiene aquí su sede desde 1772, y la Ribera del Marisco sirve marisco cocido y pescaíto frito al peso. Aponiente, de Ángel León, tiene tres estrellas Michelin por su cocina del mar. Jerez y Cádiz están a menos de 20 km.",
+    "es-denia": "Es Ciudad Creativa de la Gastronomía de la UNESCO por la gamba roja y sus arroces marineros, como el arroz a banda. Aquí cocina Quique Dacosta, con tres estrellas Michelin. Es la puerta norte de la Costa Blanca, con la playa de La Marina y las calas de roca de Les Rotes.",
+    "es-ribera-del-duero": "Tierra de grandes tintos de tempranillo, con bodegas subterráneas medievales bajo Aranda y el museo del vino dentro del castillo de Peñafiel. Vega Sicilia la puso en el mapa, y hoy son más de 200 las bodegas abiertas a visitas con reserva. Para comer, lechazo asado en horno de leña.",
+    "es-rias-baixas": "Es la tierra del albariño, con bodegas visitables en el Salnés y Cambados como capital, y de la mejor despensa marisquera de España. La Festa do Marisco de O Grove, en octubre, y la Festa do Albariño, a principios de agosto, son las dos grandes citas. Se comen mejillones, navajas y vieiras frente a la ría.",
+    "es-portaventura": "Es el mayor complejo de parques temáticos del sur de Europa. En Ferrari Land está Red Force, la montaña rusa más alta y rápida de Europa (112 m, 180 km/h), y en PortAventura Park, Shambhala y Dragon Khan. Tiene estación de tren propia y está a 8 km de Tarragona.",
+    "es-parque-warner": "El gran parque de Madrid reúne la montaña rusa sin suelo de Superman, la de madera Coaster Express y la torre de caída La Venganza del Enigma, de unos 100 m. Al lado, Warner Beach es el parque acuático de verano. Está en San Martín de la Vega, a 25 km de la capital.",
+    "es-terra-mitica": "El gran parque temático de la Costa Blanca está dividido en zonas inspiradas en las civilizaciones del Mediterráneo, con la montaña rusa de madera Magnus Colossus y la invertida Titánide. Es la mejor opción de adrenalina desde Benidorm. Abre sobre todo de primavera a otoño.",
+    "es-skydive-empuriabrava": "Es una de las zonas de salto más grandes de Europa, con saltos en tándem todo el año sobre el golfo de Roses y con el Pirineo a la vista. Se reserva el salto y en unas horas se cae libre desde 4.000 m. Girona y el Teatre-Museu Dalí de Figueres quedan a menos de 40 km.",
+    "es-baqueira-beret": "Es la estación de esquí de referencia en España, con más de 160 km de pistas y buen freeride en el Val d'Aran. En verano el valle sirve de base para entrar en Aigüestortes, a 14 km. Los pueblos de Salardú y Arties tienen iglesias románicas y cocina aranesa, como la olla aranesa.",
+    "es-caminito-del-rey": "Es una pasarela de un metro de ancho colgada a unos 100 m sobre el desfiladero de los Gaitanes, construida en 1905 y reabierta en 2015. Los 7,7 km se recorren en un solo sentido, con entrada reservada y cupo diario. Hay tren desde Málaga hasta la estación de El Chorro.",
+    "pt-lisboa": "El Monasterio de los Jerónimos y la Torre de Belém son Patrimonio Mundial, y la Alfama, con el fado sonando en sus tascas, es el barrio más antiguo de la ciudad. Tiene museos de primera, como la Gulbenkian o el Nacional del Azulejo, y una mesa que va del pastel de nata de Belém a tres restaurantes con dos estrellas Michelin. Las playas de Cascais y la Costa da Caparica están a menos de 30 km.",
+    "pt-porto": "La Ribeira, la Sé, la Torre dos Clérigos y los azulejos de la estación de São Bento forman un centro Patrimonio Mundial que cae en terrazas hacia el Duero. Al cruzar el puente Luís I, en Vila Nova de Gaia, están las bodegas históricas del vino de Oporto, con catas, y en Matosinhos calles enteras de pescado a la brasa. La francesinha y cuatro estrellas Michelin nuevas en 2026 completan la mesa.",
+    "pt-madeira-funchal": "La Vereda do Areeiro une el Pico do Arieiro con el Pico Ruivo por una cresta volcánica sobre el mar de nubes, una de las caminatas más espectaculares de Europa. En Funchal, el mercado dos Lavradores y las bodegas históricas de vino de Madeira se visitan a pie. Para bajar del Monte están los carros de cesto, trineos de mimbre por las calles.",
+    "pt-sintra": "El Palacio da Pena, la Quinta da Regaleira y el Castelo dos Mouros salpican una sierra boscosa que fue el primer centro del romanticismo europeo y hoy es Patrimonio Mundial. Del Parque Natural Sintra-Cascais se baja a los acantilados del Cabo da Roca, el punto más occidental del continente. Para merendar, travesseiros y queijadas de Sintra.",
+    "pt-valle-del-duero": "Las terrazas de viñedo del Alto Douro, Patrimonio Mundial, bajan hasta el río entre quintas que elaboran oporto y grandes tintos desde hace dos siglos. Se recorre en el tren de la Linha do Douro o en barco hasta Pinhão, con catas en las bodegas. La vendimia, en septiembre, es el mejor momento.",
+    "pt-sagres": "La punta de Sagres y el Cabo de São Vicente cierran el suroeste de Europa con acantilados de más de 60 m, ligados a Enrique el Navegante y a la era de los Descubrimientos. En otoño pasan por aquí rapaces migratorias, y las playas del entorno son de surf. Al atardecer junto al faro se comen percebes recién cogidos.",
+    "pt-peneda-geres": "El único parque nacional de Portugal reúne granito, robledales, cascadas como la de Arado y caballos garranos junto a la frontera gallega. Los espigueiros de Soajo y Lindoso y los miliarios de la vía romana Geira se ven caminando. Sus ríos se bajan en barranquismo o kayak.",
+    "pt-azores-sete-cidades": "Las lagunas gemelas Azul y Verde ocupan el fondo de una gran caldera volcánica en São Miguel. El Mirador da Vista do Rei y la ruta por el borde del cráter dan la mejor vista. Es la imagen más reconocible de las Azores, y conviene ir temprano, antes de que suban las nubes.",
+    "pt-coimbra": "Su universidad, fundada en 1290, es Patrimonio Mundial, y su Biblioteca Joanina barroca es de las más bellas de Europa. La Sé Velha románica y el fado de Coimbra, cantado por estudiantes, marcan la ciudad vieja. A 20 km, en la Mealhada, se come el mejor leitão da Bairrada.",
+    "pt-evora": "Un templo romano, la catedral y la Capela dos Ossos se reparten un casco amurallado y encalado Patrimonio Mundial. Entre alcornocales, a 15 km, está el crómlech de los Almendres, de unos 7.000 años. Es la capital de la cocina alentejana, con porco preto, migas y la ruta de vinos del Alentejo.",
+    "pt-costa-vicentina": "Es la costa más salvaje del sur de Europa, protegida como parque natural, con acantilados y playas vírgenes que recorre la Rota Vicentina a lo largo de unos 340 km. La etapa del Trilho dos Pescadores entre Vila Nova de Milfontes y Almograve sigue el borde del acantilado. En los pueblos se comen percebes y pescado a la brasa.",
+    "pt-azores-pico": "El volcán de Pico es la montaña más alta de Portugal (2.351 m) y se sube con registro previo. A sus pies, los currais de lava donde crece el verdelho forman un paisaje vitícola Patrimonio Mundial, con bodegas que se visitan. Desde Lajes salen barcos a ver ballenas y cachalotes.",
+    "pt-madeira-rabacal": "Desde Rabaçal, las levadas de las 25 Fontes y del Risco atraviesan la laurisilva de Madeira, un bosque relicto Patrimonio Mundial, hasta cascadas y lagunas. Son caminos de agua casi llanos, aptos para cualquier caminante. Es además la zona de barranquismo de referencia en la isla.",
+    "pt-guimaraes": "La llaman la cuna de Portugal: el castillo del siglo X, el Paço dos Duques de Bragança y sus plazas medievales forman un centro Patrimonio Mundial muy bien conservado. Un teleférico sube a la Penha, con vistas sobre el Minho. De postre, toucinho do céu, y para beber, vinho verde.",
+    "pt-lagos": "Los acantilados dorados, arcos y grutas de la Ponta da Piedade se recorren en kayak o en barca desde el puerto. La ciudad conserva murallas y la iglesia de Santo António, de talla dorada, y fue puerto de las expediciones africanas del siglo XV. La cataplana de marisco es el plato de la casa.",
+    "pt-mafra": "El Real Edificio de Mafra reúne bajo un mismo techo palacio, basílica y convento, con una biblioteca barroca de unos 36.000 volúmenes protegida por una colonia de murciélagos. Es Patrimonio Mundial desde 2019 y se llega en autobús desde Lisboa en unos 45 minutos. La playa de surf de Ericeira está a 12 km.",
+    "pt-alcobaca": "El monasterio cisterciense de Santa María, una de las mayores abadías góticas de Europa, guarda las tumbas de Pedro I e Inés de Castro, los amantes trágicos de Portugal. Su cocina monumental, con un arroyo canalizado, sorprende tanto como la iglesia. Nazaré queda a 10 km.",
+    "pt-batalha": "El monasterio de Santa María de la Victoria es la obra cumbre del gótico y del manuelino portugués, y es Patrimonio Mundial. Las Capillas Imperfectas, que quedaron sin techo, son su imagen más reconocible. A 20 km están las grutas de Mira de Aire.",
+    "pt-elvas": "Es el mayor sistema de fortificaciones abaluartadas terrestres del mundo, Patrimonio Mundial, con murallas en estrella, fosos y los fuertes de Santa Luzia y Graça. El acueducto de Amoreira entra en la ciudad sobre cientos de arcos. El fuerte de Graça, que fue prisión política hasta 1974, se visita con guía.",
+    "pt-nazare": "De octubre a marzo, el cañón submarino frente a la Praia do Norte levanta algunas de las olas más grandes que se han surfeado, y se miran desde el faro del fuerte de São Miguel Arcanjo. En el pueblo sigue viva la tradición pesquera, con pescado secado al sol en la playa y mujeres con siete faldas. Alcobaça y su monasterio están a 10 km.",
+    "pt-tomar": "El Convento de Cristo fue sede de los templarios y es Patrimonio Mundial, con la charola románica octogonal y la célebre ventana manuelina. Cada cuatro años, en julio, la Festa dos Tabuleiros llena las calles de torres de pan. Es una buena escala entre Lisboa y Coimbra.",
+    "pt-angra-do-heroismo": "Fue un puerto clave de las rutas atlánticas entre los siglos XV y XIX, y su centro renacentista, con catedral y fortalezas, es Patrimonio Mundial. El cráter de Monte Brasil se sube a pie y tiene vistas sobre la ciudad y el mar. Terceira se recorre en coche en un par de días.",
+    "pt-azores-furnas": "En este valle volcánico activo hay fumarolas, una laguna y aguas termales ferruginosas, como la piscina naranja de Terra Nostra o la Poça da Dona Beija. El cozido das Furnas se cocina varias horas enterrado en la tierra caliente. Cerca están las plantaciones de té de Gorreana, las más antiguas de Europa.",
+    "pt-serra-da-estrela": "Es la sierra más alta del Portugal continental, con la Torre a 1.993 m, valles glaciares y lagunas, y Manteigas como base. La ruta por el valle glaciar del Zêzere es la caminata clásica. Aquí se elabora el queijo Serra da Estrela, el queso de oveja más famoso del país.",
+    "pt-vale-do-coa": "Miles de grabados paleolíticos al aire libre, de hasta 22.000 años, cubren las rocas del valle, Patrimonio Mundial junto con Siega Verde. Solo se visitan con guía en 4x4 en tres sitios: Canada do Inferno, Penascosa y Ribeira de Piscos. El Museu do Côa explica el conjunto, y el Duero vinícola está a un paso.",
+    "pt-braga": "La escalinata barroca del Bom Jesus do Monte, Patrimonio Mundial desde 2019, sube en zigzag por una ladera boscosa, y se puede subir en el funicular de agua más antiguo del mundo. En la ciudad está la Sé, la catedral más antigua de Portugal. Peneda-Gerês queda a unos 40 km.",
+    "pt-azores-flores": "La isla más occidental de Europa tiene decenas de cascadas, siete lagunas de cráter y acantilados de basalto como la Rocha dos Bordões. Los senderos a Poço do Bacalhau y Poço da Ribeira do Ferreiro llevan a pozas bajo saltos de agua. Es además uno de los mejores destinos de barranquismo del continente.",
+    "pt-arouca-516-paiva": "El puente colgante 516 Arouca cruza 516 m a unos 175 m sobre el río Paiva, con suelo de rejilla bajo los pies, en grupos guiados con horario. Muy cerca, los Passadiços do Paiva recorren 8 km de pasarelas de madera junto al río, dentro del geoparque UNESCO de Arouca. Es una excursión de día desde Oporto (43 km).",
+    "pt-obidos": "Una villa medieval rodeada por completo de murallas, que se recorren por el adarve, con calles encaladas y castillo. La ginjinha se sirve en vasito de chocolate, y la villa es Ciudad Creativa de la Literatura de la UNESCO, con librerías en iglesias. La laguna de Óbidos se recorre en kayak.",
+    "pt-tavira": "Es una de las villas más bonitas del Algarve, con un puente antiguo sobre el Gilão, castillo, decenas de iglesias y tejados de tesoura. Un ferry lleva a la isla-barrera de Tavira, y un tren turístico, a la Praia do Barril, dentro de la Ria Formosa. En Santa Luzia, a 3 km, se come pulpo.",
+    "pt-azores-faial": "La gran caldera central y el volcán de Capelinhos, que entre 1957 y 1958 añadió tierra nueva a la isla, son los dos paisajes de Faial. En la marina de Horta, los navegantes que cruzan el Atlántico pintan murales y paran en el mítico Peter Café Sport. Es la base para saltar a Pico en ferry.",
+    "pt-peniche-berlengas": "Supertubos, en Peniche, es una de las olas de referencia del surf europeo y etapa del circuito mundial. En barco se llega a Berlenga Grande, reserva natural de aves marinas y aguas transparentes, con un fuerte del siglo XVII sobre el mar. La fortaleza de Peniche, antigua cárcel política, es hoy museo de la Resistencia.",
+    "pt-arrabida": "La sierra calcárea de la Arrábida cae sobre calas de agua turquesa, como Portinho o Galapinhos, y tiene más de 40 km de senderos. Alrededor, en Azeitão y Setúbal, se prueban el queso de Azeitão, el moscatel de Setúbal y el choco frito. Está a 40 km de Lisboa.",
+    "pt-madeira-porto-moniz": "En la costa noroeste de Madeira, la lava formó piscinas naturales donde se nada mientras el Atlántico rompe al otro lado de las rocas. Es la parada de baño clásica en la vuelta a la isla. Se come pez espada negro, especialidad de Madeira.",
+    "pt-marvao": "Esta villa fortificada en lo alto de un risco de la sierra de São Mamede conserva intactos su castillo y sus murallas, con vistas que llegan a España. Al pie del monte están las ruinas de la ciudad romana de Ammaia. En noviembre celebra una feria de la castaña.",
+    "pt-monsanto": "Es una de las Aldeas Históricas de Portugal, con casas encajadas entre enormes bolos de granito, algunas con una roca por tejado. El camino al castillo templario de lo alto pasa entre peñascos y se asoma a la llanura de la Beira Baixa. Es uno de los pueblos más singulares del país.",
+    "pt-monsaraz": "Una villa medieval amurallada sobre el gran embalse de Alqueva, rodeada de menhires y crómlechs. Sus cielos oscuros, certificados para la astronomía, se aprovechan en observaciones nocturnas, y el embalse se recorre en kayak. Las bodegas de Reguengos de Monsaraz están al lado.",
+    "pt-amarante": "A orillas del Tâmega y en plena región del vinho verde, Amarante es famosa por sus dulces conventuales, como los papos de anjo y las lérias. Su puente de São Gonçalo y el monasterio del mismo nombre se visitan en un paseo. Largo do Paço ganó una estrella Michelin en 2026.",
+    "ad-andorra-la-vella-escaldes": "El Barri Antic conserva la Casa de la Vall del siglo XVI y, cerca, la iglesia románica de Santa Coloma, con su campanario circular. Escaldes suma el balneario termal Caldea y el Museo Carmen Thyssen. Desde la capital se llega en minutos a Grandvalira, a Ordino Arcalís y al Tobotronc, un trineo alpino de 5,3 km.",
+    "ad-grandvalira-pas-de-la-casa": "Grandvalira es el mayor dominio esquiable de los Pirineos y une Pas de la Casa, Soldeu y Canillo; Pas de la Casa es el pueblo con más après-ski del país. En verano, desde la Vall d'Incles se sube en unas dos horas a los lagos glaciares de Juclar, una de las rutas más populares de Andorra. En Canillo está Sant Joan de Caselles, iglesia románica de los siglos XI–XII con campanario lombardo y un Cristo de estuco.",
+    "ad-ordino-arcalis": "El valle de Ordino es el más verde de Andorra, con la Casa d'Areny-Plandolit y las pinturas románicas de Sant Martí de la Cortinada. En lo alto, el circo de Arcalís es estación de freeride en invierno y, en verano, punto de partida del circuito de los lagos de Tristaina. El valle de Sorteny está al lado.",
+    "ad-vall-del-madriu": "Es el único Patrimonio Mundial de Andorra: un valle glaciar sin carreteras con bancales, bordas, caminos empedrados y antiguas fargas que cuentan siglos de vida pastoril. Se entra a pie desde Escaldes, y en una jornada larga se llega al refugio de l'Illa entre lagos. Es la mejor caminata del país.",
+    "ad-naturlandia": "Su Tobotronc es un trineo alpino de 5,3 km, de los más largos del mundo, que baja entre los bosques de la Rabassa. El parque suma tirolinas, actividades de aventura y un centro de fauna pirenaica. Está en Sant Julià de Lòria, a 7 km de la capital.",
+    "ad-coma-pedrosa": "Con 2.942 m es el techo de Andorra, dentro de un parque natural de lagos y circos glaciares. La ascensión clásica sale de Arinsal y pasa por el refugio y el estany Negre, en una jornada exigente pero sin dificultad técnica. Ordino Arcalís está a 5 km.",
+    "it-asis": "La Basílica de San Francisco guarda en sus dos iglesias superpuestas frescos de Giotto, Cimabue y Lorenzetti, y es el centro del conjunto franciscano Patrimonio Mundial. El pueblo de piedra rosada del Monte Subasio sigue siendo un lugar de peregrinación. Un sendero de unos 4 km sube al Eremo delle Carceri, donde se retiraba el santo.",
+    "it-florencia": "Aquí nació el Renacimiento, y en pocas calles están la cúpula de Brunelleschi, los Uffizi, el David de Miguel Ángel y el Palazzo Pitti. Se come de pie un bocadillo de lampredotto junto al Mercado Central o una bistecca alla fiorentina en trattoria, y la Enoteca Pinchiorri tiene tres estrellas Michelin. Al atardecer conviene subir al Piazzale Michelangelo o a Fiesole.",
+    "it-pompeya-herculano": "Son dos ciudades romanas sepultadas por el Vesubio en el año 79, con calles, casas, frescos y panaderías tal como quedaron. Pompeya impresiona por su tamaño, y Herculano, más pequeña, conserva hasta la madera carbonizada y los pisos altos. Desde la zona se sube al cráter del Vesubio.",
+    "it-roma": "Son 2.500 años en capas: el Coliseo, los Foros, el Panteón, la Galleria Borghese y las plazas barrocas de Bernini y Borromini, dentro de un centro Patrimonio Mundial. En las trattorie de Testaccio y del gueto judío se comen carbonara, cacio e pepe y alcachofas a la judía. Los domingos, la Via Appia Antica se recorre en bici.",
+    "it-siena": "La Piazza del Campo, en forma de concha, es el escenario del Palio de julio y agosto, y el Palazzo Pubblico guarda los frescos del Buen Gobierno de Lorenzetti. El Duomo tiene un pavimento de mármol con escenas grabadas. Es la puerta sur del Chianti, y en sus hornos se hacen el panforte y los ricciarelli.",
+    "it-verona": "La Arena romana sigue llena cada verano con su festival de ópera, en una ciudad Patrimonio Mundial con Castelvecchio, San Zeno y la Piazza delle Erbe. Es la puerta de la Valpolicella, tierra del amarone, y Casa Perbellini tiene tres estrellas Michelin. Gardaland y el lago de Garda quedan a unos 22 km.",
+    "it-cinque-terre": "Cinco pueblos marineros cuelgan sobre terrazas de viñedo dentro de un parque nacional y de un paisaje Patrimonio Mundial. El Sentiero Azzurro, de unos 12 km, los une a pie entre Riomaggiore y Monterosso, y el tren de la costa permite saltarse tramos. Se comen trofie al pesto, anchoas de Monterosso y el vino dulce sciacchetrà.",
+    "it-lago-de-como": "Es un lago glaciar encajado entre montañas de más de 2.000 m, con villas de jardín como Villa Carlotta y Balbianello en la orilla. Los barcos unen Bellagio, Varenna y Menaggio, y la Greenway recorre a pie unos 10 km de la ribera occidental. El norte, en Colico y Domaso, es zona de kitesurf.",
+    "it-matera": "Los Sassi son un hábitat excavado en la roca y habitado desde el Paleolítico, con iglesias rupestres pintadas al fresco frente a la gravina, Patrimonio Mundial. Fue Capital Europea de la Cultura en 2019, y hoy se duerme en cuevas convertidas en hotel. A 49 km, el Volo dell'Angelo cruza un valle a 120 km/h.",
+    "it-napoles": "Su centro histórico, de los más extensos de Europa, guarda el Museo Arqueológico con los tesoros de Pompeya, el Cristo velado de la Capilla Sansevero y la ciudad subterránea. La pizza napolitana tiene aquí su origen, y el oficio del pizzaiuolo es patrimonio inmaterial de la UNESCO. El Vesubio y los Campos Flégreos quedan a menos de una hora.",
+    "it-venecia": "Una ciudad sobre 118 islas sin coches, con la Basílica de San Marcos, el Palacio Ducal y la Accademia, y la Bienal cada dos años. Se come de bacaro en bacaro, con cicchetti y una ombra de vino junto al mercado de Rialto. El vaporetto lleva a Burano y Torcello por la laguna norte.",
+    "it-costa-amalfitana": "Positano, Amalfi y Ravello cuelgan de acantilados entre terrazas de limoneros, en un paisaje cultural Patrimonio Mundial. El Sentiero degli Dei recorre unos 7 km a 500 m sobre el mar, y Ravello suma los jardines de Villa Rufolo y Villa Cimbrone. Se comen scialatielli con marisco y se bebe limoncello hecho con limones IGP.",
+    "it-dolomitas": "Las agujas de las Tre Cime, las praderas del Alpe di Siusi y 18 cumbres de más de 3.000 m son Patrimonio Natural de la UNESCO. En verano hay vías ferratas históricas de la Primera Guerra Mundial, refugios con cocina y la vuelta a las Tre Cime; en invierno, el Dolomiti Superski. En Alto Adigio, AtelierMoessmer tiene tres estrellas Michelin.",
+    "it-islas-eolias": "Siete islas volcánicas Patrimonio Natural de la UNESCO, que dieron nombre a las erupciones estrombolianas. Se sube de noche con guía al Stromboli para ver la Sciara del Fuoco, y se pisa el cráter humeante de Vulcano. En Salina se prueban la malvasía y las alcaparras.",
+    "it-etna": "Es el volcán más activo de Europa (más de 3.300 m) y Patrimonio Natural de la UNESCO, y se sube desde el Rifugio Sapienza hasta los cráteres con guía. En sus laderas, la DOC Etna tiene decenas de bodegas de nerello mascalese que se visitan. En invierno se esquía con vista al mar.",
+    "it-val-d-orcia": "Colinas con cipreses, abadías y pueblos como Pienza, la ciudad ideal del Renacimiento, forman un paisaje cultural Patrimonio Mundial. Montalcino y Montepulciano producen el Brunello y el Vino Nobile, con bodegas que se visitan, y en Pienza se compra pecorino. En Bagno Vignoni, la plaza es una piscina termal.",
+    "it-bolonia": "Sus 62 km de pórticos son Patrimonio Mundial y llevan hasta el santuario de San Luca, en lo alto de una colina. Tiene la universidad más antigua de Europa y las Dos Torres. Es la capital de la tagliatelle al ragù, los tortellini y la mortadela, que se compran en los puestos del Quadrilatero.",
+    "it-milan": "La Última Cena de Leonardo, en Santa Maria delle Grazie, exige reservar con semanas de antelación, y a pocas calles están el Duomo gótico, Brera y La Scala. Es una de las ciudades italianas con más estrellas Michelin, y de aquí salió la costumbre del aperitivo. Los lagos de Como y Maggiore están a una hora en tren.",
+    "it-padova": "En la Capilla de los Scrovegni, Giotto pintó hacia 1305 un ciclo de frescos que abrió la pintura moderna, y se visita con turno reservado. El Orto Botanico de 1545 es el jardín botánico universitario más antiguo que se conserva, y la Basílica del Santo es meta de peregrinos. Está a 30 minutos de Venecia en tren.",
+    "it-palermo-monreale": "La Capilla Palatina y la catedral de Monreale, cubiertas de mosaicos dorados, resumen el arte árabe-normando que es Patrimonio Mundial. En los mercados de Ballarò y el Capo se comen arancine, sfincione y pane ca' meusa. Se termina con un cannolo, y en verano con un baño en Mondello.",
+    "it-pisa": "La Piazza dei Miracoli reúne sobre el césped la catedral románica, el baptisterio, el camposanto y la Torre inclinada, a la que se sube con entrada reservada. Fuera de la plaza, los Lungarni y la Scuola Normale muestran la ciudad universitaria. San Rossore, un parque de bosques y dunas, se recorre en bici.",
+    "it-ravena": "Ocho monumentos paleocristianos y bizantinos Patrimonio Mundial, como San Vitale, el Mausoleo de Gala Placidia y Sant'Apollinare in Classe, guardan los mejores mosaicos de los siglos V y VI de Occidente. Aquí está la tumba de Dante. Mirabilandia, el mayor parque de atracciones de Italia, queda a 10 km.",
+    "it-lago-de-garda": "Es el mayor lago de Italia: al sur, Sirmione y las Grotte di Catullo; al norte, un fiordo alpino con el Monte Baldo. Torbole es una capital europea del windsurf, y Arco, de la escalada y la vía ferrata. Gardaland está a 21 km, y en la orilla se beben lugana y bardolino.",
+    "it-agrigento-valle-templos": "Es la mayor serie de templos griegos fuera de Grecia, con el templo de la Concordia, uno de los dóricos más completos del mundo, en una cresta frente al mar. El Museo Arqueológico Regional completa la visita, que es mejor al atardecer. A 15 km está la Scala dei Turchi, un acantilado de marga blanca.",
+    "it-paestum": "Tres templos dóricos de los mejor conservados del mundo se levantan entre la llanura y el mar, y su museo guarda la Tumba del Nadador. En las granjas de búfalas que rodean el yacimiento se prueba la mozzarella recién hecha. Es la puerta del Cilento, con rafting en el río Calore a 20 km.",
+    "it-chianti-classico": "Entre Florencia y Siena, el territorio del Gallo Nero está delimitado desde 1716 y se recorre de castillo en castillo por Greve, Panzano, Radda y Castellina. Las bodegas abren con catas, y en Panzano está la carnicería legendaria de Dario Cecchini. Se viaja en coche o en bici por carreteras de colina.",
+    "it-langhe-barolo": "Las colinas de viñedo de Barolo y Barbaresco son Patrimonio Mundial, con decenas de bodegas que se visitan en pueblos con castillo. En otoño, Alba celebra su feria de la trufa blanca. La zona tiene dos restaurantes con tres estrellas Michelin: Piazza Duomo, en Alba, y La Rei Natura, en Serralunga.",
+    "it-villa-romana-del-casale": "Unos 3.500 m² de mosaicos del siglo IV cubren los suelos de esta villa de lujo romana, entre ellos la Gran Cacería y las famosas «chicas en bikini». Un deslizamiento de tierra la sepultó en el siglo XII y la conservó casi intacta, y es Patrimonio Mundial. Está en el interior de Sicilia, cerca de Piazza Armerina.",
+    "it-lecce": "La piedra dorada local, blanda y fácil de labrar, permitió las fachadas barrocas de Santa Croce y la Piazza del Duomo, junto a un anfiteatro romano en pleno centro. En sus pastelerías se desayuna pasticciotto con café con hielo y leche de almendra. Las calas del Salento quedan a 15–30 km.",
+    "it-lucca": "Sus murallas renacentistas están intactas y se recorren en bici: son 4 km de paseo arbolado. Dentro esperan las iglesias románicas de San Michele y San Martino, la plaza ovalada del Anfiteatro y la casa natal de Puccini. Pisa está a 20 minutos en tren.",
+    "it-modena": "Aquí está la Osteria Francescana de Massimo Bottura, dos veces número uno de World's 50 Best. En las acetaie de las afueras se ve envejecer el auténtico aceto balsamico tradizionale en baterías de barriles. Se acompaña con tortellini, gnocco fritto y lambrusco.",
+    "it-orvieto": "Sobre un peñasco de toba, el Duomo tiene una de las fachadas góticas más ricas de Italia y la capilla de San Brizio, con los frescos de Signorelli. Bajo la ciudad hay cuevas etruscas y el Pozzo di San Patrizio, un pozo de doble escalera. Civita di Bagnoregio, aislada en su colina, está a 20 km.",
+    "it-parma": "Fue la primera Ciudad Creativa de la Gastronomía de la UNESCO en Italia y es el corazón de la Food Valley. Se visitan queserías de Parmigiano Reggiano por la mañana y secaderos de prosciutto y culatello por la tarde. El Duomo, con la cúpula de Correggio, y el Teatro Farnese completan la ciudad.",
+    "it-turin": "El Museo Egizio tiene la mayor colección egipcia fuera de El Cairo, y las residencias de los Saboya, como el Palazzo Reale o Venaria, son Patrimonio Mundial. Es la ciudad del bicerin, el gianduiotto y el vermut, con el mercado de Porta Palazzo. La Mole Antonelliana alberga el Museo del Cine.",
+    "it-gardaland": "Es el gran parque temático de Italia, junto al lago de Garda, con montañas rusas, un parque acuático LEGOLAND y el SEA LIFE Aquarium en el mismo resort. Abre de marzo a noviembre, con eventos de Halloween y Navidad. Verona está a 25 km y Peschiera, con estación de tren, al lado.",
+    "it-siracusa-ortigia": "Fue la gran polis griega de Occidente: en el Parque de Neápolis el teatro griego sigue acogiendo un festival de teatro clásico, y el Duomo de Ortigia se levanta sobre el templo de Atenea. El mercado de Ortigia es la parada para comer pescado y bocadillos. La reserva de Vendicari, con flamencos y calas, está a 30 km.",
+    "it-valle-de-aosta-monte-bianco": "Courmayeur está a los pies del Mont Blanc (4.808 m), y el Skyway sube a Punta Helbronner, a 3.466 m, sobre los glaciares. Es una de las etapas del Tour du Mont Blanc y una base de esquí, freeride, rafting en el Dora Baltea y barranquismo. En la mesa mandan la fontina y el lardo de Arnad.",
+    "it-capri": "La vuelta a la isla en barco pasa por la Grotta Azzurra y bajo los Faraglioni, y el Sentiero dei Fortini sigue la costa oeste entre fortines. Villa Jovis, de Tiberio, y Villa San Michele, en Anacapri, tienen vistas sobre el golfo. Conviene dormir allí para verla sin la multitud que llega en ferry.",
+    "it-lago-maggiore": "Los palacios barrocos de los Borromeo y sus jardines ocupan Isola Bella e Isola Madre, a pocos minutos en barco desde Stresa. El teleférico sube al Mottarone, con vistas a siete lagos. El Parque Nacional Val Grande, la mayor zona salvaje de los Alpes, queda cerca.",
+    "it-san-gimignano": "Catorce torres medievales siguen en pie sobre un pueblo Patrimonio Mundial, con la Colegiata y sus frescos del Trecento. En sus colinas se elabora la vernaccia, el primer vino italiano con DOC, y se cultiva azafrán DOP. Por la tarde, cuando se van los autobuses, el pueblo recupera su calma.",
+    "it-taormina": "El teatro grecorromano, con el Etna humeante de fondo, sigue acogiendo conciertos y el festival Taormina Arte. Abajo, la reserva de Isola Bella ofrece baño en aguas transparentes, y a 15 km las Gole dell'Alcantara se recorren haciendo body rafting. Se desayuna granita con brioche.",
+    "it-alberobello-valle-d-itria": "Los trulli de Alberobello, casas de piedra seca con techo cónico, son Patrimonio Mundial y no existen en ningún otro lugar. El Valle d'Itria une Locorotondo, Cisternino y la blanca Ostuni entre olivos, con masserie donde se come y se duerme. Se recorre bien en bici por la ciclovía del valle.",
+    "it-la-maddalena-costa-smeralda": "El parque nacional del archipiélago de La Maddalena tiene granitos rosados y agua de color turquesa, y la Spiaggia Rosa de Budelli solo se ve desde el barco. Las excursiones paran en Spargi y Santa Maria. Porto Pollo, en la costa de Gallura, es un lugar clásico de kitesurf.",
+    "it-golfo-di-orosei": "Las calas de Goloritzé, Luna y Mariolu se abren bajo acantilados calizos del Supramonte, y algunas solo se alcanzan en barco o a pie. La bajada a Cala Goloritzé tiene cupo, y el Selvaggio Blu es uno de los trekkings más duros del Mediterráneo. Cala Gonone es una meca de la escalada, y la Gola di Gorropu, del barranquismo.",
+    "it-parque-abruzzo": "Este parque de los Apeninos protege al oso pardo marsicano y al rebeco de los Abruzos, y sus hayedos viejos son Patrimonio Natural de la UNESCO. La ruta de Val Fondillo a la Camosciara, al amanecer, es la mejor para ver fauna. Pescasseroli y Opi son las bases.",
+    "it-parque-gran-paradiso": "Es el parque nacional más antiguo de Italia (1922), creado en torno al único cuatromil íntegramente italiano para salvar al íbice alpino. Desde Valnontey, en unas dos horas y media, se sube al Rifugio Vittorio Sella, con íbices y rebecos a pocos metros. Cogne es la base.",
+    "it-ferrara": "Los Este la convirtieron en una ciudad del Renacimiento, con el Castello Estense con foso y el Palazzo dei Diamanti, Patrimonio Mundial. Su ampliación, la Addizione Erculea, fue uno de los primeros planes urbanísticos modernos. Sus 9 km de murallas se recorren en bicicleta, el medio de transporte de la ciudad.",
+    "it-genova": "En las Strade Nuove, la Via Garibaldi alinea palacios renacentistas y barrocos de los Rolli, Patrimonio Mundial, y algunos se visitan como museos, como el Palazzo Rosso o el Bianco. Debajo se extienden los caruggi, uno de los cascos medievales más grandes de Europa. Es la ciudad de la focaccia y del pesto.",
+    "it-tropea": "El pueblo se asoma a un acantilado sobre playas de agua turquesa, con el santuario de Santa Maria dell'Isola sobre su roca. La Costa degli Dei sigue hasta Capo Vaticano, con miradores y calas. En la mesa están la cebolla roja de Tropea y la 'nduja picante de Spilinga.",
+    "it-urbino": "Fue uno de los focos del Renacimiento: el Palacio Ducal de Federico da Montefeltro guarda la Galería Nacional de las Marcas, con obras de Piero della Francesca y Rafael, que nació en esta ciudad. Su centro amurallado es Patrimonio Mundial y está lleno de estudiantes. Recibe muchos menos visitantes que Florencia.",
+    "it-val-di-noto": "Tras el terremoto de 1693, Noto, Ragusa Ibla, Modica y otras cinco ciudades se reconstruyeron en un barroco homogéneo de piedra color miel, Patrimonio Mundial. El Corso de Noto, el Duomo de San Giorgio en Ragusa Ibla y las escalinatas de Modica son sus imágenes. En Modica se prueba un chocolate de receta antigua.",
+    "it-colinas-prosecco": "Las colinas empinadas de Conegliano y Valdobbiadene, con viñas en terrazas ciglioni, son paisaje cultural Patrimonio Mundial desde 2019. La Strada del Prosecco une bodegas y osterie senza oste, donde se paga por confianza. El Cartizze es el cru más cotizado del prosecco superiore.",
+    "it-franciacorta": "Entre Brescia y el lago de Iseo se elabora el gran espumoso de método tradicional de Italia, y la Strada del Franciacorta recorre unos 90 km de bodegas visitables. Está a menos de una hora de Milán. Se puede terminar con tinca al horno en Clusane, a orillas del lago.",
+    "it-gargano": "Este promontorio sobre el Adriático combina la Foresta Umbra, un hayedo Patrimonio Natural de la UNESCO, con acantilados blancos, grutas marinas y calas entre Vieste y Mattinata. En barco se visitan las grutas y la Baia delle Zagare. Es la parte más salvaje de Apulia.",
+    "it-parque-stelvio": "Es uno de los mayores parques de los Alpes (más de 130.000 ha), con el macizo Ortles-Cevedale, glaciares y ciervos. El puerto del Stelvio (2.757 m), con sus 48 curvas, es mítico para ciclistas y conductores y solo abre en verano. El Valle dei Forni lleva a pie hasta el pie del glaciar.",
+    "it-su-nuraxi-barumini": "Es el mejor ejemplo de la civilización nurágica de Cerdeña: una torre-fortaleza de la Edad del Bronce rodeada de un poblado de cabañas de piedra, Patrimonio Mundial desde 1997. La visita guiada recorre pasadizos y escaleras dentro de los muros. Está a una hora de Cagliari.",
+    "it-cagliari": "El barrio amurallado de Castello domina la ciudad, y el Museo Arqueológico guarda los Gigantes de Mont'e Prama y bronces nurágicos. El mercado de San Benedetto es uno de los mayores mercados cubiertos de Italia. Hay flamencos en Molentargius y playa urbana en el Poetto.",
+    "it-trieste": "Ciudad habsburguesa junto al mar, con la Piazza Unità d'Italia abierta al Adriático, el castillo de Miramare y cafés literarios que frecuentaron Joyce y Svevo. Sus buffets sirven cerdo con kren, herencia austrohúngara. La Strada Napoleonica ofrece vistas sobre el golfo, y Aquilea está a 45 km.",
+    "it-cilento": "Es el segundo parque nacional de Italia por superficie, con costa de grutas en Palinuro y Marina di Camerota y montañas como el Cervati. En barco se llega a la Grotta Azzurra de Palinuro, y a pie, a la Baia degli Infreschi. Paestum queda a una hora.",
+    "it-pollino": "Es el mayor parque nacional de Italia, con el pino loricato, un árbol de montaña que vive más de mil años, y gargantas como la del Raganello. La ruta del Colle dell'Impiso a la Serra di Crispo, el Giardino degli Dei, pasa entre pinos retorcidos. Su río Lao es uno de los mejores de Italia para el rafting.",
+    "it-mirabilandia": "Es el mayor parque de atracciones de Italia (más de 550.000 m²), con Katun, considerada una de las mejores montañas rusas invertidas de Europa, e iSpeed. El parque acuático Mirabeach completa el verano. Abre de abril a noviembre, a 10 km de Rávena y cerca de la Riviera Romagnola.",
+    "it-mantova-sabbioneta": "En Mantua están la Cámara de los Esposos de Mantegna en el Palacio Ducal, el Palazzo Te de Giulio Romano y Sant'Andrea de Alberti. Sabbioneta, a 30 km, es una ciudad ideal que los Gonzaga construyeron desde cero, y ambas son Patrimonio Mundial. La rodean lagos que se recorren en bici.",
+    "it-sila": "Es una meseta de pinos laricios y lagos, como el Arvo o el Cecita, en el corazón de Calabria. La reserva de los Gigantes de la Sila guarda pinos de unos 350 años y hasta 45 m, aunque desde julio de 2026 tiene las visitas suspendidas. Camigliatello y Lorica son las bases, con setas y embutidos de montaña.",
+    "it-volo-dell-angelo": "Una doble tirolesa une Castelmezzano y Pietrapertosa sobre las Dolomitas Lucanas, colgado boca abajo y a 110–120 km/h. Los dos pueblos, encajados entre agujas de roca, merecen la visita por sí mismos. Funciona de primavera a otoño con reserva, y Matera está a 49 km.",
+    "it-foreste-casentinesi": "Bosques de abetos y hayas cubren la cresta entre Toscana y Romaña, y la reserva integral de Sasso Fratino es Patrimonio Natural de la UNESCO. En ellos viven lobos y ciervos, junto a los monasterios de Camaldoli y La Verna. Del Monte Falterona nace el Arno.",
+    "mt-valletta": "Los Caballeros de San Juan levantaron esta capital fortificada en 1566, y en menos de un kilómetro cuadrado reúne la Concatedral de San Juan, con la Decapitación de Caravaggio, el Palacio del Gran Maestre y los Jardines de Barrakka, todo Patrimonio Mundial. ION Harbour tiene dos estrellas Michelin, y en la calle se comen pastizzi y ftira. A mediodía, el cañonazo de la Saluting Battery suena sobre el Gran Puerto.",
+    "mt-ggantija": "Estos templos de Gozo, de hacia el 3600 a. C., están entre las estructuras exentas más antiguas del mundo: son anteriores a Stonehenge y a las pirámides. Sus muros de bloques gigantes dieron origen a la leyenda de una giganta constructora. Un centro de interpretación explica la cultura de los templos malteses.",
+    "mt-hagar-qim-mnajdra-gruta-azul": "Ħaġar Qim y Mnajdra son templos megalíticos Patrimonio Mundial de hace más de 5.000 años, sobre un acantilado frente al islote de Filfla, y Mnajdra se alinea con la luz de los solsticios. Un sendero corto une los dos templos. A 2 km, las barcas de Wied iż-Żurrieq entran en la Gruta Azul.",
+    "mt-mdina-rabat": "Mdina, la antigua capital amurallada, es una ciudad silenciosa de palacios nobles y con la catedral de San Pablo, y conviene recorrerla al anochecer. En Rabat, al lado, se bajan las catacumbas de San Pablo y Santa Ágata. De Mondion tiene una estrella Michelin, y en las pastizzerie de Rabat se desayuna por poco dinero.",
+    "mt-dwejra": "En la costa oeste de Gozo, el Inland Sea es una laguna unida al mar por un túnel en la roca, y el Blue Hole es uno de los puntos de buceo más conocidos del Mediterráneo. La barca del Inland Sea sale a mar abierto junto a Fungus Rock. Aquí estuvo el Azure Window, que se derrumbó en 2017.",
+    "mt-comino-laguna-azul": "La Laguna Azul de Comino, de agua turquesa sobre arena blanca, es el baño más famoso de Malta. La isla, casi deshabitada, se recorre a pie entre garriga, cuevas marinas y la torre de Santa María. Hay que ir temprano o a última hora para evitar los barcos de excursión.",
+    "mt-hipogeo-hal-saflieni": "El Hipogeo es una necrópolis neolítica excavada en la roca hacia el 4000 a. C., única en el mundo, con salas que imitan a los templos y espirales pintadas en ocre. Solo admite grupos pequeños y las entradas se agotan con meses de antelación. A pocos minutos a pie están los templos de Tarxien, con relieves de espirales y animales.",
+    "mt-ramla-bay": "Es la mayor playa de arena rojiza de Gozo, con dunas protegidas y la gruta de Calipso en la ladera. Un camino sube al mirador sobre la bahía. Fuera de agosto es de las playas más tranquilas del archipiélago.",
+    "mt-victoria-ciudadela": "La Ciudadela de Gozo está habitada desde la Edad del Bronce, y los Caballeros la reconstruyeron. Sus murallas restauradas ofrecen una de las mejores vistas de toda la isla. En Victoria se compran ġbejniet, los quesitos de oveja de Gozo, y ftira gozitana, y la ciudad será Capital Europea de la Cultura en 2031.",
+    "mt-acantilados-dingli": "Son los acantilados más altos de Malta, de unos 250 m, con un camino que sigue el borde frente al islote de Filfla. La caminata puede seguir hasta los bosques de Buskett o hasta la Gruta Azul. Al atardecer, la luz cae directamente sobre el mar.",
+    "mt-tres-ciudades": "Birgu, Senglea y Cospicua resistieron el Gran Sitio otomano de 1565, y en ellas están el Fuerte San Ángel y uno de los pocos Palacios del Inquisidor que se conservan en Europa. Se llega desde La Valeta en dgħajsa, la barca tradicional, cruzando el Gran Puerto. Son más tranquilas que la capital y tienen buenos restaurantes en el puerto deportivo.",
+    "mt-marsaxlokk": "Es el gran puerto pesquero de Malta, con las barcas luzzu pintadas y un ojo en la proa, y su mercado de pescado del domingo. En la bahía, los restaurantes sirven lampuki, pulpo guisado y aljotta, la sopa de pescado. A 3 km, St Peter's Pool es una piscina natural de roca.",
+    "mt-golden-bay": "Golden Bay es posiblemente la playa de arena más bonita de Malta, y al lado está Għajn Tuffieħa, más tranquila, al pie de una torre de vigía. El Parque Natural Majjistral ofrece senderos sobre los acantilados. Para comer, conejo frito con ajo en los pueblos cercanos.",
+    "mt-mellieha": "Għadira Bay es la mayor playa de arena de Malta, con una reserva de aves detrás, y el viento de la bahía la hace buena para el windsurf. Al otro lado del cabo, Popeye Village conserva el decorado de la película de 1980. El santuario de la Virgen en una gruta y la Torre Roja completan la visita.",
+    "mt-sliema-st-julians": "Es la zona más moderna de Malta y la segunda con más estrellas Michelin, como Rosamì, Fernandõ y Le GV. Un paseo marítimo peatonal une Tigné Point con la torre de St Julian's, y desde Sliema salen los ferris a La Valeta en cinco minutos. Paceville concentra la vida nocturna.",
+    "mt-xlendi": "Una bahía estrecha entre acantilados en el suroeste de Gozo, con agua clara para el snorkel y el buceo y restaurantes de pescado a la orilla. Un camino sube a la torre de Xlendi, y la ruta costera de 12 km llega desde Mġarr. Es la mejor base de Gozo para dormir junto al mar.",
+    "sm-centro-historico": "San Marino es la república más antigua del mundo, y su centro, Patrimonio Mundial, se asoma desde la cresta del Monte Titano. La Piazza della Libertà, con el Palazzo Pubblico y su cambio de guardia, funciona como un balcón sobre la Romaña y el Adriático. Se pide torta Tre Monti y vino sangiovese local.",
+    "sm-torre-guaita": "La primera torre, del siglo XI, es el símbolo de la república y sirvió de prisión hasta 1975. Se suben sus murallas y su torre de campana, al borde del acantilado del Titano, con vistas sobre la Romaña. El Passo delle Streghe, un sendero de cresta de 1 km, la une con la Cesta.",
+    "sm-torre-cesta": "La segunda torre está en la cima más alta del Monte Titano, a unos 750 m, con vistas de 360 grados hasta Rímini y la costa. Dentro alberga el Museo de Armas Antiguas. Se llega por el sendero de cresta desde la Guaita.",
+    "sm-borgo-maggiore": "Es el antiguo burgo del mercado, al pie de la ciudadela, con la iglesia modernista de Giovanni Michelucci, de los años sesenta. Desde aquí, un teleférico sube a la ciudad en dos minutos, con vistas sobre el valle. Es una buena base para comer piadina sin las multitudes de arriba.",
+    "sm-torre-montale": "La tercera torre, la más pequeña, se alza entre el bosque al final de la cresta del Titano y forma parte del conjunto Patrimonio Mundial. Por dentro no se visita, pero el paseo desde la Cesta es el tramo más tranquilo de la ruta de las Tres Torres. Desde allí se ven los Apeninos.",
+    "va-basilica-san-pedro": "Es la mayor iglesia de la cristiandad, levantada sobre la tumba de San Pedro, con la Piedad de Miguel Ángel y el baldaquino de bronce de Bernini. La entrada es gratuita, aunque hay control de seguridad y un código de vestimenta. Conviene llegar a primera hora para verla con poca gente.",
+    "va-capilla-sixtina": "Miguel Ángel pintó la bóveda entre 1508 y 1512 y, décadas después, el Juicio Final; en las paredes hay frescos de Botticelli y Perugino. Es la sala donde se reúne el cónclave. Se entra al final del recorrido de los Museos Vaticanos, con entrada reservada.",
+    "va-museos-vaticanos": "Unos 7 km de galerías en 26 edificios guardan el Laocoonte, el Apolo de Belvedere, las Estancias de Rafael, la Pinacoteca y la Galería de los Mapas. El recorrido termina en la Capilla Sixtina. Hay que reservar la primera franja horaria para evitar las colas y las aglomeraciones.",
+    "va-plaza-san-pedro": "La columnata elíptica de Bernini, con 284 columnas y un obelisco egipcio en el centro, abraza la plaza como dos brazos. Desde un punto marcado en el suelo, las cuatro filas de columnas se alinean en una sola. Los domingos a mediodía el Papa reza el Ángelus desde una ventana.",
+    "va-cupula-san-pedro": "Se suben 551 escalones (320 si se usa el ascensor) por el interior de la cúpula de Miguel Ángel. A mitad de camino, la galería del tambor permite ver el interior de la basílica desde arriba, y en lo alto se abre toda Roma. Hay que reservar al menos 90 minutos y no es apta para quien sufra de claustrofobia.",
+    "va-jardines-vaticanos": "Unas 23 hectáreas de jardines renacentistas y barrocos ocupan la mitad del Estado, con la Casina de Pío IV, fuentes, grutas y las murallas leoninas. Solo se visitan con guía, con reserva a través de los Museos Vaticanos. Incluyen una pequeña estación de tren, la del país más pequeño del mundo."
+  }
+}
