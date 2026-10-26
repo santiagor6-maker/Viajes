@@ -18,6 +18,8 @@
 //   "quitar":     ["<id>"]       // ids que no se publican (además, nunca se publica un id sin nombre,
 //                                 // coordenadas, país o logística: p. ej. uno que solo aparece en puntajes)
 // }
+// Los archivos de corrección (<agente>-fix<n>.json) pueden traer "fuentes_quitar": [{id, url}] y
+// "correcciones_base": [{id, lat, lng}]; se aplican después de las fusiones.
 // Se ignoran los archivos que no son salida de agente (arrays o JSON sin "agente", p. ej. pendientes-*.json).
 // Opciones: --seco (no escribe), --volcar <ruta> (escribe la lista de lugares de la subregión en <ruta>).
 // Escribe data/lugares/<continente>.json (solo reemplaza los países de la subregión) y
@@ -83,10 +85,17 @@ const ponerBase = (r, e, prioridad) => {
   if (e.tipo) r.tipos.push(e.tipo);
 };
 
-for (const f of archivos) {
-  const d = JSON.parse(readFileSync(join(raiz, dirTrabajo, f), 'utf8'));
+// correcciones del revisor que traen los archivos <agente>-fix<n>.json
+const fuentesQuitar = [], coordenadas = [];
+// se procesan por ronda ascendente para que los campos de logística de una ronda posterior ganen
+const entradas = archivos
+  .map((f) => ({ f, d: JSON.parse(readFileSync(join(raiz, dirTrabajo, f), 'utf8')) }))
+  .sort((a, b) => (a.d?.ronda || 1) - (b.d?.ronda || 1) || a.f.localeCompare(b.f));
+for (const { f, d } of entradas) {
   // listas auxiliares (p. ej. pendientes-logistica-*.json) no son salida de agente
   if (Array.isArray(d) || !d || typeof d !== 'object' || !d.agente) { console.warn(`  (ignoro ${f}: no es salida de agente)`); continue; }
+  fuentesQuitar.push(...(d.fuentes_quitar || []));
+  coordenadas.push(...(d.correcciones_base || []));
   const agente = agenteDe(f, d);
   const crit = AGENTE_A_CRITERIO[agente];
   if (!crit) { console.warn(`  (ignoro ${f}: agente ${agente} desconocido)`); continue; }
@@ -160,6 +169,18 @@ for (const fu of aj.fusiones || []) {
     fusionados.push([fu.destino, oid]);
   }
   for (const k of ['nombre', 'lat', 'lng', 'region']) if (fu[k] != null) dst[k] = fu[k];
+}
+// un id fusionado apunta a su destino
+const destinoDe = new Map(fusionados.map(([dst, o]) => [o, dst]));
+const lugarDe = (id) => lugares.get(id) || lugares.get(destinoDe.get(id));
+for (const c of coordenadas) {
+  const r = lugarDe(c.id);
+  if (!r || typeof c.lat !== 'number' || typeof c.lng !== 'number') { console.warn(`  corrección de coordenadas ignorada: ${c.id}`); continue; }
+  r.lat = c.lat; r.lng = c.lng;
+}
+for (const q of fuentesQuitar) {
+  const r = lugarDe(q.id);
+  if (r) r.fuentes = r.fuentes.filter((s) => s.url !== q.url);
 }
 for (const [id, c] of Object.entries(aj.lugares || {})) {
   const r = lugares.get(id);
