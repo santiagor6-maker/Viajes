@@ -1,0 +1,649 @@
+{
+  "continente": "europa",
+  "subregiones": [
+    {
+      "id": "iberica-italia",
+      "nombre": "Ibérica, Italia y Malta",
+      "orden": 1,
+      "paises": [
+        "ES",
+        "PT",
+        "IT",
+        "MT",
+        "AD",
+        "SM",
+        "VA"
+      ]
+    },
+    {
+      "id": "francia-alpes",
+      "nombre": "Francia, Benelux y Alpes",
+      "orden": 2,
+      "paises": [
+        "FR",
+        "MC",
+        "BE",
+        "NL",
+        "LU",
+        "CH",
+        "AT",
+        "LI"
+      ]
+    },
+    {
+      "id": "britanicas-nordicos",
+      "nombre": "Islas Británicas, Nórdicos y Bálticos",
+      "orden": 3,
+      "paises": [
+        "GB",
+        "IE",
+        "IS",
+        "NO",
+        "SE",
+        "FI",
+        "DK",
+        "EE",
+        "LV",
+        "LT"
+      ]
+    },
+    {
+      "id": "centroeuropa",
+      "nombre": "Centroeuropa",
+      "orden": 4,
+      "paises": [
+        "DE",
+        "PL",
+        "CZ",
+        "SK",
+        "HU",
+        "SI"
+      ]
+    },
+    {
+      "id": "balcanes-grecia",
+      "nombre": "Balcanes, Grecia y Chipre",
+      "orden": 5,
+      "paises": [
+        "HR",
+        "BA",
+        "RS",
+        "ME",
+        "XK",
+        "AL",
+        "MK",
+        "GR",
+        "CY",
+        "BG",
+        "RO"
+      ]
+    },
+    {
+      "id": "este-caucaso-turquia",
+      "nombre": "Europa del Este, Cáucaso y Turquía",
+      "orden": 6,
+      "paises": [
+        "UA",
+        "MD",
+        "BY",
+        "RU",
+        "GE",
+        "AM",
+        "AZ",
+        "TR"
+      ]
+    }
+  ],
+  "paises": [
+    {
+      "iso": "ES",
+      "nombre": "España",
+      "subregion": "iberica-italia",
+      "total_lugares": 0,
+      "excepcion_minimo": false,
+      "justificacion": null,
+      "nota_revisor": null,
+      "revision_pendiente": false,
+      "estado": "sin_investigar"
+    },
+    {
+      "iso": "PT",
+      "nombre": "Portugal",
+      "subregion": "iberica-italia",
+      "total_lugares": 0,
+      "excepcion_minimo": false,
+      "justificacion": null,
+      "nota_revisor": null,
+      "revision_pendiente": false,
+      "estado": "sin_investigar"
+    },
+    {
+      "iso": "IT",
+      "nombre": "Italia",
+      "subregion": "iberica-italia",
+      "total_lugares": 0,
+      "excepcion_minimo": false,
+      "justificacion": null,
+      "nota_revisor": null,
+      "revision_pendiente": false,
+      "estado": "sin_investigar"
+    },
+    {
+      "iso": "MT",
+      "nombre": "Malta",
+      "subregion": "iberica-italia",
+      "total_lugares": 0,
+      "excepcion_minimo": false,
+      "justificacion": null,
+      "nota_revisor": null,
+      "revision_pendiente": false,
+      "estado": "sin_investigar"
+    },
+    {
+      "iso": "AD",
+      "nombre": "Andorra",
+      "subregion": "iberica-italia",
+      "total_lugares": 0,
+      "excepcion_minimo": false,
+      "justificacion": null,
+      "nota_revisor": null,
+      "revision_pendiente": false,
+      "estado": "sin_investigar"
+    },
+    {
+      "iso": "SM",
+      "nombre": "San Marino",
+      "subregion": "iberica-italia",
+      "total_lugares": 0,
+      "excepcion_minimo": false,
+      "justificacion": null,
+      "nota_revisor": null,
+      "revision_pendiente": false,
+      "estado": "sin_investigar"
+    },
+    {
+      "iso": "VA",
+      "nombre": "Ciudad del Vaticano",
+      "subregion": "iberica-italia",
+      "total_lugares": 0,
+      "excepcion_minimo": false,
+      "justificacion": null,
+      "nota_revisor": null,
+      "revision_pendiente": false,
+      "estado": "sin_investigar"
+    },
+    {
+      "iso": "FR",
+      "nombre": "Francia",
+      "subregion": "francia-alpes",
+      "total_lugares": 0,
+      "excepcion_minimo": false,
+      "justificacion": null,
+      "nota_revisor": null,
+      "revision_pendiente": false,
+      "estado": "sin_investigar"
+    },
+    {
+      "iso": "MC",
+      "nombre": "Mónaco",
+      "subregion": "francia-alpes",
+      "total_lugares": 0,
+      "excepcion_minimo": false,
+      "justificacion": null,
+      "nota_revisor": null,
+      "revision_pendiente": false,
+      "estado": "sin_investigar"
+    },
+    {
+      "iso": "BE",
+      "nombre": "Bélgica",
+      "subregion": "francia-alpes",
+      "total_lugares": 0,
+      "excepcion_minimo": false,
+      "justificacion": null,
+      "nota_revisor": null,
+      "revision_pendiente": false,
+      "estado": "sin_investigar"
+    },
+    {
+      "iso": "NL",
+      "nombre": "Países Bajos",
+      "subregion": "francia-alpes",
+      "total_lugares": 0,
+      "excepcion_minimo": false,
+      "justificacion": null,
+      "nota_revisor": null,
+      "revision_pendiente": false,
+      "estado": "sin_investigar"
+    },
+    {
+      "iso": "LU",
+      "nombre": "Luxemburgo",
+      "subregion": "francia-alpes",
+      "total_lugares": 0,
+      "excepcion_minimo": false,
+      "justificacion": null,
+      "nota_revisor": null,
+      "revision_pendiente": false,
+      "estado": "sin_investigar"
+    },
+    {
+      "iso": "CH",
+      "nombre": "Suiza",
+      "subregion": "francia-alpes",
+      "total_lugares": 0,
+      "excepcion_minimo": false,
+      "justificacion": null,
+      "nota_revisor": null,
+      "revision_pendiente": false,
+      "estado": "sin_investigar"
+    },
+    {
+      "iso": "AT",
+      "nombre": "Austria",
+      "subregion": "francia-alpes",
+      "total_lugares": 0,
+      "excepcion_minimo": false,
+      "justificacion": null,
+      "nota_revisor": null,
+      "revision_pendiente": false,
+      "estado": "sin_investigar"
+    },
+    {
+      "iso": "LI",
+      "nombre": "Liechtenstein",
+      "subregion": "francia-alpes",
+      "total_lugares": 0,
+      "excepcion_minimo": false,
+      "justificacion": null,
+      "nota_revisor": null,
+      "revision_pendiente": false,
+      "estado": "sin_investigar"
+    },
+    {
+      "iso": "GB",
+      "nombre": "Reino Unido",
+      "subregion": "britanicas-nordicos",
+      "total_lugares": 0,
+      "excepcion_minimo": false,
+      "justificacion": null,
+      "nota_revisor": null,
+      "revision_pendiente": false,
+      "estado": "sin_investigar"
+    },
+    {
+      "iso": "IE",
+      "nombre": "Irlanda",
+      "subregion": "britanicas-nordicos",
+      "total_lugares": 0,
+      "excepcion_minimo": false,
+      "justificacion": null,
+      "nota_revisor": null,
+      "revision_pendiente": false,
+      "estado": "sin_investigar"
+    },
+    {
+      "iso": "IS",
+      "nombre": "Islandia",
+      "subregion": "britanicas-nordicos",
+      "total_lugares": 0,
+      "excepcion_minimo": false,
+      "justificacion": null,
+      "nota_revisor": null,
+      "revision_pendiente": false,
+      "estado": "sin_investigar"
+    },
+    {
+      "iso": "NO",
+      "nombre": "Noruega",
+      "subregion": "britanicas-nordicos",
+      "total_lugares": 0,
+      "excepcion_minimo": false,
+      "justificacion": null,
+      "nota_revisor": null,
+      "revision_pendiente": false,
+      "estado": "sin_investigar"
+    },
+    {
+      "iso": "SE",
+      "nombre": "Suecia",
+      "subregion": "britanicas-nordicos",
+      "total_lugares": 0,
+      "excepcion_minimo": false,
+      "justificacion": null,
+      "nota_revisor": null,
+      "revision_pendiente": false,
+      "estado": "sin_investigar"
+    },
+    {
+      "iso": "FI",
+      "nombre": "Finlandia",
+      "subregion": "britanicas-nordicos",
+      "total_lugares": 0,
+      "excepcion_minimo": false,
+      "justificacion": null,
+      "nota_revisor": null,
+      "revision_pendiente": false,
+      "estado": "sin_investigar"
+    },
+    {
+      "iso": "DK",
+      "nombre": "Dinamarca",
+      "subregion": "britanicas-nordicos",
+      "total_lugares": 0,
+      "excepcion_minimo": false,
+      "justificacion": null,
+      "nota_revisor": null,
+      "revision_pendiente": false,
+      "estado": "sin_investigar"
+    },
+    {
+      "iso": "EE",
+      "nombre": "Estonia",
+      "subregion": "britanicas-nordicos",
+      "total_lugares": 0,
+      "excepcion_minimo": false,
+      "justificacion": null,
+      "nota_revisor": null,
+      "revision_pendiente": false,
+      "estado": "sin_investigar"
+    },
+    {
+      "iso": "LV",
+      "nombre": "Letonia",
+      "subregion": "britanicas-nordicos",
+      "total_lugares": 0,
+      "excepcion_minimo": false,
+      "justificacion": null,
+      "nota_revisor": null,
+      "revision_pendiente": false,
+      "estado": "sin_investigar"
+    },
+    {
+      "iso": "LT",
+      "nombre": "Lituania",
+      "subregion": "britanicas-nordicos",
+      "total_lugares": 0,
+      "excepcion_minimo": false,
+      "justificacion": null,
+      "nota_revisor": null,
+      "revision_pendiente": false,
+      "estado": "sin_investigar"
+    },
+    {
+      "iso": "DE",
+      "nombre": "Alemania",
+      "subregion": "centroeuropa",
+      "total_lugares": 0,
+      "excepcion_minimo": false,
+      "justificacion": null,
+      "nota_revisor": null,
+      "revision_pendiente": false,
+      "estado": "sin_investigar"
+    },
+    {
+      "iso": "PL",
+      "nombre": "Polonia",
+      "subregion": "centroeuropa",
+      "total_lugares": 0,
+      "excepcion_minimo": false,
+      "justificacion": null,
+      "nota_revisor": null,
+      "revision_pendiente": false,
+      "estado": "sin_investigar"
+    },
+    {
+      "iso": "CZ",
+      "nombre": "República Checa",
+      "subregion": "centroeuropa",
+      "total_lugares": 0,
+      "excepcion_minimo": false,
+      "justificacion": null,
+      "nota_revisor": null,
+      "revision_pendiente": false,
+      "estado": "sin_investigar"
+    },
+    {
+      "iso": "SK",
+      "nombre": "Eslovaquia",
+      "subregion": "centroeuropa",
+      "total_lugares": 0,
+      "excepcion_minimo": false,
+      "justificacion": null,
+      "nota_revisor": null,
+      "revision_pendiente": false,
+      "estado": "sin_investigar"
+    },
+    {
+      "iso": "HU",
+      "nombre": "Hungría",
+      "subregion": "centroeuropa",
+      "total_lugares": 0,
+      "excepcion_minimo": false,
+      "justificacion": null,
+      "nota_revisor": null,
+      "revision_pendiente": false,
+      "estado": "sin_investigar"
+    },
+    {
+      "iso": "SI",
+      "nombre": "Eslovenia",
+      "subregion": "centroeuropa",
+      "total_lugares": 0,
+      "excepcion_minimo": false,
+      "justificacion": null,
+      "nota_revisor": null,
+      "revision_pendiente": false,
+      "estado": "sin_investigar"
+    },
+    {
+      "iso": "HR",
+      "nombre": "Croacia",
+      "subregion": "balcanes-grecia",
+      "total_lugares": 0,
+      "excepcion_minimo": false,
+      "justificacion": null,
+      "nota_revisor": null,
+      "revision_pendiente": false,
+      "estado": "sin_investigar"
+    },
+    {
+      "iso": "BA",
+      "nombre": "Bosnia y Herzegovina",
+      "subregion": "balcanes-grecia",
+      "total_lugares": 0,
+      "excepcion_minimo": false,
+      "justificacion": null,
+      "nota_revisor": null,
+      "revision_pendiente": false,
+      "estado": "sin_investigar"
+    },
+    {
+      "iso": "RS",
+      "nombre": "Serbia",
+      "subregion": "balcanes-grecia",
+      "total_lugares": 0,
+      "excepcion_minimo": false,
+      "justificacion": null,
+      "nota_revisor": null,
+      "revision_pendiente": false,
+      "estado": "sin_investigar"
+    },
+    {
+      "iso": "ME",
+      "nombre": "Montenegro",
+      "subregion": "balcanes-grecia",
+      "total_lugares": 0,
+      "excepcion_minimo": false,
+      "justificacion": null,
+      "nota_revisor": null,
+      "revision_pendiente": false,
+      "estado": "sin_investigar"
+    },
+    {
+      "iso": "XK",
+      "nombre": "Kosovo",
+      "subregion": "balcanes-grecia",
+      "total_lugares": 0,
+      "excepcion_minimo": false,
+      "justificacion": null,
+      "nota_revisor": null,
+      "revision_pendiente": false,
+      "estado": "sin_investigar"
+    },
+    {
+      "iso": "AL",
+      "nombre": "Albania",
+      "subregion": "balcanes-grecia",
+      "total_lugares": 0,
+      "excepcion_minimo": false,
+      "justificacion": null,
+      "nota_revisor": null,
+      "revision_pendiente": false,
+      "estado": "sin_investigar"
+    },
+    {
+      "iso": "MK",
+      "nombre": "Macedonia del Norte",
+      "subregion": "balcanes-grecia",
+      "total_lugares": 0,
+      "excepcion_minimo": false,
+      "justificacion": null,
+      "nota_revisor": null,
+      "revision_pendiente": false,
+      "estado": "sin_investigar"
+    },
+    {
+      "iso": "GR",
+      "nombre": "Grecia",
+      "subregion": "balcanes-grecia",
+      "total_lugares": 0,
+      "excepcion_minimo": false,
+      "justificacion": null,
+      "nota_revisor": null,
+      "revision_pendiente": false,
+      "estado": "sin_investigar"
+    },
+    {
+      "iso": "CY",
+      "nombre": "Chipre",
+      "subregion": "balcanes-grecia",
+      "total_lugares": 0,
+      "excepcion_minimo": false,
+      "justificacion": null,
+      "nota_revisor": null,
+      "revision_pendiente": false,
+      "estado": "sin_investigar"
+    },
+    {
+      "iso": "BG",
+      "nombre": "Bulgaria",
+      "subregion": "balcanes-grecia",
+      "total_lugares": 0,
+      "excepcion_minimo": false,
+      "justificacion": null,
+      "nota_revisor": null,
+      "revision_pendiente": false,
+      "estado": "sin_investigar"
+    },
+    {
+      "iso": "RO",
+      "nombre": "Rumania",
+      "subregion": "balcanes-grecia",
+      "total_lugares": 0,
+      "excepcion_minimo": false,
+      "justificacion": null,
+      "nota_revisor": null,
+      "revision_pendiente": false,
+      "estado": "sin_investigar"
+    },
+    {
+      "iso": "UA",
+      "nombre": "Ucrania",
+      "subregion": "este-caucaso-turquia",
+      "total_lugares": 0,
+      "excepcion_minimo": false,
+      "justificacion": null,
+      "nota_revisor": null,
+      "revision_pendiente": false,
+      "estado": "sin_investigar"
+    },
+    {
+      "iso": "MD",
+      "nombre": "Moldavia",
+      "subregion": "este-caucaso-turquia",
+      "total_lugares": 0,
+      "excepcion_minimo": false,
+      "justificacion": null,
+      "nota_revisor": null,
+      "revision_pendiente": false,
+      "estado": "sin_investigar"
+    },
+    {
+      "iso": "BY",
+      "nombre": "Bielorrusia",
+      "subregion": "este-caucaso-turquia",
+      "total_lugares": 0,
+      "excepcion_minimo": false,
+      "justificacion": null,
+      "nota_revisor": null,
+      "revision_pendiente": false,
+      "estado": "sin_investigar"
+    },
+    {
+      "iso": "RU",
+      "nombre": "Rusia",
+      "subregion": "este-caucaso-turquia",
+      "total_lugares": 0,
+      "excepcion_minimo": false,
+      "justificacion": null,
+      "nota_revisor": null,
+      "revision_pendiente": false,
+      "estado": "sin_investigar"
+    },
+    {
+      "iso": "GE",
+      "nombre": "Georgia",
+      "subregion": "este-caucaso-turquia",
+      "total_lugares": 0,
+      "excepcion_minimo": false,
+      "justificacion": null,
+      "nota_revisor": null,
+      "revision_pendiente": false,
+      "estado": "sin_investigar"
+    },
+    {
+      "iso": "AM",
+      "nombre": "Armenia",
+      "subregion": "este-caucaso-turquia",
+      "total_lugares": 0,
+      "excepcion_minimo": false,
+      "justificacion": null,
+      "nota_revisor": null,
+      "revision_pendiente": false,
+      "estado": "sin_investigar"
+    },
+    {
+      "iso": "AZ",
+      "nombre": "Azerbaiyán",
+      "subregion": "este-caucaso-turquia",
+      "total_lugares": 0,
+      "excepcion_minimo": false,
+      "justificacion": null,
+      "nota_revisor": null,
+      "revision_pendiente": false,
+      "estado": "sin_investigar"
+    },
+    {
+      "iso": "TR",
+      "nombre": "Turquía",
+      "subregion": "este-caucaso-turquia",
+      "total_lugares": 0,
+      "excepcion_minimo": false,
+      "justificacion": null,
+      "nota_revisor": null,
+      "revision_pendiente": false,
+      "estado": "sin_investigar"
+    }
+  ]
+}

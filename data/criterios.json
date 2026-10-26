@@ -1,0 +1,98 @@
+{
+  "version": 1,
+  "escala": { "min": 0, "max": 5 },
+  "criterios": {
+    "guias": {
+      "nombre": "Consenso de guías",
+      "agente": "guias-expertas",
+      "descripcion": "En cuántas guías expertas aparece el lugar y con qué peso (top pick, must-see, 3 estrellas).",
+      "fuentes": [
+        "Lonely Planet (Top Experiences)",
+        "Rick Steves",
+        "DK Eyewitness (Top 10)",
+        "Fodor's (Fodor's Choice)",
+        "Frommer's",
+        "Rough Guides",
+        "Michelin Guide Vert (★★★)",
+        "National Geographic Traveler",
+        "Moon",
+        "Bradt",
+        "Condé Nast Traveler",
+        "Time Out"
+      ],
+      "guia_puntaje": {
+        "5": "Top pick en 4+ guías o ★★★ Michelin + top pick en otra",
+        "4": "Destacado en 3 guías",
+        "3": "Mencionado con recomendación en 2 guías",
+        "2": "Mencionado en 1 guía",
+        "1": "Solo mención menor",
+        "0": "No aparece en guías"
+      }
+    },
+    "cultura": {
+      "nombre": "Cultura e Historia",
+      "agente": "cultura-historia",
+      "descripcion": "Patrimonio, arquitectura, museos, ciudades históricas, festivales.",
+      "fuentes": ["UNESCO World Heritage List", "Oficinas de turismo", "Museos oficiales"]
+    },
+    "naturaleza": {
+      "nombre": "Naturaleza",
+      "agente": "naturaleza",
+      "descripcion": "Parques nacionales, paisajes, senderismo, playas, fauna.",
+      "fuentes": ["Parques nacionales oficiales", "UNESCO natural", "AllTrails"]
+    },
+    "gastronomia": {
+      "nombre": "Gastronomía y Vino",
+      "agente": "gastronomia-vino",
+      "descripcion": "Escena culinaria, mercados, regiones vinícolas, platos típicos.",
+      "fuentes": ["Guía Michelin", "World's 50 Best", "TasteAtlas"]
+    },
+    "adrenalina": {
+      "nombre": "Adrenalina",
+      "agente": "adrenalina",
+      "descripcion": "Parques de diversiones, alpine/mountain coasters, tirolesas, bungee, parapente, canyoning, vía ferrata, rafting, paracaídas, esquí.",
+      "fuentes": ["Sitios oficiales de los parques/operadores", "RCDB", "Coaster-Count", "Tripadvisor (solo respaldo)"],
+      "radio_km": 60
+    },
+    "logistica": {
+      "nombre": "Logística",
+      "agente": "logistica-temporada",
+      "descripcion": "Viabilidad: mejor época, días sugeridos, costo relativo, acceso y alertas de seguridad. 5 = fácil, seguro y accesible todo el año.",
+      "fuentes": ["travel.state.gov", "gov.uk/foreign-travel-advice", "travel.gc.ca", "Datos climáticos"]
+    }
+  },
+  "formula_global": {
+    "guias": 0.40,
+    "mejor_tematico": 0.45,
+    "tematicos": ["cultura", "naturaleza", "gastronomia", "adrenalina"],
+    "logistica": 0.15,
+    "redondeo": 1
+  },
+  "niveles": [
+    { "id": "imprescindible", "nombre": "Imprescindible", "min": 4.0 },
+    { "id": "muy_recomendado", "nombre": "Muy recomendado", "min": 3.0 },
+    { "id": "si_hay_tiempo", "nombre": "Si hay tiempo", "min": 2.0 }
+  ],
+  "descartar_bajo": 2.0,
+  "cobertura": {
+    "minimo_por_pais": 10,
+    "objetivo_paises_grandes": { "min": 20, "max": 30, "paises": ["FR", "IT", "ES", "DE", "GB", "TR"] },
+    "microestados": { "area_max_km2": 3000, "min": 3, "max": 6, "paises": ["AD", "LI", "MC", "SM", "VA"] },
+    "max_proporcion_capital": 0.4,
+    "min_categorias_distintas": 3
+  },
+  "revisor": {
+    "umbral": 9.5,
+    "max_rondas": 3,
+    "rubrica": {
+      "fuentes": { "nombre": "Fuentes verificables", "max": 2 },
+      "exactitud": { "nombre": "Exactitud de datos y coordenadas", "max": 2 },
+      "criterio": { "nombre": "Cumplimiento del criterio del agente", "max": 2 },
+      "coherencia": { "nombre": "Coherencia de los puntajes", "max": 2 },
+      "descripcion": { "nombre": "Calidad de la descripción y logística", "max": 2 }
+    }
+  },
+  "categorias": ["cultura", "naturaleza", "gastronomia", "adrenalina", "playa", "ciudad"],
+  "estados": ["visitado", "quiero_ir", "tal_vez"],
+  "costos": ["$", "$$", "$$$", "$$$$"]
+}

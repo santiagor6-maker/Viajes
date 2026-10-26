@@ -1,0 +1,1119 @@
+<title>Atlas de Viajes</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Young+Serif&family=Figtree:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>/* Leaflet 1.9.4 (BSD-2) */.leaflet-pane,.leaflet-tile,.leaflet-marker-icon,.leaflet-marker-shadow,.leaflet-tile-container,.leaflet-pane>svg,.leaflet-pane>canvas,.leaflet-zoom-box,.leaflet-image-layer,.leaflet-layer{position:absolute;left:0;top:0}.leaflet-container{overflow:hidden}.leaflet-tile,.leaflet-marker-icon,.leaflet-marker-shadow{-webkit-user-select:none;-moz-user-select:none;user-select:none;-webkit-user-drag:none}.leaflet-tile::selection{background:transparent}.leaflet-safari .leaflet-tile{image-rendering:-webkit-optimize-contrast}.leaflet-safari .leaflet-tile-container{width:1600px;height:1600px;-webkit-transform-origin:0 0}.leaflet-marker-icon,.leaflet-marker-shadow{display:block}.leaflet-container .leaflet-overlay-pane svg{max-width:none !important;max-height:none !important}.leaflet-container .leaflet-marker-pane img,.leaflet-container .leaflet-shadow-pane img,.leaflet-container .leaflet-tile-pane img,.leaflet-container img.leaflet-image-layer,.leaflet-container .leaflet-tile{max-width:none !important;max-height:none !important;width:auto;padding:0}.leaflet-container img.leaflet-tile{mix-blend-mode:plus-lighter}.leaflet-container.leaflet-touch-zoom{-ms-touch-action:pan-x pan-y;touch-action:pan-x pan-y}.leaflet-container.leaflet-touch-drag{-ms-touch-action:pinch-zoom;touch-action:none;touch-action:pinch-zoom}.leaflet-container.leaflet-touch-drag.leaflet-touch-zoom{-ms-touch-action:none;touch-action:none}.leaflet-container{-webkit-tap-highlight-color:transparent}.leaflet-container a{-webkit-tap-highlight-color:rgba(51,181,229,0.4)}.leaflet-tile{filter:inherit;visibility:hidden}.leaflet-tile-loaded{visibility:inherit}.leaflet-zoom-box{width:0;height:0;-moz-box-sizing:border-box;box-sizing:border-box;z-index:800}.leaflet-overlay-pane svg{-moz-user-select:none}.leaflet-pane{z-index:400}.leaflet-tile-pane{z-index:200}.leaflet-overlay-pane{z-index:400}.leaflet-shadow-pane{z-index:500}.leaflet-marker-pane{z-index:600}.leaflet-tooltip-pane{z-index:650}.leaflet-popup-pane{z-index:700}.leaflet-map-pane canvas{z-index:100}.leaflet-map-pane svg{z-index:200}.leaflet-vml-shape{width:1px;height:1px}.leaflet-control{position:relative;z-index:800;pointer-events:visiblePainted;pointer-events:auto}.leaflet-top,.leaflet-bottom{position:absolute;z-index:1000;pointer-events:none}.leaflet-top{top:0}.leaflet-right{right:0}.leaflet-bottom{bottom:0}.leaflet-left{left:0}.leaflet-control{float:left;clear:both}.leaflet-right .leaflet-control{float:right}.leaflet-top .leaflet-control{margin-top:10px}.leaflet-bottom .leaflet-control{margin-bottom:10px}.leaflet-left .leaflet-control{margin-left:10px}.leaflet-right .leaflet-control{margin-right:10px}.leaflet-fade-anim .leaflet-popup{opacity:0;-webkit-transition:opacity 0.2s linear;-moz-transition:opacity 0.2s linear;transition:opacity 0.2s linear}.leaflet-fade-anim .leaflet-map-pane .leaflet-popup{opacity:1}.leaflet-zoom-animated{-webkit-transform-origin:0 0;-ms-transform-origin:0 0;transform-origin:0 0}svg.leaflet-zoom-animated{will-change:transform}.leaflet-zoom-anim .leaflet-zoom-animated{-webkit-transition:-webkit-transform 0.25s cubic-bezier(0,0,0.25,1);-moz-transition:-moz-transform 0.25s cubic-bezier(0,0,0.25,1);transition:transform 0.25s cubic-bezier(0,0,0.25,1)}.leaflet-zoom-anim .leaflet-tile,.leaflet-pan-anim .leaflet-tile{-webkit-transition:none;-moz-transition:none;transition:none}.leaflet-zoom-anim .leaflet-zoom-hide{visibility:hidden}.leaflet-interactive{cursor:pointer}.leaflet-grab{cursor:-webkit-grab;cursor:-moz-grab;cursor:grab}.leaflet-crosshair,.leaflet-crosshair .leaflet-interactive{cursor:crosshair}.leaflet-popup-pane,.leaflet-control{cursor:auto}.leaflet-dragging .leaflet-grab,.leaflet-dragging .leaflet-grab .leaflet-interactive,.leaflet-dragging .leaflet-marker-draggable{cursor:move;cursor:-webkit-grabbing;cursor:-moz-grabbing;cursor:grabbing}.leaflet-marker-icon,.leaflet-marker-shadow,.leaflet-image-layer,.leaflet-pane>svg path,.leaflet-tile-container{pointer-events:none}.leaflet-marker-icon.leaflet-interactive,.leaflet-image-layer.leaflet-interactive,.leaflet-pane>svg path.leaflet-interactive,svg.leaflet-image-layer.leaflet-interactive path{pointer-events:visiblePainted;pointer-events:auto}.leaflet-container{background:#ddd;outline-offset:1px}.leaflet-container a{color:#0078A8}.leaflet-zoom-box{border:2px dotted #38f;background:rgba(255,255,255,0.5)}.leaflet-container{font-family:"Helvetica Neue",Arial,Helvetica,sans-serif;font-size:12px;font-size:0.75rem;line-height:1.5}.leaflet-bar{box-shadow:0 1px 5px rgba(0,0,0,0.65);border-radius:4px}.leaflet-bar a{background-color:#fff;border-bottom:1px solid #ccc;width:26px;height:26px;line-height:26px;display:block;text-align:center;text-decoration:none;color:black}.leaflet-bar a,.leaflet-control-layers-toggle{background-position:50% 50%;background-repeat:no-repeat;display:block}.leaflet-bar a:hover,.leaflet-bar a:focus{background-color:#f4f4f4}.leaflet-bar a:first-child{border-top-left-radius:4px;border-top-right-radius:4px}.leaflet-bar a:last-child{border-bottom-left-radius:4px;border-bottom-right-radius:4px;border-bottom:none}.leaflet-bar a.leaflet-disabled{cursor:default;background-color:#f4f4f4;color:#bbb}.leaflet-touch .leaflet-bar a{width:30px;height:30px;line-height:30px}.leaflet-touch .leaflet-bar a:first-child{border-top-left-radius:2px;border-top-right-radius:2px}.leaflet-touch .leaflet-bar a:last-child{border-bottom-left-radius:2px;border-bottom-right-radius:2px}.leaflet-control-zoom-in,.leaflet-control-zoom-out{font:bold 18px 'Lucida Console',Monaco,monospace;text-indent:1px}.leaflet-touch .leaflet-control-zoom-in,.leaflet-touch .leaflet-control-zoom-out{font-size:22px}.leaflet-control-layers{box-shadow:0 1px 5px rgba(0,0,0,0.4);background:#fff;border-radius:5px}.leaflet-touch .leaflet-control-layers-toggle{width:44px;height:44px}.leaflet-control-layers .leaflet-control-layers-list,.leaflet-control-layers-expanded .leaflet-control-layers-toggle{display:none}.leaflet-control-layers-expanded .leaflet-control-layers-list{display:block;position:relative}.leaflet-control-layers-expanded{padding:6px 10px 6px 6px;color:#333;background:#fff}.leaflet-control-layers-scrollbar{overflow-y:scroll;overflow-x:hidden;padding-right:5px}.leaflet-control-layers-selector{margin-top:2px;position:relative;top:1px}.leaflet-control-layers label{display:block;font-size:13px;font-size:1.08333em}.leaflet-control-layers-separator{height:0;border-top:1px solid #ddd;margin:5px -10px 5px -6px}.leaflet-container .leaflet-control-attribution{background:#fff;background:rgba(255,255,255,0.8);margin:0}.leaflet-control-attribution,.leaflet-control-scale-line{padding:0 5px;color:#333;line-height:1.4}.leaflet-control-attribution a{text-decoration:none}.leaflet-control-attribution a:hover,.leaflet-control-attribution a:focus{text-decoration:underline}.leaflet-attribution-flag{display:inline !important;vertical-align:baseline !important;width:1em;height:0.6669em}.leaflet-left .leaflet-control-scale{margin-left:5px}.leaflet-bottom .leaflet-control-scale{margin-bottom:5px}.leaflet-control-scale-line{border:2px solid #777;border-top:none;line-height:1.1;padding:2px 5px 1px;white-space:nowrap;-moz-box-sizing:border-box;box-sizing:border-box;background:rgba(255,255,255,0.8);text-shadow:1px 1px #fff}.leaflet-control-scale-line:not(:first-child){border-top:2px solid #777;border-bottom:none;margin-top:-2px}.leaflet-control-scale-line:not(:first-child):not(:last-child){border-bottom:2px solid #777}.leaflet-touch .leaflet-control-attribution,.leaflet-touch .leaflet-control-layers,.leaflet-touch .leaflet-bar{box-shadow:none}.leaflet-touch .leaflet-control-layers,.leaflet-touch .leaflet-bar{border:2px solid rgba(0,0,0,0.2);background-clip:padding-box}.leaflet-popup{position:absolute;text-align:center;margin-bottom:20px}.leaflet-popup-content-wrapper{padding:1px;text-align:left;border-radius:12px}.leaflet-popup-content{margin:13px 24px 13px 20px;line-height:1.3;font-size:13px;font-size:1.08333em;min-height:1px}.leaflet-popup-content p{margin:17px 0;margin:1.3em 0}.leaflet-popup-tip-container{width:40px;height:20px;position:absolute;left:50%;margin-top:-1px;margin-left:-20px;overflow:hidden;pointer-events:none}.leaflet-popup-tip{width:17px;height:17px;padding:1px;margin:-10px auto 0;pointer-events:auto;-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-ms-transform:rotate(45deg);transform:rotate(45deg)}.leaflet-popup-content-wrapper,.leaflet-popup-tip{background:white;color:#333;box-shadow:0 3px 14px rgba(0,0,0,0.4)}.leaflet-container a.leaflet-popup-close-button{position:absolute;top:0;right:0;border:none;text-align:center;width:24px;height:24px;font:16px/24px Tahoma,Verdana,sans-serif;color:#757575;text-decoration:none;background:transparent}.leaflet-container a.leaflet-popup-close-button:hover,.leaflet-container a.leaflet-popup-close-button:focus{color:#585858}.leaflet-popup-scrolled{overflow:auto}.leaflet-oldie .leaflet-popup-content-wrapper{-ms-zoom:1}.leaflet-oldie .leaflet-popup-tip{width:24px;margin:0 auto;-ms-filter:"progid:DXImageTransform.Microsoft.Matrix(M11=0.70710678,M12=0.70710678,M21=-0.70710678,M22=0.70710678)";filter:progid:DXImageTransform.Microsoft.Matrix(M11=0.70710678,M12=0.70710678,M21=-0.70710678,M22=0.70710678)}.leaflet-oldie .leaflet-control-zoom,.leaflet-oldie .leaflet-control-layers,.leaflet-oldie .leaflet-popup-content-wrapper,.leaflet-oldie .leaflet-popup-tip{border:1px solid #999}.leaflet-div-icon{background:#fff;border:1px solid #666}.leaflet-tooltip{position:absolute;padding:6px;background-color:#fff;border:1px solid #fff;border-radius:3px;color:#222;white-space:nowrap;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;pointer-events:none;box-shadow:0 1px 3px rgba(0,0,0,0.4)}.leaflet-tooltip.leaflet-interactive{cursor:pointer;pointer-events:auto}.leaflet-tooltip-top:before,.leaflet-tooltip-bottom:before,.leaflet-tooltip-left:before,.leaflet-tooltip-right:before{position:absolute;pointer-events:none;border:6px solid transparent;background:transparent;content:""}.leaflet-tooltip-bottom{margin-top:6px}.leaflet-tooltip-top{margin-top:-6px}.leaflet-tooltip-bottom:before,.leaflet-tooltip-top:before{left:50%;margin-left:-6px}.leaflet-tooltip-top:before{bottom:0;margin-bottom:-12px;border-top-color:#fff}.leaflet-tooltip-bottom:before{top:0;margin-top:-12px;margin-left:-6px;border-bottom-color:#fff}.leaflet-tooltip-left{margin-left:-6px}.leaflet-tooltip-right{margin-left:6px}.leaflet-tooltip-left:before,.leaflet-tooltip-right:before{top:50%;margin-top:-6px}.leaflet-tooltip-left:before{right:0;margin-right:-12px;border-left-color:#fff}.leaflet-tooltip-right:before{left:0;margin-left:-12px;border-right-color:#fff}@media print{.leaflet-control{-webkit-print-color-adjust:exact;print-color-adjust:exact}}</style>
+<style>
+/* Layout: mapa a pantalla completa + panel lateral (hoja deslizable en el celular). Atlas: mar frío, tierra de papel, tinta verde-azulada. */
+:root {
+  --bg: #f2f4f1;
+  --surface: #ffffff;
+  --surface-2: #e9eee9;
+  --ink: #18272c;
+  --muted: #5a6a6f;
+  --line: #d6ded9;
+  --sea: #cad9df;
+  --grat: #b9cbd2;
+  --land: #f7f6f0;
+  --land-inv: #e3e8dc;
+  --land-out: #ecebe4;
+  --border: #9fb0aa;
+  --accent: #0d5c69;
+  --accent-soft: #d5e8ea;
+  --visitado: #2a8a5c;
+  --quiero: #2d68c9;
+  --talvez: #c98a12;
+  --neutro: #50626a;
+  --adr: #d9432a;
+  --warn-bg: #fdf1dc;
+  --warn-ink: #7a4d00;
+  --rama1: #0d5c69; --rama2: #8c5a2b; --rama3: #5d6b1f; --rama4: #7a3b6b; --rama5: #2f5a96; --rama6: #9a3d32;
+  --shadow: 0 1px 2px rgb(16 32 38 / .08), 0 6px 20px rgb(16 32 38 / .10);
+  --f-display: "Young Serif", Georgia, "Times New Roman", serif;
+  --f-body: "Figtree", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --f-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  --panel-w: 410px;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #0f171a; --surface: #152126; --surface-2: #1b2a30; --ink: #e3ebe8; --muted: #93a4a8; --line: #26363c;
+  --sea: #0a161c; --grat: #13252d; --land: #1a262b; --land-inv: #22333a; --land-out: #162024; --border: #3b4f56;
+  --accent: #5ec2cc; --accent-soft: #163b42; --visitado: #4cc28a; --quiero: #6b9cff; --talvez: #f0b648; --neutro: #8fa3aa; --adr: #ff6b4f;
+  --warn-bg: #3a2c10; --warn-ink: #f6d28c;
+  --rama1: #5ec2cc; --rama2: #e0a46a; --rama3: #b4c45a; --rama4: #d58ac4; --rama5: #84aef0; --rama6: #ef8c7d;
+  --shadow: 0 1px 2px rgb(0 0 0 / .4), 0 8px 24px rgb(0 0 0 / .35); color-scheme: dark;
+} }
+:root[data-theme="dark"] {
+  --bg: #0f171a; --surface: #152126; --surface-2: #1b2a30; --ink: #e3ebe8; --muted: #93a4a8; --line: #26363c;
+  --sea: #0a161c; --grat: #13252d; --land: #1a262b; --land-inv: #22333a; --land-out: #162024; --border: #3b4f56;
+  --accent: #5ec2cc; --accent-soft: #163b42; --visitado: #4cc28a; --quiero: #6b9cff; --talvez: #f0b648; --neutro: #8fa3aa; --adr: #ff6b4f;
+  --warn-bg: #3a2c10; --warn-ink: #f6d28c;
+  --rama1: #5ec2cc; --rama2: #e0a46a; --rama3: #b4c45a; --rama4: #d58ac4; --rama5: #84aef0; --rama6: #ef8c7d;
+  --shadow: 0 1px 2px rgb(0 0 0 / .4), 0 8px 24px rgb(0 0 0 / .35); color-scheme: dark;
+}
+html, body { height: 100%; }
+body { background: var(--bg); color: var(--ink); font-family: var(--f-body); font-size: 14px; line-height: 1.45; overflow: hidden; }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--surface); }
+button, input, select, textarea { font: inherit; color: inherit; }
+button { cursor: pointer; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+a { color: var(--accent); }
+.app { height: 100%; display: grid; grid-template-rows: auto 1fr; }
+
+/* barra superior */
+.top { display: flex; align-items: center; gap: 16px; padding-block: 10px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); background: var(--surface); border-bottom: 1px solid var(--line); position: relative; z-index: 1001; }
+.marca { display: flex; align-items: baseline; gap: 10px; min-width: 0; }
+.marca h1 { margin: 0; font-family: var(--f-display); font-weight: 400; font-size: 21px; letter-spacing: .2px; white-space: nowrap; }
+.marca .rosa { width: 22px; height: 22px; align-self: center; color: var(--accent); flex: none; }
+.buscar { position: relative; flex: 1; max-width: 420px; min-width: 0; }
+.buscar input { width: 100%; box-sizing: border-box; border: 1px solid var(--line); background: var(--bg); border-radius: 8px; padding: 8px 12px 8px 34px; outline: none; }
+.buscar input:focus { border-color: var(--accent); }
+.buscar svg { position: absolute; left: 10px; top: 50%; transform: translateY(-50%); width: 16px; height: 16px; color: var(--muted); }
+.sugerencias { position: absolute; top: calc(100% + 6px); left: 0; right: 0; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; box-shadow: var(--shadow); padding: 4px; margin: 0; list-style: none; max-height: 340px; overflow: auto; }
+.sugerencias li { padding: 7px 10px; border-radius: 6px; display: flex; gap: 8px; align-items: center; cursor: pointer; }
+.sugerencias li[aria-selected="true"], .sugerencias li:hover { background: var(--accent-soft); }
+.sugerencias small { color: var(--muted); margin-left: auto; white-space: nowrap; }
+.totales { display: flex; gap: 14px; margin-left: auto; font-size: 12.5px; color: var(--muted); white-space: nowrap; }
+.totales b { font-family: var(--f-mono); font-weight: 500; color: var(--ink); font-size: 14px; font-variant-numeric: tabular-nums; }
+.totales .t { display: flex; align-items: center; gap: 6px; }
+.dot { width: 9px; height: 9px; border-radius: 50%; display: inline-block; flex: none; background: var(--neutro); }
+.dot.e-visitado { background: var(--visitado); } .dot.e-quiero_ir { background: var(--quiero); } .dot.e-tal_vez { background: var(--talvez); }
+
+.main { display: grid; grid-template-columns: 1fr var(--panel-w); min-height: 0; }
+.mapa-wrap { position: relative; min-width: 0; min-height: 0; }
+#mapa { position: absolute; inset: 0; background: var(--sea); }
+.leaflet-container { font-family: var(--f-body); background: var(--sea); }
+.agregando #mapa { cursor: crosshair; }
+
+/* filtros sobre el mapa */
+.filtros { position: absolute; top: 12px; left: 12px; right: 12px; z-index: 900; display: flex; gap: 8px; align-items: center; flex-wrap: wrap; pointer-events: none; }
+.filtros > * { pointer-events: auto; }
+.seg { display: inline-flex; background: var(--surface); border: 1px solid var(--line); border-radius: 9px; padding: 3px; box-shadow: var(--shadow); }
+.seg button { border: 0; background: none; padding: 5px 10px; border-radius: 6px; display: inline-flex; align-items: center; gap: 6px; font-size: 13px; color: var(--muted); white-space: nowrap; }
+.seg button[aria-pressed="true"] { background: var(--accent-soft); color: var(--ink); font-weight: 600; }
+.sel { background: var(--surface); border: 1px solid var(--line); border-radius: 9px; padding: 6px 28px 6px 10px; font-size: 13px; box-shadow: var(--shadow); appearance: none; background-image: linear-gradient(45deg, transparent 50%, var(--muted) 50%), linear-gradient(135deg, var(--muted) 50%, transparent 50%); background-position: right 13px top 50%, right 8px top 50%; background-size: 5px 5px; background-repeat: no-repeat; }
+.btn-adr { display: inline-flex; align-items: center; gap: 6px; background: var(--surface); border: 1px solid var(--line); border-radius: 9px; padding: 6px 11px; font-size: 13px; box-shadow: var(--shadow); }
+.btn-adr svg { width: 15px; height: 15px; color: var(--adr); }
+.btn-adr[aria-pressed="true"] { background: var(--adr); color: #fff; border-color: var(--adr); }
+.btn-adr[aria-pressed="true"] svg { color: #fff; }
+.aviso-mapa { position: absolute; left: 50%; top: 64px; transform: translateX(-50%); z-index: 950; background: var(--ink); color: var(--bg); padding: 8px 14px; border-radius: 999px; font-size: 13px; display: flex; gap: 12px; align-items: center; box-shadow: var(--shadow); max-width: calc(100% - 32px); }
+.aviso-mapa button { background: none; border: 1px solid currentColor; border-radius: 999px; padding: 2px 10px; font-size: 12px; }
+
+/* leyenda */
+.leyenda { position: absolute; left: 12px; bottom: 22px; z-index: 900; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px; box-shadow: var(--shadow); font-size: 12px; display: grid; gap: 6px; }
+.leyenda .fila { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; }
+.leyenda .it { display: inline-flex; align-items: center; gap: 5px; color: var(--muted); }
+.leyenda .tam { display: inline-block; border-radius: 50%; background: var(--neutro); border: 1.5px solid var(--surface); box-shadow: 0 0 0 1px var(--border); }
+
+/* pines y clusters */
+.pin-wrap { background: none; border: 0; }
+.pin { width: var(--s); height: var(--s); border-radius: 50%; display: grid; place-items: center; background: var(--neutro); color: #fff; border: 2px solid var(--surface); box-shadow: 0 1px 3px rgb(0 0 0 / .35); box-sizing: border-box; transition: transform .15s ease; position: relative; }
+.pin svg { width: 58%; height: 58%; }
+.pin.e-visitado { background: var(--visitado); } .pin.e-quiero_ir { background: var(--quiero); } .pin.e-tal_vez { background: var(--talvez); }
+.pin.e-visitado::after { content: ""; position: absolute; right: -3px; top: -3px; width: 9px; height: 9px; border-radius: 50%; background: var(--surface); box-shadow: inset 0 0 0 2.5px var(--visitado); }
+.pin.propio { border-radius: 6px; transform: rotate(45deg); }
+.pin.propio svg { transform: rotate(-45deg); }
+.pin-wrap:hover .pin { transform: scale(1.15); }
+.pin-wrap:hover .pin.propio { transform: rotate(45deg) scale(1.15); }
+.pin-label { position: absolute; left: 50%; top: calc(100% + 2px); transform: translateX(-50%); white-space: nowrap; font-size: 11.5px; font-weight: 600; color: var(--ink); text-shadow: 0 0 3px var(--land), 0 0 3px var(--land), 0 0 2px var(--land); pointer-events: none; display: none; }
+.z-labels .pin-label { display: block; }
+.cluster { width: var(--s); height: var(--s); border-radius: 50%; display: grid; place-items: center; box-shadow: 0 1px 4px rgb(0 0 0 / .3); }
+.cluster span { width: calc(var(--s) - 10px); height: calc(var(--s) - 10px); border-radius: 50%; background: var(--surface); display: grid; place-items: center; font-family: var(--f-mono); font-weight: 500; font-size: 12.5px; color: var(--ink); }
+.adr-pin { width: 22px; height: 22px; border-radius: 6px; background: var(--adr); color: #fff; display: grid; place-items: center; border: 2px solid var(--surface); box-shadow: 0 1px 3px rgb(0 0 0 / .35); box-sizing: border-box; }
+.adr-pin svg { width: 13px; height: 13px; }
+.foco { width: 46px; height: 46px; border-radius: 50%; border: 2px solid var(--accent); box-sizing: border-box; animation: latido 1.6s ease-out infinite; pointer-events: none; }
+@keyframes latido { 0% { transform: scale(.6); opacity: 1; } 100% { transform: scale(1.4); opacity: 0; } }
+
+/* burbujas por país */
+.burbuja-wrap { background: none; border: 0; }
+.burbuja { position: absolute; transform: translate(-50%, -50%); display: flex; flex-direction: column; align-items: center; gap: 2px; cursor: pointer; white-space: nowrap; }
+.burbuja b { min-width: 30px; height: 30px; padding: 0 6px; box-sizing: border-box; border-radius: 999px; background: var(--surface); color: var(--ink); font-family: var(--f-mono); font-weight: 500; font-size: 13px; display: grid; place-items: center; box-shadow: 0 0 0 2px var(--b, var(--border)), var(--shadow); transition: transform .15s; }
+.burbuja:hover b { transform: scale(1.12); }
+.burbuja span { font-size: 11px; font-weight: 600; letter-spacing: .4px; text-transform: uppercase; color: var(--muted); text-shadow: 0 0 3px var(--land), 0 0 3px var(--land); }
+.burbuja.vacia b { display: none; }
+.burbuja.vacia span { font-weight: 500; opacity: .75; }
+.z-mid .burbuja b { display: none; }
+.burbuja.e-visitado { --b: var(--visitado); } .burbuja.e-quiero_ir { --b: var(--quiero); } .burbuja.e-tal_vez { --b: var(--talvez); }
+
+.leaflet-tooltip.tt { background: var(--surface); color: var(--ink); border: 1px solid var(--line); border-radius: 8px; box-shadow: var(--shadow); padding: 6px 10px; font-size: 12.5px; }
+.leaflet-tooltip.tt::before { display: none; }
+.tt b { font-family: var(--f-display); font-weight: 400; font-size: 14px; }
+.tt small { color: var(--muted); display: block; }
+.leaflet-popup-content-wrapper, .leaflet-popup-tip { background: var(--surface); color: var(--ink); box-shadow: var(--shadow); }
+.leaflet-popup-content { margin: 12px 14px; font-size: 13px; line-height: 1.4; }
+.leaflet-container a.leaflet-popup-close-button { color: var(--muted); }
+.pop h4 { margin: 0 0 2px; font-family: var(--f-display); font-weight: 400; font-size: 15px; }
+.pop .meta { color: var(--muted); font-size: 12px; margin-bottom: 8px; }
+.pop .acc { display: flex; gap: 8px; flex-wrap: wrap; }
+.leaflet-control-zoom a, .leaflet-bar a { background: var(--surface); color: var(--ink); border-color: var(--line); }
+.leaflet-bar { border: 1px solid var(--line) !important; box-shadow: var(--shadow) !important; }
+.leaflet-control-attribution { background: color-mix(in srgb, var(--surface) 80%, transparent) !important; color: var(--muted); font-size: 10.5px; }
+.leaflet-control-attribution a { color: var(--muted); }
+
+/* panel */
+.panel { background: var(--surface); border-left: 1px solid var(--line); display: flex; flex-direction: column; min-height: 0; position: relative; z-index: 1000; }
+.asa { display: none; }
+.cuerpo { overflow-y: auto; overscroll-behavior: contain; padding: 18px 20px 28px; display: grid; gap: 18px; align-content: start; min-height: 0; flex: 1; }
+.volver { justify-self: start; display: inline-flex; align-items: center; gap: 4px; border: 0; background: none; color: var(--accent); padding: 2px 0; font-size: 13px; font-weight: 600; }
+.ceja { font-size: 11px; letter-spacing: 1.1px; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+.panel h2 { margin: 0; font-family: var(--f-display); font-weight: 400; font-size: 28px; line-height: 1.1; text-wrap: balance; }
+.panel h3 { margin: 0; font-size: 11.5px; letter-spacing: 1px; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+.sub { color: var(--muted); font-size: 13px; }
+.grupo { display: grid; gap: 8px; }
+.barra-estado { display: flex; height: 8px; border-radius: 99px; overflow: hidden; background: var(--surface-2); }
+.barra-estado i { display: block; height: 100%; }
+.cifras { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+.cifra { background: var(--bg); border-radius: 10px; padding: 10px 12px; display: grid; gap: 2px; }
+.cifra b { font-family: var(--f-mono); font-weight: 500; font-size: 20px; font-variant-numeric: tabular-nums; }
+.cifra span { font-size: 12px; color: var(--muted); display: flex; align-items: center; gap: 6px; }
+.muestra { background: var(--warn-bg); color: var(--warn-ink); border-radius: 10px; padding: 10px 12px; font-size: 13px; }
+
+.lista-paises { list-style: none; margin: 0; padding: 0; display: grid; }
+.lista-paises li button { width: 100%; display: grid; grid-template-columns: 1fr auto 60px; gap: 10px; align-items: center; border: 0; background: none; padding: 8px 6px; border-radius: 8px; text-align: left; }
+.lista-paises li button:hover { background: var(--bg); }
+.lista-paises .n { font-family: var(--f-mono); font-size: 12.5px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.lista-paises .pend { font-size: 12px; color: var(--muted); font-style: italic; }
+.mini { display: flex; height: 6px; border-radius: 99px; overflow: hidden; background: var(--surface-2); }
+.mini i { display: block; }
+
+.tabs { display: flex; gap: 4px; border-bottom: 1px solid var(--line); }
+.tabs button { border: 0; background: none; padding: 8px 12px; font-weight: 600; color: var(--muted); border-bottom: 2px solid transparent; margin-bottom: -1px; }
+.tabs button[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--accent); }
+
+.nivel-tit { display: flex; align-items: baseline; justify-content: space-between; }
+.lugares { list-style: none; margin: 0; padding: 0; display: grid; }
+.lugares li button { width: 100%; display: grid; grid-template-columns: auto 1fr auto; gap: 10px; align-items: center; border: 0; background: none; padding: 9px 6px; border-radius: 8px; text-align: left; }
+.lugares li button:hover { background: var(--bg); }
+.lugares .nom { font-weight: 600; display: block; }
+.lugares .reg { color: var(--muted); font-size: 12.5px; display: flex; gap: 6px; align-items: center; flex-wrap: wrap; }
+.lugares .reg svg { width: 13px; height: 13px; }
+.lugares .pt { font-family: var(--f-mono); font-size: 13px; font-variant-numeric: tabular-nums; color: var(--muted); }
+.vacio { color: var(--muted); font-size: 13px; padding: 8px 0; }
+
+.chip { display: inline-flex; align-items: center; gap: 5px; border-radius: 999px; padding: 3px 10px; font-size: 12px; font-weight: 600; background: var(--surface-2); color: var(--ink); white-space: nowrap; }
+.chip.n-imprescindible { background: var(--accent); color: var(--surface); }
+.chip.n-muy_recomendado { background: var(--accent-soft); color: var(--accent); }
+.chips { display: flex; gap: 6px; flex-wrap: wrap; }
+
+.cabecera-lugar { display: grid; grid-template-columns: 1fr auto; gap: 12px; align-items: start; }
+.nota { text-align: center; display: grid; gap: 2px; }
+.nota b { font-family: var(--f-mono); font-weight: 500; font-size: 30px; line-height: 1; color: var(--accent); }
+.nota span { font-size: 11px; color: var(--muted); }
+.estados { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; }
+.estados button { border: 1.5px solid var(--line); background: var(--surface); border-radius: 10px; padding: 9px 6px; font-weight: 600; font-size: 13px; display: flex; gap: 6px; align-items: center; justify-content: center; }
+.estados button[aria-pressed="true"][data-estado="visitado"] { border-color: var(--visitado); background: color-mix(in srgb, var(--visitado) 16%, var(--surface)); }
+.estados button[aria-pressed="true"][data-estado="quiero_ir"] { border-color: var(--quiero); background: color-mix(in srgb, var(--quiero) 16%, var(--surface)); }
+.estados button[aria-pressed="true"][data-estado="tal_vez"] { border-color: var(--talvez); background: color-mix(in srgb, var(--talvez) 18%, var(--surface)); }
+.campo { display: grid; gap: 4px; font-size: 12.5px; color: var(--muted); }
+.campo input, .campo textarea { border: 1px solid var(--line); border-radius: 8px; padding: 8px 10px; background: var(--bg); color: var(--ink); font-size: 14px; }
+.campo textarea { min-height: 64px; resize: vertical; }
+.por-que { font-size: 15px; line-height: 1.55; margin: 0; max-width: 62ch; }
+.barras { display: grid; gap: 7px; }
+.barra { display: grid; grid-template-columns: 92px 1fr 30px; gap: 10px; align-items: center; font-size: 12.5px; }
+.barra .riel { height: 8px; background: var(--surface-2); border-radius: 99px; overflow: hidden; }
+.barra .riel i { display: block; height: 100%; background: color-mix(in srgb, var(--accent) 55%, var(--surface)); border-radius: 99px; }
+.barra.mejor .riel i { background: var(--accent); }
+.barra.mejor span:first-child { font-weight: 700; }
+.barra b { font-family: var(--f-mono); font-weight: 500; text-align: right; font-variant-numeric: tabular-nums; }
+.meses { display: grid; grid-template-columns: repeat(12, 1fr); gap: 3px; }
+.meses span { text-align: center; font-size: 10.5px; padding: 5px 0; border-radius: 5px; background: var(--surface-2); color: var(--muted); font-weight: 600; }
+.meses span.si { background: var(--accent); color: var(--surface); }
+.datos { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px 16px; margin: 0; }
+.datos div { display: grid; gap: 1px; min-width: 0; }
+.datos dt { font-size: 11.5px; color: var(--muted); }
+.datos dd { margin: 0; font-weight: 600; }
+.alerta { background: var(--warn-bg); color: var(--warn-ink); border-radius: 10px; padding: 10px 12px; font-size: 13px; }
+.adr-lista, .fuentes { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.adr-lista li { display: grid; grid-template-columns: auto 1fr auto; gap: 10px; align-items: center; }
+.adr-lista .ico { width: 26px; height: 26px; border-radius: 7px; background: color-mix(in srgb, var(--adr) 15%, var(--surface)); color: var(--adr); display: grid; place-items: center; }
+.adr-lista .ico svg { width: 14px; height: 14px; }
+.adr-lista small { color: var(--muted); display: block; }
+.adr-lista .km { font-family: var(--f-mono); font-size: 12.5px; color: var(--muted); }
+.fuentes a { display: flex; justify-content: space-between; gap: 10px; text-decoration: none; padding: 7px 10px; border-radius: 8px; background: var(--bg); color: var(--ink); }
+.fuentes a small { color: var(--muted); font-family: var(--f-mono); font-size: 11.5px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.fuentes a:hover { background: var(--accent-soft); }
+.acciones { display: flex; gap: 8px; flex-wrap: wrap; }
+.btn { border: 1px solid var(--line); background: var(--surface); border-radius: 8px; padding: 7px 12px; font-weight: 600; font-size: 13px; display: inline-flex; gap: 6px; align-items: center; }
+.btn.prim { background: var(--accent); border-color: var(--accent); color: var(--surface); }
+.btn.peligro { color: var(--adr); }
+details.como summary { cursor: pointer; font-weight: 600; font-size: 13px; color: var(--accent); }
+details.como p, details.como li { font-size: 13px; color: var(--muted); }
+details.como ul { padding-left: 18px; margin: 6px 0; }
+
+/* mapa mental */
+.mente-ctl { display: flex; gap: 8px; align-items: center; font-size: 12.5px; color: var(--muted); flex-wrap: wrap; }
+.mente { width: 100%; overflow: hidden; }
+.mente svg { display: block; width: 100%; height: auto; }
+.mente text { fill: var(--ink); font-family: var(--f-body); }
+.mente .raiz rect { fill: var(--accent); }
+.mente .raiz text { fill: var(--surface); font-family: var(--f-display); font-size: 14px; }
+.mente .gr rect { fill: var(--surface); stroke-width: 1.5; }
+.mente .gr text { font-size: 11.5px; font-weight: 600; }
+.mente .hoja text { font-size: 12px; paint-order: stroke; stroke: var(--surface); stroke-width: 3px; stroke-linejoin: round; }
+.mente .hoja circle { stroke: var(--surface); stroke-width: 1.5; }
+.mente .nodo { cursor: pointer; }
+.mente .nodo:hover text { text-decoration: underline; }
+.mente path.enlace { fill: none; stroke-width: 1.6; stroke-opacity: .7; }
+
+.toast { position: fixed; left: 50%; bottom: calc(24px + env(safe-area-inset-bottom, 0px)); transform: translateX(-50%); background: var(--ink); color: var(--bg); padding: 8px 14px; border-radius: 999px; font-size: 13px; z-index: 2000; box-shadow: var(--shadow); }
+
+@media (max-width: 1100px) { .totales .t.q { display: none; } }
+@media (max-width: 860px) {
+  .totales { display: none; }
+  .main { grid-template-columns: 1fr; }
+  .leyenda { display: none; }
+  .filtros { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; left: 0; right: 0; top: 8px; padding-left: max(12px, env(safe-area-inset-left, 0px)); padding-right: max(12px, env(safe-area-inset-right, 0px)); padding-bottom: 6px; }
+  .filtros::-webkit-scrollbar { display: none; }
+  .filtros > * { flex: none; }
+  .panel { position: fixed; left: 0; right: 0; bottom: 0; height: 86%; border-left: 0; border-top: 1px solid var(--line); border-radius: 16px 16px 0 0; box-shadow: 0 -8px 30px rgb(0 0 0 / .18); transition: transform .32s cubic-bezier(.2,.8,.2,1); transform: translateY(calc(100% - 128px - env(safe-area-inset-bottom, 0px))); }
+  .panel[data-hoja="media"] { transform: translateY(48%); }
+  .panel[data-hoja="llena"] { transform: translateY(0); }
+  .asa { display: grid; place-items: center; border: 0; background: none; padding: 10px 0 4px; width: 100%; }
+  .asa::before { content: ""; width: 42px; height: 5px; border-radius: 99px; background: var(--line); }
+  .cuerpo { padding: 6px max(16px, env(safe-area-inset-right, 0px)) calc(28px + env(safe-area-inset-bottom, 0px)) max(16px, env(safe-area-inset-left, 0px)); }
+  .panel h2 { font-size: 24px; }
+  .marca h1 { font-size: 18px; }
+}
+@media (max-width: 520px) { .marca h1 span { display: none; } }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; transition: none !important; } }
+</style>
+
+<div class="app" id="app">
+  <header class="top">
+    <div class="marca">
+      <svg class="rosa" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="9.5"/><path d="M12 3.5 14 12l-2 8.5L10 12z" fill="currentColor" stroke="none"/><path d="M3.5 12H7M17 12h3.5"/></svg>
+      <h1>Atlas de Viajes <span id="cont-nombre"></span></h1>
+    </div>
+    <div class="buscar">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg>
+      <input id="q" type="search" placeholder="Buscar un lugar o un país" autocomplete="off" aria-label="Buscar un lugar o un país" aria-controls="sug" aria-expanded="false">
+      <ul class="sugerencias" id="sug" role="listbox" hidden></ul>
+    </div>
+    <div class="totales" id="totales"></div>
+  </header>
+  <div class="main">
+    <div class="mapa-wrap">
+      <div id="mapa" aria-label="Mapa de destinos"></div>
+      <div class="filtros" id="filtros">
+        <div class="seg" role="group" aria-label="Filtrar por estado" id="f-estado">
+          <button data-v="todos" aria-pressed="true">Todos</button>
+          <button data-v="visitado" aria-pressed="false"><i class="dot e-visitado"></i>Visitado</button>
+          <button data-v="quiero_ir" aria-pressed="false"><i class="dot e-quiero_ir"></i>Quiero ir</button>
+          <button data-v="tal_vez" aria-pressed="false"><i class="dot e-tal_vez"></i>Tal vez</button>
+          <button data-v="sin_marcar" aria-pressed="false"><i class="dot"></i>Sin marcar</button>
+        </div>
+        <select class="sel" id="f-cat" aria-label="Categoría">
+          <option value="">Todas las categorías</option>
+          <option value="cultura">Cultura</option><option value="naturaleza">Naturaleza</option><option value="gastronomia">Gastronomía</option>
+          <option value="adrenalina">Adrenalina</option><option value="playa">Playa</option><option value="ciudad">Ciudad</option>
+        </select>
+        <select class="sel" id="f-nivel" aria-label="Nivel">
+          <option value="">Todos los niveles</option>
+          <option value="imprescindible">Imprescindible</option><option value="muy_recomendado">Muy recomendado</option><option value="si_hay_tiempo">Si hay tiempo</option>
+        </select>
+        <select class="sel" id="f-mes" aria-label="Mes ideal para viajar">
+          <option value="">Cualquier mes</option>
+        </select>
+        <button class="btn-adr" id="f-adr" aria-pressed="false"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M13 2 4.5 13.5H11L10 22l8.5-11.5H12z"/></svg>Adrenalina</button>
+      </div>
+      <div class="aviso-mapa" id="aviso-agregar" hidden>Toca el mapa donde está tu lugar <button id="cancelar-agregar">Cancelar</button></div>
+      <div class="leyenda" id="leyenda" aria-label="Leyenda">
+        <div class="fila"><span class="it"><i class="dot e-visitado"></i>Visitado</span><span class="it"><i class="dot e-quiero_ir"></i>Quiero ir</span><span class="it"><i class="dot e-tal_vez"></i>Tal vez</span><span class="it"><i class="dot"></i>Sin marcar</span></div>
+        <div class="fila"><span class="it"><i class="tam" style="width:16px;height:16px"></i>Imprescindible</span><span class="it"><i class="tam" style="width:12px;height:12px"></i>Muy recomendado</span><span class="it"><i class="tam" style="width:9px;height:9px"></i>Si hay tiempo</span></div>
+      </div>
+    </div>
+    <aside class="panel" id="panel" data-hoja="peek" aria-label="Detalle">
+      <button class="asa" id="asa" aria-label="Expandir o contraer el panel"></button>
+      <div class="cuerpo" id="cuerpo"><p class="vacio">Cargando el atlas…</p></div>
+    </aside>
+  </div>
+</div>
+<div class="toast" id="toast" hidden></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/leaflet.markercluster.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script>
+'use strict';
+// Continentes publicados junto a la página: cada uno es <id>.json (+ detalle-<id>.geojson opcional).
+const CONTINENTES = ['europa'];
+const NOMBRE_CONT = { europa: 'Europa' };
+const MESES = ['Ene', 'Feb', 'Mar', 'Abr', 'May', 'Jun', 'Jul', 'Ago', 'Sep', 'Oct', 'Nov', 'Dic'];
+const MESES_L = ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre'];
+const ESTADOS = { visitado: 'Visitado', quiero_ir: 'Quiero ir', tal_vez: 'Tal vez' };
+const CATS = { cultura: 'Cultura', naturaleza: 'Naturaleza', gastronomia: 'Gastronomía', adrenalina: 'Adrenalina', playa: 'Playa', ciudad: 'Ciudad' };
+const NIVELES = { imprescindible: 'Imprescindible', muy_recomendado: 'Muy recomendado', si_hay_tiempo: 'Si hay tiempo' };
+const ORDEN_NIVEL = ['imprescindible', 'muy_recomendado', 'si_hay_tiempo'];
+const TAM = { imprescindible: 30, muy_recomendado: 24, si_hay_tiempo: 19 };
+const CRIT = [['guias', 'Guías'], ['cultura', 'Cultura'], ['naturaleza', 'Naturaleza'], ['gastronomia', 'Gastronomía'], ['adrenalina', 'Adrenalina'], ['logistica', 'Logística']];
+const TEMATICOS = ['cultura', 'naturaleza', 'gastronomia', 'adrenalina'];
+const TIPOS_ADR = { parque_diversiones: 'Parque de diversiones', parque_acuatico: 'Parque acuático', alpine_coaster: 'Alpine coaster', tirolesa: 'Tirolesa', bungee: 'Bungee', parapente: 'Parapente', paracaidismo: 'Paracaidismo', canyoning: 'Canyoning', rafting: 'Rafting', via_ferrata: 'Vía ferrata', esqui: 'Esquí', motor: 'Motor', otro: 'Aventura' };
+// recortes para encuadrar países con territorios lejanos
+const ENCUADRE = { FR: [[41.3, -5.2], [51.1, 9.6]], RU: [[41.2, 27], [69.5, 60]], NO: [[57.9, 4.5], [71.2, 31.1]], NL: [[50.7, 3.3], [53.6, 7.3]], PT: [[36.9, -9.6], [42.2, -6.1]], ES: [[35.9, -9.4], [43.8, 4.4]], DK: [[54.5, 8], [57.8, 12.8]], GB: [[49.9, -8.2], [58.7, 1.8]] };
+const MICRO = new Set(['VA', 'MC', 'SM', 'LI', 'AD', 'MT']);
+
+const G = {
+  cultura: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9.5 12 4l9 5.5M5 10v8M9.7 10v8M14.3 10v8M19 10v8M3 20h18"/></svg>',
+  naturaleza: '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M2 20 9 7l4.2 7.4L15.6 11 22 20z"/></svg>',
+  gastronomia: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M7.5 3h9l-.6 5.5a3.9 3.9 0 0 1-7.8 0zM12 12.5V20M8.5 20.5h7"/></svg>',
+  adrenalina: '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M13 2 4.5 13.5H11L10 22l8.5-11.5H12z"/></svg>',
+  playa: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M2 17c2.5 0 2.5-2 5-2s2.5 2 5 2 2.5-2 5-2 2.5 2 5 2M7 11a5 5 0 0 1 10 0"/></svg>',
+  ciudad: '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M3 21V10l5-3v14zm6 0V4h7v17zm8 0v-9h4v9z"/></svg>',
+  propio: '<svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 3 2.6 5.6 6.1.7-4.5 4.2 1.2 6L12 16.6 6.6 19.5l1.2-6-4.5-4.2 6.1-.7z"/></svg>',
+};
+
+const S = {
+  lugares: [], porId: new Map(), paises: new Map(), subregiones: [], muestra: false,
+  marcas: new Map(), propios: new Map(),
+  filtros: { estado: 'todos', cat: '', nivel: '', mes: '' },
+  adrenalina: false, vista: 'continente', pais: null, lugar: null, propio: null, borrador: null,
+  tab: 'lista', agrupar: 'region', colapsados: new Set(),
+  db: null, dbListo: false, soloLectura: false, agregando: false,
+};
+const C = {};
+const $ = (s, r = document) => r.querySelector(s);
+const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+const norm = (s) => String(s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+const fmt1 = (n) => (Math.round(n * 10) / 10).toFixed(1).replace('.', ',');
+const esMovil = () => matchMedia('(max-width: 860px)').matches;
+
+function leerColores() {
+  const cs = getComputedStyle(document.documentElement);
+  for (const k of ['land', 'land-inv', 'land-out', 'border', 'accent', 'visitado', 'quiero', 'talvez', 'grat', 'surface']) C[k] = cs.getPropertyValue('--' + k).trim();
+}
+function colorEstado(e) { return e === 'visitado' ? 'var(--visitado)' : e === 'quiero_ir' ? 'var(--quiero)' : e === 'tal_vez' ? 'var(--talvez)' : 'var(--neutro)'; }
+
+let toastT;
+function toast(msg) { const t = $('#toast'); t.textContent = msg; t.hidden = false; clearTimeout(toastT); toastT = setTimeout(() => { t.hidden = true; }, 2600); }
+
+// ---------- datos ----------
+const estadoDe = (id) => S.marcas.get(id)?.estado || null;
+function catPrincipal(l) {
+  let mejor = TEMATICOS[0];
+  for (const t of TEMATICOS) if ((l.puntajes?.[t] ?? 0) > (l.puntajes?.[mejor] ?? 0)) mejor = t;
+  if (l.categorias?.includes(mejor)) return mejor;
+  return l.categorias?.[0] || mejor;
+}
+function pasaFiltro(l) {
+  const f = S.filtros, e = estadoDe(l.id) || 'sin_marcar';
+  if (f.estado !== 'todos' && e !== f.estado) return false;
+  if (f.cat && !l.categorias.includes(f.cat)) return false;
+  if (f.nivel && l.nivel !== f.nivel) return false;
+  if (f.mes && !l.mejor_epoca.includes(+f.mes)) return false;
+  return true;
+}
+function pasaFiltroPropio(p) {
+  const f = S.filtros;
+  if (f.cat || f.nivel || f.mes) return false;
+  return f.estado === 'todos' || (p.estado || 'sin_marcar') === f.estado;
+}
+const lugaresPais = (iso) => S.lugares.filter((l) => l.pais_iso === iso);
+const propiosPais = (iso) => [...S.propios.values()].filter((p) => p.pais_iso === iso);
+function conteoEstados(ids, propios = []) {
+  const c = { visitado: 0, quiero_ir: 0, tal_vez: 0, sin: 0 };
+  for (const id of ids) c[estadoDe(id) || 'sin']++;
+  for (const p of propios) c[p.estado || 'sin']++;
+  return c;
+}
+function estadoPais(iso) {
+  const c = conteoEstados(lugaresPais(iso).map((l) => l.id), propiosPais(iso));
+  return c.visitado ? 'visitado' : c.quiero_ir ? 'quiero_ir' : c.tal_vez ? 'tal_vez' : null;
+}
+function barraEstado(c, cls = 'barra-estado') {
+  const t = c.visitado + c.quiero_ir + c.tal_vez + c.sin || 1;
+  const seg = (n, col) => n ? `<i style="width:${(n / t) * 100}%;background:${col}"></i>` : '';
+  return `<div class="${cls}" role="img" aria-label="${c.visitado} visitados, ${c.quiero_ir} quiero ir, ${c.tal_vez} tal vez">${seg(c.visitado, 'var(--visitado)')}${seg(c.quiero_ir, 'var(--quiero)')}${seg(c.tal_vez, 'var(--talvez)')}</div>`;
+}
+
+// ---------- geometría ----------
+function enAnillo([x, y], a) { let d = false; for (let i = 0, j = a.length - 1; i < a.length; j = i++) { const [xi, yi] = a[i], [xj, yj] = a[j]; if ((yi > y) !== (yj > y) && x < ((xj - xi) * (y - yi)) / (yj - yi) + xi) d = !d; } return d; }
+function enGeom(pt, g) { const ps = g.type === 'Polygon' ? [g.coordinates] : g.coordinates; return ps.some(([e, ...h]) => enAnillo(pt, e) && !h.some((r) => enAnillo(pt, r))); }
+let geoFeatures = [];
+function paisEnPunto(lat, lng) { for (const f of geoFeatures) if (enGeom([lng, lat], f.geometry)) return f.properties.iso; return null; }
+
+// ---------- mapa ----------
+let mapa, capaPaises, capaBurbujas, cluster, capaAdr, capaFoco;
+const marcadores = new Map();
+const burbujas = new Map();
+
+function iniciarMapa() {
+  mapa = L.map('mapa', { zoomControl: false, zoomSnap: 0.25, minZoom: 2.5, maxZoom: 13, worldCopyJump: false, maxBounds: [[-75, -220], [86, 220]], attributionControl: true, preferCanvas: false });
+  mapa.attributionControl.setPrefix('Fronteras: <a href="https://www.naturalearthdata.com/" target="_blank" rel="noopener">Natural Earth</a>');
+  L.control.zoom({ position: 'bottomright', zoomInTitle: 'Acercar', zoomOutTitle: 'Alejar' }).addTo(mapa);
+  mapa.fitBounds([[35, -11], [62, 32]]);
+  // retícula de atlas
+  const ret = [];
+  for (let la = -60; la <= 80; la += 10) ret.push([[la, -180], [la, 180]]);
+  for (let lo = -180; lo <= 180; lo += 10) ret.push([[-75, lo], [85, lo]]);
+  L.polyline(ret, { color: C.grat, weight: 0.7, interactive: false, className: 'reticula' }).addTo(mapa);
+
+  capaPaises = L.geoJSON(null, { style: estiloPais, onEachFeature: alPais, smoothFactor: 0.6 }).addTo(mapa);
+  capaBurbujas = L.layerGroup().addTo(mapa);
+  cluster = L.markerClusterGroup({ showCoverageOnHover: false, spiderfyOnMaxZoom: true, maxClusterRadius: (z) => (z < 7 ? 46 : 32), iconCreateFunction: iconoCluster, chunkedLoading: true });
+  capaAdr = L.layerGroup();
+  capaFoco = L.layerGroup().addTo(mapa);
+  mapa.on('zoomend', alZoom);
+  mapa.on('click', alClicMapa);
+  mapa.on('popupopen', (e) => {
+    e.popup.getElement()?.querySelectorAll('[data-lugar]').forEach((b) => b.addEventListener('click', () => abrirLugar(b.dataset.lugar)));
+  });
+}
+
+function estiloPais(f) {
+  const iso = f.properties.iso, p = S.paises.get(iso);
+  if (!p) return { fillColor: C['land-out'], fillOpacity: 1, color: C.border, weight: 0.5, opacity: 0.6 };
+  const est = estadoPais(iso), sel = S.pais === iso;
+  const fill = { visitado: C.visitado, quiero_ir: C.quiero, tal_vez: C.talvez }[est];
+  return {
+    fillColor: fill || (p.total_lugares ? C['land-inv'] : C.land),
+    fillOpacity: fill ? (S.zAlto ? 0.14 : 0.38) : 1,
+    color: sel ? C.accent : C.border, weight: sel ? 2.4 : 0.8, opacity: 1,
+  };
+}
+function alPais(f, capa) {
+  const iso = f.properties.iso;
+  if (!S.paises.has(iso)) return;
+  capa.bindTooltip(() => {
+    const p = S.paises.get(iso), c = conteoEstados(lugaresPais(iso).map((l) => l.id), propiosPais(iso));
+    const det = p.total_lugares ? `${p.total_lugares} destinos · ${c.visitado} visitados${c.quiero_ir ? ` · ${c.quiero_ir} quiero ir` : ''}` : 'Por investigar';
+    return `<b>${esc(p.nombre)}</b><small>${det}</small>`;
+  }, { sticky: true, className: 'tt', direction: 'top', offset: [0, -8] });
+  capa.on('mouseover', () => { if (S.pais !== iso) capa.setStyle({ weight: 1.8, color: C.accent }); });
+  capa.on('mouseout', () => capaPaises.resetStyle(capa));
+  capa.on('click', (e) => { if (S.agregando) return; L.DomEvent.stopPropagation(e); seleccionarPais(iso); });
+}
+function reestilarPaises() { capaPaises.setStyle(estiloPais); capaPaises.eachLayer((l) => { if (l.feature.properties.iso === S.pais) l.bringToFront(); }); }
+
+function crearBurbujas() {
+  capaBurbujas.clearLayers(); burbujas.clear();
+  const etiqueta = new Map(geoFeatures.map((f) => [f.properties.iso, f.properties]));
+  for (const p of S.paises.values()) {
+    const g = etiqueta.get(p.iso);
+    if (!g || MICRO.has(p.iso)) continue;
+    const m = L.marker([g.ly, g.lx], { icon: iconoBurbuja(p), keyboard: false, riseOnHover: true });
+    m.on('click', () => seleccionarPais(p.iso));
+    burbujas.set(p.iso, m); capaBurbujas.addLayer(m);
+  }
+}
+function iconoBurbuja(p) {
+  const e = estadoPais(p.iso);
+  return L.divIcon({ className: 'burbuja-wrap', iconSize: [0, 0], html: `<div class="burbuja ${p.total_lugares ? '' : 'vacia'} ${e ? 'e-' + e : ''}"><b>${p.total_lugares || ''}</b><span>${esc(p.nombre)}</span></div>` });
+}
+function actualizarBurbujas() { for (const [iso, m] of burbujas) m.setIcon(iconoBurbuja(S.paises.get(iso))); }
+
+function iconoLugar(l) {
+  const e = estadoDe(l.id) || 'none', s = TAM[l.nivel] || 20;
+  return L.divIcon({ className: 'pin-wrap', iconSize: [s, s], iconAnchor: [s / 2, s / 2], html: `<div class="pin e-${e}" style="--s:${s}px">${G[catPrincipal(l)]}</div><span class="pin-label">${esc(l.nombre)}</span>` });
+}
+function iconoPropio(p) {
+  return L.divIcon({ className: 'pin-wrap', iconSize: [22, 22], iconAnchor: [11, 11], html: `<div class="pin propio e-${p.estado || 'none'}" style="--s:22px">${G.propio}</div><span class="pin-label">${esc(p.nombre)}</span>` });
+}
+function iconoCluster(c) {
+  const ms = c.getAllChildMarkers(), n = ms.length, k = { visitado: 0, quiero_ir: 0, tal_vez: 0, none: 0 };
+  for (const m of ms) k[m.options.estado || 'none']++;
+  let acc = 0; const stops = [];
+  for (const [e, col] of [['visitado', 'var(--visitado)'], ['quiero_ir', 'var(--quiero)'], ['tal_vez', 'var(--talvez)'], ['none', 'var(--neutro)']]) {
+    if (!k[e]) continue; const a = acc, b = acc + (k[e] / n) * 360; stops.push(`${col} ${a}deg ${b}deg`); acc = b;
+  }
+  const s = n < 10 ? 36 : n < 40 ? 44 : 52;
+  return L.divIcon({ className: 'pin-wrap', iconSize: [s, s], html: `<div class="cluster" style="--s:${s}px;background:conic-gradient(${stops.join(',')})"><span>${n}</span></div>` });
+}
+
+function construirMarcadores() {
+  cluster.clearLayers(); marcadores.clear();
+  const ms = [];
+  for (const l of S.lugares) {
+    if (!pasaFiltro(l)) continue;
+    const m = L.marker([l.lat, l.lng], { icon: iconoLugar(l), estado: estadoDe(l.id), lugarId: l.id, title: '' });
+    m.bindTooltip(`<b>${esc(l.nombre)}</b><small>${NIVELES[l.nivel]} · ${fmt1(l.global)}</small>`, { className: 'tt', direction: 'top', offset: [0, -(TAM[l.nivel] / 2) - 2] });
+    m.on('click', () => abrirLugar(l.id));
+    marcadores.set(l.id, m); ms.push(m);
+  }
+  for (const [id, p] of S.propios) {
+    if (!pasaFiltroPropio(p)) continue;
+    const m = L.marker([p.lat, p.lng], { icon: iconoPropio(p), estado: p.estado || null, title: '' });
+    m.bindTooltip(`<b>${esc(p.nombre)}</b><small>Tu lugar</small>`, { className: 'tt', direction: 'top', offset: [0, -13] });
+    m.on('click', () => abrirPropio(id));
+    marcadores.set('propio:' + id, m); ms.push(m);
+  }
+  cluster.addLayers(ms);
+  construirAdrenalina();
+}
+function actualizarMarcador(id) {
+  const m = marcadores.get(id), l = S.porId.get(id);
+  if (S.filtros.estado !== 'todos' || !m || !l) return construirMarcadores();
+  m.options.estado = estadoDe(id); m.setIcon(iconoLugar(l)); cluster.refreshClusters(m);
+}
+function construirAdrenalina() {
+  capaAdr.clearLayers();
+  const vistos = new Set();
+  for (const l of S.lugares) {
+    if (!pasaFiltro(l)) continue;
+    for (const a of l.adrenalina_cerca || []) {
+      if (typeof a.lat !== 'number') continue;
+      const k = a.nombre + '|' + a.lat.toFixed(2);
+      if (vistos.has(k)) continue; vistos.add(k);
+      const m = L.marker([a.lat, a.lng], { icon: L.divIcon({ className: 'pin-wrap', iconSize: [22, 22], html: `<div class="adr-pin">${G.adrenalina}</div>` }), zIndexOffset: 500 });
+      m.bindTooltip(`<b>${esc(a.nombre)}</b><small>${TIPOS_ADR[a.tipo] || 'Aventura'}</small>`, { className: 'tt', direction: 'top', offset: [0, -12] });
+      m.bindPopup(`<div class="pop"><h4>${esc(a.nombre)}</h4><div class="meta">${TIPOS_ADR[a.tipo] || 'Aventura'}${a.temporada ? ' · ' + esc(a.temporada) : ''} · a ${a.km} km de ${esc(l.nombre)}</div><div class="acc"><a class="btn" href="${esc(a.url)}" target="_blank" rel="noopener">Sitio oficial ↗</a><button class="btn" data-lugar="${esc(l.id)}">Ver ${esc(l.nombre)}</button></div></div>`);
+      capaAdr.addLayer(m);
+    }
+  }
+}
+
+function alZoom() {
+  const z = mapa.getZoom(), el = mapa.getContainer();
+  if ((z >= 6.5) !== !!S.zAlto) { S.zAlto = z >= 6.5; reestilarPaises(); }
+  el.classList.toggle('z-labels', z >= 8.5);
+  el.classList.toggle('z-mid', z >= 5.25);
+  const verBurbujas = z < 7;
+  if (verBurbujas && !mapa.hasLayer(capaBurbujas)) mapa.addLayer(capaBurbujas);
+  if (!verBurbujas && mapa.hasLayer(capaBurbujas)) mapa.removeLayer(capaBurbujas);
+  const verPines = z >= 4.75 || S.pais;
+  if (verPines && !mapa.hasLayer(cluster)) mapa.addLayer(cluster);
+  if (!verPines && mapa.hasLayer(cluster)) mapa.removeLayer(cluster);
+}
+
+function relleno() {
+  if (!esMovil()) return { paddingTopLeft: [20, 70], paddingBottomRight: [20, 20] };
+  return { paddingTopLeft: [16, 60], paddingBottomRight: [16, Math.round(window.innerHeight * 0.48)] };
+}
+function volarAPais(iso) {
+  const ls = lugaresPais(iso);
+  let b;
+  if (ENCUADRE[iso]) b = L.latLngBounds(ENCUADRE[iso]);
+  else if (ls.length > 1) b = L.latLngBounds(ls.map((l) => [l.lat, l.lng]));
+  else {
+    const f = geoFeatures.find((x) => x.properties.iso === iso);
+    if (!f) return;
+    const ps = f.geometry.type === 'Polygon' ? [f.geometry.coordinates] : f.geometry.coordinates;
+    const mayor = ps.map((p) => L.latLngBounds(p[0].map(([x, y]) => [y, x]))).sort((a, c) => area(c) - area(a))[0];
+    b = mayor;
+  }
+  if (ls.length) for (const l of ls) if (!ENCUADRE[iso]) b.extend([l.lat, l.lng]);
+  mapa.flyToBounds(b.pad(0.08), { ...relleno(), maxZoom: MICRO.has(iso) ? 12 : 8, duration: 1.1 });
+}
+const area = (b) => (b.getNorth() - b.getSouth()) * (b.getEast() - b.getWest());
+function enfocar(lat, lng) {
+  capaFoco.clearLayers();
+  L.marker([lat, lng], { icon: L.divIcon({ className: 'pin-wrap', iconSize: [46, 46], html: '<div class="foco"></div>' }), interactive: false, keyboard: false, zIndexOffset: -100 }).addTo(capaFoco);
+}
+function volarALugar(lat, lng) {
+  const z = Math.max(mapa.getZoom(), 9.5);
+  if (esMovil()) {
+    const pt = mapa.project([lat, lng], z).add([0, window.innerHeight * 0.22]);
+    mapa.flyTo(mapa.unproject(pt, z), z, { duration: 0.9 });
+  } else mapa.flyTo([lat, lng], z, { duration: 0.9 });
+  enfocar(lat, lng);
+}
+
+// ---------- navegación ----------
+function setHash(h) { try { history.replaceState(null, '', h ? '#' + h : location.pathname + location.search); } catch (_) {} }
+function seleccionarPais(iso, { volar = true } = {}) {
+  if (!S.paises.has(iso)) return;
+  S.pais = iso; S.lugar = null; S.propio = null; S.borrador = null; S.vista = 'pais'; S.colapsados.clear();
+  capaFoco.clearLayers(); reestilarPaises(); alZoom();
+  if (volar) volarAPais(iso);
+  renderPanel(); setHash(iso.toLowerCase()); hoja('media');
+}
+function abrirLugar(id, { volar = true } = {}) {
+  const l = S.porId.get(id); if (!l) return;
+  mapa.closePopup();
+  S.lugar = id; S.propio = null; S.borrador = null; S.vista = 'lugar';
+  if (S.pais !== l.pais_iso) { S.pais = l.pais_iso; reestilarPaises(); }
+  alZoom();
+  if (volar) volarALugar(l.lat, l.lng);
+  renderPanel(); setHash(id); hoja('media');
+}
+function abrirPropio(id) {
+  const p = S.propios.get(id); if (!p) return;
+  S.propio = id; S.lugar = null; S.borrador = null; S.vista = 'propio';
+  if (p.pais_iso && S.paises.has(p.pais_iso)) { S.pais = p.pais_iso; reestilarPaises(); }
+  volarALugar(p.lat, p.lng); renderPanel(); hoja('media');
+}
+function volverContinente() {
+  S.vista = 'continente'; S.pais = null; S.lugar = null; S.propio = null; S.borrador = null;
+  capaFoco.clearLayers(); reestilarPaises();
+  mapa.flyToBounds([[35, -11], [62, 32]], { ...relleno(), duration: 1 });
+  renderPanel(); setHash(''); hoja('peek');
+  setTimeout(alZoom, 1100);
+}
+function hoja(estado) { if (esMovil()) $('#panel').dataset.hoja = estado; }
+
+// ---------- panel ----------
+function renderPanel() {
+  const c = $('#cuerpo');
+  const html = S.vista === 'pais' ? vistaPais() : S.vista === 'lugar' ? vistaLugar() : S.vista === 'propio' ? vistaPropio() : S.vista === 'nuevo' ? vistaNuevo() : vistaContinente();
+  c.innerHTML = html;
+  c.scrollTop = 0;
+  if (S.vista === 'pais' && S.tab === 'mente') dibujarMente();
+  renderTotales();
+}
+function refrescarPanel() {
+  if (S.vista === 'lugar' || S.vista === 'propio') return actualizarFicha();
+  if (S.vista === 'nuevo') return;
+  const c = $('#cuerpo'), y = c.scrollTop;
+  renderPanel(); c.scrollTop = y;
+}
+
+function avisoDatos() {
+  let h = '';
+  if (S.muestra) h += '<div class="muestra"><b>Datos de ejemplo.</b> Estos destinos son de prueba mientras los agentes investigan Europa. Se reemplazan en la próxima publicación; tus marcas se conservan.</div>';
+  if (S.dbListo && !S.db) h += '<div class="muestra">Esta vista no tiene acceso a la base de datos: puedes explorar, pero tus marcas no se guardarán.</div>';
+  return h;
+}
+
+function vistaContinente() {
+  const ids = S.lugares.map((l) => l.id), c = conteoEstados(ids, [...S.propios.values()]);
+  const inv = [...S.paises.values()].filter((p) => p.total_lugares).length;
+  const visitados = [...S.paises.keys()].filter((iso) => estadoPais(iso) === 'visitado').length;
+  let h = `<div class="grupo"><span class="ceja">Continente</span><h2>${CONTINENTES.map((k) => NOMBRE_CONT[k]).join(' · ')}</h2>
+    <span class="sub">${S.paises.size} países · ${inv} investigados · ${S.lugares.length} destinos</span></div>${avisoDatos()}
+    <div class="cifras"><div class="cifra"><b>${visitados}</b><span><i class="dot e-visitado"></i>países visitados</span></div>
+    <div class="cifra"><b>${c.visitado}</b><span><i class="dot e-visitado"></i>lugares visitados</span></div>
+    <div class="cifra"><b>${c.quiero_ir}</b><span><i class="dot e-quiero_ir"></i>quiero ir</span></div></div>`;
+  for (const sr of S.subregiones) {
+    const filas = sr.paises.map((iso) => S.paises.get(iso)).filter(Boolean).sort((a, b) => a.nombre.localeCompare(b.nombre, 'es'));
+    h += `<div class="grupo"><h3>${esc(sr.nombre)}</h3><ul class="lista-paises">${filas.map((p) => {
+      const cc = conteoEstados(lugaresPais(p.iso).map((l) => l.id), propiosPais(p.iso));
+      const der = p.total_lugares ? `<span class="n">${p.total_lugares}</span>${barraEstado(cc, 'mini')}` : '<span class="pend">por investigar</span><span></span>';
+      return `<li><button data-pais="${p.iso}"><span>${esc(p.nombre)}</span>${der}</button></li>`;
+    }).join('')}</ul></div>`;
+  }
+  h += `<details class="como"><summary>Cómo se eligen y puntúan los destinos</summary>
+    <p>Nueve agentes investigan cada país. Seis puntúan de 0 a 5: consenso de guías (Lonely Planet, Rick Steves, DK Eyewitness, Fodor's, Michelin, Rough Guides y más), cultura, naturaleza, gastronomía, adrenalina y logística.</p>
+    <ul><li>Puntaje global = 40 % guías + 45 % el mejor tema + 15 % logística.</li><li>Imprescindible ≥ 4,0 · Muy recomendado ≥ 3,0 · Si hay tiempo ≥ 2,0.</li><li>Mínimo 10 destinos por país (3–6 en microestados) y una nota de revisión ≥ 9,5 / 10.</li></ul></details>`;
+  return h;
+}
+
+function vistaPais() {
+  const p = S.paises.get(S.pais), todos = lugaresPais(p.iso), ls = todos.filter(pasaFiltro), props = propiosPais(p.iso).filter(pasaFiltroPropio);
+  const c = conteoEstados(todos.map((l) => l.id), propiosPais(p.iso));
+  const sr = S.subregiones.find((s) => s.id === p.subregion);
+  let h = `<button class="volver" data-act="continente">← ${esc(sr?.nombre || 'Continente')}</button>
+    <div class="grupo"><span class="ceja">${esc(NOMBRE_CONT[p.continente] || '')}</span><h2>${esc(p.nombre)}</h2>
+    <span class="sub">${p.total_lugares ? `${p.total_lugares} destinos` : 'Todavía no investigado'}${typeof p.nota_revisor === 'number' ? ` · revisión ${fmt1(p.nota_revisor)} / 10` : ''}${p.revision_pendiente ? ' · revisión pendiente' : ''}</span>
+    ${p.total_lugares ? barraEstado(c) : ''}</div>${avisoDatos()}`;
+  if (p.justificacion) h += `<p class="sub" style="margin:0">${esc(p.justificacion)}</p>`;
+  if (!p.total_lugares && !props.length) {
+    return h + `<p class="vacio">Los agentes aún no investigan este país. Mientras tanto puedes agregar tus propios lugares.</p><div class="acciones"><button class="btn prim" data-act="agregar">+ Agregar un lugar</button></div>`;
+  }
+  h += `<div class="tabs" role="tablist"><button role="tab" data-tab="lista" aria-selected="${S.tab === 'lista'}">Lista</button><button role="tab" data-tab="mente" aria-selected="${S.tab === 'mente'}">Mapa mental</button></div>`;
+  if (S.tab === 'mente') {
+    return h + `<div class="mente-ctl">Agrupar por <div class="seg" id="agrupar">${[['region', 'Región'], ['categoria', 'Categoría'], ['nivel', 'Nivel']].map(([v, t]) => `<button data-agrupar="${v}" aria-pressed="${S.agrupar === v}">${t}</button>`).join('')}</div></div><div class="mente" id="mente"></div>`;
+  }
+  if (!ls.length && !props.length) h += '<p class="vacio">Ningún destino coincide con los filtros.</p>';
+  for (const n of ORDEN_NIVEL) {
+    const grupo = ls.filter((l) => l.nivel === n).sort((a, b) => b.global - a.global);
+    if (!grupo.length) continue;
+    h += `<div class="grupo"><div class="nivel-tit"><h3>${NIVELES[n]}</h3><span class="sub">${grupo.length}</span></div><ul class="lugares">${grupo.map(filaLugar).join('')}</ul></div>`;
+  }
+  if (props.length) h += `<div class="grupo"><h3>Tus lugares</h3><ul class="lugares">${props.map((q) => `<li><button data-propio="${q._id}"><i class="dot e-${q.estado || 'none'}"></i><span><span class="nom">${esc(q.nombre)}</span><span class="reg">Agregado por ti</span></span><span></span></button></li>`).join('')}</ul></div>`;
+  h += `<div class="acciones"><button class="btn" data-act="agregar">+ Agregar un lugar propio</button></div>`;
+  return h;
+}
+function filaLugar(l) {
+  const e = estadoDe(l.id);
+  const cats = l.categorias.map((k) => `<span title="${CATS[k]}" style="display:inline-flex">${G[k]}</span>`).join('');
+  return `<li><button data-lugar="${l.id}"><i class="dot ${e ? 'e-' + e : ''}" title="${e ? ESTADOS[e] : 'Sin marcar'}"></i><span><span class="nom">${esc(l.nombre)}</span><span class="reg">${esc(l.region)} ${cats}</span></span><span class="pt">${fmt1(l.global)}</span></button></li>`;
+}
+
+function controlesEstado(m) {
+  const e = m?.estado || null;
+  const dis = S.soloLectura ? 'disabled' : '';
+  return `<div class="grupo"><div class="estados" role="group" aria-label="Marcar">${Object.entries(ESTADOS).map(([k, t]) => `<button data-estado="${k}" aria-pressed="${e === k}" ${dis}><i class="dot e-${k}"></i>${t}</button>`).join('')}</div>
+    <label class="campo" id="campo-fecha" ${e === 'visitado' ? '' : 'hidden'}>Fecha de la visita<input type="date" id="fecha" value="${esc(m?.fecha_visita || '')}" ${dis}></label>
+    <label class="campo">Notas<textarea id="notas" placeholder="Con quién fuiste, qué te gustó, qué te faltó ver…" ${dis}>${esc(m?.notas || '')}</textarea></label></div>`;
+}
+function vistaLugar() {
+  const l = S.porId.get(S.lugar), m = S.marcas.get(l.id);
+  const mejor = Math.max(...TEMATICOS.map((t) => l.puntajes[t]));
+  let h = `<button class="volver" data-act="pais">← ${esc(l.pais)}</button>
+    <div class="cabecera-lugar"><div class="grupo"><span class="ceja">${esc(l.region)} · ${esc(l.pais)}</span><h2>${esc(l.nombre)}</h2>
+    <div class="chips"><span class="chip n-${l.nivel}">${NIVELES[l.nivel]}</span>${l.categorias.map((k) => `<span class="chip">${CATS[k]}</span>`).join('')}</div></div>
+    <div class="nota"><b>${fmt1(l.global)}</b><span>de 5</span></div></div>
+    ${controlesEstado(m)}
+    <p class="por-que">${esc(l.por_que)}</p>`;
+  if (l.alerta) h += `<div class="alerta"><b>Aviso:</b> ${esc(l.alerta)}</div>`;
+  h += `<div class="grupo"><h3>Puntajes</h3><div class="barras">${CRIT.map(([k, t]) => `<div class="barra ${TEMATICOS.includes(k) && l.puntajes[k] === mejor ? 'mejor' : ''}"><span>${t}</span><span class="riel"><i style="width:${(l.puntajes[k] / 5) * 100}%"></i></span><b>${fmt1(l.puntajes[k])}</b></div>`).join('')}</div></div>
+    <div class="grupo"><h3>Mejor época</h3><div class="meses" role="img" aria-label="Mejores meses: ${l.mejor_epoca.map((x) => MESES_L[x - 1]).join(', ')}">${MESES.map((t, i) => `<span class="${l.mejor_epoca.includes(i + 1) ? 'si' : ''}">${t[0]}</span>`).join('')}</div></div>
+    <dl class="datos"><div><dt>Días sugeridos</dt><dd>${l.dias_sugeridos} ${l.dias_sugeridos === 1 ? 'día' : 'días'}</dd></div><div><dt>Costo</dt><dd>${esc(l.costo)}</dd></div>
+    ${l.acceso ? `<div style="grid-column:1/-1"><dt>Cómo llegar</dt><dd style="font-weight:500">${esc(l.acceso)}</dd></div>` : ''}</dl>`;
+  if (l.platos?.length) h += `<div class="grupo"><h3>Qué probar</h3><div class="chips">${l.platos.map((p) => `<span class="chip">${esc(p)}</span>`).join('')}</div></div>`;
+  if (l.adrenalina_cerca?.length) h += `<div class="grupo"><h3>Adrenalina cerca</h3><ul class="adr-lista">${[...l.adrenalina_cerca].sort((a, b) => a.km - b.km).map((a) => `<li><span class="ico">${G.adrenalina}</span><span><a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.nombre)}</a><small>${TIPOS_ADR[a.tipo] || 'Aventura'}${a.temporada ? ' · ' + esc(a.temporada) : ''}</small></span><span class="km">${a.km} km</span></li>`).join('')}</ul></div>`;
+  h += `<div class="grupo"><h3>Fuentes</h3><ul class="fuentes">${l.fuentes.map((f) => { let d = ''; try { d = new URL(f.url).hostname.replace(/^www\./, ''); } catch (_) {} return `<li><a href="${esc(f.url)}" target="_blank" rel="noopener"><span>${esc(f.guia)}</span><small>${esc(d)} ↗</small></a></li>`; }).join('')}</ul></div>
+    <div class="acciones"><button class="btn" data-act="ver">Centrar en el mapa</button></div>`;
+  return h;
+}
+function vistaPropio() {
+  const p = S.propios.get(S.propio);
+  if (!p) return vistaContinente();
+  const pais = S.paises.get(p.pais_iso);
+  return `<button class="volver" data-act="${pais ? 'pais' : 'continente'}">← ${esc(pais?.nombre || 'Continente')}</button>
+    <div class="grupo"><span class="ceja">Tu lugar${pais ? ' · ' + esc(pais.nombre) : ''}</span>
+    <label class="campo">Nombre<input id="propio-nombre" value="${esc(p.nombre)}" ${S.soloLectura ? 'disabled' : ''}></label></div>
+    ${controlesEstado(p)}
+    <div class="acciones"><button class="btn" data-act="ver">Centrar en el mapa</button><button class="btn peligro" data-act="borrar">Eliminar lugar</button></div>
+    <div id="confirmar" hidden class="alerta">¿Eliminar “${esc(p.nombre)}”? <div class="acciones" style="margin-top:8px"><button class="btn peligro" data-act="borrar-si">Sí, eliminar</button><button class="btn" data-act="borrar-no">Cancelar</button></div></div>`;
+}
+function vistaNuevo() {
+  const b = S.borrador, pais = S.paises.get(b.pais_iso);
+  return `<button class="volver" data-act="cancelar-nuevo">← Cancelar</button>
+    <div class="grupo"><span class="ceja">Nuevo lugar${pais ? ' · ' + esc(pais.nombre) : ''}</span><h2>Agregar un lugar</h2>
+    <span class="sub">${b.lat.toFixed(4)}, ${b.lng.toFixed(4)}</span></div>
+    <form id="form-nuevo" class="grupo">
+      <label class="campo">Nombre<input id="nuevo-nombre" required maxlength="80" placeholder="Ej.: Mirador de San Nicolás"></label>
+      <div class="estados" role="group" aria-label="Estado">${Object.entries(ESTADOS).map(([k, t]) => `<button type="button" data-nuevo-estado="${k}" aria-pressed="${b.estado === k}"><i class="dot e-${k}"></i>${t}</button>`).join('')}</div>
+      <label class="campo" ${b.estado === 'visitado' ? '' : 'hidden'} id="nuevo-campo-fecha">Fecha de la visita<input type="date" id="nuevo-fecha"></label>
+      <label class="campo">Notas<textarea id="nuevo-notas"></textarea></label>
+      <div class="acciones"><button class="btn prim" type="submit">Guardar lugar</button></div>
+    </form>`;
+}
+function actualizarFicha() {
+  const m = S.vista === 'lugar' ? S.marcas.get(S.lugar) : S.propios.get(S.propio);
+  if (S.vista === 'propio' && !m) return volverContinente();
+  const e = m?.estado || null;
+  document.querySelectorAll('.estados [data-estado]').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.estado === e)));
+  const cf = $('#campo-fecha'); if (cf) cf.hidden = e !== 'visitado';
+  const f = $('#fecha'); if (f && document.activeElement !== f) f.value = m?.fecha_visita || '';
+  const n = $('#notas'); if (n && document.activeElement !== n) n.value = m?.notas || '';
+  renderTotales();
+}
+
+function renderTotales() {
+  const c = conteoEstados(S.lugares.map((l) => l.id), [...S.propios.values()]);
+  const pv = [...S.paises.keys()].filter((iso) => estadoPais(iso) === 'visitado').length;
+  $('#totales').innerHTML = `<span class="t"><i class="dot e-visitado"></i><b>${pv}</b> países</span><span class="t"><i class="dot e-visitado"></i><b>${c.visitado}</b> visitados</span><span class="t q"><i class="dot e-quiero_ir"></i><b>${c.quiero_ir}</b> quiero ir</span><span class="t q"><i class="dot e-tal_vez"></i><b>${c.tal_vez}</b> tal vez</span>`;
+}
+
+// ---------- mapa mental (D3) ----------
+function dibujarMente() {
+  const cont = $('#mente'); if (!cont || !window.d3) return;
+  const p = S.paises.get(S.pais);
+  const ls = lugaresPais(p.iso).filter(pasaFiltro), props = propiosPais(p.iso).filter(pasaFiltroPropio);
+  const clave = S.agrupar === 'region' ? (l) => l.region : S.agrupar === 'categoria' ? (l) => CATS[catPrincipal(l)] : (l) => NIVELES[l.nivel];
+  const mapaG = d3.group(ls, clave);
+  let grupos = [...mapaG].map(([k, v]) => ({ k, hijos: v.sort((a, b) => b.global - a.global).map((l) => ({ id: l.id, nombre: l.nombre, estado: estadoDe(l.id), lugar: true })) }));
+  grupos.sort((a, b) => (S.agrupar === 'nivel' ? ORDEN_NIVEL.indexOf(Object.keys(NIVELES).find((x) => NIVELES[x] === a.k)) - ORDEN_NIVEL.indexOf(Object.keys(NIVELES).find((x) => NIVELES[x] === b.k)) : b.hijos.length - a.hijos.length));
+  if (props.length) grupos.push({ k: 'Tus lugares', hijos: props.map((q) => ({ id: 'propio:' + q._id, nombre: q.nombre, estado: q.estado || null, propio: q._id })) });
+  if (!grupos.length) { cont.innerHTML = '<p class="vacio">Ningún destino coincide con los filtros.</p>'; return; }
+
+  // árbol que baja desde el país: tronco a la izquierda, ramas (grupos) y hojas (lugares)
+  const W = Math.max(300, cont.clientWidth || 360), FILA = 25, TX = 16, GL = 36, Y0 = 52;
+  const MAXGW = Math.min(180, Math.round(W * 0.42)), LX = GL + MAXGW + 22;
+  const maxCh = Math.max(10, Math.floor((W - LX - 14) / 6.4)), maxG = Math.max(8, Math.floor((MAXGW - 18) / 6.6) - 4);
+  const corta = (s, n) => (s.length > n ? s.slice(0, n - 1) + '…' : s);
+  const anchoG = (g) => Math.min(MAXGW, (corta(g.k, maxG) + ` · ${g.hijos.length}`).length * 6.6 + 18);
+  let y = Y0;
+  const nodos = [], enlaces = [];
+  grupos.forEach((g, i) => {
+    const col = `var(--rama${(i % 6) + 1})`, abierto = !S.colapsados.has(g.k), w = anchoG(g);
+    const y0 = y;
+    if (abierto) for (const h of g.hijos) { nodos.push({ ...h, x: LX, y, col, grupo: g.k, key: h.id }); y += FILA; }
+    else y += FILA;
+    const gy = abierto ? (y0 + y - FILA) / 2 : y0;
+    g.y = gy; g.col = col; g.abierto = abierto;
+    nodos.push({ key: 'g:' + g.k, x: GL, y: gy, w, nombre: g.k, n: g.hijos.length, col, esGrupo: true, abierto });
+    if (abierto) for (const h of g.hijos) enlaces.push({ key: 'e:' + h.id, s: [GL + w, gy], t: [LX - 6, nodos.find((n) => n.key === h.id).y], col });
+    enlaces.push({ key: 'r:' + g.k, codo: true, s: [TX, 30], t: [GL, gy], col });
+    y += 10;
+  });
+  const H = y + 6;
+  const curva = d3.linkHorizontal().source((d) => d.s).target((d) => d.t);
+  const link = (d) => {
+    if (!d.codo) return curva(d);
+    const [sx, sy] = d.s, [tx, ty] = d.t, r = Math.min(10, Math.max(0, ty - sy));
+    return `M${sx},${sy}V${ty - r}Q${sx},${ty} ${sx + r},${ty}H${tx}`;
+  };
+  const dur = matchMedia('(prefers-reduced-motion: reduce)').matches ? 0 : 450;
+
+  let svg = d3.select(cont).select('svg');
+  if (svg.empty() || +svg.attr('data-w') !== W || svg.attr('data-pais') !== p.iso || svg.attr('data-agr') !== S.agrupar) {
+    cont.innerHTML = '';
+    svg = d3.select(cont).append('svg').attr('data-w', W).attr('data-pais', p.iso).attr('data-agr', S.agrupar).attr('role', 'img').attr('aria-label', `Mapa mental de ${p.nombre}`);
+    svg.append('g').attr('class', 'enlaces'); svg.append('g').attr('class', 'nodos');
+  }
+  svg.transition().duration(dur).attr('viewBox', `0 0 ${W} ${H}`);
+
+  const es = svg.select('g.enlaces').selectAll('path').data(enlaces, (d) => d.key);
+  es.exit().transition().duration(dur).attr('stroke-opacity', 0).remove();
+  es.enter().append('path').attr('class', 'enlace').style('stroke', (d) => d.col)
+    .attr('d', (d) => link({ ...d, t: d.codo ? [d.s[0], d.s[1]] : d.s })).attr('stroke-opacity', 0)
+    .merge(es).transition().duration(dur).attr('d', link).attr('stroke-opacity', 0.75);
+
+  const ns = svg.select('g.nodos').selectAll('g.nodo').data(nodos, (d) => d.key);
+  ns.exit().transition().duration(dur).attr('opacity', 0).remove();
+  const ne = ns.enter().append('g').attr('class', (d) => 'nodo ' + (d.esGrupo ? 'gr' : 'hoja'))
+    .attr('transform', (d) => (d.esGrupo ? `translate(${GL},${Y0 - 20})` : `translate(${GL + MAXGW / 2},${grupos.find((g) => g.k === d.grupo)?.y ?? d.y})`)).attr('opacity', 0)
+    .on('click', (ev, d) => {
+      if (d.esGrupo) { S.colapsados.has(d.nombre) ? S.colapsados.delete(d.nombre) : S.colapsados.add(d.nombre); dibujarMente(); }
+      else if (d.propio) abrirPropio(d.propio); else abrirLugar(d.id);
+    });
+  ne.filter((d) => d.esGrupo).each(function (d) {
+    const g = d3.select(this), t = corta(d.nombre, maxG) + ` · ${d.n}`;
+    g.append('rect').attr('x', 0).attr('y', -11).attr('width', d.w).attr('height', 22).attr('rx', 11).style('stroke', d.col);
+    g.append('text').attr('x', d.w / 2).attr('text-anchor', 'middle').attr('dy', '0.35em').text(t).append('title').text(d.nombre);
+  });
+  ne.filter((d) => !d.esGrupo).each(function (d) {
+    const g = d3.select(this);
+    g.append('circle').attr('r', 6);
+    g.append('text').attr('x', 11).attr('dy', '0.35em').text(corta(d.nombre, maxCh)).append('title').text(d.nombre);
+  });
+  const todos = ne.merge(ns);
+  todos.select('circle').style('fill', (d) => colorEstado(d.estado));
+  todos.filter((d) => d.esGrupo).select('rect').style('fill', (d) => (d.abierto ? 'var(--surface)' : `color-mix(in srgb, ${d.col} 18%, var(--surface))`));
+  todos.transition().duration(dur).attr('transform', (d) => `translate(${d.x},${d.y})`).attr('opacity', 1);
+
+  if (svg.select('g.raiz').empty()) {
+    const raiz = svg.append('g').attr('class', 'nodo raiz').on('click', () => volarAPais(p.iso));
+    const w = Math.min(W - 4, p.nombre.length * 8.6 + 28);
+    raiz.append('rect').attr('x', 1).attr('y', 1).attr('width', w).attr('height', 30).attr('rx', 15);
+    raiz.append('text').attr('x', 1 + w / 2).attr('y', 16).attr('text-anchor', 'middle').attr('dy', '0.35em').text(p.nombre);
+  }
+  svg.select('g.raiz').raise();
+}
+
+// ---------- marcas (base de datos) ----------
+const colas = new Map();
+function encolar(clave, op) {
+  const p = (colas.get(clave) || Promise.resolve()).then(op).catch((e) => {
+    console.error(e);
+    if (e?.code === 'invalid_argument') { S.soloLectura = true; toast('No tienes permiso para guardar cambios en este mapa'); }
+    else if (e?.code === 'quota_exceeded') toast('La base de datos está llena: no se pudo guardar');
+    else toast('No se pudo guardar. Revisa tu conexión e inténtalo de nuevo');
+  });
+  colas.set(clave, p); return p;
+}
+function guardarMarca(id, cambios) {
+  const prev = S.marcas.get(id) || {};
+  const nueva = { estado: prev.estado ?? null, fecha_visita: prev.fecha_visita ?? null, notas: prev.notas ?? '', ...cambios };
+  if (nueva.estado !== 'visitado') nueva.fecha_visita = null;
+  const vacia = !nueva.estado && !nueva.notas;
+  if (vacia) S.marcas.delete(id); else S.marcas.set(id, { ...nueva, actualizado: new Date().toISOString() });
+  trasCambio(id);
+  if (!S.db) { if (S.dbListo) toast('Sin base de datos: este cambio no se guardará'); return; }
+  const ref = S.db.collection('marcas').doc(id);
+  encolar('m:' + id, () => (vacia ? ref.delete() : ref.set(S.marcas.get(id))));
+}
+function guardarPropio(id, cambios) {
+  const prev = S.propios.get(id); if (!prev) return;
+  const nuevo = { ...prev, ...cambios };
+  if (nuevo.estado !== 'visitado') nuevo.fecha_visita = null;
+  S.propios.set(id, nuevo);
+  trasCambio(null);
+  if (!S.db) return;
+  const { _id, ...cuerpo } = nuevo;
+  encolar('p:' + id, () => S.db.collection('lugares_propios').doc(id).set({ ...cuerpo, actualizado: new Date().toISOString() }));
+}
+function trasCambio(id) {
+  if (id) actualizarMarcador(id); else construirMarcadores();
+  reestilarPaises(); actualizarBurbujas(); refrescarPanel();
+  if (S.vista === 'pais' && S.tab === 'mente') dibujarMente();
+}
+async function conectarDb() {
+  let db = null;
+  try { db = await window.claude?.use?.('db'); } catch (_) { db = null; }
+  S.dbListo = true; S.db = db || null;
+  if (!db) { refrescarPanel(); return; }
+  try {
+    const user = await window.claude.use('user');
+    const puede = user ? await user.can?.('data.write') : null;
+    if (puede === false) S.soloLectura = true;
+  } catch (_) {}
+  db.collection('marcas').onSnapshot((snap) => {
+    const cambiados = snap.docChanges().map((c) => c.doc.id);
+    const nuevo = new Map(snap.docs.map((d) => [d.id, d.data()]));
+    for (const [id, m] of S.marcas) if (!nuevo.has(id) && colas.has('m:' + id)) nuevo.set(id, m);
+    S.marcas = nuevo;
+    if (cambiados.length > 20) construirMarcadores(); else cambiados.forEach((id) => S.porId.has(id) && actualizarMarcador(id));
+    reestilarPaises(); actualizarBurbujas(); refrescarPanel();
+  }, (e) => console.error('marcas', e));
+  db.collection('lugares_propios').onSnapshot((snap) => {
+    S.propios = new Map(snap.docs.map((d) => [d.id, { ...d.data(), _id: d.id }]));
+    construirMarcadores(); reestilarPaises(); actualizarBurbujas(); refrescarPanel();
+  }, (e) => console.error('lugares_propios', e));
+}
+
+// ---------- agregar lugares propios ----------
+function modoAgregar(on) {
+  if (S.soloLectura && on) return toast('No tienes permiso para agregar lugares en este mapa');
+  S.agregando = on;
+  $('#app').classList.toggle('agregando', on);
+  $('#aviso-agregar').hidden = !on;
+  if (on) hoja('peek');
+}
+function alClicMapa(e) {
+  if (!S.agregando) return;
+  modoAgregar(false);
+  const { lat, lng } = e.latlng;
+  S.borrador = { lat, lng, pais_iso: paisEnPunto(lat, lng), estado: 'quiero_ir' };
+  S.vista = 'nuevo'; enfocar(lat, lng); renderPanel(); hoja('llena');
+  setTimeout(() => $('#nuevo-nombre')?.focus(), 50);
+}
+async function crearPropio(datos) {
+  const doc = { ...datos, creado: new Date().toISOString() };
+  let id;
+  if (S.db) {
+    const ref = S.db.collection('lugares_propios').doc();
+    id = ref.id;
+    S.propios.set(id, { ...doc, _id: id });
+    encolar('p:' + id, () => ref.set(doc));
+  } else {
+    id = 'local-' + Date.now();
+    S.propios.set(id, { ...doc, _id: id });
+    if (S.dbListo) toast('Sin base de datos: este lugar no se guardará');
+  }
+  construirMarcadores(); reestilarPaises(); actualizarBurbujas();
+  abrirPropio(id);
+}
+
+// ---------- búsqueda ----------
+let sugs = [], sugSel = 0;
+function buscar(q) {
+  const n = norm(q).trim(), ul = $('#sug');
+  if (n.length < 2) { ul.hidden = true; $('#q').setAttribute('aria-expanded', 'false'); return; }
+  const ps = [...S.paises.values()].filter((p) => norm(p.nombre).includes(n)).slice(0, 4).map((p) => ({ t: 'pais', id: p.iso, nombre: p.nombre, det: p.total_lugares ? `${p.total_lugares} destinos` : 'por investigar' }));
+  const ls = S.lugares.filter((l) => norm(l.nombre).includes(n) || norm(l.region).includes(n)).sort((a, b) => (norm(b.nombre).startsWith(n) - norm(a.nombre).startsWith(n)) || b.global - a.global).slice(0, 8)
+    .map((l) => ({ t: 'lugar', id: l.id, nombre: l.nombre, det: `${l.region}, ${l.pais}`, e: estadoDe(l.id) }));
+  sugs = [...ps, ...ls]; sugSel = 0;
+  ul.innerHTML = sugs.length ? sugs.map((s, i) => `<li role="option" data-i="${i}" aria-selected="${i === 0}"><i class="dot ${s.e ? 'e-' + s.e : ''}" ${s.t === 'pais' ? 'style="border-radius:2px"' : ''}></i>${esc(s.nombre)}<small>${esc(s.det)}</small></li>`).join('') : '<li aria-disabled="true">Sin resultados</li>';
+  ul.hidden = false; $('#q').setAttribute('aria-expanded', 'true');
+}
+function elegirSug(i) {
+  const s = sugs[i]; if (!s) return;
+  $('#sug').hidden = true; $('#q').value = ''; $('#q').blur();
+  s.t === 'pais' ? seleccionarPais(s.id) : abrirLugar(s.id);
+}
+
+// ---------- eventos ----------
+function eventos() {
+  $('#cuerpo').addEventListener('click', (e) => {
+    const t = e.target.closest('button, [data-lugar]'); if (!t) return;
+    if (t.dataset.pais) return seleccionarPais(t.dataset.pais);
+    if (t.dataset.lugar) return abrirLugar(t.dataset.lugar);
+    if (t.dataset.propio) return abrirPropio(t.dataset.propio);
+    if (t.dataset.tab) { S.tab = t.dataset.tab; return renderPanel(); }
+    if (t.dataset.agrupar) { S.agrupar = t.dataset.agrupar; S.colapsados.clear(); return renderPanel(); }
+    if (t.dataset.nuevoEstado) {
+      S.borrador.estado = S.borrador.estado === t.dataset.nuevoEstado ? null : t.dataset.nuevoEstado;
+      document.querySelectorAll('[data-nuevo-estado]').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.nuevoEstado === S.borrador.estado)));
+      $('#nuevo-campo-fecha').hidden = S.borrador.estado !== 'visitado'; return;
+    }
+    if (t.dataset.estado) {
+      if (S.soloLectura) return;
+      const actual = S.vista === 'lugar' ? estadoDe(S.lugar) : S.propios.get(S.propio)?.estado;
+      const nuevo = actual === t.dataset.estado ? null : t.dataset.estado;
+      S.vista === 'lugar' ? guardarMarca(S.lugar, { estado: nuevo }) : guardarPropio(S.propio, { estado: nuevo });
+      if (nuevo === 'visitado') setTimeout(() => $('#fecha')?.focus(), 30);
+      return;
+    }
+    const act = t.dataset.act;
+    if (act === 'continente') return volverContinente();
+    if (act === 'pais') return seleccionarPais(S.pais, { volar: true });
+    if (act === 'agregar') return modoAgregar(true);
+    if (act === 'cancelar-nuevo') { S.borrador = null; capaFoco.clearLayers(); S.vista = S.pais ? 'pais' : 'continente'; return renderPanel(); }
+    if (act === 'ver') { const x = S.vista === 'lugar' ? S.porId.get(S.lugar) : S.propios.get(S.propio); if (x) volarALugar(x.lat, x.lng); return; }
+    if (act === 'borrar') { $('#confirmar').hidden = false; return; }
+    if (act === 'borrar-no') { $('#confirmar').hidden = true; return; }
+    if (act === 'borrar-si') {
+      const id = S.propio; S.propios.delete(id); S.propio = null;
+      if (S.db) encolar('p:' + id, () => S.db.collection('lugares_propios').doc(id).delete());
+      construirMarcadores(); reestilarPaises(); actualizarBurbujas(); toast('Lugar eliminado');
+      return S.pais ? seleccionarPais(S.pais, { volar: false }) : volverContinente();
+    }
+  });
+  let notasT;
+  $('#cuerpo').addEventListener('input', (e) => {
+    if (e.target.id === 'notas' || e.target.id === 'propio-nombre') {
+      clearTimeout(notasT);
+      const el = e.target;
+      notasT = setTimeout(() => guardarTexto(el), 900);
+    }
+  });
+  $('#cuerpo').addEventListener('change', (e) => {
+    if (e.target.id === 'fecha') S.vista === 'lugar' ? guardarMarca(S.lugar, { fecha_visita: e.target.value || null }) : guardarPropio(S.propio, { fecha_visita: e.target.value || null });
+    if (e.target.id === 'notas' || e.target.id === 'propio-nombre') { clearTimeout(notasT); guardarTexto(e.target); }
+  });
+  $('#cuerpo').addEventListener('submit', (e) => {
+    if (e.target.id !== 'form-nuevo') return;
+    e.preventDefault();
+    const nombre = $('#nuevo-nombre').value.trim(); if (!nombre) return;
+    const b = S.borrador;
+    crearPropio({ nombre, lat: +b.lat.toFixed(5), lng: +b.lng.toFixed(5), pais_iso: b.pais_iso, estado: b.estado || null, fecha_visita: b.estado === 'visitado' ? ($('#nuevo-fecha').value || null) : null, notas: $('#nuevo-notas').value.trim() });
+  });
+  // filtros
+  $('#f-estado').addEventListener('click', (e) => {
+    const b = e.target.closest('button'); if (!b) return;
+    S.filtros.estado = b.dataset.v;
+    $('#f-estado').querySelectorAll('button').forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
+    alFiltrar();
+  });
+  const sm = $('#f-mes'); MESES_L.forEach((m, i) => sm.insertAdjacentHTML('beforeend', `<option value="${i + 1}">Ideal en ${m}</option>`));
+  for (const [id, k] of [['#f-cat', 'cat'], ['#f-nivel', 'nivel'], ['#f-mes', 'mes']]) $(id).addEventListener('change', (e) => { S.filtros[k] = e.target.value; alFiltrar(); });
+  $('#f-adr').addEventListener('click', (e) => {
+    S.adrenalina = !S.adrenalina; e.currentTarget.setAttribute('aria-pressed', String(S.adrenalina));
+    S.adrenalina ? mapa.addLayer(capaAdr) : mapa.removeLayer(capaAdr);
+    if (S.adrenalina && !capaAdr.getLayers().length) toast('Aún no hay actividades de adrenalina con estos filtros');
+  });
+  $('#cancelar-agregar').addEventListener('click', () => modoAgregar(false));
+  // búsqueda
+  const q = $('#q');
+  q.addEventListener('input', () => buscar(q.value));
+  q.addEventListener('keydown', (e) => {
+    const ul = $('#sug'); if (ul.hidden) return;
+    if (e.key === 'ArrowDown' || e.key === 'ArrowUp') { e.preventDefault(); sugSel = (sugSel + (e.key === 'ArrowDown' ? 1 : -1) + sugs.length) % sugs.length; ul.querySelectorAll('li').forEach((li, i) => li.setAttribute('aria-selected', String(i === sugSel))); }
+    else if (e.key === 'Enter') { e.preventDefault(); elegirSug(sugSel); }
+    else if (e.key === 'Escape') { ul.hidden = true; }
+  });
+  $('#sug').addEventListener('mousedown', (e) => { const li = e.target.closest('li[data-i]'); if (li) { e.preventDefault(); elegirSug(+li.dataset.i); } });
+  q.addEventListener('blur', () => setTimeout(() => { $('#sug').hidden = true; }, 120));
+  // hoja móvil
+  $('#asa').addEventListener('click', () => { const p = $('#panel'); p.dataset.hoja = p.dataset.hoja === 'llena' ? 'peek' : p.dataset.hoja === 'media' ? 'llena' : 'media'; });
+  // tema
+  const retema = () => { leerColores(); reestilarPaises(); mapa.eachLayer((l) => { if (l.options?.className === 'reticula') l.setStyle({ color: C.grat }); }); };
+  matchMedia('(prefers-color-scheme: dark)').addEventListener?.('change', retema);
+  new MutationObserver(retema).observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
+  let rT; addEventListener('resize', () => { clearTimeout(rT); rT = setTimeout(() => { mapa.invalidateSize(); if (S.vista === 'pais' && S.tab === 'mente') dibujarMente(); }, 150); });
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && S.agregando) modoAgregar(false); });
+}
+function guardarTexto(el) {
+  if (el.id === 'notas') S.vista === 'lugar' ? guardarMarca(S.lugar, { notas: el.value.trim() }) : guardarPropio(S.propio, { notas: el.value.trim() });
+  if (el.id === 'propio-nombre' && el.value.trim()) guardarPropio(S.propio, { nombre: el.value.trim() });
+}
+function alFiltrar() { construirMarcadores(); refrescarPanel(); if (S.vista === 'pais' && S.tab === 'mente') dibujarMente(); }
+
+// ---------- arranque ----------
+async function cargarJSON(url) { const r = await fetch(url); if (!r.ok) throw new Error(url + ' ' + r.status); return r.json(); }
+async function iniciar() {
+  leerColores();
+  if (!window.L || !window.d3) { $('#cuerpo').innerHTML = '<p class="vacio">No se pudieron cargar las librerías del mapa. Recarga la página.</p>'; return; }
+  iniciarMapa(); eventos();
+  conectarDb();
+  $('#cont-nombre').textContent = '· ' + CONTINENTES.map((k) => NOMBRE_CONT[k]).join(' · ');
+  let geo, conts;
+  try { [geo, ...conts] = await Promise.all([cargarJSON('paises.geojson'), ...CONTINENTES.map((c) => cargarJSON(c + '.json'))]); }
+  catch (e) { console.error(e); $('#cuerpo').innerHTML = '<p class="vacio">No se pudieron cargar los datos del atlas. Recarga la página.</p>'; return; }
+  for (const d of conts) {
+    if (d.muestra) S.muestra = true;
+    for (const sr of d.subregiones) S.subregiones.push(sr);
+    for (const p of d.paises) S.paises.set(p.iso, { ...p, continente: d.continente });
+    for (const l of d.lugares) { S.lugares.push(l); S.porId.set(l.id, l); }
+  }
+  geoFeatures = geo.features;
+  capaPaises.addData(geo);
+  crearBurbujas(); construirMarcadores(); alZoom(); renderPanel();
+  // fronteras detalladas (1:10m) en segundo plano
+  for (const c of CONTINENTES) cargarJSON(`detalle-${c}.geojson`).then((det) => {
+    const props = new Map(geo.features.map((f) => [f.properties.iso, f.properties]));
+    const isos = new Set(det.features.map((f) => f.properties.iso));
+    capaPaises.eachLayer((l) => { if (isos.has(l.feature.properties.iso)) capaPaises.removeLayer(l); });
+    for (const f of det.features) f.properties = { ...props.get(f.properties.iso), ...f.properties };
+    geoFeatures = [...det.features, ...geoFeatures.filter((f) => !isos.has(f.properties.iso))];
+    capaPaises.addData(det); reestilarPaises();
+  }).catch(() => {});
+  const h = decodeURIComponent(location.hash.slice(1));
+  if (h && S.porId.has(h)) abrirLugar(h);
+  else if (h && S.paises.has(h.toUpperCase())) seleccionarPais(h.toUpperCase());
+}
+iniciar();
+</script>
