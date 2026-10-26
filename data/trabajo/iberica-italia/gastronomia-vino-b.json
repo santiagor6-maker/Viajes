@@ -1,0 +1,1213 @@
+{
+  "agente": "gastronomia-vino",
+  "subregion": "iberica-italia",
+  "ronda": 1,
+  "paises": [
+    "IT",
+    "MT",
+    "SM",
+    "VA"
+  ],
+  "puntajes": [
+    {
+      "id": "it-venecia",
+      "puntaje": 4,
+      "justificacion": "Ruta de bacari con cicchetti y ombra de vino junto al mercado de Rialto, cocina de laguna (sarde in saor, risotto de go) y alta cocina con estrellas Michelin como Glam de Enrico Bartolini; las colinas del Prosecco quedan a una hora.",
+      "platos": [
+        "Cicchetti en un bacaro",
+        "Sarde in saor",
+        "Risotto al nero di seppia",
+        "Spritz y tiramisù"
+      ],
+      "fuentes": [
+        {
+          "guia": "Wikipedia (lista de restaurantes con estrella Michelin en Italia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Italy"
+        }
+      ]
+    },
+    {
+      "id": "it-milan",
+      "puntaje": 4,
+      "justificacion": "Una de las mayores concentraciones de estrellas Michelin de Italia, con Enrico Bartolini al Mudec (3 estrellas), además de la cocina lombarda clásica y la cultura del aperitivo; Franciacorta está a menos de una hora.",
+      "platos": [
+        "Risotto alla milanese",
+        "Cotoletta alla milanese",
+        "Ossobuco",
+        "Panettone"
+      ],
+      "fuentes": [
+        {
+          "guia": "Wikipedia (lista de restaurantes con estrella Michelin en Italia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Italy"
+        }
+      ]
+    },
+    {
+      "id": "it-lago-de-como",
+      "puntaje": 3,
+      "justificacion": "Cocina lacustre propia (pescado de lago, polenta) y restaurantes de hotel con estrella Michelin en la orilla; buena mesa más que destino gastronómico de primer orden.",
+      "platos": [
+        "Risotto con filetti di pesce persico",
+        "Missoltini (agone secado)",
+        "Polenta uncia"
+      ],
+      "fuentes": [
+        {
+          "guia": "Wikipedia (lista de restaurantes con estrella Michelin en Italia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Italy"
+        }
+      ]
+    },
+    {
+      "id": "it-lago-de-garda",
+      "puntaje": 3,
+      "justificacion": "Aceite Garda DOP, vinos Lugana, Bardolino y Chiaretto en sus orillas, y alta cocina con estrella Michelin en la ribera lombarda; cerca de Valpolicella.",
+      "platos": [
+        "Aceite de oliva Garda DOP",
+        "Bigoli con sardelle de lago",
+        "Vinos Lugana y Bardolino"
+      ],
+      "fuentes": [
+        {
+          "guia": "Wikipedia (lista de restaurantes con estrella Michelin en Italia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Italy"
+        }
+      ]
+    },
+    {
+      "id": "it-lago-maggiore",
+      "puntaje": 3,
+      "justificacion": "Pescado de lago y cocina piamontesa-lombarda en un entorno con restaurantes con estrella Michelin en Verbania y alrededores; productos del Ossola y vinos del Alto Piamonte cercanos.",
+      "platos": [
+        "Risotto al pesce persico",
+        "Lavarello (corégono) a la plancha",
+        "Formaggio Bettelmatt del Ossola"
+      ],
+      "fuentes": [
+        {
+          "guia": "Wikipedia (lista de restaurantes con estrella Michelin en Italia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Italy"
+        }
+      ]
+    },
+    {
+      "id": "it-dolomitas",
+      "puntaje": 4,
+      "justificacion": "La cocina alpina de Alto Adigio es una de las más premiadas de Italia: AtelierMoessmer de Norbert Niederkofler en Brunico tiene 3 estrellas Michelin y Alta Badia suma varias estrellas; además, vinos de montaña y speck IGP.",
+      "platos": [
+        "Speck Alto Adige IGP",
+        "Canederli (Knödel)",
+        "Schlutzkrapfen",
+        "Strudel de manzana"
+      ],
+      "fuentes": [
+        {
+          "guia": "Wikipedia (lista de restaurantes con estrella Michelin en Italia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Italy"
+        }
+      ]
+    },
+    {
+      "id": "it-verona",
+      "puntaje": 4,
+      "justificacion": "Casa Perbellini 12 Apostoli conserva sus 3 estrellas Michelin en la edición 2026 y la ciudad es la puerta de la Valpolicella (Amarone) y de Soave; sede de la feria Vinitaly.",
+      "platos": [
+        "Risotto all'Amarone",
+        "Pastissada de caval",
+        "Pandoro",
+        "Amarone della Valpolicella"
+      ],
+      "fuentes": [
+        {
+          "guia": "FIRSTonline (Michelin 2026)",
+          "url": "https://www.firstonline.info/en/italia-sempre-piu-a-tre-stelle-con-michelangelo-mammoliti-salgono-a-15-i-ristoranti-tristellati-della-guida-michelin/"
+        },
+        {
+          "guia": "Wikipedia (lista de restaurantes con estrella Michelin en Italia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Italy"
+        }
+      ]
+    },
+    {
+      "id": "it-turin",
+      "puntaje": 4,
+      "justificacion": "Capital del café y del chocolate (bicerin, gianduiotto), cuna del vermut y del aperitivo, con mercado de Porta Palazzo y cocina piamontesa de primer nivel; base para las Langhe.",
+      "platos": [
+        "Bicerin",
+        "Gianduiotto",
+        "Agnolotti del plin",
+        "Vitello tonnato"
+      ],
+      "fuentes": [
+        {
+          "guia": "Fodor's",
+          "url": "https://www.fodors.com/world/europe/italy/piedmont-and-valle-daosta/things-to-do/sights/turin"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-turin"
+        },
+        {
+          "guia": "Wikipedia (lista de restaurantes con estrella Michelin en Italia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Italy"
+        }
+      ]
+    },
+    {
+      "id": "it-valle-de-aosta-monte-bianco",
+      "puntaje": 3,
+      "justificacion": "Cocina de montaña con productos DOP muy propios (Fontina, Lardo di Arnad, Fromadzo) y viñedos heroicos de altura; algunos restaurantes con estrella Michelin en el valle.",
+      "platos": [
+        "Fontina DOP",
+        "Lardo di Arnad DOP",
+        "Fonduta valdostana",
+        "Carbonade"
+      ],
+      "fuentes": [
+        {
+          "guia": "Wikipedia (lista de restaurantes con estrella Michelin en Italia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Italy"
+        }
+      ]
+    },
+    {
+      "id": "it-cinque-terre",
+      "puntaje": 3,
+      "justificacion": "Liguria de pesto y focaccia, anchoas de Monterosso y el vino dulce Sciacchetrà de las terrazas; buena comida local con productos propios, sin escena de alta cocina.",
+      "platos": [
+        "Trofie al pesto",
+        "Anchoas de Monterosso",
+        "Focaccia",
+        "Sciacchetrà"
+      ],
+      "fuentes": [
+        {
+          "guia": "Rick Steves",
+          "url": "https://www.ricksteves.com/watch-read-listen/video/tv-show/season-8/italys-riviera-cinque-terre"
+        }
+      ]
+    },
+    {
+      "id": "it-bolonia",
+      "puntaje": 5,
+      "justificacion": "Considerada la capital culinaria de Italia: TasteAtlas encabeza su lista con tagliatelle al ragù, lasaña, mortadella y tortellini in brodo; mercados del Quadrilatero y la Food Valley de Módena y Parma a un paso.",
+      "platos": [
+        "Tagliatelle al ragù",
+        "Tortellini in brodo",
+        "Mortadella Bologna IGP",
+        "Lasagne alla bolognese"
+      ],
+      "fuentes": [
+        {
+          "guia": "TasteAtlas",
+          "url": "https://tasteatlas.com/local-food-in-bologna"
+        },
+        {
+          "guia": "TasteAtlas",
+          "url": "https://tasteatlas.com/bologna"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-italy-itineraries"
+        }
+      ]
+    },
+    {
+      "id": "it-ravena",
+      "puntaje": 2,
+      "justificacion": "Romaña de piadina y vinos Sangiovese y Albana, pero su interés principal es cultural; para comer, mejor Bolonia o Módena.",
+      "platos": [
+        "Piadina romagnola IGP",
+        "Cappelletti",
+        "Albana di Romagna"
+      ],
+      "fuentes": []
+    },
+    {
+      "id": "it-trieste",
+      "puntaje": 3,
+      "justificacion": "Gran cultura del café (puerto cafetero histórico), buffets triestinos de herencia austrohúngara y vinos del Carso y del Collio cercanos.",
+      "platos": [
+        "Café en un caffè histórico",
+        "Buffet triestino (porcina con kren)",
+        "Jota",
+        "Presnitz"
+      ],
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/top-things-to-do-trieste-italy"
+        }
+      ]
+    },
+    {
+      "id": "it-florencia",
+      "puntaje": 4,
+      "justificacion": "Enoteca Pinchiorri (3 estrellas Michelin) y otros restaurantes con estrella conviven con el lampredotto callejero y el Mercado Central de San Lorenzo; el Chianti Classico empieza a las afueras.",
+      "platos": [
+        "Bistecca alla fiorentina",
+        "Lampredotto",
+        "Ribollita",
+        "Schiacciata"
+      ],
+      "fuentes": [
+        {
+          "guia": "Wikipedia (lista de restaurantes con estrella Michelin en Italia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Italy"
+        }
+      ]
+    },
+    {
+      "id": "it-pisa",
+      "puntaje": 2,
+      "justificacion": "Cocina toscana correcta (cecina, pescado de Livorno cerca), pero sin un perfil gastronómico propio destacado.",
+      "platos": [
+        "Cecina",
+        "Torta coi bischeri"
+      ],
+      "fuentes": []
+    },
+    {
+      "id": "it-lucca",
+      "puntaje": 2,
+      "justificacion": "Buenos productos de la Garfagnana (farro IGP, aceite) y el dulce buccellato; interés gastronómico moderado.",
+      "platos": [
+        "Buccellato",
+        "Tordelli lucchesi",
+        "Zuppa di farro della Garfagnana"
+      ],
+      "fuentes": []
+    },
+    {
+      "id": "it-siena",
+      "puntaje": 3,
+      "justificacion": "Dulces medievales propios (panforte, ricciarelli), pici y embutidos de cinta senese; es la puerta sur del Chianti Classico.",
+      "platos": [
+        "Panforte",
+        "Ricciarelli",
+        "Pici all'aglione",
+        "Chianti Classico"
+      ],
+      "fuentes": [
+        {
+          "guia": "Consorzio Vino Chianti Classico",
+          "url": "https://chianticlassico.com/en/?p=2166"
+        },
+        {
+          "guia": "Visit Tuscany",
+          "url": "https://www.visittuscany.com/it/idee/il-gallo-nero-simbolo-del-chianti-tra-storia-e-leggenda/"
+        }
+      ]
+    },
+    {
+      "id": "it-san-gimignano",
+      "puntaje": 3,
+      "justificacion": "Hogar de la Vernaccia di San Gimignano, el primer vino italiano con DOC (1966), y del azafrán DOP; muchas bodegas visitables en las colinas.",
+      "platos": [
+        "Vernaccia di San Gimignano DOCG",
+        "Zafferano di San Gimignano DOP",
+        "Helado artesanal"
+      ],
+      "fuentes": [
+        {
+          "guia": "Rick Steves",
+          "url": "https://www.ricksteves.com/watch-read-listen/video/tv-show/italy-hill-towns"
+        }
+      ]
+    },
+    {
+      "id": "it-val-d-orcia",
+      "puntaje": 5,
+      "justificacion": "Región vinícola top: Brunello di Montalcino y Vino Nobile di Montepulciano con bodegas visitables, más el pecorino de Pienza y el aceite toscano.",
+      "platos": [
+        "Brunello di Montalcino",
+        "Vino Nobile di Montepulciano",
+        "Pecorino di Pienza",
+        "Pici"
+      ],
+      "fuentes": [
+        {
+          "guia": "Rough Guides",
+          "url": "https://www.roughguides.com/articles/unforgettable-things-to-do-tuscany-italy/"
+        },
+        {
+          "guia": "Rick Steves",
+          "url": "https://store.ricksteves.com/products/italy-guidebook"
+        }
+      ]
+    },
+    {
+      "id": "it-asis",
+      "puntaje": 2,
+      "justificacion": "Cocina umbra sencilla (trufa negra, strangozzi) y cerca de Montefalco (Sagrantino), pero la visita es eminentemente religiosa.",
+      "platos": [
+        "Strangozzi al tartufo",
+        "Torta al testo",
+        "Sagrantino di Montefalco"
+      ],
+      "fuentes": []
+    },
+    {
+      "id": "it-orvieto",
+      "puntaje": 3,
+      "justificacion": "Vino blanco Orvieto Classico DOC madurado en cuevas excavadas en la toba y cocina umbra de caza y trufa.",
+      "platos": [
+        "Orvieto Classico",
+        "Umbrichelli",
+        "Palomba alla ghiotta"
+      ],
+      "fuentes": [
+        {
+          "guia": "Rick Steves",
+          "url": "https://www.ricksteves.com/watch-read-listen/video/tv-show/italy-hill-towns"
+        }
+      ]
+    },
+    {
+      "id": "it-roma",
+      "puntaje": 5,
+      "justificacion": "Referencia mundial: La Pergola de Heinz Beck (3 estrellas Michelin) y decenas de estrellas más, junto a la cocina romana de trattoria (carbonara, cacio e pepe) y el barrio judío y Testaccio.",
+      "platos": [
+        "Spaghetti alla carbonara",
+        "Cacio e pepe",
+        "Carciofi alla giudia",
+        "Supplì"
+      ],
+      "fuentes": [
+        {
+          "guia": "Wikipedia (lista de restaurantes con estrella Michelin en Italia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Italy"
+        }
+      ]
+    },
+    {
+      "id": "it-napoles",
+      "puntaje": 5,
+      "justificacion": "Cuna de la pizza: el arte del pizzaiuolo napolitano es Patrimonio Inmaterial de la UNESCO (2017); además, sfogliatella, babà y la comida callejera de los Quartieri y la Pignasecca.",
+      "platos": [
+        "Pizza napoletana",
+        "Sfogliatella",
+        "Babà al rum",
+        "Ragù napoletano"
+      ],
+      "fuentes": [
+        {
+          "guia": "UNESCO Patrimonio Inmaterial",
+          "url": "https://ich.unesco.org/en/RL/the-art-of-neapolitan-pizzaiuolo-00722"
+        }
+      ]
+    },
+    {
+      "id": "it-pompeya-herculano",
+      "puntaje": 2,
+      "justificacion": "Las laderas del Vesubio producen el Lacryma Christi y tomates del Piennolo DOP, pero el sitio en sí no es un destino gastronómico.",
+      "platos": [
+        "Lacryma Christi del Vesuvio",
+        "Pomodorino del Piennolo DOP"
+      ],
+      "fuentes": []
+    },
+    {
+      "id": "it-costa-amalfitana",
+      "puntaje": 4,
+      "justificacion": "Limones IGP, colatura de alici de Cetara y marisco, con restaurantes con estrella Michelin en la costa y en la vecina península sorrentina (Quattro Passi en Nerano, 3 estrellas).",
+      "platos": [
+        "Scialatielli ai frutti di mare",
+        "Colatura di alici di Cetara",
+        "Limoncello",
+        "Delizia al limone"
+      ],
+      "fuentes": [
+        {
+          "guia": "Wikipedia (lista de restaurantes con estrella Michelin en Italia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Italy"
+        }
+      ]
+    },
+    {
+      "id": "it-capri",
+      "puntaje": 3,
+      "justificacion": "Origen de la ensalada caprese y la torta caprese, con alta cocina de hotel con estrella Michelin; precios elevados.",
+      "platos": [
+        "Insalata caprese",
+        "Torta caprese",
+        "Ravioli capresi",
+        "Limoncello"
+      ],
+      "fuentes": [
+        {
+          "guia": "Wikipedia (lista de restaurantes con estrella Michelin en Italia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Italy"
+        }
+      ]
+    },
+    {
+      "id": "it-paestum",
+      "puntaje": 3,
+      "justificacion": "Tierra de la mozzarella di bufala campana DOP: las granjas de búfalas junto a los templos ofrecen degustación; puerta del Cilento y su dieta mediterránea.",
+      "platos": [
+        "Mozzarella di bufala campana DOP",
+        "Ricotta de búfala",
+        "Higos blancos del Cilento DOP"
+      ],
+      "fuentes": [
+        {
+          "guia": "National Geographic",
+          "url": "https://www.nationalgeographic.com/travel/article/campania-italy-must-see-travel-guide"
+        }
+      ]
+    },
+    {
+      "id": "it-matera",
+      "puntaje": 3,
+      "justificacion": "Pan de Matera IGP, peperoni cruschi y cocina campesina lucana servida en los Sassi; vinos Aglianico del Vulture en la región.",
+      "platos": [
+        "Pane di Matera IGP",
+        "Peperoni cruschi",
+        "Crapiata",
+        "Aglianico del Vulture"
+      ],
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-southern-italy"
+        }
+      ]
+    },
+    {
+      "id": "it-alberobello-valle-d-itria",
+      "puntaje": 3,
+      "justificacion": "Valle d'Itria de capocollo de Martina Franca, bombette a la brasa, burrata y vino blanco de Locorotondo; buena cocina apulia en masserie.",
+      "platos": [
+        "Orecchiette con cime di rapa",
+        "Bombette",
+        "Capocollo di Martina Franca",
+        "Burrata"
+      ],
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-puglia"
+        }
+      ]
+    },
+    {
+      "id": "it-lecce",
+      "puntaje": 3,
+      "justificacion": "Pasticciotto y rustico leccese en sus pastelerías barrocas, y base para los tintos del Salento (Primitivo, Negroamaro).",
+      "platos": [
+        "Pasticciotto leccese",
+        "Rustico leccese",
+        "Caffè in ghiaccio con latte di mandorla",
+        "Negroamaro"
+      ],
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-southern-italy"
+        }
+      ]
+    },
+    {
+      "id": "it-tropea",
+      "puntaje": 3,
+      "justificacion": "La cebolla roja de Tropea IGP y la 'nduja de la cercana Spilinga definen una cocina calabresa picante y muy propia.",
+      "platos": [
+        "Cipolla rossa di Tropea IGP",
+        "'Nduja",
+        "Fileja",
+        "Tartufo di Pizzo"
+      ],
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/why-you-should-visit-tropea-italy"
+        }
+      ]
+    },
+    {
+      "id": "it-palermo-monreale",
+      "puntaje": 4,
+      "justificacion": "Capital europea de la comida callejera: los mercados de Ballarò, Vucciria y el Capo ofrecen arancine, pane ca' meusa y sfincione; repostería árabe-siciliana de primer orden.",
+      "platos": [
+        "Arancine",
+        "Pane ca' meusa",
+        "Sfincione",
+        "Cannoli"
+      ],
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-sicily"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/italy/sicily/attractions"
+        }
+      ]
+    },
+    {
+      "id": "it-taormina",
+      "puntaje": 3,
+      "justificacion": "Buena oferta con varios restaurantes con estrella Michelin, granita con brioche y acceso fácil a las bodegas del Etna.",
+      "platos": [
+        "Granita con brioche",
+        "Pasta alla Norma",
+        "Involtini di pesce spada"
+      ],
+      "fuentes": [
+        {
+          "guia": "Wikipedia (lista de restaurantes con estrella Michelin en Italia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Italy"
+        }
+      ]
+    },
+    {
+      "id": "it-siracusa-ortigia",
+      "puntaje": 3,
+      "justificacion": "El mercado de Ortigia, con puestos de pescado y bocadillos, y la cercanía de Noto (almendra, Nero d'Avola) y Pachino la convierten en una buena parada foodie.",
+      "platos": [
+        "Bocadillos del mercado de Ortigia",
+        "Pasta con le sarde",
+        "Granita de almendra",
+        "Nero d'Avola"
+      ],
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/italy/sicily/attractions"
+        }
+      ]
+    },
+    {
+      "id": "it-agrigento-valle-templos",
+      "puntaje": 2,
+      "justificacion": "Algo de interés: almendrales del valle y pistachos de Raffadali cerca, pero la visita es arqueológica.",
+      "platos": [
+        "Mandorle di Agrigento",
+        "Cannoli",
+        "Arancine"
+      ],
+      "fuentes": []
+    },
+    {
+      "id": "it-etna",
+      "puntaje": 4,
+      "justificacion": "Región vinícola de moda: la DOC Etna (Nerello Mascalese, Carricante) tiene decenas de bodegas visitables en las laderas del volcán, y en la zona se producen el pistacho de Bronte DOP y miel.",
+      "platos": [
+        "Etna Rosso DOC",
+        "Etna Bianco DOC",
+        "Pistacchio di Bronte DOP",
+        "Arancini al pistacchio"
+      ],
+      "fuentes": [
+        {
+          "guia": "Rick Steves",
+          "url": "https://www.ricksteves.com/tours/italy/sicily-2026"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-sicily"
+        }
+      ]
+    },
+    {
+      "id": "it-islas-eolias",
+      "puntaje": 3,
+      "justificacion": "Malvasía delle Lipari DOC y alcaparras de Salina con bodegas familiares visitables; cocina isleña de pescado.",
+      "platos": [
+        "Malvasia delle Lipari",
+        "Alcaparras de Salina",
+        "Pane cunzato"
+      ],
+      "fuentes": [
+        {
+          "guia": "National Geographic",
+          "url": "https://www.nationalgeographic.com/travel/article/best-italian-islands-to-visit-this-year"
+        }
+      ]
+    },
+    {
+      "id": "it-golfo-di-orosei",
+      "puntaje": 2,
+      "justificacion": "Cocina pastoril de la Barbagia cercana (culurgiones, porceddu) y Cannonau, pero el atractivo es la costa.",
+      "platos": [
+        "Culurgiones",
+        "Porceddu",
+        "Cannonau di Sardegna"
+      ],
+      "fuentes": []
+    },
+    {
+      "id": "it-la-maddalena-costa-smeralda",
+      "puntaje": 2,
+      "justificacion": "Restauración de lujo en Porto Cervo y vinos Vermentino di Gallura DOCG, sin gran identidad gastronómica local.",
+      "platos": [
+        "Vermentino di Gallura DOCG",
+        "Zuppa gallurese",
+        "Seadas"
+      ],
+      "fuentes": []
+    },
+    {
+      "id": "it-cagliari",
+      "puntaje": 3,
+      "justificacion": "El mercado de San Benedetto, uno de los mayores mercados cubiertos de Italia, y la cocina de pescado sarda (bottarga, fregola) dan una buena escena local.",
+      "platos": [
+        "Fregola con arselle",
+        "Bottarga",
+        "Seadas",
+        "Vermentino"
+      ],
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-cagliari-sardinia"
+        }
+      ]
+    },
+    {
+      "id": "mt-valletta",
+      "puntaje": 4,
+      "justificacion": "Centro de la escena maltesa reconocida por Michelin: ION Harbour (2 estrellas), Under Grain y Noni (1 estrella), los Bib Gourmand Grain Street y Rubino y cocina tradicional en La Pira; la ftira maltesa es Patrimonio Inmaterial UNESCO.",
+      "platos": [
+        "Pastizzi",
+        "Ftira",
+        "Stuffat tal-fenek",
+        "Imqaret"
+      ],
+      "fuentes": [
+        {
+          "guia": "Michelin (Guía Malta 2025)",
+          "url": "https://www.michelin.com/en/publications/products-and-services/the-2025-malta-michelin-guide-selection-celebrates-a-newly-awarded-one-michelin-star-restaurant"
+        },
+        {
+          "guia": "Guide Me Malta (Michelin 2025)",
+          "url": "https://www.guidememalta.com/en/a-new-star-in-sliema-le-gv-earns-michelin-star-just-months-after-opening-alongside-more-2025-winners"
+        },
+        {
+          "guia": "Guía Michelin",
+          "url": "https://guide.michelin.com/en/malta-south-eastern-region/valletta/restaurant/la-pira"
+        },
+        {
+          "guia": "UNESCO Patrimonio Inmaterial",
+          "url": "https://ich.unesco.org/en/RL/il-ftira-culinary-art-and-culture-flattened-sourdough-bread-in-malta-01580"
+        }
+      ]
+    },
+    {
+      "id": "mt-tres-ciudades",
+      "puntaje": 3,
+      "justificacion": "Birgu tiene el Bib Gourmand Terrone y restaurantes en el puerto deportivo frente a La Valeta; buena comida local.",
+      "platos": [
+        "Lampuki (dorado) de temporada",
+        "Ħobż biż-żejt",
+        "Bigilla"
+      ],
+      "fuentes": [
+        {
+          "guia": "Guide Me Malta (Michelin 2025)",
+          "url": "https://www.guidememalta.com/en/a-new-star-in-sliema-le-gv-earns-michelin-star-just-months-after-opening-alongside-more-2025-winners"
+        }
+      ]
+    },
+    {
+      "id": "mt-mdina-rabat",
+      "puntaje": 3,
+      "justificacion": "Mdina alberga De Mondion, con 1 estrella Michelin, y Rabat es famosa por sus pastizzerie tradicionales.",
+      "platos": [
+        "Pastizzi",
+        "Qassatat",
+        "Stuffat tal-fenek"
+      ],
+      "fuentes": [
+        {
+          "guia": "Michelin (Guía Malta 2025)",
+          "url": "https://www.michelin.com/en/publications/products-and-services/the-2025-malta-michelin-guide-selection-celebrates-a-newly-awarded-one-michelin-star-restaurant"
+        }
+      ]
+    },
+    {
+      "id": "mt-hipogeo-hal-saflieni",
+      "puntaje": 0,
+      "justificacion": "Sitio arqueológico subterráneo sin interés gastronómico propio.",
+      "platos": [
+        "Pastizzi (en Paola)",
+        "Kinnie"
+      ],
+      "fuentes": []
+    },
+    {
+      "id": "mt-hagar-qim-mnajdra-gruta-azul",
+      "puntaje": 1,
+      "justificacion": "Poco: algunos restaurantes de pescado en Wied iż-Żurrieq junto al embarcadero de la Gruta Azul.",
+      "platos": [
+        "Pescado del día",
+        "Ħobż biż-żejt"
+      ],
+      "fuentes": []
+    },
+    {
+      "id": "mt-marsaxlokk",
+      "puntaje": 4,
+      "justificacion": "El mercado de pescado del domingo y los restaurantes de marisco de la bahía de los luzzu lo convierten en la gran parada gastronómica de Malta.",
+      "platos": [
+        "Lampuki",
+        "Pulpo guisado (stuffat tal-qarnit)",
+        "Aljotta (sopa de pescado)",
+        "Pez espada a la plancha"
+      ],
+      "fuentes": [
+        {
+          "guia": "VisitMalta",
+          "url": "https://www.visitmalta.com/en/a/info/marsaxlokkmarket/"
+        },
+        {
+          "guia": "Time Out",
+          "url": "https://www.timeout.com/malta/travel/best-places-to-visit-in-malta"
+        }
+      ]
+    },
+    {
+      "id": "mt-acantilados-dingli",
+      "puntaje": 1,
+      "justificacion": "Poco interés gastronómico más allá de algún restaurante con vistas.",
+      "platos": [
+        "Ħobż biż-żejt",
+        "Ġbejniet"
+      ],
+      "fuentes": []
+    },
+    {
+      "id": "mt-golden-bay",
+      "puntaje": 1,
+      "justificacion": "Playa con chiringuitos; la cercana Mġarr es conocida por sus fenkate (comidas de conejo).",
+      "platos": [
+        "Fenek (conejo frito con ajo)",
+        "Ħobż biż-żejt"
+      ],
+      "fuentes": []
+    },
+    {
+      "id": "mt-mellieha",
+      "puntaje": 2,
+      "justificacion": "Algo de interés: el Bib Gourmand Commando y restaurantes de pescado en la bahía.",
+      "platos": [
+        "Pescado del día",
+        "Stuffat tal-fenek"
+      ],
+      "fuentes": [
+        {
+          "guia": "Guide Me Malta (Michelin 2025)",
+          "url": "https://www.guidememalta.com/en/a-new-star-in-sliema-le-gv-earns-michelin-star-just-months-after-opening-alongside-more-2025-winners"
+        }
+      ]
+    },
+    {
+      "id": "mt-comino-laguna-azul",
+      "puntaje": 0,
+      "justificacion": "Solo puestos de comida para bañistas.",
+      "platos": [
+        "Granizado de fruta",
+        "Ħobż biż-żejt"
+      ],
+      "fuentes": []
+    },
+    {
+      "id": "mt-victoria-ciudadela",
+      "puntaje": 3,
+      "justificacion": "Gozo tiene productos propios muy marcados: los quesitos ġbejniet de oveja, aceite, miel y la ftira gozitana, que se encuentran en Victoria y sus alrededores.",
+      "platos": [
+        "Ġbejniet",
+        "Ftira għawdxija",
+        "Soppa tal-armla",
+        "Ravioli de queso gozitano"
+      ],
+      "fuentes": [
+        {
+          "guia": "Visit Gozo",
+          "url": "https://visitgozo.com/experience/local-produce/"
+        },
+        {
+          "guia": "Visit Gozo",
+          "url": "https://visitgozo.com/savouring-gozo-a-culinary-journey-through-mediterranean-flavours-and-traditional-dishes/"
+        }
+      ]
+    },
+    {
+      "id": "mt-ggantija",
+      "puntaje": 1,
+      "justificacion": "Poco: en Xagħra hay bares de pueblo con productos gozitanos.",
+      "platos": [
+        "Ġbejniet",
+        "Vino gozitano"
+      ],
+      "fuentes": []
+    },
+    {
+      "id": "mt-dwejra",
+      "puntaje": 1,
+      "justificacion": "Poco interés gastronómico; algún quiosco junto al Inland Sea.",
+      "platos": [
+        "Ħobż biż-żejt",
+        "Ġbejniet"
+      ],
+      "fuentes": []
+    },
+    {
+      "id": "mt-ramla-bay",
+      "puntaje": 1,
+      "justificacion": "Playa con chiringuitos estacionales; poco interés gastronómico.",
+      "platos": [
+        "Ħobż biż-żejt",
+        "Ġbejniet"
+      ],
+      "fuentes": []
+    },
+    {
+      "id": "mt-xlendi",
+      "puntaje": 3,
+      "justificacion": "Bahía con restaurantes de pescado frente al agua, recomendada por Rough Guides como lugar para comer junto al mar.",
+      "platos": [
+        "Pescado del día a la plancha",
+        "Calamares",
+        "Ġbejniet"
+      ],
+      "fuentes": [
+        {
+          "guia": "Rough Guides",
+          "url": "https://www.roughguides.com/articles/things-to-do-in-gozo-malta/"
+        },
+        {
+          "guia": "Visit Gozo",
+          "url": "https://visitgozo.com/experience/local-delicacies/"
+        }
+      ]
+    },
+    {
+      "id": "sm-centro-historico",
+      "puntaje": 2,
+      "justificacion": "Cocina romañola compartida con Italia (piadina, pasta fresca) y dulces propios como la torta Tre Monti; vinos locales Sangiovese y Moscato.",
+      "platos": [
+        "Torta Tre Monti",
+        "Piadina",
+        "Cappelletti",
+        "Vino Sangiovese de San Marino"
+      ],
+      "fuentes": []
+    },
+    {
+      "id": "sm-torre-guaita",
+      "puntaje": 0,
+      "justificacion": "Fortaleza sin oferta gastronómica.",
+      "platos": [
+        "Torta Tre Monti",
+        "Piadina"
+      ],
+      "fuentes": []
+    },
+    {
+      "id": "sm-torre-cesta",
+      "puntaje": 0,
+      "justificacion": "Fortaleza y museo de armas, sin oferta gastronómica.",
+      "platos": [
+        "Torta Tre Monti",
+        "Piadina"
+      ],
+      "fuentes": []
+    },
+    {
+      "id": "sm-torre-montale",
+      "puntaje": 0,
+      "justificacion": "Torre no visitable por dentro, sin oferta gastronómica.",
+      "platos": [
+        "Torta Tre Monti",
+        "Piadina"
+      ],
+      "fuentes": []
+    },
+    {
+      "id": "sm-borgo-maggiore",
+      "puntaje": 1,
+      "justificacion": "Poco: trattorias de cocina romañola junto al funicular.",
+      "platos": [
+        "Piadina",
+        "Tagliatelle al ragù",
+        "Torta Tre Monti"
+      ],
+      "fuentes": []
+    },
+    {
+      "id": "va-basilica-san-pedro",
+      "puntaje": 0,
+      "justificacion": "Sin interés gastronómico; para comer, el vecino barrio de Prati en Roma.",
+      "platos": [
+        "Pizza al taglio (Prati)",
+        "Supplì"
+      ],
+      "fuentes": []
+    },
+    {
+      "id": "va-cupula-san-pedro",
+      "puntaje": 0,
+      "justificacion": "Sin interés gastronómico.",
+      "platos": [
+        "Pizza al taglio (Prati)",
+        "Supplì"
+      ],
+      "fuentes": []
+    },
+    {
+      "id": "va-museos-vaticanos",
+      "puntaje": 1,
+      "justificacion": "Poco: solo cafeterías internas, aunque el Mercato Trionfale de Roma queda a pocos minutos a pie de la salida.",
+      "platos": [
+        "Pizza al taglio",
+        "Supplì",
+        "Maritozzo"
+      ],
+      "fuentes": []
+    },
+    {
+      "id": "va-capilla-sixtina",
+      "puntaje": 0,
+      "justificacion": "Sin interés gastronómico.",
+      "platos": [
+        "Pizza al taglio (Prati)",
+        "Supplì"
+      ],
+      "fuentes": []
+    },
+    {
+      "id": "va-plaza-san-pedro",
+      "puntaje": 0,
+      "justificacion": "Sin interés gastronómico; rodeada de restaurantes turísticos en Borgo.",
+      "platos": [
+        "Pizza al taglio (Prati)",
+        "Supplì"
+      ],
+      "fuentes": []
+    },
+    {
+      "id": "va-jardines-vaticanos",
+      "puntaje": 0,
+      "justificacion": "Jardines sin oferta gastronómica.",
+      "platos": [
+        "Pizza al taglio (Prati)",
+        "Supplì"
+      ],
+      "fuentes": []
+    }
+  ],
+  "nuevos": [
+    {
+      "id": "it-langhe-barolo",
+      "nombre": "Langhe: Barolo, Barbaresco y Alba",
+      "pais_iso": "IT",
+      "region": "Piamonte",
+      "lat": 44.6107,
+      "lng": 7.9429,
+      "tipo": "region",
+      "puntaje": 5,
+      "justificacion": "Paisaje vitícola UNESCO (2014) de Barolo y Barbaresco con decenas de bodegas visitables, la trufa blanca de Alba y dos restaurantes con 3 estrellas Michelin: Piazza Duomo en Alba y La Rei Natura en Serralunga d'Alba (nuevo en 2026).",
+      "platos": [
+        "Trufa blanca de Alba",
+        "Tajarin al burro e tartufo",
+        "Brasato al Barolo",
+        "Barolo y Barbaresco DOCG"
+      ],
+      "fuentes": [
+        {
+          "guia": "UNESCO",
+          "url": "https://whc.unesco.org/en/list/1390/maps"
+        },
+        {
+          "guia": "Paesaggi Vitivinicoli UNESCO",
+          "url": "https://www.paesaggivitivinicoliunesco.it/en/unesco-site-vineyard-landscape/introduction-to-the-unesco-site/discover-the-site"
+        },
+        {
+          "guia": "ANSA (Michelin 2026)",
+          "url": "https://www.ansa.it/amp/english/news/lifestyle/food_wine/2025/11/19/15th-michelin-three-star-restaurant-in-langhe-region_d4437ec6-293b-4799-9e41-891e24a4db7c.html"
+        },
+        {
+          "guia": "Guía Michelin",
+          "url": "https://guide.michelin.com/gb/en/article/michelin-guide-ceremony/a-new-3-star-restaurant-in-the-michelin-guide-italy-2026"
+        }
+      ]
+    },
+    {
+      "id": "it-chianti-classico",
+      "nombre": "Chianti Classico (Greve, Panzano, Radda, Castellina)",
+      "pais_iso": "IT",
+      "region": "Toscana",
+      "lat": 43.5845,
+      "lng": 11.3155,
+      "tipo": "region",
+      "puntaje": 5,
+      "justificacion": "Zona histórica del Gallo Nero entre Florencia y Siena, delimitada desde 1716, con bodegas y castillos visitables y carnicerías legendarias como las de Panzano.",
+      "platos": [
+        "Chianti Classico DOCG",
+        "Bistecca alla fiorentina",
+        "Finocchiona IGP",
+        "Aceite de oliva toscano"
+      ],
+      "fuentes": [
+        {
+          "guia": "Consorzio Vino Chianti Classico",
+          "url": "https://chianticlassico.com/en/?p=2166"
+        },
+        {
+          "guia": "Visit Tuscany",
+          "url": "https://www.visittuscany.com/it/idee/il-gallo-nero-simbolo-del-chianti-tra-storia-e-leggenda/"
+        },
+        {
+          "guia": "Visit Tuscany",
+          "url": "https://www.visittuscany.com/it/localita/il-borgo-di-volpaia/"
+        }
+      ]
+    },
+    {
+      "id": "it-parma",
+      "nombre": "Parma",
+      "pais_iso": "IT",
+      "region": "Emilia-Romaña",
+      "lat": 44.8015,
+      "lng": 10.3279,
+      "tipo": "ciudad",
+      "puntaje": 5,
+      "justificacion": "Primera Ciudad Creativa de la Gastronomía UNESCO de Italia (2015) y corazón de la Food Valley: visitas a queserías de Parmigiano Reggiano y secaderos de Prosciutto di Parma y culatello.",
+      "platos": [
+        "Parmigiano Reggiano DOP",
+        "Prosciutto di Parma DOP",
+        "Culatello di Zibello DOP",
+        "Anolini in brodo"
+      ],
+      "fuentes": [
+        {
+          "guia": "Visit Italy (UNESCO Parma)",
+          "url": "https://visititaly.eu/unesco/parma-unesco-heritage-gastronomy-cuisine"
+        },
+        {
+          "guia": "Adnkronos (Parma Food Valley)",
+          "url": "https://adnkronos.com/Archivio/immediapress/salute-benessere/parma-food-valley-the-first-italian-unesco-creative-city-of-gastronomy-where-food-is-more_55DH8aAF9lnVxC4Och0TVR"
+        }
+      ]
+    },
+    {
+      "id": "it-modena",
+      "nombre": "Módena",
+      "pais_iso": "IT",
+      "region": "Emilia-Romaña",
+      "lat": 44.6471,
+      "lng": 10.9252,
+      "tipo": "ciudad",
+      "puntaje": 5,
+      "justificacion": "Sede de la Osteria Francescana de Massimo Bottura (3 estrellas Michelin, dos veces número 1 de World's 50 Best) y del Aceto Balsamico Tradizionale, con acetaie visitables y el Lambrusco de las llanuras.",
+      "platos": [
+        "Aceto Balsamico Tradizionale di Modena DOP",
+        "Tortellini",
+        "Gnocco fritto con salumi",
+        "Lambrusco"
+      ],
+      "fuentes": [
+        {
+          "guia": "Wikipedia (lista de restaurantes con estrella Michelin en Italia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Italy"
+        },
+        {
+          "guia": "Visit Modena",
+          "url": "https://www.visitmodena.it/en/discover-modena/land-of-flavors/the-vinegar-factories"
+        },
+        {
+          "guia": "Consorzio Aceto Balsamico di Modena",
+          "url": "https://www.consorziobalsamico.it/consortium-members/?lang=en"
+        }
+      ]
+    },
+    {
+      "id": "it-franciacorta",
+      "nombre": "Franciacorta",
+      "pais_iso": "IT",
+      "region": "Lombardía",
+      "lat": 45.5978,
+      "lng": 9.9719,
+      "tipo": "region",
+      "puntaje": 4,
+      "justificacion": "La gran zona de espumoso de método clásico de Italia, entre Brescia y el lago de Iseo, con la Strada del Franciacorta (unos 90 km) y bodegas visitables a menos de una hora de Milán.",
+      "platos": [
+        "Franciacorta DOCG (Satèn, Rosé)",
+        "Manzo all'olio di Rovato",
+        "Tinca al forno de Clusane"
+      ],
+      "fuentes": [
+        {
+          "guia": "Consorzio Franciacorta",
+          "url": "https://franciacorta.wine/en/consortium/associazione-strada-franciacorta/"
+        },
+        {
+          "guia": "Guía Michelin",
+          "url": "https://guide.michelin.com/en/article/travel/visits-touring-itineraries-and-sights-of-interest-in-franciacorta-italy-recommended-by-local-experts"
+        },
+        {
+          "guia": "Decanter",
+          "url": "https://www.decanter.com/wine-travel/italy/franciacorta-travel-guide-top-sparkling-wines-near-milan-473886/"
+        }
+      ]
+    },
+    {
+      "id": "it-colinas-prosecco",
+      "nombre": "Colinas del Prosecco de Conegliano y Valdobbiadene",
+      "pais_iso": "IT",
+      "region": "Véneto",
+      "lat": 45.9001,
+      "lng": 11.9995,
+      "tipo": "region",
+      "puntaje": 4,
+      "justificacion": "Paisaje cultural UNESCO (2019) de colinas en 'hogback' y terrazas ciglioni de la DOCG Prosecco Superiore, con bodegas y osterie senza oste a lo largo de la Strada del Prosecco.",
+      "platos": [
+        "Prosecco Superiore DOCG",
+        "Superiore di Cartizze",
+        "Spiedo trevigiano",
+        "Radicchio di Treviso IGP"
+      ],
+      "fuentes": [
+        {
+          "guia": "UNESCO",
+          "url": "https://whc.unesco.org/ES/list/1571"
+        },
+        {
+          "guia": "UNESCO",
+          "url": "https://whc.unesco.org/document/176131"
+        }
+      ]
+    },
+    {
+      "id": "mt-sliema-st-julians",
+      "nombre": "Sliema y St Julian's",
+      "pais_iso": "MT",
+      "region": "Malta",
+      "lat": 35.9122,
+      "lng": 14.5042,
+      "tipo": "ciudad",
+      "puntaje": 3,
+      "justificacion": "Segunda concentración de estrellas Michelin de Malta: Rosamì (St Julian's), Fernandõ Gastrotheque y Le GV (Sliema, nueva estrella 2025), además de muchos restaurantes recomendados en el paseo marítimo.",
+      "platos": [
+        "Pastizzi",
+        "Lampuki pie",
+        "Pescado del día",
+        "Imqaret"
+      ],
+      "fuentes": [
+        {
+          "guia": "Michelin (Guía Malta 2025)",
+          "url": "https://www.michelin.com/en/publications/products-and-services/the-2025-malta-michelin-guide-selection-celebrates-a-newly-awarded-one-michelin-star-restaurant"
+        },
+        {
+          "guia": "Guide Me Malta (Michelin 2025)",
+          "url": "https://www.guidememalta.com/en/a-new-star-in-sliema-le-gv-earns-michelin-star-just-months-after-opening-alongside-more-2025-winners"
+        }
+      ]
+    }
+  ]
+}
