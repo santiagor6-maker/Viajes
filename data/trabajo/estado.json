@@ -1,0 +1,13 @@
+{
+  "pausado": false,
+  "subregion": "iberica-italia",
+  "paso": "logistica",
+  "ronda": 1,
+  "orden_subregiones": ["iberica-italia", "francia-alpes", "britanicas-nordicos", "centroeuropa", "balcanes-grecia", "este-caucaso-turquia"],
+  "terminadas": [],
+  "notas": "Ronda 1 de especialistas tiene fuentes no verificadas (marcadas url_verificada:false / verificacion_pendiente). Tras logística, hacer paso 'fuentes' antes del curador.",
+  "historial": [
+    { "fecha": "2026-10-26", "subregion": "iberica-italia", "paso": "guias", "resultado": "143 candidatos (ES 37, PT 32, AD 8, IT 40, MT 15, SM 5, VA 6)" },
+    { "fecha": "2026-10-26", "subregion": "iberica-italia", "paso": "especialistas", "resultado": "ronda 1 completa; ~70 lugares nuevos; cupo de búsquedas agotado, fuentes parciales" }
+  ]
+}
