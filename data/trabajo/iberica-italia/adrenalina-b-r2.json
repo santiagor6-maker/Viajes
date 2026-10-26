@@ -1,0 +1,573 @@
+{
+  "agente": "adrenalina",
+  "subregion": "iberica-italia",
+  "ronda": 2,
+  "alcance": "Solo IT, MT, SM, VA. Este archivo reemplaza los puntajes de adrenalina-b.json (ronda 1) de los ids que aparecen aquí. Los ids que no aparecen conservan el puntaje de la ronda 1 (ver sin_cambios).",
+  "nota_verificacion": "Se hicieron 20 búsquedas y WebFetch estaba bloqueado. Solo se citan como actividad las URL que aparecieron en los resultados y que son del operador o de un organismo oficial: sitio del operador, PADI/SSI, Italia.it (ENIT), VisitMalta, Visit Gozo, Dolomiti Superski, Seiser Alm o el organizador UCI. Las ofertas que solo aparecieron en plataformas de reventa (freedome.it, yumping, checkyeti, musement) o en prensa no se cuentan como actividad. Quedan en 'fuentes_secundarias' para verificarlas en la próxima ronda. Política para MT, SM y VA, según cobertura.json: el puntaje mide la actividad que se hace desde el lugar. La oferta de un parque o de un archipiélago se acredita al lugar que sirve de base o al sitio de mar, y no se repite en monumentos ni museos vecinos.",
+  "sin_cambios": [
+    "it-venecia", "it-milan", "it-lago-de-como", "it-lago-de-garda", "it-verona", "it-turin", "it-cinque-terre", "it-bolonia", "it-ravena", "it-trieste", "it-florencia", "it-pisa", "it-lucca", "it-siena", "it-san-gimignano", "it-val-d-orcia", "it-asis", "it-orvieto", "it-roma", "it-napoles", "it-pompeya-herculano", "it-costa-amalfitana", "it-capri", "it-matera", "it-alberobello-valle-d-itria", "it-lecce", "it-tropea", "it-palermo-monreale", "it-siracusa-ortigia", "it-agrigento-valle-templos", "it-la-maddalena-costa-smeralda", "it-cagliari", "it-gardaland", "it-mirabilandia", "it-volo-dell-angelo"
+  ],
+  "puntajes": [
+    {
+      "id": "it-dolomitas",
+      "puntaje": 5,
+      "puntaje_ronda1": 5,
+      "justificacion": "Oferta de clase mundial ya documentada. Dolomiti Superski reúne 12 áreas y unos 1.200 km de pistas con un solo forfait, y la Sellaronda (40–45 km alrededor del macizo del Sella) arranca a unos 4 km del candidato. La Alpe di Siusi (Seiser Alm) forma parte del mismo dominio. Las vías ferratas y el parapente en tándem siguen sin verificar.",
+      "actividades": [
+        { "nombre": "Dolomiti Superski – Sellaronda (Passo Sella)", "tipo": "esqui", "km": 4, "lat": 46.5083, "lng": 11.7614, "temporada": "nov–may (temporada 2025-26: 29 nov–3 may)", "url": "https://www.dolomitisuperski.com/it/live-info/piste-aperte" },
+        { "nombre": "Alpe di Siusi / Seiser Alm (Dolomiti Superski)", "tipo": "esqui", "km": 15, "lat": 46.5410, "lng": 11.6150, "temporada": "dic–abr", "url": "https://www.seiser-alm.it/de/freizeit-aktiv/wintersport/dolomiti-superski/" }
+      ],
+      "pendiente_verificacion": ["Vías ferratas del Sella y de Cortina", "Parapente tándem Col Rodella"],
+      "verificacion": "parcial"
+    },
+    {
+      "id": "it-valle-de-aosta-monte-bianco",
+      "puntaje": 4,
+      "puntaje_ronda1": 5,
+      "justificacion": "Lo baja de 5 a 4 porque solo hay una actividad documentada. El Skyway Monte Bianco sale de Courmayeur (≈2 km) y sube en tres tramos hasta Punta Helbronner (3.466 m), que es además la puerta del freeride de la Vallée Blanche. Faltan fuentes oficiales del esquí de Courmayeur y del rafting en el Dora Baltea, que podrían devolverlo a 5.",
+      "actividades": [
+        { "nombre": "Skyway Monte Bianco (Courmayeur–Punta Helbronner, 3.466 m)", "tipo": "otro", "km": 2, "lat": 45.8170, "lng": 6.9550, "temporada": "todo el año (consultar cierres por mantenimiento y meteorología)", "url": "https://www.italia.it/it/valle-aosta/cosa-fare/funivia-skyway-montebianco-a-courmayeur" }
+      ],
+      "pendiente_verificacion": ["Esquí Courmayeur Mont Blanc", "Rafting Dora Baltea", "Canyoning en el valle de Aosta"],
+      "verificacion": "parcial"
+    },
+    {
+      "id": "it-lago-maggiore",
+      "puntaje": 4,
+      "puntaje_ronda1": 4,
+      "justificacion": "Mantiene el 4, ahora documentado. El salto de la presa de Verzasca (Ticino, Suiza, ≈43 km) tiene 220 m y es el bungee más alto de Europa: es el de GoldenEye y lo opera Trekking Team desde 1996. Es una actividad que justifica la excursión desde Stresa. El rafting en Valsesia sigue sin verificar.",
+      "actividades": [
+        { "nombre": "Bungee 007 en la presa de Verzasca (220 m, Trekking Team)", "tipo": "bungee", "km": 43, "lat": 46.2005, "lng": 8.8467, "temporada": "Semana Santa–fin de oct", "url": "https://www.trekking.ch/007-vip-event/?lang=en" }
+      ],
+      "pendiente_verificacion": ["Rafting/canyoning en Valsesia"],
+      "verificacion": "parcial"
+    },
+    {
+      "id": "it-etna",
+      "puntaje": 4,
+      "puntaje_ronda1": 4,
+      "justificacion": "Mantiene el 4 por una experiencia única ya documentada: la excursión guiada a los cráteres sommitali de uno de los volcanes más activos de Europa. Se sube en teleférico y 4x4 hasta la Torre del Filosofo (≈2.900 m), se sigue a pie unos 3 km y por encima de unos 2.900 m solo se puede ir con guía autorizado. No suma más: Etnaland está cerrado toda la temporada 2026 por un embargo judicial, y el body rafting del Alcantara solo aparece en plataformas de reventa.",
+      "actividades": [
+        { "nombre": "Excursión a los cráteres sommitali desde Etna Sud (teleférico + 4x4 + trekking guiado)", "tipo": "otro", "km": 2, "lat": 37.7340, "lng": 15.0000, "temporada": "según condiciones volcánicas y meteorológicas", "url": "https://www.italia.it/it/sicilia/nicolosi/esperienze/monte-etna-escursione-ai-crateri-sommitali-da-etna-sud-tiqets-1012359" }
+      ],
+      "pendiente_verificacion": ["Esquí Etna Sud/Nord", "Body rafting en las Gole dell'Alcantara (solo plataformas)"],
+      "fuentes_secundarias": [
+        { "nota": "Etnaland no abre en 2026 (embargo)", "url": "https://www.lasicilia.it/news/cronaca/3053815/etnaland-non-riaprira-stagione-2026-cancellata-la-proprieta-getta-la-spugna-200-posti-di-lavoro-a-rischio.html" },
+        { "nota": "Body rafting en el Alcantara (plataforma)", "url": "https://freedome.it/attivita/body-rafting-1h-gole-alcantara/" }
+      ],
+      "verificacion": "parcial"
+    },
+    {
+      "id": "it-taormina",
+      "puntaje": 3,
+      "puntaje_ronda1": 4,
+      "justificacion": "Lo baja de 4 a 3. La actividad documentada es la excursión a los cráteres del Etna, que sale de Etna Sud (≈28 km). El body rafting y el canyoning en las Gole dell'Alcantara (≈15 km) solo se ofrecen en plataformas de reventa y no hay sitio oficial de ningún operador. Etnaland está cerrado en 2026.",
+      "actividades": [
+        { "nombre": "Excursión a los cráteres sommitali del Etna (desde Etna Sud)", "tipo": "otro", "km": 28, "lat": 37.7340, "lng": 15.0000, "temporada": "según condiciones volcánicas y meteorológicas", "url": "https://www.italia.it/it/sicilia/nicolosi/esperienze/monte-etna-escursione-ai-crateri-sommitali-da-etna-sud-tiqets-1012359" }
+      ],
+      "pendiente_verificacion": ["Body rafting/canyoning en las Gole dell'Alcantara (operador oficial)"],
+      "fuentes_secundarias": [
+        { "nota": "Canyoning en el Alcantara (plataforma)", "url": "https://freedome.it/canyoning/gole-dell-alcantara/" },
+        { "nota": "Etnaland no abre en 2026", "url": "https://www.lasicilia.it/news/cronaca/3053815/etnaland-non-riaprira-stagione-2026-cancellata-la-proprieta-getta-la-spugna-200-posti-di-lavoro-a-rischio.html" }
+      ],
+      "verificacion": "parcial"
+    },
+    {
+      "id": "it-islas-eolias",
+      "puntaje": 4,
+      "puntaje_ronda1": 4,
+      "justificacion": "Mantiene el 4 por una experiencia única ya documentada. Se sube en grupo guiado al Stromboli (≈43 km del centro del archipiélago) para ver de noche las explosiones de un volcán en erupción continua, y por encima de 400 m es obligatorio ir con guía alpino o vulcanológico. El cráter de Vulcano y el buceo volcánico siguen sin verificar.",
+      "actividades": [
+        { "nombre": "Trekking guiado a los cráteres del Stromboli (Volcano Adventures con Magmatrek)", "tipo": "otro", "km": 43, "lat": 38.7930, "lng": 15.2110, "temporada": "15 mar–1 nov", "url": "https://www.volcanoadventures.com/fr/voyages/italie/stromboli-trekking.html" }
+      ],
+      "pendiente_verificacion": ["Cráter de Vulcano", "Buceo en las Eolias"],
+      "verificacion": "parcial"
+    },
+    {
+      "id": "it-golfo-di-orosei",
+      "puntaje": 3,
+      "puntaje_ronda1": 4,
+      "justificacion": "Lo baja de 4 a 3. Lo documentado es el trekking guiado por la Gola di Gorropu (≈17 km): unos 12 km con 4x4 hasta el inicio y avance lento entre bloques de caliza. Es aventura, pero no de alta adrenalina. No se encontró sitio oficial de ningún operador de canyoning, escalada en Cala Gonone o buceo en cuevas.",
+      "actividades": [
+        { "nombre": "Trekking guiado a la Gola di Gorropu desde Cala Gonone (TUI)", "tipo": "otro", "km": 17, "lat": 40.1850, "lng": 9.5000, "temporada": "mejor en primavera y otoño", "url": "https://www.tui.co.uk/things-to-do/sardinia/gorropu-canyon-trekking-with-lunch-from-cala-gonone-441077/" }
+      ],
+      "pendiente_verificacion": ["Escalada deportiva en Cala Gonone", "Buceo en cuevas del golfo"],
+      "verificacion": "parcial"
+    },
+    {
+      "id": "it-paestum",
+      "puntaje": 2,
+      "puntaje_ronda1": 3,
+      "justificacion": "Lo baja de 3 a 2. El rafting en la Gola del Calore (Felitto, ≈20 km) solo aparece en plataformas de reventa, y una de ellas lo da como no disponible. No hay ningún operador oficial verificado.",
+      "actividades": [],
+      "pendiente_verificacion": ["Rafting en el río Calore (Felitto/Postiglione)"],
+      "fuentes_secundarias": [
+        { "nota": "Rafting Calore (plataforma)", "url": "https://freedome.it/en/activity/rafting-calore-river-cilento/" }
+      ],
+      "verificacion": "pendiente"
+    },
+    {
+      "id": "it-parque-gran-paradiso",
+      "puntaje": 3,
+      "justificacion": "Al menos una actividad notable. El Skyway Monte Bianco queda a ≈39 km de Cogne. La escalada en hielo de Cogne, una de las referencias europeas de las cascadas heladas, sigue sin fuente oficial.",
+      "actividades": [
+        { "nombre": "Skyway Monte Bianco (Courmayeur)", "tipo": "otro", "km": 39, "lat": 45.8170, "lng": 6.9550, "temporada": "todo el año (consultar cierres)", "url": "https://www.italia.it/it/valle-aosta/cosa-fare/funivia-skyway-montebianco-a-courmayeur" }
+      ],
+      "pendiente_verificacion": ["Escalada en cascadas de hielo de Cogne (guías alpinas)"],
+      "verificacion": "parcial"
+    },
+    {
+      "id": "it-parque-stelvio",
+      "puntaje": 3,
+      "justificacion": "Hay una actividad notable: el glaciar del Stelvio, con la mayor área de esquí de verano de los Alpes, abierta más o menos de finales de mayo a noviembre con teleféricos hasta Livrio. Solo aparece en prensa y no se encontró el sitio de la sociedad gestora, así que no pasa de 3.",
+      "actividades": [],
+      "pendiente_verificacion": ["Esquí de verano en el glaciar del Stelvio (web oficial del gestor de los remontes)"],
+      "fuentes_secundarias": [
+        { "nota": "Esquí de verano en el Stelvio (prensa)", "url": "https://www.ilgiorno.it/sondrio/cronaca/bormio-stelvio-aperto-1.4642108" }
+      ],
+      "verificacion": "pendiente"
+    },
+    {
+      "id": "it-parque-abruzzo",
+      "puntaje": 3,
+      "justificacion": "Al menos una actividad notable: el dominio Alto Sangro (Roccaraso–Aremogna–Pizzalto, más de 100 km de pistas), el mayor de los Apeninos, está a ≈25 km de Pescasseroli. Solo hay fuentes de prensa y no se encontró la web del operador.",
+      "actividades": [],
+      "pendiente_verificacion": ["Esquí en Roccaraso/Alto Sangro (web oficial)"],
+      "fuentes_secundarias": [
+        { "nota": "Roccaraso (prensa)", "url": "https://www.idealista.it/news/node/324134" }
+      ],
+      "verificacion": "pendiente"
+    },
+    {
+      "id": "it-pollino",
+      "puntaje": 3,
+      "justificacion": "Tiene una actividad notable, de primer nivel en Italia: el rafting en las gargantas del Lao (Laino Borgo, ≈10 km), un geositio del parque con tramos de 16–29 km, además de canyoning (Iannello, Raganello). Los operadores, como Pollino Rafting, solo aparecieron en plataformas de reserva. Sin web oficial no pasa de 3, aunque con ella subiría a 4.",
+      "actividades": [],
+      "pendiente_verificacion": ["Rafting en el Lao (Pollino Rafting, Laino Borgo)", "Canyoning en el Raganello"],
+      "fuentes_secundarias": [
+        { "nota": "Pollino Rafting (directorio)", "url": "https://www.yumping.com/en/multiadventure/pollino-rafting--e19754454" },
+        { "nota": "Rafting en el Lao (plataforma)", "url": "https://freedome.it/en/activity/rafting-grand-canyon-lao-river/" }
+      ],
+      "verificacion": "pendiente"
+    },
+    {
+      "id": "it-sila",
+      "puntaje": 2,
+      "justificacion": "Algo menor: la pequeña estación de esquí de Camigliatello (Monte Curcio). No se verificó en esta ronda.",
+      "actividades": [],
+      "pendiente_verificacion": ["Esquí en Camigliatello Silano"],
+      "verificacion": "pendiente"
+    },
+    {
+      "id": "it-gargano",
+      "puntaje": 2,
+      "justificacion": "Algo menor: kayak por las grutas marinas de Vieste y coasteering en la costa de acantilados. No se documentó ningún operador.",
+      "actividades": [],
+      "pendiente_verificacion": ["Kayak/coasteering en Vieste"],
+      "verificacion": "pendiente"
+    },
+    {
+      "id": "it-cilento",
+      "puntaje": 2,
+      "justificacion": "Algo menor. El rafting en la Gola del Calore (≈37 km) y el coasteering en Palinuro solo aparecen en plataformas de reventa, sin operador oficial.",
+      "actividades": [],
+      "pendiente_verificacion": ["Rafting en el Calore", "Coasteering/buceo en Palinuro"],
+      "fuentes_secundarias": [
+        { "nota": "Rafting Cilento (plataforma)", "url": "https://freedome.it/rafting/cilento/" }
+      ],
+      "verificacion": "pendiente"
+    },
+    {
+      "id": "it-foreste-casentinesi",
+      "puntaje": 1,
+      "justificacion": "Mínimo: senderismo de bosque. El circuito de Mugello (≈42 km) no está verificado.",
+      "actividades": [],
+      "verificacion": "sin_oferta"
+    },
+    {
+      "id": "it-padova",
+      "puntaje": 1,
+      "justificacion": "Mínimo. Gardaland queda a ≈90 km, fuera del radio. El parapente del Monte Grappa (≈46 km) solo aparece en plataformas de reventa.",
+      "actividades": [],
+      "pendiente_verificacion": ["Parapente tándem en Monte Grappa (Borso del Grappa)"],
+      "verificacion": "pendiente"
+    },
+    {
+      "id": "it-urbino",
+      "puntaje": 2,
+      "justificacion": "Algo menor: Aquafan, en Riccione (≈29 km), uno de los grandes parques acuáticos de Italia (unos 3 km de toboganes), con perfil más familiar que extremo. Mirabilandia queda fuera del radio.",
+      "actividades": [
+        { "nombre": "Aquafan (Riccione)", "tipo": "parque_acuatico", "km": 29, "lat": 43.9862, "lng": 12.6537, "temporada": "jun–sep (1 jun–15 sep según Italia.it)", "url": "https://www.italia.it/it/emilia-romagna/aquafan-riccione" }
+      ],
+      "verificacion": "completa"
+    },
+    {
+      "id": "it-mantova-sabbioneta",
+      "puntaje": 4,
+      "justificacion": "Gardaland, uno de los grandes parques de Europa, está a ≈34 km. Es una oferta notable dentro del radio, aunque menos cercana que desde Verona o el Garda.",
+      "actividades": [
+        { "nombre": "Gardaland", "tipo": "parque_diversiones", "km": 34, "lat": 45.4550, "lng": 10.7140, "temporada": "mar–nov (+ eventos Halloween/Navidad)", "url": "https://www.gardaland.it/" }
+      ],
+      "verificacion": "completa"
+    },
+    {
+      "id": "it-ferrara",
+      "puntaje": 1,
+      "justificacion": "Mínimo. Mirabilandia queda a ≈75 km, fuera del radio, y en la llanura del Po no hay actividades de aventura relevantes.",
+      "actividades": [],
+      "verificacion": "sin_oferta"
+    },
+    {
+      "id": "it-genova",
+      "puntaje": 3,
+      "justificacion": "Al menos una actividad notable: la Finale Outdoor Region (≈54 km), de clase mundial en escalada y mountain bike, que en octubre de 2026 acogió el Mundial UCI de Enduro.",
+      "actividades": [
+        { "nombre": "Finale Outdoor Region (MTB enduro y escalada)", "tipo": "otro", "km": 54, "lat": 44.1693, "lng": 8.3435, "temporada": "todo el año", "url": "https://ucimtbworldseries.com/news/finale-outdoor-region-courses-released" }
+      ],
+      "verificacion": "completa"
+    },
+    {
+      "id": "it-langhe-barolo",
+      "puntaje": 2,
+      "justificacion": "Algo menor. Finale Ligure está a ≈59 km, en el límite del radio y a más de una hora por carretera. En las propias Langhe no hay oferta de aventura destacada.",
+      "actividades": [
+        { "nombre": "Finale Outdoor Region (MTB enduro y escalada)", "tipo": "otro", "km": 59, "lat": 44.1693, "lng": 8.3435, "temporada": "todo el año", "url": "https://ucimtbworldseries.com/news/finale-outdoor-region-courses-released" }
+      ],
+      "verificacion": "completa"
+    },
+    {
+      "id": "it-chianti-classico",
+      "puntaje": 1,
+      "justificacion": "Mínimo: zona de viñedos sin actividades de aventura relevantes. El circuito de Mugello (≈46 km) no está verificado.",
+      "actividades": [],
+      "verificacion": "sin_oferta"
+    },
+    {
+      "id": "it-parma",
+      "puntaje": 1,
+      "justificacion": "Mínimo: no hay parques ni actividades de aventura relevantes a menos de 60 km.",
+      "actividades": [],
+      "verificacion": "sin_oferta"
+    },
+    {
+      "id": "it-modena",
+      "puntaje": 2,
+      "justificacion": "Algo menor: experiencias de conducción en el entorno Ferrari de Maranello (≈17 km) y en el Autodromo di Modena. No se verificaron en esta ronda.",
+      "actividades": [],
+      "pendiente_verificacion": ["Experiencias de conducción Ferrari en Maranello", "Autodromo di Modena"],
+      "verificacion": "pendiente"
+    },
+    {
+      "id": "it-franciacorta",
+      "puntaje": 3,
+      "justificacion": "Al menos una actividad notable: Leolandia (≈34 km), un parque temático de perfil familiar. Gardaland queda justo en el límite del radio (≈60 km).",
+      "actividades": [
+        { "nombre": "Leolandia", "tipo": "parque_diversiones", "km": 34, "lat": 45.6040, "lng": 9.5300, "temporada": "mar–ene (por calendario)", "url": "https://www.leolandia.it/" },
+        { "nombre": "Gardaland", "tipo": "parque_diversiones", "km": 60, "lat": 45.4550, "lng": 10.7140, "temporada": "mar–nov (+ eventos Halloween/Navidad)", "url": "https://www.gardaland.it/" }
+      ],
+      "verificacion": "completa"
+    },
+    {
+      "id": "it-colinas-prosecco",
+      "puntaje": 2,
+      "justificacion": "Algo menor. El Monte Grappa (Borso del Grappa, ≈18 km) es un despegue de parapente en tándem muy conocido, a 1.550–1.770 m, pero solo se encontró en plataformas de reventa y no se cuenta hasta tener un operador oficial. Con él subiría a 3.",
+      "actividades": [],
+      "pendiente_verificacion": ["Parapente tándem en Monte Grappa (operador oficial)"],
+      "fuentes_secundarias": [
+        { "nota": "Parapente Monte Grappa (plataforma)", "url": "https://freedome.it/parapendio/monte-grappa/" }
+      ],
+      "verificacion": "pendiente"
+    },
+    {
+      "id": "it-su-nuraxi-barumini",
+      "puntaje": 1,
+      "justificacion": "Mínimo: sitio arqueológico del interior de Cerdeña, sin actividades de aventura relevantes en el radio.",
+      "actividades": [],
+      "verificacion": "sin_oferta"
+    },
+    {
+      "id": "it-villa-romana-del-casale",
+      "puntaje": 1,
+      "justificacion": "Mínimo. Los cráteres del Etna quedan a ≈72 km, fuera del radio.",
+      "actividades": [],
+      "verificacion": "sin_oferta"
+    },
+    {
+      "id": "it-val-di-noto",
+      "puntaje": 2,
+      "justificacion": "Algo menor: los laghetti y el descenso por la Cavagrande del Cassibile, más el buceo del Plemmirio. Ninguno está verificado.",
+      "actividades": [],
+      "pendiente_verificacion": ["Cavagrande del Cassibile", "Buceo Plemmirio"],
+      "verificacion": "pendiente"
+    },
+    {
+      "id": "mt-dwejra",
+      "puntaje": 5,
+      "puntaje_ronda1": 5,
+      "justificacion": "Mantiene el 5, ahora documentado. El Blue Hole (unos 15 m de media y 25 m de máximo, con nivel Advanced recomendado) y el túnel del Inland Sea hacia mar abierto figuran entre las inmersiones de referencia del Mediterráneo. El centro PADI 5 Estrellas de Xlendi está a ≈3 km.",
+      "actividades": [
+        { "nombre": "Buceo en el Blue Hole y restos del Azure Window", "tipo": "otro", "km": 0, "lat": 36.0535, "lng": 14.1885, "temporada": "todo el año", "url": "https://www.padi.com/dive-site/malta/blue-hole-and-remains-of-azure-window/" },
+        { "nombre": "Túnel del Inland Sea (Dwejra)", "tipo": "otro", "km": 0, "lat": 36.0500, "lng": 14.1940, "temporada": "todo el año", "url": "https://visitgozo.com/2024/04/24/top-10-diving-sites-in-gozo-and-comino/" },
+        { "nombre": "Utina Diving (PADI 5 Star, Xlendi)", "tipo": "otro", "km": 3, "lat": 36.0290, "lng": 14.2160, "temporada": "todo el año", "url": "https://www.padi.com/dive-center/malta/utina-diving/" }
+      ],
+      "verificacion": "completa"
+    },
+    {
+      "id": "mt-xlendi",
+      "puntaje": 4,
+      "puntaje_ronda1": 4,
+      "justificacion": "Mantiene el 4, ahora documentado. Aquí está el único centro PADI 5 Estrellas de Xlendi, con acceso directo al arrecife y al túnel de Xlendi (cuevas e inmersión nocturna), y el Blue Hole de Dwejra queda a ≈4 km.",
+      "actividades": [
+        { "nombre": "Utina Diving (PADI 5 Star) – Xlendi Reef & Tunnel", "tipo": "otro", "km": 0, "lat": 36.0290, "lng": 14.2160, "temporada": "todo el año", "url": "https://www.padi.com/dive-center/malta/utina-diving/" },
+        { "nombre": "Buceo en el Blue Hole (Dwejra)", "tipo": "otro", "km": 4, "lat": 36.0535, "lng": 14.1885, "temporada": "todo el año", "url": "https://www.padi.com/dive-site/malta/blue-hole-and-remains-of-azure-window/" }
+      ],
+      "verificacion": "completa"
+    },
+    {
+      "id": "mt-comino-laguna-azul",
+      "puntaje": 4,
+      "puntaje_ronda1": 4,
+      "justificacion": "Mantiene el 4, ahora documentado. Están las cuevas de Santa Marija, accesibles a buceadores con poca experiencia, el pecio P31 (11–20 m) y, a ≈3 km, los pecios de Ċirkewwa (P29 y Rozi).",
+      "actividades": [
+        { "nombre": "Cuevas de Santa Marija y pecio P31 (Comino)", "tipo": "otro", "km": 1, "lat": 36.0140, "lng": 14.3370, "temporada": "todo el año", "url": "https://visitgozo.com/2024/04/24/top-10-diving-sites-in-gozo-and-comino/" },
+        { "nombre": "Buceo en Ċirkewwa (pecios P29 y Rozi) con Dive Vision Malta", "tipo": "otro", "km": 3, "lat": 35.9880, "lng": 14.3290, "temporada": "todo el año; barco may–oct", "url": "https://www.divessi.com/en/divecenter/dive-vision-malta-ltd-lo-mellieha-735633" }
+      ],
+      "verificacion": "completa"
+    },
+    {
+      "id": "mt-mellieha",
+      "puntaje": 4,
+      "puntaje_ronda1": 4,
+      "justificacion": "Mantiene el 4, ahora documentado. Hay un centro de buceo en la bahía (Dive Vision, ≈2 km) y, a ≈5 km, Ċirkewwa, uno de los mejores puntos de Malta, con dos pecios y un arco a 27 m. Splash & Fun queda a ≈8 km.",
+      "actividades": [
+        { "nombre": "Buceo en Ċirkewwa (pecios P29 y Rozi) con Dive Vision Malta", "tipo": "otro", "km": 5, "lat": 35.9880, "lng": 14.3290, "temporada": "todo el año; barco may–oct", "url": "https://www.divessi.com/en/divecenter/dive-vision-malta-ltd-lo-mellieha-735633" },
+        { "nombre": "Splash & Fun Water Park (Baħar iċ-Ċagħaq)", "tipo": "parque_acuatico", "km": 8, "lat": 35.9440, "lng": 14.4520, "temporada": "finales de may–finales de oct", "url": "https://www.visitmalta.com/en/?p=23075" }
+      ],
+      "verificacion": "completa"
+    },
+    {
+      "id": "mt-golden-bay",
+      "puntaje": 3,
+      "puntaje_ronda1": 4,
+      "justificacion": "Lo baja de 4 a 3. Es una playa sin actividad propia documentada, y lo más cercano es el buceo en Ċirkewwa (≈6 km).",
+      "actividades": [
+        { "nombre": "Buceo en Ċirkewwa (pecios P29 y Rozi) con Dive Vision Malta", "tipo": "otro", "km": 6, "lat": 35.9880, "lng": 14.3290, "temporada": "todo el año; barco may–oct", "url": "https://www.divessi.com/en/divecenter/dive-vision-malta-ltd-lo-mellieha-735633" }
+      ],
+      "verificacion": "completa"
+    },
+    {
+      "id": "mt-ramla-bay",
+      "puntaje": 3,
+      "puntaje_ronda1": 4,
+      "justificacion": "Lo baja de 4 a 3. Es una playa de arena sin actividad propia. Las cuevas de Comino (≈7 km) y el centro PADI de Xlendi (≈7 km) son lo más cercano.",
+      "actividades": [
+        { "nombre": "Cuevas de Santa Marija y pecio P31 (Comino)", "tipo": "otro", "km": 7, "lat": 36.0140, "lng": 14.3370, "temporada": "todo el año", "url": "https://visitgozo.com/2024/04/24/top-10-diving-sites-in-gozo-and-comino/" }
+      ],
+      "verificacion": "completa"
+    },
+    {
+      "id": "mt-valletta",
+      "puntaje": 3,
+      "puntaje_ronda1": 4,
+      "justificacion": "Lo baja de 4 a 3 porque es una ciudad monumental sin actividad propia. Como base tiene a mano el parque acuático Splash & Fun (≈8 km) y el buceo de Ċirkewwa (≈19 km). La oferta de buceo de Gozo y Comino se acredita a los sitios de mar.",
+      "actividades": [
+        { "nombre": "Splash & Fun Water Park (Baħar iċ-Ċagħaq)", "tipo": "parque_acuatico", "km": 8, "lat": 35.9440, "lng": 14.4520, "temporada": "finales de may–finales de oct", "url": "https://www.visitmalta.com/en/?p=23075" }
+      ],
+      "verificacion": "completa"
+    },
+    {
+      "id": "mt-sliema-st-julians",
+      "puntaje": 3,
+      "justificacion": "Al menos una actividad notable a mano: Splash & Fun (≈6 km) y el buceo de Ċirkewwa (≈18 km). Es una zona urbana y de ocio sin actividad de adrenalina propia documentada.",
+      "actividades": [
+        { "nombre": "Splash & Fun Water Park (Baħar iċ-Ċagħaq)", "tipo": "parque_acuatico", "km": 6, "lat": 35.9440, "lng": 14.4520, "temporada": "finales de may–finales de oct", "url": "https://www.visitmalta.com/en/?p=23075" }
+      ],
+      "verificacion": "completa"
+    },
+    {
+      "id": "mt-tres-ciudades",
+      "puntaje": 3,
+      "puntaje_ronda1": 4,
+      "justificacion": "Lo baja de 4 a 3. Es un conjunto histórico portuario sin actividad propia, y lo más cercano es Splash & Fun (≈9 km).",
+      "actividades": [
+        { "nombre": "Splash & Fun Water Park (Baħar iċ-Ċagħaq)", "tipo": "parque_acuatico", "km": 9, "lat": 35.9440, "lng": 14.4520, "temporada": "finales de may–finales de oct", "url": "https://www.visitmalta.com/en/?p=23075" }
+      ],
+      "verificacion": "completa"
+    },
+    {
+      "id": "mt-victoria-ciudadela",
+      "puntaje": 3,
+      "puntaje_ronda1": 4,
+      "justificacion": "Lo baja de 4 a 3. Es una ciudad con ciudadela y sin actividad propia. Sirve de base para bucear en Gozo: el centro PADI de Xlendi está a ≈3 km y el Blue Hole a ≈5 km, pero esa oferta se acredita a los sitios de mar.",
+      "actividades": [
+        { "nombre": "Utina Diving (PADI 5 Star, Xlendi)", "tipo": "otro", "km": 3, "lat": 36.0290, "lng": 14.2160, "temporada": "todo el año", "url": "https://www.padi.com/dive-center/malta/utina-diving/" }
+      ],
+      "verificacion": "completa"
+    },
+    {
+      "id": "mt-mdina-rabat",
+      "puntaje": 2,
+      "puntaje_ronda1": 4,
+      "justificacion": "Lo baja de 4 a 2. Es una ciudad amurallada del interior sin ninguna actividad de adrenalina propia. El parque acuático y el buceo de la isla se acreditan a otros lugares.",
+      "actividades": [],
+      "verificacion": "sin_oferta"
+    },
+    {
+      "id": "mt-hipogeo-hal-saflieni",
+      "puntaje": 2,
+      "puntaje_ronda1": 4,
+      "justificacion": "Lo baja de 4 a 2. Es un sitio arqueológico subterráneo (con los templos de Tarxien) de visita con cupo, y no tiene actividad de aventura propia.",
+      "actividades": [],
+      "verificacion": "sin_oferta"
+    },
+    {
+      "id": "mt-ggantija",
+      "puntaje": 2,
+      "puntaje_ronda1": 4,
+      "justificacion": "Lo baja de 4 a 2. Es un templo megalítico sin actividad propia. El buceo de Gozo se acredita a Dwejra, Xlendi y Comino.",
+      "actividades": [],
+      "verificacion": "sin_oferta"
+    },
+    {
+      "id": "mt-marsaxlokk",
+      "puntaje": 2,
+      "puntaje_ronda1": 4,
+      "justificacion": "Lo baja de 4 a 2. Es un pueblo pesquero con mercado. Los saltos desde la roca en St Peter's Pool son menores y no tienen operador, y Splash & Fun queda a ≈14 km.",
+      "actividades": [],
+      "verificacion": "sin_oferta"
+    },
+    {
+      "id": "mt-hagar-qim-mnajdra-gruta-azul",
+      "puntaje": 2,
+      "puntaje_ronda1": 4,
+      "justificacion": "Lo baja de 4 a 2. Son templos megalíticos más el paseo en barca a la Gruta Azul, que no es adrenalina. El buceo en Wied iż-Żurrieq (pecio Um El Faroud) no se documentó con operador oficial.",
+      "actividades": [],
+      "pendiente_verificacion": ["Buceo en Wied iż-Żurrieq / pecio Um El Faroud"],
+      "verificacion": "pendiente"
+    },
+    {
+      "id": "mt-acantilados-dingli",
+      "puntaje": 2,
+      "puntaje_ronda1": 4,
+      "justificacion": "Lo baja de 4 a 2. Es senderismo de acantilado. La escalada sobre el mar no se documentó con operador oficial.",
+      "actividades": [],
+      "pendiente_verificacion": ["Escalada en los acantilados del sur de Malta"],
+      "verificacion": "pendiente"
+    },
+    {
+      "id": "sm-centro-historico",
+      "puntaje": 3,
+      "puntaje_ronda1": 4,
+      "justificacion": "Lo baja de 4 a 3. Como base para la Riviera tiene Aquafan en Riccione (≈17 km), uno de los grandes parques acuáticos de Italia, y Mirabilandia en el límite del radio (≈47 km, ya acreditado a Rávena). En el Monte Titano no hay actividad de adrenalina documentada: no se encontraron fuentes oficiales de vías de escalada ni de tramos asegurados.",
+      "actividades": [
+        { "nombre": "Aquafan (Riccione)", "tipo": "parque_acuatico", "km": 17, "lat": 43.9862, "lng": 12.6537, "temporada": "jun–sep (1 jun–15 sep según Italia.it)", "url": "https://www.italia.it/it/emilia-romagna/aquafan-riccione" },
+        { "nombre": "Mirabilandia (con Mirabeach)", "tipo": "parque_diversiones", "km": 47, "lat": 44.3390, "lng": 12.2630, "temporada": "abr–nov", "url": "https://www.mirabilandia.it/" }
+      ],
+      "pendiente_verificacion": ["Escalada en la cara este del Titano", "Misano World Circuit"],
+      "verificacion": "completa"
+    },
+    {
+      "id": "sm-borgo-maggiore",
+      "puntaje": 3,
+      "puntaje_ronda1": 4,
+      "justificacion": "Lo baja de 4 a 3. Es la otra base del microestado, con Aquafan a ≈17 km y Mirabilandia a ≈47 km, en el límite del radio. El teleférico a la ciudad es un traslado y no cuenta como adrenalina.",
+      "actividades": [
+        { "nombre": "Aquafan (Riccione)", "tipo": "parque_acuatico", "km": 17, "lat": 43.9862, "lng": 12.6537, "temporada": "jun–sep (1 jun–15 sep según Italia.it)", "url": "https://www.italia.it/it/emilia-romagna/aquafan-riccione" }
+      ],
+      "verificacion": "completa"
+    },
+    {
+      "id": "sm-torre-guaita",
+      "puntaje": 2,
+      "puntaje_ronda1": 4,
+      "justificacion": "Lo baja de 4 a 2. Es una torre medieval visitable y el Passo delle Rupi es un sendero con vistas, no una actividad de adrenalina. Los parques de la Riviera se acreditan al centro histórico y a Rávena.",
+      "actividades": [],
+      "verificacion": "sin_oferta"
+    },
+    {
+      "id": "sm-torre-cesta",
+      "puntaje": 2,
+      "puntaje_ronda1": 4,
+      "justificacion": "Lo baja de 4 a 2. Es una fortaleza con museo de armas sin actividad de aventura propia. La oferta de la Riviera se acredita al centro histórico.",
+      "actividades": [],
+      "verificacion": "sin_oferta"
+    },
+    {
+      "id": "sm-torre-montale",
+      "puntaje": 2,
+      "puntaje_ronda1": 4,
+      "justificacion": "Lo baja de 4 a 2. La torre solo se ve desde fuera, al final del sendero de cresta, y no tiene actividad de aventura propia.",
+      "actividades": [],
+      "verificacion": "sin_oferta"
+    },
+    {
+      "id": "va-basilica-san-pedro",
+      "puntaje": 1,
+      "puntaje_ronda1": 4,
+      "justificacion": "Lo baja de 4 a 1. Es un monumento religioso de un enclave de 0,44 km², sin ninguna actividad propia. Cinecittà World y MagicLand ya se acreditan a it-roma y no se repiten aquí.",
+      "actividades": [],
+      "verificacion": "sin_oferta"
+    },
+    {
+      "id": "va-cupula-san-pedro",
+      "puntaje": 1,
+      "puntaje_ronda1": 4,
+      "justificacion": "Lo baja de 4 a 1. Subir los 551 escalones de la cúpula da vistas, pero no es adrenalina. Los parques de Roma se acreditan a it-roma.",
+      "actividades": [],
+      "verificacion": "sin_oferta"
+    },
+    {
+      "id": "va-museos-vaticanos",
+      "puntaje": 1,
+      "puntaje_ronda1": 4,
+      "justificacion": "Lo baja de 4 a 1. Es un museo sin actividad de aventura. Los parques de Roma se acreditan a it-roma.",
+      "actividades": [],
+      "verificacion": "sin_oferta"
+    },
+    {
+      "id": "va-capilla-sixtina",
+      "puntaje": 1,
+      "puntaje_ronda1": 4,
+      "justificacion": "Lo baja de 4 a 1. Es un interior artístico sin actividad de aventura. Los parques de Roma se acreditan a it-roma.",
+      "actividades": [],
+      "verificacion": "sin_oferta"
+    },
+    {
+      "id": "va-plaza-san-pedro",
+      "puntaje": 1,
+      "puntaje_ronda1": 4,
+      "justificacion": "Lo baja de 4 a 1. Es una plaza monumental sin actividad de aventura. Los parques de Roma se acreditan a it-roma.",
+      "actividades": [],
+      "verificacion": "sin_oferta"
+    },
+    {
+      "id": "va-jardines-vaticanos",
+      "puntaje": 1,
+      "puntaje_ronda1": 4,
+      "justificacion": "Lo baja de 4 a 1. Son jardines con visita guiada y sin actividad de aventura. Los parques de Roma se acreditan a it-roma.",
+      "actividades": [],
+      "verificacion": "sin_oferta"
+    }
+  ],
+  "nuevos": [
+    {
+      "id": "it-finale-ligure",
+      "nombre": "Finale Ligure (Finale Outdoor Region)",
+      "pais_iso": "IT",
+      "region": "Liguria",
+      "lat": 44.1693,
+      "lng": 8.3435,
+      "tipo": "otro",
+      "destino_propio": true,
+      "puntaje": 5,
+      "justificacion": "Es un destino outdoor de clase mundial en la Riviera di Ponente, con más de 200–250 senderos de mountain bike y unas 4.000 vías de escalada en la caliza de Finale. Acogió la Copa del Mundo UCI de MTB y, del 16 al 18 de octubre de 2026, el Mundial UCI de Enduro y E-Enduro. Justifica el viaje por sí solo para ciclistas y escaladores, y se combina con la playa. Se practica todo el año, mejor de otoño a primavera. Génova queda a ≈54 km.",
+      "adrenalina_cerca": [
+        { "nombre": "Finale Outdoor Region (MTB enduro y escalada)", "tipo": "otro", "km": 0, "lat": 44.1693, "lng": 8.3435, "temporada": "todo el año", "url": "https://ucimtbworldseries.com/news/finale-outdoor-region-courses-released" }
+      ],
+      "fuentes": [
+        { "guia": "UCI Mountain Bike World Series (organizador oficial)", "url": "https://ucimtbworldseries.com/news/finale-outdoor-region-courses-released" },
+        { "guia": "Warner Bros. Discovery Sports (comunicado oficial, Mundial UCI 2026)", "url": "https://media.wbdsports.com/post/finale-outdoor-region-liguria-to-host-the-2026-uci-mountain-bike" }
+      ]
+    }
+  ]
+}

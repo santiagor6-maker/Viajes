@@ -1,7 +1,7 @@
 {
   "pausado": false,
   "subregion": "iberica-italia",
-  "paso": "huecos",
+  "paso": "logistica",
   "ronda": 2,
   "orden_subregiones": [
     "iberica-italia",
@@ -12,7 +12,7 @@
     "este-caucaso-turquia"
   ],
   "terminadas": [],
-  "notas": "Fuentes no verificadas se corrigen en las rondas del revisor. No recortar países por superar 30 lugares: el usuario quiere muchos; cobertura solo pide lo que falte. Revisar puntajes de adrenalina inflados en MT/VA/SM.",
+  "notas": "Ronda 2: hacer logística SOLO de los ids nuevos de los archivos *-r2.json (los demás ya la tienen), luego curador (re-ejecutar scripts/curar.mjs, fusionar duplicados como Polignano y Torre Montale+Cesta), luego revisor. No recortar países por superar 30.",
   "historial": [
     {
       "fecha": "2026-10-26",
@@ -43,6 +43,12 @@
       "subregion": "iberica-italia",
       "paso": "cobertura",
       "resultado": "Solo AD cumple. Huecos regionales en ES/IT/PT; ~45 lugares nuevos sin puntaje cruzado; adrenalina inflada en MT/SM/VA. Siguiente: huecos (ronda 2)"
+    },
+    {
+      "fecha": "2026-10-26",
+      "subregion": "iberica-italia",
+      "paso": "huecos",
+      "resultado": "8 especialistas r2: ~53 lugares nuevos (Montserrat, Cíes, Priorat, Tivoli, Caserta, Elba, Egadi, Benagil, Guara, Finale Ligure...), puntuación cruzada completa, adrenalina corregida en MT/SM/VA"
     }
   ]
 }
