@@ -1,0 +1,640 @@
+{
+  "agente": "gastronomia-vino",
+  "subregion": "iberica-italia",
+  "ronda": 4,
+  "puntajes": [
+    {
+      "id": "es-la-rioja",
+      "puntaje": 5,
+      "justificacion": "Es la región vinícola más conocida de España. La D.O.Ca. Rioja tiene más de 600 bodegas, unas 200 abiertas al público, y supera el millón de visitas enoturísticas al año. Destacan el barrio de la Estación de Haro, Briones y la Rioja Alavesa, y la calle Laurel de Logroño es un clásico del pincho.",
+      "platos": ["Patatas a la riojana", "Chuletillas al sarmiento", "Pimientos del cristal", "Vino de Rioja"],
+      "fuentes": [
+        {"guia": "Consejo Regulador D.O.Ca. Rioja (Monitor de enoturismo)", "url": "https://riojawine.com/wp-content/uploads/2024/05/informe-monitor-2023.pdf"},
+        {"guia": "Nuevecuatrouno (datos del Consejo Regulador, 2026)", "url": "https://nuevecuatrouno.com/2026/05/11/enoturismo-rioja-imparable-mas-millon-visitas-anuales/"},
+        {"guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-spain-in-fall"}
+      ]
+    },
+    {
+      "id": "es-jerez-de-la-frontera",
+      "puntaje": 5,
+      "justificacion": "Es la capital del Marco de Jerez, una de las grandes regiones de vino generoso del mundo, con unas 100 bodegas bajo el Consejo Regulador, muchas visitables, y tabancos. Aponiente, con tres estrellas Michelin, está en El Puerto de Santa María, a 15 km.",
+      "platos": ["Finos y olorosos de Jerez", "Riñones al jerez", "Berza jerezana", "Tortillitas de camarones"],
+      "fuentes": [
+        {"guia": "Consejo Regulador D.O. Jerez-Xérès-Sherry", "url": "https://www.sherry.wine/news/cesar-saldana-elected-new-president-regulatory-council"},
+        {"guia": "Guía Michelin", "url": "https://guide.michelin.com/gb/en/article/michelin-guide-ceremony/all-michelin-star-restaurants-in-spain-2026-the-full-list"},
+        {"guia": "TasteAtlas", "url": "https://www.tasteatlas.com/best-rated-dishes-in-andalusia"}
+      ]
+    },
+    {
+      "id": "es-el-puerto-de-santa-maria",
+      "puntaje": 4,
+      "justificacion": "Es uno de los vértices del Marco de Jerez, con bodegas visitables y freidurías de marisco. Aquí está Aponiente, de Ángel León, con tres estrellas Michelin.",
+      "platos": ["Marisco cocido", "Pescaíto frito", "Vino fino", "Tortillitas de camarones"],
+      "fuentes": [
+        {"guia": "Consejo Regulador D.O. Jerez-Xérès-Sherry", "url": "https://www.sherry.wine/news/cesar-saldana-elected-new-president-regulatory-council"},
+        {"guia": "Guía Michelin", "url": "https://guide.michelin.com/gb/en/article/michelin-guide-ceremony/all-michelin-star-restaurants-in-spain-2026-the-full-list"},
+        {"guia": "TasteAtlas", "url": "https://www.tasteatlas.com/best-rated-dishes-in-andalusia"}
+      ]
+    },
+    {
+      "id": "es-ribera-del-duero",
+      "puntaje": 5,
+      "justificacion": "Es una de las dos grandes regiones de tinto de España, con unas 300 bodegas en Burgos, Segovia, Soria y Valladolid y nombres como Vega Sicilia o Pingus. Fue elegida mejor región vitícola del mundo en 2012. En Aranda hay bodegas subterráneas visitables, en el castillo de Peñafiel está el museo del vino, y la zona es la capital del lechazo asado en horno de leña.",
+      "platos": ["Lechazo asado", "Vino tinto de Ribera del Duero", "Morcilla de Burgos", "Torta de Aranda"],
+      "fuentes": [
+        {"guia": "Consejo Regulador D.O. Ribera del Duero (manifiesto 2026)", "url": "https://www.riberadelduero.es/sites/default/files/2026-07/Manifiesto.pdf"},
+        {"guia": "Consejo Regulador D.O. Ribera del Duero (nota de prensa)", "url": "https://riberadelduero.es/sites/default/files/noticias/a_new_era_in_the_history_of_ribera_del_duero.pdf"},
+        {"guia": "TasteAtlas", "url": "https://www.tasteatlas.com/best-rated-dishes-in-castile-and-leon"}
+      ]
+    },
+    {
+      "id": "es-priorat",
+      "puntaje": 5,
+      "justificacion": "Junto con Rioja, es una de las dos denominaciones de origen calificadas de España, con tintos de garnacha y cariñena en laderas de llicorella divididos en doce zonas de pueblo. Bodegas de Gratallops como Clos Mogador o Buil & Giné ofrecen visitas con cata, con cita previa, y la DOQ Priorat y la D.O. Montsant organizan juntas la oferta enoturística.",
+      "platos": ["Tinto DOQ Priorat (garnacha y cariñena)", "Vinos D.O. Montsant", "Aceite de oliva DOP Siurana", "Avellanas de Reus"],
+      "fuentes": [
+        {"guia": "Consell Regulador DOQ Priorat (dossier de prensa)", "url": "https://www.doqpriorat.org/wp-content/uploads/2019/05/DOSSIERPREMSA-ENG.pdf"},
+        {"guia": "Costa Daurada (turismo oficial)", "url": "https://costadaurada.info/en/taxonomy/term/181"}
+      ]
+    },
+    {
+      "id": "es-rias-baixas",
+      "puntaje": 4,
+      "justificacion": "El Val do Salnés (Cambados, O Grove, Sanxenxo) es el corazón del albariño y una de las cinco subzonas de la D.O. Rías Baixas, que reúne unas 180 bodegas, muchas visitables. Es también la mejor despensa marisquera de España, con la Festa do Marisco de O Grove.",
+      "platos": ["Albariño", "Mejillones y vieiras", "Navajas", "Pulpo á feira"],
+      "fuentes": [
+        {"guia": "Consello Regulador D.O. Rías Baixas (ficha técnica, AGACAL - Xunta de Galicia)", "url": "https://agacal.xunta.gal/sites/default/files/calidade-alimentaria/vinos/ficha-tecnica-do-rias-baixas-2022.pdf"},
+        {"guia": "Turismo de Galicia (subzonas de la D.O. Rías Baixas)", "url": "https://blog.turismo.gal/?p=10954"},
+        {"guia": "TasteAtlas", "url": "https://www.tasteatlas.com/galicia"}
+      ]
+    },
+    {
+      "id": "pt-valle-del-duero",
+      "puntaje": 5,
+      "justificacion": "Es la región vinícola del Duero, origen del vino de Oporto y de grandes tintos bajo las denominaciones Douro y Porto, con quintas visitables en bancales sobre el río. En 2026 Schistó, en Peso da Régua, ganó una estrella Michelin.",
+      "platos": ["Vino de Oporto y tintos del Douro", "Cabrito assado", "Bola de carne de Lamego"],
+      "fuentes": [
+        {"guia": "IVDP (Instituto dos Vinhos do Douro e do Porto)", "url": "https://www.ivdp.pt/media/fvkfjyay/carta-missão.pdf"},
+        {"guia": "Idealista (estrellas Michelin 2026)", "url": "https://www.idealista.pt/en/news/lifestyle-in-portugal/2026/03/12/74391-portugal-s-10-new-michelin-stars-in-2026"},
+        {"guia": "Fodor's", "url": "https://www.fodors.com/world/europe/portugal/porto-and-the-north"}
+      ]
+    },
+    {
+      "id": "pt-evora",
+      "puntaje": 4,
+      "justificacion": "Es la capital de la cocina alentejana y sede de la Rota dos Vinhos do Alentejo, el espacio de catas de la comisión vitivinícola regional. En 2026 A Cozinha do Paço (Évora) y MAPA (Montemor-o-Novo, a 30 km) ganaron estrella Michelin.",
+      "platos": ["Porco preto", "Migas alentejanas", "Açorda alentejana", "Vinos del Alentejo"],
+      "fuentes": [
+        {"guia": "VisitPortugal (turismo oficial, Alentejo)", "url": "https://www.visitportugal.com/pt-pt/destinos/alentejo/73795"},
+        {"guia": "Forbes Portugal (Rota de Vinhos do Alentejo)", "url": "https://www.forbespt.com/espaco-renovado-da-rota-de-vinhos-do-alentejo-reabre-com-oferta-exclusiva"},
+        {"guia": "Idealista (estrellas Michelin 2026)", "url": "https://www.idealista.pt/en/news/lifestyle-in-portugal/2026/03/12/74391-portugal-s-10-new-michelin-stars-in-2026"},
+        {"guia": "Euronews (estrellas Michelin 2026)", "url": "https://www.euronews.com/culture/2026/03/11/michelin-guide-2026-the-ten-new-portuguese-restaurants-honoured-with-a-star"}
+      ]
+    },
+    {
+      "id": "pt-vale-do-coa",
+      "puntaje": 3,
+      "justificacion": "Foz Côa está en el Douro Superior, la subregión más interior de la D.O. Douro, con quintas que reciben visitas con reserva previa, como Quinta do Vale Meão. Es una prolongación más tranquila del valle del Duero, con aceite y almendros en flor.",
+      "platos": ["Tintos del Douro Superior", "Vino de Oporto", "Aceite de oliva de Trás-os-Montes", "Amêndoas cobertas"],
+      "fuentes": [
+        {"guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/what-to-do-in-douro-valley-portugal"},
+        {"guia": "IVDP (Instituto dos Vinhos do Douro e do Porto)", "url": "https://www.ivdp.pt/media/fvkfjyay/carta-missão.pdf"}
+      ]
+    },
+    {
+      "id": "es-mallorca",
+      "puntaje": 4,
+      "justificacion": "Tiene una despensa propia muy marcada (ensaimada, sobrasada, pa amb oli) y vinos de las D.O. Binissalem y Pla i Llevant. Su alta cocina está reconocida: Zaranda y Voro tienen dos estrellas Michelin en 2026.",
+      "platos": ["Ensaimada", "Sobrasada", "Pa amb oli", "Tumbet"],
+      "fuentes": [
+        {"guia": "Guía Michelin", "url": "https://guide.michelin.com/gb/en/article/michelin-guide-ceremony/all-michelin-star-restaurants-in-spain-2026-the-full-list"},
+        {"guia": "TasteAtlas", "url": "https://www.tasteatlas.com/best-rated-dishes-in-mallorca"},
+        {"guia": "TasteAtlas", "url": "https://www.tasteatlas.com/mallorca"}
+      ]
+    },
+    {
+      "id": "es-tenerife-teide",
+      "puntaje": 4,
+      "justificacion": "Cocina canaria de papas arrugadas y mojos, guachinches del norte que sirven vino de cosecha propia y quesos isleños. Además, M.B y El Rincón de Juan Carlos tienen dos estrellas Michelin en 2026.",
+      "platos": ["Papas arrugadas con mojo", "Conejo en salmorejo", "Queso asado con mojo", "Vino del norte de Tenerife"],
+      "fuentes": [
+        {"guia": "Guía Michelin", "url": "https://guide.michelin.com/gb/en/article/michelin-guide-ceremony/all-michelin-star-restaurants-in-spain-2026-the-full-list"},
+        {"guia": "TasteAtlas", "url": "https://www.tasteatlas.com/tenerife"},
+        {"guia": "TasteAtlas", "url": "https://www.tasteatlas.com/best-rated-dishes-in-canary-islands"}
+      ]
+    },
+    {
+      "id": "es-valencia",
+      "puntaje": 5,
+      "justificacion": "Es la cuna de la paella, el plato más emblemático de la cocina española, con el Mercado Central, la huerta, la horchata de chufa y la Albufera. Ricard Camarena revalidó sus dos estrellas Michelin en 2025 y entró en la lista de los 100 mejores restaurantes del mundo.",
+      "platos": ["Paella valenciana", "Arroz del senyoret", "All i pebre", "Horchata con fartons"],
+      "fuentes": [
+        {"guia": "Visit València (turismo oficial)", "url": "https://www.visitvalencia.com/noticias/ricard-camarena-entra-en-la-lista-de-los-100-mejores-restaurantes-del-mundo"},
+        {"guia": "El Español (Ricard Camarena, 2026)", "url": "https://www.elespanol.com/valencia/oci/20260110/ricard-camarena-chef-anos-centro-valencia-tener-locales-unico-llegue-no/1003744083456_0.html"},
+        {"guia": "TasteAtlas", "url": "https://www.tasteatlas.com/valencia"},
+        {"guia": "TasteAtlas", "url": "https://www.tasteatlas.com/province-of-valencia"}
+      ]
+    },
+    {
+      "id": "es-oviedo",
+      "puntaje": 4,
+      "justificacion": "Hay sidrerías con escanciado en la calle Gascona y en Gijón y Villaviciosa, además de fabada, cachopo y quesos asturianos. En la región está Casa Marcial, con tres estrellas Michelin.",
+      "platos": ["Fabada asturiana", "Cachopo", "Chorizo a la sidra", "Sidra natural"],
+      "fuentes": [
+        {"guia": "TasteAtlas", "url": "https://www.tasteatlas.com/asturias"},
+        {"guia": "TasteAtlas", "url": "https://www.tasteatlas.com/most-popular-dishes-in-asturias"},
+        {"guia": "Guía Michelin", "url": "https://guide.michelin.com/gb/en/article/michelin-guide-ceremony/all-michelin-star-restaurants-in-spain-2026-the-full-list"}
+      ]
+    },
+    {
+      "id": "es-san-sebastian",
+      "puntaje": 5,
+      "justificacion": "Es una referencia mundial: Arzak y Akelaŕe tienen tres estrellas, y Martín Berasategui está en Lasarte-Oria, a 8 km. Los bares de pintxos de la Parte Vieja y la tarta de queso de La Viña completan una de las mayores densidades de estrellas por habitante del mundo.",
+      "platos": ["Gilda", "Tarta de queso de La Viña", "Txuleta a la brasa", "Kokotxas al pil-pil"],
+      "fuentes": [
+        {"guia": "Guía Michelin", "url": "https://guide.michelin.com/gb/en/article/michelin-guide-ceremony/all-michelin-star-restaurants-in-spain-2026-the-full-list"},
+        {"guia": "TasteAtlas", "url": "https://www.tasteatlas.com/best-dishes-in-san-sebastian"}
+      ]
+    },
+    {
+      "id": "es-pamplona",
+      "puntaje": 4,
+      "justificacion": "El Casco Viejo tiene una gran cultura del pintxo y del txikiteo, y Rodero, de Koldo Rodero, tiene una estrella Michelin con cocina navarra actual. La huerta de la Ribera aporta pimientos del piquillo, pochas y alcachofas.",
+      "platos": ["Pintxos del Casco Viejo", "Bacalao al ajoarriero", "Pimientos del piquillo rellenos", "Pochas a la navarra"],
+      "fuentes": [
+        {"guia": "Guía Michelin (Rodero)", "url": "https://guide.michelin.com/ar/es/comunidad-foral-de-navarra/pamplona/restaurante/rodero"}
+      ]
+    },
+    {
+      "id": "es-alcala-de-henares",
+      "puntaje": 3,
+      "justificacion": "Tiene tradición de tapa con la consumición en torno a la calle Mayor, y la Comunidad de Madrid apoya su ruta de tapas europea, con 27 establecimientos. De dulce, la costrada alcalaína y las almendras garrapiñadas de las Clarisas.",
+      "platos": ["Tapa con la bebida", "Costrada alcalaína", "Almendras garrapiñadas", "Huevos rotos"],
+      "fuentes": [
+        {"guia": "Comunidad de Madrid (ruta de tapas por Alcalá de Henares)", "url": "https://www.comunidad.madrid/node/89533"}
+      ]
+    },
+    {
+      "id": "es-aranjuez",
+      "puntaje": 3,
+      "justificacion": "La huerta real de la vega del Tajo da sus productos más famosos: fresas, fresones y espárragos de primavera. Casa José, recomendado por la Guía Michelin, basa su cocina en las verduras de esas huertas.",
+      "platos": ["Fresas y fresones de Aranjuez", "Espárragos de Aranjuez", "Faisán a la real", "Verduras de la huerta"],
+      "fuentes": [
+        {"guia": "Guía Michelin (Casa José)", "url": "https://guide.michelin.com/ar/es/comunidad-de-madrid/aranjuez/restaurante/casa-jose"}
+      ]
+    },
+    {
+      "id": "es-penedes",
+      "puntaje": 4,
+      "justificacion": "Sant Sadurní d'Anoia, la capital del cava, reúne unas 60 casas de cava, desde pequeños elaboradores hasta Codorníu, Freixenet o Raventós i Blanc, y varias abren sus cavas subterráneas. A 15 minutos, Vilafranca del Penedès tiene el Vinseum y es el centro de la D.O. Penedès, tierra del xarel·lo.",
+      "platos": ["Cava", "Vino blanco de xarel·lo", "Gall del Penedès", "Xató"],
+      "fuentes": [
+        {"guia": "Time Out (Sant Sadurní d'Anoia)", "url": "https://www.timeout.es/barcelona/es/viaje/alt-penedes-un-dia-en-sant-sadurni-danoia"},
+        {"guia": "Diputació de Barcelona (Barcelona és molt més)", "url": "https://www.barcelonaesmoltmes.cat/en/detallviatge/-/dades/3bd3LPr67IZT/detall/23_1_48/do-penedes"},
+        {"guia": "Ajuntament de Sant Sadurní (mapa turístico)", "url": "https://santsadurni.cat/ARXIUS/turisme/ESP_Mapa_StSadurni_69X48_2025.pdf"}
+      ]
+    },
+    {
+      "id": "pt-sintra",
+      "puntaje": 3,
+      "justificacion": "Tiene dulces propios con casas históricas: los travesseiros de la Piriquita y las queijadas, que TasteAtlas recomienda en Casa do Preto. En la costa se elabora el vino de Colares, de viñas en arena.",
+      "platos": ["Travesseiro de Sintra", "Queijada de Sintra", "Vino de Colares"],
+      "fuentes": [
+        {"guia": "Visit Sintra (turismo de Sintra)", "url": "https://visitsintra.travel/en/eat-drink/regional-flavours/travesseiros"},
+        {"guia": "TasteAtlas (Casa do Preto)", "url": "https://tasteatlas.com/casa-do-preto"}
+      ]
+    },
+    {
+      "id": "pt-guimaraes",
+      "puntaje": 3,
+      "justificacion": "Tiene repostería conventual propia, como el toucinho do céu de Guimarães, que mantienen casas históricas como Casa Costinhas. Se completa con la cocina minhota de rojões y el vinho verde de la región.",
+      "platos": ["Toucinho do céu de Guimarães", "Rojões à minhota", "Vinho verde"],
+      "fuentes": [
+        {"guia": "Comércio com História (Gobierno de Portugal, Casa Costinhas)", "url": "https://www.comerciocomhistoria.gov.pt/en/listings/casa-costynhas-doces-regionais-e-conventuais-lda-4424/"}
+      ]
+    },
+    {
+      "id": "pt-coimbra",
+      "puntaje": 3,
+      "justificacion": "A 20 km está la Mealhada, capital del leitão da Bairrada, que TasteAtlas sitúa entre los mejores platos de cerdo del mundo; la Rota da Bairrada recomienda casas como Pedro dos Leitões. En la ciudad se comen chanfana y pastéis de Tentúgal.",
+      "platos": ["Leitão da Bairrada", "Chanfana", "Pastel de Tentúgal"],
+      "fuentes": [
+        {"guia": "Rota da Bairrada (ruta del vino)", "url": "https://rotadabairrada.pt/en/where-to-eat/pedro-dos-leitoes-restaurant"},
+        {"guia": "NiT (ranking de TasteAtlas)", "url": "https://www.nit.pt/comida/gourmet-e-vinhos/tasteatlas-elegeu-os-melhores-pratos-de-porco-do-mundo-portugal-tem-tres-no-top-10"}
+      ]
+    },
+    {
+      "id": "pt-serra-da-estrela",
+      "puntaje": 3,
+      "justificacion": "Es la tierra del queijo Serra da Estrela DOP, de leche cruda de oveja y cuajo de cardo, con queserías como la Queijaria Vale da Estrela. También hay requeijão y embutidos de montaña.",
+      "platos": ["Queijo Serra da Estrela", "Requeijão", "Morcela da Guarda"],
+      "fuentes": [
+        {"guia": "TasteAtlas (Queijaria Vale da Estrela)", "url": "https://www.tasteatlas.com/queijaria-vale-da-estrela-queijo-serra-da-estrela-dop"},
+        {"guia": "Diario Oficial de la UE (DOP Queijo Serra da Estrela)", "url": "https://www.boe.es/doue/2013/167/L00010-00014.pdf"}
+      ]
+    },
+    {
+      "id": "pt-obidos",
+      "puntaje": 3,
+      "justificacion": "Es famoso por la ginja de Óbidos, licor de guinda que se sirve en vaso de chocolate y cuya solicitud de indicación geográfica se publicó en 2013, y por su festival internacional del chocolate.",
+      "platos": ["Ginja de Óbidos", "Pão de ló"],
+      "fuentes": [
+        {"guia": "Diário da República (solicitud IG Ginja de Óbidos e Alcobaça)", "url": "https://files.diariodarepublica.pt/2s/2013/05/094000000/1564315643.pdf"}
+      ]
+    },
+    {
+      "id": "pt-arrabida",
+      "puntaje": 3,
+      "justificacion": "Entre Azeitão y Setúbal se elabora el queijo de Azeitão DOP, de oveja y cuajo de cardo, en queserías artesanas como la de Vitor Fernandes en Palmela. Se suman el moscatel de Setúbal, con bodegas visitables, y el choco frito.",
+      "platos": ["Queijo de Azeitão", "Moscatel de Setúbal", "Choco frito"],
+      "fuentes": [
+        {"guia": "TasteAtlas (Queijo de Azeitão DOP)", "url": "https://www.tasteatlas.com/vitor-fernandes---queijaria-artesanal-queijo-de-azeitao-dop"}
+      ]
+    },
+    {
+      "id": "pt-aveiro",
+      "puntaje": 3,
+      "justificacion": "Tiene dulces muy propios: los ovos moles de Aveiro, con IGP. También hay caldeiradas de anguila de la ría y bacalao, y la Bairrada del leitão queda a 30 km.",
+      "platos": ["Ovos moles de Aveiro IGP", "Caldeirada de enguias", "Tripas de Aveiro", "Espumante da Bairrada"],
+      "fuentes": [
+        {"guia": "VisitPortugal (oficial)", "url": "https://www.visitportugal.com/pt-pt/destinos/aveiro/73753"}
+      ]
+    },
+    {
+      "id": "pt-viana-do-castelo",
+      "puntaje": 3,
+      "justificacion": "Está en el corazón del Vinho Verde: Ponte de Lima es la capital del arroz de sarrabulho y del Loureiro. En Viana hay bacalao, pescado del Atlántico y la repostería de las bolas de Berlim.",
+      "platos": ["Arroz de sarrabulho à moda de Ponte de Lima", "Vinho Verde Loureiro", "Bacalhau à Gil Eanes", "Sopa seca minhota"],
+      "fuentes": [
+        {"guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-viana-do-castelo-portugal"}
+      ]
+    },
+    {
+      "id": "pt-elvas",
+      "puntaje": 2,
+      "justificacion": "Es la ciudad de las ameixas d'Elvas DOP, ciruelas Rainha Cláudia Verde en almíbar que se sirven con sericaia, y de la cocina alentejana de porco preto; interés gastronómico moderado.",
+      "platos": ["Ameixas d'Elvas DOP", "Sericaia com ameixas", "Porco preto", "Açorda alentejana"],
+      "fuentes": [
+        {"guia": "DECO Proteste (DOP e IGP de fruta)", "url": "https://www.deco.proteste.pt/alimentacao/alimentacao-saudavel/dicas/fruta-legumes-dop-igp-garantem-origem-produtos"}
+      ]
+    },
+    {
+      "id": "it-lago-de-orta",
+      "puntaje": 4,
+      "justificacion": "Villa Crespi, de Antonino Cannavacciuolo, en Orta San Giulio, tiene tres estrellas Michelin desde 2022 y las mantiene en 2026. Cerca están el gorgonzola de Novara y los tintos del Alto Piamonte (Ghemme, Gattinara).",
+      "platos": ["Gorgonzola DOP", "Ghemme DOCG", "Mortadella di fegato (mortadella d'Orta)", "Pescado de lago"],
+      "fuentes": [
+        {"guia": "Guía Michelin (Villa Crespi)", "url": "https://guide.michelin.com/ch/it/piemonte/orta-san-giulio/ristorante/villa-crespi"},
+        {"guia": "Guía Michelin (tres estrellas Italia 2026)", "url": "https://guide.michelin.com/gb/en/article/michelin-guide-ceremony/a-new-3-star-restaurant-in-the-michelin-guide-italy-2026"}
+      ]
+    },
+    {
+      "id": "it-venecia",
+      "puntaje": 4,
+      "justificacion": "Tiene una ruta de bacari con cicchetti y ombra de vino junto al mercado de Rialto, cocina de laguna (sarde in saor, risotto de go) y alta cocina como Glam de Enrico Bartolini, en el Palazzo Venart, con dos estrellas Michelin. Las colinas del Prosecco quedan a una hora.",
+      "platos": ["Cicchetti en un bacaro", "Sarde in saor", "Risotto al nero di seppia", "Spritz y tiramisù"],
+      "fuentes": [
+        {"guia": "Guía Michelin (Glam Enrico Bartolini)", "url": "https://guide.michelin.com/it/it/veneto/venezia/ristorante/glam-enrico-bartolini"}
+      ]
+    },
+    {
+      "id": "it-milan",
+      "puntaje": 4,
+      "justificacion": "Es una de las mayores concentraciones de estrellas Michelin de Italia, con Enrico Bartolini al Mudec (tres estrellas), y Lombardía es la región italiana con más restaurantes con estrella en 2026. Se completa con la cocina lombarda clásica y la cultura del aperitivo; Franciacorta está a menos de una hora.",
+      "platos": ["Risotto alla milanese", "Cotoletta alla milanese", "Ossobuco", "Panettone"],
+      "fuentes": [
+        {"guia": "Guía Michelin (tres estrellas Italia 2026)", "url": "https://guide.michelin.com/gb/en/article/michelin-guide-ceremony/a-new-3-star-restaurant-in-the-michelin-guide-italy-2026"},
+        {"guia": "Michelin (nota de prensa Guía Italia 2026)", "url": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-italy-2026"}
+      ]
+    },
+    {
+      "id": "it-dolomitas",
+      "puntaje": 4,
+      "justificacion": "La cocina alpina de Alto Adigio es una de las más premiadas de Italia: AtelierMoessmer, de Norbert Niederkofler, en Brunico, tiene tres estrellas Michelin. Se suman los vinos de montaña y el speck IGP.",
+      "platos": ["Speck Alto Adige IGP", "Canederli (Knödel)", "Schlutzkrapfen", "Strudel de manzana"],
+      "fuentes": [
+        {"guia": "Guía Michelin (tres estrellas Italia 2026)", "url": "https://guide.michelin.com/gb/en/article/michelin-guide-ceremony/a-new-3-star-restaurant-in-the-michelin-guide-italy-2026"},
+        {"guia": "FIRSTonline (los 15 triestrellados de 2026)", "url": "https://www.firstonline.info/en/italia-sempre-piu-a-tre-stelle-con-michelangelo-mammoliti-salgono-a-15-i-ristoranti-tristellati-della-guida-michelin/"}
+      ]
+    },
+    {
+      "id": "it-florencia",
+      "puntaje": 4,
+      "justificacion": "Enoteca Pinchiorri, con tres estrellas Michelin, convive con el lampredotto callejero y el Mercado Central de San Lorenzo; el Chianti Classico empieza a las afueras.",
+      "platos": ["Bistecca alla fiorentina", "Lampredotto", "Ribollita", "Schiacciata"],
+      "fuentes": [
+        {"guia": "Guía Michelin (tres estrellas Italia 2026)", "url": "https://guide.michelin.com/gb/en/article/michelin-guide-ceremony/a-new-3-star-restaurant-in-the-michelin-guide-italy-2026"},
+        {"guia": "FIRSTonline (los 15 triestrellados de 2026)", "url": "https://www.firstonline.info/en/italia-sempre-piu-a-tre-stelle-con-michelangelo-mammoliti-salgono-a-15-i-ristoranti-tristellati-della-guida-michelin/"}
+      ]
+    },
+    {
+      "id": "it-roma",
+      "puntaje": 5,
+      "justificacion": "Es una referencia mundial: La Pergola, de Heinz Beck, tiene tres estrellas Michelin, y la ciudad suma la cocina romana de trattoria (carbonara, cacio e pepe), el barrio judío y Testaccio.",
+      "platos": ["Spaghetti alla carbonara", "Cacio e pepe", "Carciofi alla giudia", "Supplì"],
+      "fuentes": [
+        {"guia": "Guía Michelin (tres estrellas Italia 2026)", "url": "https://guide.michelin.com/gb/en/article/michelin-guide-ceremony/a-new-3-star-restaurant-in-the-michelin-guide-italy-2026"},
+        {"guia": "FIRSTonline (los 15 triestrellados de 2026)", "url": "https://www.firstonline.info/en/italia-sempre-piu-a-tre-stelle-con-michelangelo-mammoliti-salgono-a-15-i-ristoranti-tristellati-della-guida-michelin/"}
+      ]
+    },
+    {
+      "id": "it-costa-amalfitana",
+      "puntaje": 4,
+      "justificacion": "Limones IGP, colatura de alici de Cetara y marisco, con Quattro Passi, en Nerano (península sorrentina), con tres estrellas Michelin; Campania es la segunda región italiana en estrellas en 2026.",
+      "platos": ["Scialatielli ai frutti di mare", "Colatura di alici di Cetara", "Limoncello", "Delizia al limone"],
+      "fuentes": [
+        {"guia": "Guía Michelin (tres estrellas Italia 2026)", "url": "https://guide.michelin.com/gb/en/article/michelin-guide-ceremony/a-new-3-star-restaurant-in-the-michelin-guide-italy-2026"},
+        {"guia": "Michelin (nota de prensa Guía Italia 2026)", "url": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-italy-2026"}
+      ]
+    },
+    {
+      "id": "it-taormina",
+      "puntaje": 3,
+      "justificacion": "St. George by Heinz Beck, en el Ashbee Hotel, tiene dos estrellas Michelin. Se suman la granita con brioche y el acceso fácil a las bodegas del Etna.",
+      "platos": ["Granita con brioche", "Pasta alla Norma", "Involtini di pesce spada"],
+      "fuentes": [
+        {"guia": "Guía Michelin (St. George by Heinz Beck)", "url": "https://guide.michelin.com/it/it/sicilia/taormina/ristorante/st-george-by-heinz-beck"}
+      ]
+    },
+    {
+      "id": "it-lago-maggiore",
+      "puntaje": 3,
+      "justificacion": "Il Piccolo Lago, de Marco Sacco, en Verbania, junto al lago de Mergozzo, es la referencia de alta cocina de la zona según la Guía Michelin, con menús de productos alpinos y pescado de lago. Se suman el Bettelmatt del Ossola y los tintos del Alto Piamonte.",
+      "platos": ["Risotto al pesce persico", "Lavarello (corégono) a la plancha", "Formaggio Bettelmatt del Ossola"],
+      "fuentes": [
+        {"guia": "Guía Michelin (Il Piccolo Lago)", "url": "https://guide.michelin.com/it/it/notizia/dining-out/verbania-piccolo-lago-grande-cucina"}
+      ]
+    },
+    {
+      "id": "it-valle-de-aosta-monte-bianco",
+      "puntaje": 3,
+      "justificacion": "Cocina de montaña con productos DOP muy propios, como la Fontina, el Lardo di Arnad y el Fromadzo, y viñedos heroicos de altura.",
+      "platos": ["Fontina DOP", "Lardo di Arnad DOP", "Fonduta valdostana", "Carbonade"],
+      "fuentes": [
+        {"guia": "Italia.it (ENIT, productos típicos del Valle de Aosta)", "url": "https://www.italia.it/it/valle-aosta/cosa-fare/itinerario-in-valle-aosta-tra-i-prodotti-tipici"}
+      ]
+    },
+    {
+      "id": "it-lago-de-como",
+      "puntaje": 2,
+      "justificacion": "Cocina lacustre propia (risotto con pesce persico, missoltini, polenta uncia) y hoteles con buenos restaurantes en la orilla; buena mesa, pero no es un destino gastronómico.",
+      "platos": ["Risotto con filetti di pesce persico", "Missoltini (agone secado)", "Polenta uncia"],
+      "fuentes": []
+    },
+    {
+      "id": "it-lago-de-garda",
+      "puntaje": 2,
+      "justificacion": "Aceite Garda DOP y vinos Lugana, Bardolino y Chiaretto en sus orillas, cerca de la Valpolicella; algo de interés más allá del lago.",
+      "platos": ["Aceite de oliva Garda DOP", "Bigoli con sardelle de lago", "Vinos Lugana y Bardolino"],
+      "fuentes": []
+    },
+    {
+      "id": "it-capri",
+      "puntaje": 2,
+      "justificacion": "Es el origen de la ensalada caprese y la torta caprese, con restaurantes de hotel de alto nivel y precios elevados.",
+      "platos": ["Insalata caprese", "Torta caprese", "Ravioli capresi", "Limoncello"],
+      "fuentes": []
+    },
+    {
+      "id": "it-verona",
+      "puntaje": 4,
+      "justificacion": "Casa Perbellini 12 Apostoli conserva sus tres estrellas Michelin en 2026, y la ciudad es la puerta de la Valpolicella (Amarone) y de Soave y sede de la feria Vinitaly.",
+      "platos": ["Risotto all'Amarone", "Pastissada de caval", "Pandoro", "Amarone della Valpolicella"],
+      "fuentes": [
+        {"guia": "Guía Michelin (tres estrellas Italia 2026)", "url": "https://guide.michelin.com/gb/en/article/michelin-guide-ceremony/a-new-3-star-restaurant-in-the-michelin-guide-italy-2026"},
+        {"guia": "FIRSTonline (Michelin 2026)", "url": "https://www.firstonline.info/en/italia-sempre-piu-a-tre-stelle-con-michelangelo-mammoliti-salgono-a-15-i-ristoranti-tristellati-della-guida-michelin/"}
+      ]
+    },
+    {
+      "id": "it-turin",
+      "puntaje": 4,
+      "justificacion": "Capital del café y del chocolate (bicerin, gianduiotto), cuna del vermut y del aperitivo, con el mercado de Porta Palazzo y cocina piamontesa de primer nivel; base para las Langhe.",
+      "platos": ["Bicerin", "Gianduiotto", "Agnolotti del plin", "Vitello tonnato"],
+      "fuentes": [
+        {"guia": "Fodor's", "url": "https://www.fodors.com/world/europe/italy/piedmont-and-valle-daosta/things-to-do/sights/turin"},
+        {"guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-turin"}
+      ]
+    },
+    {
+      "id": "it-bergamo",
+      "puntaje": 4,
+      "justificacion": "Es la ciudad de los casoncelli y de una de las mayores concentraciones de quesos DOP de Europa (Taleggio, Strachítunt, Branzi). Da Vittorio, en Brusaporto, a 10 km, tiene tres estrellas Michelin.",
+      "platos": ["Casoncelli alla bergamasca", "Polenta taragna", "Strachítunt DOP", "Polenta e osei (dulce)"],
+      "fuentes": [
+        {"guia": "VisitBergamo (casoncelli)", "url": "https://visitbergamo.net/en/casoncelli"},
+        {"guia": "Guía Michelin (tres estrellas Italia 2026)", "url": "https://guide.michelin.com/gb/en/article/michelin-guide-ceremony/a-new-3-star-restaurant-in-the-michelin-guide-italy-2026"}
+      ]
+    },
+    {
+      "id": "it-modena",
+      "puntaje": 5,
+      "justificacion": "Es la sede de la Osteria Francescana de Massimo Bottura (tres estrellas Michelin, dos veces número 1 de World's 50 Best) y del Aceto Balsamico Tradizionale, con acetaie visitables y el Lambrusco de las llanuras.",
+      "platos": ["Aceto Balsamico Tradizionale di Modena DOP", "Tortellini", "Gnocco fritto con salumi", "Lambrusco"],
+      "fuentes": [
+        {"guia": "Guía Michelin (tres estrellas Italia 2026)", "url": "https://guide.michelin.com/gb/en/article/michelin-guide-ceremony/a-new-3-star-restaurant-in-the-michelin-guide-italy-2026"},
+        {"guia": "Visit Modena", "url": "https://www.visitmodena.it/en/discover-modena/land-of-flavors/the-vinegar-factories"},
+        {"guia": "Consorzio Aceto Balsamico di Modena", "url": "https://www.consorziobalsamico.it/consortium-members/?lang=en"}
+      ]
+    },
+    {
+      "id": "it-bolonia",
+      "puntaje": 5,
+      "justificacion": "Se la considera la capital culinaria de Italia, con tagliatelle al ragù, lasaña, mortadella y tortellini in brodo, los mercados del Quadrilatero y la Food Valley de Módena y Parma a un paso.",
+      "platos": ["Tagliatelle al ragù", "Tortellini in brodo", "Mortadella Bologna IGP", "Lasagne alla bolognese"],
+      "fuentes": [
+        {"guia": "TasteAtlas", "url": "https://tasteatlas.com/bologna"},
+        {"guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-italy-itineraries"}
+      ]
+    },
+    {
+      "id": "it-siena",
+      "puntaje": 3,
+      "justificacion": "Tiene dulces medievales propios (panforte, ricciarelli), pici y embutidos de cinta senese, y es la puerta sur del Chianti Classico.",
+      "platos": ["Panforte", "Ricciarelli", "Pici all'aglione", "Chianti Classico"],
+      "fuentes": [
+        {"guia": "Consorzio Vino Chianti Classico", "url": "https://www.chianticlassico.com/en/?p=2140"},
+        {"guia": "Visit Tuscany", "url": "https://www.visittuscany.com/it/idee/il-gallo-nero-simbolo-del-chianti-tra-storia-e-leggenda/"}
+      ]
+    },
+    {
+      "id": "it-chianti-classico",
+      "puntaje": 5,
+      "justificacion": "Es la zona histórica del Gallo Nero entre Florencia y Siena, delimitada en 1716, con bodegas y castillos visitables y carnicerías legendarias como las de Panzano.",
+      "platos": ["Chianti Classico DOCG", "Bistecca alla fiorentina", "Finocchiona IGP", "Aceite de oliva toscano"],
+      "fuentes": [
+        {"guia": "Consorzio Vino Chianti Classico", "url": "https://www.chianticlassico.com/en/?p=2140"},
+        {"guia": "Visit Tuscany", "url": "https://www.visittuscany.com/it/idee/il-gallo-nero-simbolo-del-chianti-tra-storia-e-leggenda/"},
+        {"guia": "Visit Tuscany", "url": "https://www.visittuscany.com/it/localita/il-borgo-di-volpaia/"}
+      ]
+    },
+    {
+      "id": "it-ferrara",
+      "puntaje": 3,
+      "justificacion": "Cocina de la corte de los Este con varios productos protegidos: cappellacci di zucca ferraresi IGP, salama da sugo con puré, pan coppia ferrarese IGP y pampepato. Las anguilas de las valles de Comacchio quedan cerca.",
+      "platos": ["Cappellacci di zucca ferraresi IGP", "Salama da sugo con purè", "Coppia ferrarese IGP", "Pampepato"],
+      "fuentes": [
+        {"guia": "Ferrara Terra e Acqua (turismo oficial)", "url": "https://www.ferraraterraeacqua.it/en/flavours/typical-products/ferrarese-cappellacci-with-pumpkin"},
+        {"guia": "QN Itinerari (Ferrara y Comacchio)", "url": "https://www.quotidiano.net/itinerari/gusto/corte-ferrara-valli-comacchio-terra-e-mare-o1ogjkh7"}
+      ]
+    },
+    {
+      "id": "it-gargano",
+      "puntaje": 3,
+      "justificacion": "Tiene productos muy propios: el caciocavallo podolico (Presidio Slow Food), los únicos agrumeti de la costa adriática con la Arancia del Gargano IGP y el limón femminello, el pan de Monte Sant'Angelo y la paposcia de Vico y Rodi.",
+      "platos": ["Caciocavallo podolico", "Arancia del Gargano IGP", "Paposcia", "Pane di Monte Sant'Angelo"],
+      "fuentes": [
+        {"guia": "ONAF (Caciocavallo Podolico Dauno)", "url": "https://www.onaf.it/uploads/public/formaggi/9816_caciocavallo-podolico-dauno-reg-puglia.pdf"},
+        {"guia": "Gambero Rosso (dónde comer en el Gargano)", "url": "https://www.gamberorosso.it/ristoranti/dove-mangiare-sul-gargano-i-migliori-ristoranti/"},
+        {"guia": "Unione Alimentari (copia del comunicado ministerial sobre la Arancia del Gargano IGP)", "url": "https://www.unionalimentari.com/wp-content/uploads/2024/09/Comunicato-MIPAAF-modifica-disciplinare-arancia-del-gargano-IGP.pdf"}
+      ]
+    },
+    {
+      "id": "it-parma",
+      "puntaje": 5,
+      "justificacion": "Fue la primera Ciudad Creativa de la Gastronomía UNESCO de Italia (2015) y es el corazón de la Food Valley, con visitas a queserías de Parmigiano Reggiano y secaderos de Prosciutto di Parma y culatello.",
+      "platos": ["Parmigiano Reggiano DOP", "Prosciutto di Parma DOP", "Culatello di Zibello DOP", "Anolini in brodo"],
+      "fuentes": [
+        {"guia": "Visit Italy (portal turístico privado, Parma UNESCO)", "url": "https://visititaly.eu/unesco/parma-unesco-heritage-gastronomy-cuisine"},
+        {"guia": "Adnkronos (Parma Food Valley)", "url": "https://adnkronos.com/Archivio/immediapress/salute-benessere/parma-food-valley-the-first-italian-unesco-creative-city-of-gastronomy-where-food-is-more_55DH8aAF9lnVxC4Och0TVR"}
+      ]
+    },
+    {
+      "id": "it-cilento",
+      "puntaje": 4,
+      "justificacion": "Es la cuna moderna de la Dieta Mediterránea, Patrimonio Inmaterial de la UNESCO desde 2010: Ancel Keys vivió en Pioppi (Pollica), una de las comunidades emblemáticas de la candidatura. La zona tiene mozzarella de búfala de la llanura del Sele, higos blancos del Cilento DOP, alici di menaica y aceite del Cilento.",
+      "platos": ["Mozzarella di bufala campana DOP", "Fico bianco del Cilento DOP", "Alici di menaica", "Cacioricotta del Cilento"],
+      "fuentes": [
+        {"guia": "UNESCO Patrimonio Inmaterial (Dieta mediterránea)", "url": "https://ich.unesco.org/en/RL/mediterranean-diet-00884"},
+        {"guia": "Visit Italy (portal turístico privado, Cilento)", "url": "https://www.visititaly.eu/it/cibo-e-sapori/cilento-prodotti-tipici-dieta-mediterranea"},
+        {"guia": "L'Espresso (Pollica, FAO 2026)", "url": "https://lespresso.it/c/sostenibilita/2026/10/1/fao-pollica-cilento-premio-food-hero-custode-dieta-mediterranea-sindaco-stefano-pisani/65027"}
+      ]
+    },
+    {
+      "id": "it-cividale-udine",
+      "puntaje": 4,
+      "justificacion": "Cividale es la puerta de la DOC Friuli Colli Orientali (Picolit, Schioppettino, Ramandolo), cuyo consorcio organiza catas en Corno di Rosazzo y cuyas bodegas abren a visitas; aquí se elabora además la gubana. En Udine hay cultura del tajut en las osterie, y San Daniele está a 25 km.",
+      "platos": ["Frico", "Cjarsons", "Gubana de Cividale", "Prosciutto di San Daniele DOP"],
+      "fuentes": [
+        {"guia": "Consorzio DOC Friuli Colli Orientali e Ramandolo", "url": "https://www.colliorientali.com/en/?p=77353"},
+        {"guia": "Turismo FVG (oficial, Colli Orientali)", "url": "https://www.turismofvg.it/en/426035/dalle-prealpi-giulie-ai-colli-orientali-del-friuli"},
+        {"guia": "TasteAtlas", "url": "https://tasteatlas.com/best-dishes-in-udine"}
+      ]
+    },
+    {
+      "id": "it-erice-segesta",
+      "puntaje": 3,
+      "justificacion": "Trapani es la capital del cuscús de pescado y de las busiate al pesto trapanese, y tiene salinas con sal IGP. En Erice hay repostería conventual de almendra.",
+      "platos": ["Couscous alla trapanese", "Busiate al pesto trapanese", "Genovesi ericine", "Marsala"],
+      "fuentes": [
+        {"guia": "Italia.it (Erice)", "url": "https://www.italia.it/it/sicilia/trapani/erice"},
+        {"guia": "Frommer's (Osteria La Bettolaccia, Trapani)", "url": "https://www.frommers.com/destinations/trapani/restaurants/osteria-la-bettolaccia"}
+      ]
+    },
+    {
+      "id": "it-alghero-capo-caccia",
+      "puntaje": 2,
+      "justificacion": "Cocina de raíz catalana con la aragosta alla catalana como emblema y vinos de la Nurra (Torbato, Vermentino, Cannonau); algo de interés gastronómico junto a la costa.",
+      "platos": ["Aragosta alla catalana", "Torbato di Alghero", "Ricci di mare", "Seadas"],
+      "fuentes": []
+    },
+    {
+      "id": "it-foreste-casentinesi",
+      "puntaje": 3,
+      "justificacion": "El Casentino tiene cocina de montaña toscana propia: tortelli di patate con patata roja de Cetica, prosciutto del Casentino y la castaña Marrone di Caprese Michelangelo DOP, junto con jabalí y setas del bosque.",
+      "platos": ["Tortelli di patate", "Marrone di Caprese Michelangelo DOP", "Prosciutto del Casentino", "Pappardelle al cinghiale"],
+      "fuentes": [
+        {"guia": "Visit Tuscany (Marrone di Caprese Michelangelo DOP)", "url": "https://www.visittuscany.com/en/food/pdo-chestnut-from-caprese-michelangelo/"}
+      ]
+    },
+    {
+      "id": "it-sila",
+      "puntaje": 3,
+      "justificacion": "Productos de altura con denominación: la Patata della Sila IGP (su consorcio está en Camigliatello, con sagra cada octubre), el Caciocavallo Silano DOP, los porcini de los pinares y los embutidos calabreses.",
+      "platos": ["Patata della Sila IGP", "Caciocavallo Silano DOP", "Porcini silani", "Soppressata di Calabria DOP"],
+      "fuentes": [
+        {"guia": "Touring Club Italiano (qué comer en Taverna, Sila)", "url": "https://www.touringclub.it/notizie/bandiere-arancioni/che-cosa-mangiare-taverna"}
+      ]
+    },
+    {
+      "id": "it-polignano-a-mare",
+      "puntaje": 3,
+      "justificacion": "Crudo de mar, erizos y el caffè speciale del Mago del Gelo; buena cocina apulia de costa.",
+      "platos": ["Crudo di mare", "Caffè speciale", "Polpo alla pignata", "Focaccia barese"],
+      "fuentes": [
+        {"guia": "TasteAtlas", "url": "https://www.tasteatlas.com/best-rated-dishes-in-apulia"}
+      ]
+    },
+    {
+      "id": "it-polignano-monopoli",
+      "puntaje": 3,
+      "justificacion": "Crudo de mar y erizos en la costa, el caffè speciale de Polignano y la cocina apulia de masseria en el interior de Monopoli.",
+      "platos": ["Crudo di mare", "Caffè speciale de Polignano", "Ricci di mare", "Burrata"],
+      "fuentes": [
+        {"guia": "TasteAtlas", "url": "https://www.tasteatlas.com/best-rated-dishes-in-apulia"}
+      ]
+    },
+    {
+      "id": "mt-marsaxlokk",
+      "puntaje": 3,
+      "justificacion": "El mercado de pescado del domingo y los restaurantes de marisco de la bahía de los luzzu la convierten en la mejor parada de pescado de Malta, aunque sin alta cocina.",
+      "platos": ["Lampuki", "Pulpo guisado (stuffat tal-qarnit)", "Aljotta (sopa de pescado)", "Pez espada a la plancha"],
+      "fuentes": [
+        {"guia": "VisitMalta", "url": "https://www.visitmalta.com/en/a/info/marsaxlokkmarket/"}
+      ]
+    }
+  ],
+  "nuevos": [],
+  "fuentes_quitar": [
+    {"id": "es-la-rioja", "url": "https://www.tasteatlas.com/30-traditional-products-defining-spanish-restaurants-and-colmados-in-the-uk"},
+    {"id": "es-san-sebastian", "url": "https://www.euskalkultura.eus/english/news/donostia-san-sebastian-named-the-best-food-destination-in-the-world"},
+    {"id": "es-pamplona", "url": "https://www.barcelo.com/guia-turismo/en/spain/pamplona/things-to-do/typical-navarran-food/"},
+    {"id": "es-pamplona", "url": "https://www.inyourpocket.com/spain/pamplona/articles/spanish-food-5-must-try-dishes-in-pamplona"},
+    {"id": "es-alcala-de-henares", "url": "https://theolivepress.es/spain-news/2023/04/29/the-tradition-of-free-tapas-are-not-only-a-long-standing-tradition-in-granada-find-out-where-else-with-the-olive-press-tapas-guide/"},
+    {"id": "es-alcala-de-henares", "url": "https://spanishsabores.com/sightseeing-tapa-by-tapa-alcala-de-henares/"},
+    {"id": "es-aranjuez", "url": "https://gastronosfera.com/tendencias/la-rica-huerta-de-aranjuez-y-la-gastrobotanica"},
+    {"id": "es-aranjuez", "url": "https://www.directoalpaladar.com/curso-de-cocina/fernando-cerro-gran-cocinero-huerta-aranjuez-textura-verduras-no-importante"},
+    {"id": "es-penedes", "url": "https://www.catalannews.com/tag/wine%20museum"},
+    {"id": "es-priorat", "url": "https://www.winetourism.com/es/tours-de-cata-de-vino-en-priorat/"},
+    {"id": "pt-elvas", "url": "https://www.portugal.com/food-drink/beyond-the-pastel-de-nata-9-best-portuguese-foods-that-are-still-under-the-radar/"},
+    {"id": "pt-vale-do-coa", "url": "https://www.hola.com/us/lifestyle/20260801895777/secret-portuguese-town-world-heritage-almond-blossoms-vila-nova-de-foz-coa/"},
+    {"id": "pt-vale-do-coa", "url": "https://www.fluxurymagazine.com/en/perfect-retreats-among-the-vineyards/"},
+    {"id": "pt-sintra", "url": "https://www.tasteatlas.com/best/search/portugal"},
+    {"id": "pt-guimaraes", "url": "https://www.tasteatlas.com/best/search/portugal"},
+    {"id": "pt-coimbra", "url": "https://www.tasteatlas.com/best/search/portugal"},
+    {"id": "pt-serra-da-estrela", "url": "https://www.tasteatlas.com/best/search/portugal"},
+    {"id": "pt-obidos", "url": "https://www.tasteatlas.com/best/search/portugal"},
+    {"id": "pt-arrabida", "url": "https://www.tasteatlas.com/best/search/portugal"},
+    {"id": "pt-aveiro", "url": "https://www.tasteatlas.com/best/search/portugal"},
+    {"id": "pt-viana-do-castelo", "url": "https://www.tasteatlas.com/best/search/portugal"},
+    {"id": "it-venecia", "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Italy"},
+    {"id": "it-milan", "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Italy"},
+    {"id": "it-lago-de-como", "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Italy"},
+    {"id": "it-lago-de-garda", "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Italy"},
+    {"id": "it-lago-maggiore", "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Italy"},
+    {"id": "it-dolomitas", "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Italy"},
+    {"id": "it-valle-de-aosta-monte-bianco", "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Italy"},
+    {"id": "it-florencia", "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Italy"},
+    {"id": "it-roma", "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Italy"},
+    {"id": "it-costa-amalfitana", "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Italy"},
+    {"id": "it-capri", "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Italy"},
+    {"id": "it-taormina", "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Italy"},
+    {"id": "it-lago-de-orta", "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Italy"},
+    {"id": "it-verona", "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Italy"},
+    {"id": "it-turin", "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Italy"},
+    {"id": "it-bergamo", "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Italy"},
+    {"id": "it-modena", "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Italy"},
+    {"id": "it-bolonia", "url": "https://tasteatlas.com/local-food-in-bologna"},
+    {"id": "it-siena", "url": "https://chianticlassico.com/en/?p=2166"},
+    {"id": "it-chianti-classico", "url": "https://chianticlassico.com/en/?p=2166"},
+    {"id": "it-ferrara", "url": "https://ferraraterraeacqua.kelvar.redturtle.it/en/immerse-yourself-in-the-land/food/ferrara-main-traditional-foods"},
+    {"id": "it-ferrara", "url": "https://ferraraterraeacqua.kelvar.redturtle.it/en/immerse-yourself-in-the-land/food/ferrara-main-traditional-foods/cappellacci-di-zucca-ferraresi-igp"},
+    {"id": "it-alghero-capo-caccia", "url": "https://catavino.net/alghero-where-catalan-and-sardinian-cuisine-merge/"},
+    {"id": "it-alghero-capo-caccia", "url": "https://mesprestiges.com/en/sardinia/stories/alghero-the-catalan-table"},
+    {"id": "it-foreste-casentinesi", "url": "https://www.dissapore.com/ricette/ricetta-tortelli-di-patate/"},
+    {"id": "it-sila", "url": "https://www.freshplaza.com/article/9375567/the-campaign-of-potatoes-from-sila-is-livening-up/"},
+    {"id": "it-polignano-a-mare", "url": "https://freedome.it/blog/cosa-fare-polignano-mare-esperienze-originali/"},
+    {"id": "it-polignano-monopoli", "url": "https://blog.italotreno.com/idee-di-viaggio/cosa-vedere-a-polignano-a-mare-in-un-giorno/"},
+    {"id": "mt-marsaxlokk", "url": "https://www.timeout.com/malta/travel/best-places-to-visit-in-malta"}
+  ],
+  "correcciones_base": []
+}

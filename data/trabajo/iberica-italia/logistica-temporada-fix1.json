@@ -1,0 +1,430 @@
+{
+  "agente": "logistica-temporada",
+  "subregion": "iberica-italia",
+  "ronda": 4,
+  "fecha_consulta": "2026-10-26",
+  "nota": "Corrección de la ronda 1 del revisor (grupos a y b). Solo se incluyen las entradas que cambian; cada una sustituye por completo a la anterior. Criterio único para los lugares del Vaticano (todos a menos de 300 m): se excluyen junio, julio y agosto (calor y máxima afluencia), abril y mayo (Semana Santa, Pascua y grupos escolares) y diciembre (Navidad). Marzo solo cuenta fuera de la Semana Santa. Las URL de spain.info con la ruta /es/destino/<ciudad>/ siguen el patrón comprobado en otras fichas de spain.info (Cartagena, Trujillo, Alquézar).",
+  "avisos_pais": [
+    { "pais_iso": "SM", "emisor": "EE. UU. (Departamento de Estado)", "nivel": "No se localizó una página propia de San Marino en travel.state.gov. Solo se entra por Italia, cuyo aviso es Level 2 - Exercise increased caution (terrorismo).", "url": "https://travel.state.gov/en/international-travel/travel-advisories/italy.html" },
+    { "pais_iso": "SM", "emisor": "CIA World Factbook (reproduce el aviso de EE. UU.; no es el Departamento de Estado)", "nivel": "Exercise increased caution (terrorismo), equivalente a Level 2", "url": "https://www.cia.gov/the-world-factbook/countries/san-marino/travel-facts" },
+    { "pais_iso": "SM", "emisor": "UK FCDO", "nivel": "Sin restricción de viaje; se entra por Italia (ver también el aviso de Italia)", "url": "https://www.gov.uk/foreign-travel-advice/san-marino" },
+    { "pais_iso": "SM", "emisor": "Global Affairs Canada", "nivel": "Take normal security precautions; criminalidad baja", "url": "https://travel.gc.ca/destinations/san-marino" },
+    { "pais_iso": "VA", "emisor": "EE. UU. (Departamento de Estado; se remite al aviso de Italia, único acceso al Vaticano)", "nivel": "Level 2 - Exercise increased caution (terrorismo)", "url": "https://travel.state.gov/en/international-travel/travel-advisories/italy.html" },
+    { "pais_iso": "VA", "emisor": "UK FCDO (el aviso de Italia cubre la Ciudad del Vaticano)", "nivel": "Sin restricción de viaje; hurtos frecuentes en zonas turísticas", "url": "https://gov.uk/foreign-travel-advice/italy/safety-and-security" }
+  ],
+  "logistica": [
+    {
+      "id": "pt-fatima", "puntaje": 4, "mejor_epoca": [4, 5, 6, 9, 10], "dias_sugeridos": 1, "costo": "$",
+      "acceso": "Bus Rede Expressos desde Lisboa (aprox. 1 h 30) y Coímbra; la estación de tren de Fátima está a unos 20 km del santuario.",
+      "alerta": "Las peregrinaciones del 12-13 de mayo y del 12-13 de octubre reúnen a cientos de miles de fieles (más de 450.000 en mayo de 2024). Esos días hay multitudes extremas y cortes de tráfico, y el alojamiento se agota.",
+      "fuentes": [
+        { "guia": "Santuário de Fátima (oficial, peregrinación de mayo de 2024)", "url": "https://www.fatima.pt/pt/news/topdf/peregrinacao-de-maio-reuniu-cerca-de-450-mil-fieis-e-deixou-um-forte-apelo-a-paz" },
+        { "guia": "Diário de Notícias (afluencia en 2026)", "url": "https://www.dn.pt/sociedade/ftima-mais-peregrinos-em-2026-mesmo-aps-estragos-causados-pela-tempestade-kristin" },
+        { "guia": "Rádio Renascença (operación de la GNR para mayo de 2026)", "url": "https://rr.pt/noticia/religiao/2026/05/02/peregrinacao-segura-gnr-intensifica-apoio-a-quem-caminha-ate-fatima/469217/" }
+      ]
+    },
+    {
+      "id": "es-mallorca", "puntaje": 4, "mejor_epoca": [4, 5, 6, 9, 10], "dias_sugeridos": 5, "costo": "$$$",
+      "acceso": "Aeropuerto de Palma con vuelos de toda Europa; coche recomendado para la Tramuntana; también tren de Sóller y red de buses TIB.",
+      "alerta": "Cada temporada, aproximadamente de mediados de mayo a mediados de octubre (en 2026, del 15 de mayo al 18 de octubre), la carretera al Cap de Formentor se cierra a coches privados de 10 a 22 h. Se llega en bus lanzadera TIB, taxi, bici o a pie. Julio y agosto están saturados y son caros.",
+      "fuentes": [
+        { "guia": "DGT (restricciones Formentor 2026)", "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/estado-del-trafico/rutas-de-interes/2026_Formentor_ESP.pdf" },
+        { "guia": "ARA Balears (restricciones hasta el 18 de octubre)", "url": "https://en.arabalears.cat/society/this-friday-the-traffic-restrictions-begin-in-formentor-which-will-last-until-october-18_1_5737314.html" }
+      ]
+    },
+    {
+      "id": "pt-madeira-funchal", "puntaje": 4, "mejor_epoca": [4, 5, 6, 7, 8, 9, 10], "dias_sugeridos": 5, "costo": "$$",
+      "acceso": "Vuelos directos a Funchal desde Lisboa y gran parte de Europa; en Funchal, bus y teleférico; al macizo central (Pico do Arieiro, alrededor de 1 h), coche o tour.",
+      "alerta": "El viento desvía vuelos con frecuencia. Desde 2026 los senderos PR exigen registro y tasa en SIMplifica (PR1 Areeiro-Ruivo: 10,50 €). El PR1 abre todos los días desde el 26 de junio de 2026, en sentido único del Areeiro al Ruivo, aunque puede cerrar días sueltos por obras de mejora. En verano hay riesgo de incendios (FCDO).",
+      "fuentes": [
+        { "guia": "Visit Madeira (FAQ oficial)", "url": "https://visitmadeira.com/en/travel-info/faq/" },
+        { "guia": "DNoticias (el PR1 reabre a diario el 26 de junio de 2026)", "url": "https://www.dnoticias.pt/2026/5/31/493857-vereda-do-pico-do-areeiro-reabre-a-26-de-junho/" },
+        { "guia": "DNoticias (el IFCN amplía las plazas diarias del PR1)", "url": "https://www.dnoticias.pt/2026/6/19/496114-ifcn-reforca-acesso-a-vereda-do-areeiro-com-mais-140-vagas-diarias/" },
+        { "guia": "GOV.UK (Portugal)", "url": "https://www.gov.uk/foreign-travel-advice/portugal" }
+      ]
+    },
+    {
+      "id": "es-merida", "puntaje": 4, "mejor_epoca": [3, 4, 5, 9, 10], "dias_sugeridos": 2, "costo": "$$",
+      "acceso": "Tren o bus desde Madrid (unas 4-5 h) y Sevilla (unas 3-4 h); no tiene aeropuerto (el más cercano es Badajoz, a unos 50 km); los monumentos se visitan a pie.",
+      "alerta": "En julio y agosto hace calor extremo; el Festival de Teatro Clásico se celebra por la noche.",
+      "fuentes": [
+        { "guia": "Spain.info (Turespaña)", "url": "https://www.spain.info/es/destino/merida/" },
+        { "guia": "UNESCO (Conjunto arqueológico de Mérida)", "url": "https://whc.unesco.org/en/list/664" }
+      ]
+    },
+    {
+      "id": "es-tarragona", "puntaje": 5, "mejor_epoca": [4, 5, 6, 9, 10], "dias_sugeridos": 1, "costo": "$$",
+      "acceso": "Tren regional desde Barcelona (alrededor de 1 h) o AVE a Camp de Tarragona y bus; las ruinas se recorren a pie.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Spain.info (Turespaña)", "url": "https://www.spain.info/es/destino/tarragona/" },
+        { "guia": "UNESCO (Tarraco)", "url": "https://whc.unesco.org/en/list/875" }
+      ]
+    },
+    {
+      "id": "es-zaragoza", "puntaje": 5, "mejor_epoca": [3, 4, 5, 6, 9, 10], "dias_sugeridos": 2, "costo": "$$",
+      "acceso": "AVE desde Madrid (alrededor de 1 h 20) y Barcelona (alrededor de 1 h 30); centro a pie y tranvía.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Spain.info (Turespaña)", "url": "https://www.spain.info/es/destino/zaragoza/" },
+        { "guia": "UNESCO (Mudéjar de Aragón)", "url": "https://whc.unesco.org/en/list/378" }
+      ]
+    },
+    {
+      "id": "es-antequera", "puntaje": 4, "mejor_epoca": [3, 4, 5, 10, 11], "dias_sugeridos": 1, "costo": "$$",
+      "acceso": "AVE a Antequera-Santa Ana desde Madrid, Sevilla o Granada, o bus desde Málaga (unos 45 min); los dólmenes están a 1 km del centro y El Torcal requiere coche.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Spain.info (Turespaña)", "url": "https://www.spain.info/es/destino/antequera/" },
+        { "guia": "UNESCO (Dólmenes de Antequera)", "url": "https://whc.unesco.org/en/list/1501" }
+      ]
+    },
+    {
+      "id": "es-alcala-de-henares", "puntaje": 5, "mejor_epoca": [3, 4, 5, 6, 9, 10, 11], "dias_sugeridos": 1, "costo": "$$",
+      "acceso": "Cercanías C2 o C7 desde Atocha o Chamartín (unos 35-40 min; hay que bajar en Alcalá de Henares, no en Alcalá de Henares Universidad) o bus ALSA desde Avenida de América (unos 30-40 min); el casco histórico se recorre a pie.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Universidad de Alcalá (cómo llegar)", "url": "https://nueva.uah.es/en/conoce-la-uah/campus-centros-y-departamentos/campus/como-llegar-a-los-campus" },
+        { "guia": "UNESCO (Universidad y recinto histórico de Alcalá)", "url": "https://whc.unesco.org/en/list/876" }
+      ]
+    },
+    {
+      "id": "es-aranjuez", "puntaje": 5, "mejor_epoca": [4, 5, 6, 9, 10], "dias_sugeridos": 1, "costo": "$$",
+      "acceso": "Cercanías C-3 desde Madrid-Atocha (alrededor de 45 min) o coche por la A-4; el palacio y los jardines quedan a pie desde la estación.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Spain.info (Turespaña)", "url": "https://www.spain.info/es/destino/aranjuez/" },
+        { "guia": "UNESCO (Paisaje cultural de Aranjuez)", "url": "https://whc.unesco.org/en/list/1044" }
+      ]
+    },
+    {
+      "id": "es-las-medulas", "puntaje": 3, "mejor_epoca": [4, 5, 6, 9, 10], "dias_sugeridos": 1, "costo": "$",
+      "acceso": "Hace falta coche (unos 25 km desde Ponferrada); paseos a pie desde el pueblo de Las Médulas y desde el mirador de Orellán.",
+      "alerta": "El incendio de agosto de 2025 quemó gran parte del entorno. El mirador de Orellán se reconstruyó en noviembre de 2025 y el Aula Arqueológica sigue en obras: confirma qué sendas están abiertas.",
+      "fuentes": [
+        { "guia": "UNESCO (Las Médulas)", "url": "https://whc.unesco.org/en/list/803" },
+        { "guia": "Diario de León (visitas en 2026)", "url": "https://www.diariodeleon.es/bierzo/260804/2093223/visitas-medulas-bajan-50-ano-devastador-incendio.html" },
+        { "guia": "El Debate (reconstrucción de Orellán)", "url": "https://www.eldebate.com/espana/castilla-y-leon/20251121/finaliza-reconstruccion-mirador-orellan-medulas-incendio-pasado-verano_357724.html" }
+      ]
+    },
+    {
+      "id": "pt-mafra", "puntaje": 5, "mejor_epoca": [3, 4, 5, 6, 9, 10, 11], "dias_sugeridos": 1, "costo": "$$",
+      "acceso": "Bus desde Lisboa-Campo Grande (unos 40 min a 1 h) o coche por la A8 y la A21 (unos 40 km); se combina con Ericeira.",
+      "alerta": "El palacio cierra los martes.",
+      "fuentes": [
+        { "guia": "Turismo de Lisboa (municipio de Mafra)", "url": "https://www.visitlisboa.com/pt-pt/locais/municipio-de-mafra" },
+        { "guia": "Time Out Lisboa (Palácio Nacional de Mafra)", "url": "https://www.timeout.pt/lisboa/pt/coisas-para-fazer/palacio-nacional-de-mafra" },
+        { "guia": "UNESCO (Mafra)", "url": "https://whc.unesco.org/en/list/1573" }
+      ]
+    },
+    {
+      "id": "pt-elvas", "puntaje": 4, "mejor_epoca": [3, 4, 5, 10, 11], "dias_sugeridos": 1, "costo": "$",
+      "acceso": "Coche por la A6 (unas 2 h 15 desde Lisboa) o bus desde Lisboa y Évora; no tiene tren directo; está a unos 15 km de Badajoz.",
+      "alerta": "En julio y agosto hace calor extremo.",
+      "fuentes": [
+        { "guia": "VisitPortugal (oficial, Elvas)", "url": "https://www.visitportugal.com/pt-pt/node/362291" },
+        { "guia": "UNESCO (Elvas)", "url": "https://whc.unesco.org/en/list/1367" }
+      ]
+    },
+    {
+      "id": "pt-angra-do-heroismo", "puntaje": 3, "mejor_epoca": [5, 6, 7, 8, 9], "dias_sugeridos": 2, "costo": "$$",
+      "acceso": "Vuelos a Terceira (aeropuerto de Lajes) desde Lisboa, Ponta Delgada y Norteamérica; Angra está a unos 20 km, en bus (40-50 min) o taxi (unos 20 min); el centro se recorre a pie.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "travel.gc.ca (Azores)", "url": "https://travel.gc.ca/destinations/azores" },
+        { "guia": "UNESCO (Angra do Heroísmo)", "url": "https://whc.unesco.org/en/list/206" }
+      ]
+    },
+    {
+      "id": "pt-vale-do-coa", "puntaje": 3, "mejor_epoca": [3, 4, 5, 6, 9, 10], "dias_sugeridos": 2, "costo": "$",
+      "acceso": "Hace falta coche (Vila Nova de Foz Côa, a unas 2 h 30 de Oporto); los núcleos de grabados solo se visitan con guía en todoterreno desde el Museu do Côa o Castelo Melhor, con reserva previa.",
+      "alerta": "Las plazas diarias por núcleo son limitadas y algunos núcleos cierran temporalmente: confirma por teléfono o correo.",
+      "fuentes": [
+        { "guia": "Fundação Côa Parque (visitas guiadas)", "url": "https://arte-coa.pt/en/product-category/tickets/guided-visit-to-the-park" },
+        { "guia": "UNESCO (Côa y Siega Verde)", "url": "https://whc.unesco.org/en/list/866" }
+      ]
+    },
+    {
+      "id": "es-el-puerto-de-santa-maria", "puntaje": 5, "mejor_epoca": [4, 5, 6, 9, 10], "dias_sugeridos": 1, "costo": "$$",
+      "acceso": "Tren desde Jerez (unos 10 min) y Cádiz (unos 30 min), y catamarán por la bahía desde Cádiz; las bodegas quedan a pie.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Spain.info (Turespaña)", "url": "https://www.spain.info/es/destino/el-puerto-de-santa-maria/" }
+      ]
+    },
+    {
+      "id": "es-denia", "puntaje": 4, "mejor_epoca": [4, 5, 6, 9, 10], "dias_sugeridos": 2, "costo": "$$",
+      "acceso": "Bus o coche desde Valencia o Alicante (alrededor de 1 h 30-2 h); ferry a Ibiza y Formentera.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Spain.info (Turespaña)", "url": "https://www.spain.info/es/destino/denia/" }
+      ]
+    },
+    {
+      "id": "es-cadiz", "puntaje": 5, "mejor_epoca": [4, 5, 6, 9, 10], "dias_sugeridos": 2, "costo": "$$",
+      "acceso": "Tren desde Sevilla (aprox. 1 h 40) y Alvia desde Madrid; el aeropuerto de Jerez queda a 45 min; el casco antiguo se recorre a pie.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Spain.info (Turespaña)", "url": "https://www.spain.info/es/destino/cadiz/" }
+      ]
+    },
+    {
+      "id": "es-getaria", "puntaje": 5, "mejor_epoca": [5, 6, 7, 8, 9, 10], "dias_sugeridos": 1, "costo": "$$$",
+      "acceso": "Bus desde San Sebastián (unos 30-40 min) o coche por la costa (N-634); el pueblo se recorre a pie.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Getaria Turismo (oficial)", "url": "https://getariaturismo.eus/en/balenciaga-museoa-eng/" },
+        { "guia": "Turismo Euskadi (oficial)", "url": "https://turismo.euskadi.eus/en/top10/museums/cristobal-balenciaga-museoa/webtur00-recursostop/en/" }
+      ]
+    },
+    {
+      "id": "es-ribera-del-duero", "puntaje": 3, "mejor_epoca": [5, 6, 9, 10], "dias_sugeridos": 2, "costo": "$$",
+      "acceso": "Hace falta coche: Aranda de Duero está a 1 h 45 de Madrid por la A-1 y Peñafiel, a unos 40 min de Aranda. Las bodegas se visitan con reserva previa.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Ruta del Vino Ribera del Duero (oficial)", "url": "https://rutadelvinoriberadelduero.es/en/accessible-cultural-resource-monument-castle-museums-and-interpretation-centres/museo-provincial-del" }
+      ]
+    },
+    {
+      "id": "es-rias-baixas", "puntaje": 3, "mejor_epoca": [5, 6, 7, 8, 9, 10], "dias_sugeridos": 3, "costo": "$$",
+      "acceso": "Coche desde Santiago o Vigo (unos 45 min a Cambados u O Grove); los buses interurbanos son limitados; Combarro está a unos 6 km de Pontevedra.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Carta de España (Gobierno de España, Combarro)", "url": "https://www.inclusion.gob.es/web/cartaespana/w/combarro-el-pueblo-de-los-horreos" }
+      ]
+    },
+    {
+      "id": "pt-amarante", "puntaje": 4, "mejor_epoca": [4, 5, 6, 9, 10], "dias_sugeridos": 1, "costo": "$",
+      "acceso": "Bus desde Oporto (alrededor de 1 h) o coche por la A4 (unos 60 km); no hay tren.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "VisitPortugal (oficial)", "url": "https://www.visitportugal.com/pt-pt/node/132834" }
+      ]
+    },
+    {
+      "id": "es-granada-alhambra", "puntaje": 4, "mejor_epoca": [3, 4, 5, 10, 11], "dias_sugeridos": 2, "costo": "$$",
+      "acceso": "AVE desde Madrid (unas 3 h 20) y bus o tren desde Málaga (1 h 30); aeropuerto pequeño; centro a pie y microbuses al Albayzín.",
+      "alerta": "Las entradas a la Alhambra son nominativas (hay que llevar documento de identidad), salen a la venta unos tres meses antes y se agotan con semanas de antelación en primavera y otoño. Cómpralas solo en la web oficial del Patronato (tickets.alhambra-patronato.es).",
+      "fuentes": [
+        { "guia": "Patronato de la Alhambra (preguntas frecuentes)", "url": "https://www.alhambra-patronato.es/en/visit/faq" },
+        { "guia": "Turismo de Granada (si no quedan entradas en la web oficial)", "url": "https://turismo.granada.org/en/what-do-if-there-are-no-alhambra-tickets-official-website" }
+      ]
+    },
+    {
+      "id": "es-santillana-altamira", "puntaje": 4, "mejor_epoca": [5, 6, 7, 8, 9, 10], "dias_sugeridos": 1, "costo": "$$",
+      "acceso": "Coche o bus desde Santander (unos 30 km); el Museo de Altamira está a 2 km del pueblo, con aparcamiento gratuito.",
+      "alerta": "La cueva original no se visita: solo la Neocueva y el museo, que cierra los lunes y tiene aforo limitado, así que conviene reservar.",
+      "fuentes": [
+        { "guia": "Spain.info (Museo Nacional y Centro de Investigación de Altamira)", "url": "https://www.spain.info/es/lugares-interes/museo-nacional-centro-investigacion-altamira/" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/guide-to-green-spain" }
+      ]
+    },
+    {
+      "id": "es-donana", "puntaje": 3, "mejor_epoca": [2, 3, 4, 5, 10, 11], "dias_sugeridos": 2, "costo": "$$",
+      "acceso": "Coche desde Sevilla por la A-49 y la A-483 (alrededor de 1 h hasta El Rocío o El Acebuche); el interior del parque solo se visita en 4x4 guiado desde El Acebuche (unas 4 h) o en barco desde Sanlúcar; la playa entre Matalascañas y Sanlúcar es de acceso libre a pie.",
+      "alerta": "En verano hay calor fuerte y mosquitos; las plazas de las visitas guiadas son limitadas y conviene reservar.",
+      "fuentes": [
+        { "guia": "MITECO, Red de Parques Nacionales (accesos a Doñana)", "url": "https://www.miteco.gob.es/es/red-parques-nacionales/nuestros-parques/donana/guia-visitante/accesos.html" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-national-parks-spain" }
+      ]
+    },
+    {
+      "id": "es-albarracin", "puntaje": 3, "mejor_epoca": [4, 5, 6, 9, 10], "dias_sugeridos": 2, "costo": "$$",
+      "acceso": "En coche desde Teruel (35 km, unos 30 min); el autobús desde Teruel tiene una o dos salidas al día, así que conviene ir en coche, sobre todo para los Pinares de Rodeno.",
+      "alerta": "En invierno hace mucho frío y hay heladas. Los fines de semana y los puentes se llena y el aparcamiento junto al casco es limitado.",
+      "fuentes": [
+        { "guia": "UNESCO (arte rupestre del Arco Mediterráneo)", "url": "https://whc.unesco.org/en/list/874" },
+        { "guia": "Lonely Planet (votación de pueblos de España)", "url": "https://www.lonelyplanet.com/articles/best-towns-in-spain-results" }
+      ]
+    },
+    {
+      "id": "pt-piodao", "puntaje": 3, "mejor_epoca": [4, 5, 6, 9, 10], "dias_sugeridos": 2, "costo": "$",
+      "acceso": "Solo en coche, por carreteras de montaña sinuosas (EN344 desde Coja y Arganil); está a unos 90 km de Coímbra y a unas 2 h 30 de Oporto.",
+      "alerta": "El FCDO señala un alto riesgo de incendios forestales de abril a octubre en Portugal, y la Serra do Açor es una zona muy expuesta. Las carreteras son estrechas y con curvas, y no hay transporte público práctico.",
+      "fuentes": [
+        { "guia": "Aldeias Históricas de Portugal (oficial)", "url": "https://aldeiashistoricasdeportugal.com/en/percurso/piodao-percurso-vermelho/" },
+        { "guia": "VisitPortugal (oficial)", "url": "https://www.visitportugal.com/pt-pt/node/132806" },
+        { "guia": "GOV.UK (Portugal)", "url": "https://www.gov.uk/foreign-travel-advice/portugal" }
+      ]
+    },
+    {
+      "id": "es-figueres-cadaques", "puntaje": 4, "mejor_epoca": [5, 6, 9, 10], "dias_sugeridos": 2, "costo": "$$$",
+      "acceso": "AVE o Rodalies desde Barcelona hasta Figueres (55 min a 2 h). A Cadaqués, bus de Moventis Sarfa desde Barcelona Nord (unas 2 h 45, con paso por Figueres) o coche; Portlligat está a 1 km a pie.",
+      "alerta": "La Casa-Museo de Portlligat exige reserva previa y se visita en grupos de 8 a 10 personas, que salen cada 10 minutos. La carretera GI-614 a Cadaqués tiene muchas curvas y en julio y agosto el aparcamiento se satura. Hay días de tramontana fuerte.",
+      "fuentes": [
+        { "guia": "Patrimoni Cultural (Generalitat de Catalunya)", "url": "https://patrimoni.gencat.cat/en/collection/dali-theatre-museum-and-dali-triangle" },
+        { "guia": "Movelia (línea Moventis Sarfa Cadaqués–Barcelona)", "url": "https://www.movelia.es/es/rutas/autobuses/cadaques-aeropuerto-de-barcelona" }
+      ]
+    },
+    {
+      "id": "es-montserrat", "puntaje": 5, "mejor_epoca": [3, 4, 5, 6, 9, 10, 11], "dias_sugeridos": 1, "costo": "$$",
+      "acceso": "Tren FGC R5 desde Plaça Espanya (unos 60 min) y luego el cremallera desde Monistrol (15 min) o el Aeri; funciona todo el año, sin coche.",
+      "alerta": "Los fines de semana y festivos hay mucha gente. Revisa el último cremallera y el último tren de vuelta en fgc.cat y cremallerademontserrat.cat.",
+      "fuentes": [
+        { "guia": "Barcelona Tourist Guide (tren a Montserrat)", "url": "https://www.barcelona-tourist-guide.com/es/faq/pueblos/montserrat/monserrat-expreso-tren-visita.html" },
+        { "guia": "Surt de Casa (Cremallera y funiculares)", "url": "https://surtdecasa.cat/barcelona/llocs-interes/monistrol-de-montserrat/cremallera-i-funiculars-de-montserrat" }
+      ]
+    },
+    {
+      "id": "es-oviedo", "puntaje": 5, "mejor_epoca": [5, 6, 7, 8, 9, 10], "dias_sugeridos": 3, "costo": "$$",
+      "acceso": "Aeropuerto de Asturias (unos 45 min en bus) y tren desde Madrid; el Naranco está a unos 3 km del centro (bus urbano o a pie). Gijón y Villaviciosa, la comarca de la sidra, quedan a 30-45 min en bus de línea.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "UNESCO (monumentos de Oviedo y del reino de Asturias)", "url": "https://whc.unesco.org/en/list/312" },
+        { "guia": "UNESCO (Caminos de Santiago)", "url": "https://whc.unesco.org/en/list/669/" }
+      ]
+    },
+    {
+      "id": "pt-porto", "puntaje": 5, "mejor_epoca": [4, 5, 6, 9, 10], "dias_sugeridos": 3, "costo": "$$",
+      "acceso": "Aeropuerto con metro al centro (unos 30 min); Alfa Pendular desde Lisboa (unas 2 h 50); el centro se recorre a pie, con cuestas. Las bodegas de Vila Nova de Gaia están a 5-10 min a pie por el puente Luís I (o metro D y teleférico de Gaia), y Matosinhos, a unos 30 min en la línea A del metro.",
+      "alerta": "Hay carteristas en la Ribeira y el metro, y robos en coches (lo advierte Canadá).",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/portugal/things-to-do-porto/" },
+        { "guia": "Fodor's (Gaia y alrededores de Oporto)", "url": "https://www.fodors.com/world/europe/portugal/porto-and-the-north/experiences/news/photos/10-things-to-do-in-porto-besides-drink-port" },
+        { "guia": "travel.gc.ca (Portugal)", "url": "https://travel.gc.ca/destinations/portugal" }
+      ]
+    },
+    {
+      "id": "va-basilica-san-pedro", "puntaje": 5, "mejor_epoca": [1, 2, 3, 10, 11], "dias_sugeridos": 1, "costo": "$",
+      "acceso": "Metro A Ottaviano (~10 min a pie); entrada gratuita tras control de seguridad.",
+      "alerta": "Código de vestimenta estricto (hombros y rodillas cubiertos) y largas colas en el control de seguridad. En Semana Santa, Navidad y verano las colas son máximas.",
+      "fuentes": [
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/rome/attractions/st-peters-basilica/" },
+        { "guia": "UK FCDO (Italia y Ciudad del Vaticano)", "url": "https://gov.uk/foreign-travel-advice/italy/safety-and-security" }
+      ]
+    },
+    {
+      "id": "va-cupula-san-pedro", "puntaje": 4, "mejor_epoca": [1, 2, 3, 10, 11], "dias_sugeridos": 1, "costo": "$",
+      "acceso": "Acceso desde el pórtico de la basílica: 551 escalones, o 320 si se usa el ascensor.",
+      "alerta": "El tramo final es estrecho e inclinado: no apto para claustrofobia ni movilidad reducida.",
+      "fuentes": [
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/rome/attractions/st-peters-basilica/" }
+      ]
+    },
+    {
+      "id": "va-museos-vaticanos", "puntaje": 4, "mejor_epoca": [1, 2, 3, 10, 11], "dias_sugeridos": 1, "costo": "$$",
+      "acceso": "Metro A Cipro u Ottaviano (~10 min a pie). Las entradas con franja horaria solo se venden en tickets.museivaticani.va; abre de lunes a sábado.",
+      "alerta": "Hay webs clónicas que venden entradas mucho más caras. Cierra los domingos, salvo el último del mes (gratis, de 9:00 a 14:00, con colas enormes).",
+      "fuentes": [
+        { "guia": "Musei Vaticani – venta oficial", "url": "https://tickets.museivaticani.va" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/rome/things-to-do/in-vatican-city/" }
+      ]
+    },
+    {
+      "id": "va-capilla-sixtina", "puntaje": 4, "mejor_epoca": [1, 2, 3, 10, 11], "dias_sugeridos": 1, "costo": "$$",
+      "acceso": "Solo se entra por el recorrido de los Museos Vaticanos, con la misma entrada.",
+      "alerta": "Prohibido fotografiar; a media mañana se forman aglomeraciones.",
+      "fuentes": [
+        { "guia": "Musei Vaticani – venta oficial", "url": "https://tickets.museivaticani.va" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/points-of-interest/sistine-chapel/1027806" }
+      ]
+    },
+    {
+      "id": "va-plaza-san-pedro", "puntaje": 5, "mejor_epoca": [1, 2, 3, 10, 11], "dias_sugeridos": 1, "costo": "$",
+      "acceso": "Metro A Ottaviano (~10 min a pie); acceso libre.",
+      "alerta": "Durante audiencias y celebraciones papales hay cierres parciales y controles.",
+      "fuentes": [
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/rome/attractions/st-peters-basilica/" },
+        { "guia": "Frommer's (Ciudad del Vaticano)", "url": "https://www.frommers.com/destinations/rome/things-to-do/in-vatican-city/" }
+      ]
+    },
+    {
+      "id": "va-jardines-vaticanos", "puntaje": 3, "mejor_epoca": [1, 2, 3, 10, 11], "dias_sugeridos": 1, "costo": "$$$",
+      "acceso": "Solo con visita guiada (a pie o en minibús) reservada en la web de los Museos Vaticanos.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/rome/things-to-do/in-vatican-city/" },
+        { "guia": "Musei Vaticani – venta oficial", "url": "https://tickets.museivaticani.va" }
+      ]
+    },
+    {
+      "id": "it-dolomitas", "puntaje": 3, "mejor_epoca": [1, 2, 3, 7, 8, 9], "dias_sugeridos": 5, "costo": "$$$",
+      "acceso": "Tren a Bolzano o Brunico y buses locales; coche recomendable. La carretera de peaje a Tre Cime (Rifugio Auronzo) exige reserva online: 40 € por coche en 2026.",
+      "alerta": "La temporada de verano de remontes (Dolomiti Supersummer) fue en 2026 del 14 de mayo al 8 de noviembre, pero cada zona abre en fechas distintas: Alpe di Siusi y Carezza desde finales de mayo, y el circuito del Sellaronda del 13 de junio al 27 de septiembre. La mayoría de refugios abre a mediados o finales de junio, por eso junio no figura entre los mejores meses. La temporada de esquí de Dolomiti Superski empieza a finales de noviembre o principios de diciembre; diciembre no se incluye porque la nieve aún es irregular y en Navidad hay saturación y precios altos. Varios pasos por encima de 2.000 m cierran en invierno y los demás exigen neumáticos de invierno o cadenas.",
+      "fuentes": [
+        { "guia": "Dolomiti Superski (remontes abiertos en verano)", "url": "https://www.dolomitisuperski.com/it/SuperSummer/Impianti-aperti" },
+        { "guia": "Dolomiti Superski (horarios en Carezza)", "url": "https://www.dolomitisuperski.com/it/live-info/impianti/estate/carezza" },
+        { "guia": "Dolomiti.it (inicio de la temporada de invierno 2026-27)", "url": "https://www.dolomiti.it/it/dolomiti/news/dolomiti-superski-al-via-la-stagione-sciistica" },
+        { "guia": "Dolomiti.it – strada Tre Cime", "url": "https://www.dolomiti.it/it/auronzo-misurina/news/tre-cime-strada-pedaggio-accesso-prenotazione-online" },
+        { "guia": "Südtirol.info – passi dolomitici", "url": "https://www.suedtirol.info/it/informazioni/come-arrivare/passi-dolomitici" }
+      ]
+    },
+    {
+      "id": "mt-sliema-st-julians", "puntaje": 5, "mejor_epoca": [3, 4, 5, 6, 9, 10, 11], "dias_sugeridos": 2, "costo": "$$",
+      "acceso": "Bus desde el aeropuerto (~40 min) y ferry Sliema–La Valeta (~10 min). En invierno el ferry funciona aprox. de 6:45 a 19:30 y en verano también de noche.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Transport Malta (ferry Grand Harbour y Marsamxett)", "url": "https://www.transport.gov.mt/maritime/ports-commercial/passenger-transport-by-sea-110" }
+      ]
+    },
+    {
+      "id": "it-gargano", "puntaje": 3, "mejor_epoca": [5, 6, 9], "dias_sugeridos": 3, "costo": "$$",
+      "acceso": "Coche casi imprescindible desde Foggia (~1 h 30 a Vieste). Vieste no tiene tren: se llega en bus desde Foggia o con el tren de Ferrovie del Gargano hasta Peschici-Calenella y bus. En verano hay billete combinado FrecciaLink de Trenitalia (tren hasta Foggia y bus). Barcos a las grutas marinas en temporada.",
+      "alerta": "El FrecciaLink al Gargano solo funciona en temporada (en 2026, viernes, sábados y domingos del 4 de julio al 13 de septiembre).",
+      "fuentes": [
+        { "guia": "Parks.it (Parco Nazionale del Gargano, cómo llegar)", "url": "https://www.parks.it/parco.nazionale.gargano/Earr.php" },
+        { "guia": "Trenitalia (FrecciaLink Gargano)", "url": "https://www.trenitalia.com/it/frecciarossa/collegamenti-frecciarossa/freccialink-gargano.html" },
+        { "guia": "Italia.it (ENIT, Gargano)", "url": "https://www.italia.it/it/puglia/gargano" }
+      ]
+    },
+    {
+      "id": "it-etna", "puntaje": 3, "mejor_epoca": [5, 6, 9, 10], "dias_sugeridos": 1, "costo": "$$",
+      "acceso": "Bus diario desde Catania al Rifugio Sapienza (1.900 m), teleférico a 2.500 m y 4x4 hasta ~2.900 m; a los cráteres de la cima solo se sube con guía autorizado.",
+      "alerta": "Volcán muy activo: en julio, agosto y septiembre de 2026 hubo coladas y cierres del aeropuerto de Catania. Las ordenanzas municipales de agosto de 2026 (Bronte y Belpasso) suspenden las excursiones en la Zona de Peligrosidad Permanente de los cráteres activos y regulan el acceso por encima de 2.500 m, con prohibiciones automáticas según la fase de alerta. Por encima de esa cota solo se va con guías alpinos o vulcanológicos autorizados. Consulta el Parco dell'Etna y los boletines del INGV antes de subir.",
+      "fuentes": [
+        { "guia": "Parco dell'Etna (ordenanza de Bronte, 14-ago-2026)", "url": "https://parcoetna.it/wp-content/uploads/2026/08/Ordinanza-Comune-di-Bronte-del-14-agosto-2026.pdf" },
+        { "guia": "CAI Catania (ordenanza de Belpasso n.º 135, 10-ago-2026)", "url": "https://organizzazione.cai.it/sez-catania/wp-content/uploads/sites/16/2026/08/Belpasso-ord_00135_10-08-2026.pdf" },
+        { "guia": "Geopop – boletín INGV", "url": "https://www.geopop.it/etna-in-eruzione-colate-nella-valle-del-bove-voli-sospesi-nellaeroporto-di-catania-bollettino-ingv/" },
+        { "guia": "Touring Club – Funivia dell'Etna", "url": "https://www.touringclub.it/destinazioni/nicolosi/fare/127470-funivia-delletna" }
+      ]
+    },
+    {
+      "id": "it-erice-segesta", "puntaje": 3, "mejor_epoca": [4, 5, 6, 9, 10], "dias_sugeridos": 2, "costo": "$$",
+      "acceso": "Teleférico de Trapani a Erice (~10 min) o carretera de montaña. A Segesta (~30 min de Trapani) mejor en coche; dentro del parque, lanzadera al teatro.",
+      "alerta": "El teleférico tiene horario reducido algunos días y paradas por mantenimiento fuera de temporada: confirma en funiviaerice.it. Erice suele estar entre niebla.",
+      "fuentes": [
+        { "guia": "Funivia Erice (oficial)", "url": "https://funiviaerice.it/en" },
+        { "guia": "Ministero della Cultura (Segesta)", "url": "https://cultura.gov.it/luogo/area-archeologica-di-segesta" },
+        { "guia": "Italia.it (Erice)", "url": "https://www.italia.it/it/sicilia/trapani/erice" }
+      ]
+    },
+    {
+      "id": "mt-comino-laguna-azul", "puntaje": 3, "mejor_epoca": [5, 6, 9, 10], "dias_sugeridos": 1, "costo": "$$",
+      "acceso": "Barco desde Ċirkewwa (Malta) o Mġarr (Gozo). La Laguna Azul exige reserva gratuita en bluelagooncomino.mt, en franjas de 8:00–13:00, 13:30–17:30 y 18:00–22:00, con un máximo de 4.000 personas a la vez; el código QR se cambia por una pulsera en el muelle.",
+      "alerta": "El sistema empezó el 1 de mayo de 2025, un tribunal lo suspendió poco después y se restableció el 19 de mayo de 2025. Las guías de 2026 lo dan por vigente, pero conviene confirmarlo en bluelagooncomino.mt. Sin reserva se niega el acceso y puede haber multa. En julio y agosto las mejores franjas se agotan con semanas de antelación, hay masificación y casi no hay sombra.",
+      "fuentes": [
+        { "guia": "Blue Lagoon Comino (reservas oficiales de la MTA)", "url": "https://bluelagooncomino.mt" },
+        { "guia": "Malta Tourism Authority", "url": "https://mta.com.mt/news/new-visitor-booking-system-cominos-blue-lagoon/" },
+        { "guia": "MaltaToday (reserva obligatoria)", "url": "https://www.maltatoday.com.mt/news/national/134735/blue_lagoon_visitors_will_need_to_book_online_this_summer" },
+        { "guia": "Rozie (planificación 2026)", "url": "https://rozie.app/comino-blue-lagoon-day-trip-your-2026-planning-guide/" }
+      ]
+    }
+  ],
+  "fuentes_quitar": [
+    { "id": "pt-madeira-porto-moniz", "url": "https://roughguides.com/portugal/trips/madeira-sao-miguel-guided-island-adventures-trip" },
+    { "id": "es-granada-alhambra", "url": "https://enriquealex.com/espana/como-conseguir-entradas-alhambra/" },
+    { "id": "es-santillana-altamira", "url": "https://elviajedesofi.com/visita-a-la-cueva-de-altamira-la-capilla-sixtina-del-arte-prehistorico-precios-horarios/" },
+    { "id": "es-donana", "url": "https://www.civitatis.com/es/almonte/visita-guiada-donana/" },
+    { "id": "es-albarracin", "url": "https://www.omio.es/viajes/teruel/albarracin" },
+    { "id": "pt-piodao", "url": "https://quantocustaviajar.com/blog/aldeia-de-piodao-em-portugal" },
+    { "id": "es-figueres-cadaques", "url": "https://barcelonaurbana.com/blog/que-ver-en-cadaques" },
+    { "id": "es-figueres-cadaques", "url": "https://barcelonaurbana.com/ca/blog/cadaques-i-portlligat-en-bus-des-de-barcelona-horaris-i-preus-de-la-casa-dali" },
+    { "id": "es-montserrat", "url": "https://www.montserratvisita.com/pt/propostas-de-visita/visite-o-santuario/2024" },
+    { "id": "es-merida", "url": "https://whc.unesco.org/en/statesparties/es/" },
+    { "id": "es-tarragona", "url": "https://whc.unesco.org/en/statesparties/es/" },
+    { "id": "es-zaragoza", "url": "https://whc.unesco.org/en/statesparties/es/" },
+    { "id": "es-antequera", "url": "https://whc.unesco.org/en/statesparties/es/" },
+    { "id": "es-alcala-de-henares", "url": "https://whc.unesco.org/en/statesparties/es/" },
+    { "id": "es-aranjuez", "url": "https://whc.unesco.org/en/statesparties/es/" },
+    { "id": "es-las-medulas", "url": "https://whc.unesco.org/en/statesparties/es/" },
+    { "id": "pt-mafra", "url": "https://whc.unesco.org/en/statesparties/pt/" },
+    { "id": "pt-elvas", "url": "https://whc.unesco.org/en/statesparties/pt/" },
+    { "id": "pt-angra-do-heroismo", "url": "https://whc.unesco.org/en/statesparties/pt/" },
+    { "id": "pt-vale-do-coa", "url": "https://whc.unesco.org/en/statesparties/pt/" },
+    { "id": "va-basilica-san-pedro", "url": "https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/HolySee.html" },
+    { "id": "va-plaza-san-pedro", "url": "http://www.lonelyplanet.com/italy/rome/sights/religious/st-peter-s-basilica" },
+    { "id": "it-gargano", "url": "https://en.wikipedia.org/wiki/Gargano_National_Park" },
+    { "id": "it-etna", "url": "https://catania.liveuniversity.it/2020/10/30/etna-cronaca-guide-turistiche/amp/" },
+    { "id": "it-erice-segesta", "url": "https://bluekeys.it/it/blog/agrigento-to-erice-transfer" }
+  ]
+}

@@ -1,0 +1,740 @@
+{
+  "agente": "naturaleza",
+  "subregion": "iberica-italia",
+  "ronda": 4,
+  "notas": "Corrección de la ronda 1 del revisor (revision-a-r1 y revision-b-r1). Cambios: fuentes oficiales de los parques (MITECO, VisitPortugal, VisitAzores, lovevda.it, italia.it, Ente Parco del Gargano); unesco:true en Picos (bien 1133); fechas de autorización de Cíes; Benagil 4, Cabo de Gata 5 y Costa Vicentina 5; Madriu 4; Funchal 4; torres de San Marino 2, Golden Bay 3, Dingli 3 y Venecia 2; Polignano-Monopoli 2 por falta de fuente oficial; Ronda 2 y Porto Moniz 2 al quitar URLs no confirmadas o comerciales; dos lugares nuevos en PT (Ria Formosa y Douro Internacional). Se quitaron las notas internas de las justificaciones. Pendiente: la Riserva dello Zingaro sigue sin fuente oficial de la reserva (no apareció riservazingaro.it en las búsquedas).",
+  "puntajes": [
+    {
+      "id": "es-aiguestortes",
+      "puntaje": 5,
+      "unesco": false,
+      "justificacion": "Único parque nacional de Cataluña, declarado en 1955: alta montaña granítica con cerca de 200 lagos glaciares, bosques de pino negro y los Encantats sobre el lago de Sant Maurici. También es humedal Ramsar.",
+      "actividad": "Ruta Espot–Estany de Sant Maurici–Estany de Ratera; o los meandros de Aigüestortes desde Boí",
+      "fuentes": [
+        {
+          "guia": "MITECO (guía del Parque Nacional d'Aigüestortes)",
+          "url": "https://www.miteco.gob.es/es/parques-nacionales-oapn/red-parques-nacionales/parques-nacionales/Guia-Aiguestortes_tcm30-60468.pdf"
+        },
+        {
+          "guia": "MITECO (ficha técnica del parque)",
+          "url": "https://www.miteco.gob.es/en/parques-nacionales-oapn/red-parques-nacionales/parques-nacionales/aiguestortes/ficha-tecnica/memorias.html"
+        },
+        {
+          "guia": "MITECO (accesos al parque)",
+          "url": "https://www.miteco.gob.es/es/parques-nacionales-oapn/red-parques-nacionales/parques-nacionales/aiguestortes/guia-visitante/accesos.html"
+        }
+      ]
+    },
+    {
+      "id": "es-caldera-de-taburiente",
+      "puntaje": 5,
+      "unesco": false,
+      "justificacion": "Enorme caldera erosiva en el centro de La Palma, de unos 8 km de diámetro y casi 2.000 m de desnivel, con pinar canario, arroyos y cascadas. Es parque nacional desde 1954 y tiene unas 4.690 ha.",
+      "actividad": "Ruta Los Brecitos–Playa de Taburiente–Cascada de Colores–barranco de las Angustias (unos 15 km)",
+      "fuentes": [
+        {
+          "guia": "MITECO (ficha del Parque Nacional de la Caldera de Taburiente)",
+          "url": "https://www.miteco.gob.es:443/content/dam/miteco/es/parques-nacionales-oapn/red-parques-nacionales/parques-nacionales/parquenacionaldelacalderadetaburiente_tcm30-539908.pdf"
+        },
+        {
+          "guia": "MITECO (visita virtual, fauna del parque)",
+          "url": "https://www.miteco.gob.es/es/parques-nacionales-oapn/red-parques-nacionales/parques-nacionales/taburiente/visita-virtual/fauna.html"
+        }
+      ]
+    },
+    {
+      "id": "es-cabrera",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "Archipiélago casi virgen al sur de Mallorca: la isla de Cabrera y 18 islotes, con fondos de posidonia, aves marinas y lagartija balear. Es parque nacional desde 1991 y, tras la ampliación de 2019 a unas 90.800 ha, el mayor parque nacional marino del Mediterráneo occidental.",
+      "actividad": "Excursión en barco desde la Colònia de Sant Jordi con baño en la Cova Blava y subida al castillo por los itinerarios señalizados",
+      "fuentes": [
+        {
+          "guia": "MITECO (folleto oficial del parque)",
+          "url": "https://www.miteco.gob.es/content/dam/miteco/es/parques-nacionales-oapn/red-parques-nacionales/parques-nacionales/cabrera_folleto_tcm30-63010.pdf"
+        },
+        {
+          "guia": "MITECO (itinerarios del parque)",
+          "url": "https://www.miteco.gob.es/gl/parques-nacionales-oapn/red-parques-nacionales/parques-nacionales/cabrera/guia-visitante/itinerarios.html"
+        },
+        {
+          "guia": "MITECO (ampliación de 2019)",
+          "url": "https://www.miteco.gob.es/eu/prensa/ultimas-noticias/2019/02/el_gobierno_apruebalaampliaciondelparquenacionaldelarchipielagod.html"
+        }
+      ]
+    },
+    {
+      "id": "es-cabaneros",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "Parque nacional desde 1995, con más de 40.000 ha en los Montes de Toledo: la mejor muestra de bosque mediterráneo y raña, refugio de grandes rapaces, cigüeña negra, ciervo y águila imperial. La berrea de septiembre es su gran espectáculo.",
+      "actividad": "Ruta del Boquerón del Estena o del Chorro de los Navalucillos; ruta en 4x4 por la raña y berrea (septiembre–octubre)",
+      "fuentes": [
+        {
+          "guia": "MITECO (Parque Nacional de Cabañeros)",
+          "url": "https://www.miteco.gob.es/es/red-parques-nacionales/nuestros-parques/cabaneros.html"
+        }
+      ]
+    },
+    {
+      "id": "es-montserrat",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "El macizo de conglomerado y sus agujas son Parque Natural de la Montaña de Montserrat desde 1987, con una red de senderos señalizados y funiculares desde el monasterio. Es un paisaje icónico de Cataluña, de interés geológico y de fácil acceso desde Barcelona.",
+      "actividad": "Circular Monasterio–Sant Jeroni (1.236 m), unos 7 km y 2 h 30; Camí de les Ermites (unos 7 km)",
+      "fuentes": [
+        {
+          "guia": "Montserrat Visita (oficial, itinerarios)",
+          "url": "https://www.montserratvisita.com/en/nature/montserrat-itineraries"
+        },
+        {
+          "guia": "Geoparc de la Catalunya Central (UNESCO)",
+          "url": "https://geoparc.cat/en/socol/montserrat-natural-park"
+        }
+      ]
+    },
+    {
+      "id": "es-picos-de-europa",
+      "puntaje": 5,
+      "unesco": true,
+      "justificacion": "Primer parque nacional de España (1918): macizos calizos con el Naranjo de Bulnes, lagos de Covadonga, rebeco y oso pardo. Sus hayedos de Cuesta Fría y la Canal de Asotín forman parte desde 2017 del bien UNESCO 'Hayedos primarios y antiguos de los Cárpatos y otras regiones de Europa'. La Ruta del Cares sufre cierres puntuales por desprendimientos, así que conviene consultar su estado antes de ir.",
+      "actividad": "Ruta del Cares Poncebos–Caín, 11 km por sentido (22 km i/v); lagos de Covadonga",
+      "fuentes": [
+        {
+          "guia": "Spain.info (turismo oficial de España)",
+          "url": "https://www.spain.info/en/nature/picos-europa-national-park/"
+        },
+        {
+          "guia": "Spain.info (turismo oficial de España)",
+          "url": "https://www.spain.info/en/hiking-trails/cares-trail-hiking-spain/"
+        },
+        {
+          "guia": "Turismo Asturias",
+          "url": "https://www.turismoasturias.es/es/descubre/naturaleza/rutas/senderismo/ruta-del-cares"
+        },
+        {
+          "guia": "UNESCO",
+          "url": "https://whc.unesco.org/en/list/1133/"
+        },
+        {
+          "guia": "Time Out",
+          "url": "https://www.timeout.com/news/this-spanish-mountain-range-has-just-been-named-the-worlds-most-beautiful-place-032326"
+        }
+      ]
+    },
+    {
+      "id": "es-islas-cies",
+      "puntaje": 5,
+      "unesco": false,
+      "justificacion": "Es el gran atractivo del Parque Nacional Marítimo-Terrestre de las Islas Atlánticas de Galicia, también sitio Ramsar. La playa de Rodas, de arena blanca y agua turquesa, une dos de las islas. En Semana Santa y del 15 de mayo al 15 de septiembre hace falta una autorización previa y gratuita de la Xunta, con un cupo de unas 1.800 personas al día, y después billete de barco desde Vigo, Cangas, Baiona o Sanxenxo.",
+      "actividad": "Baño en Rodas y sendero al Monte Faro (unos 7 km i/v); observatorio de aves de la Pedra da Campá",
+      "fuentes": [
+        {
+          "guia": "Spain.info (turismo oficial de España)",
+          "url": "https://www.spain.info/es/naturaleza/parque-nacional-maritimo-terrestre-islas-atlanticas-galicia/"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/spain/rias-baixas/attractions/parque-nacional-de-las-islas-atlanticas-de-galicia/a/poi-sig/1132175/1321044"
+        },
+        {
+          "guia": "Ramsar (ficha del sitio)",
+          "url": "https://rsis.ramsar.org/ris/2453"
+        },
+        {
+          "guia": "Direct Ferries (guía de acceso y autorización)",
+          "url": "https://www.directferries.es/blog/viajar-a-islas-cies"
+        }
+      ]
+    },
+    {
+      "id": "es-cabo-de-gata",
+      "puntaje": 5,
+      "unesco": false,
+      "justificacion": "Es la costa volcánica más salvaje del Mediterráneo español: unas 49.500 ha con acantilados, calas y playas vírgenes como Los Genoveses y Mónsul. Fue el primer parque natural marítimo-terrestre de Andalucía y es Reserva de la Biosfera, Geoparque Mundial UNESCO y humedal Ramsar, con flamencos en las salinas. Por extensión, estado de conservación y figuras de protección está al nivel de la Costa Vicentina.",
+      "actividad": "A pie por la costa desde San José hasta Los Genoveses y Mónsul; flamencos en las salinas de Cabo de Gata; snorkel sobre posidonia",
+      "fuentes": [
+        {
+          "guia": "Spain.info (turismo oficial de España)",
+          "url": "https://www.spain.info/es/naturaleza/parque-natural-cabo-gata-nijar/"
+        },
+        {
+          "guia": "Spain.info (turismo oficial de España)",
+          "url": "https://www.spain.info/es/actividades/excursion-parque-natural-cabo-gata/"
+        }
+      ]
+    },
+    {
+      "id": "es-bardenas-reales",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "Paisaje semidesértico de cárcavas, cabezos y mesetas de arcilla y yeso, de unas 41.845 ha en el sureste de Navarra. Es parque natural desde 1999 y Reserva de la Biosfera de la UNESCO desde 2000. Su imagen es el Cabezo de Castildetierra, en la Bardena Blanca.",
+      "actividad": "Circuito por la Bardena Blanca hasta Castildetierra en coche, bici o a pie por las pistas autorizadas, desde el centro de información de Arguedas; el polígono de tiro militar es zona vedada",
+      "fuentes": [
+        {
+          "guia": "Spain.info (turismo oficial de España)",
+          "url": "https://www.spain.info/es/naturaleza/parque-natural-bardenas-reales/"
+        },
+        {
+          "guia": "Comunidad de Bardenas Reales (guía oficial)",
+          "url": "https://bardenasreales.es/wp-content/uploads/2022/09/GUIA-ESPANOL-2014.pdf"
+        }
+      ]
+    },
+    {
+      "id": "es-ronda",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "La ciudad se asoma al Tajo, una garganta de más de 100 m abierta por el río Guadalevín, y es puerta de la Serranía de Ronda y de la sierra de Grazalema, que tiene ficha propia.",
+      "actividad": "Bajada a los miradores del fondo del Tajo bajo el Puente Nuevo",
+      "fuentes": []
+    },
+    {
+      "id": "pt-benagil-sete-vales",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "Gruta marina con cúpula abierta al cielo y playa interior, entre acantilados dorados de caliza. El Percurso dos Sete Vales Suspensos recorre la cima de los acantilados entre Praia da Marinha y Vale Centeanes, y Lonely Planet lo sitúa como la mejor ruta del Algarve. Es un tramo de costa corto y muy concurrido, así que queda por debajo de la Costa Vicentina y de Cabo de Gata. Desde agosto de 2024 está prohibido desembarcar en la playa de la gruta y entrar a nado, y los kayaks solo entran con visita guiada.",
+      "actividad": "Percurso dos Sete Vales Suspensos, unos 5,7 km por sentido (2–3 h, dificultad media) con vista a la abertura de la gruta; visita a la gruta en barco o kayak guiado desde Benagil",
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-hikes-in-algarve"
+        },
+        {
+          "guia": "Postal do Algarve (estado del sendero, 2026)",
+          "url": "https://postal.pt/algarve/lixo-e-dejectos-humanos-este-trilho-no-algarve-ja-foi-a-melhor-caminhada-da-europa-e-agora-esta-em-risco/"
+        }
+      ]
+    },
+    {
+      "id": "pt-costa-vicentina",
+      "puntaje": 5,
+      "unesco": false,
+      "justificacion": "El Parque Natural do Sudoeste Alentejano e Costa Vicentina protege un centenar de kilómetros de costa atlántica casi sin urbanizar, con acantilados, dunas y playas vírgenes entre el Alentejo y el Algarve. La recorre la Rota Vicentina, una de las grandes redes de senderos costeros de Europa. Por extensión y conservación está al nivel de Cabo de Gata.",
+      "actividad": "Trilho dos Pescadores de la Rota Vicentina, etapa Vila Nova de Milfontes–Almograve",
+      "fuentes": [
+        {
+          "guia": "Rough Guides",
+          "url": "https://www.roughguides.com/portugal/things-to-do/"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-hikes-in-portugal"
+        }
+      ]
+    },
+    {
+      "id": "pt-nazare",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "El Cañón de Nazaré, el mayor cañón submarino de Europa (unos 170 km), forma en la Praia do Norte algunas de las olas más grandes surfeadas en el mundo. Los acantilados del Sítio y el fuerte de São Miguel Arcanjo son el mirador natural.",
+      "actividad": "Ver las olas gigantes (noviembre–marzo) desde el faro del fuerte de São Miguel Arcanjo",
+      "fuentes": [
+        {
+          "guia": "VisitPortugal (oficial)",
+          "url": "https://www.visitportugal.com/pt-pt/destinos/centro-de-portugal/73770"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-portugal"
+        }
+      ]
+    },
+    {
+      "id": "pt-peniche-berlengas",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "Península de surf y acantilados frente a la Reserva Natural de las Berlengas, a unos 10 km: tres grupos de islotes casi intactos, con plantas endémicas, colonias de aves marinas y aguas transparentes. La isla principal admite un máximo de 350 personas a la vez.",
+      "actividad": "Barco a Berlenga Grande (diario de mayo a octubre) y sendero a las grutas y al fuerte de São João Baptista",
+      "fuentes": [
+        {
+          "guia": "VisitPortugal (oficial)",
+          "url": "https://www.visitportugal.com/pt-pt/content/reserva-natural-das-berlengas"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-portugal"
+        }
+      ]
+    },
+    {
+      "id": "pt-tavira",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "Base tranquila del Algarve oriental en el extremo este del Parque Natural da Ria Formosa, una laguna costera de canales, marismas e islas-barrera, con la Ilha de Tavira enfrente.",
+      "actividad": "Ferry a la Ilha de Tavira y paseo a la Praia do Barril",
+      "fuentes": [
+        {
+          "guia": "VisitPortugal (oficial)",
+          "url": "https://www.visitportugal.com/pt-pt/content/parque-natural-da-ria-formosa"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-portugal"
+        }
+      ]
+    },
+    {
+      "id": "pt-serra-da-estrela",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "El Parque Natural da Serra da Estrela es el mayor espacio protegido de Portugal y culmina en la Torre (1.993 m), techo del Portugal continental. Es Geoparque Mundial UNESCO desde 2020, con valles glaciares como el del Zêzere (unos 13 km) y lagunas. Manteigas, el único municipio íntegramente dentro del parque, es la base recomendada.",
+      "actividad": "Ruta por el valle glaciar del Zêzere desde Manteigas",
+      "fuentes": [
+        {
+          "guia": "VisitPortugal (oficial)",
+          "url": "https://www.visitportugal.com/pt-pt/content/parque-natural-da-serra-da-estrela"
+        },
+        {
+          "guia": "VisitPortugal (Geopark Estrela)",
+          "url": "https://www.visitportugal.com/pt-pt/destinos/centro-de-portugal/73759"
+        },
+        {
+          "guia": "Câmara Municipal de Manteigas",
+          "url": "https://cm-manteigas.pt/wp-content/uploads/2016/05/Portugal-de-Sabores-e-Tradicoes.pdf"
+        },
+        {
+          "guia": "Rough Guides",
+          "url": "https://www.roughguides.com/portugal/serra-da-estrela-travel-guide/"
+        }
+      ]
+    },
+    {
+      "id": "pt-azores-flores",
+      "puntaje": 5,
+      "unesco": false,
+      "justificacion": "La isla más occidental de Europa: cascadas en torno a Fajã Grande, siete lagunas de cráter en la meseta central y acantilados basálticos como la Rocha dos Bordões. Es remota, pero su paisaje está entre los más espectaculares del Atlántico.",
+      "actividad": "Senderos a Poço do Bacalhau y Poço da Ribeira do Ferreiro; miradores de las lagunas Negra y Comprida",
+      "fuentes": [
+        {
+          "guia": "Visit Azores (folleto oficial de Flores)",
+          "url": "https://api.visitazores.com/sites/default/files/brochures/Flores_2018.pdf"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-the-azores"
+        }
+      ]
+    },
+    {
+      "id": "pt-madeira-funchal",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "Funchal es la base urbana de Madeira. Desde allí se sube al macizo volcánico central, con cumbres sobre el mar de nubes y senderos de cresta entre los más espectaculares de Europa. La laurisilva UNESCO, que es el gran valor natural de la isla, cuenta en pt-madeira-rabacal.",
+      "actividad": "Vereda do Areeiro (PR1) Pico do Arieiro–Pico Ruivo, unos 7 km",
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-madeira"
+        },
+        {
+          "guia": "Time Out",
+          "url": "https://www.timeout.com/madeira/things-to-do/the-best-things-to-do-in-madeira"
+        }
+      ]
+    },
+    {
+      "id": "pt-madeira-porto-moniz",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Piscinas naturales de lava en la costa norte de Madeira, batidas por el Atlántico. Es un atractivo puntual de baño, no un gran espacio natural.",
+      "actividad": "Baño en las piscinas naturales volcánicas",
+      "fuentes": []
+    },
+    {
+      "id": "ad-vall-del-madriu",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "Valle glaciar sin carreteras, paisaje cultural Patrimonio Mundial y único sitio UNESCO de Andorra, con lagos, bordas y refugios. Es un entorno de montaña destacado y accesible a pie desde Escaldes, de alcance más local que los grandes parques del Pirineo.",
+      "actividad": "Travesía Escaldes–refugio de l'Illa por el valle del Madriu (jornada larga)",
+      "fuentes": [
+        {
+          "guia": "UNESCO",
+          "url": "https://whc.unesco.org/en/list/1160"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/guide-to-andorra"
+        }
+      ]
+    },
+    {
+      "id": "ad-grandvalira-pas-de-la-casa",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "El mayor dominio esquiable del Pirineo, entre circos y lagos de alta montaña; en verano, senderismo y BTT.",
+      "actividad": "Esquí en invierno; senderismo estival en el entorno de Pas de la Casa",
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/guide-to-andorra"
+        }
+      ]
+    },
+    {
+      "id": "ad-naturlandia",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "Parque de montaña en los bosques de la Rabassa, con actividades al aire libre y un parque de fauna pirenaica.",
+      "actividad": "Senderismo y fauna en la Rabassa; Tobotronc",
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/guide-to-andorra"
+        }
+      ]
+    },
+    {
+      "id": "it-parque-gran-paradiso",
+      "puntaje": 5,
+      "unesco": false,
+      "justificacion": "El parque nacional más antiguo de Italia (1922), en torno al único cuatromil íntegramente italiano. Es refugio histórico del íbice alpino, con glaciares, lagos y rebecos fáciles de observar desde Valnontey, la puerta del parque en Cogne.",
+      "actividad": "Valnontey–Rifugio Vittorio Sella (unos 921 m de desnivel, unas 2 h 30) y prolongación a los lagos del Lauson",
+      "fuentes": [
+        {
+          "guia": "Valle d'Aosta Turismo (lovevda.it, Valnontey en el Gran Paradiso)",
+          "url": "https://lovevda.it/en/database/7/snowshoe/cogne/gran-paradiso/3225"
+        },
+        {
+          "guia": "Planetmountain (Rifugio Vittorio Sella)",
+          "url": "https://www.planetmountain.com/it/rifugi/rifugio-vittorio-sella-al-lauson-valle-di-cogne-valnontey.html"
+        },
+        {
+          "guia": "Montagna.tv",
+          "url": "https://www.montagna.tv/260868/al-lago-del-lauson-nel-parco-nazionale-gran-paradiso/"
+        }
+      ]
+    },
+    {
+      "id": "it-valle-de-aosta-monte-bianco",
+      "puntaje": 5,
+      "unesco": false,
+      "justificacion": "Valle a los pies del Mont Blanc (4.808 m), techo de Europa occidental, con glaciares, refugios y el Tour du Mont Blanc. El Skyway sube desde Courmayeur hasta Punta Helbronner (3.466 m), con vistas a 360 grados sobre el macizo.",
+      "actividad": "Skyway Monte Bianco de Courmayeur a Punta Helbronner (3.466 m) y etapas del Tour du Mont Blanc",
+      "fuentes": [
+        {
+          "guia": "Valle d'Aosta Turismo (lovevda.it, Skyway)",
+          "url": "https://lovevda.it/en/experiences/cableways-4000-metres/mont-blanc-cableway"
+        },
+        {
+          "guia": "Italia.it (ENIT, turismo oficial)",
+          "url": "https://www.italia.it/en/aosta-valley/aosta/courmayeur/skyway-monte-bianco"
+        },
+        {
+          "guia": "Courmayeur Mont Blanc (turismo oficial)",
+          "url": "https://www.courmayeur-montblanc.com/en/?p=3424"
+        },
+        {
+          "guia": "Frommer's",
+          "url": "https://www.frommers.com/destinations/italy/active-pursuits/"
+        }
+      ]
+    },
+    {
+      "id": "it-golfo-di-orosei",
+      "puntaje": 5,
+      "unesco": false,
+      "justificacion": "Costa salvaje de acantilados calizos del Supramonte con calas de agua turquesa (Goloritzé, Luna, Mariolu) y el trekking Selvaggio Blu, de los más duros del Mediterráneo.",
+      "actividad": "Bajada a Cala Goloritzé desde el altiplano del Golgo (unos 1 h 30 y 470 m de desnivel; acceso limitado)",
+      "fuentes": [
+        {
+          "guia": "Sardegna Turismo (oficial)",
+          "url": "https://sardegnaturismo.it/it/supramonte-di-baunei-sul-tetto-del-mondo"
+        }
+      ]
+    },
+    {
+      "id": "it-gargano",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "Promontorio sobre el Adriático con la Foresta Umbra, entre Vieste, Vico del Gargano y Monte Sant'Angelo, uno de los mayores bosques de frondosas de Italia; su hayedo es Patrimonio Natural UNESCO desde 2017. La costa de acantilados blancos, grutas y calas entre Vieste y Mattinata completa el parque nacional.",
+      "actividad": "Anillo por la Foresta Umbra desde el Laghetto d'Umbra (unas 4 h, unos 150 m de desnivel); barco por las grutas marinas de Vieste",
+      "fuentes": [
+        {
+          "guia": "Italia.it (ENIT, turismo oficial)",
+          "url": "https://www.italia.it/it/puglia/foggia/foresta-umbra"
+        },
+        {
+          "guia": "Parco Nazionale del Gargano (Ente Parco, senderos)",
+          "url": "https://www.parcogargano.it/servizi/gestionedocumentale/visualizzadocumento.aspx?ID=3251"
+        },
+        {
+          "guia": "Montagna.tv",
+          "url": "https://www.montagna.tv/246361/lungo-i-sentieri-del-gargano-adesso-piu-belli-che-mai/"
+        },
+        {
+          "guia": "UNESCO",
+          "url": "https://whc.unesco.org/en/list/1133/"
+        }
+      ]
+    },
+    {
+      "id": "it-riviera-del-conero",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "El Parque Regional del Conero es el único promontorio calizo y boscoso de la costa adriática central. Cae a pico sobre calas de agua clara como Due Sorelle, Urbani y Portonovo, y Sirolo, dentro del parque, tiene el centro de visitantes. Algunos senderos están cerrados por seguridad, y la bajada del Passo del Lupo a Due Sorelle también, así que a esa playa solo se llega en barco.",
+      "actividad": "Sendero 302 desde Sirolo al mirador del Passo del Lupo y barco desde Numana a la playa de las Due Sorelle; sendero 301 (unos 8 km), el más largo del parque",
+      "fuentes": [
+        {
+          "guia": "Italia.it (ENIT, turismo oficial)",
+          "url": "https://www.italia.it/it/marche/sirolo"
+        },
+        {
+          "guia": "Consiglio Regionale delle Marche (senderos cerrados, 2026)",
+          "url": "https://consiglio.marche.it/banche_dati_e_documentazione/atti_di_indirizzo_e_controllo/interrogazioni/pdf/inter330_12.pdf"
+        },
+        {
+          "guia": "Montagna.tv",
+          "url": "https://www.montagna.tv/229923/tre-escursioni-sui-sentieri-del-conero-a-picco-sulladriatico/amp/"
+        }
+      ]
+    },
+    {
+      "id": "it-portofino-san-fruttuoso",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "Promontorio boscoso que cae a pico sobre el mar, protegido por un parque natural regional y un área marina protegida. Los senderos unen Camogli, San Rocco, San Fruttuoso, con su abadía en una cala sin carretera, y Portofino. La Via dei Tubi sigue cerrada desde el accidente mortal de 2023.",
+      "actividad": "Portofino–San Fruttuoso a pie (unos 4,3 km, unos 250 m de desnivel, unas 2 h) y vuelta en barco; versión larga Camogli–San Rocco–Batterie–San Fruttuoso (unas 6 h)",
+      "fuentes": [
+        {
+          "guia": "Italia.it (ENIT, turismo oficial)",
+          "url": "https://www.italia.it/it/liguria/genova/monte-di-portofino"
+        },
+        {
+          "guia": "Gulliver (itinerario)",
+          "url": "https://www.gulliver.it/itinerari/san-fruttuoso-abbazia-di-da-camogli-traversata-portofino-santa-margherita-ligure/2024/02/03/299957/"
+        }
+      ]
+    },
+    {
+      "id": "it-zingaro-san-vito-lo-capo",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "Primera reserva natural de Sicilia (1981), con unas 1.650 ha y 7 km de costa virgen sin carretera entre Scopello y San Vito Lo Capo. Tiene calas de agua turquesa como Cala Capreria, palmitos y acantilados calizos, y solo se recorre a pie. San Vito, en el extremo norte, tiene una de las playas de arena blanca más conocidas de Sicilia.",
+      "actividad": "Sendero costero del Zingaro entre la entrada sur (Scopello) y la entrada norte (San Vito): 7 km, unas 2 h por trayecto, con baños en las calas",
+      "fuentes": [
+        {
+          "guia": "La Sicilia in Rete (ficha EUAP0382)",
+          "url": "https://www.lasiciliainrete.it/en/directory-tangibili/listing/riserva-dello-zingaro/"
+        },
+        {
+          "guia": "Balarm (ficha de la reserva)",
+          "url": "https://www.balarm.it/luoghi/riserva-naturale-orientata-dello-zingaro-castellammare-del-golfo-2363"
+        },
+        {
+          "guia": "SiViaggia",
+          "url": "https://siviaggia.it/vacanze-natura/escursioni-riserva-zingaro-quali-fare/410124/"
+        }
+      ]
+    },
+    {
+      "id": "it-lago-de-iseo-monte-isola",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "Lago prealpino menos masificado que Como o Garda, con Monte Isola en el centro: una isla montañosa y casi sin coches. En la orilla sur, las Torbiere del Sebino son un humedal de importancia internacional.",
+      "actividad": "Barco de Sulzano a Monte Isola y vuelta a pie o en bici por la isla; Monte Cognolo (674 m) y Torbiere del Sebino en la orilla sur",
+      "fuentes": [
+        {
+          "guia": "VisitBergamo (turismo oficial)",
+          "url": "https://visitbergamo.net/public/fr/document/32"
+        },
+        {
+          "guia": "Montagna.tv",
+          "url": "https://www.montagna.tv/254763/sul-monte-cognolo-magnifica-terrazza-panoramica-sul-lago-diseo/amp/"
+        }
+      ]
+    },
+    {
+      "id": "it-polignano-monopoli",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Costa caliza con acantilados, grutas marinas y calas como Lama Monachile en Polignano y Porto Ghiacciolo o Cala Porta Vecchia en Monopoli. Es un tramo de costa bonito pero urbano y de extensión reducida.",
+      "actividad": "Baño en Lama Monachile y barco por las grutas marinas; calas al sur de Monopoli",
+      "fuentes": [
+        {
+          "guia": "Spiagge.it",
+          "url": "https://www.spiagge.it/magazine/scoprire-polignano-a-mare-posti-imperdibili-estate-1/"
+        }
+      ]
+    },
+    {
+      "id": "it-alghero-capo-caccia",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "Capo Caccia es un promontorio calizo de acantilados dentro del Área Marina Protegida Capo Caccia–Isola Piana. A sus pies se abre la Grotta di Nettuno, una cueva de estalactitas a nivel del mar.",
+      "actividad": "Bajada por la Escala del Cabirol (654 escalones, 110 m de acantilado) a la Grotta di Nettuno (visita de unos 45 min) o llegada en barco desde el puerto de Alghero",
+      "fuentes": [
+        {
+          "guia": "Sardegna Turismo (oficial)",
+          "url": "https://sardegnaturismo.it/it/esplora/grotte-di-nettuno"
+        },
+        {
+          "guia": "Ministero della Cultura (IDESE)",
+          "url": "https://idese.cultura.gov.it/en/?p=29177"
+        }
+      ]
+    },
+    {
+      "id": "it-venecia",
+      "puntaje": 2,
+      "unesco": true,
+      "justificacion": "La laguna véneta, incluida en el sitio UNESCO, suma barene, canales e islas como Burano y Torcello. Es un paisaje húmedo singular, pero la experiencia es sobre todo urbana.",
+      "actividad": "Vaporetto o kayak por la laguna norte hasta Torcello y Burano",
+      "fuentes": []
+    },
+    {
+      "id": "mt-golden-bay",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "Las playas de Golden Bay y Għajn Tuffieħa están dentro del Parque Natural e Histórico Il-Majjistral, con acantilados de arcilla, garriga y senderos costeros señalizados. Es un buen entorno natural, pero de menos entidad que el Blue Hole de Dwejra o la Laguna Azul de Comino.",
+      "actividad": "Golden Bay–Torre de Għajn Tuffieħa–Qarraba–Ġnejna Bay (unos 6 km, 2 h 30, unos 155 m de desnivel), con vuelta por lo alto de los acantilados",
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/points-of-interest/park-tal-majjistral/1136197"
+        },
+        {
+          "guia": "Guide Me Malta",
+          "url": "https://www.guidememalta.com/en/exploring-malta-s-northern-hiking-trails-a-walk-through-nature-and-history"
+        }
+      ]
+    },
+    {
+      "id": "mt-acantilados-dingli",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "Son los acantilados más altos de Malta (unos 253 m), frente al islote de Filfla y con plantas endémicas. A pie se enlazan con Buskett, el único bosque del país, y con la cueva de Għar il-Kbir. Es un buen paisaje y accesible en bus, al nivel de Golden Bay y por debajo de Dwejra o Comino.",
+      "actividad": "Caminata Buskett–Għar il-Kbir–borde de los acantilados de Dingli hasta la capilla de Santa María Magdalena",
+      "fuentes": [
+        {
+          "guia": "National Geographic",
+          "url": "https://www.nationalgeographic.com/travel/article/malta_walks"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-malta"
+        }
+      ]
+    },
+    {
+      "id": "sm-torre-guaita",
+      "puntaje": 2,
+      "unesco": true,
+      "justificacion": "Fortaleza al borde del acantilado del Monte Titano, con vistas amplias sobre la Romaña y el mar. Aporta panorama más que naturaleza propia, igual que Orvieto o Mdina sobre sus peñascos.",
+      "actividad": "Passo delle Streghe: sendero de cresta Guaita–Cesta (unos 1 km)",
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/points-of-interest/torre-guaita/1432921"
+        }
+      ]
+    },
+    {
+      "id": "sm-torre-cesta",
+      "puntaje": 2,
+      "unesco": true,
+      "justificacion": "En la cima más alta del Monte Titano (unos 750 m), sobre paredes calizas, con vistas a 360 grados y un pequeño bosque en la cresta hacia la Torre Montale. Es sobre todo un mirador.",
+      "actividad": "Sendero de cresta desde la Guaita y bosque del Monte Titano hasta la Montale",
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/points-of-interest/torre-cesta/1137960"
+        }
+      ]
+    }
+  ],
+  "nuevos": [
+    {
+      "id": "pt-ria-formosa",
+      "nombre": "Parque Natural da Ria Formosa (Olhão)",
+      "pais_iso": "PT",
+      "region": "Algarve (Faro / Olhão)",
+      "lat": 37.0335,
+      "lng": -7.816,
+      "tipo": "parque",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "Humedal de importancia internacional: un laberinto de canales, islas-barrera, marismas y playas de arena a lo largo de unos 60 km de la costa del Algarve, entre Garrão y Manta Rota. Su símbolo es el calamón y es uno de los mejores lugares de Portugal para ver aves. Lo gestiona el ICNF.",
+      "actividad": "Senderos y observatorios del Centro de Educação Ambiental de Marim (Olhão); barco a las islas de Culatra, Armona o Deserta",
+      "fuentes": [
+        {
+          "guia": "VisitPortugal (oficial)",
+          "url": "https://www.visitportugal.com/pt-pt/content/parque-natural-da-ria-formosa"
+        },
+        {
+          "guia": "ICNF (documento del parque)",
+          "url": "https://www.icnf.pt/api/file/doc/f61c223d0d89e467"
+        },
+        {
+          "guia": "Postal do Algarve (aniversario del parque)",
+          "url": "https://postal.pt/algarve/comemoracoes-dos-47-anos-do-parque-da-ria-formosa-incluem-dia-aberto-e-atividades-na-natureza"
+        }
+      ]
+    },
+    {
+      "id": "pt-douro-internacional",
+      "nombre": "Parque Natural do Douro Internacional (Miranda do Douro)",
+      "pais_iso": "PT",
+      "region": "Trás-os-Montes (Bragança) / Beira Interior (Guarda)",
+      "lat": 41.4936,
+      "lng": -6.2744,
+      "tipo": "parque",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "Cañón granítico del Duero en la frontera con España, con unos 122 km de arribas y unas 86.500 ha protegidas. Los cortados son lugar de cría de alimoche, símbolo del parque, cigüeña negra, buitre leonado, águila real y águila perdicera. En febrero y marzo florecen los almendros del sur del parque. Es la parte portuguesa del mismo paisaje que las Arribes del Duero.",
+      "actividad": "Miradores sobre las arribas en Miranda do Douro y São João das Arribas (a unos 8 km); crucero ambiental por el cañón desde Miranda do Douro",
+      "fuentes": [
+        {
+          "guia": "VisitPortugal (oficial)",
+          "url": "https://www.visitportugal.com/pt-pt/content/parque-natural-do-douro-internacional"
+        },
+        {
+          "guia": "Turismo de Portugal (festival ObservArribas)",
+          "url": "https://business.turismodeportugal.pt/pt/Agenda/Eventos/Paginas/festival-observarribas-douro-internacional.aspx"
+        },
+        {
+          "guia": "Observador (miradores de Miranda do Douro)",
+          "url": "https://observador.pt/2023/10/05/miranda-do-douro-com-dois-novos-miradouros-sobre-as-arribas-do-rio-douro/"
+        }
+      ]
+    }
+  ],
+  "fuentes_quitar": [
+    {"id": "es-aiguestortes", "url": "https://www.miteco.gob.es/es/parques-nacionales-oapn/red-parques-nacionales/funcionamiento.html"},
+    {"id": "es-aiguestortes", "url": "https://www.miteco.gob.es/content/dam/miteco/es/parques-nacionales-oapn/red-parques-nacionales/la-red/fichareddeparquesnacionalesseptiembre2022_tcm30-545677.pdf"},
+    {"id": "es-caldera-de-taburiente", "url": "https://www.miteco.gob.es/es/parques-nacionales-oapn/red-parques-nacionales/funcionamiento.html"},
+    {"id": "es-caldera-de-taburiente", "url": "https://www.miteco.gob.es/content/dam/miteco/es/parques-nacionales-oapn/red-parques-nacionales/la-red/fichareddeparquesnacionalesseptiembre2022_tcm30-545677.pdf"},
+    {"id": "es-cabrera", "url": "https://www.miteco.gob.es/content/dam/miteco/es/parques-nacionales-oapn/red-parques-nacionales/la-red/fichareddeparquesnacionalesseptiembre2022_tcm30-545677.pdf"},
+    {"id": "es-cabaneros", "url": "https://www.miteco.gob.es/content/dam/miteco/es/parques-nacionales-oapn/red-parques-nacionales/la-red/fichareddeparquesnacionalesseptiembre2022_tcm30-545677.pdf"},
+    {"id": "es-montserrat", "url": "https://www.montserratvisita.com/pt/propostas-de-visita/visite-o-santuario/2024"},
+    {"id": "es-montserrat", "url": "https://www.komoot.com/es-es/guide/508694/rutas-de-senderismo-en-muntanya-de-montserrat"},
+    {"id": "es-montserrat", "url": "https://www.sensacionrural.es/blog/rutas-senderos-parque-natural-montserrat/"},
+    {"id": "es-ronda", "url": "https://www.ricksteves.com/europe/spain/white-hill-towns"},
+    {"id": "pt-benagil-sete-vales", "url": "https://portugalgetaways.com/destination/algarve/general-articles/benagil-cave"},
+    {"id": "pt-benagil-sete-vales", "url": "https://www.novo-monde.com/en/hike-seven-hanging-valley-trail/"},
+    {"id": "pt-benagil-sete-vales", "url": "https://atickettotakeoff.com/en/algarve-seven-hanging-valleys-trail/"},
+    {"id": "pt-madeira-porto-moniz", "url": "https://roughguides.com/portugal/trips/madeira-sao-miguel-guided-island-adventures-trip"},
+    {"id": "ad-vall-del-madriu", "url": "https://www.fodors.com/news/trip-ideas/best-things-to-do-in-andorra"},
+    {"id": "ad-naturlandia", "url": "https://www.fodors.com/news/trip-ideas/best-things-to-do-in-andorra"},
+    {"id": "ad-grandvalira-pas-de-la-casa", "url": "https://www.nationalgeographic.com/travel/article/paid-content-andorra-winter-getaway"},
+    {"id": "it-parque-gran-paradiso", "url": "https://gestwww.lovevda.it/Media/Default/Allegati-PDF/pagina%20singola_GP_StambeccoIT.pdf"},
+    {"id": "it-parque-gran-paradiso", "url": "https://www.komoot.com/it-it/smarttour/e1267686434/valnontey-lillaz-ed-epinel-da-cogne-nel-parco-nazionale-del-gran-paradiso"},
+    {"id": "it-golfo-di-orosei", "url": "https://www.sardegnaturismo.it/it/node/250946"},
+    {"id": "it-gargano", "url": "https://en.wikipedia.org/wiki/Gargano_National_Park"},
+    {"id": "it-gargano", "url": "https://www.viaggiando-italia.it/foresta-umbra-parco-nazionale-gargano/"},
+    {"id": "it-riviera-del-conero", "url": "https://travel.thewom.it/italia/marche/sentieri-conero.html"},
+    {"id": "it-riviera-del-conero", "url": "https://www.spiagge.it/magazine/le-spiagge-piu-belle-del-conero-foto-e-mappa/"},
+    {"id": "it-portofino-san-fruttuoso", "url": "https://www.mentelocale.it/genova/23114-promontorio-di-portofino-double-face-via-terra-e-via-mare-escursione-panoramica.htm"},
+    {"id": "it-portofino-san-fruttuoso", "url": "https://www.mentelocale.it/genova/132848-trekking-da-camogli-a-portofino-attraverso-il-fresco-del-parco-tra-il-verde-degli-alberi-e-il-blu-del-mare.htm"},
+    {"id": "it-zingaro-san-vito-lo-capo", "url": "https://www.balarm.it/news/lo-zingaro-e-i-suoi-tre-sentieri-aperti-a-tutti-breve-guida-per-una-passeggiata-rigenerante-123247"},
+    {"id": "it-lago-de-iseo-monte-isola", "url": "https://www.nostrofiglio.it/famiglia/viaggi/lago-d-iseo-con-i-bambini-tra-borghi-battelli-e-l-isola-dove-non-ci-sono-auto"},
+    {"id": "it-polignano-monopoli", "url": "https://www.trenitalia.com/content/trenitalia/it/intercity/consigli-di-viaggio/raggiungi-la-costa-pugliese.html"},
+    {"id": "it-polignano-monopoli", "url": "https://freedome.it/blog/cosa-fare-polignano-mare-esperienze-originali/"},
+    {"id": "it-polignano-monopoli", "url": "https://tg24.sky.it/lifestyle/2026/08/07/polignano-a-mare-turismo-mare-centro-storico"},
+    {"id": "it-alghero-capo-caccia", "url": "https://en.wikipedia.org/wiki/Neptune%27s_Grotto"},
+    {"id": "it-venecia", "url": "https://www.fodors.com/world/europe/italy/venice"},
+    {"id": "mt-golden-bay", "url": "https://en.wikipedia.org/wiki/Majjistral_Park"},
+    {"id": "mt-acantilados-dingli", "url": "https://app.advcollective.com/local-experts/buskett-woodlands-to-dingli-cliffs-guided-nature-walk-with-botanist"}
+  ],
+  "correcciones_base": []
+}
