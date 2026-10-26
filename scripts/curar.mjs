@@ -81,6 +81,8 @@ const ponerBase = (r, e, prioridad) => {
 
 for (const f of archivos) {
   const d = JSON.parse(readFileSync(join(raiz, dirTrabajo, f), 'utf8'));
+  // listas auxiliares (p. ej. pendientes-logistica-*.json) no son salida de agente
+  if (Array.isArray(d) || !d || typeof d !== 'object' || !d.agente) { console.warn(`  (ignoro ${f}: no es salida de agente)`); continue; }
   const agente = agenteDe(f, d);
   const crit = AGENTE_A_CRITERIO[agente];
   if (!crit) { console.warn(`  (ignoro ${f}: agente ${agente} desconocido)`); continue; }
@@ -176,7 +178,14 @@ function platosUnicos(lista, max = 6) {
   return out.slice(0, max);
 }
 
+const quitar = set('quitar');
+const sinBase = [];
 for (const r of lugares.values()) {
+  if (quitar.has(r.id)) { sinBase.push(`${r.id} (quitado por ajuste)`); continue; }
+  // un id que solo aparece en puntajes de otros agentes no es un lugar: sin nombre, coordenadas o logística no se publica
+  const falta = ['nombre', 'pais_iso', 'lat', 'lng'].filter((k) => r[k] == null);
+  if (r.puntajes.logistica == null && !r.mejor_epoca) falta.push('logistica');
+  if (falta.length) { sinBase.push(`${r.id} (falta ${falta.join(', ')})`); continue; }
   if (!paisesSub.has(r.pais_iso)) { console.warn(`  ${r.id}: pais_iso ${r.pais_iso} fuera de la subregión, lo ignoro`); continue; }
   const p = Object.fromEntries(CRITERIOS.map((c) => [c, Math.max(0, r.puntajes[c] ?? 0)]));
   const mejor = Math.max(...TEMATICOS.map((t) => p[t]));
@@ -261,4 +270,7 @@ console.log(`${salida.length} lugares (${archivos.length} archivos leídos) → 
 for (const iso of sub.paises) console.log(`  ${iso} ${conteo[iso] || 0}  ${JSON.stringify(porNivel[iso] || {})}`);
 console.log(`  fusiones ${fusionados.length}, descartes ${descartados.length}`);
 for (const d of descartados) console.log(`    descartado ${d.id}: ${d.motivo}`);
+if (sinBase.length) console.log(`  sin registro base, no publicados (${sinBase.length}): ${sinBase.join(', ')}`);
+const volcar = opt('--volcar');
+if (volcar) writeFileSync(volcar, JSON.stringify(salida, null, 2) + '\n');
 if (sinPorQue.length) console.log(`  sin por_que manual (${sinPorQue.length}): ${sinPorQue.join(', ')}`);
