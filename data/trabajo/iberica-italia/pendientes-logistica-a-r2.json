@@ -1,0 +1,484 @@
+[
+ {
+  "id": "es-sierra-de-guara-alquezar",
+  "nombre": "Sierra de Guara y Alquézar",
+  "pais_iso": "ES",
+  "region": "Aragón (Huesca, Somontano)",
+  "lat": 42.1717,
+  "lng": 0.0236,
+  "fuentes": [
+   {
+    "guia": "Spain.info (turismo oficial de España)",
+    "url": "https://www.spain.info/es/actividades/semana-barranquismo-sierra-guara/",
+    "url_verificada": true
+   },
+   {
+    "guia": "Turismo Somontano (comarca)",
+    "url": "https://www.turismosomontano.es/images/RUTAS/barrancos/Barranco_Vero.pdf",
+    "url_verificada": true
+   },
+   {
+    "guia": "Yumping (respaldo, ficha de operador)",
+    "url": "https://www.yumping.com/multiaventura/vertientes-aventura--e1447",
+    "url_verificada": true
+   }
+  ]
+ },
+ {
+  "id": "es-noguera-pallaresa-sort",
+  "nombre": "Noguera Pallaresa (Sort y Llavorsí)",
+  "pais_iso": "ES",
+  "region": "Cataluña (Lleida, Pallars Sobirà)",
+  "lat": 42.4131,
+  "lng": 1.13,
+  "fuentes": [
+   {
+    "guia": "RocRoi (operador)",
+    "url": "https://www.rocroi.com/en/centers/llavorsi/rafting-llavorsi/",
+    "url_verificada": true
+   },
+   {
+    "guia": "RocRoi (blog, mejores descensos de Cataluña)",
+    "url": "https://www.rocroi.com/en/blog/the-most-beautiful-rafting-tours-in-catalonia/",
+    "url_verificada": true
+   },
+   {
+    "guia": "Visit Pirineus (Turisme de Lleida)",
+    "url": "https://visitpirineus.com/en/node/5241",
+    "url_verificada": true
+   }
+  ]
+ },
+ {
+  "id": "es-montserrat",
+  "nombre": "Montserrat (monasterio y macizo)",
+  "pais_iso": "ES",
+  "region": "Cataluña",
+  "lat": 41.5934,
+  "lng": 1.8375,
+  "fuentes": [
+   {
+    "guia": "Montserrat Visita (oficial)",
+    "url": "https://www.montserratvisita.com/pt/propostas-de-visita/visite-o-santuario/2024"
+   }
+  ]
+ },
+ {
+  "id": "es-figueres-cadaques",
+  "nombre": "Triángulo daliniano: Figueres y Cadaqués (Portlligat)",
+  "pais_iso": "ES",
+  "region": "Cataluña",
+  "lat": 42.268,
+  "lng": 2.9595,
+  "fuentes": [
+   {
+    "guia": "Patrimoni Cultural (Generalitat de Catalunya)",
+    "url": "https://patrimoni.gencat.cat/en/collection/dali-theatre-museum-and-dali-triangle"
+   }
+  ]
+ },
+ {
+  "id": "es-cadiz",
+  "nombre": "Cádiz",
+  "pais_iso": "ES",
+  "region": "Andalucía",
+  "lat": 36.5297,
+  "lng": -6.293,
+  "fuentes": [
+   {
+    "guia": "Spain.info (Turespaña)",
+    "url": "https://www.spain.info/es/lugares-interes/torre-tavira/"
+   },
+   {
+    "guia": "Andalucia.com",
+    "url": "https://www.andalucia.com/cities/cadiz/monuments/torre-tavira.htm"
+   }
+  ]
+ },
+ {
+  "id": "es-albarracin",
+  "nombre": "Albarracín",
+  "pais_iso": "ES",
+  "region": "Aragón",
+  "lat": 40.4083,
+  "lng": -1.4433,
+  "fuentes": [
+   {
+    "guia": "Lonely Planet",
+    "url": "https://www.lonelyplanet.com/articles/best-towns-in-spain-results"
+   },
+   {
+    "guia": "Lonely Planet",
+    "url": "https://www.lonelyplanet.com/articles/beautiful-spanish-towns-to-visit"
+   },
+   {
+    "guia": "UNESCO",
+    "url": "https://whc.unesco.org/en/list/874"
+   }
+  ]
+ },
+ {
+  "id": "es-teruel",
+  "nombre": "Teruel",
+  "pais_iso": "ES",
+  "region": "Aragón",
+  "lat": 40.3443,
+  "lng": -1.1069,
+  "fuentes": [
+   {
+    "guia": "UNESCO",
+    "url": "https://whc.unesco.org/en/list/378"
+   },
+   {
+    "guia": "Turismo de Aragón (oficial)",
+    "url": "https://www.turismodearagon.com/rutas-por-aragon/mudejar-de-teruel-daroca-y-tierras-del-jiloca/"
+   }
+  ]
+ },
+ {
+  "id": "es-pamplona",
+  "nombre": "Pamplona y Olite",
+  "pais_iso": "ES",
+  "region": "Navarra",
+  "lat": 42.8179,
+  "lng": -1.644,
+  "fuentes": [
+   {
+    "guia": "UNESCO",
+    "url": "https://whc.unesco.org/en/list/669/"
+   },
+   {
+    "guia": "Barceló Guía de Turismo",
+    "url": "https://www.barcelo.com/guia-turismo/es/espana/pamplona/que-ver/"
+   },
+   {
+    "guia": "Culture Trip",
+    "url": "https://theculturetrip.com/europe/spain/articles/top-places-to-visit-in-navarra"
+   }
+  ]
+ },
+ {
+  "id": "es-cartagena",
+  "nombre": "Cartagena",
+  "pais_iso": "ES",
+  "region": "Región de Murcia",
+  "lat": 37.5995,
+  "lng": -0.985,
+  "fuentes": [
+   {
+    "guia": "Spain.info (Turespaña)",
+    "url": "https://www.spain.info/es/destino/cartagena/"
+   }
+  ]
+ },
+ {
+  "id": "es-trujillo",
+  "nombre": "Trujillo",
+  "pais_iso": "ES",
+  "region": "Extremadura",
+  "lat": 39.4597,
+  "lng": -5.8817,
+  "fuentes": [
+   {
+    "guia": "Spain.info (Turespaña)",
+    "url": "https://www.spain.info/es/destino/trujillo/"
+   },
+   {
+    "guia": "Lonely Planet",
+    "url": "https://www.lonelyplanet.com/spain/trujillo/attractions/torre-del-alfiler/a/poi-sig/1267670/360768"
+   }
+  ]
+ },
+ {
+  "id": "es-guadalupe",
+  "nombre": "Real Monasterio de Santa María de Guadalupe",
+  "pais_iso": "ES",
+  "region": "Extremadura",
+  "lat": 39.453,
+  "lng": -5.3274,
+  "fuentes": [
+   {
+    "guia": "UNESCO",
+    "url": "https://whc.unesco.org/en/list/665"
+   }
+  ]
+ },
+ {
+  "id": "es-a-coruna",
+  "nombre": "A Coruña",
+  "pais_iso": "ES",
+  "region": "Galicia",
+  "lat": 43.371,
+  "lng": -8.396,
+  "fuentes": [
+   {
+    "guia": "UNESCO",
+    "url": "https://whc.unesco.org/en/list/1312"
+   }
+  ]
+ },
+ {
+  "id": "es-lugo",
+  "nombre": "Lugo",
+  "pais_iso": "ES",
+  "region": "Galicia",
+  "lat": 43.0099,
+  "lng": -7.556,
+  "fuentes": [
+   {
+    "guia": "UNESCO",
+    "url": "https://whc.unesco.org/en/list/987/maps/"
+   }
+  ]
+ },
+ {
+  "id": "pt-aveiro",
+  "nombre": "Aveiro",
+  "pais_iso": "PT",
+  "region": "Centro",
+  "lat": 40.6405,
+  "lng": -8.6538,
+  "fuentes": [
+   {
+    "guia": "VisitPortugal (oficial)",
+    "url": "https://www.visitportugal.com/pt-pt/content/visita-aveiro"
+   },
+   {
+    "guia": "VisitPortugal (oficial)",
+    "url": "https://www.visitportugal.com/pt-pt/destinos/aveiro/73753"
+   }
+  ]
+ },
+ {
+  "id": "pt-fatima",
+  "nombre": "Santuario de Fátima",
+  "pais_iso": "PT",
+  "region": "Centro",
+  "lat": 39.6317,
+  "lng": -8.6731,
+  "fuentes": [
+   {
+    "guia": "Santuário de Fátima (oficial)",
+    "url": "https://www.fatima.pt/pt/news/topdf/peregrinacao-de-maio-reuniu-cerca-de-450-mil-fieis-e-deixou-um-forte-apelo-a-paz"
+   }
+  ]
+ },
+ {
+  "id": "pt-piodao",
+  "nombre": "Piódão y las Aldeias do Xisto",
+  "pais_iso": "PT",
+  "region": "Centro",
+  "lat": 40.2297,
+  "lng": -7.8244,
+  "fuentes": [
+   {
+    "guia": "Aldeias Históricas de Portugal (oficial)",
+    "url": "https://aldeiashistoricasdeportugal.com/en/percurso/piodao-percurso-vermelho/"
+   },
+   {
+    "guia": "VisitPortugal (oficial)",
+    "url": "https://www.visitportugal.com/pt-pt/node/132806"
+   }
+  ]
+ },
+ {
+  "id": "pt-viana-do-castelo",
+  "nombre": "Viana do Castelo y Ponte de Lima",
+  "pais_iso": "PT",
+  "region": "Norte",
+  "lat": 41.6932,
+  "lng": -8.8329,
+  "fuentes": [
+   {
+    "guia": "Lonely Planet",
+    "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-viana-do-castelo-portugal"
+   }
+  ]
+ },
+ {
+  "id": "es-priorat",
+  "nombre": "Priorat y Montsant (Gratallops, Porrera y Falset)",
+  "pais_iso": "ES",
+  "region": "Cataluña (Tarragona)",
+  "lat": 41.1458,
+  "lng": 0.8194,
+  "fuentes": [
+   {
+    "guia": "Consell Regulador DOQ Priorat (dossier de prensa)",
+    "url": "https://www.doqpriorat.org/wp-content/uploads/2019/05/DOSSIERPREMSA-ENG.pdf"
+   },
+   {
+    "guia": "Costa Daurada (turismo oficial)",
+    "url": "https://costadaurada.info/en/taxonomy/term/181"
+   },
+   {
+    "guia": "Winetourism.com",
+    "url": "https://www.winetourism.com/es/tours-de-cata-de-vino-en-priorat/"
+   }
+  ]
+ },
+ {
+  "id": "es-penedes",
+  "nombre": "Penedès (Sant Sadurní d'Anoia y Vilafranca del Penedès)",
+  "pais_iso": "ES",
+  "region": "Cataluña (Barcelona)",
+  "lat": 41.4256,
+  "lng": 1.7865,
+  "fuentes": [
+   {
+    "guia": "Time Out (Sant Sadurní d'Anoia)",
+    "url": "https://www.timeout.es/barcelona/es/viaje/alt-penedes-un-dia-en-sant-sadurni-danoia"
+   },
+   {
+    "guia": "Diputació de Barcelona (Barcelona és molt més)",
+    "url": "https://www.barcelonaesmoltmes.cat/en/detallviatge/-/dades/3bd3LPr67IZT/detall/23_1_48/do-penedes"
+   },
+   {
+    "guia": "Catalan News (reapertura del Vinseum)",
+    "url": "https://www.catalannews.com/tag/wine%20museum"
+   },
+   {
+    "guia": "Ajuntament de Sant Sadurní (mapa turístico)",
+    "url": "https://santsadurni.cat/ARXIUS/turisme/ESP_Mapa_StSadurni_69X48_2025.pdf"
+   }
+  ]
+ },
+ {
+  "id": "es-islas-cies",
+  "nombre": "Islas Cíes (Parque Nacional de las Islas Atlánticas de Galicia)",
+  "pais_iso": "ES",
+  "region": "Galicia (Pontevedra)",
+  "lat": 42.2236,
+  "lng": -8.904,
+  "fuentes": [
+   {
+    "guia": "Spain.info (turismo oficial de España)",
+    "url": "https://www.spain.info/es/naturaleza/parque-nacional-maritimo-terrestre-islas-atlanticas-galicia/"
+   },
+   {
+    "guia": "Lonely Planet",
+    "url": "https://www.lonelyplanet.com/spain/rias-baixas/attractions/parque-nacional-de-las-islas-atlanticas-de-galicia/a/poi-sig/1132175/1321044"
+   },
+   {
+    "guia": "Ramsar (ficha del sitio)",
+    "url": "https://rsis.ramsar.org/ris/2453"
+   },
+   {
+    "guia": "Direct Ferries (guía de acceso y autorización)",
+    "url": "https://www.directferries.es/blog/viajar-a-islas-cies"
+   }
+  ]
+ },
+ {
+  "id": "es-gran-canaria",
+  "nombre": "Gran Canaria (Roque Nublo y dunas de Maspalomas)",
+  "pais_iso": "ES",
+  "region": "Canarias",
+  "lat": 27.9708,
+  "lng": -15.6128,
+  "fuentes": [
+   {
+    "guia": "Hello Canary Islands (turismo oficial de Canarias)",
+    "url": "https://www.hellocanaryislands.com/nature-spaces/gran-canaria/nublo-rural-park/"
+   },
+   {
+    "guia": "Hello Canary Islands (turismo oficial de Canarias)",
+    "url": "https://www.hellocanaryislands.com/nature-areas/gran-canaria/maspalomas-dunes-nature-reserve/"
+   },
+   {
+    "guia": "UNESCO",
+    "url": "https://whc.unesco.org/en/list/1578"
+   }
+  ]
+ },
+ {
+  "id": "es-fuerteventura",
+  "nombre": "Fuerteventura (dunas de Corralejo y Jandía)",
+  "pais_iso": "ES",
+  "region": "Canarias",
+  "lat": 28.69,
+  "lng": -13.839,
+  "fuentes": [
+   {
+    "guia": "Spain.info (turismo oficial de España)",
+    "url": "https://spain.info/en/nature/dunas-corralejo-natural-park"
+   },
+   {
+    "guia": "Lonely Planet",
+    "url": "https://www.lonelyplanet.com/spain/corralejo/attractions/parque-natural-de-corralejo/a/poi-sig/1462752/355117"
+   }
+  ]
+ },
+ {
+  "id": "es-cabo-de-gata",
+  "nombre": "Parque Natural Cabo de Gata-Níjar",
+  "pais_iso": "ES",
+  "region": "Andalucía (Almería)",
+  "lat": 36.765,
+  "lng": -2.106,
+  "fuentes": [
+   {
+    "guia": "Spain.info (turismo oficial de España)",
+    "url": "https://www.spain.info/es/naturaleza/parque-natural-cabo-gata-nijar/"
+   },
+   {
+    "guia": "Spain.info (turismo oficial de España)",
+    "url": "https://www.spain.info/es/actividades/excursion-parque-natural-cabo-gata/"
+   }
+  ]
+ },
+ {
+  "id": "es-bardenas-reales",
+  "nombre": "Parque Natural de las Bardenas Reales",
+  "pais_iso": "ES",
+  "region": "Navarra",
+  "lat": 42.203,
+  "lng": -1.521,
+  "fuentes": [
+   {
+    "guia": "Spain.info (turismo oficial de España)",
+    "url": "https://www.spain.info/es/naturaleza/parque-natural-bardenas-reales/"
+   },
+   {
+    "guia": "Comunidad de Bardenas Reales (guía oficial)",
+    "url": "https://bardenasreales.es/wp-content/uploads/2022/09/GUIA-ESPANOL-2014.pdf"
+   }
+  ]
+ },
+ {
+  "id": "es-monfrague",
+  "nombre": "Parque Nacional de Monfragüe",
+  "pais_iso": "ES",
+  "region": "Extremadura (Cáceres)",
+  "lat": 39.8467,
+  "lng": -6.0306,
+  "fuentes": [
+   {
+    "guia": "Spain.info (turismo oficial de España)",
+    "url": "https://www.spain.info/es/naturaleza/parque-nacional-monfrague/"
+   }
+  ]
+ },
+ {
+  "id": "pt-benagil-sete-vales",
+  "nombre": "Gruta de Benagil y Percurso dos Sete Vales Suspensos",
+  "pais_iso": "PT",
+  "region": "Algarve (Lagoa)",
+  "lat": 37.0874,
+  "lng": -8.4262,
+  "fuentes": [
+   {
+    "guia": "Portugal Getaways (normativa de visita)",
+    "url": "https://portugalgetaways.com/destination/algarve/general-articles/benagil-cave"
+   },
+   {
+    "guia": "Novo-Monde (guía del sendero)",
+    "url": "https://www.novo-monde.com/en/hike-seven-hanging-valley-trail/"
+   },
+   {
+    "guia": "A Ticket to Take Off (guía del sendero)",
+    "url": "https://atickettotakeoff.com/en/algarve-seven-hanging-valleys-trail/"
+   }
+  ]
+ }
+]

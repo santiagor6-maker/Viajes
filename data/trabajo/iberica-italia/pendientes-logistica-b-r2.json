@@ -1,0 +1,526 @@
+[
+ {
+  "id": "it-finale-ligure",
+  "nombre": "Finale Ligure (Finale Outdoor Region)",
+  "pais_iso": "IT",
+  "region": "Liguria",
+  "lat": 44.1693,
+  "lng": 8.3435,
+  "fuentes": [
+   {
+    "guia": "UCI Mountain Bike World Series (organizador oficial)",
+    "url": "https://ucimtbworldseries.com/news/finale-outdoor-region-courses-released"
+   },
+   {
+    "guia": "Warner Bros. Discovery Sports (comunicado oficial, Mundial UCI 2026)",
+    "url": "https://media.wbdsports.com/post/finale-outdoor-region-liguria-to-host-the-2026-uci-mountain-bike"
+   }
+  ]
+ },
+ {
+  "id": "it-tivoli",
+  "nombre": "Tivoli (Villa d'Este y Villa Adriana)",
+  "pais_iso": "IT",
+  "region": "Lacio",
+  "lat": 41.9636,
+  "lng": 12.798,
+  "fuentes": [
+   {
+    "guia": "UNESCO (Villa Adriana)",
+    "url": "https://whc.unesco.org/en/list/907/"
+   },
+   {
+    "guia": "UNESCO (Villa d'Este)",
+    "url": "https://whc.unesco.org/en/list/1025/"
+   }
+  ]
+ },
+ {
+  "id": "it-ostia-antica",
+  "nombre": "Ostia Antica",
+  "pais_iso": "IT",
+  "region": "Lacio",
+  "lat": 41.7556,
+  "lng": 12.2918,
+  "fuentes": [
+   {
+    "guia": "Italia.it (ENIT)",
+    "url": "https://www.italia.it/it/lazio/roma/parco-archeologico-di-ostia-antica"
+   },
+   {
+    "guia": "Parco archeologico di Ostia antica (MiC, reglamento)",
+    "url": "https://ostiaantica.cultura.gov.it/wp-content/uploads/2025/11/Regolamento-PA-OANT_def_30.09.2025.pdf"
+   }
+  ]
+ },
+ {
+  "id": "it-civita-di-bagnoregio",
+  "nombre": "Civita di Bagnoregio",
+  "pais_iso": "IT",
+  "region": "Lacio",
+  "lat": 42.6275,
+  "lng": 12.1136,
+  "fuentes": [
+   {
+    "guia": "UNESCO (Lista Indicativa)",
+    "url": "https://whc.unesco.org/en/tentativelists/6182/"
+   },
+   {
+    "guia": "Visit Lazio",
+    "url": "https://www.visitlazio.com/en/?p=38381"
+   }
+  ]
+ },
+ {
+  "id": "it-reggia-di-caserta",
+  "nombre": "Reggia di Caserta",
+  "pais_iso": "IT",
+  "region": "Campania",
+  "lat": 41.0732,
+  "lng": 14.327,
+  "fuentes": [
+   {
+    "guia": "UNESCO",
+    "url": "https://whc.unesco.org/en/list/549/"
+   }
+  ]
+ },
+ {
+  "id": "it-vicenza",
+  "nombre": "Vicenza y las villas palladianas",
+  "pais_iso": "IT",
+  "region": "Véneto",
+  "lat": 45.5477,
+  "lng": 11.5464,
+  "fuentes": [
+   {
+    "guia": "UNESCO",
+    "url": "https://whc.unesco.org/en/list/712/"
+   }
+  ]
+ },
+ {
+  "id": "it-bergamo",
+  "nombre": "Bérgamo (Città Alta)",
+  "pais_iso": "IT",
+  "region": "Lombardía",
+  "lat": 45.7035,
+  "lng": 9.6627,
+  "fuentes": [
+   {
+    "guia": "UNESCO",
+    "url": "https://whc.unesco.org/en/list/1533/"
+   },
+   {
+    "guia": "VisitBergamo (UNESCO)",
+    "url": "https://unesco.visitbergamo.net/en/"
+   }
+  ]
+ },
+ {
+  "id": "it-castel-del-monte",
+  "nombre": "Castel del Monte",
+  "pais_iso": "IT",
+  "region": "Apulia",
+  "lat": 41.0848,
+  "lng": 16.2709,
+  "fuentes": [
+   {
+    "guia": "UNESCO",
+    "url": "https://whc.unesco.org/en/list/398/"
+   }
+  ]
+ },
+ {
+  "id": "it-bari",
+  "nombre": "Bari (Bari Vecchia)",
+  "pais_iso": "IT",
+  "region": "Apulia",
+  "lat": 41.1302,
+  "lng": 16.8701,
+  "fuentes": [
+   {
+    "guia": "Wikipedia (Basílica de San Nicolás)",
+    "url": "https://en.wikipedia.org/wiki/Basilica_of_Saint_Nicholas,_Bari"
+   },
+   {
+    "guia": "MuseiOnline",
+    "url": "https://museionline.info/puglia-musei-monumenti/basilica-di-san-nicola-di-bari"
+   }
+  ]
+ },
+ {
+  "id": "it-polignano-monopoli",
+  "nombre": "Polignano a Mare y Monopoli",
+  "pais_iso": "IT",
+  "region": "Apulia",
+  "lat": 40.996,
+  "lng": 17.219,
+  "fuentes": [
+   {
+    "guia": "Italo Treno (blog)",
+    "url": "https://blog.italotreno.com/idee-di-viaggio/cosa-vedere-a-polignano-a-mare-in-un-giorno/"
+   },
+   {
+    "guia": "Trenitalia (costa de Apulia)",
+    "url": "https://www.trenitalia.com/content/trenitalia/it/intercity/consigli-di-viaggio/raggiungi-la-costa-pugliese.html"
+   }
+  ]
+ },
+ {
+  "id": "it-aquileia",
+  "nombre": "Aquilea",
+  "pais_iso": "IT",
+  "region": "Friuli-Venecia Julia",
+  "lat": 45.7696,
+  "lng": 13.37,
+  "fuentes": [
+   {
+    "guia": "UNESCO",
+    "url": "https://whc.unesco.org/en/list/825/"
+   }
+  ]
+ },
+ {
+  "id": "it-cividale-udine",
+  "nombre": "Cividale del Friuli y Udine",
+  "pais_iso": "IT",
+  "region": "Friuli-Venecia Julia",
+  "lat": 46.0936,
+  "lng": 13.4346,
+  "fuentes": [
+   {
+    "guia": "UNESCO",
+    "url": "https://whc.unesco.org/en/list/1318/"
+   }
+  ]
+ },
+ {
+  "id": "it-cefalu",
+  "nombre": "Cefalú",
+  "pais_iso": "IT",
+  "region": "Sicilia",
+  "lat": 38.0385,
+  "lng": 14.0216,
+  "fuentes": [
+   {
+    "guia": "UNESCO",
+    "url": "https://whc.unesco.org/en/list/1487/"
+   }
+  ]
+ },
+ {
+  "id": "it-erice-segesta",
+  "nombre": "Erice, Trapani y Segesta",
+  "pais_iso": "IT",
+  "region": "Sicilia",
+  "lat": 38.037,
+  "lng": 12.5866,
+  "fuentes": [
+   {
+    "guia": "Italia.it (Erice)",
+    "url": "https://www.italia.it/it/sicilia/trapani/erice"
+   },
+   {
+    "guia": "Italia.it (Parco archeologico di Segesta)",
+    "url": "https://www.italia.it/en/sicilia/calatafimi/cultural-places/parco-archeologico-di-segesta"
+   },
+   {
+    "guia": "Ministero della Cultura (Segesta)",
+    "url": "https://cultura.gov.it/luogo/area-archeologica-di-segesta"
+   }
+  ]
+ },
+ {
+  "id": "it-selinunte",
+  "nombre": "Selinunte",
+  "pais_iso": "IT",
+  "region": "Sicilia",
+  "lat": 37.5838,
+  "lng": 12.8249,
+  "fuentes": [
+   {
+    "guia": "I.Sicily (Universidad de Oxford)",
+    "url": "https://isicily.classics.ox.ac.uk/museum/190"
+   },
+   {
+    "guia": "Wikivoyage",
+    "url": "https://it.wikivoyage.org/wiki/Selinunte"
+   }
+  ]
+ },
+ {
+  "id": "it-perugia",
+  "nombre": "Perugia",
+  "pais_iso": "IT",
+  "region": "Umbría",
+  "lat": 43.1107,
+  "lng": 12.3893,
+  "fuentes": [
+   {
+    "guia": "Galleria Nazionale dell'Umbria (oficial)",
+    "url": "https://gallerianazionaledellumbria.it/en"
+   },
+   {
+    "guia": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Galleria_Nazionale_dell%27Umbria"
+   }
+  ]
+ },
+ {
+  "id": "it-spoleto",
+  "nombre": "Spoleto",
+  "pais_iso": "IT",
+  "region": "Umbría",
+  "lat": 42.735,
+  "lng": 12.7386,
+  "fuentes": [
+   {
+    "guia": "UNESCO",
+    "url": "https://whc.unesco.org/en/list/1318/"
+   }
+  ]
+ },
+ {
+  "id": "it-portofino-san-fruttuoso",
+  "nombre": "Promontorio de Portofino y San Fruttuoso",
+  "pais_iso": "IT",
+  "region": "Liguria",
+  "lat": 44.3036,
+  "lng": 9.2096,
+  "fuentes": [
+   {
+    "guia": "Gulliver (itinerario)",
+    "url": "https://www.gulliver.it/itinerari/san-fruttuoso-abbazia-di-da-camogli-traversata-portofino-santa-margherita-ligure/2024/02/03/299957/"
+   },
+   {
+    "guia": "Mentelocale Genova",
+    "url": "https://www.mentelocale.it/genova/23114-promontorio-di-portofino-double-face-via-terra-e-via-mare-escursione-panoramica.htm"
+   },
+   {
+    "guia": "Mentelocale Genova",
+    "url": "https://www.mentelocale.it/genova/132848-trekking-da-camogli-a-portofino-attraverso-il-fresco-del-parco-tra-il-verde-degli-alberi-e-il-blu-del-mare.htm"
+   }
+  ]
+ },
+ {
+  "id": "it-isla-de-elba",
+  "nombre": "Isla de Elba (Parque Nacional del Archipiélago Toscano)",
+  "pais_iso": "IT",
+  "region": "Toscana",
+  "lat": 42.813,
+  "lng": 10.314,
+  "fuentes": [
+   {
+    "guia": "Visit Tuscany (turismo oficial)",
+    "url": "https://www.visittuscany.com/it/itinerari/tre-giorni-allisola-delba-tra-mare-trekking-e-storia/"
+   },
+   {
+    "guia": "Montagna.tv",
+    "url": "https://www.montagna.tv/237379/vista-mare-sul-monte-capanne-il-tetto-dellisola-delba/"
+   },
+   {
+    "guia": "CAI Verona (programa de trekking 2025)",
+    "url": "https://seniores.caiverona.it/PDF/2025/Trekking%20Isola%20d'Elba%202025.pdf"
+   }
+  ]
+ },
+ {
+  "id": "it-zingaro-san-vito-lo-capo",
+  "nombre": "Riserva dello Zingaro y San Vito Lo Capo",
+  "pais_iso": "IT",
+  "region": "Sicilia",
+  "lat": 38.11,
+  "lng": 12.805,
+  "fuentes": [
+   {
+    "guia": "Balarm",
+    "url": "https://www.balarm.it/news/lo-zingaro-e-i-suoi-tre-sentieri-aperti-a-tutti-breve-guida-per-una-passeggiata-rigenerante-123247"
+   },
+   {
+    "guia": "SiViaggia",
+    "url": "https://siviaggia.it/vacanze-natura/escursioni-riserva-zingaro-quali-fare/410124/"
+   },
+   {
+    "guia": "Balarm (ficha de la reserva)",
+    "url": "https://www.balarm.it/luoghi/riserva-naturale-orientata-dello-zingaro-castellammare-del-golfo-2363"
+   }
+  ]
+ },
+ {
+  "id": "it-islas-egadi",
+  "nombre": "Islas Egadi (Favignana, Levanzo, Marettimo)",
+  "pais_iso": "IT",
+  "region": "Sicilia",
+  "lat": 37.9314,
+  "lng": 12.3275,
+  "fuentes": [
+   {
+    "guia": "Italia.it (ENIT, turismo oficial)",
+    "url": "https://www.italia.it/it/sicilia/trapani/area-marina-protetta-isole-egadi"
+   },
+   {
+    "guia": "SiViaggia",
+    "url": "https://siviaggia.it/idee-di-viaggio/area-marina-protetta-isole-egadi/524021/"
+   },
+   {
+    "guia": "Wikivoyage",
+    "url": "https://it.wikivoyage.org/wiki/Isole_Egadi"
+   }
+  ]
+ },
+ {
+  "id": "it-gran-sasso-campo-imperatore",
+  "nombre": "Gran Sasso y Campo Imperatore (Rocca Calascio, Santo Stefano di Sessanio)",
+  "pais_iso": "IT",
+  "region": "Abruzzo",
+  "lat": 42.443,
+  "lng": 13.559,
+  "fuentes": [
+   {
+    "guia": "Italia.it (ENIT, turismo oficial)",
+    "url": "https://www.italia.it/it/abruzzo/cosa-fare/arrampicata-gran-sasso"
+   },
+   {
+    "guia": "Moveo (Telepass)",
+    "url": "https://moveo.telepass.com/campo-imperatore-cosa-vedere/"
+   },
+   {
+    "guia": "Finestre sull'Arte",
+    "url": "https://www.finestresullarte.info/viaggi/parco-del-gran-sasso-cosa-vedere-10-luoghi"
+   }
+  ]
+ },
+ {
+  "id": "it-monti-sibillini-castelluccio",
+  "nombre": "Montes Sibillini y Castelluccio di Norcia",
+  "pais_iso": "IT",
+  "region": "Umbría / Marcas",
+  "lat": 42.8283,
+  "lng": 13.2063,
+  "fuentes": [
+   {
+    "guia": "Italia.it (ENIT, turismo oficial)",
+    "url": "https://www.italia.it/it/umbria/perugia/castelluccio-di-norcia"
+   },
+   {
+    "guia": "Guía Michelin",
+    "url": "https://guide.michelin.com/it/it/notizia/travel/l-onirica-fioritura-di-castelluccio"
+   },
+   {
+    "guia": "SiViaggia",
+    "url": "https://siviaggia.it/idee-di-viaggio/sentiero-fioritura-castelluccio-norcia/536666/"
+   }
+  ]
+ },
+ {
+  "id": "it-riviera-del-conero",
+  "nombre": "Riviera del Conero (Sirolo, Numana, Portonovo, Due Sorelle)",
+  "pais_iso": "IT",
+  "region": "Marcas",
+  "lat": 43.5228,
+  "lng": 13.6156,
+  "fuentes": [
+   {
+    "guia": "Montagna.tv",
+    "url": "https://www.montagna.tv/229923/tre-escursioni-sui-sentieri-del-conero-a-picco-sulladriatico/amp/"
+   },
+   {
+    "guia": "TheWom Travel",
+    "url": "https://travel.thewom.it/italia/marche/sentieri-conero.html"
+   },
+   {
+    "guia": "Spiagge.it",
+    "url": "https://www.spiagge.it/magazine/le-spiagge-piu-belle-del-conero-foto-e-mappa/"
+   }
+  ]
+ },
+ {
+  "id": "it-alghero-capo-caccia",
+  "nombre": "Alghero, Capo Caccia y Grotta di Nettuno",
+  "pais_iso": "IT",
+  "region": "Cerdeña",
+  "lat": 40.558,
+  "lng": 8.3193,
+  "fuentes": [
+   {
+    "guia": "Sardegna Turismo (oficial)",
+    "url": "https://sardegnaturismo.it/it/esplora/grotte-di-nettuno"
+   },
+   {
+    "guia": "Ministero della Cultura (IDESE)",
+    "url": "https://idese.cultura.gov.it/en/?p=29177"
+   },
+   {
+    "guia": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Neptune%27s_Grotto"
+   }
+  ]
+ },
+ {
+  "id": "it-polignano-a-mare",
+  "nombre": "Polignano a Mare (Lama Monachile y grutas marinas)",
+  "pais_iso": "IT",
+  "region": "Apulia",
+  "lat": 40.9961,
+  "lng": 17.2186,
+  "fuentes": [
+   {
+    "guia": "Sky TG24",
+    "url": "https://tg24.sky.it/lifestyle/2026/08/07/polignano-a-mare-turismo-mare-centro-storico"
+   },
+   {
+    "guia": "Spiagge.it",
+    "url": "https://www.spiagge.it/magazine/scoprire-polignano-a-mare-posti-imperdibili-estate-1/"
+   },
+   {
+    "guia": "Freedome",
+    "url": "https://freedome.it/blog/cosa-fare-polignano-mare-esperienze-originali/"
+   }
+  ]
+ },
+ {
+  "id": "it-lago-de-iseo-monte-isola",
+  "nombre": "Lago de Iseo y Monte Isola",
+  "pais_iso": "IT",
+  "region": "Lombardía",
+  "lat": 45.71,
+  "lng": 10.083,
+  "fuentes": [
+   {
+    "guia": "NostroFiglio",
+    "url": "https://www.nostrofiglio.it/famiglia/viaggi/lago-d-iseo-con-i-bambini-tra-borghi-battelli-e-l-isola-dove-non-ci-sono-auto"
+   },
+   {
+    "guia": "Montagna.tv",
+    "url": "https://www.montagna.tv/254763/sul-monte-cognolo-magnifica-terrazza-panoramica-sul-lago-diseo/amp/"
+   },
+   {
+    "guia": "VisitBergamo",
+    "url": "https://visitbergamo.net/public/fr/document/32"
+   }
+  ]
+ },
+ {
+  "id": "it-lago-de-orta",
+  "nombre": "Lago de Orta (Orta San Giulio e Isola San Giulio)",
+  "pais_iso": "IT",
+  "region": "Piamonte",
+  "lat": 45.7978,
+  "lng": 8.4072,
+  "fuentes": [
+   {
+    "guia": "MilanoFree",
+    "url": "https://www.milanofree.it/milano/turismo/lago-dorta-cosa-vedere-in-giornata-da-milano-orta-san-giulio-e-isola-di-san-giulio.html"
+   },
+   {
+    "guia": "Komoot",
+    "url": "https://www.komoot.com/it-it/smarttour/e936735558/passeggiata-per-orta-san-giulio-giro-ad-anello"
+   },
+   {
+    "guia": "UNESCO",
+    "url": "https://whc.unesco.org/en/list/1068/"
+   }
+  ]
+ }
+]
