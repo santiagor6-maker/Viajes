@@ -1,1 +1,351 @@
-{"subregiones":{}}
+{
+  "subregiones": {
+    "iberica-italia": {
+      "rondas": [
+        {
+          "ronda": 1,
+          "fecha": "2026-10-26",
+          "agentes": {
+            "guias-expertas": {
+              "grupo_a": {
+                "nota": 6,
+                "desglose": {
+                  "fuentes": 1,
+                  "exactitud": 1.5,
+                  "criterio": 1,
+                  "coherencia": 1,
+                  "descripcion": 1.5
+                },
+                "aprobado": false,
+                "comentarios": [
+                  "Alcance revisado: guias-expertas-a.json (ES/PT/AD). Búsquedas de verificación: 9 URLs; confirmadas 5 (Time Out Picos 032326, NatGeo paid-content-andorra, Culture Trip Andorra, Rough Guides trip Madeira–São Miguel, side-ecom cdi.ch), parciales 2 (Fodor's 25-ultimate-things-to-do-in-barcelona solo aparece en una página de etiquetas de 2016, hoy reemplazada por '31 Ultimate Things'; LP articles/best-places-to-visit-in-spain no aparece con esa ruta exacta), no confirmadas 2 (fodors.com/news/trip-ideas/best-things-to-do-in-andorra y ricksteves.com/europe/spain/white-hill-towns; la página real de Rick Steves es /watch-read-listen/read/articles/andalucias-white-hill-towns).",
+                  "Fuentes no pertinentes: las URLs de 'Michelin Guide Vert' son fichas de librería (side-ecom-prod-export.cdi.ch/...guide-vert-espagne-du-centre, boutique.laventure.michelin.com, editions.michelin.com/produits/portugal-2) y las de 'DK Eyewitness' también (rizzolibookstore.com, penguinrandomhouse.com). No prueban ni ★★★ ni 'top pick'. Afecta a es-madrid, es-segovia, es-santiago-de-compostela (la justificación afirma '★★★' sin prueba), es-granada-alhambra, es-sevilla, es-picos-de-europa, es-valencia, es-malaga, pt-lisboa, pt-sintra, pt-porto y pt-sagres. Cita la ficha del destino en la web de la guía o quita esa guía del recuento y recalcula el puntaje.",
+                  "pt-sagres: puntaje 5 con 3 guías; el 5 solo vale con ★★★ Michelin demostrado más otro top pick. Sin prueba de ★★★, baja a 4.",
+                  "Puntaje frente a número de guías: pt-azores-sete-cidades tiene 4 con 2 guías, y una de ellas es un paquete comercial de Rough Guides (roughguides.com/portugal/trips/madeira-sao-miguel-guided-island-adventures-trip), no una recomendación editorial; baja a 3 o cita otra guía. pt-azores-furnas tiene 3 y pt-azores-pico tiene 3, cada uno con solo Lonely Planet, así que les corresponde 2. pt-madeira-porto-moniz se apoya solo en ese paquete comercial: busca otra fuente.",
+                  "AD no llega a 4 guías válidas: la URL de Fodor's no se encuentra, la de National Geographic (paid-content-andorra-winter-getaway) es contenido patrocinado por Andorra Turisme y no cuenta como recomendación independiente, y Culture Trip no está en la lista de guías de criterios.json. Revisa ad-grandvalira-pas-de-la-casa, ad-ordino-arcalis, ad-vall-del-madriu, ad-naturlandia y ad-canillo-sant-joan-de-caselles con Rough Guides, Bradt, Time Out o la ficha de LP del destino, y recalcula los puntajes.",
+                  "Cobertura de candidatos: faltaron destinos con 3–4 guías que luego tuvieron que añadir otros agentes o el curador: es-cadiz, es-merida, es-tarragona, es-zaragoza, es-montserrat, es-figueres-cadaques (Teatre-Museu Dalí), es-pamplona, es-a-coruna, es-gran-canaria, es-fuerteventura, es-cabo-de-gata, es-islas-cies, pt-aveiro, pt-fatima, pt-mafra y pt-angra-do-heroismo. Inclúyelos con sus guías.",
+                  "Coherencia: es-mallorca tiene 3 con solo LP y Rough Guides, aunque la cubren todas las guías (Rick Steves, Fodor's, DK, NatGeo): sube con fuentes. También están infravalorados es-girona (2), es-cuenca (2) y es-malaga (3), que salen en Rough Guides, Fodor's y Rick Steves (excursión desde Barcelona y Madrid). es-cordoba tiene 4 y es-valencia 5: revisa si Córdoba no es top pick en 4 guías.",
+                  "Coordenadas con menos de 4 decimales (la regla pide 4): es-donana (37, -6.43), es-ordesa-monte-perdido (42.65, -0.05), es-la-rioja (42.54, -2.62), es-mallorca (lng 2.9), es-lanzarote (lng -13.6), es-pueblos-blancos-cadiz (lng -5.4), es-tarifa-bolonia, pt-peneda-geres (41.73, -8.16), pt-azores-sete-cidades, pt-azores-flores (39.45, -31.2), pt-madeira-porto-moniz, ad-vall-del-madriu (42.49, 1.59). Da un punto de acceso concreto con 4 decimales (p. ej. Ordesa: Pradera de Ordesa 42.6386, -0.0606)."
+                ]
+              },
+              "grupo_b": {
+                "nota": 6.5,
+                "desglose": {
+                  "fuentes": 1,
+                  "exactitud": 1.5,
+                  "criterio": 1.5,
+                  "coherencia": 1,
+                  "descripcion": 1.5
+                },
+                "aprobado": false,
+                "comentarios": [
+                  "Hay URLs genéricas que no prueban la recomendación del lugar. https://www.fodors.com/world/europe/italy se usa como única prueba de Fodor's en it-dolomitas, it-verona, it-bolonia, it-ravena, it-orvieto, it-napoles, it-pompeya-herculano, it-paestum, it-matera, it-palermo-monreale, it-etna e it-islas-eolias. Pasa lo mismo con https://store.ricksteves.com/products/italy-guidebook en it-milan, it-lago-maggiore, it-verona e it-val-d-orcia, con https://shop.roughguides.com/book/rough-guide-italy/ en it-lago-de-como, it-dolomitas, it-asis, it-lecce, it-agrigento-valle-templos y va-museos-vaticanos, y con las fichas de libro de DK (dk.com, penguinrandomhouse.com) en casi todo IT. Hay que citar la página del destino en cada guía. Si no existe, se quita esa guía de guias_que_lo_recomiendan y se recalcula el puntaje.",
+                  "it-valle-de-aosta-monte-bianco: la fuente de Fodor's es https://www.fodors.com/world/europe/italy/piedmont-and-valle-daosta/things-to-do/sights/turin, que es la página de Turín. Hay que citar la de Valle d'Aosta o Courmayeur, o quitarla (el puntaje bajaría a 2).",
+                  "No se pudieron confirmar https://www.frommers.com/slideshows/818204-the-very-best-of-italy-where-to-go/ (usada en it-ravena, it-lucca, it-roma, it-pompeya-herculano e it-costa-amalfitana) ni https://www.timeout.com/malta/travel/best-places-to-visit-in-malta (usada en 8 lugares de MT). Hay que comprobar que existen y que nombran cada lugar. Si no, se reemplazan.",
+                  "Hay 5 inflados frente a la escala, que pide top pick en 4 o más guías: it-verona (4 guías, dos con URL genérica), it-paestum (iguala a Florencia), it-asis, mt-ggantija, mt-hagar-qim-mnajdra-gruta-azul, mt-comino-laguna-azul y mt-mdina-rabat. En cambio, it-siracusa-ortigia tiene 3 con solo LP y Rick Steves, cuando Fodor's, Rough Guides y DK también la destacan. Hay que dejar el 5 solo con 4 o más fuentes específicas del lugar y revisar Siracusa al alza.",
+                  "Bradt (https://www.bradtguides.com/?p=107966) es la ficha del libro Malta & Gozo y no una recomendación concreta. Sirve como respaldo, pero no basta para contar Bradt en 8 lugares de MT (mt-tres-ciudades, mt-mdina-rabat, mt-hipogeo-hal-saflieni, mt-ggantija, etc.). Hay que citar la página de Bradt sobre Malta o el capítulo correspondiente.",
+                  "sm-torre-guaita: las coordenadas 43.9331, 12.4513 caen unos 280 m al sureste de la torre. Las correctas son 43.9353, 12.4496 (Wikimedia Commons y Sygic coinciden).",
+                  "sm-torre-montale (puntaje 2, no visitable) ya está fusionada en sm-torre-cesta y no debe volver como candidato propio."
+                ]
+              },
+              "nota": 6,
+              "aprobado": false
+            },
+            "cultura-historia": {
+              "grupo_a": {
+                "nota": 8,
+                "desglose": {
+                  "fuentes": 1.5,
+                  "exactitud": 1.5,
+                  "criterio": 1.5,
+                  "coherencia": 1.5,
+                  "descripcion": 2
+                },
+                "aprobado": false,
+                "comentarios": [
+                  "Alcance revisado: cultura-historia-a.json, -a-r2.json y -r3.json (ES/PT/AD). Búsquedas: 6 URLs; confirmadas 5 (lonelyplanet.com/articles/best-towns-in-spain-results, fatima.pt 450 mil fiéis, inclusion.gob.es Combarro, rutadelvinoriberadelduero.es Peñafiel, Barceló San Marcos con otra ruta); no confirmada 1 (montserratvisita.com/pt/propostas-de-visita/visite-o-santuario/2024: solo aparece la app; la ruta en portugués con '/2024' parece armada a mano). Para es-montserrat usa la página oficial en español o inglés del santuario.",
+                  "32 citas usan solo la lista genérica whc.unesco.org/en/statesparties/es/ o /pt/ en lugar de la ficha del sitio. Cita la ficha /en/list/<n> en es-madrid (1618), es-merida (664), es-tarragona (875), es-zaragoza (378), es-oviedo (312), es-antequera (1501), es-alcala-de-henares (876), es-aranjuez (1044), es-las-medulas (803), es-tenerife-teide (La Laguna 929), pt-lisboa (263), pt-sintra (723), pt-porto (755), pt-valle-del-duero (1046), pt-guimaraes (1031), pt-braga (1590), pt-coimbra (1387), pt-alcobaca (505), pt-batalha (264), pt-tomar (265), pt-evora (361), pt-azores-pico (1117), pt-angra-do-heroismo (206), pt-mafra (1573), pt-elvas (1367) y pt-vale-do-coa (866).",
+                  "Fuentes no oficiales en puntajes de 3 o más: es-el-puerto-de-santa-maria y es-pamplona (Barceló Guía de Turismo; Pamplona además Culture Trip), es-cadiz (andalucia.com), es-penedes (página de etiqueta de catalannews.com/tag/wine%20museum, no un artículo), ad-canillo-sant-joan-de-caselles (Culture Trip). Sustitúyelas por turismo oficial (andalucia.org, turismo.navarra.es, visitandorra.com, ajuntament o Vinseum).",
+                  "Exactitud del campo unesco: es-albarracin tiene unesco:false pero cita whc 874 y su justificación habla de arte rupestre Patrimonio Mundial: ponlo en true. pt-madeira-funchal tiene unesco:true por la laurisilva, que no está en Funchal: ponlo en false (la laurisilva ya cuenta en pt-madeira-rabacal).",
+                  "Faltan sitios UNESCO de España sin ficha propia ni fusión: Palmeral de Elche (whc 930) y Monasterio de Poblet (whc 518). Añádelos o justifica por qué no.",
+                  "Coherencia: es-valencia (4, con la Lonja UNESCO, la Ciudad de las Artes y las Fallas inmateriales) queda igual que es-lugo, es-cartagena, es-trujillo o es-teruel. Sube Valencia a 5 o explica la diferencia. es-tenerife-teide tiene 3 con La Laguna UNESCO, mientras es-a-coruna tiene 4 con una sola pieza UNESCO: iguala el criterio.",
+                  "Longitud: la regla pide 1–2 frases. Varias de r2 tienen 3–4 (es-montserrat, es-pamplona, es-cartagena, es-cadiz, es-guadalupe, pt-viana-do-castelo, pt-fatima): recórtalas."
+                ]
+              },
+              "grupo_b": {
+                "nota": 8.5,
+                "desglose": {
+                  "fuentes": 1.5,
+                  "exactitud": 2,
+                  "criterio": 2,
+                  "coherencia": 1.5,
+                  "descripcion": 1.5
+                },
+                "aprobado": false,
+                "comentarios": [
+                  "Hay puntajes de 3 o más con fuentes que no son patrimoniales ni oficiales. it-bari usa Wikipedia y museionline.info: hay que añadir la web de la Basilica di San Nicola o viaggiareinpuglia.it. it-selinunte usa Wikivoyage: hay que añadir la ficha del Parco archeologico (cultura.gov.it o parcodiselinunte). it-perugia usa Wikipedia: basta con quitarla y dejar la web de la Galleria. it-polignano-monopoli e it-polignano-a-mare usan el blog de Italo y una página de Trenitalia, que no describen el patrimonio: hay que citar turismo oficial de Apulia o el Museo Pino Pascali.",
+                  "it-chianti-classico: no se pudo confirmar https://chianticlassico.com/en/?p=2166. Las páginas del Consorzio que sí existen sobre el bando de 1716 son https://www.chianticlassico.com/en/?p=2140 y https://www.chianticlassico.com/en/?p=60239. Hay que reemplazarla.",
+                  "Coherencia: it-lago-de-orta tiene 4 e it-lago-de-como 3, cuando Como también tiene un Sacro Monte del mismo sitio UNESCO 1068 (Ossuccio), además de Villa Carlotta, Balbianello y el Duomo. Hay que igualarlos (Como 4 u Orta 3). it-pisa tiene 5 frente a it-verona 4 e it-bolonia 4: hay que justificar por qué una sola plaza supera a dos ciudades UNESCO completas, o bajarla a 4. sm-torre-guaita tiene 4, igual que sm-centro-historico, aunque es solo un componente del mismo sitio: debería quedar en 3 o explicarse la razón.",
+                  "Hay que quitar de las justificaciones las notas de proceso, que deben describir el lugar. Por ejemplo, sm-torre-montale en la ronda 2 ('Lo bajo de 2 a 1 y propongo fusionarla con sm-torre-cesta') e it-polignano-a-mare en la ronda 3 ('Duplica it-polignano-monopoli...'). Esas notas van en un campo aparte.",
+                  "Todos los números UNESCO comprobados son correctos (1650, 1533, 1571, 1363, la decisión 7939 de Padua y la lista indicativa 6182). Para it-padova conviene citar también https://whc.unesco.org/en/list/1623, porque la ficha 824 corresponde solo al Orto Botanico."
+                ]
+              },
+              "nota": 8,
+              "aprobado": false
+            },
+            "naturaleza": {
+              "grupo_a": {
+                "nota": 7,
+                "desglose": {
+                  "fuentes": 1.5,
+                  "exactitud": 1.5,
+                  "criterio": 1.5,
+                  "coherencia": 1,
+                  "descripcion": 1.5
+                },
+                "aprobado": false,
+                "comentarios": [
+                  "Alcance revisado: naturaleza-a.json, -a-r2.json y -r3.json (ES/PT/AD). Búsquedas: 6 URLs, todas confirmadas (spain.info wanderrouten-cola-caballo-ordesa-pyrenaen, roteirodasminas.dgeg.gov.pt Algar do Carvão, eldebate.com Orellán, sensacionrural.es Montserrat, hellocanaryislands.com Nublo y Time Out Picos). El problema es de pertinencia, no de URLs inventadas.",
+                  "Fuentes genéricas: es-aiguestortes y es-caldera-de-taburiente citan miteco.gob.es/.../funcionamiento.html y la ficha PDF de toda la Red, y es-cabrera y es-cabaneros solo esa ficha PDF. Cita la página de cada parque en miteco.gob.es/es/red-parques-nacionales/nuestros-parques/<parque> o la web del parque. pt-benagil-sete-vales solo tiene blogs (portugalgetaways, novo-monde, atickettotakeoff): usa visitalgarve.pt o la Câmara de Lagoa. es-montserrat (r3) cita un blog, Komoot y una URL no confirmada de montserratvisita.com/pt/: usa parcs.diba.cat o montserratvisita.com en español. Hay 7 puntajes de 3 o más apoyados solo en lonelyplanet.com/articles/best-places-to-visit-in-portugal (pt-nazare, pt-peniche-berlengas, pt-tavira, pt-serra-da-estrela...): añade fuente oficial (ICNF, visitportugal).",
+                  "Exactitud: es-picos-de-europa tiene unesco:false, pero sus hayedos (Cuesta Fría y Canal de Asotín) forman parte del bien 1133 'Hayedos primarios de los Cárpatos y otras regiones de Europa' desde 2017; verifícalo y corrígelo. es-islas-cies dice 'desde Semana Santa a mediados de septiembre'; la autorización es para Semana Santa y del 15 de mayo al 15 de septiembre (lo dice bien logistica-temporada-a-r2): unifica.",
+                  "Criterio: PT recibió solo 1 lugar natural nuevo (pt-benagil-sete-vales) y la regla pide 2–4 por país mediano. Propón al menos 2 más con fuente oficial, p. ej. la Ria Formosa (Olhão/Faro), el Parque Natural do Douro Internacional y la Serra de São Mamede o el Tejo Internacional.",
+                  "Coherencia: ad-vall-del-madriu tiene 5, al nivel de Picos, Teide u Ordesa; es un valle glaciar sin carreteras de alcance local, así que baja a 4 (como ad-coma-pedrosa y ad-ordino-arcalis). pt-benagil-sete-vales tiene 5 por una gruta marina y un sendero de unos 6 km, y pt-costa-vicentina tiene 5, mientras es-cabo-de-gata, una costa salvaje mayor y además Geoparque, tiene 4: iguala el criterio (Benagil 4, o Cabo de Gata 5 y Costa Vicentina 5 con justificación). Revisa también que PT acumula siete 5 (Funchal, Rabaçal, Sete Cidades, Pico, Flores, Peneda-Gerês, Costa Vicentina).",
+                  "Texto: quita las meta-frases que no le sirven al viajero, como 'Es el primer lugar de la provincia de Almería en la lista' (es-cabo-de-gata), 'Es el primer lugar de Navarra en la lista' (es-bardenas-reales) y 'Es el primer lugar del Algarve central (Lagoa/Carvoeiro) en la lista' (pt-benagil-sete-vales)."
+                ]
+              },
+              "grupo_b": {
+                "nota": 7.5,
+                "desglose": {
+                  "fuentes": 1,
+                  "exactitud": 1.5,
+                  "criterio": 2,
+                  "coherencia": 1.5,
+                  "descripcion": 1.5
+                },
+                "aprobado": false,
+                "comentarios": [
+                  "Hay dos URLs no confirmadas. it-parque-gran-paradiso cita https://gestwww.lovevda.it/Media/Default/Allegati-PDF/pagina%20singola_GP_StambeccoIT.pdf, en un subdominio de gestión que no aparece. Hay que usar https://www.pngp.it o una página pública de lovevda.it. it-golfo-di-orosei cita https://www.sardegnaturismo.it/it/node/250946, que tampoco aparece. Hay que usar https://sardegnaturismo.it/it/esplora/cala-goloritze, que sí existe.",
+                  "Hay puntajes de 3 o más sin ninguna fuente de las que pide el criterio (parque oficial, UNESCO, AllTrails o turismo oficial). it-polignano-a-mare usa Sky TG24, Spiagge.it y Freedome. it-riviera-del-conero usa Montagna.tv, TheWom y Spiagge.it: falta parcodelconero.org. it-portofino-san-fruttuoso usa Gulliver y Mentelocale: falta el Parco o el Área Marina de Portofino. it-zingaro-san-vito-lo-capo usa Balarm y SiViaggia: falta la web de la reserva o la de la Regione Siciliana. it-lago-de-iseo-monte-isola usa NostroFiglio y Montagna.tv. it-gargano usa Wikipedia y viaggiando-italia: falta parcogargano.it. it-volo-dell-angelo usa TheWom. Hay que añadir la fuente oficial a cada uno o bajar el puntaje.",
+                  "it-valle-de-aosta-monte-bianco tiene 5 y su única fuente es Frommer's. Hay que añadir una oficial (lovevda.it o montebianco.com para el Skyway o el Tour du Mont Blanc).",
+                  "Las plataformas de reventa como https://www.holidoit.com/e/trekking-al-tramonto-sullo-stromboli (it-islas-eolias) o https://app.advcollective.com/... (mt-acantilados-dingli) solo sirven de apoyo. Cada lugar necesita además una fuente oficial.",
+                  "Coherencia: sm-torre-guaita y sm-torre-cesta tienen 3 por las vistas desde la cresta, mientras it-orvieto (sobre su peñasco) y mt-mdina-rabat tienen 1. Hay que bajarlas a 2 o justificar el 3. mt-golden-bay sube a 4 e iguala a mt-dwejra y mt-comino-laguna-azul: hay que dejarla en 3 o explicar qué la pone al nivel del Blue Hole. it-venecia con 3 por la laguna es generoso frente a it-trieste 3 (Carso y Miramare).",
+                  "Hay que quitar de las justificaciones las notas internas, como la de it-alghero-capo-caccia ('Pedido aparte: cultura-historia debe puntuar...') y la de it-polignano-a-mare ('si ese agente crea otro id, conviene fusionarlos'), y llevarlas a un campo de notas."
+                ]
+              },
+              "nota": 7,
+              "aprobado": false
+            },
+            "gastronomia-vino": {
+              "grupo_a": {
+                "nota": 6.5,
+                "desglose": {
+                  "fuentes": 1,
+                  "exactitud": 1.5,
+                  "criterio": 1.5,
+                  "coherencia": 1,
+                  "descripcion": 1.5
+                },
+                "aprobado": false,
+                "comentarios": [
+                  "Alcance revisado: gastronomia-vino-a.json, -a-r2.json y -r3.json (ES/PT/AD). Búsquedas: 6 URLs, todas existen (guide.michelin.com all-michelin-star-restaurants-in-spain-2026, Time Out 062325 World's 50 Best 2025, idealista.pt 74391 diez estrellas nuevas 2026, hola.com Foz Côa, euskalkultura.eus y tasteatlas.com/best/search/portugal). Los datos Michelin y 50 Best que se citan son correctos: 16 triestrellados en España con Noor y Casa Marcial, Etxebarri n.º 2, Elkano y Enigma en la lista, Fifty Seconds con 2★, Schistó, Largo do Paço, A Cozinha do Paço y MAPA.",
+                  "Fuentes no pertinentes: tasteatlas.com/best/search/portugal es una página de búsqueda de todo el país y es la única fuente de pt-sintra, pt-guimaraes, pt-coimbra, pt-serra-da-estrela, pt-obidos y pt-arrabida, y una de las de pt-aveiro y pt-viana-do-castelo. Cita la ficha concreta de TasteAtlas (p. ej. /queijo-serra-da-estrela, /ginja-de-obidos, /travesseiro-de-sintra) o el consejo regulador o el turismo oficial.",
+                  "es-la-rioja tiene 5 sin ninguna fuente de vino: cita el LP de otoño y un artículo de TasteAtlas sobre 'colmados in the UK' que no viene al caso. Cita riojawine.com (D.O.Ca. Rioja) o lariojaturismo.com. Pasa lo mismo con es-jerez-de-la-frontera y es-el-puerto-de-santa-maria (sherry.wine), es-ribera-del-duero (riberadelduero.es), es-rias-baixas (doriasbaixas.com), pt-valle-del-duero (ivdp.pt) y pt-evora (vinhosdoalentejo.pt): la regla prioriza el consejo regulador de la D.O.",
+                  "Fuentes débiles en puntajes de 3 o más: es-alcala-de-henares (The Olive Press, spanishsabores.com), es-aranjuez (gastronosfera, directoalpaladar), pt-elvas (DECO Proteste, portugal.com), pt-vale-do-coa (¡HOLA!, fluxurymagazine), es-penedes (página de etiqueta de catalannews), es-pamplona (Barceló, In Your Pocket). es-san-sebastian cita el ranking Caterwings de 2017 (euskalkultura): sustitúyelo por algo vigente o quítalo.",
+                  "Coherencia: es-mallorca (3) y es-tenerife-teide (3) quedan por debajo de es-getaria y es-denia (4), aunque tienen varios 2★ Michelin 2026 (Mallorca: Zaranda, Voro; Tenerife: M.B, El Rincón de Juan Carlos, entre otros). Súbelos a 4 citando la lista Michelin. es-priorat tiene 5 y es-ribera-del-duero 4: iguala las dos grandes D.O. de tinto (ambas 5, o Priorat 4). pt-vale-do-coa con 4 duplica pt-valle-del-duero: baja a 3. es-valencia tiene 5 justificado con 'varios estrellados en la Comunitat'; concreta (Ricard Camarena 2★, El Poblet) o baja a 4 para alinearla con es-bilbao (4).",
+                  "Texto: en es-oviedo (r2) la justificación empieza con 'Es el mismo lugar que propuse en la ronda 1 como Asturias central...': es una nota interna, quítala del texto."
+                ]
+              },
+              "grupo_b": {
+                "nota": 7.5,
+                "desglose": {
+                  "fuentes": 1,
+                  "exactitud": 1.5,
+                  "criterio": 2,
+                  "coherencia": 1.5,
+                  "descripcion": 1.5
+                },
+                "aprobado": false,
+                "comentarios": [
+                  "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Italy es la única fuente de 13 puntajes de 3 o más: it-venecia, it-milan, it-lago-de-como, it-lago-de-garda, it-lago-maggiore, it-dolomitas, it-valle-de-aosta-monte-bianco, it-florencia, it-roma, it-costa-amalfitana, it-capri, it-taormina e it-lago-de-orta. La página existe, pero no es la fuente que pide el criterio. Hay que citar la ficha de guide.michelin.com del restaurante que se menciona en cada uno (Glam, Enrico Bartolini al Mudec, AtelierMoessmer, Enoteca Pinchiorri, La Pergola, Quattro Passi, Villa Crespi...).",
+                  "it-lago-de-orta: dice que Villa Crespi tiene 'dos estrellas Michelin', pero tiene tres desde 2022 y las mantiene en 2026 (https://guide.michelin.com/ch/it/piemonte/orta-san-giulio/ristorante/villa-crespi). Hay que corregirlo y subir el puntaje a 4, para que sea coherente con it-padova 4 por Le Calandre.",
+                  "Hay fuentes mal etiquetadas o en dominios que no son los canónicos. En it-gargano, la fuente 'MIPAAF (Arancia del Gargano IGP)' apunta a unionalimentari.com y no al ministerio. it-ferrara usa ferraraterraeacqua.kelvar.redturtle.it, un dominio de pruebas de la agencia web: hay que usar https://www.ferraraterraeacqua.it/en/flavours/typical-products/ferrarese-cappellacci-with-pumpkin. En it-parma, it-cilento e it-perugia, 'Visit Italy' (visititaly.eu) es un portal privado y no turismo oficial.",
+                  "No se pudieron confirmar https://chianticlassico.com/en/?p=2166 (it-siena, it-chianti-classico) ni https://tasteatlas.com/local-food-in-bologna (it-bolonia). Hay que reemplazarlas por páginas que existan, como https://www.chianticlassico.com/en/?p=2140 y https://tasteatlas.com/bologna.",
+                  "Coherencia: mt-marsaxlokk tiene 4 por un mercado de pescado sin estrellas, igual que it-verona 4 (Casa Perbellini, 3 estrellas) y por encima de it-siena 3. Debería bajar a 3. it-cividale-udine (4) solo tiene TasteAtlas e it-erice-segesta (4) solo la ficha de un restaurante en Frommer's: hay que añadir una fuente regional (consorcio Friuli Colli Orientali, DOC Erice o Marsala) o bajarlos a 3.",
+                  "Hay fuentes de blog en puntajes de 3 o más: it-alghero-capo-caccia (Catavino, Mes Prestiges; mejor Sella & Mosca o sardegnaturismo.it), it-foreste-casentinesi (Dissapore), it-sila (FreshPlaza), it-polignano-a-mare (Freedome) e it-polignano-monopoli (blog de Italo). Hay que sustituirlas por consorcios DOP/IGP, Slow Food o turismo oficial."
+                ]
+              },
+              "nota": 6.5,
+              "aprobado": false
+            },
+            "adrenalina": {
+              "grupo_a": {
+                "nota": 6.5,
+                "desglose": {
+                  "fuentes": 1,
+                  "exactitud": 1.5,
+                  "criterio": 1.5,
+                  "coherencia": 1,
+                  "descripcion": 1.5
+                },
+                "aprobado": false,
+                "comentarios": [
+                  "Alcance revisado: adrenalina-a.json, -a-r2.json y -r3.json (ES/PT/AD). Búsquedas: 6 URLs; confirmadas 4 (rocroi.com rafting-llavorsi, turismoasturias.es jaire-aquasport, en.kitefuntarifa.com Valdevaqueros, visitazores.com canyoning). Parciales o no confirmadas 2: naturland.ad/en/node/137 (la página oficial del Tobotronc es web.naturland.ad/en/activities/tobotronc) y rapturecamps.com/surfcamp/portugal/surf-lessons (la ruta real es rapturecamps.com/portugal-surfcamp/surf-lessons). Corrige las dos en todos los ids que las usan: los 8 ad-*, es-aiguestortes, pt-mafra, pt-sintra y pt-lisboa.",
+                  "Puntajes de 3 sin actividad ni URL que siguen sin corregir desde r1: pt-nazare, pt-peniche-berlengas y pt-madeira-rabacal. Documenta un operador (p. ej. escuela de surf de Supertubos o Baleal, o barranquismo en Madeira con operador oficial) o baja a 2.",
+                  "Coherencia: los 8 lugares de AD tienen 5 con el mismo texto. Grandvalira y el Tobotronc son oferta destacada, pero no de clase mundial como PortAventura. Baja a 4 ad-andorra-la-vella-escaldes, ad-grandvalira-pas-de-la-casa, ad-ordino-arcalis y ad-naturlandia, y puntúa por separado los lugares sin actividad propia: ad-vall-del-madriu (valle sin carreteras) 3 como máximo, igual que ad-coma-pedrosa. es-aiguestortes (5) tiene la oferta a 14–46 km: 4, igual que es-ordesa-monte-perdido.",
+                  "Exactitud: pt-arouca-516-paiva está en 40.94, -8.2, con 2 decimales y unos 3 km de error. El puente está en 40.9644, -8.1753 (Wikipedia y 516arouca.pt): recalcula los km de pt-porto, pt-guimaraes, pt-amarante y pt-aveiro.",
+                  "Respaldo: varios 3 se apoyan solo en plataformas de reservas (es-fuerteventura con Yumping; pt-peneda-geres y pt-braga con Yumping y Checkyeti; pt-madeira-funchal con Checkyeti; pt-angra-do-heroismo con advcollective). Busca la web del operador (p. ej. flagbeach.com, epicmadeira.com, scubazores.com) o deja explícito que es respaldo y no subas de 2 si es la única fuente.",
+                  "Texto: quita de las justificaciones la coletilla repetida 'Oferta mencionada sin operador oficial verificado en esta ronda (límite de búsquedas agotado)' y prefijos como 'Algo menor.' o 'Mínimo.'; la nota de verificación va en el campo verificacion_pendiente."
+                ]
+              },
+              "grupo_b": {
+                "nota": 6.5,
+                "desglose": {
+                  "fuentes": 1,
+                  "exactitud": 2,
+                  "criterio": 1,
+                  "coherencia": 1,
+                  "descripcion": 1.5
+                },
+                "aprobado": false,
+                "comentarios": [
+                  "Hay puntajes de 3 o más sin ninguna actividad con URL, algo que el criterio no permite: it-la-maddalena-costa-smeralda 3, it-parque-stelvio 3, it-parque-abruzzo 3, it-pollino 3 e it-gran-sasso-campo-imperatore 3. En todos hay que documentar el operador o el gestor de remontes con su web oficial (esquí de verano del Stelvio, Roccaraso o Alto Sangro, rafting del Lao, estación de Campo Imperatore, kite en Porto Pollo), o bajar el puntaje a 2.",
+                  "En varios lugares la actividad solo se apoya en una plataforma de reventa. it-cividale-udine (3) usa manawa.com, y además su URL .../5551 no se pudo confirmar. it-spoleto e it-alghero-capo-caccia usan yumping.com. it-golfo-di-orosei usa tui.co.uk, lo que contradice la propia política de la ronda 2. Hay que poner la web del operador (por ejemplo, la del centro de rafting de Bovec o la de Rafting Marmore).",
+                  "No se pudo confirmar https://www.trekking.ch/007-vip-event/?lang=en (it-lago-maggiore, it-lago-de-orta). El dominio del operador del bungee de Verzasca es 007bungy.ch y hay que usarlo.",
+                  "La política de acreditar la oferta solo al lugar base se aplicó al Vaticano (todo a 1), pero no al resto. it-ostia-antica (3) e it-tivoli (3) suman Cinecittà World y MagicLand, que ya cuentan para it-roma. it-mantova-sabbioneta (4) cuenta Gardaland a 34 km, y Mantua acaba con la etiqueta 'adrenalina'. sm-borgo-maggiore (3) cuenta Aquafan a 17 km y queda con 'adrenalina' como única categoría. it-verona (5) iguala a las Dolomitas solo por Gardaland. Aplicando el mismo criterio: Ostia y Tivoli 2 o menos, Mantua 3 o menos, Borgo Maggiore 2 o menos y Verona 4.",
+                  "it-lago-maggiore (4) se basa en un solo bungee, en Suiza y a 43 km, cuando la escala pide varias actividades destacadas para un 4. Debería quedar en 3, salvo que se documenten el rafting en Valsesia o el Mottarone con su web oficial.",
+                  "Falta el esquí en Italia: no hay ninguna estación documentada en Courmayeur, Cervinia, Via Lattea/Sestriere, Livigno, Bormio ni Cortina (Cortina sí está dentro de Dolomiti Superski). Por eso it-valle-de-aosta-monte-bianco bajó a 4. Hay que añadir las estaciones con su web oficial (courmayeur-montblanc.com, cervinia.it, vialattea.it) y valorar si alguna estación de clase mundial, como Cervinia/Zermatt, merece ser destino propio.",
+                  "Las entradas de la ronda 1 que siguen vigentes (lista sin_cambios) mantienen textos como 'Aún no está verificado con fuentes oficiales' o 'pendiente': it-venecia, it-cinque-terre, it-trieste, it-napoles, it-costa-amalfitana, it-capri, it-tropea, it-siracusa-ortigia, it-cagliari, entre otros. Hay que verificarlas o reescribir la justificación sin notas de proceso."
+                ]
+              },
+              "nota": 6.5,
+              "aprobado": false
+            },
+            "logistica-temporada": {
+              "grupo_a": {
+                "nota": 7.5,
+                "desglose": {
+                  "fuentes": 1,
+                  "exactitud": 1.5,
+                  "criterio": 1.5,
+                  "coherencia": 2,
+                  "descripcion": 1.5
+                },
+                "aprobado": false,
+                "comentarios": [
+                  "Alcance revisado: logistica-temporada-a.json y -a-r2.json (ES/PT/AD). Búsquedas: 6 URLs, todas confirmadas (Nivel 3 de EE. UU. para Ceuta desde el 1 de agosto de 2026, dgt.es 2026_Formentor_ESP.pdf, diariodeleon.es reapertura del Cares, rtvc.es Roque Nublo 20 de agosto de 2026, observador.pt Benagil 23 de mayo de 2026 y la tasa del PR1 de Madeira de 10,50 €).",
+                  "Error de dato: pt-fatima dice 'unos 450.000 fieles en 2026', pero la cifra de 450.000 es de mayo de 2024 (lo dice el propio artículo citado de fatima.pt). En mayo de 2026 fueron unos 180.000. Corrige el texto o di 'hasta 450.000 en años de máxima afluencia'.",
+                  "es-mallorca: la restricción de Formentor 2026 fue del 15 de mayo al 18 de octubre, no hasta el 15 de octubre (DGT y ARA Balears). Redacta la alerta como regla de temporada ('cada año, aprox. de mediados de mayo a mediados de octubre, de 10 a 22 h'), no en pasado. pt-madeira-funchal: la nota 'en mayo de 2026 cerraba de lunes a jueves por obras' está desfasada, porque desde el 26 de junio de 2026 el PR1 abre todos los días: actualízala.",
+                  "Fuentes que no tratan de logística: es-merida, es-tarragona, es-zaragoza, es-antequera, es-alcala-de-henares, es-aranjuez, pt-mafra, pt-elvas y pt-angra-do-heroismo citan solo la lista UNESCO del país. es-el-puerto-de-santa-maria, es-denia y pt-matosinhos citan la lista Michelin; es-ribera-del-duero, es-rias-baixas y es-asturias-sidra citan TasteAtlas; es-getaria, el artículo de Time Out sobre 50 Best; pt-amarante, idealista sobre Michelin; es-cadiz, la ficha de la Torre Tavira. Cada una necesita una fuente de transporte o de turismo oficial que respalde el 'acceso' (renfe.com, cp.pt, alsa.es, rede-expressos.pt, la oficina de turismo local).",
+                  "Blogs y agregadores como única fuente de acceso: es-granada-alhambra (enriquealex.com; cita tickets.alhambra-patronato.es), es-santillana-altamira (elviajedesofi.com; cita museodealtamira.mcu.es), es-donana (civitatis), es-albarracin (omio.es), pt-piodao (quantocustaviajar), es-figueres-cadaques (barcelonaurbana). Sustitúyelos por la fuente oficial.",
+                  "La logística de es-asturias-sidra, pt-vila-nova-de-gaia y pt-matosinhos se fusionó en es-oviedo y pt-porto. Comprueba que el acceso y la mejor época del lugar fusionado cubren también esas partes."
+                ]
+              },
+              "grupo_b": {
+                "nota": 8.5,
+                "desglose": {
+                  "fuentes": 1.5,
+                  "exactitud": 1.5,
+                  "criterio": 1.5,
+                  "coherencia": 2,
+                  "descripcion": 2
+                },
+                "aprobado": false,
+                "comentarios": [
+                  "Avisos de país: para SM, el aviso de EE. UU. se cita desde https://www.cia.gov/the-world-factbook/countries/san-marino/travel-facts pero va etiquetado como 'US State Department'. Hay que citar la página de San Marino en travel.state.gov. Para VA no se pudo confirmar https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/HolySee.html, que tiene el formato antiguo. Hay que usar la URL actual (travel.state.gov/en/international-travel/...) o remitir al aviso de Italia.",
+                  "El mejor_epoca no es coherente entre lugares del Vaticano que están a menos de 300 m: va-basilica-san-pedro [1,2,3,10,11], va-plaza-san-pedro [1,2,3,4,5,10,11,12] y va-museos-vaticanos y va-capilla-sixtina [1,2,3,11]. Hay que unificarlo con un criterio explícito, por ejemplo excluir Semana Santa y verano por las multitudes.",
+                  "it-dolomitas: mejor_epoca incluye junio, pero la propia alerta dice que remontes y refugios cierran 'de abril a junio'. Hay que precisar las fechas (la mayoría abren a mediados o finales de junio) y valorar si diciembre entra por el inicio de la temporada de Dolomiti Superski.",
+                  "Hay fuentes que no tratan de logística. mt-sliema-st-julians solo cita un comunicado de Michelin: hay que usar Malta Public Transport o la web del ferry Sliema–Valletta. it-gargano cita Wikipedia. it-etna cita un artículo de LiveUniversity de 2020 sobre las normas de la cumbre: hay que citar el Parco dell'Etna o la ordenanza vigente. it-erice-segesta cita bluekeys.it, una empresa privada de traslados.",
+                  "mt-comino-laguna-azul: el sistema de reservas fue suspendido por un tribunal y restablecido el 19 de mayo de 2025. Hay que confirmar que sigue vigente en 2026 y citar https://bluelagooncomino.mt además de la nota de la MTA."
+                ]
+              },
+              "nota": 7.5,
+              "aprobado": false
+            },
+            "curador": {
+              "grupo_a": {
+                "nota": 6,
+                "desglose": {
+                  "fuentes": 1,
+                  "exactitud": 1.5,
+                  "criterio": 1,
+                  "coherencia": 1,
+                  "descripcion": 1.5
+                },
+                "aprobado": false,
+                "comentarios": [
+                  "Alcance revisado: los 132 lugares de ES (83), PT (43) y AD (6) en data/lugares/europa.json, más curador.json y curador-ajustes.json. La fórmula global y el nivel son correctos en los 132. Las fusiones son buenas (es-oviedo con es-asturias-sidra, pt-porto con Gaia y Matosinhos, las de AD).",
+                  "Búsquedas de las URLs de guías que añadió el curador: 6; confirmadas 3 (classroom.ricksteves.com montserrat-the-heart-of-catalunya, lonelyplanet.com/articles/arouca-suspension-bridge-portugal, LP best-hikes-in-algarve). No confirmadas 3: lonelyplanet.com/articles/cies-islands-spain, lonelyplanet.com/articles/guide-to-gran-canaria y roughguides.com/portugal/fatima-travel-guide. Sustitúyelas por URLs comprobadas o quítalas y recalcula guias de es-islas-cies, es-gran-canaria y pt-fatima. Además, nationalgeographic.com/.../beyond-camino-de-santiago-alternative-hikes-spain existe pero trata del Camino Mozárabe, las Vías Verdes y la Senda Pirenaica, no del Caminito: no vale para subir es-caminito-del-rey a guias 4.",
+                  "Paso 3 incumplido: 14 lugares nuevos quedaron con guias 0 y fuentes vacías en curador-ajustes.json: es-figueres-cadaques, es-trujillo, es-guadalupe, es-monfrague, es-cartagena, es-lugo, es-teruel, es-priorat, es-penedes, es-sierra-de-guara-alquezar, es-noguera-pallaresa-sort, es-bardenas-reales, pt-piodao y pt-viana-do-castelo. Algunos tienen URLs de guía ya citadas por otros agentes (Frommer's para es-guadalupe en logistica-a-r2; LP top-things-to-do-in-viana-do-castelo para pt-viana-do-castelo; LP best-towns-in-spain-results, que cita Trujillo y Cadaqués). El Teatre-Museu Dalí está en todas las guías. Búscalos en 1–2 guías y recalcula.",
+                  "Coherencia del resultado: por esos ceros, es-figueres-cadaques (2.4) y es-trujillo (2.4) quedan por debajo de es-terra-mitica (2.8), y es-monfrague (2.7) por debajo de es-cabaneros (3.1). Recalcula después de corregir guias. ad-vall-del-madriu lleva la categoría 'adrenalina' por un 5 heredado: hereda la corrección de adrenalina.",
+                  "Regla de categorías (temático de 3.5 o más) incumplida: es-terra-mitica tiene 'adrenalina' con 3, y pt-obidos, pt-marvao, pt-monsanto, pt-monsaraz y pt-amarante tienen 'cultura' con 3. Quítalas y, si un lugar se queda sin categoría temática, deja 'ciudad' o 'playa' según corresponda.",
+                  "Coordenadas que no se verificaron (paso 4): pt-arouca-516-paiva (40.94, -8.2 → 40.9644, -8.1753). Pasa a 4 decimales es-donana (37, -6.43), ad-vall-del-madriu (42.49, 1.59), pt-azores-flores (39.45, -31.2), es-ordesa-monte-perdido (42.65, -0.05), es-la-rioja, pt-peneda-geres y pt-azores-sete-cidades.",
+                  "adrenalina_cerca vacío en lugares con adrenalina 3: pt-nazare, pt-peniche-berlengas y pt-madeira-rabacal. Si adrenalina no documenta actividades, el puntaje debe bajar a 2 al re-curar.",
+                  "por_que: la regla pide 2–3 frases y es-cadiz, es-tarragona, es-pamplona, es-antequera y es-sierra-de-guara-alquezar tienen 4: recórtalas. El por_que de es-terra-mitica es sobre todo una advertencia ('conviene confirmar...'): reescríbelo con lo que ofrece y deja la advertencia en alerta."
+                ]
+              },
+              "grupo_b": {
+                "nota": 6,
+                "desglose": {
+                  "fuentes": 1,
+                  "exactitud": 1,
+                  "criterio": 1.5,
+                  "coherencia": 1,
+                  "descripcion": 1.5
+                },
+                "aprobado": false,
+                "comentarios": [
+                  "En 12 lugares nuevos se puso guias = 0 con fuentes [] sin hacer la búsqueda que exige la regla 3: it-castel-del-monte, it-aquileia, it-selinunte, it-cividale-udine, it-islas-egadi, it-zingaro-san-vito-lo-capo, it-finale-ligure, it-gran-sasso-campo-imperatore, it-monti-sibillini-castelluccio, it-riviera-del-conero, it-lago-de-iseo-monte-isola e it-lago-de-orta. Lonely Planet, por ejemplo, marca Castel del Monte como 'Top Choice' (https://www.lonelyplanet.com/points-of-interest/castel-del-monte/1137658). Hay que buscarlos en 1–2 guías y recalcular global y nivel. Ahora mismo Castel del Monte (2.3, si_hay_tiempo) queda por debajo de it-gardaland (4.1).",
+                  "it-mantova-sabbioneta tiene guias = 1, apoyado solo en un hilo del foro de Rick Steves (community.ricksteves.com). Mantua aparece entre los imprescindibles de Lonely Planet y en Rough Guides, DK y Michelin Guide Vert (la Cámara de los Esposos tiene estrellas). Hay que rehacer este puntaje: ahora queda en 2.8 (si_hay_tiempo), incoherente con it-ferrara 3.8.",
+                  "it-reggia-di-caserta: la fuente de Lonely Planet es un espejo CDN (https://www-lonelyplanet-com-6c06.imagizer.com/italy/caserta). Hay que usar la URL canónica de lonelyplanet.com.",
+                  "Hay por_que con datos erróneos o sin verificar. it-lago-de-orta dice que Villa Crespi tiene dos estrellas, pero tiene tres. it-paestum cita el 'rafting en el río Calore a 20 km', que adrenalina dejó en 2 por no tener operador oficial. it-taormina menciona el 'body rafting' en el Alcantara, que solo está en plataformas de reventa. it-valle-de-aosta-monte-bianco habla de 'rafting en el Dora Baltea y barranquismo', it-golfo-di-orosei de 'una meca de la escalada... del barranquismo' e it-etna de que 'en invierno se esquía', y nada de eso está verificado. Hay que quitarlo o sustituirlo por lo que sí está documentado.",
+                  "mt-hipogeo-hal-saflieni: la fusión con mt-templos-tarxien tomó la logística 5 de Tarxien, aunque el Hipogeo exige reservar con meses de antelación (logística-temporada le da 3). En las fusiones hay que usar la logística del lugar principal, no la máxima. El global baja de 4.2 a 3.9.",
+                  "Hay etiquetas que contradicen lo que pidió cobertura: sm-borgo-maggiore tiene como única categoría 'adrenalina' (por Aquafan a 17 km) e it-mantova-sabbioneta también lleva 'adrenalina'. Cuando adrenalina corrija sus puntajes, hay que recalcular las categorías (en Borgo Maggiore, 'cultura' o 'ciudad' como categoría de respaldo).",
+                  "sm-torre-guaita: hay que corregir las coordenadas a 43.9353, 12.4496 (hoy están unos 280 m desplazadas). La fórmula, el orden, adrenalina_cerca, las fusiones (Polignano, Cesta/Montale, Orvieto/Civita a unos 10 km) y validar.mjs están bien."
+                ]
+              },
+              "nota": 6,
+              "aprobado": false
+            }
+          },
+          "paises": {
+            "ES": {
+              "nota": 6.7,
+              "revision_pendiente": false,
+              "comentario": "Promedio de los 7 agentes (6.8), con un ajuste por los 12 lugares de ES con guias 0 y la falta de fuentes de D.O."
+            },
+            "PT": {
+              "nota": 6.5,
+              "revision_pendiente": false,
+              "comentario": "Restan los errores concentrados en PT: TasteAtlas genérico, puntajes de guías mal calculados en las Azores, cifra de Fátima, coordenadas del 516 Arouca, tres puntajes de adrenalina 3 sin fuente, cinco errores de categoría y un solo lugar natural nuevo."
+            },
+            "AD": {
+              "nota": 6.2,
+              "revision_pendiente": false,
+              "comentario": "Restan que no haya 4 guías válidas (Fodor's no confirmado, NatGeo patrocinado, Culture Trip fuera de la lista), adrenalina 5 en todos los lugares y naturaleza 5 en el Madriu."
+            },
+            "IT": {
+              "nota": 7.1,
+              "revision_pendiente": false,
+              "detalle": "Promedio de las notas de los agentes sobre los lugares IT: guías 6.5, cultura 8.5, naturaleza 7.5, gastronomía 7.0, adrenalina 6.0, logística 8.5 y curador 5.5. Los problemas de guias = 0 o 1, de adrenalina sin verificar y de Villa Crespi se concentran en IT."
+            },
+            "MT": {
+              "nota": 7.9,
+              "revision_pendiente": false,
+              "detalle": "Guías 6.5 (5 inflados, Time Out sin confirmar), cultura 9.0, naturaleza 8.0, gastronomía 7.5 (Marsaxlokk 4), adrenalina 8.0 (bien documentada en la ronda 2 con PADI y VisitMalta), logística 9.0 y curador 7.0 (logística del Hipogeo)."
+            },
+            "SM": {
+              "nota": 7.5,
+              "revision_pendiente": false,
+              "detalle": "Guías 7.0 (coordenadas de la Guaita), cultura 8.5, naturaleza 7.5 (torres con naturaleza 3), gastronomía 8.0, adrenalina 7.0 (Borgo Maggiore etiquetado 'adrenalina'), logística 7.5 (aviso de EE. UU. vía CIA) y curador 7.0."
+            },
+            "VA": {
+              "nota": 8.4,
+              "revision_pendiente": false,
+              "detalle": "Guías 7.5, cultura 9.0, naturaleza 9.0, gastronomía 9.0, adrenalina 8.5 (corregida a 1 en la ronda 2), logística 7.5 (URL de Holy See sin confirmar y mejor_epoca incoherente) y curador 8.0."
+            }
+          }
+        }
+      ]
+    }
+  }
+}

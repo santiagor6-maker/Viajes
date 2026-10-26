@@ -32,7 +32,8 @@ El estado vive en `data/trabajo/estado.json`. Es la única fuente de verdad sobr
 | `logistica` | `logistica-temporada` sobre los candidatos y los `nuevos` | `curador` |
 | `curador` | `curador`: une, deduplica, puntúa y escribe `data/lugares/europa.json` | `cobertura` |
 | `cobertura` | `evaluador-cobertura`. Si hay huecos, se ejecutan los especialistas indicados y luego el curador otra vez | `revisor` |
-| `revisor` | `revisor-calidad`. Los agentes con nota < 9.5 se vuelven a ejecutar con los comentarios, hasta 3 rondas | `publicar` |
+| `revisor` | `revisor-calidad`, una ejecución por grupo, escribe `revision-<grupo>-r<n>.json`; el orquestador los une en `data/revisiones/<continente>.json` | `correcciones` o `publicar` |
+| `correcciones` | Un agente por especialidad con nota < 9.5 corrige lo señalado en ambos grupos y escribe `<agente>-fix<n>.json` con `"ronda": 3 + n` (así reemplaza puntajes anteriores). Luego `curador` y otra vez `revisor`. Después de 3 rondas del revisor, los países que sigan < 9.5 quedan `revision_pendiente` | `curador` |
 | `publicar` | `node scripts/construir-app.mjs` y republicar el artifact (misma URL); avisar al usuario con un resumen | siguiente subregión: `guias` |
 
 Si una tanda no alcanza a terminar un paso por falta de cupo, el paso se repite en el siguiente despertar con lo que falte.

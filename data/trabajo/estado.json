@@ -1,7 +1,7 @@
 {
   "pausado": false,
   "subregion": "iberica-italia",
-  "paso": "revisor",
+  "paso": "correcciones",
   "ronda": 1,
   "orden_subregiones": [
     "iberica-italia",
@@ -61,6 +61,13 @@
       "subregion": "iberica-italia",
       "paso": "curador",
       "resultado": "Ronda 2: 249 lugares (ES 83, PT 43, IT 91, MT 16, AD 6, SM 4, VA 6); 9 fusiones; validador sin errores; republicado"
+    },
+    {
+      "fecha": "2026-10-26",
+      "subregion": "iberica-italia",
+      "paso": "revisor",
+      "resultado": "Ronda revisor 1: 0/7 agentes ≥9.5 (notas 6.0–8.5). Países: ES 6.7, PT 6.5, AD 6.2, IT 7.1, MT 7.9, SM 7.5, VA 8.4. Siguiente: correcciones (1 agente por especialidad, ambos grupos)"
     }
-  ]
+  ],
+  "ronda_revisor": 1
 }

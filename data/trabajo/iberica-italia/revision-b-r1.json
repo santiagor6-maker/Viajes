@@ -1,0 +1,118 @@
+{
+  "subregion": "iberica-italia",
+  "grupo": "b",
+  "ronda": 1,
+  "fecha": "2026-10-26",
+  "alcance": "IT, MT, SM, VA. Archivos revisados: guias-expertas-b; cultura-historia-b, -b-r2, -r3; naturaleza-b, -b-r2, -r3; gastronomia-vino-b, -b-r2, -r3; adrenalina-b, -b-r2, -r3; logistica-temporada-b, -b-r2; curador.json, curador-ajustes.json y los 117 lugares IT/MT/SM/VA de data/lugares/europa.json.",
+  "metodo": "WebFetch bloqueado: una URL cuenta como verificada si una WebSearch devuelve esa página exacta (o la misma ruta). Se usaron 54 búsquedas. Se comprobó también la fórmula global de los 117 lugares (sin errores), que el puntaje final sea el máximo de los agentes (sin discrepancias salvo la logística de mt-hipogeo-hal-saflieni) y node scripts/validar.mjs --sin-revision (sin errores; aviso tolerado en it-capri).",
+  "verificacion_urls": {
+    "guias-expertas": {"comprobadas": 9, "verificadas": 7, "no_confirmadas": ["https://www.frommers.com/slideshows/818204-the-very-best-of-italy-where-to-go/", "https://www.timeout.com/malta/travel/best-places-to-visit-in-malta"]},
+    "cultura-historia": {"comprobadas": 10, "verificadas": 9, "no_confirmadas": ["https://chianticlassico.com/en/?p=2166"], "nota": "Números UNESCO comprobados: 1650, 1533, 1571, 1363, decisión 7939 (Padua, ref. 1623) y lista indicativa 6182. El resto de números citados (394, 93, 174, 91, 286, 131, 132, 130, 1245...) coinciden con la lista oficial."},
+    "naturaleza": {"comprobadas": 7, "verificadas": 5, "no_confirmadas": ["https://gestwww.lovevda.it/Media/Default/Allegati-PDF/pagina%20singola_GP_StambeccoIT.pdf", "https://www.sardegnaturismo.it/it/node/250946"], "nota": "Holidoit y ADV Collective existen pero son plataformas de reventa."},
+    "gastronomia-vino": {"comprobadas": 9, "verificadas": 7, "no_confirmadas": ["https://chianticlassico.com/en/?p=2166", "https://tasteatlas.com/local-food-in-bologna"], "nota": "ferraraterraeacqua.kelvar.redturtle.it existe pero es un dominio de pruebas; la Wikipedia de estrellas existe pero no es la fuente pedida. Error de dato: Villa Crespi tiene 3 estrellas, no 2."},
+    "adrenalina": {"comprobadas": 7, "verificadas": 5, "no_confirmadas": ["https://www.trekking.ch/007-vip-event/?lang=en", "https://www.manawa.com/en-GB/activity/slovenia/bovec/rafting/rafting-down-the-soca-river-in-bovec-slovenia/5551"]},
+    "logistica-temporada": {"comprobadas": 7, "verificadas": 6, "no_confirmadas": ["https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/HolySee.html"], "nota": "La URL de cia.gov para SM existe, pero no es el Departamento de Estado como dice la etiqueta."},
+    "curador": {"comprobadas": 5, "verificadas": 3, "nota": "La fuente LP de Caserta es un espejo CDN (imagizer). Lonely Planet marca Castel del Monte como 'Top Choice', así que guias = 0 es incorrecto. Coordenadas reales de la Torre Guaita: 43.9353, 12.4496."}
+  },
+  "agentes": {
+    "guias-expertas": {
+      "nota": 6.5,
+      "desglose": {"fuentes": 1.0, "exactitud": 1.5, "criterio": 1.5, "coherencia": 1.0, "descripcion": 1.5},
+      "aprobado": false,
+      "comentarios": [
+        "Hay URLs genéricas que no prueban la recomendación del lugar. https://www.fodors.com/world/europe/italy se usa como única prueba de Fodor's en it-dolomitas, it-verona, it-bolonia, it-ravena, it-orvieto, it-napoles, it-pompeya-herculano, it-paestum, it-matera, it-palermo-monreale, it-etna e it-islas-eolias. Pasa lo mismo con https://store.ricksteves.com/products/italy-guidebook en it-milan, it-lago-maggiore, it-verona e it-val-d-orcia, con https://shop.roughguides.com/book/rough-guide-italy/ en it-lago-de-como, it-dolomitas, it-asis, it-lecce, it-agrigento-valle-templos y va-museos-vaticanos, y con las fichas de libro de DK (dk.com, penguinrandomhouse.com) en casi todo IT. Hay que citar la página del destino en cada guía. Si no existe, se quita esa guía de guias_que_lo_recomiendan y se recalcula el puntaje.",
+        "it-valle-de-aosta-monte-bianco: la fuente de Fodor's es https://www.fodors.com/world/europe/italy/piedmont-and-valle-daosta/things-to-do/sights/turin, que es la página de Turín. Hay que citar la de Valle d'Aosta o Courmayeur, o quitarla (el puntaje bajaría a 2).",
+        "No se pudieron confirmar https://www.frommers.com/slideshows/818204-the-very-best-of-italy-where-to-go/ (usada en it-ravena, it-lucca, it-roma, it-pompeya-herculano e it-costa-amalfitana) ni https://www.timeout.com/malta/travel/best-places-to-visit-in-malta (usada en 8 lugares de MT). Hay que comprobar que existen y que nombran cada lugar. Si no, se reemplazan.",
+        "Hay 5 inflados frente a la escala, que pide top pick en 4 o más guías: it-verona (4 guías, dos con URL genérica), it-paestum (iguala a Florencia), it-asis, mt-ggantija, mt-hagar-qim-mnajdra-gruta-azul, mt-comino-laguna-azul y mt-mdina-rabat. En cambio, it-siracusa-ortigia tiene 3 con solo LP y Rick Steves, cuando Fodor's, Rough Guides y DK también la destacan. Hay que dejar el 5 solo con 4 o más fuentes específicas del lugar y revisar Siracusa al alza.",
+        "Bradt (https://www.bradtguides.com/?p=107966) es la ficha del libro Malta & Gozo y no una recomendación concreta. Sirve como respaldo, pero no basta para contar Bradt en 8 lugares de MT (mt-tres-ciudades, mt-mdina-rabat, mt-hipogeo-hal-saflieni, mt-ggantija, etc.). Hay que citar la página de Bradt sobre Malta o el capítulo correspondiente.",
+        "sm-torre-guaita: las coordenadas 43.9331, 12.4513 caen unos 280 m al sureste de la torre. Las correctas son 43.9353, 12.4496 (Wikimedia Commons y Sygic coinciden).",
+        "sm-torre-montale (puntaje 2, no visitable) ya está fusionada en sm-torre-cesta y no debe volver como candidato propio."
+      ]
+    },
+    "cultura-historia": {
+      "nota": 8.5,
+      "desglose": {"fuentes": 1.5, "exactitud": 2.0, "criterio": 2.0, "coherencia": 1.5, "descripcion": 1.5},
+      "aprobado": false,
+      "comentarios": [
+        "Hay puntajes de 3 o más con fuentes que no son patrimoniales ni oficiales. it-bari usa Wikipedia y museionline.info: hay que añadir la web de la Basilica di San Nicola o viaggiareinpuglia.it. it-selinunte usa Wikivoyage: hay que añadir la ficha del Parco archeologico (cultura.gov.it o parcodiselinunte). it-perugia usa Wikipedia: basta con quitarla y dejar la web de la Galleria. it-polignano-monopoli e it-polignano-a-mare usan el blog de Italo y una página de Trenitalia, que no describen el patrimonio: hay que citar turismo oficial de Apulia o el Museo Pino Pascali.",
+        "it-chianti-classico: no se pudo confirmar https://chianticlassico.com/en/?p=2166. Las páginas del Consorzio que sí existen sobre el bando de 1716 son https://www.chianticlassico.com/en/?p=2140 y https://www.chianticlassico.com/en/?p=60239. Hay que reemplazarla.",
+        "Coherencia: it-lago-de-orta tiene 4 e it-lago-de-como 3, cuando Como también tiene un Sacro Monte del mismo sitio UNESCO 1068 (Ossuccio), además de Villa Carlotta, Balbianello y el Duomo. Hay que igualarlos (Como 4 u Orta 3). it-pisa tiene 5 frente a it-verona 4 e it-bolonia 4: hay que justificar por qué una sola plaza supera a dos ciudades UNESCO completas, o bajarla a 4. sm-torre-guaita tiene 4, igual que sm-centro-historico, aunque es solo un componente del mismo sitio: debería quedar en 3 o explicarse la razón.",
+        "Hay que quitar de las justificaciones las notas de proceso, que deben describir el lugar. Por ejemplo, sm-torre-montale en la ronda 2 ('Lo bajo de 2 a 1 y propongo fusionarla con sm-torre-cesta') e it-polignano-a-mare en la ronda 3 ('Duplica it-polignano-monopoli...'). Esas notas van en un campo aparte.",
+        "Todos los números UNESCO comprobados son correctos (1650, 1533, 1571, 1363, la decisión 7939 de Padua y la lista indicativa 6182). Para it-padova conviene citar también https://whc.unesco.org/en/list/1623, porque la ficha 824 corresponde solo al Orto Botanico."
+      ]
+    },
+    "naturaleza": {
+      "nota": 7.5,
+      "desglose": {"fuentes": 1.0, "exactitud": 1.5, "criterio": 2.0, "coherencia": 1.5, "descripcion": 1.5},
+      "aprobado": false,
+      "comentarios": [
+        "Hay dos URLs no confirmadas. it-parque-gran-paradiso cita https://gestwww.lovevda.it/Media/Default/Allegati-PDF/pagina%20singola_GP_StambeccoIT.pdf, en un subdominio de gestión que no aparece. Hay que usar https://www.pngp.it o una página pública de lovevda.it. it-golfo-di-orosei cita https://www.sardegnaturismo.it/it/node/250946, que tampoco aparece. Hay que usar https://sardegnaturismo.it/it/esplora/cala-goloritze, que sí existe.",
+        "Hay puntajes de 3 o más sin ninguna fuente de las que pide el criterio (parque oficial, UNESCO, AllTrails o turismo oficial). it-polignano-a-mare usa Sky TG24, Spiagge.it y Freedome. it-riviera-del-conero usa Montagna.tv, TheWom y Spiagge.it: falta parcodelconero.org. it-portofino-san-fruttuoso usa Gulliver y Mentelocale: falta el Parco o el Área Marina de Portofino. it-zingaro-san-vito-lo-capo usa Balarm y SiViaggia: falta la web de la reserva o la de la Regione Siciliana. it-lago-de-iseo-monte-isola usa NostroFiglio y Montagna.tv. it-gargano usa Wikipedia y viaggiando-italia: falta parcogargano.it. it-volo-dell-angelo usa TheWom. Hay que añadir la fuente oficial a cada uno o bajar el puntaje.",
+        "it-valle-de-aosta-monte-bianco tiene 5 y su única fuente es Frommer's. Hay que añadir una oficial (lovevda.it o montebianco.com para el Skyway o el Tour du Mont Blanc).",
+        "Las plataformas de reventa como https://www.holidoit.com/e/trekking-al-tramonto-sullo-stromboli (it-islas-eolias) o https://app.advcollective.com/... (mt-acantilados-dingli) solo sirven de apoyo. Cada lugar necesita además una fuente oficial.",
+        "Coherencia: sm-torre-guaita y sm-torre-cesta tienen 3 por las vistas desde la cresta, mientras it-orvieto (sobre su peñasco) y mt-mdina-rabat tienen 1. Hay que bajarlas a 2 o justificar el 3. mt-golden-bay sube a 4 e iguala a mt-dwejra y mt-comino-laguna-azul: hay que dejarla en 3 o explicar qué la pone al nivel del Blue Hole. it-venecia con 3 por la laguna es generoso frente a it-trieste 3 (Carso y Miramare).",
+        "Hay que quitar de las justificaciones las notas internas, como la de it-alghero-capo-caccia ('Pedido aparte: cultura-historia debe puntuar...') y la de it-polignano-a-mare ('si ese agente crea otro id, conviene fusionarlos'), y llevarlas a un campo de notas."
+      ]
+    },
+    "gastronomia-vino": {
+      "nota": 7.5,
+      "desglose": {"fuentes": 1.0, "exactitud": 1.5, "criterio": 2.0, "coherencia": 1.5, "descripcion": 1.5},
+      "aprobado": false,
+      "comentarios": [
+        "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Italy es la única fuente de 13 puntajes de 3 o más: it-venecia, it-milan, it-lago-de-como, it-lago-de-garda, it-lago-maggiore, it-dolomitas, it-valle-de-aosta-monte-bianco, it-florencia, it-roma, it-costa-amalfitana, it-capri, it-taormina e it-lago-de-orta. La página existe, pero no es la fuente que pide el criterio. Hay que citar la ficha de guide.michelin.com del restaurante que se menciona en cada uno (Glam, Enrico Bartolini al Mudec, AtelierMoessmer, Enoteca Pinchiorri, La Pergola, Quattro Passi, Villa Crespi...).",
+        "it-lago-de-orta: dice que Villa Crespi tiene 'dos estrellas Michelin', pero tiene tres desde 2022 y las mantiene en 2026 (https://guide.michelin.com/ch/it/piemonte/orta-san-giulio/ristorante/villa-crespi). Hay que corregirlo y subir el puntaje a 4, para que sea coherente con it-padova 4 por Le Calandre.",
+        "Hay fuentes mal etiquetadas o en dominios que no son los canónicos. En it-gargano, la fuente 'MIPAAF (Arancia del Gargano IGP)' apunta a unionalimentari.com y no al ministerio. it-ferrara usa ferraraterraeacqua.kelvar.redturtle.it, un dominio de pruebas de la agencia web: hay que usar https://www.ferraraterraeacqua.it/en/flavours/typical-products/ferrarese-cappellacci-with-pumpkin. En it-parma, it-cilento e it-perugia, 'Visit Italy' (visititaly.eu) es un portal privado y no turismo oficial.",
+        "No se pudieron confirmar https://chianticlassico.com/en/?p=2166 (it-siena, it-chianti-classico) ni https://tasteatlas.com/local-food-in-bologna (it-bolonia). Hay que reemplazarlas por páginas que existan, como https://www.chianticlassico.com/en/?p=2140 y https://tasteatlas.com/bologna.",
+        "Coherencia: mt-marsaxlokk tiene 4 por un mercado de pescado sin estrellas, igual que it-verona 4 (Casa Perbellini, 3 estrellas) y por encima de it-siena 3. Debería bajar a 3. it-cividale-udine (4) solo tiene TasteAtlas e it-erice-segesta (4) solo la ficha de un restaurante en Frommer's: hay que añadir una fuente regional (consorcio Friuli Colli Orientali, DOC Erice o Marsala) o bajarlos a 3.",
+        "Hay fuentes de blog en puntajes de 3 o más: it-alghero-capo-caccia (Catavino, Mes Prestiges; mejor Sella & Mosca o sardegnaturismo.it), it-foreste-casentinesi (Dissapore), it-sila (FreshPlaza), it-polignano-a-mare (Freedome) e it-polignano-monopoli (blog de Italo). Hay que sustituirlas por consorcios DOP/IGP, Slow Food o turismo oficial."
+      ]
+    },
+    "adrenalina": {
+      "nota": 6.5,
+      "desglose": {"fuentes": 1.0, "exactitud": 2.0, "criterio": 1.0, "coherencia": 1.0, "descripcion": 1.5},
+      "aprobado": false,
+      "comentarios": [
+        "Hay puntajes de 3 o más sin ninguna actividad con URL, algo que el criterio no permite: it-la-maddalena-costa-smeralda 3, it-parque-stelvio 3, it-parque-abruzzo 3, it-pollino 3 e it-gran-sasso-campo-imperatore 3. En todos hay que documentar el operador o el gestor de remontes con su web oficial (esquí de verano del Stelvio, Roccaraso o Alto Sangro, rafting del Lao, estación de Campo Imperatore, kite en Porto Pollo), o bajar el puntaje a 2.",
+        "En varios lugares la actividad solo se apoya en una plataforma de reventa. it-cividale-udine (3) usa manawa.com, y además su URL .../5551 no se pudo confirmar. it-spoleto e it-alghero-capo-caccia usan yumping.com. it-golfo-di-orosei usa tui.co.uk, lo que contradice la propia política de la ronda 2. Hay que poner la web del operador (por ejemplo, la del centro de rafting de Bovec o la de Rafting Marmore).",
+        "No se pudo confirmar https://www.trekking.ch/007-vip-event/?lang=en (it-lago-maggiore, it-lago-de-orta). El dominio del operador del bungee de Verzasca es 007bungy.ch y hay que usarlo.",
+        "La política de acreditar la oferta solo al lugar base se aplicó al Vaticano (todo a 1), pero no al resto. it-ostia-antica (3) e it-tivoli (3) suman Cinecittà World y MagicLand, que ya cuentan para it-roma. it-mantova-sabbioneta (4) cuenta Gardaland a 34 km, y Mantua acaba con la etiqueta 'adrenalina'. sm-borgo-maggiore (3) cuenta Aquafan a 17 km y queda con 'adrenalina' como única categoría. it-verona (5) iguala a las Dolomitas solo por Gardaland. Aplicando el mismo criterio: Ostia y Tivoli 2 o menos, Mantua 3 o menos, Borgo Maggiore 2 o menos y Verona 4.",
+        "it-lago-maggiore (4) se basa en un solo bungee, en Suiza y a 43 km, cuando la escala pide varias actividades destacadas para un 4. Debería quedar en 3, salvo que se documenten el rafting en Valsesia o el Mottarone con su web oficial.",
+        "Falta el esquí en Italia: no hay ninguna estación documentada en Courmayeur, Cervinia, Via Lattea/Sestriere, Livigno, Bormio ni Cortina (Cortina sí está dentro de Dolomiti Superski). Por eso it-valle-de-aosta-monte-bianco bajó a 4. Hay que añadir las estaciones con su web oficial (courmayeur-montblanc.com, cervinia.it, vialattea.it) y valorar si alguna estación de clase mundial, como Cervinia/Zermatt, merece ser destino propio.",
+        "Las entradas de la ronda 1 que siguen vigentes (lista sin_cambios) mantienen textos como 'Aún no está verificado con fuentes oficiales' o 'pendiente': it-venecia, it-cinque-terre, it-trieste, it-napoles, it-costa-amalfitana, it-capri, it-tropea, it-siracusa-ortigia, it-cagliari, entre otros. Hay que verificarlas o reescribir la justificación sin notas de proceso."
+      ]
+    },
+    "logistica-temporada": {
+      "nota": 8.5,
+      "desglose": {"fuentes": 1.5, "exactitud": 1.5, "criterio": 1.5, "coherencia": 2.0, "descripcion": 2.0},
+      "aprobado": false,
+      "comentarios": [
+        "Avisos de país: para SM, el aviso de EE. UU. se cita desde https://www.cia.gov/the-world-factbook/countries/san-marino/travel-facts pero va etiquetado como 'US State Department'. Hay que citar la página de San Marino en travel.state.gov. Para VA no se pudo confirmar https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/HolySee.html, que tiene el formato antiguo. Hay que usar la URL actual (travel.state.gov/en/international-travel/...) o remitir al aviso de Italia.",
+        "El mejor_epoca no es coherente entre lugares del Vaticano que están a menos de 300 m: va-basilica-san-pedro [1,2,3,10,11], va-plaza-san-pedro [1,2,3,4,5,10,11,12] y va-museos-vaticanos y va-capilla-sixtina [1,2,3,11]. Hay que unificarlo con un criterio explícito, por ejemplo excluir Semana Santa y verano por las multitudes.",
+        "it-dolomitas: mejor_epoca incluye junio, pero la propia alerta dice que remontes y refugios cierran 'de abril a junio'. Hay que precisar las fechas (la mayoría abren a mediados o finales de junio) y valorar si diciembre entra por el inicio de la temporada de Dolomiti Superski.",
+        "Hay fuentes que no tratan de logística. mt-sliema-st-julians solo cita un comunicado de Michelin: hay que usar Malta Public Transport o la web del ferry Sliema–Valletta. it-gargano cita Wikipedia. it-etna cita un artículo de LiveUniversity de 2020 sobre las normas de la cumbre: hay que citar el Parco dell'Etna o la ordenanza vigente. it-erice-segesta cita bluekeys.it, una empresa privada de traslados.",
+        "mt-comino-laguna-azul: el sistema de reservas fue suspendido por un tribunal y restablecido el 19 de mayo de 2025. Hay que confirmar que sigue vigente en 2026 y citar https://bluelagooncomino.mt además de la nota de la MTA."
+      ]
+    },
+    "curador": {
+      "nota": 6.0,
+      "desglose": {"fuentes": 1.0, "exactitud": 1.0, "criterio": 1.5, "coherencia": 1.0, "descripcion": 1.5},
+      "aprobado": false,
+      "comentarios": [
+        "En 12 lugares nuevos se puso guias = 0 con fuentes [] sin hacer la búsqueda que exige la regla 3: it-castel-del-monte, it-aquileia, it-selinunte, it-cividale-udine, it-islas-egadi, it-zingaro-san-vito-lo-capo, it-finale-ligure, it-gran-sasso-campo-imperatore, it-monti-sibillini-castelluccio, it-riviera-del-conero, it-lago-de-iseo-monte-isola e it-lago-de-orta. Lonely Planet, por ejemplo, marca Castel del Monte como 'Top Choice' (https://www.lonelyplanet.com/points-of-interest/castel-del-monte/1137658). Hay que buscarlos en 1–2 guías y recalcular global y nivel. Ahora mismo Castel del Monte (2.3, si_hay_tiempo) queda por debajo de it-gardaland (4.1).",
+        "it-mantova-sabbioneta tiene guias = 1, apoyado solo en un hilo del foro de Rick Steves (community.ricksteves.com). Mantua aparece entre los imprescindibles de Lonely Planet y en Rough Guides, DK y Michelin Guide Vert (la Cámara de los Esposos tiene estrellas). Hay que rehacer este puntaje: ahora queda en 2.8 (si_hay_tiempo), incoherente con it-ferrara 3.8.",
+        "it-reggia-di-caserta: la fuente de Lonely Planet es un espejo CDN (https://www-lonelyplanet-com-6c06.imagizer.com/italy/caserta). Hay que usar la URL canónica de lonelyplanet.com.",
+        "Hay por_que con datos erróneos o sin verificar. it-lago-de-orta dice que Villa Crespi tiene dos estrellas, pero tiene tres. it-paestum cita el 'rafting en el río Calore a 20 km', que adrenalina dejó en 2 por no tener operador oficial. it-taormina menciona el 'body rafting' en el Alcantara, que solo está en plataformas de reventa. it-valle-de-aosta-monte-bianco habla de 'rafting en el Dora Baltea y barranquismo', it-golfo-di-orosei de 'una meca de la escalada... del barranquismo' e it-etna de que 'en invierno se esquía', y nada de eso está verificado. Hay que quitarlo o sustituirlo por lo que sí está documentado.",
+        "mt-hipogeo-hal-saflieni: la fusión con mt-templos-tarxien tomó la logística 5 de Tarxien, aunque el Hipogeo exige reservar con meses de antelación (logística-temporada le da 3). En las fusiones hay que usar la logística del lugar principal, no la máxima. El global baja de 4.2 a 3.9.",
+        "Hay etiquetas que contradicen lo que pidió cobertura: sm-borgo-maggiore tiene como única categoría 'adrenalina' (por Aquafan a 17 km) e it-mantova-sabbioneta también lleva 'adrenalina'. Cuando adrenalina corrija sus puntajes, hay que recalcular las categorías (en Borgo Maggiore, 'cultura' o 'ciudad' como categoría de respaldo).",
+        "sm-torre-guaita: hay que corregir las coordenadas a 43.9353, 12.4496 (hoy están unos 280 m desplazadas). La fórmula, el orden, adrenalina_cerca, las fusiones (Polignano, Cesta/Montale, Orvieto/Civita a unos 10 km) y validar.mjs están bien."
+      ]
+    }
+  },
+  "paises": {
+    "IT": {"nota": 7.1, "revision_pendiente": false, "detalle": "Promedio de las notas de los agentes sobre los lugares IT: guías 6.5, cultura 8.5, naturaleza 7.5, gastronomía 7.0, adrenalina 6.0, logística 8.5 y curador 5.5. Los problemas de guias = 0 o 1, de adrenalina sin verificar y de Villa Crespi se concentran en IT."},
+    "MT": {"nota": 7.9, "revision_pendiente": false, "detalle": "Guías 6.5 (5 inflados, Time Out sin confirmar), cultura 9.0, naturaleza 8.0, gastronomía 7.5 (Marsaxlokk 4), adrenalina 8.0 (bien documentada en la ronda 2 con PADI y VisitMalta), logística 9.0 y curador 7.0 (logística del Hipogeo)."},
+    "SM": {"nota": 7.5, "revision_pendiente": false, "detalle": "Guías 7.0 (coordenadas de la Guaita), cultura 8.5, naturaleza 7.5 (torres con naturaleza 3), gastronomía 8.0, adrenalina 7.0 (Borgo Maggiore etiquetado 'adrenalina'), logística 7.5 (aviso de EE. UU. vía CIA) y curador 7.0."},
+    "VA": {"nota": 8.4, "revision_pendiente": false, "detalle": "Guías 7.5, cultura 9.0, naturaleza 9.0, gastronomía 9.0, adrenalina 8.5 (corregida a 1 en la ronda 2), logística 7.5 (URL de Holy See sin confirmar y mejor_epoca incoherente) y curador 8.0."}
+  },
+  "busquedas_usadas": 54
+}
