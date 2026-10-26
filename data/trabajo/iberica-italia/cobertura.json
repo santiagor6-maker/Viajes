@@ -1,0 +1,294 @@
+{
+  "agente": "evaluador-cobertura",
+  "subregion": "iberica-italia",
+  "ronda": 1,
+  "fecha": "2026-10-26",
+  "nota_general": "Ningún país está por debajo del mínimo y no se pide recortar a nadie: ES (62) e IT (65) superan el objetivo de 20–30, pero el usuario quiere muchos lugares. Hay un problema que afecta a todos: los lugares que propuso un especialista como 'nuevos' nunca los puntuaron los demás y quedaron con 0 en esos criterios (unos 45 lugares por criterio en ES/PT/IT/MT). Por eso hay categorías mal asignadas, como Módena sin cultura, Génova sin gastronomía o Tarragona sin adrenalina con PortAventura a 10 km. Cada especialista debe puntuar los ids de otros agentes que tiene en 0 (ver los pedidos de cada país). Aparte, adrenalina está inflada en MT, VA y SM, y eso etiqueta como 'adrenalina' monumentos y museos.",
+  "paises": [
+    {
+      "pais_iso": "ES",
+      "total": 62,
+      "cumple": false,
+      "excepcion_minimo": false,
+      "justificacion": null,
+      "observaciones": "Cantidad OK (62). El área de Madrid (≤ 50 km) tiene 5/62 = 8 % (Madrid, El Escorial, Parque Warner, Alcalá, Aranjuez). Hay 6 categorías. Huecos: Navarra y Región de Murcia no tienen ningún lugar. Faltan imprescindibles de Cataluña (Montserrat, Figueres/Cadaqués), la ciudad de Cádiz, Albarracín, Gran Canaria y Fuerteventura, y las Islas Cíes. Ya están Tarragona, La Palma (Caldera de Taburiente) y el Caminito del Rey. St Peter's Pool, en Malta, ya se cubre dentro de Marsaxlokk.",
+      "huecos": [
+        {
+          "agente": "cultura-historia",
+          "pedido": "Añadir Montserrat (monasterio benedictino, Virgen de Montserrat, Escolanía y cremalleras; 50 km de Barcelona). Puntuar también naturaleza (macizo del Parque Natural de Montserrat)."
+        },
+        {
+          "agente": "cultura-historia",
+          "pedido": "Añadir Figueres (Teatre-Museu Dalí) y Cadaqués/Portlligat (Casa-Museu Dalí), como un lugar 'Triángulo daliniano y Cap de Creus' o como dos. Hoy solo se mencionan en la ficha de Empuriabrava."
+        },
+        {
+          "agente": "cultura-historia",
+          "pedido": "Añadir la ciudad de Cádiz (casco antiguo trimilenario, catedral, Torre Tavira, barrio de La Viña, Carnaval, playa de La Caleta). Hoy solo aparece como referencia en Jerez y El Puerto."
+        },
+        {
+          "agente": "cultura-historia",
+          "pedido": "Aragón sur: añadir Albarracín (Lonely Planet lo puso nº 1 de sus mejores pueblos de España) y Teruel (mudéjar, Patrimonio Mundial), juntos o por separado."
+        },
+        {
+          "agente": "cultura-historia",
+          "pedido": "Navarra no tiene ningún lugar: añadir Pamplona (San Fermín, murallas, Camino de Santiago, pintxos), con Olite como extensión."
+        },
+        {
+          "agente": "cultura-historia",
+          "pedido": "Región de Murcia no tiene ningún lugar: añadir Cartagena (teatro romano, Arqua, refugios de la Guerra Civil, modernismo)."
+        },
+        {
+          "agente": "cultura-historia",
+          "pedido": "Extremadura: añadir Trujillo y el Real Monasterio de Guadalupe (Patrimonio Mundial)."
+        },
+        {
+          "agente": "cultura-historia",
+          "pedido": "Galicia norte: añadir A Coruña (Torre de Hércules, Patrimonio Mundial) y Lugo (muralla romana, Patrimonio Mundial)."
+        },
+        {
+          "agente": "naturaleza",
+          "pedido": "Añadir las Islas Cíes (Parque Nacional Islas Atlánticas de Galicia, playa de Rodas, cupo diario con autorización de la Xunta)."
+        },
+        {
+          "agente": "naturaleza",
+          "pedido": "Canarias: añadir Gran Canaria (Roque Nublo y cumbres, Reserva de la Biosfera, dunas de Maspalomas; Las Palmas y Vegueta como parte urbana) y Fuerteventura (dunas de Corralejo, playas de Jandía; kite y windsurf)."
+        },
+        {
+          "agente": "naturaleza",
+          "pedido": "Añadir el Parque Natural Cabo de Gata-Níjar (Almería; Los Genoveses, Mónsul, San José). La provincia de Almería no tiene ningún lugar."
+        },
+        {
+          "agente": "naturaleza",
+          "pedido": "Añadir las Bardenas Reales (Navarra, Reserva de la Biosfera) y el Parque Nacional de Monfragüe (Extremadura, observación de buitres negros y águila imperial)."
+        },
+        {
+          "agente": "naturaleza",
+          "pedido": "Puntuar en naturaleza los lugares de otros agentes que quedaron en 0: es-caminito-del-rey (desfiladero de los Gaitanes, Paraje Natural), es-las-medulas (paisaje cultural de Patrimonio Mundial, mirador de Orellán), es-baqueira-beret (Val d'Aran), es-tarragona y el resto de ids ES con naturaleza = 0."
+        },
+        {
+          "agente": "gastronomia-vino",
+          "pedido": "Cataluña vinícola: añadir el Priorat (DOQ, con Montsant) y el Penedès (cava en Sant Sadurní d'Anoia). Hoy no hay ninguna región vinícola catalana."
+        },
+        {
+          "agente": "gastronomia-vino",
+          "pedido": "Puntuar en gastronomía los ids ES que quedaron en 0: es-zaragoza (tapeo en El Tubo, ternasco), es-merida, es-tarragona (romesco, calçots, Priorat a 40 km), es-antequera, es-alcala-de-henares, es-aranjuez (fresas, espárragos), es-las-medulas, es-cabrera, es-formentera, es-garajonay (almogrote, miel de palma), es-caldera-de-taburiente."
+        },
+        {
+          "agente": "cultura-historia",
+          "pedido": "Puntuar en cultura los ids ES que quedaron en 0: es-getaria (Museo Balenciaga, Elcano), es-el-puerto-de-santa-maria (castillo de San Marcos), es-rias-baixas (Pontevedra, Combarro), es-denia (castillo), es-caminito-del-rey (obra de 1905), es-formentera y el resto."
+        },
+        {
+          "agente": "adrenalina",
+          "pedido": "Añadir la Sierra de Guara y Alquézar (Huesca), referente europeo del barranquismo, y Sort/Noguera Pallaresa (Lleida), capital del rafting en España. Citar operadores oficiales."
+        },
+        {
+          "agente": "adrenalina",
+          "pedido": "Puntuar en adrenalina los ids ES que quedaron en 0: es-tarragona (PortAventura y Ferrari Land a unos 10 km, debería ser 5), es-antequera (Caminito del Rey a unos 25 km), es-alcala-de-henares y es-aranjuez (Parque Warner y Parque de Atracciones a ≤ 40 km), es-aiguestortes (rafting en Sort, esquí en Boí Taüll), es-getaria (surf en Zarautz), es-el-puerto-de-santa-maria (Circuito de Jerez), es-oviedo, es-zaragoza, es-merida, es-formentera, es-garajonay, es-caldera-de-taburiente, es-cabrera, es-rias-baixas, es-ribera-del-duero, es-denia, es-las-medulas, es-cabaneros."
+        },
+        {
+          "agente": "guias-expertas",
+          "pedido": "Dar puntaje de guías a todos los lugares nuevos de esta ronda (Montserrat, Figueres/Cadaqués, Cádiz, Albarracín/Teruel, Pamplona, Cartagena, Trujillo/Guadalupe, A Coruña/Lugo, Cíes, Gran Canaria, Fuerteventura, Cabo de Gata, Bardenas, Monfragüe, Priorat/Penedès, Guara, Sort) y revisar es-skydive-empuriabrava (guías 0)."
+        },
+        {
+          "agente": "logistica-temporada",
+          "pedido": "Logística de los lugares nuevos. En las Islas Cíes, indicar la autorización obligatoria de la Xunta y el cupo diario (temporada de semana santa a septiembre)."
+        }
+      ]
+    },
+    {
+      "pais_iso": "PT",
+      "total": 38,
+      "cumple": false,
+      "excepcion_minimo": false,
+      "justificacion": null,
+      "observaciones": "Cantidad OK (38). El área de Lisboa (≤ 50 km) tiene 4/38 = 11 % (Lisboa, Sintra, Mafra, Arrábida). Están las 7 regiones (Norte, Centro, Lisboa, Alentejo, Algarve, Azores y Madeira), y Madeira y las Azores están bien cubiertas. Hay 6 categorías, pero adrenalina solo aparece en 1 lugar. Ya están Ria Formosa (en Tavira), Passadiços do Paiva (en Arouca), el vino del Alentejo (en Évora) y Monsanto. Huecos: Benagil y los Sete Vales Suspensos, Aveiro y Fátima.",
+      "huecos": [
+        {
+          "agente": "naturaleza",
+          "pedido": "Algarve central (Lagoa/Carvoeiro), hoy sin ningún lugar: añadir la Gruta de Benagil y el sendero de los Sete Vales Suspensos (Praia da Marinha). Se visita en kayak o en barco, porque desde 2024 está prohibido desembarcar en la gruta."
+        },
+        {
+          "agente": "cultura-historia",
+          "pedido": "Añadir Aveiro (canales con moliceiros, Museu de Aveiro/Mosteiro de Jesus, estación con azulejos, con Costa Nova como extensión y ovos moles en gastronomía)."
+        },
+        {
+          "agente": "cultura-historia",
+          "pedido": "Añadir el Santuario de Fátima (uno de los grandes santuarios marianos del mundo, peregrinaciones del 12–13 de mayo y de octubre). Va en la ruta con Tomar, Batalha y Alcobaça."
+        },
+        {
+          "agente": "cultura-historia",
+          "pedido": "Opcional: añadir Piódão y las Aldeias do Xisto (Serra do Açor, Centro interior) y Viana do Castelo con Ponte de Lima (Minho)."
+        },
+        {
+          "agente": "guias-expertas",
+          "pedido": "Evaluar Cascais con Cabo da Roca como lugar propio (Lonely Planet y otras guías lo tratan por separado; hoy solo se menciona en Lisboa y Sintra). Dar puntaje de guías a todos los lugares nuevos de PT."
+        },
+        {
+          "agente": "naturaleza",
+          "pedido": "Puntuar en naturaleza los ids PT que quedaron en 0: pt-arouca-516-paiva (Geoparque Mundial UNESCO de Arouca, Passadiços do Paiva, debería ser ≥ 4), pt-vale-do-coa (cañón del Côa y Douro Internacional), pt-mafra (Tapada de Mafra), pt-elvas, pt-angra-do-heroismo (Monte Brasil), pt-amarante (río Tâmega, Serra do Marão)."
+        },
+        {
+          "agente": "cultura-historia",
+          "pedido": "Puntuar en cultura pt-arouca-516-paiva (Mosteiro de Arouca) y pt-amarante (Igreja de São Gonçalo, Museu Amadeo de Souza-Cardoso), hoy con cultura = 0."
+        },
+        {
+          "agente": "gastronomia-vino",
+          "pedido": "Puntuar en gastronomía los ids PT que quedaron en 0: pt-mafra, pt-elvas (ameixas d'Elvas DOP), pt-angra-do-heroismo (alcatra da Terceira), pt-vale-do-coa (vino del Douro Superior), pt-arouca-516-paiva (carne arouquesa DOP)."
+        },
+        {
+          "agente": "adrenalina",
+          "pedido": "Puntuar en adrenalina pt-mafra (Ericeira, Reserva Mundial de Surf, a 10 km), pt-angra-do-heroismo, pt-elvas, pt-vale-do-coa y pt-amarante, hoy en 0. Revisar al alza, con operadores oficiales, el surf de olas grandes y las escuelas de Nazaré, el canyoning en Madeira y en Flores/São Jorge, y el surf en Peniche."
+        }
+      ]
+    },
+    {
+      "pais_iso": "IT",
+      "total": 65,
+      "cumple": false,
+      "excepcion_minimo": false,
+      "justificacion": null,
+      "observaciones": "Cantidad OK (65). El área de Roma (≤ 50 km) tiene solo 1/65. Hay 6 categorías. Huecos regionales: el Lacio solo tiene Roma; Friuli y las Marcas tienen 1 lugar cada uno; Molise no tiene ninguno, lo que es aceptable por su oferta. Faltan varios Patrimonios Mundiales que cualquier guía cubre: Tivoli, Caserta, Vicenza, Castel del Monte, Aquilea y Cividale. Faltan también Bérgamo, Portofino, Elba, el oeste de Sicilia (Zingaro, San Vito, Egadi, Erice, Segesta), Cefalù, Alghero y Polignano. El Vesubio ya está cubierto en Pompeya y Nápoles, y Civita di Bagnoregio solo se menciona en Orvieto.",
+      "huecos": [
+        {
+          "agente": "cultura-historia",
+          "pedido": "Lacio: añadir Tivoli (Villa d'Este y Villa Adriana, dos Patrimonios Mundiales, a 30 km de Roma) y Civita di Bagnoregio (pueblo sobre un peñasco de toba, acceso por pasarela; hoy solo se cita en Orvieto). Evaluar Ostia Antica como lugar propio o como mención explícita en Roma."
+        },
+        {
+          "agente": "cultura-historia",
+          "pedido": "Añadir la Reggia di Caserta (Patrimonio Mundial, con el acueducto de Vanvitelli y San Leucio)."
+        },
+        {
+          "agente": "cultura-historia",
+          "pedido": "Véneto: añadir Vicenza (ciudad de Palladio, Patrimonio Mundial: Teatro Olimpico, Basilica Palladiana, La Rotonda; villas palladianas)."
+        },
+        {
+          "agente": "cultura-historia",
+          "pedido": "Lombardía: añadir Bérgamo (Città Alta amurallada, murallas venecianas Patrimonio Mundial, Piazza Vecchia, Accademia Carrara). Lonely Planet la llama la mejor de las ciudades históricas de Lombardía."
+        },
+        {
+          "agente": "cultura-historia",
+          "pedido": "Apulia: añadir Castel del Monte (Patrimonio Mundial) y Polignano a Mare con Monopoli (pueblos blancos sobre el acantilado, Lama Monachile). Evaluar Bari Vecchia."
+        },
+        {
+          "agente": "cultura-historia",
+          "pedido": "Friuli: añadir Aquilea (basílica con mosaicos paleocristianos y área arqueológica, Patrimonio Mundial; hoy solo se menciona en Trieste) y Cividale del Friuli (Tempietto longobardo, Patrimonio Mundial), solos o con Udine."
+        },
+        {
+          "agente": "cultura-historia",
+          "pedido": "Sicilia: añadir Cefalù (catedral árabe-normanda, Patrimonio Mundial, y playa) y la Sicilia occidental: Erice y Trapani, con Segesta y Selinunte (templos griegos)."
+        },
+        {
+          "agente": "cultura-historia",
+          "pedido": "Umbría: añadir Perugia (Galleria Nazionale dell'Umbria, Eurochocolate, Umbria Jazz) y Gubbio o Spoleto."
+        },
+        {
+          "agente": "naturaleza",
+          "pedido": "Liguria: añadir Portofino con San Fruttuoso (Parque Natural Regional y Área Marina Protegida). Toscana: añadir la isla de Elba (Parque Nacional del Archipiélago Toscano)."
+        },
+        {
+          "agente": "naturaleza",
+          "pedido": "Sicilia occidental: añadir la Riserva dello Zingaro con San Vito Lo Capo, y las Islas Egadi (Favignana, Levanzo, Marettimo; Área Marina Protegida)."
+        },
+        {
+          "agente": "naturaleza",
+          "pedido": "Apeninos centrales: añadir el Gran Sasso (Campo Imperatore, Rocca Calascio, Santo Stefano di Sessanio) y los Montes Sibillini (fioritura de Castelluccio di Norcia). Marcas: añadir la Riviera del Conero (Due Sorelle, Sirolo, Portonovo)."
+        },
+        {
+          "agente": "naturaleza",
+          "pedido": "Cerdeña noroeste: añadir Alghero con Capo Caccia y la Grotta di Nettuno (puntuar también cultura por el casco catalán). Opcional: los lagos de Orta (isla de San Giulio) e Iseo (Monte Isola, Floating Piers)."
+        },
+        {
+          "agente": "gastronomia-vino",
+          "pedido": "Puntuar en gastronomía los ids IT que quedaron en 0: it-genova (pesto, focaccia, farinata; debería ser ≥ 4), it-val-di-noto (chocolate de Módica, granita de Noto, Ragusa Ibla con estrellas Michelin), it-ferrara (cappellacci di zucca, salama da sugo), it-mantova-sabbioneta (tortelli di zucca), it-padova (Caffè Pedrocchi, spritz), it-urbino (crescia), it-cilento (mozzarella de búfala, Dieta Mediterránea UNESCO), it-gargano y el resto de ids IT en 0."
+        },
+        {
+          "agente": "cultura-historia",
+          "pedido": "Puntuar en cultura los ids IT que quedaron en 0: it-modena (Duomo, Torre Ghirlandina y Piazza Grande, Patrimonio Mundial; debería ser ≥ 4), it-parma (Duomo con Correggio, Baptisterio de Antelami, Teatro Farnese), it-langhe-barolo (paisaje vitícola Langhe-Roero, Patrimonio Mundial), it-colinas-prosecco (Patrimonio Mundial desde 2019), it-gargano (santuario de Monte Sant'Angelo, Patrimonio Mundial), it-cilento (Patrimonio Mundial con Paestum, Velia y la Certosa di Padula), it-chianti-classico (castillos, Badia a Passignano)."
+        },
+        {
+          "agente": "naturaleza",
+          "pedido": "Puntuar en naturaleza los ids IT que quedaron en 0: it-genova (Parque de Portofino a 25 km, Spianata Castelletto), it-urbino, it-val-di-noto (Vendicari, Cavagrande), it-langhe-barolo, it-colinas-prosecco, it-chianti-classico, it-villa-romana-del-casale y el resto."
+        },
+        {
+          "agente": "adrenalina",
+          "pedido": "Puntuar en adrenalina los ids IT que quedaron en 0, sobre todo it-pollino (rafting en el Lao y barranquismo en el Raganello, de primer nivel en Italia), it-parque-stelvio (esquí de verano en el glaciar del Stelvio, puerto ciclista), it-parque-gran-paradiso (Cogne, escalada en hielo), it-parque-abruzzo (esquí en Roccaraso), it-sila (esquí en Camigliatello), it-gargano y it-cilento (barranquismo y coasteering). Añadir Finale Ligure (escalada y MTB de clase mundial) como lugar propio. Documentar con adrenalina_cerca y URL oficial it-taormina (adrenalina 4 sin ninguna actividad listada)."
+        },
+        {
+          "agente": "guias-expertas",
+          "pedido": "Dar puntaje de guías a todos los lugares nuevos de IT de esta ronda y revisar it-foreste-casentinesi, it-mirabilandia e it-volo-dell-angelo (guías 0)."
+        },
+        {
+          "agente": "logistica-temporada",
+          "pedido": "Logística de los lugares nuevos. En Civita di Bagnoregio, indicar la entrada de pago a la pasarela; en las Egadi y Elba, los ferris y su temporada."
+        }
+      ]
+    },
+    {
+      "pais_iso": "MT",
+      "total": 16,
+      "cumple": false,
+      "excepcion_minimo": false,
+      "justificacion": null,
+      "observaciones": "Cantidad OK (16). Malta, Gozo y Comino tienen lugares. La regla de ≤ 50 km de la capital no tiene sentido en un país de 316 km², así que la apliqué a la conurbación del Gran Puerto (Valletta, Tres Ciudades, Sliema y el Hipogeo): 4/16 = 25 %, cumple. St Peter's Pool ya está en Marsaxlokk y Majjistral en Golden Bay. No faltan imprescindibles. Lo que bloquea es que adrenalina está inflada: 15 de 16 lugares llevan la categoría 'adrenalina' con puntaje 4–5 y ninguno tiene adrenalina_cerca documentada, ni siquiera la Concatedral de Valletta, Ġgantija, el Hipogeo o Mdina. Naturaleza también está floja: solo 2 lugares tienen esa categoría.",
+      "huecos": [
+        {
+          "agente": "adrenalina",
+          "pedido": "Volver a puntuar honestamente los 16 lugares de MT y llenar adrenalina_cerca con URL oficial de operadores, como centros de buceo con PADI en Ċirkewwa, Dwejra o Xlendi, coasteering y escalada, o el parque acuático Splash & Fun. Los sitios de buceo y mar (mt-dwejra con el Blue Hole, mt-comino-laguna-azul, mt-xlendi, mt-mellieha con Ċirkewwa, mt-hagar-qim-mnajdra-gruta-azul por Wied iż-Żurrieq) pueden quedar altos si se documentan. Los urbanos y arqueológicos sin actividad propia (mt-valletta, mt-mdina-rabat, mt-ggantija, mt-hipogeo-hal-saflieni, mt-victoria-ciudadela, mt-tres-ciudades, mt-marsaxlokk) deben quedar en ≤ 3 para no llevar la etiqueta 'adrenalina'."
+        },
+        {
+          "agente": "naturaleza",
+          "pedido": "Revisar naturaleza en mt-acantilados-dingli (acantilados de 250 m, Buskett Gardens), mt-golden-bay (Parque Natural Majjistral) y mt-ramla-bay (arena roja, Calypso). Hoy tienen 3 y Malta solo tiene 2 lugares con la categoría naturaleza."
+        },
+        {
+          "agente": "gastronomia-vino",
+          "pedido": "Puntuar mt-comino-laguna-azul y mt-hipogeo-hal-saflieni, que tienen gastronomía 0 porque no se puntuaron."
+        },
+        {
+          "agente": "cultura-historia",
+          "pedido": "Puntuar en cultura mt-sliema-st-julians, que tiene 0 (Tigné, Fort Manoel enfrente, Spinola Bay)."
+        }
+      ]
+    },
+    {
+      "pais_iso": "AD",
+      "total": 6,
+      "cumple": true,
+      "excepcion_minimo": false,
+      "justificacion": "Microestado de 468 km² en los Pirineos: 6 lugares que cubren la capital (Barri Antic, Caldea), su único Patrimonio Mundial (Vall del Madriu), los dos dominios de esquí (Grandvalira-Canillo con los lagos de Juclar y Ordino Arcalís), el techo del país (Comapedrosa) y el parque de montaña Naturlandia. Canillo y Juclar se fusionaron con Grandvalira para no superar el máximo de 6.",
+      "observaciones": "La justificación de data/paises/europa.json es adecuada y precisa. Está dentro del rango de 3–6 y hay 4 categorías (cultura, naturaleza, adrenalina y ciudad). Aquí la adrenalina alta sí es real: estaciones de esquí y el Tobotronc a ≤ 15 km.",
+      "huecos": []
+    },
+    {
+      "pais_iso": "SM",
+      "total": 5,
+      "cumple": false,
+      "excepcion_minimo": false,
+      "justificacion": "Microestado de 61 km² sobre el Monte Titano: el centro histórico Patrimonio Mundial, las torres Guaita y Cesta (visitables) con el sendero de cresta y el Passo delle Rupi, la Torre Montale (solo se ve desde fuera) y Borgo Maggiore con el teleférico. No hay más lugares con entidad propia.",
+      "observaciones": "Cantidad dentro del rango de 3–6. La justificación actual es casi adecuada, pero dice que las tres torres son 'visitas distintas', y la Torre Montale no se puede visitar por dentro: solo se ve desde fuera, según museionline, Komoot y Burgenwelt. Propongo corregir el texto como arriba o fusionar Montale con Cesta, lo que deja 4 lugares, todavía ≥ 3. La adrenalina 4 de los 5 lugares se basa solo en Mirabilandia, a 47–48 km, al borde del radio y ya contada para Ravenna. Por eso las torres medievales llevan la etiqueta 'adrenalina'.",
+      "huecos": [
+        {
+          "agente": "adrenalina",
+          "pedido": "Volver a puntuar honestamente sm-centro-historico, sm-torre-guaita, sm-torre-cesta, sm-torre-montale y sm-borgo-maggiore. Mirabilandia a 47–48 km no justifica 4 en monumentos. Si hay oferta real más cerca (Aquafan en Riccione, las vías de escalada de la cara este del Titano, el Sentiero della Rupe con tramos asegurados), documentarla con URL oficial y puntuar de forma coherente. Si no, ≤ 3 para quitar la etiqueta 'adrenalina'."
+        },
+        {
+          "agente": "guias-expertas",
+          "pedido": "Corregir la justificación del microestado: Torre Montale no es visitable por dentro. Decidir si se fusiona con sm-torre-cesta o se mantiene como mirador exterior con el sendero de cresta, y dejar el texto final para que el orquestador lo copie a data/paises/europa.json."
+        }
+      ]
+    },
+    {
+      "pais_iso": "VA",
+      "total": 6,
+      "cumple": false,
+      "excepcion_minimo": false,
+      "justificacion": "Estado de 0,44 km² dentro de Roma: 6 lugares que corresponden a visitas separadas, cada una con su entrada, horario y cola: la basílica, la subida a la cúpula, la plaza, los Museos Vaticanos, la Capilla Sixtina (que se visita al final de los Museos, pero la tratan aparte todas las guías) y los Jardines con visita guiada.",
+      "observaciones": "La justificación es adecuada y está dentro del rango de 3–6. La regla de 3 categorías no se aplica a los microestados, y VA quedará solo con 'cultura', lo que está bien. Lo que bloquea son los 6 lugares etiquetados 'adrenalina' con puntaje 4 por Cinecittà World (20 km) y MagicLand (42 km). Esos parques ya cuentan para it-roma y no tienen nada que ver con visitar la Capilla Sixtina o la basílica. Como opción, la Necrópolis Vaticana (Scavi, tumba de San Pedro), con reserva propia en la Fabbrica di San Pietro, es una visita separada con más peso que los Jardines si se quiere cambiar alguno.",
+      "huecos": [
+        {
+          "agente": "adrenalina",
+          "pedido": "Volver a puntuar honestamente va-basilica-san-pedro, va-capilla-sixtina, va-museos-vaticanos, va-plaza-san-pedro, va-cupula-san-pedro y va-jardines-vaticanos. Los parques de Roma ya se acreditan a it-roma y no deben repetirse en un enclave de 0,44 km² sin ninguna actividad propia. La subida de 551 escalones a la cúpula no es adrenalina. Puntaje esperado ≤ 2, para que ningún lugar del Vaticano lleve la etiqueta 'adrenalina'."
+        }
+      ]
+    }
+  ]
+}

@@ -25,7 +25,9 @@ El estado vive en `data/trabajo/estado.json`. Es la única fuente de verdad sobr
 | Paso | Qué se hace | Siguiente |
 |---|---|---|
 | `guias` | `guias-expertas`, una ejecución por grupo de países | `especialistas` |
-| `especialistas` | `cultura-historia`, `naturaleza`, `gastronomia-vino` y `adrenalina`, una ejecución por grupo | `logistica` |
+| `especialistas` | `cultura-historia`, `naturaleza`, `gastronomia-vino` y `adrenalina`, una ejecución por grupo | `cruce` |
+| `cruce` | Cada especialista puntúa los `nuevos` que agregaron los otros especialistas (sin esto quedan con 0 en su criterio) | `logistica` |
+| `huecos` | Los especialistas que nombra `cobertura.json` agregan lo que falta y corrigen los puntajes señalados; también hacen el cruce de los nuevos. Después: `logistica` de los nuevos y `curador` | `logistica` |
 | `fuentes` | Los especialistas completan las fuentes marcadas como no verificadas (ronda +1) | `logistica` o `curador` |
 | `logistica` | `logistica-temporada` sobre los candidatos y los `nuevos` | `curador` |
 | `curador` | `curador`: une, deduplica, puntúa y escribe `data/lugares/europa.json` | `cobertura` |

@@ -1,8 +1,8 @@
 {
   "pausado": false,
   "subregion": "iberica-italia",
-  "paso": "cobertura",
-  "ronda": 1,
+  "paso": "huecos",
+  "ronda": 2,
   "orden_subregiones": [
     "iberica-italia",
     "francia-alpes",
@@ -37,6 +37,12 @@
       "subregion": "iberica-italia",
       "paso": "curador",
       "resultado": "198 lugares (ES 62, PT 38, IT 65, MT 16, AD 6, SM 5, VA 6); 6 fusiones, 1 descarte; validador sin errores; publicado como en revisión"
+    },
+    {
+      "fecha": "2026-10-26",
+      "subregion": "iberica-italia",
+      "paso": "cobertura",
+      "resultado": "Solo AD cumple. Huecos regionales en ES/IT/PT; ~45 lugares nuevos sin puntaje cruzado; adrenalina inflada en MT/SM/VA. Siguiente: huecos (ronda 2)"
     }
   ]
 }
