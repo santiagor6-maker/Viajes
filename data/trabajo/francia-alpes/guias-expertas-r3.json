@@ -1,0 +1,25 @@
+{
+  "agente": "guias-expertas",
+  "subregion": "francia-alpes",
+  "ronda": 3,
+  "estado": "en_curso",
+  "nuevos": [
+    {
+      "id": "be-pairi-daiza",
+      "nombre": "Pairi Daiza",
+      "pais_iso": "BE",
+      "region": "Valonia (Henao)",
+      "lat": 50.5850,
+      "lng": 3.8890,
+      "tipo": "parque",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Michelin Guide Vert", "Lonely Planet"],
+      "justificacion": "Michelin ★★★ desde la edición 2015/2016 de la Guía Verde Bélgica, renovadas diez años seguidos. Lonely Planet lo incluye entre las atracciones destacadas de Valonia: parque de 65 ha en una antigua abadía cisterciense, con más de 5000 animales (pandas, koalas, gorilas). Cumple la regla de ★★★ más top pick en otra guía.",
+      "fuentes": [
+        { "guia": "Michelin Guide Vert", "url": "https://vrtnws.be/p.ZPNNDmZJa" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/belgium/wallonia-1342569/attractions" }
+      ]
+    }
+  ],
+  "puntajes": []
+}

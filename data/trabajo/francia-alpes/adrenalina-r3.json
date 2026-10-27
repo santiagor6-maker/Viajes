@@ -1,0 +1,172 @@
+{
+  "agente": "adrenalina",
+  "subregion": "francia-alpes",
+  "ronda": 3,
+  "estado": "en_curso",
+  "busquedas_usadas": 12,
+  "criterio": "Regla única de la subregión: toda actividad a 60 km o menos en línea recta cuenta; tope de 2 para monumentos, museos y sitios religiosos salvo actividad en el propio lugar; tope de 3 para espacios naturales que solo se recorren a pie. Escala: 5 = clase mundial en el lugar o a 15 km o menos; 4 = actividad de primer nivel a 30 km o menos, o varias destacadas; 3 = actividad notable en el radio, o de primer nivel a más de 30 km; 2 = oferta menor o única actividad en el borde (50–60 km); 1 = sin oferta verificable. Un 3 o más exige web del operador, turismo oficial o RCDB.",
+  "puntajes": [
+    {
+      "id": "ch-guarda",
+      "puntaje": 3,
+      "justificacion": "Corregido (antes 4). El a4 se apoyaba en la Silvretta Arena Ischgl/Samnaun a 24 km en línea recta, pero desde Guarda solo se entra por Samnaun, a unos 50 km por carretera vía Scuol y Martina, y Ischgl queda a más de 100 km por carretera. El acceso real al esquí es Motta Naluns (Scuol), a unos 8 km: 70 km de pistas entre 1250 y 2785 m y la 'pista de ensueño' de unos 10 km hasta Sent, según Graubünden Tourismus. Es una estación notable, no de primer nivel europeo, así que queda en 3. La Olympia Bob Run (38 km) también es de primer nivel a más de 30 km.",
+      "actividades": [
+        { "nombre": "Motta Naluns, Scuol (70 km de pistas, 1250–2785 m)", "tipo": "esqui", "km": 8, "lat": 46.7870, "lng": 10.2620, "temporada": "dic–abr", "url": "https://www.graubuenden.ch/en/activities/winter/skiing/ski-resorts/scuol", "url_tipo": "turismo_oficial", "km_aprox": true },
+        { "nombre": "Olympia Bob Run St. Moritz–Celerina", "tipo": "otro", "km": 38, "lat": 46.5020, "lng": 9.8530, "temporada": "invierno (dic–mar aprox.)", "url": "https://www.stmoritz.com/en/olympia-bob-run/", "url_tipo": "turismo_oficial", "km_aprox": true },
+        { "nombre": "Silvretta Arena Ischgl/Samnaun, por el acceso de Samnaun (unos 50 km por carretera)", "tipo": "esqui", "km": 24, "lat": 46.9690, "lng": 10.2930, "temporada": "nov–may", "url": "https://ischgl.com/en/winter/silvretta-arena", "url_tipo": "turismo_oficial", "km_aprox": true, "nota": "24 km en línea recta, pero unos 50 km por carretera hasta Samnaun; no se usa para subir el puntaje" }
+      ]
+    },
+    {
+      "id": "ch-davos",
+      "puntaje": 5,
+      "justificacion": "Davos es una de las grandes estaciones de los Alpes. El Parsenn, que sale del propio pueblo hacia el Weissfluhjoch (2844 m), es según Graubünden Tourismus el sector mayor y más tradicional de Davos Klosters, con unos 100 km de pistas, y su descenso de 12 km hasta Küblis tiene unos 2000 m de desnivel. A eso se suman la Olympia Bob Run de St. Moritz (33 km) y la Silvretta Arena de Ischgl (40 km).",
+      "actividades": [
+        { "nombre": "Parsenn, Davos Klosters (unos 100 km de pistas, Weissfluhgipfel 2844 m)", "tipo": "esqui", "km": 4, "lat": 46.8330, "lng": 9.8060, "temporada": "nov–abr", "url": "https://graubuenden.ch/en/activities/winter/skiing/ski-resorts/davos-klosters-parsenn", "url_tipo": "turismo_oficial", "km_aprox": true },
+        { "nombre": "Olympia Bob Run St. Moritz–Celerina", "tipo": "otro", "km": 33, "lat": 46.5020, "lng": 9.8530, "temporada": "invierno (dic–mar aprox.)", "url": "https://www.stmoritz.com/en/olympia-bob-run/", "url_tipo": "turismo_oficial", "km_aprox": true },
+        { "nombre": "Silvretta Arena Ischgl/Samnaun", "tipo": "esqui", "km": 40, "lat": 46.9690, "lng": 10.2930, "temporada": "nov–may", "url": "https://ischgl.com/en/winter/silvretta-arena", "url_tipo": "turismo_oficial", "km_aprox": true }
+      ]
+    }
+  ],
+  "nuevos": [
+    {
+      "id": "be-coo-ambleve",
+      "nombre": "Coo y el valle del Amblève",
+      "pais_iso": "BE",
+      "region": "Valonia (Lieja)",
+      "lat": 50.3912,
+      "lng": 5.8790,
+      "tipo": "otro",
+      "destino_propio": true,
+      "puntaje": 4,
+      "temporada": "abr–oct (kayak y parque); circuito según calendario",
+      "justificacion": "Junto a la cascada de Coo, el salto de unos 15 m del Amblève entre Trois-Ponts y La Gleize, se concentran el descenso en kayak del río, que la oficina de turismo de Stavelot destaca como uno de los atractivos del lugar junto al telesilla, y el parque Plopsa Coo. El circuito de Spa-Francorchamps, con Taxi Laps oficiales, está a 8 km. Son varias actividades destacadas, aunque ninguna de clase mundial en el propio lugar, así que queda en 4.",
+      "actividades": [
+        { "nombre": "Kayak en el Amblève y telesilla de la cascada de Coo", "tipo": "otro", "km": 0, "lat": 50.3912, "lng": 5.8790, "temporada": "abr–oct", "url": "https://tourismestavelot.be/en/node/3174", "url_tipo": "turismo_oficial", "km_aprox": true },
+        { "nombre": "Circuit de Spa-Francorchamps: Taxi Laps", "tipo": "motor", "km": 8, "lat": 50.4370, "lng": 5.9710, "temporada": "según calendario del circuito", "url": "https://www.spa-francorchamps.be/en/search?q=gift", "url_tipo": "oficial", "km_aprox": true }
+      ],
+      "fuentes": [
+        { "guia": "Tourisme Stavelot (oficina de turismo)", "url": "https://tourismestavelot.be/en/node/3174" },
+        { "guia": "Circuit de Spa-Francorchamps (sitio oficial)", "url": "https://www.spa-francorchamps.be/en/search?q=gift" }
+      ]
+    },
+    {
+      "id": "ch-verbier",
+      "nombre": "Verbier y las 4 Vallées",
+      "pais_iso": "CH",
+      "region": "Valais",
+      "lat": 46.0961,
+      "lng": 7.2286,
+      "tipo": "esqui",
+      "destino_propio": true,
+      "puntaje": 5,
+      "temporada": "dic–abr (esquí); jun–sep (bike park)",
+      "justificacion": "Verbier es la puerta de las 4 Vallées, con unos 410 km de pistas hasta el Mont-Fort (3330 m), y una de las capitales mundiales del freeride. El Bec des Rosses (3223 m, 600 m de desnivel y pendientes de hasta 51°) acoge desde 1996 el Xtreme Verbier, la final del Freeride World Tour; la edición de 2026 se celebró el 28 de marzo. En el radio están también el Alpine Coaster de Glacier 3000 (29 km), el teleférico de la Aiguille du Midi (36 km) y el Matterhorn Ski Paradise (42 km).",
+      "actividades": [
+        { "nombre": "4 Vallées / Téléverbier (unos 410 km de pistas, Mont-Fort 3330 m)", "tipo": "esqui", "km": 0, "lat": 46.0961, "lng": 7.2286, "temporada": "dic–abr", "url": "https://remontees-mecaniques.net/bdd/station-verbier-34.html", "url_tipo": "base_de_datos" },
+        { "nombre": "Xtreme Verbier, final del Freeride World Tour (Bec des Rosses)", "tipo": "esqui", "km": 4, "lat": 46.0750, "lng": 7.2630, "temporada": "final de marzo", "url": "https://www.freerideworldtour.com/events/2026-yeti-xtreme-verbier/", "url_tipo": "organizador_oficial", "km_aprox": true },
+        { "nombre": "Glacier 3000 Alpine Coaster", "tipo": "alpine_coaster", "km": 29, "lat": 46.3600, "lng": 7.2140, "temporada": "may–oct, según meteorología", "url": "https://www.glacier3000.ch/en/leisures/", "url_tipo": "operador_oficial", "km_aprox": true },
+        { "nombre": "Teleférico de la Aiguille du Midi", "tipo": "otro", "km": 36, "lat": 45.8786, "lng": 6.8873, "temporada": "todo el año salvo noviembre", "url": "https://hautesavoiemontblanc-tourisme.com/notre-destination/hautement-blanche/mythique-en-haute-savoie-hiver/aiguille-du-midi-telepherique/", "url_tipo": "turismo_oficial" },
+        { "nombre": "Matterhorn Ski Paradise", "tipo": "esqui", "km": 42, "lat": 45.9383, "lng": 7.7297, "temporada": "todo el año (glaciar en verano)", "url": "https://www.zermatt.ch/en/unique/International-Ski-Area", "url_tipo": "turismo_oficial" }
+      ],
+      "fuentes": [
+        { "guia": "Freeride World Tour (organizador oficial)", "url": "https://www.freerideworldtour.com/events/2026-yeti-xtreme-verbier/" },
+        { "guia": "Freeride World Tour (noticia oficial 2026)", "url": "https://www.freerideworldtour.com/news-videos/the-yeti-xtreme-verbier-set-to-crown-the-2026-fis-freeride-world-tour-champions/" },
+        { "guia": "Remontées-mécaniques.net (base de datos de estaciones)", "url": "https://remontees-mecaniques.net/bdd/station-verbier-34.html" }
+      ]
+    },
+    {
+      "id": "ch-flims-laax",
+      "nombre": "Flims-Laax y la Ruinaulta",
+      "pais_iso": "CH",
+      "region": "Grisones",
+      "lat": 46.8350,
+      "lng": 9.2840,
+      "tipo": "esqui",
+      "destino_propio": true,
+      "puntaje": 5,
+      "temporada": "dic–abr (esquí y freestyle); may–oct (rafting)",
+      "justificacion": "Laax es la referencia del freestyle en Europa: según su web oficial tiene el halfpipe más grande del mundo, una Olympic Pro Kicker Line y cinco snowparks con más de 90 módulos. En verano, el rafting por la Ruinaulta, el 'Gran Cañón suizo' del Rin anterior, va de Ilanz (unos 11 km) a Reichenau entre paredes de hasta 300 m; Graubünden Tourismus lo vende de mayo a octubre. El Floomzer de Flumserberg está a 29 km.",
+      "actividades": [
+        { "nombre": "LAAX Freestyle: superpipe, Olympic Pro Kicker Line y 5 snowparks", "tipo": "esqui", "km": 4, "lat": 46.8250, "lng": 9.2400, "temporada": "dic–abr", "url": "https://www.laax.com/en/freestyle", "url_tipo": "operador_oficial", "km_aprox": true },
+        { "nombre": "Rafting en la Ruinaulta (Rin anterior, Ilanz–Reichenau)", "tipo": "rafting", "km": 11, "lat": 46.7740, "lng": 9.2050, "temporada": "may–oct", "url": "https://www.graubuenden.ch/en/booking/offers/half-day-rafting-on-the-vorderrhein-starting-from-ilanz", "url_tipo": "turismo_oficial", "km_aprox": true },
+        { "nombre": "Rodelbahn Floomzer, Flumserberg (alpine coaster de 2 km)", "tipo": "alpine_coaster", "km": 29, "lat": 47.0920, "lng": 9.2830, "temporada": "verano", "url": "https://graubuenden.ch/en/attractions/toboggan-run-floomzer", "url_tipo": "turismo_oficial", "km_aprox": true }
+      ],
+      "fuentes": [
+        { "guia": "Sitio oficial LAAX", "url": "https://www.laax.com/en/freestyle" },
+        { "guia": "Graubünden Tourismus (oferta de rafting)", "url": "https://www.graubuenden.ch/en/booking/offers/half-day-rafting-on-the-vorderrhein-starting-from-ilanz" },
+        { "guia": "MySwitzerland (Suiza Turismo)", "url": "https://www.myswitzerland.com/fr-fr/planification/offres/descente-en-rafting-d39une-demijournee-sur-le-vorderrhein-depuis-ilanz/" }
+      ]
+    },
+    {
+      "id": "ch-glacier-3000",
+      "nombre": "Glacier 3000 y Gstaad",
+      "pais_iso": "CH",
+      "region": "Vaud / Berna (Oberland)",
+      "lat": 46.3600,
+      "lng": 7.2140,
+      "tipo": "alpine_coaster",
+      "destino_propio": true,
+      "puntaje": 5,
+      "temporada": "todo el año (Peak Walk); may–oct (Alpine Coaster)",
+      "justificacion": "Glacier 3000, sobre Les Diablerets, tiene según su web oficial el Alpine Coaster, la pista de trineo sobre raíles más alta del mundo, y el Peak Walk by Tissot, el único puente colgante del mundo que une dos cumbres (107 m, a unos 3000 m). A ellos se suman el Glacier Walk y el esquí de glaciar. Gstaad queda a unos 14 km. Aquaparc de Le Bouveret está a 28 km y Verbier a 29 km.",
+      "actividades": [
+        { "nombre": "Glacier 3000 Alpine Coaster (la pista de trineo sobre raíles más alta del mundo)", "tipo": "alpine_coaster", "km": 0, "lat": 46.3600, "lng": 7.2140, "temporada": "may–oct, según meteorología", "url": "https://www.glacier3000.ch/en/leisures/", "url_tipo": "operador_oficial", "km_aprox": true },
+        { "nombre": "Peak Walk by Tissot y Glacier Walk", "tipo": "otro", "km": 0, "lat": 46.3600, "lng": 7.2140, "temporada": "todo el año, según meteorología", "url": "https://www.glacier3000.ch/en/activities/glacier-walk", "url_tipo": "operador_oficial", "km_aprox": true },
+        { "nombre": "Aquaparc Le Bouveret", "tipo": "parque_acuatico", "km": 28, "lat": 46.3850, "lng": 6.8560, "temporada": "todo el año", "url": "https://www.valais.ch/fr/explorer/activites/autres-activites-estivales/parcs-de-loisirs/aquaparc", "url_tipo": "turismo_oficial", "km_aprox": true },
+        { "nombre": "4 Vallées / Verbier", "tipo": "esqui", "km": 29, "lat": 46.0961, "lng": 7.2286, "temporada": "dic–abr", "url": "https://remontees-mecaniques.net/bdd/station-verbier-34.html", "url_tipo": "base_de_datos" }
+      ],
+      "fuentes": [
+        { "guia": "Sitio oficial Glacier 3000", "url": "https://www.glacier3000.ch/en/leisures/" },
+        { "guia": "Sitio oficial Glacier 3000", "url": "https://www.glacier3000.ch/en/activities/glacier-walk" }
+      ]
+    },
+    {
+      "id": "at-zillertal-mayrhofen",
+      "nombre": "Zillertal (Mayrhofen e Hintertux)",
+      "pais_iso": "AT",
+      "region": "Tirol",
+      "lat": 47.1667,
+      "lng": 11.8650,
+      "tipo": "esqui",
+      "destino_propio": true,
+      "puntaje": 5,
+      "temporada": "todo el año (Hintertux); dic–abr (Penken y Ahorn)",
+      "justificacion": "En el Penken, sobre Mayrhofen, está la Harakiri (pista 34): según los Mayrhofner Bergbahnen, con un 78 % de pendiente es la pista más empinada de Austria, con un tramo de unos 400 m. El glaciar de Hintertux, a 18 km, es según su web oficial la única estación de Austria abierta los 365 días del año, hasta 3250 m. Ambos forman parte del Ski- & Gletscherwelt Zillertal 3000. La Nordkette de Innsbruck queda a 40 km.",
+      "actividades": [
+        { "nombre": "Harakiri, Penken (78 %, la pista más empinada de Austria)", "tipo": "esqui", "km": 3, "lat": 47.1800, "lng": 11.8300, "temporada": "dic–abr", "url": "https://mayrhofner-bergbahnen.com/fileadmin/userdaten/presseportal/Pressetexte/Texte_Winter_ALT/DE_Harakiri_Mayrhofen.pdf", "url_tipo": "operador_oficial", "km_aprox": true },
+        { "nombre": "Skigebiet Mayrhofner Bergbahnen (Penken y Ahorn)", "tipo": "esqui", "km": 3, "lat": 47.1800, "lng": 11.8300, "temporada": "dic–abr", "url": "https://www.tirol.at/aktivitaeten/sport/skifahren/skigebiete/skigebiet-mayrhofner-bergbahnen", "url_tipo": "turismo_oficial", "km_aprox": true },
+        { "nombre": "Glaciar de Hintertux (esquí los 365 días, hasta 3250 m)", "tipo": "esqui", "km": 18, "lat": 47.0750, "lng": 11.6700, "temporada": "todo el año", "url": "https://www.hintertuxergletscher.at/en/highlights/highlights/", "url_tipo": "operador_oficial", "km_aprox": true },
+        { "nombre": "Nordkette (Innsbruck): freeride y Skylinepark", "tipo": "esqui", "km": 40, "lat": 47.3100, "lng": 11.3830, "temporada": "nov–abr", "url": "https://www.innsbruck.info/en/skiing/skiing-and-snowboarding/ski-resorts/nordkette.html", "url_tipo": "turismo_oficial", "km_aprox": true }
+      ],
+      "fuentes": [
+        { "guia": "Mayrhofner Bergbahnen (nota de prensa oficial)", "url": "https://mayrhofner-bergbahnen.com/fileadmin/userdaten/presseportal/Pressetexte/Texte_Winter_ALT/DE_Harakiri_Mayrhofen.pdf" },
+        { "guia": "Hintertuxer Gletscher (sitio oficial)", "url": "https://www.hintertuxergletscher.at/en/highlights/highlights/" },
+        { "guia": "Tirol Werbung (turismo oficial)", "url": "https://tyrol.com/things-to-do/sports/skiing/ski-resorts/a-hintertux-glacier" },
+        { "guia": "Tirol Werbung (turismo oficial)", "url": "https://www.tirol.at/aktivitaeten/sport/skifahren/skigebiete/skigebiet-mayrhofner-bergbahnen" }
+      ]
+    },
+    {
+      "id": "at-schladming-dachstein",
+      "nombre": "Schladming-Dachstein",
+      "pais_iso": "AT",
+      "region": "Estiria",
+      "lat": 47.3940,
+      "lng": 13.6890,
+      "tipo": "esqui",
+      "destino_propio": true,
+      "puntaje": 5,
+      "temporada": "dic–abr (esquí); may–oct (glaciar del Dachstein y Skywalk)",
+      "justificacion": "La Planai, que sale del propio Schladming, acoge cada enero The Nightrace, el eslalon nocturno de la Copa del Mundo masculina (27 y 28 de enero de 2026), y es el centro de la 4-Berge-Skischaukel, con unos 123 km de pistas dentro de Ski amadé. En el glaciar del Dachstein, a unos 10 km, están el Skywalk, el puente colgante más alto de Austria (casi 100 m, a 2700 m) y la 'escalera a la nada', 14 peldaños que acaban en una plataforma de cristal sobre el vacío.",
+      "actividades": [
+        { "nombre": "Planai y 4-Berge-Skischaukel (The Nightrace de la Copa del Mundo)", "tipo": "esqui", "km": 2, "lat": 47.3750, "lng": 13.6900, "temporada": "dic–abr", "url": "https://skiamade.com/nl/The-Nightrace-in-Schladming_e_443959", "url_tipo": "turismo_oficial", "km_aprox": true },
+        { "nombre": "Glaciar del Dachstein: puente colgante y 'escalera a la nada'", "tipo": "otro", "km": 10, "lat": 47.4720, "lng": 13.6250, "temporada": "todo el año, según meteorología", "url": "https://alt.schladming-dachstein.at/pl/serwis/a-z/Stairway-to-nothingness_az_819501", "url_tipo": "turismo_oficial", "km_aprox": true }
+      ],
+      "fuentes": [
+        { "guia": "Ski amadé (región de esquí oficial)", "url": "https://skiamade.com/nl/The-Nightrace-in-Schladming_e_443959" },
+        { "guia": "Schladming-Dachstein Tourismus", "url": "https://alt.schladming-dachstein.at/pl/serwis/a-z/Stairway-to-nothingness_az_819501" },
+        { "guia": "Schladming-Dachstein Tourismus (The Nightrace)", "url": "https://vermieter-alt.schladming-dachstein.at/en/regional-and-offerings/News/Urlaubszentrum/SD/Nightrace" },
+        { "guia": "Salzburg24 (inauguración de 2013)", "url": "https://www.salzburg24.at/news/oesterreich/haengebruecke-und-treppe-ins-nichts-am-dachstein-art-20098" }
+      ]
+    }
+  ]
+}

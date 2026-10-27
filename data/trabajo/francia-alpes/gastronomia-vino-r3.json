@@ -1,0 +1,342 @@
+{
+  "agente": "gastronomia-vino",
+  "subregion": "francia-alpes",
+  "ronda": 3,
+  "estado": "completo",
+  "nota": "Ronda 3 (huecos). Se crean fr-arbois-jura y fr-roquefort-millau, y se puntúan en cruce los otros 34 nuevos de pendientes-huecos.json. Se usaron 25 WebSearch. Hay fuentes con fecha: la lista Michelin de la Costa Azul oeste es de 2022 (Monaco Tribune) y la de Saint-Tropez de 2020 (seesainttropez). La guía Gault Millau de Davos es de 2020. No apareció ninguna página de jura-vins.com ni de roquefort.fr. Las AOC del Jura se respaldan con Jura Tourisme y con un artículo sobre el CIVJ, y la de Roquefort con el pliego del INAO. La AOP del toro de Camarga no salió en las búsquedas, así que no se menciona. Los puntajes de 2 o menos sin fuente se dejaron conservadores.",
+  "puntajes": [
+    {
+      "id": "fr-besancon-arc-et-senans",
+      "puntaje": 3,
+      "justificacion": "Es la capital del Franco Condado quesero y chacinero. La oficina de turismo presenta el comté, la cancoillotte, el mont d'or, las salchichas de Morteau y de Montbéliard, las cervezas locales y los vinos del Jura, con mercados y cursos de cocina. En agosto se celebran los Instants gourmands. La Salina Real recuerda el papel histórico de la sal del Jura.",
+      "platos": ["Comté AOP", "Saucisse de Morteau IGP", "Cancoillotte IGP", "Mont d'Or (vacherin du Haut-Doubs)"],
+      "fuentes": [
+        {"guia": "Besançon Tourisme (oficial, gastronomía)", "url": "https://www.besancon-tourisme.com/?p=4414"},
+        {"guia": "Montagnes du Jura (turismo oficial, productos del terroir)", "url": "https://en.montagnes-du-jura.fr/heritage-in-all-its-forms/local-produce-overview-enjoy/gourmet-journeys/terroir-know-how"}
+      ]
+    },
+    {
+      "id": "fr-cascadas-herisson",
+      "puntaje": 2,
+      "justificacion": "Está en la meseta de los lagos del Jura, tierra de comté y morbier, y Château-Chalon queda a unos 25 km. Hay algo de interés, pero se viene por las cascadas. No se buscó fuente propia.",
+      "platos": ["Comté AOP", "Morbier AOP", "Trucha de los lagos del Jura"],
+      "fuentes": []
+    },
+    {
+      "id": "fr-nantes",
+      "puntaje": 4,
+      "justificacion": "Es la capital del viñedo nantés, el mayor viñedo blanco de un solo cepaje de Francia (melon de Bourgogne). La ruta de los vinos va de Nantes a Clisson (118 km), con crus communaux como Clisson, Gorges y Le Pallet, y hay bodegas visitables a 20 minutos de la ciudad. El muscadet acompaña al marisco y a la salsa beurre blanc, que es nantesa.",
+      "platos": ["Muscadet Sèvre et Maine sur lie", "Beurre blanc nantais", "Petit-beurre LU", "Gâteau nantais"],
+      "fuentes": [
+        {"guia": "Vins de Loire (interprofesión, bodegas turísticas)", "url": "https://www.vinsdeloire.fr/en/domaine-bonnet-huteau"},
+        {"guia": "Atlantic Loire Valley (turismo oficial, ruta de los vinos)", "url": "https://atlantic-loire-valley.com/objet_touristique/40082"}
+      ]
+    },
+    {
+      "id": "fr-la-rochelle",
+      "puntaje": 4,
+      "justificacion": "Tiene una escena culinaria destacada. Christopher Coutanceau, el 'chef pescador', recuperó en la Guía Michelin 2025 la tercera estrella, que ya había tenido de 2020 a 2023, y además tiene la estrella verde. Su cocina es solo de mar. La ciudad es la puerta de la costa ostrícola de Charente Marítima (Marennes-Oléron) y del pineau y el cognac.",
+      "platos": ["Ostras de Marennes-Oléron", "Mouclade charentaise", "Chaudrée charentaise", "Pineau des Charentes"],
+      "fuentes": [
+        {"guia": "Guía Michelin (Christopher Coutanceau, tres estrellas)", "url": "https://guide.michelin.com/en/article/travel/christopher-coutanceau-la-rochelle-michelin-inspector-three-stars"},
+        {"guia": "Michelin (nota de prensa Francia 2025)", "url": "https://www.michelin.com/en/publications/products-and-services/the-2025-michelin-guide-celebrates-the-thriving-french-gastronomic-landscape"}
+      ]
+    },
+    {
+      "id": "fr-ile-de-re",
+      "puntaje": 3,
+      "justificacion": "Tiene productos propios con sello. La patata temprana de la Île de Ré es AOP y se cosecha de abril a junio o julio. La sal y la flor de sal de Ré son IGP desde noviembre de 2023, con unas 550 ha de salinas en producción, y en ellas crece salicornia. Se suman las ostras y el pineau de la isla.",
+      "platos": ["Pomme de terre de l'Île de Ré AOP", "Fleur de sel de l'Île de Ré IGP", "Ostras de Ré", "Salicornia"],
+      "fuentes": [
+        {"guia": "RTBF (a la mesa en Charente Marítimo)", "url": "https://www.rtbf.be/article/a-table-en-charente-maritime-10287354"},
+        {"guia": "The Good Life France (Île de Ré)", "url": "https://thegoodlifefrance.com/ile-de-re-the-exquisite-little-island-of-france/"}
+      ]
+    },
+    {
+      "id": "fr-cote-granit-rose",
+      "puntaje": 2,
+      "justificacion": "Es costa bretona con crêperies, marisco y la vieira de la bahía de Saint-Brieuc cerca. Hay algo de interés, pero se viene por el paisaje. No se buscó fuente propia.",
+      "platos": ["Galettes de trigo sarraceno y crêpes", "Coquilles Saint-Jacques de la bahía de Saint-Brieuc", "Sidra bretona"],
+      "fuentes": []
+    },
+    {
+      "id": "fr-crozon",
+      "puntaje": 2,
+      "justificacion": "Tiene crêperies y marisco del Finisterre, y Douarnenez, el puerto de la sardina, está al otro lado de la bahía. Hay algo de interés. No se buscó fuente propia.",
+      "platos": ["Galettes y crêpes", "Sardinas de Douarnenez", "Kouign-amann"],
+      "fuentes": []
+    },
+    {
+      "id": "fr-quimper-cornualles",
+      "puntaje": 3,
+      "justificacion": "Es la capital de la Cornualles bretona, la zona de la sidra AOP Cornouaille: pura jugo de manzana sin pasteurizar y con espuma en botella. La Ruta de la Sidra pasa por 13 sidrerías. En Quimper hay crêperies y bares con decenas de sidras, y Concarneau es un gran puerto pesquero.",
+      "platos": ["Sidra AOP Cornouaille", "Galettes y crêpes", "Kouign-amann", "Pommeau de Bretagne"],
+      "fuentes": [
+        {"guia": "Tout commence en Finistère (turismo oficial, Ruta de la Sidra)", "url": "https://www.toutcommenceenfinistere.com/en/savoir-faire/the-cornouaille-cider-trail/"},
+        {"guia": "Brittany Tourism (oficial, paseo gourmet en Cornualles)", "url": "https://brittanytourism.com/matching-what-i-want/food-drink/gourmet-walks/breton-classics-and-modern-flavours-in-cornouaille"},
+        {"guia": "INAO (AOP Cornouaille)", "url": "https://www.inao.gouv.fr/node/5259/printable/pdf"}
+      ]
+    },
+    {
+      "id": "fr-camarga",
+      "puntaje": 3,
+      "justificacion": "Tiene productos propios. El arroz de Camarga fue el primer cereal con IGP, y la sal y la flor de sal de Camarga son IGP desde febrero de 2024. Se producen en las salinas de Peccais, junto a Aigues-Mortes, de las más antiguas del Mediterráneo. Se suman la carne de toro negro, las tellines, el saucisson d'Arles y la fougasse de Aigues-Mortes.",
+      "platos": ["Arroz de Camarga IGP", "Gardiane de toro", "Fleur de sel de Camargue IGP", "Tellines"],
+      "fuentes": [
+        {"guia": "INAO (IGP Sel de Camargue)", "url": "https://inao.gouv.fr/sites/default/files/2024-02/CP_INAO_IGP-Sel_de_Camargue_02-02-2024.pdf"},
+        {"guia": "France Today (gastronomía de la Camarga)", "url": "https://francetoday.com/food-drink/foodie-holidays/gourmet_travels_in_the_camargue/"}
+      ]
+    },
+    {
+      "id": "fr-eze-saint-paul",
+      "puntaje": 3,
+      "justificacion": "En Èze, el restaurante del Château de la Chèvre d'Or tiene dos estrellas Michelin (2026) con el chef Tom Meyer y abre de finales de marzo a mediados de octubre. La Colombe d'Or de Saint-Paul es un restaurante histórico con obras de arte, sin estrella confirmada. La cocina es la nizarda.",
+      "platos": ["Socca", "Pissaladière", "Tourte de blettes", "Vino de Bellet"],
+      "fuentes": [
+        {"guia": "Guía Michelin (Château de la Chèvre d'Or)", "url": "https://guide.michelin.com/ch/fr/hotels-stays/eze/la-chevre-dor-9933"},
+        {"guia": "Relais & Châteaux (La Chèvre d'Or, dos estrellas)", "url": "https://www.relaischateaux.com/restaurant/la-chevre-d-or"}
+      ]
+    },
+    {
+      "id": "fr-antibes-cannes",
+      "puntaje": 3,
+      "justificacion": "Tiene buena oferta con estrellas. La Palme d'Or de Cannes tenía dos estrellas, y en Antibes y Juan-les-Pins tenían una La Passagère, Louroc y Les Pêcheurs (guía 2022). Bruno Oger tiene dos estrellas en Le Cannet. El dato es de 2022 y conviene verificarlo. Se suman el mercado provenzal de Antibes y el vino de la abadía de Lérins.",
+      "platos": ["Socca", "Pan bagnat", "Vino de la abadía de Lérins", "Pescado de roca"],
+      "fuentes": [
+        {"guia": "Monaco Tribune (estrellas Michelin de la Riviera, guía 2022)", "url": "https://monaco-tribune.com/en/2022/03/where-are-the-michelin-starred-restaurants-on-the-french-riviera"},
+        {"guia": "Provence Holidays (restaurantes de Cannes)", "url": "https://www.provenceholidays.com/en/restaurants/cannes"}
+      ]
+    },
+    {
+      "id": "fr-saint-tropez",
+      "puntaje": 4,
+      "justificacion": "Tiene una escena culinaria destacada. La Vague d'Or, de Arnaud Donckele en el Cheval Blanc, tiene tres estrellas Michelin. La Voile, en La Réserve de Ramatuelle, tiene dos, y hay más estrellas en Gassin y La Croix-Valmer. Está en pleno viñedo de Côtes de Provence y es la cuna de la tarte tropézienne. Las fuentes son de 2020 y conviene verificar las estrellas.",
+      "platos": ["Tarte tropézienne", "Rosado Côtes de Provence", "Pescado de roca a la brasa"],
+      "fuentes": [
+        {"guia": "See Saint-Tropez (estrellas Michelin 2020)", "url": "https://www.seesainttropez.com/news/which-saint-tropez-restaurants-have-a-michelin-star-in-2020-riviera-cote-dazur-733376"},
+        {"guia": "See Saint-Tropez (Guía Michelin)", "url": "https://www.seesainttropez.com/news/shoots-for-the-stars-michelin-guide-693989"}
+      ]
+    },
+    {
+      "id": "fr-lourdes",
+      "puntaje": 2,
+      "justificacion": "Es una ciudad de peregrinación con cocina de los Altos Pirineos (garbure, queso de oveja). Hay algo de interés, pero la oferta es sobre todo para peregrinos. No se buscó fuente propia.",
+      "platos": ["Garbure", "Queso de oveja de los Pirineos", "Gâteau à la broche"],
+      "fuentes": []
+    },
+    {
+      "id": "fr-collioure",
+      "puntaje": 4,
+      "justificacion": "Es una región vinícola reconocida con un producto emblemático. Las AOC Collioure (vinos tranquilos) y Banyuls (vino dulce natural) comparten cuatro municipios, con unas 1.700 ha de terrazas que suben hasta los 500 m. Hay bodegas visitables en Banyuls con cita previa. Las anchoas de Collioure son IGP desde 2004, se salan y maduran al menos tres meses, y algunos talleres se visitan.",
+      "platos": ["Anchoas de Collioure IGP", "Banyuls (vino dulce natural)", "Collioure tinto", "Crème catalane"],
+      "fuentes": [
+        {"guia": "INAO (AOC Collioure y Banyuls)", "url": "https://www.inao.gouv.fr/node/2774/printable/pdf"},
+        {"guia": "Tourisme Pyrénées-Orientales (oficial, alrededores de Collioure)", "url": "https://www.tourisme-pyreneesorientales.com/destination/autour-de-collioure/"},
+        {"guia": "Yonder (72 horas en la Côte Vermeille)", "url": "https://www.yonder.fr/destinations/72-heures-a/itineraire-cote-vermeille-banyuls-collioure"}
+      ]
+    },
+    {
+      "id": "fr-castillos-cataros",
+      "puntaje": 2,
+      "justificacion": "Están entre los viñedos de Corbières y de Maury (vino dulce natural), con bodegas en los pueblos al pie de los castillos. Hay algo de interés, pero se viene por los castillos. No se buscó fuente propia.",
+      "platos": ["Vino de Corbières", "Maury (vino dulce natural)", "Cassoulet"],
+      "fuentes": []
+    },
+    {
+      "id": "fr-conques",
+      "puntaje": 3,
+      "justificacion": "Está en el extremo del viñedo AOC Marcillac, unas 200 ha en terrazas entre Conques y Rodez que plantaron los monjes de Conques. Es de mansois (fer servadou) y hay ruta de bodegas, como la cooperativa del Vallon y el Domaine du Cros. El vino acompaña la cocina del Rouergue: farçous, tripous, ternera y cordero de l'Aveyron.",
+      "platos": ["Vino de Marcillac (mansois)", "Farçous", "Tripous", "Estofinado (estofi)"],
+      "fuentes": [
+        {"guia": "Tourisme Occitanie (oficial, viñedo AOP de Marcillac)", "url": "https://www.tourisme-occitanie.com/fr/fiche/itineraire/au-coeur-du-vignoble-aop-de-marcillac-marcillac-vallon_TFOITIMIP0120000127/"},
+        {"guia": "Tourisme Conques-Marcillac (oficial)", "url": "https://www.tourisme-conques.fr/files/terra-trail/3-marcillac.pdf"}
+      ]
+    },
+    {
+      "id": "fr-cote-opale",
+      "puntaje": 2,
+      "justificacion": "Boulogne-sur-Mer, a 20 km, es el primer puerto pesquero de Francia, y hay arenque ahumado y cocina del Norte. Hay algo de interés. No se buscó fuente propia.",
+      "platos": ["Pescado de Boulogne-sur-Mer", "Arenque ahumado (hareng saur)", "Welsh rarebit del Norte"],
+      "fuentes": []
+    },
+    {
+      "id": "fr-bahia-somme",
+      "puntaje": 3,
+      "justificacion": "Tiene un producto propio con AOP: el cordero de prés-salés de la bahía de Somme. Pasta al menos 75 días en las marismas, se cría como mínimo 135 días y solo se vende de julio a noviembre. El organismo de defensa tiene sede en Saint-Valery-sur-Somme. La salicornia de la bahía se compra fresca en Saint-Valery.",
+      "platos": ["Cordero de prés-salés de la baie de Somme AOP", "Salicornia", "Ficelle picarde"],
+      "fuentes": [
+        {"guia": "INAO (pliego de la AOP Prés-salés de la baie de Somme)", "url": "https://extranet.inao.gouv.fr/fichier/DUPresSalesBaieDeSomme.pdf"},
+        {"guia": "Somme Tourisme (oficial, la bahía en el plato)", "url": "https://www.somme-tourisme.com/en/?p=18590"}
+      ]
+    },
+    {
+      "id": "fr-chantilly",
+      "puntaje": 3,
+      "justificacion": "Da nombre a la crème Chantilly, ligada a las fiestas del castillo. El propio ayuntamiento dice que la atribución a Vatel en 1671 es una leyenda y que el nombre aparece por escrito en el siglo XVIII. Se prueba en el castillo y en la ciudad. Es un producto propio, pero no hay una escena culinaria destacada.",
+      "platos": ["Crème Chantilly", "Fresas con chantilly", "Brie de Meaux (a 50 km)"],
+      "fuentes": [
+        {"guia": "Ville de Chantilly (oficial, la crème Chantilly)", "url": "https://ville-chantilly.fr/focus-creme-chantilly"},
+        {"guia": "France Today (historia de la crème Chantilly)", "url": "https://francetoday.com/food-drink/history-of-creme-chantilly/"}
+      ]
+    },
+    {
+      "id": "be-pairi-daiza",
+      "puntaje": 1,
+      "justificacion": "Es un parque zoológico con restauración temática. Hay poco interés gastronómico. No se buscó fuente.",
+      "platos": ["Gofres belgas", "Cerveza belga"],
+      "fuentes": []
+    },
+    {
+      "id": "be-coo-ambleve",
+      "puntaje": 2,
+      "justificacion": "Es cocina de las Ardenas: jamón de las Ardenas, trucha y cervezas de la zona de Stavelot. Hay algo de interés. No se buscó fuente propia.",
+      "platos": ["Jamón de las Ardenas IGP", "Trucha a la ardenesa", "Cerveza de Stavelot"],
+      "fuentes": []
+    },
+    {
+      "id": "nl-hunebedden-drenthe",
+      "puntaje": 1,
+      "justificacion": "Es un sitio arqueológico rural con oferta gastronómica básica. No se buscó fuente.",
+      "platos": ["Erwtensoep (sopa de guisantes)", "Krentenbrood"],
+      "fuentes": []
+    },
+    {
+      "id": "nl-deltawerken",
+      "puntaje": 2,
+      "justificacion": "Está en el Oosterschelde, la zona de los mejillones y ostras de Zelanda. Yerseke, la capital del marisco, ya es lugar propio. En Neeltje Jans hay algo de interés.",
+      "platos": ["Mejillones de Zelanda", "Ostras del Oosterschelde", "Zeeuwse bolus"],
+      "fuentes": []
+    },
+    {
+      "id": "lu-beaufort",
+      "puntaje": 2,
+      "justificacion": "La visita guiada al castillo renacentista termina con una cata del Cassero, el licor de grosella negra de la destilería Liqueurs du Château, que también hace el Cassero-Kirsch. Hay algo de interés, pero se viene por los castillos.",
+      "platos": ["Cassero (licor de grosella negra)", "Cassero-Kirsch", "Quetschentaart"],
+      "fuentes": [
+        {"guia": "Visit Luxembourg (oficial, licor del castillo de Beaufort)", "url": "https://www.visitluxembourg.com/liqueur-castle-beaufort"},
+        {"guia": "Visit Luxembourg (oficial, castillo de Beaufort)", "url": "https://visitluxembourg.com/beaufort-castle"}
+      ]
+    },
+    {
+      "id": "lu-larochette",
+      "puntaje": 1,
+      "justificacion": "Es un castillo en un pueblo pequeño, con poca oferta propia. No se buscó fuente.",
+      "platos": ["Judd mat Gaardebounen", "Gromperekichelcher"],
+      "fuentes": []
+    },
+    {
+      "id": "lu-minett",
+      "puntaje": 1,
+      "justificacion": "Es patrimonio industrial, con cocina luxemburguesa corriente en Esch-sur-Alzette. Hay poco interés gastronómico. No se buscó fuente.",
+      "platos": ["Bouneschlupp", "Gromperekichelcher"],
+      "fuentes": []
+    },
+    {
+      "id": "ch-verbier",
+      "puntaje": 3,
+      "justificacion": "Está en el Val de Bagnes, cuna de la Raclette du Valais AOP. El pliego de la AOP lista las queserías de Bagnes con el sello en la corteza, entre ellas Verbier (Bagnes 1). La Fromagerie Etiez usa leche de 15 granjas a menos de 10 km. En septiembre se celebra 'Bagnes, Capitale de la Raclette' en Le Châble. Se suman los vinos del Valais.",
+      "platos": ["Raclette du Valais AOP (Bagnes)", "Fendant y petite arvine del Valais", "Viande séchée du Valais IGP"],
+      "fuentes": [
+        {"guia": "Verbier Tourisme (oficial, tierra y tradiciones)", "url": "https://www.verbier.ch/app/uploads/ot-verbier/2022/09/Land-and-traditions.pdf"},
+        {"guia": "AOP-IGP Suiza (pliego Raclette du Valais AOP)", "url": "https://www.aop-igp.ch/fileadmin/Dokumente/kampagne2025/Pflichtenhefte/RAC/Pflichtenheft%20FR%20Raclette%20du%20Valais%20AOP.pdf"},
+        {"guia": "Valais (oficial, Bagnes Capitale de la Raclette)", "url": "https://www.valais.ch/en/events/bagnes-capitale-de-la-raclette"}
+      ]
+    },
+    {
+      "id": "ch-flims-laax",
+      "puntaje": 2,
+      "justificacion": "Es una estación con cocina grisona en las cabañas (capuns, Bündnerfleisch). Hay algo de interés. No se buscó fuente propia.",
+      "platos": ["Capuns", "Bündnerfleisch IGP", "Bündner Gerstensuppe"],
+      "fuentes": []
+    },
+    {
+      "id": "ch-glacier-3000",
+      "puntaje": 3,
+      "justificacion": "Está junto a L'Etivaz, cuyo queso fue en 2000 el primer producto suizo con AOC (hoy AOP). Se cuaja al fuego de leña, solo en alpages del 10 de mayo al 10 de octubre, y lo hacen unas 70 familias. La cooperativa tiene tienda. Gstaad, a 20 km, tiene restaurantes de alta gama.",
+      "platos": ["L'Etivaz AOP", "Fondue moitié-moitié", "Viande séchée"],
+      "fuentes": [
+        {"guia": "Alpes Vaudoises (oficial, productores de L'Etivaz AOP)", "url": "https://alpesvaudoises.ch/en/service-providers/ET-SERVICEPROVIDER-9783"}
+      ]
+    },
+    {
+      "id": "ch-davos",
+      "puntaje": 2,
+      "justificacion": "Es una estación grande con cocina grisona (capuns, Gerstensuppe). En 2020 tenía restaurantes en la Gault Millau, como Glow by Armin Amrein con 17 puntos, pero no se encontró un dato actual. Hay algo de interés.",
+      "platos": ["Capuns", "Bündner Gerstensuppe", "Bündnerfleisch IGP", "Bündner Nusstorte"],
+      "fuentes": [
+        {"guia": "Südostschweiz (Gault Millau Grisones, 2020)", "url": "https://www.suedostschweiz.ch/schweiz-und-welt/das-sind-die-gourmet-tempel-graubuendens-1028442"}
+      ]
+    },
+    {
+      "id": "at-zillertal-mayrhofen",
+      "puntaje": 3,
+      "justificacion": "Tiene buena comida local con productos propios. La Erlebnissennerei Zillertal de Mayrhofen, una empresa familiar de 1954 pionera de la Heumilch (leche de heno), tiene quesería con vidriera y recorrido de 11 estaciones. Tiene también granja, restaurante y venta directa de Graukäse tirolés, Bergkäse y Bergtilsiter.",
+      "platos": ["Tiroler Graukäse", "Bergkäse de Heumilch", "Zillertaler Krapfen", "Kasspatzln"],
+      "fuentes": [
+        {"guia": "Tirol Werbung (oficial, Schau-Sennerei Zillertal)", "url": "https://www.tirol.at/aktivitaeten/ausflugsziele/pois/schau-sennerei-zillertal"}
+      ]
+    },
+    {
+      "id": "at-schladming-dachstein",
+      "puntaje": 2,
+      "justificacion": "Es cocina del Ennstal estirio (Steirerkas, aceite de semilla de calabaza) en cabañas de esquí y alpages. Hay algo de interés. No se buscó fuente propia.",
+      "platos": ["Ennstaler Steirerkas", "Steirisches Kürbiskernöl", "Schwammerlsuppe"],
+      "fuentes": []
+    },
+    {
+      "id": "at-swarovski-wattens",
+      "puntaje": 1,
+      "justificacion": "Es una atracción de diseño con cafetería. Hay poco interés gastronómico. No se buscó fuente.",
+      "platos": ["Tiroler Speck", "Apfelstrudel"],
+      "fuentes": []
+    },
+    {
+      "id": "at-eisenstadt",
+      "puntaje": 3,
+      "justificacion": "Está en la DAC Leithaberg, en la ladera de los montes Leitha sobre el lago Neusiedl, conocida por el blaufränkisch y por blancos de pinot blanc y chardonnay sobre caliza y esquisto. El Weingut Esterházy, la bodega de la familia del palacio, saca blaufränkisch y chardonnay Leithaberg DAC con 91–92 puntos en Falstaff. Rust y su Ausbruch están a 13 km.",
+      "platos": ["Blaufränkisch Leithaberg DAC", "Chardonnay y pinot blanc del Leithaberg", "Ruster Ausbruch", "Esterházy-Torte"],
+      "fuentes": [
+        {"guia": "Falstaff (Weingut Esterházy, Blaufränkisch Leithaberg DAC)", "url": "https://www.falstaff.com/en/wines/weingut-esterhazy-2023-blaufraenkisch-leithaberg-dac-2"},
+        {"guia": "The Drinks Business (Leithaberg DAC)", "url": "https://www.thedrinksbusiness.com/2016/11/leithaberg-chardonnay-among-worlds-best/"}
+      ]
+    }
+  ],
+  "nuevos": [
+    {
+      "id": "fr-arbois-jura",
+      "nombre": "Arbois y el viñedo del Jura",
+      "pais_iso": "FR",
+      "region": "Borgoña-Franco Condado (Jura)",
+      "lat": 46.9033,
+      "lng": 5.7744,
+      "tipo": "region",
+      "puntaje": 4,
+      "justificacion": "Es una región vinícola reconocida y muy singular. Tiene cuatro AOC geográficas (Arbois, Côtes du Jura, L'Étoile y Château-Chalon) y tres de producto (Macvin, Crémant y Marc du Jura). El vin jaune de savagnin se cría al menos 6 años y 3 meses bajo velo de levadura y se embotella en el clavelin de 62 cl. Arbois y Château-Chalon cumplen 90 años de AOC en 2026. La ruta de los vinos recorre unos 80 km del Revermont, de Salins-les-Bains a Saint-Amour. En Arbois están la Fruitière vinicole (cooperativa de 1906, con cata), el Museo de la Viña y el Vino en el Château Pécauld y la casa de Pasteur. La Maison Jeunet, con dos estrellas Michelin, se trasladó en 2022 al Château de Germigney, en Port-Lesney, a 12 km. Es tierra de comté, con queserías (fruitières) visitables, y Baume-les-Messieurs está a 25 km.",
+      "platos": ["Vin jaune de Château-Chalon", "Poulet au vin jaune et aux morilles", "Comté AOP", "Crémant y vin de paille del Jura"],
+      "fuentes": [
+        {"guia": "Jura Tourisme (oficial, Château-Chalon)", "url": "https://www.jura-tourism.com/vivre-le-jura/visiter/les-incontournables/chateau-chalon/"},
+        {"guia": "Jura Tourisme (oficial, vinos del Jura)", "url": "https://www.jura-tourism.com/vivre-le-jura/deguster/vins-du-jura/6-destinations/"},
+        {"guia": "Lyon Capitale (CIVJ, 90 años de las AOC)", "url": "https://www.lyoncapitale.fr/?p=471833"},
+        {"guia": "macommune.info (Maison Jeunet, dos estrellas Michelin)", "url": "https://www.macommune.info/la-maison-jeunet-au-chateau-de-germigney-conserve-ses-deux-etoiles-au-guide-michelin-un-soulagement"}
+      ]
+    },
+    {
+      "id": "fr-roquefort-millau",
+      "nombre": "Roquefort-sur-Soulzon y el viaducto de Millau",
+      "pais_iso": "FR",
+      "region": "Occitania (Aveyron)",
+      "lat": 43.9756,
+      "lng": 2.9906,
+      "tipo": "pueblo",
+      "puntaje": 4,
+      "justificacion": "Es la cuna del roquefort, el primer queso con denominación de Francia, que celebra el centenario de su AOP. Se hace con leche cruda de oveja lacaune y se afina en las cuevas del Combalou, ventiladas por las fleurines. Las cuevas se visitan todo el año: Société tiene visita guiada de una hora con cata, y Gabriel Coulet y Papillon ofrecen visitas gratuitas. En junio se celebra Roquefort en fête, y la Maison du roquefort abre en 2026. El organismo de defensa de la AOP tiene sede en Millau, a 20 km, junto al viaducto.",
+      "platos": ["Roquefort AOP", "Pérail (queso de oveja del Larzac)", "Fouace aveyronnaise", "Cordero lechal de l'Aveyron"],
+      "fuentes": [
+        {"guia": "INAO (pliego de condiciones de la AOP Roquefort)", "url": "https://extranet.inao.gouv.fr/fichier/PNOCDCRoquefort.pdf"},
+        {"guia": "Tourisme Aveyron (oficial, cuevas de Roquefort)", "url": "https://www.tourisme-aveyron.com/en/discover/roquefort/visit-roquefort-cellars"},
+        {"guia": "Guide Tarn-Aveyron (cuevas Gabriel Coulet)", "url": "https://www.guide-tarn-aveyron.com/en/tourism/discover/guided-tour/roquefort-sur-soulzon-726/visite-cave-de-roquefort-gabriel-coulet-7064.html"},
+        {"guia": "Réussir Pâtre (centenario de la AOP)", "url": "https://www.reussir.fr/patre/laop-roquefort-fete-son-centenaire"}
+      ]
+    }
+  ]
+}
