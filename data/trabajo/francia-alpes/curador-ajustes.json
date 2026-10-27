@@ -13,7 +13,8 @@
     "fr-niza",
     "fr-corcega",
     "fr-port-cros-porquerolles",
-    "fr-saint-malo"
+    "fr-saint-malo",
+    "at-worthersee"
   ],
   "no_playa": [
     "fr-etretat",
@@ -25,7 +26,9 @@
     "nl-leeuwarden-frisia",
     "nl-middelburg-zelanda",
     "ch-klosters",
-    "at-mauthausen"
+    "at-mauthausen",
+    "at-millstatt",
+    "li-malbun"
   ],
   "no_ciudad": [],
   "guias": {
@@ -378,6 +381,124 @@
           "url": "https://roughguides.com/destinations/europe/france/brittany/finistere"
         }
       ]
+    },
+    "be-tournai": {
+      "puntaje": 3,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://media.lonelyplanet.com/shop/pdfs/belgium-luxembourg-6-western-wallonia-preview.pdf"
+        },
+        {
+          "guia": "Michelin (ViaMichelin, Beffroi de Tournai)",
+          "url": "https://viamichelin.pl/web/Atrakcja-Turystyczna/Tournai-7500-Beffroi_de_Tournai-9536f0725867"
+        }
+      ]
+    },
+    "be-mons": {
+      "puntaje": 2,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet (Musée du Doudou)",
+          "url": "https://www.lonelyplanet.fr/poi/belgique-hainautbelgiqueess-musee-du-doudou"
+        },
+        {
+          "guia": "AAA",
+          "url": "https://www.aaa.com/tripcanvas/attraction/mons-VA17760"
+        }
+      ]
+    },
+    "be-bosque-de-soignes": {
+      "puntaje": 2,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.nonprod.lonelyplanet.com/points-of-interest/foret-de-soignes/1262118"
+        }
+      ]
+    },
+    "be-pajottenland": {
+      "puntaje": 0,
+      "fuentes": []
+    },
+    "nl-naarden": {
+      "puntaje": 2,
+      "fuentes": [
+        {
+          "guia": "Frommer's",
+          "url": "https://www.frommers.com/destinations/north-holland-province/regions-in-brief/castle-country/"
+        }
+      ]
+    },
+    "nl-parque-nacional-biesbosch": {
+      "puntaje": 2,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/the-netherlands/biesbosch-national-park/attractions/biesbosch-national-park/a/poi-sig/1603790/1323077"
+        }
+      ]
+    },
+    "nl-schokland": {
+      "puntaje": 0,
+      "fuentes": []
+    },
+    "nl-beemster": {
+      "puntaje": 0,
+      "fuentes": []
+    },
+    "nl-yerseke": {
+      "puntaje": 0,
+      "fuentes": []
+    },
+    "nl-walibi-holland": {
+      "puntaje": 0,
+      "fuentes": []
+    },
+    "ch-augusta-raurica": {
+      "puntaje": 2,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet (Top Choice)",
+          "url": "https://www.lonelyplanet.com/switzerland/northern-switzerland/basel/attractions/augusta-raurica/a/poi-sig/1426191/360825"
+        },
+        {
+          "guia": "Lonely Planet (Römermuseum)",
+          "url": "https://www.lonelyplanet.com/points-of-interest/romermuseum/1426250"
+        }
+      ]
+    },
+    "ch-st-gallen": {
+      "puntaje": 0,
+      "fuentes": []
+    },
+    "ch-mustair": {
+      "puntaje": 0,
+      "fuentes": []
+    },
+    "ch-la-chaux-de-fonds": {
+      "puntaje": 0,
+      "fuentes": []
+    },
+    "ch-oeschinensee": {
+      "puntaje": 0,
+      "fuentes": []
+    },
+    "ch-valais-sion-vinos": {
+      "puntaje": 0,
+      "fuentes": []
+    },
+    "ch-buendner-herrschaft": {
+      "puntaje": 0,
+      "fuentes": []
+    },
+    "ch-sardona": {
+      "puntaje": 0,
+      "fuentes": []
+    },
+    "ch-monte-tamaro": {
+      "puntaje": 0,
+      "fuentes": []
     }
   },
   "lugares": {},
@@ -572,7 +693,32 @@
     "at-steyr-kalkalpen": "Steyr es una ciudad del hierro en la confluencia del Enns y el Steyr, con una plaza mayor gótica y barroca presidida por la Bummerlhaus de 1497. A unos 30 km, el Parque Nacional Kalkalpen protege hayedos primarios Patrimonio Natural UNESCO, que se recorren en rutas guiadas por el Reichraminger Hintergebirge. Para llegar al parque hace falta coche.",
     "at-mauthausen": "Es el principal memorial del nazismo en Austria. El antiguo campo de concentración conserva los barracones, la cantera con la «escalera de la muerte» y un museo sobre los cerca de 90.000 muertos. Rick Steves aconseja parar aquí entre Melk y Hallstatt; desde la estación de Mauthausen son unos 5 km cuesta arriba.",
     "at-bregenzerwald": "Es la región quesera de Austria: la KäseStrasse reúne a unos 180 socios, entre granjeros, queserías de alpe y posadas, con la bodega de maduración de Lingenau y el Käsehaus de Andelsbuch. También es referencia de la arquitectura contemporánea en madera, con el Werkraum Haus de Zumthor y las paradas BUS:STOP de Krumbach. En invierno, Lech-Zürs y el dominio Ski Arlberg están a 28 km.",
-    "at-bregenz": "En julio y agosto el Festival de Bregenz monta ópera en un escenario flotante sobre el lago de Constanza, y entonces el alojamiento escasea. El Kunsthaus de Peter Zumthor es un museo de arte contemporáneo de referencia, y la Oberstadt medieval conserva la Martinsturm. El teleférico del Pfänder sale del centro y tiene vistas sobre tres países."
+    "at-bregenz": "En julio y agosto el Festival de Bregenz monta ópera en un escenario flotante sobre el lago de Constanza, y entonces el alojamiento escasea. El Kunsthaus de Peter Zumthor es un museo de arte contemporáneo de referencia, y la Oberstadt medieval conserva la Martinsturm. El teleférico del Pfänder sale del centro y tiene vistas sobre tres países.",
+    "at-st-anton": "Es la puerta de Ski Arlberg, el mayor dominio esquiable de Austria, con unos 300 km de pistas y más de 200 km de fuera de pista que han hecho famosa a la estación entre los freeriders. Los remontes salen del centro del pueblo, donde paran los Railjet entre Innsbruck y Zúrich. El fuera de pista tiene un riesgo alto de aludes: hay que consultar el boletín del Tirol y llevar equipo o guía.",
+    "at-lech-zurs": "Son dos pueblos de alta montaña dentro de Ski Arlberg, con varios restaurantes con estrella Michelin en un solo valle y el Skyspace de James Turrell. En verano se camina hasta el lago Formarinsee, al pie de la Rote Wand. La carretera del paso de Flexen puede cerrarse por riesgo de aludes y dejar los pueblos incomunicados durante horas o días.",
+    "at-kitzbuhel": "Del centro medieval amurallado sale la Hahnenkammbahn hacia los 188 km de pistas de KitzSki, entre ellas la Streif, el descenso más famoso de la Copa del Mundo, que se corre cada enero, cuando el pueblo se satura. En verano se sube al Kitzbüheler Horn y su jardín alpino. Hay buena cocina tirolesa y Les Deux, con estrella Michelin.",
+    "at-solden-otztal": "Sölden tiene una estación de esquí con dos glaciares, Rettenbach y Tiefenbach, a los que también sube una carretera de peaje, y se esquía de octubre a mayo. En la cumbre del Gaislachkogl, a 3048 m, está 007 ELEMENTS, la instalación de James Bond. AREA 47, a la entrada del valle, queda a 32 km para hacer rafting o puenting.",
+    "at-gesause": "Aquí el Enns atraviesa los Alpes calizos del Norte por una garganta estrecha bajo paredes de roca, con más de 500 km de senderos y nueve refugios. Desde Gstatterboden se sube hacia la Planspitze, y la abadía de Admont, con la mayor biblioteca monástica del mundo, está en la entrada oeste. Conviene ir en coche, porque el tren del valle tiene poco servicio.",
+    "at-worthersee": "Es el gran lago de Carintia, con agua templada de mayo a octubre y playas públicas, y barcos de línea entre Klagenfurt, Pörtschach y Velden. En una península está la iglesia de peregrinación de Maria Wörth, y en la orilla sur Hubert Wallner tiene estrella Michelin. Klagenfurt conserva un casco renacentista con la fuente del Lindwurm.",
+    "at-hochosterwitz": "Es el castillo más icónico de Carintia: el camino de subida al peñón atraviesa 14 puertas fortificadas construidas entre 1570 y 1586 contra las incursiones otomanas, y sigue en manos de la familia Khevenhüller. Para quien no quiera subir a pie hay un ascensor inclinado. Abre de primavera a otoño, a 25 minutos de Klagenfurt.",
+    "at-millstatt": "Es un pueblo a orillas del Millstätter See, de agua limpia y templada al pie de los Nockberge, con una antigua abadía benedictina de claustro románico y un portal esculpido del siglo XII. En verano hay barcos por el lago y baño en la orilla. Se llega en tren a Spittal an der Drau y bus.",
+    "at-villach": "Es un nudo ferroviario de Carintia con trenes directos desde Salzburgo, Viena y Udine, y Time Out la elige como destino infravalorado por su paisaje alpino. El Faaker See, un lago turquesa al pie de los Karawanken, está a 20 minutos, y se brinda con la cerveza Villacher.",
+    "at-neusiedler-see": "Es un lago estepario de juncales, Patrimonio Mundial compartido con Hungría y parque nacional con más de 350 especies de aves, que se recorre en bici o con guardaparque desde Illmitz. En Rust, con nidos de cigüeña en los tejados, se bebe el dulce Ruster Ausbruch, y en Purbach y Mörbisch hay Heurigen de blaufränkisch. Está a 45 minutos en tren de Viena.",
+    "at-area-47": "Es el mayor parque de aventura al aire libre de Austria: unos 95.000 m² a la entrada del Ötztal con 40 actividades, entre ellas el tobogán de agua más rápido de Europa (80 km/h), rafting y barranquismo en el Inn y el Ötztaler Ache, puenting y escalada. Abre todo el año, pero la Water AREA solo en verano, y el rafting se cancela con crecidas. Está a 35 minutos en tren de Innsbruck.",
+    "at-familypark-neusiedlersee": "Es el mayor parque de atracciones de Austria, con unos 145.000 m², cuatro montañas rusas (Götterblitz, Rattenmühle, Adlerflug y Herkules) y cuatro mundos temáticos pensados para familias. Está en St. Margarethen, a 7 km de los Heurigen de Rust. En 2026 abre del 28 de marzo al 1 de noviembre.",
+    "at-admont": "La sala de biblioteca de la abadía benedictina, de 1776, es la mayor biblioteca monástica del mundo: 70 m de largo, frescos de Bartolomeo Altomonte y unos 60.000 volúmenes a la vista. La abadía es además la puerta oeste del Parque Nacional Gesäuse, y la ruta de refugios del parque empieza y termina aquí. Cierra de enero a mediados de marzo.",
+    "at-carnuntum": "Fue la capital de la Panonia Superior y es parte del Patrimonio Mundial del Limes del Danubio, con la reconstrucción más ambiciosa de una ciudad romana en su emplazamiento original, termas incluidas, y el arco del Heidentor. Se llega en S-Bahn desde Viena en 45 minutos. Alrededor hay bodegas de zweigelt y los bosques de ribera del Donau-Auen.",
+    "at-semmering": "Construido entre 1848 y 1854, fue la primera gran línea de ferrocarril de montaña del mundo, con 41 km de viaductos de piedra de varios pisos y túneles, y es Patrimonio Mundial. El Bahnwanderweg sigue la vía de Semmering a Payerbach, y se puede volver en tren desde cualquier estación. Se llega en tren regional desde Viena.",
+    "at-kamptal-langenlois": "Langenlois es la mayor ciudad vinícola de Austria y el centro de la Kamptal DAC de grüner veltliner y riesling, con el viñedo del Heiligenstein. El Loisium de Steven Holl une un centro de visitantes vanguardista con bodegas históricas, y de allí sale el Weinweg de 5,7 km. Bründlmayer y Steininger reciben visitas, y la Wachau está a 15 km.",
+    "at-vulkanland-riegersburg": "Alrededor del castillo de Riegersburg, sobre un risco volcánico, se concentran productores que reciben visitas: la chocolatería Zotter, con su recorrido de cata, la destilería y vinagrería Gölles y el jamón Vulcano. Los Buschenschänken de la ruta de los castillos sirven traminer de Klöch. Está a 50 minutos de Graz, y es mejor ir en coche.",
+    "at-achensee": "Es el mayor lago del Tirol, de 9 km de largo y 133 m de profundidad, encajado entre el Karwendel y el Rofan, y se llega desde Jenbach en un cremallera de vapor de 1889 o en bus. Se camina el tramo llano de Achenkirch a Pertisau o se da la vuelta completa, de unos 22 km. Los barcos funcionan de mayo a octubre.",
+    "at-donau-auen": "Son bosques de ribera del Danubio entre Viena y Eslovaquia, a menos de una hora de la capital, y una de las últimas vegas fluviales grandes de Europa central. El centro schlossORTH, con una estación de observación subacuática, abre del 20 de marzo al 1 de noviembre, y se llega en bici por la ruta del Danubio.",
+    "at-liechtensteinklamm": "Es una de las gargantas más largas y profundas de los Alpes, con 4000 m de largo y hasta 300 m de profundidad, y se recorre por pasarelas, puentes y la escalera de caracol Helix, de 30 m. El paseo dura entre 25 minutos y una hora. Abre de mayo a octubre y los temporales pueden cerrar tramos. Werfen y la Eisriesenwelt quedan a unos 25 km.",
+    "li-vaduz": "La capital de un país de 160 km² tiene el Kunstmuseum Liechtenstein, el Landesmuseum y la Hilti Art Foundation bajo el castillo de los príncipes, que no se visita. Entre viñedos se sube a la Hofkellerei del Príncipe, que cultiva el Herawingert desde 1712, y al Torkel, con estrella Michelin. No hay tren: se llega en bus LIEmobil desde Sargans, Buchs o Feldkirch.",
+    "li-malbun": "Es la única estación de esquí del país, a 1600 m en los Alpes del Rätikon, pequeña y familiar. En verano el telesilla al Sareiserjoch es la base de muchas rutas de senderismo, y se puede bajar del Fürstensteig hasta aquí. Se llega en 30 minutos de bus desde Vaduz por el túnel de Gnalp.",
+    "li-triesenberg": "Es el pueblo que fundaron colonos walser en el siglo XIII, con chalés colgados de la ladera sobre el valle del Rin y un museo dedicado a esa cultura alpina. Está a 15 minutos en bus de Vaduz y es la escala hacia Malbun y Gaflei, de donde sale el Fürstensteig.",
+    "li-fuerstensteig": "Es la ruta más conocida de Liechtenstein: un sendero de cresta aéreo sobre el valle del Rin, con tramos asegurados con cables y barandillas, que sale de Gaflei, a 3 km de Triesenberg. Son unos 6 km y 560 m de desnivel en 2 h 30, y se puede volver en bus por Malbun. No es apto para quien sufre de vértigo ni con mal tiempo, y suele estar sin nieve de junio a octubre.",
+    "nl-parque-nacional-biesbosch": "Es uno de los mayores humedales de agua dulce con mareas de Europa, nacido de la inundación de Santa Isabel de 1421, con sauces, canales y castores. Se recorre en canoa o barca eléctrica desde el centro de visitantes de Drimmelen o desde Dordrecht. Está a unos 30 km de Róterdam, pero el transporte público es limitado, así que mejor ir en coche o en bici."
   },
   "notas": {
     "FR": {
