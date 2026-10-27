@@ -1,0 +1,574 @@
+{
+  "agente": "adrenalina",
+  "subregion": "francia-alpes",
+  "ronda": 1,
+  "grupo": "b",
+  "paises": ["CH", "AT", "LI"],
+  "criterio": "Regla única de la subregión. (1) Toda actividad o parque a 60 km o menos en línea recta cuenta para cada lugar del radio. (2) Tope de 2 para monumentos, museos y sitios religiosos, salvo que la actividad esté en el propio lugar. (3) Tope de 3 para espacios naturales que solo se recorren a pie. (4) Escala: 5 si hay oferta de clase mundial en el lugar o a 15 km o menos; 4 si hay una actividad de primer nivel a 30 km o menos o varias destacadas; 3 si hay una actividad notable en el radio o una de primer nivel a más de 30 km; 2 si solo hay oferta menor o la única actividad está en el borde del radio (50–60 km); 1 si no se identificó ninguna actividad con web oficial en el radio. (5) Un 3 o más exige al menos una actividad con web del operador, turismo oficial o RCDB. km_aprox=true indica que las coordenadas de la actividad son aproximadas.",
+  "busquedas_usadas": 20,
+  "notas": "No se encontró en las búsquedas la web oficial de Aquaparc (Le Bouveret), de los operadores de canyoning y parapente de Interlaken, de la Rutsche del Pyramidenkogel ni del Wiener Prater (se cita RCDB), así que esas actividades no se acreditan. Por eso Montreux, Lausana, Lavaux, Ginebra y los lagos de Carintia quedan bajos aunque tengan oferta menor real.",
+  "puntajes": [
+    {
+      "id": "ch-lucerna",
+      "puntaje": 3,
+      "justificacion": "El Fräkigaudi del Pilatus, el tobogán de verano más largo de Suiza (1350 m), está a 6 km. La oferta de primer nivel del Oberland bernés queda más lejos: Grindelwald-First a 48 km y el paracaidismo de Interlaken a 53 km.",
+      "actividades": [
+        { "nombre": "Fräkigaudi, Pilatus-Fräkmüntegg (tobogán de verano de 1350 m)", "tipo": "alpine_coaster", "km": 6, "lat": 47.0000, "lng": 8.2720, "temporada": "abr–oct", "url": "https://pilatus.ch/en/activities/toboggan", "url_tipo": "operador_oficial", "km_aprox": true },
+        { "nombre": "Grindelwald-First: First Flyer, First Glider y Mountain Cart", "tipo": "tirolesa", "km": 48, "lat": 46.6595, "lng": 8.0545, "temporada": "primavera–otoño (Mountain Cart solo en verano)", "url": "https://www.jungfrau.ch/en-gb/grindelwaldfirst/pure-adventure/", "url_tipo": "operador_oficial" },
+        { "nombre": "Skydive Interlaken (paracaidismo tándem en avioneta y helicóptero)", "tipo": "paracaidismo", "km": 53, "lat": 46.6767, "lng": 7.8792, "temporada": "según meteorología, sobre todo en verano", "url": "https://www.skydiveinterlaken.ch/blog/2025/06", "url_tipo": "operador_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "ch-zermatt",
+      "puntaje": 5,
+      "justificacion": "El Matterhorn Ski Paradise, compartido con Cervinia, suma 360 km de pistas y permite esquiar en el glaciar todo el año. Su pista más larga, de 25 km, baja desde el Matterhorn Glacier Paradise, a 9 km del pueblo. Es una estación de clase mundial.",
+      "actividades": [
+        { "nombre": "Matterhorn Ski Paradise (360 km de pistas con Cervinia, esquí de glaciar)", "tipo": "esqui", "km": 9, "lat": 45.9383, "lng": 7.7297, "temporada": "todo el año (glaciar en verano)", "url": "https://www.zermatt.ch/en/unique/International-Ski-Area", "url_tipo": "turismo_oficial" }
+      ]
+    },
+    {
+      "id": "ch-grindelwald-jungfrau",
+      "puntaje": 5,
+      "justificacion": "En el propio Grindelwald está First, con la tirolesa First Flyer (800 m a 84 km/h), el First Glider y el Mountain Cart. A 14 km está Interlaken, capital europea del paracaidismo tándem, del parapente y del canyoning.",
+      "actividades": [
+        { "nombre": "Grindelwald-First: First Flyer (tirolesa de 800 m a 84 km/h), First Glider y Mountain Cart", "tipo": "tirolesa", "km": 4, "lat": 46.6595, "lng": 8.0545, "temporada": "primavera–otoño (Mountain Cart solo en verano)", "url": "https://www.jungfrau.ch/en-gb/grindelwaldfirst/pure-adventure/", "url_tipo": "operador_oficial" },
+        { "nombre": "Skydive Interlaken (paracaidismo tándem en avioneta y helicóptero)", "tipo": "paracaidismo", "km": 14, "lat": 46.6767, "lng": 7.8792, "temporada": "según meteorología, sobre todo en verano", "url": "https://www.skydiveinterlaken.ch/blog/2025/06", "url_tipo": "operador_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "ch-lauterbrunnen",
+      "puntaje": 5,
+      "justificacion": "Skydive Interlaken, a 10 km, hace saltos tándem desde helicóptero sobre el propio valle. Grindelwald-First, con la tirolesa First Flyer y el First Glider, está a 13 km.",
+      "actividades": [
+        { "nombre": "Skydive Interlaken (paracaidismo tándem en avioneta y helicóptero sobre el valle)", "tipo": "paracaidismo", "km": 10, "lat": 46.6767, "lng": 7.8792, "temporada": "según meteorología, sobre todo en verano", "url": "https://www.skydiveinterlaken.ch/blog/2025/06", "url_tipo": "operador_oficial", "km_aprox": true },
+        { "nombre": "Grindelwald-First: First Flyer, First Glider y Mountain Cart", "tipo": "tirolesa", "km": 13, "lat": 46.6595, "lng": 8.0545, "temporada": "primavera–otoño (Mountain Cart solo en verano)", "url": "https://www.jungfrau.ch/en-gb/grindelwaldfirst/pure-adventure/", "url_tipo": "operador_oficial" }
+      ]
+    },
+    {
+      "id": "ch-interlaken",
+      "puntaje": 5,
+      "justificacion": "Es la capital europea del deporte de aventura: paracaidismo tándem con Skydive Interlaken a 2 km del centro, parapente sobre los dos lagos y canyoning en los desfiladeros vecinos. Grindelwald-First, a 15 km, suma la tirolesa First Flyer y el First Glider, y el Fräkigaudi del Pilatus queda a 47 km.",
+      "actividades": [
+        { "nombre": "Skydive Interlaken (paracaidismo tándem en avioneta y helicóptero)", "tipo": "paracaidismo", "km": 2, "lat": 46.6767, "lng": 7.8792, "temporada": "según meteorología, sobre todo en verano", "url": "https://www.skydiveinterlaken.ch/blog/2025/06", "url_tipo": "operador_oficial", "km_aprox": true },
+        { "nombre": "Grindelwald-First: First Flyer (tirolesa de 800 m a 84 km/h), First Glider y Mountain Cart", "tipo": "tirolesa", "km": 15, "lat": 46.6595, "lng": 8.0545, "temporada": "primavera–otoño (Mountain Cart solo en verano)", "url": "https://www.jungfrau.ch/en-gb/grindelwaldfirst/pure-adventure/", "url_tipo": "operador_oficial" },
+        { "nombre": "Fräkigaudi, Pilatus-Fräkmüntegg (tobogán de verano de 1350 m)", "tipo": "alpine_coaster", "km": 47, "lat": 47.0000, "lng": 8.2720, "temporada": "abr–oct", "url": "https://pilatus.ch/en/activities/toboggan", "url_tipo": "operador_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "ch-brienz",
+      "puntaje": 5,
+      "justificacion": "Grindelwald-First, con la First Flyer y el First Glider, está a 11 km, y la base de paracaidismo de Interlaken a 15 km, en el límite del tramo de clase mundial. El Fräkigaudi del Pilatus queda a 33 km.",
+      "actividades": [
+        { "nombre": "Grindelwald-First: First Flyer, First Glider y Mountain Cart", "tipo": "tirolesa", "km": 11, "lat": 46.6595, "lng": 8.0545, "temporada": "primavera–otoño (Mountain Cart solo en verano)", "url": "https://www.jungfrau.ch/en-gb/grindelwaldfirst/pure-adventure/", "url_tipo": "operador_oficial" },
+        { "nombre": "Skydive Interlaken (paracaidismo tándem en avioneta y helicóptero)", "tipo": "paracaidismo", "km": 15, "lat": 46.6767, "lng": 7.8792, "temporada": "según meteorología, sobre todo en verano", "url": "https://www.skydiveinterlaken.ch/blog/2025/06", "url_tipo": "operador_oficial", "km_aprox": true },
+        { "nombre": "Fräkigaudi, Pilatus-Fräkmüntegg (tobogán de verano de 1350 m)", "tipo": "alpine_coaster", "km": 33, "lat": 47.0000, "lng": 8.2720, "temporada": "abr–oct", "url": "https://pilatus.ch/en/activities/toboggan", "url_tipo": "operador_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "ch-berna",
+      "puntaje": 3,
+      "justificacion": "No hay oferta destacada cerca de la ciudad. El paracaidismo de Interlaken (45 km) y Grindelwald-First (59 km, en el borde del radio) son de primer nivel, pero quedan a más de 30 km.",
+      "actividades": [
+        { "nombre": "Skydive Interlaken (paracaidismo tándem en avioneta y helicóptero)", "tipo": "paracaidismo", "km": 45, "lat": 46.6767, "lng": 7.8792, "temporada": "según meteorología, sobre todo en verano", "url": "https://www.skydiveinterlaken.ch/blog/2025/06", "url_tipo": "operador_oficial", "km_aprox": true },
+        { "nombre": "Grindelwald-First: First Flyer, First Glider y Mountain Cart", "tipo": "tirolesa", "km": 59, "lat": 46.6595, "lng": 8.0545, "temporada": "primavera–otoño (Mountain Cart solo en verano)", "url": "https://www.jungfrau.ch/en-gb/grindelwaldfirst/pure-adventure/", "url_tipo": "operador_oficial" }
+      ]
+    },
+    {
+      "id": "ch-ginebra",
+      "puntaje": 1,
+      "justificacion": "Oferta mínima: no se identificó a 60 km ninguna actividad destacada con web oficial. Chamonix, al otro lado de la frontera, queda justo fuera del radio y lo puntúa el grupo de Francia.",
+      "actividades": []
+    },
+    {
+      "id": "ch-lausana",
+      "puntaje": 1,
+      "justificacion": "Oferta mínima: a 60 km no se identificó ninguna actividad destacada con web oficial. El parque acuático Aquaparc de Le Bouveret, a unos 25 km, no se acredita porque su web oficial no apareció en las búsquedas.",
+      "actividades": []
+    },
+    {
+      "id": "ch-lavaux",
+      "puntaje": 1,
+      "justificacion": "Son viñedos para caminar y catar. Ninguna actividad de adrenalina con web oficial a 60 km. Aquaparc de Le Bouveret queda sin acreditar por falta de web oficial en las búsquedas.",
+      "actividades": []
+    },
+    {
+      "id": "ch-montreux-chillon",
+      "puntaje": 1,
+      "justificacion": "Oferta mínima acreditada. Aquaparc de Le Bouveret, a unos 8 km, es el parque acuático cubierto más grande de la zona, pero no se acredita porque su web oficial no apareció en las búsquedas. El Matterhorn Ski Paradise queda fuera del radio.",
+      "actividades": []
+    },
+    {
+      "id": "ch-gruyeres",
+      "puntaje": 1,
+      "justificacion": "Pueblo de queso y castillo, sin actividades de adrenalina con web oficial a 60 km. La base de paracaidismo de Interlaken queda a unos 62 km, justo fuera del radio.",
+      "actividades": []
+    },
+    {
+      "id": "ch-zurich",
+      "puntaje": 2,
+      "justificacion": "Oferta menor: lo más cercano con web oficial es el Fräkigaudi del Pilatus, a 47 km. El Floomzer de Flumserberg queda fuera del radio (64 km).",
+      "actividades": [
+        { "nombre": "Fräkigaudi, Pilatus-Fräkmüntegg (tobogán de verano de 1350 m)", "tipo": "alpine_coaster", "km": 47, "lat": 47.0000, "lng": 8.2720, "temporada": "abr–oct", "url": "https://pilatus.ch/en/activities/toboggan", "url_tipo": "operador_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "ch-basilea",
+      "puntaje": 1,
+      "justificacion": "Oferta mínima: bajar el Rin flotando es un plan de ocio, no de adrenalina. Europa-Park (Rust, Alemania) queda a unos 79 km, fuera del radio.",
+      "actividades": []
+    },
+    {
+      "id": "ch-cataratas-del-rin",
+      "puntaje": 1,
+      "justificacion": "Los barcos hasta la roca central del Rheinfall impresionan, pero no son una actividad de adrenalina. No se identificaron parques ni operadores con web oficial a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "ch-stein-am-rhein",
+      "puntaje": 1,
+      "justificacion": "Es un casco histórico pintado. No se identificaron actividades de adrenalina con web oficial a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "ch-appenzell",
+      "puntaje": 3,
+      "justificacion": "El Floomzer de Flumserberg, un alpine coaster de 2 km con túneles y puentes, está a 28 km. Es una actividad notable, aunque no de primer nivel europeo.",
+      "actividades": [
+        { "nombre": "Rodelbahn Floomzer, Flumserberg (alpine coaster de 2 km y 250 m de desnivel)", "tipo": "alpine_coaster", "km": 28, "lat": 47.0920, "lng": 9.2830, "temporada": "verano", "url": "https://graubuenden.ch/en/attractions/toboggan-run-floomzer", "url_tipo": "turismo_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "ch-lugano",
+      "puntaje": 4,
+      "justificacion": "A 23 km está el 007 Bungy Jump de la presa de Verzasca: 220 m, uno de los puenting más altos del mundo y escena de GoldenEye. A 13 km, el Monte Tamaro tiene un Coaster Bob de 800 m, tirolesa y parque de aventura.",
+      "actividades": [
+        { "nombre": "Monte Tamaro: Coaster Bob (800 m, 50 km/h), tirolesa y parque de aventura", "tipo": "alpine_coaster", "km": 13, "lat": 46.1100, "lng": 8.8880, "temporada": "primavera–otoño (temporada del teleférico)", "url": "https://www.montetamaro.ch/en/adventure/coaster-bob", "url_tipo": "operador_oficial", "km_aprox": true },
+        { "nombre": "007 Bungy Jump, presa de Verzasca (220 m)", "tipo": "bungee", "km": 23, "lat": 46.1975, "lng": 8.8467, "temporada": "Pascua–oct", "url": "https://007bungy.ch/en/location", "url_tipo": "operador_oficial" }
+      ]
+    },
+    {
+      "id": "ch-locarno-ascona",
+      "puntaje": 5,
+      "justificacion": "A 5 km está el 007 Bungy Jump de la presa de Verzasca, de 220 m y de fama mundial por GoldenEye. A 10 km, el Monte Tamaro suma Coaster Bob, tirolesa y parque de aventura.",
+      "actividades": [
+        { "nombre": "007 Bungy Jump, presa de Verzasca (220 m)", "tipo": "bungee", "km": 5, "lat": 46.1975, "lng": 8.8467, "temporada": "Pascua–oct", "url": "https://007bungy.ch/en/location", "url_tipo": "operador_oficial" },
+        { "nombre": "Monte Tamaro: Coaster Bob (800 m, 50 km/h), tirolesa y parque de aventura", "tipo": "alpine_coaster", "km": 10, "lat": 46.1100, "lng": 8.8880, "temporada": "primavera–otoño (temporada del teleférico)", "url": "https://www.montetamaro.ch/en/adventure/coaster-bob", "url_tipo": "operador_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "ch-bellinzona",
+      "puntaje": 5,
+      "justificacion": "El 007 Bungy Jump de la presa de Verzasca, de 220 m y fama mundial, está a 14 km, igual que el Monte Tamaro con su Coaster Bob y su tirolesa. Se puntúa como ciudad: los castillos no limitan el puntaje porque la visita incluye la ciudad entera.",
+      "actividades": [
+        { "nombre": "007 Bungy Jump, presa de Verzasca (220 m)", "tipo": "bungee", "km": 14, "lat": 46.1975, "lng": 8.8467, "temporada": "Pascua–oct", "url": "https://007bungy.ch/en/location", "url_tipo": "operador_oficial" },
+        { "nombre": "Monte Tamaro: Coaster Bob (800 m, 50 km/h), tirolesa y parque de aventura", "tipo": "alpine_coaster", "km": 14, "lat": 46.1100, "lng": 8.8880, "temporada": "primavera–otoño (temporada del teleférico)", "url": "https://www.montetamaro.ch/en/adventure/coaster-bob", "url_tipo": "operador_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "ch-valle-verzasca",
+      "puntaje": 5,
+      "justificacion": "El 007 Bungy Jump, de 220 m desde la presa de la boca del valle, es uno de los saltos más famosos del mundo y está a 7 km. El valle tiene pueblos y no es solo de senderismo, así que no se le aplica el tope de 3. El Monte Tamaro queda a 17 km.",
+      "actividades": [
+        { "nombre": "007 Bungy Jump, presa de Verzasca (220 m)", "tipo": "bungee", "km": 7, "lat": 46.1975, "lng": 8.8467, "temporada": "Pascua–oct", "url": "https://007bungy.ch/en/location", "url_tipo": "operador_oficial" },
+        { "nombre": "Monte Tamaro: Coaster Bob (800 m, 50 km/h), tirolesa y parque de aventura", "tipo": "alpine_coaster", "km": 17, "lat": 46.1100, "lng": 8.8880, "temporada": "primavera–otoño (temporada del teleférico)", "url": "https://www.montetamaro.ch/en/adventure/coaster-bob", "url_tipo": "operador_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "ch-st-moritz-engadina",
+      "puntaje": 5,
+      "justificacion": "La Olympia Bob Run, a 2 km, es la pista de bobsleigh más antigua del mundo (1904) y la única de hielo natural. Ofrece bajadas para el público en un bob de cuatro con piloto, de unos 75 segundos a unos 130 km/h. Es una experiencia única de clase mundial.",
+      "actividades": [
+        { "nombre": "Olympia Bob Run St. Moritz–Celerina (bajada en bob de cuatro con piloto, ~130 km/h)", "tipo": "otro", "km": 2, "lat": 46.5020, "lng": 9.8530, "temporada": "invierno (dic–mar aprox.)", "url": "https://www.stmoritz.com/en/olympia-bob-run/", "url_tipo": "turismo_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "ch-parque-nacional-suizo",
+      "puntaje": 3,
+      "justificacion": "El parque solo se recorre a pie, así que el puntaje no pasa de 3. En el radio están la Olympia Bob Run de St. Moritz (31 km) y Ski Arlberg en St. Anton (53 km).",
+      "actividades": [
+        { "nombre": "Olympia Bob Run St. Moritz–Celerina", "tipo": "otro", "km": 31, "lat": 46.5020, "lng": 9.8530, "temporada": "invierno (dic–mar aprox.)", "url": "https://www.stmoritz.com/en/olympia-bob-run/", "url_tipo": "turismo_oficial", "km_aprox": true },
+        { "nombre": "Ski Arlberg, sector St. Anton", "tipo": "esqui", "km": 53, "lat": 47.1297, "lng": 10.2683, "temporada": "dic–abr", "url": "https://www.austria.info/en-gb/highlights/largest-ski-areas/", "url_tipo": "turismo_oficial" }
+      ]
+    },
+    {
+      "id": "ch-guarda",
+      "puntaje": 3,
+      "justificacion": "Hay dos actividades de primer nivel a más de 30 km: la Olympia Bob Run de St. Moritz (38 km) y Ski Arlberg en St. Anton (40 km). El pueblo no tiene oferta propia.",
+      "actividades": [
+        { "nombre": "Olympia Bob Run St. Moritz–Celerina", "tipo": "otro", "km": 38, "lat": 46.5020, "lng": 9.8530, "temporada": "invierno (dic–mar aprox.)", "url": "https://www.stmoritz.com/en/olympia-bob-run/", "url_tipo": "turismo_oficial", "km_aprox": true },
+        { "nombre": "Ski Arlberg, sector St. Anton", "tipo": "esqui", "km": 40, "lat": 47.1297, "lng": 10.2683, "temporada": "dic–abr", "url": "https://www.austria.info/en-gb/highlights/largest-ski-areas/", "url_tipo": "turismo_oficial" }
+      ]
+    },
+    {
+      "id": "ch-glaciar-aletsch",
+      "puntaje": 3,
+      "justificacion": "El glaciar se recorre a pie, así que el puntaje no pasa de 3. En línea recta, Grindelwald-First está a 24 km y la base de paracaidismo de Interlaken a 29 km, pero por carretera o tren hay que rodear los Alpes berneses.",
+      "actividades": [
+        { "nombre": "Grindelwald-First: First Flyer, First Glider y Mountain Cart", "tipo": "tirolesa", "km": 24, "lat": 46.6595, "lng": 8.0545, "temporada": "primavera–otoño (Mountain Cart solo en verano)", "url": "https://www.jungfrau.ch/en-gb/grindelwaldfirst/pure-adventure/", "url_tipo": "operador_oficial" },
+        { "nombre": "Skydive Interlaken (paracaidismo tándem en avioneta y helicóptero)", "tipo": "paracaidismo", "km": 29, "lat": 46.6767, "lng": 7.8792, "temporada": "según meteorología, sobre todo en verano", "url": "https://www.skydiveinterlaken.ch/blog/2025/06", "url_tipo": "operador_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "ch-saas-fee",
+      "puntaje": 4,
+      "justificacion": "El Matterhorn Ski Paradise de Zermatt, de clase mundial, está a 24 km en línea recta. La estación de glaciar propia de Saas-Fee es de las de nieve más segura de Suiza, pero no se acredita como actividad porque no apareció su web oficial.",
+      "actividades": [
+        { "nombre": "Matterhorn Ski Paradise (360 km de pistas con Cervinia, esquí de glaciar)", "tipo": "esqui", "km": 24, "lat": 45.9383, "lng": 7.7297, "temporada": "todo el año (glaciar en verano)", "url": "https://www.zermatt.ch/en/unique/International-Ski-Area", "url_tipo": "turismo_oficial" }
+      ]
+    },
+    {
+      "id": "ch-engelberg-titlis",
+      "puntaje": 3,
+      "justificacion": "El Fräkigaudi del Pilatus está a 23 km. Grindelwald-First (32 km) y el paracaidismo de Interlaken (43 km) son de primer nivel, pero quedan a más de 30 km.",
+      "actividades": [
+        { "nombre": "Fräkigaudi, Pilatus-Fräkmüntegg (tobogán de verano de 1350 m)", "tipo": "alpine_coaster", "km": 23, "lat": 47.0000, "lng": 8.2720, "temporada": "abr–oct", "url": "https://pilatus.ch/en/activities/toboggan", "url_tipo": "operador_oficial", "km_aprox": true },
+        { "nombre": "Grindelwald-First: First Flyer, First Glider y Mountain Cart", "tipo": "tirolesa", "km": 32, "lat": 46.6595, "lng": 8.0545, "temporada": "primavera–otoño (Mountain Cart solo en verano)", "url": "https://www.jungfrau.ch/en-gb/grindelwaldfirst/pure-adventure/", "url_tipo": "operador_oficial" },
+        { "nombre": "Skydive Interlaken (paracaidismo tándem en avioneta y helicóptero)", "tipo": "paracaidismo", "km": 43, "lat": 46.6767, "lng": 7.8792, "temporada": "según meteorología, sobre todo en verano", "url": "https://www.skydiveinterlaken.ch/blog/2025/06", "url_tipo": "operador_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "ch-murten",
+      "puntaje": 1,
+      "justificacion": "Pueblo amurallado junto al lago. No se identificaron actividades de adrenalina con web oficial a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "ch-einsiedeln",
+      "puntaje": 2,
+      "justificacion": "Es un sitio religioso, así que el puntaje no pasa de 2. En el radio están el Fräkigaudi del Pilatus (39 km) y el Floomzer de Flumserberg (41 km).",
+      "actividades": [
+        { "nombre": "Fräkigaudi, Pilatus-Fräkmüntegg (tobogán de verano de 1350 m)", "tipo": "alpine_coaster", "km": 39, "lat": 47.0000, "lng": 8.2720, "temporada": "abr–oct", "url": "https://pilatus.ch/en/activities/toboggan", "url_tipo": "operador_oficial", "km_aprox": true },
+        { "nombre": "Rodelbahn Floomzer, Flumserberg (alpine coaster de 2 km)", "tipo": "alpine_coaster", "km": 41, "lat": 47.0920, "lng": 9.2830, "temporada": "verano", "url": "https://graubuenden.ch/en/attractions/toboggan-run-floomzer", "url_tipo": "turismo_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "ch-klosters",
+      "puntaje": 3,
+      "justificacion": "En el radio hay dos actividades de primer nivel a más de 30 km: Ski Arlberg en St. Anton (41 km) y la Olympia Bob Run de St. Moritz (41 km). El Floomzer queda a 52 km.",
+      "actividades": [
+        { "nombre": "Ski Arlberg, sector St. Anton", "tipo": "esqui", "km": 41, "lat": 47.1297, "lng": 10.2683, "temporada": "dic–abr", "url": "https://www.austria.info/en-gb/highlights/largest-ski-areas/", "url_tipo": "turismo_oficial" },
+        { "nombre": "Olympia Bob Run St. Moritz–Celerina", "tipo": "otro", "km": 41, "lat": 46.5020, "lng": 9.8530, "temporada": "invierno (dic–mar aprox.)", "url": "https://www.stmoritz.com/en/olympia-bob-run/", "url_tipo": "turismo_oficial", "km_aprox": true },
+        { "nombre": "Rodelbahn Floomzer, Flumserberg (alpine coaster de 2 km)", "tipo": "alpine_coaster", "km": 52, "lat": 47.0920, "lng": 9.2830, "temporada": "verano", "url": "https://graubuenden.ch/en/attractions/toboggan-run-floomzer", "url_tipo": "turismo_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "at-viena",
+      "puntaje": 4,
+      "justificacion": "El Wiener Prater, a 2 km del centro, es el gran parque de atracciones de Austria: unas 250 atracciones con varias montañas rusas y la noria de 1897. Familypark Neusiedlersee, el mayor parque temático del país, está a 48 km.",
+      "actividades": [
+        { "nombre": "Wiener Prater (Wurstelprater, unas 250 atracciones; p. ej. la montaña rusa Roller Ball)", "tipo": "parque_diversiones", "km": 2, "lat": 48.2160, "lng": 16.3970, "temporada": "15 mar–31 oct", "url": "https://rcdb.com/17818.htm", "url_tipo": "rcdb" },
+        { "nombre": "Familypark Neusiedlersee (4 montañas rusas)", "tipo": "parque_diversiones", "km": 48, "lat": 47.8100, "lng": 16.6150, "temporada": "primavera–otoño", "url": "https://rcdb.com/5302.htm", "url_tipo": "rcdb", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "at-salzburgo",
+      "puntaje": 1,
+      "justificacion": "Oferta mínima acreditada: a 60 km no se identificó ninguna actividad destacada con web oficial. KitzSki queda a unos 64 km, fuera del radio.",
+      "actividades": []
+    },
+    {
+      "id": "at-hallstatt",
+      "puntaje": 1,
+      "justificacion": "El mirador 5fingers y las cuevas del Dachstein son vistas y visitas, no actividades de adrenalina. No se identificaron parques ni operadores con web oficial a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "at-wachau",
+      "puntaje": 1,
+      "justificacion": "Valle de vino, bici y barco. El Prater de Viena queda a unos 72 km, fuera del radio.",
+      "actividades": []
+    },
+    {
+      "id": "at-innsbruck",
+      "puntaje": 3,
+      "justificacion": "AREA 47 (41 km) y la estación de Sölden con 007 ELEMENTS (49 km) son de primer nivel, pero quedan a más de 30 km. El esquí de la Nordkette no se acredita porque no apareció su web oficial.",
+      "actividades": [
+        { "nombre": "AREA 47 (Water AREA, rafting, canyoning, bungee, escalada)", "tipo": "otro", "km": 41, "lat": 47.2337, "lng": 10.8576, "temporada": "todo el año (Water AREA en verano)", "url": "https://www.area47.at/en/offroad", "url_tipo": "operador_oficial" },
+        { "nombre": "Estación de esquí de Sölden (dos glaciares)", "tipo": "esqui", "km": 49, "lat": 46.9655, "lng": 11.0076, "temporada": "oct–may", "url": "https://www.soelden.com/en/activities/winter/skiing-snowboarding/ski-area-information/ski-area-map-lifts-slopes", "url_tipo": "operador_oficial" }
+      ]
+    },
+    {
+      "id": "at-hall-in-tirol",
+      "puntaje": 3,
+      "justificacion": "AREA 47 (49 km) y Sölden (56 km) entran en el radio, pero lejos. No hay oferta propia acreditada.",
+      "actividades": [
+        { "nombre": "AREA 47 (Water AREA, rafting, canyoning, bungee, escalada)", "tipo": "otro", "km": 49, "lat": 47.2337, "lng": 10.8576, "temporada": "todo el año (Water AREA en verano)", "url": "https://www.area47.at/en/offroad", "url_tipo": "operador_oficial" },
+        { "nombre": "Estación de esquí de Sölden (dos glaciares)", "tipo": "esqui", "km": 56, "lat": 46.9655, "lng": 11.0076, "temporada": "oct–may", "url": "https://www.soelden.com/en/activities/winter/skiing-snowboarding/ski-area-information/ski-area-map-lifts-slopes", "url_tipo": "operador_oficial" }
+      ]
+    },
+    {
+      "id": "at-grossglockner",
+      "puntaje": 3,
+      "justificacion": "Es una carretera panorámica y un parque nacional que se recorren en coche y a pie, así que el puntaje no pasa de 3. KitzSki y la Streif quedan a 49 km.",
+      "actividades": [
+        { "nombre": "KitzSki y la Streif del Hahnenkamm (188 km de pistas)", "tipo": "esqui", "km": 49, "lat": 47.4470, "lng": 12.3890, "temporada": "dic–abr", "url": "https://www.tyrol.com/infrastructure/bergbahn-kitzbuehel-hahnenkammbahn", "url_tipo": "turismo_oficial" }
+      ]
+    },
+    {
+      "id": "at-cascadas-krimml",
+      "puntaje": 3,
+      "justificacion": "Las cascadas solo se recorren a pie, así que el puntaje no pasa de 3. KitzSki está a 31 km.",
+      "actividades": [
+        { "nombre": "KitzSki y la Streif del Hahnenkamm (188 km de pistas)", "tipo": "esqui", "km": 31, "lat": 47.4470, "lng": 12.3890, "temporada": "dic–abr", "url": "https://www.tyrol.com/infrastructure/bergbahn-kitzbuehel-hahnenkammbahn", "url_tipo": "turismo_oficial" }
+      ]
+    },
+    {
+      "id": "at-werfen-eisriesenwelt",
+      "puntaje": 2,
+      "justificacion": "La cueva de hielo se visita a pie. La única actividad acreditada, KitzSki, está a 60 km, en el borde del radio.",
+      "actividades": [
+        { "nombre": "KitzSki y la Streif del Hahnenkamm (188 km de pistas)", "tipo": "esqui", "km": 60, "lat": 47.4470, "lng": 12.3890, "temporada": "dic–abr", "url": "https://www.tyrol.com/infrastructure/bergbahn-kitzbuehel-hahnenkammbahn", "url_tipo": "turismo_oficial" }
+      ]
+    },
+    {
+      "id": "at-zell-am-see-kaprun",
+      "puntaje": 3,
+      "justificacion": "KitzSki, de primer nivel, queda a 33 km. El glaciar Kitzsteinhorn de Kaprun no se acredita porque no apareció su web oficial.",
+      "actividades": [
+        { "nombre": "KitzSki y la Streif del Hahnenkamm (188 km de pistas)", "tipo": "esqui", "km": 33, "lat": 47.4470, "lng": 12.3890, "temporada": "dic–abr", "url": "https://www.tyrol.com/infrastructure/bergbahn-kitzbuehel-hahnenkammbahn", "url_tipo": "turismo_oficial" }
+      ]
+    },
+    {
+      "id": "at-bad-gastein",
+      "puntaje": 1,
+      "justificacion": "Oferta mínima acreditada. El esquí propio del valle de Gastein no se acredita porque no apareció su web oficial, y KitzSki queda a unos 67 km, fuera del radio.",
+      "actividades": []
+    },
+    {
+      "id": "at-st-wolfgang",
+      "puntaje": 1,
+      "justificacion": "Lago con cremallera al Schafberg. No se identificaron actividades de adrenalina con web oficial a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "at-bad-ischl",
+      "puntaje": 1,
+      "justificacion": "Ciudad termal imperial. No se identificaron actividades de adrenalina con web oficial a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "at-graz",
+      "puntaje": 1,
+      "justificacion": "Oferta mínima: no se identificaron parques ni operadores con web oficial a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "at-ruta-vino-estiria-sur",
+      "puntaje": 1,
+      "justificacion": "Ruta de vino entre colinas. No se identificaron actividades de adrenalina con web oficial a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "at-linz",
+      "puntaje": 1,
+      "justificacion": "Oferta mínima: no se identificaron parques ni operadores con web oficial a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "at-steyr-kalkalpen",
+      "puntaje": 1,
+      "justificacion": "Casco histórico y parque nacional de senderismo. No se identificaron actividades de adrenalina con web oficial a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "at-mauthausen",
+      "puntaje": 1,
+      "justificacion": "Es un memorial y no tiene actividades de adrenalina con web oficial a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "at-bregenzerwald",
+      "puntaje": 4,
+      "justificacion": "Ski Arlberg, en su sector Lech-Zürs, está a 28 km: es el mayor dominio esquiable de Austria, con unos 300 km de pistas. El sector de St. Anton queda a 41 km y el Floomzer a 58 km.",
+      "actividades": [
+        { "nombre": "Ski Arlberg, sector Lech-Zürs (unos 300 km de pistas en total)", "tipo": "esqui", "km": 28, "lat": 47.2083, "lng": 10.1417, "temporada": "dic–abr", "url": "https://www.austria.info/en-gb/highlights/largest-ski-areas/", "url_tipo": "turismo_oficial" },
+        { "nombre": "Ski Arlberg, sector St. Anton", "tipo": "esqui", "km": 41, "lat": 47.1297, "lng": 10.2683, "temporada": "dic–abr", "url": "https://www.austria.info/en-gb/highlights/largest-ski-areas/", "url_tipo": "turismo_oficial" },
+        { "nombre": "Rodelbahn Floomzer, Flumserberg (alpine coaster de 2 km)", "tipo": "alpine_coaster", "km": 58, "lat": 47.0920, "lng": 9.2830, "temporada": "verano", "url": "https://graubuenden.ch/en/attractions/toboggan-run-floomzer", "url_tipo": "turismo_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "at-bregenz",
+      "puntaje": 3,
+      "justificacion": "Ski Arlberg (sector Lech-Zürs), de primer nivel, queda a 44 km, y el Floomzer de Flumserberg a 58 km. La ciudad no tiene oferta propia acreditada.",
+      "actividades": [
+        { "nombre": "Ski Arlberg, sector Lech-Zürs", "tipo": "esqui", "km": 44, "lat": 47.2083, "lng": 10.1417, "temporada": "dic–abr", "url": "https://www.austria.info/en-gb/highlights/largest-ski-areas/", "url_tipo": "turismo_oficial" },
+        { "nombre": "Rodelbahn Floomzer, Flumserberg (alpine coaster de 2 km)", "tipo": "alpine_coaster", "km": 58, "lat": 47.0920, "lng": 9.2830, "temporada": "verano", "url": "https://graubuenden.ch/en/attractions/toboggan-run-floomzer", "url_tipo": "turismo_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "at-st-anton",
+      "puntaje": 5,
+      "justificacion": "St. Anton es la puerta de Ski Arlberg, el mayor dominio de Austria: unos 300 km de pistas y más de 200 km de fuera de pista, con fama mundial entre los freeriders. Lech-Zürs está a 13 km, AREA 47 a 46 km y Sölden a 59 km.",
+      "actividades": [
+        { "nombre": "Ski Arlberg, sector St. Anton (unos 300 km de pistas y más de 200 km de fuera de pista)", "tipo": "esqui", "km": 0, "lat": 47.1297, "lng": 10.2683, "temporada": "dic–abr", "url": "https://www.austria.info/en-gb/highlights/largest-ski-areas/", "url_tipo": "turismo_oficial" },
+        { "nombre": "AREA 47 (Water AREA, rafting, canyoning, bungee, escalada)", "tipo": "otro", "km": 46, "lat": 47.2337, "lng": 10.8576, "temporada": "todo el año (Water AREA en verano)", "url": "https://www.area47.at/en/offroad", "url_tipo": "operador_oficial" },
+        { "nombre": "Estación de esquí de Sölden (dos glaciares)", "tipo": "esqui", "km": 59, "lat": 46.9655, "lng": 11.0076, "temporada": "oct–may", "url": "https://www.soelden.com/en/activities/winter/skiing-snowboarding/ski-area-information/ski-area-map-lifts-slopes", "url_tipo": "operador_oficial" }
+      ]
+    },
+    {
+      "id": "at-lech-zurs",
+      "puntaje": 5,
+      "justificacion": "Lech y Zürs forman parte de Ski Arlberg, el mayor dominio de Austria (unos 300 km de pistas). St. Anton está a 13 km y AREA 47 a 54 km.",
+      "actividades": [
+        { "nombre": "Ski Arlberg, sector Lech-Zürs (unos 300 km de pistas en total)", "tipo": "esqui", "km": 0, "lat": 47.2083, "lng": 10.1417, "temporada": "dic–abr", "url": "https://www.austria.info/en-gb/highlights/largest-ski-areas/", "url_tipo": "turismo_oficial" },
+        { "nombre": "AREA 47 (Water AREA, rafting, canyoning, bungee, escalada)", "tipo": "otro", "km": 54, "lat": 47.2337, "lng": 10.8576, "temporada": "todo el año (Water AREA en verano)", "url": "https://www.area47.at/en/offroad", "url_tipo": "operador_oficial" }
+      ]
+    },
+    {
+      "id": "at-kitzbuhel",
+      "puntaje": 5,
+      "justificacion": "KitzSki tiene 188 km de pistas y 41 km de rutas de esquí, y sale del mismo pueblo. Incluye la Streif del Hahnenkamm, el descenso más famoso de la Copa del Mundo, que se corre cada enero.",
+      "actividades": [
+        { "nombre": "KitzSki y la Streif del Hahnenkamm (188 km de pistas)", "tipo": "esqui", "km": 0, "lat": 47.4470, "lng": 12.3890, "temporada": "dic–abr", "url": "https://www.tyrol.com/infrastructure/bergbahn-kitzbuehel-hahnenkammbahn", "url_tipo": "turismo_oficial" }
+      ]
+    },
+    {
+      "id": "at-solden-otztal",
+      "puntaje": 5,
+      "justificacion": "El pueblo tiene una estación de esquí con dos glaciares. A 4 km, en la cumbre del Gaislachkogl (3048 m), está 007 ELEMENTS, la instalación de James Bond. AREA 47, el mayor parque de aventura de Austria, queda a 32 km, a la entrada del Ötztal.",
+      "actividades": [
+        { "nombre": "Estación de esquí de Sölden (dos glaciares)", "tipo": "esqui", "km": 0, "lat": 46.9655, "lng": 11.0076, "temporada": "oct–may", "url": "https://www.soelden.com/en/activities/winter/skiing-snowboarding/ski-area-information/ski-area-map-lifts-slopes", "url_tipo": "operador_oficial" },
+        { "nombre": "007 ELEMENTS (instalación James Bond en la cumbre del Gaislachkogl)", "tipo": "otro", "km": 4, "lat": 46.9430, "lng": 10.9650, "temporada": "verano e invierno (temporadas del teleférico Gaislachkogl)", "url": "https://bergbahnen.soelden.com/en", "url_tipo": "operador_oficial", "km_aprox": true },
+        { "nombre": "AREA 47 (Water AREA, rafting, canyoning, bungee, escalada)", "tipo": "otro", "km": 32, "lat": 47.2337, "lng": 10.8576, "temporada": "todo el año (Water AREA en verano)", "url": "https://www.area47.at/en/offroad", "url_tipo": "operador_oficial" }
+      ]
+    },
+    {
+      "id": "at-gesause",
+      "puntaje": 1,
+      "justificacion": "Es un parque nacional de senderismo y escalada. No se identificaron operadores con web oficial en las búsquedas.",
+      "actividades": []
+    },
+    {
+      "id": "at-worthersee",
+      "puntaje": 1,
+      "justificacion": "Oferta mínima acreditada. El tobogán cubierto del Pyramidenkogel (120 m, 52 m de altura) no se acredita porque no apareció su web oficial.",
+      "actividades": []
+    },
+    {
+      "id": "at-hochosterwitz",
+      "puntaje": 1,
+      "justificacion": "Es un castillo sin actividades de adrenalina con web oficial a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "at-millstatt",
+      "puntaje": 1,
+      "justificacion": "Pueblo lacustre. No se identificaron actividades de adrenalina con web oficial a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "at-villach",
+      "puntaje": 1,
+      "justificacion": "Oferta mínima: no se identificaron parques ni operadores con web oficial a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "at-neusiedler-see",
+      "puntaje": 3,
+      "justificacion": "Familypark Neusiedlersee, el mayor parque de atracciones de Austria, con cuatro montañas rusas, está a 12 km. El Prater de Viena queda a 49 km.",
+      "actividades": [
+        { "nombre": "Familypark Neusiedlersee (4 montañas rusas)", "tipo": "parque_diversiones", "km": 12, "lat": 47.8100, "lng": 16.6150, "temporada": "primavera–otoño", "url": "https://rcdb.com/5302.htm", "url_tipo": "rcdb", "km_aprox": true },
+        { "nombre": "Wiener Prater (Wurstelprater, unas 250 atracciones)", "tipo": "parque_diversiones", "km": 49, "lat": 48.2160, "lng": 16.3970, "temporada": "15 mar–31 oct", "url": "https://rcdb.com/17818.htm", "url_tipo": "rcdb" }
+      ]
+    },
+    {
+      "id": "li-vaduz",
+      "puntaje": 3,
+      "justificacion": "El Floomzer de Flumserberg, un alpine coaster de 2 km, está a 19 km. Ski Arlberg (Lech-Zürs) queda a 48 km.",
+      "actividades": [
+        { "nombre": "Rodelbahn Floomzer, Flumserberg (alpine coaster de 2 km)", "tipo": "alpine_coaster", "km": 19, "lat": 47.0920, "lng": 9.2830, "temporada": "verano", "url": "https://graubuenden.ch/en/attractions/toboggan-run-floomzer", "url_tipo": "turismo_oficial", "km_aprox": true },
+        { "nombre": "Ski Arlberg, sector Lech-Zürs", "tipo": "esqui", "km": 48, "lat": 47.2083, "lng": 10.1417, "temporada": "dic–abr", "url": "https://www.austria.info/en-gb/highlights/largest-ski-areas/", "url_tipo": "turismo_oficial" }
+      ]
+    },
+    {
+      "id": "li-malbun",
+      "puntaje": 3,
+      "justificacion": "Es una estación de esquí pequeña, sin web oficial en las búsquedas. El Floomzer está a 25 km y Ski Arlberg (Lech-Zürs) a 42 km.",
+      "actividades": [
+        { "nombre": "Rodelbahn Floomzer, Flumserberg (alpine coaster de 2 km)", "tipo": "alpine_coaster", "km": 25, "lat": 47.0920, "lng": 9.2830, "temporada": "verano", "url": "https://graubuenden.ch/en/attractions/toboggan-run-floomzer", "url_tipo": "turismo_oficial", "km_aprox": true },
+        { "nombre": "Ski Arlberg, sector Lech-Zürs", "tipo": "esqui", "km": 42, "lat": 47.2083, "lng": 10.1417, "temporada": "dic–abr", "url": "https://www.austria.info/en-gb/highlights/largest-ski-areas/", "url_tipo": "turismo_oficial" }
+      ]
+    },
+    {
+      "id": "li-triesenberg",
+      "puntaje": 3,
+      "justificacion": "El Floomzer de Flumserberg está a 20 km y Ski Arlberg (Lech-Zürs) a 46 km.",
+      "actividades": [
+        { "nombre": "Rodelbahn Floomzer, Flumserberg (alpine coaster de 2 km)", "tipo": "alpine_coaster", "km": 20, "lat": 47.0920, "lng": 9.2830, "temporada": "verano", "url": "https://graubuenden.ch/en/attractions/toboggan-run-floomzer", "url_tipo": "turismo_oficial", "km_aprox": true },
+        { "nombre": "Ski Arlberg, sector Lech-Zürs", "tipo": "esqui", "km": 46, "lat": 47.2083, "lng": 10.1417, "temporada": "dic–abr", "url": "https://www.austria.info/en-gb/highlights/largest-ski-areas/", "url_tipo": "turismo_oficial" }
+      ]
+    },
+    {
+      "id": "li-castillo-gutenberg",
+      "puntaje": 2,
+      "justificacion": "Es un castillo, así que el puntaje no pasa de 2. El Floomzer está a 17 km y Ski Arlberg (Lech-Zürs) a 51 km.",
+      "actividades": [
+        { "nombre": "Rodelbahn Floomzer, Flumserberg (alpine coaster de 2 km)", "tipo": "alpine_coaster", "km": 17, "lat": 47.0920, "lng": 9.2830, "temporada": "verano", "url": "https://graubuenden.ch/en/attractions/toboggan-run-floomzer", "url_tipo": "turismo_oficial", "km_aprox": true },
+        { "nombre": "Ski Arlberg, sector Lech-Zürs", "tipo": "esqui", "km": 51, "lat": 47.2083, "lng": 10.1417, "temporada": "dic–abr", "url": "https://www.austria.info/en-gb/highlights/largest-ski-areas/", "url_tipo": "turismo_oficial" }
+      ]
+    }
+  ],
+  "nuevos": [
+    {
+      "id": "at-area-47",
+      "nombre": "AREA 47 (Ötztal)",
+      "pais_iso": "AT",
+      "region": "Tirol",
+      "lat": 47.2337,
+      "lng": 10.8576,
+      "tipo": "otro",
+      "destino_propio": true,
+      "puntaje": 5,
+      "justificacion": "Es el mayor parque de aventura al aire libre de Austria, a la entrada del Ötztal: unos 95 000 m² y 40 actividades en un solo lugar. Tiene la Water AREA, con el tobogán de agua más rápido de Europa (80 km/h), wakeboard, rafting y canyoning en el Inn y el Ötztaler Ache, bungee, escalada y circuito todoterreno. Abre todo el año, y en invierno funcionan el parque de cuerdas, el bike park cubierto y el bungee. Sölden, con 007 ELEMENTS, queda a 32 km.",
+      "actividades": [
+        { "nombre": "AREA 47 (Water AREA, rafting, canyoning, bungee, escalada, offroad)", "tipo": "otro", "km": 0, "lat": 47.2337, "lng": 10.8576, "temporada": "todo el año (Water AREA en verano)", "url": "https://www.area47.at/en/offroad", "url_tipo": "operador_oficial" },
+        { "nombre": "Estación de esquí de Sölden y 007 ELEMENTS", "tipo": "esqui", "km": 32, "lat": 46.9655, "lng": 11.0076, "temporada": "oct–may", "url": "https://www.soelden.com/en/activities/winter/skiing-snowboarding/ski-area-information/ski-area-map-lifts-slopes", "url_tipo": "operador_oficial" }
+      ],
+      "fuentes": [
+        { "guia": "Sitio oficial", "url": "https://www.area47.at/en/offroad" },
+        { "guia": "Sitio oficial (datos y cifras)", "url": "https://www.area47.at/?p=60540" },
+        { "guia": "Turismo del Ötztal", "url": "https://oetztal.com/outdoor_adventure-area47" },
+        { "guia": "Turismo del Tirol", "url": "https://www.tirol.at/infrastruktur/area-47-das-outdoor-highlight-im-oetztal" }
+      ]
+    },
+    {
+      "id": "at-familypark-neusiedlersee",
+      "nombre": "Familypark Neusiedlersee",
+      "pais_iso": "AT",
+      "region": "Burgenland",
+      "lat": 47.8100,
+      "lng": 16.6150,
+      "tipo": "parque_diversiones",
+      "destino_propio": true,
+      "puntaje": 4,
+      "justificacion": "Es el mayor parque de atracciones de Austria: unos 145 000 m², cuatro montañas rusas en funcionamiento (Götterblitz, Rattenmühle, Adlerflug y Herkules) y cuatro mundos temáticos. Lo gestiona la Compagnie des Alpes. Está orientado a familias, por eso se le da 4 y no 5. El Prater de Viena queda a 48 km.",
+      "actividades": [
+        { "nombre": "Familypark Neusiedlersee (4 montañas rusas)", "tipo": "parque_diversiones", "km": 0, "lat": 47.8100, "lng": 16.6150, "temporada": "primavera–otoño", "url": "https://rcdb.com/5302.htm", "url_tipo": "rcdb", "km_aprox": true },
+        { "nombre": "Wiener Prater (Wurstelprater, unas 250 atracciones)", "tipo": "parque_diversiones", "km": 48, "lat": 48.2160, "lng": 16.3970, "temporada": "15 mar–31 oct", "url": "https://rcdb.com/17818.htm", "url_tipo": "rcdb" }
+      ],
+      "fuentes": [
+        { "guia": "RCDB", "url": "https://rcdb.com/5302.htm" }
+      ]
+    },
+    {
+      "id": "ch-monte-tamaro",
+      "nombre": "Monte Tamaro (Alpe Foppa)",
+      "pais_iso": "CH",
+      "region": "Tesino",
+      "lat": 46.1100,
+      "lng": 8.8880,
+      "tipo": "montaña",
+      "destino_propio": true,
+      "puntaje": 4,
+      "justificacion": "Es la montaña de aventura del Tesino, a 20 minutos en teleférico desde Rivera hasta Alpe Foppa (1530 m). Tiene el Coaster Bob (800 m, 50 km/h, 80 m de desnivel), una tirolesa y un parque de aventura en los árboles, además de la iglesia de Mario Botta. El 007 Bungy Jump de Verzasca queda a 10 km.",
+      "actividades": [
+        { "nombre": "Monte Tamaro: Coaster Bob (800 m, 50 km/h), tirolesa y parque de aventura", "tipo": "alpine_coaster", "km": 0, "lat": 46.1100, "lng": 8.8880, "temporada": "primavera–otoño (temporada del teleférico)", "url": "https://www.montetamaro.ch/en/adventure/coaster-bob", "url_tipo": "operador_oficial", "km_aprox": true },
+        { "nombre": "007 Bungy Jump, presa de Verzasca (220 m)", "tipo": "bungee", "km": 10, "lat": 46.1975, "lng": 8.8467, "temporada": "Pascua–oct", "url": "https://007bungy.ch/en/location", "url_tipo": "operador_oficial" }
+      ],
+      "fuentes": [
+        { "guia": "Sitio oficial", "url": "https://www.montetamaro.ch/en/adventure/coaster-bob" },
+        { "guia": "RCDB", "url": "https://rcdb.com/13299.htm" }
+      ]
+    }
+  ]
+}
