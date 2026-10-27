@@ -12,7 +12,7 @@
     "este-caucaso-turquia"
   ],
   "terminadas": [],
-  "notas": "Revisor ronda 2 sobre iberica-italia (253 lugares). Si un lugar no tiene tema ≥3.5, se acepta la categoría de su mejor tema (Terra Mítica, Dingli, Iseo). Agentes <9.5 → correcciones fix2 (ronda 5). Tras ronda 3 del revisor, países <9.5 quedan revision_pendiente.",
+  "notas": "Revisor ronda 2 (la última, decisión del usuario 2026-10-27) sobre iberica-italia. Al terminar: unir notas, copiar nota_revisor a data/paises; países <9.5 quedan revision_pendiente; publicar y pasar a francia-alpes. Cruce se hace en la misma tanda que logística.",
   "historial": [
     {
       "fecha": "2026-10-26",
@@ -81,5 +81,6 @@
       "resultado": "Ronda 3: 253 lugares (ES 85, PT 45, IT 91, MT 16, AD 6, SM 4, VA 6); 36 cambios de nivel; validador sin errores; republicado"
     }
   ],
-  "ronda_revisor": 2
+  "ronda_revisor": 2,
+  "max_rondas_revisor": 2
 }

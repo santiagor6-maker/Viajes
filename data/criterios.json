@@ -83,7 +83,7 @@
   },
   "revisor": {
     "umbral": 9.5,
-    "max_rondas": 3,
+    "max_rondas": 2,
     "rubrica": {
       "fuentes": { "nombre": "Fuentes verificables", "max": 2 },
       "exactitud": { "nombre": "Exactitud de datos y coordenadas", "max": 2 },
