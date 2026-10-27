@@ -1,0 +1,27 @@
+{
+  "agente": "naturaleza",
+  "subregion": "francia-alpes",
+  "ronda": 1,
+  "paises": ["FR", "MC", "BE", "NL", "LU"],
+  "estado": "en progreso",
+  "puntajes": [],
+  "nuevos": [
+    {
+      "id": "fr-parque-nacional-vanoise",
+      "nombre": "Parque Nacional de la Vanoise (Pralognan-la-Vanoise)",
+      "pais_iso": "FR",
+      "region": "Auvernia-Ródano-Alpes (Saboya)",
+      "lat": 45.3818,
+      "lng": 6.7208,
+      "tipo": "parque",
+      "puntaje": 5,
+      "unesco": false,
+      "justificacion": "Primer parque nacional de Francia (1963), con unos 400 km de senderos en la zona núcleo y más de 50 refugios, glaciares y fauna alpina (íbices, marmotas). Pralognan es la puerta principal del corazón del parque y etapa del GR5.",
+      "actividad": "Subida al refugio del Col de la Vanoise desde Pralognan; Tour des Glaciers de la Vanoise (varios días, de mediados de junio a mediados de septiembre)",
+      "fuentes": [
+        { "guia": "Parc national de la Vanoise (oficial)", "url": "https://vanoise-parcnational.fr/sites/vanoise-parcnational.fr/files/2026-06/Guide%20Experiences%20Vanoise%202026.pdf" },
+        { "guia": "Parc national de la Vanoise (oficial)", "url": "https://vanoise-parcnational.fr/sites/vanoise-parcnational.fr/files/2024-06/Tour%20des%20Glaciers%20de%20la%20Vanoise.pdf" }
+      ]
+    }
+  ]
+}

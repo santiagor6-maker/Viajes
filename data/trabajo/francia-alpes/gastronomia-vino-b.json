@@ -1,0 +1,553 @@
+{
+  "agente": "gastronomia-vino",
+  "subregion": "francia-alpes",
+  "ronda": 1,
+  "paises": ["CH", "AT", "LI"],
+  "nota": "Grupo b: CH, AT, LI. 64 candidatos puntuados y 4 nuevos. Para Suiza se usa la selección Michelin 2025 (octubre de 2025), porque la de 2026 no aparecía publicada en las búsquedas. Para Austria se usa la Guía Michelin Austria 2026 (18 de marzo de 2026). Los puntajes 3 o más que no se pudieron respaldar con una fuente específica se bajaron a 2 (Berna, Linz, Bad Ischl, Kitzbühel, Wörthersee).",
+  "puntajes": [
+    {
+      "id": "ch-lucerna",
+      "puntaje": 3,
+      "justificacion": "Tiene cocina propia de la Suiza central, como la Luzerner Chügelipastete (volován de ternera) y el Lozärner Rägelewasser, y mercado semanal a orillas del Reuss. En la selección Michelin de 2025 Minamo, en Lucerna, ganó su primera estrella.",
+      "platos": ["Luzerner Chügelipastete", "Pescado del lago de los Cuatro Cantones (Egli)", "Luzerner Lebkuchen"],
+      "fuentes": [
+        { "guia": "Blue News (selección Michelin Suiza 2025)", "url": "https://www.bluewin.ch/en/people/michelin-guide-increases-number-of-swiss-starred-restaurants-to-li.2926596" }
+      ]
+    },
+    {
+      "id": "ch-zermatt",
+      "puntaje": 4,
+      "justificacion": "Es una de las estaciones alpinas con más estrellas de Suiza: en la lista Michelin de 2025 figuran After Seven, Alpine Gourmet Prato Borni, Brasserie Uno y Capri. A eso se suman la raclette y los vinos del Valais (Petite Arvine, Cornalin) en los restaurantes de montaña.",
+      "platos": ["Raclette du Valais", "Assiette valaisanne (viande séchée)", "Petite Arvine", "Rösti"],
+      "fuentes": [
+        { "guia": "Guía Michelin (lista completa Suiza 2025)", "url": "https://guide.michelin.com/ch/fr/article/michelin-guide-ceremony/la-liste-complete-des-etoiles-du-guide-michelin-suisse-2025" }
+      ]
+    },
+    {
+      "id": "ch-grindelwald-jungfrau",
+      "puntaje": 2,
+      "justificacion": "Cocina de montaña del Oberland bernés en refugios y hoteles (rösti, fondue, queso de alpe), sin una escena gastronómica propia destacable.",
+      "platos": ["Rösti", "Queso de alpe del Oberland", "Älplermagronen"]
+    },
+    {
+      "id": "ch-lauterbrunnen",
+      "puntaje": 1,
+      "justificacion": "Valle de pueblos pequeños con hoteles y restaurantes sencillos de montaña; se come bien pero no es un destino culinario.",
+      "platos": ["Rösti", "Älplermagronen"]
+    },
+    {
+      "id": "ch-interlaken",
+      "puntaje": 2,
+      "justificacion": "Base turística con mucha oferta de restaurantes, fondue y cervecería local (Rugenbräu), pero sin platos ni productos propios destacados.",
+      "platos": ["Fondue", "Cerveza Rugenbräu", "Rösti"]
+    },
+    {
+      "id": "ch-brienz",
+      "puntaje": 1,
+      "justificacion": "Pueblo de tallistas a orillas del lago; la oferta gastronómica se limita a pescado de lago y restaurantes sencillos.",
+      "platos": ["Pescado del lago de Brienz", "Meringue de Meiringen (cercano)"]
+    },
+    {
+      "id": "ch-berna",
+      "puntaje": 2,
+      "justificacion": "Tiene platos propios como la Bärner Platte y el Zibelemärit (mercado de la cebolla) de noviembre, y aquí nació el Toblerone, pero no se encontró una fuente específica que respalde una escena culinaria destacada.",
+      "platos": ["Bärner Platte", "Zibelechueche (tarta de cebolla)", "Berner Haselnusslebkuchen"]
+    },
+    {
+      "id": "ch-ginebra",
+      "puntaje": 4,
+      "justificacion": "Es una capital gastronómica de la Suiza francesa con varios estrellados Michelin en el cantón, como el Domaine de Châteauvieux en Satigny, en pleno viñedo ginebrino, Le Cigalon en Thônex y La Chaumière en Troinex. El cantón es además una zona vinícola con bodegas en Satigny y Dardagny.",
+      "platos": ["Longeole (salchicha ginebrina)", "Filets de perche du Léman", "Cardon épineux genevois", "Vinos de Satigny"],
+      "fuentes": [
+        { "guia": "Guía Michelin (lista completa Suiza 2024)", "url": "https://guide.michelin.com/ch/fr/article/michelin-guide-ceremony/la-liste-complete-des-etoiles-du-guide-michelin-suisse-2024" }
+      ]
+    },
+    {
+      "id": "ch-lausana",
+      "puntaje": 4,
+      "justificacion": "A 7 km está el Restaurant de l'Hôtel de Ville de Crissier, de Franck Giovannini, uno de los cuatro tres estrellas Michelin de Suiza. Además, Lausanne Tourisme ofrece catas de chasselas de los viñedos de Lavaux, que empiezan en las afueras de la ciudad.",
+      "platos": ["Papet vaudois con saucisse aux choux", "Filets de perche", "Chasselas de Lavaux", "Taillé aux greubons"],
+      "fuentes": [
+        { "guia": "Blue News (selección Michelin Suiza 2025)", "url": "https://www.bluewin.ch/en/people/michelin-guide-increases-number-of-swiss-starred-restaurants-to-li.2926596" },
+        { "guia": "Lausanne Tourisme (turismo oficial)", "url": "https://www.lausanne-tourisme.ch/fr/offre/degustation-secrets-du-chasselas-de-lavaux/" }
+      ]
+    },
+    {
+      "id": "ch-lavaux",
+      "puntaje": 5,
+      "justificacion": "Es el paisaje vinícola más emblemático de Suiza: unas 800 ha de terrazas sobre el lago Lemán, patrimonio UNESCO desde 2007, con denominaciones como Dézaley, Calamin, Épesses y Saint-Saphorin. El chasselas es la uva rey, y en caveaux y bodegas de Grandvaux, Cully o Épesses hay catas. Crissier, con tres estrellas Michelin, queda a 15 km.",
+      "platos": ["Chasselas de Lavaux (Dézaley, Saint-Saphorin)", "Filets de perche du Léman", "Malakoffs", "Papet vaudois"],
+      "fuentes": [
+        { "guia": "Lavaux UNESCO (asociación oficial)", "url": "https://www.lavaux-unesco.ch/storage/app/media/uploaded-files/20240207cpcvvlredecouverte-vins-lavaux60.pdf" },
+        { "guia": "Lausanne Tourisme (turismo oficial)", "url": "https://www.lausanne-tourisme.ch/fr/offre/degustation-secrets-du-chasselas-de-lavaux/" }
+      ]
+    },
+    {
+      "id": "ch-montreux-chillon",
+      "puntaje": 3,
+      "justificacion": "Está en el extremo oriental de los viñedos de Lavaux, con catas de chasselas a pocos minutos en tren. En el lago se come perca, y Vevey, a 6 km, tiene el Alimentarium de Nestlé y su mercado de los sábados.",
+      "platos": ["Filets de perche", "Chasselas de Lavaux", "Malakoffs"],
+      "fuentes": [
+        { "guia": "Lavaux UNESCO (asociación oficial)", "url": "https://www.lavaux-unesco.ch/storage/app/media/uploaded-files/20240207cpcvvlredecouverte-vins-lavaux60.pdf" }
+      ]
+    },
+    {
+      "id": "ch-gruyeres",
+      "puntaje": 5,
+      "justificacion": "Es la cuna de uno de los quesos más famosos del mundo. En La Maison du Gruyère, la quesería de demostración de Pringy, el maestro quesero elabora a la vista hasta 48 hormas de Gruyère AOP al día. Es también tierra de la fondue moitié-moitié y de la crème double con merengues, y a 5 km, en Broc, está la fábrica de chocolate Cailler.",
+      "platos": ["Le Gruyère AOP", "Fondue moitié-moitié", "Meringues à la crème double de la Gruyère", "Chocolate Cailler"],
+      "fuentes": [
+        { "guia": "La Maison du Gruyère (dossier oficial 2024)", "url": "https://www.lamaisondugruyere.ch/wp-content/uploads/2024/04/La-Maison-du-Gruyere_2024_fr.pdf" },
+        { "guia": "Museos suizos (ficha de La Maison du Gruyère)", "url": "https://www.museums.ch/fr/visite-au-musee/musees/musees/la-maison-du-gruyere-2579.html" }
+      ]
+    },
+    {
+      "id": "ch-zurich",
+      "puntaje": 4,
+      "justificacion": "Es la ciudad suiza con más restaurantes estrellados: en la lista Michelin de 2025 figuran IGNIV by Andreas Caminada, The Restaurant y Widder Restaurant, entre más de una docena. Tiene cocina propia (Zürcher Geschnetzeltes), confitería histórica (Sprüngli) y la Lindt Home of Chocolate en Kilchberg.",
+      "platos": ["Zürcher Geschnetzeltes con rösti", "Luxemburgerli de Sprüngli", "Tirggel"],
+      "fuentes": [
+        { "guia": "Guía Michelin (lista completa Suiza 2025)", "url": "https://guide.michelin.com/ch/fr/article/michelin-guide-ceremony/la-liste-complete-des-etoiles-du-guide-michelin-suisse-2025" }
+      ]
+    },
+    {
+      "id": "ch-basilea",
+      "puntaje": 4,
+      "justificacion": "Aquí está Cheval Blanc by Peter Knogl, uno de los cuatro tres estrellas Michelin de Suiza. La ciudad tiene además dulces propios, como los Basler Läckerli, y la Mehlsuppe del carnaval.",
+      "platos": ["Basler Läckerli", "Basler Mehlsuppe", "Fastenwähe"],
+      "fuentes": [
+        { "guia": "Blue News (selección Michelin Suiza 2025)", "url": "https://www.bluewin.ch/en/people/michelin-guide-increases-number-of-swiss-starred-restaurants-to-li.2926596" }
+      ]
+    },
+    {
+      "id": "ch-cataratas-del-rin",
+      "puntaje": 1,
+      "justificacion": "Es un atractivo natural con restaurantes panorámicos junto al castillo de Laufen; la gastronomía no es el motivo de la visita.",
+      "platos": ["Pescado del Rin", "Vinos de Schaffhausen (Blauburgunder)"]
+    },
+    {
+      "id": "ch-stein-am-rhein",
+      "puntaje": 2,
+      "justificacion": "Pueblo histórico con posadas tradicionales y vino blauburgunder de los viñedos de Schaffhausen y el Untersee.",
+      "platos": ["Blauburgunder de Schaffhausen", "Pescado del Untersee"]
+    },
+    {
+      "id": "ch-appenzell",
+      "puntaje": 4,
+      "justificacion": "Es una de las regiones con más productos propios de Suiza. En la Appenzeller Schaukäserei de Stein se ve elaborar el queso Appenzeller y su bodega guarda hasta 12.500 hormas. También hay rutas para hacer Biber, el pan de especias con miel, y probar el licor de hierbas Alpenbitter.",
+      "platos": ["Queso Appenzeller", "Appenzeller Biber", "Alpenbitter", "Appenzeller Siedwurst y Mostbröckli"],
+      "fuentes": [
+        { "guia": "MySwitzerland (turismo oficial, Schaukäserei)", "url": "https://www.myswitzerland.com/de-ch/erlebnisse/appenzeller-schaukaeserei/" },
+        { "guia": "MySwitzerland (turismo oficial, Biber y Alpenbitter)", "url": "https://www.myswitzerland.com/en/experiences/biber-and-bitters-in-appenzell" }
+      ]
+    },
+    {
+      "id": "ch-lugano",
+      "puntaje": 4,
+      "justificacion": "Es la capital gastronómica del Tesino, con grotti, que son tabernas en bodegas de roca, polenta, risotto y embutidos. Es también el centro de la zona del Merlot del Ticino, que ocupa cerca del 80 % del viñedo del cantón, con bodegas visitables en el Sottoceneri y el Mendrisiotto.",
+      "platos": ["Merlot del Ticino", "Risotto al Merlot", "Polenta con brasato", "Luganighetta"],
+      "fuentes": [
+        { "guia": "Ticino Turismo (oficial, Merlot del Ticino)", "url": "https://www.ticino.ch/en/commons/details/-Merlot-del-Ticino-and-other-grape-varieties/2599.html" },
+        { "guia": "Time Out (cocina del Tesino)", "url": "https://www.timeout.com/switzerland/travel/ticino-offers-a-culinary-adventure-from-mountaintop-to-lakeside" }
+      ]
+    },
+    {
+      "id": "ch-locarno-ascona",
+      "puntaje": 4,
+      "justificacion": "En Ascona está Ecco, que subió a dos estrellas Michelin en 2025. El Locarnese tiene viñedos de Merlot y grotti en los valles, y la Maggia y Cevio tienen barrios enteros de grotti.",
+      "platos": ["Merlot del Ticino", "Polenta y formaggini", "Castañas (vermicelles)", "Bianco di Merlot"],
+      "fuentes": [
+        { "guia": "Guía Michelin (selección Suiza 2025)", "url": "https://guide.michelin.com/pl/en/article/michelin-guide-ceremony/the-michelin-guide-switzerland-2025-two-star-dining-on-the-rise" },
+        { "guia": "Ticino Turismo (oficial, Merlot del Ticino)", "url": "https://www.ticino.ch/en/commons/details/-Merlot-del-Ticino-and-other-grape-varieties/2599.html" }
+      ]
+    },
+    {
+      "id": "ch-bellinzona",
+      "puntaje": 3,
+      "justificacion": "Está rodeada por los viñedos de Merlot del Sopraceneri. Las bodegas abren en las jornadas Cantine Aperte, y en Giornico, a 35 km, se hacen catas con reserva. Su mercado del sábado es uno de los más concurridos del Tesino.",
+      "platos": ["Merlot del Ticino", "Risotto", "Mortadella di fegato ticinese"],
+      "fuentes": [
+        { "guia": "Ticino Turismo (oficial, Merlot del Ticino)", "url": "https://www.ticino.ch/en/commons/details/-Merlot-del-Ticino-and-other-grape-varieties/2599.html" },
+        { "guia": "Ticino Turismo (oficial, Cantina Settemaggio, Giornico)", "url": "https://www.ticino.ch/it/commons/details/Cantina-Settemaggio/153942.html" }
+      ]
+    },
+    {
+      "id": "ch-valle-verzasca",
+      "puntaje": 2,
+      "justificacion": "Hay grotti junto al río en Lavertezzo y Sonogno con cocina tesinesa sencilla; es un valle de naturaleza, no un destino gastronómico.",
+      "platos": ["Polenta", "Formaggini de cabra", "Merlot del Ticino"]
+    },
+    {
+      "id": "ch-st-moritz-engadina",
+      "puntaje": 4,
+      "justificacion": "Tiene una de las mayores concentraciones de alta cocina de los Alpes suizos: en la lista Michelin de 2025 figuran Da Vittorio, con dos estrellas, y Ecco St. Moritz, y en 2024 también Cà d'Oro y Krone. Es además tierra de especialidades grisonas, como la carne seca y la tarta de nueces de la Engadina.",
+      "platos": ["Bündnerfleisch", "Engadiner Nusstorte", "Capuns", "Pizokel"],
+      "fuentes": [
+        { "guia": "Guía Michelin (lista completa Suiza 2025)", "url": "https://guide.michelin.com/ch/fr/article/michelin-guide-ceremony/la-liste-complete-des-etoiles-du-guide-michelin-suisse-2025" },
+        { "guia": "Guía Michelin (lista completa Suiza 2024)", "url": "https://guide.michelin.com/ch/fr/article/michelin-guide-ceremony/la-liste-complete-des-etoiles-du-guide-michelin-suisse-2024" }
+      ]
+    },
+    {
+      "id": "ch-parque-nacional-suizo",
+      "puntaje": 1,
+      "justificacion": "Es un espacio natural protegido; solo hay refugios y los restaurantes de Zernez.",
+      "platos": ["Bündner Gerstensuppe", "Engadiner Nusstorte"]
+    },
+    {
+      "id": "ch-guarda",
+      "puntaje": 2,
+      "justificacion": "Pueblo de la Baja Engadina con hoteles tradicionales donde se prueban especialidades grisonas.",
+      "platos": ["Engadiner Nusstorte", "Capuns", "Salsiz"]
+    },
+    {
+      "id": "ch-glaciar-aletsch",
+      "puntaje": 1,
+      "justificacion": "Es un destino de glaciar y senderismo; en Riederalp y Bettmeralp solo hay cocina sencilla de montaña valesana.",
+      "platos": ["Raclette du Valais", "Cholera (tarta valesana)"]
+    },
+    {
+      "id": "ch-saas-fee",
+      "puntaje": 2,
+      "justificacion": "Estación de esquí con cocina valesana (raclette, cholera) y vinos del Valais en sus restaurantes, sin escena culinaria destacada.",
+      "platos": ["Raclette du Valais", "Cholera", "Fendant"]
+    },
+    {
+      "id": "ch-engelberg-titlis",
+      "puntaje": 2,
+      "justificacion": "La quesería del monasterio benedictino de Engelberg (Schaukäserei Kloster Engelberg) permite ver elaborar queso; el resto es cocina de estación de montaña.",
+      "platos": ["Queso del monasterio de Engelberg", "Älplermagronen"]
+    },
+    {
+      "id": "ch-murten",
+      "puntaje": 2,
+      "justificacion": "A orillas del lago de Morat, junto a los viñedos del Vully. Es conocida por el Nidelkuchen, un pastel de crema.",
+      "platos": ["Gâteau du Vully / Nidelkuchen", "Vinos del Vully (Chasselas, Freiburger)", "Perca del lago de Morat"]
+    },
+    {
+      "id": "ch-einsiedeln",
+      "puntaje": 2,
+      "justificacion": "Es un lugar de peregrinación con una repostería propia, los Einsiedler Schafböcke (galletas con forma de carnero) y el pan de especias local.",
+      "platos": ["Einsiedler Schafböcke", "Lebkuchen de Einsiedeln"]
+    },
+    {
+      "id": "ch-klosters",
+      "puntaje": 1,
+      "justificacion": "Estación de esquí con algunos buenos restaurantes de hotel y cocina grisona; poco interés gastronómico propio.",
+      "platos": ["Bündner Gerstensuppe", "Capuns"]
+    },
+    {
+      "id": "at-viena",
+      "puntaje": 5,
+      "justificacion": "Es una capital gastronómica mundial: Amador y Steirereck im Stadtpark tienen tres estrellas Michelin en 2026. La cultura del café vienés está en el inventario austriaco del patrimonio inmaterial de la UNESCO desde 2011, y también lo está la de los Heurigen, las tabernas de vino de los viñedos urbanos de Grinzing, Nussdorf y Stammersdorf, donde se sirve el Wiener Gemischter Satz.",
+      "platos": ["Wiener Schnitzel", "Tafelspitz", "Sachertorte y Apfelstrudel", "Wiener Gemischter Satz en un Heuriger"],
+      "fuentes": [
+        { "guia": "Guía Michelin (estrellados Austria 2026)", "url": "https://guide.michelin.com/at/en/article/michelin-guide-ceremony/all-starred-restaurants---michelin-guide-austria-2026" },
+        { "guia": "Comisión austriaca de la UNESCO (cultura del café vienés)", "url": "https://www.unesco.at/en/culture/intangible-cultural-heritage/inventory/element/viennese-coffee-house-culture" }
+      ]
+    },
+    {
+      "id": "at-salzburgo",
+      "puntaje": 4,
+      "justificacion": "Ikarus, en el Hangar-7, mantiene dos estrellas Michelin en 2026, y el Land de Salzburgo suma otros estrellados como Döllerer en Golling. La ciudad tiene platos propios, como los Salzburger Nockerl, y cafés históricos como el Tomaselli.",
+      "platos": ["Salzburger Nockerl", "Mozartkugeln", "Kasnocken", "Cerveza Stiegl / Augustiner Bräu"],
+      "fuentes": [
+        { "guia": "Guía Michelin (estrellados Austria 2026)", "url": "https://guide.michelin.com/at/en/article/michelin-guide-ceremony/all-starred-restaurants---michelin-guide-austria-2026" },
+        { "guia": "SalzburgerLand (turismo oficial)", "url": "https://www.salzburgerland.com/en/michelin-stars-shine-on-salzburgs-top-chefs" },
+        { "guia": "TasteAtlas", "url": "https://www.tasteatlas.com/best-dishes-in-salzburg-city" }
+      ]
+    },
+    {
+      "id": "at-hallstatt",
+      "puntaje": 2,
+      "justificacion": "Se come pescado del lago, como el Reinanke ahumado o a la parrilla, en los gasthof del pueblo; la sal de Hallstatt es su producto histórico.",
+      "platos": ["Reinanke (corégono) del Hallstätter See", "Sal de Hallstatt", "Kaiserschmarrn"]
+    },
+    {
+      "id": "at-wachau",
+      "puntaje": 5,
+      "justificacion": "Es una de las grandes regiones de vino blanco del mundo: la Wachau DAC, de unas 1.300 ha de terrazas sobre el Danubio, solo admite grüner veltliner y riesling con nombre de viñedo. Las bodegas de Vinea Wachau clasifican sus vinos en Steinfeder, Federspiel y Smaragd, y los Heurigen de Spitz, Weißenkirchen y Dürnstein sirven el albaricoque Wachauer Marille.",
+      "platos": ["Grüner Veltliner y Riesling Smaragd", "Wachauer Marillenknödel", "Marillenschnaps", "Wachauer Laberl"],
+      "fuentes": [
+        { "guia": "Falstaff (lo mejor de la Wachau)", "url": "https://www.falstaff.com/en/news/famous-wines-best-of-wachau" },
+        { "guia": "Harpers (Wachau DAC)", "url": "https://harpers.co.uk/news/fullstory.php/aid/27097/Wachau_becomes_a_DAC_region.html" }
+      ]
+    },
+    {
+      "id": "at-innsbruck",
+      "puntaje": 3,
+      "justificacion": "Tiene buena cocina tirolesa (Gröstl, Speckknödel, Kaspressknödel) y la Markthalle junto al Inn. El Tirol suma varios estrellados en la Guía Michelin Austria 2026, como Schwarzer Adler en Hall, a 9 km.",
+      "platos": ["Tiroler Gröstl", "Speckknödel", "Kaspressknödel", "Tiroler Speck g.g.A."],
+      "fuentes": [
+        { "guia": "Guía Michelin (estrellados Austria 2026)", "url": "https://guide.michelin.com/at/en/article/michelin-guide-ceremony/all-starred-restaurants---michelin-guide-austria-2026" }
+      ]
+    },
+    {
+      "id": "at-hall-in-tirol",
+      "puntaje": 3,
+      "justificacion": "En la Guía Michelin Austria 2026 aparece el restaurante estrellado Schwarzer Adler, de Hall in Tirol. El casco antiguo tiene posadas tirolesas tradicionales.",
+      "platos": ["Tiroler Gröstl", "Schlutzkrapfen", "Tiroler Speck"],
+      "fuentes": [
+        { "guia": "Guía Michelin (estrellados Austria 2026)", "url": "https://guide.michelin.com/at/en/article/michelin-guide-ceremony/all-starred-restaurants---michelin-guide-austria-2026" }
+      ]
+    },
+    {
+      "id": "at-grossglockner",
+      "puntaje": 1,
+      "justificacion": "Es una carretera alpina con restaurantes panorámicos; la gastronomía es secundaria.",
+      "platos": ["Kasnocken del Pinzgau", "Kaiserschmarrn"]
+    },
+    {
+      "id": "at-cascadas-krimml",
+      "puntaje": 1,
+      "justificacion": "Es un destino natural; cerca solo hay posadas sencillas de montaña.",
+      "platos": ["Pinzgauer Kasnocken", "Bauernkrapfen"]
+    },
+    {
+      "id": "at-werfen-eisriesenwelt",
+      "puntaje": 2,
+      "justificacion": "Pueblo del valle del Salzach con posadas tradicionales. Döllerer, en Golling, a unos 12 km, tiene dos estrellas Michelin, pero la visita gira en torno a la cueva de hielo.",
+      "platos": ["Pongauer Kasnocken", "Salzburger Nockerl"]
+    },
+    {
+      "id": "at-zell-am-see-kaprun",
+      "puntaje": 2,
+      "justificacion": "Destino lacustre y de esquí con cocina del Pinzgau y pescado del lago; oferta correcta, sin rasgos gastronómicos propios destacados.",
+      "platos": ["Pinzgauer Kasnocken", "Pescado del Zeller See", "Kaiserschmarrn"]
+    },
+    {
+      "id": "at-bad-gastein",
+      "puntaje": 2,
+      "justificacion": "Balneario belle époque con hoteles de diseño y algunos buenos restaurantes, pero sin escena gastronómica propia relevante.",
+      "platos": ["Pongauer Kasnocken", "Kaiserschmarrn"]
+    },
+    {
+      "id": "at-st-wolfgang",
+      "puntaje": 2,
+      "justificacion": "Se come pescado del Wolfgangsee y repostería del Salzkammergut en los hoteles históricos de la orilla.",
+      "platos": ["Pescado del Wolfgangsee (Reinanke, Saibling)", "Kaiserschmarrn", "Krapfen"]
+    },
+    {
+      "id": "at-bad-ischl",
+      "puntaje": 2,
+      "justificacion": "Es conocida por la pastelería imperial Zauner, fundada en 1832, y su Zaunerstollen, pero no se encontró una fuente específica para darle más puntaje.",
+      "platos": ["Zaunerstollen", "Kaisersemmel", "Gugelhupf"]
+    },
+    {
+      "id": "at-graz",
+      "puntaje": 4,
+      "justificacion": "Es la única GenussHauptstadt (capital del buen comer) de Austria. Sus mercados de productores, como el de Kaiser-Josef-Platz y el de Lendplatz, venden aceite de pepita de calabaza, vinos de Estiria y productos de temporada, y la ciudad es la puerta de las rutas del vino del sur de Estiria.",
+      "platos": ["Steirisches Kürbiskernöl g.g.A.", "Backhendl", "Käferbohnensalat", "Vinos de Estiria"],
+      "fuentes": [
+        { "guia": "Steiermark Tourismus (oficial, GenussHauptstadt Graz)", "url": "https://www.steiermark.com/de/urlaub/essen-trinken/kulinarische-erlebnisse/genusshauptstadt-graz" },
+        { "guia": "Graz Tourismus (folleto 'Graz genießen 2026')", "url": "https://www.graztourismus.at/Prospekte/PDFs/graz-geniessen-2026-de.pdf" }
+      ]
+    },
+    {
+      "id": "at-ruta-vino-estiria-sur",
+      "puntaje": 5,
+      "justificacion": "Es la referencia austriaca del sauvignon blanc, con DAC Südsteiermark desde la añada 2018 y vinos de Gamlitz y Kranachberg entre los mejor valorados por Falstaff. Las Buschenschänken, tabernas de bodega que solo sirven su propio vino y comida fría, salpican las colinas. Die Weinbank, en Ehrenhausen, se convirtió en 2026 en el primer restaurante de Estiria con dos estrellas Michelin.",
+      "platos": ["Sauvignon blanc Südsteiermark DAC", "Brettljause de Buschenschank", "Steirisches Kürbiskernöl", "Käferbohnen"],
+      "fuentes": [
+        { "guia": "Falstaff (región de Estiria)", "url": "https://www.falstaff.com/en/regions/austria-styria" },
+        { "guia": "Guía Michelin (estrellados Austria 2026)", "url": "https://guide.michelin.com/at/en/article/michelin-guide-ceremony/all-starred-restaurants---michelin-guide-austria-2026" }
+      ]
+    },
+    {
+      "id": "at-linz",
+      "puntaje": 2,
+      "justificacion": "Es la cuna de la Linzer Torte, una de las tartas más antiguas de las que se conserva la receta, pero no se encontró una fuente específica que respalde una escena gastronómica destacada.",
+      "platos": ["Linzer Torte", "Mostbratl", "Knödel de Alta Austria"]
+    },
+    {
+      "id": "at-steyr-kalkalpen",
+      "puntaje": 1,
+      "justificacion": "Ciudad histórica con posadas tradicionales de Alta Austria y la sidra de pera (Most) del cercano Mostviertel.",
+      "platos": ["Most (sidra de pera)", "Knödel"]
+    },
+    {
+      "id": "at-mauthausen",
+      "puntaje": 0,
+      "justificacion": "Es un memorial del Holocausto; no tiene interés gastronómico.",
+      "platos": []
+    },
+    {
+      "id": "at-bregenzerwald",
+      "puntaje": 4,
+      "justificacion": "Es la región quesera por excelencia de Austria. La KäseStrasse reúne a unos 180 socios, entre granjeros, queserías de alpe e posadas, y se puede visitar la bodega de maduración de Lingenau o el Käsehaus de Andelsbuch. El Bregenzerwälder Alp- und Bergkäse es un alimento tradicional reconocido por el ministerio austriaco.",
+      "platos": ["Bregenzerwälder Bergkäse y Alpkäse", "Käsknöpfle", "Sura Kees"],
+      "fuentes": [
+        { "guia": "Bregenzerwald Tourismus (oficial, KäseStrasse)", "url": "https://www.bregenzerwald.at/en/?p=8396" },
+        { "guia": "Ministerio austriaco de Agricultura (alimentos tradicionales)", "url": "https://www.bmluk.gv.at/themen/lebensmittel/trad-lebensmittel/kaese/bregenzerw_alpkaese.html" }
+      ]
+    },
+    {
+      "id": "at-bregenz",
+      "puntaje": 2,
+      "justificacion": "Capital de Vorarlberg a orillas del Bodensee, con pescado del lago y acceso fácil a los quesos del Bregenzerwald.",
+      "platos": ["Felchen del Bodensee", "Käsknöpfle"]
+    },
+    {
+      "id": "at-st-anton",
+      "puntaje": 2,
+      "justificacion": "Estación de esquí con buena cocina tirolesa en refugios y algunos restaurantes de hotel destacados.",
+      "platos": ["Kaspressknödel", "Tiroler Gröstl", "Kaiserschmarrn"]
+    },
+    {
+      "id": "at-lech-zurs",
+      "puntaje": 3,
+      "justificacion": "La Guía Michelin Austria 2026 la confirma como destino gourmet, con varios restaurantes estrellados en un solo valle alpino, según Lech Zürs Tourismus. Es alta cocina de temporada de esquí más que cocina local.",
+      "platos": ["Käsknöpfle", "Bergkäse de Vorarlberg", "Kaiserschmarrn"],
+      "fuentes": [
+        { "guia": "Lech Zürs Tourismus (nota de prensa Michelin 2026)", "url": "https://www.lechzuers.com/media/51475/download/2026-03-19_Pressrelease_Michelin_Guide_Confirms_LechZuers_as_Gourmet_Destination.pdf" }
+      ]
+    },
+    {
+      "id": "at-kitzbuhel",
+      "puntaje": 2,
+      "justificacion": "Estación elegante con buena oferta de restaurantes, pero no se encontró una fuente específica de estrellas que respalde un puntaje mayor.",
+      "platos": ["Tiroler Gröstl", "Kaspressknödel", "Kitzbüheler Krapfen"]
+    },
+    {
+      "id": "at-solden-otztal",
+      "puntaje": 2,
+      "justificacion": "Hay restaurantes de alta montaña, como el ice Q del Gaislachkogl, y cocina del Ötztal, que tiene un cordero con IGP; el interés es más paisajístico.",
+      "platos": ["Ötztaler Berglamm", "Kaspressknödel"]
+    },
+    {
+      "id": "at-gesause",
+      "puntaje": 1,
+      "justificacion": "Es un parque nacional; solo hay posadas rurales de Estiria y la abadía de Admont cerca.",
+      "platos": ["Steirerkas", "Brettljause"]
+    },
+    {
+      "id": "at-worthersee",
+      "puntaje": 2,
+      "justificacion": "Lago turístico de Carintia con restaurantes de ribera y Kärntner Kasnudeln, pero no se encontró una fuente específica que respalde un puntaje mayor.",
+      "platos": ["Kärntner Kasnudeln", "Reinling", "Pescado del Wörthersee"]
+    },
+    {
+      "id": "at-hochosterwitz",
+      "puntaje": 1,
+      "justificacion": "Es un castillo; solo tiene la taberna del recinto y posadas en St. Veit.",
+      "platos": ["Kärntner Kasnudeln"]
+    },
+    {
+      "id": "at-millstatt",
+      "puntaje": 1,
+      "justificacion": "Pueblo lacustre de Carintia con oferta sencilla de pescado y cocina local.",
+      "platos": ["Kärntner Kasnudeln", "Pescado del Millstätter See"]
+    },
+    {
+      "id": "at-villach",
+      "puntaje": 2,
+      "justificacion": "Tiene cocina carintia (Kasnudeln, Reindling) y la cervecera Villacher; algo de interés local.",
+      "platos": ["Kärntner Kasnudeln", "Kärntner Reindling", "Cerveza Villacher"]
+    },
+    {
+      "id": "at-neusiedler-see",
+      "puntaje": 4,
+      "justificacion": "Es la gran región vinícola del Burgenland, con tintos de zweigelt de la Neusiedlersee DAC, blancos y blaufränkisch de la Leithaberg DAC y el dulce Ruster Ausbruch de uvas botritizadas. Hay Heurigen y Buschenschänken en Rust, Purbach y Mörbisch, y Taubenkobel, en Schützen am Gebirge, tiene estrella Michelin en 2026.",
+      "platos": ["Ruster Ausbruch", "Blaufränkisch y Zweigelt", "Pescado del lago (Zander)", "Martinigansl"],
+      "fuentes": [
+        { "guia": "Austria.info (turismo oficial, Heurige del lago Neusiedl)", "url": "https://www.austria.info/de-at/highlights/heurige-und-buschenschaenken-neusiedler-see/" },
+        { "guia": "Burgenland Tourismus (oficial, región vinícola del norte)", "url": "https://www.burgenland.info/en/wine-region-northern-burgenland" },
+        { "guia": "Guía Michelin (estrellados Austria 2026)", "url": "https://guide.michelin.com/at/en/article/michelin-guide-ceremony/all-starred-restaurants---michelin-guide-austria-2026" }
+      ]
+    },
+    {
+      "id": "li-vaduz",
+      "puntaje": 3,
+      "justificacion": "En la Hofkellerei del Príncipe se catan en una hora los pinot noir y chardonnay del viñedo Herawingert, que pertenece a la familia principesca desde 1712. El restaurante Torkel, junto a los viñedos y propiedad de la bodega, tiene una estrella Michelin.",
+      "platos": ["Pinot noir Herawingert", "Käsknöpfle", "Ribel (sémola de maíz)"],
+      "fuentes": [
+        { "guia": "Liechtenstein Marketing (turismo oficial, cata en la Hofkellerei)", "url": "https://en.tourismus.li/angebote/freizeit/fuehrungen/alle-fuehrungen/detail/degustation-in-der-hofkellerei-66aebd64-1eb0-4e08-b7a7-d016075ecce4.html" },
+        { "guia": "finews.ch (cata en la Hofkellerei)", "url": "https://www.finews.ch/themen/high-end/63082-fuerstliche-hofkellerei-vaduz-stefan-tscheppe-prinzessin-marie-lgt-kundengeschenk-herawingert" }
+      ]
+    },
+    {
+      "id": "li-malbun",
+      "puntaje": 1,
+      "justificacion": "Pequeña estación de montaña con restaurantes de hotel sencillos.",
+      "platos": ["Käsknöpfle"]
+    },
+    {
+      "id": "li-triesenberg",
+      "puntaje": 2,
+      "justificacion": "Pueblo walser con posadas de cocina tradicional y vistas sobre el valle del Rin.",
+      "platos": ["Käsknöpfle", "Ribel", "Sura Kees"]
+    },
+    {
+      "id": "li-castillo-gutenberg",
+      "puntaje": 1,
+      "justificacion": "Es un castillo; Balzers tiene algunos viñedos y posadas, pero el interés gastronómico es menor.",
+      "platos": ["Vino de Balzers", "Käsknöpfle"]
+    }
+  ],
+  "nuevos": [
+    {
+      "id": "ch-valais-sion-vinos",
+      "nombre": "Viñedos del Valais (Sion y Sierre)",
+      "pais_iso": "CH",
+      "region": "Valais",
+      "lat": 46.2331,
+      "lng": 7.3606,
+      "tipo": "region",
+      "puntaje": 4,
+      "justificacion": "Es el mayor cantón vitícola de Suiza y el hogar de uvas autóctonas como la Petite Arvine, casi exclusiva del cantón. El Chemin du vignoble recorre las laderas entre bodegas, y en Sion y Sierre hay caves para catar en el casco antiguo. Gilles Varone, en Savièse, sobre Sion, subió a dos estrellas Michelin en 2025.",
+      "platos": ["Petite Arvine", "Cornalin y Humagne Rouge", "Raclette du Valais AOP", "Abricots du Valais"],
+      "fuentes": [
+        { "guia": "Swiss Wine Promotion (interprofesión, Petite Arvine)", "url": "https://swisswine.ch/en/grapes/petite-arvine-en" },
+        { "guia": "Guía Michelin (selección Suiza 2025)", "url": "https://guide.michelin.com/pl/en/article/michelin-guide-ceremony/the-michelin-guide-switzerland-2025-two-star-dining-on-the-rise" }
+      ]
+    },
+    {
+      "id": "ch-buendner-herrschaft",
+      "nombre": "Bündner Herrschaft (Maienfeld, Fläsch, Jenins, Malans)",
+      "pais_iso": "CH",
+      "region": "Grisones",
+      "lat": 47.0094,
+      "lng": 9.5303,
+      "tipo": "region",
+      "puntaje": 4,
+      "justificacion": "Es la región suiza del pinot noir, que ocupa más de tres cuartas partes de unas 400 ha en cuatro pueblos de la tierra de Heidi. Turismo de los Grisones propone rutas a pie y en e-bike entre bodegas, y Gantenbein, en Fläsch, es uno de sus nombres más conocidos. Memories, en el Grand Resort Bad Ragaz, al otro lado del Rin, tiene tres estrellas Michelin.",
+      "platos": ["Pinot noir (Blauburgunder) de la Bündner Herrschaft", "Completer de Malans", "Bündner Nusstorte", "Maluns"],
+      "fuentes": [
+        { "guia": "Graubünden Ferien (turismo oficial)", "url": "https://www.graubuenden.ch/en/attractions/wine-experience-bundner-herrschaft" },
+        { "guia": "Swiss Wine Promotion (interprofesión)", "url": "https://www.swisswine.com/en/news/a-wine-curious-weekend-in-graubuenden-s-buendner-herrschaft" },
+        { "guia": "Blue News (selección Michelin Suiza 2025)", "url": "https://www.bluewin.ch/en/people/michelin-guide-increases-number-of-swiss-starred-restaurants-to-li.2926596" }
+      ]
+    },
+    {
+      "id": "at-kamptal-langenlois",
+      "nombre": "Kamptal y Langenlois (Loisium)",
+      "pais_iso": "AT",
+      "region": "Baja Austria",
+      "lat": 48.4719,
+      "lng": 15.6814,
+      "tipo": "region",
+      "puntaje": 4,
+      "justificacion": "Es la mayor ciudad vinícola de Austria y el centro de la Kamptal DAC, dedicada al grüner veltliner y al riesling, con viñedos célebres como el Heiligenstein. El Loisium, abierto en 2003, conecta un centro de visitantes de arquitectura vanguardista con galerías de bodega históricas. Las bodegas Bründlmayer o Steininger se visitan desde aquí, y la Wachau está a 15 km.",
+      "platos": ["Grüner Veltliner Kamptal DAC", "Riesling del Heiligenstein", "Sekt austriaco", "Heurigenjause"],
+      "fuentes": [
+        { "guia": "Meininger (región vinícola Kamptal)", "url": "https://www.meininger.de/wein/weinanbaugebiete/Kamptal" },
+        { "guia": "Weingut Bründlmayer (bodega oficial)", "url": "https://bruendlmayer.at/en/wines/langenloiser-loiserberg-1oetw-kellerreserve-gruener-veltliner-2011" }
+      ]
+    },
+    {
+      "id": "at-vulkanland-riegersburg",
+      "nombre": "Steirisches Vulkanland (Riegersburg, Zotter)",
+      "pais_iso": "AT",
+      "region": "Estiria",
+      "lat": 47.0028,
+      "lng": 15.9306,
+      "tipo": "region",
+      "puntaje": 4,
+      "justificacion": "Es el foco gastronómico del sudeste de Estiria, alrededor del castillo volcánico de Riegersburg. Hay visitas y catas en la chocolatería Zotter de Bergl, en la destilería y vinagrería Gölles y en la manufactura de jamón Vulcano, que se suman a los Buschenschänken de la ruta de los castillos.",
+      "platos": ["Chocolate Zotter", "Jamón Vulcano", "Vinagres y aguardientes Gölles", "Traminer de Klöch"],
+      "fuentes": [
+        { "guia": "Steiermark Tourismus (oficial, Riegersburg)", "url": "https://www.steiermark.com/de/Regionen/Staedte-Orte/Riegersburg_c_841673" },
+        { "guia": "Steiermark Tourismus (oficial, Kulinarische Schlösserstraße)", "url": "https://www.steiermark.com/de/Steiermark/Kulinarik-erleben/Wein/Weinstrassen/Kulinarische-Schloesserstrasse_a_3650260" }
+      ]
+    }
+  ]
+}

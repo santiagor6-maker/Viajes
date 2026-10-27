@@ -1,0 +1,659 @@
+{
+  "agente": "cultura-historia",
+  "subregion": "francia-alpes",
+  "ronda": 1,
+  "puntajes": [
+    {
+      "id": "ch-lucerna",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "Casco antiguo con el Kapellbrücke (puente de madera del siglo XIV) y la torre del agua, la Jesuitenkirche barroca (Fodor's Choice), el KKL de Jean Nouvel y el Museo Suizo del Transporte. Es una de las ciudades históricas mejor conservadas de Suiza.",
+      "fuentes": [
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/switzerland/luzern-and-central-switzerland/places/luzern" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-switzerland" }
+      ]
+    },
+    {
+      "id": "ch-zermatt",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "El Hinterdorf conserva graneros y casas de alerce sobre pilotes de piedra, y el Matterhorn Museum cuenta la primera ascensión de 1865 y su tragedia. Por lo demás la visita es de montaña.",
+      "fuentes": []
+    },
+    {
+      "id": "ch-grindelwald-jungfrau",
+      "puntaje": 2,
+      "unesco": true,
+      "justificacion": "Forma parte del Patrimonio Mundial natural Alpes Suizos Jungfrau-Aletsch. El interés cultural está en el ferrocarril del Jungfraujoch (1912), una proeza de ingeniería, y en la tradición alpinista del Eiger.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/1037/" }
+      ]
+    },
+    {
+      "id": "ch-lauterbrunnen",
+      "puntaje": 1,
+      "unesco": true,
+      "justificacion": "Valle glaciar dentro del área Patrimonio Mundial natural Jungfrau-Aletsch. Su interés cultural se reduce a la arquitectura tradicional de madera de Mürren y Gimmelwald.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/1037/" }
+      ]
+    },
+    {
+      "id": "ch-interlaken",
+      "puntaje": 1,
+      "unesco": false,
+      "justificacion": "Tiene algunos grandes hoteles de la belle époque frente al Höhematte, pero su interés es sobre todo de base turística para la montaña.",
+      "fuentes": []
+    },
+    {
+      "id": "ch-brienz",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Pueblo de tradición tallista, con escuela de talla en madera. A unos 3 km está el Museo al Aire Libre de Ballenberg, con un centenar de casas rurales suizas trasladadas desde todo el país.",
+      "fuentes": []
+    },
+    {
+      "id": "ch-berna",
+      "puntaje": 5,
+      "unesco": true,
+      "justificacion": "Casco antiguo Patrimonio Mundial que conserva intacto su trazado medieval, con unos 6 km de soportales del siglo XV, fuentes del XVI, la torre del reloj Zytglogge y la catedral gótica. Suma el Zentrum Paul Klee de Renzo Piano y la casa de Einstein.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/267/" }
+      ]
+    },
+    {
+      "id": "ch-ginebra",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "Ciudad de la Reforma calvinista (catedral de San Pedro y Muro de los Reformadores) y sede de la ONU en el Palais des Nations, con el Museo de Arte e Historia y el de la Cruz Roja. El Immeuble Clarté de Le Corbusier (1930) forma parte del Patrimonio Mundial de su obra arquitectónica.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/1321/" },
+        { "guia": "UNESCO (Immeuble Clarté)", "url": "https://whc.unesco.org/en/documents/218624" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/switzerland/geneva" }
+      ]
+    },
+    {
+      "id": "ch-lausana",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "Tiene la catedral gótica más importante de Suiza, en la que el vigía sigue cantando la hora cada noche, y el Museo Olímpico. A eso suma el barrio de museos Plateforme 10 (MCBA, Photo Elysée, mudac) y la Collection de l'Art Brut.",
+      "fuentes": [
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/10-best-things-to-do-in-switzerland" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-switzerland" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/switzerland/things-to-do/" }
+      ]
+    },
+    {
+      "id": "ch-lavaux",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "Paisaje cultural Patrimonio Mundial: 30 km de terrazas de viñedo sobre el lago Lemán, levantadas desde el siglo XI por monasterios benedictinos y cistercienses. Se recorre a pie entre aldeas vinícolas como Cully, Epesses y Saint-Saphorin.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/1243/" }
+      ]
+    },
+    {
+      "id": "ch-montreux-chillon",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "El castillo de Chillon, fortaleza medieval sobre un islote del Lemán que inmortalizó Byron, es el monumento histórico más visitado de Suiza. Montreux añade el Montreux Jazz Festival y la arquitectura belle époque, y a unos 8 km, en Corseaux, está la Villa Le Lac de Le Corbusier (Patrimonio Mundial).",
+      "fuentes": [
+        { "guia": "Château de Chillon (oficial)", "url": "https://www.chillon.ch/en/" },
+        { "guia": "MySwitzerland", "url": "https://www.myswitzerland.com/en-us/experiences/chillon-castle/" },
+        { "guia": "UNESCO (Le Corbusier)", "url": "https://whc.unesco.org/en/list/1321/" }
+      ]
+    },
+    {
+      "id": "ch-gruyeres",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "Burgo medieval amurallado en lo alto de una colina, con una sola calle empedrada y un castillo del siglo XIII convertido en museo. Lo completan el museo de H. R. Giger y la tradición quesera de La Maison du Gruyère.",
+      "fuentes": [
+        { "guia": "MySwitzerland", "url": "https://www.myswitzerland.com/en/experiences/medieval-town-gruyeres/" }
+      ]
+    },
+    {
+      "id": "ch-zurich",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "Tiene el Grossmünster de Zwinglio, los vitrales de Chagall y Giacometti en el Fraumünster, el Kunsthaus (una de las grandes pinacotecas de Suiza, ampliada por Chipperfield) y el Museo Nacional Suizo. Todo ello en un casco antiguo a orillas del Limmat.",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/switzerland/zurich/" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/switzerland/zurich" }
+      ]
+    },
+    {
+      "id": "ch-basilea",
+      "puntaje": 5,
+      "unesco": false,
+      "justificacion": "Es la capital museística de Suiza, con unos 40 museos: el Kunstmuseum, la colección de arte pública más antigua del mundo, y la Fondation Beyeler de Renzo Piano. Suma la catedral románico-gótica de arenisca roja, Art Basel y la Fasnacht, el mayor carnaval del país.",
+      "fuentes": [
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/switzerland/basel" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/switzerland/best-places-to-visit/" }
+      ]
+    },
+    {
+      "id": "ch-cataratas-del-rin",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Junto a la cascada está el castillo de Laufen, y a 4 km queda Schaffhausen, con su fortaleza circular del Munot y sus fachadas con miradores.",
+      "fuentes": []
+    },
+    {
+      "id": "ch-stein-am-rhein",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "Uno de los cascos medievales mejor conservados de Suiza: casas con entramado de madera y fachadas pintadas de los siglos XV y XVI alrededor de la plaza del Ayuntamiento. La abadía benedictina de San Jorge (siglo XI) es hoy museo.",
+      "fuentes": [
+        { "guia": "MySwitzerland", "url": "https://www.myswitzerland.com/en-us/experiences/historic-buildings-stein-am-rhein/" },
+        { "guia": "MySwitzerland", "url": "https://www.myswitzerland.com/en-us/destinations/stein-am-rhein/" }
+      ]
+    },
+    {
+      "id": "ch-appenzell",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "Es la región más tradicional de Suiza: casas de madera con fachadas y letreros pintados, la Landsgemeinde (asamblea a mano alzada en la plaza) y el canto y el arte popular campesinos, que se ven en el Museo Appenzell.",
+      "fuentes": [
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/10-best-things-to-do-in-switzerland" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/switzerland" }
+      ]
+    },
+    {
+      "id": "ch-lugano",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "Tiene el centro cultural LAC, el gran fresco de la Pasión de Bernardino Luini en Santa Maria degli Angioli y calles porticadas de aire lombardo. Se suman las aldeas lacustres de Gandria y Morcote.",
+      "fuentes": [
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/switzerland/ticino" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/switzerland/ticino/lugano/places" }
+      ]
+    },
+    {
+      "id": "ch-locarno-ascona",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "El santuario de la Madonna del Sasso, colgado sobre el lago, la Piazza Grande del Festival de Cine de Locarno y el castillo Visconteo. En Ascona está el Monte Verità, colonia utópica de artistas de principios del siglo XX.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/destinations/switzerland/ticino" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/switzerland/ticino" }
+      ]
+    },
+    {
+      "id": "ch-bellinzona",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "Los tres castillos (Castelgrande, Montebello y Sasso Corbaro) y las murallas que cierran el valle del Tesino son Patrimonio Mundial y el mejor conjunto defensivo bajomedieval de los Alpes.",
+      "fuentes": [
+        { "guia": "UNESCO (expediente de inscripción)", "url": "https://whc.unesco.org/uploads/nominations/884.pdf" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/destinations/switzerland/ticino" }
+      ]
+    },
+    {
+      "id": "ch-valle-verzasca",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Tiene el puente romano-medieval de doble arco Ponte dei Salti en Lavertezzo y aldeas de casas de piedra (rustici) como Corippo y Sonogno.",
+      "fuentes": []
+    },
+    {
+      "id": "ch-st-moritz-engadina",
+      "puntaje": 3,
+      "unesco": true,
+      "justificacion": "St. Moritz es extremo del Ferrocarril Rético del Albula y el Bernina, Patrimonio Mundial por sus viaductos y túneles de principios del siglo XX. Suma el Museo Segantini y los pueblos engadinos de casas con esgrafiados, como Zuoz.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/1276/" }
+      ]
+    },
+    {
+      "id": "ch-parque-nacional-suizo",
+      "puntaje": 1,
+      "unesco": false,
+      "justificacion": "Es un espacio natural puro; solo el centro de visitantes de Zernez y el castillo Planta-Wildenberg aportan algo de historia.",
+      "fuentes": []
+    },
+    {
+      "id": "ch-guarda",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "Es un pueblo modelo de la cultura romanche: casas engadinas del siglo XVII con esgrafiados, portalones en arco y miradores. Recibió el premio Wakker en 1975 y es el escenario del cuento de Schellen-Ursli.",
+      "fuentes": [
+        { "guia": "MySwitzerland", "url": "https://www.myswitzerland.com/en-us/destinations/guarda/" },
+        { "guia": "Engadin (turismo oficial)", "url": "https://www.engadin.com/en/guarda-gemeinde-scuol" }
+      ]
+    },
+    {
+      "id": "ch-glaciar-aletsch",
+      "puntaje": 1,
+      "unesco": true,
+      "justificacion": "Patrimonio Mundial natural; el interés cultural se limita a la Villa Cassel de Riederalp, antigua residencia de veraneo y hoy centro sobre el glaciar.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/1037/" }
+      ]
+    },
+    {
+      "id": "ch-saas-fee",
+      "puntaje": 1,
+      "unesco": false,
+      "justificacion": "Es una estación de montaña sin coches; lo único de interés cultural es el pequeño museo local Saaser Museum.",
+      "fuentes": []
+    },
+    {
+      "id": "ch-engelberg-titlis",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Su abadía benedictina, fundada en 1120 y con iglesia barroca, tiene una quesería a la vista. Por lo demás el atractivo es la montaña.",
+      "fuentes": []
+    },
+    {
+      "id": "ch-murten",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "Pequeña ciudad con muralla medieval transitable de 12 torres y calles de casas barrocas con soportales, junto al campo de la batalla de 1476 contra Carlos el Temerario. A 8 km está Aventicum (Avenches), antigua capital romana de los helvecios.",
+      "fuentes": [
+        { "guia": "MySwitzerland", "url": "https://www.myswitzerland.com/en-us/destinations/murtenmorat/" }
+      ]
+    },
+    {
+      "id": "ch-einsiedeln",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "Es el principal santuario de peregrinación de Suiza: la iglesia abacial (1719-1735), obra maestra del barroco de Vorarlberg, guarda la Virgen Negra en la Capilla de la Gracia. La abadía fue además etapa medieval del Camino de Santiago.",
+      "fuentes": [
+        { "guia": "Swissinfo", "url": "https://www.swissinfo.ch/eng/history/einsiedeln-monastery-moves-with-the-times/6042388" }
+      ]
+    },
+    {
+      "id": "ch-klosters",
+      "puntaje": 1,
+      "unesco": false,
+      "justificacion": "Es un pueblo de chalés tradicionales de Prättigau, pero no tiene monumentos ni museos destacados.",
+      "fuentes": []
+    },
+    {
+      "id": "at-viena",
+      "puntaje": 5,
+      "unesco": true,
+      "justificacion": "El centro histórico (Patrimonio Mundial, en la lista en peligro desde 2017) reúne el Hofburg, la catedral de San Esteban, la Ópera y el Kunsthistorisches Museum. El palacio de Schönbrunn, Patrimonio Mundial aparte, completa la visita, y la ciudad es la capital musical de Europa por Mozart, Beethoven y Strauss.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/1033/" },
+        { "guia": "UNESCO (Schönbrunn)", "url": "https://whc.unesco.org/en/list/786/" }
+      ]
+    },
+    {
+      "id": "at-salzburgo",
+      "puntaje": 5,
+      "unesco": true,
+      "justificacion": "Centro histórico Patrimonio Mundial que conserva el paisaje barroco de una ciudad-Estado eclesiástica: la catedral, la Residenz y la fortaleza de Hohensalzburg. Es la ciudad natal de Mozart y sede del Festival de Salzburgo.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/784/" }
+      ]
+    },
+    {
+      "id": "at-hallstatt",
+      "puntaje": 5,
+      "unesco": true,
+      "justificacion": "Paisaje cultural Patrimonio Mundial nacido de la minería de sal: la mina de Hallstatt, explotada desde la prehistoria, dio nombre a la cultura de Hallstatt de la Edad del Hierro. El pueblo lacustre y su osario pintado completan uno de los conjuntos alpinos más icónicos.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/806/maps/" },
+        { "guia": "UNESCO (evaluación)", "url": "https://whc.unesco.org/document/154323" }
+      ]
+    },
+    {
+      "id": "at-wachau",
+      "puntaje": 5,
+      "unesco": true,
+      "justificacion": "Paisaje cultural Patrimonio Mundial del Danubio entre Melk y Krems. Destacan la abadía barroca de Melk, Dürnstein con su castillo de Ricardo Corazón de León, el casco antiguo de Krems y terrazas de viñedo medievales.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/970/" }
+      ]
+    },
+    {
+      "id": "at-innsbruck",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "Capital de los Habsburgo del Tirol: el Tejadillo de Oro, el Hofburg y la Hofkirche, con el cenotafio de Maximiliano I y sus 28 estatuas de bronce. A las afueras está el castillo de Ambras, con su Cámara de Arte y Maravillas renacentista.",
+      "fuentes": [
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/austria/suggested-itineraries/in-two-weeks/" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/austria/western-austria/innsbruck/" }
+      ]
+    },
+    {
+      "id": "at-hall-in-tirol",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "Es el casco antiguo más grande del Tirol, enriquecido por la sal. En el castillo de Hasegg está la Casa de la Moneda donde se acuñaron los primeros táleros, antecesores del dólar.",
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/austria" }
+      ]
+    },
+    {
+      "id": "at-grossglockner",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "La carretera alpina de 1935 es en sí una obra histórica de ingeniería, y al pie está Heiligenblut, con su iglesia gótica de aguja recortada contra el Grossglockner.",
+      "fuentes": []
+    },
+    {
+      "id": "at-cascadas-krimml",
+      "puntaje": 1,
+      "unesco": false,
+      "justificacion": "Es un atractivo natural; solo el pequeño centro WasserWelten aporta algo de contexto.",
+      "fuentes": []
+    },
+    {
+      "id": "at-werfen-eisriesenwelt",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Sobre el pueblo está la fortaleza medieval de Hohenwerfen, del siglo XI, con exhibiciones de cetrería. La cueva de hielo es un atractivo natural.",
+      "fuentes": []
+    },
+    {
+      "id": "at-zell-am-see-kaprun",
+      "puntaje": 1,
+      "unesco": false,
+      "justificacion": "Tiene un pequeño casco con la iglesia románica de San Hipólito; el resto es lago y glaciar.",
+      "fuentes": []
+    },
+    {
+      "id": "at-bad-gastein",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Balneario de la belle époque con grandes hoteles de varios pisos colgados sobre una cascada. Es un conjunto arquitectónico singular, aunque en parte abandonado.",
+      "fuentes": []
+    },
+    {
+      "id": "at-st-wolfgang",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "La iglesia de peregrinación guarda el retablo gótico de Michael Pacher (1481), uno de los grandes altares tardogóticos de Europa. Alrededor, el pueblo conserva su aire histórico, con el hotel del Caballo Blanco de la opereta.",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/austria/central-austria/the-salzkammergut/" }
+      ]
+    },
+    {
+      "id": "at-bad-ischl",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "Ciudad termal de verano de Francisco José: la Kaiservilla, donde firmó la declaración de guerra de 1914, el café Zauner y la villa de Lehár. Fue Capital Europea de la Cultura en 2024.",
+      "fuentes": [
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/austria/experiences/news/see-the-best-of-austria-in-7-days-or-14-with-these-two-perfect-itineraries" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/austria/central-austria/the-salzkammergut/" }
+      ]
+    },
+    {
+      "id": "at-graz",
+      "puntaje": 5,
+      "unesco": true,
+      "justificacion": "Patrimonio Mundial por su casco histórico, uno de los más completos de Europa central, y por el palacio barroco de Eggenberg. El Landeszeughaus es la mayor armería histórica del mundo y el Kunsthaus pone el contrapunto contemporáneo.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/931/" }
+      ]
+    },
+    {
+      "id": "at-ruta-vino-estiria-sur",
+      "puntaje": 1,
+      "unesco": false,
+      "justificacion": "Paisaje vinícola con alguna capilla y bodega tradicional, sin patrimonio monumental destacado.",
+      "fuentes": []
+    },
+    {
+      "id": "at-linz",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "Es la ciudad del arte digital: el Ars Electronica Center y su festival, y el museo de arte moderno Lentos, junto a un casco barroco en torno a la Hauptplatz y su columna de la Trinidad. A 15 km está la abadía de San Florián, ligada a Bruckner.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-austria" }
+      ]
+    },
+    {
+      "id": "at-steyr-kalkalpen",
+      "puntaje": 3,
+      "unesco": true,
+      "justificacion": "Steyr es una ciudad histórica del hierro en la confluencia del Enns y el Steyr: plaza mayor gótica y barroca con la Bummerlhaus (1497). Los hayedos del Kalkalpen son Patrimonio Mundial natural.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-austria" }
+      ]
+    },
+    {
+      "id": "at-mauthausen",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "Es el principal memorial del nazismo en Austria: el antiguo campo de concentración conserva barracones, la cantera con la 'escalera de la muerte' y un museo sobre los cerca de 90.000 muertos.",
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/austria/itinerary" }
+      ]
+    },
+    {
+      "id": "at-bregenzerwald",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "Es referencia europea de la arquitectura contemporánea en madera (Werkraum Haus de Zumthor, las paradas de autobús de BUS:STOP Krumbach) y conserva casas tradicionales de tejuelas. En Schwarzenberg hay un museo dedicado a Angelika Kauffmann.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-austria" }
+      ]
+    },
+    {
+      "id": "at-bregenz",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "El Festival de Bregenz monta ópera en un escenario flotante sobre el lago de Constanza, y el Kunsthaus de Peter Zumthor es un museo de arte contemporáneo de referencia. La Oberstadt medieval y la Martinsturm completan la visita.",
+      "fuentes": [
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/austria/" }
+      ]
+    },
+    {
+      "id": "at-st-anton",
+      "puntaje": 1,
+      "unesco": false,
+      "justificacion": "Es una estación de esquí; tiene un museo local sobre la historia del esquí en el Arlberg.",
+      "fuentes": []
+    },
+    {
+      "id": "at-lech-zurs",
+      "puntaje": 1,
+      "unesco": false,
+      "justificacion": "Estación de esquí con la iglesia gótica de San Nicolás y el Skyspace de James Turrell como únicos atractivos culturales.",
+      "fuentes": []
+    },
+    {
+      "id": "at-kitzbuhel",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Pequeño casco medieval amurallado de casas pintadas y museo local con la historia de la carrera del Hahnenkamm.",
+      "fuentes": []
+    },
+    {
+      "id": "at-solden-otztal",
+      "puntaje": 1,
+      "unesco": false,
+      "justificacion": "El interés cultural se limita a la instalación cinematográfica 007 Elements en el Gaislachkogl y al poblado Ötzi de Umhausen.",
+      "fuentes": []
+    },
+    {
+      "id": "at-gesause",
+      "puntaje": 1,
+      "unesco": false,
+      "justificacion": "Es un parque natural; el patrimonio cultural cercano, la abadía de Admont, se puntúa aparte.",
+      "fuentes": []
+    },
+    {
+      "id": "at-worthersee",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Klagenfurt conserva un casco renacentista con la fuente del Lindwurm, y en el lago está la iglesia de peregrinación de Maria Wörth sobre una península.",
+      "fuentes": []
+    },
+    {
+      "id": "at-hochosterwitz",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "Es el castillo más icónico de Carintia, sobre un peñón: el camino de subida atraviesa 14 puertas fortificadas construidas entre 1570 y 1586 contra las incursiones otomanas. Sigue en manos de la familia Khevenhüller.",
+      "fuentes": [
+        { "guia": "Visit Carinthia (turismo oficial)", "url": "https://www.visitcarinthia.at/attractions/castles/hochosterwitz-castle/" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/austria/eastern-carinthia/attractions/burg-hochosterwitz/a/poi-sig/1114009/1334191" }
+      ]
+    },
+    {
+      "id": "at-millstatt",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Tiene una antigua abadía benedictina con claustro románico y portal esculpido del siglo XII junto al lago.",
+      "fuentes": []
+    },
+    {
+      "id": "at-villach",
+      "puntaje": 1,
+      "unesco": false,
+      "justificacion": "Tiene un casco antiguo agradable y la iglesia de San Jacobo, pero sin monumentos de primer orden.",
+      "fuentes": []
+    },
+    {
+      "id": "at-neusiedler-see",
+      "puntaje": 3,
+      "unesco": true,
+      "justificacion": "Paisaje cultural Patrimonio Mundial, compartido con Hungría, moldeado durante milenios por pueblos de viticultores. Destaca Rust, con su casco de casas burguesas y nidos de cigüeña.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/772/" }
+      ]
+    },
+    {
+      "id": "li-vaduz",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "Capital con el Kunstmuseum Liechtenstein, el Landesmuseum sobre la historia del principado y el Hilti Art Foundation. El castillo de los príncipes del siglo XII domina la ciudad, aunque no se visita.",
+      "fuentes": [
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/liechtenstein/places/vaduz" }
+      ]
+    },
+    {
+      "id": "li-malbun",
+      "puntaje": 1,
+      "unesco": false,
+      "justificacion": "Es una estación de montaña; solo la Capilla de la Paz aporta algo de interés.",
+      "fuentes": []
+    },
+    {
+      "id": "li-triesenberg",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Pueblo fundado por colonos walser en el siglo XIII, con un museo dedicado a esa cultura alpina y casas tradicionales de madera.",
+      "fuentes": []
+    },
+    {
+      "id": "li-castillo-gutenberg",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Es un castillo medieval sobre una colina en Balzers, reconstruido a principios del siglo XX, y el único del país que se puede visitar.",
+      "fuentes": []
+    }
+  ],
+  "nuevos": [
+    {
+      "id": "ch-st-gallen",
+      "nombre": "San Galo (Abadía de San Galo)",
+      "pais_iso": "CH",
+      "region": "San Galo",
+      "lat": 47.4233,
+      "lng": 9.377,
+      "tipo": "monumento",
+      "puntaje": 5,
+      "unesco": true,
+      "justificacion": "Patrimonio Mundial por ser el modelo de gran monasterio carolingio. Su biblioteca barroca es una de las más antiguas y ricas del mundo y guarda el plano arquitectónico en pergamino más antiguo que se conoce. La catedral rococó completa el recinto.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/268/" }
+      ]
+    },
+    {
+      "id": "ch-mustair",
+      "nombre": "Convento de San Juan de Müstair",
+      "pais_iso": "CH",
+      "region": "Grisones (Val Müstair)",
+      "lat": 46.6294,
+      "lng": 10.4475,
+      "tipo": "monumento",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "Patrimonio Mundial: convento fundado hacia 775, probablemente por orden de Carlomagno. Su iglesia conserva el ciclo de frescos carolingios más importante que se mantiene en su lugar original, y sigue habitado por monjas benedictinas.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/269/" }
+      ]
+    },
+    {
+      "id": "ch-la-chaux-de-fonds",
+      "nombre": "La Chaux-de-Fonds y Le Locle (urbanismo relojero)",
+      "pais_iso": "CH",
+      "region": "Neuchâtel (Jura)",
+      "lat": 47.1,
+      "lng": 6.826,
+      "tipo": "ciudad",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "Patrimonio Mundial: dos ciudades replanificadas tras incendios a principios del siglo XIX en franjas paralelas donde se mezclan viviendas y talleres, al servicio de la relojería. Siguen siendo centros relojeros activos y se visitan con el Museo Internacional de Relojería y la casa natal de Le Corbusier.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/1302/" }
+      ]
+    },
+    {
+      "id": "ch-augusta-raurica",
+      "nombre": "Augusta Raurica (ciudad romana de Augst)",
+      "pais_iso": "CH",
+      "region": "Basilea-Campiña",
+      "lat": 47.5333,
+      "lng": 7.7219,
+      "tipo": "monumento",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "Es el mayor parque arqueológico de Suiza, en una colonia romana a orillas del Rin que llegó a unos 20.000 habitantes. Conserva el teatro y una casa romana reconstruida, y su museo expone el tesoro de plata de Kaiseraugst. Está a 11 km de Basilea.",
+      "fuentes": [
+        { "guia": "MySwitzerland", "url": "https://www.myswitzerland.com/en/experiences/augusta-raurica-the-roman-city/" }
+      ]
+    },
+    {
+      "id": "at-admont",
+      "nombre": "Abadía de Admont",
+      "pais_iso": "AT",
+      "region": "Estiria",
+      "lat": 47.5753,
+      "lng": 14.4608,
+      "tipo": "monumento",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "Abadía benedictina cuya sala de biblioteca, de 1776, es la mayor biblioteca monástica del mundo: 70 m de largo, frescos de Bartolomeo Altomonte y unos 60.000 volúmenes a la vista. Es una obra maestra del barroco tardío y queda a la entrada del Parque Nacional Gesäuse.",
+      "fuentes": [
+        { "guia": "Stift Admont (oficial)", "url": "https://stiftadmont.at/en/about-the-abbey-library/" }
+      ]
+    },
+    {
+      "id": "at-carnuntum",
+      "nombre": "Carnuntum (parque arqueológico romano)",
+      "pais_iso": "AT",
+      "region": "Baja Austria",
+      "lat": 48.111,
+      "lng": 16.864,
+      "tipo": "monumento",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "Fue capital de la Panonia Superior y es parte del Patrimonio Mundial del Limes del Danubio. Tiene la reconstrucción más ambiciosa de una ciudad romana en su emplazamiento original (casas, termas) y el arco del Heidentor. Está a 40 km de Viena.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/1608/" }
+      ]
+    },
+    {
+      "id": "at-semmering",
+      "nombre": "Ferrocarril del Semmering",
+      "pais_iso": "AT",
+      "region": "Baja Austria / Estiria",
+      "lat": 47.634,
+      "lng": 15.83,
+      "tipo": "monumento",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "Patrimonio Mundial: 41 km de ferrocarril de montaña (1848-1854), con viaductos de piedra de varios pisos y túneles. Fue la primera gran línea alpina del mundo y dio origen a un paisaje de villas y hoteles de veraneo, como el Südbahnhotel.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/785/maps/" },
+        { "guia": "UNESCO (decisión de inscripción)", "url": "https://whc.unesco.org/en/decisions/2746/" }
+      ]
+    }
+  ]
+}

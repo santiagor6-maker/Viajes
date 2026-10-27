@@ -1,0 +1,737 @@
+{
+  "agente": "naturaleza",
+  "subregion": "francia-alpes",
+  "ronda": 1,
+  "paises": ["CH", "AT", "LI"],
+  "puntajes": [
+    {
+      "id": "ch-lucerna",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "Ciudad a orillas del lago de los Cuatro Cantones, rodeada de montañas prealpinas de acceso inmediato. El Pilatus se sube en el tren cremallera más empinado del mundo y el Rigi completa las vistas sobre lagos y Alpes.",
+      "actividad": "Barco por el lago de los Cuatro Cantones hasta Alpnachstad y subida al Pilatus en el tren cremallera",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/switzerland/central-switzerland/" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/switzerland/luzern-and-central-switzerland/places/luzern" }
+      ]
+    },
+    {
+      "id": "ch-zermatt",
+      "puntaje": 5,
+      "unesco": false,
+      "justificacion": "Paisaje de alta montaña de clase mundial al pie del Matterhorn. En tres de los cinco lagos de la ruta el pico se refleja en el agua cuando hace buen tiempo. La temporada de senderismo en altura va de junio a septiembre.",
+      "actividad": "5-Seenweg (ruta n.º 11): Blauherd–Stellisee–Grindjisee–Grünsee–Moosjisee–Leisee–Sunnegga, 9,8 km, unas 2 h 30",
+      "fuentes": [
+        { "guia": "Zermatt Tourismus (oficial)", "url": "https://www.zermatt.ch/en/Media/List-Tours/Hikes/5-Lakes-Walk-Nr.-11" },
+        { "guia": "Switzerland Tourism (oficial)", "url": "https://www.myswitzerland.com/en/experiences/route/5-seenweg-zermatt/" }
+      ]
+    },
+    {
+      "id": "ch-grindelwald-jungfrau",
+      "puntaje": 5,
+      "unesco": true,
+      "justificacion": "Corazón del sitio natural UNESCO Alpes Suizos Jungfrau-Aletsch, el primero de los Alpes: 824 km², un tercio cubierto de glaciares, con el macizo Eiger-Mönch-Jungfrau en el centro y unos 50 picos de más de 3500 m.",
+      "actividad": "Eiger Trail al pie de la cara norte del Eiger (Eigergletscher–Alpiglen) y First Cliff Walk sobre Grindelwald",
+      "fuentes": [
+        { "guia": "Sitio UNESCO Jungfrau-Aletsch (gestión oficial)", "url": "https://jungfraualetsch.ch/en/world-heritage/world-heritage-site/" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/switzerland/things-to-do/" }
+      ]
+    },
+    {
+      "id": "ch-lauterbrunnen",
+      "puntaje": 5,
+      "unesco": true,
+      "justificacion": "Valle glaciar en U con paredes verticales y más de 70 cascadas, entre ellas Staubbach y Trümmelbach, que cae por dentro de la montaña. La cabecera del valle entra en el sitio UNESCO Jungfrau-Aletsch y Mürren y Gimmelwald son balcones con vistas al Eiger, el Mönch y la Jungfrau.",
+      "actividad": "Paseo por el fondo del valle de Lauterbrunnen a las cascadas de Trümmelbach y ruta Mürren–Gimmelwald",
+      "fuentes": [
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/switzerland/berner-oberland/places/lauterbrunnen" },
+        { "guia": "Sitio UNESCO Jungfrau-Aletsch (gestión oficial)", "url": "https://jungfraualetsch.ch/en/world-heritage/world-heritage-site/" }
+      ]
+    },
+    {
+      "id": "ch-interlaken",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "Está entre los lagos de Thun y Brienz y es la base para entrar a la región del Jungfrau. El entorno es muy bueno, aunque el pueblo en sí es un núcleo turístico.",
+      "actividad": "Barranquismo en los desfiladeros de la región del Jungfrau y excursión en tren al Jungfraujoch",
+      "fuentes": [
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/interlaken/" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/switzerland/bernese-oberland/" }
+      ]
+    },
+    {
+      "id": "ch-brienz",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "Pueblo a orillas del lago de Brienz, de aguas turquesa, con subida panorámica al Rothorn Kulm sobre el lago y los Alpes berneses.",
+      "actividad": "Tren de vapor cremallera Brienz–Rothorn Kulm, en servicio desde 1892",
+      "fuentes": [
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/10-best-things-to-do-in-switzerland" }
+      ]
+    },
+    {
+      "id": "ch-berna",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Ciudad en un meandro del río Aare. Lo natural más destacado es bañarse en el río en verano, pero la experiencia es urbana.",
+      "actividad": "Baño y deriva por el Aare en verano",
+      "fuentes": []
+    },
+    {
+      "id": "ch-ginebra",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Ciudad a orillas del lago Lemán, con baños en el lago y jardín botánico. La naturaleza es un complemento del entorno urbano.",
+      "actividad": "Baño en el lago en los Bains des Pâquis",
+      "fuentes": []
+    },
+    {
+      "id": "ch-lausana",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Ciudad en pendiente sobre el lago Lemán. Los viñedos de Lavaux y los Alpes quedan cerca, pero el lugar es sobre todo urbano.",
+      "actividad": "Paseo por la orilla de Ouchy",
+      "fuentes": []
+    },
+    {
+      "id": "ch-lavaux",
+      "puntaje": 3,
+      "unesco": true,
+      "justificacion": "Terrazas de viñedo (paisaje cultural UNESCO) que bajan en pendiente hasta el lago Lemán, con los Alpes de Saboya enfrente. Es un paisaje modelado por el ser humano y muy cómodo para caminar.",
+      "actividad": "Caminata entre terrazas de Lutry a Saint-Saphorin por los senderos de los viñedos o por la carretera de la Corniche",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/switzerland/things-to-do/" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-switzerland" }
+      ]
+    },
+    {
+      "id": "ch-montreux-chillon",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "Paseo junto al lago de clima suave, con subida de montaña directa desde la ciudad a los Rochers-de-Naye, con vistas al Lemán y a los Alpes.",
+      "actividad": "Tren cremallera Montreux–Rochers-de-Naye y paseo por la orilla hasta Chillon",
+      "fuentes": [
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/switzerland/frommers-favorite-experiences/" }
+      ]
+    },
+    {
+      "id": "ch-gruyeres",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Pueblo en un cerro rodeado de prados prealpinos de la Gruyère. Hay naturaleza amable alrededor, pero el interés es sobre todo cultural y gastronómico.",
+      "actividad": "Paseo por los prados prealpinos en torno al pueblo",
+      "fuentes": []
+    },
+    {
+      "id": "ch-zurich",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Gran ciudad con lago, baños en el Limmat y el Uetliberg como mirador cercano. La naturaleza es periurbana.",
+      "actividad": "Subida al Uetliberg en tren y baño en el lago",
+      "fuentes": []
+    },
+    {
+      "id": "ch-basilea",
+      "puntaje": 1,
+      "unesco": false,
+      "justificacion": "Entorno urbano. Lo único natural destacable es bajar el Rin flotando en verano.",
+      "actividad": "Bajar el Rin flotando (Rheinschwimmen)",
+      "fuentes": []
+    },
+    {
+      "id": "ch-cataratas-del-rin",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "Es la mayor cascada llana de Europa. Se recorre todo el año desde las plataformas del castillo de Laufen y en barco hasta la roca central, a la que solo se llega por agua.",
+      "actividad": "Barco hasta la roca central (Mittelfelsen) y miradores del Schloss Laufen",
+      "fuentes": [
+        { "guia": "Switzerland Tourism (oficial)", "url": "https://www.myswitzerland.com/de-at/erlebnisse/der-rheinfall/" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/points-of-interest/rheinfall/1062533" }
+      ]
+    },
+    {
+      "id": "ch-stein-am-rhein",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Pueblo a orillas del Rin justo donde sale del lago Inferior de Constanza. Tiene paisaje fluvial agradable, pero el interés es arquitectónico.",
+      "actividad": "Paseo en barco por el Rin hacia Schaffhausen",
+      "fuentes": []
+    },
+    {
+      "id": "ch-appenzell",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "Las colinas verdes del Appenzellerland están al pie del macizo del Alpstein y del Säntis, con lagos de montaña como el Seealpsee y rutas muy accesibles en teleférico.",
+      "actividad": "Teleférico a la Ebenalp, cueva de Wildkirchli, Berggasthaus Aescher y bajada al Seealpsee",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/switzerland/things-to-do/" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/switzerland" }
+      ]
+    },
+    {
+      "id": "ch-lugano",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "Lago prealpino rodeado de montes con funiculares, el Monte Brè y el San Salvatore, y senderos de orilla hasta pueblos como Gandria.",
+      "actividad": "Funicular al Monte Brè y Sentiero dell'Olivo hasta Gandria",
+      "fuentes": [
+        { "guia": "Time Out", "url": "https://www.timeout.com/switzerland/things-to-do/best-switzerland-attractions" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/switzerland/ticino" }
+      ]
+    },
+    {
+      "id": "ch-locarno-ascona",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "Orilla norte del lago Maggiore, con clima casi mediterráneo y las islas de Brissago y su jardín botánico. Es la puerta de entrada a los valles Verzasca y Maggia.",
+      "actividad": "Barco a las islas de Brissago (jardín botánico) y funicular-teleférico a Cardada",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/destinations/switzerland/ticino" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/switzerland/ticino" }
+      ]
+    },
+    {
+      "id": "ch-bellinzona",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Ciudad de castillos en el fondo del valle del Tesino. Hay montañas cerca, pero no es un destino de naturaleza.",
+      "actividad": "Paseo por la muralla entre Castelgrande y Montebello",
+      "fuentes": []
+    },
+    {
+      "id": "ch-valle-verzasca",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "Valle de aguas verde esmeralda y pozas de granito. Junto al Ponte dei Salti, en Lavertezzo, está la zona de baño más popular del valle. Hay que tener cuidado con la corriente, que es imprevisible, y llegar temprano.",
+      "actividad": "Sentiero Verzasca (ruta n.º 74), por la antigua senda de mulas hasta Sonogno, con baño junto al Ponte dei Salti",
+      "fuentes": [
+        { "guia": "Switzerland Tourism (oficial)", "url": "https://www.myswitzerland.com/en-gb/experiences/route/sentiero-verzasca/" },
+        { "guia": "PostAuto (oficial)", "url": "https://www.postauto.ch/it/offerte-per-il-tempo-libero/idee-per-escursioni/valle-verzasca" }
+      ]
+    },
+    {
+      "id": "ch-st-moritz-engadina",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "Meseta de lagos de la Alta Engadina, a unos 1800 m, rodeada de cumbres de más de 3000 m y con el macizo de la Bernina cerca. Es naturaleza alpina de primer nivel y con muy buena infraestructura.",
+      "actividad": "Senderismo junto a los lagos de la Alta Engadina (St. Moritz–Sils) y subidas en funicular a los miradores",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/switzerland/best-places-to-visit/" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/switzerland/graubunden/places/st-moritz" }
+      ]
+    },
+    {
+      "id": "ch-parque-nacional-suizo",
+      "puntaje": 5,
+      "unesco": false,
+      "justificacion": "Único parque nacional de Suiza (1914) y reserva de protección estricta, con íbices, ciervos, quebrantahuesos y marmotas. Tiene unos 100 km de senderos señalizados en 21 rutas y en él no se admiten perros. El Centro del Parque Nacional en Zernez es el punto de partida.",
+      "actividad": "Ruta Zernez–Chamanna Cluozza (8,2 km, unas 3,5 h; ruta n.º 7). Es la única cabaña dentro del parque donde se puede dormir",
+      "fuentes": [
+        { "guia": "Parque Nacional Suizo (oficial)", "url": "https://nationalpark.ch/en/visit/" },
+        { "guia": "Graubünden Ferien (oficial)", "url": "https://www.graubuenden.ch/en/attractions/parks/swiss-national-park/48-hours" },
+        { "guia": "SOB (ficha de la ruta)", "url": "https://unterwegs.sob.ch/en/tour/zernez-chamanna-cluozza" }
+      ]
+    },
+    {
+      "id": "ch-guarda",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "Pueblo a 1650 m en una terraza sobre la Baja Engadina, con vistas al Piz Buin, a unos 20 km de Zernez y del Parque Nacional Suizo.",
+      "actividad": "Senderismo de balcón por la Baja Engadina con vistas al macizo del Piz Buin",
+      "fuentes": [
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/scenic-swiss-villages-to-put-on-your-travel-itinerary" }
+      ]
+    },
+    {
+      "id": "ch-glaciar-aletsch",
+      "puntaje": 5,
+      "unesco": true,
+      "justificacion": "El Gran Glaciar de Aletsch es el mayor de los Alpes, con unos 20 km, y el eje del sitio natural UNESCO Jungfrau-Aletsch, que se inscribió en 2001 y se amplió en 2007. Los miradores son fáciles de alcanzar en teleférico desde Fiesch, Bettmeralp y Riederalp.",
+      "actividad": "Mirador del Eggishorn y ruta panorámica Fiescheralp–Bettmeralp sobre el glaciar",
+      "fuentes": [
+        { "guia": "Sitio UNESCO Jungfrau-Aletsch (gestión oficial)", "url": "https://jungfraualetsch.ch/en/world-heritage/world-heritage-site/" },
+        { "guia": "Valais/Wallis Promotion (oficial)", "url": "https://www.valais.ch/en/explore/activities/natural-sites/nature-parks/unesco-world-heritage-swiss-alps-jungfrau-aletsch" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-hikes-in-switzerland" }
+      ]
+    },
+    {
+      "id": "ch-saas-fee",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "Pueblo sin coches en un circo glaciar rodeado de cumbres de 4000 m del Valais. Se puede esquiar en el glaciar con nieve garantizada y en verano hay alta montaña de fácil acceso.",
+      "actividad": "Teleférico y metro alpino al Allalin sobre el glaciar Fee; esquí en glaciar",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-ski-in-switzerland" }
+      ]
+    },
+    {
+      "id": "ch-engelberg-titlis",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "Valle alpino a una hora de Lucerna, con subida al glaciar del Titlis y el lago de montaña Trübsee a medio camino.",
+      "actividad": "Teleférico al Titlis (glaciar y puente colgante Titlis Cliff Walk) y paseo alrededor del Trübsee",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/switzerland/engelberg/titlis" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/switzerland/luzern-and-central-switzerland/places/luzern/things-to-do/sights" }
+      ]
+    },
+    {
+      "id": "ch-murten",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Pueblo amurallado a orillas del lago de Morat, con un paisaje lacustre suave.",
+      "actividad": "Paseo por la orilla y baño en el lago de Morat",
+      "fuentes": []
+    },
+    {
+      "id": "ch-einsiedeln",
+      "puntaje": 1,
+      "unesco": false,
+      "justificacion": "Destino religioso. Solo tiene cerca el embalse del Sihlsee y colinas prealpinas.",
+      "actividad": "Paseo por el Sihlsee",
+      "fuentes": []
+    },
+    {
+      "id": "ch-klosters",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "Pueblo de montaña del Prättigau, junto a Davos, con acceso a la Silvretta y a extensas zonas de senderismo y esquí.",
+      "actividad": "Teleférico a la Gotschna y senderismo hacia la Silvretta",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/switzerland/klosters" }
+      ]
+    },
+    {
+      "id": "at-viena",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Gran capital con el Bosque de Viena en sus colinas y el Parque Nacional Donau-Auen a unos 35 km. La experiencia es urbana.",
+      "actividad": "Caminata por el Wienerwald (Kahlenberg) o excursión al Parque Nacional Donau-Auen",
+      "fuentes": []
+    },
+    {
+      "id": "at-salzburgo",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Ciudad con colinas urbanas, el Kapuzinerberg y el Mönchsberg, y el Untersberg en el límite de la ciudad. La naturaleza es un complemento.",
+      "actividad": "Paseo por el Mönchsberg y teleférico al Untersberg",
+      "fuentes": []
+    },
+    {
+      "id": "at-hallstatt",
+      "puntaje": 5,
+      "unesco": true,
+      "justificacion": "Paisaje cultural UNESCO Hallstatt-Dachstein/Salzkammergut, con montañas enormes que se levantan de golpe sobre valles estrechos y el lago de Hallstatt. Abarca el macizo del Dachstein, con sus cuevas de hielo y el mirador 5fingers.",
+      "actividad": "Teleférico al Krippenstein, mirador 5fingers sobre el lago y cueva de hielo del Dachstein",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/806/" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/austria/salzkammergut/things-to-do/sights" }
+      ]
+    },
+    {
+      "id": "at-wachau",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "Tramo del Danubio entre Melk y Krems con laderas de viñedo en terrazas y albaricoqueros. Es paisaje cultural UNESCO y uno de los valles fluviales más bonitos de Europa central.",
+      "actividad": "Bici por la ruta del Danubio entre Melk y Krems (unos 36 km) o bajada en barco",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/970" },
+        { "guia": "Welterbe Wachau (oficial)", "url": "https://www.weltkulturerbe-wachau.at/en/wachau-cultural-landscape" }
+      ]
+    },
+    {
+      "id": "at-innsbruck",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "Es la única gran ciudad de los Alpes. Desde el centro, un funicular y teleféricos suben a la Nordkette, en el Parque Natural del Karwendel.",
+      "actividad": "Funicular de Zaha Hadid y teleférico de la Nordkette hasta el Hafelekar (unos 2250 m)",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-austria" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/austria/travel/austrian-alps-places-to-visit" }
+      ]
+    },
+    {
+      "id": "at-hall-in-tirol",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Casco antiguo en el valle del Inn, con el Karwendel a la vista. Hay algo de naturaleza cerca, pero el interés es urbano.",
+      "actividad": "Excursión al valle de Halltal, en el Karwendel",
+      "fuentes": []
+    },
+    {
+      "id": "at-grossglockner",
+      "puntaje": 5,
+      "unesco": false,
+      "justificacion": "El P. N. Hohe Tauern es el mayor parque nacional de los Alpes (1856 km²) y el más antiguo de Austria, y en él está el Grossglockner, de 3798 m. La carretera alpina sube hasta la Kaiser-Franz-Josefs-Höhe, sobre el Pasterze, de 9 km y el glaciar más grande de los Alpes Orientales. Abre de mayo a octubre.",
+      "actividad": "Carretera alpina del Grossglockner (48 km, 36 curvas) hasta la Kaiser-Franz-Josefs-Höhe y el Edelweißspitze (2572 m). En 08/2026 el sendero Gamsgrubenweg solo era transitable hasta el túnel 6",
+      "fuentes": [
+        { "guia": "Grossglockner Hochalpenstraßen AG (oficial)", "url": "https://data.grossglockner.at/gg/en/grossglockner/kaiserfranzjosefshoehe" },
+        { "guia": "Salzburgerland Tourismus (oficial)", "url": "https://www.salzburg.info/en/travel-info/infos/grossglockner-high-alpine-road_az_9427" },
+        { "guia": "Consejo de Europa (Convenio de Berna)", "url": "https://www.coe.int/en/web/bern-convention/austria" }
+      ]
+    },
+    {
+      "id": "at-cascadas-krimml",
+      "puntaje": 5,
+      "unesco": false,
+      "justificacion": "Son las cascadas más altas de Austria: 380 m en tres saltos sobre el Krimmler Ache, dentro del P. N. Hohe Tauern. Tienen el Diploma Europeo de Áreas Protegidas del Consejo de Europa, que las cuenta entre las grandes cascadas del mundo.",
+      "actividad": "Sendero de las cascadas (Wasserfallweg), que sube junto a los tres saltos con miradores",
+      "fuentes": [
+        { "guia": "Consejo de Europa (Diploma Europeo)", "url": "https://www.coe.int/en/web/bern-convention/-/krimml-waterfalls-natural-site" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-national-parks-austria" }
+      ]
+    },
+    {
+      "id": "at-werfen-eisriesenwelt",
+      "puntaje": 5,
+      "unesco": false,
+      "justificacion": "La Eisriesenwelt, en el Tennengebirge, es la mayor cueva de hielo del mundo, con más de 42 km de galerías, de las que solo el primer kilómetro tiene hielo y se visita. Está a unos 40 km al sur de Salzburgo.",
+      "actividad": "Visita guiada de 1 h 15 min con lámparas de carburo por el primer kilómetro de galerías heladas",
+      "fuentes": [
+        { "guia": "Austrian Press & Information Service (Embajada de Austria en EE. UU.)", "url": "https://austria.org/featured-austrian-explorer/the-worlds-largest-ice-cave" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/points-of-interest/eisriesenwelt/504540" }
+      ]
+    },
+    {
+      "id": "at-zell-am-see-kaprun",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "Lago alpino al borde del P. N. Hohe Tauern, con el glaciar del Kitzsteinhorn sobre Kaprun y el Schmittenhöhe como mirador. Hay naturaleza de alta montaña con acceso fácil todo el año.",
+      "actividad": "Teleférico al glaciar del Kitzsteinhorn y subida al Schmittenhöhe con vistas al lago",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-austria" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/austria/itineraries/" }
+      ]
+    },
+    {
+      "id": "at-bad-gastein",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "Balneario alpino construido alrededor de una cascada que atraviesa el pueblo, en el valle de Gastein, que entra en el P. N. Hohe Tauern.",
+      "actividad": "Paseo por la cascada de Gastein y senderismo hacia el valle de Kötschach",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-austria" }
+      ]
+    },
+    {
+      "id": "at-st-wolfgang",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "El Wolfgangsee es uno de los grandes lagos del Salzkammergut. Desde el Schafberg se ven a la vez varios lagos de la región.",
+      "actividad": "Tren cremallera al Schafberg desde St. Wolfgang y barco por el Wolfgangsee hasta St. Gilgen",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-day-trips-from-salzburg" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/austria/central-austria/the-salzkammergut/" }
+      ]
+    },
+    {
+      "id": "at-bad-ischl",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Ciudad termal en el centro del Salzkammergut, buena base para ir a los lagos, aunque ella misma no es un destino de naturaleza.",
+      "actividad": "Teleférico al Katrin, con vistas a los lagos",
+      "fuentes": []
+    },
+    {
+      "id": "at-graz",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Ciudad con el Schlossberg como colina-parque. Las colinas del sur de Estiria quedan a unos 40 km.",
+      "actividad": "Subida a pie al Schlossberg",
+      "fuentes": []
+    },
+    {
+      "id": "at-ruta-vino-estiria-sur",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Colinas onduladas de viñedo junto a la frontera eslovena. El paisaje rural es bonito, pero el interés principal es el vino.",
+      "actividad": "Paseo entre viñedos por la Südsteirische Weinstraße",
+      "fuentes": []
+    },
+    {
+      "id": "at-linz",
+      "puntaje": 1,
+      "unesco": false,
+      "justificacion": "Ciudad industrial y cultural a orillas del Danubio, sin naturaleza relevante propia.",
+      "actividad": "Paseo por la orilla del Danubio y subida al Pöstlingberg",
+      "fuentes": []
+    },
+    {
+      "id": "at-steyr-kalkalpen",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "El P. N. Kalkalpen, a unos 30 km al sur de Steyr, protege hayedos primarios que son Patrimonio Natural UNESCO desde 2017 dentro del sitio de los hayedos primarios de Europa. Junto con Dürrenstein-Lassingtal es el único sitio natural UNESCO de Austria. Steyr es la ciudad histórica de entrada.",
+      "actividad": "Rutas guiadas por los hayedos UNESCO del Reichraminger Hintergebirge, en el P. N. Kalkalpen",
+      "fuentes": [
+        { "guia": "Parque Nacional Kalkalpen (oficial)", "url": "https://en.kalkalpen.at/unesco-weltnaturerbe" },
+        { "guia": "Parque Nacional Kalkalpen (oficial)", "url": "https://www.kalkalpen.at/en/Experience_UNESCO_World_Natural_Heritage_beech_forests" }
+      ]
+    },
+    {
+      "id": "at-mauthausen",
+      "puntaje": 1,
+      "unesco": false,
+      "justificacion": "Lugar de memoria sobre el valle del Danubio, sin interés natural.",
+      "actividad": "Ninguna relevante",
+      "fuentes": []
+    },
+    {
+      "id": "at-bregenzerwald",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "Región rural de prados alpinos, bosques y pueblos de madera entre el lago de Constanza y el Arlberg, con buen senderismo de media montaña.",
+      "actividad": "Senderismo por pastos alpinos y queserías de la KäseStrasse",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-austria" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/austria/travel/austrian-alps-places-to-visit" }
+      ]
+    },
+    {
+      "id": "at-bregenz",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Ciudad a orillas del lago de Constanza, con el Pfänder como mirador. Tiene algo de naturaleza cerca, pero es una visita urbana y de festival.",
+      "actividad": "Teleférico al Pfänder, con vistas al lago",
+      "fuentes": []
+    },
+    {
+      "id": "at-st-anton",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "Estación de alta montaña del Arlberg, con terreno exigente y mucho fuera de pista. En verano da acceso a los valles del Verwall.",
+      "actividad": "Esquí y fuera de pista en el Arlberg; en verano, senderismo por el Verwall",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-austria" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/austria/travel/austrian-alps-places-to-visit" }
+      ]
+    },
+    {
+      "id": "at-lech-zurs",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "Pueblos de alta montaña del Arlberg, con gran dominio esquiable y, en verano, rutas por el Lechquellengebirge hacia el lago Formarinsee.",
+      "actividad": "Esquí en el Arlberg; en verano, ruta al Formarinsee al pie de la Rote Wand",
+      "fuentes": [
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/austria/frommers-favorite-experiences" }
+      ]
+    },
+    {
+      "id": "at-kitzbuhel",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "Estación de los Alpes de Kitzbühel, con montañas suaves y buena temporada de verano. En el Kitzbüheler Horn hay un jardín alpino.",
+      "actividad": "Subida al Kitzbüheler Horn y su jardín alpino",
+      "fuentes": [
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/austria/frommers-favorite-experiences" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/austria" }
+      ]
+    },
+    {
+      "id": "at-solden-otztal",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "El Ötztal, uno de los valles más altos y glaciares del Tirol, termina en los glaciares de Sölden y en la zona de la Wildspitze, el pico más alto del Tirol.",
+      "actividad": "Teleférico al Gaislachkogl y carretera glaciar a los glaciares Rettenbach y Tiefenbach",
+      "fuentes": [
+        { "guia": "Time Out", "url": "https://www.timeout.com/austria/travel/austrian-alps-places-to-visit" }
+      ]
+    },
+    {
+      "id": "at-gesause",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "Parque nacional (categoría II de la UICN) donde el Enns atraviesa los Alpes calizos del Norte por una garganta estrecha bajo paredes de roca. Tiene más de 500 km de senderos y nueve refugios.",
+      "actividad": "Senderismo hacia la Planspitze desde Gstatterboden; kayak en el Enns, solo para expertos",
+      "fuentes": [
+        { "guia": "Parque Nacional Gesäuse (oficial)", "url": "https://nationalpark-gesaeuse.at/en/?p=4359" },
+        { "guia": "Steiermark Tourismus (oficial)", "url": "https://steiermark.com/en/Gesaeuse/Region/Mountain-activities/Hiking" }
+      ]
+    },
+    {
+      "id": "at-worthersee",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "Gran lago alpino de Carintia con agua templada de mayo a octubre y playas públicas.",
+      "actividad": "Baño en las playas públicas y barco entre Klagenfurt y Velden",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/austria/the-south/klagenfurt" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/austria/suggested-itineraries/the-southern-lake-district/" }
+      ]
+    },
+    {
+      "id": "at-hochosterwitz",
+      "puntaje": 1,
+      "unesco": false,
+      "justificacion": "Castillo sobre un peñón calizo. El interés es monumental.",
+      "actividad": "Subida a pie al castillo por sus 14 puertas",
+      "fuentes": []
+    },
+    {
+      "id": "at-millstatt",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "Lago de Carintia con agua limpia y templada, al pie de los Nockberge.",
+      "actividad": "Baño y paseos de orilla en el Millstätter See",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/austria/itineraries/" }
+      ]
+    },
+    {
+      "id": "at-villach",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "Base alpina en Carintia con paisaje de montaña y el lago Faak muy cerca.",
+      "actividad": "Baño en el Faaker See y excursión a la montaña",
+      "fuentes": [
+        { "guia": "Time Out", "url": "https://www.timeout.com/europe/travel/most-underrated-travel-destinations-europe" }
+      ]
+    },
+    {
+      "id": "at-neusiedler-see",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "Lago estepario de juncales del Parque Nacional Neusiedler See-Seewinkel, punto clave de observación de aves con más de 350 especies, grandes colonias de garzas y avutarda. Forma parte del paisaje cultural UNESCO Fertő/Neusiedlersee.",
+      "actividad": "Excursión ornitológica con guardaparque desde el Centro del Parque Nacional en Illmitz; de mayo a septiembre, barco solar o canoa por los juncales",
+      "fuentes": [
+        { "guia": "Burgenland Tourismus (oficial)", "url": "https://burgenland.info/en/nature-experience-in-national-park" },
+        { "guia": "Burgenland Tourismus (oficial)", "url": "https://burgenland.info/en/dc/detail/Event/birds-in-the-national-park-o99kgb2k" }
+      ]
+    },
+    {
+      "id": "li-vaduz",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Capital en el valle del Rin con viñedos y laderas boscosas detrás. Las rutas de montaña empiezan en Triesenberg y Malbun.",
+      "actividad": "Sendero del castillo entre viñedos, sobre la ciudad",
+      "fuentes": []
+    },
+    {
+      "id": "li-malbun",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "Única estación del país, a 1600 m, en los Alpes del Rätikon. En verano es la base para muchas rutas de senderismo.",
+      "actividad": "Telesilla al Sareiserjoch y senderismo por los Alpes de Malbun",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/switzerland/north-east-and-liechtenstein/" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/liechtenstein/" }
+      ]
+    },
+    {
+      "id": "li-triesenberg",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Pueblo walser en ladera con vista panorámica del valle del Rin. Desde su barrio de Gaflei sale el Fürstensteig, que va como lugar nuevo.",
+      "actividad": "Miradores sobre el valle del Rin",
+      "fuentes": []
+    },
+    {
+      "id": "li-castillo-gutenberg",
+      "puntaje": 1,
+      "unesco": false,
+      "justificacion": "Castillo sobre una colina en Balzers. El interés es monumental.",
+      "actividad": "Ninguna relevante",
+      "fuentes": []
+    }
+  ],
+  "nuevos": [
+    {
+      "id": "ch-oeschinensee",
+      "nombre": "Lago Oeschinen (Oeschinensee, Kandersteg)",
+      "pais_iso": "CH",
+      "region": "Oberland bernés (Kandertal)",
+      "lat": 46.4986,
+      "lng": 7.7272,
+      "tipo": "lago",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "Lago glaciar turquesa bajo las paredes del macizo de la Blüemlisalp, en el valle de Kander, que no está cubierto por otros candidatos. Se llega a pie o en telecabina desde Kandersteg, en la línea de tren Spiez–Brig.",
+      "actividad": "Ruta Kandersteg–Oeschinensee (4,4 km, 1 h 45, dificultad moderada) y Panoramaweg alto sobre el lago",
+      "fuentes": [
+        { "guia": "Adelboden-Lenk-Kandersteg Tourismus (oficial)", "url": "https://adelboden-lenk-kandersteg.ch/en/activities/tour/detail/kandersteg-oeschinensee" }
+      ]
+    },
+    {
+      "id": "ch-sardona",
+      "nombre": "Arena Tectónica Suiza Sardona (Elm)",
+      "pais_iso": "CH",
+      "region": "Glaris / San Galo / Grisones",
+      "lat": 46.9186,
+      "lng": 9.1756,
+      "tipo": "naturaleza",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "Sitio natural UNESCO desde 2008 por su valor geológico: 32 850 ha de montaña con siete picos de más de 3000 m. En el cabalgamiento de Glaris se ven rocas antiguas encima de rocas más jóvenes. Cubre el noreste alpino de Suiza, que no tenía otros candidatos.",
+      "actividad": "Senderismo desde Elm hacia los Tschingelhörner para ver la línea del cabalgamiento de Glaris y el Martinsloch",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/1179" },
+        { "guia": "Consejo Federal Suizo", "url": "https://www.admin.ch/gov/en/start/documentation/media-releases.msg-id-20052.html" }
+      ]
+    },
+    {
+      "id": "at-achensee",
+      "nombre": "Lago Achensee (Pertisau, Achenkirch)",
+      "pais_iso": "AT",
+      "region": "Tirol",
+      "lat": 47.4336,
+      "lng": 11.7056,
+      "tipo": "lago",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "Es el mayor lago del Tirol, de origen glaciar, con 9 km de largo y 133 m de profundidad, entre el Karwendel y el Rofan. Tiene más de 500 km de senderos señalizados alrededor.",
+      "actividad": "Vuelta al lago desde Achenkirch (22,2 km, unas 5,5 h) o tramo llano Achenkirch–Pertisau (unos 13 km)",
+      "fuentes": [
+        { "guia": "Achensee Tourismus (oficial)", "url": "https://www.achensee.com/en/travel-information/facts-figures/" },
+        { "guia": "Tirol Werbung (oficial)", "url": "https://www.tyrol.com/activities/sport/hiking/hiking-tours/rund-um-den-achensee-achenkirch" }
+      ]
+    },
+    {
+      "id": "at-donau-auen",
+      "nombre": "Parque Nacional Donau-Auen (Orth an der Donau)",
+      "pais_iso": "AT",
+      "region": "Baja Austria / Viena",
+      "lat": 48.1456,
+      "lng": 16.7008,
+      "tipo": "parque",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "Bosques de ribera del Danubio entre Viena y Eslovaquia, a menos de una hora de la capital. El centro schlossORTH tiene una estación de observación subacuática.",
+      "actividad": "Centro schlossORTH (abierto del 20 de marzo al 1 de noviembre, de 9:00 a 17:00) y senderos de ribera; se llega en bici por la ruta del Danubio",
+      "fuentes": [
+        { "guia": "Parque Nacional Donau-Auen (oficial)", "url": "https://donauauen.at/en/visit/schlossorth-national-park-centre" },
+        { "guia": "Donau Niederösterreich Tourismus (oficial)", "url": "https://www.donau.com/en/the-danube-in-lower-austria/outings-activities/excursion-destinations/top-excursion-destinations/top-excursion-destinations/schlossorth-national-park-center/" }
+      ]
+    },
+    {
+      "id": "at-liechtensteinklamm",
+      "nombre": "Garganta de Liechtensteinklamm (St. Johann im Pongau)",
+      "pais_iso": "AT",
+      "region": "Salzburgo (Pongau)",
+      "lat": 47.3268,
+      "lng": 13.1931,
+      "tipo": "naturaleza",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "Es una de las gargantas más largas y profundas de los Alpes: 4000 m de largo y hasta 300 m de profundidad, a la entrada del valle de Grossarl. Está a unos 25 km de Werfen.",
+      "actividad": "Recorrido de 1 km por pasarelas, puentes y la escalera de caracol Helix, de 30 m",
+      "fuentes": [
+        { "guia": "Salzburgerland Tourismus (oficial)", "url": "https://salzburg.info/en/sights/excursions/liechtensteinklamm" }
+      ]
+    },
+    {
+      "id": "li-fuerstensteig",
+      "nombre": "Fürstensteig (Gaflei)",
+      "pais_iso": "LI",
+      "region": "Triesenberg",
+      "lat": 47.1436,
+      "lng": 9.5447,
+      "tipo": "naturaleza",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "Es la ruta más conocida del Rätikon en Liechtenstein: un sendero de cresta aéreo sobre el valle del Rin, con tramos asegurados con cables y barandillas. No es apta para quien sufre de vértigo. Sale de Gaflei, a unos 3 km de Triesenberg.",
+      "actividad": "Fürstensteig desde Gaflei (unos 6 km, 560 m de desnivel, 2,5 h, dificultad media)",
+      "fuentes": [
+        { "guia": "Switzerland Tourism (oficial)", "url": "https://www.myswitzerland.com/en/experiences/route/fuerstensteig/" }
+      ]
+    }
+  ]
+}
