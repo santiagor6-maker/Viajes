@@ -37,8 +37,8 @@ Las definiciones están en `.claude/agents/`.
    - Pide un buen reparto por regiones y variedad de categorías.
    - Si algo falta, devuelve el país a los especialistas con la lista concreta de lo que falta.
 5. **`revisor-calidad`** califica de 0 a 10 la salida de cada agente:
-   - Si la nota es menor a 9.5, el agente rehace su parte con los comentarios, hasta 3 rondas.
-   - Si tras 3 rondas no llega, el país queda marcado como "revisión pendiente".
+   - Si la nota es menor a 9.5, el agente rehace su parte con los comentarios, hasta 2 rondas.
+   - Si tras 2 rondas no llega, el país queda marcado como "revisión pendiente".
    - Las notas quedan en `data/revisiones/<continente>.json`.
 
 Europa se investiga por subregiones, definidas en `data/paises/europa.json`. Los archivos intermedios de cada agente quedan en `data/trabajo/<subregion>/`.

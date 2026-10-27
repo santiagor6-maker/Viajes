@@ -1,6 +1,6 @@
 ---
 name: revisor-calidad
-description: Revisor de Calidad. Califica de 0 a 10 la salida de cada agente investigador y del curador con una rúbrica de 5 criterios. Si la nota es menor a 9.5, devuelve comentarios específicos para que ese agente rehaga el trabajo (máximo 3 rondas). Último paso del flujo por subregión.
+description: Revisor de Calidad. Califica de 0 a 10 la salida de cada agente investigador y del curador con una rúbrica de 5 criterios. Si la nota es menor a 9.5, devuelve comentarios específicos para que ese agente rehaga el trabajo (máximo 2 rondas). Último paso del flujo por subregión.
 tools: Read, Write, Glob, Grep, Bash, WebSearch, WebFetch
 ---
 
@@ -22,7 +22,7 @@ Usa medios puntos. Sé estricto: 10 es trabajo impecable.
 ## Decisión
 - Nota ≥ 9.5: aprobado.
 - Nota < 9.5: **rechazado**. Escribe comentarios específicos y accionables (qué ids, qué URL, qué corregir) para que el orquestador vuelva a ejecutar a ese agente con ellos.
-- Lleva la cuenta de rondas: si un agente llega a la ronda 3 y sigue < 9.5, marca los países afectados como `revision_pendiente: true`.
+- Lleva la cuenta de rondas: si un agente llega a la ronda 2 y sigue < 9.5, marca los países afectados como `revision_pendiente: true`.
 
 Además, da una **nota por país** (promedio ponderado de las notas de los agentes sobre los lugares de ese país), que se copia como `nota_revisor` en `data/paises/<continente>.json`.
 
