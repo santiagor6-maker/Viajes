@@ -1,0 +1,448 @@
+{
+  "agente": "gastronomia-vino",
+  "subregion": "francia-alpes",
+  "ronda": 2,
+  "nota": "Ronda 2: puntuación cruzada de los nuevos de cultura-historia, naturaleza y adrenalina, y nueva búsqueda de fuentes para los lugares que en la ronda 1 se bajaron a 2. Suben con fuente: Valle del Loira (4), Alkmaar, Gouda, Arcachon, Nancy, Berna, Linz, Bad Ischl, Kitzbühel y Wörthersee (3). Siguen en 2 porque no apareció una fuente fiable: Lille (solo blogs de viaje) y La Haya (solo blogs y foros). Le Louis XV queda confirmado con tres estrellas en guide.michelin.com. No se encontró ninguna página de vinsvaldeloire.fr ni de Interloire, así que el Loira se respalda con las oficinas de turismo de Touraine y Amboise. La fuente de Les 3 Vallées (tres estrellas de Le 1947) es una oferta de empleo de Journal des Palaces, porque la lista Michelin de Courchevel no apareció en las búsquedas. Albi (Gaillac), Bourges (Menetou-Salon), Vézelay (AOC Vézelay), San Galo (St. Galler Bratwurst), Beemster (queso) y Carnuntum (DAC) quedan en 2 por falta de fuente. Se usaron 15 búsquedas, y WebFetch no resolvía guide.michelin.com ni tourainevaldeloire.com.",
+  "puntajes": [
+    {
+      "id": "fr-valle-del-loira",
+      "puntaje": 4,
+      "justificacion": "Es una región vinícola reconocida. Desde Amboise y Tours se visitan las bodegas excavadas en la toba de Vouvray, Montlouis, Rochecorbon y Chinon, como las Grandes Caves Saint Roch de Vouvray, una antigua cantera convertida en bodega. Las Caves Monmousseau de Montrichard tienen 15 km de galerías para crianza de vinos tranquilos y espumosos. Se suman los quesos de cabra de Touraine y las rillettes de Tours.",
+      "platos": ["Vouvray y Montlouis (chenin blanc)", "Chinon (cabernet franc)", "Sainte-maure-de-touraine", "Rillettes de Tours"],
+      "fuentes": [
+        {"guia": "Touraine Val de Loire (turismo oficial, sitios trogloditas)", "url": "https://www.tourainevaldeloire.com/en/activities/all-visits/troglodyte-sites/"},
+        {"guia": "Amboise Val de Loire (turismo oficial, cuevas trogloditas)", "url": "https://amboise-valdeloire.com/en/?p=4512"},
+        {"guia": "Val de Loire France (turismo regional, pueblos trogloditas)", "url": "https://www.valdeloire-france.com/?p=630057"}
+      ]
+    },
+    {
+      "id": "nl-alkmaar",
+      "puntaje": 3,
+      "justificacion": "Tiene el mercado de queso más conocido del país: cada viernes de 10:00 a 13:00, desde el último viernes de marzo hasta el último de septiembre, en el Waagplein, y los martes por la tarde en julio y agosto. La entrada es gratis y está el Museo del Queso en la Waag. Es buena comida local ligada a un producto propio.",
+      "platos": ["Queso gouda y edam de Holanda Septentrional", "Haring (arenque crudo)", "Kibbeling"],
+      "fuentes": [
+        {"guia": "Kaasmarkt Alkmaar (oficial)", "url": "https://www.kaasmarkt.nl/en/"},
+        {"guia": "Kaasmarkt Alkmaar (oficial, visita)", "url": "https://www.kaasmarkt.nl/en-gb/visit-the-cheese-market"}
+      ]
+    },
+    {
+      "id": "nl-gouda",
+      "puntaje": 3,
+      "justificacion": "Da nombre al queso más famoso de los Países Bajos. El mercado tradicional del queso se celebra los jueves de 10:00 a 12:30, de abril a finales de agosto, frente al ayuntamiento gótico, con tratos cerrados con un apretón de manos y pesaje en la Waag, que hoy aloja el museo del queso y la artesanía. Es además la cuna del stroopwafel.",
+      "platos": ["Queso gouda (jong, belegen, oud)", "Goudse stroopwafel", "Kaasbroodje"],
+      "fuentes": [
+        {"guia": "Welkom in Gouda (turismo oficial)", "url": "https://welkomingouda.nl/en/evenementen/gouda-kaasmarkt"},
+        {"guia": "Welkom in Gouda (turismo oficial, blog)", "url": "https://welkomingouda.nl/en/blog/gouda-kaasmarkt-de-ultieme-tips"}
+      ]
+    },
+    {
+      "id": "fr-duna-pilat-arcachon",
+      "puntaje": 3,
+      "justificacion": "La bahía de Arcachon es una de las grandes zonas ostrícolas de Francia. Según France.fr, todos los pueblos ostrícolas de la bahía, como L'Herbe, Le Canon o Piraillan en Cap Ferret, tienen al menos una cabaña de cata, y en algunas se dan talleres para aprender a abrir ostras. En el puerto de Larros, en Gujan-Mestras, decenas de cabañas se alinean junto al canal.",
+      "platos": ["Ostras del bassin d'Arcachon", "Ostras con crépinettes", "Vino blanco de Entre-deux-Mers"],
+      "fuentes": [
+        {"guia": "France.fr (turismo oficial)", "url": "https://www.france.fr/fr/article/huitres-bassin-darcachon/"},
+        {"guia": "France.fr (turismo oficial)", "url": "https://www.france.fr/fr/bordeaux/liste/huitres-bassin-darcachon"}
+      ]
+    },
+    {
+      "id": "fr-nancy",
+      "puntaje": 3,
+      "justificacion": "Es la capital de la cocina de Lorena. La quiche lorraine y la tarta de mirabel están entre lo mejor valorado de la región en TasteAtlas. Las bergamotes de Nancy son caramelos de azúcar cocido con bergamota, con IGP, que solo pueden elaborar cuatro confiteros de la ciudad, y los macarons de Nancy se venden por docenas.",
+      "platos": ["Quiche lorraine", "Bergamotes de Nancy IGP", "Macarons de Nancy", "Tarte aux mirabelles"],
+      "fuentes": [
+        {"guia": "TasteAtlas", "url": "https://www.tasteatlas.com/best-rated-dishes-in-lorraine"},
+        {"guia": "France.fr (turismo oficial)", "url": "https://www.france.fr/fr/article/5-specialites-de-lorraine-a-gouter-absolument/"}
+      ]
+    },
+    {
+      "id": "fr-lille",
+      "puntaje": 2,
+      "justificacion": "Tiene la cocina flamenca del norte en estaminets (carbonade, potjevleesch, welsh) y el queso maroilles. Las búsquedas de la ronda 2 solo encontraron blogs de viaje, sin fuente de turismo oficial, TasteAtlas ni Michelin, así que se mantiene en 2.",
+      "platos": ["Carbonade flamande", "Potjevleesch", "Welsh", "Gaufre fourrée"],
+      "fuentes": []
+    },
+    {
+      "id": "nl-la-haya",
+      "puntaje": 2,
+      "justificacion": "Tiene la comunidad indonesia más asentada del país, con restaurantes de rijsttafel, y el arenque nuevo de Scheveningen. Las búsquedas de la ronda 2 solo encontraron blogs y foros, sin fuente oficial, así que se mantiene en 2.",
+      "platos": ["Hollandse Nieuwe (Scheveningen)", "Rijsttafel"],
+      "fuentes": []
+    },
+    {
+      "id": "ch-berna",
+      "puntaje": 3,
+      "justificacion": "Tiene platos y productos propios. El Zibelemärit, mercado de la cebolla documentado desde el siglo XV, se celebra el cuarto lunes de noviembre en el casco antiguo, con trenzas de cebolla, Zibelechueche, pan de ajo, Nidletäfeli y Bäremutz. A eso se suma la Bärner Platte, y aquí nació el Toblerone.",
+      "platos": ["Zibelechueche (tarta de cebolla)", "Bärner Platte", "Nidletäfeli", "Berner Haselnusslebkuchen"],
+      "fuentes": [
+        {"guia": "Bern Welcome (turismo oficial)", "url": "https://www.bern.com/en/news-events/detail/zibelemaerit-onion-market"},
+        {"guia": "MySwitzerland (turismo oficial)", "url": "https://www.myswitzerland.com/ar/experiences/events/taditional-events-summer/zibelemaerit-in-bern-be/"}
+      ]
+    },
+    {
+      "id": "at-linz",
+      "puntaje": 3,
+      "justificacion": "Es la cuna de la Linzer Torte. Según Turismo de Alta Austria, su receta conservada más antigua es del siglo XVII, la más antigua de una tarta de la que hay registro, y la confitería Jindrak hornea la Original Linzer Torte desde 1929. La cocina de Alta Austria completa con Mostbratl y Knödel.",
+      "platos": ["Linzer Torte", "Mostbratl", "Knödel de Alta Austria"],
+      "fuentes": [
+        {"guia": "Oberösterreich Tourismus (oficial)", "url": "https://www.oberoesterreich.at/genussvoll-durch-das-jahr/die-suesse-sommerkueche.html"},
+        {"guia": "Falstaff (confiterías de Alta Austria)", "url": "https://www.falstaff.com/en/listings/confectionerypatisserie-cafes-inupper-austria"}
+      ]
+    },
+    {
+      "id": "at-bad-ischl",
+      "puntaje": 3,
+      "justificacion": "La confitería imperial Zauner, abierta desde 1832, es el monumento dulce de la ciudad: según Turismo de Alta Austria ya mimaba al emperador Francisco José y a Sisí, y su Zaunerstollen es a Ischl lo que la Sachertorte a Viena. Se suma la repostería del Salzkammergut.",
+      "platos": ["Zaunerstollen", "Schratt-Gugelhupf", "Kaisersemmel"],
+      "fuentes": [
+        {"guia": "Oberösterreich Tourismus (oficial)", "url": "https://www.oberoesterreich.at/genussvoll-durch-das-jahr/die-suesse-sommerkueche.html"},
+        {"guia": "Falstaff (confiterías de Alta Austria)", "url": "https://www.falstaff.com/en/listings/confectionerypatisserie-cafes-inupper-austria"}
+      ]
+    },
+    {
+      "id": "at-kitzbuhel",
+      "puntaje": 3,
+      "justificacion": "Les Deux Kitzbühel, brasserie y bar, figura entre los estrellados de la Guía Michelin Austria 2026, que reparte 124 estrellas entre 101 restaurantes. La estación tiene además buena cocina tirolesa en refugios y restaurantes de hotel.",
+      "platos": ["Tiroler Gröstl", "Kaspressknödel", "Kitzbüheler Krapfen"],
+      "fuentes": [
+        {"guia": "Guía Michelin (estrellados Austria 2026)", "url": "https://guide.michelin.com/at/en/article/michelin-guide-ceremony/all-starred-restaurants---michelin-guide-austria-2026"},
+        {"guia": "Falstaff (nuevos estrellados Austria 2026)", "url": "https://www.falstaff.com/en/news/michelin-guide-2026-austrias-new-michelin-starred-restaurants"}
+      ]
+    },
+    {
+      "id": "at-worthersee",
+      "puntaje": 3,
+      "justificacion": "En la orilla sur del lago, en Maria Wörth, está Hubert Wallner, que mantiene su estrella en la Guía Michelin Austria 2026. Se suma la cocina carintia de Kasnudeln y Reindling y el pescado del lago.",
+      "platos": ["Kärntner Kasnudeln", "Kärntner Reindling", "Pescado del Wörthersee"],
+      "fuentes": [
+        {"guia": "Guía Michelin (estrellados Austria 2026)", "url": "https://guide.michelin.com/at/en/article/michelin-guide-ceremony/all-starred-restaurants---michelin-guide-austria-2026"}
+      ]
+    },
+    {
+      "id": "mc-monte-carlo",
+      "puntaje": 4,
+      "justificacion": "Le Louis XV – Alain Ducasse à l'Hôtel de Paris, en la Place du Casino, figura con tres estrellas en guide.michelin.com. El Hôtel de Paris fue en 1990 el primer palacio del mundo con tres estrellas y su bodega guarda 350.000 botellas. En el mismo hotel está Le Grill, también en la selección Michelin, y la guía Francia y Mónaco 2026 se presentó en Mónaco.",
+      "platos": ["Barbagiuan", "Stocafi", "Cocina riviera de alta gama"],
+      "fuentes": [
+        {"guia": "Guía Michelin (Le Louis XV)", "url": "https://guide.michelin.com/en/monaco-region/monte-carlo/restaurant/le-louis-xv-alain-ducasse-a-l-hotel-de-paris"},
+        {"guia": "Guía Michelin (Hôtel de Paris Monte-Carlo)", "url": "https://guide.michelin.com/es/es/hotels-stays/monte-carlo/hotel-de-paris-monte-carlo-6872"},
+        {"guia": "Guía Michelin (lo mejor de Mónaco)", "url": "https://guide.michelin.com/fr/fr/best-of/nos-meilleurs-restaurants-a-monaco"},
+        {"guia": "Michelin (nota de prensa Francia y Mónaco 2026)", "url": "https://www.michelin.com/en/publications/products-and-services/new-selection-michelin-guide-france-monaco-2026"}
+      ]
+    },
+    {
+      "id": "fr-albi",
+      "puntaje": 2,
+      "justificacion": "Tiene cocina del Tarn y está a unos 25 km del viñedo AOC Gaillac, uno de los más antiguos de Francia. No se buscó fuente específica en esta ronda, así que queda en 2.",
+      "platos": ["Vinos de Gaillac", "Croquants de Cordes", "Cassoulet"],
+      "fuentes": []
+    },
+    {
+      "id": "fr-amiens",
+      "puntaje": 2,
+      "justificacion": "Tiene especialidades picardas, como la ficelle picarde y los macarons d'Amiens, y las huertas flotantes de los hortillonnages, con mercado en el muelle. Algo de interés.",
+      "platos": ["Ficelle picarde", "Macarons d'Amiens", "Pâté de canard d'Amiens"],
+      "fuentes": []
+    },
+    {
+      "id": "fr-bourges",
+      "puntaje": 2,
+      "justificacion": "Es la capital del Berry. A unos 20 km está el viñedo de Menetou-Salon y a unos 45 km Sancerre y el crottin de Chavignol, pero se viene por la catedral.",
+      "platos": ["Menetou-Salon (sauvignon blanc)", "Crottin de Chavignol", "Poulet en barbouille"],
+      "fuentes": []
+    },
+    {
+      "id": "fr-fontainebleau",
+      "puntaje": 1,
+      "justificacion": "Es un palacio con restaurantes en la ciudad. El brie de Melun se elabora en el mismo departamento, pero el interés gastronómico es poco.",
+      "platos": ["Brie de Melun"],
+      "fuentes": []
+    },
+    {
+      "id": "fr-vezelay",
+      "puntaje": 2,
+      "justificacion": "La colina está rodeada por el pequeño viñedo de la AOC Vézelay, de chardonnay, con bodegas en Saint-Père y Asquins, y por la cocina borgoñona. No se buscó fuente específica en esta ronda.",
+      "platos": ["Vézelay (chardonnay)", "Œufs en meurette", "Gougères"],
+      "fuentes": []
+    },
+    {
+      "id": "fr-grotte-chauvet",
+      "puntaje": 2,
+      "justificacion": "Está en el sur del Ardèche, con castañas, picodon de cabra y vinos de las Côtes du Vivarais en la zona. Algo de interés.",
+      "platos": ["Crème de marrons del Ardèche", "Picodon", "Caillette ardéchoise"],
+      "fuentes": []
+    },
+    {
+      "id": "fr-le-puy-en-velay",
+      "puntaje": 3,
+      "justificacion": "Da nombre a la lentille verte du Puy, primera legumbre con AOC de Francia y protegida como DOP en la UE. Se cultiva en la cuenca de Le Puy y en el Velay volcánico, y el pliego exige envasarla dentro de la zona. Se suman la verveine du Velay y la charcutería de montaña.",
+      "platos": ["Lentille verte du Puy AOP (petit salé aux lentilles)", "Verveine du Velay", "Saucisse de montagne"],
+      "fuentes": [
+        {"guia": "INAO (consejo regulador, pliego Lentille verte du Puy)", "url": "https://extranet.inao.gouv.fr/fichier/PNODULentilleverteduPuy2016.pdf"},
+        {"guia": "Ministerio de Agricultura de Francia (pliego oficial)", "url": "https://info.agriculture.gouv.fr/boagri/document_administratif-3b601fa7-0c84-48e9-b94b-bffff44295fb/telechargement"}
+      ]
+    },
+    {
+      "id": "be-tournai",
+      "puntaje": 2,
+      "justificacion": "Tiene cocina del Henao, con el lapin à la tournaisienne y cervezas valonas, y mercados en la Grand-Place. Algo de interés.",
+      "platos": ["Lapin à la tournaisienne", "Ailes de pigeon (dulce local)", "Cervezas del Henao"],
+      "fuentes": []
+    },
+    {
+      "id": "be-mons",
+      "puntaje": 2,
+      "justificacion": "Tiene cocina valona y cervezas del Henao, y la abadía de Saint-Feuillien (Le Rœulx) está a unos 15 km. Algo de interés.",
+      "platos": ["Cervezas del Henao", "Doudou (cerveza local)", "Tarte al djote"],
+      "fuentes": []
+    },
+    {
+      "id": "nl-naarden",
+      "puntaje": 1,
+      "justificacion": "Es una ciudad fortificada con restaurantes sencillos dentro de las murallas.",
+      "platos": ["Bitterballen"],
+      "fuentes": []
+    },
+    {
+      "id": "nl-schokland",
+      "puntaje": 0,
+      "justificacion": "Es un sitio arqueológico en un pólder, sin oferta gastronómica.",
+      "platos": [],
+      "fuentes": []
+    },
+    {
+      "id": "nl-beemster",
+      "puntaje": 2,
+      "justificacion": "Es el pólder que da nombre al queso Beemster, que se vende en las granjas y tiendas de Middenbeemster. No se buscó fuente específica en esta ronda.",
+      "platos": ["Queso Beemster"],
+      "fuentes": []
+    },
+    {
+      "id": "ch-st-gallen",
+      "puntaje": 2,
+      "justificacion": "La ciudad da nombre a la St. Galler Bratwurst, una salchicha blanca de ternera con IGP que se toma sin mostaza, y tiene cocina de la Suiza oriental. No se encontró fuente específica en esta ronda, así que queda en 2.",
+      "platos": ["St. Galler Bratwurst IGP", "Biber de San Galo", "Bürli (panecillo)"],
+      "fuentes": []
+    },
+    {
+      "id": "ch-mustair",
+      "puntaje": 1,
+      "justificacion": "Es un convento en un valle grisón aislado, con alguna posada de cocina local.",
+      "platos": ["Pizokel", "Capuns"],
+      "fuentes": []
+    },
+    {
+      "id": "ch-la-chaux-de-fonds",
+      "puntaje": 2,
+      "justificacion": "Está en el Jura neuchâtelois. El Val-de-Travers, cuna de la absenta, está a unos 30 km, y la zona tiene quesos y charcutería del Jura. Algo de interés.",
+      "platos": ["Absenta del Val-de-Travers", "Saucisse neuchâteloise", "Tête de Moine (Jura vecino)"],
+      "fuentes": []
+    },
+    {
+      "id": "ch-augusta-raurica",
+      "puntaje": 1,
+      "justificacion": "Es un parque arqueológico romano. Hay jornadas de cocina romana, pero poca oferta gastronómica.",
+      "platos": [],
+      "fuentes": []
+    },
+    {
+      "id": "at-admont",
+      "puntaje": 1,
+      "justificacion": "Es una abadía en el valle del Enns con posadas rurales de Estiria. Poco interés.",
+      "platos": ["Steirerkas", "Brettljause"],
+      "fuentes": []
+    },
+    {
+      "id": "at-carnuntum",
+      "puntaje": 2,
+      "justificacion": "Da nombre a la región vinícola Carnuntum, de zweigelt y blaufränkisch, con bodegas en Göttlesbrunn y Höflein a pocos kilómetros. No se buscó fuente específica en esta ronda, así que queda en 2.",
+      "platos": ["Zweigelt de Carnuntum", "Blaufränkisch"],
+      "fuentes": []
+    },
+    {
+      "id": "at-semmering",
+      "puntaje": 1,
+      "justificacion": "Es un ferrocarril de montaña con hoteles históricos. Poca oferta gastronómica propia.",
+      "platos": ["Kaiserschmarrn"],
+      "fuentes": []
+    },
+    {
+      "id": "fr-parque-nacional-vanoise",
+      "puntaje": 2,
+      "justificacion": "Está en la Tarentaise, tierra del queso Beaufort, con cooperativas queseras y refugios de cocina saboyana. Es un espacio natural, pero tiene algo de interés.",
+      "platos": ["Beaufort AOP", "Tomme de Savoie", "Crozets"],
+      "fuentes": []
+    },
+    {
+      "id": "fr-parque-nacional-ecrins",
+      "puntaje": 1,
+      "justificacion": "Es un espacio de alta montaña con refugios y cocina sencilla de los Altos Alpes.",
+      "platos": ["Tourtons", "Oreilles d'âne"],
+      "fuentes": []
+    },
+    {
+      "id": "fr-parque-nacional-mercantour",
+      "puntaje": 1,
+      "justificacion": "Es un espacio natural; en los pueblos del valle de la Roya hay cocina sencilla de montaña nizarda.",
+      "platos": ["Tourte de blettes", "Brousse"],
+      "fuentes": []
+    },
+    {
+      "id": "fr-parque-nacional-cevenas",
+      "puntaje": 2,
+      "justificacion": "Tiene productos propios de las Cevenas, como el pélardon AOP de cabra, la cebolla dulce de las Cevenas AOP y la castaña, en mercados como el de Florac.",
+      "platos": ["Pélardon AOP", "Oignon doux des Cévennes", "Castañas"],
+      "fuentes": []
+    },
+    {
+      "id": "fr-circo-de-gavarnie",
+      "puntaje": 2,
+      "justificacion": "Los pastos del circo y del valle crían el cordero Barèges-Gavarnie AOP, que se sirve en las posadas del valle. Es un espacio natural con algo de interés.",
+      "platos": ["Mouton Barèges-Gavarnie AOP", "Garbure", "Gâteau à la broche"],
+      "fuentes": []
+    },
+    {
+      "id": "fr-port-cros-porquerolles",
+      "puntaje": 2,
+      "justificacion": "Porquerolles tiene viñedos AOC Côtes de Provence con bodegas visitables en la isla, además de pescado provenzal. Algo de interés.",
+      "platos": ["Rosado Côtes de Provence de Porquerolles", "Bouillabaisse"],
+      "fuentes": []
+    },
+    {
+      "id": "fr-chaine-des-puys",
+      "puntaje": 2,
+      "justificacion": "Está en plena Auvernia de los quesos AOP (saint-nectaire, bleu d'Auvergne, cantal), con granjas queseras en la zona. Es un espacio natural con algo de interés.",
+      "platos": ["Saint-nectaire AOP", "Truffade", "Bleu d'Auvergne"],
+      "fuentes": []
+    },
+    {
+      "id": "fr-pointe-du-raz",
+      "puntaje": 1,
+      "justificacion": "Es un cabo con crêperies y restauración turística.",
+      "platos": ["Galette de sarrasin", "Kouign-amann"],
+      "fuentes": []
+    },
+    {
+      "id": "be-bosque-de-soignes",
+      "puntaje": 0,
+      "justificacion": "Es un bosque periurbano sin oferta gastronómica propia.",
+      "platos": [],
+      "fuentes": []
+    },
+    {
+      "id": "nl-parque-nacional-biesbosch",
+      "puntaje": 1,
+      "justificacion": "Es un parque de humedales con cafés en los centros de visitantes.",
+      "platos": [],
+      "fuentes": []
+    },
+    {
+      "id": "ch-oeschinensee",
+      "puntaje": 1,
+      "justificacion": "Es un lago alpino con restaurantes de montaña sencillos en la orilla.",
+      "platos": ["Rösti", "Älplermagronen"],
+      "fuentes": []
+    },
+    {
+      "id": "ch-sardona",
+      "puntaje": 1,
+      "justificacion": "Es un sitio geológico; en Elm solo hay posadas de montaña.",
+      "platos": ["Glarner Kalberwurst"],
+      "fuentes": []
+    },
+    {
+      "id": "at-achensee",
+      "puntaje": 1,
+      "justificacion": "Es un lago turístico del Tirol con cocina tirolesa y pescado del lago en los hoteles.",
+      "platos": ["Pescado del Achensee", "Kaspressknödel"],
+      "fuentes": []
+    },
+    {
+      "id": "at-donau-auen",
+      "puntaje": 1,
+      "justificacion": "Es un parque nacional fluvial con posadas sencillas en Orth.",
+      "platos": ["Pescado del Danubio"],
+      "fuentes": []
+    },
+    {
+      "id": "at-liechtensteinklamm",
+      "puntaje": 1,
+      "justificacion": "Es una garganta natural con un quiosco en la entrada. Hay cocina del Pongau en St. Johann.",
+      "platos": ["Pongauer Kasnocken"],
+      "fuentes": []
+    },
+    {
+      "id": "li-fuerstensteig",
+      "puntaje": 0,
+      "justificacion": "Es una ruta de senderismo sin oferta gastronómica.",
+      "platos": [],
+      "fuentes": []
+    },
+    {
+      "id": "fr-disneyland-paris",
+      "puntaje": 1,
+      "justificacion": "Es un parque temático con restauración de parque.",
+      "platos": [],
+      "fuentes": []
+    },
+    {
+      "id": "fr-parc-asterix",
+      "puntaje": 1,
+      "justificacion": "Es un parque temático con restauración de parque.",
+      "platos": [],
+      "fuentes": []
+    },
+    {
+      "id": "fr-puy-du-fou",
+      "puntaje": 1,
+      "justificacion": "Es un parque de espectáculos con restaurantes temáticos. La cocina vandeana tiene poca presencia.",
+      "platos": ["Brioche vendéenne", "Mogettes"],
+      "fuentes": []
+    },
+    {
+      "id": "nl-efteling",
+      "puntaje": 1,
+      "justificacion": "Es un parque temático con restauración de parque.",
+      "platos": ["Poffertjes"],
+      "fuentes": []
+    },
+    {
+      "id": "nl-walibi-holland",
+      "puntaje": 0,
+      "justificacion": "Es un parque de atracciones sin oferta gastronómica destacable.",
+      "platos": [],
+      "fuentes": []
+    },
+    {
+      "id": "fr-les-3-vallees",
+      "puntaje": 4,
+      "justificacion": "Courchevel es una de las estaciones de esquí con más alta cocina del mundo. Le 1947 à Cheval Blanc, de Yannick Alléno, tiene tres estrellas Michelin. Se suma la cocina saboyana de queso en refugios y restaurantes de las tres valles. La fuente es una oferta de empleo de Journal des Palaces de junio de 2026, porque la lista Michelin de la estación no apareció en las búsquedas.",
+      "platos": ["Beaufort AOP", "Fondue savoyarde", "Tartiflette", "Alta cocina de estación"],
+      "fuentes": [
+        {"guia": "Journal des Palaces (Le 1947 à Cheval Blanc, tres estrellas)", "url": "https://www.journaldespalaces.com/carriere/offre-309347-Chef-de-rang-Le-1947-a-Cheval-Blanc-Cheval-Blanc-Courchevel-Courchevel.html"}
+      ]
+    },
+    {
+      "id": "at-area-47",
+      "puntaje": 0,
+      "justificacion": "Es un parque de actividades al aire libre sin oferta gastronómica propia.",
+      "platos": [],
+      "fuentes": []
+    },
+    {
+      "id": "at-familypark-neusiedlersee",
+      "puntaje": 2,
+      "justificacion": "El parque no tiene oferta propia, pero está en St. Margarethen, en plena región vinícola del lago Neusiedl, con Rust y sus Heurigen a unos 7 km.",
+      "platos": ["Ruster Ausbruch", "Blaufränkisch"],
+      "fuentes": []
+    },
+    {
+      "id": "ch-monte-tamaro",
+      "puntaje": 1,
+      "justificacion": "Es una montaña de actividades con restaurante en Alpe Foppa. La cocina tesinesa está en los grotti del valle.",
+      "platos": ["Polenta", "Merlot del Ticino"],
+      "fuentes": []
+    }
+  ],
+  "nuevos": []
+}

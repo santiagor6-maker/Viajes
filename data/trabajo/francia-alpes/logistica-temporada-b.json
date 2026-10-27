@@ -1,0 +1,13 @@
+{
+  "agente": "logistica-temporada",
+  "subregion": "francia-alpes",
+  "grupo": "b",
+  "ronda": 1,
+  "notas": "Borrador en curso.",
+  "avisos_pais": [
+    { "pais_iso": "CH", "nivel": "Level 1: Exercise normal precautions (aviso del 14/08/2026)", "url": "https://travel.state.gov/en/international-travel/travel-advisories/switzerland.html" },
+    { "pais_iso": "AT", "nivel": "Level 1: Exercise normal precautions (aviso del 21/08/2026)", "url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/austria-travel-advisory.html" },
+    { "pais_iso": "LI", "nivel": "Level 1: Exercise normal precautions (aviso del 18/08/2026)", "url": "https://travel.state.gov/en/international-travel/travel-advisories/liechtenstein.html" }
+  ],
+  "logistica": []
+}

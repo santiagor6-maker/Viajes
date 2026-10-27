@@ -1,0 +1,26 @@
+{
+  "agente": "logistica-temporada",
+  "subregion": "francia-alpes",
+  "ronda": 1,
+  "estado": "borrador en curso",
+  "paises": ["FR", "MC", "BE", "NL", "LU"],
+  "fecha_consulta": "2026-10-27",
+  "avisos_pais": [
+    { "pais_iso": "FR", "emisor": "EE. UU.", "nivel": "Level 2 - Exercise increased caution (terrorismo y disturbios; actualizado el 21-oct-2026)", "url": "https://travel.state.gov/en/international-travel/travel-advisories/france.html" },
+    { "pais_iso": "FR", "emisor": "Reino Unido (FCDO)", "nivel": "Sin desaconsejar viajes; riesgo de terrorismo y huelgas que alteran el transporte", "url": "https://www.gov.uk/foreign-travel-advice/france/print" },
+    { "pais_iso": "FR", "emisor": "Canadá", "nivel": "Exercise a high degree of caution (terrorismo)", "url": "https://travel.gc.ca/destinations/france" },
+    { "pais_iso": "MC", "emisor": "EE. UU.", "nivel": "Sin aviso propio; el aviso de Francia (Level 2) describe la frontera abierta con Mónaco", "url": "https://travel.state.gov/en/international-travel/travel-advisories/france.html" },
+    { "pais_iso": "MC", "emisor": "Reino Unido (FCDO)", "nivel": "Sin desaconsejar viajes; robos en trenes hacia Mónaco y en el aeropuerto de Niza", "url": "https://www.gov.uk/foreign-travel-advice/monaco/safety-and-security" },
+    { "pais_iso": "MC", "emisor": "Canadá", "nivel": "Take normal security precautions", "url": "https://travel.gc.ca/destinations/monaco/1000?wbdisable=true" },
+    { "pais_iso": "BE", "emisor": "EE. UU.", "nivel": "Level 2 - Exercise increased caution (delincuencia, terrorismo y disturbios; 23-jul-2026)", "url": "https://travel.state.gov/en/international-travel/travel-advisories/belgium.html" },
+    { "pais_iso": "BE", "emisor": "Reino Unido (FCDO)", "nivel": "Sin desaconsejar viajes; probable intento de atentados, carteristas y robos violentos en zonas concurridas", "url": "https://www.gov.uk/foreign-travel-advice/belgium/safety-and-security" },
+    { "pais_iso": "BE", "emisor": "Canadá", "nivel": "Exercise a high degree of caution (terrorismo; aumento de la delincuencia violenta en Bruselas)", "url": "https://travel.gc.ca/destinations/belgium" },
+    { "pais_iso": "NL", "emisor": "EE. UU.", "nivel": "Level 2 - Exercise increased caution (terrorismo)", "url": "https://travel.state.gov/en/international-travel/travel-advisories/netherlands.html" },
+    { "pais_iso": "NL", "emisor": "Reino Unido (FCDO)", "nivel": "Sin desaconsejar viajes; amenaza terrorista alta, carteristas en Ámsterdam Centraal y trenes a Schiphol", "url": "https://www.gov.uk/foreign-travel-advice/netherlands/safety-and-security" },
+    { "pais_iso": "NL", "emisor": "Canadá", "nivel": "Exercise a high degree of caution (terrorismo; amenaza 4 de 5)", "url": "https://travel.gc.ca/destinations/netherlands?cpc=true&wbdisable=true" },
+    { "pais_iso": "LU", "emisor": "EE. UU.", "nivel": "Level 1 - Exercise normal precautions (8-abr-2026), con Level 2 en el norte y el este por munición sin explotar", "url": "https://travel.state.gov/en/international-travel/travel-advisories/luxembourg.html" },
+    { "pais_iso": "LU", "emisor": "Reino Unido (FCDO)", "nivel": "Sin desaconsejar viajes; delincuencia menor; no se descartan atentados", "url": "https://www.gov.uk/foreign-travel-advice/luxembourg/safety-and-security" },
+    { "pais_iso": "LU", "emisor": "Canadá", "nivel": "Take normal security precautions", "url": "https://travel.gc.ca/destinations/luxembourg" }
+  ],
+  "logistica": []
+}
