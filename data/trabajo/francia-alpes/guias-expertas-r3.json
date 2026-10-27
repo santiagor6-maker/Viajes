@@ -2,8 +2,8 @@
   "agente": "guias-expertas",
   "subregion": "francia-alpes",
   "ronda": 3,
-  "estado": "en_curso",
-  "notas": "Ronda de huecos. Sólo cuentan páginas editoriales de cada guía que salieron en WebSearch. No cuentan foros (community.ricksteves.com, fodors.com/community, thorntree), tiendas de terceros ni tours revendidos en lonelyplanet.com. Las estrellas Michelin se toman de las fichas oficiales del Guide Vert en boutique.laventure.michelin.com o editions.michelin.com; si la ficha no da la nota, la guía cuenta como recomendación sin estrellas. Las URL nonprod de Lonely Planet que dio cobertura se reemplazan por su forma canónica cuando la canónica apareció en una búsqueda; si no apareció, van a fuentes_quitar.",
+  "estado": "completo",
+  "notas": "Ronda de huecos. Sólo cuentan páginas editoriales de cada guía que salieron en WebSearch. No cuentan foros (community.ricksteves.com, fodors.com/community, thorntree), tiendas de terceros ni tours revendidos en lonelyplanet.com. Las estrellas Michelin se toman de las fichas oficiales del Guide Vert en boutique.laventure.michelin.com o editions.michelin.com; si la ficha no da la nota, la guía cuenta como recomendación sin estrellas. Las URL nonprod de Lonely Planet que dio cobertura se reemplazan por su forma canónica cuando la canónica apareció en una búsqueda; si no apareció, van a fuentes_quitar. No encontré URL de espejos imagizer en mis archivos. Total: 62 WebSearch en dos tramos (35 + 27). DK Eyewitness no tiene páginas editoriales públicas, solo de librería, que no cuentan.",
   "nuevos": [
     {
       "id": "be-pairi-daiza",
@@ -168,42 +168,48 @@
     },
     {
       "id": "fr-camarga",
-      "puntaje": 4,
-      "guias_que_lo_recomiendan": ["Michelin Guide Vert", "Lonely Planet"],
-      "justificacion": "La ficha del Guide Vert Provence lista 'La Camargue***'. Lonely Planet tiene página de destino: 930 km² de salinas, lagunas y marismas, el Parque Ornitológico de Pont de Gau con más de 200 especies y paseos a caballo con los gardians. Además presenta Arlés como puerta de la Camarga. Se queda en 4 y no en 5 porque Lonely Planet la cubre bien, pero no la pone como top pick.",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Michelin Guide Vert", "Lonely Planet", "National Geographic"],
+      "justificacion": "La ficha del Guide Vert Provence lista 'La Camargue***'. Lonely Planet tiene página de destino: 930 km² de salinas, lagunas y marismas, el Parque Ornitológico de Pont de Gau con más de 200 especies y paseos a caballo con los gardians. Además presenta Arlés como puerta de la Camarga. National Geographic le dedica un artículo, que la llama la región más singular de Francia, con la romería gitana de Saintes-Maries-de-la-Mer. Cumple la regla de ★★★ más top pick en otra guía.",
       "fuentes": [
         { "guia": "Michelin Guide Vert", "url": "https://boutique.laventure.michelin.com/en/product/guide-vert-provence-ebook/" },
         { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/destinations/france/camargue" },
-        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-arles" }
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-arles" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/camargue-pilgrimage-romani-people-france-cowboys" }
       ]
     },
     {
       "id": "fr-eze-saint-paul",
-      "puntaje": 2,
-      "guias_que_lo_recomiendan": ["Lonely Planet"],
-      "justificacion": "Lonely Planet tiene página de destino y de atracciones de Èze (Jardín Exótico, Chemin de Nietzsche) y lo incluye en sus excursiones desde Niza. Saint-Paul-de-Vence solo aparece en foros de Fodor's, que no cuentan. Rick Steves cita Èze-le-Village en su guía, pero la única página que salió es la de su tienda, que no cuenta.",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides"],
+      "justificacion": "Lonely Planet tiene página de destino y de atracciones de Èze (Jardín Exótico, Chemin de Nietzsche) y lo incluye en sus excursiones desde Niza. Rough Guides recomienda en la Costa Azul la Fundación Maeght de Saint-Paul-de-Vence, 'uno de los mejores regalos artísticos de la región', y el pueblo colgado de Èze sobre el mar. Rick Steves cita Èze-le-Village en su guía, pero la única página que salió es la de su tienda, que no cuenta.",
       "fuentes": [
         { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/destinations/france/eze" },
-        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-day-trips-from-nice" }
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-day-trips-from-nice" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/france/things-to-do-cote-dazur/" }
       ]
     },
     {
       "id": "fr-lourdes",
-      "puntaje": 2,
-      "guias_que_lo_recomiendan": ["Lonely Planet"],
-      "justificacion": "Lonely Planet tiene ficha de los Santuarios de Nuestra Señora de Lourdes (gruta de Massabielle, procesiones de antorchas de abril a octubre) y de la basílica del Rosario. No encontré una segunda guía con página pública.",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "National Geographic"],
+      "justificacion": "Lonely Planet tiene ficha de los Santuarios de Nuestra Señora de Lourdes (gruta de Massabielle, procesiones de antorchas de abril a octubre) y de la basílica del Rosario. National Geographic le dedica un artículo como el lugar de peregrinación más famoso de Francia, con más de 3 millones de visitantes al año.",
       "fuentes": [
         { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/points-of-interest/sanctuaires-notre-dame-de-lourdes/474156" },
-        { "guia": "Lonely Planet", "url": "https://lonelyplanet.com/france/southwestern-france/lourdes/attractions/basilique-notre-dame-du-rosaire/a/poi-sig/1261911/359295" }
+        { "guia": "Lonely Planet", "url": "https://lonelyplanet.com/france/southwestern-france/lourdes/attractions/basilique-notre-dame-du-rosaire/a/poi-sig/1261911/359295" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/frances-most-famous-pilgrimage-site-plans-a-new-tourism-future" }
       ]
     },
     {
       "id": "fr-collioure",
-      "puntaje": 2,
-      "guias_que_lo_recomiendan": ["Michelin Guide Vert"],
-      "justificacion": "La ficha del Guide Vert Roussillon, Aude, Pays Cathare lista 'Collioure**'. Rick Steves solo lo menciona en un informe de viaje de su foro, que no cuenta.",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Michelin Guide Vert", "Lonely Planet", "Fodor's"],
+      "justificacion": "La ficha del Guide Vert Roussillon, Aude, Pays Cathare lista 'Collioure**'. Lonely Planet tiene página de destino y ficha del Château Royal, residencia de verano de los reyes de Mallorca reformada por Vauban. Fodor's tiene guía propia de Collioure: Matisse y Derain en 1905 y el Chemin du Fauvisme con 20 puntos.",
       "fuentes": [
-        { "guia": "Michelin Guide Vert", "url": "https://boutique.laventure.michelin.com/produit/guide-vert-roussillon-aude-pays-cathare-ebook" }
+        { "guia": "Michelin Guide Vert", "url": "https://boutique.laventure.michelin.com/produit/guide-vert-roussillon-aude-pays-cathare-ebook" },
+        { "guia": "Lonely Planet", "url": "https://lonelyplanet.com/france/collioure" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/points-of-interest/chateau-royal/1238113" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/france/the-midi-pyrenees-and-languedoc-roussillon/places/collioure" }
       ]
     },
     {
@@ -218,11 +224,12 @@
     },
     {
       "id": "fr-conques",
-      "puntaje": 2,
-      "guias_que_lo_recomiendan": ["Rough Guides"],
-      "justificacion": "Rough Guides la destaca en el Macizo Central: la abacial románica de Sainte-Foy, del siglo XI, con su tímpano del siglo XII y el tesoro, etapa clave del Camino de Santiago y Patrimonio Mundial desde 1998. Cobertura dice que tiene ★★★ en la Michelin, pero la ficha del Guide Vert Lot-Aveyron que encontré no lo muestra, así que no se cuenta.",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Rough Guides", "National Geographic"],
+      "justificacion": "Rough Guides la destaca en el Macizo Central: la abacial románica de Sainte-Foy, del siglo XI, con su tímpano del siglo XII y el tesoro, etapa clave del Camino de Santiago y Patrimonio Mundial desde 1998. National Geographic, en su artículo sobre las peregrinaciones y las iglesias románicas, la presenta como uno de los primeros grandes edificios románicos del sur de Francia (hacia 1040), con las reliquias de santa Fe. Cobertura dice que tiene ★★★ en la Michelin, pero la ficha del Guide Vert Lot-Aveyron que encontré no lo muestra, así que no se cuenta.",
       "fuentes": [
-        { "guia": "Rough Guides", "url": "https://www.roughguides.com/france/things-to-do-massif-central/" }
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/france/things-to-do-massif-central/" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/history/history-magazine/article/romanesque-churches-medieval-europe" }
       ]
     },
     {
@@ -257,34 +264,44 @@
     },
     {
       "id": "fr-chantilly",
-      "puntaje": 2,
-      "guias_que_lo_recomiendan": ["Michelin Guide Vert"],
-      "justificacion": "La ficha del Guide Vert Picardie pone el castillo de Chantilly entre sus imprescindibles, sin decir las estrellas. Rick Steves solo lo trata en foros, que no cuentan. No encontré página editorial de Lonely Planet ni de Time Out que se pueda citar, así que el puntaje es conservador.",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Michelin Guide Vert", "Fodor's", "Lonely Planet", "Time Out"],
+      "justificacion": "Hay cuatro guías, pero solo dos con contenido confirmado, así que se queda en 4. La ficha del Guide Vert Picardie pone el castillo de Chantilly entre sus imprescindibles, sin decir las estrellas. Fodor's tiene guía propia de Chantilly, entre sus excursiones desde París, y lo incluye en sus 15 escapadas de un día. Lonely Planet y Time Out salieron con sus artículos de excursiones desde París en la búsqueda sobre Chantilly y el Museo Condé, pero no pude confirmar el texto de cada uno.",
       "fuentes": [
-        { "guia": "Michelin Guide Vert", "url": "https://boutique.laventure.michelin.com/en/product/guide-vert-picardie-ebook" }
+        { "guia": "Michelin Guide Vert", "url": "https://boutique.laventure.michelin.com/en/product/guide-vert-picardie-ebook" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/france/side-trips-from-paris/places/chantilly" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/france/paris/experiences/news/photos/15-ways-to-escape-paris-for-the-day" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/the-best-day-trips-from-paris" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/paris/en/things-to-do/best-day-trips-from-paris" }
       ]
     },
     {
       "id": "be-coo-ambleve",
-      "puntaje": 1,
-      "guias_que_lo_recomiendan": [],
-      "justificacion": "Pendiente de búsqueda; puntaje provisional.",
-      "fuentes": []
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Rough Guides", "Lonely Planet"],
+      "justificacion": "Solo hay menciones menores, así que el puntaje es conservador. Rough Guides propone Stavelot, sobre el Amblève, como base para el senderismo y la canoa en las Ardenas. Lonely Planet tiene ficha de la abadía de Stavelot y muestra las cascadas de Coo en su página de las Ardenas. No encontré una ficha de guía propia de Coo ni de Plopsa Coo.",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/belgium/ardennes/" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/points-of-interest/abbaye-de-stavelot/1262291" },
+        { "guia": "Lonely Planet", "url": "https://lonelyplanet.com/destinations/belgium/the-ardennes" }
+      ]
     },
     {
       "id": "nl-hunebedden-drenthe",
-      "puntaje": 2,
-      "guias_que_lo_recomiendan": ["Lonely Planet"],
-      "justificacion": "Lonely Planet destaca Borger y sus hunebedden (cámaras funerarias de piedra) en su guía de los Países Bajos, y cobertura cita su ficha del Hunebedcentrum. No encontré una segunda guía.",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides"],
+      "justificacion": "Lonely Planet tiene ficha del Hunebedcentrum de Borger, junto a uno de los mayores dólmenes y punto de salida de rutas en bici de 6 a 53 km. También tiene fichas del paisaje nacional Drentsche Aa, con más hunebedden en Gasteren y Rolde, y del P. N. Dwingelderveld. Rough Guides tiene página de Drenthe con los dólmenes de la cresta del Hondsrug, con base en Emmen.",
       "fuentes": [
-        { "guia": "Lonely Planet", "url": "https://media.lonelyplanet.com/shop/pdfs/netherlands-7-preview.pdf" }
+        { "guia": "Lonely Planet", "url": "https://lonelyplanet.com/the-netherlands/drenthe/attractions/hunebedden-centrum/a/poi-sig/1128166/1315715" },
+        { "guia": "Lonely Planet", "url": "https://lonelyplanet.com/the-netherlands/drenthe/attractions/drentsche-aa-national-landscape/a/poi-sig/1128144/1315715" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/destinations/europe/netherlands/north-and-the-frisian-islands/drenthe/" }
       ]
     },
     {
       "id": "nl-deltawerken",
       "puntaje": 2,
       "guias_que_lo_recomiendan": ["Lonely Planet"],
-      "justificacion": "Lonely Planet tiene ficha del Deltapark Neeltje Jans (antiguo centro de visitantes del Plan Delta, película sobre la inundación de 1953, focas, barco por el Oosterschelde) y del Parque Nacional del Oosterschelde. Rick Steves y Fodor's solo lo tratan en foros, que no cuentan.",
+      "justificacion": "Lonely Planet tiene ficha del Deltapark Neeltje Jans (antiguo centro de visitantes del Plan Delta, película sobre la inundación de 1953, focas, barco por el Oosterschelde) y del Parque Nacional del Oosterschelde. Rick Steves y Fodor's solo lo tratan en foros, que no cuentan. El Guide Vert Pays-Bas tiene una micro-región 'Zélande et Delta', pero su ficha no da estrellas.",
       "fuentes": [
         { "guia": "Lonely Planet", "url": "https://lonelyplanet.com/the-netherlands/attractions/deltapark-neeltje-jans/a/poi-sig/1127640/1315695" },
         { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/the-netherlands/attractions/national-park-oosterschelde/a/poi-sig/1235833/1315695" }
@@ -363,10 +380,11 @@
     },
     {
       "id": "at-schladming-dachstein",
-      "puntaje": 2,
-      "guias_que_lo_recomiendan": ["Frommer's"],
-      "justificacion": "Frommer's lo cubre en su guía de Estiria: Schladming, Ramsau am Dachstein y el teleférico del glaciar del Dachstein. No encontré una segunda guía con página editorial.",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Frommer's"],
+      "justificacion": "Lonely Planet tiene, en Schladming, ficha del Dachstein Eispalast y del teleférico del glaciar que termina en el Skywalk, con buses desde la Planai a la estación de Ramsau. Frommer's cubre Schladming, Ramsau y el Dachstein en su guía de Estiria.",
       "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://lonelyplanet.com/austria/schladming/attractions/dachstein-eispalast/a/poi-sig/1337474/1334184" },
         { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/styria/" }
       ]
     },
@@ -383,10 +401,13 @@
     },
     {
       "id": "at-eisenstadt",
-      "puntaje": 2,
-      "guias_que_lo_recomiendan": ["Fodor's"],
-      "justificacion": "Fodor's reseña el palacio Esterházy entre sus excursiones desde Viena: la sala Haydn, la visita guiada de 45 minutos y el mayor museo del vino de Austria en la bodega. Menciona también la Haydn-Haus. Rick Steves solo lo trata en foros, que no cuentan.",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Frommer's", "Fodor's"],
+      "justificacion": "Lonely Planet tiene ficha del palacio Esterházy, con la Haydnsaal donde Haydn dirigía casi cada noche y unas 25 de sus 256 salas abiertas. Frommer's tiene guía propia de Eisenstadt (palacio, Bergkirche con la tumba de Haydn, festival Haydn Days) y lo incluye en sus mejores castillos y palacios de Austria. Fodor's reseña el palacio entre sus excursiones desde Viena.",
       "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/austria/eisenstadt/attractions/schloss-esterhazy/a/poi-sig/504058/358591" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/eisenstadt/things-to-do/" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/austria/the-best-castles-palaces--historic-homes/" },
         { "guia": "Fodor's", "url": "https://fodors.com/world/europe/austria/vienna-woods-lake-neusiedler-and-the-danube-river/things-to-do/sights/reviews/schloss-esterhazy-456066" }
       ]
     },
@@ -417,13 +438,14 @@
     },
     {
       "id": "fr-burdeos",
-      "puntaje": 3,
-      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides"],
-      "justificacion": "Se queda en 3 por ahora. Lonely Planet la incluye entre sus mejores lugares de Francia y le dedica un artículo con sus 8 mejores cosas que hacer (Cité du Vin, Chartrons, Miroir d'Eau). Rough Guides destaca la Cité du Vin y los viñedos.",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides", "Time Out"],
+      "justificacion": "Sube de 3 a 4 por una tercera guía. Lonely Planet la incluye entre sus mejores lugares de Francia y le dedica sus 8 mejores cosas que hacer (Cité du Vin, Chartrons, Miroir d'Eau). Rough Guides destaca la Cité du Vin y los viñedos. Se suma Time Out, con su guía de las mejores cosas que hacer en Burdeos, que llama a la Cité du Vin imprescindible. Rick Steves solo aparece en foros, así que no llega a 5.",
       "fuentes": [
         { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-france" },
         { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-bordeaux" },
-        { "guia": "Rough Guides", "url": "https://www.roughguides.com/france/best-places-to-visit/" }
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/france/best-places-to-visit/" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/france/best-things-do-in-bordeaux" }
       ]
     },
     {
@@ -442,7 +464,7 @@
       "id": "fr-avinon",
       "puntaje": 4,
       "guias_que_lo_recomiendan": ["Rick Steves", "Time Out", "Lonely Planet"],
-      "justificacion": "Sube de 3 a 4 por una tercera guía. A Rick Steves (dos estrellas en Provenza) y Time Out (mejores ciudades fuera de París) se suma Lonely Planet, que tiene página de destino de Aviñón con el Palacio de los Papas (el mayor palacio gótico jamás construido) y el puente de Saint-Bénézet. La ficha Michelin que encontré (Guide Vert Provence) no muestra las estrellas de Aviñón, así que no se le da el 5.",
+      "justificacion": "Sube de 3 a 4 por una tercera guía. A Rick Steves (dos estrellas en Provenza) y Time Out (mejores ciudades fuera de París) se suma Lonely Planet, que tiene página de destino de Aviñón con el Palacio de los Papas (el mayor palacio gótico jamás construido) y el puente de Saint-Bénézet. Busqué las estrellas Michelin de Aviñón, pero ninguna ficha pública las muestra, así que no se le da el 5.",
       "fuentes": [
         { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/france/provence" },
         { "guia": "Time Out", "url": "https://www.timeout.com/france/travel/best-french-cities-to-visit" },
@@ -453,7 +475,7 @@
       "id": "fr-arles",
       "puntaje": 4,
       "guias_que_lo_recomiendan": ["Rick Steves", "National Geographic", "Lonely Planet"],
-      "justificacion": "Sube de 3 a 4 por una tercera guía. A Rick Steves (base en Provenza) y National Geographic (ciudades infravaloradas de Francia) se suma Lonely Planet, que le dedica sus 19 mejores cosas que hacer: las Arènes, Alyscamps, criptopórticos, Fundación Van Gogh y LUMA Arles. La ficha Michelin no muestra las estrellas de Arlés, así que no se le da el 5.",
+      "justificacion": "Sube de 3 a 4 por una tercera guía. A Rick Steves (base en Provenza) y National Geographic (ciudades infravaloradas de Francia) se suma Lonely Planet, que le dedica sus 19 mejores cosas que hacer: las Arènes, Alyscamps, criptopórticos, Fundación Van Gogh y LUMA Arles. Busqué las estrellas Michelin de Arlés, pero ninguna ficha pública las muestra, así que no se le da el 5.",
       "fuentes": [
         { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/france/provence" },
         { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/overtourism-paris-underrated-cities-to-visit-france" },
@@ -488,7 +510,7 @@
       "id": "fr-chartres",
       "puntaje": 3,
       "guias_que_lo_recomiendan": ["Lonely Planet", "Rick Steves"],
-      "justificacion": "Sube de 2 a 3 por una segunda guía. A Lonely Planet (excursión desde París, la catedral medieval mejor conservada de Francia) se suma Rick Steves, que pone Chartres en su lista 'Near Paris' junto a Versalles y Giverny y llama radiante a su catedral.",
+      "justificacion": "Sube de 2 a 3 por una segunda guía. A Lonely Planet (excursión desde París, la catedral medieval mejor conservada de Francia) se suma Rick Steves, que pone Chartres en su lista 'Near Paris' junto a Versalles y Giverny y llama radiante a su catedral. No encontré una ficha Michelin pública con las estrellas de la catedral.",
       "fuentes": [
         { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/the-best-day-trips-from-paris" },
         { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/france" }
@@ -506,30 +528,36 @@
     },
     {
       "id": "ch-oeschinensee",
-      "puntaje": 2,
-      "guias_que_lo_recomiendan": ["Lonely Planet"],
-      "justificacion": "Sube de 0 a 2. Lonely Planet tiene ficha propia del lago (agua turquesa, telecabina desde Kandersteg y 20 minutos a pie, una hora de bajada al pueblo). Rick Steves y Fodor's solo lo tratan en foros, que no cuentan, así que no llega a 3.",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Time Out"],
+      "justificacion": "Sube de 0 a 3. Lonely Planet tiene ficha propia del lago (agua turquesa, telecabina desde Kandersteg y 20 minutos a pie, una hora de bajada al pueblo). Time Out lo cubre en su página de Kandersteg (barcas de remo en verano, raquetas sobre el lago helado en invierno) y en una ficha del tobogán del Oeschinensee. Rick Steves y Fodor's solo lo tratan en foros, que no cuentan.",
       "fuentes": [
-        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/points-of-interest/oeschinensee/1379712" }
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/points-of-interest/oeschinensee/1379712" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/switzerland/things-to-do/kandersteg" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/switzerland/attractions/oeschinen-lake-toboggan-run" }
       ]
     },
     {
       "id": "ch-glaciar-aletsch",
-      "puntaje": 2,
-      "guias_que_lo_recomiendan": ["Lonely Planet"],
-      "justificacion": "Se queda en 2 por ahora. Lonely Planet lo incluye en sus mejores caminatas de Suiza y en sus 12 mejores cosas de los Alpes suizos, donde aconseja subir con el teleférico de la Aletsch Arena en vez de por el Jungfraujoch.",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Time Out", "Rough Guides"],
+      "justificacion": "Sube de 2 a 4. Lonely Planet lo incluye en sus mejores caminatas de Suiza y en sus 12 mejores cosas de los Alpes suizos (subir con el teleférico de la Aletsch Arena). Time Out le dedica '5 great things to do in Aletsch Arena', con el mirador del Eggishorn como el mejor panorama de la zona. Rough Guides lo cubre en sus mejores cosas de Suiza: 23 km de glaciar, pueblos sin coches de Riederalp, Bettmeralp y Fiescheralp, y temporada de julio a septiembre.",
       "fuentes": [
         { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-hikes-in-switzerland" },
-        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-the-swiss-alps" }
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-the-swiss-alps" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/switzerland/things-to-do/5-great-things-to-do-in-aletsch-arena" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/switzerland/things-to-do-in-summer/" }
       ]
     },
     {
       "id": "ch-la-chaux-de-fonds",
-      "puntaje": 1,
-      "guias_que_lo_recomiendan": ["Lonely Planet"],
-      "justificacion": "Sube de 0 a 1, una mención menor: el índice de la guía Switzerland de Lonely Planet le dedica las páginas 92–93, pero no encontré una ficha ni un artículo público.",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Fodor's", "Time Out"],
+      "justificacion": "Sube de 0 a 3. Lonely Planet tiene, en su sección de La Chaux-de-Fonds, ficha del Museo de Relojería de Le Locle (castillo des Monts, autómatas de Jaquet Droz). Fodor's la incluye en su itinerario de 5 días por Suiza como cuna de Le Corbusier, con la Maison Blanche. Time Out la cita entre los 11 sitios UNESCO del país por el urbanismo relojero. Son menciones medianas, así que se queda en 3 y no en 4.",
       "fuentes": [
-        { "guia": "Lonely Planet", "url": "https://media.lonelyplanet.com/shop/pdfs/switzerland-7-index.pdf" }
+        { "guia": "Lonely Planet", "url": "https://lonelyplanet.com/switzerland/la-chaux-de-fonds/attractions/musee-de-l-horlogerie-du-locle/a/poi-sig/1115575/1329090" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/switzerland/experiences/news/a-5-day-switzerland-itinerary-featuring-basel-neuchatel-gstaad-luzern-and-zurich" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/switzerland/blog/check-out-switzerlands-11-unesco-world-heritage-sites-051016" }
       ]
     },
     {
