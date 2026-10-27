@@ -1,0 +1,922 @@
+{
+  "agente": "gastronomia-vino",
+  "subregion": "francia-alpes",
+  "ronda": 1,
+  "paises": ["FR", "MC", "BE", "NL", "LU"],
+  "puntajes": [
+    {
+      "id": "fr-paris",
+      "puntaje": 5,
+      "justificacion": "Es una de las grandes capitales gastronómicas del mundo. La selección Michelin Francia y Mónaco 2026 reúne 668 establecimientos con estrella, 31 de ellos con tres, y solo el hotel George V suma seis estrellas entre Le Cinq, L'Orangerie y Le George. A eso se suman bistrós, panaderías, queserías y mercados de barrio.",
+      "platos": ["Soupe à l'oignon gratinée", "Croissant y pain au chocolat", "Steak frites", "Brie de Meaux"],
+      "fuentes": [
+        {"guia": "Guía Michelin (Francia 2026)", "url": "https://guide.michelin.com/en/article/news-and-views/michelin-starred-restaurants-france-new"},
+        {"guia": "Michelin (nota de prensa Francia y Mónaco 2026)", "url": "https://www.michelin.com/en/publications/products-and-services/new-selection-michelin-guide-france-monaco-2026"},
+        {"guia": "Four Seasons George V (estrellas Michelin 2026)", "url": "https://press.fourseasons.com/paris/hotel-news/2026/six-michelin-stars/"},
+        {"guia": "TasteAtlas", "url": "https://www.tasteatlas.com/best-dishes-in-paris"}
+      ]
+    },
+    {
+      "id": "fr-versalles",
+      "puntaje": 2,
+      "justificacion": "Tiene el mercado Notre-Dame, uno de los mercados cubiertos más animados de Île-de-France, y restaurantes alrededor del palacio. La oferta no justifica el viaje por sí sola.",
+      "platos": ["Productos del mercado Notre-Dame", "Brie de Meaux"],
+      "fuentes": []
+    },
+    {
+      "id": "fr-giverny",
+      "puntaje": 1,
+      "justificacion": "Es un pueblo de visita a los jardines de Monet, con algún restaurante normando y poca oferta propia.",
+      "platos": ["Sidra normanda"],
+      "fuentes": []
+    },
+    {
+      "id": "fr-chartres",
+      "puntaje": 2,
+      "justificacion": "El pâté de Chartres en hojaldre es su especialidad histórica, y está en el borde de la Beauce cerealista. Interés limitado.",
+      "platos": ["Pâté de Chartres", "Mentchikoff (bombón local)"],
+      "fuentes": []
+    },
+    {
+      "id": "fr-mont-saint-michel",
+      "puntaje": 2,
+      "justificacion": "La omelette de La Mère Poulard y el cordero de los prados salados de la bahía (AOP prés-salés) son sus productos emblemáticos, pero la oferta del islote es muy turística.",
+      "platos": ["Omelette de La Mère Poulard", "Cordero de prés-salés del Mont-Saint-Michel"],
+      "fuentes": []
+    },
+    {
+      "id": "fr-bayeux-playas-desembarco",
+      "puntaje": 3,
+      "justificacion": "Está en plena Baja Normandía lechera, con Isigny a 30 km. Hay quesos como el camembert, el livarot y el pont-l'évêque, mantequilla y nata de Isigny, sidra y calvados, y la cocina normanda de nata y manzana.",
+      "platos": ["Camembert de Normandie", "Tripes à la mode de Caen", "Sidra y calvados", "Tarte normande"],
+      "fuentes": [
+        {"guia": "TasteAtlas", "url": "https://www.tasteatlas.com/best-rated-dishes-in-lower-normandy"},
+        {"guia": "TasteAtlas", "url": "https://www.tasteatlas.com/best-rated-cheeses-in-normandy"}
+      ]
+    },
+    {
+      "id": "fr-honfleur",
+      "puntaje": 3,
+      "justificacion": "Es la puerta del Pays d'Auge, tierra de sidra, pommeau y calvados AOC, con el queso pont-l'évêque a 15 km. El puerto tiene restaurantes de pescado y marisco de la costa normanda.",
+      "platos": ["Calvados del Pays d'Auge", "Pont-l'évêque", "Moules à la normande", "Tarte normande"],
+      "fuentes": [
+        {"guia": "TasteAtlas", "url": "https://www.tasteatlas.com/best-rated-beverages-in-normandy"},
+        {"guia": "TasteAtlas", "url": "https://www.tasteatlas.com/best-rated-dishes-in-normandy"}
+      ]
+    },
+    {
+      "id": "fr-etretat",
+      "puntaje": 2,
+      "justificacion": "Es un pueblo de costa con pescado y marisco normandos y sidra. Algo de interés, pero se viene por los acantilados.",
+      "platos": ["Moules marinières", "Sidra normanda"],
+      "fuentes": []
+    },
+    {
+      "id": "fr-valle-del-loira",
+      "puntaje": 2,
+      "justificacion": "Amboise está entre los viñedos de Vouvray y Montlouis, con bodegas en cuevas de toba. Cerca están Chinon y los quesos de cabra como el sainte-maure-de-touraine, además de las rillettes de Tours. Se visita sobre todo por los castillos.",
+      "platos": ["Vouvray (chenin blanc)", "Sainte-maure-de-touraine", "Rillettes de Tours"],
+      "fuentes": []
+    },
+    {
+      "id": "fr-saint-malo",
+      "puntaje": 3,
+      "justificacion": "Tiene la cocina bretona de crêperies y galettes de trigo sarraceno, la mantequilla salada y la sidra. Las ostras de Cancale están a 14 km.",
+      "platos": ["Galette de sarrasin", "Ostras de Cancale", "Poulet au cidre", "Kouign-amann"],
+      "fuentes": [
+        {"guia": "TasteAtlas", "url": "https://www.tasteatlas.com/best-rated-chicken-dishes-in-france"}
+      ]
+    },
+    {
+      "id": "fr-carnac",
+      "puntaje": 2,
+      "justificacion": "En la costa de Morbihan hay ostras de la bahía de Quiberon, crêperies y sal de Guérande. Algo de interés.",
+      "platos": ["Ostras de Quiberon", "Crêpes y galettes"],
+      "fuentes": []
+    },
+    {
+      "id": "fr-estrasburgo",
+      "puntaje": 4,
+      "justificacion": "Es la capital de la cocina alsaciana de winstub: choucroute garnie, baeckeoffe, flammekueche y coq au riesling. La Ruta del Vino de Alsacia empieza en Marlenheim, a 20 km.",
+      "platos": ["Choucroute garnie", "Baeckeoffe", "Flammekueche", "Kougelhopf"],
+      "fuentes": [
+        {"guia": "TasteAtlas", "url": "https://www.tasteatlas.com/best-rated-vegetable-dishes-in-france"},
+        {"guia": "TasteAtlas", "url": "https://www.tasteatlas.com/best-rated-casseroles-in-france"},
+        {"guia": "Visit Alsace (turismo oficial)", "url": "https://pro.visit.alsace/?p=11506"}
+      ]
+    },
+    {
+      "id": "fr-colmar-ruta-vino-alsacia",
+      "puntaje": 5,
+      "justificacion": "Es el centro de la Ruta del Vino de Alsacia, creada en 1953 y de unos 170 km entre Marlenheim y Thann, con 51 Grands Crus y pueblos de bodegas como Riquewihr, Eguisheim y Kaysersberg. Se suma la cocina alsaciana.",
+      "platos": ["Riesling y gewurztraminer Grand Cru", "Crémant d'Alsace", "Coq au riesling", "Munster"],
+      "fuentes": [
+        {"guia": "Visit Alsace (turismo oficial)", "url": "https://pro.visit.alsace/?p=11506"},
+        {"guia": "Route des Vins d'Alsace (turismo oficial)", "url": "https://www.wineroute.alsace/?p=15738"},
+        {"guia": "France.fr (turismo oficial)", "url": "https://www.france.fr/es/articulo/ruta-excepcional-itinerario-hitos/"}
+      ]
+    },
+    {
+      "id": "fr-reims-champana",
+      "puntaje": 5,
+      "justificacion": "Es una región vinícola de referencia mundial. Las Laderas, Casas y Bodegas de Champaña son Patrimonio Mundial desde 2015. En la colina Saint-Nicaise de Reims hay crayères visitables, como las de Veuve Clicquot, Ruinart y Pommery. Bajo la Avenue de Champagne de Épernay corren más de 110 km de bodegas, y unas cincuenta bodegas con sello de calidad ofrecen catas.",
+      "platos": ["Champán", "Biscuits roses de Reims", "Jambon de Reims", "Chaource"],
+      "fuentes": [
+        {"guia": "Tourisme en Champagne (turismo oficial)", "url": "https://tourisme-en-champagne.com/en/?p=20472"},
+        {"guia": "Tourisme en Champagne (turismo oficial)", "url": "https://tourisme-en-champagne.com/en/all-about-champagne/vignobles-decouvertes-2/the-southern-slopes-of-epernay-and-the-cote-des-blancs/"}
+      ]
+    },
+    {
+      "id": "fr-beaune-cote-dor",
+      "puntaje": 5,
+      "justificacion": "Es la capital del vino de Borgoña. La Route Touristique des Grands Crus recorre la Côte d'Or entre los climats UNESCO y en Beaune está la Cité des Climats et Vins de Bourgogne. La interprofesión cuenta 252 bodegas con sello Vignobles & Découvertes abiertas al público entre Chablis y Mâcon.",
+      "platos": ["Pinot noir y chardonnay de la Côte d'Or", "Bœuf bourguignon", "Œufs en meurette", "Époisses"],
+      "fuentes": [
+        {"guia": "Bourgogne Wines (BIVB, interprofesión)", "url": "https://www.bourgogne-wines.com/trips-to-the-bourgogne-region/la-grande-route-des-vins-old/la-route-touristique-des-grands-vins/la-route-touristique-des-grands-vins-explore-and-discover-over-100km-of-picturesque-trails,2564,9639.html"},
+        {"guia": "Bourgogne Wines (BIVB, interprofesión)", "url": "https://www.bourgogne-wines.com/trips-to-the-bourgogne-region/the-vignobles-decouvertes-cellars/guide-to-accredited-wineries,2568,9651.html"},
+        {"guia": "Beaune Tourisme (turismo oficial)", "url": "https://www.beaune-tourism.com/offers/sejour-en-cote-de-beaune-beaune-en-5821468"}
+      ]
+    },
+    {
+      "id": "fr-dijon",
+      "puntaje": 4,
+      "justificacion": "Desde 2022 alberga la Cité internationale de la gastronomie et du vin, en el antiguo hospital, dedicada a la comida gastronómica francesa inscrita por la UNESCO, con una escuela Ferrandi, una escuela de vinos de Borgoña, bodegas y restaurantes. Aquí empieza la Route des Grands Crus y es la cuna de la mostaza y del kir.",
+      "platos": ["Mostaza de Dijon", "Jambon persillé", "Kir (crème de cassis y aligoté)", "Pain d'épices"],
+      "fuentes": [
+        {"guia": "France.fr (turismo oficial, prensa)", "url": "https://us.media.france.fr/en/node/8972"},
+        {"guia": "Banque des Territoires", "url": "https://www.banquedesterritoires.fr/la-cite-internationale-de-la-gastronomie-et-du-vin-de-dijon-ouvre-le-6-mai-2022"},
+        {"guia": "Bourgogne Wines (BIVB, interprofesión)", "url": "https://www.bourgogne-wines.com/trips-to-the-bourgogne-region/la-grande-route-des-vins-old/la-route-touristique-des-grands-vins/la-route-touristique-des-grands-vins-explore-and-discover-over-100km-of-picturesque-trails,2564,9639.html"}
+      ]
+    },
+    {
+      "id": "fr-lyon",
+      "puntaje": 5,
+      "justificacion": "Se la considera la capital gastronómica de Francia por sus bouchons, el legado de Paul Bocuse, Les Halles de Lyon y la charcutería lionesa, con el Beaujolais y el norte del Ródano a menos de una hora. TasteAtlas recoge más de 30 especialidades locales.",
+      "platos": ["Quenelles de brochet", "Saucisson brioché", "Tablier de sapeur", "Cervelle de canut"],
+      "fuentes": [
+        {"guia": "TasteAtlas", "url": "https://www.tasteatlas.com/lyon"},
+        {"guia": "Guía Michelin (Francia 2026)", "url": "https://guide.michelin.com/en/article/news-and-views/michelin-starred-restaurants-france-new"}
+      ]
+    },
+    {
+      "id": "fr-annecy",
+      "puntaje": 3,
+      "justificacion": "Tiene la cocina saboyana de queso (reblochon, tartiflette, fondue), pescado de lago y mercados en el casco antiguo. La alta cocina de las Saboyas va en alza: en 2026 Les Morainières (Jongieux, Saboya) ganó su tercera estrella.",
+      "platos": ["Tartiflette", "Reblochon", "Fondue savoyarde", "Filets de perche o féra del lago"],
+      "fuentes": [
+        {"guia": "Michelin (nota de prensa Francia y Mónaco 2026)", "url": "https://www.michelin.com/en/publications/products-and-services/new-selection-michelin-guide-france-monaco-2026"}
+      ]
+    },
+    {
+      "id": "fr-chamonix-mont-blanc",
+      "puntaje": 2,
+      "justificacion": "Cocina de montaña saboyana en refugios y restaurantes de estación. Interés secundario.",
+      "platos": ["Fondue savoyarde", "Tartiflette", "Diots al vino blanco"],
+      "fuentes": []
+    },
+    {
+      "id": "fr-gorges-du-verdon",
+      "puntaje": 1,
+      "justificacion": "Es un destino de naturaleza. Cerca están la miel de lavanda y el aceite de oliva de la Alta Provenza.",
+      "platos": ["Miel de lavanda"],
+      "fuentes": []
+    },
+    {
+      "id": "fr-avinon",
+      "puntaje": 4,
+      "justificacion": "Está en el corazón de los Côtes du Rhône, con Les Halles de Avignon como mercado. Châteauneuf-du-Pape, a 15 km, tiene vinoteca de la denominación, el museo del vino y bodegas con cata. La cocina es provenzal.",
+      "platos": ["Châteauneuf-du-Pape y Côtes du Rhône", "Ratatouille", "Papalines d'Avignon", "Tapenade"],
+      "fuentes": [
+        {"guia": "AOC Châteauneuf-du-Pape (federación de productores)", "url": "https://en.chateauneuf.com/wine-cellar-visit-tasting-chateauneuf-du-pape/"},
+        {"guia": "TasteAtlas", "url": "https://www.tasteatlas.com/best-rated-dishes-in-provence-alpes-cote-dazur"}
+      ]
+    },
+    {
+      "id": "fr-arles",
+      "puntaje": 3,
+      "justificacion": "Es la puerta de la Camarga, con arroz IGP, toro AOP en gardiane, saucisson d'Arles y flor de sal. Tiene un gran mercado de sábado en el bulevar des Lices.",
+      "platos": ["Gardiane de taureau", "Arroz de Camarga", "Saucisson d'Arles", "Fleur de sel de Camargue"],
+      "fuentes": [
+        {"guia": "TasteAtlas", "url": "https://www.tasteatlas.com/best-rated-dishes-in-provence-alpes-cote-dazur"}
+      ]
+    },
+    {
+      "id": "fr-pont-du-gard",
+      "puntaje": 1,
+      "justificacion": "Es un monumento sin oferta gastronómica propia.",
+      "platos": [],
+      "fuentes": []
+    },
+    {
+      "id": "fr-nimes",
+      "puntaje": 2,
+      "justificacion": "Su especialidad es la brandade de bacalao y está rodeada por los vinos AOC Costières de Nîmes. Algo de interés.",
+      "platos": ["Brandade de Nîmes", "Costières de Nîmes", "Croquants Villaret"],
+      "fuentes": []
+    },
+    {
+      "id": "fr-aix-en-provence",
+      "puntaje": 3,
+      "justificacion": "Es la ciudad de los calissons, con mercados diarios en la place Richelme y las Coteaux d'Aix rosé. Representa bien la cocina provenzal.",
+      "platos": ["Calissons d'Aix", "Rosado Coteaux d'Aix-en-Provence", "Tapenade", "Ratatouille"],
+      "fuentes": [
+        {"guia": "TasteAtlas", "url": "https://www.tasteatlas.com/best-rated-dishes-in-provence-alpes-cote-dazur"}
+      ]
+    },
+    {
+      "id": "fr-luberon",
+      "puntaje": 3,
+      "justificacion": "Tiene mercados provenzales semanales (Lourmarin, Apt, Coustellet), vinos AOC Luberon y Ventoux, trufa negra de invierno, aceite de oliva y frutas confitadas de Apt.",
+      "platos": ["Frutas confitadas de Apt", "Trufa negra (Tuber melanosporum)", "Vinos AOC Luberon", "Tapenade"],
+      "fuentes": [
+        {"guia": "TasteAtlas", "url": "https://www.tasteatlas.com/best-rated-dishes-in-provence-alpes-cote-dazur"}
+      ]
+    },
+    {
+      "id": "fr-marsella-calanques",
+      "puntaje": 4,
+      "justificacion": "Es la cuna de la bouillabaisse, uno de los platos provenzales mejor valorados en TasteAtlas. La cocina es portuaria y mediterránea, con panisses, navettes y el mercado de pescado del Vieux-Port, y los blancos de Cassis están junto a las Calanques.",
+      "platos": ["Bouillabaisse", "Panisse", "Navettes", "Blanco de Cassis"],
+      "fuentes": [
+        {"guia": "TasteAtlas", "url": "https://www.tasteatlas.com/best-rated-dishes-in-provence-alpes-cote-dazur"}
+      ]
+    },
+    {
+      "id": "fr-niza",
+      "puntaje": 4,
+      "justificacion": "Su cocina nizarda tiene identidad propia: la pissaladière y el pan bagnat están entre lo mejor valorado de Provenza en TasteAtlas. Se completa con la socca del mercado del Cours Saleya y el pequeño viñedo AOC Bellet dentro de la ciudad.",
+      "platos": ["Socca", "Pissaladière", "Pan bagnat", "Salade niçoise"],
+      "fuentes": [
+        {"guia": "TasteAtlas", "url": "https://www.tasteatlas.com/best-rated-dishes-in-provence-alpes-cote-dazur"}
+      ]
+    },
+    {
+      "id": "fr-menton",
+      "puntaje": 3,
+      "justificacion": "Tiene el limón de Menton IGP y la Fête du Citron, y aquí está Mirazur, de Mauro Colagreco, que fue número uno de The World's 50 Best en 2019. La cocina es ligur y provenzal.",
+      "platos": ["Limón de Menton", "Barbajuan", "Socca", "Tourte de blettes"],
+      "fuentes": [
+        {"guia": "TasteAtlas", "url": "https://www.tasteatlas.com/best-rated-dishes-in-provence-alpes-cote-dazur"}
+      ]
+    },
+    {
+      "id": "fr-carcasona",
+      "puntaje": 4,
+      "justificacion": "Es una de las tres ciudades que reclaman el cassoulet: la versión de Carcasona añade cordero o perdiz. La rodean los viñedos de Corbières, Minervois y Malepère, y Limoux, con su blanquette espumosa, está a 25 km.",
+      "platos": ["Cassoulet de Carcassonne", "Vinos de Corbières y Minervois", "Blanquette de Limoux"],
+      "fuentes": [
+        {"guia": "TasteAtlas", "url": "https://www.tasteatlas.com/cassoulet-castelnaudary"},
+        {"guia": "TasteAtlas", "url": "https://www.tasteatlas.com/best-rated-casseroles-in-occitanie"}
+      ]
+    },
+    {
+      "id": "fr-sarlat-dordona",
+      "puntaje": 4,
+      "justificacion": "Es la capital del Périgord Noir, con foie gras de pato (TasteAtlas pone en cabeza un foie gras de Dordoña), trufa negra, nueces AOP y el gran mercado del sábado de Sarlat. Bergerac y Monbazillac están en el mismo departamento.",
+      "platos": ["Foie gras de canard", "Trufa negra del Périgord", "Pommes sarladaises", "Nueces del Périgord AOP"],
+      "fuentes": [
+        {"guia": "TasteAtlas", "url": "https://www.tasteatlas.com/best-rated-offal-dishes-in-france"},
+        {"guia": "TasteAtlas", "url": "https://www.tasteatlas.com/best-rated-appetizers-in-france"}
+      ]
+    },
+    {
+      "id": "fr-valle-vezere-lascaux",
+      "puntaje": 3,
+      "justificacion": "Tiene la misma despensa del Périgord Noir (foie gras, confit, trufa, nueces) en fermes-auberges y mercados de Montignac y Les Eyzies, a 25 km de Sarlat.",
+      "platos": ["Foie gras", "Confit de canard", "Gâteau aux noix"],
+      "fuentes": [
+        {"guia": "TasteAtlas", "url": "https://www.tasteatlas.com/best-rated-offal-dishes-in-france"}
+      ]
+    },
+    {
+      "id": "fr-rocamadour",
+      "puntaje": 3,
+      "justificacion": "Da nombre al queso AOP de cabra rocamadour y está en el Quercy de la trufa y el foie gras. En la zona hay granjas queseras visitables.",
+      "platos": ["Queso rocamadour AOP", "Foie gras del Quercy", "Vino de Cahors"],
+      "fuentes": [
+        {"guia": "TasteAtlas", "url": "https://www.tasteatlas.com/best-rated-dishes-in-occitanie"}
+      ]
+    },
+    {
+      "id": "fr-burdeos",
+      "puntaje": 5,
+      "justificacion": "Es una región vinícola top mundial. Desde la ciudad se va en tren regional a Margaux (45 min) y a Saint-Émilion (34 min), los châteaux del Médoc abren en jornadas de puertas abiertas y Sauternes está a 40 minutos. En la ciudad están la Cité du Vin, los canelés y las ostras de Arcachon.",
+      "platos": ["Vinos de Burdeos (Médoc, Graves, Sauternes)", "Canelés", "Entrecôte à la bordelaise", "Ostras de Arcachon"],
+      "fuentes": [
+        {"guia": "Bordeaux.com (CIVB, interprofesión)", "url": "https://www.bordeaux.com/en/mag/blog/a-car-free-escape-through-bordeaux-s-vineyards/"},
+        {"guia": "Bordeaux.com (CIVB, interprofesión)", "url": "https://www.bordeaux.com/en/mag/blog/open-days-in-the-bordeaux-vineyards-irresistible/"},
+        {"guia": "Bordeaux.com (CIVB, interprofesión)", "url": "https://www.bordeaux.com/en/mag/blog/histoires-de-resolution-chateau-lafaurie-peyraguey-imaginer-un-oenotourisme-singulier"}
+      ]
+    },
+    {
+      "id": "fr-duna-pilat-arcachon",
+      "puntaje": 2,
+      "justificacion": "La bahía de Arcachon es una gran zona ostrícola, con cabañas de ostricultores en Cap Ferret y Gujan-Mestras. Se viene sobre todo por la duna.",
+      "platos": ["Ostras de Arcachon", "Crepinettes con ostras"],
+      "fuentes": []
+    },
+    {
+      "id": "fr-biarritz-costa-vasca",
+      "puntaje": 4,
+      "justificacion": "La cocina vasca francesa tiene identidad propia, con piperade y poulet basquaise sazonados con piment d'Espelette. Se suman el jamón de Bayona, el mercado de Les Halles de Bayona, el chocolate de Bayona y los pintxos de Biarritz.",
+      "platos": ["Piperade", "Poulet basquaise", "Jamón de Bayona", "Gâteau basque"],
+      "fuentes": [
+        {"guia": "TasteAtlas", "url": "https://www.tasteatlas.com/best-rated-vegetable-dishes-in-france"},
+        {"guia": "TasteAtlas", "url": "https://www.tasteatlas.com/best-rated-chicken-dishes-in-france"}
+      ]
+    },
+    {
+      "id": "fr-toulouse",
+      "puntaje": 4,
+      "justificacion": "Es la capital de la cocina occitana: la saucisse de Toulouse es base del cassoulet, que se toma en sus brasseries. Tiene el mercado cubierto Victor Hugo y los vinos de Fronton y Gaillac.",
+      "platos": ["Saucisse de Toulouse", "Cassoulet", "Violetas de Toulouse", "Vinos de Fronton"],
+      "fuentes": [
+        {"guia": "TasteAtlas", "url": "https://www.tasteatlas.com/best-rated-dishes-in-occitanie"},
+        {"guia": "TasteAtlas", "url": "https://www.tasteatlas.com/best-rated-meat-dishes-in-occitanie"}
+      ]
+    },
+    {
+      "id": "fr-gorges-du-tarn",
+      "puntaje": 1,
+      "justificacion": "Es un destino de naturaleza con cocina rural de Lozère (aligot, quesos de oveja). Poco interés.",
+      "platos": ["Aligot"],
+      "fuentes": []
+    },
+    {
+      "id": "fr-corcega",
+      "puntaje": 4,
+      "justificacion": "La isla tiene una despensa muy propia: charcutería de cerdo nustrale (figatellu, lonzu, coppa), el brocciu AOP, quesos de oveja como el niolo, harina de castaña y vinos AOC Patrimonio y Ajaccio.",
+      "platos": ["Figatellu", "Brocciu", "Fiadone", "Vino de Patrimonio"],
+      "fuentes": [
+        {"guia": "TasteAtlas", "url": "https://www.tasteatlas.com/best-rated-dishes-in-corsica"},
+        {"guia": "TasteAtlas", "url": "https://www.tasteatlas.com/brocciu-corse"},
+        {"guia": "TasteAtlas", "url": "https://www.tasteatlas.com/figatelli-de-lile-de-beaute"}
+      ]
+    },
+    {
+      "id": "fr-bonifacio",
+      "puntaje": 3,
+      "justificacion": "Tiene cocina corsa con pescado del estrecho, charcutería y quesos de la isla, y bodegas del AOC Figari cerca.",
+      "platos": ["Aubergines à la bonifacienne", "Brocciu", "Charcutería corsa"],
+      "fuentes": [
+        {"guia": "TasteAtlas", "url": "https://www.tasteatlas.com/best-rated-dishes-in-corsica"}
+      ]
+    },
+    {
+      "id": "fr-nancy",
+      "puntaje": 2,
+      "justificacion": "Es tierra de la quiche lorraine, los macarons de Nancy, las bergamotas y la mirabel. La oferta es correcta, pero no es un destino gastronómico.",
+      "platos": ["Quiche lorraine", "Macarons de Nancy", "Bergamotes de Nancy"],
+      "fuentes": []
+    },
+    {
+      "id": "fr-verdun",
+      "puntaje": 1,
+      "justificacion": "Es conocida por las peladillas (dragées), poco más.",
+      "platos": ["Dragées de Verdun"],
+      "fuentes": []
+    },
+    {
+      "id": "fr-lille",
+      "puntaje": 2,
+      "justificacion": "Tiene cocina flamenca del norte (carbonade, potjevleesch, welsh) y queso maroilles en estaminets. Es agradable, aunque menos destacada que otras capitales regionales.",
+      "platos": ["Carbonade flamande", "Potjevleesch", "Welsh", "Gaufre fourrée"],
+      "fuentes": []
+    },
+    {
+      "id": "mc-monaco-ville",
+      "puntaje": 2,
+      "justificacion": "En el Rocher hay pequeños restaurantes de cocina monegasca (barbagiuan, fougasse). Algo de interés.",
+      "platos": ["Barbagiuan", "Fougasse monégasque"],
+      "fuentes": []
+    },
+    {
+      "id": "mc-monte-carlo",
+      "puntaje": 4,
+      "justificacion": "La guía Michelin Francia y Mónaco 2026 se presentó en Mónaco. En la Place du Casino está Le Louis XV-Alain Ducasse, uno de los triestrellados históricos de la guía, y el principado reúne una concentración de alta cocina rara para su tamaño.",
+      "platos": ["Barbagiuan", "Stocafi", "Cocina riviera de alta gama"],
+      "fuentes": [
+        {"guia": "Michelin (nota de prensa Francia y Mónaco 2026)", "url": "https://www.michelin.com/en/publications/products-and-services/new-selection-michelin-guide-france-monaco-2026"}
+      ]
+    },
+    {
+      "id": "mc-jardin-exotique",
+      "puntaje": 0,
+      "justificacion": "Es un jardín botánico sin oferta gastronómica.",
+      "platos": [],
+      "fuentes": []
+    },
+    {
+      "id": "mc-puerto-hercule-circuito",
+      "puntaje": 2,
+      "justificacion": "Sobre el puerto está el mercado de La Condamine, con puestos de socca y barbagiuan.",
+      "platos": ["Socca", "Barbagiuan"],
+      "fuentes": []
+    },
+    {
+      "id": "mc-larvotto",
+      "puntaje": 1,
+      "justificacion": "Es una playa con restaurantes de playa.",
+      "platos": [],
+      "fuentes": []
+    },
+    {
+      "id": "be-brujas",
+      "puntaje": 4,
+      "justificacion": "Tiene chocolaterías artesanas, la cervecería De Halve Maan en el centro y cocina flamenca. Boury, en Roeselare a 30 km, mantiene sus tres estrellas Michelin en 2026.",
+      "platos": ["Stoofvlees met frieten", "Chocolate belga", "Cerveza Brugse Zot", "Gaufre de Bruxelles"],
+      "fuentes": [
+        {"guia": "TasteAtlas", "url": "https://www.tasteatlas.com/best-dishes-in-bruges"},
+        {"guia": "Michelin (nota de prensa Bélgica y Luxemburgo 2026)", "url": "https://www.michelin.com/en/publications/products-and-services/cuines-33-and-the-jane-are-rewarded-with-two-michelin-stars-in-the-2026-belgium-and-luxembourg-michelin-guide"}
+      ]
+    },
+    {
+      "id": "be-bruselas",
+      "puntaje": 4,
+      "justificacion": "Es la capital del moules-frites, la gaufre de Bruselas y el chocolate. Cantillon, una de las cervecerías de lambic icónicas, está en Anderlecht, y hay estaminets y friterías. En la Michelin 2026 la ciudad salió peor parada que Amberes o Flandes Occidental.",
+      "platos": ["Moules-frites", "Gaufre de Bruxelles", "Lambic y gueuze", "Chocolate belga"],
+      "fuentes": [
+        {"guia": "TasteAtlas", "url": "https://www.tasteatlas.com/best-dishes-in-brussels"},
+        {"guia": "Visit Flanders (turismo oficial)", "url": "https://www.visitflanders.com/en/flandersfinestcycleroutes/lambic-geuze-route"},
+        {"guia": "Brussels Times (Michelin 2026)", "url": "https://www.brusselstimes.com/belgium/2112019/nine-new-restaurants-awarded-michelin-stars-in-belgium/"}
+      ]
+    },
+    {
+      "id": "be-gante",
+      "puntaje": 3,
+      "justificacion": "Tiene platos propios como el waterzooi y los cuberdons, mostaza Tierenteyn y una escena vegetariana activa. En 2026 Moscou, en Gentbrugge, ganó su primera estrella.",
+      "platos": ["Gentse waterzooi", "Cuberdons (neuzekes)", "Mostaza Tierenteyn"],
+      "fuentes": [
+        {"guia": "TasteAtlas", "url": "https://www.tasteatlas.com/most-popular-dishes-in-belgium"},
+        {"guia": "Belga News Agency (Michelin 2026)", "url": "https://www.belganewsagency.eu/michelin-guide-two-belgian-restaurants-receive-second-star-and-nine-a-first"}
+      ]
+    },
+    {
+      "id": "be-amberes",
+      "puntaje": 4,
+      "justificacion": "Es la ciudad con más alta cocina de Bélgica: Zilte (Viki Geunes) mantiene tres estrellas y The Jane (Nick Bril) sube a dos en 2026. Tiene además la cervecería De Koninck y los Antwerpse handjes.",
+      "platos": ["Bolleke De Koninck", "Antwerpse handjes", "Elixir d'Anvers", "Stoofvlees"],
+      "fuentes": [
+        {"guia": "Michelin (nota de prensa Bélgica y Luxemburgo 2026)", "url": "https://www.michelin.com/en/publications/products-and-services/cuines-33-and-the-jane-are-rewarded-with-two-michelin-stars-in-the-2026-belgium-and-luxembourg-michelin-guide"},
+        {"guia": "TasteAtlas", "url": "https://www.tasteatlas.com/best-dishes-in-antwerp"}
+      ]
+    },
+    {
+      "id": "be-ypres-flanders-fields",
+      "puntaje": 2,
+      "justificacion": "Poperinge, capital del lúpulo, está a 12 km y la abadía trapense de Westvleteren a unos 20 km. Algo de interés cervecero.",
+      "platos": ["Westvleteren", "Brotes de lúpulo (hopscheuten)"],
+      "fuentes": []
+    },
+    {
+      "id": "be-lovaina",
+      "puntaje": 2,
+      "justificacion": "Es sede de Stella Artois y tiene la Oude Markt llena de bares estudiantiles. Algo de interés cervecero.",
+      "platos": ["Stella Artois", "Stoofvlees"],
+      "fuentes": []
+    },
+    {
+      "id": "be-malinas",
+      "puntaje": 2,
+      "justificacion": "Tiene la cervecería Het Anker (Gouden Carolus) y la gallina Mechelse koekoek. Algo de interés.",
+      "platos": ["Gouden Carolus", "Mechelse koekoek"],
+      "fuentes": []
+    },
+    {
+      "id": "be-costa-belga",
+      "puntaje": 3,
+      "justificacion": "Es la costa de la gamba gris del mar del Norte, con la pesca a caballo de Oostduinkerke, croquetas de gamba y moules-frites en los paseos. En 2026 Cuines 33, en Knokke, sube a dos estrellas.",
+      "platos": ["Garnaalkroketten", "Tomate-crevettes", "Moules-frites"],
+      "fuentes": [
+        {"guia": "Michelin (nota de prensa Bélgica y Luxemburgo 2026)", "url": "https://www.michelin.com/en/publications/products-and-services/cuines-33-and-the-jane-are-rewarded-with-two-michelin-stars-in-the-2026-belgium-and-luxembourg-michelin-guide"}
+      ]
+    },
+    {
+      "id": "be-namur",
+      "puntaje": 2,
+      "justificacion": "Tiene cocina valona, cervezas de abadía y el vino de Namur. Algo de interés.",
+      "platos": ["Escavèche", "Cervezas valonas"],
+      "fuentes": []
+    },
+    {
+      "id": "be-dinant",
+      "puntaje": 2,
+      "justificacion": "Es la cuna de la couque de Dinant y del nombre Leffe. Algo de interés.",
+      "platos": ["Couque de Dinant", "Leffe"],
+      "fuentes": []
+    },
+    {
+      "id": "be-han-sur-lesse",
+      "puntaje": 1,
+      "justificacion": "Es un destino de cuevas con restauración turística.",
+      "platos": [],
+      "fuentes": []
+    },
+    {
+      "id": "be-durbuy",
+      "puntaje": 2,
+      "justificacion": "En este pueblo de las Ardenas hay jamón de las Ardenas, caza en otoño y una cervecería artesanal. Algo de interés.",
+      "platos": ["Jambon d'Ardenne", "Caza de las Ardenas"],
+      "fuentes": []
+    },
+    {
+      "id": "be-la-roche-en-ardenne",
+      "puntaje": 2,
+      "justificacion": "Cocina de las Ardenas con jamón, caza y cerveza local. Algo de interés.",
+      "platos": ["Jambon d'Ardenne", "Civet de jabalí"],
+      "fuentes": []
+    },
+    {
+      "id": "be-bouillon",
+      "puntaje": 2,
+      "justificacion": "Tiene la cocina de las Ardenas y la trucha del Semois, y la abadía trapense de Orval está a unos 25 km.",
+      "platos": ["Cerveza de Orval", "Truite de la Semois", "Jambon d'Ardenne"],
+      "fuentes": []
+    },
+    {
+      "id": "be-lieja",
+      "puntaje": 3,
+      "justificacion": "Es la cuna de la gaufre de Liège, de masa de brioche con azúcar perlado. Tiene platos propios como los boulets à la liégeoise con sirope de Liège, y el mercado dominical de La Batte.",
+      "platos": ["Gaufre de Liège", "Boulets à la liégeoise", "Sirop de Liège", "Péket"],
+      "fuentes": [
+        {"guia": "TasteAtlas", "url": "https://www.tasteatlas.com/best-rated-dishes-in-wallonia"},
+        {"guia": "TasteAtlas", "url": "https://www.tasteatlas.com/best-rated-gaufre-varieties-in-the-world"}
+      ]
+    },
+    {
+      "id": "be-spa",
+      "puntaje": 1,
+      "justificacion": "Es un balneario con aguas minerales. Poca oferta gastronómica.",
+      "platos": ["Agua de Spa"],
+      "fuentes": []
+    },
+    {
+      "id": "be-hautes-fagnes",
+      "puntaje": 1,
+      "justificacion": "Es un espacio natural. El queso de Herve se elabora en la meseta vecina.",
+      "platos": ["Queso de Herve"],
+      "fuentes": []
+    },
+    {
+      "id": "be-hoge-kempen",
+      "puntaje": 1,
+      "justificacion": "Es un parque nacional con poca oferta gastronómica.",
+      "platos": [],
+      "fuentes": []
+    },
+    {
+      "id": "be-waterloo",
+      "puntaje": 1,
+      "justificacion": "Es un campo de batalla con restauración turística.",
+      "platos": [],
+      "fuentes": []
+    },
+    {
+      "id": "be-abadia-villers",
+      "puntaje": 1,
+      "justificacion": "Son unas ruinas cistercienses con cerveza de abadía en el molino vecino.",
+      "platos": ["Cerveza de abadía de Villers"],
+      "fuentes": []
+    },
+    {
+      "id": "be-binche",
+      "puntaje": 1,
+      "justificacion": "Es un pueblo de carnaval. Poca oferta gastronómica.",
+      "platos": [],
+      "fuentes": []
+    },
+    {
+      "id": "nl-amsterdam",
+      "puntaje": 4,
+      "justificacion": "Es la escena culinaria más variada de los Países Bajos. TasteAtlas recoge 29 especialidades locales, entre ellas bitterballen y ossenworst, y la ciudad suma arenque crudo en puestos callejeros, rijsttafel indonesia, food halls y restaurantes con estrella Michelin.",
+      "platos": ["Haring (arenque crudo)", "Bitterballen", "Ossenworst", "Rijsttafel"],
+      "fuentes": [
+        {"guia": "TasteAtlas", "url": "https://www.tasteatlas.com/best-dishes-in-amsterdam"},
+        {"guia": "TasteAtlas", "url": "https://www.tasteatlas.com/bitterballen"}
+      ]
+    },
+    {
+      "id": "nl-rotterdam",
+      "puntaje": 3,
+      "justificacion": "El Markthal es el mercado cubierto emblemático del país y la ciudad tiene una escena gastronómica multicultural, con varios restaurantes en la selección Michelin 2026 de los Países Bajos (119 con estrella).",
+      "platos": ["Kibbeling", "Bitterballen", "Cocina surinamesa (roti)"],
+      "fuentes": [
+        {"guia": "Michelin (nota de prensa Países Bajos 2026)", "url": "https://www.michelin.com/en/publications/products-and-services/the-2026-michelin-guide-netherlands"}
+      ]
+    },
+    {
+      "id": "nl-delft",
+      "puntaje": 3,
+      "justificacion": "En 2026 Azurite entró directamente en la guía Michelin con dos estrellas. Por lo demás, es una ciudad de cafés y cocina holandesa sencilla.",
+      "platos": ["Poffertjes", "Bitterballen"],
+      "fuentes": [
+        {"guia": "Michelin (nota de prensa Países Bajos 2026)", "url": "https://www.michelin.com/en/publications/products-and-services/the-2026-michelin-guide-netherlands"}
+      ]
+    },
+    {
+      "id": "nl-la-haya",
+      "puntaje": 2,
+      "justificacion": "Tiene la comunidad indonesia más asentada del país, con restaurantes de rijsttafel, y el arenque nuevo de Scheveningen. Algo de interés.",
+      "platos": ["Hollandse Nieuwe (Scheveningen)", "Rijsttafel"],
+      "fuentes": []
+    },
+    {
+      "id": "nl-haarlem",
+      "puntaje": 2,
+      "justificacion": "Tiene la cervecería Jopenkerk, instalada en una iglesia, y mercado en la Grote Markt. Algo de interés.",
+      "platos": ["Cerveza Jopen", "Haring"],
+      "fuentes": []
+    },
+    {
+      "id": "nl-utrecht",
+      "puntaje": 2,
+      "justificacion": "Tiene terrazas en los muelles del Oudegracht y una escena de cafés universitarios. Algo de interés.",
+      "platos": ["Utrechtse sprits", "Bitterballen"],
+      "fuentes": []
+    },
+    {
+      "id": "nl-leiden",
+      "puntaje": 2,
+      "justificacion": "Es una ciudad universitaria con mercados en los canales y el queso Leidse kaas con comino.",
+      "platos": ["Leidse kaas (queso con comino)", "Hutspot"],
+      "fuentes": []
+    },
+    {
+      "id": "nl-maastricht",
+      "puntaje": 4,
+      "justificacion": "Es la capital culinaria del sur del país, con el festival Preuvenemint, vlaai y zoervleis limburgueses y los viñedos del Mergelland. En 2026 Suis, en Schin op Geul a 13 km, entró en la guía con dos estrellas.",
+      "platos": ["Limburgse vlaai", "Zoervleis", "Vinos del Mergelland", "Queso de Limburgo"],
+      "fuentes": [
+        {"guia": "Michelin (nota de prensa Países Bajos 2026)", "url": "https://www.michelin.com/en/publications/products-and-services/the-2026-michelin-guide-netherlands"}
+      ]
+    },
+    {
+      "id": "nl-texel",
+      "puntaje": 2,
+      "justificacion": "Tiene cordero de Texel, cerveza de la isla y queso de oveja. Algo de interés.",
+      "platos": ["Cordero de Texel", "Texels Speciaalbier"],
+      "fuentes": []
+    },
+    {
+      "id": "nl-kinderdijk",
+      "puntaje": 1,
+      "justificacion": "Son unos molinos patrimoniales con cafetería.",
+      "platos": [],
+      "fuentes": []
+    },
+    {
+      "id": "nl-giethoorn",
+      "puntaje": 1,
+      "justificacion": "Es un pueblo de canales con restauración turística.",
+      "platos": [],
+      "fuentes": []
+    },
+    {
+      "id": "nl-hoge-veluwe",
+      "puntaje": 0,
+      "justificacion": "Es un parque nacional y museo sin oferta gastronómica propia.",
+      "platos": [],
+      "fuentes": []
+    },
+    {
+      "id": "nl-keukenhof-bollenstreek",
+      "puntaje": 0,
+      "justificacion": "Son jardines de flores sin oferta gastronómica propia.",
+      "platos": [],
+      "fuentes": []
+    },
+    {
+      "id": "nl-alkmaar",
+      "puntaje": 2,
+      "justificacion": "Tiene el mercado tradicional del queso de los viernes, de abril a septiembre, y el Museo del Queso. Es un espectáculo folclórico ligado al producto más que un destino culinario.",
+      "platos": ["Queso gouda y edam", "Haring"],
+      "fuentes": []
+    },
+    {
+      "id": "nl-gouda",
+      "puntaje": 2,
+      "justificacion": "Da nombre al queso más famoso del país, con mercado de queso en verano, y es la cuna del stroopwafel.",
+      "platos": ["Queso gouda", "Stroopwafel"],
+      "fuentes": []
+    },
+    {
+      "id": "nl-edam-volendam-marken",
+      "puntaje": 2,
+      "justificacion": "Tiene el queso de Edam y la anguila ahumada de Volendam. Algo de interés.",
+      "platos": ["Queso edam", "Gerookte paling (anguila ahumada)"],
+      "fuentes": []
+    },
+    {
+      "id": "nl-hoorn-enkhuizen",
+      "puntaje": 1,
+      "justificacion": "Son antiguos puertos con pescado ahumado del IJsselmeer. Poca oferta.",
+      "platos": ["Pescado ahumado"],
+      "fuentes": []
+    },
+    {
+      "id": "nl-zaanse-schans",
+      "puntaje": 2,
+      "justificacion": "Tiene molinos de mostaza y especias, quesería y la tradición cacaotera del Zaan. Algo de interés.",
+      "platos": ["Mostaza de Zaanse Schans", "Queso"],
+      "fuentes": []
+    },
+    {
+      "id": "nl-groningen",
+      "puntaje": 1,
+      "justificacion": "Tiene la Groninger koek y la mostaza local. Poco más.",
+      "platos": ["Groninger koek", "Mostaza de Groninga"],
+      "fuentes": []
+    },
+    {
+      "id": "nl-leeuwarden-frisia",
+      "puntaje": 2,
+      "justificacion": "Tiene el pan de azúcar frisón (suikerbrood), el licor Beerenburg y quesos con clavo. Algo de interés.",
+      "platos": ["Fries suikerbrood", "Beerenburg", "Nagelkaas"],
+      "fuentes": []
+    },
+    {
+      "id": "nl-islas-wadden",
+      "puntaje": 2,
+      "justificacion": "Hay gamba y pescado del Wadden y productos de arándano en Terschelling. Algo de interés.",
+      "platos": ["Arándanos de Terschelling", "Gamba del Wadden"],
+      "fuentes": []
+    },
+    {
+      "id": "nl-den-bosch",
+      "puntaje": 2,
+      "justificacion": "Es la ciudad de la Bossche bol, el gran profiterol de chocolate. Algo de interés.",
+      "platos": ["Bossche bol", "Worstenbroodje"],
+      "fuentes": []
+    },
+    {
+      "id": "nl-arnhem",
+      "puntaje": 1,
+      "justificacion": "Es una ciudad de museos con poca oferta gastronómica propia.",
+      "platos": ["Arnhemse meisjes (galletas)"],
+      "fuentes": []
+    },
+    {
+      "id": "nl-middelburg-zelanda",
+      "puntaje": 2,
+      "justificacion": "Es la capital de Zelanda, la región de los mejillones y las ostras, aunque el centro marisquero es Yerseke, a 30 km. En la ciudad hay Zeeuwse bolus y mercado semanal.",
+      "platos": ["Zeeuwse bolus", "Mejillones de Zelanda"],
+      "fuentes": []
+    },
+    {
+      "id": "lu-luxemburgo-ciudad",
+      "puntaje": 3,
+      "justificacion": "Tiene cocina luxemburguesa propia, con el judd mat gaardebounen, plato nacional, y los kniddelen. En 2026 Le Lys, de Kim De Dood, ganó su primera estrella Michelin, y los crémants del Mosela están a 25 km.",
+      "platos": ["Judd mat gaardebounen", "Kniddelen", "Gromperekichelcher", "Crémant de Luxembourg"],
+      "fuentes": [
+        {"guia": "TasteAtlas", "url": "https://www.tasteatlas.com/best-rated-dishes-in-luxembourg"},
+        {"guia": "TasteAtlas", "url": "https://www.tasteatlas.com/judd-mat-gaardebounen"},
+        {"guia": "Brussels Times (Michelin 2026)", "url": "https://www.brusselstimes.com/belgium/2112019/nine-new-restaurants-awarded-michelin-stars-in-belgium/"}
+      ]
+    },
+    {
+      "id": "lu-vianden",
+      "puntaje": 2,
+      "justificacion": "Celebra la feria de la nuez (Nëssmoart) en octubre y tiene cocina de las Ardenas. Algo de interés.",
+      "platos": ["Licor de nuez", "Jamón de las Ardenas"],
+      "fuentes": []
+    },
+    {
+      "id": "lu-echternach",
+      "puntaje": 1,
+      "justificacion": "Es un pueblo histórico con restauración sencilla.",
+      "platos": ["Gromperekichelcher"],
+      "fuentes": []
+    },
+    {
+      "id": "lu-mullerthal",
+      "puntaje": 1,
+      "justificacion": "Es un espacio de senderismo con poca oferta gastronómica.",
+      "platos": [],
+      "fuentes": []
+    },
+    {
+      "id": "lu-mosela",
+      "puntaje": 4,
+      "justificacion": "Es la región vinícola del país, con bodegas visitables en Remich y Grevenmacher. En Caves St Martin se recorren casi un kilómetro de túneles calizos con cata, y están también Bernard-Massard y la cooperativa Domaines Vinsmoselle, primer productor de crémant. Hay rutas de senderismo entre viñas y fiestas del crémant y la vendimia en septiembre.",
+      "platos": ["Crémant de Luxembourg", "Riesling y auxerrois del Mosela", "Friture de la Moselle", "Rieslingspaschtéit"],
+      "fuentes": [
+        {"guia": "Luxembourg.public.lu (portal oficial)", "url": "https://luxembourg.public.lu/en/visit/flavours/oenotourisme-luxembourg.html"},
+        {"guia": "Visit Luxembourg (turismo oficial)", "url": "https://www.visitluxembourg.com/destinations/regions/moselle"},
+        {"guia": "Vins et Crémants Luxembourg (interprofesión)", "url": "https://vins-cremants.lu/en/vigneron/cavesstmartin-en/"},
+        {"guia": "Visit Moselle (turismo oficial)", "url": "https://www.visitmoselle.lu/place/domaines-vinsmoselle-caves-de-grevenmacher"}
+      ]
+    },
+    {
+      "id": "lu-clervaux",
+      "puntaje": 1,
+      "justificacion": "Es un pueblo de las Ardenas con abadía. Poca oferta gastronómica.",
+      "platos": [],
+      "fuentes": []
+    },
+    {
+      "id": "lu-esch-sur-sure",
+      "puntaje": 1,
+      "justificacion": "Es un pueblo pequeño con algún restaurante.",
+      "platos": [],
+      "fuentes": []
+    },
+    {
+      "id": "lu-bourscheid",
+      "puntaje": 1,
+      "justificacion": "Es un castillo en ruinas sin oferta gastronómica propia.",
+      "platos": [],
+      "fuentes": []
+    },
+    {
+      "id": "lu-diekirch",
+      "puntaje": 1,
+      "justificacion": "Da nombre a la cerveza Diekirch. Poco más.",
+      "platos": ["Cerveza Diekirch"],
+      "fuentes": []
+    }
+  ],
+  "nuevos": [
+    {
+      "id": "fr-saint-emilion",
+      "nombre": "Saint-Émilion",
+      "pais_iso": "FR",
+      "region": "Nueva Aquitania (Gironda)",
+      "lat": 44.8936,
+      "lng": -0.1553,
+      "tipo": "pueblo",
+      "puntaje": 5,
+      "justificacion": "Es el pueblo vinícola más visitado de Burdeos y su jurisdicción es Patrimonio Mundial. Muchos Grands Crus Classés reciben visitas: Château Chauvin ofrece una visita de 30 minutos por 10 € y Château Villemaurine tres recorridos temáticos. Está a 34 minutos en tren de Burdeos, junto a Pomerol y Fronsac.",
+      "platos": ["Saint-Émilion Grand Cru (merlot y cabernet franc)", "Macarons de Saint-Émilion", "Lamproie à la bordelaise"],
+      "fuentes": [
+        {"guia": "Bordeaux.com (CIVB, interprofesión)", "url": "https://www.bordeaux.com/en/designations/saint-emilion-pomerol-fronsac/"},
+        {"guia": "Bordeaux.com (CIVB, interprofesión)", "url": "https://www.bordeaux.com/en/mag/blog/a-car-free-escape-through-bordeaux-s-vineyards/"},
+        {"guia": "Saint-Émilion Tourisme (turismo oficial)", "url": "https://www.saint-emilion-tourisme.com/en/viticole/fiche/1359?fromP=50"}
+      ]
+    },
+    {
+      "id": "fr-chateauneuf-du-pape",
+      "nombre": "Châteauneuf-du-Pape",
+      "pais_iso": "FR",
+      "region": "Provenza-Alpes-Costa Azul (Vaucluse)",
+      "lat": 44.0563,
+      "lng": 4.8327,
+      "tipo": "pueblo",
+      "puntaje": 4,
+      "justificacion": "Es el cru más célebre del sur del Ródano, a 15 km de Aviñón. Tiene la vinoteca de la denominación con catas guiadas, la Maison des Vins Vinadea, abierta todo el año con más de 200 referencias y cata gratuita, un museo del vino gratuito y bodegas como Clos du Calvaire o Château Gigognan que reciben con reserva.",
+      "platos": ["Châteauneuf-du-Pape tinto (garnacha, syrah, mourvèdre)", "Châteauneuf-du-Pape blanco", "Daube provenzal"],
+      "fuentes": [
+        {"guia": "AOC Châteauneuf-du-Pape (federación de productores)", "url": "https://en.chateauneuf.com/wine-cellar-visit-tasting-chateauneuf-du-pape/"},
+        {"guia": "AOC Châteauneuf-du-Pape (federación de productores)", "url": "https://en.chateauneuf.com/oenotourisme/vinadea-maison-des-vins-de-chateauneuf-du-pape/"},
+        {"guia": "Oficina de turismo de Châteauneuf-du-Pape", "url": "https://www.chateauneuf-du-pape-tourisme.fr/en/listing/ch%C3%A2teauneuf-du-pape"}
+      ]
+    },
+    {
+      "id": "fr-cognac",
+      "nombre": "Cognac",
+      "pais_iso": "FR",
+      "region": "Nueva Aquitania (Charente)",
+      "lat": 45.6956,
+      "lng": -0.3289,
+      "tipo": "ciudad",
+      "puntaje": 4,
+      "justificacion": "Es la capital del aguardiente más famoso de Francia, con casas visitables a orillas del Charente. Hennessy organiza visitas a bodegas y tonelería con cruce del río en barco, y Rémy Martin a su casa histórica y a sus viñedos de Grande Champagne. También abren Martell, Camus, Courvoisier, Hine y otras casas con salas de cata.",
+      "platos": ["Coñac", "Pineau des Charentes", "Mejillones con pineau", "Galette charentaise"],
+      "fuentes": [
+        {"guia": "Cognac Tourisme (turismo oficial)", "url": "https://www.destination-cognac.com/en/wine-tourism/cognac/visits-to-trading-houses-distilleries-and-vineyards/"},
+        {"guia": "Cognac Tourisme (turismo oficial)", "url": "https://www.destination-cognac.com/en/wine-tourism/cognac/degustation/"}
+      ]
+    },
+    {
+      "id": "be-pajottenland",
+      "nombre": "Pajottenland (ruta del lambic y la gueuze)",
+      "pais_iso": "BE",
+      "region": "Brabante Flamenco",
+      "lat": 50.7660,
+      "lng": 4.3060,
+      "tipo": "region",
+      "puntaje": 4,
+      "justificacion": "Es el único lugar del mundo donde se elaboran lambic y gueuze de fermentación espontánea. La ruta ciclista oficial pasa por Boon en Lembeek, con raíces en 1680, Hanssens, Oud Beersel (desde 1882) y 3 Fonteinen en Beersel, con su sala de cata Lambik-O-droom, y termina en Halle. Cada dos años se celebra la Toer de Geuze. Coordenadas en Beersel, a 12 km de Bruselas.",
+      "platos": ["Oude geuze", "Kriek lambic", "Faro", "Plattekaas con rábanos"],
+      "fuentes": [
+        {"guia": "Visit Flanders (turismo oficial)", "url": "https://www.visitflanders.com/en/flandersfinestcycleroutes/lambic-geuze-route"},
+        {"guia": "Visit Flanders (turismo oficial)", "url": "https://www.visitflanders.com/en/flemish-destinations/pajottenland"}
+      ]
+    },
+    {
+      "id": "nl-yerseke",
+      "nombre": "Yerseke",
+      "pais_iso": "NL",
+      "region": "Zelanda",
+      "lat": 51.4936,
+      "lng": 4.0497,
+      "tipo": "pueblo",
+      "puntaje": 4,
+      "justificacion": "Es la capital neerlandesa del mejillón y la ostra, que se cultiva a gran escala en el Escalda Oriental desde 1870. Se pueden visitar con guía los viveros históricos de ostras (Oesterij), el museo Oosterschelde y la lonja del mejillón con cita previa. En verano se celebran el Mossel & Oesterboulevard y el Mosseldag, con mejillones asados en la plaza.",
+      "platos": ["Mejillones de Zelanda", "Ostras planas y creuses del Oosterschelde", "Langosta del Oosterschelde"],
+      "fuentes": [
+        {"guia": "Zeeland.com (turismo oficial)", "url": "https://www.zeeland.com/visit/eilanden/zuid-beveland/dorpen-en-steden/yerseke"},
+        {"guia": "VVV Zeeland (turismo oficial)", "url": "https://www.vvvzeeland.nl/en/islands/zuid-beveland/towns-and-cities/yerseke/"}
+      ]
+    }
+  ]
+}

@@ -8,7 +8,7 @@
     {
       "id": "ch-lucerna",
       "puntaje": 3,
-      "justificacion": "Tiene cocina propia de la Suiza central, como la Luzerner Chügelipastete (volován de ternera) y el Lozärner Rägelewasser, y mercado semanal a orillas del Reuss. En la selección Michelin de 2025 Minamo, en Lucerna, ganó su primera estrella.",
+      "justificacion": "Tiene cocina propia de la Suiza central, como la Luzerner Chügelipastete (volován de ternera), y mercado semanal a orillas del Reuss. En la selección Michelin de 2025 Minamo, en Lucerna, ganó su primera estrella.",
       "platos": ["Luzerner Chügelipastete", "Pescado del lago de los Cuatro Cantones (Egli)", "Luzerner Lebkuchen"],
       "fuentes": [
         { "guia": "Blue News (selección Michelin Suiza 2025)", "url": "https://www.bluewin.ch/en/people/michelin-guide-increases-number-of-swiss-starred-restaurants-to-li.2926596" }
@@ -373,7 +373,7 @@
     {
       "id": "at-bregenzerwald",
       "puntaje": 4,
-      "justificacion": "Es la región quesera por excelencia de Austria. La KäseStrasse reúne a unos 180 socios, entre granjeros, queserías de alpe e posadas, y se puede visitar la bodega de maduración de Lingenau o el Käsehaus de Andelsbuch. El Bregenzerwälder Alp- und Bergkäse es un alimento tradicional reconocido por el ministerio austriaco.",
+      "justificacion": "Es la región quesera por excelencia de Austria. La KäseStrasse reúne a unos 180 socios, entre granjeros, queserías de alpe y posadas, y se puede visitar la bodega de maduración de Lingenau o el Käsehaus de Andelsbuch. El Bregenzerwälder Alp- und Bergkäse es un alimento tradicional reconocido por el ministerio austriaco.",
       "platos": ["Bregenzerwälder Bergkäse y Alpkäse", "Käsknöpfle", "Sura Kees"],
       "fuentes": [
         { "guia": "Bregenzerwald Tourismus (oficial, KäseStrasse)", "url": "https://www.bregenzerwald.at/en/?p=8396" },
@@ -526,7 +526,7 @@
       "lng": 15.6814,
       "tipo": "region",
       "puntaje": 4,
-      "justificacion": "Es la mayor ciudad vinícola de Austria y el centro de la Kamptal DAC, dedicada al grüner veltliner y al riesling, con viñedos célebres como el Heiligenstein. El Loisium, abierto en 2003, conecta un centro de visitantes de arquitectura vanguardista con galerías de bodega históricas. Las bodegas Bründlmayer o Steininger se visitan desde aquí, y la Wachau está a 15 km.",
+      "justificacion": "Langenlois es la mayor ciudad vinícola de Austria y el centro de la Kamptal DAC, dedicada al grüner veltliner y al riesling, con viñedos célebres como el Heiligenstein. El Loisium, abierto en 2003, conecta un centro de visitantes de arquitectura vanguardista con galerías de bodega históricas. Las bodegas Bründlmayer o Steininger se visitan desde aquí, y la Wachau está a 15 km.",
       "platos": ["Grüner Veltliner Kamptal DAC", "Riesling del Heiligenstein", "Sekt austriaco", "Heurigenjause"],
       "fuentes": [
         { "guia": "Meininger (región vinícola Kamptal)", "url": "https://www.meininger.de/wein/weinanbaugebiete/Kamptal" },
