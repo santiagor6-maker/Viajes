@@ -1,0 +1,1142 @@
+{
+  "agente": "guias-expertas",
+  "subregion": "iberica-italia",
+  "ronda": 4,
+  "fecha": "2026-10-26",
+  "criterio_aplicado": "Solo cuentan las guías con una página específica del lugar en la web de la guía. Se quitaron las fichas de librería (Michelin Guide Vert, DK, tienda de Rick Steves, tienda de Rough Guides), las páginas genéricas de país (fodors.com/world/europe/italy), los foros, los paquetes comerciales y el contenido patrocinado. Con eso se recontaron las guías y se recalculó el puntaje. 5 = top pick en 4 o más guías; 4 = destacado en 3; 3 = 2 guías; 2 = 1 guía.",
+  "puntajes": [
+    {
+      "id": "es-barcelona",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rick Steves", "Rough Guides", "Time Out", "National Geographic"],
+      "justificacion": "Top pick en cinco guías: Lonely Planet la pone entre los 14 mejores lugares de España por su arquitectura modernista y el Barri Gòtic, Rick Steves la incluye en su itinerario básico, y Rough Guides, Time Out y NatGeo la sitúan entre lo imprescindible del país.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-spain" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/spain/itinerary" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/spain/things-to-do-barcelona/" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/spain/things-to-do/amazing-places-to-visit-in-spain" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/spain-essentials-travel-guide" }
+      ]
+    },
+    {
+      "id": "es-madrid",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rick Steves", "Rough Guides", "Fodor's", "Time Out"],
+      "justificacion": "Top pick en cinco guías: Lonely Planet destaca sus museos y su vida nocturna, Rick Steves la usa como base de cualquier itinerario, Rough Guides el Prado y el Retiro, Fodor's el triángulo del arte y Time Out la incluye entre los mejores lugares de España.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-spain" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/spain/itinerary" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/spain/things-to-do-madrid/" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/spain/madrid/experiences/news/photos/25-ultimate-things-to-do-in-madrid" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/spain/things-to-do/amazing-places-to-visit-in-spain" }
+      ]
+    },
+    {
+      "id": "es-granada-alhambra",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rick Steves", "Rough Guides", "Time Out"],
+      "justificacion": "La Alhambra es top pick en cuatro guías: Rough Guides la llama el monumento más visitado de España, y Lonely Planet, Rick Steves (itinerario por España) y Time Out la sitúan entre lo esencial. Ciudad y monumento van fusionados.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-spain" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/spain/itinerary" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/spain/things-to-do/" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/spain/things-to-do/amazing-places-to-visit-in-spain" }
+      ]
+    },
+    {
+      "id": "es-sevilla",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rick Steves", "Rough Guides", "Fodor's", "Time Out", "National Geographic"],
+      "justificacion": "Real Alcázar, catedral, Semana Santa y Feria: top pick en Lonely Planet, Rick Steves (itinerario por España), Rough Guides, Fodor's (sus experiencias definitivas de España), Time Out y NatGeo.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-spain" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/spain/itinerary" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/spain/things-to-do/" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/spain/experiences/news/photos/ultimate-things-to-do-in-spain" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/spain/things-to-do/amazing-places-to-visit-in-spain" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/spain-essentials-travel-guide" }
+      ]
+    },
+    {
+      "id": "es-cordoba",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Rough Guides", "Lonely Planet", "Rick Steves"],
+      "justificacion": "Destacada en tres guías: Rough Guides llama a la Mezquita-Catedral uno de los edificios más bellos del mundo, Lonely Planet la pone entre lo mejor de Andalucía y Rick Steves la incluye en su itinerario por España. Ninguna lista de país la pone por delante de Sevilla o Granada, así que queda en 4.",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/spain/things-to-do/" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/spain/best-places-to-visit/" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-andalucia" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/spain/itinerary" }
+      ]
+    },
+    {
+      "id": "es-segovia",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Rick Steves", "Rough Guides", "National Geographic"],
+      "justificacion": "Acueducto romano y Alcázar: excursión del tour Best of Spain y del itinerario de Rick Steves, imprescindible de Rough Guides y clásico de NatGeo como excursión desde Madrid.",
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/tours/spain/best-spain-tour" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/spain/itinerary" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/spain/things-to-do/" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/spain-essentials-travel-guide" }
+      ]
+    },
+    {
+      "id": "es-santiago-de-compostela",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Fodor's", "Rough Guides"],
+      "justificacion": "Meta del Camino de Santiago: Lonely Planet la pone entre los 14 mejores lugares de España, Fodor's la incluye entre sus experiencias definitivas del país y Rough Guides entre los mejores lugares que visitar.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-spain" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/spain/experiences/news/photos/ultimate-things-to-do-in-spain" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/spain/best-places-to-visit/" }
+      ]
+    },
+    {
+      "id": "es-picos-de-europa",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Rough Guides", "Fodor's", "Lonely Planet", "Time Out", "National Geographic"],
+      "justificacion": "Rough Guides y Fodor's lo recomiendan para hacer senderismo, Lonely Planet destaca la Ruta del Cares, Time Out lo nombró el lugar más bonito del mundo en 2026 y NatGeo recuerda que es el primer parque nacional de España.",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/spain/things-to-do/" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/spain/experiences/news/photos/ultimate-things-to-do-in-spain" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/guide-to-green-spain" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/news/this-spanish-mountain-range-has-just-been-named-the-worlds-most-beautiful-place-032326" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/spain-national-parks" }
+      ]
+    },
+    {
+      "id": "es-valencia",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Time Out", "Rough Guides", "Fodor's"],
+      "justificacion": "Ciudad de las Artes y las Ciencias, Fallas y paella: top pick en Lonely Planet (cuna de la paella, entre los 14 mejores lugares de España) y Time Out, con guía de escapada en Rough Guides. Fodor's solo la cita en su planificación regional, así que queda en 4, al nivel de Córdoba.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-valencia" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-spain" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/valencia/things-to-do/best-things-to-do-in-valencia" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/spain/perfect-valencia-city-break/" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/spain/catalonia-valencia-and-the-costa-blanca/travel-tips/planning-your-time-82824890" }
+      ]
+    },
+    {
+      "id": "es-malaga",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides"],
+      "justificacion": "Lonely Planet la destaca en su página de España, y Rough Guides le dedica un día en sus itinerarios: casco antiguo, catedral, Alcazaba y Museo Picasso.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://lonelyplanet.com/destinations/spain" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/spain/itineraries/" }
+      ]
+    },
+    {
+      "id": "es-el-escorial",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Fodor's"],
+      "justificacion": "Monasterio real a 45 km de Madrid: Fodor's lo incluye entre sus experiencias definitivas de España y destaca la biblioteca.",
+      "fuentes": [
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/spain/experiences/news/photos/ultimate-things-to-do-in-spain" }
+      ]
+    },
+    {
+      "id": "es-leon",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Lonely Planet"],
+      "justificacion": "Lonely Planet pone sus vidrieras góticas entre las más impresionantes de Europa.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/destinations/spain/castilla-y-leon" }
+      ]
+    },
+    {
+      "id": "es-alpujarras-sierra-nevada",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Rough Guides", "Lonely Planet"],
+      "justificacion": "Rough Guides destaca los pueblos blancos y los caminos de herradura de la ladera sur de Sierra Nevada; Lonely Planet, el mayor parque nacional de España, con la estación de esquí más meridional de Europa.",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/spain/things-to-do/" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-national-parks-spain" }
+      ]
+    },
+    {
+      "id": "es-donana",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Lonely Planet"],
+      "justificacion": "Lonely Planet lo pone entre los mejores parques nacionales de España como uno de los humedales más importantes de Europa.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-national-parks-spain" }
+      ]
+    },
+    {
+      "id": "es-ronda",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Rick Steves", "Lonely Planet", "Rough Guides"],
+      "justificacion": "Pueblo sobre el Tajo con una de las plazas de toros más antiguas de España: Rick Steves la destaca entre los pueblos blancos de Andalucía y en su tour, Lonely Planet la propone como excursión desde Sevilla y Rough Guides la cubre en Andalucía.",
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/watch-read-listen/read/articles/andalucias-white-hill-towns" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/tours/spain/best-spain-tour" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/day-trips-from-seville" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/spain/andalucia/" }
+      ]
+    },
+    {
+      "id": "es-pueblos-blancos-cadiz",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Rick Steves", "Rough Guides", "Fodor's", "Lonely Planet"],
+      "justificacion": "Ruta de los Pueblos Blancos: artículo propio de Rick Steves (Arcos de la Frontera, Zahara), lista específica de Rough Guides, experiencia definitiva de Fodor's y presente en los pueblos más bonitos de España de Lonely Planet.",
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/watch-read-listen/read/articles/andalucias-white-hill-towns" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/spain/best-white-villages-andalucia/" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/spain/experiences/news/photos/ultimate-things-to-do-in-spain" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/beautiful-spanish-towns-to-visit" }
+      ]
+    },
+    {
+      "id": "es-jerez-de-la-frontera",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides", "National Geographic"],
+      "justificacion": "Cuna del jerez: Lonely Planet propone visitar sus bodegas desde Sevilla, Rough Guides incluye la cata de jerez entre lo imprescindible y NatGeo lo destaca por el flamenco.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/day-trips-from-seville" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/spain/things-to-do/" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/spain-essentials-travel-guide" }
+      ]
+    },
+    {
+      "id": "es-mallorca",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides", "Fodor's", "National Geographic", "Time Out"],
+      "justificacion": "Top pick en cinco guías. Lonely Planet destaca Deià y la Tramuntana (UNESCO), y Rough Guides la ve como la isla más completa. Fodor's recomienda el noroeste y el interior, NatGeo propone la Ruta de Piedra en Seco desde Valldemossa y Time Out publica su lista de imprescindibles.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/mallorca-vs-ibiza" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/beautiful-spanish-towns-to-visit" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/spain/best-balearic-islands-to-visit/" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/spain/best-islands/" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/spain/ibiza-and-the-balearic-islands/places/mallorca" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/serra-de-tramuntana-majorca-hiking-spot" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/spain/things-to-do/best-things-to-do-in-mallorca" }
+      ]
+    },
+    {
+      "id": "es-cuenca",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Fodor's"],
+      "justificacion": "Casas colgadas sobre la hoz del Huécar: Lonely Planet le dedica un artículo, y Fodor's tiene guía propia y la propone como parada entre Madrid y Valencia.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-cuenca" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/spain/castile-leon-and-castile-la-mancha/places/cuenca" }
+      ]
+    },
+    {
+      "id": "es-figueres-cadaques",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Fodor's", "Lonely Planet"],
+      "justificacion": "Fodor's da su sello Fodor's Choice al Teatre-Museu Dalí y tiene guía de Figueres. Lonely Planet incluye Cadaqués entre los mejores pueblos de España y propone la ruta de la Costa Brava tras los pasos de Dalí.",
+      "fuentes": [
+        { "guia": "Fodor's", "url": "https://fodors.com/world/europe/spain/catalonia-valencia-and-the-costa-blanca/things-to-do/sights/reviews/teatre-museu-dali-409215" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/spain/catalonia-valencia-and-the-costa-blanca/places/figueres" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-towns-in-spain-results" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-road-trips-in-spain" }
+      ]
+    },
+    {
+      "id": "es-trujillo",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Frommer's"],
+      "justificacion": "Lonely Planet recomienda la excursión desde Cáceres a esta villa medieval, describe su castillo de origen islámico y la incluye entre los mejores pueblos de España. Frommer's tiene guía de planificación propia.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/guide-to-extremadura" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/points-of-interest/castillo-de-trujillo/1209184" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-towns-in-spain-results" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/trujillo-spain/planning-a-trip/" }
+      ]
+    },
+    {
+      "id": "es-teruel",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Rough Guides", "Lonely Planet"],
+      "justificacion": "Rough Guides la describe como una ciudad monumental con parte del mejor mudéjar de España, y Lonely Planet propone en sus itinerarios un día extra para el Teruel mudéjar.",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/spain/aragon/" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-spain-itineraries" }
+      ]
+    },
+    {
+      "id": "es-priorat",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Lonely Planet"],
+      "justificacion": "Lonely Planet propone recorrer en coche las bodegas de Porrera, Gratallops y Falset, y dice que muchos consideran sus vinos los más sofisticados de España. También tiene ficha de Clos Mogador.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/where-locals-go-under-the-radar-destinations-spain" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/points-of-interest/clos-mogador/1584766" }
+      ]
+    },
+    {
+      "id": "es-guadalupe",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Frommer's"],
+      "justificacion": "Frommer's tiene guía de planificación propia del pueblo y de su monasterio real.",
+      "fuentes": [
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/guadalupe/planning-a-trip/" }
+      ]
+    },
+    {
+      "id": "es-islas-cies",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Rough Guides", "National Geographic", "Fodor's"],
+      "justificacion": "Rough Guides las incluye entre las mejores islas de España, NatGeo entre sus parques nacionales (Illas Atlánticas) y Fodor's pone la playa de Rodas entre las 15 mejores del país.",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/spain/best-islands/" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/spain-national-parks" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/spain/experiences/news/photos/the-15-best-beaches-in-spain" }
+      ]
+    },
+    {
+      "id": "es-gran-canaria",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Fodor's", "Rough Guides", "Frommer's"],
+      "justificacion": "Fodor's tiene guía de Maspalomas y la costa sur, Rough Guides la incluye en su guía de iniciación a Canarias y Frommer's tiene guía propia.",
+      "fuentes": [
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/spain/canary-islands/places/gran-canaria/maspalomas-and-the-southern-coast" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/spain/first-timers-guide-to-the-canary-islands/" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/gran-canaria/" }
+      ]
+    },
+    {
+      "id": "es-caminito-del-rey",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Fodor's"],
+      "justificacion": "Lonely Planet lo incluye entre las mejores caminatas de Andalucía y Fodor's tiene reseña propia del sendero.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-hikes-in-andalucia" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/spain/costa-del-sol-and-costa-de-almeria/things-to-do/sights/reviews/caminito-del-rey-128030930" }
+      ]
+    },
+    {
+      "id": "pt-lisboa",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rick Steves", "Rough Guides", "Time Out"],
+      "justificacion": "Top pick en cuatro guías: Lonely Planet, Rick Steves (centro de su itinerario y episodio de TV propio), Rough Guides (Alfama, fado) y Time Out.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-portugal" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/portugal/itinerary" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/watch-read-listen/video/tv-show/lisbon" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/portugal/things-to-do/" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/portugal/travel/best-places-to-visit-in-portugal" }
+      ]
+    },
+    {
+      "id": "pt-sintra",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Rick Steves", "Rough Guides", "Lonely Planet"],
+      "justificacion": "Destacada en tres guías: Rick Steves le dedica un artículo a sus palacios aristocráticos, Rough Guides la llama un cuento de hadas de palacios y Lonely Planet la pone entre los mejores lugares de Portugal. Incluye el Cabo da Roca, a menos de 15 km.",
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/watch-read-listen/read/articles/portugal-aristocratic-getaways" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/portugal/things-to-do/" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-portugal" }
+      ]
+    },
+    {
+      "id": "pt-porto",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rick Steves", "Rough Guides", "Fodor's"],
+      "justificacion": "Ribeira, bodegas de Gaia y Livraria Lello: top pick en Lonely Planet, Rick Steves (itinerario por Portugal), Rough Guides (guía propia de la ciudad) y Fodor's.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-portugal" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/portugal/itinerary" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/portugal/things-to-do-porto/" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/portugal/porto-and-the-north/experiences/news/photos/10-things-to-do-in-porto-besides-drink-port" }
+      ]
+    },
+    {
+      "id": "pt-sagres",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Rick Steves", "Rough Guides", "Lonely Planet"],
+      "justificacion": "Destacado en tres guías. Rick Steves incluye el Cabo de Sagres y el de São Vicente en su itinerario y su tour, y Rough Guides destaca sus acantilados y el surf. Lonely Planet lo pone entre los ocho mejores lugares del Algarve: el punto más al suroeste de Europa, el faro y la fortaleza.",
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/portugal/itinerary" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/tours/portugal/best-portugal-tour" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/portugal/things-to-do/" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-algarve" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/destinations/portugal/the-algarve/sagres" }
+      ]
+    },
+    {
+      "id": "pt-tavira",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Lonely Planet"],
+      "justificacion": "Lonely Planet la propone como alternativa tranquila en el Algarve oriental.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-portugal" }
+      ]
+    },
+    {
+      "id": "pt-madeira-porto-moniz",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["National Geographic", "Lonely Planet", "Fodor's", "Time Out"],
+      "justificacion": "Piscinas naturales de lava en el extremo noroeste de Madeira. NatGeo les dedica un artículo y Lonely Planet las llama las más famosas de la isla. Fodor's tiene guía del pueblo y Time Out lo incluye en sus imprescindibles de Madeira. Es top pick regional, no del país, así que queda en 4.",
+      "fuentes": [
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/madeira-island-porto-moniz-volcanic-pools" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-beaches-in-madeira" },
+        { "guia": "Fodor's", "url": "https://fodors.com/world/europe/portugal/madeira/places/porto-moniz" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/madeira/things-to-do/the-best-things-to-do-in-madeira" }
+      ]
+    },
+    {
+      "id": "pt-azores-sete-cidades",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Fodor's"],
+      "justificacion": "Lagunas de cráter de São Miguel: Lonely Planet las incluye en sus mejores lugares de Portugal y de las Azores, y Fodor's las destaca entre las maravillas naturales del archipiélago.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-portugal" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-the-azores" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/portugal/experiences/news/photos/8-stunning-natural-wonders-in-the-azores-islands-you-have-to-experience-to-believe" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/portugal/experiences/news/the-middle-of-nowhere-is-closer-than-you-think" }
+      ]
+    },
+    {
+      "id": "pt-azores-furnas",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Fodor's"],
+      "justificacion": "Aguas termales y cozido cocinado en las fumarolas: Lonely Planet lo recomienda como excursión clave en São Miguel, y Fodor's destaca la piscina del Parque Terra Nostra y la Poça da Dona Beija.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-the-azores" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-the-azores" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/portugal/experiences/news/the-middle-of-nowhere-is-closer-than-you-think" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/portugal/experiences/news/photos/8-stunning-natural-wonders-in-the-azores-islands-you-have-to-experience-to-believe" }
+      ]
+    },
+    {
+      "id": "pt-azores-pico",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Time Out", "Fodor's"],
+      "justificacion": "Destacada en tres guías. Lonely Planet subraya la cumbre más alta de Portugal y el avistamiento de ballenas, y Time Out le dedica una lista propia (viñedos de currais UNESCO, Museo de los Balleneros). Fodor's incluye la montaña de Pico entre las maravillas naturales de las Azores.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-the-azores" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-the-azores" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/azores/travel/best-things-to-do-in-pico" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/portugal/experiences/news/photos/8-stunning-natural-wonders-in-the-azores-islands-you-have-to-experience-to-believe" }
+      ]
+    },
+    {
+      "id": "pt-fatima",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Rick Steves", "Lonely Planet", "Fodor's", "Frommer's"],
+      "justificacion": "Rick Steves le dedica un artículo, Lonely Planet tiene ficha del santuario, y Fodor's y Frommer's tienen guía propia. Ninguna lo pone entre los imprescindibles del país, así que queda en 4.",
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/watch-read-listen/read/articles/witnessing-the-power-of-faith-in-fatima" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/points-of-interest/santuario-de-fatima/1403837" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/portugal/estremadura-and-the-ribatejo/places/fatima" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/fatima/" }
+      ]
+    },
+    {
+      "id": "pt-viana-do-castelo",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Lonely Planet"],
+      "justificacion": "Lonely Planet le dedica una lista de imprescindibles: Santa Luzia, el centro histórico y la Romaria d'Agonia.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-viana-do-castelo-portugal" }
+      ]
+    },
+    {
+      "id": "ad-andorra-la-vella-escaldes",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides"],
+      "justificacion": "Lonely Planet tiene guía de Andorra la Vella (Barri Antic, Casa de la Vall) y la trata como núcleo del país. Rough Guides destaca Andorra por sus compras libres de impuestos, con más de 2.000 tiendas concentradas en la capital y Escaldes.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/guide-to-andorra" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/destinations/andorra/andorra-la-vella" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/smallest-countries-in-the-world/" }
+      ]
+    },
+    {
+      "id": "ad-vall-del-madriu",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "National Geographic"],
+      "justificacion": "Único Patrimonio Mundial de Andorra: Lonely Planet lo pone entre los mejores lugares del país para caminar, y NatGeo lo destaca como valle UNESCO en un reportaje de aventura.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/guide-to-andorra" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/in-this-european-microstate-adventurers-contribute-to-science" }
+      ]
+    },
+    {
+      "id": "ad-grandvalira-pas-de-la-casa",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Time Out", "Rough Guides"],
+      "justificacion": "La mayor estación de esquí de los Pirineos: Lonely Planet la recoge en su guía de Andorra y Time Out la propone para el invierno. Rough Guides solo menciona de pasada las nuevas inversiones en remontes y nieve artificial, así que queda en 3.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/guide-to-andorra" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/london/travel/this-is-why-you-need-to-visit-andorra-this-winter" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/smallest-countries-in-the-world/" }
+      ]
+    },
+    {
+      "id": "ad-ordino-arcalis",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "National Geographic"],
+      "justificacion": "Lonely Planet recoge el pueblo de Ordino, el valle de Sorteny y la estación de Ordino Arcalís, y NatGeo menciona las rutas con raquetas más allá de Ordino Arcalís.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/guide-to-andorra" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/in-this-european-microstate-adventurers-contribute-to-science" }
+      ]
+    },
+    {
+      "id": "ad-naturlandia",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Lonely Planet"],
+      "justificacion": "Parque de montaña con uno de los toboganes alpinos más largos, citado en la guía de Andorra de Lonely Planet.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/guide-to-andorra" }
+      ]
+    },
+    {
+      "id": "it-venecia",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rick Steves", "Fodor's", "Rough Guides", "Time Out"],
+      "justificacion": "Top pick unánime: Lonely Planet la pone en su podio de Italia y Rick Steves abre allí su tour Best of Italy. Fodor's tiene guía propia y recomienda sumar Murano, Burano y Torcello, y Rough Guides y Time Out la sitúan entre lo esencial.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-italy" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/tours/italy/best-italy-tour-2026" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/italy/venice" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/italy/things-to-do/" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/italy/travel/best-places-to-visit-in-italy" }
+      ]
+    },
+    {
+      "id": "it-milan",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Time Out", "National Geographic"],
+      "justificacion": "Time Out la incluye entre sus primeras elecciones de Italia y le dedica una lista propia; NatGeo la eligió, junto a las Dolomitas, en Best of the World 2026.",
+      "fuentes": [
+        { "guia": "Time Out", "url": "https://www.timeout.com/italy/travel/best-places-to-visit-in-italy" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/milan/things-to-do/best-things-to-do-in-milan" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/best-of-the-world-2026/article/dolomites-milan-italy" }
+      ]
+    },
+    {
+      "id": "it-lago-de-como",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rick Steves", "Fodor's", "Time Out", "Frommer's"],
+      "justificacion": "Top pick en cinco guías: tercer puesto en la lista de Lonely Planet, parada fija del tour Best of Italy de Rick Steves, guía propia en Fodor's, destacado por Time Out y Bellagio en 'The Very Best of Italy' de Frommer's.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-italy" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-lake-como-italy" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/tours/italy/best-italy-tour-2026" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/italy/lombardy-and-the-lakes/places/lake-como" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/italy/travel/best-places-to-visit-in-italy" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/slideshows/818204-the-very-best-of-italy-where-to-go/" }
+      ]
+    },
+    {
+      "id": "it-lago-de-garda",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides", "National Geographic"],
+      "justificacion": "Lonely Planet lo describe como el mayor lago de Italia y el mejor para familias, Rough Guides lo pone entre los lugares más bellos del país y NatGeo propone recorrerlo en bicicleta.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/guide-to-italian-lakes" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/gallery/most-beautiful-places-in-italy/" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/best-ways-to-explore-italys-great-outdoors" }
+      ]
+    },
+    {
+      "id": "it-lago-maggiore",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Lonely Planet"],
+      "justificacion": "Lonely Planet destaca los palacios y jardines de las Islas Borromeas, con base en Stresa.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/guide-to-italian-lakes" }
+      ]
+    },
+    {
+      "id": "it-dolomitas",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rick Steves", "National Geographic", "Frommer's"],
+      "justificacion": "Top pick de montaña en cuatro guías: Lonely Planet les dedica una guía (Tre Cime, Sellaronda, Alta Via 1), Rick Steves incluye la Seiser Alm en su tour Best of Italy, NatGeo las eligió en Best of the World 2026 y Frommer's pone la Strada delle Dolomiti entre las mejores rutas de Italia.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/guide-to-the-dolomites" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/tours/italy/best-italy-tour-2026" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/best-of-the-world-2026/article/dolomites-milan-italy" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/macrosite/the-very-best-of-italy/best-scenic-drives--rides" }
+      ]
+    },
+    {
+      "id": "it-verona",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Rick Steves", "Fodor's", "Lonely Planet", "Frommer's"],
+      "justificacion": "Rick Steves la pone entre las mejores excursiones del Véneto (la Arena es el tercer anfiteatro de Italia). Fodor's tiene guía propia con la Arena y Sant'Anastasia como Fodor's Choice, Lonely Planet le dedica un fin de semana y Frommer's la incluye en sus favoritos. Las guías de país no la ponen por delante de Venecia o Florencia, así que queda en 4.",
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/watch-read-listen/read/articles/venice-day-trips" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/italy/the-veneto-and-friuli-venezia-giulia/places/verona" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/ultimate-weekend-verona-italy" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/italy/frommers-favorite-experiences/" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/italy/suggested-itineraries/in-two-weeks/" }
+      ]
+    },
+    {
+      "id": "it-turin",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Fodor's"],
+      "justificacion": "Lonely Planet la presenta como una ciudad barroca y elegante (Museo Egizio, Mole Antonelliana, Venaria Reale), y Fodor's destaca su cultura del café y el chocolate.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-turin" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/italy/piedmont-and-valle-daosta/things-to-do/sights/turin" }
+      ]
+    },
+    {
+      "id": "it-valle-de-aosta-monte-bianco",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Fodor's", "Lonely Planet", "Rough Guides", "Frommer's"],
+      "justificacion": "Fodor's tiene guía de Courmayeur y Monte Bianco y llama al Skyway uno de los trayectos más espectaculares de Europa. Lonely Planet tiene ficha del teleférico y la incluye entre sus mejores destinos de esquí. Rough Guides le dedica una guía de estaciones, y Frommer's pone el teleférico entre sus mejores aventuras activas.",
+      "fuentes": [
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/italy/piedmont-and-valle-daosta/places/courmayeurmonte-bianco" },
+        { "guia": "Fodor's", "url": "https://fodors.com/world/europe/italy/piedmont-and-valle-daosta/things-to-do/sights/reviews/monte-bianco-161455" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/italy/courmayeur/activities/funivie-monte-bianco/a/poi-act/1256283/359937" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-ski-trips-italy" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/aosta-valley-ski-italy-guide/" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/italy/active-pursuits/" }
+      ]
+    },
+    {
+      "id": "it-cinque-terre",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Rick Steves", "Rough Guides", "Frommer's"],
+      "justificacion": "Rick Steves le dedica un episodio de TV y la incluye (Vernazza) en su tour Best of Italy. Rough Guides la pone entre los lugares más bellos de Italia, y Frommer's la recoge en 'The Very Best of Italy' y recomienda su senderismo.",
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/watch-read-listen/video/tv-show/season-8/italys-riviera-cinque-terre" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/tours/italy/best-italy-tour-2026" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/gallery/most-beautiful-places-in-italy/" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/slideshows/818204-the-very-best-of-italy-where-to-go/" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/italy/active-pursuits/" }
+      ]
+    },
+    {
+      "id": "it-bolonia",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Time Out", "Lonely Planet"],
+      "justificacion": "Time Out la llama uno de los city breaks más infravalorados de Europa, y Lonely Planet la presenta como la capital culinaria de Italia, con la universidad más antigua de Europa.",
+      "fuentes": [
+        { "guia": "Time Out", "url": "https://www.timeout.com/italy/travel/best-places-to-visit-in-italy" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-italy-itineraries" }
+      ]
+    },
+    {
+      "id": "it-ravena",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Rick Steves", "Lonely Planet", "Rough Guides"],
+      "justificacion": "Rick Steves le dedica un artículo por sus mosaicos bizantinos, los mejores de Occidente, y San Vitale es su iglesia favorita. Lonely Planet tiene guía de la ciudad y ficha de San Vitale, y Rough Guides dice que tiene los mejores mosaicos bizantinos fuera de Estambul.",
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/watch-read-listen/read/articles/ravenna-italys-byzantium" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/destinations/italy/ravenna" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/italy/emilia-romagna-and-san-marino/ravenna/attractions/basilica-di-san-vitale/a/poi-sig/462568/359890" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/italy/things-to-do/" }
+      ]
+    },
+    {
+      "id": "it-florencia",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rick Steves", "Fodor's", "Rough Guides", "Time Out", "Frommer's"],
+      "justificacion": "Top pick en todas las guías como cuna del Renacimiento (Uffizi, Duomo, David): Lonely Planet, Rick Steves, Fodor's, Rough Guides y Time Out la sitúan entre lo esencial, y Frommer's incluye la Piazza della Signoria en 'The Very Best of Italy'.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-italy" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/tours/italy/best-italy-tour-2026" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/italy/florence" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/italy/things-to-do/" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/italy/travel/best-places-to-visit-in-italy" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/slideshows/818204-the-very-best-of-italy-where-to-go/" }
+      ]
+    },
+    {
+      "id": "it-pisa",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Rick Steves", "Frommer's"],
+      "justificacion": "Parada del tour Best of Italy de Rick Steves; Frommer's la incluye en su itinerario de dos semanas.",
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/tours/italy/best-italy-tour-2026" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/italy/suggested-itineraries/in-two-weeks/" }
+      ]
+    },
+    {
+      "id": "it-lucca",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Rick Steves"],
+      "justificacion": "Rick Steves la incluye en su tour Village Italy: ciudad rodeada de murallas renacentistas que se recorren a pie o en bicicleta.",
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/tours/italy/village-italy" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/tours/tour-news/village-italy-slideshow" }
+      ]
+    },
+    {
+      "id": "it-siena",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Rick Steves", "Frommer's", "Rough Guides"],
+      "justificacion": "Rick Steves la llama probablemente la mejor ciudad en colina de Toscana, Frommer's la incluye en sus favoritos y Rough Guides la pone entre los lugares más bellos de Italia.",
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/tours/italy/village-italy" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/italy/frommers-favorite-experiences/" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/gallery/most-beautiful-places-in-italy/" }
+      ]
+    },
+    {
+      "id": "it-san-gimignano",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Rough Guides", "Rick Steves"],
+      "justificacion": "Rough Guides lo pone entre los lugares más bellos de Italia, y Rick Steves lo protagoniza en su episodio sobre ciudades en colina.",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/gallery/most-beautiful-places-in-italy/" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/watch-read-listen/video/tv-show/italy-hill-towns" }
+      ]
+    },
+    {
+      "id": "it-val-d-orcia",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Time Out", "National Geographic", "Rough Guides"],
+      "justificacion": "Time Out lo incluye entre los lugares más bellos de Italia, NatGeo llama a Pienza uno de los pueblos más bonitos del país y Rough Guides destaca el Val d'Orcia y Pienza entre lo mejor de Toscana.",
+      "fuentes": [
+        { "guia": "Time Out", "url": "https://www.timeout.com/italy/travel/most-beautiful-places" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/ultimate-ways-to-see-italy" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/unforgettable-things-to-do-tuscany-italy/" }
+      ]
+    },
+    {
+      "id": "it-asis",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Rick Steves", "Fodor's", "Frommer's", "Lonely Planet"],
+      "justificacion": "Rick Steves le dedica un episodio de TV y una audioguía de la basílica, y la incluye en su tour Best of Italy. Fodor's tiene guía propia con la Basílica de San Francesco como Fodor's Choice, Frommer's la incluye en sus favoritos y Lonely Planet tiene guía del pueblo. Es top pick de Umbría, no de las listas de país, así que queda en 4.",
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/watch-read-listen/video/tv-show/assisi-and-italian-country-charm" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/tours/italy/best-italy-tour-2026" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/italy/umbria-and-the-marches/places/assisi" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/italy/frommers-favorite-experiences/" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/destinations/italy/umbria-and-le-marche/assisi" }
+      ]
+    },
+    {
+      "id": "it-orvieto",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Rick Steves", "Lonely Planet", "Frommer's"],
+      "justificacion": "Rick Steves la incluye en su tour Best of Italy y en su episodio de ciudades en colina, junto a Civita di Bagnoregio. Lonely Planet destaca el Duomo y las cuevas, y Frommer's incluye sus calles medievales en 'The Very Best of Italy'.",
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/tours/italy/best-italy-tour-2026" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/watch-read-listen/video/tv-show/italy-hill-towns" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/destinations/italy/umbria" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/slideshows/818204-the-very-best-of-italy-where-to-go/" }
+      ]
+    },
+    {
+      "id": "it-roma",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rick Steves", "Fodor's", "Rough Guides", "Time Out", "Frommer's"],
+      "justificacion": "Número uno en la lista de Lonely Planet y final del tour Best of Italy de Rick Steves. Fodor's tiene guía propia, Rough Guides pone el Coliseo como top pick, Time Out le dedica una lista y Frommer's abre su 'The Very Best of Italy' con sus ruinas.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-italy" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/tours/italy/rome" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/italy/rome" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/italy/things-to-do/" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/rome/things-to-do/best-things-to-do-in-rome" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/slideshows/818204-the-very-best-of-italy-where-to-go/" }
+      ]
+    },
+    {
+      "id": "it-napoles",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Time Out", "Rick Steves"],
+      "justificacion": "Primer puesto en la lista de Lonely Planet del sur de Italia; Time Out la incluye entre sus elecciones de 2026 y Rick Steves recomienda su Museo Arqueológico.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-southern-italy" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/italy/travel/best-places-to-visit-in-italy" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/watch-read-listen/read/articles/naples-sorrento-and-the-amalfi-coast" }
+      ]
+    },
+    {
+      "id": "it-pompeya-herculano",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rick Steves", "Frommer's"],
+      "justificacion": "Lonely Planet la pone entre los 15 mejores lugares del sur de Italia, Rick Steves la considera imprescindible desde Nápoles y Sorrento, y Frommer's la incluye en 'The Very Best of Italy'.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-southern-italy" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/watch-read-listen/read/articles/naples-sorrento-and-the-amalfi-coast" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/slideshows/818204-the-very-best-of-italy-where-to-go/" }
+      ]
+    },
+    {
+      "id": "it-costa-amalfitana",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Rick Steves", "Fodor's", "Frommer's"],
+      "justificacion": "Rick Steves le dedica un episodio de TV, Fodor's tiene guía propia (Sentiero degli Dei, carretera costera) y Frommer's incluye la Via Amalfitana en 'The Very Best of Italy'.",
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/watch-read-listen/video/tv-show/italy-amalfi-coast" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/italy/amalfi-coast" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/slideshows/818204-the-very-best-of-italy-where-to-go/" }
+      ]
+    },
+    {
+      "id": "it-capri",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Rick Steves", "Rough Guides"],
+      "justificacion": "Rick Steves la incluye en su tour del sur (Gruta Azul), aunque advierte de las multitudes, y Rough Guides la pone entre los lugares más bellos de Italia.",
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/tours/italy/south-italy" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/gallery/most-beautiful-places-in-italy/" }
+      ]
+    },
+    {
+      "id": "it-paestum",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Rick Steves", "National Geographic", "Frommer's", "Lonely Planet", "Fodor's"],
+      "justificacion": "Rick Steves describe sus tres templos griegos como los mejor conservados de Europa y NatGeo los destaca en Campania. Frommer's, Lonely Planet y Fodor's tienen ficha propia del yacimiento. Ninguna lista de país lo pone entre los imprescindibles: es excursión regional, por debajo de Florencia o Roma, así que queda en 4.",
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/watch-read-listen/read/articles/naples-sorrento-and-the-amalfi-coast" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/campania-italy-must-see-travel-guide" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/italy-beyond-the-bucket-list" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/paestum/attractions/archaeological-area-of-paestum/" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/destinations/italy/campania/paestum" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/italy/amalfi-coast/things-to-do/sights?pois=636633" }
+      ]
+    },
+    {
+      "id": "it-matera",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides", "National Geographic"],
+      "justificacion": "Lonely Planet la incluye entre los 15 mejores lugares del sur, Rough Guides elige los frescos de los Sassi entre lo imprescindible y NatGeo la propone como gran viaje clásico por Italia.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-southern-italy" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/italy/things-to-do/" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/best-classic-italian-journeys-to-explore-italy" }
+      ]
+    },
+    {
+      "id": "it-lecce",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "National Geographic"],
+      "justificacion": "Lonely Planet la considera la cumbre del barroco del sur, y NatGeo la destaca en 'Italy Beyond the Bucket List'.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-southern-italy" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/italy-beyond-the-bucket-list" }
+      ]
+    },
+    {
+      "id": "it-palermo-monreale",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Rick Steves", "Lonely Planet", "Frommer's"],
+      "justificacion": "Rick Steves abre en Palermo y Monreale su tour de Sicilia, Lonely Planet destaca sus mercados y los mosaicos de Monreale, y Frommer's incluye sus mercados callejeros en 'The Very Best of Italy'.",
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/tours/italy/sicily-2026" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-sicily" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/italy/sicily/attractions" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/slideshows/818204-the-very-best-of-italy-where-to-go/" }
+      ]
+    },
+    {
+      "id": "it-siracusa-ortigia",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Rick Steves", "Lonely Planet", "Frommer's"],
+      "justificacion": "Rick Steves dedica dos días de su tour de Sicilia a Siracusa, Lonely Planet destaca Ortigia entre lo mejor de la isla y Frommer's incluye la Piazza del Duomo de Siracusa en 'The Very Best of Italy'.",
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/tours/italy/sicily-2026" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/italy/sicily/attractions" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/slideshows/818204-the-very-best-of-italy-where-to-go/" }
+      ]
+    },
+    {
+      "id": "it-agrigento-valle-templos",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rick Steves"],
+      "justificacion": "Lonely Planet lo llama el yacimiento arqueológico más espectacular de Sicilia, y Rick Steves lo describe como la mayor colección de edificios griegos fuera de Grecia.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-sicily" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/tours/italy/sicily-2026" }
+      ]
+    },
+    {
+      "id": "it-etna",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Rick Steves", "Lonely Planet"],
+      "justificacion": "Rick Steves lo incluye en su tour de Sicilia (volcán y vino), y Lonely Planet propone rutas volcánicas y vinícolas a su alrededor.",
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/tours/italy/sicily-2026" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-sicily" }
+      ]
+    },
+    {
+      "id": "it-islas-eolias",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "National Geographic", "Frommer's"],
+      "justificacion": "Lonely Planet propone saltar entre islas volcánicas (Stromboli, Vulcano), NatGeo pone Salina y Alicudi entre las mejores islas de 2026 y Frommer's incluye la subida nocturna al Stromboli en 'The Very Best of Italy'.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-sicily" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/best-italian-islands-to-visit-this-year" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/slideshows/818204-the-very-best-of-italy-where-to-go/" }
+      ]
+    },
+    {
+      "id": "it-mantova-sabbioneta",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Frommer's", "Fodor's"],
+      "justificacion": "Destacada en tres guías por el Palazzo Ducale de los Gonzaga. Lonely Planet tiene ficha del palacio y considera la Camera degli Sposi de Mantegna su gran joya, Frommer's tiene guía propia de la ciudad y Fodor's reseña el palacio de 500 salas.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/italy/lombardy-and-the-lakes/mantua/attractions/palazzo-ducale/a/poi-sig/1040662/359946" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/mantua/" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/mantua/attractions/museo-di-palazzo-ducale/" },
+        { "guia": "Fodor's", "url": "https://fodors.com/world/europe/italy/lombardy-and-the-lakes/things-to-do/sights/reviews/palazzo-ducale-202019" }
+      ]
+    },
+    {
+      "id": "it-castel-del-monte",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Fodor's", "Rough Guides"],
+      "justificacion": "Destacado en tres guías. Lonely Planet lo marca como Top Choice (castillo octogonal UNESCO sin fines defensivos), Fodor's tiene reseña propia del enigma de Federico II y Rough Guides lo considera el más notable de sus castillos en Apulia.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/points-of-interest/castel-del-monte/1137658" },
+        { "guia": "Fodor's", "url": "https://fodors.com/world/europe/italy/puglia-basilicata-and-calabria/things-to-do/sights/reviews/castel-del-monte-462957" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/italy/puglia/" }
+      ]
+    },
+    {
+      "id": "it-reggia-di-caserta",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Frommer's", "Fodor's"],
+      "justificacion": "Lonely Planet tiene guía de Caserta, Frommer's reseña el palacio real y sus jardines y Fodor's tiene reseña propia de la Reggia.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/italy/caserta" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/caserta/attractions/royal-palace--gardens/" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/italy/naples/things-to-do/sights/reviews/reggia-di-caserta-265158030" }
+      ]
+    },
+    {
+      "id": "mt-tres-ciudades",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Time Out"],
+      "justificacion": "Time Out las pone entre los nueve mejores lugares de Malta: cruzar el Gran Puerto hasta Birgu, con el Palacio del Inquisidor y el Fuerte San Ángel.",
+      "fuentes": [
+        { "guia": "Time Out", "url": "https://www.timeout.com/malta/travel/best-places-to-visit-in-malta" }
+      ]
+    },
+    {
+      "id": "mt-mdina-rabat",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Rough Guides", "Time Out", "Bradt", "Lonely Planet"],
+      "justificacion": "Top pick en cuatro guías como 'Ciudad Silenciosa' amurallada. Rough Guides y Time Out proponen pasearla al anochecer, Bradt la destaca en su guía de Malta (ciudad medieval a 150 m sobre la campiña) y Lonely Planet la incluye entre las 20 mejores cosas que hacer en Malta y Gozo.",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/article/make-the-most-of-malta-a-first-timers-guide/" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/malta/travel/best-places-to-visit-in-malta" },
+        { "guia": "Bradt", "url": "https://www.bradtguides.com/destinations/europe/malta-and-gozo/" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-malta" }
+      ]
+    },
+    {
+      "id": "mt-hipogeo-hal-saflieni",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Rough Guides", "Bradt"],
+      "justificacion": "Rough Guides lo destaca como complejo funerario neolítico subterráneo (UNESCO) con entradas agotadas meses antes, y Bradt lo incluye en su artículo sobre los mejores templos de Malta.",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/article/make-the-most-of-malta-a-first-timers-guide/" },
+        { "guia": "Bradt", "url": "https://bradtguides.com/maltas-temples" }
+      ]
+    },
+    {
+      "id": "mt-hagar-qim-mnajdra-gruta-azul",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides", "Bradt", "National Geographic"],
+      "justificacion": "Lonely Planet abre su lista con los templos megalíticos UNESCO y el paseo en barco a la Gruta Azul, a unos 2 km. Bradt los llama los templos con más atmósfera y Rough Guides también los recomienda. NatGeo solo los cita de paso en una caminata desde Dingli, así que queda en 4.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-malta" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/article/make-the-most-of-malta-a-first-timers-guide/" },
+        { "guia": "Bradt", "url": "https://bradtguides.com/maltas-temples" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/malta_walks" }
+      ]
+    },
+    {
+      "id": "mt-ggantija",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides", "Bradt", "National Geographic"],
+      "justificacion": "Rough Guides y Lonely Planet lo consideran el gran reclamo de Gozo (más antiguo que las pirámides), y Bradt lo pone entre los mejores templos y destaca su centro de visitantes. NatGeo solo lo cita entre las estructuras exentas más antiguas, así que queda en 4.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/malta/gozo-comino" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/things-to-do-in-gozo-malta/" },
+        { "guia": "Bradt", "url": "https://bradtguides.com/maltas-temples" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/spend-weekend-malta" }
+      ]
+    },
+    {
+      "id": "mt-comino-laguna-azul",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides", "Time Out"],
+      "justificacion": "Lonely Planet la nombra el mejor lugar de baño de Malta, Rough Guides dice que merece la excursión pese a las multitudes y Time Out la incluye entre los nueve mejores lugares del país.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://lonelyplanet.com/malta/comino/activities" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/article/make-the-most-of-malta-a-first-timers-guide/" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/malta/travel/best-places-to-visit-in-malta" }
+      ]
+    },
+    {
+      "id": "mt-victoria-ciudadela",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Time Out", "Rough Guides", "Bradt"],
+      "justificacion": "Lonely Planet dice que la Ciudadela tiene una de las mejores vistas de Malta, Time Out destaca el paseo por sus murallas, Rough Guides la incluye entre lo mejor de Gozo y Bradt la llama una 'mini Mdina'.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-malta" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/malta/travel/best-places-to-visit-in-malta" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/things-to-do-in-gozo-malta/" },
+        { "guia": "Bradt", "url": "https://www.bradtguides.com/destinations/europe/malta-and-gozo/" }
+      ]
+    },
+    {
+      "id": "va-basilica-san-pedro",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Fodor's", "Rick Steves", "Frommer's"],
+      "justificacion": "Lonely Planet la llama la basílica más grande, rica y espectacular de Italia. Es Fodor's Choice, Rick Steves tiene audioguía propia y Frommer's le dedica una reseña entre lo esencial de Roma.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "http://www.lonelyplanet.com/italy/rome/sights/religious/st-peter-s-basilica" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/italy/rome/things-to-do/sights?pois=635915" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/watch-read-listen/audio/audio-tours/italy" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/rome/attractions/st-peters-basilica/" }
+      ]
+    },
+    {
+      "id": "va-museos-vaticanos",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Fodor's", "Rick Steves", "Frommer's"],
+      "justificacion": "Lonely Planet describe un complejo de 26 edificios y 7 km de galerías. Es Fodor's Choice por la escultura clásica y las Estancias de Rafael, Rick Steves tiene audioguía propia y Frommer's aconseja reservar la primera franja.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/points-of-interest/vatican-museums/1256585" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/italy/rome/things-to-do/sights?pois=635915" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/watch-read-listen/audio/audio-tours/italy" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/rome/things-to-do/in-vatican-city/" }
+      ]
+    },
+    {
+      "id": "va-plaza-san-pedro",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Lonely Planet"],
+      "justificacion": "Lonely Planet destaca la columnata de Bernini (1656-1667) en su ficha de San Pedro.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "http://www.lonelyplanet.com/italy/rome/sights/religious/st-peter-s-basilica" }
+      ]
+    }
+  ],
+  "nuevos": [],
+  "fuentes_quitar": [
+    { "id": "es-barcelona", "url": "https://www.fodors.com/world/europe/spain/barcelona/experiences/news/photos/25-ultimate-things-to-do-in-barcelona" },
+    { "id": "es-barcelona", "url": "https://www.rizzolibookstore.com/product/dk-top-10-barcelona" },
+    { "id": "es-madrid", "url": "https://side-ecom-prod-export.cdi.ch/en/9782067265066-guide-vert-espagne-du-centre" },
+    { "id": "es-madrid", "url": "https://www.penguinrandomhouse.com/books/851144/dk-top-10-madrid-by-dk-travel/" },
+    { "id": "es-granada-alhambra", "url": "https://editions.michelin.com/produits/grenade-malaga-2" },
+    { "id": "es-granada-alhambra", "url": "https://boutique.laventure.michelin.com/produit/guide-vert-andalousie-ebook" },
+    { "id": "es-granada-alhambra", "url": "https://store.ricksteves.com/products/sevilla-granada-guidebook" },
+    { "id": "es-sevilla", "url": "https://boutique.laventure.michelin.com/produit/guide-vert-espagne-ebook/" },
+    { "id": "es-sevilla", "url": "https://store.ricksteves.com/products/sevilla-granada-guidebook" },
+    { "id": "es-cordoba", "url": "https://store.ricksteves.com/products/sevilla-granada-guidebook" },
+    { "id": "es-segovia", "url": "https://side-ecom-prod-export.cdi.ch/en/9782067265066-guide-vert-espagne-du-centre" },
+    { "id": "es-el-escorial", "url": "https://store.ricksteves.com/products/best-of-spain-guidebook" },
+    { "id": "es-el-escorial", "url": "https://www.penguinrandomhouse.com/books/851144/dk-top-10-madrid-by-dk-travel/" },
+    { "id": "es-santiago-de-compostela", "url": "https://boutique.laventure.michelin.com/en/product/guide-vert-espagne-ebook" },
+    { "id": "es-santiago-de-compostela", "url": "https://store.ricksteves.com/products/spain-guidebook" },
+    { "id": "es-picos-de-europa", "url": "https://boutique.laventure.michelin.com/en/product/guide-vert-espagne-ebook" },
+    { "id": "es-valencia", "url": "https://boutique.laventure.michelin.com/en/product/guide-vert-espagne-ebook" },
+    { "id": "es-malaga", "url": "https://editions.michelin.com/produits/grenade-malaga-2" },
+    { "id": "es-leon", "url": "https://store.ricksteves.com/products/spain-guidebook" },
+    { "id": "es-alpujarras-sierra-nevada", "url": "https://shop.roughguides.com/book/rough-guide-spain" },
+    { "id": "es-donana", "url": "https://shop.roughguides.com/book/rough-guide-spain" },
+    { "id": "es-ronda", "url": "https://www.ricksteves.com/europe/spain/white-hill-towns" },
+    { "id": "es-pueblos-blancos-cadiz", "url": "https://www.ricksteves.com/europe/spain/white-hill-towns" },
+    { "id": "es-jerez-de-la-frontera", "url": "https://www.ricksteves.com/europe/spain/white-hill-towns" },
+    { "id": "es-islas-cies", "url": "https://www.lonelyplanet.com/articles/cies-islands-spain" },
+    { "id": "es-gran-canaria", "url": "https://www.lonelyplanet.com/articles/guide-to-gran-canaria" },
+    { "id": "es-caminito-del-rey", "url": "https://www.nationalgeographic.com/travel/article/beyond-camino-de-santiago-alternative-hikes-spain" },
+    { "id": "pt-lisboa", "url": "https://boutique.laventure.michelin.com/produit/guide-vert-wego-lisbonne-2026-ebook" },
+    { "id": "pt-sintra", "url": "https://editions.michelin.com/produits/portugal-2/" },
+    { "id": "pt-porto", "url": "https://editions.michelin.com/produits/portugal-2/" },
+    { "id": "pt-sagres", "url": "https://editions.michelin.com/produits/portugal-2/" },
+    { "id": "pt-tavira", "url": "https://store.ricksteves.com/products/portugal-guidebook" },
+    { "id": "pt-madeira-porto-moniz", "url": "https://roughguides.com/portugal/trips/madeira-sao-miguel-guided-island-adventures-trip" },
+    { "id": "pt-azores-sete-cidades", "url": "https://roughguides.com/portugal/trips/madeira-sao-miguel-guided-island-adventures-trip" },
+    { "id": "pt-fatima", "url": "https://www.roughguides.com/portugal/fatima-travel-guide/" },
+    { "id": "ad-andorra-la-vella-escaldes", "url": "https://www.fodors.com/news/trip-ideas/best-things-to-do-in-andorra" },
+    { "id": "ad-vall-del-madriu", "url": "https://www.fodors.com/news/trip-ideas/best-things-to-do-in-andorra" },
+    { "id": "ad-vall-del-madriu", "url": "https://theculturetrip.com/europe/andorra/articles/20-must-visit-attractions-in-andorra" },
+    { "id": "ad-grandvalira-pas-de-la-casa", "url": "https://www.nationalgeographic.com/travel/article/paid-content-andorra-winter-getaway" },
+    { "id": "ad-ordino-arcalis", "url": "https://www.nationalgeographic.com/travel/article/paid-content-andorra-winter-getaway" },
+    { "id": "ad-naturlandia", "url": "https://www.fodors.com/news/trip-ideas/best-things-to-do-in-andorra" },
+    { "id": "ad-canillo-sant-joan-de-caselles", "url": "https://theculturetrip.com/europe/andorra/articles/20-must-visit-attractions-in-andorra" },
+    { "id": "it-venecia", "url": "https://www.dk.com/uk/book/9780241413166-dk-eyewitness-top-10-venice/" },
+    { "id": "it-venecia", "url": "https://boutique.laventure.michelin.com/produit/guide-vert-italie-du-nord-sans-les-lacs-milan-et-la-lombardie-ebook" },
+    { "id": "it-milan", "url": "https://store.ricksteves.com/products/italy-guidebook" },
+    { "id": "it-milan", "url": "https://www.penguinrandomhouse.com/books/563366/dk-top-10-italian-lakes-by-dk-travel/9780744083972" },
+    { "id": "it-lago-de-como", "url": "https://shop.roughguides.com/book/rough-guide-italy/" },
+    { "id": "it-lago-de-como", "url": "https://www.penguinrandomhouse.com/books/563366/dk-top-10-italian-lakes-by-dk-travel/9780744083972" },
+    { "id": "it-lago-de-garda", "url": "https://www.penguinrandomhouse.com/books/563366/dk-top-10-italian-lakes-by-dk-travel/9780744083972" },
+    { "id": "it-lago-maggiore", "url": "https://www.penguinrandomhouse.com/books/563366/dk-top-10-italian-lakes-by-dk-travel/9780744083972" },
+    { "id": "it-lago-maggiore", "url": "https://store.ricksteves.com/products/italy-guidebook" },
+    { "id": "it-lago-maggiore", "url": "https://boutique.laventure.michelin.com/produit/guide-vert-lacs-italiens-michelin-copie" },
+    { "id": "it-dolomitas", "url": "https://shop.roughguides.com/book/rough-guide-italy/" },
+    { "id": "it-dolomitas", "url": "https://www.fodors.com/world/europe/italy" },
+    { "id": "it-verona", "url": "https://store.ricksteves.com/products/italy-guidebook" },
+    { "id": "it-verona", "url": "https://www.penguinrandomhouse.com/books/563366/dk-top-10-italian-lakes-by-dk-travel/9780744083972" },
+    { "id": "it-verona", "url": "https://www.fodors.com/world/europe/italy" },
+    { "id": "it-turin", "url": "https://boutique.laventure.michelin.com/produit/guide-vert-italie-du-nord-sans-les-lacs-milan-et-la-lombardie-ebook" },
+    { "id": "it-valle-de-aosta-monte-bianco", "url": "https://www.fodors.com/world/europe/italy/piedmont-and-valle-daosta/things-to-do/sights/turin" },
+    { "id": "it-cinque-terre", "url": "https://boutique.laventure.michelin.com/produit/guide-vert-italie-ebook" },
+    { "id": "it-bolonia", "url": "https://www.fodors.com/world/europe/italy" },
+    { "id": "it-ravena", "url": "https://www.frommers.com/slideshows/818204-the-very-best-of-italy-where-to-go/" },
+    { "id": "it-ravena", "url": "https://www.fodors.com/world/europe/italy" },
+    { "id": "it-florencia", "url": "https://www.dk.com/us/book/9780241413111-dk-eyewitness-top-10-florence-and-tuscany/" },
+    { "id": "it-florencia", "url": "https://boutique.laventure.michelin.com/produit/guide-vert-italie-michelin" },
+    { "id": "it-pisa", "url": "https://www.dk.com/us/book/9780241413111-dk-eyewitness-top-10-florence-and-tuscany/" },
+    { "id": "it-lucca", "url": "https://www.frommers.com/slideshows/818204-the-very-best-of-italy-where-to-go/" },
+    { "id": "it-lucca", "url": "https://www.dk.com/us/book/9780241413111-dk-eyewitness-top-10-florence-and-tuscany/" },
+    { "id": "it-siena", "url": "https://www.dk.com/us/book/9780241413111-dk-eyewitness-top-10-florence-and-tuscany/" },
+    { "id": "it-san-gimignano", "url": "https://www.dk.com/us/book/9780241413111-dk-eyewitness-top-10-florence-and-tuscany/" },
+    { "id": "it-val-d-orcia", "url": "https://store.ricksteves.com/products/italy-guidebook" },
+    { "id": "it-asis", "url": "https://shop.roughguides.com/book/rough-guide-italy/" },
+    { "id": "it-orvieto", "url": "https://www.fodors.com/world/europe/italy" },
+    { "id": "it-roma", "url": "https://www.dk.com/uk/book/9780241417676-dk-eyewitness-top-10-rome/" },
+    { "id": "it-roma", "url": "https://boutique.laventure.michelin.com/produit/guide-vert-italie-michelin" },
+    { "id": "it-napoles", "url": "https://www.fodors.com/world/europe/italy" },
+    { "id": "it-napoles", "url": "https://penguinrandomhouse.com/books/840418/dk-top-10-naples-and-the-amalfi-coast-by-dk-travel" },
+    { "id": "it-pompeya-herculano", "url": "https://www.fodors.com/world/europe/italy" },
+    { "id": "it-pompeya-herculano", "url": "https://penguinrandomhouse.com/books/840418/dk-top-10-naples-and-the-amalfi-coast-by-dk-travel" },
+    { "id": "it-costa-amalfitana", "url": "https://shop.roughguides.com/book/rough-guide-italy/" },
+    { "id": "it-costa-amalfitana", "url": "https://penguinrandomhouse.com/books/840418/dk-top-10-naples-and-the-amalfi-coast-by-dk-travel" },
+    { "id": "it-capri", "url": "https://penguinrandomhouse.com/books/840418/dk-top-10-naples-and-the-amalfi-coast-by-dk-travel" },
+    { "id": "it-paestum", "url": "https://penguinrandomhouse.com/books/840418/dk-top-10-naples-and-the-amalfi-coast-by-dk-travel" },
+    { "id": "it-paestum", "url": "https://www.fodors.com/world/europe/italy" },
+    { "id": "it-matera", "url": "https://www.fodors.com/world/europe/italy" },
+    { "id": "it-lecce", "url": "https://shop.roughguides.com/book/rough-guide-italy/" },
+    { "id": "it-palermo-monreale", "url": "https://www.fodors.com/world/europe/italy" },
+    { "id": "it-agrigento-valle-templos", "url": "https://shop.roughguides.com/book/rough-guide-italy/" },
+    { "id": "it-etna", "url": "https://boutique.laventure.michelin.com/produit/guide-vert-italie-ebook" },
+    { "id": "it-etna", "url": "https://www.fodors.com/world/europe/italy" },
+    { "id": "it-islas-eolias", "url": "https://shop.roughguides.com/book/the-mini-rough-guide-to-sicily/9781835293188" },
+    { "id": "it-islas-eolias", "url": "https://www.fodors.com/world/europe/italy" },
+    { "id": "it-mantova-sabbioneta", "url": "https://community.ricksteves.com/travel-forum/italy/padua-vicenza-or-mantua" },
+    { "id": "it-reggia-di-caserta", "url": "https://www-lonelyplanet-com-6c06.imagizer.com/italy/caserta" },
+    { "id": "mt-tres-ciudades", "url": "https://www.bradtguides.com/?p=107966" },
+    { "id": "mt-mdina-rabat", "url": "https://www.bradtguides.com/?p=107966" },
+    { "id": "mt-hipogeo-hal-saflieni", "url": "https://www.bradtguides.com/?p=107966" },
+    { "id": "mt-hagar-qim-mnajdra-gruta-azul", "url": "https://www.bradtguides.com/?p=107966" },
+    { "id": "mt-comino-laguna-azul", "url": "https://www.bradtguides.com/?p=107966" },
+    { "id": "mt-ggantija", "url": "https://www.bradtguides.com/?p=107966" },
+    { "id": "va-basilica-san-pedro", "url": "https://www.dk.com/uk/book/9780241417676-dk-eyewitness-top-10-rome/" },
+    { "id": "va-plaza-san-pedro", "url": "https://www.dk.com/uk/book/9780241417676-dk-eyewitness-top-10-rome/" },
+    { "id": "va-museos-vaticanos", "url": "https://shop.roughguides.com/book/rough-guide-italy/" }
+  ],
+  "correcciones_base": [
+    { "id": "es-donana", "lat": 37.1311, "lng": -6.4864 },
+    { "id": "es-ordesa-monte-perdido", "lat": 42.6386, "lng": -0.0606 },
+    { "id": "es-la-rioja", "lat": 42.5764, "lng": -2.8469 },
+    { "id": "es-mallorca", "lat": 39.5675, "lng": 2.6481 },
+    { "id": "es-lanzarote", "lat": 28.9630, "lng": -13.5477 },
+    { "id": "es-pueblos-blancos-cadiz", "lat": 36.8403, "lng": -5.3911 },
+    { "id": "es-tarifa-bolonia", "lat": 36.0143, "lng": -5.6044 },
+    { "id": "pt-peneda-geres", "lat": 41.7300, "lng": -8.1600 },
+    { "id": "pt-azores-sete-cidades", "lat": 37.8622, "lng": -25.7940 },
+    { "id": "pt-azores-flores", "lat": 39.4536, "lng": -31.1272 },
+    { "id": "pt-madeira-porto-moniz", "lat": 32.8686, "lng": -17.1714 },
+    { "id": "ad-vall-del-madriu", "lat": 42.4900, "lng": 1.5900 },
+    { "id": "sm-torre-guaita", "lat": 43.9353, "lng": 12.4496 }
+  ],
+  "notas": {
+    "puntos_de_referencia": "Puntos de las coordenadas: Doñana en El Rocío (puerta de entrada al parque); Ordesa en la Pradera de Ordesa; La Rioja en Haro (Barrio de la Estación); Mallorca en la catedral de Palma; Lanzarote en Arrecife; Pueblos Blancos en Zahara de la Sierra; Tarifa en el casco urbano; Peneda-Gerês en la Vila do Gerês; Sete Cidades en el pueblo junto a las lagunas; Flores en Santa Cruz das Flores; Porto Moniz en las piscinas naturales; Torre Guaita según Wikimedia Commons y Sygic. El Madriu queda en el centro del valle porque no hay carretera.",
+    "sin_cambios_por_falta_de_fuente": "es-girona sigue en 2: no se encontró una segunda guía con página específica. Los lugares nuevos que el curador ya puntuó con fuentes de guía (es-cadiz, es-merida, es-tarragona, es-zaragoza, es-montserrat, es-pamplona, es-a-coruna, es-fuerteventura, es-cabo-de-gata, pt-aveiro, pt-mafra, pt-angra-do-heroismo) conservan el puntaje del curador; aquí solo se corrigen los que tenían URLs sin confirmar (es-islas-cies, es-gran-canaria, pt-fatima, es-caminito-del-rey). sm-torre-montale no se vuelve a proponer: sigue fusionada en sm-torre-cesta.",
+    "pendientes": "Con el límite de búsquedas no se buscaron guías para it-aquileia, it-selinunte, it-cividale-udine, it-islas-egadi, it-zingaro-san-vito-lo-capo, it-finale-ligure, it-gran-sasso-campo-imperatore, it-monti-sibillini-castelluccio, it-riviera-del-conero, it-lago-de-iseo-monte-isola, it-lago-de-orta, es-cartagena, es-lugo, es-monfrague, es-penedes, es-bardenas-reales, es-sierra-de-guara-alquezar, es-noguera-pallaresa-sort ni pt-piodao. Siguen con guias 0."
+  }
+}

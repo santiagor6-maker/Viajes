@@ -401,7 +401,6 @@
     }
   ],
   "fuentes_quitar": [
-    { "id": "pt-madeira-porto-moniz", "url": "https://roughguides.com/portugal/trips/madeira-sao-miguel-guided-island-adventures-trip" },
     { "id": "es-granada-alhambra", "url": "https://enriquealex.com/espana/como-conseguir-entradas-alhambra/" },
     { "id": "es-santillana-altamira", "url": "https://elviajedesofi.com/visita-a-la-cueva-de-altamira-la-capilla-sixtina-del-arte-prehistorico-precios-horarios/" },
     { "id": "es-donana", "url": "https://www.civitatis.com/es/almonte/visita-guiada-donana/" },
@@ -422,7 +421,6 @@
     { "id": "pt-angra-do-heroismo", "url": "https://whc.unesco.org/en/statesparties/pt/" },
     { "id": "pt-vale-do-coa", "url": "https://whc.unesco.org/en/statesparties/pt/" },
     { "id": "va-basilica-san-pedro", "url": "https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/HolySee.html" },
-    { "id": "va-plaza-san-pedro", "url": "http://www.lonelyplanet.com/italy/rome/sights/religious/st-peter-s-basilica" },
     { "id": "it-gargano", "url": "https://en.wikipedia.org/wiki/Gargano_National_Park" },
     { "id": "it-etna", "url": "https://catania.liveuniversity.it/2020/10/30/etna-cronaca-guide-turistiche/amp/" },
     { "id": "it-erice-segesta", "url": "https://bluekeys.it/it/blog/agrigento-to-erice-transfer" }
