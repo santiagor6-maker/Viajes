@@ -1,0 +1,250 @@
+{
+  "subregion": "iberica-italia",
+  "grupo": "b",
+  "ronda": 2,
+  "fecha": "2026-10-27",
+  "alcance": "IT, MT, SM, VA. Archivos revisados: guias-expertas-fix1, cultura-historia-fix1, naturaleza-fix1, gastronomia-vino-fix1, adrenalina-fix1, logistica-temporada-fix1 (fix1b solo cubre ES/PT y queda fuera del alcance), curador.json, curador-ajustes.json y los 117 lugares IT/MT/SM/VA de data/lugares/europa.json. Se comprobó qué comentarios de la ronda 1 se resolvieron y si los fix introdujeron problemas nuevos.",
+  "metodo": "WebFetch bloqueado: una URL cuenta como verificada si una WebSearch devuelve esa página exacta (o la misma ruta). Se usaron 47 búsquedas, con prioridad para las URLs nuevas de los fix. Se comprobaron también, sin búsquedas, la fórmula global de los 117 lugares (sin errores), los niveles (sin errores), que el puntaje final coincida con cada fix (única discrepancia: naturaleza de it-polignano-monopoli), que las fuentes_quitar de cada fix se hayan aplicado en europa.json (fallan 6 de adrenalina), las categorías frente al umbral de 3.5 y node scripts/validar.mjs --sin-revision (sin errores; avisos tolerados en it-capri y es-islas-cies). Se aplicaron las decisiones aceptadas del proyecto: categoría por mejor temático aunque esté por debajo de 3.5, países con más de 30 lugares, regla de adrenalina de 60 km con tope 2 en monumentos y tope 3 en espacios solo de senderismo.",
+  "verificacion_urls": {
+    "guias-expertas": {
+      "comprobadas": 11,
+      "verificadas": 4,
+      "verificadas_lista": [
+        "https://www.timeout.com/malta/travel/best-places-to-visit-in-malta (no confirmada en la ronda 1: existe, 'The 9 best places to visit in Malta')",
+        "https://www.frommers.com/slideshows/818204-the-very-best-of-italy-where-to-go/ (no confirmada en la ronda 1: aparece en un listado de Frommer's con el título 'The Very Best of Italy: Where to Go')",
+        "https://www.nationalgeographic.com/travel/best-of-the-world-2026/article/dolomites-milan-italy",
+        "https://bradtguides.com/maltas-temples (el artículo de Bradt 'The best temples in Malta and Gozo' existe y respalda Ħaġar Qim, Mnajdra y Ġgantija; el buscador lo indexa como bradtguides.com/?p=7218)"
+      ],
+      "no_confirmadas": [
+        "https://www.fodors.com/world/europe/italy/rome/things-to-do/sights?pois=635915 (además, la misma URL se cita para tres lugares distintos)",
+        "https://www.roughguides.com/article/make-the-most-of-malta-a-first-timers-guide/",
+        "https://www.lonelyplanet.com/articles/top-things-to-do-in-malta",
+        "https://fodors.com/world/europe/italy/puglia-basilicata-and-calabria/things-to-do/sights/reviews/castel-del-monte-462957",
+        "https://www.ricksteves.com/tours/italy/best-italy-tour-2026 (el tour existe en https://www.ricksteves.com/tours/italy/best-italy, pero no esa ruta)",
+        "https://www.bradtguides.com/destinations/europe/malta-and-gozo/",
+        "https://www.fodors.com/world/europe/italy/the-veneto-and-friuli-venezia-giulia/places/verona"
+      ]
+    },
+    "cultura-historia": {
+      "comprobadas": 5,
+      "verificadas": 3,
+      "verificadas_lista": [
+        "https://www.lonelyplanet.com/points-of-interest/torre-guaita/1432921",
+        "https://www.chianticlassico.com/en/?p=2140 (confirmada en la ronda 1; en esta se confirmó además ?p=60239, del mismo bando de 1716)",
+        "Parco archeologico di Selinunte en un dominio oficial de la Regione Siciliana (parchiarcheologici.regione.sicilia.it). La ruta exacta que se cita, regione.sicilia.it/istituzioni/..., no apareció."
+      ],
+      "no_confirmadas": [
+        "https://viaggioadriatico.ict.uniba.it/rete-interadriatica-interadriatic-network/resources-1/basilica-di-san-nicola-di-bari/view@set_language=en.html",
+        "https://www.italia.it/it/puglia/bari/polignano"
+      ]
+    },
+    "naturaleza": {
+      "comprobadas": 6,
+      "verificadas": 5,
+      "verificadas_lista": [
+        "https://sardegnaturismo.it/it/supramonte-di-baunei-sul-tetto-del-mondo",
+        "https://www.italia.it/en/aosta-valley/aosta/courmayeur/skyway-monte-bianco",
+        "https://www.lonelyplanet.com/points-of-interest/park-tal-majjistral/1136197",
+        "https://www.italia.it/it/liguria/genova/monte-di-portofino (verificada por la misma ruta en la versión francesa)",
+        "https://www.lasiciliainrete.it/en/directory-tangibili/listing/riserva-dello-zingaro/ (existe, pero es un directorio con una ficha casi vacía, no la web de la reserva)"
+      ],
+      "no_confirmadas": [
+        "https://lovevda.it/en/experiences/cableways-4000-metres/mont-blanc-cableway (existe la página madre lovevda.it/en/experiences/cable-cars-4000-metres, pero no esa ruta)"
+      ]
+    },
+    "gastronomia-vino": {
+      "comprobadas": 6,
+      "verificadas": 4,
+      "verificadas_lista": [
+        "https://guide.michelin.com/gb/en/article/michelin-guide-ceremony/a-new-3-star-restaurant-in-the-michelin-guide-italy-2026 (existe, pero trata solo del nuevo tres estrellas, La Rei Natura de Mammoliti)",
+        "https://guide.michelin.com/it/it/veneto/venezia/ristorante/glam-enrico-bartolini (dos estrellas, correcto)",
+        "https://www.ferraraterraeacqua.it/en/flavours/typical-products/ferrarese-cappellacci-with-pumpkin",
+        "colliorientali.com: existe la web del Consorzio, con su Tasting Academy en Corno di Rosazzo, pero no se vio la ruta exacta ?p=77353"
+      ],
+      "no_confirmadas": [
+        "https://www.touringclub.it/notizie/bandiere-arancioni/che-cosa-mangiare-taverna"
+      ],
+      "comprobacion_de_dato": "L'Olivo (Capri Palace, Anacapri) conserva dos estrellas Michelin en 2026 (https://guide.michelin.com/ch/it/campania/anacapri/ristorante/l-olivo). En el Garda hay varios restaurantes con estrella en 2026, entre ellos Senso Lake Garda, nuevo una estrella."
+    },
+    "adrenalina": {
+      "comprobadas": 7,
+      "verificadas": 6,
+      "verificadas_lista": [
+        "https://007bungy.ch/en/location",
+        "https://www.bormioski.eu/en/skiing/ski-area/info-lifts-and-slopes/",
+        "https://www.italia.it/it/umbria/cosa-fare/rafting-monti-sibillini-cascata-delle-marmore (las salidas son desde Biselli y Serravalle di Norcia, en la Valnerina)",
+        "https://www.ikointl.com/it/centro/italy/marsala/kts-kite-tour-stagnone",
+        "https://turismo.abruzzo.it/en/laquila/roccaraso/",
+        "https://www.trekking.ch/007-vip-event/?lang=en (no confirmada en la ronda 1: ahora sí aparece, así que la URL existía)"
+      ],
+      "no_confirmadas": [
+        "https://www.italia.it/it/sicilia/nicolosi/esperienze/monte-etna-escursione-ai-crateri-sommitali-da-etna-sud-tiqets-1012359 (además, la ruta indica una ficha de reventa de Tiqets dentro de italia.it, no un operador)"
+      ]
+    },
+    "logistica-temporada": {
+      "comprobadas": 6,
+      "verificadas": 6,
+      "verificadas_lista": [
+        "https://www.transport.gov.mt/maritime/ports-commercial/passenger-transport-by-sea-110",
+        "https://parcoetna.it/wp-content/uploads/2026/08/Ordinanza-Comune-di-Bronte-del-14-agosto-2026.pdf",
+        "https://mta.com.mt/news/new-visitor-booking-system-cominos-blue-lagoon/ (y bluelagooncomino.mt como portal oficial vigente en 2026)",
+        "https://www.dolomitisuperski.com/it/live-info/impianti/estate/carezza (y las fechas de 2026: Supersummer del 14-5 al 8-11 y Sellaronda del 13-6 al 27-9, que coinciden con la alerta)",
+        "Aviso de EE. UU. para SM: el World Factbook confirma que el Departamento de Estado cubre Italia y San Marino juntos, así que remitir al aviso de Italia es correcto",
+        "https://travel.gc.ca/destinations/san-marino"
+      ],
+      "no_confirmadas": []
+    },
+    "curador": {
+      "comprobadas": 5,
+      "verificadas": 4,
+      "verificadas_lista": [
+        "https://www.lonelyplanet.com/destinations/italy/the-italian-lakes/lake-orta",
+        "https://www.lonelyplanet.com/articles/guide-to-lake-iseo",
+        "https://www.lonelyplanet.com/italy/cividale-del-friuli/attractions/duomo-museo-cristiano/a/poi-sig/1139543/1316193",
+        "https://www.lonelyplanet.com/italy/caserta (la misma ruta que el espejo indexado; ya es la URL canónica)"
+      ],
+      "no_confirmadas": [
+        "https://www.roughguides.com/destinations/europe/italy/friuli-venezia-giulia/cividale-del-friuli-around"
+      ]
+    }
+  },
+  "agentes": {
+    "guias-expertas": {
+      "nota": 8.5,
+      "desglose": {"fuentes": 1.5, "exactitud": 2.0, "criterio": 1.5, "coherencia": 1.5, "descripcion": 2.0},
+      "aprobado": false,
+      "resueltos_r1": [
+        "Se quitaron las URLs genéricas (fodors.com/world/europe/italy, la tienda de Rick Steves, las de Rough Guides y DK, la Guide Vert) y se recontaron las guías.",
+        "it-valle-de-aosta-monte-bianco ya cita Fodor's Courmayeur y Monte Bianco, y no Turín.",
+        "La ficha de librería de Bradt se sustituyó por el artículo de templos y la página de destino.",
+        "Se corrigieron los inflados: Verona, Paestum, Asís, Ġgantija, Ħaġar Qim y la Laguna Azul quedan en 4. Siracusa sube a 4.",
+        "sm-torre-guaita está ya en 43.9353, 12.4496, y sm-torre-montale no se vuelve a proponer.",
+        "La slideshow de Frommer's y la lista de Time Out Malta sí existen."
+      ],
+      "comentarios": [
+        "Hay una URL de Fodor's duplicada: https://www.fodors.com/world/europe/italy/rome/things-to-do/sights?pois=635915 es la única prueba de Fodor's en va-basilica-san-pedro, va-museos-vaticanos y va-capilla-sixtina. Un mismo pois no puede ser la ficha de tres lugares, y no se pudo confirmar. Hay que citar la reseña propia de cada uno (fodors.com/.../sights/reviews/...) o quitar Fodor's donde no exista. En va-basilica-san-pedro, va-museos-vaticanos y va-capilla-sixtina el puntaje seguiría en 5 con LP, Rick Steves y Frommer's solo si son top pick; si no, hay que justificarlo.",
+        "Hay fuentes de MT sin confirmar que sostienen puntajes altos. https://www.roughguides.com/article/make-the-most-of-malta-a-first-timers-guide/ (mt-mdina-rabat, mt-hipogeo-hal-saflieni, mt-hagar-qim-mnajdra-gruta-azul, mt-comino-laguna-azul) y https://www.lonelyplanet.com/articles/top-things-to-do-in-malta (mt-mdina-rabat, mt-hagar-qim-mnajdra-gruta-azul, mt-victoria-ciudadela) no aparecen en las búsquedas. Hay que comprobarlas o sustituirlas por páginas que existan, como https://www.lonelyplanet.com/malta/attractions o las fichas de LP de cada lugar. Si una no existe, mt-mdina-rabat baja de 5 a 4.",
+        "La ruta https://www.ricksteves.com/tours/italy/best-italy-tour-2026 no aparece. El tour está en https://www.ricksteves.com/tours/italy/best-italy. Hay que cambiarla en todos los lugares que la usan: it-venecia, it-lago-de-como, it-dolomitas, it-florencia, it-pisa, it-asis, it-orvieto, it-cinque-terre.",
+        "Coherencia: it-milan queda en 3 (solo Time Out y NatGeo), por debajo de it-spoleto, it-perugia, it-ostia-antica e it-castel-del-monte (4). Al quitar las fichas de librería no se buscaron las páginas específicas de Milán, que existen en LP, Fodor's y Rick Steves. Hay que buscarlas y recalcular. Con el mismo criterio, mt-tres-ciudades (2, solo Time Out) frente a mt-victoria-ciudadela (4): los backstreets de Birgu/Vittoriosa salen en la selección de LP, así que hay que revisarlo. Revisar también it-bolonia (3): Fodor's tiene página propia de Bolonia.",
+        "Los lugares que el curador tuvo que puntuar en su lugar (12) muestran que el agente dejó su lista de pendientes sin hacer. Siguen con guías 0 sin búsqueda it-mirabilandia, it-volo-dell-angelo e it-foreste-casentinesi: hay que buscarlos en 1–2 guías.",
+        "La regla de la escala del agente ('5 = top pick en 4+ guías') no coincide con cómo la aplica: it-paestum (5 guías) e it-asis (4 guías) quedan en 4 por 'no estar en las listas de país'. La decisión es razonable, pero hay que ponerla por escrito en criterio_aplicado (5 exige top pick en listas de país) para que se aplique igual a mt-mdina-rabat (5) y mt-victoria-ciudadela (4)."
+      ]
+    },
+    "cultura-historia": {
+      "nota": 9.5,
+      "desglose": {"fuentes": 1.5, "exactitud": 2.0, "criterio": 2.0, "coherencia": 2.0, "descripcion": 2.0},
+      "aprobado": true,
+      "resueltos_r1": [
+        "it-bari, it-selinunte, it-perugia e it-polignano-monopoli ya no dependen de Wikipedia, Wikivoyage ni blogs.",
+        "En it-chianti-classico ya no aparece la URL ?p=2166.",
+        "it-lago-de-como sube a 4 e iguala a Orta (sitio 1068). it-pisa se justifica en 5 por la escala. sm-torre-guaita baja a 3.",
+        "Las notas de proceso pasaron a un campo 'nota'.",
+        "it-padova cita la ficha 1623."
+      ],
+      "comentarios": [
+        "Menor, no bloquea la aprobación: it-bari (3) se apoya solo en una página de un proyecto universitario (viaggioadriatico.ict.uniba.it) que no apareció en las búsquedas. Conviene añadir la web de la Basilica di San Nicola o la de Puglia turismo. it-polignano-monopoli (3) cita italia.it, que tampoco apareció; el Museo Pino Pascali tiene web propia.",
+        "Menor: en it-selinunte conviene citar la página del parque en parchiarcheologici.regione.sicilia.it, que es la que existe, en vez de la ruta del organigrama de regione.sicilia.it."
+      ]
+    },
+    "naturaleza": {
+      "nota": 8.5,
+      "desglose": {"fuentes": 1.5, "exactitud": 1.5, "criterio": 1.5, "coherencia": 2.0, "descripcion": 2.0},
+      "aprobado": false,
+      "resueltos_r1": [
+        "Se sustituyeron las URLs de gestwww.lovevda.it y node/250946: Orosei ya cita una página de Sardegna Turismo que existe.",
+        "Gargano, Conero, Portofino, Iseo y Aosta tienen ahora fuente oficial (Ente Parco, italia.it, VisitBergamo, lovevda).",
+        "Se quitaron advcollective (Dingli) y las notas internas.",
+        "Coherencia: torres de San Marino 2, Golden Bay 3, Venecia 2."
+      ],
+      "comentarios": [
+        "it-zingaro-san-vito-lo-capo (4) sigue sin fuente oficial en la entrada del agente: Balarm, SiViaggia y un directorio casi vacío. Además, la justificación omite que el incendio del verano de 2025 quemó unas 1.600 de sus 1.650 ha, y la reserva reabrió por fases en marzo y mayo de 2026. La logística ya lo recoge. Hay que citar la página de la Regione Siciliana sobre la reapertura (https://www.regione.sicilia.it/la-regione-informa/riserva-zingaro-sabato-14-marzo-riapre-dopo-l-incendio-estate-scorsa), mencionar el incendio y justificar el 4 o bajarlo a 3 mientras la vegetación se recupera.",
+        "Hay puntajes de 3 o más que solo se apoyan en guías, el mismo problema de la ronda 1 en lugares que entonces no se señalaron: it-lago-de-como (5: LP y Fodor's), it-lago-de-garda (4: NatGeo y LP) e it-capri (4). Capri se queda solo con la galería de Rough Guides, porque el curador quitó la ficha de DK. Hay que añadir una fuente oficial a cada uno (italia.it o el turismo de Lombardía para Como, el Parco del Monte Baldo o Garda Trentino para Garda, y el turismo de Capri o el Área Marina Protegida Punta Campanella para Capri) o bajar el puntaje.",
+        "it-polignano-monopoli: el agente lo bajó a 2, pero el lugar final tiene 3 porque el curador tomó el valor del id fusionado it-polignano-a-mare. Hay que dar un único puntaje para el lugar fusionado, sin dejar un valor distinto en el id de origen.",
+        "Menor: la URL de lovevda.it del Skyway (/experiences/cableways-4000-metres/mont-blanc-cableway) no apareció; la que existe es https://lovevda.it/en/experiences/cable-cars-4000-metres. En it-volo-dell-angelo sigue el enlace de TheWom de la ronda 1; ya hay fuentes oficiales, así que basta con quitarlo."
+      ]
+    },
+    "gastronomia-vino": {
+      "nota": 8.5,
+      "desglose": {"fuentes": 1.5, "exactitud": 2.0, "criterio": 1.5, "coherencia": 1.5, "descripcion": 2.0},
+      "aprobado": false,
+      "resueltos_r1": [
+        "Se quitó la lista de Wikipedia.",
+        "Glam, Villa Crespi y St. George citan su ficha de guide.michelin.com.",
+        "Villa Crespi aparece con tres estrellas y Orta sube a 4.",
+        "Ferrara usa el dominio canónico, ya verificado. Chianti usa ?p=2140 y Bolonia tasteatlas.com/bologna.",
+        "mt-marsaxlokk baja a 3 y it-erice-segesta a 3. it-cividale-udine cita el Consorzio Colli Orientali y Turismo FVG.",
+        "Los blogs de Alghero, Casentino, Sila y Polignano se sustituyeron o se bajó el puntaje.",
+        "La etiqueta de unionalimentari ya es honesta."
+      ],
+      "comentarios": [
+        "La ronda 1 pidió la ficha de guide.michelin.com de cada restaurante. En 8 lugares (it-milan, it-dolomitas, it-florencia, it-roma, it-costa-amalfitana, it-verona, it-bergamo, it-modena) se cita en cambio el artículo https://guide.michelin.com/gb/en/article/michelin-guide-ceremony/a-new-3-star-restaurant-in-the-michelin-guide-italy-2026, que trata del único nuevo tres estrellas (La Rei Natura), más un artículo de FIRSTonline. Hay que añadir la ficha de Enrico Bartolini al Mudec, AtelierMoessmer, Enoteca Pinchiorri, La Pergola, Quattro Passi, Casa Perbellini 12 Apostoli, Da Vittorio y Osteria Francescana (o el artículo de Michelin 'tutte le stelle 2026', que sí las lista).",
+        "Al quitar la fuente de Wikipedia se bajaron puntajes sin buscar otra, y quedaron incoherencias. it-capri pasó a 2, pero L'Olivo (Capri Palace) conserva dos estrellas Michelin en 2026 (https://guide.michelin.com/ch/it/campania/anacapri/ristorante/l-olivo), el mismo nivel que Glam (it-venecia, 4) y St. George (it-taormina, 3): debería tener al menos 3. it-lago-de-garda (2) tiene varios restaurantes con estrella en 2026 (Senso Lake Garda es nuevo una estrella; La Speranzina y otros en Sirmione) y las DOC Lugana y Bardolino, y queda por debajo de it-lago-maggiore (3, Il Piccolo Lago). Hay que revisarlo con fichas Michelin y el consorcio. Lo mismo para it-lago-de-como (2).",
+        "it-polignano-monopoli (3) solo cita https://www.tasteatlas.com/best-rated-dishes-in-apulia, que es de toda Apulia y no menciona Polignano ni Monopoli. Hay que añadir una fuente específica (turismo de Apulia, Slow Food o una ficha Michelin o Gambero Rosso de la zona) o bajarlo a 2.",
+        "Menor: it-parma (5) e it-cilento (4) siguen apoyándose en visititaly.eu, ahora bien etiquetado como portal privado. Para Parma hay que citar la página de la red de Ciudades Creativas de la UNESCO. En it-urbino (3) sigue la Wikipedia de la Casciotta de la ronda b-r2: hay que sustituirla por la ficha DOP del Ministerio o de italia.it.",
+        "No se pudo confirmar https://www.touringclub.it/notizie/bandiere-arancioni/che-cosa-mangiare-taverna (it-sila, única fuente). Hay que comprobarla o citar el Consorzio Patata della Sila IGP."
+      ]
+    },
+    "adrenalina": {
+      "nota": 8.5,
+      "desglose": {"fuentes": 1.5, "exactitud": 2.0, "criterio": 1.5, "coherencia": 1.5, "descripcion": 2.0},
+      "aprobado": false,
+      "resueltos_r1": [
+        "Los 3 sin URL tienen ya fuente oficial (Bormio Ski, Turismo Abruzzo, Sardegna Turismo en Porto Pollo) o bajaron a 2 (Pollino, Gran Sasso).",
+        "Las plataformas de reventa se sustituyeron por italia.it, sardegnaturismo o 007bungy.ch.",
+        "Hay una regla única de 60 km con topes: Ostia y Tivoli 2, Mantua 3, Borgo Maggiore 2, Verona 4, Lago Maggiore 3.",
+        "Se añadió el esquí: Courmayeur, Cervinia, Dolomiti Superski y Bormio.",
+        "Se reescribieron los textos con 'pendiente'.",
+        "trekking.ch sí existía; lo correcto es usar 007bungy.ch, como ya se hace."
+      ],
+      "comentarios": [
+        "Tres puntajes contradicen la escala del propio agente: '2 si la única actividad está en el borde del radio (50–60 km)' y 'un 3 exige operador, turismo oficial, RCDB o certificadora'. it-genova (3) solo tiene Finale Outdoor a 54 km, con una noticia de la UCI con url_tipo 'otro': debe quedar en 2 o documentar la web oficial de Finale Outdoor Region. it-lago-de-orta (3) solo tiene Verzasca a 56 km: debe quedar en 2. it-monti-sibillini-castelluccio (3) mide 51 km a la Cascata delle Marmore, pero la propia ficha de italia.it sitúa las salidas de rafting en Biselli y Serravalle di Norcia, a unos 20 km: hay que corregir los km y las coordenadas de la actividad, y así se justifica el 3.",
+        "it-etna (4) e it-taormina (3) se apoyan solo en https://www.italia.it/it/sicilia/nicolosi/esperienze/monte-etna-escursione-ai-crateri-sommitali-da-etna-sud-tiqets-1012359, que no apareció en las búsquedas. Por la ruta, es una ficha de reventa de Tiqets dentro de italia.it, así que no debería etiquetarse como turismo_oficial. Hay que citar un operador de guías autorizado (guías alpinos y vulcanológicos del Etna) o el Parco dell'Etna.",
+        "Coherencia: it-etna (4) e it-islas-eolias (4) puntúan una excursión guiada a pie, un tipo de actividad que no está en la lista del criterio, mientras it-golfo-di-orosei (3, Gorropu) y la Costa Amalfitana (2, Sentiero degli Dei) se tratan como senderismo. Hay que poner por escrito la regla para trekking volcánico guiado y aplicarla igual a todos. En Malta, mt-golden-bay (3) y mt-mellieha (4) están a unos 3 km y comparten Ċirkewwa, a 5–6 km. La diferencia solo viene de Splash & Fun, que está a unos 12 km de Mellieħa por carretera y no a 8. Hay que igualarlas o explicar la diferencia.",
+        "Menor: it-pollino e it-cividale-udine conservan checkyeti como 'respaldo', y es correcto que queden en 2."
+      ]
+    },
+    "logistica-temporada": {
+      "nota": 9.5,
+      "desglose": {"fuentes": 1.5, "exactitud": 2.0, "criterio": 2.0, "coherencia": 2.0, "descripcion": 2.0},
+      "aprobado": true,
+      "resueltos_r1": [
+        "En el aviso de EE. UU. para SM, la CIA ya va etiquetada como tal y se remite al aviso de Italia, que cubre San Marino.",
+        "VA usa la URL nueva de travel.state.gov.",
+        "El mejor_epoca del Vaticano está unificado ([1,2,3,10,11], con el criterio por escrito).",
+        "Dolomitas tiene fechas precisas de 2026, ya verificadas, y explica por qué se excluyen junio y diciembre.",
+        "Sliema cita Transport Malta; Etna, las ordenanzas de agosto de 2026 (verificada); Erice, funiviaerice y el Ministerio de Cultura; Gargano, Parks.it, Trenitalia e italia.it; Comino, bluelagooncomino.mt y la MTA, con el estado de 2026."
+      ],
+      "comentarios": [
+        "Menor, no bloquea la aprobación: siguen como fuentes de respaldo de la ronda b-r2 Wikivoyage (it-aquileia, it-islas-egadi, it-lago-de-iseo-monte-isola) y TheWom (it-orvieto, que viene de Civita). En mt-comino-laguna-azul se cita el blog de la app Rozie. Conviene quitarlos en la próxima pasada, porque ya hay fuentes oficiales.",
+        "Menor: logistica-temporada-fix1b la escribió el curador. Solo cubre ES/PT y no se evaluó aquí, pero el agente debe revisarla."
+      ]
+    },
+    "curador": {
+      "nota": 8.5,
+      "desglose": {"fuentes": 1.5, "exactitud": 1.5, "criterio": 1.5, "coherencia": 2.0, "descripcion": 2.0},
+      "aprobado": false,
+      "resueltos_r1": [
+        "Se buscaron guías para los 12 lugares con guías 0. Castel del Monte queda en 4 (3.9), y se documentan los hallazgos y los casos sin resultado.",
+        "Mantua sube a 4 (4.0, imprescindible). Caserta usa la URL canónica de LP.",
+        "Se corrigieron los por_que de Villa Crespi, Paestum, Taormina, Aosta, Orosei y Etna.",
+        "La logística del Hipogeo sale del lugar principal (3, global 3.9).",
+        "Categorías: Borgo Maggiore pasa a 'ciudad' y Mantua ya no lleva 'adrenalina'. La Guaita tiene las coordenadas corregidas.",
+        "La fórmula y los niveles de los 117 lugares están bien, y validar.mjs no da errores."
+      ],
+      "comentarios": [
+        "No se aplicaron todas las fuentes_quitar de adrenalina-fix1. En adrenalina_cerca de europa.json siguen las URLs de reventa que la ronda 1 pidió quitar y que el agente ya había retirado: it-cividale-udine (manawa.com .../5551), it-spoleto (yumping.com rafting-le-marmore), it-alghero-capo-caccia (yumping.com centro-immersioni-alghero), it-golfo-di-orosei (tui.co.uk gorropu-canyon) e it-lago-maggiore e it-lago-de-orta (trekking.ch/007-vip-event). adrenalina_cerca debe reconstruirse desde las actividades del último fix, sin unirla con la anterior.",
+        "it-tivoli tiene guias = 3 con 'Rick Steves' citado desde https://www.travelagentcentral.com/europe/tivoli-still-romes-great-escape-2000-years-later, una mención de segunda mano que tu propia regla excluye. Sin ella queda en 2 y el global baja de 4.2 a 3.8 (muy_recomendado). Hay que buscar la página de Tivoli en ricksteves.com o recalcular.",
+        "En las fusiones manda el lugar principal también en los temáticos cuando el agente puntúa el lugar fusionado. it-polignano-monopoli tiene naturaleza 3, pero naturaleza-fix1 le da 2 (el 3 viene del origen it-polignano-a-mare). En it-gargano se conservó la etiqueta antigua 'MIPAAF (Arancia del Gargano IGP)' para la URL de unionalimentari.com, que gastronomía ya había reetiquetado como copia. Al deduplicar fuentes por URL, debe ganar la etiqueta del fix más reciente.",
+        "Hay por_que que citan actividades que adrenalina dejó sin documentar, en contra de tu propia regla de la ronda 3: it-lago-de-garda ('Torbole... un clásico del windsurf') y mt-mellieha ('la hace buena para el windsurf'). Hay que quitarlas o documentarlas.",
+        "Siguen con guias 0 sin búsqueda it-mirabilandia, it-volo-dell-angelo e it-foreste-casentinesi, lo que está reconocido en las notas. Para it-cividale-udine no se pudo confirmar la página de Rough Guides 'cividale-del-friuli-around', y de ella depende que tenga 3 y no 2."
+      ]
+    }
+  },
+  "paises": {
+    "IT": {"nota": 8.6, "revision_pendiente": false, "detalle": "Notas de los agentes en los lugares IT: guías 8.5 (Milán 3 y la ruta de Rick Steves), cultura 9.5, naturaleza 8.0 (Zingaro tras el incendio; Como, Garda y Capri sin fuente oficial), gastronomía 8.5 (Capri, Garda y Como; faltan las fichas Michelin), adrenalina 8.5 (Génova, Orta, Sibillini y Etna), logística 9.5 y curador 8.0 (URLs de reventa en adrenalina_cerca y Tivoli). Casi todos los problemas que quedan están en IT."},
+    "MT": {"nota": 9.2, "revision_pendiente": false, "detalle": "Guías 8.0 (Rough Guides y LP Malta sin confirmar; Tres Ciudades en 2), cultura 9.5, naturaleza 9.5 (Golden Bay y Dingli corregidos), gastronomía 9.5 (Marsaxlokk en 3), adrenalina 9.0 (Golden Bay 3 frente a Mellieħa 4), logística 9.5 (Sliema y Comino resueltos) y curador 9.5 (logística del Hipogeo corregida)."},
+    "SM": {"nota": 9.5, "revision_pendiente": false, "detalle": "Están resueltos todos los comentarios de la ronda 1 sobre SM: coordenadas de la Guaita, cultura 3 de la Guaita, naturaleza 2 de las torres, Borgo Maggiore con adrenalina 2 y 'ciudad', y el aviso de EE. UU. bien etiquetado. Todos los agentes 9.5."},
+    "VA": {"nota": 9.4, "revision_pendiente": false, "detalle": "Guías 8.5: la misma URL de Fodor's (pois=635915) se cita para la basílica, los Museos y la Capilla Sixtina. El resto de agentes 9.5: el mejor_epoca está unificado, la URL de travel.state.gov se actualizó y la adrenalina queda en 2 por la regla de monumentos."}
+  },
+  "busquedas_usadas": 47
+}

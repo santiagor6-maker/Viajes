@@ -70,15 +70,6 @@
     ],
     "adrenalina_cerca": [
       {
-        "nombre": "Tobotronc de Naturland (trineo alpino de 5,3 km)",
-        "tipo": "alpine_coaster",
-        "km": 7,
-        "lat": 42.443,
-        "lng": 1.538,
-        "temporada": "todo el año (sujeto a meteorología)",
-        "url": "https://naturland.ad/en/node/137"
-      },
-      {
         "nombre": "Tobotronc de Naturland (montaña rusa alpina de 5,3 km)",
         "tipo": "alpine_coaster",
         "km": 7,
@@ -189,24 +180,6 @@
         "url": "https://www.grandvalira.com/"
       },
       {
-        "nombre": "Grandvalira (ficha de destino de World Travel Guide, Soldeu)",
-        "tipo": "esqui",
-        "km": 0,
-        "lat": 42.577,
-        "lng": 1.668,
-        "temporada": "dic–abr",
-        "url": "https://www.worldtravelguide.net/guides/europe/andorra/soldeu/"
-      },
-      {
-        "nombre": "Grandvalira (esquí, sector Canillo y resto del dominio)",
-        "tipo": "esqui",
-        "km": 0,
-        "lat": 42.577,
-        "lng": 1.668,
-        "temporada": "dic–abr",
-        "url": "https://www.grandvalira.com/"
-      },
-      {
         "nombre": "Sector Canillo de Grandvalira (ficha de estación)",
         "tipo": "esqui",
         "km": 6,
@@ -225,15 +198,6 @@
         "url": "https://www.ordinoarcalis.com/"
       },
       {
-        "nombre": "Tobotronc de Naturland (trineo alpino de 5,3 km)",
-        "tipo": "alpine_coaster",
-        "km": 18,
-        "lat": 42.443,
-        "lng": 1.538,
-        "temporada": "todo el año (sujeto a meteorología)",
-        "url": "https://naturland.ad/en/node/137"
-      },
-      {
         "nombre": "Tobotronc de Naturland (montaña rusa alpina de 5,3 km)",
         "tipo": "alpine_coaster",
         "km": 18,
@@ -241,15 +205,6 @@
         "lng": 1.538,
         "temporada": "todo el año (sujeto a meteorología)",
         "url": "https://visitandorra.com/en/nature/tobotronc-at-naturland/"
-      },
-      {
-        "nombre": "Baqueira Beret (esquí)",
-        "tipo": "esqui",
-        "km": 62,
-        "lat": 42.6985,
-        "lng": 0.933,
-        "temporada": "dic–abr",
-        "url": "https://www.baqueira.es/"
       }
     ],
     "investigado_en": "2026-10-27"
@@ -329,15 +284,6 @@
         "url": "https://www.grandvalira.com/"
       },
       {
-        "nombre": "Tobotronc de Naturland (trineo alpino de 5,3 km)",
-        "tipo": "alpine_coaster",
-        "km": 13,
-        "lat": 42.443,
-        "lng": 1.538,
-        "temporada": "todo el año (sujeto a meteorología)",
-        "url": "https://naturland.ad/en/node/137"
-      },
-      {
         "nombre": "Tobotronc de Naturland (montaña rusa alpina de 5,3 km)",
         "tipo": "alpine_coaster",
         "km": 13,
@@ -414,15 +360,6 @@
       }
     ],
     "adrenalina_cerca": [
-      {
-        "nombre": "Tobotronc de Naturland (trineo alpino de 5,3 km)",
-        "tipo": "alpine_coaster",
-        "km": 7,
-        "lat": 42.443,
-        "lng": 1.538,
-        "temporada": "todo el año (sujeto a meteorología)",
-        "url": "https://naturland.ad/en/node/137"
-      },
       {
         "nombre": "Tobotronc de Naturland (montaña rusa alpina de 5,3 km)",
         "tipo": "alpine_coaster",
@@ -507,15 +444,6 @@
     ],
     "adrenalina_cerca": [
       {
-        "nombre": "Tobotronc de Naturland (trineo alpino de 5,3 km)",
-        "tipo": "alpine_coaster",
-        "km": 0,
-        "lat": 42.443,
-        "lng": 1.538,
-        "temporada": "todo el año (sujeto a meteorología)",
-        "url": "https://naturland.ad/en/node/137"
-      },
-      {
         "nombre": "Tobotronc de Naturland (montaña rusa alpina de 5,3 km)",
         "tipo": "alpine_coaster",
         "km": 0,
@@ -523,15 +451,6 @@
         "lng": 1.538,
         "temporada": "todo el año (sujeto a meteorología)",
         "url": "https://visitandorra.com/en/nature/tobotronc-at-naturland/"
-      },
-      {
-        "nombre": "Tobotronc: récord de la montaña rusa alpina más larga (Guinness World Records)",
-        "tipo": "alpine_coaster",
-        "km": 0,
-        "lat": 42.443,
-        "lng": 1.538,
-        "temporada": "todo el año (sujeto a meteorología)",
-        "url": "https://www.guinnessworldrecords.com/world-records/600830-longest-mountain-coaster"
       },
       {
         "nombre": "Grandvalira (esquí, mayor dominio de los Pirineos)",
@@ -614,15 +533,6 @@
         "lng": 1.488,
         "temporada": "dic–abr",
         "url": "https://www.ordinoarcalis.com/"
-      },
-      {
-        "nombre": "Tobotronc de Naturland (trineo alpino de 5,3 km)",
-        "tipo": "alpine_coaster",
-        "km": 18,
-        "lat": 42.443,
-        "lng": 1.538,
-        "temporada": "todo el año (sujeto a meteorología)",
-        "url": "https://naturland.ad/en/node/137"
       },
       {
         "nombre": "Grandvalira (esquí, mayor dominio de los Pirineos)",
@@ -1178,7 +1088,7 @@
       {
         "nombre": "Aqualand El Arenal",
         "tipo": "parque_acuatico",
-        "km": 24,
+        "km": 10,
         "lat": 39.518,
         "lng": 2.748,
         "temporada": "may–oct",
@@ -1592,15 +1502,6 @@
         "lng": -5.1847,
         "temporada": "abr–oct",
         "url": "https://www.turismoasturias.es/es/organiza-tu-viaje/deporte-y-aventura/aventura/jaire-aquasport"
-      },
-      {
-        "nombre": "Descenso del Sella en canoa (ficha de Spain.info)",
-        "tipo": "otro",
-        "km": 34,
-        "lat": 43.3906,
-        "lng": -5.1847,
-        "temporada": "abr–oct",
-        "url": "https://www.spain.info/es/actividades/descenso-sella-canoa/"
       }
     ],
     "investigado_en": "2026-10-27"
@@ -2415,7 +2316,7 @@
       {
         "nombre": "Barranquismo en la Sierra de Guara (semana de cinco barrancos con guías titulados, base Alquézar)",
         "tipo": "canyoning",
-        "km": 53,
+        "km": 52,
         "lat": 42.1717,
         "lng": 0.0236,
         "temporada": "may–oct",
@@ -2564,7 +2465,7 @@
       {
         "nombre": "Caminito del Rey (pasarela colgada en el desfiladero de los Gaitanes)",
         "tipo": "otro",
-        "km": 56,
+        "km": 54,
         "lat": 36.913,
         "lng": -4.79,
         "temporada": "todo el año (cierra lunes)",
@@ -2573,7 +2474,7 @@
       {
         "nombre": "Circuito de Jerez – Ángel Nieto (tandas y cursos de pilotaje)",
         "tipo": "motor",
-        "km": 57,
+        "km": 59,
         "lat": 36.7083,
         "lng": -6.0341,
         "temporada": "según calendario",
@@ -3005,24 +2906,6 @@
         "lng": 1.1575,
         "temporada": "mar–ene (según calendario)",
         "url": "https://www.portaventuraworld.com/en/parks"
-      },
-      {
-        "nombre": "Ferrari Land (Red Force, 112 m)",
-        "tipo": "parque_diversiones",
-        "km": 8,
-        "lat": 41.0868,
-        "lng": 1.1575,
-        "temporada": "abr–ene (calendario más corto que el del parque)",
-        "url": "https://www.portaventuraworld.com/en/ferrari-land"
-      },
-      {
-        "nombre": "Red Force (ficha en RCDB)",
-        "tipo": "parque_diversiones",
-        "km": 8,
-        "lat": 41.0868,
-        "lng": 1.1575,
-        "temporada": "abr–ene",
-        "url": "https://rcdb.com/12016.htm"
       }
     ],
     "investigado_en": "2026-10-27"
@@ -3376,24 +3259,6 @@
     ],
     "adrenalina_cerca": [
       {
-        "nombre": "Kitesurf en Flag Beach (Flag Beach, Corralejo)",
-        "tipo": "otro",
-        "km": 4,
-        "lat": 28.725,
-        "lng": -13.835,
-        "temporada": "todo el año (mejor mar–nov)",
-        "url": "https://www.yumping.com/deportes-acuaticos/flag-beach--e14196"
-      },
-      {
-        "nombre": "Cursos de kitesurf (Fuerteventura Kite School, Corralejo)",
-        "tipo": "otro",
-        "km": 4,
-        "lat": 28.725,
-        "lng": -13.835,
-        "temporada": "todo el año",
-        "url": "https://www.yumping.com/kitesurf/fuerteventura-kite-school--e19673356"
-      },
-      {
         "nombre": "Kitesurf en Flag Beach (ficha de Hello Canary Islands)",
         "tipo": "otro",
         "km": 4,
@@ -3401,15 +3266,6 @@
         "lng": -13.835,
         "temporada": "todo el año (mejor mar–nov)",
         "url": "https://www.hellocanaryislands.com/kitesurfing/fuerteventura/kitesurf-flag-beach"
-      },
-      {
-        "nombre": "Cursos de kitesurf (escuela Flag Beach, Corralejo)",
-        "tipo": "otro",
-        "km": 4,
-        "lat": 28.725,
-        "lng": -13.835,
-        "temporada": "todo el año",
-        "url": "https://www.yumping.com/deportes-acuaticos/flag-beach--e14196"
       }
     ],
     "investigado_en": "2026-10-27"
@@ -3509,15 +3365,6 @@
         "lng": -15.423,
         "temporada": "todo el año (alisios más fuertes jun–ago)",
         "url": "https://www.grancanaria.com/turismo/en/nautical/surf-bodyboard-windsurf-y-kitesurf/international-windsurfing-centre/"
-      },
-      {
-        "nombre": "Cursos de windsurf y wingfoil (LPWS Pozo Izquierdo)",
-        "tipo": "otro",
-        "km": 25,
-        "lat": 27.818,
-        "lng": -15.423,
-        "temporada": "todo el año",
-        "url": "https://en.yumping.com/water-sports/lpws-pozo-izquierdo--e19635720"
       }
     ],
     "investigado_en": "2026-10-27"
@@ -3988,7 +3835,7 @@
       {
         "nombre": "Kitesurf en Valdevaqueros (Kite Fun Tarifa, cursos)",
         "tipo": "otro",
-        "km": 3,
+        "km": 10,
         "lat": 36.068,
         "lng": -5.694,
         "temporada": "todo el año (mejor abr–oct)",
@@ -4231,18 +4078,9 @@
         "url": "https://www.ordinoarcalis.com/"
       },
       {
-        "nombre": "Tobotronc de Naturland (trineo alpino de 5,3 km)",
-        "tipo": "alpine_coaster",
-        "km": 46,
-        "lat": 42.443,
-        "lng": 1.538,
-        "temporada": "todo el año (sujeto a meteorología)",
-        "url": "https://naturland.ad/en/node/137"
-      },
-      {
         "nombre": "Tobotronc de Naturland (montaña rusa alpina de 5,3 km)",
         "tipo": "alpine_coaster",
-        "km": 46,
+        "km": 47,
         "lat": 42.443,
         "lng": 1.538,
         "temporada": "todo el año (sujeto a meteorología)",
@@ -5616,18 +5454,9 @@
     ],
     "adrenalina_cerca": [
       {
-        "nombre": "Circuito de Jerez – Ángel Nieto (tandas y cursos de pilotaje)",
-        "tipo": "motor",
-        "km": 48,
-        "lat": 36.7083,
-        "lng": -6.0341,
-        "temporada": "según calendario",
-        "url": "https://www.circuitodejerez.com/"
-      },
-      {
         "nombre": "Isla Mágica y Agua Mágica",
         "tipo": "parque_diversiones",
-        "km": 59,
+        "km": 53,
         "lat": 37.4076,
         "lng": -6.0046,
         "temporada": "abr–nov (según calendario)",
@@ -5852,15 +5681,6 @@
         "lng": 1.1575,
         "temporada": "mar–ene (según calendario)",
         "url": "https://www.portaventuraworld.com/en/parks"
-      },
-      {
-        "nombre": "Ferrari Land (Red Force, 112 m)",
-        "tipo": "parque_diversiones",
-        "km": 29,
-        "lat": 41.0868,
-        "lng": 1.1575,
-        "temporada": "abr–ene",
-        "url": "https://www.portaventuraworld.com/en/ferrari-land"
       }
     ],
     "investigado_en": "2026-10-27"
@@ -6450,6 +6270,9 @@
       "adrenalina": 3,
       "logistica": 4
     },
+    "sin_evaluar": [
+      "naturaleza"
+    ],
     "global": 3.2,
     "nivel": "muy_recomendado",
     "mejor_epoca": [
@@ -6985,7 +6808,7 @@
         "km": 0,
         "lat": 38.5577,
         "lng": -0.1613,
-        "temporada": "abr–oct (pendiente de confirmar)",
+        "temporada": "abr–oct (confirmar calendario)",
         "url": "https://www.terramiticapark.com/"
       }
     ],
@@ -7067,27 +6890,9 @@
     ],
     "adrenalina_cerca": [
       {
-        "nombre": "Semana de barranquismo en la Sierra de Guara (cinco barrancos con guías titulados)",
-        "tipo": "canyoning",
-        "km": 0,
-        "lat": 42.1717,
-        "lng": 0.0236,
-        "temporada": "may–oct",
-        "url": "https://www.spain.info/es/actividades/semana-barranquismo-sierra-guara/"
-      },
-      {
-        "nombre": "Vertientes Aventura, Alquézar (barrancos de nivel 1 a 4, vía ferrata, rafting)",
-        "tipo": "canyoning",
-        "km": 0,
-        "lat": 42.1717,
-        "lng": 0.0236,
-        "temporada": "todo el año (barrancos secos en invierno)",
-        "url": "https://www.yumping.com/multiaventura/vertientes-aventura--e1447"
-      },
-      {
         "nombre": "Barranco del Vero (tramo del Salto de la Bola, apto para iniciación con guía)",
         "tipo": "canyoning",
-        "km": 1,
+        "km": 0,
         "lat": 42.1717,
         "lng": 0.0236,
         "temporada": "may–oct",
@@ -7167,6 +6972,12 @@
       "adrenalina": 0,
       "logistica": 5
     },
+    "sin_evaluar": [
+      "guias",
+      "naturaleza",
+      "gastronomia",
+      "adrenalina"
+    ],
     "global": 2.6,
     "nivel": "si_hay_tiempo",
     "mejor_epoca": [
@@ -7216,6 +7027,12 @@
       "adrenalina": 0,
       "logistica": 4
     },
+    "sin_evaluar": [
+      "guias",
+      "naturaleza",
+      "gastronomia",
+      "adrenalina"
+    ],
     "global": 2.4,
     "nivel": "si_hay_tiempo",
     "mejor_epoca": [
@@ -8714,6 +8531,15 @@
     ],
     "adrenalina_cerca": [
       {
+        "nombre": "Comprensorio Courmayeur Mont Blanc (esquí, ficha de Lovevda)",
+        "tipo": "esqui",
+        "km": 0,
+        "lat": 45.7967,
+        "lng": 6.969,
+        "temporada": "dic–abr (2025-26: desde el 29 nov)",
+        "url": "https://www.lovevda.it/it/banca-dati/5/sci-di-discesa/courmayeur/comprensorio-courmayeur-mont-blanc/4360"
+      },
+      {
         "nombre": "Skyway Monte Bianco (Courmayeur–Punta Helbronner, 3.466 m)",
         "tipo": "otro",
         "km": 2,
@@ -8721,15 +8547,6 @@
         "lng": 6.955,
         "temporada": "todo el año (consultar cierres por mantenimiento y meteorología)",
         "url": "https://www.italia.it/it/valle-aosta/cosa-fare/funivia-skyway-montebianco-a-courmayeur"
-      },
-      {
-        "nombre": "Comprensorio Courmayeur Mont Blanc (esquí, ficha de Lovevda)",
-        "tipo": "esqui",
-        "km": 2,
-        "lat": 45.7967,
-        "lng": 6.969,
-        "temporada": "dic–abr (2025-26: desde el 29 nov)",
-        "url": "https://www.lovevda.it/it/banca-dati/5/sci-di-discesa/courmayeur/comprensorio-courmayeur-mont-blanc/4360"
       },
       {
         "nombre": "Breuil-Cervinia – Valtournenche (Cervino Ski Paradise, unido a Zermatt)",
@@ -9062,7 +8879,7 @@
       {
         "nombre": "Finale Outdoor Region (MTB enduro y escalada)",
         "tipo": "otro",
-        "km": 59,
+        "km": 58,
         "lat": 44.1693,
         "lng": 8.3435,
         "temporada": "todo el año",
@@ -9753,15 +9570,6 @@
         "url": "https://www.turismoroma.it/it/luoghi/cinecitt%C3%A0-world-il-parco-del-cinema-e-della-tv-di-roma"
       },
       {
-        "nombre": "MagicLand (ex Rainbow MagicLand)",
-        "tipo": "parque_diversiones",
-        "km": 53,
-        "lat": 41.776,
-        "lng": 12.933,
-        "temporada": "mar–ene (por calendario)",
-        "url": "https://rcdb.com/5627.htm"
-      },
-      {
         "nombre": "MagicLand (Valmontone)",
         "tipo": "parque_diversiones",
         "km": 53,
@@ -10057,15 +9865,6 @@
         "lng": 12.702,
         "temporada": "primavera–otoño (según caudal y apertura de la presa)",
         "url": "https://www.italia.it/it/umbria/cosa-fare/rafting-monti-sibillini-cascata-delle-marmore"
-      },
-      {
-        "nombre": "Rafting Le Marmore (rafting, hydrospeed, canyoning)",
-        "tipo": "rafting",
-        "km": 21,
-        "lat": 42.5525,
-        "lng": 12.702,
-        "temporada": "primavera–otoño",
-        "url": "https://www.yumping.com/it/sport-acquatici/rafting-le-marmore--e19620426"
       }
     ],
     "investigado_en": "2026-10-27"
@@ -10136,15 +9935,6 @@
       }
     ],
     "adrenalina_cerca": [
-      {
-        "nombre": "MagicLand (ex Rainbow MagicLand)",
-        "tipo": "parque_diversiones",
-        "km": 24,
-        "lat": 41.776,
-        "lng": 12.933,
-        "temporada": "mar–ene (por calendario)",
-        "url": "https://rcdb.com/5627.htm"
-      },
       {
         "nombre": "MagicLand (Valmontone)",
         "tipo": "parque_diversiones",
@@ -10249,7 +10039,7 @@
         "km": 22,
         "lat": 45.455,
         "lng": 10.714,
-        "temporada": "mar–nov (+ eventos Halloween/Navidad)",
+        "temporada": "mar–nov (+ eventos de Halloween y Navidad)",
         "url": "https://www.gardaland.it/"
       }
     ],
@@ -10522,15 +10312,6 @@
     ],
     "adrenalina_cerca": [
       {
-        "nombre": "Centro Immersioni Alghero (salidas diarias al AMP de Capo Caccia)",
-        "tipo": "otro",
-        "km": 0,
-        "lat": 40.558,
-        "lng": 8.3193,
-        "temporada": "abr–nov",
-        "url": "https://www.yumping.com/it/sport-acquatici/centro-immersioni-alghero--e16464"
-      },
-      {
         "nombre": "Buceo en la Grotta di Nereo (ficha de Sardegna Turismo)",
         "tipo": "otro",
         "km": 13,
@@ -10606,7 +10387,7 @@
         "km": 21,
         "lat": 45.455,
         "lng": 10.714,
-        "temporada": "mar–nov (+ eventos Halloween/Navidad)",
+        "temporada": "mar–nov (+ eventos de Halloween y Navidad)",
         "url": "https://www.gardaland.it/"
       }
     ],
@@ -10689,7 +10470,7 @@
         "km": 34,
         "lat": 45.455,
         "lng": 10.714,
-        "temporada": "mar–nov (+ eventos Halloween/Navidad)",
+        "temporada": "mar–nov (+ eventos de Halloween y Navidad)",
         "url": "https://www.gardaland.it/"
       }
     ],
@@ -10834,15 +10615,6 @@
     ],
     "adrenalina_cerca": [
       {
-        "nombre": "Excursión a los cráteres sommitali del Etna (desde Etna Sud)",
-        "tipo": "otro",
-        "km": 28,
-        "lat": 37.734,
-        "lng": 15,
-        "temporada": "según condiciones volcánicas y meteorológicas",
-        "url": "https://www.italia.it/it/sicilia/nicolosi/esperienze/monte-etna-escursione-ai-crateri-sommitali-da-etna-sud-tiqets-1012359"
-      },
-      {
         "nombre": "Excursión a los cráteres de la cumbre del Etna (desde Etna Sud)",
         "tipo": "otro",
         "km": 28,
@@ -10977,20 +10749,11 @@
       {
         "nombre": "Windsurf y kitesurf en Porto Pollo (ficha de Sardegna Turismo)",
         "tipo": "otro",
-        "km": 8,
+        "km": 7,
         "lat": 41.188,
         "lng": 9.327,
         "temporada": "abr–oct",
         "url": "https://www.sardegnaturismo.it/de/entdecken/porto-pollo"
-      },
-      {
-        "nombre": "Cursos de windsurf y kitesurf (Windsurf Village, Porto Pollo)",
-        "tipo": "otro",
-        "km": 8,
-        "lat": 41.188,
-        "lng": 9.327,
-        "temporada": "abr–oct",
-        "url": "https://www.yumping.com/en/water-sports/windsurf-village--e19742335"
       }
     ],
     "investigado_en": "2026-10-27"
@@ -11120,18 +10883,9 @@
     ],
     "adrenalina_cerca": [
       {
-        "nombre": "Trekking guiado a la Gola di Gorropu desde Cala Gonone (TUI)",
-        "tipo": "otro",
-        "km": 17,
-        "lat": 40.185,
-        "lng": 9.5,
-        "temporada": "mejor en primavera y otoño",
-        "url": "https://www.tui.co.uk/things-to-do/sardinia/gorropu-canyon-trekking-with-lunch-from-cala-gonone-441077/"
-      },
-      {
         "nombre": "Trekking por la Gola di Gorropu (ficha de Sardegna Turismo)",
         "tipo": "otro",
-        "km": 17,
+        "km": 15,
         "lat": 40.185,
         "lng": 9.5,
         "temporada": "mejor en primavera y otoño (según el caudal del Flumineddu)",
@@ -11292,15 +11046,6 @@
     ],
     "adrenalina_cerca": [
       {
-        "nombre": "Excursión a los cráteres sommitali desde Etna Sud (teleférico + 4x4 + trekking guiado)",
-        "tipo": "otro",
-        "km": 2,
-        "lat": 37.734,
-        "lng": 15,
-        "temporada": "según condiciones volcánicas y meteorológicas",
-        "url": "https://www.italia.it/it/sicilia/nicolosi/esperienze/monte-etna-escursione-ai-crateri-sommitali-da-etna-sud-tiqets-1012359"
-      },
-      {
         "nombre": "Excursión a los cráteres de la cumbre desde Etna Sud (teleférico + 4x4 + trekking guiado)",
         "tipo": "otro",
         "km": 2,
@@ -11380,7 +11125,7 @@
       {
         "nombre": "Esquí en Roccaraso – Alto Sangro (ficha de Turismo Abruzzo)",
         "tipo": "esqui",
-        "km": 25,
+        "km": 24,
         "lat": 41.846,
         "lng": 14.079,
         "temporada": "dic–mar",
@@ -11484,7 +11229,7 @@
       {
         "nombre": "Breuil-Cervinia – Valtournenche (Cervino Ski Paradise)",
         "tipo": "esqui",
-        "km": 42,
+        "km": 44,
         "lat": 45.9336,
         "lng": 7.6297,
         "temporada": "nov–may",
@@ -11733,15 +11478,6 @@
       }
     ],
     "adrenalina_cerca": [
-      {
-        "nombre": "Rafting en el Soča desde Bovec (Eslovenia)",
-        "tipo": "rafting",
-        "km": 29,
-        "lat": 46.3378,
-        "lng": 13.5522,
-        "temporada": "abr–oct (según caudal)",
-        "url": "https://www.manawa.com/en-GB/activity/slovenia/bovec/rafting/rafting-down-the-soca-river-in-bovec-slovenia/5551"
-      },
       {
         "nombre": "Rafting en el Soča (TOP Rafting Centre, Bovec)",
         "tipo": "rafting",
@@ -12259,7 +11995,7 @@
         "km": 29,
         "lat": 43.9862,
         "lng": 12.6537,
-        "temporada": "jun–sep (1 jun–15 sep según Italia.it)",
+        "temporada": "jun–sep",
         "url": "https://www.italia.it/it/emilia-romagna/aquafan-riccione"
       }
     ],
@@ -12608,7 +12344,7 @@
         "km": 60,
         "lat": 45.455,
         "lng": 10.714,
-        "temporada": "mar–nov (+ eventos Halloween/Navidad)",
+        "temporada": "mar–nov (+ eventos de Halloween y Navidad)",
         "url": "https://www.gardaland.it/"
       }
     ],
@@ -13090,15 +12826,6 @@
     ],
     "adrenalina_cerca": [
       {
-        "nombre": "Bungee 007 en la presa de Verzasca (220 m, Trekking Team)",
-        "tipo": "bungee",
-        "km": 56,
-        "lat": 46.2005,
-        "lng": 8.8467,
-        "temporada": "Semana Santa–fin de oct",
-        "url": "https://www.trekking.ch/007-vip-event/?lang=en"
-      },
-      {
         "nombre": "Bungee 007 en la presa de Verzasca (220 m)",
         "tipo": "bungee",
         "km": 56,
@@ -13163,15 +12890,6 @@
       }
     ],
     "adrenalina_cerca": [
-      {
-        "nombre": "Bungee 007 en la presa de Verzasca (220 m, Trekking Team)",
-        "tipo": "bungee",
-        "km": 43,
-        "lat": 46.2005,
-        "lng": 8.8467,
-        "temporada": "Semana Santa–fin de oct",
-        "url": "https://www.trekking.ch/007-vip-event/?lang=en"
-      },
       {
         "nombre": "Bungee 007 en la presa de Verzasca (220 m)",
         "tipo": "bungee",
@@ -13323,7 +13041,7 @@
       {
         "nombre": "Rafting en las gargantas del Lao (Pollino Rafting, Laino Borgo)",
         "tipo": "rafting",
-        "km": 10,
+        "km": 6,
         "lat": 39.955,
         "lng": 15.974,
         "temporada": "abr–oct (según caudal)",
@@ -13722,7 +13440,7 @@
         "km": 57,
         "lat": 45.455,
         "lng": 10.714,
-        "temporada": "mar–nov (+ eventos Halloween/Navidad)",
+        "temporada": "mar–nov (+ eventos de Halloween y Navidad)",
         "url": "https://www.gardaland.it/"
       }
     ],
@@ -14538,24 +14256,6 @@
       }
     ],
     "adrenalina_cerca": [
-      {
-        "nombre": "Buceo en el Blue Hole y restos del Azure Window",
-        "tipo": "otro",
-        "km": 0,
-        "lat": 36.0535,
-        "lng": 14.1885,
-        "temporada": "todo el año",
-        "url": "https://www.padi.com/dive-site/malta/blue-hole-and-remains-of-azure-window/"
-      },
-      {
-        "nombre": "Túnel del Inland Sea (Dwejra)",
-        "tipo": "otro",
-        "km": 0,
-        "lat": 36.05,
-        "lng": 14.194,
-        "temporada": "todo el año",
-        "url": "https://visitgozo.com/2024/04/24/top-10-diving-sites-in-gozo-and-comino/"
-      },
       {
         "nombre": "Buceo en el Blue Hole y restos de la Azure Window",
         "tipo": "otro",
@@ -15607,15 +15307,6 @@
     ],
     "adrenalina_cerca": [
       {
-        "nombre": "Clases de surf en Ericeira (Rapture Surfcamps, entrenadores ISA)",
-        "tipo": "otro",
-        "km": 36,
-        "lat": 38.9631,
-        "lng": -9.4176,
-        "temporada": "todo el año",
-        "url": "https://www.rapturecamps.com/surfcamp/portugal/surf-lessons"
-      },
-      {
         "nombre": "Clases de surf en Ericeira (Rapture Surfcamps, Foz do Lizandro)",
         "tipo": "otro",
         "km": 36,
@@ -15716,9 +15407,9 @@
       {
         "nombre": "Puente 516 Arouca y Passadiços do Paiva",
         "tipo": "otro",
-        "km": 43,
-        "lat": 40.94,
-        "lng": -8.2,
+        "km": 44,
+        "lat": 40.9644,
+        "lng": -8.1753,
         "temporada": "todo el año (sujeto a meteorología)",
         "url": "https://516arouca.pt/"
       }
@@ -15877,18 +15568,9 @@
     ],
     "adrenalina_cerca": [
       {
-        "nombre": "Clases de surf en Ericeira (Rapture Surfcamps, entrenadores ISA)",
-        "tipo": "otro",
-        "km": 18,
-        "lat": 38.9631,
-        "lng": -9.4176,
-        "temporada": "todo el año",
-        "url": "https://www.rapturecamps.com/surfcamp/portugal/surf-lessons"
-      },
-      {
         "nombre": "Clases de surf en Ericeira (Rapture Surfcamps, Foz do Lizandro)",
         "tipo": "otro",
-        "km": 18,
+        "km": 19,
         "lat": 38.9631,
         "lng": -9.4176,
         "temporada": "todo el año (clases de lunes a sábado)",
@@ -15983,18 +15665,9 @@
     ],
     "adrenalina_cerca": [
       {
-        "nombre": "Barranquismo con EPIC Madeira (recogida en Funchal)",
-        "tipo": "canyoning",
-        "km": 0,
-        "lat": 32.6497,
-        "lng": -16.9086,
-        "temporada": "todo el año (según caudal)",
-        "url": "https://www.checkyeti.com/en/d/1587/11952"
-      },
-      {
         "nombre": "Barranquismo en la Ribeira do Lajeado (ficha de Visit Madeira)",
         "tipo": "canyoning",
-        "km": 24,
+        "km": 22,
         "lat": 32.756,
         "lng": -17.13,
         "temporada": "todo el año (según caudal)",
@@ -16140,15 +15813,6 @@
         "lng": -8.16,
         "temporada": "may–sep",
         "url": "https://go2nature.pt/en/programas-e-atividades/canyoning/"
-      },
-      {
-        "nombre": "Barranquismo en Peneda-Gerês (Tobogã Portugal Adventure, Entre Ambos-os-Rios)",
-        "tipo": "canyoning",
-        "km": 15,
-        "lat": 41.82,
-        "lng": -8.33,
-        "temporada": "may–sep",
-        "url": "https://www.yumping.com/it/multiavventura/toboga-portugal-adventure-tours--e19762493"
       },
       {
         "nombre": "Barranquismo en los ríos Varziela y Laboreiro (Peneda Gerês Canyoning Center)",
@@ -16673,7 +16337,7 @@
       {
         "nombre": "Barranquismo en la Ribeira do Lajeado (ficha de Visit Madeira)",
         "tipo": "canyoning",
-        "km": 1,
+        "km": 0,
         "lat": 32.756,
         "lng": -17.13,
         "temporada": "todo el año (según caudal)",
@@ -16960,15 +16624,6 @@
     ],
     "adrenalina_cerca": [
       {
-        "nombre": "Clases de surf en Ericeira (Rapture Surfcamps, entrenadores ISA)",
-        "tipo": "otro",
-        "km": 8,
-        "lat": 38.9631,
-        "lng": -9.4176,
-        "temporada": "todo el año",
-        "url": "https://www.rapturecamps.com/surfcamp/portugal/surf-lessons"
-      },
-      {
         "nombre": "Clases de surf en Ericeira (Rapture Surfcamps, Foz do Lizandro)",
         "tipo": "otro",
         "km": 8,
@@ -17051,9 +16706,9 @@
       {
         "nombre": "Puente 516 Arouca y Passadiços do Paiva",
         "tipo": "otro",
-        "km": 51,
-        "lat": 40.94,
-        "lng": -8.2,
+        "km": 54,
+        "lat": 40.9644,
+        "lng": -8.1753,
         "temporada": "todo el año (sujeto a meteorología)",
         "url": "https://516arouca.pt/"
       }
@@ -17393,7 +17048,7 @@
       {
         "nombre": "Clases de surf y bodyboard (Nazaré Surf School)",
         "tipo": "otro",
-        "km": 1,
+        "km": 0,
         "lat": 39.601,
         "lng": -9.071,
         "temporada": "todo el año (clases sobre todo may–oct)",
@@ -17937,20 +17592,11 @@
       {
         "nombre": "Barranquismo en Flores (ficha de Visit Azores)",
         "tipo": "canyoning",
-        "km": 10,
+        "km": 0,
         "lat": 39.4536,
         "lng": -31.127,
         "temporada": "may–oct",
         "url": "https://www.visitazores.com/en/experience-the-azores/canyoning"
-      },
-      {
-        "nombre": "Bautismo de barranquismo (Ocidental Adventures, Santa Cruz das Flores)",
-        "tipo": "canyoning",
-        "km": 10,
-        "lat": 39.4536,
-        "lng": -31.127,
-        "temporada": "may–oct",
-        "url": "https://www.yumping.com/en/canyoning/ocidental-adventures--e19864200"
       }
     ],
     "investigado_en": "2026-10-27"
@@ -18457,6 +18103,12 @@
       "adrenalina": 0,
       "logistica": 5
     },
+    "sin_evaluar": [
+      "guias",
+      "cultura",
+      "gastronomia",
+      "adrenalina"
+    ],
     "global": 2.6,
     "nivel": "si_hay_tiempo",
     "mejor_epoca": [
@@ -18586,6 +18238,12 @@
       "adrenalina": 0,
       "logistica": 3
     },
+    "sin_evaluar": [
+      "guias",
+      "cultura",
+      "gastronomia",
+      "adrenalina"
+    ],
     "global": 2.3,
     "nivel": "si_hay_tiempo",
     "mejor_epoca": [
@@ -18752,7 +18410,7 @@
         "km": 17,
         "lat": 43.9862,
         "lng": 12.6537,
-        "temporada": "jun–sep (1 jun–15 sep según Italia.it)",
+        "temporada": "jun–sep",
         "url": "https://www.italia.it/it/emilia-romagna/aquafan-riccione"
       },
       {
@@ -18835,7 +18493,7 @@
       {
         "nombre": "Mirabilandia (con Mirabeach)",
         "tipo": "parque_diversiones",
-        "km": 48,
+        "km": 47,
         "lat": 44.339,
         "lng": 12.263,
         "temporada": "abr–nov",
@@ -18972,7 +18630,7 @@
         "km": 17,
         "lat": 43.9862,
         "lng": 12.6537,
-        "temporada": "jun–sep (1 jun–15 sep según Italia.it)",
+        "temporada": "jun–sep",
         "url": "https://www.italia.it/it/emilia-romagna/aquafan-riccione"
       },
       {
@@ -19061,15 +18719,6 @@
         "url": "https://www.turismoroma.it/it/luoghi/cinecitt%C3%A0-world-il-parco-del-cinema-e-della-tv-di-roma"
       },
       {
-        "nombre": "MagicLand (ex Rainbow MagicLand)",
-        "tipo": "parque_diversiones",
-        "km": 42,
-        "lat": 41.776,
-        "lng": 12.933,
-        "temporada": "mar–ene (por calendario)",
-        "url": "https://rcdb.com/5627.htm"
-      },
-      {
         "nombre": "MagicLand (Valmontone)",
         "tipo": "parque_diversiones",
         "km": 42,
@@ -19153,15 +18802,6 @@
         "lng": 12.445,
         "temporada": "mar–ene (por calendario)",
         "url": "https://www.turismoroma.it/it/luoghi/cinecitt%C3%A0-world-il-parco-del-cinema-e-della-tv-di-roma"
-      },
-      {
-        "nombre": "MagicLand (ex Rainbow MagicLand)",
-        "tipo": "parque_diversiones",
-        "km": 42,
-        "lat": 41.776,
-        "lng": 12.933,
-        "temporada": "mar–ene (por calendario)",
-        "url": "https://rcdb.com/5627.htm"
       },
       {
         "nombre": "MagicLand (Valmontone)",
@@ -19250,15 +18890,6 @@
         "url": "https://www.turismoroma.it/it/luoghi/cinecitt%C3%A0-world-il-parco-del-cinema-e-della-tv-di-roma"
       },
       {
-        "nombre": "MagicLand (ex Rainbow MagicLand)",
-        "tipo": "parque_diversiones",
-        "km": 42,
-        "lat": 41.776,
-        "lng": 12.933,
-        "temporada": "mar–ene (por calendario)",
-        "url": "https://rcdb.com/5627.htm"
-      },
-      {
         "nombre": "MagicLand (Valmontone)",
         "tipo": "parque_diversiones",
         "km": 42,
@@ -19329,20 +18960,11 @@
       {
         "nombre": "Cinecittà World",
         "tipo": "parque_diversiones",
-        "km": 20,
+        "km": 21,
         "lat": 41.718,
         "lng": 12.445,
         "temporada": "mar–ene (por calendario)",
         "url": "https://www.turismoroma.it/it/luoghi/cinecitt%C3%A0-world-il-parco-del-cinema-e-della-tv-di-roma"
-      },
-      {
-        "nombre": "MagicLand (ex Rainbow MagicLand)",
-        "tipo": "parque_diversiones",
-        "km": 42,
-        "lat": 41.776,
-        "lng": 12.933,
-        "temporada": "mar–ene (por calendario)",
-        "url": "https://rcdb.com/5627.htm"
       },
       {
         "nombre": "MagicLand (Valmontone)",
@@ -19416,15 +19038,6 @@
         "lng": 12.445,
         "temporada": "mar–ene (por calendario)",
         "url": "https://www.turismoroma.it/it/luoghi/cinecitt%C3%A0-world-il-parco-del-cinema-e-della-tv-di-roma"
-      },
-      {
-        "nombre": "MagicLand (ex Rainbow MagicLand)",
-        "tipo": "parque_diversiones",
-        "km": 42,
-        "lat": 41.776,
-        "lng": 12.933,
-        "temporada": "mar–ene (por calendario)",
-        "url": "https://rcdb.com/5627.htm"
       },
       {
         "nombre": "MagicLand (Valmontone)",
@@ -19502,15 +19115,6 @@
         "lng": 12.445,
         "temporada": "mar–ene (por calendario)",
         "url": "https://www.turismoroma.it/it/luoghi/cinecitt%C3%A0-world-il-parco-del-cinema-e-della-tv-di-roma"
-      },
-      {
-        "nombre": "MagicLand (ex Rainbow MagicLand)",
-        "tipo": "parque_diversiones",
-        "km": 42,
-        "lat": 41.776,
-        "lng": 12.933,
-        "temporada": "mar–ene (por calendario)",
-        "url": "https://rcdb.com/5627.htm"
       },
       {
         "nombre": "MagicLand (Valmontone)",

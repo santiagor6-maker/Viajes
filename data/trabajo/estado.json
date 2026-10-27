@@ -1,7 +1,7 @@
 {
   "pausado": false,
-  "subregion": "iberica-italia",
-  "paso": "revisor",
+  "subregion": "francia-alpes",
+  "paso": "guias",
   "ronda": 1,
   "orden_subregiones": [
     "iberica-italia",
@@ -11,8 +11,10 @@
     "balcanes-grecia",
     "este-caucaso-turquia"
   ],
-  "terminadas": [],
-  "notas": "Revisor ronda 2 (la última, decisión del usuario 2026-10-27) sobre iberica-italia. Al terminar: unir notas, copiar nota_revisor a data/paises; países <9.5 quedan revision_pendiente; publicar y pasar a francia-alpes. Cruce se hace en la misma tanda que logística.",
+  "terminadas": [
+    "iberica-italia"
+  ],
+  "notas": "francia-alpes: grupo a = FR, MC, BE, NL, LU; grupo b = CH, AT, LI. Aplicar las lecciones de ORQUESTADOR.md desde la primera ronda. Máximo 2 rondas del revisor.",
   "historial": [
     {
       "fecha": "2026-10-26",
@@ -79,8 +81,14 @@
       "subregion": "iberica-italia",
       "paso": "curador",
       "resultado": "Ronda 3: 253 lugares (ES 85, PT 45, IT 91, MT 16, AD 6, SM 4, VA 6); 36 cambios de nivel; validador sin errores; republicado"
+    },
+    {
+      "fecha": "2026-10-27",
+      "subregion": "iberica-italia",
+      "paso": "publicar",
+      "resultado": "Cerrada: 253 lugares. Notas finales: ES 8.1, PT 8.2, AD 7.9, IT 8.6, MT 9.2, SM 9.5, VA 9.4 (todos menos SM con revisión pendiente). Aprobados en ronda 2: cultura-historia y logística (grupo b)."
     }
   ],
-  "ronda_revisor": 2,
+  "ronda_revisor": 0,
   "max_rondas_revisor": 2
 }
