@@ -1,0 +1,1006 @@
+[
+ {
+  "id": "fr-albi",
+  "nombre": "Albi (ciudad episcopal)",
+  "pais_iso": "FR",
+  "region": "Occitania (Tarn)",
+  "lat": 43.9286,
+  "lng": 2.143,
+  "creado_por": "cultura-historia",
+  "grupo": "a",
+  "fuentes": [
+   {
+    "guia": "UNESCO",
+    "url": "https://whc.unesco.org/en/list/1337/"
+   }
+  ]
+ },
+ {
+  "id": "fr-amiens",
+  "nombre": "Amiens (catedral)",
+  "pais_iso": "FR",
+  "region": "Altos de Francia (Somme)",
+  "lat": 49.8947,
+  "lng": 2.3022,
+  "creado_por": "cultura-historia",
+  "grupo": "a",
+  "fuentes": [
+   {
+    "guia": "UNESCO",
+    "url": "https://whc.unesco.org/en/list/162/"
+   }
+  ]
+ },
+ {
+  "id": "fr-bourges",
+  "nombre": "Bourges (catedral de San Esteban)",
+  "pais_iso": "FR",
+  "region": "Centro-Valle de Loira (Cher)",
+  "lat": 47.0822,
+  "lng": 2.3994,
+  "creado_por": "cultura-historia",
+  "grupo": "a",
+  "fuentes": [
+   {
+    "guia": "UNESCO",
+    "url": "https://whc.unesco.org/en/list/635/"
+   }
+  ]
+ },
+ {
+  "id": "fr-fontainebleau",
+  "nombre": "Palacio de Fontainebleau",
+  "pais_iso": "FR",
+  "region": "Île-de-France (Sena y Marne)",
+  "lat": 48.4021,
+  "lng": 2.7002,
+  "creado_por": "cultura-historia",
+  "grupo": "a",
+  "fuentes": [
+   {
+    "guia": "UNESCO",
+    "url": "https://whc.unesco.org/en/list/160/"
+   }
+  ]
+ },
+ {
+  "id": "fr-vezelay",
+  "nombre": "Vézelay (basílica y colina)",
+  "pais_iso": "FR",
+  "region": "Borgoña-Franco Condado (Yonne)",
+  "lat": 47.4664,
+  "lng": 3.7483,
+  "creado_por": "cultura-historia",
+  "grupo": "a",
+  "fuentes": [
+   {
+    "guia": "UNESCO",
+    "url": "https://whc.unesco.org/en/list/84/"
+   }
+  ]
+ },
+ {
+  "id": "fr-grotte-chauvet",
+  "nombre": "Cueva Chauvet-Pont d'Arc (réplica Chauvet 2)",
+  "pais_iso": "FR",
+  "region": "Auvernia-Ródano-Alpes (Ardèche)",
+  "lat": 44.392,
+  "lng": 4.414,
+  "creado_por": "cultura-historia",
+  "grupo": "a",
+  "fuentes": [
+   {
+    "guia": "UNESCO",
+    "url": "https://whc.unesco.org/en/list/1426/"
+   }
+  ]
+ },
+ {
+  "id": "fr-le-puy-en-velay",
+  "nombre": "Le Puy-en-Velay",
+  "pais_iso": "FR",
+  "region": "Auvernia-Ródano-Alpes (Alto Loira)",
+  "lat": 45.0458,
+  "lng": 3.8828,
+  "creado_por": "cultura-historia",
+  "grupo": "a",
+  "fuentes": [
+   {
+    "guia": "UNESCO (catedral de Le Puy, Caminos de Santiago)",
+    "url": "https://whc.unesco.org/en/documents/112803"
+   },
+   {
+    "guia": "UNESCO (Caminos de Santiago en Francia)",
+    "url": "https://whc.unesco.org/en/list/868/"
+   }
+  ]
+ },
+ {
+  "id": "be-tournai",
+  "nombre": "Tournai",
+  "pais_iso": "BE",
+  "region": "Henao (Valonia)",
+  "lat": 50.6064,
+  "lng": 3.3893,
+  "creado_por": "cultura-historia",
+  "grupo": "a",
+  "fuentes": [
+   {
+    "guia": "UNESCO",
+    "url": "https://whc.unesco.org/en/list/1009/"
+   },
+   {
+    "guia": "UNESCO (Campanarios de Bélgica y Francia)",
+    "url": "https://whc.unesco.org/en/list/943/"
+   }
+  ]
+ },
+ {
+  "id": "be-mons",
+  "nombre": "Mons",
+  "pais_iso": "BE",
+  "region": "Henao (Valonia)",
+  "lat": 50.4542,
+  "lng": 3.9523,
+  "creado_por": "cultura-historia",
+  "grupo": "a",
+  "fuentes": [
+   {
+    "guia": "UNESCO (Campanarios de Bélgica y Francia)",
+    "url": "https://whc.unesco.org/en/list/943/"
+   },
+   {
+    "guia": "UNESCO Patrimonio Inmaterial (gigantes y dragones procesionales)",
+    "url": "https://ich.unesco.org/en/RL/processional-giants-and-dragons-in-belgium-and-france-00153?RL=00153"
+   }
+  ]
+ },
+ {
+  "id": "nl-naarden",
+  "nombre": "Naarden-Vesting",
+  "pais_iso": "NL",
+  "region": "Holanda Septentrional",
+  "lat": 52.2953,
+  "lng": 5.1622,
+  "creado_por": "cultura-historia",
+  "grupo": "a",
+  "fuentes": [
+   {
+    "guia": "UNESCO (Líneas de Defensa por Agua)",
+    "url": "https://whc.unesco.org/en/list/759/maps/"
+   }
+  ]
+ },
+ {
+  "id": "nl-schokland",
+  "nombre": "Schokland",
+  "pais_iso": "NL",
+  "region": "Flevoland",
+  "lat": 52.6383,
+  "lng": 5.7717,
+  "creado_por": "cultura-historia",
+  "grupo": "a",
+  "fuentes": [
+   {
+    "guia": "UNESCO",
+    "url": "https://whc.unesco.org/en/list/739/"
+   }
+  ]
+ },
+ {
+  "id": "nl-beemster",
+  "nombre": "Pólder de Beemster",
+  "pais_iso": "NL",
+  "region": "Holanda Septentrional",
+  "lat": 52.5486,
+  "lng": 4.9128,
+  "creado_por": "cultura-historia",
+  "grupo": "a",
+  "fuentes": [
+   {
+    "guia": "UNESCO",
+    "url": "https://whc.unesco.org/en/list/899/"
+   }
+  ]
+ },
+ {
+  "id": "ch-st-gallen",
+  "nombre": "San Galo (Abadía de San Galo)",
+  "pais_iso": "CH",
+  "region": "San Galo",
+  "lat": 47.4233,
+  "lng": 9.377,
+  "creado_por": "cultura-historia",
+  "grupo": "b",
+  "fuentes": [
+   {
+    "guia": "UNESCO",
+    "url": "https://whc.unesco.org/en/list/268/"
+   }
+  ]
+ },
+ {
+  "id": "ch-mustair",
+  "nombre": "Convento de San Juan de Müstair",
+  "pais_iso": "CH",
+  "region": "Grisones (Val Müstair)",
+  "lat": 46.6294,
+  "lng": 10.4475,
+  "creado_por": "cultura-historia",
+  "grupo": "b",
+  "fuentes": [
+   {
+    "guia": "UNESCO",
+    "url": "https://whc.unesco.org/en/list/269/"
+   }
+  ]
+ },
+ {
+  "id": "ch-la-chaux-de-fonds",
+  "nombre": "La Chaux-de-Fonds y Le Locle (urbanismo relojero)",
+  "pais_iso": "CH",
+  "region": "Neuchâtel (Jura)",
+  "lat": 47.1,
+  "lng": 6.826,
+  "creado_por": "cultura-historia",
+  "grupo": "b",
+  "fuentes": [
+   {
+    "guia": "UNESCO",
+    "url": "https://whc.unesco.org/en/list/1302/"
+   }
+  ]
+ },
+ {
+  "id": "ch-augusta-raurica",
+  "nombre": "Augusta Raurica (ciudad romana de Augst)",
+  "pais_iso": "CH",
+  "region": "Basilea-Campiña",
+  "lat": 47.5333,
+  "lng": 7.7219,
+  "creado_por": "cultura-historia",
+  "grupo": "b",
+  "fuentes": [
+   {
+    "guia": "MySwitzerland",
+    "url": "https://www.myswitzerland.com/en/experiences/augusta-raurica-the-roman-city/"
+   }
+  ]
+ },
+ {
+  "id": "at-admont",
+  "nombre": "Abadía de Admont",
+  "pais_iso": "AT",
+  "region": "Estiria",
+  "lat": 47.5753,
+  "lng": 14.4608,
+  "creado_por": "cultura-historia",
+  "grupo": "b",
+  "fuentes": [
+   {
+    "guia": "Stift Admont (oficial)",
+    "url": "https://stiftadmont.at/en/about-the-abbey-library/"
+   }
+  ]
+ },
+ {
+  "id": "at-carnuntum",
+  "nombre": "Carnuntum (parque arqueológico romano)",
+  "pais_iso": "AT",
+  "region": "Baja Austria",
+  "lat": 48.111,
+  "lng": 16.864,
+  "creado_por": "cultura-historia",
+  "grupo": "b",
+  "fuentes": [
+   {
+    "guia": "UNESCO",
+    "url": "https://whc.unesco.org/en/list/1608/"
+   }
+  ]
+ },
+ {
+  "id": "at-semmering",
+  "nombre": "Ferrocarril del Semmering",
+  "pais_iso": "AT",
+  "region": "Baja Austria / Estiria",
+  "lat": 47.634,
+  "lng": 15.83,
+  "creado_por": "cultura-historia",
+  "grupo": "b",
+  "fuentes": [
+   {
+    "guia": "UNESCO",
+    "url": "https://whc.unesco.org/en/list/785/maps/"
+   },
+   {
+    "guia": "UNESCO (decisión de inscripción)",
+    "url": "https://whc.unesco.org/en/decisions/2746/"
+   }
+  ]
+ },
+ {
+  "id": "fr-parque-nacional-vanoise",
+  "nombre": "Parque Nacional de la Vanoise (Pralognan-la-Vanoise)",
+  "pais_iso": "FR",
+  "region": "Auvernia-Ródano-Alpes (Saboya)",
+  "lat": 45.3818,
+  "lng": 6.7208,
+  "creado_por": "naturaleza",
+  "grupo": "a",
+  "fuentes": [
+   {
+    "guia": "Parc national de la Vanoise (oficial)",
+    "url": "https://vanoise-parcnational.fr/sites/vanoise-parcnational.fr/files/2026-06/Guide%20Experiences%20Vanoise%202026.pdf"
+   },
+   {
+    "guia": "Parc national de la Vanoise (oficial)",
+    "url": "https://vanoise-parcnational.fr/sites/vanoise-parcnational.fr/files/2024-06/Tour%20des%20Glaciers%20de%20la%20Vanoise.pdf"
+   },
+   {
+    "guia": "Parc national de la Vanoise (oficial)",
+    "url": "https://vanoise-parcnational.fr/sites/vanoise-parcnational.fr/files/documents/downloads/pralognan-la-vanoise.pdf"
+   }
+  ]
+ },
+ {
+  "id": "fr-parque-nacional-ecrins",
+  "nombre": "Parque Nacional de los Écrins (Vallouise-Ailefroide)",
+  "pais_iso": "FR",
+  "region": "Provenza-Alpes-Costa Azul (Altos Alpes)",
+  "lat": 44.8847,
+  "lng": 6.4436,
+  "creado_por": "naturaleza",
+  "grupo": "a",
+  "fuentes": [
+   {
+    "guia": "Parc national des Écrins (oficial)",
+    "url": "https://www.ecrins-parcnational.fr/sites/ecrins-parcnational.com/files/fiche_doc/10546/freq2001vall.pdf"
+   },
+   {
+    "guia": "Sentiers en France (ficha Rando Parc national des Écrins)",
+    "url": "https://www.sentiers-en-france.eu/sentiers-hautes-alpes-05/vallouise/sentier-le-refuge-des-bans"
+   }
+  ]
+ },
+ {
+  "id": "fr-parque-nacional-mercantour",
+  "nombre": "Parque Nacional del Mercantour y valle de las Maravillas",
+  "pais_iso": "FR",
+  "region": "Provenza-Alpes-Costa Azul (Alpes Marítimos)",
+  "lat": 44.0872,
+  "lng": 7.5939,
+  "creado_por": "naturaleza",
+  "grupo": "a",
+  "fuentes": [
+   {
+    "guia": "Parc national du Mercantour (oficial)",
+    "url": "https://www.mercantour-parcnational.fr/sites/mercantour-parcnational.fr/files/2025-07/2025-07-03%20Brochure%20Merveilles%20VD%20light.pdf"
+   },
+   {
+    "guia": "Parc national du Mercantour (oficial)",
+    "url": "https://www.mercantour-parcnational.fr/sites/mercantour-parcnational.fr/files/2026-06/Depliant-cartographie%20Merveilles%202026.pdf"
+   },
+   {
+    "guia": "Côte d'Azur France (turismo oficial)",
+    "url": "https://cotedazurfrance.fr/decouvrir/les-plus-beaux-sites-naturels/le-parc-national-du-mercantour"
+   }
+  ]
+ },
+ {
+  "id": "fr-parque-nacional-cevenas",
+  "nombre": "Parque Nacional de las Cevenas y monte Lozère (Florac)",
+  "pais_iso": "FR",
+  "region": "Occitania (Lozère)",
+  "lat": 44.3244,
+  "lng": 3.5933,
+  "creado_por": "naturaleza",
+  "grupo": "a",
+  "fuentes": [
+   {
+    "guia": "Visit Occitanie (oficial)",
+    "url": "https://www.visit-occitanie.com/en/fiche/patrimoine-naturel/le-parc-national-des-cevennes-florac_TFOPNALAR048V507TCT"
+   },
+   {
+    "guia": "Parc national des Cévennes (oficial)",
+    "url": "https://www2.cevennes-parcnational.fr/sites/cevennes-parcnational.fr/files/plaquette_pnc_21x21_fr_bd.pdf"
+   },
+   {
+    "guia": "Tourisme Occitanie (oficial)",
+    "url": "https://www.tourisme-occitanie.com/destinations/sites-unesco/causses-et-cevennes/"
+   }
+  ]
+ },
+ {
+  "id": "fr-circo-de-gavarnie",
+  "nombre": "Circo de Gavarnie (Pirineos-Monte Perdido)",
+  "pais_iso": "FR",
+  "region": "Occitania (Altos Pirineos)",
+  "lat": 42.7331,
+  "lng": -0.0097,
+  "creado_por": "naturaleza",
+  "grupo": "a",
+  "fuentes": [
+   {
+    "guia": "Visit Occitanie (oficial)",
+    "url": "https://www.visit-occitanie.com/en/discovering/unesco-classified-sites/cirque-de-gavarnie"
+   },
+   {
+    "guia": "Parc national des Pyrénées (oficial)",
+    "url": "https://www.pyrenees-parcnational.fr/sites/pyrenees-parcnational.fr/files/available_docs/pyrenees-mont-perdu-unesco-fr.pdf"
+   }
+  ]
+ },
+ {
+  "id": "fr-port-cros-porquerolles",
+  "nombre": "Parque Nacional de Port-Cros y Porquerolles (islas de Hyères)",
+  "pais_iso": "FR",
+  "region": "Provenza-Alpes-Costa Azul (Var)",
+  "lat": 43.0069,
+  "lng": 6.3897,
+  "creado_por": "naturaleza",
+  "grupo": "a",
+  "fuentes": [
+   {
+    "guia": "Parc national de Port-Cros (oficial)",
+    "url": "https://www.portcros-parcnational.fr/sites/portcros-parcnational.fr/files/available_docs/sentier_sousmarin_palud_fr.pdf"
+   },
+   {
+    "guia": "Parc national de Port-Cros (oficial)",
+    "url": "https://portcros-parcnational.fr/sites/portcros-parcnational.fr/files/2024-07/EXE_sentiers%20soumarin%202024%20basse%20def%20calameo.pdf"
+   }
+  ]
+ },
+ {
+  "id": "fr-chaine-des-puys",
+  "nombre": "Cadena de los Puys y Puy de Dôme",
+  "pais_iso": "FR",
+  "region": "Auvernia-Ródano-Alpes (Puy-de-Dôme)",
+  "lat": 45.7725,
+  "lng": 2.9644,
+  "creado_por": "naturaleza",
+  "grupo": "a",
+  "fuentes": [
+   {
+    "guia": "UNESCO",
+    "url": "https://whc.unesco.org/fr/list/1434/"
+   }
+  ]
+ },
+ {
+  "id": "fr-pointe-du-raz",
+  "nombre": "Pointe du Raz y cabo Sizun",
+  "pais_iso": "FR",
+  "region": "Bretaña (Finisterre)",
+  "lat": 48.0395,
+  "lng": -4.7389,
+  "creado_por": "naturaleza",
+  "grupo": "a",
+  "fuentes": [
+   {
+    "guia": "Ministère de la Transition écologique (lista Grands Sites, 2026)",
+    "url": "https://www.ecologie.gouv.fr/sites/default/files/documents/1er%20janvier%202026-Liste%20OGS-GSF%20Tableau.pdf"
+   },
+   {
+    "guia": "Randozone",
+    "url": "https://www.randozone.com/article/les-grands-sites-de-france/"
+   }
+  ]
+ },
+ {
+  "id": "be-bosque-de-soignes",
+  "nombre": "Bosque de Soignes (Sonian Forest)",
+  "pais_iso": "BE",
+  "region": "Bruselas / Brabante Flamenco",
+  "lat": 50.7661,
+  "lng": 4.4497,
+  "creado_por": "naturaleza",
+  "grupo": "a",
+  "fuentes": [
+   {
+    "guia": "Sonian Forest (gestión del bosque)",
+    "url": "https://www.sonianforest.be/extension-of-unesco-world-heritage-series-ancient-and-primeval-beech-forests-of-the-carpathians-and-other-regions-of-europe/"
+   },
+   {
+    "guia": "UNRIC (Naciones Unidas)",
+    "url": "https://unric.org/en/belgian-unesco-recognised-primeval-sonian-forest-defies-climate-change/"
+   }
+  ]
+ },
+ {
+  "id": "nl-parque-nacional-biesbosch",
+  "nombre": "Parque Nacional De Biesbosch",
+  "pais_iso": "NL",
+  "region": "Brabante Septentrional / Holanda Meridional",
+  "lat": 51.7069,
+  "lng": 4.8044,
+  "creado_por": "naturaleza",
+  "grupo": "a",
+  "fuentes": [
+   {
+    "guia": "Provincia de Holanda Meridional (oficial)",
+    "url": "https://www.zuid-holland.nl/onderwerpen/natuur-landschap/projecten-rijke/groen-index/groenprojecten/nationale-parken"
+   },
+   {
+    "guia": "PDOK (datos oficiales de parques nacionales)",
+    "url": "https://www.pdok.nl/introductie/-/article/nationale-parken"
+   }
+  ]
+ },
+ {
+  "id": "ch-oeschinensee",
+  "nombre": "Lago Oeschinen (Oeschinensee, Kandersteg)",
+  "pais_iso": "CH",
+  "region": "Oberland bernés (Kandertal)",
+  "lat": 46.4986,
+  "lng": 7.7272,
+  "creado_por": "naturaleza",
+  "grupo": "b",
+  "fuentes": [
+   {
+    "guia": "Adelboden-Lenk-Kandersteg Tourismus (oficial)",
+    "url": "https://adelboden-lenk-kandersteg.ch/en/activities/tour/detail/kandersteg-oeschinensee"
+   }
+  ]
+ },
+ {
+  "id": "ch-sardona",
+  "nombre": "Arena Tectónica Suiza Sardona (Elm)",
+  "pais_iso": "CH",
+  "region": "Glaris / San Galo / Grisones",
+  "lat": 46.9186,
+  "lng": 9.1756,
+  "creado_por": "naturaleza",
+  "grupo": "b",
+  "fuentes": [
+   {
+    "guia": "UNESCO",
+    "url": "https://whc.unesco.org/en/list/1179"
+   },
+   {
+    "guia": "Consejo Federal Suizo",
+    "url": "https://www.admin.ch/gov/en/start/documentation/media-releases.msg-id-20052.html"
+   }
+  ]
+ },
+ {
+  "id": "at-achensee",
+  "nombre": "Lago Achensee (Pertisau, Achenkirch)",
+  "pais_iso": "AT",
+  "region": "Tirol",
+  "lat": 47.4336,
+  "lng": 11.7056,
+  "creado_por": "naturaleza",
+  "grupo": "b",
+  "fuentes": [
+   {
+    "guia": "Achensee Tourismus (oficial)",
+    "url": "https://www.achensee.com/en/travel-information/facts-figures/"
+   },
+   {
+    "guia": "Tirol Werbung (oficial)",
+    "url": "https://www.tyrol.com/activities/sport/hiking/hiking-tours/rund-um-den-achensee-achenkirch"
+   }
+  ]
+ },
+ {
+  "id": "at-donau-auen",
+  "nombre": "Parque Nacional Donau-Auen (Orth an der Donau)",
+  "pais_iso": "AT",
+  "region": "Baja Austria / Viena",
+  "lat": 48.1456,
+  "lng": 16.7008,
+  "creado_por": "naturaleza",
+  "grupo": "b",
+  "fuentes": [
+   {
+    "guia": "Parque Nacional Donau-Auen (oficial)",
+    "url": "https://donauauen.at/en/visit/schlossorth-national-park-centre"
+   },
+   {
+    "guia": "Donau Niederösterreich Tourismus (oficial)",
+    "url": "https://www.donau.com/en/the-danube-in-lower-austria/outings-activities/excursion-destinations/top-excursion-destinations/top-excursion-destinations/schlossorth-national-park-center/"
+   }
+  ]
+ },
+ {
+  "id": "at-liechtensteinklamm",
+  "nombre": "Garganta de Liechtensteinklamm (St. Johann im Pongau)",
+  "pais_iso": "AT",
+  "region": "Salzburgo (Pongau)",
+  "lat": 47.3268,
+  "lng": 13.1931,
+  "creado_por": "naturaleza",
+  "grupo": "b",
+  "fuentes": [
+   {
+    "guia": "Salzburgerland Tourismus (oficial)",
+    "url": "https://salzburg.info/en/sights/excursions/liechtensteinklamm"
+   }
+  ]
+ },
+ {
+  "id": "li-fuerstensteig",
+  "nombre": "Fürstensteig (Gaflei)",
+  "pais_iso": "LI",
+  "region": "Triesenberg",
+  "lat": 47.1436,
+  "lng": 9.5447,
+  "creado_por": "naturaleza",
+  "grupo": "b",
+  "fuentes": [
+   {
+    "guia": "Switzerland Tourism (oficial)",
+    "url": "https://www.myswitzerland.com/en/experiences/route/fuerstensteig/"
+   }
+  ]
+ },
+ {
+  "id": "fr-saint-emilion",
+  "nombre": "Saint-Émilion",
+  "pais_iso": "FR",
+  "region": "Nueva Aquitania (Gironda)",
+  "lat": 44.8936,
+  "lng": -0.1553,
+  "creado_por": "gastronomia-vino",
+  "grupo": "a",
+  "fuentes": [
+   {
+    "guia": "Bordeaux.com (CIVB, interprofesión)",
+    "url": "https://www.bordeaux.com/en/designations/saint-emilion-pomerol-fronsac/"
+   },
+   {
+    "guia": "Bordeaux.com (CIVB, interprofesión)",
+    "url": "https://www.bordeaux.com/en/mag/blog/a-car-free-escape-through-bordeaux-s-vineyards/"
+   },
+   {
+    "guia": "Saint-Émilion Tourisme (turismo oficial)",
+    "url": "https://www.saint-emilion-tourisme.com/en/viticole/fiche/1359?fromP=50"
+   }
+  ]
+ },
+ {
+  "id": "fr-chateauneuf-du-pape",
+  "nombre": "Châteauneuf-du-Pape",
+  "pais_iso": "FR",
+  "region": "Provenza-Alpes-Costa Azul (Vaucluse)",
+  "lat": 44.0563,
+  "lng": 4.8327,
+  "creado_por": "gastronomia-vino",
+  "grupo": "a",
+  "fuentes": [
+   {
+    "guia": "AOC Châteauneuf-du-Pape (federación de productores)",
+    "url": "https://en.chateauneuf.com/wine-cellar-visit-tasting-chateauneuf-du-pape/"
+   },
+   {
+    "guia": "AOC Châteauneuf-du-Pape (federación de productores)",
+    "url": "https://en.chateauneuf.com/oenotourisme/vinadea-maison-des-vins-de-chateauneuf-du-pape/"
+   },
+   {
+    "guia": "Oficina de turismo de Châteauneuf-du-Pape",
+    "url": "https://www.chateauneuf-du-pape-tourisme.fr/en/listing/ch%C3%A2teauneuf-du-pape"
+   }
+  ]
+ },
+ {
+  "id": "fr-cognac",
+  "nombre": "Cognac",
+  "pais_iso": "FR",
+  "region": "Nueva Aquitania (Charente)",
+  "lat": 45.6956,
+  "lng": -0.3289,
+  "creado_por": "gastronomia-vino",
+  "grupo": "a",
+  "fuentes": [
+   {
+    "guia": "Cognac Tourisme (turismo oficial)",
+    "url": "https://www.destination-cognac.com/en/wine-tourism/cognac/visits-to-trading-houses-distilleries-and-vineyards/"
+   },
+   {
+    "guia": "Cognac Tourisme (turismo oficial)",
+    "url": "https://www.destination-cognac.com/en/wine-tourism/cognac/degustation/"
+   }
+  ]
+ },
+ {
+  "id": "be-pajottenland",
+  "nombre": "Pajottenland (ruta del lambic y la gueuze)",
+  "pais_iso": "BE",
+  "region": "Brabante Flamenco",
+  "lat": 50.766,
+  "lng": 4.306,
+  "creado_por": "gastronomia-vino",
+  "grupo": "a",
+  "fuentes": [
+   {
+    "guia": "Visit Flanders (turismo oficial)",
+    "url": "https://www.visitflanders.com/en/flandersfinestcycleroutes/lambic-geuze-route"
+   },
+   {
+    "guia": "Visit Flanders (turismo oficial)",
+    "url": "https://www.visitflanders.com/en/flemish-destinations/pajottenland"
+   }
+  ]
+ },
+ {
+  "id": "nl-yerseke",
+  "nombre": "Yerseke",
+  "pais_iso": "NL",
+  "region": "Zelanda",
+  "lat": 51.4936,
+  "lng": 4.0497,
+  "creado_por": "gastronomia-vino",
+  "grupo": "a",
+  "fuentes": [
+   {
+    "guia": "Zeeland.com (turismo oficial)",
+    "url": "https://www.zeeland.com/visit/eilanden/zuid-beveland/dorpen-en-steden/yerseke"
+   },
+   {
+    "guia": "VVV Zeeland (turismo oficial)",
+    "url": "https://www.vvvzeeland.nl/en/islands/zuid-beveland/towns-and-cities/yerseke/"
+   }
+  ]
+ },
+ {
+  "id": "ch-valais-sion-vinos",
+  "nombre": "Viñedos del Valais (Sion y Sierre)",
+  "pais_iso": "CH",
+  "region": "Valais",
+  "lat": 46.2331,
+  "lng": 7.3606,
+  "creado_por": "gastronomia-vino",
+  "grupo": "b",
+  "fuentes": [
+   {
+    "guia": "Swiss Wine Promotion (interprofesión, Petite Arvine)",
+    "url": "https://swisswine.ch/en/grapes/petite-arvine-en"
+   },
+   {
+    "guia": "Guía Michelin (selección Suiza 2025)",
+    "url": "https://guide.michelin.com/pl/en/article/michelin-guide-ceremony/the-michelin-guide-switzerland-2025-two-star-dining-on-the-rise"
+   }
+  ]
+ },
+ {
+  "id": "ch-buendner-herrschaft",
+  "nombre": "Bündner Herrschaft (Maienfeld, Fläsch, Jenins, Malans)",
+  "pais_iso": "CH",
+  "region": "Grisones",
+  "lat": 47.0094,
+  "lng": 9.5303,
+  "creado_por": "gastronomia-vino",
+  "grupo": "b",
+  "fuentes": [
+   {
+    "guia": "Graubünden Ferien (turismo oficial)",
+    "url": "https://www.graubuenden.ch/en/attractions/wine-experience-bundner-herrschaft"
+   },
+   {
+    "guia": "Swiss Wine Promotion (interprofesión)",
+    "url": "https://www.swisswine.com/en/news/a-wine-curious-weekend-in-graubuenden-s-buendner-herrschaft"
+   },
+   {
+    "guia": "Blue News (selección Michelin Suiza 2025)",
+    "url": "https://www.bluewin.ch/en/people/michelin-guide-increases-number-of-swiss-starred-restaurants-to-li.2926596"
+   }
+  ]
+ },
+ {
+  "id": "at-kamptal-langenlois",
+  "nombre": "Kamptal y Langenlois (Loisium)",
+  "pais_iso": "AT",
+  "region": "Baja Austria",
+  "lat": 48.4719,
+  "lng": 15.6814,
+  "creado_por": "gastronomia-vino",
+  "grupo": "b",
+  "fuentes": [
+   {
+    "guia": "Meininger (región vinícola Kamptal)",
+    "url": "https://www.meininger.de/wein/weinanbaugebiete/Kamptal"
+   },
+   {
+    "guia": "Weingut Bründlmayer (bodega oficial)",
+    "url": "https://bruendlmayer.at/en/wines/langenloiser-loiserberg-1oetw-kellerreserve-gruener-veltliner-2011"
+   }
+  ]
+ },
+ {
+  "id": "at-vulkanland-riegersburg",
+  "nombre": "Steirisches Vulkanland (Riegersburg, Zotter)",
+  "pais_iso": "AT",
+  "region": "Estiria",
+  "lat": 47.0028,
+  "lng": 15.9306,
+  "creado_por": "gastronomia-vino",
+  "grupo": "b",
+  "fuentes": [
+   {
+    "guia": "Steiermark Tourismus (oficial, Riegersburg)",
+    "url": "https://www.steiermark.com/de/Regionen/Staedte-Orte/Riegersburg_c_841673"
+   },
+   {
+    "guia": "Steiermark Tourismus (oficial, Kulinarische Schlösserstraße)",
+    "url": "https://www.steiermark.com/de/Steiermark/Kulinarik-erleben/Wein/Weinstrassen/Kulinarische-Schloesserstrasse_a_3650260"
+   }
+  ]
+ },
+ {
+  "id": "fr-disneyland-paris",
+  "nombre": "Disneyland Paris",
+  "pais_iso": "FR",
+  "region": "Île-de-France (Marne-la-Vallée)",
+  "lat": 48.8722,
+  "lng": 2.7758,
+  "creado_por": "adrenalina",
+  "grupo": "a",
+  "fuentes": [
+   {
+    "guia": "Office de Tourisme de Paris",
+    "url": "https://parisjetaime.com/culture/disneyland-paris-p3614"
+   }
+  ]
+ },
+ {
+  "id": "fr-parc-asterix",
+  "nombre": "Parc Astérix",
+  "pais_iso": "FR",
+  "region": "Altos de Francia (Plailly, Oise)",
+  "lat": 49.134,
+  "lng": 2.571,
+  "creado_por": "adrenalina",
+  "grupo": "a",
+  "fuentes": [
+   {
+    "guia": "RCDB",
+    "url": "https://rcdb.com/4790.htm"
+   },
+   {
+    "guia": "RCDB",
+    "url": "https://rcdb.com/16327.htm"
+   }
+  ]
+ },
+ {
+  "id": "fr-puy-du-fou",
+  "nombre": "Puy du Fou",
+  "pais_iso": "FR",
+  "region": "Países del Loira (Vendée)",
+  "lat": 46.8892,
+  "lng": -0.9306,
+  "creado_por": "adrenalina",
+  "grupo": "a",
+  "fuentes": [
+   {
+    "guia": "Sitio oficial",
+    "url": "https://www.puydufou.com/france/fr/node/8034"
+   }
+  ]
+ },
+ {
+  "id": "nl-efteling",
+  "nombre": "Efteling",
+  "pais_iso": "NL",
+  "region": "Brabante Septentrional (Kaatsheuvel)",
+  "lat": 51.65,
+  "lng": 5.0497,
+  "creado_por": "adrenalina",
+  "grupo": "a",
+  "fuentes": [
+   {
+    "guia": "Sitio oficial",
+    "url": "https://www.efteling.com/nl/pers/nieuwe-efteling-achtbaan-baron-1898-nu-open-voor-publiek/"
+   },
+   {
+    "guia": "Sitio oficial",
+    "url": "https://www.efteling.com/nl/pers/hooghmoed-naam-van-nieuwe-efteling-attractie-bij-baron-1898/"
+   }
+  ]
+ },
+ {
+  "id": "nl-walibi-holland",
+  "nombre": "Walibi Holland",
+  "pais_iso": "NL",
+  "region": "Flevoland (Biddinghuizen)",
+  "lat": 52.44,
+  "lng": 5.764,
+  "creado_por": "adrenalina",
+  "grupo": "a",
+  "fuentes": [
+   {
+    "guia": "Sitio oficial",
+    "url": "https://www.walibi.nl/en/park/attractions/rollercoasters"
+   },
+   {
+    "guia": "Sitio oficial",
+    "url": "https://www.walibi.nl/en/park/attractions/goliath"
+   }
+  ]
+ },
+ {
+  "id": "fr-les-3-vallees",
+  "nombre": "Les 3 Vallées (Courchevel, Méribel, Val Thorens)",
+  "pais_iso": "FR",
+  "region": "Auvernia-Ródano-Alpes (Saboya)",
+  "lat": 45.3967,
+  "lng": 6.5656,
+  "creado_por": "adrenalina",
+  "grupo": "a",
+  "fuentes": [
+   {
+    "guia": "Remontées-mécaniques.net (base de datos de estaciones)",
+    "url": "https://www.remontees-mecaniques.net/bdd/station-meribel-8.html"
+   },
+   {
+    "guia": "Remontées-mécaniques.net (base de datos de estaciones)",
+    "url": "https://remontees-mecaniques.net/bdd/station-meribel-mottaret-466.html"
+   }
+  ]
+ },
+ {
+  "id": "at-area-47",
+  "nombre": "AREA 47 (Ötztal)",
+  "pais_iso": "AT",
+  "region": "Tirol",
+  "lat": 47.2337,
+  "lng": 10.8576,
+  "creado_por": "adrenalina",
+  "grupo": "b",
+  "fuentes": [
+   {
+    "guia": "Sitio oficial",
+    "url": "https://www.area47.at/en/offroad"
+   },
+   {
+    "guia": "Sitio oficial (datos y cifras)",
+    "url": "https://www.area47.at/?p=60540"
+   },
+   {
+    "guia": "Turismo del Ötztal",
+    "url": "https://oetztal.com/outdoor_adventure-area47"
+   },
+   {
+    "guia": "Turismo del Tirol",
+    "url": "https://www.tirol.at/infrastruktur/area-47-das-outdoor-highlight-im-oetztal"
+   }
+  ]
+ },
+ {
+  "id": "at-familypark-neusiedlersee",
+  "nombre": "Familypark Neusiedlersee",
+  "pais_iso": "AT",
+  "region": "Burgenland",
+  "lat": 47.81,
+  "lng": 16.615,
+  "creado_por": "adrenalina",
+  "grupo": "b",
+  "fuentes": [
+   {
+    "guia": "RCDB",
+    "url": "https://rcdb.com/5302.htm"
+   }
+  ]
+ },
+ {
+  "id": "ch-monte-tamaro",
+  "nombre": "Monte Tamaro (Alpe Foppa)",
+  "pais_iso": "CH",
+  "region": "Tesino",
+  "lat": 46.11,
+  "lng": 8.888,
+  "creado_por": "adrenalina",
+  "grupo": "b",
+  "fuentes": [
+   {
+    "guia": "Sitio oficial",
+    "url": "https://www.montetamaro.ch/en/adventure/coaster-bob"
+   },
+   {
+    "guia": "RCDB",
+    "url": "https://rcdb.com/13299.htm"
+   }
+  ]
+ }
+]

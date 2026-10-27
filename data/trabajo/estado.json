@@ -1,7 +1,7 @@
 {
   "pausado": false,
   "subregion": "francia-alpes",
-  "paso": "especialistas",
+  "paso": "logistica",
   "ronda": 1,
   "orden_subregiones": [
     "iberica-italia",
@@ -93,6 +93,12 @@
       "subregion": "francia-alpes",
       "paso": "guias",
       "resultado": "166 candidatos (FR 43, MC 5, BE 21, NL 24, LU 9, CH 30, AT 30, LI 4). Interrumpido por límite de uso pero los archivos quedaron completos."
+    },
+    {
+      "fecha": "2026-10-27",
+      "subregion": "francia-alpes",
+      "paso": "especialistas",
+      "resultado": "8 especialistas ronda 1: 53 lugares nuevos (Disneyland, Efteling, Parc Astérix, 3 Vallées, Area 47, parques nacionales franceses, Saint-Émilion, Abadía de San Galo...)"
     }
   ],
   "ronda_revisor": 0,
