@@ -2,9 +2,10 @@
   "agente": "adrenalina",
   "subregion": "francia-alpes",
   "ronda": 3,
-  "estado": "en_curso",
+  "estado": "completo",
   "busquedas_usadas": 24,
   "criterio": "Regla única de la subregión: toda actividad a 60 km o menos en línea recta cuenta; tope de 2 para monumentos, museos y sitios religiosos salvo actividad en el propio lugar; tope de 3 para espacios naturales que solo se recorren a pie. Escala: 5 = clase mundial en el lugar o a 15 km o menos; 4 = actividad de primer nivel a 30 km o menos, o varias destacadas; 3 = actividad notable en el radio, o de primer nivel a más de 30 km; 2 = oferta menor o única actividad en el borde (50–60 km); 1 = sin oferta verificable. Un 3 o más exige web del operador, turismo oficial o RCDB; las plataformas de reserva (Manawa, Adrenactive, Yumping) solo sirven de respaldo y no bastan para un 3.",
+  "notas": "Ronda de huecos. Se crean los 6 lugares pedidos a adrenalina, se puntúan los 30 lugares nuevos de los demás agentes y se corrige ch-guarda (de 4 a 3) usando el acceso real por Motta Naluns. Ischgl queda a más de 100 km por carretera y Samnaun a unos 50 km. Sin fuente oficial y con puntaje conservador de 2 quedan el kitesurf de Wissant (Côte d'Opale), La Rochelle e Île de Ré, y el char à voile de la Bahía de Somme. Pendiente para el curador: ch-klosters (a3) comparte el Parsenn con ch-davos (a5), y podría revisarse en otra ronda.",
   "puntajes": [
     {
       "id": "ch-guarda",
@@ -96,7 +97,310 @@
         { "nombre": "Stage de kitesurf en la Île de Ré", "tipo": "otro", "km": 8, "lat": 46.1580, "lng": -1.2700, "temporada": "abr–oct", "url": "https://www.adrenactive.com/stage-kitesurf-ile-re-17-3837.htm", "url_tipo": "plataforma", "km_aprox": true },
         { "nombre": "Chatel Kite School (Châtelaillon–Aytré)", "tipo": "otro", "km": 26, "lat": 46.0750, "lng": -1.0880, "temporada": "todo el año según viento", "url": "https://www.manawa.com/fr/providers/4325-chatel-kite-school", "url_tipo": "plataforma", "km_aprox": true }
       ]
+    },
+    {
+      "id": "fr-cote-granit-rose",
+      "puntaje": 1,
+      "justificacion": "Costa de granito que se recorre a pie por el GR34, sin parques ni operadores de adrenalina verificables a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "fr-camarga",
+      "puntaje": 3,
+      "justificacion": "La playa de Beauduc, a unos 15 km de Saintes-Maries-de-la-Mer, es el gran spot de kitesurf de la Camarga. Allí opera Aero Kite School, con ficha en el turismo oficial de Provenza-Alpes-Costa Azul. Es un espacio natural, así que el tope es 3. El Parc Spirou queda fuera del radio.",
+      "actividades": [
+        { "nombre": "Aero Kite School (kitesurf en Beauduc)", "tipo": "otro", "km": 15, "lat": 43.3700, "lng": 4.5700, "temporada": "todo el año según viento (mejor primavera y otoño)", "url": "https://provence-alpes-cotedazur.com/sejourner/informations-pratiques/tous-les-services-pratiques/ecole-de-kitesurf-aero-kite-school-arles-fr-2850970/", "url_tipo": "turismo_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "fr-eze-saint-paul",
+      "puntaje": 3,
+      "justificacion": "Son pueblos habitados, no monumentos aislados. El canyoning guiado de La Bollène-Vésubie está a 29 km de Èze (37 km de Saint-Paul) y el Vésùbia Mountain Park a 39 km.",
+      "actividades": [
+        { "nombre": "Canyoning en La Bollène-Vésubie", "tipo": "canyoning", "km": 29, "lat": 43.9930, "lng": 7.3330, "temporada": "jun–sep", "url": "https://en.experiencecotedazur.com/la-bollene-vesubie/canyoning-adventure-bollene-esteron-valley+camp4-canyoning", "url_tipo": "turismo_oficial" },
+        { "nombre": "Vésùbia Mountain Park (canyoning y escalada)", "tipo": "canyoning", "km": 39, "lat": 44.0690, "lng": 7.2560, "temporada": "todo el año", "url": "https://www.puremontagne.fr/en/to-do/sport/item/canyoning", "url_tipo": "turismo_oficial" }
+      ]
+    },
+    {
+      "id": "fr-antibes-cannes",
+      "puntaje": 3,
+      "justificacion": "Aqualand Fréjus, el mayor parque acuático de la Costa Azul, con unas 19 atracciones (King Cobra, Free Fall, Vertigo), está a 33 km de Antibes. En el radio entran también el canyoning de La Bollène-Vésubie (49 km) y las bases de rafting de Castellane, en el Verdon (57 km).",
+      "actividades": [
+        { "nombre": "Aqualand Fréjus (King Cobra, Free Fall, Vertigo)", "tipo": "parque_acuatico", "km": 33, "lat": 43.4450, "lng": 6.7640, "temporada": "jun–sep", "url": "https://provence-alpes-cotedazur.com/que-faire/detente-et-loisirs/toutes-les-activites-detente-et-loisirs/aqualand-frejus-frejus-fr-2881820/", "url_tipo": "turismo_oficial", "km_aprox": true },
+        { "nombre": "Canyoning en La Bollène-Vésubie", "tipo": "canyoning", "km": 49, "lat": 43.9930, "lng": 7.3330, "temporada": "jun–sep", "url": "https://en.experiencecotedazur.com/la-bollene-vesubie/canyoning-adventure-bollene-esteron-valley+camp4-canyoning", "url_tipo": "turismo_oficial" },
+        { "nombre": "Montagne et Rivière (rafting en el Verdon, Castellane)", "tipo": "rafting", "km": 57, "lat": 43.8470, "lng": 6.5130, "temporada": "abr–oct", "url": "https://provence-alpes-cotedazur.com/sejourner/informations-pratiques/tous-les-services-pratiques/montagne-et-riviere-castellane-fr-2880241/", "url_tipo": "turismo_oficial" }
+      ]
+    },
+    {
+      "id": "fr-saint-tropez",
+      "puntaje": 3,
+      "justificacion": "Aqualand Fréjus, el mayor parque acuático de la Costa Azul, con toboganes como King Cobra y Free Fall, está a 22 km. Es notable, no de primer nivel europeo. OK Corral y el Verdon quedan fuera del radio.",
+      "actividades": [
+        { "nombre": "Aqualand Fréjus (King Cobra, Free Fall, Vertigo)", "tipo": "parque_acuatico", "km": 22, "lat": 43.4450, "lng": 6.7640, "temporada": "jun–sep", "url": "https://provence-alpes-cotedazur.com/que-faire/detente-et-loisirs/toutes-les-activites-detente-et-loisirs/aqualand-frejus-frejus-fr-2881820/", "url_tipo": "turismo_oficial", "km_aprox": true },
+        { "nombre": "Aqualand Fréjus (Côte d'Azur France)", "tipo": "parque_acuatico", "km": 22, "lat": 43.4450, "lng": 6.7640, "temporada": "jun–sep", "url": "https://cotedazurfrance.fr/offres/aqualand-frejus-frejus-fr-3009819/", "url_tipo": "turismo_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "fr-collioure",
+      "puntaje": 3,
+      "justificacion": "El canyoning guiado del Gourg des Anelles y del Baoussous, junto a Céret (28 km), es la actividad estrella del Vallespir: rápel, saltos y toboganes naturales, con proveedores cualificados según la oficina de turismo del Vallespir. Es una actividad notable en el radio.",
+      "actividades": [
+        { "nombre": "Canyoning en Céret (Gourg des Anelles, Baoussous)", "tipo": "canyoning", "km": 28, "lat": 42.4860, "lng": 2.7480, "temporada": "abr–oct", "url": "https://www.vallespir-tourisme.fr/en/explore/water-activities/canyoning-near-ceret-thrills-difficulty-levels-and-providers/", "url_tipo": "turismo_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "fr-castillos-cataros",
+      "puntaje": 2,
+      "justificacion": "Son castillos en ruinas, así que el puntaje no pasa de 2. El canyoning de Céret entra en el radio a 45 km.",
+      "actividades": [
+        { "nombre": "Canyoning en Céret (Gourg des Anelles, Baoussous)", "tipo": "canyoning", "km": 45, "lat": 42.4860, "lng": 2.7480, "temporada": "abr–oct", "url": "https://www.vallespir-tourisme.fr/en/explore/water-activities/canyoning-near-ceret-thrills-difficulty-levels-and-providers/", "url_tipo": "turismo_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "fr-conques",
+      "puntaje": 1,
+      "justificacion": "Pueblo abacial sin oferta de adrenalina verificable a 60 km. El parapente de Millau queda a más de 80 km.",
+      "actividades": []
+    },
+    {
+      "id": "fr-roquefort-millau",
+      "puntaje": 4,
+      "justificacion": "Millau, a 15 km, es uno de los grandes sitios de vuelo libre de Francia. El turismo oficial de Occitania, con fichas que actualiza la oficina de turismo de Millau, lista varios centros de parapente biplaza, como Airzone Parapente y Joël Houdouin, con vuelos sobre el viaducto y los Causses. A 29 km está el descenso en canoa de las gargantas del Tarn desde Le Rozier. Son varias actividades destacadas.",
+      "actividades": [
+        { "nombre": "Airzone Parapente (biplaza, Millau)", "tipo": "parapente", "km": 15, "lat": 44.0980, "lng": 3.0780, "temporada": "abr–oct", "url": "https://www.tourisme-occitanie.com/fr/fiche/activite/airzone-parapente-millau_TFO12145-SPL-20080916201804707/", "url_tipo": "turismo_oficial", "km_aprox": true },
+        { "nombre": "Joël Houdouin Biplace Parapente (Millau)", "tipo": "parapente", "km": 15, "lat": 44.0980, "lng": 3.0780, "temporada": "abr–oct", "url": "https://www.tourisme-occitanie.com/fr/fiche/activite/joel-houdouin-biplace-parapente-millau_TFO12145-SPL-20080916002126719/", "url_tipo": "turismo_oficial", "km_aprox": true },
+        { "nombre": "Canoë Le Rozier (gargantas del Tarn)", "tipo": "otro", "km": 29, "lat": 44.1910, "lng": 3.2070, "temporada": "abr–sep", "url": "https://www.cevennes-gorges-du-tarn.com/en/activite/canoe-le-rozier/", "url_tipo": "turismo_oficial" }
+      ]
+    },
+    {
+      "id": "fr-chantilly",
+      "puntaje": 2,
+      "justificacion": "El Parc Astérix, con Toutatis, la montaña rusa más alta y rápida de Francia, está a 9 km, y Disneyland Paris a 42 km. Pero el lugar es un castillo-museo con sus caballerizas, sin actividad propia, así que el puntaje no pasa de 2, como en Versalles.",
+      "actividades": [
+        { "nombre": "Parc Astérix (Toutatis)", "tipo": "parque_diversiones", "km": 9, "lat": 49.1340, "lng": 2.5710, "temporada": "abr–ene (por calendario)", "url": "https://rcdb.com/4790.htm", "url_tipo": "rcdb" },
+        { "nombre": "Disneyland Paris", "tipo": "parque_diversiones", "km": 42, "lat": 48.8722, "lng": 2.7758, "temporada": "todo el año", "url": "https://parisjetaime.com/culture/disneyland-paris-p3614", "url_tipo": "turismo_oficial" }
+      ]
+    },
+    {
+      "id": "fr-besancon-arc-et-senans",
+      "puntaje": 1,
+      "justificacion": "Ciudad de la ciudadela y salina real, sin parques ni operadores de adrenalina verificables a 60 km. No se buscaron en esta ronda el kayak del Doubs ni las vías ferratas del valle de la Loue.",
+      "actividades": []
+    },
+    {
+      "id": "fr-arbois-jura",
+      "puntaje": 1,
+      "justificacion": "Pueblo vinícola, sin oferta de adrenalina verificable a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "fr-cascadas-herisson",
+      "puntaje": 1,
+      "justificacion": "Cascadas que se recorren a pie. Las estaciones del Jura (Les Rousses) quedan en el radio, pero no se buscó su web oficial en esta ronda y no se acreditan.",
+      "actividades": []
+    },
+    {
+      "id": "be-pairi-daiza",
+      "puntaje": 2,
+      "justificacion": "El parque zoológico no tiene atracciones de adrenalina. La única oferta en el radio es Walibi Belgium, a 51 km, en el borde.",
+      "actividades": [
+        { "nombre": "Walibi Belgium", "tipo": "parque_diversiones", "km": 51, "lat": 50.7010, "lng": 4.5940, "temporada": "abr–nov", "url": "https://rcdb.com/921.htm", "url_tipo": "rcdb" }
+      ]
+    },
+    {
+      "id": "nl-hunebedden-drenthe",
+      "puntaje": 2,
+      "justificacion": "El Attractiepark Drouwenerzand, con una montaña rusa familiar (GJ Mining Co.) y atracciones como Freak Out, está a unos 3 km de Borger. Pero el lugar es un conjunto de dólmenes con museo, así que el puntaje no pasa de 2.",
+      "actividades": [
+        { "nombre": "Attractiepark Drouwenerzand", "tipo": "parque_diversiones", "km": 3, "lat": 52.9450, "lng": 6.7930, "temporada": "abr–oct", "url": "https://rcdb.com/5676.htm", "url_tipo": "rcdb", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "nl-deltawerken",
+      "puntaje": 1,
+      "justificacion": "Obra de ingeniería y parque expositivo. Plopsaland y Efteling quedan fuera del radio, y no se buscó el kitesurf del Brouwersdam, así que no se acredita.",
+      "actividades": []
+    },
+    {
+      "id": "lu-beaufort",
+      "puntaje": 1,
+      "justificacion": "Castillos sin actividad propia. Walygator queda a unos 68 km, fuera del radio.",
+      "actividades": []
+    },
+    {
+      "id": "lu-larochette",
+      "puntaje": 1,
+      "justificacion": "Castillo sin actividad propia. Walygator queda a unos 62 km, justo fuera del radio.",
+      "actividades": []
+    },
+    {
+      "id": "lu-minett",
+      "puntaje": 3,
+      "justificacion": "Es una región con ciudades (Esch-sur-Alzette, Belval), no un monumento aislado. Walygator Grand Est, con la montaña rusa invertida Monster, está a 33 km.",
+      "actividades": [
+        { "nombre": "Walygator Grand Est", "tipo": "parque_diversiones", "km": 33, "lat": 49.2290, "lng": 6.1470, "temporada": "abr–nov", "url": "https://rcdb.com/4478.htm", "url_tipo": "rcdb" }
+      ]
+    },
+    {
+      "id": "at-swarovski-wattens",
+      "puntaje": 2,
+      "justificacion": "Es un museo y jardín, así que el puntaje no pasa de 2. En el radio están la Nordkette (17 km), el Penken de Mayrhofen con la Harakiri (21 km) y el glaciar de Hintertux (25 km).",
+      "actividades": [
+        { "nombre": "Nordkette (Innsbruck): freeride y Skylinepark", "tipo": "esqui", "km": 17, "lat": 47.3100, "lng": 11.3830, "temporada": "nov–abr", "url": "https://www.innsbruck.info/en/skiing/skiing-and-snowboarding/ski-resorts/nordkette.html", "url_tipo": "turismo_oficial", "km_aprox": true },
+        { "nombre": "Harakiri, Penken (Mayrhofen)", "tipo": "esqui", "km": 21, "lat": 47.1800, "lng": 11.8300, "temporada": "dic–abr", "url": "https://mayrhofner-bergbahnen.com/fileadmin/userdaten/presseportal/Pressetexte/Texte_Winter_ALT/DE_Harakiri_Mayrhofen.pdf", "url_tipo": "operador_oficial", "km_aprox": true },
+        { "nombre": "Glaciar de Hintertux", "tipo": "esqui", "km": 25, "lat": 47.0750, "lng": 11.6700, "temporada": "todo el año", "url": "https://www.hintertuxergletscher.at/en/highlights/highlights/", "url_tipo": "operador_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "at-eisenstadt",
+      "puntaje": 3,
+      "justificacion": "Es una ciudad, no un monumento aislado. Familypark Neusiedlersee, el mayor parque de atracciones de Austria, con cuatro montañas rusas, está a unos 8 km en línea recta (unos 15 km por carretera). Está orientado a familias, así que es notable pero no de primer nivel. El Prater de Viena queda a 42 km.",
+      "actividades": [
+        { "nombre": "Familypark Neusiedlersee (4 montañas rusas)", "tipo": "parque_diversiones", "km": 8, "lat": 47.8100, "lng": 16.6150, "temporada": "primavera–otoño", "url": "https://rcdb.com/5302.htm", "url_tipo": "rcdb", "km_aprox": true },
+        { "nombre": "Wiener Prater (Wurstelprater)", "tipo": "parque_diversiones", "km": 42, "lat": 48.2160, "lng": 16.3970, "temporada": "15 mar–31 oct", "url": "https://rcdb.com/17818.htm", "url_tipo": "rcdb" }
+      ]
     }
   ],
-  "nuevos": "PENDIENTE_REESCRITURA"
+  "nuevos": [
+    {
+      "id": "be-coo-ambleve",
+      "nombre": "Coo y el valle del Amblève",
+      "pais_iso": "BE",
+      "region": "Valonia (Lieja)",
+      "lat": 50.3912,
+      "lng": 5.8790,
+      "tipo": "otro",
+      "destino_propio": true,
+      "puntaje": 4,
+      "temporada": "abr–oct (kayak y parque); circuito según calendario",
+      "justificacion": "Junto a la cascada de Coo, el salto de unos 15 m del Amblève entre Trois-Ponts y La Gleize, se concentran el descenso en kayak del río, que la oficina de turismo de Stavelot destaca como uno de los atractivos del lugar junto al telesilla, y el parque Plopsa Coo. El circuito de Spa-Francorchamps, con Taxi Laps oficiales, está a 8 km. Son varias actividades destacadas, aunque ninguna de clase mundial en el propio lugar, así que queda en 4.",
+      "actividades": [
+        { "nombre": "Kayak en el Amblève y telesilla de la cascada de Coo", "tipo": "otro", "km": 0, "lat": 50.3912, "lng": 5.8790, "temporada": "abr–oct", "url": "https://tourismestavelot.be/en/node/3174", "url_tipo": "turismo_oficial", "km_aprox": true },
+        { "nombre": "Circuit de Spa-Francorchamps: Taxi Laps", "tipo": "motor", "km": 8, "lat": 50.4370, "lng": 5.9710, "temporada": "según calendario del circuito", "url": "https://www.spa-francorchamps.be/en/search?q=gift", "url_tipo": "oficial", "km_aprox": true }
+      ],
+      "fuentes": [
+        { "guia": "Tourisme Stavelot (oficina de turismo)", "url": "https://tourismestavelot.be/en/node/3174" },
+        { "guia": "Circuit de Spa-Francorchamps (sitio oficial)", "url": "https://www.spa-francorchamps.be/en/search?q=gift" }
+      ]
+    },
+    {
+      "id": "ch-verbier",
+      "nombre": "Verbier y las 4 Vallées",
+      "pais_iso": "CH",
+      "region": "Valais",
+      "lat": 46.0961,
+      "lng": 7.2286,
+      "tipo": "esqui",
+      "destino_propio": true,
+      "puntaje": 5,
+      "temporada": "dic–abr (esquí); jun–sep (bike park)",
+      "justificacion": "Verbier es la puerta de las 4 Vallées, con unos 410 km de pistas hasta el Mont-Fort (3330 m), y una de las capitales mundiales del freeride. El Bec des Rosses (3223 m, 600 m de desnivel y pendientes de hasta 51°) acoge desde 1996 el Xtreme Verbier, la final del Freeride World Tour; la edición de 2026 se celebró el 28 de marzo. En el radio están también el Alpine Coaster de Glacier 3000 (29 km), el teleférico de la Aiguille du Midi (36 km) y el Matterhorn Ski Paradise (42 km).",
+      "actividades": [
+        { "nombre": "4 Vallées / Téléverbier (unos 410 km de pistas, Mont-Fort 3330 m)", "tipo": "esqui", "km": 0, "lat": 46.0961, "lng": 7.2286, "temporada": "dic–abr", "url": "https://remontees-mecaniques.net/bdd/station-verbier-34.html", "url_tipo": "base_de_datos" },
+        { "nombre": "Xtreme Verbier, final del Freeride World Tour (Bec des Rosses)", "tipo": "esqui", "km": 4, "lat": 46.0750, "lng": 7.2630, "temporada": "final de marzo", "url": "https://www.freerideworldtour.com/events/2026-yeti-xtreme-verbier/", "url_tipo": "organizador_oficial", "km_aprox": true },
+        { "nombre": "Glacier 3000 Alpine Coaster", "tipo": "alpine_coaster", "km": 29, "lat": 46.3600, "lng": 7.2140, "temporada": "may–oct, según meteorología", "url": "https://www.glacier3000.ch/en/leisures/", "url_tipo": "operador_oficial", "km_aprox": true },
+        { "nombre": "Teleférico de la Aiguille du Midi", "tipo": "otro", "km": 36, "lat": 45.8786, "lng": 6.8873, "temporada": "todo el año salvo noviembre", "url": "https://hautesavoiemontblanc-tourisme.com/notre-destination/hautement-blanche/mythique-en-haute-savoie-hiver/aiguille-du-midi-telepherique/", "url_tipo": "turismo_oficial" },
+        { "nombre": "Matterhorn Ski Paradise", "tipo": "esqui", "km": 42, "lat": 45.9383, "lng": 7.7297, "temporada": "todo el año (glaciar en verano)", "url": "https://www.zermatt.ch/en/unique/International-Ski-Area", "url_tipo": "turismo_oficial" }
+      ],
+      "fuentes": [
+        { "guia": "Freeride World Tour (organizador oficial)", "url": "https://www.freerideworldtour.com/events/2026-yeti-xtreme-verbier/" },
+        { "guia": "Freeride World Tour (noticia oficial 2026)", "url": "https://www.freerideworldtour.com/news-videos/the-yeti-xtreme-verbier-set-to-crown-the-2026-fis-freeride-world-tour-champions/" },
+        { "guia": "Remontées-mécaniques.net (base de datos de estaciones)", "url": "https://remontees-mecaniques.net/bdd/station-verbier-34.html" }
+      ]
+    },
+    {
+      "id": "ch-flims-laax",
+      "nombre": "Flims-Laax y la Ruinaulta",
+      "pais_iso": "CH",
+      "region": "Grisones",
+      "lat": 46.8350,
+      "lng": 9.2840,
+      "tipo": "esqui",
+      "destino_propio": true,
+      "puntaje": 5,
+      "temporada": "dic–abr (esquí y freestyle); may–oct (rafting)",
+      "justificacion": "Laax es la referencia del freestyle en Europa: según su web oficial tiene el halfpipe más grande del mundo, una Olympic Pro Kicker Line y cinco snowparks con más de 90 módulos. En verano, el rafting por la Ruinaulta, el 'Gran Cañón suizo' del Rin anterior, va de Ilanz (unos 11 km) a Reichenau entre paredes de hasta 300 m; Graubünden Tourismus lo vende de mayo a octubre. El Floomzer de Flumserberg está a 29 km.",
+      "actividades": [
+        { "nombre": "LAAX Freestyle: superpipe, Olympic Pro Kicker Line y 5 snowparks", "tipo": "esqui", "km": 4, "lat": 46.8250, "lng": 9.2400, "temporada": "dic–abr", "url": "https://www.laax.com/en/freestyle", "url_tipo": "operador_oficial", "km_aprox": true },
+        { "nombre": "Rafting en la Ruinaulta (Rin anterior, Ilanz–Reichenau)", "tipo": "rafting", "km": 11, "lat": 46.7740, "lng": 9.2050, "temporada": "may–oct", "url": "https://www.graubuenden.ch/en/booking/offers/half-day-rafting-on-the-vorderrhein-starting-from-ilanz", "url_tipo": "turismo_oficial", "km_aprox": true },
+        { "nombre": "Rodelbahn Floomzer, Flumserberg (alpine coaster de 2 km)", "tipo": "alpine_coaster", "km": 29, "lat": 47.0920, "lng": 9.2830, "temporada": "verano", "url": "https://graubuenden.ch/en/attractions/toboggan-run-floomzer", "url_tipo": "turismo_oficial", "km_aprox": true }
+      ],
+      "fuentes": [
+        { "guia": "Sitio oficial LAAX", "url": "https://www.laax.com/en/freestyle" },
+        { "guia": "Graubünden Tourismus (oferta de rafting)", "url": "https://www.graubuenden.ch/en/booking/offers/half-day-rafting-on-the-vorderrhein-starting-from-ilanz" },
+        { "guia": "MySwitzerland (Suiza Turismo)", "url": "https://www.myswitzerland.com/fr-fr/planification/offres/descente-en-rafting-d39une-demijournee-sur-le-vorderrhein-depuis-ilanz/" }
+      ]
+    },
+    {
+      "id": "ch-glacier-3000",
+      "nombre": "Glacier 3000 y Gstaad",
+      "pais_iso": "CH",
+      "region": "Vaud / Berna (Oberland)",
+      "lat": 46.3600,
+      "lng": 7.2140,
+      "tipo": "alpine_coaster",
+      "destino_propio": true,
+      "puntaje": 5,
+      "temporada": "todo el año (Peak Walk); may–oct (Alpine Coaster)",
+      "justificacion": "Glacier 3000, sobre Les Diablerets, tiene según su web oficial el Alpine Coaster, la pista de trineo sobre raíles más alta del mundo, y el Peak Walk by Tissot, el único puente colgante del mundo que une dos cumbres (107 m, a unos 3000 m). A ellos se suman el Glacier Walk y el esquí de glaciar. Gstaad queda a unos 14 km. Aquaparc de Le Bouveret está a 28 km y Verbier a 29 km.",
+      "actividades": [
+        { "nombre": "Glacier 3000 Alpine Coaster (la pista de trineo sobre raíles más alta del mundo)", "tipo": "alpine_coaster", "km": 0, "lat": 46.3600, "lng": 7.2140, "temporada": "may–oct, según meteorología", "url": "https://www.glacier3000.ch/en/leisures/", "url_tipo": "operador_oficial", "km_aprox": true },
+        { "nombre": "Peak Walk by Tissot y Glacier Walk", "tipo": "otro", "km": 0, "lat": 46.3600, "lng": 7.2140, "temporada": "todo el año, según meteorología", "url": "https://www.glacier3000.ch/en/activities/glacier-walk", "url_tipo": "operador_oficial", "km_aprox": true },
+        { "nombre": "Aquaparc Le Bouveret", "tipo": "parque_acuatico", "km": 28, "lat": 46.3850, "lng": 6.8560, "temporada": "todo el año", "url": "https://www.valais.ch/fr/explorer/activites/autres-activites-estivales/parcs-de-loisirs/aquaparc", "url_tipo": "turismo_oficial", "km_aprox": true },
+        { "nombre": "4 Vallées / Verbier", "tipo": "esqui", "km": 29, "lat": 46.0961, "lng": 7.2286, "temporada": "dic–abr", "url": "https://remontees-mecaniques.net/bdd/station-verbier-34.html", "url_tipo": "base_de_datos" }
+      ],
+      "fuentes": [
+        { "guia": "Sitio oficial Glacier 3000", "url": "https://www.glacier3000.ch/en/leisures/" },
+        { "guia": "Sitio oficial Glacier 3000", "url": "https://www.glacier3000.ch/en/activities/glacier-walk" }
+      ]
+    },
+    {
+      "id": "at-zillertal-mayrhofen",
+      "nombre": "Zillertal (Mayrhofen e Hintertux)",
+      "pais_iso": "AT",
+      "region": "Tirol",
+      "lat": 47.1667,
+      "lng": 11.8650,
+      "tipo": "esqui",
+      "destino_propio": true,
+      "puntaje": 5,
+      "temporada": "todo el año (Hintertux); dic–abr (Penken y Ahorn)",
+      "justificacion": "En el Penken, sobre Mayrhofen, está la Harakiri (pista 34): según los Mayrhofner Bergbahnen, con un 78 % de pendiente es la pista más empinada de Austria, con un tramo de unos 400 m. El glaciar de Hintertux, a 18 km, es según su web oficial la única estación de Austria abierta los 365 días del año, hasta 3250 m. Ambos forman parte del Ski- & Gletscherwelt Zillertal 3000. La Nordkette de Innsbruck queda a 40 km.",
+      "actividades": [
+        { "nombre": "Harakiri, Penken (78 %, la pista más empinada de Austria)", "tipo": "esqui", "km": 3, "lat": 47.1800, "lng": 11.8300, "temporada": "dic–abr", "url": "https://mayrhofner-bergbahnen.com/fileadmin/userdaten/presseportal/Pressetexte/Texte_Winter_ALT/DE_Harakiri_Mayrhofen.pdf", "url_tipo": "operador_oficial", "km_aprox": true },
+        { "nombre": "Skigebiet Mayrhofner Bergbahnen (Penken y Ahorn)", "tipo": "esqui", "km": 3, "lat": 47.1800, "lng": 11.8300, "temporada": "dic–abr", "url": "https://www.tirol.at/aktivitaeten/sport/skifahren/skigebiete/skigebiet-mayrhofner-bergbahnen", "url_tipo": "turismo_oficial", "km_aprox": true },
+        { "nombre": "Glaciar de Hintertux (esquí los 365 días, hasta 3250 m)", "tipo": "esqui", "km": 18, "lat": 47.0750, "lng": 11.6700, "temporada": "todo el año", "url": "https://www.hintertuxergletscher.at/en/highlights/highlights/", "url_tipo": "operador_oficial", "km_aprox": true },
+        { "nombre": "Nordkette (Innsbruck): freeride y Skylinepark", "tipo": "esqui", "km": 40, "lat": 47.3100, "lng": 11.3830, "temporada": "nov–abr", "url": "https://www.innsbruck.info/en/skiing/skiing-and-snowboarding/ski-resorts/nordkette.html", "url_tipo": "turismo_oficial", "km_aprox": true }
+      ],
+      "fuentes": [
+        { "guia": "Mayrhofner Bergbahnen (nota de prensa oficial)", "url": "https://mayrhofner-bergbahnen.com/fileadmin/userdaten/presseportal/Pressetexte/Texte_Winter_ALT/DE_Harakiri_Mayrhofen.pdf" },
+        { "guia": "Hintertuxer Gletscher (sitio oficial)", "url": "https://www.hintertuxergletscher.at/en/highlights/highlights/" },
+        { "guia": "Tirol Werbung (turismo oficial)", "url": "https://tyrol.com/things-to-do/sports/skiing/ski-resorts/a-hintertux-glacier" },
+        { "guia": "Tirol Werbung (turismo oficial)", "url": "https://www.tirol.at/aktivitaeten/sport/skifahren/skigebiete/skigebiet-mayrhofner-bergbahnen" }
+      ]
+    },
+    {
+      "id": "at-schladming-dachstein",
+      "nombre": "Schladming-Dachstein",
+      "pais_iso": "AT",
+      "region": "Estiria",
+      "lat": 47.3940,
+      "lng": 13.6890,
+      "tipo": "esqui",
+      "destino_propio": true,
+      "puntaje": 5,
+      "temporada": "dic–abr (esquí); may–oct (glaciar del Dachstein y Skywalk)",
+      "justificacion": "La Planai, que sale del propio Schladming, acoge cada enero The Nightrace, el eslalon nocturno de la Copa del Mundo masculina (27 y 28 de enero de 2026), y es el centro de la 4-Berge-Skischaukel, con unos 123 km de pistas dentro de Ski amadé. En el glaciar del Dachstein, a unos 10 km, están el Skywalk, el puente colgante más alto de Austria (casi 100 m, a 2700 m) y la 'escalera a la nada', 14 peldaños que acaban en una plataforma de cristal sobre el vacío.",
+      "actividades": [
+        { "nombre": "Planai y 4-Berge-Skischaukel (The Nightrace de la Copa del Mundo)", "tipo": "esqui", "km": 2, "lat": 47.3750, "lng": 13.6900, "temporada": "dic–abr", "url": "https://skiamade.com/nl/The-Nightrace-in-Schladming_e_443959", "url_tipo": "turismo_oficial", "km_aprox": true },
+        { "nombre": "Glaciar del Dachstein: puente colgante y 'escalera a la nada'", "tipo": "otro", "km": 10, "lat": 47.4720, "lng": 13.6250, "temporada": "todo el año, según meteorología", "url": "https://alt.schladming-dachstein.at/pl/serwis/a-z/Stairway-to-nothingness_az_819501", "url_tipo": "turismo_oficial", "km_aprox": true }
+      ],
+      "fuentes": [
+        { "guia": "Ski amadé (región de esquí oficial)", "url": "https://skiamade.com/nl/The-Nightrace-in-Schladming_e_443959" },
+        { "guia": "Schladming-Dachstein Tourismus", "url": "https://alt.schladming-dachstein.at/pl/serwis/a-z/Stairway-to-nothingness_az_819501" },
+        { "guia": "Schladming-Dachstein Tourismus (The Nightrace)", "url": "https://vermieter-alt.schladming-dachstein.at/en/regional-and-offerings/News/Urlaubszentrum/SD/Nightrace" },
+        { "guia": "Salzburg24 (inauguración de 2013)", "url": "https://www.salzburg24.at/news/oesterreich/haengebruecke-und-treppe-ins-nichts-am-dachstein-art-20098" }
+      ]
+    }
+  ]
 }
