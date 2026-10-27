@@ -15,9 +15,12 @@
 //   "ciudad":     ["<id>"],      // añade ciudad
 //   "no_ciudad":  ["<id>"],
 //   "por_que":    { "<id>": "2–3 frases en español" },
-//   "quitar":     ["<id>"]       // ids que no se publican (además, nunca se publica un id sin nombre,
+//   "quitar":     ["<id>"],      // ids que no se publican (además, nunca se publica un id sin nombre,
 //                                 // coordenadas, país o logística: p. ej. uno que solo aparece en puntajes)
+//   "notas":      { ... }        // se copian tal cual a curador.json (p. ej. búsquedas de guías sin resultado)
 // }
+// Fusiones: se conserva el mayor puntaje de cada criterio, salvo la logística, que es la del destino.
+// Categorías: un temático solo con puntaje ≥ 3.5; si no queda ninguno, 'ciudad' para ciudades y pueblos.
 // Los archivos de corrección (<agente>-fix<n>.json) pueden traer "fuentes_quitar": [{id, url}] y
 // "correcciones_base": [{id, lat, lng}]; se aplican después de las fusiones.
 // Se ignoran los archivos que no son salida de agente (arrays o JSON sin "agente", p. ej. pendientes-*.json).
@@ -151,8 +154,11 @@ for (const fu of aj.fusiones || []) {
     const o = lugares.get(oid);
     if (!o) { console.warn(`  fusión: origen ${oid} no existe`); continue; }
     // al fusionar dos lugares distintos se conserva el mayor puntaje final de cada criterio
-    // (la regla "ronda posterior reemplaza" solo vale dentro del mismo id)
+    // (la regla "ronda posterior reemplaza" solo vale dentro del mismo id), salvo la logística:
+    // la visita se organiza en torno al lugar principal (p. ej. el Hipogeo exige reservar con meses
+    // de antelación aunque Tarxien sea de acceso libre), así que manda la del destino si la tiene
     for (const c of CRITERIOS) if (o.puntajes[c] != null) {
+      if (c === 'logistica' && dst.puntajes.logistica != null) continue;
       dst.puntajes[c] = Math.max(dst.puntajes[c] ?? -1, o.puntajes[c]);
       (dst._ronda ??= {})[c] = Math.max(dst._ronda[c] ?? 0, o._ronda?.[c] ?? 1);
     }
@@ -230,7 +236,13 @@ for (const r of lugares.values()) {
   const tipoPlaya = r.tipos.some((t) => ['playa', 'costa'].includes(t));
   if ((tipoPlaya || playa.has(r.id)) && !noPlaya.has(r.id)) cats.push('playa');
   if ((r.tipos[0] === 'ciudad' || ciudad.has(r.id)) && !noCiudad.has(r.id)) cats.push('ciudad');
-  if (!cats.length) cats.push(TEMATICOS.reduce((a, b) => (p[b] > p[a] ? b : a)));
+  // una categoría temática solo con puntaje ≥ 3.5; si no queda ninguna, respaldo 'ciudad' para
+  // ciudades y pueblos (o lo que diga curador-ajustes); el temático máximo solo como último recurso, con aviso
+  if (!cats.length && r.tipos.some((t) => ['ciudad', 'pueblo'].includes(t)) && !noCiudad.has(r.id)) cats.push('ciudad');
+  if (!cats.length) {
+    cats.push(TEMATICOS.reduce((a, b) => (p[b] > p[a] ? b : a)));
+    console.warn(`  ${r.id}: sin categoría ≥ 3.5 ni playa/ciudad; uso ${cats[0]} (${p[cats[0]]}) — añádelo a playa/ciudad en curador-ajustes`);
+  }
 
   // fuentes: primero guías expertas, luego verificadas, luego el resto; sin duplicar url
   const vistos = new Set();
@@ -294,6 +306,7 @@ if (!seco) {
   writeFileSync(join(raiz, dirTrabajo, 'curador.json'), JSON.stringify({
     agente: 'curador', subregion, fecha, fusionados, descartados,
     conteo_por_pais: Object.fromEntries(sub.paises.map((iso) => [iso, conteo[iso] || 0])),
+    ...(aj.notas ? { notas: aj.notas } : {}),
   }, null, 2) + '\n');
 }
 console.log(`${salida.length} lugares (${archivos.length} archivos leídos) → ${rutaLugares}${seco ? ' [seco]' : ''}`);

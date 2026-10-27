@@ -1,7 +1,7 @@
 {
   "agente": "curador",
   "subregion": "iberica-italia",
-  "fecha": "2026-10-26",
+  "fecha": "2026-10-27",
   "fusionados": [
     [
       "es-oviedo",
@@ -48,12 +48,44 @@
     }
   ],
   "conteo_por_pais": {
-    "ES": 83,
-    "PT": 43,
+    "ES": 85,
+    "PT": 45,
     "IT": 91,
     "MT": 16,
     "AD": 6,
     "SM": 4,
     "VA": 6
+  },
+  "notas": {
+    "ronda": 3,
+    "busquedas_guias": "30 WebSearch en la ronda 3 del curador. Solo cuentan las páginas específicas del lugar en la web de la guía: no valen foros, fichas de librería (Rough Guides Snapshot, Bradt), contenido de pago ni menciones de segunda mano.",
+    "guias_encontradas": {
+      "it-selinunte": "2: fichas de templos en lonelyplanet.com",
+      "it-cividale-udine": "3: ficha de LP (Duomo y Museo Cristiano; LP Francia tiene la del Tempietto) y página de Rough Guides 'Cividale del Friuli and around'",
+      "it-aquileia": "1: solo aparece en el panorama regional de Rough Guides (no tiene página propia)",
+      "it-lago-de-orta": "2: página de destino de LP",
+      "it-lago-de-iseo-monte-isola": "2: artículo de LP 'Guide to Lake Iseo'",
+      "it-monti-sibillini-castelluccio": "1: artículo de viaje de la Guía Michelin (no es la Guide Vert)",
+      "es-monfrague": "2: página de destino de Frommer's",
+      "es-lugo": "2: página de Rough Guides",
+      "es-bardenas-reales": "2: artículo de Lonely Planet Francia",
+      "es-penedes": "2: artículo de Time Out (Sant Sadurní d'Anoia)"
+    },
+    "guias_sin_resultado": {
+      "it-islas-egadi": "LP y Rough Guides: sin página",
+      "it-zingaro-san-vito-lo-capo": "LP y Fodor's: sin página",
+      "it-finale-ligure": "LP: sin página; Rough Guides solo en un Snapshot de librería, que no cuenta",
+      "it-gran-sasso-campo-imperatore": "LP y Rough Guides: sin página; Bradt solo en la ficha de librería",
+      "it-riviera-del-conero": "LP: sin página",
+      "es-cartagena": "LP, Rough Guides, Fodor's y Frommer's: sin página",
+      "es-sierra-de-guara-alquezar": "LP y Rough Guides: sin página",
+      "es-noguera-pallaresa-sort": "Rough Guides: sin página (solo operadores)",
+      "pt-piodao": "LP, Rough Guides y Fodor's: sin página (un blog dice que sale en LP, pero es de segunda mano)"
+    },
+    "sin_buscar": "No se buscaron guías (agotado el límite de 30) para es-elche, es-poblet, pt-ria-formosa y pt-douro-internacional, que llegaron en los fix1 sin puntaje de guías, ni para es-skydive-empuriabrava, it-mirabilandia, it-volo-dell-angelo e it-foreste-casentinesi. Todos quedan con guias 0 hasta que guias-expertas los puntúe.",
+    "logistica_fix1b": "logistica-temporada-fix1b.json lo escribió el curador: es la logística mínima de los cuatro lugares nuevos y cita fuentes que ya están en el proyecto.",
+    "fusiones_logistica": "En las fusiones manda la logística del lugar principal (mt-hipogeo-hal-saflieni: 3, por la reserva con meses de antelación), no la máxima.",
+    "categorias": "Un temático solo con puntaje ≥ 3.5. Las torres de San Marino y los Jardines Vaticanos llevan 'ciudad' de respaldo porque están en el casco de la capital. Ni 'ciudad' ni 'playa' encajan en es-terra-mitica (parque temático), mt-acantilados-dingli (acantilado sin playa) ni it-lago-de-iseo-monte-isola (lago), así que el script les pone su mejor temático (adrenalina 3, naturaleza 3 y naturaleza 3) con aviso: es la única salida mientras exista la regla de 'al menos una categoría'.",
+    "por_que": "Ronda 3: se reescribieron los textos que citaban actividades sin documentar en adrenalina_cerca (rafting en Paestum, body rafting en Taormina, esquí en el Etna, rafting y barranquismo en Aosta, escalada y barranquismo en Orosei, escalada y ferratas en Garda y Dolomitas, escaladores en Priorat, barranquismo en la Garganta Verde), el teleférico del Mottarone en el Lago Maggiore (cerró tras el accidente de 2021 y no hay fuente de que haya reabierto) y el aviso de es-terra-mitica (pasa a alerta). Datos al día: Villa Crespi con 3 estrellas y Fátima con más de 450.000 fieles en mayo de 2024. Se añadieron textos para es-elche, es-poblet, pt-ria-formosa y pt-douro-internacional."
   }
 }

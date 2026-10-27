@@ -1,7 +1,7 @@
 {
   "pausado": false,
   "subregion": "iberica-italia",
-  "paso": "curador",
+  "paso": "revisor",
   "ronda": 1,
   "orden_subregiones": [
     "iberica-italia",
@@ -12,7 +12,7 @@
     "este-caucaso-turquia"
   ],
   "terminadas": [],
-  "notas": "Revisor ronda 1 sobre iberica-italia (249 lugares). Agentes con nota <9.5 se re-ejecutan con comentarios (max 3 rondas). No recortar países por superar 30.",
+  "notas": "Revisor ronda 2 sobre iberica-italia (253 lugares). Si un lugar no tiene tema ≥3.5, se acepta la categoría de su mejor tema (Terra Mítica, Dingli, Iseo). Agentes <9.5 → correcciones fix2 (ronda 5). Tras ronda 3 del revisor, países <9.5 quedan revision_pendiente.",
   "historial": [
     {
       "fecha": "2026-10-26",
@@ -73,7 +73,13 @@
       "subregion": "iberica-italia",
       "paso": "correcciones",
       "resultado": "6 archivos fix1 (ronda 4): fuentes específicas, puntajes coherentes, Villa Crespi 3★, regla única de adrenalina, coordenadas Arouca. Siguiente: curador + revisor ronda 2"
+    },
+    {
+      "fecha": "2026-10-27",
+      "subregion": "iberica-italia",
+      "paso": "curador",
+      "resultado": "Ronda 3: 253 lugares (ES 85, PT 45, IT 91, MT 16, AD 6, SM 4, VA 6); 36 cambios de nivel; validador sin errores; republicado"
     }
   ],
-  "ronda_revisor": 1
+  "ronda_revisor": 2
 }

@@ -1,0 +1,61 @@
+{
+  "agente": "logistica-temporada",
+  "subregion": "iberica-italia",
+  "ronda": 4,
+  "fecha_consulta": "2026-10-27",
+  "nota": "Logística mínima que escribió el curador para los cuatro lugares nuevos de los archivos fix1 (es-elche y es-poblet de cultura-historia; pt-ria-formosa y pt-douro-internacional de naturaleza), que el agente logistica-temporada no llegó a cubrir. Sin búsquedas nuevas: se citan fuentes que ya están en el proyecto (fichas UNESCO y VisitPortugal de los agentes temáticos, y los avisos de viaje de ES y PT de logistica-temporada-a.json). Ningún aviso nacional pasa de 'precauciones normales' en ES ni PT. Conviene que logistica-temporada lo revise en su próxima ronda.",
+  "logistica": [
+    {
+      "id": "es-elche",
+      "puntaje": 5,
+      "mejor_epoca": [3, 4, 5, 6, 9, 10, 11],
+      "dias_sugeridos": 1,
+      "costo": "$$",
+      "acceso": "El aeropuerto de Alicante-Elche está a unos 10 km. Hay Cercanías desde Alicante y Murcia, y el Palmeral y el Huerto del Cura se recorren a pie desde el centro.",
+      "alerta": "En julio y agosto hace mucho calor; el Misteri d'Elx de agosto llena la ciudad.",
+      "fuentes": [
+        { "guia": "UNESCO (Palmeral de Elche)", "url": "https://whc.unesco.org/en/list/930/documents" },
+        { "guia": "UK FCDO (aviso de viaje de España)", "url": "https://www.gov.uk/foreign-travel-advice/spain/safety-and-security" }
+      ]
+    },
+    {
+      "id": "es-poblet",
+      "puntaje": 4,
+      "mejor_epoca": [3, 4, 5, 6, 9, 10, 11],
+      "dias_sugeridos": 1,
+      "costo": "$",
+      "acceso": "En coche, a unos 45 min de Tarragona. Otra opción es el tren regional a L'Espluga de Francolí y unos 3 km a pie hasta el monasterio. Se puede combinar con Santes Creus en la Ruta del Císter.",
+      "alerta": "El monasterio sigue habitado por monjes: las visitas tienen horario restringido y parte del recinto está cerrada al público.",
+      "fuentes": [
+        { "guia": "UNESCO (Monasterio de Poblet)", "url": "https://whc.unesco.org/en/list/518" },
+        { "guia": "UK FCDO (aviso de viaje de España)", "url": "https://www.gov.uk/foreign-travel-advice/spain/safety-and-security" }
+      ]
+    },
+    {
+      "id": "pt-ria-formosa",
+      "puntaje": 5,
+      "mejor_epoca": [3, 4, 5, 6, 9, 10],
+      "dias_sugeridos": 1,
+      "costo": "$$",
+      "acceso": "Tren regional de Faro a Olhão (unos 10 min). Desde el muelle de Olhão salen barcos a Culatra y Armona, con menos frecuencia en invierno. El Centro de Educação Ambiental de Marim está a las afueras de Olhão.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "VisitPortugal (oficial)", "url": "https://www.visitportugal.com/pt-pt/content/parque-natural-da-ria-formosa" },
+        { "guia": "UK FCDO (aviso de viaje de Portugal)", "url": "https://www.gov.uk/foreign-travel-advice/portugal" }
+      ]
+    },
+    {
+      "id": "pt-douro-internacional",
+      "puntaje": 3,
+      "mejor_epoca": [2, 3, 4, 5, 6, 9, 10],
+      "dias_sugeridos": 2,
+      "costo": "$",
+      "acceso": "Hace falta coche: Miranda do Douro está a cerca de 1 h de Bragança y de Zamora. Los miradores de las arribas y el crucero ambiental por el cañón salen de Miranda do Douro.",
+      "alerta": "El transporte público es escaso y en julio y agosto hace mucho calor en las arribas. Los almendros florecen en febrero y marzo.",
+      "fuentes": [
+        { "guia": "VisitPortugal (oficial)", "url": "https://www.visitportugal.com/pt-pt/content/parque-natural-do-douro-internacional" },
+        { "guia": "UK FCDO (aviso de viaje de Portugal)", "url": "https://www.gov.uk/foreign-travel-advice/portugal" }
+      ]
+    }
+  ]
+}
