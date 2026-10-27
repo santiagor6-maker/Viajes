@@ -214,6 +214,7 @@ a { color: var(--accent); }
 .barra .riel i { display: block; height: 100%; background: color-mix(in srgb, var(--accent) 55%, var(--surface)); border-radius: 99px; }
 .barra.mejor .riel i { background: var(--accent); }
 .barra.mejor span:first-child { font-weight: 700; }
+.barra.sin-eval span:first-child, .barra.sin-eval b { color: var(--muted); }
 .barra b { font-family: var(--f-mono); font-weight: 500; text-align: right; font-variant-numeric: tabular-nums; }
 .meses { display: grid; grid-template-columns: repeat(12, 1fr); gap: 3px; }
 .meses span { text-align: center; font-size: 10.5px; padding: 5px 0; border-radius: 5px; background: var(--surface-2); color: var(--muted); font-weight: 600; }
@@ -735,7 +736,10 @@ function vistaLugar() {
     ${controlesEstado(m)}
     <p class="por-que">${esc(l.por_que)}</p>`;
   if (l.alerta) h += `<div class="alerta"><b>Aviso:</b> ${esc(l.alerta)}</div>`;
-  h += `<div class="grupo"><h3>Puntajes</h3><div class="barras">${CRIT.map(([k, t]) => `<div class="barra ${TEMATICOS.includes(k) && l.puntajes[k] === mejor ? 'mejor' : ''}"><span>${t}</span><span class="riel"><i style="width:${(l.puntajes[k] / 5) * 100}%"></i></span><b>${fmt1(l.puntajes[k])}</b></div>`).join('')}</div></div>
+  const sinEval = new Set(l.sin_evaluar || []);
+  h += `<div class="grupo"><h3>Puntajes</h3><div class="barras">${CRIT.map(([k, t]) => sinEval.has(k)
+    ? `<div class="barra sin-eval"><span>${t}</span><span class="riel"></span><b title="Ningún agente evaluó este criterio todavía">—</b></div>`
+    : `<div class="barra ${TEMATICOS.includes(k) && l.puntajes[k] === mejor ? 'mejor' : ''}"><span>${t}</span><span class="riel"><i style="width:${(l.puntajes[k] / 5) * 100}%"></i></span><b>${fmt1(l.puntajes[k])}</b></div>`).join('')}</div>${sinEval.size ? '<span class="sub">— = sin evaluar todavía</span>' : ''}</div>
     <div class="grupo"><h3>Mejor época</h3><div class="meses" role="img" aria-label="Mejores meses: ${l.mejor_epoca.map((x) => MESES_L[x - 1]).join(', ')}">${MESES.map((t, i) => `<span class="${l.mejor_epoca.includes(i + 1) ? 'si' : ''}">${t[0]}</span>`).join('')}</div></div>
     <dl class="datos"><div><dt>Días sugeridos</dt><dd>${l.dias_sugeridos} ${l.dias_sugeridos === 1 ? 'día' : 'días'}</dd></div><div><dt>Costo</dt><dd>${esc(l.costo)}</dd></div>
     ${l.acceso ? `<div style="grid-column:1/-1"><dt>Cómo llegar</dt><dd style="font-weight:500">${esc(l.acceso)}</dd></div>` : ''}</dl>`;

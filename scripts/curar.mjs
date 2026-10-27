@@ -121,7 +121,7 @@ for (const { f, d } of entradas) {
     if (e.destino_propio) r.destino_propio = true;
     for (const p of e.platos || []) if (!r.platos.includes(p)) r.platos.push(p);
     for (const s of e.fuentes || []) if (s?.url) r.fuentes.push({ ...limpiarFuente(s), _g: esGuias ? 1 : 0 });
-    for (const a of e.actividades || []) r.actividades.push(a);
+    for (const a of e.actividades || []) r.actividades.push({ ...a, _ronda: d.ronda || 1 });
     if (crit === 'logistica') {
       for (const k of ['mejor_epoca', 'dias_sugeridos', 'costo', 'acceso', 'alerta']) if (e[k] !== undefined) r[k] = e[k];
       if (e.temporada && !r.temporada) r.temporada = e.temporada;
@@ -176,6 +176,9 @@ for (const fu of aj.fusiones || []) {
   }
   for (const k of ['nombre', 'lat', 'lng', 'region']) if (fu[k] != null) dst[k] = fu[k];
 }
+// una URL que un agente pidió quitar tampoco vale como actividad de adrenalina de ningún lugar
+const urlsQuitadas = new Set(fuentesQuitar.map((q) => q.url));
+const RADIO_KM = criterios.criterios.adrenalina.radio_km;
 // un id fusionado apunta a su destino
 const destinoDe = new Map(fusionados.map(([dst, o]) => [o, dst]));
 const lugarDe = (id) => lugares.get(id) || lugares.get(destinoDe.get(id));
@@ -224,6 +227,8 @@ for (const r of lugares.values()) {
   if (falta.length) { sinBase.push(`${r.id} (falta ${falta.join(', ')})`); continue; }
   if (!paisesSub.has(r.pais_iso)) { console.warn(`  ${r.id}: pais_iso ${r.pais_iso} fuera de la subregión, lo ignoro`); continue; }
   const p = Object.fromEntries(CRITERIOS.map((c) => [c, Math.max(0, r.puntajes[c] ?? 0)]));
+  // criterios que ningún agente puntuó: cuentan como 0 en la fórmula, pero la app los muestra "sin evaluar"
+  const sinEvaluar = CRITERIOS.filter((c) => r.puntajes[c] == null);
   const mejor = Math.max(...TEMATICOS.map((t) => p[t]));
   const global = redondear(f.guias * p.guias + f.mejor_tematico * mejor + f.logistica * p.logistica);
   if (global < criterios.descartar_bajo) {
@@ -252,16 +257,20 @@ for (const r of lugares.values()) {
     .filter((s) => /^https?:\/\/\S+\.\S+/.test(s.url) && !vistos.has(s.url) && vistos.add(s.url))
     .map(({ guia, url }) => ({ guia, url }));
 
-  // adrenalina cerca: km recalculado desde el lugar si hubo fusión; sin duplicados
-  const acts = new Map();
+  // adrenalina cerca: km siempre recalculado desde las coordenadas finales del lugar, solo dentro del
+  // radio, sin URLs que algún agente pidió quitar y sin duplicados (mismo nombre o a < 1,5 km); entre
+  // duplicados gana la ronda más reciente
+  const acts = [];
   for (const a of r.actividades) {
-    if (!a?.nombre || !/^https?:\/\//.test(a.url || '')) continue;
-    const kmA = r.fusion && typeof a.lat === 'number' ? Math.round(km(r, a)) : a.km;
-    const prev = acts.get(a.nombre);
-    if (!prev || kmA < prev.km)
-      acts.set(a.nombre, { nombre: a.nombre, tipo: a.tipo, km: kmA, lat: a.lat, lng: a.lng, ...(a.temporada ? { temporada: a.temporada } : {}), url: a.url });
+    if (!a?.nombre || !/^https?:\/\//.test(a.url || '') || urlsQuitadas.has(a.url)) continue;
+    const kmA = typeof a.lat === 'number' && typeof a.lng === 'number' ? Math.round(km(r, a)) : a.km;
+    if (typeof kmA !== 'number' || kmA > RADIO_KM) continue;
+    const act = { nombre: a.nombre, tipo: a.tipo, km: kmA, lat: a.lat, lng: a.lng, ...(a.temporada ? { temporada: a.temporada } : {}), url: a.url, _ronda: a._ronda };
+    const i = acts.findIndex((b) => norm(b.nombre) === norm(act.nombre) || (typeof b.lat === 'number' && typeof act.lat === 'number' && km(b, act) < 1.5));
+    if (i < 0) acts.push(act);
+    else if (act._ronda > acts[i]._ronda || (act._ronda === acts[i]._ronda && act.km < acts[i].km)) acts[i] = act;
   }
-  const adrenalina_cerca = [...acts.values()].sort((a, b) => a.km - b.km);
+  const adrenalina_cerca = acts.sort((a, b) => a.km - b.km).map(({ _ronda, ...a }) => a);
 
   const porQue = aj.por_que?.[r.id];
   if (!porQue) sinPorQue.push(r.id);
@@ -276,6 +285,7 @@ for (const r of lugares.values()) {
     lng: r.lng,
     categorias: cats,
     puntajes: p,
+    ...(sinEvaluar.length ? { sin_evaluar: sinEvaluar } : {}),
     global,
     nivel,
     mejor_epoca: r.mejor_epoca,
