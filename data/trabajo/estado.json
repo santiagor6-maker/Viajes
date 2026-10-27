@@ -1,7 +1,7 @@
 {
   "pausado": false,
   "subregion": "francia-alpes",
-  "paso": "curador",
+  "paso": "cobertura",
   "ronda": 1,
   "orden_subregiones": [
     "iberica-italia",
@@ -111,6 +111,12 @@
       "subregion": "francia-alpes",
       "paso": "publicar",
       "resultado": "Prioridad del usuario: Francia publicada antes del revisor (65 lugares: 31 imprescindibles, 31 muy recomendados, 3 si hay tiempo; 65 por_que, 22 puntajes de guías nuevos). Falta curador manual de MC/BE/NL/LU/CH/AT/LI."
+    },
+    {
+      "fecha": "2026-10-27",
+      "subregion": "francia-alpes",
+      "paso": "curador",
+      "resultado": "215 lugares (FR 65, MC 5, BE 25, NL 30, LU 8, CH 39, AT 40, LI 3); 1 fusión (Echternach+Mullerthal), 3 descartes; 31 puntajes de guías nuevos; validador sin errores; publicado como en revisión"
     }
   ],
   "ronda_revisor": 0,

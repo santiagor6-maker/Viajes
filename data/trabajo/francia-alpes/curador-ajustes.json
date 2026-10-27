@@ -413,7 +413,7 @@
       "fuentes": [
         {
           "guia": "Lonely Planet",
-          "url": "https://www.nonprod.lonelyplanet.com/points-of-interest/foret-de-soignes/1262118"
+          "url": "https://www.lonelyplanet.com/points-of-interest/foret-de-soignes/1262118"
         }
       ]
     },
@@ -469,8 +469,13 @@
       ]
     },
     "ch-st-gallen": {
-      "puntaje": 0,
-      "fuentes": []
+      "puntaje": 2,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/points-of-interest/stiftsbibliothek/1116274"
+        }
+      ]
     },
     "ch-mustair": {
       "puntaje": 0,
@@ -499,6 +504,89 @@
     "ch-monte-tamaro": {
       "puntaje": 0,
       "fuentes": []
+    },
+    "at-admont": {
+      "puntaje": 2,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet (edición francesa)",
+          "url": "https://www.lonelyplanet.fr/destinations/europe/autriche/que-faire/abbaye-benedictine-dadmont"
+        }
+      ]
+    },
+    "at-semmering": {
+      "puntaje": 2,
+      "fuentes": [
+        {
+          "guia": "Rough Guides",
+          "url": "https://roughguides.com/articles/defying-gravity-on-the-semmering-railway-austria"
+        }
+      ]
+    },
+    "at-donau-auen": {
+      "puntaje": 2,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/austria/march-donauland/attractions/nationalpark-donau-auen/a/poi-sig/1113738/1334173"
+        }
+      ]
+    },
+    "at-liechtensteinklamm": {
+      "puntaje": 2,
+      "fuentes": [
+        {
+          "guia": "Frommer's",
+          "url": "https://www.frommers.com/destinations/st-johann-im-pongau/things-to-do/"
+        }
+      ]
+    },
+    "at-achensee": {
+      "puntaje": 1,
+      "fuentes": [
+        {
+          "guia": "AFAR",
+          "url": "https://www.afar.com/places/lake-achensee-achenkirch"
+        }
+      ]
+    },
+    "at-area-47": {
+      "puntaje": 1,
+      "fuentes": [
+        {
+          "guia": "AAA",
+          "url": "https://www.aaa.com/tripcanvas/attraction/area-47-VA27900"
+        }
+      ]
+    },
+    "at-carnuntum": {
+      "puntaje": 0,
+      "fuentes": []
+    },
+    "at-kamptal-langenlois": {
+      "puntaje": 0,
+      "fuentes": []
+    },
+    "at-vulkanland-riegersburg": {
+      "puntaje": 0,
+      "fuentes": []
+    },
+    "at-familypark-neusiedlersee": {
+      "puntaje": 0,
+      "fuentes": []
+    },
+    "li-fuerstensteig": {
+      "puntaje": 0,
+      "fuentes": []
+    },
+    "nl-efteling": {
+      "puntaje": 2,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet (Top Choice)",
+          "url": "https://www.lonelyplanet.com/pois/1128436"
+        }
+      ]
     }
   },
   "lugares": {},
@@ -755,6 +843,60 @@
         "be-bosque-de-soignes/be-bruselas": "Unos 10 km. Es un espacio natural UNESCO con acceso propio y el agente de naturaleza lo propuso aparte, como Fontainebleau en Francia.",
         "be-waterloo/be-bruselas": "Unos 20 km, por encima del umbral."
       }
+    },
+    "ALPES_BENELUX_guias": {
+      "busqueda": "30 WebSearch (de 30) para los 31 lugares no franceses que no propuso guias-expertas (algunos agrupados en una sola búsqueda). Solo se usan URL que aparecieron en los resultados. Se excluyen foros (Rick Steves community), agregadores (Expedia, Sygic, Wikivoyage), turismo oficial (MySwitzerland, austria.info, Visit Flanders) y operadores. Escala de criterios.json: 1 = mención menor (AAA, AFAR); 2 = una guía (Lonely Planet, Frommer's, Rough Guides); 3 = dos guías.",
+      "con_fuente": {
+        "be-tournai": "3: capítulo Western Wallonia de Lonely Planet (PDF de muestra de la guía Belgium & Luxembourg) y ficha del campanario en ViaMichelin.",
+        "be-mons": "2: Lonely Planet Francia (solo la ficha del Musée du Doudou) y AAA. No llega a 3 porque ninguna es ficha de la ciudad en una guía mayor.",
+        "be-bosque-de-soignes": "2: ficha de Lonely Planet, aunque solo apareció en el dominio nonprod.lonelyplanet.com.",
+        "nl-naarden": "2: Frommer's (Castle Country, Holanda Septentrional).",
+        "nl-parque-nacional-biesbosch": "2: ficha de Lonely Planet. Con eso pasa de 1,8 a 2,6 y deja de estar descartado; se le escribió por_que.",
+        "nl-efteling": "2: ficha Top Choice de Lonely Planet, pero solo apareció en un espejo (www-lonelyplanet-com-57e2.imagizer.com/pois/1128436). Conviene sustituirla por la URL canónica de lonelyplanet.com cuando se pueda verificar.",
+        "ch-augusta-raurica": "2: Lonely Planet (Top Choice y ficha del Römermuseum).",
+        "ch-st-gallen": "2: ficha de Lonely Planet de la Stiftsbibliothek en nonprod.lonelyplanet.com. En una primera búsqueda Lonely Planet asociaba el texto a una URL de Constanza que no correspondía, y no se usó. Rick Steves y Fodor's no aparecieron.",
+        "at-admont": "2: Lonely Planet Francia.",
+        "at-semmering": "2: artículo de Rough Guides.",
+        "at-donau-auen": "2: ficha de Lonely Planet.",
+        "at-liechtensteinklamm": "2: Frommer's (St. Johann im Pongau, la llama la garganta más espectacular de los Alpes orientales).",
+        "at-achensee": "1: solo AFAR, que no está en la lista de guías de criterios.json; queda como mención menor.",
+        "at-area-47": "1: solo la ficha de AAA."
+      },
+      "sin_fuente": {
+        "be-pajottenland": "Solo turismo oficial, Wikipedia y prensa cervecera. 0.",
+        "nl-schokland": "Ninguna guía; sigue descartado (1,8).",
+        "nl-beemster": "Ninguna guía (Sygic/Wikivoyage, iamexpat). 0; global 2,0, en el límite.",
+        "nl-yerseke": "Solo turismo de Zelanda y blogs. 0.",
+        "nl-walibi-holland": "Solo blogs y hoteles. 0.",
+        "ch-mustair": "Solo UNESCO y turismo regional. 0.",
+        "ch-la-chaux-de-fonds": "Solo turismo del Jura y MySwitzerland. 0.",
+        "ch-oeschinensee": "Solo agregadores y blogs. 0.",
+        "ch-valais-sion-vinos": "Solo productores, Falstaff y la interprofesión. 0.",
+        "ch-buendner-herrschaft": "Solo turismo de los Grisones y MySwitzerland. 0.",
+        "ch-sardona": "Solo Correos suizos, swissinfo y webs de patrimonio. 0.",
+        "ch-monte-tamaro": "Solo MySwitzerland y archivos de arquitectura. 0.",
+        "at-carnuntum": "Solo austria.info y reservas de entradas. 0.",
+        "at-kamptal-langenlois": "Solo Expedia y hoteles. 0.",
+        "at-vulkanland-riegersburg": "Solo wikis de estudiantes y blogs. 0.",
+        "at-familypark-neusiedlersee": "Búsqueda compartida con AREA 47; sin resultados. 0.",
+        "li-fuerstensteig": "Solo MySwitzerland, Komoot y Hikr. 0; sigue descartado (1,8)."
+      },
+      "liechtenstein": "Quedan 3 lugares publicados (Vaduz, Malbun y Triesenberg). El castillo de Gutenberg (guías 1, mejor temático 2) y el Fürstensteig (guías 0) siguen por debajo de 2,0. No se les inflaron los puntajes sin fuente; el Fürstensteig ya figura en el por_que de Triesenberg y Malbun."
+    },
+    "ALPES_categorias": {
+      "ciudad": "Se añade ciudad a Leeuwarden, Middelburg, Klosters, Mauthausen, Millstatt y Malbun, que son ciudades o pueblos. No se añade al Pólder de Beemster, la ruina de Bourscheid, la abadía de Villers, Keukenhof, el Jardín Exótico, Hochosterwitz, Augusta Raurica ni el Donau-Auen: son paisajes, monumentos o espacios naturales y conservan el temático de mayor puntaje.",
+      "playa": "Se añade playa al Wörthersee por sus playas públicas de baño (Time Out y Frommer's).",
+      "sin_fusion": {
+        "at-innsbruck/at-hall-in-tirol": "9 km. Es una ciudad propia, con el mayor casco antiguo del Tirol, y Rick Steves la propone como base alternativa.",
+        "at-gesause/at-admont": "Unos 12 km. Abadía y parque nacional son visitas distintas, y el agente de naturaleza puntuó Admont aparte.",
+        "at-st-anton/at-lech-zurs": "13 km. Son pueblos y accesos distintos de Ski Arlberg.",
+        "ch-lugano/ch-monte-tamaro": "13 km. Es un destino propio de adrenalina con telecabina desde Rivera.",
+        "ch-locarno-ascona/ch-valle-verzasca": "Unos 10 km. Es un valle con pueblos y acceso propios.",
+        "ch-interlaken/ch-lauterbrunnen": "Unos 10 km. Valle y base turística son destinos separados en todas las guías.",
+        "at-neusiedler-see/at-familypark-neusiedlersee": "12 km. Es un parque con destino propio.",
+        "at-carnuntum/at-donau-auen": "Unos 15 km. Son un parque arqueológico y un parque nacional."
+      },
+      "coordenadas": "Se revisaron las coordenadas de los lugares no franceses frente al nombre y la región; no hubo que corregir ninguna."
     }
   }
 }
