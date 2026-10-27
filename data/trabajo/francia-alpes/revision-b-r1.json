@@ -1,0 +1,60 @@
+{
+  "subregion": "francia-alpes",
+  "grupo": "b",
+  "ronda": 1,
+  "fecha": "2026-10-27",
+  "estado": "provisional: falta la verificación de URLs con WebSearch",
+  "alcance": "CH, AT, LI. Archivos: guias-expertas-b, -r3; cultura-historia-b, -r2, -r3; naturaleza-b, -r2, -r3; gastronomia-vino-b, -r2, -r3; adrenalina-b, -r2, -r3; logistica-temporada-b, -r3; curador.json, curador-ajustes.json y los 90 lugares CH/AT/LI de data/lugares/europa.json.",
+  "agentes": {
+    "guias-expertas": {
+      "nota": 8.0,
+      "aprobado": false,
+      "comentarios": [
+        "provisional"
+      ]
+    },
+    "cultura-historia": {
+      "nota": 8.0,
+      "aprobado": false,
+      "comentarios": [
+        "provisional"
+      ]
+    },
+    "naturaleza": {
+      "nota": 7.5,
+      "aprobado": false,
+      "comentarios": [
+        "provisional"
+      ]
+    },
+    "gastronomia-vino": {
+      "nota": 8.0,
+      "aprobado": false,
+      "comentarios": [
+        "provisional"
+      ]
+    },
+    "adrenalina": {
+      "nota": 6.5,
+      "aprobado": false,
+      "comentarios": [
+        "provisional: falta propagar las actividades nuevas de r3 a los vecinos a menos de 60 km (Hallstatt, Bad Ischl, Sion, Gruyères, Montreux, Klosters...)"
+      ]
+    },
+    "logistica-temporada": {
+      "nota": 8.0,
+      "aprobado": false,
+      "comentarios": [
+        "provisional"
+      ]
+    },
+    "curador": {
+      "nota": 7.5,
+      "aprobado": false,
+      "comentarios": [
+        "provisional"
+      ]
+    }
+  },
+  "paises": {}
+}

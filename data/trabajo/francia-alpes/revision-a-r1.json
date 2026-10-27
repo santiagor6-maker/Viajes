@@ -1,0 +1,175 @@
+{
+  "subregion": "francia-alpes",
+  "grupo": "a",
+  "ronda": 1,
+  "fecha": "2026-10-27",
+  "nota_alcance": "Revisión de FR (86 lugares), MC (5), BE (27), NL (32) y LU (11): archivos -a, -r2 y -r3 de cada especialista (solo ids de FR/MC/BE/NL/LU), curador.json, curador-ajustes.json y los 161 lugares finales de data/lugares/europa.json. CH, AT y LI los revisa otro revisor. WebFetch está bloqueado (boutique.laventure.michelin.com no resuelve), así que una URL cuenta como verificada si WebSearch muestra esa página o la misma ruta. Se usaron 41 WebSearch. Comprobaciones automáticas en los 161 lugares: la fórmula global y el nivel están bien en todos, los km de adrenalina_cerca coinciden con las coordenadas (ninguno a más de 60 km) y las categorías siguen la regla de 3.5 (las excepciones son lugares sin temático de 4 o más, que reciben el temático más alto por defecto). Spot-check de coordenadas correcto en be-amberes, fr-castillos-cataros (Peyrepertuse), fr-parque-nacional-mercantour (Tende), fr-cote-opale (Cap Gris-Nez), nl-islas-wadden (Terschelling), lu-bourscheid y mc-larvotto.",
+  "criterio_fuentes_cruzadas": "Citar una URL que encontró otro agente ('fuente de <agente>-r3') se acepta solo si la página respalda el dato concreto de ese campo y el agente que la reutiliza la ha leído. Sirve, por ejemplo, la ficha de Visit Luxembourg de Fond-de-Gras en lu-minett o la página de Tourisme Stavelot en be-coo-ambleve. No sirve como fuente de 'acceso' el informe IGEDD 016144-01 sobre la renovación del label Grand Site des Deux-Caps (fr-cote-opale), porque no trata de transporte, ni el dossier de prensa de Chantilly-Senlis de 2021 para horarios de 2026. Tampoco cuenta como verificación independiente: si la URL de origen falla, fallan los dos agentes.",
+  "agentes": {
+    "guias-expertas": {
+      "nota": 7.0,
+      "desglose": {
+        "fuentes": 1.5,
+        "exactitud": 1.5,
+        "criterio": 1.5,
+        "coherencia": 1.0,
+        "descripcion": 1.5
+      },
+      "aprobado": false,
+      "comentarios": [
+        "Alcance revisado: guias-expertas-a.json (102 candidatos) y guias-expertas-r3.json (ids de FR/MC/BE/NL/LU). Búsquedas: 9 URLs. Confirmadas 8: timeout.com/france/things-to-do/best-places-to-visit-in-france (Marsella 2.ª, Lyon 5.ª, Annecy 17.ª), fodors.com/news/where-to-go-in-belgium-6099 ('Belgium Beyond Brussels', aunque tiene unos diez años), la ficha de Fodor's de las Ardenas luxemburguesas (Château de Vianden es Fodor's Choice), lonelyplanet.com/points-of-interest/efteling/1128436, lonelyplanet.com/articles/first-time-france-where-to-go-and-what-to-do, lonelyplanet.com/articles/the-best-day-trips-from-paris, y las fichas de Michelin guide-vert-languedoc-ebook (Gorges du Tarn***, Pont du Gard***, Arènes de Nîmes***) y guide-vert-normandie-vallee-de-seine-ebook (Honfleur y Étretat ***). No confirmada 1: roughguides.com/liberation-route-europe/belgium-luxembourg/luxembourg/ (solo aparece el libro en librerías); es una de las tres guías de lu-vianden: sustitúyela o baja Vianden a 3.",
+        "Las fichas del Guide Vert en boutique.laventure.michelin.com sí listan los sitios ★★★, así que se aceptan como prueba. Ojo: la ficha nueva guide-vert-languedoc-ebook-2 ya no nombra el Pont du Gard; cita la ficha que lo lista o añade otra prueba del ★★★ para fr-pont-du-gard.",
+        "Regla del 5 mal aplicada. fr-honfleur sube de 2 a 5 con el ★★★ de Michelin más Rick Steves, que solo lo llama 'cozy port town' en su ruta de 3 semanas: eso no es un top pick, así que con Michelin ★★★ y LP le corresponde 4. fr-bayeux-playas-desembarco sube a 5 con un ★★★ que el Guide Vert Plages du Débarquement da al Cementerio Americano y al Memorial de Caen (a 30 km), no a Bayeux: baja a 4 o prueba el ★★★ del propio lugar. be-pairi-daiza tiene 5 con Michelin ★★★ más la lista de atracciones de Valonia de LP, que tampoco es un top pick: 4. fr-chantilly lleva 4 aunque la propia justificación dice 'solo dos con contenido confirmado'; con dos guías es un 3, salvo que confirmes Fodor's y Time Out. fr-roquefort-millau tiene 4 con dos guías y un ★★★ que es del viaducto de Millau, no de Roquefort: 3.",
+        "Coherencia entre lugares: con lo anterior, Honfleur, Bayeux y Pairi Daiza (5) quedan por encima de fr-mont-saint-michel (4), fr-versalles (4), fr-carcasona (4) y fr-valle-del-loira (4), que salen en todas las guías. Para Mont-Saint-Michel, Versalles y Carcasona, busca la cuarta guía con top pick (Fodor's, Time Out, NatGeo, Frommer's) o la ficha Michelin con ★★★ de cada uno, y súbelos a 5. Pasa lo mismo con NL: nl-delft, nl-haarlem y nl-la-haya (5) no pueden quedar por encima de Versalles.",
+        "Puntajes que contradicen tus propias fuentes. fr-etretat tiene 2 (solo Time Out), pero la ficha Michelin que citas para Honfleur pone los acantilados de Étretat entre sus ★★★: con Time Out más el ★★★ le corresponde 4 o 5. fr-nimes tiene 2 y cita solo Michelin, cuya ficha lista Arènes de Nîmes***: busca una segunda guía (Rick Steves la cubre en Provenza) y recalcula.",
+        "Coordenadas con 2 decimales: fr-gorges-du-verdon (lng 6.35), fr-beaune-cote-dor (lng 4.84), mc-monaco-ville (lng 7.42) y nl-giethoorn (lat 52.74). Da un punto concreto con 4 decimales; para el Verdon sirve el Point Sublime.",
+        "Texto: quita de las justificaciones las notas internas como 'No encontré una página que confirme el ★★★ Michelin' (fr-mont-saint-michel), 'Sube de 2 a 5' o 'Puntaje conservador'; el razonamiento del puntaje va en notas."
+      ]
+    },
+    "cultura-historia": {
+      "nota": 7.0,
+      "desglose": {
+        "fuentes": 1.5,
+        "exactitud": 1.5,
+        "criterio": 1.5,
+        "coherencia": 1.0,
+        "descripcion": 1.5
+      },
+      "aprobado": false,
+      "comentarios": [
+        "Alcance revisado: cultura-historia-a.json, -r2.json y -r3.json (ids de FR/MC/BE/NL/LU). Lo bueno: todos los puntajes de 3 o más tienen fuente, y la UNESCO se cita con la ficha del sitio, no con la lista del país (lección aprendida). Búsquedas: 4 URLs. Confirmadas 3: whc.unesco.org/en/list/1725 (megalitos de Carnac, inscritos en 2025), mauritshuis.nl/media/ubzbp2w2/travel-trade-mauritshuis-the-hague.pdf y anwb.nl/wandelen/routes/den-bosch-stadswandeling. No confirmada 1: us.media.france.fr/en/node/395 (fr-eze-saint-paul); sustitúyela por cotedazurfrance.fr/decouvrir/villages/villages-perches/ o por france.fr.",
+        "Error de dato: fr-bayeux-playas-desembarco tiene unesco:false, pero las playas del Desembarco (Utah, Omaha, Gold, Juno, Sword y la Pointe du Hoc) entraron en el Patrimonio Mundial el 26 de julio de 2026, en la 48.ª sesión de Busan. Es la misma sesión de la que citas el bien 1755 de los castillos cátaros. Pon unesco:true, cita la ficha de whc.unesco.org y revisa el puntaje: Verdun tiene 4, y Bayeux suma ahora el tapiz, la catedral y un sitio Patrimonio Mundial, así que le corresponde 5.",
+        "be-ypres-flanders-fields cita solo el campanario (whc 943). El motivo principal de la visita son los sitios funerarios y de memoria de la Primera Guerra Mundial (whc 1567, inscritos en 2023), que también aplicas a fr-verdun: añade esa ficha.",
+        "Puntajes frenados por no haber buscado: en r2, nl-maastricht, lu-vianden, lu-echternach y be-abadia-villers dicen 'Sigue en 2 porque no encontré una fuente específica dentro del presupuesto de búsquedas'. Eso no es un criterio de puntuación. Búscales una fuente: visitluxembourg.com o vianden-castle.lu para Vianden; la ficha ich.unesco.org de la procesión danzante de Echternach (Patrimonio Inmaterial desde 2010); visitmaastricht.com o la basílica de San Servacio para Maastricht; villers.be para Villers. Luego puntúa: Vianden, el castillo más visitado del país, no puede quedar por debajo de lu-beaufort, lu-larochette y lu-clervaux (3); Echternach, con abadía y patrimonio inmaterial, merece 3; Maastricht, la ciudad más antigua de los Países Bajos, debería tener 3 o 4 (nl-den-bosch y nl-leiden tienen 4).",
+        "Coherencia: fr-marsella-calanques (3), con 2600 años de historia, el MuCEM, la Vieille Charité, Notre-Dame-de-la-Garde y el Panier, queda por debajo de be-mons, be-tournai, fr-lourdes, fr-bourges, nl-den-bosch y nl-leiden (4). Súbela a 4. fr-annecy (2), con el Palais de l'Isle y el castillo, merece 3, como fr-honfleur y fr-saint-malo.",
+        "Fuentes débiles en puntajes de 4: nl-den-bosch se apoya solo en una ruta a pie de la ANWB. Cita la catedral de San Juan o el Jheronimus Bosch Art Center (bezoekdenbosch.nl). be-waterloo cita un artículo de 2021 de la Fondation Napoléon: usa waterloo1815.be.",
+        "Texto: quita de las justificaciones de r2 la frase 'Sigue en 2 porque no encontré una fuente específica dentro del presupuesto de búsquedas' (5 casos). Varias de r3 superan las 2 frases (nl-den-bosch con 346 caracteres, fr-eze-saint-paul, fr-besancon-arc-et-senans, fr-castillos-cataros): recórtalas."
+      ]
+    },
+    "naturaleza": {
+      "nota": 7.0,
+      "desglose": {
+        "fuentes": 1.0,
+        "exactitud": 2.0,
+        "criterio": 1.5,
+        "coherencia": 1.0,
+        "descripcion": 1.5
+      },
+      "aprobado": false,
+      "comentarios": [
+        "Alcance revisado: naturaleza-a.json, -r2.json y -r3.json (ids de FR/MC/BE/NL/LU). Las banderas unesco son correctas (Soignes, Wadden, Chaîne des Puys, Gavarnie, Porto en Córcega). Búsquedas: 5 URLs. Existen 4: sonianforest.be (ampliación del bien de hayedos), dinant-evasion.be (Houyet–Anseremme), igedd.developpement-durable.gouv.fr/IMG/pdf/016144-01_rapport_publie_cle543889.pdf, y pdok.nl/introductie/-/article/nationale-parken más la lista de Grands Sites de ecologie.gouv.fr, que existen pero no son pertinentes (ver abajo). No confirmada 1: el magazine 2026 de np-oosterschelde.nl (nl-deltawerken).",
+        "Fuentes genéricas. pdok.nl/introductie/-/article/nationale-parken es la ficha de un conjunto de datos SIG con los límites de 21 parques nacionales, no una página sobre ningún parque. Es fuente de nl-hoge-veluwe, nl-arnhem, nl-giethoorn, nl-haarlem, nl-parque-nacional-biesbosch, nl-texel y nl-yerseke (la única en este último). Sustitúyela por la web de cada parque: hogeveluwe.nl, np-biesbosch.nl, npzuidkennemerland.nl, duinenvantexel.nl, np-oosterschelde.nl y natuurmonumenten.nl/de-wieden. La lista en PDF de los Grands Sites de France (ecologie.gouv.fr/.../1er janvier 2026-Liste OGS-GSF Tableau.pdf) es el equivalente de la lista UNESCO por país. Es fuente de fr-duna-pilat-arcachon, fr-etretat, fr-pointe-du-raz, fr-bahia-somme y fr-cote-opale: cita la web de cada Grand Site (dunedupilat.com, pointe-du-raz.com, baiedesomme.fr, lesdeuxcaps.fr).",
+        "Puntajes de 4 que solo se apoyan en un artículo genérico de Lonely Planet: be-hautes-fagnes (best-national-parks-belgium), be-han-sur-lesse (ficha de la gruta), fr-bonifacio (top-things-to-do-in-corsica) y fr-mont-saint-michel (first-time-france). Añade una fuente oficial: botrange.be, grotte-de-han.be, el Office de l'Environnement de la Corse o la reserva de las Bocche di Bonifacio, y ot-montsaintmichel.com para las mareas.",
+        "Criterio: be-pairi-daiza (3) es un zoológico y nl-keukenhof-bollenstreek (4) es un jardín de bulbos. Ninguno es un espacio natural: baja Pairi Daiza a 2 y Keukenhof a 3. Si quieres conservar el 4 de Keukenhof, justifica los campos de flores de fuera del parque con una fuente.",
+        "Coherencia: fr-duna-pilat-arcachon tiene 5, al nivel de Chamonix-Mont Blanc, los Écrins, la Vanoise o las Calanques, pero es una sola duna que se ve en medio día. Baja a 4, como fr-etretat o fr-cote-opale. nl-texel (4) y nl-islas-wadden (5) son islas del mismo bien UNESCO del mar de Frisia: explica la diferencia o iguálalas. FR acumula diez lugares con 5; revisa que fr-parque-nacional-mercantour y fr-circo-de-gavarnie estén al nivel de Mont Blanc.",
+        "Texto: quita de las justificaciones de r3 las notas de proceso ('LUGAR DE PLAYA: sí, con matices'). La regla de playa va en un campo propio o en notas, no en el texto para el viajero."
+      ]
+    },
+    "gastronomia-vino": {
+      "nota": 7.0,
+      "desglose": {
+        "fuentes": 1.0,
+        "exactitud": 1.5,
+        "criterio": 1.5,
+        "coherencia": 1.5,
+        "descripcion": 1.5
+      },
+      "aprobado": false,
+      "comentarios": [
+        "Alcance revisado: gastronomia-vino-a.json, -r2.json y -r3.json (ids de FR/MC/BE/NL/LU). Búsquedas: 3 URLs, todas confirmadas, y los datos que citan son correctos: michelin.com the-2026-michelin-guide-netherlands (Azurite en Delft y Suis en Schin op Geul, con dos estrellas de entrada), michelin.com cuines-33-and-the-jane... 2026 Belgium and Luxembourg (Cuines 33 y The Jane con 2★, Le Lys con su primera estrella, 12 estrellados en LU) y brusselstimes.com/belgium/2112019.",
+        "Fuente no pertinente: fr-les-3-vallees (4) se apoya solo en una oferta de empleo de camarero de Journal des Palaces (journaldespalaces.com/carriere/offre-309347-Chef-de-rang-...). Cita la ficha de Le 1947 à Cheval Blanc en guide.michelin.com y la lista de estrellados de Courchevel. fr-saint-malo (3) cita tasteatlas.com/best-rated-chicken-dishes-in-france para crêpes, mantequilla salada y ostras de Cancale, que no tienen nada que ver: cita /galette-saucisse, /huitres-de-cancale o la Maison Bordier.",
+        "Listas genéricas de TasteAtlas como única fuente: la lista regional best-rated-dishes-in-provence-alpes-cote-dazur sostiene fr-aix-en-provence, fr-arles, fr-luberon, fr-menton, fr-niza y fr-marsella-calanques. También son genéricas las de fr-biarritz-costa-vasca (vegetable/chicken dishes in France), fr-estrasburgo (vegetable dishes y casseroles in France), fr-sarlat-dordona y fr-valle-vezere-lascaux (offal dishes), fr-rocamadour y fr-toulouse (Occitanie), fr-honfleur y fr-bayeux-playas-desembarco (Normandía) y fr-bonifacio (Córcega). Cita la ficha concreta (p. ej. /bouillabaisse, /socca, /piment-d-espelette, /choucroute-garnie, /rocamadour-cheese, /cassoulet-de-toulouse) o el organismo de la AOP, y para Niza y Marsella añade la lista Michelin 2026 de la ciudad.",
+        "Vino sin fuente del consejo regulador: fr-reims-champana (5) cita solo tourisme-en-champagne.com; cita champagne.fr (Comité Champagne). fr-cognac (4) cita el turismo local; cita cognac.fr (BNIC). fr-chateauneuf-du-pape y fr-colmar-ruta-vino-alsacia ya lo hacen bien.",
+        "Datos desfasados: fr-antibes-cannes (r3) se apoya en monaco-tribune.com de 2022 y la propia justificación dice 'El dato es de 2022 y conviene verificarlo'. Verifícalo con guide.michelin.com (selección 2026 de Cannes y Antibes) y quita la coletilla. lu-luxemburgo-ciudad cita para Le Lys el artículo de Brussels Times, que es sobre Bélgica: cita la nota de Michelin del Benelux.",
+        "Coherencia: nl-rotterdam (3) queda por debajo de nl-maastricht (4), cuyo 2★ (Suis) está a 13 km, fuera de la ciudad. Iguala el criterio o justifica la diferencia. lu-luxemburgo-ciudad (3) concentra la mayoría de los 12 estrellados del país; revisa si le corresponde 4.",
+        "Texto: quita de la justificación de fr-les-3-vallees la frase 'La fuente es una oferta de empleo de Journal des Palaces..., porque la lista Michelin...': es una nota interna."
+      ]
+    },
+    "adrenalina": {
+      "nota": 6.5,
+      "desglose": {
+        "fuentes": 1.0,
+        "exactitud": 1.5,
+        "criterio": 1.0,
+        "coherencia": 1.5,
+        "descripcion": 1.5
+      },
+      "aprobado": false,
+      "comentarios": [
+        "Alcance revisado: adrenalina-a.json, -r2.json y -r3.json (ids de FR/MC/BE/NL/LU). Los km de las actividades coinciden con las coordenadas en los 161 lugares finales y se aplican los topes de monumentos (Versalles, Chantilly y Kinderdijk tienen 2). Búsquedas: 4 URLs. Confirmadas 2: tourismestavelot.be/en/node/3174 (la cascada de Coo; el kayak solo se menciona de pasada) y dinant-evasion.be. No confirmadas 2: rcdb.com/16110.htm (Fury, en be-amberes); la página de RCDB que aparece para Bobbejaanland es rcdb.com/4846.htm. Y walibi.nl/nl/voor-wie-walibi/amsterdam (nl-amsterdam); usa walibi.nl/en/park/attractions/rollercoasters, que ya citas en otros lugares.",
+        "URL inestable: https://www.spa-francorchamps.be/en/search?q=gift es una página de resultados del buscador del circuito, no la ficha de los Taxi Laps. Es la fuente de be-spa (4), be-coo-ambleve, be-lieja, be-hautes-fagnes y nl-maastricht. Cita la página del producto Taxi Laps o la de experiencias de pista del circuito.",
+        "Regla de 60 km incumplida (hay actividad documentada en el radio y el puntaje es 1–2): lu-clervaux tiene 1 con be-coo-ambleve (kayak y telesilla, adrenalina 4) a 39 km y Spa-Francorchamps a 50 km; lu-vianden tiene 1 aunque en el propio pueblo hay un parque de cuerdas, el Indian Forest (paperjam.lu), y el telesilla, así que le corresponde 2 como mínimo; fr-circo-de-gavarnie tiene 1 con la estación de Gavarnie-Gèdre en el valle y el Grand Tourmalet, que ya citas en fr-lourdes (valleesdegavarnie.com), a unos 20 km: 3 (tope de espacio natural); fr-parque-nacional-ecrins tiene 2 con Serre Chevalier, Les 2 Alpes, La Grave y las vías ferratas de Briançon en el radio, que tú mismo reconoces sin buscar: 3; nl-maastricht tiene 2 y no acredita SnowWorld Landgraaf (unos 25 km, snowworld.com) porque 'no apareció su web oficial': búscala y sube a 3.",
+        "fr-corcega sigue en 2 desde r1 con 'el cupo de búsquedas no alcanzó'. La isla tiene barranquismo en Bavella, vías ferratas y el GR20, con operadores en visit-corsica.com. Documéntalo y repuntúa (3–4), o mueve las coordenadas a un punto de acceso concreto (Corte o Bavella) y mide desde allí. fr-carcasona tiene 1 sin búsqueda: revisa el radio (barranquismo y aguas bravas del Aude, en Quillan y las Gorges de Galamus, a unos 45–50 km).",
+        "Respaldo de plataformas de reservas: fr-la-rochelle (yumping.com, manawa.com), fr-ile-de-re y fr-crozon (manawa.com) y fr-cote-opale (manawa.com, en alemán). Busca la web de la escuela (Chatel Kite School, Philovent, Surfing Sardines) o la de la oficina de turismo, y deja la plataforma solo como respaldo.",
+        "Coherencia: nl-amsterdam tiene 2 con Walibi Holland, de 4, a 59 km, mientras be-amberes tiene 3 con Bobbejaanland a 34 km y nl-gouda y nl-utrecht tienen 3 con el Efteling a 46–49 km. Fija una regla para un parque grande en el borde del radio y aplícala igual a todos. fr-chamonix-mont-blanc lista como segunda actividad un parapente en el Col de la Forclaz de Annecy, a 50 km, cuando hay despegues en el propio valle (Planpraz, Plan de l'Aiguille): cita los de Chamonix.",
+        "Texto: quita de las justificaciones las notas de proceso: 'no se buscaron sus fuentes en esta ronda' (fr-parque-nacional-ecrins), 'Queda pendiente para la próxima ronda' (fr-corcega) y 'la estación de Gavarnie-Gèdre y el canyoning de los valles vecinos quedan por verificar' (fr-circo-de-gavarnie)."
+      ]
+    },
+    "logistica-temporada": {
+      "nota": 8.0,
+      "desglose": {
+        "fuentes": 1.0,
+        "exactitud": 1.5,
+        "criterio": 1.5,
+        "coherencia": 2.0,
+        "descripcion": 2.0
+      },
+      "aprobado": false,
+      "comentarios": [
+        "Alcance revisado: logistica-temporada-a.json (135 lugares) y logistica-temporada-r3.json (ids de FR/MC/BE/NL/LU). Todos los campos están completos y los avisos de país son correctos. Búsquedas: 5 URLs; confirmadas 4 y 1 parcial: el aviso de EE. UU. para Luxemburgo (Level 1, con Level 2 en el norte y el este por munición sin explotar, del 8 de abril de 2026), lonelyplanet.com/articles/the-best-day-trips-from-paris (RER C de unos 40 min a Versalles), las fechas de Keukenhof 2027 (18 de marzo al 9 de mayo), el informe IGEDD 016144-01 y una página oficial de Pairi Daiza para asistentes de IA (aparece como /de/ai-assistants/, no con la ruta /fr/assistant-ia/ que se cita; para el acceso, cita mejor la página oficial de cómo llegar). Los textos de acceso son concretos y útiles.",
+        "Fuentes que no tratan de transporte: en logistica-temporada-a, 89 de los 135 lugares se apoyan solo en artículos de guías (Lonely Planet, Rick Steves, Rough Guides, Time Out) o en los avisos de país. Es el mismo fallo que en iberica-italia. Para cada uno, añade al menos una fuente de transporte u oficial: sncf-connect.com o ter.sncf.com en FR, belgiantrain.be y delijn.be en BE, ns.nl y 9292.nl en NL, mobiliteit.lu en LU, y la oficina de turismo local. Los primeros son fr-paris, fr-versalles, fr-giverny, fr-chartres, fr-bayeux-playas-desembarco, fr-honfleur, fr-estrasburgo, fr-lyon, be-brujas, be-gante, nl-amsterdam, nl-delft, lu-luxemburgo-ciudad y lu-vianden.",
+        "Blogs como fuente de acceso en r3: fr-ile-de-re (ou-et-quand.net, generationvoyage.fr), fr-crozon (belambra.fr, generationvoyage.fr), fr-castillos-cataros (generationvoyage.fr), fr-chantilly (lasourisglobe-trotteuse.fr), fr-eze-saint-paul (bestofniceblog.com), fr-bahia-somme (lesglobeblogueurs.com), lu-larochette (janameerman.com) y fr-lourdes (loudavymkrokem.cz, un blog checo de peregrinación). Sustitúyelos por iledere.com, presquile-crozon.com, zou.maregionsud.fr, sncf-connect.com, baiedesomme.fr, mobiliteit.lu y lourdes-infotourisme.com.",
+        "Fuentes de otros agentes: fr-cote-opale usa como fuente de acceso el informe IGEDD de naturaleza-r3 sobre la renovación del label Grand Site, que no habla de transporte. Cita lesdeuxcaps.fr o el bus de la región (Hauts-de-France Mobilités). La reutilización se acepta en lu-minett (Visit Luxembourg, Fond-de-Gras), lu-beaufort (Mullerthal) y nl-deltawerken (LP), porque esas páginas respaldan el dato.",
+        "Exactitud de mejor_epoca y alertas. nl-keukenhof-bollenstreek tiene mejor_epoca [4], pero tu propio acceso dice que abre del 18 de marzo al 9 de mayo de 2027: pon [3, 4, 5] o al menos [4, 5]. be-binche tiene [2] y el texto dice 'febrero o principios de marzo': pon [2, 3]. Faltan dos alertas que el curador te pidió: fr-aix-en-provence (el Atelier de Cézanne cierra desde el 1 de noviembre de 2026) y fr-bayeux-playas-desembarco (el tapiz está en el British Museum hasta 2027)."
+      ]
+    },
+    "curador": {
+      "nota": 7.0,
+      "desglose": {
+        "fuentes": 1.5,
+        "exactitud": 1.0,
+        "criterio": 1.5,
+        "coherencia": 1.5,
+        "descripcion": 1.5
+      },
+      "aprobado": false,
+      "comentarios": [
+        "Alcance revisado: los 161 lugares de FR (86), MC (5), BE (27), NL (32) y LU (11) en data/lugares/europa.json, más curador.json y curador-ajustes.json. La fórmula global y el nivel son correctos en los 161. Esta vez se buscaron las guías de todos los lugares nuevos (lección aplicada). La fusión lu-echternach + lu-mullerthal es correcta y las no fusiones están justificadas.",
+        "URLs de guías que añadió el curador. lonelyplanet.com/pois/1128436 (nl-efteling) no es la ruta canónica, que es lonelyplanet.com/points-of-interest/efteling/1128436: corrígela. En fr-albi y fr-castillos-cataros las fuentes de 'Rick Steves' son entradas del blog de un empleado de 2015 (blog.ricksteves.com/cameron/2015/06/amazing-albi) y una página de archivo del blog (blog.ricksteves.com/cameron/2015/06/page/2). Ninguna es una recomendación editorial de la guía. Para Albi usa classroom.ricksteves.com/videos/toulouse-lautrec-in-albi-france o Frommer's (frommers.com/destinations/albi/), y recalcula guias. La de be-bosque-de-soignes (lonelyplanet.com/points-of-interest/foret-de-soignes/1262118) no apareció en las búsquedas: compruébala. La de be-pairi-daiza en vrtnws.be tampoco apareció, aunque el dato es cierto: cita la nota de prensa del parque (pairi-daiza.prezly.com/pairi-daiza-receives-3-stars-for-the-10th-consecutive-year).",
+        "Descarte erróneo: nl-schokland (Patrimonio Mundial, whc 739) se descartó con guias 0 y global 1,8. Pero Lonely Planet tiene la ficha lonelyplanet.com/the-netherlands/flevoland/attractions/schokland-museum/a/poi-sig/1126078/1315688 y Frommer's tiene frommers.com/destinations/flevoland/regions-in-brief/schokland/: guias 3 y global 3,0. Recupéralo con su logística.",
+        "No propagaste un dato que tú mismo encontraste: en notas.ronda3 citas el comunicado de diplomatie.gouv.fr que anuncia la inscripción de las playas del Desembarco en 2026, pero fr-bayeux-playas-desembarco sigue sin esa información en el por_que y en las fuentes. Inclúyela al re-curar cuando cultura corrija la bandera unesco y el puntaje.",
+        "Categoría playa contra tu propia nota: notas.ronda3.playa_r3 dice que no se añade playa a fr-cote-granit-rose ni a fr-cote-opale, pero los dos la tienen en el archivo final. Quítala, o corrige la nota si la decisión cambió.",
+        "Coordenadas con 2 decimales que siguen sin corregirse: fr-gorges-du-verdon (lng 6.35), fr-beaune-cote-dor (lng 4.84), fr-cascadas-herisson (lat 46.62), mc-monaco-ville (lng 7.42), nl-efteling (lat 51.65), nl-giethoorn (lat 52.74) y nl-walibi-holland (lat 52.44). notas.FR.coordenadas dice 'Se revisaron las 65; todas son coherentes', pero la regla pide 4 decimales.",
+        "Coherencia del resultado: por los puntajes de guías, fr-honfleur (G5) y be-pairi-daiza (G5) quedan por encima de fr-mont-saint-michel y fr-versalles (G4). Recalcula después de que guias-expertas corrija. fr-puy-du-fou lleva la categoría 'adrenalina', aunque el propio por_que dice 'No tiene montañas rusas: aquí se viene por el espectáculo'. Eso confunde al usuario que filtra por adrenalina: usa 'cultura' (es un parque histórico) o pide a cultura-historia que lo puntúe de nuevo.",
+        "por_que: la regla pide 2–3 frases. be-malinas, be-durbuy y lu-luxemburgo-ciudad tienen 4, y lu-echternach tiene 498 caracteres: recórtalos. Faltan en alerta los dos avisos que tú mismo detectaste: el cierre del Atelier de Cézanne en fr-aix-en-provence y el tapiz fuera de Bayeux hasta 2027."
+      ]
+    }
+  },
+  "paises": {
+    "FR": {
+      "nota": 6.8,
+      "revision_pendiente": false,
+      "comentario": "Promedio de los 7 agentes (7,1), con un ajuste por concentrar los errores más graves: guías de Honfleur y Bayeux por encima de Mont-Saint-Michel, Versalles y Carcasona; bandera UNESCO de las playas del Desembarco sin actualizar; cultura 3 en Marsella; adrenalina sin buscar en Gavarnie, los Écrins, Córcega y Carcasona; TasteAtlas genérico en 15 lugares; y la oferta de empleo como fuente de Les 3 Vallées."
+    },
+    "MC": {
+      "nota": 7.5,
+      "revision_pendiente": false,
+      "comentario": "Pocos errores propios: mc-monaco-ville con lng de 2 decimales, mc-larvotto con una sola fuente (Time Out) y logística apoyada solo en guías. Le afectan los fallos transversales de logística."
+    },
+    "BE": {
+      "nota": 7.0,
+      "revision_pendiente": false,
+      "comentario": "Restan Pairi Daiza (guías 5 sin top pick en una segunda guía y naturaleza 3 para un zoológico), la URL de búsqueda de Spa-Francorchamps en 5 lugares, la falta de la ficha UNESCO 1567 en Ypres y la abadía de Villers sin fuente."
+    },
+    "NL": {
+      "nota": 6.9,
+      "revision_pendiente": false,
+      "comentario": "Restan la fuente genérica de PDOK en 7 lugares, el descarte de Schokland (Patrimonio Mundial con LP y Frommer's), las incoherencias de adrenalina en Ámsterdam y Maastricht, la cultura 2 de Maastricht, la URL no canónica del Efteling y la mejor época de Keukenhof."
+    },
+    "LU": {
+      "nota": 6.8,
+      "revision_pendiente": false,
+      "comentario": "Restan Vianden (cultura 2 y adrenalina 1, con el Indian Forest en el pueblo; una de sus tres guías no se confirma), Clervaux con adrenalina 1 a 39 km de Coo, la cultura 2 de Echternach sin buscar su patrimonio inmaterial y la fuente de Le Lys tomada de un artículo sobre Bélgica."
+    }
+  }
+}
