@@ -1,0 +1,155 @@
+{
+  "subregion": "iberica-italia",
+  "grupo": "a",
+  "ronda": 2,
+  "fecha": "2026-10-27",
+  "nota_alcance": "Revisión de ES, PT y AD sobre los datos finales actuales (data/lugares/europa.json, curador.json, curador-ajustes.json) y los archivos de corrección <agente>-fix1.json y logistica-temporada-fix1b.json. IT, MT, SM y VA los revisa otro revisor. WebFetch estaba bloqueado, así que una URL cuenta como verificada si WebSearch muestra esa página o la misma ruta. Se usaron 51 búsquedas y se priorizaron las URLs nuevas de los fix. Se revisó punto por punto cada comentario de revision-a-r1.json. Decisiones aceptadas, no penalizadas: categoría del mejor temático aunque sea menor de 3.5, países con más de 30 lugares y la regla de adrenalina (60 km, tope de 2 en monumentos y de 3 en espacios a pie). Ningún agente llega a la ronda 3, así que no hay países con revision_pendiente.",
+  "agentes": {
+    "guias-expertas": {
+      "nota": 7.5,
+      "desglose": {
+        "fuentes": 1.0,
+        "exactitud": 1.5,
+        "criterio": 1.5,
+        "coherencia": 1.5,
+        "descripcion": 2.0
+      },
+      "aprobado": false,
+      "comentarios": [
+        "Alcance: guias-expertas-fix1.json (ES/PT/AD) y su efecto en data/lugares/europa.json. Resuelto desde r1: se quitaron las fichas de librería (Guide Vert, DK), el contenido pagado de NatGeo, el Fodor's de Andorra y Culture Trip; pt-sagres baja a 4; las Azores se recalculan (Sete Cidades 3, Furnas 3 con Fodor's, Pico 4); pt-madeira-porto-moniz ya no depende del paquete comercial; es-mallorca sube a 5, es-cuenca y es-malaga a 3; es-cordoba se queda en 4 con argumento; 10 de las 12 coordenadas señaladas tienen ya 4 decimales.",
+        "Verificación: 10 URLs. Confirmadas 3: NatGeo madeira-island-porto-moniz-volcanic-pools, NatGeo in-this-european-microstate-adventurers-contribute-to-science (Vall del Madriu) y Fodor's 8-stunning-natural-wonders-in-the-azores. Parciales 2: lonelyplanet.com/articles/guide-to-andorra (solo sale el título 'A guide to Andorra' en un agregador) y ricksteves.com/.../witnessing-the-power-of-faith-in-fatima (el artículo existe, pero solo aparece reproducido en travelagentcentral.com). No encontradas 4: roughguides.com/articles/smallest-countries-in-the-world, la reseña de Fodor's caminito-del-rey-128030930, frommers.com/destinations/trujillo-spain/planning-a-trip y fodors.com/.../the-15-best-beaches-in-spain. Sustitúyelas por páginas comprobadas. Para Trujillo existe roughguides.com/spain/castilla-la-mancha-and-extremadura/trujillo/.",
+        "Problema nuevo: timeout.com/london/travel/this-is-why-you-need-to-visit-andorra-this-winter es contenido patrocinado ('in association with Visit Andorra') y además es de 2019. Es el mismo caso que el NatGeo pagado que se quitó, así que no cuenta. ad-grandvalira-pas-de-la-casa queda con LP más una mención de pasada de Rough Guides que la propia justificación reconoce: baja a 2 o cita otra guía con página propia. ad-andorra-la-vella-escaldes depende de la URL de Rough Guides que no se encontró: si no la confirmas, baja a 2.",
+        "Coordenadas sin corregir: pt-peneda-geres (41.73, -8.16) y ad-vall-del-madriu (42.49, 1.59) siguen con 2 decimales, aunque correcciones_base dice que se fijó un punto de referencia. Usa la Vila do Gerês (41.7286, -8.1594) y un punto concreto del valle, como el inicio del sendero en Engolasters (42.5194, 1.5683) o el refugio de Fontverd. Con 2 decimales siguen también es-caldera-de-taburiente (28.72, -17.87) y pt-arrabida (38.48, -8.98).",
+        "Sigue sin resolver: es-girona queda en 2 con una sola guía. El r1 la señaló en Rough Guides, Fodor's y como excursión de Rick Steves desde Barcelona. Busca roughguides.com/spain/catalonia/girona o la página de destino de Fodor's antes de dejarla así.",
+        "Cobertura: 9 lugares de ES/PT siguen con guias 0 (es-cartagena, es-sierra-de-guara-alquezar, es-noguera-pallaresa-sort, es-skydive-empuriabrava, es-elche, es-poblet, pt-piodao, pt-ria-formosa y pt-douro-internacional), y la ficha los da como 'pendientes'. Hay guías fáciles de citar: lonelyplanet.com/destinations/spain/cartagena aparece en la búsqueda (contradice el 'LP sin página' del curador), y para Elche está la ficha de LP del Huerto del Cura (lonelyplanet.com/points-of-interest/huerto-del-cura/1134061). Puntúalos."
+      ]
+    },
+    "cultura-historia": {
+      "nota": 9.0,
+      "desglose": {
+        "fuentes": 1.5,
+        "exactitud": 1.5,
+        "criterio": 2.0,
+        "coherencia": 2.0,
+        "descripcion": 2.0
+      },
+      "aprobado": false,
+      "comentarios": [
+        "Alcance: cultura-historia-fix1.json (ES/PT/AD). Resuelto desde r1: las 32 citas a statesparties pasan a la ficha /en/list/<n> correcta (comprobé los números: 1618, 664, 875, 378, 312, 1501, 876, 1044, 803, 929, 263, 723, 755, 1046, 1031, 1590, 1387, 505, 264, 265, 361, 1117, 206, 1573, 1367, 866, 1160 y 665); se sustituyen Barceló, andalucia.com, la etiqueta de catalannews y Culture Trip; es-albarracin queda con unesco:true y pt-madeira-funchal con false; se añaden es-elche (930) y es-poblet (518); es-valencia sube a 5 con Fallas (ich.unesco.org/en/RL/00859) y es-tenerife-teide a 4; las justificaciones se recortan a 1–2 frases.",
+        "Verificación: 6 URLs. Confirmadas 4: penedesturisme.cat .../vinseum-museum-wine-cultures-catalonia, repositorio.iaph.es/handle/11532/148042, visitandorra.com/en/culture/church-of-sant-joan-de-caselles/ e ich.unesco.org/en/RL/00859. Parcial 1: spain.info/es/destino/cartagena/ (solo aparece la versión inglesa de la ficha). No encontrada 1: ricksteves.com/watch-read-listen/read/articles/the-best-of-the-basque-country (es-bilbao). Cita una página comprobada o deja solo la UNESCO 1217 y la web del Guggenheim.",
+        "Sigue sin resolver: es-montserrat cita otra vez montserratvisita.com/pt/propostas-de-visita/visite-o-santuario/2024, la URL que el r1 pidió cambiar. El curador la quitó del resultado final, así que hoy la puntuación cultural de Montserrat (4) no tiene ninguna fuente del agente. Cita la página oficial del santuario en español o inglés (montserratvisita.com/es/... o abadiamontserrat.net).",
+        "Exactitud: en es-cartagena, el Teatro Romano se descubrió en 1988, no en 1987 (es la fecha que dan el museo y la bibliografía). El error pasó al por_que. es-pamplona cita un PDF del ayuntamiento llamado 'TARJETA MODELO CASTELLANO', cuyo contenido no se pudo verificar: cambia a la ficha de turismo de Pamplona o de turismo.navarra.es."
+      ]
+    },
+    "naturaleza": {
+      "nota": 8.5,
+      "desglose": {
+        "fuentes": 1.5,
+        "exactitud": 2.0,
+        "criterio": 2.0,
+        "coherencia": 1.5,
+        "descripcion": 1.5
+      },
+      "aprobado": false,
+      "comentarios": [
+        "Alcance: naturaleza-fix1.json (ES/PT/AD). Resuelto desde r1: páginas propias de MITECO para Aigüestortes, Caldera de Taburiente, Cabrera y Cabañeros; VisitPortugal como fuente oficial en Nazaré, Peniche-Berlengas, Tavira y Serra da Estrela; Picos queda con unesco:true (bien 1133); las fechas de Cíes coinciden con logística; PT recibe 2 lugares nuevos con fuente oficial (pt-ria-formosa y pt-douro-internacional); ad-vall-del-madriu baja a 4, pt-benagil-sete-vales a 4 y es-cabo-de-gata sube a 5; se quitan las frases del tipo 'primer lugar de… en la lista'.",
+        "Verificación: 6 URLs. Confirmadas 3: postal.pt (estado del sendero de los Sete Vales, julio de 2026), miteco.gob.es/es/red-parques-nacionales/nuestros-parques/cabaneros.html y visitportugal.com/pt-pt/content/parque-natural-do-douro-internacional. Parcial 1: geoparc.cat/en/socol/montserrat-natural-park (la ruta /en/socol/ existe, pero no esa página). No encontradas 2: montserratvisita.com/en/nature/montserrat-itineraries y api.visitazores.com/.../Flores_2018.pdf. Las dos fuentes nuevas de es-montserrat quedan sin confirmar: usa parcs.diba.cat o la ficha del Parc Natural en turismebaixllobregat.com, que sí aparece. Para Flores, usa visitazores.com/en/the-azores/the-islands/flores.",
+        "Pertinencia: pt-benagil-sete-vales sigue sin la fuente oficial que se pidió (visitalgarve.pt o la Câmara de Lagoa), y en el resultado final se conserva el blog atickettotakeoff.com/pt/... (solo se quitó la versión /en/). es-islas-cies usa el blog de Direct Ferries para la autorización: cita la Xunta (autorizacionillasatlanticas.xunta.gal).",
+        "Texto nuevo con frases para el revisor: 'Por extensión, estado de conservación y figuras de protección está al nivel de la Costa Vicentina' (es-cabo-de-gata), 'Por extensión y conservación está al nivel de Cabo de Gata' (pt-costa-vicentina), 'así que queda por debajo de la Costa Vicentina y de Cabo de Gata' (pt-benagil-sete-vales) y 'cuenta en pt-madeira-rabacal', con un id interno en el texto (pt-madeira-funchal). Quítalas: la comparación va en notas, no en la justificación.",
+        "Coherencia: es-ronda baja a 2 sin fuente, pese a la garganta del Tajo de más de 100 m, mientras es-cuenca (hoces del Júcar y el Huécar) tiene 3 y es-albarracin 4. Cita turismoderonda.es o la ficha de la Serranía y ponle 3, o explica la diferencia. PT sigue con seis 5 (Rabaçal, Sete Cidades, Pico, Flores, Peneda-Gerês y Costa Vicentina) frente a la escala de ES: justifica Flores 5 con una fuente oficial verificable o bájalo a 4."
+      ]
+    },
+    "gastronomia-vino": {
+      "nota": 9.0,
+      "desglose": {
+        "fuentes": 1.5,
+        "exactitud": 2.0,
+        "criterio": 1.5,
+        "coherencia": 2.0,
+        "descripcion": 2.0
+      },
+      "aprobado": false,
+      "comentarios": [
+        "Alcance: gastronomia-vino-fix1.json (ES/PT/AD). Resuelto desde r1: tasteatlas.com/best/search/portugal se sustituye por fichas concretas (Casa do Preto, Queijaria Vale da Estrela, Vitor Fernandes – Queijo de Azeitão) o fuentes oficiales (Visit Sintra, Comércio com História, Rota da Bairrada, DOUE, Diário da República); se citan consejos reguladores en Rioja, Jerez y El Puerto, Ribera, Rías Baixas (AGACAL) y el Duero (IVDP); se sustituyen las fuentes débiles de Alcalá, Aranjuez, Penedès y Pamplona y el ranking de Caterwings; es-mallorca y es-tenerife-teide suben a 4; Priorat y Ribera quedan en 5; pt-vale-do-coa baja a 3; Valencia se concreta con Ricard Camarena; se quita la nota interna de es-oviedo.",
+        "Verificación: 7 URLs. Confirmadas 5: nuevecuatrouno.com/2026/05/11/enoturismo-rioja-imparable..., la ficha Michelin de Casa José (Aranjuez), visitsintra.travel/en/eat-drink/regional-flavours/travesseiros, comerciocomhistoria.gov.pt Casa Costynhas y sherry.wine/news/cesar-saldana-elected-new-president-regulatory-council. No encontradas 2: doqpriorat.org/.../DOSSIERPREMSA-ENG.pdf y el PDF riberadelduero.es/sites/default/files/2026-07/Manifiesto.pdf (el manifiesto existe según la prensa, pero no se vio el archivo).",
+        "Pertinencia de las nuevas fuentes de los consejos reguladores. La de sherry.wine es una noticia de 2020 sobre la elección del presidente del Consejo y no respalda 'unas 100 bodegas, muchas visitables': cita la página de bodegas o de enoturismo de sherry.wine. La de Ribera es un manifiesto de julio de 2026 contra las macrogranjas y las plantas de biogás, que no trata del enoturismo: usa la ruta del vino (rutadelvinoriberadelduero.es) o la página de bodegas del Consejo.",
+        "Criterio: los 4 lugares nuevos (es-elche, es-poblet, pt-ria-formosa y pt-douro-internacional) salen con gastronomía 0 porque nadie los puntuó, y 0 significa 'nada' en la app. Puntúalos con fuente: Elche (arroz con costra, dátiles), Poblet (D.O. Conca de Barberà), Ria Formosa (marisco y ostras de Olhão) y Douro Internacional (Carne Mirandesa DOP).",
+        "Menor: en es-valencia di 'dos estrellas en la Guía Michelin 2026' (la lista de 2026 ya está citada en el proyecto) y no 'revalidó en 2025'. En pt-obidos, 'cuya solicitud de indicación geográfica se publicó en 2013' no le sirve al viajero: di que la ginja tiene IG o quita la frase."
+      ]
+    },
+    "adrenalina": {
+      "nota": 8.5,
+      "desglose": {
+        "fuentes": 2.0,
+        "exactitud": 1.5,
+        "criterio": 1.5,
+        "coherencia": 1.5,
+        "descripcion": 2.0
+      },
+      "aprobado": false,
+      "comentarios": [
+        "Alcance: adrenalina-fix1.json (ES/PT/AD). Resuelto desde r1: el Tobotronc tiene la ficha de Visit Andorra y Guinness, Ericeira la ruta correcta de Rapture; pt-nazare y pt-peniche-berlengas bajan a 2 y pt-madeira-rabacal se documenta con Visit Madeira; AD queda en 4/4/4/4 y en 3 los espacios a pie; es-aiguestortes baja a 4; el 516 Arouca está en 40.9644, -8.1753 con los km recalculados (Porto 42, Amarante 35, Guimarães 54 → 2, Aveiro 54 → 2); las plataformas de reservas solo valen de respaldo (Braga y Viana en 2; Fuerteventura con Hello Canary; Gran Canaria con grancanaria.com; Peneda-Gerês con Go2Nature); desaparecen las coletillas.",
+        "Verificación: 6 URLs, todas confirmadas: visitandorra.com/en/nature/tobotronc-at-naturland/, guinnessworldrecords.com/world-records/600830-longest-mountain-coaster, visitmadeira.com/.../canyoning/ribeira-do-lajeado, go2nature.pt/en/programas-e-atividades/canyoning/, grancanaria.com/.../international-windsurfing-centre y hellocanaryislands.com/kitesurfing/fuerteventura/kitesurf-flag-beach. Nota: naturland.ad/en/node/137 sí aparece en la búsqueda, así que no estaba rota. El problema eran los duplicados (ver curador).",
+        "Incumples tu propia escala, que dice '2 si la única actividad está en el borde del radio (50–60 km)'. es-toledo tiene 3 con solo el Parque Warner, a 55 km: baja a 2. es-pueblos-blancos-cadiz tiene 3 con el Caminito del Rey (54 km desde Zahara) y el Circuito de Jerez (59 km), los dos en el borde: baja a 2 o documenta una actividad más cercana (barranquismo de la Garganta Verde con operador, vía ferrata de Zahara).",
+        "Coherencia: es-aranjuez (3) y es-alcala-de-henares (3) no llevan el tope de 2 que sí aplicas a es-el-escorial y pt-mafra, aunque Aranjuez es igualmente un Real Sitio cuya visita es el palacio y los jardines. Aplica el tope a Aranjuez o explica por qué no. Haz lo mismo con Alcalá.",
+        "Distancias calculadas con coordenadas viejas (guias-expertas las movió en esta ronda): en es-mallorca, Aqualand El Arenal figura a 24 km y está a unos 10 km del nuevo punto (catedral de Palma); en es-tarifa-bolonia, Valdevaqueros a 3 km y está a unos 10 km; en es-donana, el Circuito de Jerez a 48 km y desde El Rocío está a unos 62 km, fuera del radio (quítalo), e Isla Mágica a 59 km y está a 53; en pt-azores-flores pone 10 km y la actividad está en el propio Santa Cruz (0 km). Recalcula.",
+        "pt-madeira-funchal: pediste quitar checkyeti para EPIC Madeira, pero no añadiste la web del operador (epicmadeira.com), así que la actividad 'a 0 km' queda sin URL válida. Añádela o deja solo la ficha de Visit Madeira, a 22 km."
+      ]
+    },
+    "logistica-temporada": {
+      "nota": 8.5,
+      "desglose": {
+        "fuentes": 1.0,
+        "exactitud": 2.0,
+        "criterio": 1.5,
+        "coherencia": 2.0,
+        "descripcion": 2.0
+      },
+      "aprobado": false,
+      "comentarios": [
+        "Alcance: logistica-temporada-fix1.json, más logistica-temporada-fix1b.json (escrito por el curador). Resuelto desde r1: Fátima dice 'más de 450.000 en mayo de 2024' y añade la afluencia de 2026 (DN, confirmado); Formentor se redacta como regla de temporada con las fechas de 2026 (15 de mayo–18 de octubre); el PR1 de Madeira está al día (abre a diario desde el 26 de junio de 2026); los blogs de la Alhambra, Altamira, Doñana, Piódão y Figueres se sustituyen por el Patronato, turismo.granada.org, spain.info, MITECO, Aldeias Históricas y Patrimoni Gencat; Alcalá cita la Universidad; Mafra, Visit Lisboa; Côa, arte-coa.pt; los accesos de pt-porto (Gaia, Matosinhos) y es-oviedo (Gijón, Villaviciosa) cubren las fusiones.",
+        "Verificación: 7 URLs. Confirmadas 4: dn.pt/sociedade/ftima-mais-peregrinos-em-2026..., turismo.granada.org/en/what-do-if-there-are-no-alhambra-tickets-official-website, arte-coa.pt/en/product-category/tickets/guided-visit-to-the-park y barcelona-tourist-guide.com/.../monserrat-expreso-tren-visita.html. No encontradas 3: spain.info/es/destino/merida/, /el-puerto-de-santa-maria/ y /denia/, y una búsqueda combinada tampoco mostró /cadiz/, /tarragona/ ni /zaragoza/.",
+        "URLs armadas a mano: la nota del propio archivo dice que las URL de spain.info /es/destino/<ciudad>/ 'siguen el patrón comprobado'. Son 9 (es-merida, es-tarragona, es-zaragoza, es-antequera, es-aranjuez, es-el-puerto-de-santa-maria, es-denia, es-cadiz y es-cartagena), y en esas fichas son la única fuente que respalda el acceso. No se aceptan URLs deducidas: compruébalas una a una o usa renfe.com, alsa.es o la oficina de turismo municipal.",
+        "Fuentes que no tratan del acceso: en es-oviedo solo se citan dos fichas UNESCO; en es-albarracin, la UNESCO y la votación de LP; en es-rias-baixas, el reportaje de Combarro de Carta de España; en es-getaria, las fichas del Museo Balenciaga; en es-ribera-del-duero, la ficha del museo provincial. Cita transporte u oficina de turismo (alsa.es o renfe.com para Oviedo, Gijón y Villaviciosa; dbus o Lurraldebus para Getaria; turismo de Cambados u O Grove). En es-montserrat, la alerta ya cita fgc.cat y cremallerademontserrat.cat: úsalas como fuentes en lugar de Barcelona Tourist Guide y Surt de Casa. es-guadalupe sigue con el blog elviajedesofi.com en el resultado final: sustitúyelo por Samar o por la web del monasterio.",
+        "Revisa la logística mínima que el curador escribió para es-elche, es-poblet, pt-ria-formosa y pt-douro-internacional (fix1b). Hoy solo cita la UNESCO o VisitPortugal y el aviso genérico del FCDO. Añade una fuente de transporte (Cercanías C-1 en renfe.com para Elche, horarios de barcos a Culatra y Armona en Olhão) y el horario del monasterio de Poblet (poblet.cat)."
+      ]
+    },
+    "curador": {
+      "nota": 7.0,
+      "desglose": {
+        "fuentes": 1.5,
+        "exactitud": 1.0,
+        "criterio": 1.0,
+        "coherencia": 1.5,
+        "descripcion": 2.0
+      },
+      "aprobado": false,
+      "comentarios": [
+        "Alcance: los 136 lugares de ES (85), PT (45) y AD (6) en data/lugares/europa.json, más curador.json y curador-ajustes.json. El validador pasa sin errores y la fórmula global y el nivel son correctos. Resuelto desde r1: 10 de los 14 lugares con guias 0 tienen ya fuente de guía (Figueres 3, Trujillo 3, Teruel 3, Guadalupe 2, Monfragüe 2, Lugo 2, Priorat 2, Penedès 2, Bardenas 2, Viana 2); las categorías se corrigen (pt-obidos, pt-marvao, pt-monsanto, pt-monsaraz y pt-amarante pasan a 'ciudad'; es-terra-mitica según la decisión aceptada); las URLs no confirmadas de Cíes, Gran Canaria, Fátima y el Caminito se sustituyen; los por_que tienen como máximo 3 frases y el de es-terra-mitica se reescribe con la advertencia en alerta.",
+        "Verificación de URLs de guía del curador: 5. Confirmadas 4: frommers.com/destinations/parque-nacional-de-monfragüe/, lonelyplanet.fr/article/les-bardenas-reales-un-desert-spectaculaire-en-espagne, roughguides.com/portugal/mafra-travel-guide/ y lonelyplanet.com/destinations/spain/extremadura/merida. No encontrada 1: roughguides.com/spain/galicia/lugo (es-lugo, guias 2). Además, la nota 'es-cartagena: LP… sin página' es falsa: lonelyplanet.com/destinations/spain/cartagena aparece en la búsqueda.",
+        "No aplicaste los fuentes_quitar de adrenalina-fix1 en adrenalina_cerca: siguen las 13 URLs que el agente pidió quitar. Son naturland.ad/en/node/137 en los 6 lugares de AD y en es-aiguestortes, rapturecamps.com/surfcamp/portugal/surf-lessons en pt-lisboa, pt-sintra y pt-mafra, y checkyeti.com/en/d/1587/11952 en pt-madeira-funchal. También hay duplicados: el Tobotronc sale dos veces en cada lugar de AD, Grandvalira tres veces en ad-grandvalira-pas-de-la-casa, Flag Beach cuatro veces en es-fuerteventura y Ericeira dos veces en Lisboa, Sintra y Mafra. Deduplica por actividad.",
+        "Regla de 60 km: ad-grandvalira-pas-de-la-casa conserva Baqueira Beret a 62 km (heredada de la fusión con Canillo): quítala. Las distancias no se recalcularon tras mover coordenadas: Aqualand está a 10 km de es-mallorca (no a 24), Valdevaqueros a 10 km de es-tarifa-bolonia (no a 3), el Circuito de Jerez a 62 km de es-donana (fuera del radio) y la actividad de pt-azores-flores a 0 km (no a 10). El paso 4 pide verificar coordenadas y distancias.",
+        "Guías mal calculadas con la escala (3 = 2 guías, 2 = 1 guía): es-merida tiene guias 3 con una sola URL de LP, y es-tarragona guias 3 con dos artículos de LP, que son una sola guía. Bájalos a 2 o añade una segunda guía (la Rough Guides de Tarragona o el Fodor's de Mérida), porque hoy salen por encima de es-girona (2) con el mismo número de guías. pt-amarante tiene guias 1 con Rough Guides en curador-ajustes y una ficha de LP (ponte-de-sao-goncalo) en fuentes, así que son 2 guías: sube a 3.",
+        "Lugares nuevos sin puntuar: es-elche, es-poblet, pt-ria-formosa y pt-douro-internacional se publican con 0 en guías y en los temáticos que nadie puntuó (Elche: naturaleza, gastronomía y adrenalina 0, pese al Palmeral; Ria Formosa: gastronomía 0, pese a Olhão). En la app, 0 se lee como 'nada'. Devuélvelos a los especialistas antes de publicar o marca esos puntajes como pendientes. Por esos ceros, es-poblet (2.4) y es-elche (2.6), dos sitios UNESCO, quedan por debajo de es-terra-mitica (2.8). Lo mismo pasa con es-cartagena (2.6), que tiene página de destino en LP.",
+        "Coordenadas con 2 decimales en el resultado final: ad-vall-del-madriu (42.49, 1.59), pt-peneda-geres (41.73, -8.16), es-caldera-de-taburiente (28.72, -17.87) y pt-arrabida (38.48, -8.98), y con una de las dos coordenadas en 2 decimales es-formentera, es-fuerteventura, es-caminito-del-rey, es-noguera-pallaresa-sort, pt-sintra, pt-sagres, pt-nazare, pt-alcobaca, pt-madeira-rabacal y pt-azores-faial. Pásalas a 4 decimales con un punto concreto."
+      ]
+    }
+  },
+  "paises": {
+    "ES": {
+      "nota": 8.1,
+      "revision_pendiente": false,
+      "comentario": "Promedio ponderado de los 7 agentes (8.3), menos un ajuste por los problemas que se concentran en ES: 9 URLs de spain.info armadas a mano, 6 lugares con guias 0 (Cartagena, Guara, Sort, Empuriabrava, Elche y Poblet), Elche y Poblet sin puntuar en varios temáticos, Toledo y Pueblos Blancos fuera de la escala de adrenalina, y Mérida y Tarragona con guias 3 con una sola guía."
+    },
+    "PT": {
+      "nota": 8.2,
+      "revision_pendiente": false,
+      "comentario": "Restan las coordenadas de Peneda-Gerês, la Ria Formosa y el Douro Internacional sin puntuar en guías ni en los temáticos que faltan, las URLs de Rapture y checkyeti que no se quitaron, pt-amarante con guias 1, el folleto de Flores sin confirmar, el blog que queda en Benagil y pt-piodao con guias 0."
+    },
+    "AD": {
+      "nota": 7.9,
+      "revision_pendiente": false,
+      "comentario": "Restan el Time Out patrocinado y la página de Rough Guides sin confirmar, de las que dependen Grandvalira y Andorra la Vella; el Tobotronc duplicado en los 6 lugares; Baqueira a 62 km en Grandvalira, y el Madriu con 2 decimales."
+    }
+  }
+}
