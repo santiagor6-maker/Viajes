@@ -1,0 +1,1691 @@
+{
+  "agente": "guias-expertas",
+  "subregion": "francia-alpes",
+  "ronda": 1,
+  "notas": "Grupo a: FR, MC, BE, NL, LU. Sólo se cuentan como recomendación artículos o páginas de destino de cada guía; las páginas genéricas de país (p. ej. fodors.com/world/europe/france), librerías y foros no suman. Las estrellas Michelin se toman de las fichas oficiales del Guide Vert en la boutique de Michelin, que listan los 'incontournables' con su clasificación; sólo se declara ★★★ cuando esa ficha lo muestra. Condé Nast Traveler no fue accesible (dominio bloqueado). WebFetch no funcionó; todas las URL salieron en WebSearch.",
+  "candidatos": [
+    {
+      "id": "fr-paris",
+      "nombre": "París",
+      "pais_iso": "FR",
+      "region": "Île-de-France",
+      "lat": 48.8566,
+      "lng": 2.3522,
+      "tipo": "ciudad",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rick Steves", "Rough Guides", "Time Out"],
+      "justificacion": "Primera parada en todas las guías: Lonely Planet la incluye en sus mejores lugares de Francia (París en primavera), Rick Steves la pone como base de cualquier viaje (3 días mínimo), Rough Guides la sitúa la primera de su lista y Time Out le dedica su guía de imprescindibles.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-france" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/france/itinerary" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/france/best-places-to-visit/" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/france/things-to-do-paris/" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/paris/en/things-to-do/best-things-to-do-in-paris" }
+      ]
+    },
+    {
+      "id": "fr-versalles",
+      "nombre": "Versalles",
+      "pais_iso": "FR",
+      "region": "Île-de-France",
+      "lat": 48.8049,
+      "lng": 2.1204,
+      "tipo": "monumento",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Rick Steves", "Lonely Planet", "National Geographic"],
+      "justificacion": "Palacio y jardines a 17 km de París, por eso va aparte. Rick Steves lo suma ya al viaje de 3 días, Lonely Planet lo encabeza entre las excursiones desde París y National Geographic propone quedarse a dormir en vez de ir y volver en el día.",
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/france/itinerary" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/the-best-day-trips-from-paris" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/overnight-trips-near-paris" }
+      ]
+    },
+    {
+      "id": "fr-giverny",
+      "nombre": "Giverny",
+      "pais_iso": "FR",
+      "region": "Normandía",
+      "lat": 49.0753,
+      "lng": 1.5337,
+      "tipo": "pueblo",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Rick Steves", "Lonely Planet", "Time Out"],
+      "justificacion": "Casa y jardines de Monet. Es la primera parada de la ruta en coche de 3 semanas de Rick Steves y está entre las excursiones desde París de Lonely Planet (mejor de abril a octubre). Time Out lo incluye entre los 14 pueblos más bonitos de Francia.",
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/france/itinerary" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/the-best-day-trips-from-paris" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/france/things-to-do/best-villages-in-france" }
+      ]
+    },
+    {
+      "id": "fr-chartres",
+      "nombre": "Chartres",
+      "pais_iso": "FR",
+      "region": "Centro-Valle de Loira",
+      "lat": 48.4469,
+      "lng": 1.4892,
+      "tipo": "ciudad",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Lonely Planet"],
+      "justificacion": "Lonely Planet la propone como excursión desde París y llama a su catedral del siglo XIII la catedral medieval mejor conservada de Francia. No hay segunda guía confirmada con página pública.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/the-best-day-trips-from-paris" }
+      ]
+    },
+    {
+      "id": "fr-mont-saint-michel",
+      "nombre": "Mont-Saint-Michel",
+      "pais_iso": "FR",
+      "region": "Normandía",
+      "lat": 48.6361,
+      "lng": -1.5115,
+      "tipo": "monumento",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rick Steves", "Rough Guides"],
+      "justificacion": "Lonely Planet le da el primer lugar en Bretaña y Normandía en su guía para primerizos y recomienda cruzar la bahía a pie con guía. Rick Steves lo describe como la abadía-isla casi surrealista de Normandía. Rough Guides lo pone en sus cosas imprescindibles de Francia y aconseja llegar temprano o dormir allí. No encontré una página que confirme el ★★★ Michelin.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/destinations/france/normandy/mont-st-michel" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/first-time-france-where-to-go-and-what-to-do" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/france" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/france/things-to-do/" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/france/travel-tips/" }
+      ]
+    },
+    {
+      "id": "fr-bayeux-playas-desembarco",
+      "nombre": "Bayeux y playas del Desembarco",
+      "pais_iso": "FR",
+      "region": "Normandía",
+      "lat": 49.2764,
+      "lng": -0.7024,
+      "tipo": "ciudad",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Rick Steves"],
+      "justificacion": "Rick Steves usa Bayeux como base (tapiz y catedral) y dedica un día en coche a las playas del Desembarco: Arromanches, el Cementerio Americano y Pointe du Hoc. Las demás guías mencionan Normandía en general, pero no encontré una página pública suya que destaque este lugar.",
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/france/itinerary" }
+      ]
+    },
+    {
+      "id": "fr-honfleur",
+      "nombre": "Honfleur",
+      "pais_iso": "FR",
+      "region": "Normandía",
+      "lat": 49.4190,
+      "lng": 0.2330,
+      "tipo": "pueblo",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Rick Steves"],
+      "justificacion": "Puerto pintoresco que Rick Steves incluye en su ruta de 3 semanas por Normandía, junto a Giverny y Bayeux.",
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/france/itinerary" }
+      ]
+    },
+    {
+      "id": "fr-etretat",
+      "nombre": "Étretat",
+      "pais_iso": "FR",
+      "region": "Normandía",
+      "lat": 49.7071,
+      "lng": 0.2056,
+      "tipo": "costa",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Time Out"],
+      "justificacion": "Acantilados de creta con tres arcos naturales, pintados por los impresionistas. Time Out lo propone como excursión desde París.",
+      "fuentes": [
+        { "guia": "Time Out", "url": "https://www.timeout.com/paris/en/things-to-do/best-day-trips-from-paris" }
+      ]
+    },
+    {
+      "id": "fr-valle-del-loira",
+      "nombre": "Valle del Loira (Amboise, Chenonceau, Chambord)",
+      "pais_iso": "FR",
+      "region": "Centro-Valle de Loira",
+      "lat": 47.4133,
+      "lng": 0.9826,
+      "tipo": "region",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rick Steves", "Rough Guides"],
+      "justificacion": "Lonely Planet lo cuenta entre sus mejores lugares de Francia por los castillos. Rick Steves lo pone en el viaje de una semana, recomienda Amboise como base y propone Chenonceau, Chambord y Cheverny en un día. Rough Guides incluye los castillos del Loira entre lo mejor del país. Coordenadas: Amboise, como base.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-france" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/watch-read-listen/read/articles/frances-loire-valley-of-a-thousand-chateaux" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/france/itinerary" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/france/best-places-to-visit/" }
+      ]
+    },
+    {
+      "id": "fr-saint-malo",
+      "nombre": "Saint-Malo",
+      "pais_iso": "FR",
+      "region": "Bretaña",
+      "lat": 48.6493,
+      "lng": -2.0257,
+      "tipo": "ciudad",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides"],
+      "justificacion": "La ciudad corsaria amurallada. Lonely Planet la destaca en sus imprescindibles de Bretaña. Rough Guides la llama el lugar más visitado de Bretaña y recomienda cruzar a pie a la isla de Grand-Bé con marea baja.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-brittany" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/destinations/europe/france/brittany/eastern-brittany-north-coast/" }
+      ]
+    },
+    {
+      "id": "fr-carnac",
+      "nombre": "Carnac (alineamientos megalíticos)",
+      "pais_iso": "FR",
+      "region": "Bretaña",
+      "lat": 47.5950,
+      "lng": -3.0790,
+      "tipo": "monumento",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Lonely Planet"],
+      "justificacion": "Unos 3000 menhires en tres alineamientos, la mayor concentración de megalitos del mundo. Lonely Planet lo destaca en su guía de Bretaña y en la de regiones de Francia.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-brittany" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-regions-in-france" }
+      ]
+    },
+    {
+      "id": "fr-estrasburgo",
+      "nombre": "Estrasburgo",
+      "pais_iso": "FR",
+      "region": "Gran Este (Alsacia)",
+      "lat": 48.5734,
+      "lng": 7.7521,
+      "tipo": "ciudad",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Time Out", "National Geographic", "Rough Guides"],
+      "justificacion": "Lonely Planet la destaca en su guía de regiones y entre los mejores destinos de otoño e invierno. Time Out la usa como punto de partida de su entrada sobre Alsacia y cuenta su mercado navideño, el más antiguo de Europa, entre las mejores cosas que hacer en Francia. National Geographic la incluye en sus ciudades infravaloradas de Francia y Rough Guides la resalta en Alsacia.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-regions-in-france" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/things-to-do-in-france-autumn-and-winter" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/france/things-to-do/best-places-to-visit-in-france" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/france/things-to-do/best-things-to-do-in-france" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/overtourism-paris-underrated-cities-to-visit-france" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/france/travel-tips/" }
+      ]
+    },
+    {
+      "id": "fr-colmar-ruta-vino-alsacia",
+      "nombre": "Colmar y la Ruta del Vino de Alsacia",
+      "pais_iso": "FR",
+      "region": "Gran Este (Alsacia)",
+      "lat": 48.0794,
+      "lng": 7.3585,
+      "tipo": "ciudad",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Rick Steves", "Lonely Planet", "Time Out", "Rough Guides"],
+      "justificacion": "Rick Steves la toma como base para la Route du Vin y sus pueblos de entramado de madera (vídeo de Alsacia e itinerario). Lonely Planet elogia su arquitectura medieval y la Ruta del Vino. Time Out destaca su casco antiguo y Rough Guides la resalta junto a Estrasburgo.",
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/watch-read-listen/video/tv-show/france-alsace" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/france/itinerary" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-regions-in-france" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/france/things-to-do/best-places-to-visit-in-france" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/france/travel-tips/" }
+      ]
+    },
+    {
+      "id": "fr-reims-champana",
+      "nombre": "Reims y Épernay (Champaña)",
+      "pais_iso": "FR",
+      "region": "Gran Este (Champaña)",
+      "lat": 49.2583,
+      "lng": 4.0317,
+      "tipo": "ciudad",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Rick Steves", "Lonely Planet"],
+      "justificacion": "Rick Steves abre en Reims su tour del este de Francia (catedral de la coronación) y termina en Épernay su programa sobre la región. Lonely Planet pone Reims entre sus mejores destinos de otoño e invierno y recomienda la catedral y las catas de champán.",
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/tours/france/eastern-france" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/watch-read-listen/video/tv-show/france-alsace" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/things-to-do-in-france-autumn-and-winter" }
+      ]
+    },
+    {
+      "id": "fr-beaune-cote-dor",
+      "nombre": "Beaune y la Côte d'Or",
+      "pais_iso": "FR",
+      "region": "Borgoña-Franco Condado",
+      "lat": 47.0260,
+      "lng": 4.8400,
+      "tipo": "pueblo",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Rick Steves", "Lonely Planet"],
+      "justificacion": "Rick Steves suma Borgoña en el viaje de 19 días y en su tour del este de Francia visita el Hôtel-Dieu de Beaune y pasa un día entre los viñedos de la Côte d'Or. Lonely Planet presenta Borgoña como una de las grandes regiones vinícolas de Francia.",
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/tours/france/eastern-france" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/france/itinerary" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-regions-in-france" }
+      ]
+    },
+    {
+      "id": "fr-dijon",
+      "nombre": "Dijon",
+      "pais_iso": "FR",
+      "region": "Borgoña-Franco Condado",
+      "lat": 47.3220,
+      "lng": 5.0415,
+      "tipo": "ciudad",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["National Geographic", "Lonely Planet"],
+      "justificacion": "National Geographic la incluye en sus 5 ciudades infravaloradas de Francia por su historia medieval y el vino de Borgoña. Lonely Planet la cita por su gastronomía en su guía de regiones.",
+      "fuentes": [
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/overtourism-paris-underrated-cities-to-visit-france" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-regions-in-france" }
+      ]
+    },
+    {
+      "id": "fr-lyon",
+      "nombre": "Lyon",
+      "pais_iso": "FR",
+      "region": "Auvernia-Ródano-Alpes",
+      "lat": 45.7640,
+      "lng": 4.8357,
+      "tipo": "ciudad",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Time Out", "Rough Guides"],
+      "justificacion": "Time Out la pone 5.ª entre los 20 mejores lugares de Francia (capital gastronómica, centro UNESCO) y la incluye en sus mejores ciudades fuera de París. Rough Guides recomienda sus bouchons y ruinas romanas.",
+      "fuentes": [
+        { "guia": "Time Out", "url": "https://www.timeout.com/france/things-to-do/best-places-to-visit-in-france" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/france/travel/best-french-cities-to-visit" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/france/travel-tips/" }
+      ]
+    },
+    {
+      "id": "fr-annecy",
+      "nombre": "Annecy y su lago",
+      "pais_iso": "FR",
+      "region": "Auvernia-Ródano-Alpes (Alta Saboya)",
+      "lat": 45.8992,
+      "lng": 6.1294,
+      "tipo": "ciudad",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Time Out", "Rough Guides", "Lonely Planet"],
+      "justificacion": "Time Out pone el lago de Annecy 17.º entre los 20 mejores lugares de Francia. Rough Guides destaca su casco medieval con canales y el Palais de l'Isle. Lonely Planet empieza en Annecy su itinerario de 7 días por los Alpes en verano.",
+      "fuentes": [
+        { "guia": "Time Out", "url": "https://www.timeout.com/france/things-to-do/best-places-to-visit-in-france" },
+        { "guia": "Rough Guides", "url": "https://roughguides.com/destinations/europe/france/the-alps-and-franche-comte" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/summer-french-alps-itinerary" }
+      ]
+    },
+    {
+      "id": "fr-chamonix-mont-blanc",
+      "nombre": "Chamonix-Mont-Blanc",
+      "pais_iso": "FR",
+      "region": "Auvernia-Ródano-Alpes (Alta Saboya)",
+      "lat": 45.9237,
+      "lng": 6.8694,
+      "tipo": "naturaleza",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Rick Steves", "Lonely Planet", "Time Out"],
+      "justificacion": "Rick Steves la suma en el viaje de 19 días (estación famosa, caminatas y teleféricos con vistas alpinas). Lonely Planet la cita como imán de deportes de invierno y senderismo de altura en los Alpes. Time Out recomienda subir al Brévent para ver el Mont Blanc.",
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/france/itinerary" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/france/the-french-alps/attractions" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/france/things-to-do/best-things-to-do-in-france" }
+      ]
+    },
+    {
+      "id": "fr-gorges-du-verdon",
+      "nombre": "Gargantas del Verdon",
+      "pais_iso": "FR",
+      "region": "Provenza-Alpes-Costa Azul",
+      "lat": 43.7667,
+      "lng": 6.3500,
+      "tipo": "naturaleza",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Michelin Guide Vert", "Lonely Planet", "Time Out"],
+      "justificacion": "Michelin ★★★: la ficha del Guide Vert Alpes du Sud lista el Grand Canyon du Verdon***. Lonely Planet lo llama el cañón más espectacular de Francia, con paredes de hasta 700 m, y recomienda el sendero Blanc-Martel. Time Out lo incluye entre las maravillas naturales de Europa.",
+      "fuentes": [
+        { "guia": "Michelin Guide Vert", "url": "https://boutique.laventure.michelin.com/produit/guide-vert-alpes-du-sud-hautes-alpes-alpes-de-haute-provence-ebook/" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/france/gorges-du-verdon/attractions" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/news/europes-natural-wonders-revealed-081326" }
+      ]
+    },
+    {
+      "id": "fr-avinon",
+      "nombre": "Aviñón",
+      "pais_iso": "FR",
+      "region": "Provenza-Alpes-Costa Azul",
+      "lat": 43.9493,
+      "lng": 4.8055,
+      "tipo": "ciudad",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Rick Steves", "Time Out"],
+      "justificacion": "Rick Steves le da dos estrellas en Provenza (Palacio de los Papas, puente medieval) y la propone como puerta de entrada en TGV. Time Out la incluye en sus mejores ciudades de Francia fuera de París.",
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/france/provence" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/france/travel/best-french-cities-to-visit" }
+      ]
+    },
+    {
+      "id": "fr-arles",
+      "nombre": "Arlés",
+      "pais_iso": "FR",
+      "region": "Provenza-Alpes-Costa Azul",
+      "lat": 43.6766,
+      "lng": 4.6278,
+      "tipo": "ciudad",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Rick Steves", "National Geographic"],
+      "justificacion": "Rick Steves la usa como base en Provenza (ruinas romanas, recuerdos de Van Gogh) y la pone en su ruta en tren. National Geographic la incluye en sus 5 ciudades infravaloradas de Francia.",
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/france/provence" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/overtourism-paris-underrated-cities-to-visit-france" }
+      ]
+    },
+    {
+      "id": "fr-pont-du-gard",
+      "nombre": "Pont du Gard",
+      "pais_iso": "FR",
+      "region": "Occitania (Gard)",
+      "lat": 43.9475,
+      "lng": 4.5350,
+      "tipo": "monumento",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Michelin Guide Vert", "Rick Steves"],
+      "justificacion": "Michelin ★★★: la ficha del Guide Vert Languedoc lo lista como Pont du Gard***. Rick Steves también le da su máxima nota (tres estrellas) en Provenza. Cumple la regla de ★★★ más top pick en otra guía. Está a 25 km de Nîmes y Aviñón, así que va aparte.",
+      "fuentes": [
+        { "guia": "Michelin Guide Vert", "url": "https://boutique.laventure.michelin.com/produit/guide-vert-languedoc-ebook" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/france/provence" }
+      ]
+    },
+    {
+      "id": "fr-nimes",
+      "nombre": "Nîmes",
+      "pais_iso": "FR",
+      "region": "Occitania (Gard)",
+      "lat": 43.8367,
+      "lng": 4.3601,
+      "tipo": "ciudad",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Michelin Guide Vert"],
+      "justificacion": "El Guide Vert Languedoc pone las Arènes de Nîmes*** entre sus imprescindibles. No encontré una segunda guía con página pública, así que puntúa como una sola guía, aunque el ★★★ sugiere que el curador podría subirlo.",
+      "fuentes": [
+        { "guia": "Michelin Guide Vert", "url": "https://boutique.laventure.michelin.com/produit/guide-vert-languedoc-ebook" }
+      ]
+    },
+    {
+      "id": "fr-aix-en-provence",
+      "nombre": "Aix-en-Provence",
+      "pais_iso": "FR",
+      "region": "Provenza-Alpes-Costa Azul",
+      "lat": 43.5297,
+      "lng": 5.4474,
+      "tipo": "ciudad",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Rough Guides", "Rick Steves"],
+      "justificacion": "Rough Guides destaca sus mercados (Place Richelme) y la Fontaine de la Rotonde en el Cours Mirabeau. Rick Steves cierra en Aix su tour del este de Francia.",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/france/things-to-do/" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/tours/france/eastern-france" }
+      ]
+    },
+    {
+      "id": "fr-luberon",
+      "nombre": "Luberon (Gordes, Ménerbes)",
+      "pais_iso": "FR",
+      "region": "Provenza-Alpes-Costa Azul",
+      "lat": 43.9116,
+      "lng": 5.2003,
+      "tipo": "region",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Time Out"],
+      "justificacion": "Pueblos encaramados de la Provenza. Time Out incluye Ménerbes entre los pueblos más bonitos de Francia. Coordenadas en Gordes.",
+      "fuentes": [
+        { "guia": "Time Out", "url": "https://www.timeout.com/france/things-to-do/best-villages-in-france" }
+      ]
+    },
+    {
+      "id": "fr-marsella-calanques",
+      "nombre": "Marsella y las Calanques",
+      "pais_iso": "FR",
+      "region": "Provenza-Alpes-Costa Azul",
+      "lat": 43.2965,
+      "lng": 5.3698,
+      "tipo": "ciudad",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Time Out", "Lonely Planet"],
+      "justificacion": "Time Out pone Marsella 2.ª entre los 20 mejores lugares de Francia (puerto multicultural de 2600 años) y recomienda caminar hasta las calas. Lonely Planet cierra en Marsella su itinerario de 9 días con lo esencial de Francia.",
+      "fuentes": [
+        { "guia": "Time Out", "url": "https://www.timeout.com/france/things-to-do/best-places-to-visit-in-france" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/france/things-to-do/best-things-to-do-in-france" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/france-best-itineraries" }
+      ]
+    },
+    {
+      "id": "fr-niza",
+      "nombre": "Niza y Villefranche-sur-Mer",
+      "pais_iso": "FR",
+      "region": "Provenza-Alpes-Costa Azul (Costa Azul)",
+      "lat": 43.7102,
+      "lng": 7.2620,
+      "tipo": "ciudad",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rick Steves"],
+      "justificacion": "Lonely Planet le dedica dos días en su itinerario por el sur y destaca la Costa Azul entre sus mejores lugares. Rick Steves recomienda volver a casa desde Niza y propone Villefranche, a 6 km y fusionada aquí, como base romántica de la Riviera.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/france-best-itineraries" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-france" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/france/itinerary" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/watch-read-listen/video/tv-show/french-riviera-uniquely-chic" }
+      ]
+    },
+    {
+      "id": "fr-menton",
+      "nombre": "Menton",
+      "pais_iso": "FR",
+      "region": "Provenza-Alpes-Costa Azul (Costa Azul)",
+      "lat": 43.7764,
+      "lng": 7.5048,
+      "tipo": "costa",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Lonely Planet"],
+      "justificacion": "Lonely Planet sigue de Niza a Menton en su itinerario por la Costa Azul, por las carreteras de las cornisas.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/france-best-itineraries" }
+      ]
+    },
+    {
+      "id": "fr-carcasona",
+      "nombre": "Carcasona",
+      "pais_iso": "FR",
+      "region": "Occitania (Aude)",
+      "lat": 43.2063,
+      "lng": 2.3636,
+      "tipo": "ciudad",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Rick Steves", "Lonely Planet", "Time Out"],
+      "justificacion": "Rick Steves la suma con la Dordoña en el viaje de 11 días. Lonely Planet la incluye en sus rutas (torres, murallas, cassoulet) y la sitúa como uno de los lugares más visitados de Francia. Time Out la cuenta entre sus mejores lugares del país.",
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/france/itinerary" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/france-best-itineraries" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/france/things-to-do/best-places-to-visit-in-france" }
+      ]
+    },
+    {
+      "id": "fr-sarlat-dordona",
+      "nombre": "Sarlat-la-Canéda y la Dordoña",
+      "pais_iso": "FR",
+      "region": "Nueva Aquitania (Dordoña)",
+      "lat": 44.8890,
+      "lng": 1.2167,
+      "tipo": "region",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Rick Steves", "Lonely Planet", "Rough Guides", "National Geographic"],
+      "justificacion": "Rick Steves la suma en el viaje de 11 días y le dedica un programa: cuevas prehistóricas, pueblos esculpidos en la roca, canoa entre castillos, con Sarlat como mercado clave. Lonely Planet recomienda Sarlat como base. Rough Guides destaca su casco antiguo y los jardines de Marqueyssac, y National Geographic propone una ruta otoñal por el valle.",
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/watch-read-listen/video/tv-show/france-dordogne" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/france-best-itineraries" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/destinations/france/the-dordogne-limousin-the-lot" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/france/things-to-do/" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/autumn-road-trip-france-dordogne-valley" }
+      ]
+    },
+    {
+      "id": "fr-valle-vezere-lascaux",
+      "nombre": "Valle del Vézère (Lascaux, Les Eyzies)",
+      "pais_iso": "FR",
+      "region": "Nueva Aquitania (Dordoña)",
+      "lat": 44.9970,
+      "lng": 1.0910,
+      "tipo": "monumento",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides", "National Geographic"],
+      "justificacion": "Arte rupestre a unos 25 km de Sarlat, por eso va aparte. Lonely Planet dedica una parada de su ruta a las cuevas de Les Eyzies y Montignac. Rough Guides llama a Lascaux el arte prehistórico más impresionante de Francia y National Geographic incluye Lascaux IV y Rouffignac en su ruta. Coordenadas entre Montignac y Les Eyzies.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/france-best-itineraries" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/france/things-to-do/" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/autumn-road-trip-france-dordogne-valley" }
+      ]
+    },
+    {
+      "id": "fr-rocamadour",
+      "nombre": "Rocamadour",
+      "pais_iso": "FR",
+      "region": "Occitania (Lot)",
+      "lat": 44.7994,
+      "lng": 1.6178,
+      "tipo": "pueblo",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "National Geographic"],
+      "justificacion": "Pueblo santuario colgado de un acantilado. Lonely Planet lo incluye en sus mejores lugares de Francia como plan familiar y National Geographic lo recomienda en su guía de la Dordoña.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-france" },
+        { "guia": "National Geographic", "url": "https://nationalgeographic.com/travel/destinations/europe/france/dordogne-romance-castles-what-to-do" }
+      ]
+    },
+    {
+      "id": "fr-burdeos",
+      "nombre": "Burdeos",
+      "pais_iso": "FR",
+      "region": "Nueva Aquitania (Gironda)",
+      "lat": 44.8378,
+      "lng": -0.5792,
+      "tipo": "ciudad",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides"],
+      "justificacion": "Lonely Planet la recomienda a los amantes del vino entre sus mejores lugares de Francia. Rough Guides destaca la Cité du Vin y los viñedos, con excursión a Saint-Émilion.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-france" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/france/best-places-to-visit/" }
+      ]
+    },
+    {
+      "id": "fr-duna-pilat-arcachon",
+      "nombre": "Duna de Pilat y bahía de Arcachon",
+      "pais_iso": "FR",
+      "region": "Nueva Aquitania (Gironda)",
+      "lat": 44.5890,
+      "lng": -1.2130,
+      "tipo": "costa",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Time Out"],
+      "justificacion": "Lonely Planet abre su lista de mejores lugares con Arcachon y la duna más alta de Europa, más el barco a Cap Ferret y el kayak a la Île aux Oiseaux. Time Out la incluye entre las 8 maravillas naturales de Francia.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-france" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/france/travel/most-beautiful-sights-natural-wonders-france" }
+      ]
+    },
+    {
+      "id": "fr-biarritz-costa-vasca",
+      "nombre": "Biarritz y la costa vasca (Bayona, San Juan de Luz)",
+      "pais_iso": "FR",
+      "region": "Nueva Aquitania (País Vasco francés)",
+      "lat": 43.4832,
+      "lng": -1.5586,
+      "tipo": "costa",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Time Out", "Michelin Guide Vert", "Rick Steves"],
+      "justificacion": "Lonely Planet llama a Biarritz la meca del surf y de los pintxos y recomienda el mercado de Les Halles en Bayona. Time Out incluye el surf de Biarritz entre lo mejor de Francia. El Guide Vert Pays basque nombra Biarritz entre sus sitios con estrellas, sin precisar cuántas. Rick Steves propone San Juan de Luz, a 15 km, como base. Fusiono los tres por cercanía.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-regions-in-france" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/france-best-itineraries" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/france/things-to-do/best-things-to-do-in-france" },
+        { "guia": "Michelin Guide Vert", "url": "https://boutique.laventure.michelin.com/produit/guide-vert-pays-basque-france-espagne-bearn-navarre-ebook-2/" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/france/basque-country" }
+      ]
+    },
+    {
+      "id": "fr-toulouse",
+      "nombre": "Toulouse",
+      "pais_iso": "FR",
+      "region": "Occitania (Alto Garona)",
+      "lat": 43.6047,
+      "lng": 1.4442,
+      "tipo": "ciudad",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["National Geographic", "Lonely Planet"],
+      "justificacion": "National Geographic la incluye en sus ciudades infravaloradas de Francia y otra vez en las de Europa para el verano (Museo de los Agustinos reabierto, festival Rio Loco). Lonely Planet la cuenta entre sus favoritas de otoño e invierno.",
+      "fuentes": [
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/overtourism-paris-underrated-cities-to-visit-france" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/underrated-european-cities-to-visit-this-summer" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/things-to-do-in-france-autumn-and-winter" }
+      ]
+    },
+    {
+      "id": "fr-gorges-du-tarn",
+      "nombre": "Gargantas del Tarn",
+      "pais_iso": "FR",
+      "region": "Occitania (Lozère)",
+      "lat": 44.3653,
+      "lng": 3.4114,
+      "tipo": "naturaleza",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Michelin Guide Vert", "Rough Guides"],
+      "justificacion": "Michelin ★★★: la ficha del Guide Vert Languedoc lista las Gorges du Tarn***. Rough Guides la incluye en sus mejores rutas en coche de Francia, entre pueblos medievales y túneles excavados en la roca, saliendo de Florac. Coordenadas en Sainte-Enimie.",
+      "fuentes": [
+        { "guia": "Michelin Guide Vert", "url": "https://boutique.laventure.michelin.com/produit/guide-vert-languedoc-ebook" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/france/best-road-trips/" }
+      ]
+    },
+    {
+      "id": "fr-corcega",
+      "nombre": "Córcega (GR20, Scandola, Calanche de Piana)",
+      "pais_iso": "FR",
+      "region": "Córcega",
+      "lat": 42.0396,
+      "lng": 9.0129,
+      "tipo": "isla",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides", "Time Out"],
+      "justificacion": "Lonely Planet la propone para recorrerla en coche y destaca la reserva de Scandola y las Calanche de Piana. Rough Guides resalta el GR20, una de las travesías más duras de Europa, y sus playas tranquilas. Time Out recomienda la caminata por el desierto de Agriates hasta la playa de Lotu y el pueblo de Cargèse.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-corsica" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-france" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/france/things-to-do-corsica/" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/france/things-to-do/best-villages-in-france" }
+      ]
+    },
+    {
+      "id": "fr-bonifacio",
+      "nombre": "Bonifacio",
+      "pais_iso": "FR",
+      "region": "Córcega",
+      "lat": 41.3874,
+      "lng": 9.1595,
+      "tipo": "pueblo",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides"],
+      "justificacion": "Pueblo sobre acantilados de caliza en el extremo sur de Córcega. Lonely Planet recomienda verlo desde el mar en barco. Rough Guides llama a su casco antiguo uno de los espectáculos más impresionantes del Mediterráneo.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-corsica" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/france/things-to-do-corsica/" }
+      ]
+    },
+    {
+      "id": "fr-nancy",
+      "nombre": "Nancy",
+      "pais_iso": "FR",
+      "region": "Gran Este (Lorena)",
+      "lat": 48.6921,
+      "lng": 6.1844,
+      "tipo": "ciudad",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Time Out"],
+      "justificacion": "Lonely Planet incluye Lorena entre sus mejores lugares de Francia por el art nouveau, cuya capital es Nancy. Time Out la incluye en sus mejores ciudades fuera de París por su belleza y su arquitectura art nouveau.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-france" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/france/travel/best-french-cities-to-visit" }
+      ]
+    },
+    {
+      "id": "fr-verdun",
+      "nombre": "Verdún (campos de batalla de la Primera Guerra Mundial)",
+      "pais_iso": "FR",
+      "region": "Gran Este (Lorena)",
+      "lat": 49.1598,
+      "lng": 5.3844,
+      "tipo": "monumento",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Rick Steves", "Lonely Planet"],
+      "justificacion": "Rick Steves visita Verdún en su tour del este de Francia. Lonely Planet recomienda Lorena por los campos de batalla de la Primera Guerra Mundial.",
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/tours/france/eastern-france" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-france" }
+      ]
+    },
+    {
+      "id": "fr-lille",
+      "nombre": "Lille",
+      "pais_iso": "FR",
+      "region": "Altos de Francia",
+      "lat": 50.6292,
+      "lng": 3.0573,
+      "tipo": "ciudad",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["National Geographic", "Time Out"],
+      "justificacion": "National Geographic la incluye en sus 5 ciudades infravaloradas de Francia (arte y compras, a poca distancia en tren de París) y Time Out en sus mejores ciudades fuera de París. Cubre el norte del país.",
+      "fuentes": [
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/overtourism-paris-underrated-cities-to-visit-france" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/france/travel/best-french-cities-to-visit" }
+      ]
+    },
+
+    {
+      "id": "mc-monaco-ville",
+      "nombre": "Mónaco-Ville (Le Rocher: Palacio del Príncipe, Museo Oceanográfico, catedral)",
+      "pais_iso": "MC",
+      "region": "Mónaco-Ville",
+      "lat": 43.7310,
+      "lng": 7.4200,
+      "tipo": "ciudad",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rick Steves", "Fodor's", "Time Out"],
+      "justificacion": "Lonely Planet recomienda el Palacio (cambio de guardia a las 11:55), el Museo Oceanográfico y la catedral de Grace Kelly. Rick Steves propone la entrada combinada palacio y colección de autos. Fodor's da su sello Fodor's Choice al Museo Oceanográfico y Time Out pone el palacio y la catedral en su top.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-monaco" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/monaco/attractions/musee-oceanographique-de-monaco/a/poi-sig/1188681/359266" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/guidebook-updates-med-cruise" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/monaco/things-to-do/sights" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/monaco/things-to-do/best-things-to-do-in-monaco" }
+      ]
+    },
+    {
+      "id": "mc-monte-carlo",
+      "nombre": "Monte-Carlo (Casino y Place du Casino)",
+      "pais_iso": "MC",
+      "region": "Monte-Carlo",
+      "lat": 43.7396,
+      "lng": 7.4277,
+      "tipo": "ciudad",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rick Steves", "Fodor's", "Time Out"],
+      "justificacion": "El Casino de Garnier encabeza la lista de Time Out. Lonely Planet aconseja visitar los salones por la mañana y Rick Steves da horarios y código de vestimenta. Fodor's lo considera imprescindible incluso para quien no juega.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-monaco" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/watch-read-listen/video/tv-show/french-riviera-uniquely-chic" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/monaco/things-to-do/nightlife/reviews/casino-de-monte-carlo-596864" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/monaco/things-to-do/best-things-to-do-in-monaco" }
+      ]
+    },
+    {
+      "id": "mc-jardin-exotique",
+      "nombre": "Jardín Exótico de Mónaco",
+      "pais_iso": "MC",
+      "region": "Moneghetti",
+      "lat": 43.7313,
+      "lng": 7.4122,
+      "tipo": "naturaleza",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Fodor's", "Time Out"],
+      "justificacion": "Jardín de cactus y suculentas colgado sobre la costa, con gruta. Fodor's elogia sus vistas y Time Out lo incluye en sus 13 imprescindibles de Mónaco. Fodor's avisaba de una restauración larga: hay que confirmar si ya reabrió.",
+      "fuentes": [
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/monaco/things-to-do/sights" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/monaco/things-to-do/best-things-to-do-in-monaco" }
+      ]
+    },
+    {
+      "id": "mc-puerto-hercule-circuito",
+      "nombre": "Port Hercule y circuito del Gran Premio",
+      "pais_iso": "MC",
+      "region": "La Condamine",
+      "lat": 43.7347,
+      "lng": 7.4206,
+      "tipo": "ciudad",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Time Out"],
+      "justificacion": "Lonely Planet y Time Out recomiendan recorrer a pie el circuito urbano de F1 fuera de la semana de carrera. Time Out añade la piscina de agua salada Stade Nautique Rainier III, junto al puerto.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-monaco" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/monaco/things-to-do/best-things-to-do-in-monaco" }
+      ]
+    },
+    {
+      "id": "mc-larvotto",
+      "nombre": "Larvotto (playa y Chemin des Sculptures)",
+      "pais_iso": "MC",
+      "region": "Larvotto",
+      "lat": 43.7450,
+      "lng": 7.4350,
+      "tipo": "playa",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Time Out"],
+      "justificacion": "Time Out incluye el sendero de esculturas al aire libre junto a la playa de Larvotto entre sus 13 imprescindibles de Mónaco.",
+      "fuentes": [
+        { "guia": "Time Out", "url": "https://www.timeout.com/monaco/things-to-do/best-things-to-do-in-monaco" }
+      ]
+    },
+
+    {
+      "id": "be-brujas",
+      "nombre": "Brujas",
+      "pais_iso": "BE",
+      "region": "Flandes Occidental",
+      "lat": 51.2093,
+      "lng": 3.2247,
+      "tipo": "ciudad",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Rick Steves", "Lonely Planet", "Rough Guides", "Time Out", "Fodor's"],
+      "justificacion": "Rick Steves le da su nota máxima en Bélgica (una ciudad gótica perfectamente conservada) y la pone primero en su itinerario. Lonely Planet propone subir los 366 escalones del Belfort. Rough Guides la llama una de las ciudades más seductoras de Europa. Time Out y Fodor's le dedican guías propias.",
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/belgium/itinerary" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-belgium" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-belgium/" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/belgium/things-to-do/best-things-to-do-in-bruges" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/news/where-to-go-in-belgium-6099" }
+      ]
+    },
+    {
+      "id": "be-bruselas",
+      "nombre": "Bruselas",
+      "pais_iso": "BE",
+      "region": "Región de Bruselas-Capital",
+      "lat": 50.8467,
+      "lng": 4.3525,
+      "tipo": "ciudad",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Michelin Guide Vert", "Lonely Planet", "Rick Steves", "Rough Guides", "Time Out"],
+      "justificacion": "Michelin ★★★ (Bruxelles*** en la ficha del Guide Vert Belgique). Lonely Planet la recomienda por su arte (Museos Reales, Villa Empain) y Rick Steves le da dos de tres estrellas. Rough Guides destaca la Grand-Place UNESCO y Time Out tiene su guía local.",
+      "fuentes": [
+        { "guia": "Michelin Guide Vert", "url": "https://boutique.laventure.michelin.com/produit/guide-vert-belgique-ebook/" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-belgium" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/belgium" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/belgium/brussels/" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/belgium/things-to-do/best-things-to-do-in-brussels" }
+      ]
+    },
+    {
+      "id": "be-gante",
+      "nombre": "Gante",
+      "pais_iso": "BE",
+      "region": "Flandes Oriental",
+      "lat": 51.0543,
+      "lng": 3.7174,
+      "tipo": "ciudad",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Michelin Guide Vert", "Lonely Planet", "Rick Steves", "Rough Guides"],
+      "justificacion": "Michelin ★★★ (Gand*** en el Guide Vert Belgique). Lonely Planet destaca su arquitectura medieval y sus canales. Rick Steves la suma al viaje de 6 días y Rough Guides incluye el retablo de Van Eyck en sus imprescindibles.",
+      "fuentes": [
+        { "guia": "Michelin Guide Vert", "url": "https://boutique.laventure.michelin.com/produit/guide-vert-belgique-ebook/" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-belgium" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/belgium/itinerary" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-belgium/" }
+      ]
+    },
+    {
+      "id": "be-amberes",
+      "nombre": "Amberes",
+      "pais_iso": "BE",
+      "region": "Provincia de Amberes",
+      "lat": 51.2194,
+      "lng": 4.4025,
+      "tipo": "ciudad",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rick Steves", "Rough Guides", "Fodor's", "Time Out"],
+      "justificacion": "Lonely Planet la llama la ciudad más cool de Bélgica (moda, diseño). Rick Steves le da dos de tres estrellas. Rough Guides destaca los Rubens de la catedral y Fodor's sus barrios de moda y diamantes. Time Out la cubre entre lo mejor del país.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-belgium" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/belgium" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/belgium/antwerp-northeast/" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/news/where-to-go-in-belgium-6099" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/belgium/things-to-do/best-things-to-do-in-belgium" }
+      ]
+    },
+    {
+      "id": "be-ypres-flanders-fields",
+      "nombre": "Ypres (Ieper) y Flanders Fields",
+      "pais_iso": "BE",
+      "region": "Flandes Occidental",
+      "lat": 50.8503,
+      "lng": 2.8851,
+      "tipo": "monumento",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Rick Steves", "Rough Guides", "Lonely Planet"],
+      "justificacion": "Rick Steves suma los campos de batalla de la Primera Guerra Mundial de Flanders Fields al viaje de 7 días. Rough Guides incluye la Puerta de Menin en sus imprescindibles. Lonely Planet propone una ruta en coche de 2 días de Nieuwpoort a Diksmuide pasando por Ypres.",
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/belgium/itinerary" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-belgium/" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-road-trips-in-belgium" }
+      ]
+    },
+    {
+      "id": "be-lovaina",
+      "nombre": "Lovaina (Leuven)",
+      "pais_iso": "BE",
+      "region": "Brabante Flamenco",
+      "lat": 50.8798,
+      "lng": 4.7005,
+      "tipo": "ciudad",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Time Out", "Rough Guides", "Lonely Planet"],
+      "justificacion": "Time Out la incluye entre lo mejor de Bélgica: universidad católica más antigua de Europa, ayuntamiento gótico, Museo M. Rough Guides la propone como excursión fácil desde Bruselas, con su Grote Markt medieval. Lonely Planet sale de Lovaina en su ruta romana hacia Tongeren.",
+      "fuentes": [
+        { "guia": "Time Out", "url": "https://www.timeout.com/belgium/things-to-do/best-things-to-do-in-belgium" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/belgium/brussels/" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-road-trips-in-belgium" }
+      ]
+    },
+    {
+      "id": "be-malinas",
+      "nombre": "Malinas (Mechelen)",
+      "pais_iso": "BE",
+      "region": "Provincia de Amberes",
+      "lat": 51.0259,
+      "lng": 4.4776,
+      "tipo": "ciudad",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Time Out", "Rough Guides"],
+      "justificacion": "Time Out destaca el museo Kazerne Dossin, a un corto trayecto en tren de Bruselas. Rough Guides la presenta como capital eclesiástica de Bélgica, con el mejor carillón del país (49 campanas del siglo XV).",
+      "fuentes": [
+        { "guia": "Time Out", "url": "https://www.timeout.com/belgium/things-to-do/best-things-to-do-in-belgium" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/belgium/brussels/" }
+      ]
+    },
+    {
+      "id": "be-costa-belga",
+      "nombre": "Costa belga (Ostende, De Haan)",
+      "pais_iso": "BE",
+      "region": "Flandes Occidental",
+      "lat": 51.2154,
+      "lng": 2.9287,
+      "tipo": "costa",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides", "Time Out"],
+      "justificacion": "Lonely Planet incluye la costa belga entre los 8 mejores lugares del país (De Haan, Oostduinkerke). Rough Guides elige Ostende como su playa y Time Out también la cubre. De Haan está a 12 km de Ostende y va fusionado.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-belgium" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-belgium/" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/belgium/things-to-do/best-things-to-do-in-belgium" }
+      ]
+    },
+    {
+      "id": "be-namur",
+      "nombre": "Namur",
+      "pais_iso": "BE",
+      "region": "Provincia de Namur (Valonia)",
+      "lat": 50.4674,
+      "lng": 4.8720,
+      "tipo": "ciudad",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Lonely Planet"],
+      "justificacion": "Lonely Planet abre su lista de mejores lugares de Bélgica con la provincia de Namur: fuertes, naturaleza, ríos y una de las mayores ciudadelas de Europa.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-belgium" }
+      ]
+    },
+    {
+      "id": "be-dinant",
+      "nombre": "Dinant",
+      "pais_iso": "BE",
+      "region": "Provincia de Namur (Valonia)",
+      "lat": 50.2606,
+      "lng": 4.9122,
+      "tipo": "pueblo",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Rough Guides"],
+      "justificacion": "Rough Guides la elige como base para el kayak y el senderismo en las Ardenas (ciudadela sobre el acantilado, cruceros y canoa en el Mosa y el Lesse).",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-belgium/" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/belgium/ardennes/" }
+      ]
+    },
+    {
+      "id": "be-han-sur-lesse",
+      "nombre": "Grutas de Han (Han-sur-Lesse)",
+      "pais_iso": "BE",
+      "region": "Provincia de Namur (Valonia)",
+      "lat": 50.1236,
+      "lng": 5.1867,
+      "tipo": "naturaleza",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Lonely Planet"],
+      "justificacion": "Lonely Planet llama a sus cavernas la atracción subterránea más conocida de Bélgica y la mayor atracción turística de la región, y las incluye en sus rutas en coche.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/belgium/han-sur-lesse/attractions/grottes-de-han/a/poi-sig/1261605/1325746" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-road-trips-in-belgium" }
+      ]
+    },
+    {
+      "id": "be-durbuy",
+      "nombre": "Durbuy",
+      "pais_iso": "BE",
+      "region": "Provincia de Luxemburgo (Valonia)",
+      "lat": 50.3527,
+      "lng": 5.4565,
+      "tipo": "pueblo",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides"],
+      "justificacion": "La 'ciudad más pequeña' de Bélgica. Lonely Planet la propone como base en las Ardenas y Rough Guides la describe como un pueblito precioso, con buen alojamiento y muy buenas caminatas.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/belgium/durbuy" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/belgium/ardennes/" }
+      ]
+    },
+    {
+      "id": "be-la-roche-en-ardenne",
+      "nombre": "La Roche-en-Ardenne",
+      "pais_iso": "BE",
+      "region": "Provincia de Luxemburgo (Valonia)",
+      "lat": 50.1833,
+      "lng": 5.5753,
+      "tipo": "pueblo",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Rough Guides", "Lonely Planet"],
+      "justificacion": "Rough Guides la llama uno de los pueblos más encantadores de las Ardenas. Lonely Planet reseña el mirador de Grès de la Roche.",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/belgium/ardennes/" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/belgium/wallonia/la-roche-en-ardenne/attractions/gres-de-la-roche/a/poi-sig/1261982/358716" }
+      ]
+    },
+    {
+      "id": "be-bouillon",
+      "nombre": "Bouillon y el valle del Semois",
+      "pais_iso": "BE",
+      "region": "Provincia de Luxemburgo (Valonia)",
+      "lat": 49.7943,
+      "lng": 5.0670,
+      "tipo": "pueblo",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Lonely Planet"],
+      "justificacion": "Lonely Planet llama a Bouillon el pueblo-castillo con más ambiente de Bélgica y empieza allí su ruta por el valle del Semois hasta Vresse.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-road-trips-in-belgium" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/belgium/bouillon/attractions/chateau-de-bouillon/a/poi-sig/1261910/1325187" }
+      ]
+    },
+    {
+      "id": "be-lieja",
+      "nombre": "Lieja",
+      "pais_iso": "BE",
+      "region": "Provincia de Lieja (Valonia)",
+      "lat": 50.6326,
+      "lng": 5.5797,
+      "tipo": "ciudad",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Michelin Guide Vert"],
+      "justificacion": "El Guide Vert Belgique la clasifica Liège** ('merece el desvío') entre sus imprescindibles.",
+      "fuentes": [
+        { "guia": "Michelin Guide Vert", "url": "https://boutique.laventure.michelin.com/produit/guide-vert-belgique-ebook/" }
+      ]
+    },
+    {
+      "id": "be-spa",
+      "nombre": "Spa",
+      "pais_iso": "BE",
+      "region": "Provincia de Lieja (Valonia)",
+      "lat": 50.4920,
+      "lng": 5.8637,
+      "tipo": "pueblo",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Lonely Planet"],
+      "justificacion": "Lonely Planet lo incluye entre los 8 mejores lugares de Bélgica por sus aguas termales.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-belgium" }
+      ]
+    },
+    {
+      "id": "be-hautes-fagnes",
+      "nombre": "Hautes Fagnes",
+      "pais_iso": "BE",
+      "region": "Provincia de Lieja (Valonia)",
+      "lat": 50.5013,
+      "lng": 6.0930,
+      "tipo": "naturaleza",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Rough Guides"],
+      "justificacion": "Meseta de turberas y brezales en el techo de Bélgica (Signal de Botrange). Rough Guides le dedica una sección dentro de las Ardenas.",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/belgium/ardennes/hautes-fagnes/" }
+      ]
+    },
+    {
+      "id": "be-hoge-kempen",
+      "nombre": "Parque Nacional Hoge Kempen",
+      "pais_iso": "BE",
+      "region": "Limburgo",
+      "lat": 50.9690,
+      "lng": 5.6290,
+      "tipo": "naturaleza",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Lonely Planet"],
+      "justificacion": "El único parque nacional de Bélgica. Lonely Planet lo incluye entre los 8 mejores lugares del país.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-belgium" }
+      ]
+    },
+    {
+      "id": "be-waterloo",
+      "nombre": "Waterloo (Butte du Lion)",
+      "pais_iso": "BE",
+      "region": "Brabante Valón",
+      "lat": 50.6788,
+      "lng": 4.4046,
+      "tipo": "monumento",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Rough Guides"],
+      "justificacion": "Rough Guides señala la Butte du Lion como lo mejor del campo de batalla de Waterloo, a unos 20 km de Bruselas.",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/belgium/brussels/" }
+      ]
+    },
+    {
+      "id": "be-abadia-villers",
+      "nombre": "Abadía de Villers-la-Ville",
+      "pais_iso": "BE",
+      "region": "Brabante Valón",
+      "lat": 50.5947,
+      "lng": 4.5280,
+      "tipo": "monumento",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Rough Guides"],
+      "justificacion": "Rough Guides llama a sus ruinas cistercienses uno de los lugares más evocadores de toda Bélgica.",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/belgium/hainaut-wallonian-brabant/" }
+      ]
+    },
+    {
+      "id": "be-binche",
+      "nombre": "Binche (carnaval)",
+      "pais_iso": "BE",
+      "region": "Henao (Valonia)",
+      "lat": 50.4113,
+      "lng": 4.1653,
+      "tipo": "pueblo",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Rough Guides"],
+      "justificacion": "Rough Guides incluye los carnavales de febrero entre sus 16 imprescindibles de Bélgica y destaca el de Binche (Gilles, patrimonio inmaterial UNESCO). Sólo vale la pena en temporada de carnaval.",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-belgium/" }
+      ]
+    },
+
+    {
+      "id": "nl-amsterdam",
+      "nombre": "Ámsterdam",
+      "pais_iso": "NL",
+      "region": "Holanda Septentrional",
+      "lat": 52.3676,
+      "lng": 4.9041,
+      "tipo": "ciudad",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Michelin Guide Vert", "Lonely Planet", "Rick Steves", "Rough Guides"],
+      "justificacion": "Michelin ★★★ (Amsterdam*** en el Guide Vert Pays-Bas). Lonely Planet la pone primera de sus 9 mejores lugares (canales, Rijksmuseum, Van Gogh). Rick Steves le da 2 o 3 días y Rough Guides incluye la Casa de Ana Frank, el Van Gogh y el Rijksmuseum en sus imprescindibles.",
+      "fuentes": [
+        { "guia": "Michelin Guide Vert", "url": "https://boutique.laventure.michelin.com/produit/guide-vert-pays-bas-ebook/" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-the-netherlands" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/netherlands/itinerary" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-the-netherlands/" }
+      ]
+    },
+    {
+      "id": "nl-rotterdam",
+      "nombre": "Róterdam",
+      "pais_iso": "NL",
+      "region": "Holanda Meridional",
+      "lat": 51.9244,
+      "lng": 4.4777,
+      "tipo": "ciudad",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rick Steves", "Rough Guides", "Time Out"],
+      "justificacion": "Lonely Planet la pone 2.ª (Markthal, casas cubo) y Rick Steves la suma en el viaje de 7 a 9 días. Rough Guides la elige por su arquitectura (Fábrica Van Nelle) y Time Out encabeza con ella sus ciudades fuera de Ámsterdam.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-the-netherlands" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/netherlands/itinerary" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-the-netherlands/" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/netherlands/travel/best-netherlands-cities-to-visit" }
+      ]
+    },
+    {
+      "id": "nl-delft",
+      "nombre": "Delft",
+      "pais_iso": "NL",
+      "region": "Holanda Meridional",
+      "lat": 52.0116,
+      "lng": 4.3571,
+      "tipo": "ciudad",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rick Steves", "Rough Guides", "Fodor's"],
+      "justificacion": "Lonely Planet la recomienda por su tradición artística (Vermeer, canales). Rick Steves la añade como segunda parada (4 días) y la usa de base para Róterdam y La Haya. Rough Guides la incluye en sus imprescindibles y Fodor's destaca la Real Fábrica de Delft.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-the-netherlands" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/netherlands/itinerary" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-the-netherlands/" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/netherlands/experiences/news/photos/10-places-to-go-in-the-netherlands-outside-of-amsterdam" }
+      ]
+    },
+    {
+      "id": "nl-la-haya",
+      "nombre": "La Haya (Den Haag) y Scheveningen",
+      "pais_iso": "NL",
+      "region": "Holanda Meridional",
+      "lat": 52.0705,
+      "lng": 4.3007,
+      "tipo": "ciudad",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides", "Time Out", "Michelin Guide Vert"],
+      "justificacion": "Lonely Planet la incluye por el Mauritshuis (La joven de la perla) y el Escher del palacio Lange Voorhout. Rough Guides elogia sus mansiones y parques y Time Out la elige destino de escapada infravalorado. El Guide Vert la clasifica La Haye**.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-the-netherlands" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-the-netherlands/" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/travel/worlds-most-underrated-travel-destinations" },
+        { "guia": "Michelin Guide Vert", "url": "https://boutique.laventure.michelin.com/produit/guide-vert-pays-bas-ebook/" }
+      ]
+    },
+    {
+      "id": "nl-haarlem",
+      "nombre": "Haarlem",
+      "pais_iso": "NL",
+      "region": "Holanda Septentrional",
+      "lat": 52.3874,
+      "lng": 4.6462,
+      "tipo": "ciudad",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rick Steves", "Fodor's", "Time Out"],
+      "justificacion": "Lonely Planet la propone como base para las dunas y playas de Zandvoort y Bloemendaal. Rick Steves la usa para empezar el viaje y Fodor's destaca la iglesia de San Bavón y el Museo Teylers. Time Out la recomienda por el Museo Frans Hals.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-the-netherlands" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/netherlands/itinerary" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/netherlands/experiences/news/photos/10-places-to-go-in-the-netherlands-outside-of-amsterdam" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/netherlands/travel/best-netherlands-cities-to-visit" }
+      ]
+    },
+    {
+      "id": "nl-utrecht",
+      "nombre": "Utrecht",
+      "pais_iso": "NL",
+      "region": "Utrecht",
+      "lat": 52.0907,
+      "lng": 5.1214,
+      "tipo": "ciudad",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides", "Time Out"],
+      "justificacion": "Lonely Planet la elige mejor ciudad estudiantil (Domtoren de 112 m, visitas arqueológicas subterráneas). Rough Guides destaca el Oudegracht y la Casa Rietveld-Schröder. Time Out la recomienda como 'pequeña Ámsterdam' con menos gente.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-the-netherlands" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/7-dutch-cities-to-explore-beyond-amsterdam/" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/netherlands/travel/best-netherlands-cities-to-visit" }
+      ]
+    },
+    {
+      "id": "nl-leiden",
+      "nombre": "Leiden",
+      "pais_iso": "NL",
+      "region": "Holanda Meridional",
+      "lat": 52.1601,
+      "lng": 4.4970,
+      "tipo": "ciudad",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rick Steves"],
+      "justificacion": "Lonely Planet la elige por su historia y sus jardines (universidad antigua, jardín botánico) y como base para los campos de tulipanes. Rick Steves la suma en el viaje de 7 a 9 días.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-the-netherlands" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/netherlands/itinerary" }
+      ]
+    },
+    {
+      "id": "nl-maastricht",
+      "nombre": "Maastricht",
+      "pais_iso": "NL",
+      "region": "Limburgo",
+      "lat": 50.8514,
+      "lng": 5.6910,
+      "tipo": "ciudad",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides", "Time Out"],
+      "justificacion": "Lonely Planet la elige por sus restos romanos y sus fiestas en el sureste montañoso. Rough Guides la llama la principal atracción de Limburgo (TEFAF, festival Preuvenemint). Time Out destaca sus agujas góticas y su mezcla neerlandesa y belga.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-the-netherlands" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/netherlands/south-zeeland/" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/netherlands/travel/best-netherlands-cities-to-visit" }
+      ]
+    },
+    {
+      "id": "nl-texel",
+      "nombre": "Texel",
+      "pais_iso": "NL",
+      "region": "Holanda Septentrional (islas Frisias)",
+      "lat": 53.0548,
+      "lng": 4.7977,
+      "tipo": "isla",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides"],
+      "justificacion": "Lonely Planet lo incluye entre sus 9 mejores lugares (playas de arena blanca, reservas naturales, faro rojo) y Rough Guides lo destaca entre las islas del mar de Wadden.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-the-netherlands" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-the-netherlands/" }
+      ]
+    },
+    {
+      "id": "nl-kinderdijk",
+      "nombre": "Kinderdijk",
+      "pais_iso": "NL",
+      "region": "Holanda Meridional",
+      "lat": 51.8840,
+      "lng": 4.6390,
+      "tipo": "monumento",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides", "Fodor's"],
+      "justificacion": "Los 19 molinos del siglo XVIII (UNESCO). Lonely Planet lo incluye entre las mejores cosas que hacer en el país, Rough Guides lo destaca y Fodor's lo recomienda entre los lugares a visitar fuera de Ámsterdam.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-the-netherlands" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-the-netherlands/" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/netherlands/experiences/news/photos/10-places-to-go-in-the-netherlands-outside-of-amsterdam" }
+      ]
+    },
+    {
+      "id": "nl-giethoorn",
+      "nombre": "Giethoorn",
+      "pais_iso": "NL",
+      "region": "Overijssel",
+      "lat": 52.7400,
+      "lng": 6.0780,
+      "tipo": "pueblo",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Rough Guides", "Fodor's"],
+      "justificacion": "Pueblo sin coches, de canales y barcas. Rough Guides lo pone entre sus imprescindibles y aconseja ir fuera del verano. Fodor's lo destaca y menciona el patinaje sobre los canales helados en invierno.",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-the-netherlands/" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/netherlands/experiences/news/photos/10-places-to-go-in-the-netherlands-outside-of-amsterdam" }
+      ]
+    },
+    {
+      "id": "nl-hoge-veluwe",
+      "nombre": "Parque Nacional De Hoge Veluwe (Museo Kröller-Müller)",
+      "pais_iso": "NL",
+      "region": "Güeldres",
+      "lat": 52.0950,
+      "lng": 5.8240,
+      "tipo": "naturaleza",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Michelin Guide Vert", "Rough Guides", "Lonely Planet"],
+      "justificacion": "Michelin ★★★ (Parc national de la Haute-Veluwe*** en el Guide Vert Pays-Bas). Rough Guides lo cuenta entre sus favoritos (brezales, dunas, bosque, bicis gratis) y Lonely Planet incluye el Kröller-Müller entre lo mejor del país.",
+      "fuentes": [
+        { "guia": "Michelin Guide Vert", "url": "https://boutique.laventure.michelin.com/produit/guide-vert-pays-bas-ebook/" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-the-netherlands/" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-the-netherlands" }
+      ]
+    },
+    {
+      "id": "nl-keukenhof-bollenstreek",
+      "nombre": "Keukenhof y la Bollenstreek (campos de tulipanes)",
+      "pais_iso": "NL",
+      "region": "Holanda Meridional",
+      "lat": 52.2697,
+      "lng": 4.5469,
+      "tipo": "naturaleza",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides", "Time Out"],
+      "justificacion": "Lonely Planet recomienda recorrer en bici los campos de bulbos de la Bollenstreek. Rough Guides incluye Keukenhof en sus imprescindibles y Time Out lo propone como excursión desde Ámsterdam. Sólo de marzo a mayo.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-the-netherlands" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-the-netherlands/" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/amsterdam/things-to-do/best-day-trips-from-amsterdam" }
+      ]
+    },
+    {
+      "id": "nl-alkmaar",
+      "nombre": "Alkmaar",
+      "pais_iso": "NL",
+      "region": "Holanda Septentrional",
+      "lat": 52.6324,
+      "lng": 4.7534,
+      "tipo": "ciudad",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Rick Steves", "Lonely Planet"],
+      "justificacion": "Rick Steves la propone como excursión al norte de Ámsterdam y Lonely Planet la incluye en su ruta del queso entre Gouda y Alkmaar (mercado de quesos).",
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/netherlands/itinerary" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-road-trips-in-the-netherlands" }
+      ]
+    },
+    {
+      "id": "nl-gouda",
+      "nombre": "Gouda",
+      "pais_iso": "NL",
+      "region": "Holanda Meridional",
+      "lat": 52.0116,
+      "lng": 4.7105,
+      "tipo": "ciudad",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Lonely Planet"],
+      "justificacion": "Lonely Planet empieza en Gouda su ruta del queso.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-road-trips-in-the-netherlands" }
+      ]
+    },
+    {
+      "id": "nl-edam-volendam-marken",
+      "nombre": "Edam, Volendam y Marken (Waterland)",
+      "pais_iso": "NL",
+      "region": "Holanda Septentrional",
+      "lat": 52.5120,
+      "lng": 5.0480,
+      "tipo": "pueblo",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Rick Steves"],
+      "justificacion": "Rick Steves propone los pueblos del Waterland como excursión de un día desde Ámsterdam en el viaje de 6 días. Coordenadas en Edam.",
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/netherlands/itinerary" }
+      ]
+    },
+    {
+      "id": "nl-hoorn-enkhuizen",
+      "nombre": "Hoorn y Enkhuizen",
+      "pais_iso": "NL",
+      "region": "Holanda Septentrional",
+      "lat": 52.7030,
+      "lng": 5.2930,
+      "tipo": "pueblo",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Rick Steves"],
+      "justificacion": "Rick Steves sugiere Hoorn y Enkhuizen, antiguos puertos del Zuiderzee, como excursión al norte de Ámsterdam en el viaje de 7 a 9 días. Coordenadas en Enkhuizen.",
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/netherlands/itinerary" }
+      ]
+    },
+    {
+      "id": "nl-zaanse-schans",
+      "nombre": "Zaanse Schans",
+      "pais_iso": "NL",
+      "region": "Holanda Septentrional",
+      "lat": 52.4740,
+      "lng": 4.8170,
+      "tipo": "pueblo",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Time Out"],
+      "justificacion": "Time Out la recomienda como excursión desde Ámsterdam: pueblo industrial de los siglos XVIII y XIX conservado, con molinos y talleres.",
+      "fuentes": [
+        { "guia": "Time Out", "url": "https://www.timeout.com/amsterdam/things-to-do/best-day-trips-from-amsterdam" }
+      ]
+    },
+    {
+      "id": "nl-groningen",
+      "nombre": "Groninga",
+      "pais_iso": "NL",
+      "region": "Groninga",
+      "lat": 53.2194,
+      "lng": 6.5665,
+      "tipo": "ciudad",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Rough Guides"],
+      "justificacion": "Rough Guides elogia su ambiente universitario, su centro casi sin coches y el Groninger Museum, en su propia isla.",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/netherlands/north-and-the-frisian-islands/" }
+      ]
+    },
+    {
+      "id": "nl-leeuwarden-frisia",
+      "nombre": "Leeuwarden y Frisia",
+      "pais_iso": "NL",
+      "region": "Frisia",
+      "lat": 53.2012,
+      "lng": 5.7999,
+      "tipo": "region",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Rough Guides", "Lonely Planet"],
+      "justificacion": "Rough Guides elogia Leeuwarden y su Fries Museum, y Lonely Planet tiene guía de destino de Frisia.",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-the-netherlands/" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/destinations/the-netherlands/friesland" }
+      ]
+    },
+    {
+      "id": "nl-islas-wadden",
+      "nombre": "Islas del Wadden (Vlieland, Terschelling, Ameland) y wadlopen",
+      "pais_iso": "NL",
+      "region": "Frisia",
+      "lat": 53.3970,
+      "lng": 5.3460,
+      "tipo": "isla",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Rough Guides"],
+      "justificacion": "Rough Guides cubre las islas Frisias y la caminata por los fangos del Wadden (wadlopen), siempre con guía. Coordenadas en Terschelling.",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/netherlands/north-and-the-frisian-islands/" }
+      ]
+    },
+    {
+      "id": "nl-den-bosch",
+      "nombre": "'s-Hertogenbosch (Den Bosch)",
+      "pais_iso": "NL",
+      "region": "Brabante Septentrional",
+      "lat": 51.6978,
+      "lng": 5.3037,
+      "tipo": "ciudad",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Time Out"],
+      "justificacion": "Time Out la incluye en sus ciudades fuera de Ámsterdam por sus museos, su arquitectura medieval y sus murallas.",
+      "fuentes": [
+        { "guia": "Time Out", "url": "https://www.timeout.com/netherlands/travel/best-netherlands-cities-to-visit" }
+      ]
+    },
+    {
+      "id": "nl-arnhem",
+      "nombre": "Arnhem",
+      "pais_iso": "NL",
+      "region": "Güeldres",
+      "lat": 51.9851,
+      "lng": 5.8987,
+      "tipo": "ciudad",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Time Out"],
+      "justificacion": "Time Out la recomienda por el Museo al Aire Libre de los Países Bajos y su cercanía al Veluwe. Está a unos 13 km del centro de visitantes de Hoge Veluwe: el curador decide si la fusiona.",
+      "fuentes": [
+        { "guia": "Time Out", "url": "https://www.timeout.com/netherlands/travel/best-netherlands-cities-to-visit" }
+      ]
+    },
+    {
+      "id": "nl-middelburg-zelanda",
+      "nombre": "Middelburg y Zelanda (Walcheren)",
+      "pais_iso": "NL",
+      "region": "Zelanda",
+      "lat": 51.4988,
+      "lng": 3.6136,
+      "tipo": "region",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Rough Guides"],
+      "justificacion": "Rough Guides propone Middelburg, con su espléndido casco antiguo, como base para recorrer en bici la costa de Walcheren.",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/netherlands/south-zeeland/" }
+      ]
+    },
+
+    {
+      "id": "lu-luxemburgo-ciudad",
+      "nombre": "Ciudad de Luxemburgo",
+      "pais_iso": "LU",
+      "region": "Cantón de Luxemburgo",
+      "lat": 49.6116,
+      "lng": 6.1319,
+      "tipo": "ciudad",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides", "Fodor's"],
+      "justificacion": "Lonely Planet la recomienda a los amantes de la historia (casco antiguo UNESCO). Rough Guides destaca las Casamatas del Bock y Fodor's reseña sus monumentos. Incluye el Cementerio Americano de Hamm, a 6 km.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-luxembourg" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/subterranean-wonders/" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/liberation-route-europe/belgium-luxembourg/luxembourg/" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/luxembourg/things-to-do/sights" }
+      ]
+    },
+    {
+      "id": "lu-vianden",
+      "nombre": "Vianden",
+      "pais_iso": "LU",
+      "region": "Ardenas luxemburguesas (Éislek)",
+      "lat": 49.9347,
+      "lng": 6.2079,
+      "tipo": "pueblo",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides", "Fodor's"],
+      "justificacion": "Lonely Planet destaca su castillo de cuento y el telesilla. Rough Guides lo cuenta entre las fortificaciones medievales mejor conservadas de Europa y Fodor's le da su sello Fodor's Choice.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-luxembourg" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/liberation-route-europe/belgium-luxembourg/luxembourg/" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/luxembourg/the-luxembourg-ardennes/things-to-do/sights" }
+      ]
+    },
+    {
+      "id": "lu-echternach",
+      "nombre": "Echternach",
+      "pais_iso": "LU",
+      "region": "Mullerthal",
+      "lat": 49.8117,
+      "lng": 6.4214,
+      "tipo": "pueblo",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Fodor's"],
+      "justificacion": "Lonely Planet la presenta como la ciudad más antigua del país (abadía, Dënzelt). Fodor's da su sello Fodor's Choice a la basílica de San Willibrord.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-luxembourg" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/luxembourg/things-to-do/sights" }
+      ]
+    },
+    {
+      "id": "lu-mullerthal",
+      "nombre": "Mullerthal ('Pequeña Suiza')",
+      "pais_iso": "LU",
+      "region": "Mullerthal",
+      "lat": 49.8200,
+      "lng": 6.3500,
+      "tipo": "naturaleza",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Lonely Planet"],
+      "justificacion": "Lonely Planet lo elige como el mejor paisaje natural del país: sendero E1 de Echternach a Berdorf por la Wolfsschlucht. Coordenadas en Berdorf, a unos 6 km de Echternach. El curador puede fusionarlo con Echternach.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-luxembourg" }
+      ]
+    },
+    {
+      "id": "lu-mosela",
+      "nombre": "Valle del Mosela (Remich, Grevenmacher, Mondorf-les-Bains)",
+      "pais_iso": "LU",
+      "region": "Mosela luxemburgués",
+      "lat": 49.5450,
+      "lng": 6.3670,
+      "tipo": "region",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Fodor's"],
+      "justificacion": "Lonely Planet lo recomienda a los amantes del vino (crémants, bodega Bernard-Massard en Grevenmacher). Fodor's describe sus pueblos, las termas de Mondorf y las bodegas de Wellenstein.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-luxembourg" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/luxembourg" }
+      ]
+    },
+    {
+      "id": "lu-clervaux",
+      "nombre": "Clervaux",
+      "pais_iso": "LU",
+      "region": "Ardenas luxemburguesas (Éislek)",
+      "lat": 50.0547,
+      "lng": 6.0313,
+      "tipo": "pueblo",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Lonely Planet"],
+      "justificacion": "Lonely Planet reseña su castillo, que guarda la exposición fotográfica 'The Family of Man' de Steichen (Memoria del Mundo UNESCO), y la abadía de San Mauricio.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/luxembourg/clervaux/attractions/chateau-de-clervaux/a/poi-sig/1262689/1325828" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-luxembourg" }
+      ]
+    },
+    {
+      "id": "lu-esch-sur-sure",
+      "nombre": "Esch-sur-Sûre",
+      "pais_iso": "LU",
+      "region": "Ardenas luxemburguesas (Éislek)",
+      "lat": 49.9110,
+      "lng": 5.9360,
+      "tipo": "pueblo",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Lonely Planet"],
+      "justificacion": "Lonely Planet lo llama el pueblo más bonito de Luxemburgo, con ruinas de castillo de acceso libre.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-luxembourg" }
+      ]
+    },
+    {
+      "id": "lu-bourscheid",
+      "nombre": "Castillo de Bourscheid",
+      "pais_iso": "LU",
+      "region": "Ardenas luxemburguesas (Éislek)",
+      "lat": 49.9089,
+      "lng": 6.0656,
+      "tipo": "monumento",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides"],
+      "justificacion": "Lonely Planet lo llama la ruina de castillo más grande y espectacular del país, y Rough Guides lo cuenta, junto a Vianden, entre las fortificaciones medievales mejor conservadas de Europa.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-luxembourg" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/liberation-route-europe/belgium-luxembourg/luxembourg/" }
+      ]
+    },
+    {
+      "id": "lu-diekirch",
+      "nombre": "Diekirch (Museo Nacional de Historia Militar)",
+      "pais_iso": "LU",
+      "region": "Ardenas luxemburguesas (Éislek)",
+      "lat": 49.8686,
+      "lng": 6.1594,
+      "tipo": "ciudad",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides"],
+      "justificacion": "Lonely Planet incluye su museo de la Segunda Guerra Mundial (batalla de las Ardenas) en su lista. Rough Guides lo recoge en la Ruta de la Liberación.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-luxembourg" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/liberation-route-europe/belgium-luxembourg/luxembourg/" }
+      ]
+    }
+  ]
+}

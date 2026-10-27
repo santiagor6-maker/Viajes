@@ -1,7 +1,7 @@
 {
   "pausado": false,
   "subregion": "francia-alpes",
-  "paso": "guias",
+  "paso": "especialistas",
   "ronda": 1,
   "orden_subregiones": [
     "iberica-italia",
@@ -87,6 +87,12 @@
       "subregion": "iberica-italia",
       "paso": "publicar",
       "resultado": "Cerrada: 253 lugares. Notas finales: ES 8.1, PT 8.2, AD 7.9, IT 8.6, MT 9.2, SM 9.5, VA 9.4 (todos menos SM con revisión pendiente). Aprobados en ronda 2: cultura-historia y logística (grupo b)."
+    },
+    {
+      "fecha": "2026-10-27",
+      "subregion": "francia-alpes",
+      "paso": "guias",
+      "resultado": "166 candidatos (FR 43, MC 5, BE 21, NL 24, LU 9, CH 30, AT 30, LI 4). Interrumpido por límite de uso pero los archivos quedaron completos."
     }
   ],
   "ronda_revisor": 0,

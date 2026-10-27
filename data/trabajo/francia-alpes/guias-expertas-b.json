@@ -1,0 +1,1089 @@
+{
+  "agente": "guias-expertas",
+  "subregion": "francia-alpes",
+  "ronda": 1,
+  "notas": "Grupo b: CH, AT, LI. Guías consultadas: Lonely Planet, Rick Steves, Fodor's, Rough Guides, Frommer's, Time Out, National Geographic. No se encontró ninguna página pública del Guide Vert Michelin con estrellas de sitios suizos o austriacos, así que no se asigna ningún ★★★. DK Eyewitness solo devolvió páginas de librería, que no cuentan. Condé Nast Traveler bloqueó la búsqueda. Los artículos patrocinados de NatGeo (paid-content) y los foros no se cuentan.",
+  "candidatos": [
+    {
+      "id": "ch-lucerna",
+      "nombre": "Lucerna y su lago (Pilatus, Rigi)",
+      "pais_iso": "CH",
+      "region": "Suiza central",
+      "lat": 47.0502,
+      "lng": 8.3093,
+      "tipo": "ciudad",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rick Steves", "Fodor's", "Rough Guides", "Frommer's", "Time Out"],
+      "justificacion": "Lonely Planet la incluye entre sus mejores lugares de Suiza (Kapellbrücke, KKL). Rick Steves la pone entre las paradas básicas de su itinerario. Fodor's tiene una guía propia de Lucerna, donde la Jesuitenkirche es Fodor's Choice y propone subir al Pilatus y al Rigi. Rough Guides recomienda el Pilatus por el tren cremallera más empinado del mundo, Frommer's lo combina con un vapor por el lago y Time Out lo llama 'experiencia suiza por excelencia'.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-switzerland" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/switzerland/itinerary" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/switzerland/luzern-and-central-switzerland/places/luzern" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/switzerland/central-switzerland/" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/switzerland/suggested-itineraries/in-one-week/" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/switzerland/things-to-do/best-switzerland-attractions" }
+      ]
+    },
+    {
+      "id": "ch-zermatt",
+      "nombre": "Zermatt y el Matterhorn (Gornergrat)",
+      "pais_iso": "CH",
+      "region": "Valais",
+      "lat": 46.0207,
+      "lng": 7.7491,
+      "tipo": "montaña",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rick Steves", "Fodor's", "Rough Guides", "Frommer's", "Time Out"],
+      "justificacion": "Es un top pick casi unánime. Lonely Planet lo pone entre sus primeros lugares de Suiza y le dedica una página propia (Five Lakes Trail, Matterhorn Glacier Paradise). Rick Steves recomienda el Gornergrat como la excursión de alta montaña que no hay que perderse. Fodor's destaca el tren del Gornergrat en Valais, Rough Guides lo tiene entre sus imprescindibles, Frommer's lo llama 'resort de fama mundial' donde arranca el Glacier Express y Time Out recomienda verlo desde el Matterhorn Glacier Paradise.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/destinations/switzerland/valais/zermatt" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/switzerland/itinerary" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/switzerland/valais/things-to-do/sights?pois=677025" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/switzerland/things-to-do/" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/zermatt/" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/switzerland/things-to-do/best-switzerland-attractions" }
+      ]
+    },
+    {
+      "id": "ch-grindelwald-jungfrau",
+      "nombre": "Grindelwald, Jungfraujoch y la región del Jungfrau",
+      "pais_iso": "CH",
+      "region": "Oberland bernés",
+      "lat": 46.6242,
+      "lng": 8.0414,
+      "tipo": "montaña",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides", "Time Out", "Frommer's"],
+      "justificacion": "Lonely Planet pone la región del Jungfrau en el número 1 de su lista de Suiza y propone Grindelwald como base, con el First Cliff Walk. Rough Guides dice que el Jungfraujoch 'merece la pena pese a las multitudes' y recomienda el Eiger Trail. Time Out lo considera una atracción top desde 1912 y Frommer's destaca la estación de tren más alta de Europa.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-switzerland" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/switzerland/things-to-do/" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/switzerland/things-to-do/best-switzerland-attractions" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/interlaken/" }
+      ]
+    },
+    {
+      "id": "ch-lauterbrunnen",
+      "nombre": "Valle de Lauterbrunnen (Mürren, Gimmelwald, Wengen)",
+      "pais_iso": "CH",
+      "region": "Oberland bernés",
+      "lat": 46.5935,
+      "lng": 7.9091,
+      "tipo": "pueblo",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Rick Steves", "Fodor's", "Rough Guides"],
+      "justificacion": "Es el top pick de Rick Steves: si solo hay tiempo para una zona alpina, recomienda esta, con Gimmelwald como su pueblo favorito. Fodor's le dedica una página al valle de las más de 70 cascadas (Trümmelbach, Staubbach) como base hacia el Schilthorn y el Jungfraujoch. Rough Guides incluye las cascadas de Trümmelbach entre lo mejor del verano.",
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/switzerland/lauterbrunnen-valley" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/watch-read-listen/read/articles/gimmelwald-the-swiss-alps-in-your-lap" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/switzerland/berner-oberland/places/lauterbrunnen" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/switzerland/things-to-do-in-summer/" }
+      ]
+    },
+    {
+      "id": "ch-interlaken",
+      "nombre": "Interlaken",
+      "pais_iso": "CH",
+      "region": "Oberland bernés",
+      "lat": 46.6863,
+      "lng": 7.8632,
+      "tipo": "pueblo",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Frommer's", "Rough Guides"],
+      "justificacion": "Frommer's la llama 'capital turística del Oberland bernés' y base para subir al Jungfraujoch. Rough Guides la propone para hacer barranquismo en los desfiladeros de la región del Jungfrau. Rick Steves y varios foros prefieren alojarse en el valle de Lauterbrunnen.",
+      "fuentes": [
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/interlaken/" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/switzerland/bernese-oberland/" }
+      ]
+    },
+    {
+      "id": "ch-brienz",
+      "nombre": "Brienz y el Brienzer Rothorn",
+      "pais_iso": "CH",
+      "region": "Oberland bernés",
+      "lat": 46.7546,
+      "lng": 8.0383,
+      "tipo": "pueblo",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["National Geographic"],
+      "justificacion": "National Geographic incluye entre sus 10 mejores cosas de Suiza el tren de vapor cremallera que funciona desde 1892 entre Brienz, pueblo de tallistas de madera, y el Rothorn Kulm.",
+      "fuentes": [
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/10-best-things-to-do-in-switzerland" }
+      ]
+    },
+    {
+      "id": "ch-berna",
+      "nombre": "Berna",
+      "pais_iso": "CH",
+      "region": "Berna",
+      "lat": 46.9480,
+      "lng": 7.4474,
+      "tipo": "ciudad",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rick Steves", "Rough Guides", "Time Out", "Frommer's", "Fodor's"],
+      "justificacion": "Lonely Planet la pone en el número 2 de Suiza (casco antiguo UNESCO, Zytglogge, baños en el Aare). Rick Steves la incluye en su itinerario básico de una semana. Rough Guides destaca el casco empedrado y el Zentrum Paul Klee. Time Out la llama uno de los cascos antiguos más bonitos del país y Frommer's resalta su arquitectura medieval UNESCO. Fodor's la incluye en su ruta de 7 días.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/destinations/switzerland/bern" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/switzerland/itinerary" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/switzerland/best-places-to-visit/" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/switzerland/things-to-do/best-switzerland-attractions" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/switzerland/suggested-itineraries/in-one-week/" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/switzerland/experiences/news/photos/a-7-day-road-trip-through-switzerland" }
+      ]
+    },
+    {
+      "id": "ch-ginebra",
+      "nombre": "Ginebra",
+      "pais_iso": "CH",
+      "region": "Lago Lemán",
+      "lat": 46.2044,
+      "lng": 6.1432,
+      "tipo": "ciudad",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Fodor's", "National Geographic", "Rough Guides"],
+      "justificacion": "Lonely Planet la incluye en su lista de mejores lugares como puerta de entrada al lago Lemán (museos, jardín botánico, baños en el lago) y le dedica un artículo de 15 planes. Fodor's la describe como 'ciudad de postal' y centro de la cooperación internacional. National Geographic la incluye en sus 10 mejores cosas de Suiza y Rough Guides destaca su Fête de la Musique. Rick Steves la considera sobrevalorada, así que no se le cuenta.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/things-to-do-in-geneva" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/switzerland/geneva" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/10-best-things-to-do-in-switzerland" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/switzerland/things-to-do-in-summer/" }
+      ]
+    },
+    {
+      "id": "ch-lausana",
+      "nombre": "Lausana",
+      "pais_iso": "CH",
+      "region": "Vaud",
+      "lat": 46.5197,
+      "lng": 6.6323,
+      "tipo": "ciudad",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rick Steves", "National Geographic", "Rough Guides"],
+      "justificacion": "Lonely Planet la incluye en su lista de mejores lugares por el barrio de las artes Plateforme 10. Rick Steves la destaca en su artículo sobre la 'Riviera suiza'. National Geographic la incluye en sus 10 mejores cosas (Photo Elysée, archivo de Chaplin) y Rough Guides recomienda el Museo Olímpico.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-switzerland" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/watch-read-listen/read/articles/lake-geneva-switzerland" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/10-best-things-to-do-in-switzerland" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/switzerland/things-to-do/" }
+      ]
+    },
+    {
+      "id": "ch-lavaux",
+      "nombre": "Viñedos de Lavaux",
+      "pais_iso": "CH",
+      "region": "Vaud",
+      "lat": 46.4886,
+      "lng": 6.7299,
+      "tipo": "region",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides", "Time Out", "Frommer's"],
+      "justificacion": "Las terrazas de viñedo UNESCO aparecen en Lonely Planet (escapada desde Lausana), en Rough Guides (principal región vinícola, carretera de la Corniche), en Time Out (catas y paseos) y entre las experiencias favoritas de Frommer's para el vino.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-switzerland" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/switzerland/things-to-do/" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/switzerland/things-to-do/best-switzerland-attractions" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/switzerland/frommers-favorite-experiences/" }
+      ]
+    },
+    {
+      "id": "ch-montreux-chillon",
+      "nombre": "Montreux y el Château de Chillon",
+      "pais_iso": "CH",
+      "region": "Vaud",
+      "lat": 46.4312,
+      "lng": 6.9107,
+      "tipo": "ciudad",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Rick Steves", "Lonely Planet", "Time Out", "Frommer's", "Rough Guides"],
+      "justificacion": "Rick Steves dice que Chillon, a 3 km de Montreux, es 'la mejor experiencia de castillo de Suiza' y su lugar favorito de la zona. Lonely Planet cita Montreux y Chillon en su lista de mejores lugares. Time Out recomienda el castillo y el vapor del lago. Frommer's destaca Chillon, el tren a Rochers-de-Naye y el Montreux Jazz Festival, que también está en la lista de Rough Guides.",
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/watch-read-listen/read/articles/lake-geneva-switzerland" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-switzerland" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/switzerland/things-to-do/best-switzerland-attractions" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/switzerland/frommers-favorite-experiences/" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/switzerland/things-to-do-in-summer/" }
+      ]
+    },
+    {
+      "id": "ch-gruyeres",
+      "nombre": "Gruyères",
+      "pais_iso": "CH",
+      "region": "Friburgo",
+      "lat": 46.5836,
+      "lng": 7.0821,
+      "tipo": "pueblo",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Rick Steves", "Frommer's", "Rough Guides"],
+      "justificacion": "Rick Steves lo incluye en su tour Best of Switzerland por La Maison du Gruyère. Frommer's lo cita entre sus experiencias favoritas por su castillo y el tren del chocolate. Rough Guides recomienda la fondue en Gruyères y sus museos del queso y del chocolate, con la fábrica Cailler muy cerca.",
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/tours/switzerland/best-switzerland-tour" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/switzerland/frommers-favorite-experiences/" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/switzerland/best-places-to-visit/" }
+      ]
+    },
+    {
+      "id": "ch-zurich",
+      "nombre": "Zúrich",
+      "pais_iso": "CH",
+      "region": "Zúrich",
+      "lat": 47.3769,
+      "lng": 8.5417,
+      "tipo": "ciudad",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Fodor's", "Rough Guides", "Time Out", "National Geographic", "Frommer's"],
+      "justificacion": "Fodor's tiene una guía propia de la ciudad (Kunsthaus, Viadukt). Rough Guides la cuenta entre sus imprescindibles (Grossmünster, vitrales de Chagall en el Fraumünster). Time Out le dedica 25 planes y destaca Zurich West, que también es experiencia favorita de Frommer's. National Geographic abre sus 10 mejores cosas de Suiza con las fuentes de Zúrich.",
+      "fuentes": [
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/switzerland/zurich" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/switzerland/zurich/" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/switzerland/things-to-do/best-things-to-do-in-zurich" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/10-best-things-to-do-in-switzerland" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/switzerland/frommers-favorite-experiences/" }
+      ]
+    },
+    {
+      "id": "ch-basilea",
+      "nombre": "Basilea",
+      "pais_iso": "CH",
+      "region": "Basilea",
+      "lat": 47.5596,
+      "lng": 7.5886,
+      "tipo": "ciudad",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Fodor's", "Rough Guides", "Time Out"],
+      "justificacion": "Lonely Planet incluye entre sus 14 mejores cosas de Suiza bajar el Rin flotando. Fodor's dice que es más sofisticada que Zúrich o Ginebra, con unos 40 museos, Art Basel y la Fasnacht. Rough Guides destaca la Fondation Beyeler, el Kunstmuseum y el carnaval, y Time Out también recomienda la Fondation Beyeler.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-switzerland" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/switzerland/basel" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/switzerland/best-places-to-visit/" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/switzerland/things-to-do/best-switzerland-attractions" }
+      ]
+    },
+    {
+      "id": "ch-cataratas-del-rin",
+      "nombre": "Cataratas del Rin (Rheinfall, Schaffhausen)",
+      "pais_iso": "CH",
+      "region": "Schaffhausen",
+      "lat": 47.6779,
+      "lng": 8.6153,
+      "tipo": "naturaleza",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Time Out", "Lonely Planet", "Rough Guides"],
+      "justificacion": "Time Out pone el Rheinfall en el número 1 de sus mejores cosas de Suiza. Lonely Planet la llama la mayor cascada llana de Europa, con el castillo de Laufen al lado, y Rough Guides la tiene entre sus imprescindibles del noreste.",
+      "fuentes": [
+        { "guia": "Time Out", "url": "https://www.timeout.com/switzerland/things-to-do/best-switzerland-attractions" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/points-of-interest/rheinfall/1062533" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/switzerland/north-east-and-liechtenstein/" }
+      ]
+    },
+    {
+      "id": "ch-stein-am-rhein",
+      "nombre": "Stein am Rhein",
+      "pais_iso": "CH",
+      "region": "Schaffhausen",
+      "lat": 47.6593,
+      "lng": 8.8595,
+      "tipo": "pueblo",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["National Geographic", "Lonely Planet"],
+      "justificacion": "National Geographic lo incluye en sus 10 mejores cosas de Suiza por sus casas pintadas con entramado de madera, que le valieron el primer premio Wakker. Lonely Planet lo cita en su guía del noreste de Suiza por los edificios históricos de la Rathausplatz.",
+      "fuentes": [
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/10-best-things-to-do-in-switzerland" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/destinations/switzerland/northeastern-switzerland" }
+      ]
+    },
+    {
+      "id": "ch-appenzell",
+      "nombre": "Appenzell y Appenzellerland (Ebenalp, Säntis)",
+      "pais_iso": "CH",
+      "region": "Appenzell",
+      "lat": 47.3310,
+      "lng": 9.4091,
+      "tipo": "region",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Rick Steves", "Frommer's", "National Geographic", "Rough Guides", "Lonely Planet"],
+      "justificacion": "Rick Steves la llama la región más tradicional de Suiza y la incluye en su tour, con la Ebenalp. Frommer's dice que es 'el más auténtico de los pueblos suizos'. National Geographic la incluye en sus 10 mejores cosas por sus letreros pintados. Rough Guides tiene Appenzellerland entre sus imprescindibles y Lonely Planet la cubre en su guía del noreste.",
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/switzerland" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/switzerland/frommers-favorite-experiences/" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/10-best-things-to-do-in-switzerland" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/switzerland/things-to-do/" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/destinations/switzerland/northeastern-switzerland" }
+      ]
+    },
+    {
+      "id": "ch-lugano",
+      "nombre": "Lugano y su lago (Monte Brè, Gandria, Morcote)",
+      "pais_iso": "CH",
+      "region": "Tesino",
+      "lat": 46.0037,
+      "lng": 8.9511,
+      "tipo": "ciudad",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Rick Steves", "Fodor's", "Rough Guides", "Frommer's", "Time Out", "Lonely Planet", "National Geographic"],
+      "justificacion": "Rick Steves la llama la ciudad principal de la Suiza italiana y la incluye en su itinerario de 14 días. Fodor's destaca los paseos junto al lago, Rough Guides tiene el artículo 'Fall in love with Lugano' y Frommer's recomienda sus grotti. Time Out propone subir al Monte Brè y Lonely Planet tiene página de la ciudad. National Geographic destaca Morcote, a 10 km, entre sus pueblos más pintorescos.",
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/switzerland/itinerary" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/switzerland/ticino" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/switzerland/things-to-do/" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/switzerland/frommers-favorite-experiences/" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/switzerland/things-to-do/best-switzerland-attractions" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/switzerland/ticino/lugano/places" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/scenic-swiss-villages-to-put-on-your-travel-itinerary" }
+      ]
+    },
+    {
+      "id": "ch-locarno-ascona",
+      "nombre": "Locarno y Ascona (Lago Maggiore)",
+      "pais_iso": "CH",
+      "region": "Tesino",
+      "lat": 46.1709,
+      "lng": 8.7995,
+      "tipo": "ciudad",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Fodor's", "Lonely Planet"],
+      "justificacion": "Fodor's describe Locarno como la ciudad más soleada de Suiza y cita los paseos de Locarno y Ascona. Lonely Planet destaca la Madonna del Sasso y las islas de Brissago en su guía del Tesino. El artículo de National Geographic sobre Ascona y Locarno es patrocinado y no se cuenta.",
+      "fuentes": [
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/switzerland/ticino" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/destinations/switzerland/ticino" }
+      ]
+    },
+    {
+      "id": "ch-bellinzona",
+      "nombre": "Bellinzona y sus castillos",
+      "pais_iso": "CH",
+      "region": "Tesino",
+      "lat": 46.1946,
+      "lng": 9.0244,
+      "tipo": "ciudad",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Time Out", "Fodor's"],
+      "justificacion": "Lonely Planet pone los castillos de Bellinzona (Castelgrande, Montebello) entre los principales sitios del Tesino. Time Out incluye los tres castillos UNESCO en su lista de Suiza y Fodor's la presenta como la ciudad fortificada que guardaba el paso del San Gotardo.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/destinations/switzerland/ticino" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/switzerland/things-to-do/best-switzerland-attractions" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/switzerland/ticino" }
+      ]
+    },
+    {
+      "id": "ch-valle-verzasca",
+      "nombre": "Valle Verzasca",
+      "pais_iso": "CH",
+      "region": "Tesino",
+      "lat": 46.2592,
+      "lng": 8.8378,
+      "tipo": "naturaleza",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Lonely Planet"],
+      "justificacion": "Lonely Planet incluye los valles del Tesino, con el Verzasca y el puenting desde su presa de 220 m de GoldenEye, entre sus 14 mejores cosas de Suiza, y menciona Corippo en su guía regional.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-switzerland" }
+      ]
+    },
+    {
+      "id": "ch-st-moritz-engadina",
+      "nombre": "St. Moritz y la Alta Engadina",
+      "pais_iso": "CH",
+      "region": "Grisones",
+      "lat": 46.4908,
+      "lng": 9.8355,
+      "tipo": "montaña",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Fodor's", "Frommer's", "Rough Guides"],
+      "justificacion": "Fodor's tiene una guía propia de St. Moritz y la destaca en Grisones. Frommer's resalta su vida nocturna, su tradición de balneario y la pista Olympia Bob Run, la más antigua del mundo. Rough Guides incluye St. Moritz y el valle de la Engadina en su lista de imprescindibles. Lonely Planet solo la menciona como final del Glacier Express.",
+      "fuentes": [
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/switzerland/graubunden/places/st-moritz" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/switzerland/frommers-favorite-experiences/" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/switzerland/best-places-to-visit/" }
+      ]
+    },
+    {
+      "id": "ch-parque-nacional-suizo",
+      "nombre": "Parque Nacional Suizo (Zernez)",
+      "pais_iso": "CH",
+      "region": "Grisones",
+      "lat": 46.6600,
+      "lng": 10.1900,
+      "tipo": "parque",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "National Geographic", "Rough Guides"],
+      "justificacion": "Lonely Planet lo incluye en su lista de mejores lugares de Suiza y dice que es el único parque nacional del país (172 km², íbices y marmotas). National Geographic lo propone para hacer senderismo y Rough Guides lo cita en la Engadina.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-switzerland" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/activities" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/switzerland/best-places-to-visit/" }
+      ]
+    },
+    {
+      "id": "ch-guarda",
+      "nombre": "Guarda (Baja Engadina)",
+      "pais_iso": "CH",
+      "region": "Grisones",
+      "lat": 46.7756,
+      "lng": 10.1514,
+      "tipo": "pueblo",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["National Geographic"],
+      "justificacion": "National Geographic lo incluye entre los 5 pueblos suizos más pintorescos: un pueblo tranquilo a 1650 m con vistas al Piz Buin.",
+      "fuentes": [
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/scenic-swiss-villages-to-put-on-your-travel-itinerary" }
+      ]
+    },
+    {
+      "id": "ch-glaciar-aletsch",
+      "nombre": "Glaciar de Aletsch (Aletsch Arena)",
+      "pais_iso": "CH",
+      "region": "Valais",
+      "lat": 46.4400,
+      "lng": 8.0500,
+      "tipo": "naturaleza",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Lonely Planet"],
+      "justificacion": "Lonely Planet lo cuenta entre las mejores caminatas de Suiza: es el glaciar más largo de los Alpes (23 km), con miradores en el Eggishorn y la ruta Fiescheralp–Bettmeralp.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-hikes-in-switzerland" }
+      ]
+    },
+    {
+      "id": "ch-saas-fee",
+      "nombre": "Saas-Fee",
+      "pais_iso": "CH",
+      "region": "Valais",
+      "lat": 46.1083,
+      "lng": 7.9286,
+      "tipo": "montaña",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Lonely Planet"],
+      "justificacion": "En su guía de esquí en Suiza, Lonely Planet recomienda Saas-Fee a los esquiadores expertos por su nieve garantizada y el esquí en glaciar.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-ski-in-switzerland" }
+      ]
+    },
+    {
+      "id": "ch-engelberg-titlis",
+      "nombre": "Engelberg y el Titlis",
+      "pais_iso": "CH",
+      "region": "Suiza central",
+      "lat": 46.8199,
+      "lng": 8.4072,
+      "tipo": "montaña",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Fodor's"],
+      "justificacion": "Lonely Planet tiene una ficha del Titlis en Engelberg. Fodor's lo incluye junto al Pilatus y el Rigi entre las montañas recomendadas desde Lucerna.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/switzerland/engelberg/titlis" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/switzerland/luzern-and-central-switzerland/places/luzern/things-to-do/sights" }
+      ]
+    },
+    {
+      "id": "ch-murten",
+      "nombre": "Murten / Morat",
+      "pais_iso": "CH",
+      "region": "Friburgo",
+      "lat": 46.9282,
+      "lng": 7.1172,
+      "tipo": "pueblo",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Rick Steves"],
+      "justificacion": "Rick Steves pone en lo alto de su lista de lugares para sumar si sobra tiempo esta pequeña ciudad amurallada en la frontera lingüística, con ruinas romanas cerca en Avenches.",
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/switzerland/itinerary" }
+      ]
+    },
+    {
+      "id": "ch-einsiedeln",
+      "nombre": "Abadía de Einsiedeln",
+      "pais_iso": "CH",
+      "region": "Schwyz",
+      "lat": 47.1286,
+      "lng": 8.7473,
+      "tipo": "monumento",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["National Geographic"],
+      "justificacion": "National Geographic incluye en sus 10 mejores cosas de Suiza la abadía benedictina del siglo X, lugar de peregrinación.",
+      "fuentes": [
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/10-best-things-to-do-in-switzerland" }
+      ]
+    },
+    {
+      "id": "ch-klosters",
+      "nombre": "Klosters",
+      "pais_iso": "CH",
+      "region": "Grisones",
+      "lat": 46.8696,
+      "lng": 9.8814,
+      "tipo": "montaña",
+      "puntaje": 1,
+      "guias_que_lo_recomiendan": ["Lonely Planet"],
+      "justificacion": "Es una mención menor: Lonely Planet tiene una ficha de destino de Klosters, pero el pueblo no aparece en sus listas de mejores lugares. Se incluye para cubrir el norte de Grisones.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/switzerland/klosters" }
+      ]
+    },
+    {
+      "id": "at-viena",
+      "nombre": "Viena",
+      "pais_iso": "AT",
+      "region": "Viena",
+      "lat": 48.2082,
+      "lng": 16.3738,
+      "tipo": "ciudad",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rick Steves", "Fodor's", "Rough Guides", "Frommer's", "Time Out", "National Geographic"],
+      "justificacion": "Es un top pick unánime. Lonely Planet la llama atracción cultural imprescindible (Hofburg). Rick Steves empieza por ella todo viaje a Austria. Fodor's recomienda sus cafés y heurigen y Rough Guides el café vienés y Schönbrunn. Frommer's destaca la Escuela Española de Equitación y Mozart, y Time Out y National Geographic tienen guías propias de la ciudad.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-things-to-do-in-vienna" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/austria/itinerary" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/austria/vienna" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-austria/" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/austria/frommers-favorite-experiences" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/vienna/things-to-do/best-things-to-do-in-vienna" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/destinations/europe/austria/vienna/top-activities-things-to-do/" }
+      ]
+    },
+    {
+      "id": "at-salzburgo",
+      "nombre": "Salzburgo",
+      "pais_iso": "AT",
+      "region": "Salzburgo",
+      "lat": 47.8095,
+      "lng": 13.0550,
+      "tipo": "ciudad",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rick Steves", "Fodor's", "Rough Guides", "Frommer's", "Time Out", "National Geographic"],
+      "justificacion": "Lonely Planet llama a su Altstadt barroca uno de los dos imprescindibles culturales de Austria. Rick Steves la suma a partir de un viaje de 5 días y Fodor's la incluye en sus itinerarios de 7 y 14 días. Rough Guides la tiene en su top 15 por Mozart y Hohensalzburg, y Frommer's la cuenta entre sus experiencias favoritas. Time Out y National Geographic (rutas de Sonrisas y lágrimas) tienen guías propias.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-austria" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/austria/itinerary" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/austria/experiences/news/see-the-best-of-austria-in-7-days-or-14-with-these-two-perfect-itineraries" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/austria/central-austria/salzburg/" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/austria/frommers-favorite-experiences" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/salzburg/things-to-do/best-things-to-do-in-salzburg" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/sound-of-music-salzburg-austria-travel-guide" }
+      ]
+    },
+    {
+      "id": "at-hallstatt",
+      "nombre": "Hallstatt y el Dachstein (5fingers, cuevas de hielo)",
+      "pais_iso": "AT",
+      "region": "Salzkammergut (Alta Austria)",
+      "lat": 47.5622,
+      "lng": 13.6493,
+      "tipo": "pueblo",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rick Steves", "Fodor's", "Rough Guides", "Frommer's", "National Geographic"],
+      "justificacion": "Lonely Planet dice que, si solo hay tiempo para un lago del Salzkammergut, sea Hallstatt. Rick Steves lo incluye desde el viaje de 7 días y Fodor's marca como Fodor's Choice el mirador 5fingers y las cuevas de hielo del Dachstein. Rough Guides lo llama 'la joya de la región' y Frommer's 'uno de los pueblos más bellos de Austria'. National Geographic tiene una guía de fin de semana.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-austria" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/austria/itinerary" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/austria/salzkammergut/things-to-do/sights" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/austria/central-austria/the-salzkammergut/" },
+        { "guia": "Frommer's", "url": "https://frommers.com/destinations/hallstatt/attractions/overview" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/a-weekend-in-hallstatt-fairy-tale-town" }
+      ]
+    },
+    {
+      "id": "at-wachau",
+      "nombre": "Valle del Wachau (Melk, Dürnstein, Krems)",
+      "pais_iso": "AT",
+      "region": "Baja Austria",
+      "lat": 48.3900,
+      "lng": 15.4500,
+      "tipo": "region",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rick Steves", "Fodor's", "Rough Guides", "National Geographic"],
+      "justificacion": "Lonely Planet lo incluye en su top 12 y entre sus 10 mejores cosas de Austria. Rick Steves le dedica un artículo: tren a Melk y bajada en bici o barco hasta Krems. Fodor's marca como Fodor's Choice el castillo de Ricardo Corazón de León en Dürnstein y dice que Melk es uno de los sitios más impresionantes del país. Rough Guides propone la ruta en bici por el Danubio y National Geographic destaca el valle UNESCO.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/destinations/austria/the-danube-valley" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/watch-read-listen/cruising-the-danubes-wachau-valley" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/austria/vienna-woods-lake-neusiedler-and-the-danube-river/places/durnstein" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/austria/itineraries/" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/plan-the-ultimate-adventure-along-danube-river" }
+      ]
+    },
+    {
+      "id": "at-innsbruck",
+      "nombre": "Innsbruck (Nordkette)",
+      "pais_iso": "AT",
+      "region": "Tirol",
+      "lat": 47.2692,
+      "lng": 11.4041,
+      "tipo": "ciudad",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rick Steves", "Fodor's", "Rough Guides", "Frommer's", "Time Out"],
+      "justificacion": "Lonely Planet la incluye en su top 12 y destaca el funicular de Zaha Hadid. Rick Steves la suma en el viaje de 14 días y Fodor's la llama 'la única gran ciudad de los Alpes'. Rough Guides pone el esquí en Innsbruck en el número 1 de su top 15. Frommer's destaca el Tejadillo de Oro y Ambras, y Time Out la presenta como base de los Alpes.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-austria" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/austria/itinerary" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/austria/innsbruck-tirol-and-vorarlberg/places/innsbruck" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/austria/western-austria/innsbruck/" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/austria/suggested-itineraries/in-two-weeks/" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/austria/travel/austrian-alps-places-to-visit" }
+      ]
+    },
+    {
+      "id": "at-hall-in-tirol",
+      "nombre": "Hall in Tirol",
+      "pais_iso": "AT",
+      "region": "Tirol",
+      "lat": 47.2833,
+      "lng": 11.5083,
+      "tipo": "pueblo",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Rick Steves", "Fodor's"],
+      "justificacion": "Rick Steves recomienda dormir en Hall, por su casco antiguo pintoresco, como alternativa a Innsbruck, que está a 9 km. Fodor's también lo destaca en su página de Austria.",
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/austria" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/austria" }
+      ]
+    },
+    {
+      "id": "at-grossglockner",
+      "nombre": "Carretera del Grossglockner y P. N. Hohe Tauern",
+      "pais_iso": "AT",
+      "region": "Salzburgo / Carintia",
+      "lat": 47.0753,
+      "lng": 12.7525,
+      "tipo": "montaña",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides", "Frommer's", "Time Out"],
+      "justificacion": "Lonely Planet la incluye entre sus 10 mejores cosas de Austria, con el mirador Kaiser-Franz-Josefs-Höhe sobre el glaciar Pasterze, y le dedica una página al P. N. Hohe Tauern. Rough Guides la tiene en su top 15. Frommer's la llama 'la carretera alpina más panorámica de Europa' y Time Out la incluye entre los 9 mejores lugares de los Alpes austriacos.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-austria" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/austria/tirol/hohe-tauern-national-park" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-austria/" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/austria/frommers-favorite-experiences" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/austria/travel/austrian-alps-places-to-visit" }
+      ]
+    },
+    {
+      "id": "at-cascadas-krimml",
+      "nombre": "Cascadas de Krimml",
+      "pais_iso": "AT",
+      "region": "Salzburgo",
+      "lat": 47.2086,
+      "lng": 12.1736,
+      "tipo": "naturaleza",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Lonely Planet"],
+      "justificacion": "Lonely Planet incluye las cascadas más altas de Austria, en el P. N. Hohe Tauern, entre sus 10 mejores cosas del país y en su artículo de parques nacionales.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-national-parks-austria" }
+      ]
+    },
+    {
+      "id": "at-werfen-eisriesenwelt",
+      "nombre": "Werfen y la Eisriesenwelt",
+      "pais_iso": "AT",
+      "region": "Salzburgo",
+      "lat": 47.4900,
+      "lng": 13.1900,
+      "tipo": "naturaleza",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides", "Time Out"],
+      "justificacion": "Lonely Planet presenta la Eisriesenwelt como la mayor cueva de hielo visitable del mundo (42 km de galerías) y la incluye entre sus 10 mejores cosas. Rough Guides la tiene en su top 15 y Time Out pone Werfen entre los 9 mejores lugares de los Alpes austriacos.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/points-of-interest/eisriesenwelt/504540" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-austria/" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/austria/travel/austrian-alps-places-to-visit" }
+      ]
+    },
+    {
+      "id": "at-zell-am-see-kaprun",
+      "nombre": "Zell am See y Kaprun (Kitzsteinhorn)",
+      "pais_iso": "AT",
+      "region": "Salzburgo",
+      "lat": 47.3236,
+      "lng": 12.7967,
+      "tipo": "lago",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Fodor's", "Rough Guides"],
+      "justificacion": "Lonely Planet abre su top 12 de Austria con Zell am See por su naturaleza alpina. Fodor's lo destaca como pueblo lacustre con buen esquí y Rough Guides propone en su itinerario subir al Schmittenhöhe y al glaciar Kitzsteinhorn en Kaprun.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-austria" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/austria" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/austria/itineraries/" }
+      ]
+    },
+    {
+      "id": "at-bad-gastein",
+      "nombre": "Bad Gastein",
+      "pais_iso": "AT",
+      "region": "Salzburgo",
+      "lat": 47.1153,
+      "lng": 13.1339,
+      "tipo": "pueblo",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Lonely Planet"],
+      "justificacion": "Lonely Planet incluye este balneario alpino belle époque en su top 12 de Austria.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-austria" }
+      ]
+    },
+    {
+      "id": "at-st-wolfgang",
+      "nombre": "St. Wolfgang y el Wolfgangsee (Schafberg, St. Gilgen)",
+      "pais_iso": "AT",
+      "region": "Salzkammergut",
+      "lat": 47.7392,
+      "lng": 13.4469,
+      "tipo": "lago",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides"],
+      "justificacion": "Lonely Planet lo propone como excursión desde Salzburgo por la iglesia de peregrinación y la subida en cremallera al Schafberg. Rough Guides lo describe como pueblo pintoresco del Wolfgangsee con un retablo gótico de finales del siglo XV.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-day-trips-from-salzburg" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/austria/central-austria/the-salzkammergut/" }
+      ]
+    },
+    {
+      "id": "at-bad-ischl",
+      "nombre": "Bad Ischl",
+      "pais_iso": "AT",
+      "region": "Salzkammergut",
+      "lat": 47.7111,
+      "lng": 13.6236,
+      "tipo": "pueblo",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Fodor's", "Frommer's", "Rough Guides", "Lonely Planet"],
+      "justificacion": "Fodor's y Frommer's la proponen como mejor base para recorrer el Salzkammergut: balneario favorito de Francisco José, Kaiservilla y Café Zauner. Rough Guides y Lonely Planet la recomiendan como ciudad termal imperial. Se le da 4 y no 5 porque las guías la presentan más como base que como top pick.",
+      "fuentes": [
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/austria/experiences/news/see-the-best-of-austria-in-7-days-or-14-with-these-two-perfect-itineraries" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/austria/planning-a-trip/" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/austria/central-austria/the-salzkammergut/" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-day-trips-from-salzburg" }
+      ]
+    },
+    {
+      "id": "at-graz",
+      "nombre": "Graz",
+      "pais_iso": "AT",
+      "region": "Estiria",
+      "lat": 47.0707,
+      "lng": 15.4395,
+      "tipo": "ciudad",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides", "Frommer's"],
+      "justificacion": "Lonely Planet la incluye en su top 12 por su gastronomía y como puerta a las rutas del vino de Estiria. Rough Guides destaca su casco UNESCO, el mercado de Kaiser-Josef-Platz y el palacio de Eggenberg. Frommer's dice que tiene uno de los cascos medievales mejor conservados de Austria.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-austria" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/austria/central-austria/graz/" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/austria/" }
+      ]
+    },
+    {
+      "id": "at-ruta-vino-estiria-sur",
+      "nombre": "Ruta del vino del sur de Estiria (Südsteirische Weinstraße)",
+      "pais_iso": "AT",
+      "region": "Estiria",
+      "lat": 46.7200,
+      "lng": 15.5530,
+      "tipo": "region",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Lonely Planet"],
+      "justificacion": "Lonely Planet incluye las Weinstrassen de las colinas del sur de Estiria junto a Graz en su top 12 de Austria. Están a unos 40 km de la ciudad.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-austria" }
+      ]
+    },
+    {
+      "id": "at-linz",
+      "nombre": "Linz",
+      "pais_iso": "AT",
+      "region": "Alta Austria",
+      "lat": 48.3069,
+      "lng": 14.2858,
+      "tipo": "ciudad",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Lonely Planet"],
+      "justificacion": "Lonely Planet la incluye en su top 12 como la ciudad más vanguardista de Austria (Ars Electronica Center, Lentos).",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-austria" }
+      ]
+    },
+    {
+      "id": "at-steyr-kalkalpen",
+      "nombre": "Steyr y el P. N. Kalkalpen",
+      "pais_iso": "AT",
+      "region": "Alta Austria",
+      "lat": 48.0427,
+      "lng": 14.4213,
+      "tipo": "pueblo",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Lonely Planet"],
+      "justificacion": "Lonely Planet incluye la ciudad histórica de Steyr, junto al Parque Nacional Kalkalpen, en su top 12 de Austria.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-austria" }
+      ]
+    },
+    {
+      "id": "at-mauthausen",
+      "nombre": "Memorial de Mauthausen",
+      "pais_iso": "AT",
+      "region": "Alta Austria",
+      "lat": 48.2569,
+      "lng": 14.5014,
+      "tipo": "monumento",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Rick Steves"],
+      "justificacion": "Rick Steves recomienda parar en el antiguo campo de concentración entre Melk y Hallstatt, y lo cubre en su guía Vienna, Salzburg & Tirol.",
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/austria/itinerary" }
+      ]
+    },
+    {
+      "id": "at-bregenzerwald",
+      "nombre": "Bregenzerwald",
+      "pais_iso": "AT",
+      "region": "Vorarlberg",
+      "lat": 47.4000,
+      "lng": 9.9000,
+      "tipo": "region",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Time Out"],
+      "justificacion": "Lonely Planet incluye esta región rural en su top 12 de Austria, con la KäseStrasse de 22 queserías y su arquitectura en madera. Time Out pone Vorarlberg entre los 9 mejores lugares de los Alpes austriacos.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-austria" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/austria/travel/austrian-alps-places-to-visit" }
+      ]
+    },
+    {
+      "id": "at-bregenz",
+      "nombre": "Bregenz (lago de Constanza)",
+      "pais_iso": "AT",
+      "region": "Vorarlberg",
+      "lat": 47.5031,
+      "lng": 9.7471,
+      "tipo": "ciudad",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Frommer's"],
+      "justificacion": "Frommer's cubre la capital de Vorarlberg a orillas del Bodensee y su festival de verano en el escenario flotante.",
+      "fuentes": [
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/austria/" }
+      ]
+    },
+    {
+      "id": "at-st-anton",
+      "nombre": "St. Anton am Arlberg",
+      "pais_iso": "AT",
+      "region": "Tirol",
+      "lat": 47.1297,
+      "lng": 10.2683,
+      "tipo": "montaña",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Frommer's", "Time Out", "National Geographic"],
+      "justificacion": "Lonely Planet lo incluye en su top 12 por sus pistas exigentes y el fuera de pista. Frommer's lo nombra entre las mejores estaciones de esquí de Austria y Time Out entre los 9 mejores lugares de los Alpes. National Geographic lo llama la estación austriaca más conocida.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-austria" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/austria/frommers-favorite-experiences" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/austria/travel/austrian-alps-places-to-visit" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/winter-guide-to-austria-ski-cities-mountains" }
+      ]
+    },
+    {
+      "id": "at-lech-zurs",
+      "nombre": "Lech y Zürs",
+      "pais_iso": "AT",
+      "region": "Vorarlberg",
+      "lat": 47.2083,
+      "lng": 10.1417,
+      "tipo": "montaña",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Frommer's"],
+      "justificacion": "Frommer's nombra a Lech entre las mejores estaciones de esquí de Austria.",
+      "fuentes": [
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/austria/frommers-favorite-experiences" }
+      ]
+    },
+    {
+      "id": "at-kitzbuhel",
+      "nombre": "Kitzbühel",
+      "pais_iso": "AT",
+      "region": "Tirol",
+      "lat": 47.4467,
+      "lng": 12.3925,
+      "tipo": "montaña",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Fodor's", "Frommer's", "Lonely Planet", "Time Out"],
+      "justificacion": "Fodor's lo destaca como estación de invierno de moda con buena temporada de verano. Frommer's resalta el Hahnenkamm y el jardín alpino. Lonely Planet lo cubre en el Tirol ('ritzy Kitzbühel') y Time Out lo incluye entre las mejores estaciones de esquí de Austria.",
+      "fuentes": [
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/austria" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/austria/frommers-favorite-experiences" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/austria/tirol/attractions" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/austria/travel/best-ski-resorts" }
+      ]
+    },
+    {
+      "id": "at-solden-otztal",
+      "nombre": "Sölden y el Ötztal",
+      "pais_iso": "AT",
+      "region": "Tirol",
+      "lat": 46.9655,
+      "lng": 11.0076,
+      "tipo": "montaña",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Time Out"],
+      "justificacion": "Time Out lo incluye entre los 9 mejores lugares de los Alpes austriacos: glaciares, esquí y escenario de una película de James Bond.",
+      "fuentes": [
+        { "guia": "Time Out", "url": "https://www.timeout.com/austria/travel/austrian-alps-places-to-visit" }
+      ]
+    },
+    {
+      "id": "at-gesause",
+      "nombre": "Parque Nacional Gesäuse",
+      "pais_iso": "AT",
+      "region": "Estiria",
+      "lat": 47.5900,
+      "lng": 14.6200,
+      "tipo": "parque",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Time Out"],
+      "justificacion": "Time Out lo incluye entre los 9 mejores lugares de los Alpes austriacos. Aporta cobertura de naturaleza en Estiria.",
+      "fuentes": [
+        { "guia": "Time Out", "url": "https://www.timeout.com/austria/travel/austrian-alps-places-to-visit" }
+      ]
+    },
+    {
+      "id": "at-worthersee",
+      "nombre": "Wörthersee y Klagenfurt",
+      "pais_iso": "AT",
+      "region": "Carintia",
+      "lat": 46.6250,
+      "lng": 14.1600,
+      "tipo": "lago",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Time Out", "Frommer's"],
+      "justificacion": "Lonely Planet presenta Klagenfurt como acceso a los pueblos del 'bello Wörthersee' y lo recomienda para bañarse en verano. Time Out lo incluye entre los 9 mejores lugares de los Alpes austriacos por sus playas públicas. Frommer's destaca los lagos de Carintia, con agua templada de mayo a octubre.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/austria/the-south/klagenfurt" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/austria/travel/austrian-alps-places-to-visit" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/austria/suggested-itineraries/the-southern-lake-district/" }
+      ]
+    },
+    {
+      "id": "at-hochosterwitz",
+      "nombre": "Castillo de Hochosterwitz",
+      "pais_iso": "AT",
+      "region": "Carintia",
+      "lat": 46.7517,
+      "lng": 14.4475,
+      "tipo": "monumento",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Frommer's"],
+      "justificacion": "En su itinerario del distrito de los lagos del sur, Frommer's propone una excursión de un día a Hochosterwitz y St. Veit an der Glan.",
+      "fuentes": [
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/austria/suggested-itineraries/the-southern-lake-district/" }
+      ]
+    },
+    {
+      "id": "at-millstatt",
+      "nombre": "Millstatt y el Millstätter See",
+      "pais_iso": "AT",
+      "region": "Carintia",
+      "lat": 46.8044,
+      "lng": 13.5806,
+      "tipo": "lago",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Rough Guides"],
+      "justificacion": "Rough Guides incluye este pueblo lacustre de Carintia como parada en su itinerario de 14 días por Austria.",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/austria/itineraries/" }
+      ]
+    },
+    {
+      "id": "at-villach",
+      "nombre": "Villach (y Faaker See)",
+      "pais_iso": "AT",
+      "region": "Carintia",
+      "lat": 46.6111,
+      "lng": 13.8558,
+      "tipo": "ciudad",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Time Out"],
+      "justificacion": "En su lista de destinos infravalorados de Europa, Time Out elige Villach como el mejor para paisaje alpino, con el lago Faak cerca.",
+      "fuentes": [
+        { "guia": "Time Out", "url": "https://www.timeout.com/europe/travel/most-underrated-travel-destinations-europe" }
+      ]
+    },
+    {
+      "id": "at-neusiedler-see",
+      "nombre": "Lago Neusiedl (Neusiedler See)",
+      "pais_iso": "AT",
+      "region": "Burgenland",
+      "lat": 47.8500,
+      "lng": 16.7600,
+      "tipo": "lago",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Fodor's", "Lonely Planet"],
+      "justificacion": "Fodor's tiene una guía de Neusiedl am See (barco, playa, ruinas de Tabor) a un corto viaje en tren desde Viena. Lonely Planet lo cita como el lago más grande de Austria para actividades en el agua.",
+      "fuentes": [
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/austria/vienna-woods-lake-neusiedler-and-the-danube-river/places/neusiedl-am-see" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/getting-around-austria" }
+      ]
+    },
+    {
+      "id": "li-vaduz",
+      "nombre": "Vaduz",
+      "pais_iso": "LI",
+      "region": "Oberland",
+      "lat": 47.1410,
+      "lng": 9.5209,
+      "tipo": "ciudad",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Fodor's", "Rick Steves", "Frommer's", "Rough Guides"],
+      "justificacion": "Lonely Planet propone empezar por un paseo por la capital (catedral, Landtag, museo nacional) y subir entre viñedos a la Hofkellerei del príncipe. Fodor's tiene una guía propia (Kunstmuseum, Landesmuseum, vistas del castillo). Rick Steves le dedica el artículo 'Little, Little Liechtenstein'. Frommer's y Rough Guides la cubren como base del país.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/liechtenstein/attractions" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/liechtenstein/places/vaduz" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/watch-read-listen/read/articles/little-little-liechtenstein" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/vaduz/" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/switzerland/north-east-and-liechtenstein/" }
+      ]
+    },
+    {
+      "id": "li-malbun",
+      "nombre": "Malbun",
+      "pais_iso": "LI",
+      "region": "Triesenberg",
+      "lat": 47.1017,
+      "lng": 9.6097,
+      "tipo": "montaña",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Rough Guides", "Frommer's"],
+      "justificacion": "Rough Guides lo describe como la única estación de esquí del país, a 1600 m, con muchas rutas de senderismo en verano. Frommer's lo llama el centro de los deportes de invierno de Liechtenstein y base ideal para caminatas.",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/switzerland/north-east-and-liechtenstein/" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/liechtenstein/" }
+      ]
+    },
+    {
+      "id": "li-triesenberg",
+      "nombre": "Triesenberg",
+      "pais_iso": "LI",
+      "region": "Triesenberg",
+      "lat": 47.1181,
+      "lng": 9.5433,
+      "tipo": "pueblo",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Fodor's"],
+      "justificacion": "Fodor's le dedica una página: chalés colgados en la ladera con vista panorámica del valle del Rin y el Museo Walser. Rough Guides solo lo menciona de paso en la carretera a Malbun.",
+      "fuentes": [
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/liechtenstein/places/triesenberg" }
+      ]
+    },
+    {
+      "id": "li-castillo-gutenberg",
+      "nombre": "Castillo de Gutenberg (Balzers)",
+      "pais_iso": "LI",
+      "region": "Balzers",
+      "lat": 47.0640,
+      "lng": 9.4998,
+      "tipo": "monumento",
+      "puntaje": 1,
+      "guias_que_lo_recomiendan": ["Lonely Planet"],
+      "justificacion": "Es una mención menor: Lonely Planet lo tiene como punto de interés en su mapa de Liechtenstein. Es el único castillo del país abierto al público, con visitas guiadas solo fuera del invierno.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/maps/europe/liechtenstein/" }
+      ]
+    }
+  ]
+}
