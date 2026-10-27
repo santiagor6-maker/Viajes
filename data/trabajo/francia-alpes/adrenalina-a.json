@@ -1,0 +1,871 @@
+{
+  "agente": "adrenalina",
+  "subregion": "francia-alpes",
+  "grupo": "a",
+  "paises": ["FR", "MC", "BE", "NL", "LU"],
+  "ronda": 1,
+  "criterio": "Toda actividad o parque a 60 km o menos en línea recta cuenta para cada lugar del radio. Monumentos, museos y sitios religiosos tienen tope de 2 salvo que la actividad esté en el propio lugar; espacios naturales que solo se recorren a pie, tope de 3. Escala: 5 si hay oferta de clase mundial en el lugar o a 15 km o menos; 4 si hay una actividad de primer nivel europeo a 30 km o menos o varias actividades destacadas; 3 si hay una actividad notable en el radio o una de primer nivel a más de 30 km; 2 si solo hay oferta menor o la única actividad está en el borde del radio (50–60 km); 1 si no se encontró oferta verificable. Un 3 o más exige al menos una actividad con web del operador, turismo oficial o RCDB; las plataformas de reserva solo sirven de respaldo.",
+  "busquedas_usadas": 20,
+  "puntajes": [
+    {
+      "id": "fr-paris",
+      "puntaje": 4,
+      "justificacion": "Dos de los grandes parques de Europa a poco más de 30 km: Disneyland Paris (31 km), el parque más visitado del continente, con el Parc Disneyland y el nuevo Disney Adventure World, y el Parc Astérix (35 km), con Toutatis, la montaña rusa más alta y rápida de Francia (51 m, 110 km/h). Ninguno queda a 15 km, así que no llega a 5.",
+      "actividades": [
+        { "nombre": "Disneyland Paris", "tipo": "parque_diversiones", "km": 31, "lat": 48.8722, "lng": 2.7758, "temporada": "todo el año", "url": "https://parisjetaime.com/culture/disneyland-paris-p3614", "url_tipo": "turismo_oficial" },
+        { "nombre": "Parc Astérix (Toutatis)", "tipo": "parque_diversiones", "km": 35, "lat": 49.1340, "lng": 2.5710, "temporada": "abr–ene (por calendario)", "url": "https://rcdb.com/4790.htm", "url_tipo": "rcdb" }
+      ]
+    },
+    {
+      "id": "fr-versalles",
+      "puntaje": 2,
+      "justificacion": "Disneyland Paris y el Parc Astérix quedan a unos 49 km, dentro del radio, pero la visita es la de un palacio y sus jardines, sin actividad propia, así que el puntaje no pasa de 2.",
+      "actividades": [
+        { "nombre": "Disneyland Paris", "tipo": "parque_diversiones", "km": 49, "lat": 48.8722, "lng": 2.7758, "temporada": "todo el año", "url": "https://parisjetaime.com/culture/disneyland-paris-p3614", "url_tipo": "turismo_oficial" },
+        { "nombre": "Parc Astérix (Toutatis)", "tipo": "parque_diversiones", "km": 49, "lat": 49.1340, "lng": 2.5710, "temporada": "abr–ene (por calendario)", "url": "https://rcdb.com/4790.htm", "url_tipo": "rcdb" }
+      ]
+    },
+    {
+      "id": "fr-giverny",
+      "puntaje": 1,
+      "justificacion": "El Parc Astérix queda a 76 km, fuera del radio, y no hay otra oferta de adrenalina con operador verificable cerca de los jardines de Monet.",
+      "actividades": []
+    },
+    {
+      "id": "fr-chartres",
+      "puntaje": 1,
+      "justificacion": "Los parques de la región de París quedan a más de 90 km y no hay oferta de adrenalina con operador verificable en el radio.",
+      "actividades": []
+    },
+    {
+      "id": "fr-mont-saint-michel",
+      "puntaje": 1,
+      "justificacion": "La travesía a pie de la bahía con guía es una excursión, no una actividad de adrenalina, y no hay parques ni operadores verificables en el radio.",
+      "actividades": []
+    },
+    {
+      "id": "fr-bayeux-playas-desembarco",
+      "puntaje": 1,
+      "justificacion": "Destino de historia (tapiz y playas del Desembarco) sin parques ni operadores de adrenalina verificables a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "fr-honfleur",
+      "puntaje": 1,
+      "justificacion": "Puerto histórico sin parques ni operadores de adrenalina verificables a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "fr-etretat",
+      "puntaje": 1,
+      "justificacion": "Los acantilados se recorren a pie y no se encontró un operador oficial de vuelo libre o escalada en el radio.",
+      "actividades": []
+    },
+    {
+      "id": "fr-valle-del-loira",
+      "puntaje": 1,
+      "justificacion": "Futuroscope (unos 83 km) y Puy du Fou (unos 145 km) quedan fuera del radio de Amboise; la visita es de castillos, sin oferta de adrenalina verificable.",
+      "actividades": []
+    },
+    {
+      "id": "fr-saint-malo",
+      "puntaje": 1,
+      "justificacion": "Ciudad amurallada costera sin parques ni operadores de adrenalina verificables a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "fr-carnac",
+      "puntaje": 1,
+      "justificacion": "Yacimiento megalítico sin parques ni operadores de adrenalina verificables a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "fr-estrasburgo",
+      "puntaje": 3,
+      "justificacion": "Europa-Park (Rust, Alemania), uno de los parques de primer nivel de Europa con 15 montañas rusas como Silver Star y blue fire, está a 34 km. Al quedar a más de 30 km, el puntaje es 3.",
+      "actividades": [
+        { "nombre": "Europa-Park (Rust, DE)", "tipo": "parque_diversiones", "km": 34, "lat": 48.2660, "lng": 7.7220, "temporada": "abr–ene (con temporada de invierno)", "url": "https://rcdb.com/4074.htm", "url_tipo": "rcdb" }
+      ]
+    },
+    {
+      "id": "fr-colmar-ruta-vino-alsacia",
+      "puntaje": 3,
+      "justificacion": "Europa-Park (Rust, Alemania), parque de primer nivel europeo con 15 montañas rusas, está a 34 km cruzando el Rin. Al quedar a más de 30 km, el puntaje es 3.",
+      "actividades": [
+        { "nombre": "Europa-Park (Rust, DE)", "tipo": "parque_diversiones", "km": 34, "lat": 48.2660, "lng": 7.7220, "temporada": "abr–ene (con temporada de invierno)", "url": "https://rcdb.com/4074.htm", "url_tipo": "rcdb" }
+      ]
+    },
+    {
+      "id": "fr-reims-champana",
+      "puntaje": 1,
+      "justificacion": "Destino de catedral y bodegas de champán, sin parques ni operadores de adrenalina verificables a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "fr-beaune-cote-dor",
+      "puntaje": 1,
+      "justificacion": "Destino vinícola sin parques ni operadores de adrenalina verificables a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "fr-dijon",
+      "puntaje": 1,
+      "justificacion": "Ciudad histórica y gastronómica sin parques ni operadores de adrenalina verificables a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "fr-lyon",
+      "puntaje": 2,
+      "justificacion": "Walibi Rhône-Alpes (Les Avenières), con montañas rusas como Mystic, Timber y Mahuka (2024), está a 59 km, en el borde del radio.",
+      "actividades": [
+        { "nombre": "Walibi Rhône-Alpes", "tipo": "parque_diversiones", "km": 59, "lat": 45.6260, "lng": 5.5660, "temporada": "abr–nov", "url": "https://rcdb.com/4857.htm", "url_tipo": "rcdb" }
+      ]
+    },
+    {
+      "id": "fr-annecy",
+      "puntaje": 5,
+      "justificacion": "El Col de la Forclaz, a 13 km sobre el lago, es uno de los despegues de parapente más prestigiosos de Francia (1240 m), con varias escuelas de vuelos biplaza de abril a octubre. Suma Walibi Rhône-Alpes (53 km) y el teleférico de la Aiguille du Midi en Chamonix (59 km).",
+      "actividades": [
+        { "nombre": "Parapente biplaza en el Col de la Forclaz", "tipo": "parapente", "km": 13, "lat": 45.8130, "lng": 6.2470, "temporada": "abr–oct", "url": "https://www.adrenactive.com/bapteme-parapente-annecy-forclaz-74-2012.htm", "url_tipo": "operador" },
+        { "nombre": "FBI Parapente Tandem (Col de la Forclaz)", "tipo": "parapente", "km": 13, "lat": 45.8130, "lng": 6.2470, "temporada": "abr–oct", "url": "https://www.haute-savoie-tourisme.org/loisirs/activites-sportives/parapente/7255060-syndicat-local-fbi", "url_tipo": "directorio_turistico" },
+        { "nombre": "Walibi Rhône-Alpes", "tipo": "parque_diversiones", "km": 53, "lat": 45.6260, "lng": 5.5660, "temporada": "abr–nov", "url": "https://rcdb.com/4857.htm", "url_tipo": "rcdb" },
+        { "nombre": "Teleférico de la Aiguille du Midi", "tipo": "otro", "km": 59, "lat": 45.8786, "lng": 6.8873, "temporada": "todo el año salvo noviembre (mantenimiento)", "url": "https://hautesavoiemontblanc-tourisme.com/notre-destination/hautement-blanche/mythique-en-haute-savoie-hiver/aiguille-du-midi-telepherique/", "url_tipo": "turismo_oficial" }
+      ]
+    },
+    {
+      "id": "fr-chamonix-mont-blanc",
+      "puntaje": 5,
+      "justificacion": "Capital mundial del alpinismo y del esquí de alta montaña. El teleférico de la Aiguille du Midi sube en unos 20 minutos de 1035 m a 3842 m, con la caja de cristal 'Pas dans le Vide' y la salida hacia Italia en verano. El parapente de Annecy (Col de la Forclaz) queda a 50 km.",
+      "actividades": [
+        { "nombre": "Teleférico de la Aiguille du Midi", "tipo": "otro", "km": 5, "lat": 45.8786, "lng": 6.8873, "temporada": "todo el año salvo noviembre (mantenimiento)", "url": "https://hautesavoiemontblanc-tourisme.com/notre-destination/hautement-blanche/mythique-en-haute-savoie-hiver/aiguille-du-midi-telepherique/", "url_tipo": "turismo_oficial" },
+        { "nombre": "Parapente biplaza en el Col de la Forclaz (Annecy)", "tipo": "parapente", "km": 50, "lat": 45.8130, "lng": 6.2470, "temporada": "abr–oct", "url": "https://www.adrenactive.com/bapteme-parapente-annecy-forclaz-74-2012.htm", "url_tipo": "operador" }
+      ]
+    },
+    {
+      "id": "fr-gorges-du-verdon",
+      "puntaje": 5,
+      "justificacion": "Uno de los grandes destinos de aguas bravas de Europa: desde Castellane, en la entrada del cañón (16 km de las coordenadas), operan bases como Montagne et Rivière (rafting, hidrospeed, canyoning) y Aqua Verdon (rafting, canyoning, escalada), de abril a octubre. Los descensos discurren dentro de las propias gargantas.",
+      "actividades": [
+        { "nombre": "Montagne et Rivière (rafting, hidrospeed, canyoning)", "tipo": "rafting", "km": 16, "lat": 43.8470, "lng": 6.5130, "temporada": "abr–oct", "url": "https://provence-alpes-cotedazur.com/sejourner/informations-pratiques/tous-les-services-pratiques/montagne-et-riviere-castellane-fr-2880241/", "url_tipo": "turismo_oficial" },
+        { "nombre": "Aqua Verdon (rafting, canyoning)", "tipo": "canyoning", "km": 16, "lat": 43.8470, "lng": 6.5130, "temporada": "abr–oct", "url": "https://provence-alpes-cotedazur.com/sejourner/informations-pratiques/tous-les-services-pratiques/aqua-verdon-castellane-fr-3043745/", "url_tipo": "turismo_oficial" }
+      ]
+    },
+    {
+      "id": "fr-avinon",
+      "puntaje": 3,
+      "justificacion": "El Parc Spirou Provence (Monteux), con cuatro montañas rusas como Spirou Racing, está a 18 km. Es un parque regional notable, no de primer nivel europeo.",
+      "actividades": [
+        { "nombre": "Parc Spirou Provence", "tipo": "parque_diversiones", "km": 18, "lat": 44.0270, "lng": 4.9970, "temporada": "abr–nov", "url": "https://rcdb.com/15273.htm", "url_tipo": "rcdb" }
+      ]
+    },
+    {
+      "id": "fr-arles",
+      "puntaje": 2,
+      "justificacion": "El Parc Spirou Provence queda a 49 km, casi en el borde del radio, y es la única oferta verificable. Es un parque regional modesto.",
+      "actividades": [
+        { "nombre": "Parc Spirou Provence", "tipo": "parque_diversiones", "km": 49, "lat": 44.0270, "lng": 4.9970, "temporada": "abr–nov", "url": "https://rcdb.com/15273.htm", "url_tipo": "rcdb" }
+      ]
+    },
+    {
+      "id": "fr-pont-du-gard",
+      "puntaje": 2,
+      "justificacion": "El Parc Spirou Provence está a 38 km, pero el lugar es un monumento romano y no se verificó un operador de actividades en el propio sitio, así que el puntaje no pasa de 2.",
+      "actividades": [
+        { "nombre": "Parc Spirou Provence", "tipo": "parque_diversiones", "km": 38, "lat": 44.0270, "lng": 4.9970, "temporada": "abr–nov", "url": "https://rcdb.com/15273.htm", "url_tipo": "rcdb" }
+      ]
+    },
+    {
+      "id": "fr-nimes",
+      "puntaje": 2,
+      "justificacion": "El Parc Spirou Provence queda a 55 km, en el borde del radio. No hay otra oferta verificable.",
+      "actividades": [
+        { "nombre": "Parc Spirou Provence", "tipo": "parque_diversiones", "km": 55, "lat": 44.0270, "lng": 4.9970, "temporada": "abr–nov", "url": "https://rcdb.com/15273.htm", "url_tipo": "rcdb" }
+      ]
+    },
+    {
+      "id": "fr-aix-en-provence",
+      "puntaje": 1,
+      "justificacion": "El Parc Spirou (66 km) y las bases de rafting del Verdon (86 km) quedan fuera del radio, y no se encontró otro operador oficial más cerca.",
+      "actividades": []
+    },
+    {
+      "id": "fr-luberon",
+      "puntaje": 3,
+      "justificacion": "El Parc Spirou Provence (Monteux), con cuatro montañas rusas, está a 21 km de Gordes.",
+      "actividades": [
+        { "nombre": "Parc Spirou Provence", "tipo": "parque_diversiones", "km": 21, "lat": 44.0270, "lng": 4.9970, "temporada": "abr–nov", "url": "https://rcdb.com/15273.htm", "url_tipo": "rcdb" }
+      ]
+    },
+    {
+      "id": "fr-marsella-calanques",
+      "puntaje": 2,
+      "justificacion": "Las Calanques permiten kayak de mar y escalada, pero no se encontró un operador oficial verificable, y los parques de la región (Spirou, Verdon) quedan fuera del radio. Oferta menor.",
+      "actividades": []
+    },
+    {
+      "id": "fr-niza",
+      "puntaje": 3,
+      "justificacion": "El valle de la Vésubie ofrece canyoning guiado a 32 km (barranco de La Bollène, con saltos y toboganes naturales) y el Vésùbia Mountain Park de Saint-Martin-Vésubie (40 km), con canyoning y escalada.",
+      "actividades": [
+        { "nombre": "Canyoning en La Bollène-Vésubie", "tipo": "canyoning", "km": 32, "lat": 43.9930, "lng": 7.3330, "temporada": "jun–sep", "url": "https://en.experiencecotedazur.com/la-bollene-vesubie/canyoning-adventure-bollene-esteron-valley+camp4-canyoning", "url_tipo": "turismo_oficial" },
+        { "nombre": "Vésùbia Mountain Park (canyoning y escalada)", "tipo": "canyoning", "km": 40, "lat": 44.0690, "lng": 7.2560, "temporada": "todo el año", "url": "https://www.puremontagne.fr/en/to-do/sport/item/canyoning", "url_tipo": "turismo_oficial" }
+      ]
+    },
+    {
+      "id": "fr-menton",
+      "puntaje": 3,
+      "justificacion": "El canyoning del valle de la Vésubie (La Bollène, 28 km) y el Vésùbia Mountain Park (38 km) quedan dentro del radio.",
+      "actividades": [
+        { "nombre": "Canyoning en La Bollène-Vésubie", "tipo": "canyoning", "km": 28, "lat": 43.9930, "lng": 7.3330, "temporada": "jun–sep", "url": "https://en.experiencecotedazur.com/la-bollene-vesubie/canyoning-adventure-bollene-esteron-valley+camp4-canyoning", "url_tipo": "turismo_oficial" },
+        { "nombre": "Vésùbia Mountain Park (canyoning y escalada)", "tipo": "canyoning", "km": 38, "lat": 44.0690, "lng": 7.2560, "temporada": "todo el año", "url": "https://www.puremontagne.fr/en/to-do/sport/item/canyoning", "url_tipo": "turismo_oficial" }
+      ]
+    },
+    {
+      "id": "fr-carcasona",
+      "puntaje": 1,
+      "justificacion": "Ciudad medieval sin parques ni operadores de adrenalina verificables a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "fr-sarlat-dordona",
+      "puntaje": 2,
+      "justificacion": "El descenso en canoa del Dordoña entre castillos es la actividad típica del valle, pero es tranquila y no se verificó un operador oficial en esta búsqueda. Oferta menor.",
+      "actividades": []
+    },
+    {
+      "id": "fr-valle-vezere-lascaux",
+      "puntaje": 1,
+      "justificacion": "Conjunto de cuevas prehistóricas (sitio de visita guiada) sin oferta de adrenalina verificable en el radio.",
+      "actividades": []
+    },
+    {
+      "id": "fr-rocamadour",
+      "puntaje": 1,
+      "justificacion": "Santuario en el acantilado sin parques ni operadores de adrenalina verificables a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "fr-burdeos",
+      "puntaje": 2,
+      "justificacion": "El parapente de la Duna de Pilat queda a 57 km, en el borde del radio. No hay otra oferta verificable más cerca.",
+      "actividades": [
+        { "nombre": "Parapente en la Duna de Pilat", "tipo": "parapente", "km": 57, "lat": 44.5890, "lng": -1.2130, "temporada": "mar–nov", "url": "https://www.dunedupilat.com/fr/la-dune/parapente/", "url_tipo": "oficial" }
+      ]
+    },
+    {
+      "id": "fr-duna-pilat-arcachon",
+      "puntaje": 4,
+      "justificacion": "La duna, según su sitio oficial, es uno de los mejores sitios de vuelo de Europa para soaring sobre el océano, y escuelas como Pyla-Parapente y Waggas ofrecen vuelos biplaza con monitor diplomado (temporada de marzo a noviembre). Es una sola actividad, aunque de primer nivel, así que queda en 4.",
+      "actividades": [
+        { "nombre": "Parapente en la Duna de Pilat (Grand Site)", "tipo": "parapente", "km": 0, "lat": 44.5890, "lng": -1.2130, "temporada": "mar–nov", "url": "https://www.dunedupilat.com/fr/la-dune/parapente/", "url_tipo": "oficial" },
+        { "nombre": "Pyla-Parapente (vuelos biplaza)", "tipo": "parapente", "km": 0, "lat": 44.5890, "lng": -1.2130, "temporada": "mar–nov", "url": "https://www.arcachon.com/en/offers/pyla-parapente-la-teste-de-buch-en-2544363/", "url_tipo": "turismo_oficial" },
+        { "nombre": "Waggas school Parapente", "tipo": "parapente", "km": 0, "lat": 44.5890, "lng": -1.2130, "temporada": "mar–nov", "url": "https://www.arcachon.com/en/offers/waggas-school-parapente-dune-du-pilat-la-teste-de-buch-en-3522025/", "url_tipo": "turismo_oficial" }
+      ]
+    },
+    {
+      "id": "fr-biarritz-costa-vasca",
+      "puntaje": 2,
+      "justificacion": "Biarritz es una meca del surf, pero no se verificó una escuela con web oficial y no hay parques ni actividades de altura con fuente en el radio. Oferta menor dentro de esta escala.",
+      "actividades": []
+    },
+    {
+      "id": "fr-toulouse",
+      "puntaje": 1,
+      "justificacion": "Ciudad sin parques ni operadores de adrenalina verificables a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "fr-gorges-du-tarn",
+      "puntaje": 4,
+      "justificacion": "El descenso en canoa por las gargantas se hace desde el propio lugar, con bases como Locanoe en Sainte-Enimie, el Moulin de La Malène (10 km) y Canoë Le Rozier (25 km). En el radio también hay vías ferratas (Liaucous, Boffi) y parapente biplaza en Millau (40 km), uno de los grandes sitios de vuelo libre de Francia.",
+      "actividades": [
+        { "nombre": "Locanoe (canoa, Sainte-Enimie)", "tipo": "otro", "km": 0, "lat": 44.3653, "lng": 3.4114, "temporada": "abr–sep", "url": "https://www.cevennes-gorges-du-tarn.com/activite/locanoe/", "url_tipo": "turismo_oficial" },
+        { "nombre": "Canoë au Moulin de La Malène", "tipo": "otro", "km": 10, "lat": 44.3010, "lng": 3.3170, "temporada": "abr–sep", "url": "https://www.lozere-tourisme.com/activite/canoe-au-moulin-de-la-malene-paddle-des-gorges-du-tarn/", "url_tipo": "turismo_oficial" },
+        { "nombre": "Canoë Le Rozier", "tipo": "otro", "km": 25, "lat": 44.1910, "lng": 3.2070, "temporada": "abr–sep", "url": "https://www.cevennes-gorges-du-tarn.com/en/activite/canoe-le-rozier/", "url_tipo": "turismo_oficial" },
+        { "nombre": "Vía ferrata de Liaucous", "tipo": "via_ferrata", "km": 30, "lat": 44.1900, "lng": 3.1700, "temporada": "abr–oct", "url": "https://www.manawa.com/fr/destinations/2444-millau", "url_tipo": "plataforma", "km_aprox": true },
+        { "nombre": "Parapente biplaza en Millau (Air Zone Parapente)", "tipo": "parapente", "km": 40, "lat": 44.0980, "lng": 3.0780, "temporada": "abr–oct", "url": "https://www.manawa.com/fr/destinations/2444-millau", "url_tipo": "plataforma" }
+      ]
+    },
+    {
+      "id": "fr-corcega",
+      "puntaje": 2,
+      "justificacion": "La isla tiene barrancos y el GR20, pero no se verificó un operador oficial de canyoning o vía ferrata cerca del punto de referencia. Oferta menor con fuente.",
+      "actividades": []
+    },
+    {
+      "id": "fr-bonifacio",
+      "puntaje": 1,
+      "justificacion": "Pueblo sobre acantilados cuya visita principal son los paseos en barco, sin operadores de adrenalina verificables en el radio.",
+      "actividades": []
+    },
+    {
+      "id": "fr-nancy",
+      "puntaje": 2,
+      "justificacion": "Walygator Grand Est (Maizières-lès-Metz), con la montaña rusa invertida Monster, está a 60 km, justo en el borde del radio.",
+      "actividades": [
+        { "nombre": "Walygator Grand Est", "tipo": "parque_diversiones", "km": 60, "lat": 49.2290, "lng": 6.1470, "temporada": "abr–nov", "url": "https://rcdb.com/4478.htm", "url_tipo": "rcdb" }
+      ]
+    },
+    {
+      "id": "fr-verdun",
+      "puntaje": 2,
+      "justificacion": "Walygator Grand Est está a 56 km, pero el lugar es un conjunto de campos de batalla y memoriales sin actividad propia, así que el puntaje no pasa de 2.",
+      "actividades": [
+        { "nombre": "Walygator Grand Est", "tipo": "parque_diversiones", "km": 56, "lat": 49.2290, "lng": 6.1470, "temporada": "abr–nov", "url": "https://rcdb.com/4478.htm", "url_tipo": "rcdb" }
+      ]
+    },
+    {
+      "id": "fr-lille",
+      "puntaje": 3,
+      "justificacion": "Bellewaerde Park (Ypres, Bélgica), con cinco montañas rusas, está a 25 km, y Plopsaland De Panne queda a 60 km, en el borde del radio.",
+      "actividades": [
+        { "nombre": "Bellewaerde Park", "tipo": "parque_diversiones", "km": 25, "lat": 50.8460, "lng": 2.9480, "temporada": "abr–nov (por calendario)", "url": "https://rcdb.com/4848.htm", "url_tipo": "rcdb" },
+        { "nombre": "Plopsaland De Panne", "tipo": "parque_diversiones", "km": 60, "lat": 51.0810, "lng": 2.5980, "temporada": "abr–ene (por calendario)", "url": "https://rcdb.com/17725.htm", "url_tipo": "rcdb" }
+      ]
+    },
+    {
+      "id": "mc-monaco-ville",
+      "puntaje": 2,
+      "justificacion": "El canyoning de la Vésubie (La Bollène, 30 km) y el Vésùbia Mountain Park (40 km) entran en el radio, pero Le Rocher es un barrio monumental (palacio, museo, catedral) sin actividad propia, así que el puntaje no pasa de 2.",
+      "actividades": [
+        { "nombre": "Canyoning en La Bollène-Vésubie", "tipo": "canyoning", "km": 30, "lat": 43.9930, "lng": 7.3330, "temporada": "jun–sep", "url": "https://en.experiencecotedazur.com/la-bollene-vesubie/canyoning-adventure-bollene-esteron-valley+camp4-canyoning", "url_tipo": "turismo_oficial" },
+        { "nombre": "Vésùbia Mountain Park", "tipo": "canyoning", "km": 40, "lat": 44.0690, "lng": 7.2560, "temporada": "todo el año", "url": "https://www.puremontagne.fr/en/to-do/sport/item/canyoning", "url_tipo": "turismo_oficial" }
+      ]
+    },
+    {
+      "id": "mc-monte-carlo",
+      "puntaje": 3,
+      "justificacion": "Como base en la Riviera tiene a mano el canyoning guiado de la Vésubie (La Bollène, 29 km) y el Vésùbia Mountain Park (39 km).",
+      "actividades": [
+        { "nombre": "Canyoning en La Bollène-Vésubie", "tipo": "canyoning", "km": 29, "lat": 43.9930, "lng": 7.3330, "temporada": "jun–sep", "url": "https://en.experiencecotedazur.com/la-bollene-vesubie/canyoning-adventure-bollene-esteron-valley+camp4-canyoning", "url_tipo": "turismo_oficial" },
+        { "nombre": "Vésùbia Mountain Park", "tipo": "canyoning", "km": 39, "lat": 44.0690, "lng": 7.2560, "temporada": "todo el año", "url": "https://www.puremontagne.fr/en/to-do/sport/item/canyoning", "url_tipo": "turismo_oficial" }
+      ]
+    },
+    {
+      "id": "mc-jardin-exotique",
+      "puntaje": 2,
+      "justificacion": "Jardín botánico de visita a pie; el canyoning de la Vésubie (30 km) entra en el radio, pero el lugar no tiene actividad propia.",
+      "actividades": [
+        { "nombre": "Canyoning en La Bollène-Vésubie", "tipo": "canyoning", "km": 30, "lat": 43.9930, "lng": 7.3330, "temporada": "jun–sep", "url": "https://en.experiencecotedazur.com/la-bollene-vesubie/canyoning-adventure-bollene-esteron-valley+camp4-canyoning", "url_tipo": "turismo_oficial" }
+      ]
+    },
+    {
+      "id": "mc-puerto-hercule-circuito",
+      "puntaje": 3,
+      "justificacion": "Recorrer el trazado urbano de la F1 es una experiencia de motor solo como espectador, pero en el radio hay canyoning guiado en la Vésubie (30 km) y el Vésùbia Mountain Park (39 km).",
+      "actividades": [
+        { "nombre": "Canyoning en La Bollène-Vésubie", "tipo": "canyoning", "km": 30, "lat": 43.9930, "lng": 7.3330, "temporada": "jun–sep", "url": "https://en.experiencecotedazur.com/la-bollene-vesubie/canyoning-adventure-bollene-esteron-valley+camp4-canyoning", "url_tipo": "turismo_oficial" },
+        { "nombre": "Vésùbia Mountain Park", "tipo": "canyoning", "km": 39, "lat": 44.0690, "lng": 7.2560, "temporada": "todo el año", "url": "https://www.puremontagne.fr/en/to-do/sport/item/canyoning", "url_tipo": "turismo_oficial" }
+      ]
+    },
+    {
+      "id": "mc-larvotto",
+      "puntaje": 3,
+      "justificacion": "Barrio de playa de Mónaco; en el radio están el canyoning guiado de la Vésubie (29 km) y el Vésùbia Mountain Park (39 km).",
+      "actividades": [
+        { "nombre": "Canyoning en La Bollène-Vésubie", "tipo": "canyoning", "km": 29, "lat": 43.9930, "lng": 7.3330, "temporada": "jun–sep", "url": "https://en.experiencecotedazur.com/la-bollene-vesubie/canyoning-adventure-bollene-esteron-valley+camp4-canyoning", "url_tipo": "turismo_oficial" },
+        { "nombre": "Vésùbia Mountain Park", "tipo": "canyoning", "km": 39, "lat": 44.0690, "lng": 7.2560, "temporada": "todo el año", "url": "https://www.puremontagne.fr/en/to-do/sport/item/canyoning", "url_tipo": "turismo_oficial" }
+      ]
+    },
+    {
+      "id": "be-brujas",
+      "puntaje": 3,
+      "justificacion": "Dos parques regionales en el radio: Bellewaerde Park (45 km), con cinco montañas rusas, y Plopsaland De Panne (46 km), con la giratoria Ride to Happiness temática de Tomorrowland.",
+      "actividades": [
+        { "nombre": "Bellewaerde Park", "tipo": "parque_diversiones", "km": 45, "lat": 50.8460, "lng": 2.9480, "temporada": "abr–nov (por calendario)", "url": "https://rcdb.com/4848.htm", "url_tipo": "rcdb" },
+        { "nombre": "Plopsaland De Panne", "tipo": "parque_diversiones", "km": 46, "lat": 51.0810, "lng": 2.5980, "temporada": "abr–ene (por calendario)", "url": "https://rcdb.com/17725.htm", "url_tipo": "rcdb" }
+      ]
+    },
+    {
+      "id": "be-bruselas",
+      "puntaje": 3,
+      "justificacion": "Walibi Belgium (Wavre), el mayor parque del país con 11 montañas rusas, está a 23 km, y Bobbejaanland, con la triple lanzada Fury, a 54 km. Son parques notables del Benelux, no de primer nivel europeo.",
+      "actividades": [
+        { "nombre": "Walibi Belgium", "tipo": "parque_diversiones", "km": 23, "lat": 50.7010, "lng": 4.5940, "temporada": "abr–nov", "url": "https://rcdb.com/921.htm", "url_tipo": "rcdb" },
+        { "nombre": "Bobbejaanland (Fury)", "tipo": "parque_diversiones", "km": 54, "lat": 51.2010, "lng": 4.8860, "temporada": "abr–nov", "url": "https://rcdb.com/16110.htm", "url_tipo": "rcdb" }
+      ]
+    },
+    {
+      "id": "be-gante",
+      "puntaje": 2,
+      "justificacion": "Bellewaerde Park queda a 59 km, en el borde del radio; Walibi y Plopsaland quedan fuera.",
+      "actividades": [
+        { "nombre": "Bellewaerde Park", "tipo": "parque_diversiones", "km": 59, "lat": 50.8460, "lng": 2.9480, "temporada": "abr–nov (por calendario)", "url": "https://rcdb.com/4848.htm", "url_tipo": "rcdb" }
+      ]
+    },
+    {
+      "id": "be-amberes",
+      "puntaje": 3,
+      "justificacion": "Bobbejaanland (Lichtaart), con ocho montañas rusas y Fury, la lanzada más alta y rápida de su tipo en el Benelux, está a 34 km. Walibi Belgium queda a 59 km.",
+      "actividades": [
+        { "nombre": "Bobbejaanland (Fury)", "tipo": "parque_diversiones", "km": 34, "lat": 51.2010, "lng": 4.8860, "temporada": "abr–nov", "url": "https://rcdb.com/16110.htm", "url_tipo": "rcdb" },
+        { "nombre": "Walibi Belgium", "tipo": "parque_diversiones", "km": 59, "lat": 50.7010, "lng": 4.5940, "temporada": "abr–nov", "url": "https://rcdb.com/921.htm", "url_tipo": "rcdb" }
+      ]
+    },
+    {
+      "id": "be-ypres-flanders-fields",
+      "puntaje": 3,
+      "justificacion": "Bellewaerde Park, con cinco montañas rusas, está en el propio término de Ypres (4 km), y Plopsaland De Panne a 33 km. Por eso no se aplica el tope de los sitios monumentales.",
+      "actividades": [
+        { "nombre": "Bellewaerde Park", "tipo": "parque_diversiones", "km": 4, "lat": 50.8460, "lng": 2.9480, "temporada": "abr–nov (por calendario)", "url": "https://rcdb.com/4848.htm", "url_tipo": "rcdb" },
+        { "nombre": "Plopsaland De Panne", "tipo": "parque_diversiones", "km": 33, "lat": 51.0810, "lng": 2.5980, "temporada": "abr–ene (por calendario)", "url": "https://rcdb.com/17725.htm", "url_tipo": "rcdb" }
+      ]
+    },
+    {
+      "id": "be-lovaina",
+      "puntaje": 3,
+      "justificacion": "Walibi Belgium, con 11 montañas rusas, está a 21 km, y Bobbejaanland a 38 km.",
+      "actividades": [
+        { "nombre": "Walibi Belgium", "tipo": "parque_diversiones", "km": 21, "lat": 50.7010, "lng": 4.5940, "temporada": "abr–nov", "url": "https://rcdb.com/921.htm", "url_tipo": "rcdb" },
+        { "nombre": "Bobbejaanland (Fury)", "tipo": "parque_diversiones", "km": 38, "lat": 51.2010, "lng": 4.8860, "temporada": "abr–nov", "url": "https://rcdb.com/16110.htm", "url_tipo": "rcdb" }
+      ]
+    },
+    {
+      "id": "be-malinas",
+      "puntaje": 3,
+      "justificacion": "Bobbejaanland (35 km) y Walibi Belgium (37 km) quedan dentro del radio.",
+      "actividades": [
+        { "nombre": "Bobbejaanland (Fury)", "tipo": "parque_diversiones", "km": 35, "lat": 51.2010, "lng": 4.8860, "temporada": "abr–nov", "url": "https://rcdb.com/16110.htm", "url_tipo": "rcdb" },
+        { "nombre": "Walibi Belgium", "tipo": "parque_diversiones", "km": 37, "lat": 50.7010, "lng": 4.5940, "temporada": "abr–nov", "url": "https://rcdb.com/921.htm", "url_tipo": "rcdb" }
+      ]
+    },
+    {
+      "id": "be-costa-belga",
+      "puntaje": 3,
+      "justificacion": "Plopsaland De Panne, el parque de la costa con seis montañas rusas, está a 27 km de Ostende, y Bellewaerde Park a 41 km.",
+      "actividades": [
+        { "nombre": "Plopsaland De Panne", "tipo": "parque_diversiones", "km": 27, "lat": 51.0810, "lng": 2.5980, "temporada": "abr–ene (por calendario)", "url": "https://rcdb.com/17725.htm", "url_tipo": "rcdb" },
+        { "nombre": "Bellewaerde Park", "tipo": "parque_diversiones", "km": 41, "lat": 50.8460, "lng": 2.9480, "temporada": "abr–nov (por calendario)", "url": "https://rcdb.com/4848.htm", "url_tipo": "rcdb" }
+      ]
+    },
+    {
+      "id": "be-namur",
+      "puntaje": 3,
+      "justificacion": "El descenso en kayak del Lesse con Dinant Évasion (base en Anseremme) está a 26 km, y Walibi Belgium a 33 km.",
+      "actividades": [
+        { "nombre": "Descenso en kayak del Lesse (Dinant Évasion)", "tipo": "otro", "km": 26, "lat": 50.2380, "lng": 4.9050, "temporada": "abr–oct", "url": "https://www.dinant-evasion.be/en?IDC=15", "url_tipo": "operador" },
+        { "nombre": "Walibi Belgium", "tipo": "parque_diversiones", "km": 33, "lat": 50.7010, "lng": 4.5940, "temporada": "abr–nov", "url": "https://rcdb.com/921.htm", "url_tipo": "rcdb" }
+      ]
+    },
+    {
+      "id": "be-dinant",
+      "puntaje": 3,
+      "justificacion": "Base del descenso en kayak del Lesse, el más conocido de Bélgica: Dinant Évasion ofrece tramos de 9 a 21 km entre Houyet y Anseremme (a 3 km), con reserva obligatoria en julio y agosto. Walibi Belgium queda a 54 km.",
+      "actividades": [
+        { "nombre": "Descenso en kayak del Lesse (Dinant Évasion)", "tipo": "otro", "km": 3, "lat": 50.2380, "lng": 4.9050, "temporada": "abr–oct", "url": "https://www.dinant-evasion.be/en?IDC=15", "url_tipo": "operador" },
+        { "nombre": "Dinant Évasion en Visit Ardenne", "tipo": "otro", "km": 3, "lat": 50.2380, "lng": 4.9050, "temporada": "abr–oct", "url": "https://visitardenne.com/en/adventures-ardennes/outdoor-adventures/dinant-evasion", "url_tipo": "turismo_oficial" },
+        { "nombre": "Walibi Belgium", "tipo": "parque_diversiones", "km": 54, "lat": 50.7010, "lng": 4.5940, "temporada": "abr–nov", "url": "https://rcdb.com/921.htm", "url_tipo": "rcdb" }
+      ]
+    },
+    {
+      "id": "be-han-sur-lesse",
+      "puntaje": 3,
+      "justificacion": "La visita a las grutas es a pie, pero el descenso en kayak del Lesse aguas abajo (base de Dinant Évasion, 24 km) entra en el radio. Tope de 3 por ser un espacio natural de recorrido a pie.",
+      "actividades": [
+        { "nombre": "Descenso en kayak del Lesse (Dinant Évasion)", "tipo": "otro", "km": 24, "lat": 50.2380, "lng": 4.9050, "temporada": "abr–oct", "url": "https://www.dinant-evasion.be/en?IDC=15", "url_tipo": "operador" }
+      ]
+    },
+    {
+      "id": "be-durbuy",
+      "puntaje": 3,
+      "justificacion": "El descenso en kayak del Lesse con Dinant Évasion está a 41 km.",
+      "actividades": [
+        { "nombre": "Descenso en kayak del Lesse (Dinant Évasion)", "tipo": "otro", "km": 41, "lat": 50.2380, "lng": 4.9050, "temporada": "abr–oct", "url": "https://visitardenne.com/en/adventures-ardennes/outdoor-adventures/dinant-evasion", "url_tipo": "turismo_oficial" }
+      ]
+    },
+    {
+      "id": "be-la-roche-en-ardenne",
+      "puntaje": 3,
+      "justificacion": "El descenso en kayak del Lesse con Dinant Évasion está a 48 km.",
+      "actividades": [
+        { "nombre": "Descenso en kayak del Lesse (Dinant Évasion)", "tipo": "otro", "km": 48, "lat": 50.2380, "lng": 4.9050, "temporada": "abr–oct", "url": "https://visitardenne.com/en/adventures-ardennes/outdoor-adventures/dinant-evasion", "url_tipo": "turismo_oficial" }
+      ]
+    },
+    {
+      "id": "be-bouillon",
+      "puntaje": 2,
+      "justificacion": "El descenso en kayak del Lesse (Dinant Évasion) queda a 51 km, en el borde del radio.",
+      "actividades": [
+        { "nombre": "Descenso en kayak del Lesse (Dinant Évasion)", "tipo": "otro", "km": 51, "lat": 50.2380, "lng": 4.9050, "temporada": "abr–oct", "url": "https://visitardenne.com/en/adventures-ardennes/outdoor-adventures/dinant-evasion", "url_tipo": "turismo_oficial" }
+      ]
+    },
+    {
+      "id": "be-lieja",
+      "puntaje": 1,
+      "justificacion": "Walibi Belgium (70 km) y el kayak del Lesse (65 km) quedan fuera del radio, y no se encontró otra oferta con operador verificable.",
+      "actividades": []
+    },
+    {
+      "id": "be-spa",
+      "puntaje": 1,
+      "justificacion": "Ciudad termal; no se encontró oferta de adrenalina con operador verificable en el radio.",
+      "actividades": []
+    },
+    {
+      "id": "be-hautes-fagnes",
+      "puntaje": 1,
+      "justificacion": "Meseta de turberas que se recorre a pie, sin parques ni operadores de adrenalina verificables a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "be-hoge-kempen",
+      "puntaje": 2,
+      "justificacion": "Bobbejaanland queda a 58 km, en el borde del radio. El parque nacional se recorre a pie o en bici.",
+      "actividades": [
+        { "nombre": "Bobbejaanland (Fury)", "tipo": "parque_diversiones", "km": 58, "lat": 51.2010, "lng": 4.8860, "temporada": "abr–nov", "url": "https://rcdb.com/16110.htm", "url_tipo": "rcdb" }
+      ]
+    },
+    {
+      "id": "be-waterloo",
+      "puntaje": 2,
+      "justificacion": "Walibi Belgium está a 14 km, pero el lugar es un campo de batalla con memorial, sin actividad propia, así que el puntaje no pasa de 2.",
+      "actividades": [
+        { "nombre": "Walibi Belgium", "tipo": "parque_diversiones", "km": 14, "lat": 50.7010, "lng": 4.5940, "temporada": "abr–nov", "url": "https://rcdb.com/921.htm", "url_tipo": "rcdb" }
+      ]
+    },
+    {
+      "id": "be-abadia-villers",
+      "puntaje": 2,
+      "justificacion": "Walibi Belgium está a 13 km, pero el lugar es una abadía en ruinas sin actividad propia, así que el puntaje no pasa de 2.",
+      "actividades": [
+        { "nombre": "Walibi Belgium", "tipo": "parque_diversiones", "km": 13, "lat": 50.7010, "lng": 4.5940, "temporada": "abr–nov", "url": "https://rcdb.com/921.htm", "url_tipo": "rcdb" }
+      ]
+    },
+    {
+      "id": "be-binche",
+      "puntaje": 3,
+      "justificacion": "Walibi Belgium, el mayor parque del país con 11 montañas rusas, está a 44 km.",
+      "actividades": [
+        { "nombre": "Walibi Belgium", "tipo": "parque_diversiones", "km": 44, "lat": 50.7010, "lng": 4.5940, "temporada": "abr–nov", "url": "https://rcdb.com/921.htm", "url_tipo": "rcdb" }
+      ]
+    },
+    {
+      "id": "nl-amsterdam",
+      "puntaje": 2,
+      "justificacion": "Walibi Holland (Biddinghuizen), con 10 montañas rusas como Goliath y Untamed, está a 59 km, en el borde del radio.",
+      "actividades": [
+        { "nombre": "Walibi Holland", "tipo": "parque_diversiones", "km": 59, "lat": 52.4400, "lng": 5.7640, "temporada": "abr–nov", "url": "https://www.walibi.nl/nl/voor-wie-walibi/amsterdam", "url_tipo": "oficial" }
+      ]
+    },
+    {
+      "id": "nl-rotterdam",
+      "puntaje": 3,
+      "justificacion": "Efteling, uno de los parques de primer nivel de Europa (montaña rusa de caída vertical Baron 1898), está a 50 km. Al quedar a más de 30 km, el puntaje es 3.",
+      "actividades": [
+        { "nombre": "Efteling (Baron 1898)", "tipo": "parque_diversiones", "km": 50, "lat": 51.6500, "lng": 5.0497, "temporada": "todo el año", "url": "https://www.efteling.com/nl/pers/nieuwe-efteling-achtbaan-baron-1898-nu-open-voor-publiek/", "url_tipo": "oficial" }
+      ]
+    },
+    {
+      "id": "nl-delft",
+      "puntaje": 1,
+      "justificacion": "Efteling queda a 62 km, justo fuera del radio, y no se encontró otra oferta con operador verificable.",
+      "actividades": []
+    },
+    {
+      "id": "nl-la-haya",
+      "puntaje": 1,
+      "justificacion": "Efteling queda a 69 km, fuera del radio, y no se encontró otra oferta con operador verificable.",
+      "actividades": []
+    },
+    {
+      "id": "nl-haarlem",
+      "puntaje": 1,
+      "justificacion": "Walibi Holland (76 km) y Efteling quedan fuera del radio. No se encontró otra oferta con operador verificable.",
+      "actividades": []
+    },
+    {
+      "id": "nl-utrecht",
+      "puntaje": 3,
+      "justificacion": "Efteling está a 49 km y Walibi Holland a 59 km. Efteling es de primer nivel europeo, pero queda a más de 30 km.",
+      "actividades": [
+        { "nombre": "Efteling (Baron 1898)", "tipo": "parque_diversiones", "km": 49, "lat": 51.6500, "lng": 5.0497, "temporada": "todo el año", "url": "https://www.efteling.com/nl/pers/nieuwe-efteling-achtbaan-baron-1898-nu-open-voor-publiek/", "url_tipo": "oficial" },
+        { "nombre": "Walibi Holland", "tipo": "parque_diversiones", "km": 59, "lat": 52.4400, "lng": 5.7640, "temporada": "abr–nov", "url": "https://www.walibi.nl/en/park/attractions/rollercoasters", "url_tipo": "oficial" }
+      ]
+    },
+    {
+      "id": "nl-leiden",
+      "puntaje": 1,
+      "justificacion": "Efteling queda a 68 km, fuera del radio, y no se encontró otra oferta con operador verificable.",
+      "actividades": []
+    },
+    {
+      "id": "nl-maastricht",
+      "puntaje": 1,
+      "justificacion": "Los parques belgas y neerlandeses verificados quedan a más de 70 km. No se encontró oferta con operador verificable en el radio.",
+      "actividades": []
+    },
+    {
+      "id": "nl-texel",
+      "puntaje": 1,
+      "justificacion": "Isla de playas y reservas naturales; no se encontró oferta de adrenalina con operador verificable.",
+      "actividades": []
+    },
+    {
+      "id": "nl-kinderdijk",
+      "puntaje": 2,
+      "justificacion": "Efteling está a 38 km, pero el lugar es un conjunto de molinos (patrimonio) sin actividad propia, así que el puntaje no pasa de 2.",
+      "actividades": [
+        { "nombre": "Efteling (Baron 1898)", "tipo": "parque_diversiones", "km": 38, "lat": 51.6500, "lng": 5.0497, "temporada": "todo el año", "url": "https://www.efteling.com/nl/pers/nieuwe-efteling-achtbaan-baron-1898-nu-open-voor-publiek/", "url_tipo": "oficial" }
+      ]
+    },
+    {
+      "id": "nl-giethoorn",
+      "puntaje": 3,
+      "justificacion": "Walibi Holland, con 10 montañas rusas (Goliath, Untamed, YOY), está a 39 km.",
+      "actividades": [
+        { "nombre": "Walibi Holland", "tipo": "parque_diversiones", "km": 39, "lat": 52.4400, "lng": 5.7640, "temporada": "abr–nov", "url": "https://www.walibi.nl/en/park/attractions/rollercoasters", "url_tipo": "oficial" }
+      ]
+    },
+    {
+      "id": "nl-hoge-veluwe",
+      "puntaje": 3,
+      "justificacion": "Walibi Holland está a 39 km. El parque nacional se recorre a pie o en bici, así que el tope es 3.",
+      "actividades": [
+        { "nombre": "Walibi Holland", "tipo": "parque_diversiones", "km": 39, "lat": 52.4400, "lng": 5.7640, "temporada": "abr–nov", "url": "https://www.walibi.nl/en/park/attractions/rollercoasters", "url_tipo": "oficial" }
+      ]
+    },
+    {
+      "id": "nl-keukenhof-bollenstreek",
+      "puntaje": 1,
+      "justificacion": "Jardines y campos de flores; Efteling y Walibi Holland quedan fuera del radio.",
+      "actividades": []
+    },
+    {
+      "id": "nl-alkmaar",
+      "puntaje": 1,
+      "justificacion": "Walibi Holland queda a 68 km, fuera del radio, y no se encontró otra oferta con operador verificable.",
+      "actividades": []
+    },
+    {
+      "id": "nl-gouda",
+      "puntaje": 3,
+      "justificacion": "Efteling, parque de primer nivel europeo, está a 46 km.",
+      "actividades": [
+        { "nombre": "Efteling (Baron 1898)", "tipo": "parque_diversiones", "km": 46, "lat": 51.6500, "lng": 5.0497, "temporada": "todo el año", "url": "https://www.efteling.com/nl/pers/nieuwe-efteling-achtbaan-baron-1898-nu-open-voor-publiek/", "url_tipo": "oficial" }
+      ]
+    },
+    {
+      "id": "nl-edam-volendam-marken",
+      "puntaje": 3,
+      "justificacion": "Walibi Holland, con 10 montañas rusas, está a 49 km cruzando el Markermeer.",
+      "actividades": [
+        { "nombre": "Walibi Holland", "tipo": "parque_diversiones", "km": 49, "lat": 52.4400, "lng": 5.7640, "temporada": "abr–nov", "url": "https://www.walibi.nl/en/park/attractions/rollercoasters", "url_tipo": "oficial" }
+      ]
+    },
+    {
+      "id": "nl-hoorn-enkhuizen",
+      "puntaje": 3,
+      "justificacion": "Walibi Holland, con 10 montañas rusas, está a 43 km de Enkhuizen.",
+      "actividades": [
+        { "nombre": "Walibi Holland", "tipo": "parque_diversiones", "km": 43, "lat": 52.4400, "lng": 5.7640, "temporada": "abr–nov", "url": "https://www.walibi.nl/en/park/attractions/rollercoasters", "url_tipo": "oficial" }
+      ]
+    },
+    {
+      "id": "nl-zaanse-schans",
+      "puntaje": 1,
+      "justificacion": "Pueblo-museo de molinos; Walibi Holland queda a 64 km, fuera del radio.",
+      "actividades": []
+    },
+    {
+      "id": "nl-groningen",
+      "puntaje": 1,
+      "justificacion": "Ciudad universitaria sin parques ni operadores de adrenalina verificables a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "nl-leeuwarden-frisia",
+      "puntaje": 1,
+      "justificacion": "Walibi Holland queda a más de 80 km y no se encontró otra oferta con operador verificable.",
+      "actividades": []
+    },
+    {
+      "id": "nl-islas-wadden",
+      "puntaje": 1,
+      "justificacion": "Islas de playas y caminatas por el fango (wadlopen), sin oferta de adrenalina con operador verificable.",
+      "actividades": []
+    },
+    {
+      "id": "nl-den-bosch",
+      "puntaje": 4,
+      "justificacion": "Efteling, uno de los parques más visitados de Europa, está a 18 km, con la montaña rusa de caída vertical Baron 1898 (37,5 m de caída) y la nueva caída libre Hooghmoed (verano de 2026).",
+      "actividades": [
+        { "nombre": "Efteling (Baron 1898)", "tipo": "parque_diversiones", "km": 18, "lat": 51.6500, "lng": 5.0497, "temporada": "todo el año", "url": "https://www.efteling.com/nl/pers/nieuwe-efteling-achtbaan-baron-1898-nu-open-voor-publiek/", "url_tipo": "oficial" },
+        { "nombre": "Hooghmoed (caída libre, Efteling)", "tipo": "parque_diversiones", "km": 18, "lat": 51.6500, "lng": 5.0497, "temporada": "todo el año", "url": "https://www.efteling.com/nl/pers/hooghmoed-naam-van-nieuwe-efteling-attractie-bij-baron-1898/", "url_tipo": "oficial" }
+      ]
+    },
+    {
+      "id": "nl-arnhem",
+      "puntaje": 2,
+      "justificacion": "Walibi Holland queda a 51 km, en el borde del radio.",
+      "actividades": [
+        { "nombre": "Walibi Holland", "tipo": "parque_diversiones", "km": 51, "lat": 52.4400, "lng": 5.7640, "temporada": "abr–nov", "url": "https://www.walibi.nl/en/park/attractions/rollercoasters", "url_tipo": "oficial" }
+      ]
+    },
+    {
+      "id": "nl-middelburg-zelanda",
+      "puntaje": 1,
+      "justificacion": "Plopsaland De Panne queda a unos 85 km y no se encontró otra oferta con operador verificable en el radio.",
+      "actividades": []
+    },
+    {
+      "id": "lu-luxemburgo-ciudad",
+      "puntaje": 3,
+      "justificacion": "Walygator Grand Est (Maizières-lès-Metz, Francia), con la montaña rusa invertida Monster, está a 42 km.",
+      "actividades": [
+        { "nombre": "Walygator Grand Est", "tipo": "parque_diversiones", "km": 42, "lat": 49.2290, "lng": 6.1470, "temporada": "abr–nov", "url": "https://rcdb.com/4478.htm", "url_tipo": "rcdb" }
+      ]
+    },
+    {
+      "id": "lu-vianden",
+      "puntaje": 1,
+      "justificacion": "El telesilla al castillo es una atracción panorámica; Walygator queda a 78 km y no hay otra oferta verificable en el radio.",
+      "actividades": []
+    },
+    {
+      "id": "lu-echternach",
+      "puntaje": 1,
+      "justificacion": "Walygator queda a unos 65 km, fuera del radio, y no se encontró otra oferta con operador verificable.",
+      "actividades": []
+    },
+    {
+      "id": "lu-mullerthal",
+      "puntaje": 1,
+      "justificacion": "Paisaje de rocas que se recorre a pie; no se encontró oferta de adrenalina con operador verificable en el radio.",
+      "actividades": []
+    },
+    {
+      "id": "lu-mosela",
+      "puntaje": 3,
+      "justificacion": "Walygator Grand Est, con la montaña rusa invertida Monster, está a 38 km de Remich.",
+      "actividades": [
+        { "nombre": "Walygator Grand Est", "tipo": "parque_diversiones", "km": 38, "lat": 49.2290, "lng": 6.1470, "temporada": "abr–nov", "url": "https://rcdb.com/4478.htm", "url_tipo": "rcdb" }
+      ]
+    },
+    {
+      "id": "lu-clervaux",
+      "puntaje": 1,
+      "justificacion": "Pueblo con castillo y museo fotográfico, sin oferta de adrenalina verificable en el radio.",
+      "actividades": []
+    },
+    {
+      "id": "lu-esch-sur-sure",
+      "puntaje": 1,
+      "justificacion": "Pueblo con ruinas de castillo, sin oferta de adrenalina verificable en el radio.",
+      "actividades": []
+    },
+    {
+      "id": "lu-bourscheid",
+      "puntaje": 1,
+      "justificacion": "Ruina de castillo sin actividad propia ni oferta de adrenalina verificable en el radio.",
+      "actividades": []
+    },
+    {
+      "id": "lu-diekirch",
+      "puntaje": 1,
+      "justificacion": "Museo de historia militar; Walygator queda a 71 km, fuera del radio.",
+      "actividades": []
+    }
+  ],
+  "nuevos": [
+    {
+      "id": "fr-disneyland-paris",
+      "nombre": "Disneyland Paris",
+      "pais_iso": "FR",
+      "region": "Île-de-France (Marne-la-Vallée)",
+      "lat": 48.8722,
+      "lng": 2.7758,
+      "tipo": "parque_diversiones",
+      "destino_propio": true,
+      "puntaje": 5,
+      "temporada": "todo el año",
+      "justificacion": "El complejo de parques más visitado de Europa: el Parc Disneyland y, desde el 29 de marzo de 2026, Disney Adventure World (antes Walt Disney Studios), con World of Frozen, Worlds of Pixar y el Avengers Campus. Justifica por sí solo dos o tres días; está a 31 km de París.",
+      "fuentes": [
+        { "guia": "Office de Tourisme de Paris", "url": "https://parisjetaime.com/culture/disneyland-paris-p3614" }
+      ]
+    },
+    {
+      "id": "fr-parc-asterix",
+      "nombre": "Parc Astérix",
+      "pais_iso": "FR",
+      "region": "Altos de Francia (Plailly, Oise)",
+      "lat": 49.1340,
+      "lng": 2.5710,
+      "tipo": "parque_diversiones",
+      "destino_propio": true,
+      "puntaje": 5,
+      "temporada": "abr–ene (por calendario)",
+      "justificacion": "El parque con más montañas rusas de alto voltaje de Francia: Toutatis, lanzada de Intamin con 51 m y 110 km/h, la más alta y rápida del país, más Goudurix, Tonnerre 2 Zeus y OzIris. Está a 35 km de París.",
+      "fuentes": [
+        { "guia": "RCDB", "url": "https://rcdb.com/4790.htm" },
+        { "guia": "RCDB", "url": "https://rcdb.com/16327.htm" }
+      ]
+    },
+    {
+      "id": "fr-puy-du-fou",
+      "nombre": "Puy du Fou",
+      "pais_iso": "FR",
+      "region": "Países del Loira (Vendée)",
+      "lat": 46.8892,
+      "lng": -0.9306,
+      "tipo": "parque_diversiones",
+      "destino_propio": true,
+      "puntaje": 3,
+      "temporada": "abr–nov",
+      "justificacion": "Parque de espectáculos históricos a gran escala, con la Cinéscénie nocturna; temporada 2026 del 4 de abril al 1 de noviembre. Justifica el viaje por sí solo, pero no tiene montañas rusas: es emoción de espectáculo, no de atracciones extremas, así que su puntaje de adrenalina es 3.",
+      "fuentes": [
+        { "guia": "Sitio oficial", "url": "https://www.puydufou.com/france/fr/node/8034" }
+      ]
+    },
+    {
+      "id": "nl-efteling",
+      "nombre": "Efteling",
+      "pais_iso": "NL",
+      "region": "Brabante Septentrional (Kaatsheuvel)",
+      "lat": 51.6500,
+      "lng": 5.0497,
+      "tipo": "parque_diversiones",
+      "destino_propio": true,
+      "puntaje": 5,
+      "temporada": "todo el año",
+      "justificacion": "Uno de los parques más visitados y mejor tematizados de Europa, abierto todo el año. Tiene la montaña rusa de caída vertical Baron 1898 (37,5 m de caída), a la que se suma en verano de 2026 la caída libre Hooghmoed. Está a 18 km de Den Bosch.",
+      "fuentes": [
+        { "guia": "Sitio oficial", "url": "https://www.efteling.com/nl/pers/nieuwe-efteling-achtbaan-baron-1898-nu-open-voor-publiek/" },
+        { "guia": "Sitio oficial", "url": "https://www.efteling.com/nl/pers/hooghmoed-naam-van-nieuwe-efteling-attractie-bij-baron-1898/" }
+      ]
+    },
+    {
+      "id": "nl-walibi-holland",
+      "nombre": "Walibi Holland",
+      "pais_iso": "NL",
+      "region": "Flevoland (Biddinghuizen)",
+      "lat": 52.4400,
+      "lng": 5.7640,
+      "tipo": "parque_diversiones",
+      "destino_propio": true,
+      "puntaje": 4,
+      "temporada": "abr–nov",
+      "justificacion": "El parque de emociones fuertes de los Países Bajos, con 10 montañas rusas: Goliath (46,8 m, 106 km/h), la híbrida Untamed de Rocky Mountain Construction, la monorraíl YOY (2025) y la torre Space Shot de 60 m. Vale una excursión de un día desde Ámsterdam o Utrecht.",
+      "fuentes": [
+        { "guia": "Sitio oficial", "url": "https://www.walibi.nl/en/park/attractions/rollercoasters" },
+        { "guia": "Sitio oficial", "url": "https://www.walibi.nl/en/park/attractions/goliath" }
+      ]
+    },
+    {
+      "id": "fr-les-3-vallees",
+      "nombre": "Les 3 Vallées (Courchevel, Méribel, Val Thorens)",
+      "pais_iso": "FR",
+      "region": "Auvernia-Ródano-Alpes (Saboya)",
+      "lat": 45.3967,
+      "lng": 6.5656,
+      "tipo": "esqui",
+      "destino_propio": true,
+      "puntaje": 5,
+      "temporada": "dic–abr",
+      "justificacion": "Considerado el mayor dominio esquiable conectado del mundo: unos 600 km de pistas que unen los valles de Courchevel, Méribel y Belleville (Les Menuires, Val Thorens, a unos 2300 m). Destino de esquí de clase mundial que justifica el viaje por sí solo. Coordenadas en Méribel, en el centro del dominio.",
+      "fuentes": [
+        { "guia": "Remontées-mécaniques.net (base de datos de estaciones)", "url": "https://www.remontees-mecaniques.net/bdd/station-meribel-8.html" },
+        { "guia": "Remontées-mécaniques.net (base de datos de estaciones)", "url": "https://remontees-mecaniques.net/bdd/station-meribel-mottaret-466.html" }
+      ]
+    }
+  ]
+}
