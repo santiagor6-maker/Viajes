@@ -243,7 +243,7 @@ details.como ul { padding-left: 18px; margin: 6px 0; }
 
 /* mapa mental */
 .mente-ctl { display: flex; gap: 8px; align-items: center; font-size: 12.5px; color: var(--muted); flex-wrap: wrap; }
-.mente { width: 100%; overflow: hidden; }
+.mente { width: 100%; overflow: clip; }
 .mente svg { display: block; width: 100%; height: auto; }
 .mente text { fill: var(--ink); font-family: var(--f-body); }
 .mente .raiz rect { fill: var(--accent); }
@@ -795,32 +795,36 @@ function dibujarMente() {
   const cont = $('#mente'); if (!cont || !window.d3) return;
   const p = S.paises.get(S.pais);
   const ls = lugaresPais(p.iso).filter(pasaFiltro), props = propiosPais(p.iso).filter(pasaFiltroPropio);
-  const clave = S.agrupar === 'region' ? (l) => l.region : S.agrupar === 'categoria' ? (l) => CATS[catPrincipal(l)] : (l) => NIVELES[l.nivel];
+  // región principal: sin el detalle entre paréntesis ni las regiones secundarias ("Lombardía / Véneto")
+  const regionBase = (r) => (r || 'Otras').replace(/\s*\([^)]*\)/g, '').split(/\s*\/\s*/)[0].trim();
+  const clave = S.agrupar === 'region' ? (l) => regionBase(l.region) : S.agrupar === 'categoria' ? (l) => CATS[catPrincipal(l)] : (l) => NIVELES[l.nivel];
   const mapaG = d3.group(ls, clave);
   let grupos = [...mapaG].map(([k, v]) => ({ k, hijos: v.sort((a, b) => b.global - a.global).map((l) => ({ id: l.id, nombre: l.nombre, estado: estadoDe(l.id), lugar: true })) }));
   grupos.sort((a, b) => (S.agrupar === 'nivel' ? ORDEN_NIVEL.indexOf(Object.keys(NIVELES).find((x) => NIVELES[x] === a.k)) - ORDEN_NIVEL.indexOf(Object.keys(NIVELES).find((x) => NIVELES[x] === b.k)) : b.hijos.length - a.hijos.length));
   if (props.length) grupos.push({ k: 'Tus lugares', hijos: props.map((q) => ({ id: 'propio:' + q._id, nombre: q.nombre, estado: q.estado || null, propio: q._id })) });
   if (!grupos.length) { cont.innerHTML = '<p class="vacio">Ningún destino coincide con los filtros.</p>'; return; }
 
-  // árbol que baja desde el país: tronco a la izquierda, ramas (grupos) y hojas (lugares)
+  // árbol que baja desde el país: tronco a la izquierda, cada grupo es una píldora y sus lugares cuelgan debajo
   const W = Math.max(300, cont.clientWidth || 360), FILA = 25, TX = 16, GL = 36, Y0 = 52;
-  const MAXGW = Math.min(180, Math.round(W * 0.42)), LX = GL + MAXGW + 22;
-  const maxCh = Math.max(10, Math.floor((W - LX - 14) / 6.4)), maxG = Math.max(8, Math.floor((MAXGW - 18) / 6.6) - 4);
+  const MAXGW = W - GL - 8, LX = GL + 34, BX = GL + 16;
+  const maxCh = Math.max(10, Math.floor((W - LX - 16) / 6.4)), maxG = Math.max(8, Math.floor((MAXGW - 18) / 6.6) - 4);
   const corta = (s, n) => (s.length > n ? s.slice(0, n - 1) + '…' : s);
   const anchoG = (g) => Math.min(MAXGW, (corta(g.k, maxG) + ` · ${g.hijos.length}`).length * 6.6 + 18);
   let y = Y0;
   const nodos = [], enlaces = [];
   grupos.forEach((g, i) => {
     const col = `var(--rama${(i % 6) + 1})`, abierto = !S.colapsados.has(g.k), w = anchoG(g);
-    const y0 = y;
-    if (abierto) for (const h of g.hijos) { nodos.push({ ...h, x: LX, y, col, grupo: g.k, key: h.id }); y += FILA; }
-    else y += FILA;
-    const gy = abierto ? (y0 + y - FILA) / 2 : y0;
+    const gy = y;
     g.y = gy; g.col = col; g.abierto = abierto;
     nodos.push({ key: 'g:' + g.k, x: GL, y: gy, w, nombre: g.k, n: g.hijos.length, col, esGrupo: true, abierto });
-    if (abierto) for (const h of g.hijos) enlaces.push({ key: 'e:' + h.id, s: [GL + w, gy], t: [LX - 6, nodos.find((n) => n.key === h.id).y], col });
     enlaces.push({ key: 'r:' + g.k, codo: true, s: [TX, 30], t: [GL, gy], col });
-    y += 10;
+    y += FILA + 3;
+    if (abierto) for (const h of g.hijos) {
+      nodos.push({ ...h, x: LX, y, col, grupo: g.k, key: h.id });
+      enlaces.push({ key: 'e:' + h.id, codo: true, s: [BX, gy + 11], t: [LX - 7, y], col });
+      y += FILA;
+    }
+    y += 8;
   });
   const H = y + 6;
   const curva = d3.linkHorizontal().source((d) => d.s).target((d) => d.t);
@@ -848,7 +852,7 @@ function dibujarMente() {
   const ns = svg.select('g.nodos').selectAll('g.nodo').data(nodos, (d) => d.key);
   ns.exit().transition().duration(dur).attr('opacity', 0).remove();
   const ne = ns.enter().append('g').attr('class', (d) => 'nodo ' + (d.esGrupo ? 'gr' : 'hoja'))
-    .attr('transform', (d) => (d.esGrupo ? `translate(${GL},${Y0 - 20})` : `translate(${GL + MAXGW / 2},${grupos.find((g) => g.k === d.grupo)?.y ?? d.y})`)).attr('opacity', 0)
+    .attr('transform', (d) => (d.esGrupo ? `translate(${GL},${Y0 - 20})` : `translate(${BX},${grupos.find((g) => g.k === d.grupo)?.y ?? d.y})`)).attr('opacity', 0)
     .on('click', (ev, d) => {
       if (d.esGrupo) { S.colapsados.has(d.nombre) ? S.colapsados.delete(d.nombre) : S.colapsados.add(d.nombre); dibujarMente(); }
       else if (d.propio) abrirPropio(d.propio); else abrirLugar(d.id);
