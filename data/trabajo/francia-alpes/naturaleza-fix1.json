@@ -1,0 +1,14 @@
+{
+  "agente": "naturaleza",
+  "subregion": "francia-alpes",
+  "ronda": 4,
+  "estado": "en_progreso",
+  "notas": "Ronda 4 (corrección del revisor, grupos a y b). Primer guardado: criterio de Pairi Daiza y Keukenhof, coherencia de la Dune du Pilat y limpieza de notas de playa. Las fuentes oficiales se añaden en el siguiente guardado.",
+  "puntajes": [
+    { "id": "be-pairi-daiza", "puntaje": 2, "unesco": false, "playa": "no", "justificacion": "Parque zoológico de unas 75 ha en el recinto de la antigua abadía de Cambron, con unos 7.500 animales y jardines paisajísticos. Es fauna cautiva en un paisaje artificial, no un espacio natural.", "actividad": "Recorrido de un día por los mundos del parque y el jardín Terra Botanica", "fuentes": [ { "guia": "Pairi Daiza (oficial)", "url": "https://pairidaiza.eu/en/applying-pairi-daiza" } ] },
+    { "id": "nl-keukenhof-bollenstreek", "puntaje": 3, "unesco": false, "playa": "no", "justificacion": "Keukenhof es un parque de unas 32 ha con unos 7 millones de bulbos, rodeado por los campos de tulipanes, jacintos y narcisos de la Bollenstreek entre Lisse, Hillegom y Noordwijk, que Lonely Planet propone recorrer en bici. Es un paisaje cultivado y estacional, de marzo a mayo, no un espacio natural.", "actividad": "Visita a Keukenhof (de marzo a mayo) y ruta en bici entre campos de bulbos de Lisse a Noordwijk (unos 15–25 km según el bucle)", "fuentes": [ { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-the-netherlands" }, { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-the-netherlands/" } ] }
+  ],
+  "nuevos": [],
+  "fuentes_quitar": [],
+  "correcciones_base": []
+}

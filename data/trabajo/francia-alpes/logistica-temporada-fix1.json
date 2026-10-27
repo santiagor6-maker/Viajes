@@ -1,0 +1,15 @@
+{
+  "agente": "logistica-temporada",
+  "subregion": "francia-alpes",
+  "ronda": 4,
+  "estado": "en_curso",
+  "fecha_consulta": "2026-10-27",
+  "avisos_pais": [
+    { "pais_iso": "AT", "emisor": "EE. UU.", "nivel": "Level 1: Exercise normal precautions (aviso del 21/08/2026)", "url": "https://travel.state.gov/en/international-travel/travel-advisories/austria.html" }
+  ],
+  "logistica": [
+    { "id": "nl-keukenhof-bollenstreek", "puntaje": 2, "mejor_epoca": [3, 4, 5], "dias_sugeridos": 1, "costo": "$$$", "acceso": "Bus exprés desde Schiphol o Leiden en temporada; abre solo unas 8 semanas en primavera (en 2027, del 18 de marzo al 9 de mayo) y conviene comprar la entrada en línea.", "alerta": "Gran afluencia los fines de semana de abril: reservar entrada y transporte con antelación.", "fuentes": [ { "guia": "I amsterdam (Keukenhof)", "url": "https://www.iamsterdam.com/en/see-and-do/things-to-do/attractions-and-sights/overview-of-attractions/keukenhof" } ] },
+    { "id": "be-binche", "puntaje": 2, "mejor_epoca": [2, 3], "dias_sugeridos": 1, "costo": "$$", "acceso": "Tren desde Bruselas vía La Louvière (aprox. 1 h); solo merece la pena durante el carnaval (domingo a martes de carnaval, febrero o principios de marzo).", "alerta": "Multitudes muy densas el martes de carnaval; los Gilles lanzan naranjas al público.", "fuentes": [ { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-belgium/" } ] }
+  ],
+  "fuentes_quitar": []
+}
