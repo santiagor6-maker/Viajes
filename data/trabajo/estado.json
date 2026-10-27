@@ -1,7 +1,7 @@
 {
   "pausado": false,
   "subregion": "francia-alpes",
-  "paso": "huecos",
+  "paso": "curador",
   "ronda": 3,
   "orden_subregiones": [
     "iberica-italia",
@@ -123,6 +123,12 @@
       "subregion": "francia-alpes",
       "paso": "cobertura",
       "resultado": "Solo MC y LI cumplen. 43 huecos: FR sin Franco Condado, Rosellón, Nantes, La Rochelle, Camarga, Costa Azul oeste, Lourdes...; LU sin el sur (excepción rechazada); NL sin Drenthe; CH/AT sin Verbier, Laax, Zillertal, Schladming; cultura y guías desinflados en varias ciudades. Siguiente: huecos (ronda 3, 36 lugares nuevos con ids fijos en pendientes-huecos.json)"
+    },
+    {
+      "fecha": "2026-10-27",
+      "subregion": "francia-alpes",
+      "paso": "huecos",
+      "resultado": "Ronda 3 completa (interrumpida por el límite de uso 16:00–19:50 y retomada): 36 lugares nuevos (FR 21, BE 2, NL 2, LU 3, CH 4, AT 4) con 6 especialistas (puntuación cruzada y logística incluidas); guías re-puntuadas en Lyon, Niza, Marsella, Honfleur, Bayeux (5), etc.; cultura corregida en 10 lugares; Guarda adrenalina 4→3"
     }
   ],
   "ronda_revisor": 0,
