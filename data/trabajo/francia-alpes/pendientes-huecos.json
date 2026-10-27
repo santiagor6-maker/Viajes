@@ -1,0 +1,290 @@
+[
+  {
+    "id": "fr-besancon-arc-et-senans",
+    "nombre": "Besanzón y la Salina Real de Arc-et-Senans",
+    "pais_iso": "FR",
+    "region": "Borgoña-Franco Condado (Doubs)",
+    "creado_por": "cultura-historia",
+    "grupo": "a"
+  },
+  {
+    "id": "fr-arbois-jura",
+    "nombre": "Arbois y el viñedo del Jura",
+    "pais_iso": "FR",
+    "region": "Borgoña-Franco Condado (Jura)",
+    "creado_por": "gastronomia-vino",
+    "grupo": "a"
+  },
+  {
+    "id": "fr-cascadas-herisson",
+    "nombre": "Cascadas del Hérisson y región de los lagos",
+    "pais_iso": "FR",
+    "region": "Borgoña-Franco Condado (Jura)",
+    "creado_por": "naturaleza",
+    "grupo": "a"
+  },
+  {
+    "id": "fr-nantes",
+    "nombre": "Nantes",
+    "pais_iso": "FR",
+    "region": "Países del Loira (Loira Atlántico)",
+    "creado_por": "cultura-historia",
+    "grupo": "a"
+  },
+  {
+    "id": "fr-la-rochelle",
+    "nombre": "La Rochelle",
+    "pais_iso": "FR",
+    "region": "Nueva Aquitania (Charente Marítimo)",
+    "creado_por": "cultura-historia",
+    "grupo": "a"
+  },
+  {
+    "id": "fr-ile-de-re",
+    "nombre": "Isla de Ré",
+    "pais_iso": "FR",
+    "region": "Nueva Aquitania (Charente Marítimo)",
+    "creado_por": "naturaleza",
+    "grupo": "a"
+  },
+  {
+    "id": "fr-cote-granit-rose",
+    "nombre": "Côte de Granit Rose (Ploumanac'h, Perros-Guirec)",
+    "pais_iso": "FR",
+    "region": "Bretaña (Costas de Armor)",
+    "creado_por": "naturaleza",
+    "grupo": "a"
+  },
+  {
+    "id": "fr-crozon",
+    "nombre": "Península de Crozon",
+    "pais_iso": "FR",
+    "region": "Bretaña (Finisterre)",
+    "creado_por": "naturaleza",
+    "grupo": "a"
+  },
+  {
+    "id": "fr-quimper-cornualles",
+    "nombre": "Quimper, Locronan y Concarneau",
+    "pais_iso": "FR",
+    "region": "Bretaña (Finisterre)",
+    "creado_por": "cultura-historia",
+    "grupo": "a"
+  },
+  {
+    "id": "fr-camarga",
+    "nombre": "Camarga y Aigues-Mortes",
+    "pais_iso": "FR",
+    "region": "Provenza-Alpes-Costa Azul (Bocas del Ródano)",
+    "creado_por": "naturaleza",
+    "grupo": "a"
+  },
+  {
+    "id": "fr-eze-saint-paul",
+    "nombre": "Èze y Saint-Paul-de-Vence",
+    "pais_iso": "FR",
+    "region": "Provenza-Alpes-Costa Azul (Alpes Marítimos)",
+    "creado_por": "cultura-historia",
+    "grupo": "a"
+  },
+  {
+    "id": "fr-antibes-cannes",
+    "nombre": "Antibes, Cannes y las islas de Lérins",
+    "pais_iso": "FR",
+    "region": "Provenza-Alpes-Costa Azul (Alpes Marítimos)",
+    "creado_por": "guias-expertas",
+    "grupo": "a"
+  },
+  {
+    "id": "fr-saint-tropez",
+    "nombre": "Saint-Tropez",
+    "pais_iso": "FR",
+    "region": "Provenza-Alpes-Costa Azul (Var)",
+    "creado_por": "guias-expertas",
+    "grupo": "a"
+  },
+  {
+    "id": "fr-lourdes",
+    "nombre": "Lourdes",
+    "pais_iso": "FR",
+    "region": "Occitania (Altos Pirineos)",
+    "creado_por": "cultura-historia",
+    "grupo": "a"
+  },
+  {
+    "id": "fr-collioure",
+    "nombre": "Collioure y la Côte Vermeille",
+    "pais_iso": "FR",
+    "region": "Occitania (Pirineos Orientales)",
+    "creado_por": "cultura-historia",
+    "grupo": "a"
+  },
+  {
+    "id": "fr-castillos-cataros",
+    "nombre": "Castillos cátaros de Peyrepertuse y Quéribus",
+    "pais_iso": "FR",
+    "region": "Occitania (Aude)",
+    "creado_por": "cultura-historia",
+    "grupo": "a"
+  },
+  {
+    "id": "fr-conques",
+    "nombre": "Conques",
+    "pais_iso": "FR",
+    "region": "Occitania (Aveyron)",
+    "creado_por": "cultura-historia",
+    "grupo": "a"
+  },
+  {
+    "id": "fr-roquefort-millau",
+    "nombre": "Roquefort-sur-Soulzon y el viaducto de Millau",
+    "pais_iso": "FR",
+    "region": "Occitania (Aveyron)",
+    "creado_por": "gastronomia-vino",
+    "grupo": "a"
+  },
+  {
+    "id": "fr-cote-opale",
+    "nombre": "Côte d'Opale (Cap Blanc-Nez y Gris-Nez)",
+    "pais_iso": "FR",
+    "region": "Altos de Francia (Paso de Calais)",
+    "creado_por": "naturaleza",
+    "grupo": "a"
+  },
+  {
+    "id": "fr-bahia-somme",
+    "nombre": "Bahía de Somme",
+    "pais_iso": "FR",
+    "region": "Altos de Francia (Somme)",
+    "creado_por": "naturaleza",
+    "grupo": "a"
+  },
+  {
+    "id": "fr-chantilly",
+    "nombre": "Chantilly",
+    "pais_iso": "FR",
+    "region": "Altos de Francia (Oise)",
+    "creado_por": "cultura-historia",
+    "grupo": "a"
+  },
+  {
+    "id": "be-pairi-daiza",
+    "nombre": "Pairi Daiza",
+    "pais_iso": "BE",
+    "region": "Valonia (Henao)",
+    "creado_por": "guias-expertas",
+    "grupo": "a"
+  },
+  {
+    "id": "be-coo-ambleve",
+    "nombre": "Coo y el valle del Amblève",
+    "pais_iso": "BE",
+    "region": "Valonia (Lieja)",
+    "creado_por": "adrenalina",
+    "grupo": "a"
+  },
+  {
+    "id": "nl-hunebedden-drenthe",
+    "nombre": "Hunebedden de Drenthe (Borger)",
+    "pais_iso": "NL",
+    "region": "Drenthe",
+    "creado_por": "cultura-historia",
+    "grupo": "a"
+  },
+  {
+    "id": "nl-deltawerken",
+    "nombre": "Deltawerken y Neeltje Jans",
+    "pais_iso": "NL",
+    "region": "Zelanda",
+    "creado_por": "cultura-historia",
+    "grupo": "a"
+  },
+  {
+    "id": "lu-beaufort",
+    "nombre": "Castillos de Beaufort",
+    "pais_iso": "LU",
+    "region": "Mullerthal",
+    "creado_por": "cultura-historia",
+    "grupo": "a"
+  },
+  {
+    "id": "lu-larochette",
+    "nombre": "Castillo de Larochette",
+    "pais_iso": "LU",
+    "region": "Mullerthal",
+    "creado_por": "cultura-historia",
+    "grupo": "a"
+  },
+  {
+    "id": "lu-minett",
+    "nombre": "Minett: Esch-Belval y Fond-de-Gras",
+    "pais_iso": "LU",
+    "region": "Minett (sur)",
+    "creado_por": "cultura-historia",
+    "grupo": "a"
+  },
+  {
+    "id": "ch-verbier",
+    "nombre": "Verbier y las 4 Vallées",
+    "pais_iso": "CH",
+    "region": "Valais",
+    "creado_por": "adrenalina",
+    "grupo": "b"
+  },
+  {
+    "id": "ch-flims-laax",
+    "nombre": "Flims-Laax y la Ruinaulta",
+    "pais_iso": "CH",
+    "region": "Grisones",
+    "creado_por": "adrenalina",
+    "grupo": "b"
+  },
+  {
+    "id": "ch-glacier-3000",
+    "nombre": "Glacier 3000 y Gstaad",
+    "pais_iso": "CH",
+    "region": "Vaud / Berna (Oberland)",
+    "creado_por": "adrenalina",
+    "grupo": "b"
+  },
+  {
+    "id": "ch-davos",
+    "nombre": "Davos",
+    "pais_iso": "CH",
+    "region": "Grisones",
+    "creado_por": "guias-expertas",
+    "grupo": "b"
+  },
+  {
+    "id": "at-zillertal-mayrhofen",
+    "nombre": "Zillertal (Mayrhofen e Hintertux)",
+    "pais_iso": "AT",
+    "region": "Tirol",
+    "creado_por": "adrenalina",
+    "grupo": "b"
+  },
+  {
+    "id": "at-schladming-dachstein",
+    "nombre": "Schladming-Dachstein",
+    "pais_iso": "AT",
+    "region": "Estiria",
+    "creado_por": "adrenalina",
+    "grupo": "b"
+  },
+  {
+    "id": "at-swarovski-wattens",
+    "nombre": "Mundos de Cristal de Swarovski (Wattens)",
+    "pais_iso": "AT",
+    "region": "Tirol",
+    "creado_por": "cultura-historia",
+    "grupo": "b"
+  },
+  {
+    "id": "at-eisenstadt",
+    "nombre": "Eisenstadt",
+    "pais_iso": "AT",
+    "region": "Burgenland",
+    "creado_por": "cultura-historia",
+    "grupo": "b"
+  }
+]

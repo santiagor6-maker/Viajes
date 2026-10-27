@@ -1,8 +1,8 @@
 {
   "pausado": false,
   "subregion": "francia-alpes",
-  "paso": "cobertura",
-  "ronda": 1,
+  "paso": "huecos",
+  "ronda": 3,
   "orden_subregiones": [
     "iberica-italia",
     "francia-alpes",
@@ -117,6 +117,12 @@
       "subregion": "francia-alpes",
       "paso": "curador",
       "resultado": "215 lugares (FR 65, MC 5, BE 25, NL 30, LU 8, CH 39, AT 40, LI 3); 1 fusión (Echternach+Mullerthal), 3 descartes; 31 puntajes de guías nuevos; validador sin errores; publicado como en revisión"
+    },
+    {
+      "fecha": "2026-10-27",
+      "subregion": "francia-alpes",
+      "paso": "cobertura",
+      "resultado": "Solo MC y LI cumplen. 43 huecos: FR sin Franco Condado, Rosellón, Nantes, La Rochelle, Camarga, Costa Azul oeste, Lourdes...; LU sin el sur (excepción rechazada); NL sin Drenthe; CH/AT sin Verbier, Laax, Zillertal, Schladming; cultura y guías desinflados en varias ciudades. Siguiente: huecos (ronda 3, 36 lugares nuevos con ids fijos en pendientes-huecos.json)"
     }
   ],
   "ronda_revisor": 0,

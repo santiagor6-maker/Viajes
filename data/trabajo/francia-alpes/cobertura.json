@@ -1,0 +1,259 @@
+{
+  "agente": "evaluador-cobertura",
+  "subregion": "francia-alpes",
+  "ronda": 1,
+  "fecha": "2026-10-27",
+  "nota_general": "Ningún país queda por debajo de su mínimo salvo LU (8), y su excepción no se sostiene: hay al menos 3 lugares con fuente de guía y una región entera sin cubrir. FR (65) supera el objetivo de 20–30, pero como en iberica-italia no se pide recortar, porque el usuario quiere muchos lugares. Los huecos de FR son regionales: el Franco Condado no tiene ningún lugar, el Rosellón tampoco, de la costa atlántica central (Vendée–Charente Marítima) solo está el Puy du Fou, y Países del Loira no tiene ciudad. NL tiene una provincia sin lugares (Drenthe) y le faltan los Deltawerken. CH y AT tienen todas sus regiones y Länder, pero les faltan estaciones de primer orden (Verbier, Laax, Zillertal, Schladming-Dachstein). Problema transversal de puntajes: la adrenalina se calcula por proximidad (adrenalina_cerca ≤ 50 km) y es coherente con la regla del proyecto (Bellinzona, Den Bosch, Hall, París). Lo que falla es la cultura desinflada en lugares cuyo valor es cultural (Den Bosch, Hall in Tirol, Guarda, Mauthausen, Giverny, Sarlat, Leiden). Por eso se quedan sin la etiqueta 'cultura' o se etiquetan solo 'ciudad' o 'adrenalina'. guias está desinflado en ciudades que cubren todas las guías (Lyon, Burdeos, Niza, Marsella, Aviñón y Arles con 3; Chartres, Bayeux y Honfleur con 2; Oeschinensee con 0). Como guias pesa 0,4 en el global, eso las deja en 'muy_recomendado' o 'si_hay_tiempo'. La regla de 3 categorías no se aplica a microestados (criterio de VA en iberica-italia). 9 WebSearch usadas.",
+  "paises": [
+    {
+      "pais_iso": "FR",
+      "total": 65,
+      "cumple": false,
+      "excepcion_minimo": false,
+      "justificacion": null,
+      "observaciones": "Cantidad: 65, por encima del objetivo de 20–30; no se pide recortar. El área de París (≤ 50 km) tiene 4/65 = 6 % (París, Versalles 18 km, Disneyland 31 km, Parc Astérix 35 km). Fontainebleau está a 57 km. Hay 6 categorías (cultura 34, ciudad 30, naturaleza 22, gastronomía 21, adrenalina 11, playa 7). Regiones bien cubiertas: Alsacia (Estrasburgo, Colmar con Riquewihr), Champaña, Lorena, Normandía (5), Dordoña, Gironda, País Vasco (Biarritz con Espelette), Provenza (12), Alpes y Córcega (2). Huecos regionales: (1) el Franco Condado no tiene ningún lugar, porque Borgoña-Franco Condado son solo Beaune, Dijon y Vézelay; (2) el Rosellón (Pirineos Orientales) no tiene ninguno; (3) Países del Loira solo tiene el Puy du Fou, sin Nantes; (4) en la costa atlántica no hay nada entre la Pointe du Raz y Arcachon (unos 400 km: La Rochelle, Île de Ré); (5) Bretaña tiene 3 lugares, todos de costa este o del extremo oeste, sin la Cornualles bretona ni la Côte de Granit Rose; (6) la Costa Azul se queda en Niza y Menton, sin los pueblos colgados ni Antibes, Cannes o Saint-Tropez; (7) la Camarga solo aparece en una frase de Arles. Faltan también imprescindibles sueltos: Lourdes, Chantilly, Conques y Roquefort/Millau. Ya están cubiertos el Pont d'Arc (en Chauvet), Gordes y la lavanda (en Luberon), Épernay (en Reims), Millau como mención (en Tarn) y Villefranche/Cap Ferrat (en Niza). Puntajes: ver los pedidos de guias-expertas y cultura-historia al final. Los territorios de ultramar no entran en Europa.",
+      "huecos": [
+        {
+          "agente": "cultura-historia",
+          "pedido": "El Franco Condado no tiene ningún lugar: añadir Besançon (ciudadela de Vauban, Patrimonio Mundial, meandro del Doubs, museo del Tiempo) y la Salina Real de Arc-et-Senans (Ledoux, Patrimonio Mundial, a 35 km), juntos o por separado. Prioridad alta."
+        },
+        {
+          "agente": "gastronomia-vino",
+          "pedido": "Jura (Franco Condado): añadir 'Arbois y el viñedo del Jura': vin jaune de Château-Chalon, crémant y vin de paille del Jura, queserías (fruitières) de Comté y casa de Pasteur en Arbois. Puede incluir Baume-les-Messieurs, uno de los Plus Beaux Villages, a 25 km. Prioridad alta."
+        },
+        {
+          "agente": "naturaleza",
+          "pedido": "Jura: valorar 'Cascadas del Hérisson y región de los lagos' (Ménétrux-en-Joux) como lugar propio o dentro de la ficha de Arbois/Jura. Prioridad media."
+        },
+        {
+          "agente": "cultura-historia",
+          "pedido": "Países del Loira solo tiene el Puy du Fou: añadir Nantes (castillo de los Duques de Bretaña, Les Machines de l'île con el Gran Elefante, Le Voyage à Nantes, passage Pommeraye). Se puede mencionar Angers (tapiz del Apocalipsis) como extensión o como lugar aparte. Prioridad alta."
+        },
+        {
+          "agente": "cultura-historia",
+          "pedido": "Costa atlántica central: añadir La Rochelle (Vieux-Port con las torres de Saint-Nicolas, de la Chaîne y de la Lanterne, soportales, acuario). Entre la Pointe du Raz y Arcachon no hay hoy ningún lugar. Prioridad alta."
+        },
+        {
+          "agente": "naturaleza",
+          "pedido": "Añadir Île de Ré (playa: puente desde La Rochelle, 100 km de carril bici, salinas, Saint-Martin-de-Ré con las fortificaciones de Vauban, Patrimonio Mundial). Puntuar también playa. Prioridad alta."
+        },
+        {
+          "agente": "naturaleza",
+          "pedido": "Bretaña norte y oeste: añadir la Côte de Granit Rose (Ploumanac'h y el sendero de los aduaneros GR34, Perros-Guirec) y la Presqu'île de Crozon (Cap de la Chèvre, Morgat), como dos lugares o uno. Belle-Île-en-Mer es una alternativa. Prioridad media."
+        },
+        {
+          "agente": "cultura-historia",
+          "pedido": "Bretaña: añadir la Cornualles bretona: Quimper (catedral, loza), Locronan (Plus Beaux Villages) y la Ville Close amurallada de Concarneau, en un solo lugar o separados. Añadir también Dinan, a 30 km, en el por_que de Saint-Malo. Prioridad media."
+        },
+        {
+          "agente": "naturaleza",
+          "pedido": "Añadir la Camarga como lugar propio: Saintes-Maries-de-la-Mer (playa y romería gitana), el Parque Ornitológico de Pont de Gau (flamencos), las salinas y Aigues-Mortes amurallada. Hoy solo es una frase en Arles. Puntuar también playa y cultura (Aigues-Mortes). Prioridad alta."
+        },
+        {
+          "agente": "cultura-historia",
+          "pedido": "Costa Azul: añadir los pueblos colgados Èze (Jardín Exótico, a 10 km de Niza) y Saint-Paul-de-Vence (Fundación Maeght, Colombe d'Or), como un lugar o dos. Prioridad alta."
+        },
+        {
+          "agente": "guias-expertas",
+          "pedido": "Costa Azul oeste: proponer, con fuentes, Antibes con Cap d'Antibes (Museo Picasso, fuerte Carré, Juan-les-Pins) y Cannes/Îles de Lérins, y aparte Saint-Tropez (Var, sendero litoral, Musée de l'Annonciade). Hoy la Costa Azul se queda en Niza y Menton. Prioridad media."
+        },
+        {
+          "agente": "cultura-historia",
+          "pedido": "Pirineos y Occitania: añadir Lourdes (santuario y gruta de Massabielle, castillo fortificado, unos 3 millones de peregrinos al año; a unos 45 km de Gavarnie y con acceso desde Pau). Prioridad alta."
+        },
+        {
+          "agente": "cultura-historia",
+          "pedido": "El Rosellón y el Aude interior no tienen ningún lugar: añadir Collioure (Côte Vermeille, castillo real, cuna del fovismo; puntuar también playa) y los castillos cátaros de Peyrepertuse y Quéribus, en uno o dos lugares. Prioridad alta."
+        },
+        {
+          "agente": "cultura-historia",
+          "pedido": "Aveyron: añadir Conques (abadía de Sainte-Foy y su tesoro, etapa del Camino de Santiago y Patrimonio Mundial, ★★★ en la Michelin). Prioridad media."
+        },
+        {
+          "agente": "gastronomia-vino",
+          "pedido": "Aveyron: añadir Roquefort-sur-Soulzon (las cuevas de afinado de Société, Papillon y Gabriel Coulet, con visita y cata) y mencionar el viaducto de Millau, a 20 km. Prioridad media."
+        },
+        {
+          "agente": "naturaleza",
+          "pedido": "Altos de Francia: añadir la Côte d'Opale (Cap Blanc-Nez y Gris-Nez, dunas de la Slack) y la Bahía de Somme (focas, Saint-Valery-sur-Somme, tren de vapor), como uno o dos lugares. Hoy la región solo tiene Lille, Amiens y Astérix. Prioridad media."
+        },
+        {
+          "agente": "cultura-historia",
+          "pedido": "Añadir Chantilly (castillo y Museo Condé, la segunda colección de pintura antigua de Francia; Grandes Écuries; a 39 km de París, con lo que el área de la capital queda en 5/66 = 8 %). Añadir el Haut-Koenigsbourg en el por_que de Colmar. Prioridad media."
+        },
+        {
+          "agente": "cultura-historia",
+          "pedido": "Puntajes de cultura bajos que dejan mal las etiquetas: fr-giverny tiene c3 y solo 'ciudad' (son la casa y los jardines de Monet; subir a 4 → cultura); fr-sarlat-dordona tiene c3 y solo 'gastronomía' (uno de los cascos medievales más completos de Francia, con Beynac y Castelnaud; subir a 4); fr-honfleur tiene c2 (Vieux Bassin, iglesia de madera de Sainte-Catherine, museo Boudin; subir a 3)."
+        },
+        {
+          "agente": "guias-expertas",
+          "pedido": "Re-buscar guias, que parece desinflado en lugares que cubren todas las guías: Lyon, Burdeos, Niza, Marsella-Calanques, Aviñón y Arles (3; se esperaba 4–5 con Rick Steves, LP, Fodor's y Michelin ★★★); Chartres (2; Rick Steves y LP la cubren); Bayeux y las playas del Desembarco (2); Honfleur (2: la Guía Verde Michelin Normandía 2025 le da ★★★, así que con una guía más ya sería 5)."
+        },
+        {
+          "agente": "naturaleza",
+          "pedido": "fr-giverny: subir naturaleza de 2 a 3 o 4. El jardín de agua y el Clos Normand son el motivo de la visita."
+        }
+      ]
+    },
+    {
+      "pais_iso": "MC",
+      "total": 5,
+      "cumple": true,
+      "excepcion_minimo": false,
+      "justificacion": "Microestado de 2 km² en la Riviera: 5 lugares que son visitas distintas, cada una en su barrio. Le Rocher (palacio, Museo Oceanográfico y catedral), el Casino y la Place du Casino en Monte-Carlo, Port Hercule con el circuito del Gran Premio en La Condamine, el Jardín Exótico en Moneghetti (reabierto en 2026) y la playa de Larvotto con su reserva marina. No hay más lugares con entidad propia.",
+      "observaciones": "Está dentro del rango de 3–6 y la justificación de data/paises/europa.json es adecuada, así que se copia igual. Hay 5 categorías (cultura, ciudad, gastronomía, naturaleza, playa). La regla de capital no se aplica a un Estado de 2 km². Fontvieille (rosaleda Princesa Grace, colección de coches del Príncipe) puede ir en el por_que de Mónaco-Ville sin crear un lugar nuevo. No hay huecos.",
+      "huecos": []
+    },
+    {
+      "pais_iso": "BE",
+      "total": 25,
+      "cumple": false,
+      "excepcion_minimo": false,
+      "justificacion": null,
+      "observaciones": "Cantidad OK (25). El área de Bruselas (≤ 50 km) tiene 8/25 = 32 % (Bruselas, Pajottenland, Soignes, Waterloo, Malinas, Lovaina, Villers y Amberes, a 42 km). Gante (50,1 km) y Binche (50,2 km) quedan justo fuera; con ellos sería el 40 %, en el límite. En un país de 30.000 km² con Amberes, Gante y Lovaina como destinos propios, la regla mide poco. Reparto: Flandes 9, Valonia 14, Bruselas 2, con todas las provincias de Valonia (Henao, Namur, Lieja, Luxemburgo, Brabante Valón) y de Flandes cubiertas. Hay 6 categorías, aunque playa (costa) y adrenalina (Spa) aparecen en 1 lugar cada una. La cerveza trapense está en Bouillon (Orval) y en Ypres (Westvleteren), y Walibi en adrenalina_cerca. Hueco: Pairi Daiza, que según su dossier de prensa es la atracción más visitada del país (2,65 M de visitantes en 2024), con 'Top Choice' en Lonely Planet y ★★★ en la Guía Verde Michelin. Está a 44 km de Bruselas, con lo que el área queda en 9/26 = 35 %.",
+      "huecos": [
+        {
+          "agente": "guias-expertas",
+          "pedido": "Añadir Pairi Daiza (Brugelette, Henao; 50,585, 3,889): parque zoológico de 65 ha en una antigua abadía cisterciense. Lonely Planet le da 'Top Choice' (https://www.nonprod.lonelyplanet.com/points-of-interest/pairi-daiza/1604610; pasar a la URL canónica) y la Guía Verde Michelin ★★★ (https://vrtnws.be/p.ZPNNDmZJa). Puntuar naturaleza (fauna) y logística (tren a Cambron-Casteau, en la línea Mons–Ath)."
+        },
+        {
+          "agente": "adrenalina",
+          "pedido": "Opcional, para dar a Bélgica un segundo lugar de adrenalina fuera del eje de Bruselas: valorar 'Coo y el Amblève' (cascada de Coo, Plopsa Coo, kayak de Coo a Trois-Ponts, Stavelot y el circuito de Spa-Francorchamps a 10 km) como lugar o en adrenalina_cerca de be-spa."
+        }
+      ]
+    },
+    {
+      "pais_iso": "NL",
+      "total": 30,
+      "cumple": false,
+      "excepcion_minimo": false,
+      "justificacion": null,
+      "observaciones": "Cantidad OK (30). El área de Ámsterdam (≤ 50 km) tiene 12/30 = 40 %, justo en el límite: Ámsterdam, Zaanse Schans, Haarlem, Edam-Volendam, Naarden, Beemster, Keukenhof, Alkmaar, Utrecht, Leiden, Gouda y Hoorn. La Haya (53 km) y Delft (54 km) quedan fuera. Los dos huecos pedidos están fuera del radio y bajan la proporción a 12/32 = 37,5 %. Provincias: Drenthe es la única de las 12 sin ningún lugar, y Flevoland solo tiene Walibi. Hay 5 categorías y ninguna playa: Scheveningen está dentro de La Haya y Texel tiene playas sin la etiqueta. Faltan los Deltawerken (Zelanda), que tienen ficha en Lonely Planet. Puntajes: ver los pedidos.",
+      "huecos": [
+        {
+          "agente": "cultura-historia",
+          "pedido": "Drenthe no tiene ningún lugar: añadir 'Hunebedden de Drenthe' con base en Borger (Hunebedcentrum, junto al mayor dolmen del país, D27, y centro del Geoparque UNESCO Hondsrug). Se puede incluir Orvelte, un pueblo museo, a 20 km. Fuente: ficha de Lonely Planet https://www.lonelyplanet.com/the-netherlands/drenthe/attractions/hunebedden-centrum/a/poi-sig/1128166/1315715. Puntuar también naturaleza si se incluyen el Drents-Friese Wold o el Dwingelderveld."
+        },
+        {
+          "agente": "cultura-historia",
+          "pedido": "Zelanda: añadir los Deltawerken (dique de la Oosterscheldekering y Deltapark Neeltje Jans, con la exposición de la inundación de 1953 y las focas), una de las 'siete maravillas modernas' según la ASCE. Fuente: ficha de Lonely Planet https://www.lonelyplanet.com/the-netherlands/attractions/deltapark-neeltje-jans/a/poi-sig/1127640/360838. Puntuar naturaleza (Parque Nacional del Oosterschelde)."
+        },
+        {
+          "agente": "cultura-historia",
+          "pedido": "Puntajes de cultura bajos: nl-den-bosch tiene c2 y queda solo 'adrenalina,ciudad' (catedral gótica de San Juan, Jheronimus Bosch Art Center, Noordbrabants Museum, Binnendieze; subir a 4); nl-leiden tiene c2 (universidad más antigua del país, Rijksmuseum van Oudheden, Lakenhal, Naturalis, Hortus Botanicus; subir a 4); nl-delft tiene c3 (Vermeer, Nieuwe Kerk con las tumbas de los Orange, Real Fábrica de Delft; subir a 4)."
+        },
+        {
+          "agente": "naturaleza",
+          "pedido": "nl-keukenhof-bollenstreek: subir naturaleza de 2 a 4 o 5. Es un jardín de 32 ha con 7 millones de bulbos y los campos de flores de la Bollenstreek, y hoy solo lleva la etiqueta 'cultura'. Añadir también playa a nl-texel (30 km de playas en la costa del mar del Norte)."
+        },
+        {
+          "agente": "guias-expertas",
+          "pedido": "Re-buscar guias de nl-zaanse-schans (2), que está en Rick Steves Amsterdam y en Lonely Planet como excursión clásica desde Ámsterdam; se esperaba 3–4."
+        }
+      ]
+    },
+    {
+      "pais_iso": "LU",
+      "total": 8,
+      "cumple": false,
+      "excepcion_minimo": false,
+      "justificacion": null,
+      "observaciones": "La excepción no está justificada. Es cierto que el país tiene 2.586 km², por debajo del umbral de microestado. Pero no está en la lista, ya supera el máximo de microestado (6) y hay lugares con fuente de guía que no están: (1) los castillos de Beaufort, 'Top Choice' de Lonely Planet, a 9,7 km de Echternach; (2) el castillo de Larochette, con ficha de Lonely Planet, a 15 km de Echternach y 8 km de Beaufort; (3) el sur, Minett o Terres Rouges, no tiene ningún lugar. Es una Reserva de Biosfera UNESCO desde 2020 y Esch-sur-Alzette fue Capital Europea de la Cultura en 2022, con los altos hornos de Belval visitables, el Parque Minett Fond-de-Gras (tren de vapor 1900, tren minero, Lasauvage) y el Museo Nacional de Minería de Rumelange. Reparto actual: Éislek 5, capital 1, Mullerthal 1, Mosela 1, sur 0. El norte está sobrerrepresentado y el Guttland y el sur están vacíos. Con Beaufort, Larochette (separados o juntos como 'Castillos del Mullerthal') y el Minett se llega a 10–11 y no hace falta excepción. Kirchberg y el MUDAM no justifican un lugar aparte: están a 3 km del centro y deben ir en el por_que de la capital. Los pueblos vinícolas del Mosela (Remich, Grevenmacher, Wellenstein, Schengen) ya están en lu-mosela. La regla del 40 % no aplica: los 8 lugares están a ≤ 50 km de la capital, porque el país mide unos 80 km de norte a sur. Hay 4 categorías (cultura, ciudad, naturaleza, gastronomía).",
+      "huecos": [
+        {
+          "agente": "cultura-historia",
+          "pedido": "Añadir los castillos de Beaufort (49,835, 6,291): castillo medieval en ruinas de cinco plantas, de 1150–1650, y castillo renacentista del siglo XVII con visita guiada, que estuvo habitado hasta 2012. La entrada incluye cata del licor de casis Cassero. Lonely Planet le da 'Top Choice': https://www.nonprod.lonelyplanet.com/points-of-interest/beaufort-castles/1262617 (pasar a la URL canónica). Prioridad alta."
+        },
+        {
+          "agente": "cultura-historia",
+          "pedido": "Añadir el castillo de Larochette (49,786, 6,219): torre del homenaje de 1385, mazmorra y pozo sobre el valle del Ernz Blanc. Tiene ficha de Lonely Planet (https://www.nonprod.lonelyplanet.com/points-of-interest/chateau-de-larochette/1262585). El curador decide si va separado o junto a Beaufort como 'Castillos del Mullerthal'. Prioridad alta."
+        },
+        {
+          "agente": "cultura-historia",
+          "pedido": "El sur no tiene ningún lugar: añadir 'Minett: Esch-Belval y Fond-de-Gras' (49,50, 5,95): altos hornos de Belval (horno A visitable, gratis con la Luxembourg Card), Esch-sur-Alzette (Capital Europea de la Cultura 2022, ruta Art Nouveau), Parque Minett Fond-de-Gras con el tren de vapor 1900 y el Minièresbunn, y el Museo Nacional de Minería de Rumelange. Es Reserva de Biosfera UNESCO. Fuentes: https://www.visitluxembourg.com/destinations/regions/minett y https://www.wanderlustmagazine.com/inspiration/things-to-do-in-the-land-of-the-red-rocks-luxembourg/. Puntuar también naturaleza (Prënzebierg–Giele Botter). Prioridad alta."
+        },
+        {
+          "agente": "cultura-historia",
+          "pedido": "lu-luxemburgo-ciudad: añadir al por_que Kirchberg (MUDAM, Filarmónica, fuerte Thüngen o Musée Dräi Eechelen), a 3 km. No crear un lugar aparte."
+        }
+      ]
+    },
+    {
+      "pais_iso": "CH",
+      "total": 39,
+      "cumple": false,
+      "excepcion_minimo": false,
+      "justificacion": null,
+      "observaciones": "Cantidad OK (39). El área de Berna (≤ 50 km) tiene 6/39 = 15 % (Berna, Murten, Interlaken, Gruyères, Brienz y La Chaux-de-Fonds). Hay las 5 categorías temáticas y ciudad, todas con 13–15 lugares, aunque no hay playa. Regiones: Romandía 8 (Ginebra, Lausana, Lavaux, Montreux, Gruyères, Murten, La Chaux-de-Fonds y Sion), Tesino 5, Grisones 7, Valais 4, Oberland 5, Suiza central 2, este 3, noroeste 2 y Zúrich 1. No falta ninguna gran región. El cantón del Jura (Saint-Ursanne) y el Creux du Van no tienen lugar; el Creux du Van solo aparece en AFAR, así que no se pide. Faltan estaciones que cualquier guía de esquí o de verano alpino incluye: Verbier, Flims-Laax y Glacier 3000/Gstaad. Davos solo aparece como vecino en la ficha de Klosters (g1). Ya están Mürren y Schilthorn (en Lauterbrunnen), Gornergrat (en Zermatt), Rigi y Pilatus (en Lucerna), las líneas del Bernina y el Albula (en St. Moritz), Aescher (en Appenzell), Morcote (en Lugano) y Thun (en Interlaken).",
+      "huecos": [
+        {
+          "agente": "adrenalina",
+          "pedido": "Añadir Verbier (Valais francófono): las 4 Vallées con el Mont-Fort (3.330 m), una de las capitales del freeride (final del Freeride World Tour, Xtreme Verbier) y bike park en verano. Puntuar también gastronomía (raclette del Valais) y logística (tren a Le Châble y telecabina). Prioridad alta."
+        },
+        {
+          "agente": "adrenalina",
+          "pedido": "Añadir Flims-Laax (Grisones): Laax, la referencia del freestyle en Europa (Freestyle Academy, superpipe), y en verano el rafting en la Ruinaulta, el 'Gran Cañón suizo' del Rin, y el lago Caumasee. Puntuar también naturaleza. Prioridad alta."
+        },
+        {
+          "agente": "adrenalina",
+          "pedido": "Añadir Glacier 3000 (Les Diablerets, Vaud), con el Peak Walk, un puente colgante entre dos cumbres, y el Alpine Coaster más alto del mundo. Gstaad, a 20 km, puede ir como lugar aparte o como base. Prioridad media."
+        },
+        {
+          "agente": "guias-expertas",
+          "pedido": "Convertir ch-klosters en 'Davos-Klosters' o añadir Davos aparte: Museo Kirchner, Schatzalp ('La montaña mágica'), Parsenn y Jakobshorn. Re-buscar guias, porque Klosters solo tiene 1. Prioridad media."
+        },
+        {
+          "agente": "guias-expertas",
+          "pedido": "Re-buscar guias, que parece desinflado: ch-oeschinensee (0), uno de los lagos más fotografiados del país y parte del Patrimonio Mundial Jungfrau-Aletsch (en 2 búsquedas no apareció página propia de LP ni de Rick Steves, así que conviene buscar en la sección Kandersteg de LP Switzerland, en Fodor's y en Rough Guides); ch-glaciar-aletsch (2); ch-la-chaux-de-fonds (0; Patrimonio Mundial del urbanismo relojero, con sección en LP); ch-valais-sion-vinos (0; Sion, con Valère y Tourbillon, tiene ficha en LP)."
+        },
+        {
+          "agente": "cultura-historia",
+          "pedido": "Puntajes de cultura bajos: ch-guarda tiene c3 y solo 'adrenalina' (pueblo modelo romanche con esgrafiados del siglo XVII y premio Wakker; subir a 4). Su a4 viene de Ischgl, a 24 km en línea recta pero muy lejos por carretera, así que adrenalina debería revisarlo. ch-gruyeres tiene c3 (castillo y museo HR Giger; subir a 4)."
+        },
+        {
+          "agente": "adrenalina",
+          "pedido": "ch-guarda: revisar el a4, que se basa en la Silvretta Arena Ischgl/Samnaun. Desde Guarda se accede por Samnaun, a más de 40 km por carretera, y hoy el pueblo queda etiquetado solo como 'adrenalina'. Usar distancia por carretera o el acceso real (Motta Naluns, Scuol, a 8 km)."
+        }
+      ]
+    },
+    {
+      "pais_iso": "AT",
+      "total": 40,
+      "cumple": false,
+      "excepcion_minimo": false,
+      "justificacion": null,
+      "observaciones": "Cantidad OK (40). El área de Viena (≤ 50 km) tiene 5/40 = 12,5 % (Viena, Donau-Auen, Carnuntum, Familypark y Neusiedler See). Los 9 Länder tienen lugares: Viena 1, Baja Austria 5, Alta Austria 3 + Hallstatt, Burgenland 2, Estiria 5, Carintia 4, Salzburgo 7 + Salzkammergut 3, Tirol 7 y Vorarlberg 3. Hay 6 categorías. Ya están Melk, Dürnstein y Krems (en Wachau), Schönbrunn (en Viena) y Dachstein (en Hallstatt). Huecos: el Zillertal, el mayor valle de esquí y verano del Tirol, con el glaciar de Hintertux abierto todo el año; Schladming-Dachstein en Estiria; y los Mundos de Cristal de Swarovski (Wattens), que no aparecen en ninguna ficha. Eisenstadt (palacio Esterházy, Haydn), a 42 km de Viena, sería opcional.",
+      "huecos": [
+        {
+          "agente": "adrenalina",
+          "pedido": "Añadir el Zillertal con base en Mayrhofen (Tirol): pista Harakiri (78 %), Penken y Ahorn, glaciar de Hintertux con esquí los 365 días, Zillertalbahn de vapor y Arena Coaster de Zell. Puntuar también naturaleza. Prioridad alta."
+        },
+        {
+          "agente": "adrenalina",
+          "pedido": "Añadir Schladming-Dachstein (Estiria): Planai (Copa del Mundo nocturna), glaciar del Dachstein con el Skywalk, el puente colgante y la 'escalera a la nada', y Ramsau. Estiria no tiene hoy ninguna estación de esquí. Prioridad alta."
+        },
+        {
+          "agente": "cultura-historia",
+          "pedido": "Añadir los Mundos de Cristal de Swarovski (Wattens, a 8 km de Hall y 17 km de Innsbruck), como lugar propio o en el por_que de at-hall-in-tirol o at-innsbruck. Es una de las atracciones más visitadas del país. Prioridad media."
+        },
+        {
+          "agente": "cultura-historia",
+          "pedido": "Puntajes de cultura bajos: at-mauthausen tiene c3 y la etiqueta 'ciudad' que añadió el curador. Es el principal memorial del nazismo en Austria, comparable a Verdun (c4) o Ypres (c4): subir a 4 y quitar 'ciudad', que no corresponde a un memorial. at-hall-in-tirol tiene c3 y queda solo como 'adrenalina' (el mayor casco antiguo del Tirol y la Casa de la Moneda de Hasegg; subir a 4)."
+        },
+        {
+          "agente": "cultura-historia",
+          "pedido": "Opcional: Eisenstadt (Burgenland): palacio Esterházy con la sala Haydn y la Bergkirche con la tumba de Haydn. Con él, el área de Viena queda en 6/41 = 15 %."
+        }
+      ]
+    },
+    {
+      "pais_iso": "LI",
+      "total": 3,
+      "cumple": true,
+      "excepcion_minimo": false,
+      "justificacion": "Microestado de 160 km² en el valle del Rin: 3 lugares, la capital Vaduz (museos y bodega del Príncipe), Triesenberg (pueblo walser y acceso a Gaflei) y Malbun (única estación de montaña del país). El castillo de Gutenberg (global 1,8, solo una mención menor en Lonely Planet) y la ruta del Fürstensteig (1,8, sin guías en 1 búsqueda) quedan por debajo de 2,0. El Fürstensteig se recoge en el por_que de Triesenberg y Malbun.",
+      "observaciones": "Está en el mínimo de 3 y la justificación de data/paises/europa.json es adecuada, así que se copia igual. La regla de 3 categorías no se aplica a microestados, pero los 3 lugares llevan solo 'ciudad'. Malbun es una estación de esquí y senderismo y no tiene sentido como 'ciudad'. Como mejora no bloqueante, naturaleza podría subir Malbun a 4 (Fürstensteig, Sareiserjoch, Pfälzerhütte, Liechtenstein-Weg) para que reciba la etiqueta 'naturaleza'. No faltan imprescindibles.",
+      "huecos": []
+    }
+  ]
+}
