@@ -1,7 +1,7 @@
 {
   "pausado": false,
   "subregion": "francia-alpes",
-  "paso": "curador",
+  "paso": "revisor",
   "ronda": 3,
   "orden_subregiones": [
     "iberica-italia",
@@ -129,8 +129,14 @@
       "subregion": "francia-alpes",
       "paso": "huecos",
       "resultado": "Ronda 3 completa (interrumpida por el límite de uso 16:00–19:50 y retomada): 36 lugares nuevos (FR 21, BE 2, NL 2, LU 3, CH 4, AT 4) con 6 especialistas (puntuación cruzada y logística incluidas); guías re-puntuadas en Lyon, Niza, Marsella, Honfleur, Bayeux (5), etc.; cultura corregida en 10 lugares; Guarda adrenalina 4→3"
+    },
+    {
+      "fecha": "2026-10-27",
+      "subregion": "francia-alpes",
+      "paso": "curador",
+      "resultado": "Ronda 3: 251 lugares (FR 86, MC 5, BE 27, NL 32, LU 11, CH 43, AT 44, LI 3); 36 nuevos (10 imprescindibles); LU sin excepción; Peyrepertuse/Quéribus confirmados UNESCO 2026; validador sin errores; republicado (versión 9)"
     }
   ],
-  "ronda_revisor": 0,
+  "ronda_revisor": 1,
   "max_rondas_revisor": 2
 }

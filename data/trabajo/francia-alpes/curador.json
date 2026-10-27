@@ -26,13 +26,13 @@
     }
   ],
   "conteo_por_pais": {
-    "FR": 65,
+    "FR": 86,
     "MC": 5,
-    "BE": 25,
-    "NL": 30,
-    "LU": 8,
-    "CH": 39,
-    "AT": 40,
+    "BE": 27,
+    "NL": 32,
+    "LU": 11,
+    "CH": 43,
+    "AT": 44,
     "LI": 3
   },
   "notas": {
@@ -124,6 +124,16 @@
         "at-carnuntum/at-donau-auen": "Unos 15 km. Son un parque arqueológico y un parque nacional."
       },
       "coordenadas": "Se revisaron las coordenadas de los lugares no franceses frente al nombre y la región; no hubo que corregir ninguna."
+    },
+    "ronda3": {
+      "peyrepertuse_queribus_unesco": "Verificado con 2 WebSearch: el bien serial 'Forteresses royales capétiennes du Languedoc' (whc.unesco.org/en/list/1755: Carcassonne, Aguilar, Lastours, Montségur, Peyrepertuse, Puilaurens, Quéribus y Termes) fue inscrito el 26 de julio de 2026 por el Comité del Patrimonio Mundial en Busan (comunicado de diplomatie.gouv.fr, que también anuncia las playas del desembarco de Normandía). La justificación de cultura-historia-r3 es correcta; no se corrige y el puntaje cultural 4 se mantiene.",
+      "fuentes_unesco": [
+        "https://whc.unesco.org/en/list/1755",
+        "https://www.diplomatie.gouv.fr/en/presse-et-ressources/decouvrir-et-informer/actualites/comite-du-patrimoine-mondial-de-l-unesco-deux-inscriptions-de-sites-francais-sur-la-liste-du"
+      ],
+      "playa_r3": "Playa según naturaleza-r3 ('LUGAR DE PLAYA: sí'): fr-ile-de-re, fr-collioure, fr-saint-tropez, fr-antibes-cannes, fr-camarga, fr-crozon y nl-texel. No se añade playa a fr-cote-granit-rose ni fr-quimper-cornualles ('parcialmente'), fr-cote-opale ('sí, con matices': agua fría, el motivo son los cabos), fr-bahia-somme, fr-la-rochelle ni nl-deltawerken ('no').",
+      "por_que_ampliados": "Se añaden Dinan a fr-saint-malo, Haut-Koenigsbourg a fr-colmar-ruta-vino-alsacia y Kirchberg/MUDAM a lu-luxemburgo-ciudad, como pidió cobertura. Swarovski Wattens tiene lugar propio (at-swarovski-wattens), así que no se añade a at-hall-in-tirol.",
+      "mauthausen": "at-mauthausen pasa de 'ciudad' a 'no_ciudad': es un memorial, no una ciudad."
     }
   }
 }
