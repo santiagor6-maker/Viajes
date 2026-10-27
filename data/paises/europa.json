@@ -179,7 +179,7 @@
       "total_lugares": 86,
       "excepcion_minimo": false,
       "justificacion": null,
-      "nota_revisor": null,
+      "nota_revisor": 6.8,
       "revision_pendiente": false,
       "estado": "investigado"
     },
@@ -190,7 +190,7 @@
       "total_lugares": 5,
       "excepcion_minimo": false,
       "justificacion": "Microestado de 2 km² en la Riviera: 5 lugares que son visitas distintas, cada una en su barrio. Le Rocher (palacio, Museo Oceanográfico y catedral), el Casino y la Place du Casino en Monte-Carlo, Port Hercule con el circuito del Gran Premio en La Condamine, el Jardín Exótico en Moneghetti (reabierto en 2026) y la playa de Larvotto con su reserva marina. No hay más lugares con entidad propia.",
-      "nota_revisor": null,
+      "nota_revisor": 7.5,
       "revision_pendiente": false,
       "estado": "investigado"
     },
@@ -201,7 +201,7 @@
       "total_lugares": 27,
       "excepcion_minimo": false,
       "justificacion": null,
-      "nota_revisor": null,
+      "nota_revisor": 7,
       "revision_pendiente": false,
       "estado": "investigado"
     },
@@ -212,7 +212,7 @@
       "total_lugares": 32,
       "excepcion_minimo": false,
       "justificacion": null,
-      "nota_revisor": null,
+      "nota_revisor": 6.9,
       "revision_pendiente": false,
       "estado": "investigado"
     },
@@ -223,7 +223,7 @@
       "total_lugares": 11,
       "excepcion_minimo": false,
       "justificacion": null,
-      "nota_revisor": null,
+      "nota_revisor": 6.8,
       "revision_pendiente": false,
       "estado": "investigado"
     },
@@ -234,7 +234,7 @@
       "total_lugares": 43,
       "excepcion_minimo": false,
       "justificacion": null,
-      "nota_revisor": null,
+      "nota_revisor": 7.6,
       "revision_pendiente": false,
       "estado": "investigado"
     },
@@ -245,7 +245,7 @@
       "total_lugares": 44,
       "excepcion_minimo": false,
       "justificacion": null,
-      "nota_revisor": null,
+      "nota_revisor": 7.5,
       "revision_pendiente": false,
       "estado": "investigado"
     },
@@ -256,7 +256,7 @@
       "total_lugares": 3,
       "excepcion_minimo": false,
       "justificacion": "Microestado de 160 km² en el valle del Rin: 3 lugares, la capital Vaduz (museos y bodega del Príncipe), Triesenberg (pueblo walser y acceso a Gaflei) y Malbun (única estación de montaña del país). El castillo de Gutenberg (global 1,8, solo una mención menor en Lonely Planet) y la ruta del Fürstensteig (1,8, sin guías en 1 búsqueda) quedan por debajo de 2,0. El Fürstensteig se recoge en el por_que de Triesenberg y Malbun.",
-      "nota_revisor": null,
+      "nota_revisor": 8.2,
       "revision_pendiente": false,
       "estado": "investigado"
     },

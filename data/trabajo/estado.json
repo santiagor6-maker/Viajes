@@ -1,7 +1,7 @@
 {
   "pausado": false,
   "subregion": "francia-alpes",
-  "paso": "revisor",
+  "paso": "correcciones",
   "ronda": 3,
   "orden_subregiones": [
     "iberica-italia",
@@ -135,6 +135,12 @@
       "subregion": "francia-alpes",
       "paso": "curador",
       "resultado": "Ronda 3: 251 lugares (FR 86, MC 5, BE 27, NL 32, LU 11, CH 43, AT 44, LI 3); 36 nuevos (10 imprescindibles); LU sin excepción; Peyrepertuse/Quéribus confirmados UNESCO 2026; validador sin errores; republicado (versión 9)"
+    },
+    {
+      "fecha": "2026-10-27",
+      "subregion": "francia-alpes",
+      "paso": "revisor",
+      "resultado": "Ronda revisor 1: 0/7 agentes ≥9.5 (a: 6.5–8.0; b: 7.0–8.5). Países: FR 6.8, MC 7.5, BE 7.0, NL 6.9, LU 6.8, CH 7.6, AT 7.5, LI 8.2. Siguiente: correcciones fix1 (ronda 4), 6 especialistas; los puntos del curador se aplican en el paso curador"
     }
   ],
   "ronda_revisor": 1,
