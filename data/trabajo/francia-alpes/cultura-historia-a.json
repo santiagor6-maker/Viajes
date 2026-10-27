@@ -1,0 +1,992 @@
+{
+  "agente": "cultura-historia",
+  "subregion": "francia-alpes",
+  "ronda": 1,
+  "puntajes": [
+    {
+      "id": "fr-paris",
+      "puntaje": 5,
+      "unesco": true,
+      "justificacion": "Las orillas del Sena son Patrimonio Mundial: de Notre-Dame y la Sainte-Chapelle al Louvre y el Instituto de Francia, con muelles haussmannianos. Suma el Louvre y el Orsay, museos de referencia mundial.",
+      "fuentes": [
+        { "guia": "UNESCO (Paris, orillas del Sena – Urban Heritage Atlas)", "url": "https://whc.unesco.org/en/urban-heritage-atlas/Paris/" }
+      ]
+    },
+    {
+      "id": "fr-versalles",
+      "puntaje": 5,
+      "unesco": true,
+      "justificacion": "Residencia principal de los reyes de Francia de Luis XIV a Luis XVI: Galería de los Espejos, Grandes Apartamentos, jardines de Le Nôtre y los Trianon. Modelo de las cortes europeas.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/83/" }
+      ]
+    },
+    {
+      "id": "fr-giverny",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "Casa y jardines donde Monet pintó de 1883 a 1926 (estanque de nenúfares, puente japonés, colección de estampas japonesas). En Vernon, a 5 km, el museo Blanche Hoschedé-Monet completa la visita impresionista.",
+      "fuentes": [
+        { "guia": "Normandie Tourisme (oficial)", "url": "https://en.normandie-tourisme.fr/museums-and-heritage-sites/museum-blanche-hoschede-monet/" }
+      ]
+    },
+    {
+      "id": "fr-chartres",
+      "puntaje": 5,
+      "unesco": true,
+      "justificacion": "Catedral gótica con el conjunto de vidrieras y escultura de los siglos XII y XIII mejor conservado; su planta sirvió de modelo a Reims y Amiens.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/81/" }
+      ]
+    },
+    {
+      "id": "fr-mont-saint-michel",
+      "puntaje": 5,
+      "unesco": true,
+      "justificacion": "Abadía benedictina gótica dedicada a san Miguel sobre un islote de marea, con el pueblo amurallado a sus pies; una de las imágenes más icónicas del patrimonio europeo.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/80" }
+      ]
+    },
+    {
+      "id": "fr-bayeux-playas-desembarco",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "El tapiz de Bayeux (siglo XI) y la catedral normanda, más las playas del Desembarco con el Cementerio Americano y Pointe du Hoc, lugares clave de la memoria de la Segunda Guerra Mundial.",
+      "fuentes": []
+    },
+    {
+      "id": "fr-honfleur",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Puerto del Vieux Bassin con casas altas de pizarra e iglesia de madera de Santa Catalina; cuna del preimpresionismo de Boudin.",
+      "fuentes": []
+    },
+    {
+      "id": "fr-etretat",
+      "puntaje": 1,
+      "unesco": false,
+      "justificacion": "Su valor es paisajístico; el vínculo cultural es que Monet y Courbet pintaron sus acantilados.",
+      "fuentes": []
+    },
+    {
+      "id": "fr-valle-del-loira",
+      "puntaje": 5,
+      "unesco": true,
+      "justificacion": "Paisaje cultural Patrimonio Mundial entre Sully-sur-Loire y Chalonnes: castillos renacentistas (Chambord, Chenonceau, Amboise con la tumba de Leonardo), ciudades históricas y tierras cultivadas.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/933/" }
+      ]
+    },
+    {
+      "id": "fr-saint-malo",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Ciudad corsaria amurallada, reconstruida tras 1944, con sus murallas transitables y el fuerte Nacional.",
+      "fuentes": []
+    },
+    {
+      "id": "fr-carnac",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "Los megalitos de Carnac y de la costa de Morbihan son Patrimonio Mundial desde 2025: miles de menhires alineados, dólmenes y túmulos neolíticos, el mayor conjunto megalítico del mundo.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/1725/" }
+      ]
+    },
+    {
+      "id": "fr-estrasburgo",
+      "puntaje": 5,
+      "unesco": true,
+      "justificacion": "La Grande-Île medieval con la catedral gótica y la Petite France, más la Neustadt alemana añadida en 2017: ciudad histórica completa y Patrimonio Mundial.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/495/" }
+      ]
+    },
+    {
+      "id": "fr-colmar-ruta-vino-alsacia",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Casco de entramado de madera y la Petite Venise; el Museo Unterlinden guarda el Retablo de Isenheim de Grünewald.",
+      "fuentes": []
+    },
+    {
+      "id": "fr-reims-champana",
+      "puntaje": 5,
+      "unesco": true,
+      "justificacion": "Catedral de las coronaciones de los reyes de Francia, la antigua abadía de Saint-Rémi y el Palacio del Tau, inscritos como un solo bien; las colinas, casas y bodegas de Champaña son también Patrimonio Mundial.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/601/" }
+      ]
+    },
+    {
+      "id": "fr-beaune-cote-dor",
+      "puntaje": 2,
+      "unesco": true,
+      "justificacion": "Hôtel-Dieu de Beaune (siglo XV) con su tejado de tejas vidriadas y los climats de la Côte d'Or, inscritos como Patrimonio Mundial en 2015.",
+      "fuentes": []
+    },
+    {
+      "id": "fr-dijon",
+      "puntaje": 2,
+      "unesco": true,
+      "justificacion": "Antigua capital de los duques de Borgoña: Palacio de los Duques con el Museo de Bellas Artes y sus tumbas ducales; su centro forma parte del bien de los climats de Borgoña.",
+      "fuentes": []
+    },
+    {
+      "id": "fr-lyon",
+      "puntaje": 5,
+      "unesco": true,
+      "justificacion": "Sitio histórico Patrimonio Mundial de 423 ha: teatros romanos de Fourvière (fundación en 43 a. C.), el Vieux Lyon renacentista con sus traboules y la Presqu'île; ciudad histórica completa.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/872/" }
+      ]
+    },
+    {
+      "id": "fr-annecy",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Casco antiguo con canales, el Palais de l'Isle (prisión del siglo XII) y el castillo de Annecy.",
+      "fuentes": []
+    },
+    {
+      "id": "fr-chamonix-mont-blanc",
+      "puntaje": 1,
+      "unesco": false,
+      "justificacion": "Destino de montaña; su interés cultural se limita a la historia del alpinismo y a los Juegos de 1924.",
+      "fuentes": []
+    },
+    {
+      "id": "fr-gorges-du-verdon",
+      "puntaje": 1,
+      "unesco": false,
+      "justificacion": "Espacio natural; el único aporte cultural cercano es la loza de Moustiers-Sainte-Marie.",
+      "fuentes": []
+    },
+    {
+      "id": "fr-avinon",
+      "puntaje": 5,
+      "unesco": true,
+      "justificacion": "Ciudad de los Papas: el Palacio de los Papas, el mayor palacio gótico de Europa, el conjunto episcopal y el puente de Saint-Bénézet; sede del Festival de Aviñón.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/228/" }
+      ]
+    },
+    {
+      "id": "fr-arles",
+      "puntaje": 5,
+      "unesco": true,
+      "justificacion": "Anfiteatro, teatro y criptopórticos romanos más la iglesia y el claustro románicos de Saint-Trophime, todo Patrimonio Mundial; suma la huella de Van Gogh y los Rencontres de la fotografía.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/164/" }
+      ]
+    },
+    {
+      "id": "fr-pont-du-gard",
+      "puntaje": 5,
+      "unesco": true,
+      "justificacion": "Puente del acueducto romano de unos 50 km que llevaba agua a Nîmes; obra maestra de la ingeniería romana y uno de los monumentos antiguos más icónicos del mundo.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/344/" }
+      ]
+    },
+    {
+      "id": "fr-nimes",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "La Maison Carrée, templo del siglo I ligado al culto imperial, es Patrimonio Mundial desde 2023; junto a las Arenas, una de las ciudades con más monumentos romanos en pie fuera de Italia.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/1569/" }
+      ]
+    },
+    {
+      "id": "fr-aix-en-provence",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Barrio Mazarino y Cours Mirabeau con palacetes del siglo XVII, el taller de Cézanne y el Museo Granet.",
+      "fuentes": []
+    },
+    {
+      "id": "fr-luberon",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Pueblos encaramados como Gordes y Ménerbes y la abadía cisterciense de Sénanque entre lavandas.",
+      "fuentes": []
+    },
+    {
+      "id": "fr-marsella-calanques",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Puerto fundado por los griegos hace 2600 años: Vieux-Port, barrio del Panier, Notre-Dame-de-la-Garde y el MuCEM.",
+      "fuentes": []
+    },
+    {
+      "id": "fr-niza",
+      "puntaje": 2,
+      "unesco": true,
+      "justificacion": "Ciudad de veraneo de invierno de la Riviera, inscrita en 2021, con la Promenade des Anglais y los museos Matisse y Chagall; Villefranche suma la capilla de Cocteau.",
+      "fuentes": []
+    },
+    {
+      "id": "fr-menton",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Casco barroco escalonado con la basílica de San Miguel y el Museo Jean Cocteau.",
+      "fuentes": []
+    },
+    {
+      "id": "fr-carcasona",
+      "puntaje": 5,
+      "unesco": true,
+      "justificacion": "Ciudad fortificada medieval con doble muralla y 52 torres, restaurada por Viollet-le-Duc entre 1853 y 1879, obra fundacional de la conservación moderna.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/345/" }
+      ]
+    },
+    {
+      "id": "fr-sarlat-dordona",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "Sarlat conserva uno de los cascos medievales y renacentistas más completos de Francia, y la Dordoña suma castillos como Beynac y Castelnaud; a unos 25 km están las cuevas decoradas del Vézère.",
+      "fuentes": [
+        { "guia": "UNESCO (cueva de Lascaux, valle del Vézère)", "url": "https://whc.unesco.org/en/documents/108437" }
+      ]
+    },
+    {
+      "id": "fr-valle-vezere-lascaux",
+      "puntaje": 5,
+      "unesco": true,
+      "justificacion": "Sitios prehistóricos y cuevas decoradas del Vézère (Lascaux, Font-de-Gaume, Les Eyzies): un conjunto de arte paleolítico de primer nivel mundial, visitable en la réplica Lascaux IV y en cuevas originales.",
+      "fuentes": [
+        { "guia": "UNESCO (cueva de Lascaux, valle del Vézère)", "url": "https://whc.unesco.org/en/documents/108437" }
+      ]
+    },
+    {
+      "id": "fr-rocamadour",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "Santuario mariano colgado del acantilado con siete capillas y la Virgen Negra; forma parte de los Caminos de Santiago en Francia, Patrimonio Mundial.",
+      "fuentes": [
+        { "guia": "UNESCO (Caminos de Santiago en Francia)", "url": "https://whc.unesco.org/en/list/868/" }
+      ]
+    },
+    {
+      "id": "fr-burdeos",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "Puerto de la Luna: conjunto urbano del siglo XVIII con más edificios protegidos que cualquier ciudad francesa salvo París (Place de la Bourse, Grand Théâtre); suma la Cité du Vin.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/1256/" }
+      ]
+    },
+    {
+      "id": "fr-duna-pilat-arcachon",
+      "puntaje": 1,
+      "unesco": false,
+      "justificacion": "Destino natural; el aporte cultural es la Ville d'Hiver de Arcachon, con villas del siglo XIX.",
+      "fuentes": []
+    },
+    {
+      "id": "fr-biarritz-costa-vasca",
+      "puntaje": 3,
+      "unesco": true,
+      "justificacion": "La catedral de Bayona forma parte de los Caminos de Santiago, Patrimonio Mundial; San Juan de Luz guarda la iglesia de la boda de Luis XIV, y Bayona el Museo Vasco.",
+      "fuentes": [
+        { "guia": "UNESCO (Caminos de Santiago en Francia)", "url": "https://whc.unesco.org/en/list/868/" }
+      ]
+    },
+    {
+      "id": "fr-toulouse",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "La basílica de Saint-Sernin, la mayor iglesia románica conservada, está en los Caminos de Santiago, y el Canal du Midi (siglo XVII, 360 km) llega a la ciudad; suma los Jacobinos y el Museo de los Agustinos.",
+      "fuentes": [
+        { "guia": "UNESCO (Caminos de Santiago en Francia)", "url": "https://whc.unesco.org/en/list/868/" },
+        { "guia": "UNESCO (Canal du Midi)", "url": "https://whc.unesco.org/en/list/770/" }
+      ]
+    },
+    {
+      "id": "fr-gorges-du-tarn",
+      "puntaje": 2,
+      "unesco": true,
+      "justificacion": "Forma parte del paisaje cultural agropastoral de los Causses y las Cevenas; pueblos como Sainte-Enimie y Castelbouc.",
+      "fuentes": []
+    },
+    {
+      "id": "fr-corcega",
+      "puntaje": 2,
+      "unesco": true,
+      "justificacion": "Casa natal de Napoleón en Ajaccio, ciudadela de Calvi y estatuas-menhir de Filitosa; el golfo de Porto es Patrimonio Mundial natural.",
+      "fuentes": []
+    },
+    {
+      "id": "fr-bonifacio",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Ciudadela genovesa sobre acantilados, con la escalera del Rey de Aragón tallada en la roca.",
+      "fuentes": []
+    },
+    {
+      "id": "fr-nancy",
+      "puntaje": 2,
+      "unesco": true,
+      "justificacion": "Place Stanislas, Place de la Carrière y Place d'Alliance (siglo XVIII), Patrimonio Mundial, y el Museo de la Escuela de Nancy del art nouveau.",
+      "fuentes": []
+    },
+    {
+      "id": "fr-verdun",
+      "puntaje": 2,
+      "unesco": true,
+      "justificacion": "Campo de batalla de 1916 con el osario de Douaumont, el fuerte de Vaux y el Memorial de Verdún; parte de los sitios funerarios de la Primera Guerra Mundial inscritos en 2023.",
+      "fuentes": []
+    },
+    {
+      "id": "fr-lille",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "El campanario del ayuntamiento forma parte de los Campanarios de Bélgica y Francia; el Palais des Beaux-Arts es uno de los mayores museos de Francia y el Vieux-Lille conserva la arquitectura flamenca.",
+      "fuentes": [
+        { "guia": "UNESCO (Campanarios de Bélgica y Francia)", "url": "https://whc.unesco.org/en/list/943/" }
+      ]
+    },
+    {
+      "id": "mc-monaco-ville",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "En el Rocher: el Palacio del Príncipe con sus Grandes Apartamentos y el cambio de guardia, el Museo Oceanográfico fundado por Alberto I y la catedral con la tumba de Grace Kelly.",
+      "fuentes": [
+        { "guia": "Visit Monaco (plano oficial)", "url": "https://www.visitmonaco.com/Documents-Site/Plan%20Officiel%20-%20City%20Map%20-%20Monaco.pdf" }
+      ]
+    },
+    {
+      "id": "mc-monte-carlo",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "Casino y Ópera de Monte-Carlo (Salle Garnier, inaugurada en 1879) de Charles Garnier, emblema de la arquitectura belle époque de la Riviera.",
+      "fuentes": [
+        { "guia": "Visit Monaco (plano oficial)", "url": "https://www.visitmonaco.com/Documents-Site/Plan%20Officiel%20-%20City%20Map%20-%20Monaco.pdf" }
+      ]
+    },
+    {
+      "id": "mc-jardin-exotique",
+      "puntaje": 1,
+      "unesco": false,
+      "justificacion": "Jardín botánico con una gruta con restos prehistóricos; poco interés cultural.",
+      "fuentes": []
+    },
+    {
+      "id": "mc-puerto-hercule-circuito",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Circuito urbano del Gran Premio, disputado desde 1929, parte de la historia del automovilismo.",
+      "fuentes": []
+    },
+    {
+      "id": "mc-larvotto",
+      "puntaje": 1,
+      "unesco": false,
+      "justificacion": "Playa con un paseo de esculturas al aire libre.",
+      "fuentes": []
+    },
+    {
+      "id": "be-brujas",
+      "puntaje": 5,
+      "unesco": true,
+      "justificacion": "Centro histórico medieval intacto de arquitectura gótica de ladrillo y cuna de los Primitivos flamencos (Van Eyck y Memling en el Groeningemuseum y el Hospital de San Juan).",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/996/" }
+      ]
+    },
+    {
+      "id": "be-bruselas",
+      "puntaje": 5,
+      "unesco": true,
+      "justificacion": "La Grand-Place, reconstruida tras el bombardeo de 1695, es Patrimonio Mundial; suma las casas art nouveau de Horta y los Museos Reales de Bellas Artes (Bruegel, Magritte).",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/857/" }
+      ]
+    },
+    {
+      "id": "be-gante",
+      "puntaje": 5,
+      "unesco": true,
+      "justificacion": "El retablo del Cordero Místico de los Van Eyck en la catedral de San Bavón, el campanario y los beaterios de Gante, Patrimonio Mundial, y el castillo de los Condes.",
+      "fuentes": [
+        { "guia": "UNESCO (Campanarios de Bélgica y Francia)", "url": "https://whc.unesco.org/en/list/943/" },
+        { "guia": "UNESCO (Beaterios flamencos)", "url": "https://whc.unesco.org/en/list/855/maps/" }
+      ]
+    },
+    {
+      "id": "be-amberes",
+      "puntaje": 5,
+      "unesco": true,
+      "justificacion": "El Museo Plantin-Moretus es la única imprenta renacentista y barroca conservada del mundo; con la catedral de los Rubens, la Casa de Rubens y el KMSKA.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/1185/" }
+      ]
+    },
+    {
+      "id": "be-ypres-flanders-fields",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "La Lonja de los Paños con su campanario (Patrimonio Mundial) alberga el In Flanders Fields Museum; la Puerta de Menin y los cementerios del Saliente son memoria central de la Primera Guerra Mundial.",
+      "fuentes": [
+        { "guia": "UNESCO (Campanarios de Bélgica y Francia)", "url": "https://whc.unesco.org/en/list/943/" }
+      ]
+    },
+    {
+      "id": "be-lovaina",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "El Gran Beaterio, Patrimonio Mundial, el ayuntamiento gótico flamígero y la universidad católica más antigua en funcionamiento, más el Museo M.",
+      "fuentes": [
+        { "guia": "UNESCO (Beaterios flamencos)", "url": "https://whc.unesco.org/en/list/855/maps/" }
+      ]
+    },
+    {
+      "id": "be-malinas",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "La torre de San Rumoldo con su carillón y el Gran Beaterio son Patrimonio Mundial; suma el museo Kazerne Dossin sobre la deportación y sus gigantes procesionales.",
+      "fuentes": [
+        { "guia": "UNESCO (Campanarios de Bélgica y Francia)", "url": "https://whc.unesco.org/en/list/943/" },
+        { "guia": "UNESCO (Beaterios flamencos)", "url": "https://whc.unesco.org/en/list/855/maps/" }
+      ]
+    },
+    {
+      "id": "be-costa-belga",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Ostende conserva la casa de James Ensor y el museo Mu.ZEE; De Haan, villas belle époque.",
+      "fuentes": []
+    },
+    {
+      "id": "be-namur",
+      "puntaje": 3,
+      "unesco": true,
+      "justificacion": "Su campanario es Patrimonio Mundial y la ciudadela, una de las mayores de Europa, domina la confluencia del Sambre y el Mosa; suma el museo Félicien Rops.",
+      "fuentes": [
+        { "guia": "UNESCO (Campanarios de Bélgica y Francia)", "url": "https://whc.unesco.org/en/list/943/" }
+      ]
+    },
+    {
+      "id": "be-dinant",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Colegiata gótica bajo la ciudadela y la casa de Adolphe Sax, inventor del saxofón.",
+      "fuentes": []
+    },
+    {
+      "id": "be-han-sur-lesse",
+      "puntaje": 1,
+      "unesco": false,
+      "justificacion": "Atracción natural subterránea con poco interés cultural.",
+      "fuentes": []
+    },
+    {
+      "id": "be-durbuy",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Pequeña ciudad medieval de piedra con callejuelas y castillo.",
+      "fuentes": []
+    },
+    {
+      "id": "be-la-roche-en-ardenne",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Ruinas del castillo feudal y museo de la batalla de las Ardenas de 1944.",
+      "fuentes": []
+    },
+    {
+      "id": "be-bouillon",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Castillo de Godofredo de Bouillon, uno de los conjuntos feudales más antiguos de Bélgica, y el Archéoscope sobre las cruzadas.",
+      "fuentes": []
+    },
+    {
+      "id": "be-lieja",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Palacio de los Príncipes-Obispos, el Grand Curtius y la estación de Guillemins de Calatrava.",
+      "fuentes": []
+    },
+    {
+      "id": "be-spa",
+      "puntaje": 2,
+      "unesco": true,
+      "justificacion": "Forma parte de las Grandes ciudades balneario de Europa: termas, casino y paseos del siglo XIX.",
+      "fuentes": []
+    },
+    {
+      "id": "be-hautes-fagnes",
+      "puntaje": 0,
+      "unesco": false,
+      "justificacion": "Espacio natural de turberas sin patrimonio cultural relevante.",
+      "fuentes": []
+    },
+    {
+      "id": "be-hoge-kempen",
+      "puntaje": 1,
+      "unesco": false,
+      "justificacion": "Parque natural; en su entorno quedan restos del patrimonio minero de Limburgo.",
+      "fuentes": []
+    },
+    {
+      "id": "be-waterloo",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "Campo de batalla de 1815: Memorial subterráneo, Butte du Lion, Panorama y la granja de Hougoumont; uno de los sitios históricos más célebres de Europa.",
+      "fuentes": [
+        { "guia": "Fondation Napoléon", "url": "https://fondationnapoleon.org/en/activities-and-services/telling-history/napoleon-year-2021/2021-annee-napoleon-waterloo-memorial-1815/" }
+      ]
+    },
+    {
+      "id": "be-abadia-villers",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Ruinas de una gran abadía cisterciense fundada en 1146.",
+      "fuentes": []
+    },
+    {
+      "id": "be-binche",
+      "puntaje": 3,
+      "unesco": true,
+      "justificacion": "Su carnaval de los Gilles es Patrimonio Inmaterial de la Humanidad y su campanario es Patrimonio Mundial; el Museo Internacional del Carnaval y la Máscara abre todo el año.",
+      "fuentes": [
+        { "guia": "UNESCO (Campanarios de Bélgica y Francia)", "url": "https://whc.unesco.org/en/list/943/" },
+        { "guia": "UNESCO Patrimonio Inmaterial (carnaval en Bélgica)", "url": "https://ich.unesco.org/en/video/21028" }
+      ]
+    },
+    {
+      "id": "nl-amsterdam",
+      "puntaje": 5,
+      "unesco": true,
+      "justificacion": "El anillo de canales del siglo XVII es Patrimonio Mundial; con el Rijksmuseum (Rembrandt, Vermeer), el Museo Van Gogh y la Casa de Ana Frank, museos de referencia mundial.",
+      "fuentes": [
+        { "guia": "UNESCO (Urban Heritage Atlas, Ámsterdam)", "url": "https://whc.unesco.org/en/urban-heritage-atlas/Amsterdam/" }
+      ]
+    },
+    {
+      "id": "nl-rotterdam",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "La fábrica Van Nelle, Patrimonio Mundial, es un referente mundial de la arquitectura moderna; suma las casas cubo, el Markthal y el Depot Boijmans.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/1441/" }
+      ]
+    },
+    {
+      "id": "nl-delft",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Ciudad de Vermeer: Nieuwe Kerk con las tumbas de la casa de Orange, el Prinsenhof y la loza azul de Delft.",
+      "fuentes": []
+    },
+    {
+      "id": "nl-la-haya",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "El Mauritshuis reúne 854 obras de maestros holandeses y flamencos del siglo XVII, con La joven de la perla; suma el Binnenhof y el Palacio de la Paz.",
+      "fuentes": [
+        { "guia": "Mauritshuis (oficial)", "url": "https://www.mauritshuis.nl/media/ubzbp2w2/travel-trade-mauritshuis-the-hague.pdf" }
+      ]
+    },
+    {
+      "id": "nl-haarlem",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "El Museo Frans Hals tiene la mayor colección del pintor; el Teylers, de 1778, es el museo más antiguo del país, y la Grote Kerk de San Bavón guarda un órgano que tocó Mozart.",
+      "fuentes": [
+        { "guia": "I amsterdam (oficial)", "url": "https://iamsterdam.com/en/see-and-do/things-to-do/museums-and-galleries/museums/frans-hals-museum--hal" }
+      ]
+    },
+    {
+      "id": "nl-utrecht",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "La casa Rietveld Schröder, Patrimonio Mundial, es el manifiesto de De Stijl; suma la Domtoren, los muelles del Oudegracht y el Centraal Museum.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/965/gallery/" }
+      ]
+    },
+    {
+      "id": "nl-leiden",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Ciudad universitaria (1575) natal de Rembrandt, con el Museo Nacional de Antigüedades y el Lakenhal.",
+      "fuentes": []
+    },
+    {
+      "id": "nl-maastricht",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Basílicas románicas de San Servacio y Nuestra Señora en torno al Vrijthof, y la feria de arte TEFAF.",
+      "fuentes": []
+    },
+    {
+      "id": "nl-texel",
+      "puntaje": 1,
+      "unesco": true,
+      "justificacion": "Isla del Wadden, Patrimonio Mundial natural; el aporte cultural se limita a museos locales de la isla.",
+      "fuentes": []
+    },
+    {
+      "id": "nl-kinderdijk",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "Red de diques, embalses, estaciones de bombeo y 19 molinos del siglo XVIII, Patrimonio Mundial y símbolo de la gestión del agua neerlandesa.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/818/" }
+      ]
+    },
+    {
+      "id": "nl-giethoorn",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Pueblo de granjas con tejado de junco unidas por canales y puentes de madera.",
+      "fuentes": []
+    },
+    {
+      "id": "nl-hoge-veluwe",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "El Museo Kröller-Müller guarda la segunda colección de Van Gogh del mundo y un jardín de esculturas; en el parque está el pabellón de caza de Berlage.",
+      "fuentes": []
+    },
+    {
+      "id": "nl-keukenhof-bollenstreek",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Jardín histórico y campos de bulbos, herencia del comercio de tulipanes del siglo XVII.",
+      "fuentes": []
+    },
+    {
+      "id": "nl-alkmaar",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Mercado tradicional de quesos en la Waagplein y la Grote Kerk.",
+      "fuentes": []
+    },
+    {
+      "id": "nl-gouda",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Ayuntamiento gótico del siglo XV y vidrieras del siglo XVI de la Sint-Janskerk.",
+      "fuentes": []
+    },
+    {
+      "id": "nl-edam-volendam-marken",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Pueblos pesqueros del antiguo Zuiderzee con casas de madera y trajes tradicionales.",
+      "fuentes": []
+    },
+    {
+      "id": "nl-hoorn-enkhuizen",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Puertos de la Compañía de las Indias Orientales; Enkhuizen alberga el Zuiderzeemuseum al aire libre.",
+      "fuentes": []
+    },
+    {
+      "id": "nl-zaanse-schans",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Molinos industriales y casas de madera verdes de los siglos XVIII y XIX trasladados a un museo vivo.",
+      "fuentes": []
+    },
+    {
+      "id": "nl-groningen",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Torre Martini y el Groninger Museum posmoderno.",
+      "fuentes": []
+    },
+    {
+      "id": "nl-leeuwarden-frisia",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Fries Museum, museo de cerámica Princessehof y la cultura frisona; cerca, en Lemmer, la estación de bombeo Wouda es Patrimonio Mundial.",
+      "fuentes": []
+    },
+    {
+      "id": "nl-islas-wadden",
+      "puntaje": 1,
+      "unesco": true,
+      "justificacion": "Mar de Wadden, Patrimonio Mundial natural; su interés cultural se limita a pueblos isleños y faros.",
+      "fuentes": []
+    },
+    {
+      "id": "nl-den-bosch",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Catedral gótica de San Juan, ciudad natal de El Bosco con su centro de arte, y el Noordbrabants Museum.",
+      "fuentes": []
+    },
+    {
+      "id": "nl-arnhem",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Museo al Aire Libre de los Países Bajos y, en Oosterbeek, el Airborne Museum de la batalla de 1944.",
+      "fuentes": []
+    },
+    {
+      "id": "nl-middelburg-zelanda",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Abadía medieval con la torre Lange Jan y casco comercial del Siglo de Oro.",
+      "fuentes": []
+    },
+    {
+      "id": "lu-luxemburgo-ciudad",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "Barrios antiguos y fortificaciones, Patrimonio Mundial: las Casamatas del Bock, el barrio del Grund y el Palacio Gran Ducal, restos de una de las mayores fortalezas de Europa.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/699/" }
+      ]
+    },
+    {
+      "id": "lu-vianden",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Castillo románico-gótico restaurado de los condes de Vianden y casa de Victor Hugo.",
+      "fuentes": []
+    },
+    {
+      "id": "lu-echternach",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Abadía y basílica de San Willibrord; su procesión danzante de Pentecostés es Patrimonio Inmaterial de la Humanidad.",
+      "fuentes": []
+    },
+    {
+      "id": "lu-mullerthal",
+      "puntaje": 1,
+      "unesco": false,
+      "justificacion": "Espacio natural de roquedos y bosques con poco patrimonio cultural.",
+      "fuentes": []
+    },
+    {
+      "id": "lu-mosela",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Pueblos vinícolas y el Museo Europeo de Schengen, donde se firmó el acuerdo de 1985.",
+      "fuentes": []
+    },
+    {
+      "id": "lu-clervaux",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "El castillo alberga 'The Family of Man' de Steichen, registro Memoria del Mundo de la UNESCO, junto a la abadía de San Mauricio.",
+      "fuentes": []
+    },
+    {
+      "id": "lu-esch-sur-sure",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Pueblo en un meandro del Sûre bajo las ruinas de su castillo.",
+      "fuentes": []
+    },
+    {
+      "id": "lu-bourscheid",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "La mayor ruina de castillo medieval del país, sobre el valle del Sûre.",
+      "fuentes": []
+    },
+    {
+      "id": "lu-diekirch",
+      "puntaje": 2,
+      "unesco": false,
+      "justificacion": "Museo Nacional de Historia Militar dedicado a la batalla de las Ardenas.",
+      "fuentes": []
+    }
+  ],
+  "nuevos": [
+    {
+      "id": "fr-albi",
+      "nombre": "Albi (ciudad episcopal)",
+      "pais_iso": "FR",
+      "region": "Occitania (Tarn)",
+      "lat": 43.9286,
+      "lng": 2.143,
+      "tipo": "ciudad",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "Ciudad episcopal de ladrillo en gótico meridional: la catedral-fortaleza de Santa Cecilia con su Juicio Final pintado y el palacio de la Berbie, que alberga el Museo Toulouse-Lautrec.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/1337/" }
+      ]
+    },
+    {
+      "id": "fr-amiens",
+      "nombre": "Amiens (catedral)",
+      "pais_iso": "FR",
+      "region": "Altos de Francia (Somme)",
+      "lat": 49.8947,
+      "lng": 2.3022,
+      "tipo": "ciudad",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "Una de las mayores iglesias góticas del siglo XIII, construida casi entera entre 1220 y 1288, con una fachada esculpida excepcional; la ciudad suma los hortillonnages y la casa de Julio Verne.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/162/" }
+      ]
+    },
+    {
+      "id": "fr-bourges",
+      "nombre": "Bourges (catedral de San Esteban)",
+      "pais_iso": "FR",
+      "region": "Centro-Valle de Loira (Cher)",
+      "lat": 47.0822,
+      "lng": 2.3994,
+      "tipo": "ciudad",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "Obra maestra gótica de planta singular de cinco naves y vidrieras de los siglos XIII a XVI; el casco conserva el palacio de Jacques Cœur y casas de entramado.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/635/" }
+      ]
+    },
+    {
+      "id": "fr-fontainebleau",
+      "nombre": "Palacio de Fontainebleau",
+      "pais_iso": "FR",
+      "region": "Île-de-France (Sena y Marne)",
+      "lat": 48.4021,
+      "lng": 2.7002,
+      "tipo": "monumento",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "Pabellón de caza medieval convertido por Francisco I en palacio renacentista (galería de Francisco I, escuela de Fontainebleau) y residencia de los soberanos hasta Napoleón III; a 60 km de París.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/160/" }
+      ]
+    },
+    {
+      "id": "fr-vezelay",
+      "nombre": "Vézelay (basílica y colina)",
+      "pais_iso": "FR",
+      "region": "Borgoña-Franco Condado (Yonne)",
+      "lat": 47.4664,
+      "lng": 3.7483,
+      "tipo": "pueblo",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "Basílica románica de la Magdalena, con su tímpano esculpido, sobre un pueblo en lo alto de una colina; gran centro de peregrinación desde el siglo XI y punto de partida de uno de los Caminos de Santiago.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/84/" }
+      ]
+    },
+    {
+      "id": "fr-grotte-chauvet",
+      "nombre": "Cueva Chauvet-Pont d'Arc (réplica Chauvet 2)",
+      "pais_iso": "FR",
+      "region": "Auvernia-Ródano-Alpes (Ardèche)",
+      "lat": 44.392,
+      "lng": 4.414,
+      "tipo": "monumento",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "Guarda los dibujos figurativos más antiguos y mejor conservados que se conocen (30 000–32 000 años); la cueva original está cerrada y se visita su réplica fiel junto a Vallon-Pont-d'Arc.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/1426/" }
+      ]
+    },
+    {
+      "id": "fr-le-puy-en-velay",
+      "nombre": "Le Puy-en-Velay",
+      "pais_iso": "FR",
+      "region": "Auvernia-Ródano-Alpes (Alto Loira)",
+      "lat": 45.0458,
+      "lng": 3.8828,
+      "tipo": "ciudad",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "Catedral románica de Notre-Dame, de influencia mozárabe, inscrita en los Caminos de Santiago, de donde sale la Via Podiensis; la capilla de Saint-Michel-d'Aiguilhe corona un pitón volcánico.",
+      "fuentes": [
+        { "guia": "UNESCO (catedral de Le Puy, Caminos de Santiago)", "url": "https://whc.unesco.org/en/documents/112803" },
+        { "guia": "UNESCO (Caminos de Santiago en Francia)", "url": "https://whc.unesco.org/en/list/868/" }
+      ]
+    },
+    {
+      "id": "be-tournai",
+      "nombre": "Tournai",
+      "pais_iso": "BE",
+      "region": "Henao (Valonia)",
+      "lat": 50.6064,
+      "lng": 3.3893,
+      "tipo": "ciudad",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "Catedral de Notre-Dame de principios del siglo XII, con nave románica, crucero de cinco torres y coro gótico del XIII, y el campanario más antiguo de Bélgica; ambos son Patrimonio Mundial.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/1009/" },
+        { "guia": "UNESCO (Campanarios de Bélgica y Francia)", "url": "https://whc.unesco.org/en/list/943/" }
+      ]
+    },
+    {
+      "id": "be-mons",
+      "nombre": "Mons",
+      "pais_iso": "BE",
+      "region": "Henao (Valonia)",
+      "lat": 50.4542,
+      "lng": 3.9523,
+      "tipo": "ciudad",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "Campanario barroco Patrimonio Mundial y la Ducasse o Doudou, con su dragón, en la lista de gigantes y dragones procesionales; a 6 km están las minas neolíticas de sílex de Spiennes.",
+      "fuentes": [
+        { "guia": "UNESCO (Campanarios de Bélgica y Francia)", "url": "https://whc.unesco.org/en/list/943/" },
+        { "guia": "UNESCO Patrimonio Inmaterial (gigantes y dragones procesionales)", "url": "https://ich.unesco.org/en/RL/processional-giants-and-dragons-in-belgium-and-france-00153?RL=00153" }
+      ]
+    },
+    {
+      "id": "nl-naarden",
+      "nombre": "Naarden-Vesting",
+      "pais_iso": "NL",
+      "region": "Holanda Septentrional",
+      "lat": 52.2953,
+      "lng": 5.1622,
+      "tipo": "pueblo",
+      "puntaje": 3,
+      "unesco": true,
+      "justificacion": "Ciudad fortificada en forma de estrella con doble foso y bastiones, pieza de las Líneas de Defensa por Agua, Patrimonio Mundial, un sistema de más de 200 km.",
+      "fuentes": [
+        { "guia": "UNESCO (Líneas de Defensa por Agua)", "url": "https://whc.unesco.org/en/list/759/maps/" }
+      ]
+    },
+    {
+      "id": "nl-schokland",
+      "nombre": "Schokland",
+      "pais_iso": "NL",
+      "region": "Flevoland",
+      "lat": 52.6383,
+      "lng": 5.7717,
+      "tipo": "monumento",
+      "puntaje": 3,
+      "unesco": true,
+      "justificacion": "Antigua isla del Zuiderzee abandonada en 1859 y hoy rodeada de pólder: restos de poblamiento desde la prehistoria, iglesia y museo que cuentan la lucha contra el agua.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/739/" }
+      ]
+    },
+    {
+      "id": "nl-beemster",
+      "nombre": "Pólder de Beemster",
+      "pais_iso": "NL",
+      "region": "Holanda Septentrional",
+      "lat": 52.5486,
+      "lng": 4.9128,
+      "tipo": "region",
+      "puntaje": 3,
+      "unesco": true,
+      "justificacion": "Pólder desecado a comienzos del siglo XVII con su trazado renacentista de caminos, canales y granjas intacto, modelo de la ingeniería hidráulica neerlandesa.",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/899/" }
+      ]
+    }
+  ]
+}
