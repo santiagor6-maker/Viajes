@@ -1,0 +1,1360 @@
+{
+  "agente": "adrenalina",
+  "subregion": "iberica-italia",
+  "ronda": 4,
+  "criterio": "Regla única para toda la subregión. (1) Toda actividad o parque a 60 km o menos en línea recta cuenta para cada lugar del radio; ya no se acredita solo al lugar base. (2) Tope de 2 para los lugares cuya visita es un monumento, museo, yacimiento o sitio religioso, o un barrio o componente monumental de otro lugar del catálogo (Vaticano, Ostia Antica, Tivoli, Borgo Maggiore, torres de San Marino, templos de Malta, El Escorial, Palacio de Mafra), salvo que la actividad esté en el propio lugar. (3) Tope de 3 para los espacios naturales sin pueblos ni remontes, cuya visita es solo senderismo (Vall del Madriu, Coma Pedrosa, Juclar). (4) Escala: 5 si hay oferta de clase mundial en el lugar o a 15 km o menos, junto con más actividades destacadas (PortAventura desde Tarragona, Mirabilandia desde Rávena, Dolomiti Superski, Courmayeur–Monte Bianco). 4 si hay una actividad de primer nivel europeo a 30 km o menos (Gardaland desde Verona, Skydive Empuriabrava desde Figueres) o varias actividades destacadas. 3 si hay una actividad notable en el radio, o una de primer nivel a más de 30 km (Gardaland desde Mantua, Empuriabrava desde Girona, Volo dell'Angelo desde Matera). 2 si solo hay oferta menor, o si la única actividad está en el borde del radio (50–60 km). (5) Un 3 o más exige al menos una actividad con web del operador, turismo oficial, RCDB o certificadora. Las plataformas de reserva solo cuentan como respaldo y por sí solas no pasan de 2. url_verificada=false marca dominios oficiales de operador que no salieron en las búsquedas de esta ronda. km_aprox=true indica que las coordenadas de la actividad son aproximadas.",
+  "busquedas_usadas": 25,
+  "puntajes": [
+    {
+      "id": "va-basilica-san-pedro",
+      "puntaje": 2,
+      "justificacion": "Cinecittà World (20 km) y MagicLand (42 km) entran en el radio, pero la basílica es un sitio religioso sin actividad propia, así que el puntaje no pasa de 2.",
+      "actividades": [
+        { "nombre": "Cinecittà World", "tipo": "parque_diversiones", "km": 20, "lat": 41.7180, "lng": 12.4450, "temporada": "mar–ene (por calendario)", "url": "https://www.turismoroma.it/it/luoghi/cinecitt%C3%A0-world-il-parco-del-cinema-e-della-tv-di-roma", "url_tipo": "turismo_oficial" },
+        { "nombre": "MagicLand (Valmontone)", "tipo": "parque_diversiones", "km": 42, "lat": 41.7760, "lng": 12.9330, "temporada": "mar–ene (por calendario)", "url": "https://rcdb.com/5627.htm", "url_tipo": "rcdb" }
+      ]
+    },
+    {
+      "id": "va-cupula-san-pedro",
+      "puntaje": 2,
+      "justificacion": "Cinecittà World (20 km) y MagicLand (42 km) entran en el radio. Subir los 551 escalones de la cúpula da vistas, pero no es una actividad de adrenalina, y al ser un monumento religioso el puntaje no pasa de 2.",
+      "actividades": [
+        { "nombre": "Cinecittà World", "tipo": "parque_diversiones", "km": 20, "lat": 41.7180, "lng": 12.4450, "temporada": "mar–ene (por calendario)", "url": "https://www.turismoroma.it/it/luoghi/cinecitt%C3%A0-world-il-parco-del-cinema-e-della-tv-di-roma", "url_tipo": "turismo_oficial" },
+        { "nombre": "MagicLand (Valmontone)", "tipo": "parque_diversiones", "km": 42, "lat": 41.7760, "lng": 12.9330, "temporada": "mar–ene (por calendario)", "url": "https://rcdb.com/5627.htm", "url_tipo": "rcdb" }
+      ]
+    },
+    {
+      "id": "va-museos-vaticanos",
+      "puntaje": 2,
+      "justificacion": "Cinecittà World (21 km) y MagicLand (42 km) entran en el radio, pero es un museo sin actividad propia, así que el puntaje no pasa de 2.",
+      "actividades": [
+        { "nombre": "Cinecittà World", "tipo": "parque_diversiones", "km": 21, "lat": 41.7180, "lng": 12.4450, "temporada": "mar–ene (por calendario)", "url": "https://www.turismoroma.it/it/luoghi/cinecitt%C3%A0-world-il-parco-del-cinema-e-della-tv-di-roma", "url_tipo": "turismo_oficial" },
+        { "nombre": "MagicLand (Valmontone)", "tipo": "parque_diversiones", "km": 42, "lat": 41.7760, "lng": 12.9330, "temporada": "mar–ene (por calendario)", "url": "https://rcdb.com/5627.htm", "url_tipo": "rcdb" }
+      ]
+    },
+    {
+      "id": "va-capilla-sixtina",
+      "puntaje": 2,
+      "justificacion": "Cinecittà World (21 km) y MagicLand (42 km) entran en el radio, pero es un interior artístico y religioso sin actividad propia, así que el puntaje no pasa de 2.",
+      "actividades": [
+        { "nombre": "Cinecittà World", "tipo": "parque_diversiones", "km": 21, "lat": 41.7180, "lng": 12.4450, "temporada": "mar–ene (por calendario)", "url": "https://www.turismoroma.it/it/luoghi/cinecitt%C3%A0-world-il-parco-del-cinema-e-della-tv-di-roma", "url_tipo": "turismo_oficial" },
+        { "nombre": "MagicLand (Valmontone)", "tipo": "parque_diversiones", "km": 42, "lat": 41.7760, "lng": 12.9330, "temporada": "mar–ene (por calendario)", "url": "https://rcdb.com/5627.htm", "url_tipo": "rcdb" }
+      ]
+    },
+    {
+      "id": "va-plaza-san-pedro",
+      "puntaje": 2,
+      "justificacion": "Cinecittà World (20 km) y MagicLand (42 km) entran en el radio, pero es una plaza monumental y religiosa sin actividad propia, así que el puntaje no pasa de 2.",
+      "actividades": [
+        { "nombre": "Cinecittà World", "tipo": "parque_diversiones", "km": 20, "lat": 41.7180, "lng": 12.4450, "temporada": "mar–ene (por calendario)", "url": "https://www.turismoroma.it/it/luoghi/cinecitt%C3%A0-world-il-parco-del-cinema-e-della-tv-di-roma", "url_tipo": "turismo_oficial" },
+        { "nombre": "MagicLand (Valmontone)", "tipo": "parque_diversiones", "km": 42, "lat": 41.7760, "lng": 12.9330, "temporada": "mar–ene (por calendario)", "url": "https://rcdb.com/5627.htm", "url_tipo": "rcdb" }
+      ]
+    },
+    {
+      "id": "va-jardines-vaticanos",
+      "puntaje": 2,
+      "justificacion": "Cinecittà World (21 km) y MagicLand (42 km) entran en el radio, pero son jardines de visita guiada, parte del conjunto monumental vaticano, así que el puntaje no pasa de 2.",
+      "actividades": [
+        { "nombre": "Cinecittà World", "tipo": "parque_diversiones", "km": 21, "lat": 41.7180, "lng": 12.4450, "temporada": "mar–ene (por calendario)", "url": "https://www.turismoroma.it/it/luoghi/cinecitt%C3%A0-world-il-parco-del-cinema-e-della-tv-di-roma", "url_tipo": "turismo_oficial" },
+        { "nombre": "MagicLand (Valmontone)", "tipo": "parque_diversiones", "km": 42, "lat": 41.7760, "lng": 12.9330, "temporada": "mar–ene (por calendario)", "url": "https://rcdb.com/5627.htm", "url_tipo": "rcdb" }
+      ]
+    },
+    {
+      "id": "it-ostia-antica",
+      "puntaje": 2,
+      "justificacion": "Cinecittà World, con la montaña rusa cubierta Inferno, está a 13 km, y MagicLand a 53 km. Es un yacimiento arqueológico sin actividad propia, así que el puntaje no pasa de 2.",
+      "actividades": [
+        { "nombre": "Cinecittà World", "tipo": "parque_diversiones", "km": 13, "lat": 41.7180, "lng": 12.4450, "temporada": "mar–ene (por calendario)", "url": "https://www.turismoroma.it/it/luoghi/cinecitt%C3%A0-world-il-parco-del-cinema-e-della-tv-di-roma", "url_tipo": "turismo_oficial" },
+        { "nombre": "MagicLand (Valmontone)", "tipo": "parque_diversiones", "km": 53, "lat": 41.7760, "lng": 12.9330, "temporada": "mar–ene (por calendario)", "url": "https://rcdb.com/5627.htm", "url_tipo": "rcdb" }
+      ]
+    },
+    {
+      "id": "it-tivoli",
+      "puntaje": 2,
+      "justificacion": "MagicLand (Valmontone) está a 24 km y Cinecittà World a 40 km. La visita es la de dos villas monumentales, Villa d'Este y Villa Adriana, sin actividad propia, así que el puntaje no pasa de 2.",
+      "actividades": [
+        { "nombre": "MagicLand (Valmontone)", "tipo": "parque_diversiones", "km": 24, "lat": 41.7760, "lng": 12.9330, "temporada": "mar–ene (por calendario)", "url": "https://rcdb.com/5627.htm", "url_tipo": "rcdb" },
+        { "nombre": "Cinecittà World", "tipo": "parque_diversiones", "km": 40, "lat": 41.7180, "lng": 12.4450, "temporada": "mar–ene (por calendario)", "url": "https://www.turismoroma.it/it/luoghi/cinecitt%C3%A0-world-il-parco-del-cinema-e-della-tv-di-roma", "url_tipo": "turismo_oficial" }
+      ]
+    },
+    {
+      "id": "it-mantova-sabbioneta",
+      "puntaje": 3,
+      "justificacion": "Gardaland, uno de los grandes parques de Europa, está a 34 km. Cuenta como una actividad notable, pero a más de 30 km, por eso queda en 3, un punto por debajo de Verona (22 km).",
+      "actividades": [
+        { "nombre": "Gardaland", "tipo": "parque_diversiones", "km": 34, "lat": 45.4550, "lng": 10.7140, "temporada": "mar–nov (+ eventos de Halloween y Navidad)", "url": "https://www.gardaland.it/", "url_tipo": "operador" }
+      ]
+    },
+    {
+      "id": "it-verona",
+      "puntaje": 4,
+      "justificacion": "Gardaland, uno de los grandes parques temáticos de Europa, está a 22 km. Es un solo gran parque, sin más oferta documentada, así que queda en 4, por debajo de las Dolomitas (5), que tienen varias actividades de primer nivel.",
+      "actividades": [
+        { "nombre": "Gardaland", "tipo": "parque_diversiones", "km": 22, "lat": 45.4550, "lng": 10.7140, "temporada": "mar–nov (+ eventos de Halloween y Navidad)", "url": "https://www.gardaland.it/", "url_tipo": "operador" }
+      ]
+    },
+    {
+      "id": "it-lago-de-garda",
+      "puntaje": 4,
+      "justificacion": "Gardaland, uno de los grandes parques de Europa, está a 21 km. En el norte del lago, Torbole es un spot clásico de windsurf y Arco lo es de escalada y vías ferratas, pero ninguno se documentó con operador, así que el puntaje es el mismo que el de Verona.",
+      "actividades": [
+        { "nombre": "Gardaland", "tipo": "parque_diversiones", "km": 21, "lat": 45.4550, "lng": 10.7140, "temporada": "mar–nov (+ eventos de Halloween y Navidad)", "url": "https://www.gardaland.it/", "url_tipo": "operador" }
+      ]
+    },
+    {
+      "id": "sm-borgo-maggiore",
+      "puntaje": 2,
+      "justificacion": "Aquafan (Riccione) está a 17 km y Mirabilandia a 47 km. Borgo Maggiore es el barrio histórico al pie del Titano, con la plaza del mercado y el teleférico a la ciudad, que es un traslado. Como componente monumental de San Marino, el puntaje no pasa de 2.",
+      "actividades": [
+        { "nombre": "Aquafan (Riccione)", "tipo": "parque_acuatico", "km": 17, "lat": 43.9862, "lng": 12.6537, "temporada": "jun–sep", "url": "https://www.italia.it/it/emilia-romagna/aquafan-riccione", "url_tipo": "turismo_oficial" },
+        { "nombre": "Mirabilandia (con Mirabeach)", "tipo": "parque_diversiones", "km": 47, "lat": 44.3390, "lng": 12.2630, "temporada": "abr–nov", "url": "https://www.mirabilandia.it/", "url_tipo": "operador" }
+      ]
+    },
+    {
+      "id": "sm-centro-historico",
+      "puntaje": 3,
+      "justificacion": "Aquafan, en Riccione, uno de los grandes parques acuáticos de Italia, está a 17 km, y Mirabilandia a 47 km. Es la ciudad base del microestado. En el Monte Titano no hay actividad de adrenalina documentada.",
+      "actividades": [
+        { "nombre": "Aquafan (Riccione)", "tipo": "parque_acuatico", "km": 17, "lat": 43.9862, "lng": 12.6537, "temporada": "jun–sep", "url": "https://www.italia.it/it/emilia-romagna/aquafan-riccione", "url_tipo": "turismo_oficial" },
+        { "nombre": "Mirabilandia (con Mirabeach)", "tipo": "parque_diversiones", "km": 47, "lat": 44.3390, "lng": 12.2630, "temporada": "abr–nov", "url": "https://www.mirabilandia.it/", "url_tipo": "operador" }
+      ]
+    },
+    {
+      "id": "sm-torre-guaita",
+      "puntaje": 2,
+      "justificacion": "Aquafan (17 km) y Mirabilandia (unos 48 km) entran en el radio, pero es una torre medieval visitable, y el Passo delle Rupi es un sendero con vistas. Como monumento, el puntaje no pasa de 2.",
+      "actividades": [
+        { "nombre": "Aquafan (Riccione)", "tipo": "parque_acuatico", "km": 17, "lat": 43.9862, "lng": 12.6537, "temporada": "jun–sep", "url": "https://www.italia.it/it/emilia-romagna/aquafan-riccione", "url_tipo": "turismo_oficial" },
+        { "nombre": "Mirabilandia (con Mirabeach)", "tipo": "parque_diversiones", "km": 48, "lat": 44.3390, "lng": 12.2630, "temporada": "abr–nov", "url": "https://www.mirabilandia.it/", "url_tipo": "operador" }
+      ]
+    },
+    {
+      "id": "sm-torre-cesta",
+      "puntaje": 2,
+      "justificacion": "Aquafan (17 km) y Mirabilandia (unos 48 km) entran en el radio, pero es una fortaleza con museo de armas. Como monumento, el puntaje no pasa de 2.",
+      "actividades": [
+        { "nombre": "Aquafan (Riccione)", "tipo": "parque_acuatico", "km": 17, "lat": 43.9862, "lng": 12.6537, "temporada": "jun–sep", "url": "https://www.italia.it/it/emilia-romagna/aquafan-riccione", "url_tipo": "turismo_oficial" },
+        { "nombre": "Mirabilandia (con Mirabeach)", "tipo": "parque_diversiones", "km": 48, "lat": 44.3390, "lng": 12.2630, "temporada": "abr–nov", "url": "https://www.mirabilandia.it/", "url_tipo": "operador" }
+      ]
+    },
+    {
+      "id": "ad-andorra-la-vella-escaldes",
+      "puntaje": 4,
+      "justificacion": "El Tobotronc de Naturland, que según Guinness es la montaña rusa alpina más larga del mundo (5,3 km y 400 m de desnivel), está a 7 km, y Grandvalira y Ordino Arcalís a 14 km. Son varias actividades destacadas, pero ninguna es un parque de clase mundial del nivel de PortAventura.",
+      "actividades": [
+        { "nombre": "Tobotronc de Naturland (montaña rusa alpina de 5,3 km)", "tipo": "alpine_coaster", "km": 7, "lat": 42.4430, "lng": 1.5380, "temporada": "todo el año (sujeto a meteorología)", "url": "https://visitandorra.com/en/nature/tobotronc-at-naturland/", "url_tipo": "turismo_oficial" },
+        { "nombre": "Grandvalira (esquí, mayor dominio de los Pirineos)", "tipo": "esqui", "km": 14, "lat": 42.5770, "lng": 1.6680, "temporada": "dic–abr", "url": "https://www.grandvalira.com/", "url_tipo": "operador", "url_verificada": false },
+        { "nombre": "Ordino Arcalís (esquí y freeride)", "tipo": "esqui", "km": 14, "lat": 42.6280, "lng": 1.4880, "temporada": "dic–abr", "url": "https://www.ordinoarcalis.com/", "url_tipo": "operador", "url_verificada": false }
+      ]
+    },
+    {
+      "id": "ad-grandvalira-pas-de-la-casa",
+      "puntaje": 4,
+      "justificacion": "Es el propio dominio de Grandvalira, con más de 200 km de pistas entre Pas de la Casa, Grau Roig, Soldeu, El Tarter, Canillo y Encamp. El Tobotronc está a 19 km y Ordino Arcalís a 22 km. Es oferta destacada, pero no de clase mundial.",
+      "actividades": [
+        { "nombre": "Grandvalira (esquí, mayor dominio de los Pirineos)", "tipo": "esqui", "km": 7, "lat": 42.5770, "lng": 1.6680, "temporada": "dic–abr", "url": "https://www.grandvalira.com/", "url_tipo": "operador", "url_verificada": false },
+        { "nombre": "Grandvalira (ficha de destino de World Travel Guide, Soldeu)", "tipo": "esqui", "km": 7, "lat": 42.5770, "lng": 1.6680, "temporada": "dic–abr", "url": "https://www.worldtravelguide.net/guides/europe/andorra/soldeu/", "url_tipo": "respaldo" },
+        { "nombre": "Tobotronc de Naturland (montaña rusa alpina de 5,3 km)", "tipo": "alpine_coaster", "km": 19, "lat": 42.4430, "lng": 1.5380, "temporada": "todo el año (sujeto a meteorología)", "url": "https://visitandorra.com/en/nature/tobotronc-at-naturland/", "url_tipo": "turismo_oficial" },
+        { "nombre": "Ordino Arcalís (esquí y freeride)", "tipo": "esqui", "km": 22, "lat": 42.6280, "lng": 1.4880, "temporada": "dic–abr", "url": "https://www.ordinoarcalis.com/", "url_tipo": "operador", "url_verificada": false }
+      ]
+    },
+    {
+      "id": "ad-ordino-arcalis",
+      "puntaje": 4,
+      "justificacion": "Es la propia estación de Ordino Arcalís, conocida por el freeride. Grandvalira está a 11 km y el Tobotronc a 13 km. Son varias actividades destacadas, pero no de clase mundial.",
+      "actividades": [
+        { "nombre": "Ordino Arcalís (esquí y freeride)", "tipo": "esqui", "km": 9, "lat": 42.6280, "lng": 1.4880, "temporada": "dic–abr", "url": "https://www.ordinoarcalis.com/", "url_tipo": "operador", "url_verificada": false },
+        { "nombre": "Grandvalira (esquí, mayor dominio de los Pirineos)", "tipo": "esqui", "km": 11, "lat": 42.5770, "lng": 1.6680, "temporada": "dic–abr", "url": "https://www.grandvalira.com/", "url_tipo": "operador", "url_verificada": false },
+        { "nombre": "Tobotronc de Naturland (montaña rusa alpina de 5,3 km)", "tipo": "alpine_coaster", "km": 13, "lat": 42.4430, "lng": 1.5380, "temporada": "todo el año (sujeto a meteorología)", "url": "https://visitandorra.com/en/nature/tobotronc-at-naturland/", "url_tipo": "turismo_oficial" }
+      ]
+    },
+    {
+      "id": "ad-naturlandia",
+      "puntaje": 4,
+      "justificacion": "Aquí mismo está el Tobotronc, que según Guinness es la montaña rusa alpina más larga del mundo: 5,3 km con 400 m de desnivel, en funcionamiento desde 2007. Grandvalira está a 18 km y Ordino Arcalís a 21 km. Es una atracción única, pero el parque no es de clase mundial.",
+      "actividades": [
+        { "nombre": "Tobotronc de Naturland (montaña rusa alpina de 5,3 km)", "tipo": "alpine_coaster", "km": 0, "lat": 42.4430, "lng": 1.5380, "temporada": "todo el año (sujeto a meteorología)", "url": "https://visitandorra.com/en/nature/tobotronc-at-naturland/", "url_tipo": "turismo_oficial" },
+        { "nombre": "Tobotronc: récord de la montaña rusa alpina más larga (Guinness World Records)", "tipo": "alpine_coaster", "km": 0, "lat": 42.4430, "lng": 1.5380, "temporada": "todo el año (sujeto a meteorología)", "url": "https://www.guinnessworldrecords.com/world-records/600830-longest-mountain-coaster", "url_tipo": "otro" },
+        { "nombre": "Grandvalira (esquí, mayor dominio de los Pirineos)", "tipo": "esqui", "km": 18, "lat": 42.5770, "lng": 1.6680, "temporada": "dic–abr", "url": "https://www.grandvalira.com/", "url_tipo": "operador", "url_verificada": false },
+        { "nombre": "Ordino Arcalís (esquí y freeride)", "tipo": "esqui", "km": 21, "lat": 42.6280, "lng": 1.4880, "temporada": "dic–abr", "url": "https://www.ordinoarcalis.com/", "url_tipo": "operador", "url_verificada": false }
+      ]
+    },
+    {
+      "id": "ad-canillo-sant-joan-de-caselles",
+      "puntaje": 4,
+      "justificacion": "Canillo es uno de los accesos a Grandvalira y tiene su propio sector de pistas con telecabina desde el pueblo, así que la actividad está en el lugar y no se aplica el tope de los monumentos. Ordino Arcalís está a 11 km y el Tobotronc a 16 km.",
+      "actividades": [
+        { "nombre": "Grandvalira (esquí, sector Canillo y resto del dominio)", "tipo": "esqui", "km": 6, "lat": 42.5770, "lng": 1.6680, "temporada": "dic–abr", "url": "https://www.grandvalira.com/", "url_tipo": "operador", "url_verificada": false },
+        { "nombre": "Sector Canillo de Grandvalira (ficha de estación)", "tipo": "esqui", "km": 0, "lat": 42.5670, "lng": 1.6000, "temporada": "dic–abr", "url": "https://www.iloveski.org/es/estaciones/grandvalira/", "url_tipo": "respaldo", "km_aprox": true },
+        { "nombre": "Ordino Arcalís (esquí y freeride)", "tipo": "esqui", "km": 11, "lat": 42.6280, "lng": 1.4880, "temporada": "dic–abr", "url": "https://www.ordinoarcalis.com/", "url_tipo": "operador", "url_verificada": false },
+        { "nombre": "Tobotronc de Naturland (montaña rusa alpina de 5,3 km)", "tipo": "alpine_coaster", "km": 16, "lat": 42.4430, "lng": 1.5380, "temporada": "todo el año (sujeto a meteorología)", "url": "https://visitandorra.com/en/nature/tobotronc-at-naturland/", "url_tipo": "turismo_oficial" }
+      ]
+    },
+    {
+      "id": "ad-vall-del-madriu",
+      "puntaje": 3,
+      "justificacion": "Es un valle glaciar protegido, sin carreteras ni remontes, y la visita es senderismo. La oferta está fuera del valle: el Tobotronc a 7 km, Grandvalira a 12 km y Ordino Arcalís a 17 km. Como espacio natural sin actividad propia, el puntaje no pasa de 3.",
+      "actividades": [
+        { "nombre": "Tobotronc de Naturland (montaña rusa alpina de 5,3 km)", "tipo": "alpine_coaster", "km": 7, "lat": 42.4430, "lng": 1.5380, "temporada": "todo el año (sujeto a meteorología)", "url": "https://visitandorra.com/en/nature/tobotronc-at-naturland/", "url_tipo": "turismo_oficial" },
+        { "nombre": "Grandvalira (esquí, mayor dominio de los Pirineos)", "tipo": "esqui", "km": 12, "lat": 42.5770, "lng": 1.6680, "temporada": "dic–abr", "url": "https://www.grandvalira.com/", "url_tipo": "operador", "url_verificada": false },
+        { "nombre": "Ordino Arcalís (esquí y freeride)", "tipo": "esqui", "km": 17, "lat": 42.6280, "lng": 1.4880, "temporada": "dic–abr", "url": "https://www.ordinoarcalis.com/", "url_tipo": "operador", "url_verificada": false }
+      ]
+    },
+    {
+      "id": "ad-coma-pedrosa",
+      "puntaje": 3,
+      "justificacion": "Es un parque natural de alta montaña, con el pico más alto de Andorra, y la visita es senderismo. Ordino Arcalís está a 5 km, y el Tobotronc y Grandvalira a 18 km. Como espacio natural sin actividad propia, el puntaje no pasa de 3.",
+      "actividades": [
+        { "nombre": "Ordino Arcalís (esquí y freeride)", "tipo": "esqui", "km": 5, "lat": 42.6280, "lng": 1.4880, "temporada": "dic–abr", "url": "https://www.ordinoarcalis.com/", "url_tipo": "operador", "url_verificada": false },
+        { "nombre": "Tobotronc de Naturland (montaña rusa alpina de 5,3 km)", "tipo": "alpine_coaster", "km": 18, "lat": 42.4430, "lng": 1.5380, "temporada": "todo el año (sujeto a meteorología)", "url": "https://visitandorra.com/en/nature/tobotronc-at-naturland/", "url_tipo": "turismo_oficial" },
+        { "nombre": "Grandvalira (esquí, mayor dominio de los Pirineos)", "tipo": "esqui", "km": 18, "lat": 42.5770, "lng": 1.6680, "temporada": "dic–abr", "url": "https://www.grandvalira.com/", "url_tipo": "operador", "url_verificada": false }
+      ]
+    },
+    {
+      "id": "ad-estanys-de-juclar",
+      "puntaje": 3,
+      "justificacion": "Son lagos glaciares a los que solo se llega a pie, y la visita es senderismo. Grandvalira está a 6 km, Ordino Arcalís a 19 km y el Tobotronc a 24 km. Como espacio natural sin actividad propia, el puntaje no pasa de 3.",
+      "actividades": [
+        { "nombre": "Grandvalira (esquí, mayor dominio de los Pirineos)", "tipo": "esqui", "km": 6, "lat": 42.5770, "lng": 1.6680, "temporada": "dic–abr", "url": "https://www.grandvalira.com/", "url_tipo": "operador", "url_verificada": false },
+        { "nombre": "Ordino Arcalís (esquí y freeride)", "tipo": "esqui", "km": 19, "lat": 42.6280, "lng": 1.4880, "temporada": "dic–abr", "url": "https://www.ordinoarcalis.com/", "url_tipo": "operador", "url_verificada": false },
+        { "nombre": "Tobotronc de Naturland (montaña rusa alpina de 5,3 km)", "tipo": "alpine_coaster", "km": 24, "lat": 42.4430, "lng": 1.5380, "temporada": "todo el año (sujeto a meteorología)", "url": "https://visitandorra.com/en/nature/tobotronc-at-naturland/", "url_tipo": "turismo_oficial" }
+      ]
+    },
+    {
+      "id": "es-aiguestortes",
+      "puntaje": 4,
+      "justificacion": "Hay varias actividades destacadas, pero fuera del parque. Baqueira Beret está a 14 km, y Llavorsí, el centro del rafting en el Noguera Pallaresa, a 20 km. En Andorra, a 40–46 km, están Ordino Arcalís y el Tobotronc. Es el mismo criterio que Ordesa.",
+      "actividades": [
+        { "nombre": "Baqueira Beret (esquí)", "tipo": "esqui", "km": 14, "lat": 42.6985, "lng": 0.9330, "temporada": "dic–abr", "url": "https://www.baqueira.es/", "url_tipo": "operador", "url_verificada": false },
+        { "nombre": "Rafting en el Noguera Pallaresa con RocRoi (Llavorsí–Rialp y Llavorsí–Sort)", "tipo": "rafting", "km": 20, "lat": 42.4950, "lng": 1.2130, "temporada": "abr–sep (según caudal)", "url": "https://www.rocroi.com/en/centers/llavorsi/rafting-llavorsi/", "url_tipo": "operador" },
+        { "nombre": "Ordino Arcalís (esquí y freeride)", "tipo": "esqui", "km": 40, "lat": 42.6280, "lng": 1.4880, "temporada": "dic–abr", "url": "https://www.ordinoarcalis.com/", "url_tipo": "operador", "url_verificada": false },
+        { "nombre": "Tobotronc de Naturland (montaña rusa alpina de 5,3 km)", "tipo": "alpine_coaster", "km": 46, "lat": 42.4430, "lng": 1.5380, "temporada": "todo el año (sujeto a meteorología)", "url": "https://visitandorra.com/en/nature/tobotronc-at-naturland/", "url_tipo": "turismo_oficial" }
+      ]
+    },
+    {
+      "id": "es-priorat",
+      "puntaje": 4,
+      "justificacion": "PortAventura World está a 29 km. En Ferrari Land está Red Force, la montaña rusa más alta y rápida de Europa (112 m, 180 km/h), y en PortAventura Park, Shambhala y Dragon Khan. Es oferta de clase mundial, pero a casi 30 km y por carreteras de montaña, así que queda en 4, frente al 5 de Tarragona, a 8 km.",
+      "actividades": [
+        { "nombre": "PortAventura Park (Shambhala, Dragon Khan)", "tipo": "parque_diversiones", "km": 29, "lat": 41.0868, "lng": 1.1575, "temporada": "mar–ene (según calendario)", "url": "https://www.portaventuraworld.com/en/parks", "url_tipo": "operador" },
+        { "nombre": "Ferrari Land (Red Force, 112 m)", "tipo": "parque_diversiones", "km": 29, "lat": 41.0868, "lng": 1.1575, "temporada": "abr–ene", "url": "https://www.portaventuraworld.com/en/ferrari-land", "url_tipo": "operador" }
+      ]
+    },
+    {
+      "id": "es-girona",
+      "puntaje": 3,
+      "justificacion": "Skydive Empuriabrava, una de las zonas de salto más conocidas de Europa, está a 39 km y ofrece saltos en tándem todo el año. Es una sola actividad de primer nivel a más de 30 km, así que queda en 3, frente al 4 de Figueres, a 12 km.",
+      "actividades": [
+        { "nombre": "Skydive Empuriabrava (paracaidismo en tándem)", "tipo": "paracaidismo", "km": 39, "lat": 42.2600, "lng": 3.1080, "temporada": "todo el año", "url": "https://www.skydiveempuriabrava.com/", "url_tipo": "operador", "url_verificada": false }
+      ]
+    },
+    {
+      "id": "es-el-escorial",
+      "puntaje": 2,
+      "justificacion": "Valdesquí está a 28 km y el Parque de Atracciones de Madrid a 39 km, pero la visita es el Real Monasterio, sin actividad propia, así que el puntaje no pasa de 2.",
+      "actividades": [
+        { "nombre": "Valdesquí (esquí, Sierra de Guadarrama)", "tipo": "esqui", "km": 28, "lat": 40.7980, "lng": -3.9580, "temporada": "dic–mar", "url": "https://www.valdesqui.es/", "url_tipo": "operador", "url_verificada": false },
+        { "nombre": "Parque de Atracciones de Madrid", "tipo": "parque_diversiones", "km": 39, "lat": 40.4113, "lng": -3.7502, "temporada": "todo el año (días seleccionados)", "url": "https://www.parquedeatracciones.es/prepara-tu-visita/informacion-relevante/sobre-el-parque", "url_tipo": "operador" }
+      ]
+    },
+    {
+      "id": "pt-mafra",
+      "puntaje": 2,
+      "justificacion": "Ericeira, la única Reserva Mundial de Surf de Europa, está a 8 km, con clases diarias en Foz do Lizandro. Pero la visita es el Palacio-Convento de Mafra, sin actividad propia, así que el puntaje no pasa de 2.",
+      "actividades": [
+        { "nombre": "Clases de surf en Ericeira (Rapture Surfcamps, Foz do Lizandro)", "tipo": "otro", "km": 8, "lat": 38.9631, "lng": -9.4176, "temporada": "todo el año (clases de lunes a sábado)", "url": "https://www.rapturecamps.com/portugal-surfcamp/surf-lessons", "url_tipo": "operador", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "pt-sintra",
+      "puntaje": 3,
+      "justificacion": "En la Reserva Mundial de Surf de Ericeira, a 18 km, hay clases diarias para principiantes en la playa de Foz do Lizandro. Sintra es una villa con sierra y costa propias, no un solo monumento, así que cuenta la escala completa.",
+      "actividades": [
+        { "nombre": "Clases de surf en Ericeira (Rapture Surfcamps, Foz do Lizandro)", "tipo": "otro", "km": 18, "lat": 38.9631, "lng": -9.4176, "temporada": "todo el año (clases de lunes a sábado)", "url": "https://www.rapturecamps.com/portugal-surfcamp/surf-lessons", "url_tipo": "operador", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "pt-lisboa",
+      "puntaje": 3,
+      "justificacion": "En la Reserva Mundial de Surf de Ericeira, a 36 km, hay clases diarias para principiantes en la playa de Foz do Lizandro. Es una actividad notable a más de 30 km.",
+      "actividades": [
+        { "nombre": "Clases de surf en Ericeira (Rapture Surfcamps, Foz do Lizandro)", "tipo": "otro", "km": 36, "lat": 38.9631, "lng": -9.4176, "temporada": "todo el año (clases de lunes a sábado)", "url": "https://www.rapturecamps.com/portugal-surfcamp/surf-lessons", "url_tipo": "operador", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "pt-porto",
+      "puntaje": 3,
+      "justificacion": "El puente colgante 516 Arouca, de 516 m y a unos 175 m sobre el Paiva, y los Passadiços do Paiva están a 42 km. Hay surf en Matosinhos, pero no se documentó ninguna escuela.",
+      "actividades": [
+        { "nombre": "Puente 516 Arouca y Passadiços do Paiva", "tipo": "otro", "km": 42, "lat": 40.9644, "lng": -8.1753, "temporada": "todo el año (sujeto a meteorología)", "url": "https://516arouca.pt/", "url_tipo": "operador" }
+      ]
+    },
+    {
+      "id": "pt-guimaraes",
+      "puntaje": 2,
+      "justificacion": "El puente 516 Arouca y los Passadiços do Paiva están a 54 km, en el borde del radio.",
+      "actividades": [
+        { "nombre": "Puente 516 Arouca y Passadiços do Paiva", "tipo": "otro", "km": 54, "lat": 40.9644, "lng": -8.1753, "temporada": "todo el año (sujeto a meteorología)", "url": "https://516arouca.pt/", "url_tipo": "operador" }
+      ]
+    },
+    {
+      "id": "pt-amarante",
+      "puntaje": 3,
+      "justificacion": "El puente colgante 516 Arouca y los Passadiços do Paiva están a 35 km, más cerca que desde Oporto, así que tiene el mismo puntaje.",
+      "actividades": [
+        { "nombre": "Puente 516 Arouca y Passadiços do Paiva", "tipo": "otro", "km": 35, "lat": 40.9644, "lng": -8.1753, "temporada": "todo el año (sujeto a meteorología)", "url": "https://516arouca.pt/", "url_tipo": "operador" }
+      ]
+    },
+    {
+      "id": "pt-aveiro",
+      "puntaje": 2,
+      "justificacion": "El puente 516 Arouca y los Passadiços do Paiva están a 54 km, en el borde del radio, igual que desde Guimarães. Hay surf en Costa Nova, pero no se documentó ninguna escuela.",
+      "actividades": [
+        { "nombre": "Puente 516 Arouca y Passadiços do Paiva", "tipo": "otro", "km": 54, "lat": 40.9644, "lng": -8.1753, "temporada": "todo el año (sujeto a meteorología)", "url": "https://516arouca.pt/", "url_tipo": "operador" }
+      ]
+    },
+    {
+      "id": "pt-nazare",
+      "puntaje": 2,
+      "justificacion": "Las olas gigantes de la Praia do Norte (oct–mar) son un espectáculo para mirar, solo aptas para surfistas expertos con moto de apoyo. En la playa del pueblo hay escuelas con licencia municipal y clases de surf y bodyboard, pero solo aparecieron en plataformas de reserva, así que el puntaje no pasa de 2.",
+      "actividades": [
+        { "nombre": "Clases de surf y bodyboard (Nazaré Surf School)", "tipo": "otro", "km": 1, "lat": 39.6010, "lng": -9.0710, "temporada": "todo el año (clases sobre todo may–oct)", "url": "https://www.yumping.com/en/water-sports/nazare-surf-school--e19765385", "url_tipo": "respaldo", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "pt-peniche-berlengas",
+      "puntaje": 2,
+      "justificacion": "Supertubos es una de las olas de referencia del surf europeo y sede de una etapa del circuito mundial, y Baleal tiene muchas escuelas. No se encontró la web de ninguna escuela ni una ficha de turismo oficial, así que el puntaje no pasa de 2.",
+      "actividades": []
+    },
+    {
+      "id": "pt-madeira-rabacal",
+      "puntaje": 3,
+      "justificacion": "En el propio Rabaçal está el barranco de la Ribeira do Lajeado, que según Visit Madeira es de 1,9 km, unas 4 h 15 min y 360 m de desnivel, y sale de la laguna Dona Beja. El primer tramo es apto para principiantes, y el final tiene rápeles de 80 y 120 m en las cascadas del Vento y del Risco.",
+      "actividades": [
+        { "nombre": "Barranquismo en la Ribeira do Lajeado (ficha de Visit Madeira)", "tipo": "canyoning", "km": 1, "lat": 32.7560, "lng": -17.1300, "temporada": "todo el año (según caudal)", "url": "https://visitmadeira.com/en/what-to-do/nature-seekers/activities/canyoning/ribeira-do-lajeado/", "url_tipo": "turismo_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "pt-madeira-funchal",
+      "puntaje": 3,
+      "justificacion": "El barranco de la Ribeira do Lajeado, en el Rabaçal, está a unos 24 km. Tiene un tramo de iniciación y rápeles de 80 y 120 m al final. Las empresas de barranquismo recogen en Funchal.",
+      "actividades": [
+        { "nombre": "Barranquismo en la Ribeira do Lajeado (ficha de Visit Madeira)", "tipo": "canyoning", "km": 24, "lat": 32.7560, "lng": -17.1300, "temporada": "todo el año (según caudal)", "url": "https://visitmadeira.com/en/what-to-do/nature-seekers/activities/canyoning/ribeira-do-lajeado/", "url_tipo": "turismo_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "pt-madeira-porto-moniz",
+      "puntaje": 3,
+      "justificacion": "El barranco de la Ribeira do Lajeado, en el Rabaçal, está a unos 13 km. Tiene un tramo de iniciación y rápeles de 80 y 120 m en las cascadas del Vento y del Risco.",
+      "actividades": [
+        { "nombre": "Barranquismo en la Ribeira do Lajeado (ficha de Visit Madeira)", "tipo": "canyoning", "km": 13, "lat": 32.7560, "lng": -17.1300, "temporada": "todo el año (según caudal)", "url": "https://visitmadeira.com/en/what-to-do/nature-seekers/activities/canyoning/ribeira-do-lajeado/", "url_tipo": "turismo_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "pt-peneda-geres",
+      "puntaje": 3,
+      "justificacion": "Hay barranquismo dentro del parque. Go2Nature ofrece descensos con cuerdas, toboganes naturales, saltos y natación desde los 6 años con acompañante, y Peneda Gerês Canyoning Center opera en los ríos Varziela y Laboreiro, en Castro Laboreiro.",
+      "actividades": [
+        { "nombre": "Barranquismo en Peneda-Gerês (Go2Nature)", "tipo": "canyoning", "km": 0, "lat": 41.7300, "lng": -8.1600, "temporada": "may–sep", "url": "https://go2nature.pt/en/programas-e-atividades/canyoning/", "url_tipo": "operador", "km_aprox": true },
+        { "nombre": "Barranquismo en los ríos Varziela y Laboreiro (Peneda Gerês Canyoning Center)", "tipo": "canyoning", "km": 33, "lat": 42.0270, "lng": -8.1580, "temporada": "may–sep", "url": "https://www.checkyeti.com/it/p/4139/peneda-geres-canyoning-center", "url_tipo": "respaldo", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "pt-braga",
+      "puntaje": 2,
+      "justificacion": "El barranquismo de Peneda-Gerês queda a unos 32 km, en Entre Ambos-os-Rios. El operador solo aparece en plataformas de reserva, así que el puntaje no pasa de 2.",
+      "actividades": [
+        { "nombre": "Barranquismo en Peneda-Gerês (Tobogã Portugal Adventure, Entre Ambos-os-Rios)", "tipo": "canyoning", "km": 32, "lat": 41.8200, "lng": -8.3300, "temporada": "may–sep", "url": "https://www.yumping.com/it/multiavventura/toboga-portugal-adventure-tours--e19762493", "url_tipo": "respaldo", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "pt-viana-do-castelo",
+      "puntaje": 2,
+      "justificacion": "El barranquismo de Peneda-Gerês queda a unos 44 km, en Entre Ambos-os-Rios. Su operador solo aparece en plataformas de reserva, y el kitesurf del Cabedelo no tiene escuela documentada.",
+      "actividades": [
+        { "nombre": "Barranquismo en Peneda-Gerês (Tobogã Portugal Adventure, Entre Ambos-os-Rios)", "tipo": "canyoning", "km": 44, "lat": 41.8200, "lng": -8.3300, "temporada": "may–sep", "url": "https://www.yumping.com/it/multiavventura/toboga-portugal-adventure-tours--e19762493", "url_tipo": "respaldo", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "es-fuerteventura",
+      "puntaje": 3,
+      "justificacion": "Flag Beach, a 4 km de Corralejo, es un spot de kitesurf con entrada fácil al agua y fondo de arena, según Turismo de Canarias. Sus vientos más favorables son del norte, noroeste y noreste. La escuela Flag Beach funciona desde 1988 con surf, windsurf y kitesurf. Sotavento (Jandía) queda a unos 75 km, fuera del radio.",
+      "actividades": [
+        { "nombre": "Kitesurf en Flag Beach (ficha de Hello Canary Islands)", "tipo": "otro", "km": 4, "lat": 28.7250, "lng": -13.8350, "temporada": "todo el año (mejor mar–nov)", "url": "https://www.hellocanaryislands.com/kitesurfing/fuerteventura/kitesurf-flag-beach", "url_tipo": "turismo_oficial", "km_aprox": true },
+        { "nombre": "Cursos de kitesurf (escuela Flag Beach, Corralejo)", "tipo": "otro", "km": 4, "lat": 28.7250, "lng": -13.8350, "temporada": "todo el año", "url": "https://www.yumping.com/deportes-acuaticos/flag-beach--e14196", "url_tipo": "respaldo", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "es-gran-canaria",
+      "puntaje": 3,
+      "justificacion": "Pozo Izquierdo, a 25 km, es uno de los spots de windsurf de olas más exigentes del mundo, con alisios casi constantes, y tiene escuelas para todos los niveles. Las escuelas solo aparecen en plataformas de reserva, pero el International Windsurfing Centre figura en el turismo oficial de Gran Canaria.",
+      "actividades": [
+        { "nombre": "Windsurf en Pozo Izquierdo (International Windsurfing Centre, ficha de Turismo de Gran Canaria)", "tipo": "otro", "km": 25, "lat": 27.8180, "lng": -15.4230, "temporada": "todo el año (alisios más fuertes jun–ago)", "url": "https://www.grancanaria.com/turismo/en/nautical/surf-bodyboard-windsurf-y-kitesurf/international-windsurfing-centre/", "url_tipo": "turismo_oficial", "km_aprox": true },
+        { "nombre": "Cursos de windsurf y wingfoil (LPWS Pozo Izquierdo)", "tipo": "otro", "km": 25, "lat": 27.8180, "lng": -15.4230, "temporada": "todo el año", "url": "https://en.yumping.com/water-sports/lpws-pozo-izquierdo--e19635720", "url_tipo": "respaldo", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "es-toledo",
+      "puntaje": 3,
+      "justificacion": "Parque Warner Madrid, con las montañas rusas Superman y Coaster Express y la torre de caída La Venganza del Enigma, está a 55 km, en el límite del radio. Las tirolinas sobre el Tajo no se cuentan porque no se documentó su operador.",
+      "actividades": [
+        { "nombre": "Parque Warner Madrid (Superman, Stunt Fall, Coaster Express, La Venganza del Enigma)", "tipo": "parque_diversiones", "km": 55, "lat": 40.2307, "lng": -3.5937, "temporada": "mar–ene (días seleccionados)", "url": "https://www.parquewarner.com/en", "url_tipo": "operador" }
+      ]
+    },
+    {
+      "id": "es-bilbao",
+      "puntaje": 2,
+      "justificacion": "Hay surf en la costa vizcaína (Sopelana, Mundaka), sin escuela documentada, y no hay parques grandes en el radio.",
+      "actividades": []
+    },
+    {
+      "id": "es-santillana-altamira",
+      "puntaje": 2,
+      "justificacion": "Hay surf en las playas cántabras cercanas (Somo, Liencres), sin escuela documentada.",
+      "actividades": []
+    },
+    {
+      "id": "es-mallorca",
+      "puntaje": 3,
+      "justificacion": "Aqualand El Arenal está a 24 km de la sierra. El barranquismo del Torrent de Pareis, en la Serra de Tramuntana, es conocido, pero no tiene operador documentado y no se cuenta.",
+      "actividades": [
+        { "nombre": "Aqualand El Arenal", "tipo": "parque_acuatico", "km": 24, "lat": 39.5180, "lng": 2.7480, "temporada": "may–oct", "url": "https://www.aqualand.es/", "url_tipo": "operador", "url_verificada": false }
+      ]
+    },
+    {
+      "id": "es-lanzarote",
+      "puntaje": 2,
+      "justificacion": "Hay surf y deportes de viento en la playa de Famara, sin escuela documentada.",
+      "actividades": []
+    },
+    {
+      "id": "es-pueblos-blancos-cadiz",
+      "puntaje": 3,
+      "justificacion": "El Caminito del Rey (56 km) y el Circuito de Jerez (57 km), con tandas y cursos de pilotaje, quedan en el límite del radio. El barranquismo de la Garganta Verde, en la Sierra de Grazalema, no tiene operador documentado.",
+      "actividades": [
+        { "nombre": "Caminito del Rey (pasarela colgada en el desfiladero de los Gaitanes)", "tipo": "otro", "km": 56, "lat": 36.9130, "lng": -4.7900, "temporada": "todo el año (cierra lunes)", "url": "https://www.caminitodelrey.info/", "url_tipo": "operador", "url_verificada": false },
+        { "nombre": "Circuito de Jerez – Ángel Nieto (tandas y cursos de pilotaje)", "tipo": "motor", "km": 57, "lat": 36.7083, "lng": -6.0341, "temporada": "según calendario", "url": "https://www.circuitodejerez.com/", "url_tipo": "operador" }
+      ]
+    },
+    {
+      "id": "es-picos-de-europa",
+      "puntaje": 3,
+      "justificacion": "El descenso del Sella en canoa sale de Arriondas, a 34 km, con recorridos de 7, 10 o 15 km hasta Toraño o Llovio. Jaire Aventura, en Cangas de Onís, es el operador más veterano, en activo desde 1993.",
+      "actividades": [
+        { "nombre": "Descenso del Sella en canoa (Jaire Aventura, desde Arriondas)", "tipo": "otro", "km": 34, "lat": 43.3906, "lng": -5.1847, "temporada": "abr–oct", "url": "https://www.turismoasturias.es/es/organiza-tu-viaje/deporte-y-aventura/aventura/jaire-aquasport", "url_tipo": "turismo_oficial" },
+        { "nombre": "Descenso del Sella en canoa (ficha de Spain.info)", "tipo": "otro", "km": 34, "lat": 43.3906, "lng": -5.1847, "temporada": "abr–oct", "url": "https://www.spain.info/es/actividades/descenso-sella-canoa/", "url_tipo": "turismo_oficial" }
+      ]
+    },
+    {
+      "id": "es-tarifa-bolonia",
+      "puntaje": 4,
+      "justificacion": "Tarifa es una de las capitales europeas del kitesurf. En Valdevaqueros, a 3 km, hay escuelas con cursos para todos los niveles: con levante se usan cometas medianas y pequeñas, y con poniente, más grandes.",
+      "actividades": [
+        { "nombre": "Kitesurf en Valdevaqueros (Kite Fun Tarifa, cursos)", "tipo": "otro", "km": 3, "lat": 36.0680, "lng": -5.6940, "temporada": "todo el año (mejor abr–oct)", "url": "https://en.kitefuntarifa.com/kitesurf-spots-tarifa/kitesurf-spot-valdevaqueros.html", "url_tipo": "operador" }
+      ]
+    },
+    {
+      "id": "es-terra-mitica",
+      "puntaje": 3,
+      "justificacion": "Es el gran parque temático de la Costa Blanca, en Benidorm. No se pudo confirmar si su montaña rusa principal, la de madera Magnus Colossus, funciona hoy: unas fuentes la dan abierta y otras cerrada por costes de mantenimiento. Por eso queda en 3 y no en 4.",
+      "actividades": [
+        { "nombre": "Terra Mítica (Benidorm)", "tipo": "parque_diversiones", "km": 0, "lat": 38.5577, "lng": -0.1613, "temporada": "abr–oct (confirmar calendario)", "url": "https://www.terramiticapark.com/", "url_tipo": "operador", "url_verificada": false }
+      ]
+    },
+    {
+      "id": "es-san-sebastian",
+      "puntaje": 2,
+      "justificacion": "Hay surf en la Zurriola y escuelas en Zarautz, a 16 km, que solo aparecen en plataformas de reserva.",
+      "actividades": [
+        { "nombre": "Clases de surf en Zarautz (Moor Surf Eskola)", "tipo": "otro", "km": 16, "lat": 43.2840, "lng": -2.1700, "temporada": "todo el año (mejor sep–nov)", "url": "https://www.yumping.com/surf/moor-surf-eskola-zarautz--e19652404", "url_tipo": "respaldo" }
+      ]
+    },
+    {
+      "id": "pt-azores-flores",
+      "puntaje": 3,
+      "justificacion": "Turismo de Azores destaca Flores como una de las islas de barranquismo del archipiélago, por sus cascadas. Ocidental Adventures, en Santa Cruz das Flores, ofrece desde un bautismo de unas 2 h hasta descensos avanzados.",
+      "actividades": [
+        { "nombre": "Barranquismo en Flores (ficha de Visit Azores)", "tipo": "canyoning", "km": 10, "lat": 39.4536, "lng": -31.1270, "temporada": "may–oct", "url": "https://www.visitazores.com/en/experience-the-azores/canyoning", "url_tipo": "turismo_oficial", "km_aprox": true },
+        { "nombre": "Bautismo de barranquismo (Ocidental Adventures, Santa Cruz das Flores)", "tipo": "canyoning", "km": 10, "lat": 39.4536, "lng": -31.1270, "temporada": "may–oct", "url": "https://www.yumping.com/en/canyoning/ocidental-adventures--e19864200", "url_tipo": "respaldo", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "pt-serra-da-estrela",
+      "puntaje": 2,
+      "justificacion": "Tiene la única estación de esquí de Portugal continental, pequeña, en la Torre, y parapente en Linhares da Beira. Ninguna de las dos tiene operador documentado.",
+      "actividades": []
+    },
+    {
+      "id": "pt-obidos",
+      "puntaje": 2,
+      "justificacion": "El surf de Peniche (Supertubos, Baleal) está a unos 20 km, sin escuela documentada.",
+      "actividades": []
+    },
+    {
+      "id": "pt-alcobaca",
+      "puntaje": 2,
+      "justificacion": "Las olas de Nazaré están a 10 km. Las escuelas de surf de la playa del pueblo solo aparecen en plataformas de reserva, y la visita es el monasterio, así que el puntaje no pasa de 2.",
+      "actividades": [
+        { "nombre": "Clases de surf y bodyboard (Nazaré Surf School)", "tipo": "otro", "km": 10, "lat": 39.6010, "lng": -9.0710, "temporada": "todo el año (clases sobre todo may–oct)", "url": "https://www.yumping.com/en/water-sports/nazare-surf-school--e19765385", "url_tipo": "respaldo", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "pt-arrabida",
+      "puntaje": 2,
+      "justificacion": "Hay parapente y kayak en la costa de la Arrábida, sin operador documentado.",
+      "actividades": []
+    },
+    {
+      "id": "pt-costa-vicentina",
+      "puntaje": 2,
+      "justificacion": "Hay surf en las playas atlánticas de la costa, sin escuela documentada.",
+      "actividades": []
+    },
+    {
+      "id": "pt-azores-sete-cidades",
+      "puntaje": 2,
+      "justificacion": "Hay barranquismo y kayak en São Miguel, sin operador documentado para esta zona.",
+      "actividades": []
+    },
+    {
+      "id": "pt-azores-furnas",
+      "puntaje": 2,
+      "justificacion": "Hay barranquismo y kayak en São Miguel, sin operador documentado para esta zona.",
+      "actividades": []
+    },
+    {
+      "id": "pt-azores-pico",
+      "puntaje": 2,
+      "justificacion": "La subida al volcán del Pico (2.351 m), la cumbre más alta de Portugal, es exigente, pero es montañismo y no adrenalina. El buceo no tiene operador documentado.",
+      "actividades": []
+    },
+    {
+      "id": "pt-azores-faial",
+      "puntaje": 2,
+      "justificacion": "Hay buceo y deportes náuticos en Horta, sin operador documentado.",
+      "actividades": []
+    },
+    {
+      "id": "pt-piodao",
+      "puntaje": 1,
+      "justificacion": "La pequeña estación de la Serra da Estrela, en la Torre, está a unos 21 km, pero no tiene fuente oficial documentada, y no hay más oferta.",
+      "actividades": []
+    },
+    {
+      "id": "pt-fatima",
+      "puntaje": 1,
+      "justificacion": "Las olas de Nazaré, a unos 34 km, solo se ven como espectáculo. No hay parques ni actividades documentadas en el radio, y la visita es el santuario.",
+      "actividades": []
+    },
+    {
+      "id": "es-montserrat",
+      "puntaje": 2,
+      "justificacion": "El Tibidabo, un parque histórico con montaña rusa, está a 30 km, y PortAventura queda a unos 80 km, fuera del radio. La escalada y las vías ferratas del macizo son conocidas, pero no se documentó ningún operador. La visita principal es el santuario.",
+      "actividades": [
+        { "nombre": "Parque de Atracciones Tibidabo", "tipo": "parque_diversiones", "km": 30, "lat": 41.4218, "lng": 2.1191, "temporada": "mar–dic (días seleccionados)", "url": "https://tibidabo.cat/ca/parc-atraccions/atraccions?language=en", "url_tipo": "operador" }
+      ]
+    },
+    {
+      "id": "es-albarracin",
+      "puntaje": 2,
+      "justificacion": "Aramón Javalambre, una estación de esquí pequeña, queda a unos 49 km. Los pinares de Rodeno son una zona de búlder de fama internacional, pero sin operador ni guía documentado.",
+      "actividades": [
+        { "nombre": "Aramón Javalambre (esquí)", "tipo": "esqui", "km": 49, "lat": 40.1050, "lng": -1.0200, "temporada": "dic–mar", "url": "https://www.aramon.com/", "url_tipo": "operador", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "es-teruel",
+      "puntaje": 2,
+      "justificacion": "Aramón Javalambre, una estación de esquí pequeña, está a unos 28 km. Dinópolis es un parque de paleontología, no de adrenalina.",
+      "actividades": [
+        { "nombre": "Aramón Javalambre (esquí)", "tipo": "esqui", "km": 28, "lat": 40.1050, "lng": -1.0200, "temporada": "dic–mar", "url": "https://www.aramon.com/", "url_tipo": "operador", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "es-pamplona",
+      "puntaje": 2,
+      "justificacion": "El encierro de San Fermín (7–14 de julio) es una experiencia de riesgo famosa en todo el mundo, pero no es una actividad con operador. No hay parques en el radio, y el Circuito de Navarra (Los Arcos, unos 50 km) no tiene fuente documentada.",
+      "actividades": []
+    },
+    {
+      "id": "es-cartagena",
+      "puntaje": 2,
+      "justificacion": "A unos 26 km, el buceo en la reserva marina de Cabo de Palos e Islas Hormigas es de los mejores de España, pero no se documentó ningún centro de buceo.",
+      "actividades": []
+    },
+    {
+      "id": "es-trujillo",
+      "puntaje": 1,
+      "justificacion": "No hay parques ni actividades de adrenalina en el radio.",
+      "actividades": []
+    },
+    {
+      "id": "es-guadalupe",
+      "puntaje": 1,
+      "justificacion": "No hay parques ni actividades de adrenalina en el radio.",
+      "actividades": []
+    },
+    {
+      "id": "es-a-coruna",
+      "puntaje": 2,
+      "justificacion": "Hay surf urbano en el Orzán y en playas de la Costa da Morte como Razo, sin escuela documentada.",
+      "actividades": []
+    },
+    {
+      "id": "es-lugo",
+      "puntaje": 1,
+      "justificacion": "No hay parques ni actividades de adrenalina en el radio.",
+      "actividades": []
+    },
+    {
+      "id": "es-penedes",
+      "puntaje": 2,
+      "justificacion": "El Tibidabo está a 28 km. PortAventura queda a unos 65 km, justo fuera del radio, aunque es una excursión fácil por la AP-7.",
+      "actividades": [
+        { "nombre": "Parque de Atracciones Tibidabo", "tipo": "parque_diversiones", "km": 28, "lat": 41.4218, "lng": 2.1191, "temporada": "mar–dic (días seleccionados)", "url": "https://tibidabo.cat/ca/parc-atraccions/atraccions?language=en", "url_tipo": "operador" }
+      ]
+    },
+    {
+      "id": "es-islas-cies",
+      "puntaje": 1,
+      "justificacion": "Es un parque nacional con acceso regulado, donde solo se hace snorkel y buceo sin operador documentado. Es el mismo criterio que las Rías Baixas.",
+      "actividades": []
+    },
+    {
+      "id": "es-cabo-de-gata",
+      "puntaje": 2,
+      "justificacion": "Hay buceo y kayak en la costa volcánica del parque natural, sin operador documentado.",
+      "actividades": []
+    },
+    {
+      "id": "es-bardenas-reales",
+      "puntaje": 1,
+      "justificacion": "Es un desierto con rutas en bici y en coche por pistas reguladas, sin actividad de adrenalina documentada. El Circuito de Navarra queda a unos 67 km, fuera del radio.",
+      "actividades": []
+    },
+    {
+      "id": "es-monfrague",
+      "puntaje": 1,
+      "justificacion": "Es un parque nacional de observación de aves, sin actividades de adrenalina en el radio.",
+      "actividades": []
+    },
+    {
+      "id": "it-valle-de-aosta-monte-bianco",
+      "puntaje": 5,
+      "justificacion": "Es un destino alpino de clase mundial. El Skyway Monte Bianco sube en tres tramos hasta Punta Helbronner (3.466 m), la puerta del freeride de la Vallée Blanche. El dominio de Courmayeur, con unos 100 km esquiables entre Val Veny y Chécrouit, sale del propio pueblo. A unos 53 km está Breuil-Cervinia, unida a Zermatt bajo el Cervino.",
+      "actividades": [
+        { "nombre": "Skyway Monte Bianco (Courmayeur–Punta Helbronner, 3.466 m)", "tipo": "otro", "km": 2, "lat": 45.8170, "lng": 6.9550, "temporada": "todo el año (consultar cierres por mantenimiento y meteorología)", "url": "https://www.italia.it/it/valle-aosta/cosa-fare/funivia-skyway-montebianco-a-courmayeur", "url_tipo": "turismo_oficial" },
+        { "nombre": "Comprensorio Courmayeur Mont Blanc (esquí, ficha de Lovevda)", "tipo": "esqui", "km": 2, "lat": 45.7967, "lng": 6.9690, "temporada": "dic–abr (2025-26: desde el 29 nov)", "url": "https://www.lovevda.it/it/banca-dati/5/sci-di-discesa/courmayeur/comprensorio-courmayeur-mont-blanc/4360", "url_tipo": "turismo_oficial", "km_aprox": true },
+        { "nombre": "Breuil-Cervinia – Valtournenche (Cervino Ski Paradise, unido a Zermatt)", "tipo": "esqui", "km": 53, "lat": 45.9336, "lng": 7.6297, "temporada": "nov–may (sectores de glaciar con apertura más larga)", "url": "https://www.italia.it/de/aostatal/cervinia---valtournenche", "url_tipo": "turismo_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "it-parque-gran-paradiso",
+      "puntaje": 4,
+      "justificacion": "Desde Cogne hay varias actividades destacadas: el esquí de Courmayeur a unos 37 km, el Skyway Monte Bianco a 39 km y Breuil-Cervinia a unos 42 km. La escalada en cascadas de hielo de Cogne es una referencia europea, pero no tiene fuente oficial documentada.",
+      "actividades": [
+        { "nombre": "Comprensorio Courmayeur Mont Blanc (esquí, ficha de Lovevda)", "tipo": "esqui", "km": 37, "lat": 45.7967, "lng": 6.9690, "temporada": "dic–abr", "url": "https://www.lovevda.it/it/banca-dati/5/sci-di-discesa/courmayeur/comprensorio-courmayeur-mont-blanc/4360", "url_tipo": "turismo_oficial", "km_aprox": true },
+        { "nombre": "Skyway Monte Bianco (Courmayeur)", "tipo": "otro", "km": 39, "lat": 45.8170, "lng": 6.9550, "temporada": "todo el año (consultar cierres)", "url": "https://www.italia.it/it/valle-aosta/cosa-fare/funivia-skyway-montebianco-a-courmayeur", "url_tipo": "turismo_oficial" },
+        { "nombre": "Breuil-Cervinia – Valtournenche (Cervino Ski Paradise)", "tipo": "esqui", "km": 42, "lat": 45.9336, "lng": 7.6297, "temporada": "nov–may", "url": "https://www.italia.it/de/aostatal/cervinia---valtournenche", "url_tipo": "turismo_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "it-dolomitas",
+      "puntaje": 5,
+      "justificacion": "Es oferta de clase mundial. Dolomiti Superski reúne 12 áreas y unos 1.200 km de pistas con un solo forfait, incluida Cortina d'Ampezzo, y la Sellaronda, de 40–45 km alrededor del macizo del Sella, sale a unos 4 km. La Alpe di Siusi (Seiser Alm) forma parte del mismo dominio.",
+      "actividades": [
+        { "nombre": "Dolomiti Superski – Sellaronda (Passo Sella)", "tipo": "esqui", "km": 4, "lat": 46.5083, "lng": 11.7614, "temporada": "nov–may (temporada 2025-26: 29 nov–3 may)", "url": "https://www.dolomitisuperski.com/it/live-info/piste-aperte", "url_tipo": "operador" },
+        { "nombre": "Alpe di Siusi / Seiser Alm (Dolomiti Superski)", "tipo": "esqui", "km": 15, "lat": 46.5410, "lng": 11.6150, "temporada": "dic–abr", "url": "https://www.seiser-alm.it/de/freizeit-aktiv/wintersport/dolomiti-superski/", "url_tipo": "operador" }
+      ]
+    },
+    {
+      "id": "it-parque-stelvio",
+      "puntaje": 3,
+      "justificacion": "El dominio de Bormio, a unos 9 km, tiene los sectores Bormio 2000, Bormio 3000 y Stelvio, con la pista de descenso de la Copa del Mundo. El glaciar del Paso del Stelvio tiene la mayor área de esquí de verano de los Alpes, de finales de mayo a principios de noviembre, pero no se encontró la web de su gestor.",
+      "actividades": [
+        { "nombre": "Bormio Ski (sectores Bormio 2000, Bormio 3000 y Stelvio)", "tipo": "esqui", "km": 9, "lat": 46.4669, "lng": 10.3705, "temporada": "dic–abr", "url": "https://www.bormioski.eu/en/skiing/ski-area/info-lifts-and-slopes/", "url_tipo": "operador", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "it-parque-abruzzo",
+      "puntaje": 3,
+      "justificacion": "El dominio del Alto Sangro (Roccaraso, Aremogna, Pizzalto y Rivisondoli), el mayor de los Apeninos, está a unos 25 km de Pescasseroli. Según el turismo oficial de Abruzzo, solo el sector de Roccaraso tiene unos 60 km de pistas con un telecabina, 8 telesillas y 12 telesquíes.",
+      "actividades": [
+        { "nombre": "Esquí en Roccaraso – Alto Sangro (ficha de Turismo Abruzzo)", "tipo": "esqui", "km": 25, "lat": 41.8460, "lng": 14.0790, "temporada": "dic–mar", "url": "https://turismo.abruzzo.it/en/laquila/roccaraso/", "url_tipo": "turismo_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "it-gran-sasso-campo-imperatore",
+      "puntaje": 2,
+      "justificacion": "En la propia meseta está la estación de Campo Imperatore, a la que se sube en teleférico desde Fonte Cerreto. Tiene dos telesillas y se esquía solo con nieve natural. Solo se encontró prensa y no la web del gestor municipal, el Centro Turistico del Gran Sasso, así que el puntaje no pasa de 2.",
+      "actividades": []
+    },
+    {
+      "id": "it-pollino",
+      "puntaje": 2,
+      "justificacion": "El rafting en las gargantas del Lao, desde Laino Borgo (unos 10 km), es de primer nivel en Italia, con tramos de 16 a 29 km hasta Papasidero y una versión suave para familias. El operador, Pollino Rafting, solo aparece en plataformas de reserva, así que el puntaje no pasa de 2.",
+      "actividades": [
+        { "nombre": "Rafting en las gargantas del Lao (Pollino Rafting, Laino Borgo)", "tipo": "rafting", "km": 10, "lat": 39.9550, "lng": 15.9740, "temporada": "abr–oct (según caudal)", "url": "https://www.checkyeti.com/en/d/1074/7452", "url_tipo": "respaldo", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "it-la-maddalena-costa-smeralda",
+      "puntaje": 3,
+      "justificacion": "Porto Pollo, a unos 8 km frente al archipiélago, es uno de los spots de windsurf y kitesurf más conocidos del Mediterráneo, siempre batido por el viento según Sardegna Turismo. Varias escuelas dan cursos y alquilan material.",
+      "actividades": [
+        { "nombre": "Windsurf y kitesurf en Porto Pollo (ficha de Sardegna Turismo)", "tipo": "otro", "km": 8, "lat": 41.1880, "lng": 9.3270, "temporada": "abr–oct", "url": "https://www.sardegnaturismo.it/de/entdecken/porto-pollo", "url_tipo": "turismo_oficial", "km_aprox": true },
+        { "nombre": "Cursos de windsurf y kitesurf (Windsurf Village, Porto Pollo)", "tipo": "otro", "km": 8, "lat": 41.1880, "lng": 9.3270, "temporada": "abr–oct", "url": "https://www.yumping.com/en/water-sports/windsurf-village--e19742335", "url_tipo": "respaldo", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "it-cividale-udine",
+      "puntaje": 2,
+      "justificacion": "Bovec (Eslovenia), a 29 km en línea recta y a alrededor de 1 h por carretera, es la capital del rafting en el Soča, de primer nivel europeo. Los operadores solo aparecen en plataformas de reserva, así que el puntaje no pasa de 2. El permiso de navegación del río se paga aparte.",
+      "actividades": [
+        { "nombre": "Rafting en el Soča (TOP Rafting Centre, Bovec)", "tipo": "rafting", "km": 29, "lat": 46.3378, "lng": 13.5522, "temporada": "abr–oct (según caudal)", "url": "https://www.checkyeti.com/en/d/968/6940", "url_tipo": "respaldo", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "it-spoleto",
+      "puntaje": 3,
+      "justificacion": "A 21 km, en el Nera bajo la Cascata delle Marmore, hay rafting de clase IV, hydrospeed, barranquismo y kayak, además de una versión suave para familias. Lo recoge la ficha oficial de Italia.it. El rafting fuerte tiene límites de edad y de peso.",
+      "actividades": [
+        { "nombre": "Rafting en el Nera bajo la Cascata delle Marmore (ficha de Italia.it)", "tipo": "rafting", "km": 21, "lat": 42.5525, "lng": 12.7020, "temporada": "primavera–otoño (según caudal y apertura de la presa)", "url": "https://www.italia.it/it/umbria/cosa-fare/rafting-monti-sibillini-cascata-delle-marmore", "url_tipo": "turismo_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "it-alghero-capo-caccia",
+      "puntaje": 3,
+      "justificacion": "La Grotta di Nereo, a 13 km bajo Capo Caccia, es la mayor cueva submarina del Mediterráneo, con entradas a 25–32 m. Con experiencia se bucea la antecámara, pero el interior exige formación en espeleobuceo. Del puerto de Alghero salen barcos de buceo hacia el AMP de Capo Caccia–Isola Piana.",
+      "actividades": [
+        { "nombre": "Buceo en la Grotta di Nereo (ficha de Sardegna Turismo)", "tipo": "otro", "km": 13, "lat": 40.5650, "lng": 8.1630, "temporada": "abr–nov", "url": "https://www.sardegnaturismo.it/it/esplora/grotta-di-nereo", "url_tipo": "turismo_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "it-golfo-di-orosei",
+      "puntaje": 3,
+      "justificacion": "La Gola di Gorropu, a unos 17 km, es un cañón de 1,5 km. Sardegna Turismo recomienda recorrerlo con guía experto y equipo adecuado, por rutas de una a cinco horas que avanzan entre bloques de caliza. La escalada de Cala Gonone y el buceo en cuevas no tienen operador documentado.",
+      "actividades": [
+        { "nombre": "Trekking por la Gola di Gorropu (ficha de Sardegna Turismo)", "tipo": "otro", "km": 17, "lat": 40.1850, "lng": 9.5000, "temporada": "mejor en primavera y otoño (según el caudal del Flumineddu)", "url": "https://sardegnaturismo.it/fr/explorer/gola-gorropu", "url_tipo": "turismo_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "it-lago-maggiore",
+      "puntaje": 3,
+      "justificacion": "El salto de 220 m de la presa de Verzasca (Ticino, Suiza), el de GoldenEye, está a unos 43 km y funciona de Semana Santa a octubre. Es una sola actividad notable, porque el rafting de Valsesia solo aparece en plataformas de reserva.",
+      "actividades": [
+        { "nombre": "Bungee 007 en la presa de Verzasca (220 m)", "tipo": "bungee", "km": 43, "lat": 46.1953, "lng": 8.8506, "temporada": "Semana Santa–oct", "url": "https://007bungy.ch/en/location", "url_tipo": "operador" }
+      ]
+    },
+    {
+      "id": "it-lago-de-orta",
+      "puntaje": 3,
+      "justificacion": "El salto de 220 m de la presa de Verzasca (Suiza), el de GoldenEye, queda a 56 km, en el borde del radio. El rafting del Sesia en Valsesia, a unos 12 km, solo aparece en plataformas de reserva.",
+      "actividades": [
+        { "nombre": "Bungee 007 en la presa de Verzasca (220 m)", "tipo": "bungee", "km": 56, "lat": 46.1953, "lng": 8.8506, "temporada": "Semana Santa–oct", "url": "https://007bungy.ch/en/location", "url_tipo": "operador" }
+      ]
+    },
+    {
+      "id": "it-matera",
+      "puntaje": 3,
+      "justificacion": "El Volo dell'Angelo, una de las tirolinas más espectaculares de Europa, que llega a 120 km/h entre dos pueblos de las Dolomitas Lucanas, está a 49 km. Es una sola actividad de primer nivel a más de 30 km, así que queda en 3.",
+      "actividades": [
+        { "nombre": "Volo dell'Angelo (Castelmezzano–Pietrapertosa)", "tipo": "tirolesa", "km": 49, "lat": 40.5260, "lng": 16.0530, "temporada": "primavera–otoño", "url": "https://www.volodellangelo.com/", "url_tipo": "operador" }
+      ]
+    },
+    {
+      "id": "it-asis",
+      "puntaje": 2,
+      "justificacion": "El rafting del Nera en la Cascata delle Marmore queda a 58 km, en el borde del radio. Además, la visita de Asís es sobre todo religiosa y monumental, así que el puntaje no pasa de 2.",
+      "actividades": [
+        { "nombre": "Rafting en el Nera bajo la Cascata delle Marmore (ficha de Italia.it)", "tipo": "rafting", "km": 58, "lat": 42.5525, "lng": 12.7020, "temporada": "primavera–otoño (según caudal)", "url": "https://www.italia.it/it/umbria/cosa-fare/rafting-monti-sibillini-cascata-delle-marmore", "url_tipo": "turismo_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "it-orvieto",
+      "puntaje": 2,
+      "justificacion": "El rafting del Nera en la Cascata delle Marmore queda a 52 km, cerca del borde del radio.",
+      "actividades": [
+        { "nombre": "Rafting en el Nera bajo la Cascata delle Marmore (ficha de Italia.it)", "tipo": "rafting", "km": 52, "lat": 42.5525, "lng": 12.7020, "temporada": "primavera–otoño (según caudal)", "url": "https://www.italia.it/it/umbria/cosa-fare/rafting-monti-sibillini-cascata-delle-marmore", "url_tipo": "turismo_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "it-venecia",
+      "puntaje": 2,
+      "justificacion": "Solo hay parques acuáticos de playa en Lido di Jesolo, sin fuente oficial documentada. Gardaland queda a unos 115 km, fuera del radio.",
+      "actividades": []
+    },
+    {
+      "id": "it-milan",
+      "puntaje": 3,
+      "justificacion": "Leolandia, un parque temático grande de perfil familiar, está a 31 km. Las experiencias de conducción del Autodromo de Monza no tienen fuente documentada.",
+      "actividades": [
+        { "nombre": "Leolandia", "tipo": "parque_diversiones", "km": 31, "lat": 45.6040, "lng": 9.5300, "temporada": "mar–ene (por calendario)", "url": "https://www.leolandia.it/", "url_tipo": "operador" }
+      ]
+    },
+    {
+      "id": "it-lago-de-como",
+      "puntaje": 3,
+      "justificacion": "Leolandia está a 47 km. El kitesurf de Colico y Domaso y el parapente del Alto Lario no tienen operador documentado.",
+      "actividades": [
+        { "nombre": "Leolandia", "tipo": "parque_diversiones", "km": 47, "lat": 45.6040, "lng": 9.5300, "temporada": "mar–ene (por calendario)", "url": "https://www.leolandia.it/", "url_tipo": "operador" }
+      ]
+    },
+    {
+      "id": "it-turin",
+      "puntaje": 1,
+      "justificacion": "No hay parques ni actividades documentadas en el radio. Las estaciones de la Via Lattea (Sestriere) quedan a unos 65 km.",
+      "actividades": []
+    },
+    {
+      "id": "it-cinque-terre",
+      "puntaje": 2,
+      "justificacion": "Hay kayak de mar, buceo en el área marina protegida y escalada sobre el mar, sin operador documentado. No hay parques en el radio.",
+      "actividades": []
+    },
+    {
+      "id": "it-bolonia",
+      "puntaje": 2,
+      "justificacion": "El circuito de Imola, a unos 33 km, organiza jornadas de pista, sin operador documentado. Mirabilandia queda a unos 75 km, fuera del radio.",
+      "actividades": []
+    },
+    {
+      "id": "it-trieste",
+      "puntaje": 2,
+      "justificacion": "Hay escalada en la Val Rosandra y visitas a la Grotta Gigante, una de las mayores cavidades turísticas del mundo, sin fuente oficial documentada.",
+      "actividades": []
+    },
+    {
+      "id": "it-florencia",
+      "puntaje": 2,
+      "justificacion": "Solo hay experiencias de motor en el circuito de Mugello (unos 30 km), sin operador documentado, y ningún parque grande en el radio.",
+      "actividades": []
+    },
+    {
+      "id": "it-pisa",
+      "puntaje": 1,
+      "justificacion": "No hay parques ni actividades documentadas en el radio. Cavallino Matto, en la costa de Livorno, queda a unos 62 km.",
+      "actividades": []
+    },
+    {
+      "id": "it-lucca",
+      "puntaje": 2,
+      "justificacion": "Hay rafting y barranquismo en la Garfagnana y los Alpes Apuanos, sin operador documentado.",
+      "actividades": []
+    },
+    {
+      "id": "it-siena",
+      "puntaje": 1,
+      "justificacion": "No hay parques ni actividades de aventura relevantes a 60 km o menos.",
+      "actividades": []
+    },
+    {
+      "id": "it-san-gimignano",
+      "puntaje": 1,
+      "justificacion": "No hay parques ni actividades de aventura relevantes a 60 km o menos.",
+      "actividades": []
+    },
+    {
+      "id": "it-val-d-orcia",
+      "puntaje": 2,
+      "justificacion": "La pequeña estación de esquí del Monte Amiata está a unos 30 km, sin fuente oficial documentada.",
+      "actividades": []
+    },
+    {
+      "id": "it-napoles",
+      "puntaje": 2,
+      "justificacion": "Están el parque urbano Edenlandia y la subida al cráter del Vesubio, ambos sin fuente oficial documentada.",
+      "actividades": []
+    },
+    {
+      "id": "it-pompeya-herculano",
+      "puntaje": 2,
+      "justificacion": "La subida al cráter del Vesubio está cerca, pero sin fuente oficial documentada. Es un yacimiento arqueológico, así que el puntaje no pasa de 2.",
+      "actividades": []
+    },
+    {
+      "id": "it-costa-amalfitana",
+      "puntaje": 2,
+      "justificacion": "Hay buceo, kayak y el Sentiero degli Dei, un sendero expuesto, sin operador documentado.",
+      "actividades": []
+    },
+    {
+      "id": "it-capri",
+      "puntaje": 2,
+      "justificacion": "Hay buceo y kayak por las grutas marinas, sin operador documentado.",
+      "actividades": []
+    },
+    {
+      "id": "it-alberobello-valle-d-itria",
+      "puntaje": 2,
+      "justificacion": "El Zoosafari Fasanolandia, un parque de atracciones de tamaño medio, está a unos 20 km, sin fuente oficial documentada.",
+      "actividades": []
+    },
+    {
+      "id": "it-lecce",
+      "puntaje": 1,
+      "justificacion": "Solo hay buceo y deportes náuticos en la costa del Salento, sin parques ni actividades destacadas documentadas.",
+      "actividades": []
+    },
+    {
+      "id": "it-tropea",
+      "puntaje": 2,
+      "justificacion": "Hay buceo en Capo Vaticano y kitesurf en la Costa degli Dei, sin operador documentado.",
+      "actividades": []
+    },
+    {
+      "id": "it-palermo-monreale",
+      "puntaje": 1,
+      "justificacion": "Solo hay buceo en reservas cercanas como Capo Gallo, y no hay parques relevantes.",
+      "actividades": []
+    },
+    {
+      "id": "it-siracusa-ortigia",
+      "puntaje": 2,
+      "justificacion": "Hay buceo en el área marina del Plemmirio y barranquismo en la Cavagrande del Cassibile, sin operador documentado.",
+      "actividades": []
+    },
+    {
+      "id": "it-cagliari",
+      "puntaje": 2,
+      "justificacion": "Hay kitesurf en el Poetto y buceo, sin operador documentado.",
+      "actividades": []
+    },
+    {
+      "id": "it-etna",
+      "puntaje": 4,
+      "justificacion": "Es una experiencia única: la excursión guiada a los cráteres de la cumbre de uno de los volcanes más activos de Europa. Se sube en teleférico y 4x4 hasta la Torre del Filosofo (unos 2.900 m), se sigue a pie unos 3 km, y por encima de unos 2.900 m solo se puede ir con guía autorizado. Etnaland está cerrado toda la temporada 2026 por un embargo judicial.",
+      "actividades": [
+        { "nombre": "Excursión a los cráteres de la cumbre desde Etna Sud (teleférico + 4x4 + trekking guiado)", "tipo": "otro", "km": 2, "lat": 37.7340, "lng": 15.0000, "temporada": "según condiciones volcánicas y meteorológicas", "url": "https://www.italia.it/it/sicilia/nicolosi/esperienze/monte-etna-escursione-ai-crateri-sommitali-da-etna-sud-tiqets-1012359", "url_tipo": "turismo_oficial" }
+      ]
+    },
+    {
+      "id": "it-taormina",
+      "puntaje": 3,
+      "justificacion": "La excursión guiada a los cráteres del Etna sale de Etna Sud, a unos 28 km. El body rafting y el barranquismo en las Gole dell'Alcantara, a unos 15 km, solo aparecen en plataformas de reserva, y Etnaland está cerrado en 2026.",
+      "actividades": [
+        { "nombre": "Excursión a los cráteres de la cumbre del Etna (desde Etna Sud)", "tipo": "otro", "km": 28, "lat": 37.7340, "lng": 15.0000, "temporada": "según condiciones volcánicas y meteorológicas", "url": "https://www.italia.it/it/sicilia/nicolosi/esperienze/monte-etna-escursione-ai-crateri-sommitali-da-etna-sud-tiqets-1012359", "url_tipo": "turismo_oficial" }
+      ]
+    },
+    {
+      "id": "it-islas-eolias",
+      "puntaje": 4,
+      "justificacion": "Es una experiencia única dentro del archipiélago: la subida guiada al Stromboli para ver de noche las explosiones de un volcán en erupción continua. Por encima de los 400 m es obligatorio ir con guía alpino o vulcanológico.",
+      "actividades": [
+        { "nombre": "Trekking guiado a los cráteres del Stromboli (Volcano Adventures con Magmatrek)", "tipo": "otro", "km": 43, "lat": 38.7930, "lng": 15.2110, "temporada": "15 mar–1 nov", "url": "https://www.volcanoadventures.com/fr/voyages/italie/stromboli-trekking.html", "url_tipo": "operador" }
+      ]
+    },
+    {
+      "id": "it-paestum",
+      "puntaje": 2,
+      "justificacion": "El rafting en la Gola del Calore (Felitto, unos 20 km) solo aparece en plataformas de reserva. Además es un yacimiento arqueológico, así que el puntaje no pasa de 2.",
+      "actividades": []
+    },
+    {
+      "id": "it-sila",
+      "puntaje": 2,
+      "justificacion": "Está la pequeña estación de esquí de Camigliatello (Monte Curcio), sin fuente oficial documentada.",
+      "actividades": []
+    },
+    {
+      "id": "it-gargano",
+      "puntaje": 2,
+      "justificacion": "Hay kayak por las grutas marinas de Vieste y coasteering en la costa de acantilados, sin operador documentado.",
+      "actividades": []
+    },
+    {
+      "id": "it-cilento",
+      "puntaje": 2,
+      "justificacion": "El rafting en la Gola del Calore (unos 37 km) y el coasteering en Palinuro solo aparecen en plataformas de reserva.",
+      "actividades": []
+    },
+    {
+      "id": "it-foreste-casentinesi",
+      "puntaje": 1,
+      "justificacion": "Solo hay senderismo de bosque, y el circuito de Mugello (unos 42 km) no tiene fuente documentada.",
+      "actividades": []
+    },
+    {
+      "id": "it-padova",
+      "puntaje": 1,
+      "justificacion": "Gardaland queda a unos 90 km, fuera del radio. El parapente del Monte Grappa (unos 46 km) solo aparece en plataformas de reserva.",
+      "actividades": []
+    },
+    {
+      "id": "it-urbino",
+      "puntaje": 2,
+      "justificacion": "Aquafan, en Riccione (29 km), es uno de los grandes parques acuáticos de Italia, con unos 3 km de toboganes, pero de perfil más familiar que extremo. Mirabilandia queda fuera del radio.",
+      "actividades": [
+        { "nombre": "Aquafan (Riccione)", "tipo": "parque_acuatico", "km": 29, "lat": 43.9862, "lng": 12.6537, "temporada": "jun–sep", "url": "https://www.italia.it/it/emilia-romagna/aquafan-riccione", "url_tipo": "turismo_oficial" }
+      ]
+    },
+    {
+      "id": "it-ferrara",
+      "puntaje": 1,
+      "justificacion": "Mirabilandia queda a unos 75 km, fuera del radio, y en la llanura del Po no hay actividades de aventura relevantes.",
+      "actividades": []
+    },
+    {
+      "id": "it-genova",
+      "puntaje": 3,
+      "justificacion": "La Finale Outdoor Region, a unos 54 km, es de clase mundial en escalada y mountain bike, y en octubre de 2026 acogió el Mundial UCI de Enduro.",
+      "actividades": [
+        { "nombre": "Finale Outdoor Region (MTB enduro y escalada)", "tipo": "otro", "km": 54, "lat": 44.1693, "lng": 8.3435, "temporada": "todo el año", "url": "https://ucimtbworldseries.com/news/finale-outdoor-region-courses-released", "url_tipo": "otro" }
+      ]
+    },
+    {
+      "id": "it-langhe-barolo",
+      "puntaje": 2,
+      "justificacion": "Finale Ligure está a unos 59 km, en el límite del radio y a más de una hora por carretera. En las Langhe no hay oferta de aventura destacada.",
+      "actividades": [
+        { "nombre": "Finale Outdoor Region (MTB enduro y escalada)", "tipo": "otro", "km": 59, "lat": 44.1693, "lng": 8.3435, "temporada": "todo el año", "url": "https://ucimtbworldseries.com/news/finale-outdoor-region-courses-released", "url_tipo": "otro" }
+      ]
+    },
+    {
+      "id": "it-chianti-classico",
+      "puntaje": 1,
+      "justificacion": "Es una zona de viñedos sin actividades de aventura relevantes, y el circuito de Mugello (unos 46 km) no tiene fuente documentada.",
+      "actividades": []
+    },
+    {
+      "id": "it-parma",
+      "puntaje": 1,
+      "justificacion": "No hay parques ni actividades de aventura relevantes a 60 km o menos.",
+      "actividades": []
+    },
+    {
+      "id": "it-modena",
+      "puntaje": 2,
+      "justificacion": "Hay experiencias de conducción en el entorno Ferrari de Maranello (unos 17 km) y en el Autodromo di Modena, sin fuente documentada.",
+      "actividades": []
+    },
+    {
+      "id": "it-franciacorta",
+      "puntaje": 3,
+      "justificacion": "Leolandia, un parque temático de perfil familiar, está a 34 km, y Gardaland en el límite del radio, a unos 60 km.",
+      "actividades": [
+        { "nombre": "Leolandia", "tipo": "parque_diversiones", "km": 34, "lat": 45.6040, "lng": 9.5300, "temporada": "mar–ene (por calendario)", "url": "https://www.leolandia.it/", "url_tipo": "operador" },
+        { "nombre": "Gardaland", "tipo": "parque_diversiones", "km": 60, "lat": 45.4550, "lng": 10.7140, "temporada": "mar–nov (+ eventos de Halloween y Navidad)", "url": "https://www.gardaland.it/", "url_tipo": "operador" }
+      ]
+    },
+    {
+      "id": "it-colinas-prosecco",
+      "puntaje": 2,
+      "justificacion": "El Monte Grappa (Borso del Grappa, unos 18 km) es un despegue de parapente biplaza muy conocido, a 1.550–1.770 m, pero solo aparece en plataformas de reserva.",
+      "actividades": []
+    },
+    {
+      "id": "it-su-nuraxi-barumini",
+      "puntaje": 1,
+      "justificacion": "Es un sitio arqueológico del interior de Cerdeña, sin actividades de aventura relevantes en el radio.",
+      "actividades": []
+    },
+    {
+      "id": "it-villa-romana-del-casale",
+      "puntaje": 1,
+      "justificacion": "Es un yacimiento sin actividades de aventura en el radio. Los cráteres del Etna quedan a unos 72 km.",
+      "actividades": []
+    },
+    {
+      "id": "it-val-di-noto",
+      "puntaje": 2,
+      "justificacion": "Están los laghetti y el descenso por la Cavagrande del Cassibile, y el buceo del Plemmirio, sin operador documentado.",
+      "actividades": []
+    },
+    {
+      "id": "it-civita-di-bagnoregio",
+      "puntaje": 2,
+      "justificacion": "El rafting de clase IV del Nera, bajo la Cascata delle Marmore, queda a 49 km. Los parques de Roma están a más de 100 km.",
+      "actividades": [
+        { "nombre": "Rafting en el Nera bajo la Cascata delle Marmore (ficha de Italia.it)", "tipo": "rafting", "km": 49, "lat": 42.5525, "lng": 12.7020, "temporada": "primavera–otoño (según caudal y apertura de la presa)", "url": "https://www.italia.it/it/umbria/cosa-fare/rafting-monti-sibillini-cascata-delle-marmore", "url_tipo": "turismo_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "it-reggia-di-caserta",
+      "puntaje": 1,
+      "justificacion": "Edenlandia (Nápoles) y el Vesubio no tienen fuente oficial documentada, y no hay más oferta en el radio. Es un palacio, así que el puntaje tampoco podría pasar de 2.",
+      "actividades": []
+    },
+    {
+      "id": "it-vicenza",
+      "puntaje": 1,
+      "justificacion": "Gardaland queda a unos 66 km, fuera del radio. El parapente del Monte Grappa (unos 36 km) y el esquí de la meseta de Asiago no tienen operador documentado.",
+      "actividades": []
+    },
+    {
+      "id": "it-castel-del-monte",
+      "puntaje": 1,
+      "justificacion": "El Volo dell'Angelo queda a unos 62 km, justo fuera del radio, y no hay más oferta. Es un castillo, así que el puntaje tampoco podría pasar de 2.",
+      "actividades": []
+    },
+    {
+      "id": "it-bari",
+      "puntaje": 1,
+      "justificacion": "El Zoosafari Fasanolandia (unos 53 km) no tiene fuente oficial documentada, y no hay más oferta en el radio.",
+      "actividades": []
+    },
+    {
+      "id": "it-polignano-monopoli",
+      "puntaje": 2,
+      "justificacion": "Hay saltos desde las rocas de Lama Monachile y kayak por las grutas marinas, sin operador. Las pruebas de Red Bull Cliff Diving en Polignano son un espectáculo para mirar, y el Zoosafari Fasanolandia (unos 25 km) no tiene fuente oficial documentada.",
+      "actividades": []
+    },
+    {
+      "id": "it-polignano-a-mare",
+      "puntaje": 2,
+      "justificacion": "Hay saltos desde las rocas de Lama Monachile y kayak por las grutas marinas, sin operador. Las pruebas de Red Bull Cliff Diving son un espectáculo para mirar, y el Zoosafari Fasanolandia (unos 25 km) no tiene fuente oficial documentada.",
+      "actividades": []
+    },
+    {
+      "id": "it-aquileia",
+      "puntaje": 1,
+      "justificacion": "El rafting del Soča en Bovec queda a unos 63 km, fuera del radio, y no hay más oferta.",
+      "actividades": []
+    },
+    {
+      "id": "it-cefalu",
+      "puntaje": 1,
+      "justificacion": "No hay parques ni actividades documentadas en el radio.",
+      "actividades": []
+    },
+    {
+      "id": "it-selinunte",
+      "puntaje": 2,
+      "justificacion": "El kitesurf de la laguna del Stagnone (Marsala) queda a 43 km. Es un parque arqueológico, así que el puntaje no pasa de 2.",
+      "actividades": [
+        { "nombre": "Kitesurf en la laguna del Stagnone (KTS Kite Tour Stagnone, centro IKO)", "tipo": "otro", "km": 43, "lat": 37.8500, "lng": 12.4700, "temporada": "abr–oct (escuela con cursos todo el año)", "url": "https://www.ikointl.com/it/centro/italy/marsala/kts-kite-tour-stagnone", "url_tipo": "certificadora", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "it-perugia",
+      "puntaje": 1,
+      "justificacion": "El rafting de la Cascata delle Marmore queda a unos 67 km, fuera del radio, y no hay más oferta.",
+      "actividades": []
+    },
+    {
+      "id": "it-isla-de-elba",
+      "puntaje": 2,
+      "justificacion": "Hay buceo en el Parque Nacional del Archipiélago Toscano y mountain bike de enduro en Capoliveri, sin operador documentado.",
+      "actividades": []
+    },
+    {
+      "id": "it-zingaro-san-vito-lo-capo",
+      "puntaje": 2,
+      "justificacion": "El kitesurf de la laguna del Stagnone queda a 41 km. San Vito Lo Capo es conocido por su escalada deportiva, pero sin operador ni guía documentado.",
+      "actividades": [
+        { "nombre": "Kitesurf en la laguna del Stagnone (KTS Kite Tour Stagnone, centro IKO)", "tipo": "otro", "km": 41, "lat": 37.8500, "lng": 12.4700, "temporada": "abr–oct (escuela con cursos todo el año)", "url": "https://www.ikointl.com/it/centro/italy/marsala/kts-kite-tour-stagnone", "url_tipo": "certificadora", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "it-riviera-del-conero",
+      "puntaje": 1,
+      "justificacion": "Hay senderos sobre acantilados y kayak de mar, sin operador documentado. Aquafan queda a unos 90 km.",
+      "actividades": []
+    },
+    {
+      "id": "it-bergamo",
+      "puntaje": 3,
+      "justificacion": "Leolandia, un parque temático de perfil familiar, está a 15 km. Gardaland queda fuera del radio.",
+      "actividades": [
+        { "nombre": "Leolandia", "tipo": "parque_diversiones", "km": 15, "lat": 45.6040, "lng": 9.5300, "temporada": "mar–ene (por calendario)", "url": "https://www.leolandia.it/", "url_tipo": "operador" }
+      ]
+    },
+    {
+      "id": "it-erice-segesta",
+      "puntaje": 3,
+      "justificacion": "La laguna del Stagnone (Marsala), a 23 km, es uno de los mejores spots de kitesurf en aguas planas del Mediterráneo y tiene escuelas certificadas por IKO. La escalada de San Vito Lo Capo (unos 20 km) no tiene operador documentado.",
+      "actividades": [
+        { "nombre": "Kitesurf en la laguna del Stagnone (KTS Kite Tour Stagnone, centro IKO)", "tipo": "otro", "km": 23, "lat": 37.8500, "lng": 12.4700, "temporada": "abr–oct (escuela con cursos todo el año)", "url": "https://www.ikointl.com/it/centro/italy/marsala/kts-kite-tour-stagnone", "url_tipo": "certificadora", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "it-islas-egadi",
+      "puntaje": 3,
+      "justificacion": "Se bucea en el Área Marina Protegida de las Egadi, una de las mayores del Mediterráneo, con las grutas de Marettimo. El kitesurf del Stagnone está a 15 km, aunque hace falta el ferry.",
+      "actividades": [
+        { "nombre": "Buceo en el AMP Isole Egadi (ficha de Italia.it)", "tipo": "otro", "km": 0, "lat": 37.9314, "lng": 12.3275, "temporada": "may–oct", "url": "https://www.italia.it/it/sicilia/trapani/area-marina-protetta-isole-egadi", "url_tipo": "turismo_oficial", "km_aprox": true },
+        { "nombre": "Kitesurf en la laguna del Stagnone (KTS Kite Tour Stagnone, centro IKO)", "tipo": "otro", "km": 15, "lat": 37.8500, "lng": 12.4700, "temporada": "abr–oct (escuela con cursos todo el año)", "url": "https://www.ikointl.com/it/centro/italy/marsala/kts-kite-tour-stagnone", "url_tipo": "certificadora", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "it-monti-sibillini-castelluccio",
+      "puntaje": 3,
+      "justificacion": "Italia.it agrupa el rafting de los Montes Sibillini y el de la Cascata delle Marmore, cuyo centro está a 51 km. El Pian Grande de Castelluccio es un lugar clásico de vuelo libre, pero sin operador de biplaza documentado.",
+      "actividades": [
+        { "nombre": "Rafting en el Nera (Sibillini y Cascata delle Marmore, ficha de Italia.it)", "tipo": "rafting", "km": 51, "lat": 42.5525, "lng": 12.7020, "temporada": "primavera–otoño (según caudal)", "url": "https://www.italia.it/it/umbria/cosa-fare/rafting-monti-sibillini-cascata-delle-marmore", "url_tipo": "turismo_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "it-portofino-san-fruttuoso",
+      "puntaje": 3,
+      "justificacion": "En la bahía de San Fruttuoso, a 3 km y dentro del Área Marina Protegida de Portofino, se bucea hasta el Cristo degli Abissi (unos 12–17 m). Es una inmersión icónica y relativamente fácil, con salidas desde Santa Margherita, Camogli y Rapallo.",
+      "actividades": [
+        { "nombre": "Buceo en el Cristo degli Abissi (AMP Portofino, ficha de Italia.it)", "tipo": "otro", "km": 3, "lat": 44.3155, "lng": 9.1750, "temporada": "abr–oct", "url": "https://www.italia.it/it/liguria/genova/area-marina-protetta-portofino", "url_tipo": "turismo_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "it-lago-de-iseo-monte-isola",
+      "puntaje": 3,
+      "justificacion": "Leolandia está a 45 km y Gardaland a 57 km, en el borde del radio. Es el mismo criterio que Franciacorta.",
+      "actividades": [
+        { "nombre": "Leolandia", "tipo": "parque_diversiones", "km": 45, "lat": 45.6040, "lng": 9.5300, "temporada": "mar–ene (por calendario)", "url": "https://www.leolandia.it/", "url_tipo": "operador" },
+        { "nombre": "Gardaland", "tipo": "parque_diversiones", "km": 57, "lat": 45.4550, "lng": 10.7140, "temporada": "mar–nov (+ eventos de Halloween y Navidad)", "url": "https://www.gardaland.it/", "url_tipo": "operador" }
+      ]
+    },
+    {
+      "id": "mt-dwejra",
+      "puntaje": 5,
+      "justificacion": "El Blue Hole (unos 15 m de media y 25 m de máximo, con nivel Advanced recomendado) y el túnel del Inland Sea hacia mar abierto están entre las inmersiones de referencia del Mediterráneo. El centro PADI 5 Estrellas de Xlendi está a unos 3 km.",
+      "actividades": [
+        { "nombre": "Buceo en el Blue Hole y restos de la Azure Window", "tipo": "otro", "km": 0, "lat": 36.0535, "lng": 14.1885, "temporada": "todo el año", "url": "https://www.padi.com/dive-site/malta/blue-hole-and-remains-of-azure-window/", "url_tipo": "certificadora" },
+        { "nombre": "Túnel del Inland Sea (Dwejra)", "tipo": "otro", "km": 0, "lat": 36.0500, "lng": 14.1940, "temporada": "todo el año", "url": "https://visitgozo.com/2024/04/24/top-10-diving-sites-in-gozo-and-comino/", "url_tipo": "turismo_oficial" },
+        { "nombre": "Utina Diving (PADI 5 Star, Xlendi)", "tipo": "otro", "km": 3, "lat": 36.0290, "lng": 14.2160, "temporada": "todo el año", "url": "https://www.padi.com/dive-center/malta/utina-diving/", "url_tipo": "certificadora" }
+      ]
+    },
+    {
+      "id": "mt-xlendi",
+      "puntaje": 4,
+      "justificacion": "Aquí está el centro PADI 5 Estrellas de Xlendi, con acceso directo al arrecife y al túnel de Xlendi (cuevas e inmersión nocturna). El Blue Hole de Dwejra queda a unos 4 km.",
+      "actividades": [
+        { "nombre": "Utina Diving (PADI 5 Star) – Xlendi Reef & Tunnel", "tipo": "otro", "km": 0, "lat": 36.0290, "lng": 14.2160, "temporada": "todo el año", "url": "https://www.padi.com/dive-center/malta/utina-diving/", "url_tipo": "certificadora" },
+        { "nombre": "Buceo en el Blue Hole (Dwejra)", "tipo": "otro", "km": 4, "lat": 36.0535, "lng": 14.1885, "temporada": "todo el año", "url": "https://www.padi.com/dive-site/malta/blue-hole-and-remains-of-azure-window/", "url_tipo": "certificadora" }
+      ]
+    },
+    {
+      "id": "mt-comino-laguna-azul",
+      "puntaje": 4,
+      "justificacion": "Aquí están las cuevas de Santa Marija, accesibles con poca experiencia, y el pecio P31 (11–20 m). A unos 3 km están los pecios de Ċirkewwa (P29 y Rozi).",
+      "actividades": [
+        { "nombre": "Cuevas de Santa Marija y pecio P31 (Comino)", "tipo": "otro", "km": 1, "lat": 36.0140, "lng": 14.3370, "temporada": "todo el año", "url": "https://visitgozo.com/2024/04/24/top-10-diving-sites-in-gozo-and-comino/", "url_tipo": "turismo_oficial" },
+        { "nombre": "Buceo en Ċirkewwa (pecios P29 y Rozi) con Dive Vision Malta", "tipo": "otro", "km": 3, "lat": 35.9880, "lng": 14.3290, "temporada": "todo el año; barco may–oct", "url": "https://www.divessi.com/en/divecenter/dive-vision-malta-ltd-lo-mellieha-735633", "url_tipo": "certificadora" }
+      ]
+    },
+    {
+      "id": "mt-mellieha",
+      "puntaje": 4,
+      "justificacion": "Hay un centro de buceo en la bahía (Dive Vision, a unos 2 km), y a unos 5 km está Ċirkewwa, uno de los mejores puntos de Malta, con dos pecios y un arco a 27 m. El parque acuático Splash & Fun queda a unos 8 km.",
+      "actividades": [
+        { "nombre": "Buceo en Ċirkewwa (pecios P29 y Rozi) con Dive Vision Malta", "tipo": "otro", "km": 5, "lat": 35.9880, "lng": 14.3290, "temporada": "todo el año; barco may–oct", "url": "https://www.divessi.com/en/divecenter/dive-vision-malta-ltd-lo-mellieha-735633", "url_tipo": "certificadora" },
+        { "nombre": "Splash & Fun Water Park (Baħar iċ-Ċagħaq)", "tipo": "parque_acuatico", "km": 8, "lat": 35.9440, "lng": 14.4520, "temporada": "finales de may–finales de oct", "url": "https://www.visitmalta.com/en/?p=23075", "url_tipo": "turismo_oficial" }
+      ]
+    },
+    {
+      "id": "mt-golden-bay",
+      "puntaje": 3,
+      "justificacion": "Es una playa sin actividad propia documentada. Lo más cercano es el buceo en Ċirkewwa, a unos 6 km.",
+      "actividades": [
+        { "nombre": "Buceo en Ċirkewwa (pecios P29 y Rozi) con Dive Vision Malta", "tipo": "otro", "km": 6, "lat": 35.9880, "lng": 14.3290, "temporada": "todo el año; barco may–oct", "url": "https://www.divessi.com/en/divecenter/dive-vision-malta-ltd-lo-mellieha-735633", "url_tipo": "certificadora" }
+      ]
+    },
+    {
+      "id": "mt-ramla-bay",
+      "puntaje": 3,
+      "justificacion": "Es una playa de arena sin actividad propia. Lo más cercano son las cuevas de Comino y el centro PADI de Xlendi, ambos a unos 7 km.",
+      "actividades": [
+        { "nombre": "Cuevas de Santa Marija y pecio P31 (Comino)", "tipo": "otro", "km": 7, "lat": 36.0140, "lng": 14.3370, "temporada": "todo el año", "url": "https://visitgozo.com/2024/04/24/top-10-diving-sites-in-gozo-and-comino/", "url_tipo": "turismo_oficial" }
+      ]
+    },
+    {
+      "id": "mt-valletta",
+      "puntaje": 3,
+      "justificacion": "Es la capital y una buena base: el parque acuático Splash & Fun está a unos 8 km y el buceo de Ċirkewwa a unos 19 km.",
+      "actividades": [
+        { "nombre": "Splash & Fun Water Park (Baħar iċ-Ċagħaq)", "tipo": "parque_acuatico", "km": 8, "lat": 35.9440, "lng": 14.4520, "temporada": "finales de may–finales de oct", "url": "https://www.visitmalta.com/en/?p=23075", "url_tipo": "turismo_oficial" },
+        { "nombre": "Buceo en Ċirkewwa (pecios P29 y Rozi) con Dive Vision Malta", "tipo": "otro", "km": 19, "lat": 35.9880, "lng": 14.3290, "temporada": "todo el año; barco may–oct", "url": "https://www.divessi.com/en/divecenter/dive-vision-malta-ltd-lo-mellieha-735633", "url_tipo": "certificadora" }
+      ]
+    },
+    {
+      "id": "mt-sliema-st-julians",
+      "puntaje": 3,
+      "justificacion": "Es una zona urbana y de ocio sin actividad de adrenalina propia, pero tiene a mano el parque acuático Splash & Fun (unos 6 km) y el buceo de Ċirkewwa (unos 18 km).",
+      "actividades": [
+        { "nombre": "Splash & Fun Water Park (Baħar iċ-Ċagħaq)", "tipo": "parque_acuatico", "km": 6, "lat": 35.9440, "lng": 14.4520, "temporada": "finales de may–finales de oct", "url": "https://www.visitmalta.com/en/?p=23075", "url_tipo": "turismo_oficial" },
+        { "nombre": "Buceo en Ċirkewwa (pecios P29 y Rozi) con Dive Vision Malta", "tipo": "otro", "km": 18, "lat": 35.9880, "lng": 14.3290, "temporada": "todo el año; barco may–oct", "url": "https://www.divessi.com/en/divecenter/dive-vision-malta-ltd-lo-mellieha-735633", "url_tipo": "certificadora" }
+      ]
+    },
+    {
+      "id": "mt-tres-ciudades",
+      "puntaje": 3,
+      "justificacion": "Son tres villas portuarias históricas, sin actividad propia. Lo más cercano es el parque acuático Splash & Fun, a unos 9 km.",
+      "actividades": [
+        { "nombre": "Splash & Fun Water Park (Baħar iċ-Ċagħaq)", "tipo": "parque_acuatico", "km": 9, "lat": 35.9440, "lng": 14.4520, "temporada": "finales de may–finales de oct", "url": "https://www.visitmalta.com/en/?p=23075", "url_tipo": "turismo_oficial" }
+      ]
+    },
+    {
+      "id": "mt-victoria-ciudadela",
+      "puntaje": 3,
+      "justificacion": "Es la capital de Gozo y una buena base para bucear en la isla: el centro PADI de Xlendi está a unos 3 km y el Blue Hole a unos 5 km.",
+      "actividades": [
+        { "nombre": "Utina Diving (PADI 5 Star, Xlendi)", "tipo": "otro", "km": 3, "lat": 36.0290, "lng": 14.2160, "temporada": "todo el año", "url": "https://www.padi.com/dive-center/malta/utina-diving/", "url_tipo": "certificadora" },
+        { "nombre": "Buceo en el Blue Hole (Dwejra)", "tipo": "otro", "km": 5, "lat": 36.0535, "lng": 14.1885, "temporada": "todo el año", "url": "https://www.padi.com/dive-site/malta/blue-hole-and-remains-of-azure-window/", "url_tipo": "certificadora" }
+      ]
+    },
+    {
+      "id": "mt-mdina-rabat",
+      "puntaje": 2,
+      "justificacion": "Es una ciudad amurallada del interior, sin actividad de adrenalina propia. El parque acuático Splash & Fun y el buceo de Ċirkewwa están en el radio, pero la visita es monumental, así que el puntaje no pasa de 2.",
+      "actividades": [
+        { "nombre": "Splash & Fun Water Park (Baħar iċ-Ċagħaq)", "tipo": "parque_acuatico", "km": 8, "lat": 35.9440, "lng": 14.4520, "temporada": "finales de may–finales de oct", "url": "https://www.visitmalta.com/en/?p=23075", "url_tipo": "turismo_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "mt-hipogeo-hal-saflieni",
+      "puntaje": 2,
+      "justificacion": "Es un sitio arqueológico subterráneo, junto con los templos de Tarxien, de visita con cupo. El parque acuático y el buceo de la isla están en el radio, pero el puntaje no pasa de 2.",
+      "actividades": []
+    },
+    {
+      "id": "mt-ggantija",
+      "puntaje": 2,
+      "justificacion": "Es un templo megalítico sin actividad propia. El buceo de Gozo está a pocos kilómetros, pero el puntaje no pasa de 2.",
+      "actividades": [
+        { "nombre": "Utina Diving (PADI 5 Star, Xlendi)", "tipo": "otro", "km": 5, "lat": 36.0290, "lng": 14.2160, "temporada": "todo el año", "url": "https://www.padi.com/dive-center/malta/utina-diving/", "url_tipo": "certificadora", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "mt-marsaxlokk",
+      "puntaje": 2,
+      "justificacion": "Es un pueblo pesquero con mercado. Los saltos desde la roca en St Peter's Pool son menores y sin operador, y el parque acuático Splash & Fun queda a unos 14 km.",
+      "actividades": [
+        { "nombre": "Splash & Fun Water Park (Baħar iċ-Ċagħaq)", "tipo": "parque_acuatico", "km": 14, "lat": 35.9440, "lng": 14.4520, "temporada": "finales de may–finales de oct", "url": "https://www.visitmalta.com/en/?p=23075", "url_tipo": "turismo_oficial" }
+      ]
+    },
+    {
+      "id": "mt-hagar-qim-mnajdra-gruta-azul",
+      "puntaje": 2,
+      "justificacion": "Son templos megalíticos más el paseo en barca a la Gruta Azul, que no es adrenalina. El buceo en Wied iż-Żurrieq (pecio Um El Faroud) no tiene operador documentado, y el puntaje no pasa de 2.",
+      "actividades": []
+    },
+    {
+      "id": "mt-acantilados-dingli",
+      "puntaje": 2,
+      "justificacion": "Es senderismo de acantilado. La escalada sobre el mar no tiene operador documentado.",
+      "actividades": []
+    }
+  ],
+  "fuentes_quitar": [
+    { "id": "ad-andorra-la-vella-escaldes", "url": "https://naturland.ad/en/node/137" },
+    { "id": "ad-grandvalira-pas-de-la-casa", "url": "https://naturland.ad/en/node/137" },
+    { "id": "ad-ordino-arcalis", "url": "https://naturland.ad/en/node/137" },
+    { "id": "ad-naturlandia", "url": "https://naturland.ad/en/node/137" },
+    { "id": "ad-canillo-sant-joan-de-caselles", "url": "https://naturland.ad/en/node/137" },
+    { "id": "ad-vall-del-madriu", "url": "https://naturland.ad/en/node/137" },
+    { "id": "ad-coma-pedrosa", "url": "https://naturland.ad/en/node/137" },
+    { "id": "ad-estanys-de-juclar", "url": "https://naturland.ad/en/node/137" },
+    { "id": "es-aiguestortes", "url": "https://naturland.ad/en/node/137" },
+    { "id": "pt-mafra", "url": "https://www.rapturecamps.com/surfcamp/portugal/surf-lessons" },
+    { "id": "pt-sintra", "url": "https://www.rapturecamps.com/surfcamp/portugal/surf-lessons" },
+    { "id": "pt-lisboa", "url": "https://www.rapturecamps.com/surfcamp/portugal/surf-lessons" },
+    { "id": "it-lago-maggiore", "url": "https://www.trekking.ch/007-vip-event/?lang=en" },
+    { "id": "it-lago-de-orta", "url": "https://www.trekking.ch/007-vip-event/?lang=en" },
+    { "id": "it-cividale-udine", "url": "https://www.manawa.com/en-GB/activity/slovenia/bovec/rafting/rafting-down-the-soca-river-in-bovec-slovenia/5551" },
+    { "id": "it-spoleto", "url": "https://www.yumping.com/it/sport-acquatici/rafting-le-marmore--e19620426" },
+    { "id": "it-alghero-capo-caccia", "url": "https://www.yumping.com/it/sport-acquatici/centro-immersioni-alghero--e16464" },
+    { "id": "it-golfo-di-orosei", "url": "https://www.tui.co.uk/things-to-do/sardinia/gorropu-canyon-trekking-with-lunch-from-cala-gonone-441077/" },
+    { "id": "pt-madeira-funchal", "url": "https://www.checkyeti.com/en/d/1587/11952" }
+  ],
+  "correcciones_base": [
+    { "id": "pt-arouca-516-paiva", "lat": 40.9644, "lng": -8.1753 }
+  ]
+}
