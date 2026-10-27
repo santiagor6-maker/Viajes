@@ -176,12 +176,12 @@
       "iso": "FR",
       "nombre": "Francia",
       "subregion": "francia-alpes",
-      "total_lugares": 0,
+      "total_lugares": 65,
       "excepcion_minimo": false,
       "justificacion": null,
       "nota_revisor": null,
       "revision_pendiente": false,
-      "estado": "sin_investigar"
+      "estado": "investigado"
     },
     {
       "iso": "MC",

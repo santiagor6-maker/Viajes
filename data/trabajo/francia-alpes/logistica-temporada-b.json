@@ -3,11 +3,1116 @@
   "subregion": "francia-alpes",
   "grupo": "b",
   "ronda": 1,
-  "notas": "Borrador en curso.",
+  "estado": "completo",
+  "paises": ["CH", "AT", "LI"],
+  "fecha_consulta": "2026-10-27",
+  "busquedas_usadas": 28,
+  "notas": "84 lugares: 39 de Suiza, 40 de Austria y 5 de Liechtenstein. Son los 64 candidatos de guias-expertas.json más los 20 nuevos de pendientes-nuevos.json. Se buscaron los casos delicados: Jungfraujoch, Zermatt sin coches, Grossglockner, Krimml, Eisriesenwelt, Hallstatt, Oeschinensee, Pilatus, Rothorn, Mürren, Saas-Fee, Wachau, Admont, San Galo, Müstair, La Chaux-de-Fonds, Monte Tamaro, Liechtenstein, Gutenberg, Carnuntum, Semmering, Familypark, Liechtensteinklamm, Schafberg, Kamptal, Valais y Sardona. El resto se completó con conocimiento propio, citando fuentes que ya estaban asociadas a cada lugar en los archivos de los especialistas. Costo: Suiza y Liechtenstein $$$$; Austria $$$ en ciudades y estaciones principales, $$ en el interior y el este, y $$$$ en Lech-Zürs.",
   "avisos_pais": [
     { "pais_iso": "CH", "nivel": "Level 1: Exercise normal precautions (aviso del 14/08/2026)", "url": "https://travel.state.gov/en/international-travel/travel-advisories/switzerland.html" },
     { "pais_iso": "AT", "nivel": "Level 1: Exercise normal precautions (aviso del 21/08/2026)", "url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/austria-travel-advisory.html" },
     { "pais_iso": "LI", "nivel": "Level 1: Exercise normal precautions (aviso del 18/08/2026)", "url": "https://travel.state.gov/en/international-travel/travel-advisories/liechtenstein.html" }
   ],
-  "logistica": []
+  "logistica": [
+    {
+      "id": "ch-lucerna",
+      "puntaje": 5,
+      "mejor_epoca": [5, 6, 7, 8, 9, 10],
+      "dias_sugeridos": 3,
+      "costo": "$$$$",
+      "acceso": "Tren directo desde Zúrich (unos 45 min) o Berna (1 h). El centro se recorre a pie y los barcos salen junto a la estación. Al Pilatus se sube en cremallera desde Alpnachstad (solo de mayo a noviembre) o en góndola y teleférico desde Kriens (casi todo el año).",
+      "alerta": "Las góndolas y el teleférico del Pilatus desde Kriens están cerrados por mantenimiento del 19 de octubre al 27 de noviembre de 2026. En ese período solo se sube con el cremallera desde Alpnachstad.",
+      "fuentes": [
+        { "guia": "Pilatus-Bahnen (operador, horarios 2026)", "url": "https://pilatus.ch/en/railway-cableways/timetable" },
+        { "guia": "Pilatus-Bahnen (operador, temporada del cremallera)", "url": "https://knowledge.pilatus.ch/en/when-does-the-cogwheel-train-close" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/switzerland/central-switzerland/" }
+      ]
+    },
+    {
+      "id": "ch-zermatt",
+      "puntaje": 4,
+      "mejor_epoca": [2, 3, 7, 8, 9],
+      "dias_sugeridos": 3,
+      "costo": "$$$$",
+      "acceso": "Pueblo sin coches. Se llega en tren de la Matterhorn Gotthard Bahn desde Visp (algo más de 1 h) o se deja el coche en el Matterhorn Terminal de Täsch y se sigue en el tren lanzadera (12 min, cada 20 min). El Gornergrat sale en cremallera desde el pueblo.",
+      "alerta": "La línea Visp–Täsch–Zermatt es el único acceso y puede cortarse por tormentas, deslaves o aludes. Conviene confirmar el servicio en sbb.ch o en la web de la Matterhorn Gotthard Bahn antes de viajar.",
+      "fuentes": [
+        { "guia": "Zermatt Tourismus (oficial, tren lanzadera)", "url": "https://www.zermatt.ch/en/arrival/Arrival-by-train/Shuttle-MTT/Zermatt-Shuttle-Train" },
+        { "guia": "Matterhorn Gotthard Bahn (operador)", "url": "https://www.matterhorngotthardbahn.ch/en/winter/access/matterhorn-terminal-taesch/" },
+        { "guia": "Gornergrat Bahn (operador)", "url": "https://www.gornergrat.ch/en/stories/travelling-to-zermatt-gornergrat" }
+      ]
+    },
+    {
+      "id": "ch-grindelwald-jungfrau",
+      "puntaje": 5,
+      "mejor_epoca": [1, 2, 6, 7, 8, 9],
+      "dias_sugeridos": 3,
+      "costo": "$$$$",
+      "acceso": "Tren desde Interlaken Ost hasta Grindelwald Terminal, Eiger Express hasta Eigergletscher y tren del Jungfrau hasta la cumbre. Son unas 1 h 30 desde Interlaken y el Jungfraujoch abre los 365 días. La alternativa sin góndola sube en cremallera por la Kleine Scheidegg (unas 2 h).",
+      "alerta": "La estación está a 3454 m: puede dar mal de altura y con nubes no se ve nada. Conviene mirar las webcams antes de comprar el billete, que es muy caro.",
+      "fuentes": [
+        { "guia": "Jungfraubahnen (operador, llegada)", "url": "https://www.jungfrau.ch/en-gb/arriving/" },
+        { "guia": "Jungfraubahnen (operador, billetes)", "url": "https://www.jungfrau.ch/en-gb/jungfraujoch-top-of-europe/buy-jungfraujoch-ticket/" },
+        { "guia": "Jungfraubahnen (operador, Eiger Express)", "url": "https://www.jungfrau.ch/en-gb/jungfraujoch-top-of-europe/v-cableway/" }
+      ]
+    },
+    {
+      "id": "ch-lauterbrunnen",
+      "puntaje": 4,
+      "mejor_epoca": [6, 7, 8, 9],
+      "dias_sugeridos": 3,
+      "costo": "$$$$",
+      "acceso": "Tren desde Interlaken Ost (unos 20 min). Mürren y Gimmelwald no tienen coches: se sube en el teleférico del Schilthorn desde Stechelberg o por Grütschalp con el tren BLM. Hay aparcamiento de pago en Lauterbrunnen y Stechelberg.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Jungfrau Region / Mürren Tourismus (Infoguide de verano)", "url": "https://sales.jungfrauregion.swiss/files/websites/muerren.swiss/Brosch%C3%BCren/Infoguide%20M%C3%BCrren%20Sommer.pdf" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/switzerland/lauterbrunnen-valley" }
+      ]
+    },
+    {
+      "id": "ch-interlaken",
+      "puntaje": 5,
+      "mejor_epoca": [5, 6, 7, 8, 9],
+      "dias_sugeridos": 2,
+      "costo": "$$$$",
+      "acceso": "Tren directo desde Berna (unos 50 min) y Zúrich (unas 2 h) a Interlaken West y Ost. De Interlaken Ost salen los trenes de los Jungfraubahnen hacia Grindelwald, Lauterbrunnen y el Jungfraujoch, y hay barcos por los lagos de Thun y Brienz.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Jungfraubahnen (operador, Interlaken)", "url": "https://www.jungfrau.ch/en-gb/interlaken/" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/interlaken/" }
+      ]
+    },
+    {
+      "id": "ch-brienz",
+      "puntaje": 4,
+      "mejor_epoca": [6, 7, 8, 9],
+      "dias_sugeridos": 1,
+      "costo": "$$$$",
+      "acceso": "Tren desde Interlaken Ost (unos 20 min) o barco por el lago de Brienz. El cremallera de vapor al Rothorn sale junto a la estación y en 2026 funcionó del 6 de junio al 25 de octubre (antes de eso, solo hasta Planalp).",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Brienzersee Tourismus (oficial)", "url": "https://www.brienzersee.ch/en/experiences/poi/brienz-rothorn-railway" },
+        { "guia": "Interlaken Tourismus (oficial)", "url": "https://www.interlaken.ch/en/experiences/poi/brienz-rothorn-railway" },
+        { "guia": "Switzerland Travel Centre (billetes, temporada 2026)", "url": "https://switzerlandtravelcentre.com/en/train-tickets/mountain-railways/brienzer-rothorn" }
+      ]
+    },
+    {
+      "id": "ch-berna",
+      "puntaje": 5,
+      "mejor_epoca": [5, 6, 7, 8, 9],
+      "dias_sugeridos": 2,
+      "costo": "$$$$",
+      "acceso": "Es un nudo ferroviario: tren directo desde Zúrich (1 h), Ginebra (1 h 45) e Interlaken (50 min). El casco antiguo se recorre a pie bajo soportales y hay tranvía y autobús.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/switzerland/itinerary" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/destinations/switzerland/bern" }
+      ]
+    },
+    {
+      "id": "ch-ginebra",
+      "puntaje": 5,
+      "mejor_epoca": [5, 6, 7, 8, 9],
+      "dias_sugeridos": 2,
+      "costo": "$$$$",
+      "acceso": "Aeropuerto internacional a 7 min en tren de la estación de Cornavin y conexión directa en TGV con París y Lyon. Los huéspedes de hotel reciben una tarjeta de transporte público gratuito y por el lago cruzan las mouettes.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/things-to-do-in-geneva" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/switzerland/geneva" }
+      ]
+    },
+    {
+      "id": "ch-lausana",
+      "puntaje": 5,
+      "mejor_epoca": [5, 6, 7, 8, 9],
+      "dias_sugeridos": 2,
+      "costo": "$$$$",
+      "acceso": "Tren directo desde Ginebra y su aeropuerto (unos 40 min) y desde Berna (1 h 10). El metro M2 salva la cuesta de Ouchy a la catedral y los barcos CGN cruzan el Lemán hasta Évian.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Lausanne Tourisme (oficial)", "url": "https://www.lausanne-tourisme.ch/fr/offre/degustation-secrets-du-chasselas-de-lavaux/" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-switzerland" }
+      ]
+    },
+    {
+      "id": "ch-lavaux",
+      "puntaje": 4,
+      "mejor_epoca": [5, 6, 9, 10],
+      "dias_sugeridos": 1,
+      "costo": "$$$$",
+      "acceso": "Tren regional Lausana–Vevey con paradas en Lutry, Cully, Epesses y Rivaz, y tren de Puidoux por Chexbres. Los senderos entre terrazas se hacen sin coche y se vuelve en tren o en barco CGN.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Lavaux UNESCO (asociación oficial)", "url": "https://www.lavaux-unesco.ch/storage/app/media/uploaded-files/20240207cpcvvlredecouverte-vins-lavaux60.pdf" },
+        { "guia": "Lausanne Tourisme (oficial)", "url": "https://www.lausanne-tourisme.ch/fr/offre/degustation-secrets-du-chasselas-de-lavaux/" }
+      ]
+    },
+    {
+      "id": "ch-montreux-chillon",
+      "puntaje": 5,
+      "mejor_epoca": [5, 6, 7, 9],
+      "dias_sugeridos": 2,
+      "costo": "$$$$",
+      "acceso": "Tren desde Lausana (unos 20 min) y Ginebra (1 h 10). A Chillon se llega en el bus 201, en barco CGN de temporada o caminando unos 45 min por la orilla. El cremallera a los Rochers-de-Naye sale de la estación.",
+      "alerta": "Durante el Montreux Jazz Festival, en julio, el alojamiento se llena y los precios suben mucho.",
+      "fuentes": [
+        { "guia": "Château de Chillon (oficial)", "url": "https://www.chillon.ch/en/" },
+        { "guia": "Switzerland Tourism (oficial)", "url": "https://www.myswitzerland.com/en-us/experiences/chillon-castle/" }
+      ]
+    },
+    {
+      "id": "ch-gruyeres",
+      "puntaje": 4,
+      "mejor_epoca": [5, 6, 7, 8, 9, 10],
+      "dias_sugeridos": 1,
+      "costo": "$$$$",
+      "acceso": "Tren regional desde Bulle o Montbovon hasta la estación de Gruyères, junto a La Maison du Gruyère. El burgo está a unos 10 min a pie cuesta arriba y es peatonal; los coches quedan en el aparcamiento de pago al pie del pueblo.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Switzerland Tourism (oficial)", "url": "https://www.myswitzerland.com/en/experiences/medieval-town-gruyeres/" },
+        { "guia": "La Maison du Gruyère (dossier oficial 2024)", "url": "https://www.lamaisondugruyere.ch/wp-content/uploads/2024/04/La-Maison-du-Gruyere_2024_fr.pdf" }
+      ]
+    },
+    {
+      "id": "ch-zurich",
+      "puntaje": 5,
+      "mejor_epoca": [5, 6, 7, 8, 9, 12],
+      "dias_sugeridos": 2,
+      "costo": "$$$$",
+      "acceso": "El aeropuerto está a unos 10 min en tren de la Hauptbahnhof, que tiene conexiones directas con toda Suiza, Alemania, Austria e Italia. En la ciudad hay tranvías y barcos por el lago.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/switzerland/zurich" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/switzerland/zurich/" }
+      ]
+    },
+    {
+      "id": "ch-basilea",
+      "puntaje": 5,
+      "mejor_epoca": [2, 3, 5, 6, 7, 8, 9],
+      "dias_sugeridos": 2,
+      "costo": "$$$$",
+      "acceso": "Tren desde Zúrich (unos 55 min). La ciudad tiene estaciones suiza, francesa y alemana y comparte el EuroAirport con Mulhouse y Friburgo. Los huéspedes de hotel viajan gratis en el transporte urbano.",
+      "alerta": "Durante la Fasnacht (febrero o marzo) y la feria Art Basel (junio) el alojamiento se encarece mucho.",
+      "fuentes": [
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/switzerland/basel" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/switzerland/best-places-to-visit/" }
+      ]
+    },
+    {
+      "id": "ch-cataratas-del-rin",
+      "puntaje": 5,
+      "mejor_epoca": [5, 6, 7, 8, 9],
+      "dias_sugeridos": 1,
+      "costo": "$$$$",
+      "acceso": "Tren desde Zúrich a Neuhausen am Rheinfall o a la parada Schloss Laufen am Rheinfall (unos 40 min). Las plataformas abren todo el año y los barcos a la roca central salen en temporada, sobre todo de abril a octubre.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Switzerland Tourism (oficial)", "url": "https://www.myswitzerland.com/de-at/erlebnisse/der-rheinfall/" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/points-of-interest/rheinfall/1062533" }
+      ]
+    },
+    {
+      "id": "ch-stein-am-rhein",
+      "puntaje": 5,
+      "mejor_epoca": [5, 6, 7, 8, 9],
+      "dias_sugeridos": 1,
+      "costo": "$$$$",
+      "acceso": "Tren desde Schaffhausen (unos 25 min) o Zúrich (alrededor de 1 h). En temporada hay barcos por el Rin desde Schaffhausen y desde el lago Inferior de Constanza.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Switzerland Tourism (oficial)", "url": "https://www.myswitzerland.com/en-us/destinations/stein-am-rhein/" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/destinations/switzerland/northeastern-switzerland" }
+      ]
+    },
+    {
+      "id": "ch-appenzell",
+      "puntaje": 4,
+      "mejor_epoca": [6, 7, 8, 9, 10],
+      "dias_sugeridos": 2,
+      "costo": "$$$$",
+      "acceso": "Tren de las Appenzeller Bahnen desde San Galo o Gossau hasta Appenzell y Wasserauen, donde sale el teleférico de la Ebenalp. Al Säntis se sube desde Schwägalp, con bus postal desde Urnäsch o Nesslau.",
+      "alerta": "Los senderos del Alpstein (Aescher, Seealpsee) tienen tramos expuestos que resbalan con lluvia. Hace falta calzado de montaña y los refugios de altura cierran en invierno.",
+      "fuentes": [
+        { "guia": "Switzerland Tourism (oficial, Schaukäserei)", "url": "https://www.myswitzerland.com/de-ch/erlebnisse/appenzeller-schaukaeserei/" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/switzerland" }
+      ]
+    },
+    {
+      "id": "ch-lugano",
+      "puntaje": 5,
+      "mejor_epoca": [4, 5, 6, 9, 10],
+      "dias_sugeridos": 2,
+      "costo": "$$$$",
+      "acceso": "Tren directo desde Zúrich por el túnel de base del Gotardo (unas 2 h) y desde Milán (alrededor de 1 h 15). Desde la ciudad suben funiculares al Monte Brè y al San Salvatore, y los barcos van a Gandria y Morcote.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/switzerland/itinerary" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/switzerland/ticino" }
+      ]
+    },
+    {
+      "id": "ch-locarno-ascona",
+      "puntaje": 4,
+      "mejor_epoca": [4, 5, 6, 9, 10],
+      "dias_sugeridos": 2,
+      "costo": "$$$$",
+      "acceso": "Tren desde Bellinzona (unos 25 min), con enlaces desde Zúrich y Lugano. Ascona está a 10 min en bus. Los barcos a las islas de Brissago y el funicular de la Madonna del Sasso funcionan sobre todo de abril a octubre.",
+      "alerta": "Durante el Festival de Cine de Locarno, en agosto, el alojamiento se agota y sube de precio.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/destinations/switzerland/ticino" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/switzerland/ticino" }
+      ]
+    },
+    {
+      "id": "ch-bellinzona",
+      "puntaje": 5,
+      "mejor_epoca": [4, 5, 6, 9, 10],
+      "dias_sugeridos": 1,
+      "costo": "$$$$",
+      "acceso": "Parada de los trenes del Gotardo: alrededor de 1 h 45 desde Zúrich y 1 h desde Milán. Castelgrande está junto al centro, con ascensor desde la Piazza del Sole, y Montebello y Sasso Corbaro se alcanzan a pie o en un tren turístico de temporada.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/destinations/switzerland/ticino" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/switzerland/ticino" }
+      ]
+    },
+    {
+      "id": "ch-valle-verzasca",
+      "puntaje": 3,
+      "mejor_epoca": [5, 6, 9, 10],
+      "dias_sugeridos": 1,
+      "costo": "$$$$",
+      "acceso": "Bus PostAuto desde Tenero o Locarno hasta Lavertezzo y Sonogno (alrededor de 1 h). En coche, el aparcamiento es escaso y de pago, y en verano se llena temprano.",
+      "alerta": "Las corrientes y las crecidas repentinas del río Verzasca causan ahogamientos casi todos los veranos. No hay que bañarse cerca de remolinos ni después de lluvias.",
+      "fuentes": [
+        { "guia": "PostAuto (operador oficial)", "url": "https://www.postauto.ch/it/offerte-per-il-tempo-libero/idee-per-escursioni/valle-verzasca" },
+        { "guia": "Switzerland Tourism (oficial)", "url": "https://www.myswitzerland.com/en-gb/experiences/route/sentiero-verzasca/" }
+      ]
+    },
+    {
+      "id": "ch-st-moritz-engadina",
+      "puntaje": 4,
+      "mejor_epoca": [1, 2, 3, 7, 8, 9],
+      "dias_sugeridos": 3,
+      "costo": "$$$$",
+      "acceso": "Tren de los Ferrocarriles Réticos desde Chur por la línea del Albula (alrededor de 2 h), o en el Glacier Express desde Zermatt y el Bernina Express desde Tirano. Hay autobuses entre los pueblos de la Alta Engadina.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "St. Moritz Tourismus (oficial)", "url": "https://www.stmoritz.com/en/olympia-bob-run/" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/switzerland/graubunden/places/st-moritz" }
+      ]
+    },
+    {
+      "id": "ch-parque-nacional-suizo",
+      "puntaje": 4,
+      "mejor_epoca": [6, 7, 8, 9, 10],
+      "dias_sugeridos": 2,
+      "costo": "$$$$",
+      "acceso": "Tren de los Ferrocarriles Réticos hasta Zernez, donde está el centro de visitantes, y bus postal por el paso del Ofen hasta los accesos. Los senderos están libres de nieve más o menos de junio a octubre.",
+      "alerta": "Es una reserva estricta: está prohibido salir de los senderos, entrar con perros, hacer fuego y acampar.",
+      "fuentes": [
+        { "guia": "Parque Nacional Suizo (oficial)", "url": "https://nationalpark.ch/en/visit/" },
+        { "guia": "Graubünden Ferien (oficial)", "url": "https://www.graubuenden.ch/en/attractions/parks/swiss-national-park/48-hours" }
+      ]
+    },
+    {
+      "id": "ch-guarda",
+      "puntaje": 4,
+      "mejor_epoca": [6, 7, 8, 9, 10],
+      "dias_sugeridos": 1,
+      "costo": "$$$$",
+      "acceso": "Tren de los Ferrocarriles Réticos por el túnel de la Vereina o desde St. Moritz hasta la estación de Guarda. El pueblo queda en la ladera, a unos 30 min a pie o a pocos minutos en bus postal.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Engadin (turismo oficial)", "url": "https://www.engadin.com/en/guarda-gemeinde-scuol" },
+        { "guia": "Switzerland Tourism (oficial)", "url": "https://www.myswitzerland.com/en-us/destinations/guarda/" }
+      ]
+    },
+    {
+      "id": "ch-glaciar-aletsch",
+      "puntaje": 4,
+      "mejor_epoca": [6, 7, 8, 9],
+      "dias_sugeridos": 2,
+      "costo": "$$$$",
+      "acceso": "Tren de la Matterhorn Gotthard Bahn por el valle del Ródano hasta Fiesch, Betten o Mörel, y teleféricos a Fiescheralp, Bettmeralp o Riederalp, que son pueblos sin coches. Los miradores, como el Eggishorn, se alcanzan en teleférico.",
+      "alerta": "No hay que pisar el glaciar sin guía de montaña, porque tiene grietas ocultas.",
+      "fuentes": [
+        { "guia": "Valais/Wallis Promotion (oficial)", "url": "https://www.valais.ch/en/explore/activities/natural-sites/nature-parks/unesco-world-heritage-swiss-alps-jungfrau-aletsch" },
+        { "guia": "Sitio UNESCO Jungfrau-Aletsch (gestión oficial)", "url": "https://jungfraualetsch.ch/en/world-heritage/world-heritage-site/" }
+      ]
+    },
+    {
+      "id": "ch-saas-fee",
+      "puntaje": 4,
+      "mejor_epoca": [2, 3, 7, 8, 9],
+      "dias_sugeridos": 3,
+      "costo": "$$$$",
+      "acceso": "Pueblo sin coches. Se llega en el bus PostAuto 511 desde la estación de Visp (unos 50 min, más o menos cada 30 min) hasta la terminal. En coche hay que dejarlo en el aparcamiento de pago de la entrada y seguir en el bus eléctrico gratuito o en taxi eléctrico.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "PostAuto (operador oficial)", "url": "https://sport.postauto.ch/en/saas-fee-saastal" },
+        { "guia": "Saas-Fee/Saastal Tourismus (oficial)", "url": "https://www.saas-fee.ch/en/anreise/anreise-ins-saastal" }
+      ]
+    },
+    {
+      "id": "ch-engelberg-titlis",
+      "puntaje": 4,
+      "mejor_epoca": [1, 2, 3, 6, 7, 8, 9],
+      "dias_sugeridos": 2,
+      "costo": "$$$$",
+      "acceso": "Tren de la Zentralbahn desde Lucerna (unos 45 min). Desde Engelberg suben teleféricos encadenados por el Trübsee y el Stand hasta el Titlis (3020 m), abiertos casi todo el año salvo las semanas de revisión.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/switzerland/engelberg/titlis" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/switzerland/luzern-and-central-switzerland/places/luzern/things-to-do/sights" }
+      ]
+    },
+    {
+      "id": "ch-murten",
+      "puntaje": 5,
+      "mejor_epoca": [5, 6, 7, 8, 9],
+      "dias_sugeridos": 1,
+      "costo": "$$$$",
+      "acceso": "Tren regional desde Berna (unos 35 min) o Friburgo. El casco amurallado está a pocos minutos a pie de la estación y en temporada hay barcos por los lagos de Morat, Neuchâtel y Biel.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Switzerland Tourism (oficial)", "url": "https://www.myswitzerland.com/en-us/destinations/murtenmorat/" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/switzerland/itinerary" }
+      ]
+    },
+    {
+      "id": "ch-einsiedeln",
+      "puntaje": 5,
+      "mejor_epoca": [5, 6, 7, 8, 9, 12],
+      "dias_sugeridos": 1,
+      "costo": "$$$$",
+      "acceso": "Tren S-Bahn desde Zúrich con transbordo en Wädenswil o Biberbrugg (alrededor de 1 h). La abadía queda a unos 10 min a pie de la estación.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/10-best-things-to-do-in-switzerland" },
+        { "guia": "Swissinfo", "url": "https://www.swissinfo.ch/eng/history/einsiedeln-monastery-moves-with-the-times/6042388" }
+      ]
+    },
+    {
+      "id": "ch-klosters",
+      "puntaje": 4,
+      "mejor_epoca": [1, 2, 3, 7, 8, 9],
+      "dias_sugeridos": 2,
+      "costo": "$$$$",
+      "acceso": "Tren de los Ferrocarriles Réticos desde Landquart (unos 45 min) o por el túnel de la Vereina desde la Engadina. El teleférico de la Gotschna sale del pueblo, junto a la estación.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/switzerland/klosters" }
+      ]
+    },
+    {
+      "id": "ch-st-gallen",
+      "puntaje": 5,
+      "mejor_epoca": [4, 5, 6, 7, 8, 9, 10, 12],
+      "dias_sugeridos": 1,
+      "costo": "$$$$",
+      "acceso": "Tren directo desde Zúrich y su aeropuerto (alrededor de 1 h). El recinto de la abadía está en el casco antiguo, a unos 10 min a pie de la estación. La biblioteca abre a diario de 10:00 a 17:00, y de julio a septiembre hasta las 18:00.",
+      "alerta": "La biblioteca, la bodega abovedada y la sala de exposiciones cierran del 9 al 23 de noviembre de 2026 y el 24 y 25 de diciembre.",
+      "fuentes": [
+        { "guia": "Stiftsbezirk St. Gallen (oficial, horarios)", "url": "https://stiftsbezirk.ch/en/opening-hours" },
+        { "guia": "St.Gallen-Bodensee Tourismus (oficial)", "url": "https://st.gallen-bodensee.ch/en/map/poi/abbey-district-of-st-gallen-8e8c4eb6-2efe-40fe-8e08-fb76c80afb14.html" }
+      ]
+    },
+    {
+      "id": "ch-mustair",
+      "puntaje": 3,
+      "mejor_epoca": [5, 6, 7, 8, 9, 10],
+      "dias_sugeridos": 1,
+      "costo": "$$$$",
+      "acceso": "Tren de los Ferrocarriles Réticos hasta Zernez y bus postal por el paso del Ofen hasta Müstair (alrededor de 1 h), junto a la frontera italiana. El museo abre todo el año, con horario reducido de noviembre a abril; las visitas guiadas son sobre todo en verano y otoño.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Val Müstair Tourismus (oficial)", "url": "https://www.val-muestair.ch/en/st-johann-monastery" },
+        { "guia": "SOB unterwegs (ficha del museo)", "url": "https://unterwegs.sob.ch/en/service-providers/convent-museum-of-muestair-unesco-world-heritage-site" }
+      ]
+    },
+    {
+      "id": "ch-la-chaux-de-fonds",
+      "puntaje": 5,
+      "mejor_epoca": [5, 6, 7, 8, 9, 10],
+      "dias_sugeridos": 1,
+      "costo": "$$$$",
+      "acceso": "Tren desde Neuchâtel (unos 30 min); Le Locle está a pocos minutos más en tren regional. La oficina de turismo organiza visitas guiadas al urbanismo relojero y hay un tren turístico por la ciudad.",
+      "alerta": "El Museo Internacional de Relojería estuvo cerrado por renovación hasta la primavera de 2026. Conviene confirmar que ya reabrió antes de ir.",
+      "fuentes": [
+        { "guia": "Jura & Trois-Lacs Tourisme (oficial, visita guiada)", "url": "https://www.j3l.ch/en/G1911/things-to-do/culture-museums/visit/scheduled-guided-tour-la-chaux-de-fonds-le-locle" },
+        { "guia": "Switzerland Tourism (oficial)", "url": "https://www.myswitzerland.com/en-us/destinations/la-chaux-de-fonds/" }
+      ]
+    },
+    {
+      "id": "ch-augusta-raurica",
+      "puntaje": 5,
+      "mejor_epoca": [4, 5, 6, 7, 8, 9, 10],
+      "dias_sugeridos": 1,
+      "costo": "$$$$",
+      "acceso": "Tren regional desde Basilea hasta Kaiseraugst (unos 15 min) y paseo corto hasta el teatro y el museo. El parque arqueológico está al aire libre y se recorre a pie.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Switzerland Tourism (oficial)", "url": "https://www.myswitzerland.com/en/experiences/augusta-raurica-the-roman-city/" }
+      ]
+    },
+    {
+      "id": "ch-oeschinensee",
+      "puntaje": 3,
+      "mejor_epoca": [6, 7, 9, 10],
+      "dias_sugeridos": 1,
+      "costo": "$$$$",
+      "acceso": "Tren a Kandersteg por la línea Spiez–Brig (unos 30 min desde Spiez) y unos 10 min a pie hasta la telecabina. Desde la estación superior al lago hay un paseo fácil; a pie desde el pueblo son unas 1 h 45. En verano la telecabina funciona de 8:30 a 18:00 y también abre en invierno.",
+      "alerta": "En pleno verano hay que reservar franja horaria para subir en la telecabina (en 2026, del 20 de junio al 20 de septiembre). En invierno el lago se hiela y algunos senderos se cierran por riesgo de aludes.",
+      "fuentes": [
+        { "guia": "Gondelbahn Kandersteg-Oeschinensee (operador)", "url": "https://www.oeschinensee.ch/en/live/" },
+        { "guia": "Switzerland Tourism (oficial)", "url": "https://www.myswitzerland.com/en-ch/experiences/gondola-to-lake-oeschinen/" },
+        { "guia": "Adelboden-Lenk-Kandersteg Tourismus (oficial)", "url": "https://adelboden-lenk-kandersteg.ch/en/activities/tour/detail/kandersteg-oeschinensee" },
+        { "guia": "Heidi Walking Holidays (operador, reservas 2026)", "url": "https://www.heidi.com/walking-holidays/switzerland/kandersteg" }
+      ]
+    },
+    {
+      "id": "ch-sardona",
+      "puntaje": 2,
+      "mejor_epoca": [7, 8, 9],
+      "dias_sugeridos": 2,
+      "costo": "$$$$",
+      "acceso": "Tren hasta Schwanden y bus de la Sernftal hasta Elm (alrededor de 1 h 30 desde Zúrich). Desde la estación de Elm hay 1,2 km hasta el teleférico del Tschinglen, que sube a la Tschinglen-Alp, con vistas a los Tschingelhörner y al Martinsloch. Es la etapa 6 del Sardona Welterbe-Weg.",
+      "alerta": "Son rutas de alta montaña con nieve hasta entrado el verano y tramos T2–T3. Exigen experiencia y buen tiempo, y algunos buses de acceso solo circulan en verano.",
+      "fuentes": [
+        { "guia": "Graubünden Ferien (oficial, Sardona Welterbe-Weg etapa 6)", "url": "https://www.graubuenden.ch/de/touren/sardona-welterbe-weg-etappe-6" },
+        { "guia": "Switzerland Tourism (oficial, ruta circular Mettmenalp–Elm)", "url": "https://www.myswitzerland.com/en/experiences/mettmenalp-elm-circular-hike/" }
+      ]
+    },
+    {
+      "id": "ch-valais-sion-vinos",
+      "puntaje": 5,
+      "mejor_epoca": [4, 5, 9, 10],
+      "dias_sugeridos": 2,
+      "costo": "$$$$",
+      "acceso": "Tren directo desde Lausana (alrededor de 1 h) o desde Brig hasta Sion y Sierre. La etapa 3 del Chemin du vignoble, de Sion a Venthône (unos 19 km), empieza con un bus desde Sion y termina con un bus a Sierre. El Sentier viticole de Sierre a Salgesch (7,5 km) sale a 1 km de la estación.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Valais/Wallis Promotion (oficial, Chemin du vignoble etapa 3)", "url": "https://www.valais.ch/en/explore/activities/hiking/hikes/chemin-du-vignoble-sion-to-venthone-stage-3" },
+        { "guia": "Switzerland Tourism (oficial)", "url": "https://www.myswitzerland.com/en-us/experiences/route/chemin-du-vignoble-36_03" },
+        { "guia": "Swiss Wine Promotion (interprofesión)", "url": "https://swisswine.ch/en/grapes/petite-arvine-en" }
+      ]
+    },
+    {
+      "id": "ch-buendner-herrschaft",
+      "puntaje": 5,
+      "mejor_epoca": [5, 6, 9, 10],
+      "dias_sugeridos": 1,
+      "costo": "$$$$",
+      "acceso": "Tren a Landquart o Maienfeld (alrededor de 1 h 10 desde Zúrich). Entre Maienfeld, Jenins, Malans y Fläsch hay rutas a pie y en bici eléctrica de bodega en bodega.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Graubünden Ferien (oficial)", "url": "https://www.graubuenden.ch/en/attractions/wine-experience-bundner-herrschaft" },
+        { "guia": "Swiss Wine Promotion (interprofesión)", "url": "https://www.swisswine.com/en/news/a-wine-curious-weekend-in-graubuenden-s-buendner-herrschaft" }
+      ]
+    },
+    {
+      "id": "ch-monte-tamaro",
+      "puntaje": 4,
+      "mejor_epoca": [5, 6, 7, 9, 10],
+      "dias_sugeridos": 1,
+      "costo": "$$$$",
+      "acceso": "Tren a Rivera-Bironico (unos 15 min desde Lugano o Bellinzona) y telecabina hasta Alpe Foppa (1530 m), donde están el Coaster Bob, la tirolesa y la iglesia de Botta.",
+      "alerta": "En el invierno 2026-27 la telecabina solo funciona los fines de semana (del 9 de noviembre al 31 de marzo, con días extra en Navidad y febrero) y las atracciones de verano no abren.",
+      "fuentes": [
+        { "guia": "Monte Tamaro (operador, horario de invierno)", "url": "https://www.montetamaro.ch/en/cable-car-winter" },
+        { "guia": "Ascona-Locarno Turismo (oficial)", "url": "https://www.ascona-locarno.com/en/commons/details/Cable-car-Monte-Tamaro/1000" },
+        { "guia": "Monte Tamaro (operador, Coaster Bob)", "url": "https://www.montetamaro.ch/en/adventure/coaster-bob" }
+      ]
+    },
+    {
+      "id": "li-vaduz",
+      "puntaje": 5,
+      "mejor_epoca": [5, 6, 7, 8, 9],
+      "dias_sugeridos": 1,
+      "costo": "$$$$",
+      "acceso": "Vaduz no tiene tren. Desde las estaciones de Sargans o Buchs SG (Suiza) o de Feldkirch (Austria) se sigue en los autobuses LIEmobil. En coche se llega por la A13 suiza, con viñeta, y el país no tiene aeropuerto.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Liechtenstein Marketing (turismo oficial)", "url": "https://tourismus.li/en/our-country/arrival-transport" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/liechtenstein/places/vaduz" }
+      ]
+    },
+    {
+      "id": "li-malbun",
+      "puntaje": 4,
+      "mejor_epoca": [1, 2, 3, 7, 8, 9],
+      "dias_sugeridos": 1,
+      "costo": "$$$$",
+      "acceso": "Bus LIEmobil desde Vaduz por Triesenberg y el túnel de Gnalp (alrededor de 30 min), o en coche por la carretera de montaña. Los telesillas funcionan en las temporadas de invierno y de verano.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Liechtenstein Marketing (turismo oficial)", "url": "https://tourismus.li/en/our-country/arrival-transport" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/switzerland/north-east-and-liechtenstein/" }
+      ]
+    },
+    {
+      "id": "li-triesenberg",
+      "puntaje": 5,
+      "mejor_epoca": [5, 6, 7, 8, 9, 10],
+      "dias_sugeridos": 1,
+      "costo": "$$$$",
+      "acceso": "Bus LIEmobil desde Vaduz (alrededor de 15 min) por la carretera de montaña. El pueblo es la escala hacia Malbun y Gaflei.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Liechtenstein Marketing (turismo oficial)", "url": "https://tourismus.li/en/our-country/arrival-transport" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/liechtenstein/places/triesenberg" }
+      ]
+    },
+    {
+      "id": "li-castillo-gutenberg",
+      "puntaje": 3,
+      "mejor_epoca": [5, 6, 7, 8, 9, 10],
+      "dias_sugeridos": 1,
+      "costo": "$$$$",
+      "acceso": "Bus LIEmobil desde Vaduz o Sargans hasta Balzers y subida corta a pie. Por dentro solo se visita en un tour guiado de grupo, del 1 de mayo al 31 de octubre, con reserva al menos dos semanas antes; del 1 de noviembre al 30 de abril está cerrado.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Municipio de Balzers (oficial)", "url": "https://www.balzers.li/Portal/UserFiles/files/Service/151_Gutenberg Castle_Information.pdf" },
+        { "guia": "Municipio de Balzers (oficial, solicitud de visita 2024)", "url": "https://balzers.li/Portal/UserFiles/files/Service/166_Burg%20Gutenberg_Gesuch_Besichtigungen_EN_TVBG_2024.pdf" }
+      ]
+    },
+    {
+      "id": "li-fuerstensteig",
+      "puntaje": 3,
+      "mejor_epoca": [6, 7, 8, 9, 10],
+      "dias_sugeridos": 1,
+      "costo": "$$$$",
+      "acceso": "Bus LIEmobil desde Vaduz hasta Triesenberg y enlace hasta Gaflei, o coche hasta el aparcamiento de Gaflei. Se puede volver por Malbun en bus.",
+      "alerta": "Es un sendero de cresta aéreo con tramos asegurados con cable: no es apto para quien sufre de vértigo ni con mal tiempo. Normalmente no tiene nieve de junio a octubre.",
+      "fuentes": [
+        { "guia": "Switzerland Tourism (oficial)", "url": "https://www.myswitzerland.com/en/experiences/route/fuerstensteig/" },
+        { "guia": "Liechtenstein Marketing (turismo oficial)", "url": "https://tourismus.li/en/our-country/arrival-transport" }
+      ]
+    },
+    {
+      "id": "at-viena",
+      "puntaje": 5,
+      "mejor_epoca": [4, 5, 6, 9, 10, 12],
+      "dias_sugeridos": 4,
+      "costo": "$$$",
+      "acceso": "Desde el aeropuerto se llega al centro en el tren CAT (16 min) o en S-Bahn. En la ciudad hay metro, tranvías y buses de Wiener Linien, y la Hauptbahnhof tiene trenes ÖBB directos a Salzburgo, Múnich, Budapest y Praga.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Lonely Planet (cómo moverse por Austria)", "url": "https://www.lonelyplanet.com/articles/getting-around-austria" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/austria/itinerary" }
+      ]
+    },
+    {
+      "id": "at-salzburgo",
+      "puntaje": 5,
+      "mejor_epoca": [5, 6, 9, 10, 12],
+      "dias_sugeridos": 2,
+      "costo": "$$$",
+      "acceso": "Tren ÖBB o Westbahn desde Viena (unas 2 h 30) y desde Múnich (alrededor de 1 h 45). El casco antiguo es peatonal y compacto, y un funicular sube a la fortaleza de Hohensalzburg.",
+      "alerta": "Durante el Festival de Salzburgo (de finales de julio a finales de agosto) el alojamiento escasea y se encarece mucho.",
+      "fuentes": [
+        { "guia": "Lonely Planet (cómo moverse por Austria)", "url": "https://www.lonelyplanet.com/articles/getting-around-austria" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/austria/itinerary" }
+      ]
+    },
+    {
+      "id": "at-hallstatt",
+      "puntaje": 3,
+      "mejor_epoca": [5, 6, 9, 10],
+      "dias_sugeridos": 2,
+      "costo": "$$$",
+      "acceso": "Tren ÖBB de la línea del Salzkammergut hasta la estación de Hallstatt, en la orilla opuesta, y ferry que sale con cada llegada de tren. También hay buses 542 y 543 hasta Hallstatt Lahn. En coche, el centro está cerrado con barreras y los aparcamientos P1 y P2 son de pago y no se pueden reservar. El teleférico del Krippenstein, que lleva al 5fingers y a las cuevas de hielo, funciona más o menos de mayo a octubre.",
+      "alerta": "El pueblo, de unos 700 habitantes, recibe hasta 10.000 visitantes al día en temporada alta. Los vecinos han protestado y piden limitar los autobuses turísticos. Conviene llegar muy temprano o dormir allí y respetar las zonas residenciales.",
+      "fuentes": [
+        { "guia": "Hallstatt.net (aparcamiento)", "url": "https://www.hallstatt.net/parking-in-hallstatt/" },
+        { "guia": "Salzkammergut Tourismus (oficial, estación de Hallstatt)", "url": "https://dachstein.salzkammergut.at/en/oesterreich-poi/detail/430003991/railway-station-hallstatt.html" },
+        { "guia": "Salzkammergut Tourismus (oficial, aparcamiento P1)", "url": "https://www.salzkammergut.at/en/oesterreich-poi/detail/430024639/parking-lot-p1.html" },
+        { "guia": "Travel Tomorrow (protestas por el turismo masivo)", "url": "https://traveltomorrow.com/hallstatt-residents-protest-against-overtourism/" }
+      ]
+    },
+    {
+      "id": "at-wachau",
+      "puntaje": 4,
+      "mejor_epoca": [4, 5, 6, 9, 10],
+      "dias_sugeridos": 2,
+      "costo": "$$$",
+      "acceso": "Tren ÖBB desde Viena hasta Melk o Krems (alrededor de 1 h). Entre los dos se va en los barcos de la DDSG, de finales de marzo a principios de noviembre y hasta tres veces al día en cada sentido, en el tren Wachaubahn o en bici por la ruta del Danubio.",
+      "alerta": "Las crecidas del Danubio pueden cerrar embarcaderos como el de Dürnstein y reducir el servicio de barcos.",
+      "fuentes": [
+        { "guia": "Donau Niederösterreich Tourismus (oficial, DDSG Blue Danube)", "url": "https://donau.com/en/the-danube-in-lower-austria/imx/ship-service/ddsg-blue-danube" },
+        { "guia": "Wachaubahn (oficial)", "url": "https://wachaubahn.at/en/a-ddsg-blue-danube" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/watch-read-listen/cruising-the-danubes-wachau-valley" }
+      ]
+    },
+    {
+      "id": "at-innsbruck",
+      "puntaje": 5,
+      "mejor_epoca": [1, 2, 6, 7, 8, 9, 12],
+      "dias_sugeridos": 2,
+      "costo": "$$$",
+      "acceso": "Tren ÖBB desde Múnich (alrededor de 1 h 45), Salzburgo (unas 2 h) y Zúrich (unas 3 h 30). El aeropuerto está a unos 15 min en bus y el funicular de la Nordkette sale del centro de la ciudad.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/austria/western-austria/innsbruck/" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-austria" }
+      ]
+    },
+    {
+      "id": "at-hall-in-tirol",
+      "puntaje": 5,
+      "mejor_epoca": [5, 6, 7, 8, 9, 12],
+      "dias_sugeridos": 1,
+      "costo": "$$$",
+      "acceso": "Tren regional o bus desde Innsbruck (unos 10 min). El casco antiguo se recorre a pie.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/austria" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/austria" }
+      ]
+    },
+    {
+      "id": "at-grossglockner",
+      "puntaje": 3,
+      "mejor_epoca": [6, 7, 8, 9],
+      "dias_sugeridos": 1,
+      "costo": "$$$",
+      "acceso": "Carretera alpina de peaje de 48 km entre Bruck-Fusch y Heiligenblut, abierta solo de primavera a otoño (la temporada 2026 empezó el 25 de abril). En 2026 el billete de un día cuesta 46,50 EUR por coche. Hace falta coche o moto, y en verano hay autobuses de línea hasta la Kaiser-Franz-Josefs-Höhe.",
+      "alerta": "Cierra de noche y en invierno, y puede cerrarse temporalmente por nieve o tormenta incluso en verano. A unos 2500 m hay niebla y frío. En agosto de 2026 el sendero Gamsgrubenweg solo era transitable hasta el túnel 6.",
+      "fuentes": [
+        { "guia": "Grossglockner Hochalpenstraßen AG (oficial, apertura 2026)", "url": "https://www.grossglockner.at/en/article/offnung2026_a644" },
+        { "guia": "Grossglockner Hochalpenstraßen AG (oficial, Kaiser-Franz-Josefs-Höhe)", "url": "https://data.grossglockner.at/gg/en/grossglockner/kaiserfranzjosefshoehe" },
+        { "guia": "Heiligenblut Tourismus (oficial)", "url": "https://heiligenblut.at/en/grossglockner-hochalpenstrasse/" },
+        { "guia": "Municipio de Piesendorf (puertos de montaña)", "url": "https://www.piesendorf.at/en/service/digital_guest_folder/mountain_passes" }
+      ]
+    },
+    {
+      "id": "at-cascadas-krimml",
+      "puntaje": 4,
+      "mejor_epoca": [5, 6, 7, 8, 9, 10],
+      "dias_sugeridos": 1,
+      "costo": "$$",
+      "acceso": "Tren de vía estrecha Pinzgauer Lokalbahn o bus desde Zell am See hasta Krimml. En coche se llega por Mittersill o por la Gerlosstraße desde el Zillertal. La primera cascada está a 10–15 min a pie del aparcamiento. El sendero de pago abre de mayo (algunos años desde mediados de abril) a finales de octubre, de 9:00 a 17:00.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "WasserWelten Krimml (oficial, billetes y temporada)", "url": "https://www.wasserfaelle-krimml.at/en/visit/tickets" },
+        { "guia": "Grossglockner Hochalpenstraßen AG (precios y horarios de las cascadas)", "url": "https://data.grossglockner.at/wk/en/pricesandopeninghours" }
+      ]
+    },
+    {
+      "id": "at-werfen-eisriesenwelt",
+      "puntaje": 4,
+      "mejor_epoca": [5, 6, 7, 8, 9, 10],
+      "dias_sugeridos": 1,
+      "costo": "$$",
+      "acceso": "Tren desde Salzburgo a Werfen (unos 40 min) y bus o coche hasta el aparcamiento de la cueva. Desde ahí son unos 20 min a pie, el teleférico y otros 20 min a pie hasta la entrada, a 1641 m. Solo se visita con tour guiado.",
+      "alerta": "Solo abre de mayo a finales de octubre (en 2026, del 1 de mayo al 26 de octubre). Dentro hace temperaturas bajo cero incluso en verano y hay unos 1400 escalones, así que hace falta ropa de abrigo y calzado firme. No se permiten fotos.",
+      "fuentes": [
+        { "guia": "Eisriesenwelt (oficial, información 2026)", "url": "https://www.eisriesenwelt.at/fileadmin/pdfs_en/eisriesenwelt_info_2026-EN.pdf" },
+        { "guia": "Austrian Press & Information Service", "url": "https://austria.org/featured-austrian-explorer/the-worlds-largest-ice-cave" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/points-of-interest/eisriesenwelt/504540" }
+      ]
+    },
+    {
+      "id": "at-zell-am-see-kaprun",
+      "puntaje": 5,
+      "mejor_epoca": [1, 2, 3, 6, 7, 8, 9],
+      "dias_sugeridos": 3,
+      "costo": "$$$",
+      "acceso": "Tren ÖBB desde Salzburgo (alrededor de 1 h 30) o Innsbruck hasta Zell am See y bus a Kaprun (unos 15 min). Los teleféricos al glaciar del Kitzsteinhorn funcionan casi todo el año.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-austria" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/austria/itineraries/" }
+      ]
+    },
+    {
+      "id": "at-bad-gastein",
+      "puntaje": 5,
+      "mejor_epoca": [1, 2, 3, 6, 7, 8, 9],
+      "dias_sugeridos": 2,
+      "costo": "$$$",
+      "acceso": "Tren ÖBB directo desde Salzburgo por la línea de los Tauern (alrededor de 1 h 30). La estación está en la parte alta del pueblo, sobre la cascada.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-austria" }
+      ]
+    },
+    {
+      "id": "at-st-wolfgang",
+      "puntaje": 4,
+      "mejor_epoca": [5, 6, 7, 8, 9, 12],
+      "dias_sugeridos": 1,
+      "costo": "$$$",
+      "acceso": "Bus 150 de Salzburgo a St. Gilgen (unos 50 min) y barco por el Wolfgangsee. En 2026 el cremallera del Schafberg funciona a diario del 25 de abril al 1 de noviembre y los barcos desde marzo; en invierno no hay tren.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "SchafbergBahn y WolfgangseeSchifffahrt (operador)", "url": "https://www.5schaetze.at/en/Info_SchafbergBahn_and_WolfgangseeSchifffahrt.html" },
+        { "guia": "SchafbergBahn (operador, precios y horarios)", "url": "https://5schaetze.at/en/schafbergbahn/prices-and-timetables.html" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-day-trips-from-salzburg" }
+      ]
+    },
+    {
+      "id": "at-bad-ischl",
+      "puntaje": 5,
+      "mejor_epoca": [5, 6, 7, 8, 9, 12],
+      "dias_sugeridos": 1,
+      "costo": "$$$",
+      "acceso": "Tren ÖBB de la línea del Salzkammergut desde Attnang-Puchheim (alrededor de 1 h) o bus 150 desde Salzburgo (alrededor de 1 h 30). Es base para Hallstatt y el Wolfgangsee.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/austria/experiences/news/see-the-best-of-austria-in-7-days-or-14-with-these-two-perfect-itineraries" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-day-trips-from-salzburg" }
+      ]
+    },
+    {
+      "id": "at-graz",
+      "puntaje": 5,
+      "mejor_epoca": [4, 5, 6, 9, 10, 12],
+      "dias_sugeridos": 2,
+      "costo": "$$",
+      "acceso": "Tren ÖBB desde Viena (alrededor de 2 h 30) y aeropuerto propio. El casco antiguo es peatonal, hay tranvías y un funicular y un ascensor suben al Schlossberg.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/austria/central-austria/graz/" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-austria" }
+      ]
+    },
+    {
+      "id": "at-ruta-vino-estiria-sur",
+      "puntaje": 3,
+      "mejor_epoca": [5, 6, 9, 10],
+      "dias_sugeridos": 2,
+      "costo": "$$",
+      "acceso": "En coche desde Graz (unos 45 min) por Leibnitz, Gamlitz y Ehrenhausen. Hay tren hasta Leibnitz o Ehrenhausen, pero la ruta entre colinas no tiene transporte público regular: se recorre en coche, en taxi o en bici eléctrica.",
+      "alerta": "Las carreteras entre viñedos son estrechas y el límite de alcohol al volante es de 0,5 g/l. Conviene ir con conductor designado o en una visita organizada.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-austria" }
+      ]
+    },
+    {
+      "id": "at-linz",
+      "puntaje": 5,
+      "mejor_epoca": [5, 6, 7, 8, 9],
+      "dias_sugeridos": 1,
+      "costo": "$$",
+      "acceso": "Tren ÖBB o Westbahn desde Viena (alrededor de 1 h 15) y desde Salzburgo (alrededor de 1 h). Un tranvía de montaña sube al Pöstlingberg desde el centro.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-austria" }
+      ]
+    },
+    {
+      "id": "at-steyr-kalkalpen",
+      "puntaje": 3,
+      "mejor_epoca": [5, 6, 7, 8, 9, 10],
+      "dias_sugeridos": 2,
+      "costo": "$$",
+      "acceso": "Tren desde Linz a Steyr (unos 45 min). Al Parque Nacional Kalkalpen, por Reichraming o Molln, se llega en coche o en buses rurales poco frecuentes, y las rutas por los hayedos UNESCO suelen ser guiadas.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Parque Nacional Kalkalpen (oficial)", "url": "https://www.kalkalpen.at/en/Experience_UNESCO_World_Natural_Heritage_beech_forests" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-austria" }
+      ]
+    },
+    {
+      "id": "at-mauthausen",
+      "puntaje": 4,
+      "mejor_epoca": [3, 4, 5, 6, 7, 8, 9, 10, 11],
+      "dias_sugeridos": 1,
+      "costo": "$$",
+      "acceso": "Tren desde Linz a Mauthausen (unos 30 min) y unos 5 km cuesta arriba hasta el memorial, en taxi o a pie. En coche hay aparcamiento junto al recinto.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/austria/itinerary" }
+      ]
+    },
+    {
+      "id": "at-bregenzerwald",
+      "puntaje": 4,
+      "mejor_epoca": [5, 6, 7, 8, 9, 10],
+      "dias_sugeridos": 2,
+      "costo": "$$$",
+      "acceso": "Autobuses regionales desde Bregenz o Dornbirn hasta Egg, Bezau, Andelsbuch y Schwarzenberg. Las queserías de la KäseStrasse se recorren mejor en coche.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Bregenzerwald Tourismus (oficial, KäseStrasse)", "url": "https://www.bregenzerwald.at/en/?p=8396" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-austria" }
+      ]
+    },
+    {
+      "id": "at-bregenz",
+      "puntaje": 5,
+      "mejor_epoca": [5, 6, 7, 8, 9],
+      "dias_sugeridos": 1,
+      "costo": "$$$",
+      "acceso": "Tren ÖBB desde Innsbruck (unas 2 h 30), Zúrich (alrededor de 1 h 30) o Lindau. El teleférico del Pfänder y los barcos del lago de Constanza salen junto al centro.",
+      "alerta": "Durante el Festival de Bregenz (julio y agosto) el alojamiento escasea y se encarece.",
+      "fuentes": [
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/austria/" }
+      ]
+    },
+    {
+      "id": "at-st-anton",
+      "puntaje": 4,
+      "mejor_epoca": [1, 2, 3, 7, 8, 9],
+      "dias_sugeridos": 3,
+      "costo": "$$$",
+      "acceso": "Parada de los Railjet de ÖBB entre Innsbruck (alrededor de 1 h 15) y Zúrich. Los remontes salen del centro del pueblo.",
+      "alerta": "El fuera de pista del Arlberg tiene un riesgo alto de aludes. Hay que consultar el boletín de aludes del Tirol y salir con equipo de seguridad o con guía.",
+      "fuentes": [
+        { "guia": "Austria.info (turismo oficial)", "url": "https://www.austria.info/en-gb/highlights/largest-ski-areas/" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-austria" }
+      ]
+    },
+    {
+      "id": "at-lech-zurs",
+      "puntaje": 3,
+      "mejor_epoca": [1, 2, 3, 7, 8],
+      "dias_sugeridos": 3,
+      "costo": "$$$$",
+      "acceso": "Tren hasta Langen am Arlberg o St. Anton y bus por el paso de Flexen (unos 20–30 min). El pueblo está muy orientado a la temporada de esquí y en verano tiene una temporada más corta.",
+      "alerta": "La carretera de Flexen puede cerrarse por riesgo de aludes y dejar Lech y Zürs incomunicados por carretera durante horas o días.",
+      "fuentes": [
+        { "guia": "Austria.info (turismo oficial)", "url": "https://www.austria.info/en-gb/highlights/largest-ski-areas/" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/austria/frommers-favorite-experiences" }
+      ]
+    },
+    {
+      "id": "at-kitzbuhel",
+      "puntaje": 5,
+      "mejor_epoca": [1, 2, 3, 6, 7, 8, 9],
+      "dias_sugeridos": 2,
+      "costo": "$$$",
+      "acceso": "Tren ÖBB desde Innsbruck (alrededor de 1 h 15) o Salzburgo (unas 2 h). La Hahnenkammbahn sale del centro del pueblo.",
+      "alerta": "Durante las carreras del Hahnenkamm, en enero, el pueblo se satura y los precios se disparan.",
+      "fuentes": [
+        { "guia": "Tirol Werbung (oficial, Hahnenkammbahn)", "url": "https://www.tyrol.com/infrastructure/bergbahn-kitzbuehel-hahnenkammbahn" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/austria" }
+      ]
+    },
+    {
+      "id": "at-solden-otztal",
+      "puntaje": 4,
+      "mejor_epoca": [1, 2, 3, 7, 8, 9],
+      "dias_sugeridos": 3,
+      "costo": "$$$",
+      "acceso": "Tren hasta Ötztal Bahnhof y bus por el valle hasta Sölden (alrededor de 1 h). Los teleféricos suben al Gaislachkogl y una carretera glaciar de peaje lleva a los glaciares Rettenbach y Tiefenbach. Se esquía de octubre a mayo.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Sölden (oficial, estación de esquí)", "url": "https://www.soelden.com/en/activities/winter/skiing-snowboarding/ski-area-information/ski-area-map-lifts-slopes" },
+        { "guia": "Bergbahnen Sölden (operador)", "url": "https://bergbahnen.soelden.com/en" }
+      ]
+    },
+    {
+      "id": "at-gesause",
+      "puntaje": 3,
+      "mejor_epoca": [6, 7, 8, 9, 10],
+      "dias_sugeridos": 2,
+      "costo": "$$",
+      "acceso": "Tren regional por el valle del Enns hasta Admont o Hieflau, con servicio limitado, y bus o coche hasta Gstatterboden y Johnsbach, donde empiezan las rutas. Conviene ir en coche.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Parque Nacional Gesäuse (oficial)", "url": "https://nationalpark-gesaeuse.at/en/?p=4359" },
+        { "guia": "Steiermark Tourismus (oficial)", "url": "https://steiermark.com/en/Gesaeuse/Region/Mountain-activities/Hiking" }
+      ]
+    },
+    {
+      "id": "at-worthersee",
+      "puntaje": 5,
+      "mejor_epoca": [6, 7, 8, 9],
+      "dias_sugeridos": 2,
+      "costo": "$$",
+      "acceso": "Tren ÖBB a Klagenfurt, Pörtschach y Velden, en la orilla norte del lago. De mayo a octubre hay barcos de línea entre los pueblos y el agua está templada para bañarse.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/austria/the-south/klagenfurt" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/austria/suggested-itineraries/the-southern-lake-district/" }
+      ]
+    },
+    {
+      "id": "at-hochosterwitz",
+      "puntaje": 4,
+      "mejor_epoca": [4, 5, 6, 7, 8, 9, 10],
+      "dias_sugeridos": 1,
+      "costo": "$$",
+      "acceso": "En coche desde Klagenfurt (unos 25 min) o en tren hasta Launsdorf y paseo. Se sube a pie por el camino de las 14 puertas o en ascensor inclinado. Abre por temporada, de primavera a otoño.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Visit Carinthia (turismo oficial)", "url": "https://www.visitcarinthia.at/attractions/castles/hochosterwitz-castle/" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/austria/eastern-carinthia/attractions/burg-hochosterwitz/a/poi-sig/1114009/1334191" }
+      ]
+    },
+    {
+      "id": "at-millstatt",
+      "puntaje": 4,
+      "mejor_epoca": [6, 7, 8, 9],
+      "dias_sugeridos": 2,
+      "costo": "$$",
+      "acceso": "Tren ÖBB hasta Spittal an der Drau y bus (unos 20 min) hasta Millstatt. En verano hay barcos por el lago.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/austria/itineraries/" }
+      ]
+    },
+    {
+      "id": "at-villach",
+      "puntaje": 5,
+      "mejor_epoca": [5, 6, 7, 8, 9],
+      "dias_sugeridos": 2,
+      "costo": "$$",
+      "acceso": "Nudo ferroviario ÖBB con trenes directos desde Salzburgo, Viena y Udine. El Faaker See está a unos 20 min en bus o en coche.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Time Out", "url": "https://www.timeout.com/europe/travel/most-underrated-travel-destinations-europe" }
+      ]
+    },
+    {
+      "id": "at-neusiedler-see",
+      "puntaje": 4,
+      "mejor_epoca": [4, 5, 6, 8, 9, 10],
+      "dias_sugeridos": 2,
+      "costo": "$$",
+      "acceso": "Tren desde Viena a Neusiedl am See (unos 45 min). Alrededor del lago hay un carril bici y al centro del Parque Nacional en Illmitz se va en bus o en bici. Los barcos solares y las canoas por los juncales funcionan de mayo a septiembre.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/austria/vienna-woods-lake-neusiedler-and-the-danube-river/places/neusiedl-am-see" },
+        { "guia": "Burgenland Tourismus (oficial)", "url": "https://burgenland.info/en/nature-experience-in-national-park" }
+      ]
+    },
+    {
+      "id": "at-admont",
+      "puntaje": 4,
+      "mejor_epoca": [5, 6, 7, 8, 9, 10],
+      "dias_sugeridos": 1,
+      "costo": "$$",
+      "acceso": "Tren regional por el valle del Enns hasta Admont, desde Selzthal, o en coche. La abadía está en el centro del pueblo, a la entrada del Parque Nacional Gesäuse.",
+      "alerta": "Cerrada en enero, febrero y hasta el 18 de marzo. El cierre de fin de temporada 2026 difiere entre páginas oficiales: el museo cierra el 1 de noviembre y la biblioteca a mediados o finales de diciembre.",
+      "fuentes": [
+        { "guia": "Stift Admont (oficial, horarios 2026)", "url": "https://stiftadmont.at/en/?p=36998" },
+        { "guia": "Stift Admont (oficial, museo)", "url": "https://stiftadmont.at/en/museum/" }
+      ]
+    },
+    {
+      "id": "at-carnuntum",
+      "puntaje": 4,
+      "mejor_epoca": [4, 5, 6, 9, 10],
+      "dias_sugeridos": 1,
+      "costo": "$$",
+      "acceso": "Tren S7 desde Wien Mitte hasta Petronell-Carnuntum (unos 45 min, cada 30–60 min) y unos 15 min a pie hasta el barrio romano. El Museo Carnuntinum queda a unos 20 min a pie de la estación de Bad Deutsch-Altenburg. Hay bicis de alquiler y aparcamiento gratuito.",
+      "alerta": "Abre por temporada, más o menos de marzo a noviembre. Las fechas de 2026 no aparecieron en las búsquedas, así que conviene confirmarlas.",
+      "fuentes": [
+        { "guia": "Carnuntum (oficial, cómo llegar)", "url": "https://www.carnuntum.at/en/gettingthere" },
+        { "guia": "Carnuntum (oficial, planificar la visita)", "url": "https://www.carnuntum.at/en/anreise" }
+      ]
+    },
+    {
+      "id": "at-semmering",
+      "puntaje": 5,
+      "mejor_epoca": [5, 6, 7, 9, 10],
+      "dias_sugeridos": 1,
+      "costo": "$$",
+      "acceso": "Tren regional ÖBB desde Viena Hauptbahnhof por Wiener Neustadt y Gloggnitz hasta Semmering, y en el lado de Estiria hasta Mürzzuschlag. El Bahnwanderweg sale de la estación de Semmering y pasa por Breitenstein, Klamm y Payerbach, así que se puede volver en tren desde cualquier parada.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Wiener Alpen (turismo oficial, estación de Semmering)", "url": "https://www.wieneralpen.at/en/a-semmering-train-station" },
+        { "guia": "Niederösterreich Werbung (turismo oficial)", "url": "https://www.lower-austria.info/excursions/unesco-world-heritage-semmering-railway" },
+        { "guia": "Wiener Alpen (turismo oficial)", "url": "https://www.wieneralpen.at/en/excursions/unesco-world-heritage-semmering-railway" }
+      ]
+    },
+    {
+      "id": "at-achensee",
+      "puntaje": 4,
+      "mejor_epoca": [5, 6, 7, 8, 9],
+      "dias_sugeridos": 2,
+      "costo": "$$$",
+      "acceso": "Tren hasta Jenbach, en la línea Innsbruck–Salzburgo, y bus regional hasta Maurach, Pertisau y Achenkirch (alrededor de 30 min). Los barcos del lago y los senderos de la orilla funcionan sobre todo de mayo a octubre.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Achensee Tourismus (oficial)", "url": "https://www.achensee.com/en/travel-information/facts-figures/" },
+        { "guia": "Tirol Werbung (oficial)", "url": "https://www.tyrol.com/activities/sport/hiking/hiking-tours/rund-um-den-achensee-achenkirch" }
+      ]
+    },
+    {
+      "id": "at-donau-auen",
+      "puntaje": 4,
+      "mejor_epoca": [4, 5, 6, 9, 10],
+      "dias_sugeridos": 1,
+      "costo": "$$",
+      "acceso": "Desde Viena en bus regional o coche hasta Orth an der Donau (unos 45 min), o en bici por la ruta del Danubio. El centro schlossORTH abre del 20 de marzo al 1 de noviembre, de 9:00 a 17:00.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Parque Nacional Donau-Auen (oficial)", "url": "https://donauauen.at/en/visit/schlossorth-national-park-centre" },
+        { "guia": "Donau Niederösterreich Tourismus (oficial)", "url": "https://www.donau.com/en/the-danube-in-lower-austria/outings-activities/excursion-destinations/top-excursion-destinations/top-excursion-destinations/schlossorth-national-park-center/" }
+      ]
+    },
+    {
+      "id": "at-liechtensteinklamm",
+      "puntaje": 4,
+      "mejor_epoca": [5, 6, 7, 8, 9, 10],
+      "dias_sugeridos": 1,
+      "costo": "$$",
+      "acceso": "Tren a St. Johann im Pongau (alrededor de 50 min desde Salzburgo), citybus y unos 30 min a pie hasta la entrada, o coche hasta el aparcamiento de la garganta. El recorrido por pasarelas dura de 25 min a 1 h.",
+      "alerta": "Solo abre de mayo a octubre, y en octubre cierra antes. Los temporales pueden cerrar tramos y a veces solo se llega hasta la escalera Helix.",
+      "fuentes": [
+        { "guia": "SalzburgerLand Tourismus (oficial)", "url": "https://salzburg.info/en/sights/excursions/liechtensteinklamm" },
+        { "guia": "ADAC Maps (ficha con horarios)", "url": "https://maps.adac.de/poi/liechtensteinklamm-st-johann-im-pongau" }
+      ]
+    },
+    {
+      "id": "at-kamptal-langenlois",
+      "puntaje": 4,
+      "mejor_epoca": [5, 6, 8, 9, 10],
+      "dias_sugeridos": 1,
+      "costo": "$$",
+      "acceso": "Tren regional desde Viena hasta Hadersdorf am Kamp y enlace a Langenlois (alrededor de 1 h en total), o en coche por la S5. El Weinweg Langenlois (5,7 km, 1 h 30) sale del Loisium o de la Ursin Haus.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Niederösterreich Werbung (turismo oficial, estación de Langenlois)", "url": "https://www.lower-austria.info/infrastructure/langenlois-train-station" },
+        { "guia": "Donau Niederösterreich Tourismus (oficial, Weinweg Langenlois)", "url": "https://www.donau.com/en/tour/weinweg-langenlois" }
+      ]
+    },
+    {
+      "id": "at-vulkanland-riegersburg",
+      "puntaje": 3,
+      "mejor_epoca": [5, 6, 9, 10],
+      "dias_sugeridos": 2,
+      "costo": "$$",
+      "acceso": "En coche desde Graz (unos 50 min) por la A2. En transporte público hay tren hasta Feldbach y luego bus o taxi hasta Riegersburg, la chocolatería Zotter y Gölles; las visitas a productores se hacen mejor en coche.",
+      "alerta": null,
+      "fuentes": [
+        { "guia": "Steiermark Tourismus (oficial, Riegersburg)", "url": "https://www.steiermark.com/de/Regionen/Staedte-Orte/Riegersburg_c_841673" },
+        { "guia": "Steiermark Tourismus (oficial, Kulinarische Schlösserstraße)", "url": "https://www.steiermark.com/de/Steiermark/Kulinarik-erleben/Wein/Weinstrassen/Kulinarische-Schloesserstrasse_a_3650260" }
+      ]
+    },
+    {
+      "id": "at-area-47",
+      "puntaje": 4,
+      "mejor_epoca": [6, 7, 8, 9],
+      "dias_sugeridos": 1,
+      "costo": "$$$",
+      "acceso": "Junto a la salida Ötztal de la autopista A12 y cerca de la estación Ötztal Bahnhof, con tren desde Innsbruck (unos 35 min). Abre todo el año, pero la Water AREA solo en verano.",
+      "alerta": "El rafting y el canyoning dependen del caudal del Inn y del Ötztaler Ache y se cancelan con crecidas.",
+      "fuentes": [
+        { "guia": "AREA 47 (oficial)", "url": "https://www.area47.at/en/offroad" },
+        { "guia": "Ötztal Tourismus (oficial)", "url": "https://oetztal.com/outdoor_adventure-area47" },
+        { "guia": "Tirol Werbung (oficial)", "url": "https://www.tirol.at/infrastruktur/area-47-das-outdoor-highlight-im-oetztal" }
+      ]
+    },
+    {
+      "id": "at-familypark-neusiedlersee",
+      "puntaje": 4,
+      "mejor_epoca": [5, 6, 9, 10],
+      "dias_sugeridos": 1,
+      "costo": "$$$",
+      "acceso": "En coche desde Viena (unos 50 min) hasta St. Margarethen im Burgenland. En transporte público se va en tren o bus hasta Eisenstadt y luego en bus regional.",
+      "alerta": "La temporada 2026 va del 28 de marzo al 1 de noviembre; en invierno está cerrado. El parque puede cambiar el horario con mal tiempo.",
+      "fuentes": [
+        { "guia": "Familypark (oficial, horarios)", "url": "https://www.familypark.at/en/opening-hours/" },
+        { "guia": "weekend.at (temporada 2026)", "url": "https://www.weekend.at/bundesland/burgenland/familypark-mit-neuen-attraktionen-2026" }
+      ]
+    }
+  ]
 }

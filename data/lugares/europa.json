@@ -7199,6 +7199,4849 @@
     "investigado_en": "2026-10-27"
   },
   {
+    "id": "fr-estrasburgo",
+    "nombre": "Estrasburgo",
+    "pais_iso": "FR",
+    "pais": "Francia",
+    "region": "Gran Este (Alsacia)",
+    "lat": 48.5734,
+    "lng": 7.7521,
+    "categorias": [
+      "cultura",
+      "gastronomia",
+      "ciudad"
+    ],
+    "puntajes": {
+      "guias": 5,
+      "cultura": 5,
+      "naturaleza": 1,
+      "gastronomia": 4,
+      "adrenalina": 3,
+      "logistica": 5
+    },
+    "global": 5,
+    "nivel": "imprescindible",
+    "mejor_epoca": [
+      5,
+      6,
+      9,
+      12
+    ],
+    "dias_sugeridos": 2,
+    "costo": "$$",
+    "acceso": "TGV directo desde Paris-Est (aprox. 1 h 50); tranvía y centro peatonal.",
+    "alerta": "El mercado navideño es muy concurrido: controles de seguridad y carteristas (riesgo de terrorismo señalado en los avisos).",
+    "platos": [
+      "Choucroute garnie",
+      "Baeckeoffe",
+      "Flammekueche",
+      "Kougelhopf"
+    ],
+    "por_que": "La Grande-Île medieval, con la catedral gótica y la Petite France, y la Neustadt alemana forman una ciudad histórica completa, Patrimonio Mundial. Es la capital de la cocina de winstub: choucroute, baeckeoffe y flammekueche. Su mercado navideño es el más antiguo de Europa, y Europa-Park queda a 34 km.",
+    "fuentes": [
+      {
+        "guia": "Lonely Planet",
+        "url": "https://www.lonelyplanet.com/articles/best-regions-in-france"
+      },
+      {
+        "guia": "Lonely Planet",
+        "url": "https://www.lonelyplanet.com/articles/things-to-do-in-france-autumn-and-winter"
+      },
+      {
+        "guia": "Time Out",
+        "url": "https://www.timeout.com/france/things-to-do/best-places-to-visit-in-france"
+      },
+      {
+        "guia": "Time Out",
+        "url": "https://www.timeout.com/france/things-to-do/best-things-to-do-in-france"
+      },
+      {
+        "guia": "National Geographic",
+        "url": "https://www.nationalgeographic.com/travel/article/overtourism-paris-underrated-cities-to-visit-france"
+      },
+      {
+        "guia": "Rough Guides",
+        "url": "https://www.roughguides.com/france/travel-tips/"
+      },
+      {
+        "guia": "UNESCO",
+        "url": "https://whc.unesco.org/en/list/495/"
+      },
+      {
+        "guia": "TasteAtlas",
+        "url": "https://www.tasteatlas.com/best-rated-vegetable-dishes-in-france"
+      },
+      {
+        "guia": "TasteAtlas",
+        "url": "https://www.tasteatlas.com/best-rated-casseroles-in-france"
+      },
+      {
+        "guia": "Visit Alsace (turismo oficial)",
+        "url": "https://pro.visit.alsace/?p=11506"
+      },
+      {
+        "guia": "Departamento de Estado EE. UU.",
+        "url": "https://travel.state.gov/en/international-travel/travel-advisories/france.html"
+      }
+    ],
+    "adrenalina_cerca": [
+      {
+        "nombre": "Europa-Park (Rust, DE)",
+        "tipo": "parque_diversiones",
+        "km": 34,
+        "lat": 48.266,
+        "lng": 7.722,
+        "temporada": "abr–ene (con temporada de invierno)",
+        "url": "https://rcdb.com/4074.htm"
+      }
+    ],
+    "investigado_en": "2026-10-27"
+  },
+  {
+    "id": "fr-paris",
+    "nombre": "París",
+    "pais_iso": "FR",
+    "pais": "Francia",
+    "region": "Île-de-France",
+    "lat": 48.8566,
+    "lng": 2.3522,
+    "categorias": [
+      "cultura",
+      "gastronomia",
+      "adrenalina",
+      "ciudad"
+    ],
+    "puntajes": {
+      "guias": 5,
+      "cultura": 5,
+      "naturaleza": 1,
+      "gastronomia": 5,
+      "adrenalina": 4,
+      "logistica": 5
+    },
+    "global": 5,
+    "nivel": "imprescindible",
+    "mejor_epoca": [
+      4,
+      5,
+      6,
+      9,
+      10
+    ],
+    "dias_sugeridos": 4,
+    "costo": "$$$",
+    "acceso": "Aeropuertos CDG y Orly unidos al centro por RER B, Orlyval y metro; TGV y Eurostar llegan a las grandes estaciones; metro en toda la ciudad.",
+    "alerta": "Carteristas en el metro y en zonas turísticas; huelgas y manifestaciones pueden alterar el transporte (aviso EE. UU. Level 2).",
+    "platos": [
+      "Soupe à l'oignon gratinée",
+      "Croissant y pain au chocolat",
+      "Steak frites",
+      "Brie de Meaux"
+    ],
+    "por_que": "Las orillas del Sena, Patrimonio Mundial, van de Notre-Dame y la Sainte-Chapelle al Louvre, y el Orsay completa una oferta de museos de nivel mundial. La guía Michelin 2026 cuenta 31 restaurantes con tres estrellas en Francia y Mónaco, pero París también se disfruta en bistrós, panaderías y mercados de barrio. Pide al menos tres días, más Versalles y los parques de atracciones a unos 30 km.",
+    "fuentes": [
+      {
+        "guia": "Lonely Planet",
+        "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-france"
+      },
+      {
+        "guia": "Rick Steves",
+        "url": "https://www.ricksteves.com/europe/france/itinerary"
+      },
+      {
+        "guia": "Rough Guides",
+        "url": "https://www.roughguides.com/france/best-places-to-visit/"
+      },
+      {
+        "guia": "Rough Guides",
+        "url": "https://www.roughguides.com/france/things-to-do-paris/"
+      },
+      {
+        "guia": "Time Out",
+        "url": "https://www.timeout.com/paris/en/things-to-do/best-things-to-do-in-paris"
+      },
+      {
+        "guia": "UNESCO (Paris, orillas del Sena – Urban Heritage Atlas)",
+        "url": "https://whc.unesco.org/en/urban-heritage-atlas/Paris/"
+      },
+      {
+        "guia": "Guía Michelin (Francia 2026)",
+        "url": "https://guide.michelin.com/en/article/news-and-views/michelin-starred-restaurants-france-new"
+      },
+      {
+        "guia": "Michelin (nota de prensa Francia y Mónaco 2026)",
+        "url": "https://www.michelin.com/en/publications/products-and-services/new-selection-michelin-guide-france-monaco-2026"
+      },
+      {
+        "guia": "Four Seasons George V (estrellas Michelin 2026)",
+        "url": "https://press.fourseasons.com/paris/hotel-news/2026/six-michelin-stars/"
+      },
+      {
+        "guia": "TasteAtlas",
+        "url": "https://www.tasteatlas.com/best-dishes-in-paris"
+      },
+      {
+        "guia": "Departamento de Estado EE. UU.",
+        "url": "https://travel.state.gov/en/international-travel/travel-advisories/france.html"
+      },
+      {
+        "guia": "FCDO Reino Unido",
+        "url": "https://www.gov.uk/foreign-travel-advice/france/print"
+      }
+    ],
+    "adrenalina_cerca": [
+      {
+        "nombre": "Disneyland Paris",
+        "tipo": "parque_diversiones",
+        "km": 31,
+        "lat": 48.8722,
+        "lng": 2.7758,
+        "temporada": "todo el año",
+        "url": "https://parisjetaime.com/culture/disneyland-paris-p3614"
+      },
+      {
+        "nombre": "Parc Astérix (Toutatis)",
+        "tipo": "parque_diversiones",
+        "km": 35,
+        "lat": 49.134,
+        "lng": 2.571,
+        "temporada": "abr–ene (por calendario)",
+        "url": "https://rcdb.com/4790.htm"
+      }
+    ],
+    "investigado_en": "2026-10-27"
+  },
+  {
+    "id": "fr-colmar-ruta-vino-alsacia",
+    "nombre": "Colmar y la Ruta del Vino de Alsacia",
+    "pais_iso": "FR",
+    "pais": "Francia",
+    "region": "Gran Este (Alsacia)",
+    "lat": 48.0794,
+    "lng": 7.3585,
+    "categorias": [
+      "cultura",
+      "gastronomia",
+      "ciudad"
+    ],
+    "puntajes": {
+      "guias": 5,
+      "cultura": 4,
+      "naturaleza": 2,
+      "gastronomia": 5,
+      "adrenalina": 3,
+      "logistica": 4
+    },
+    "global": 4.9,
+    "nivel": "imprescindible",
+    "mejor_epoca": [
+      5,
+      6,
+      9,
+      10,
+      12
+    ],
+    "dias_sugeridos": 2,
+    "costo": "$$",
+    "acceso": "Tren desde Estrasburgo (30 min) o TGV desde París; los pueblos de la Ruta del Vino, en coche, bici o bus local.",
+    "alerta": null,
+    "platos": [
+      "Riesling y gewurztraminer Grand Cru",
+      "Crémant d'Alsace",
+      "Coq au riesling",
+      "Munster"
+    ],
+    "por_que": "Casco de entramado de madera, la Petite Venise y el Museo Unterlinden, que guarda el Retablo de Isenheim de Grünewald. Es el centro de la Ruta del Vino de Alsacia, unos 170 km con 51 Grands Crus y pueblos de bodegas como Riquewihr, Eguisheim y Kaysersberg, que se pueden unir a pie entre viñedos. Europa-Park queda a 34 km, al otro lado del Rin.",
+    "fuentes": [
+      {
+        "guia": "Rick Steves",
+        "url": "https://www.ricksteves.com/watch-read-listen/video/tv-show/france-alsace"
+      },
+      {
+        "guia": "Rick Steves",
+        "url": "https://www.ricksteves.com/europe/france/itinerary"
+      },
+      {
+        "guia": "Lonely Planet",
+        "url": "https://www.lonelyplanet.com/articles/best-regions-in-france"
+      },
+      {
+        "guia": "Time Out",
+        "url": "https://www.timeout.com/france/things-to-do/best-places-to-visit-in-france"
+      },
+      {
+        "guia": "Rough Guides",
+        "url": "https://www.roughguides.com/france/travel-tips/"
+      },
+      {
+        "guia": "Visit Alsace (turismo oficial)",
+        "url": "https://pro.visit.alsace/?p=11506"
+      },
+      {
+        "guia": "Route des Vins d'Alsace (turismo oficial)",
+        "url": "https://www.wineroute.alsace/?p=15738"
+      },
+      {
+        "guia": "France.fr (turismo oficial)",
+        "url": "https://www.france.fr/es/articulo/ruta-excepcional-itinerario-hitos/"
+      },
+      {
+        "guia": "France.fr (Atout France, oficial)",
+        "url": "https://in.france.fr/en/alsace/article/unterlinden-museum-colmar"
+      }
+    ],
+    "adrenalina_cerca": [
+      {
+        "nombre": "Europa-Park (Rust, DE)",
+        "tipo": "parque_diversiones",
+        "km": 34,
+        "lat": 48.266,
+        "lng": 7.722,
+        "temporada": "abr–ene (con temporada de invierno)",
+        "url": "https://rcdb.com/4074.htm"
+      }
+    ],
+    "investigado_en": "2026-10-27"
+  },
+  {
+    "id": "fr-pont-du-gard",
+    "nombre": "Pont du Gard",
+    "pais_iso": "FR",
+    "pais": "Francia",
+    "region": "Occitania (Gard)",
+    "lat": 43.9475,
+    "lng": 4.535,
+    "categorias": [
+      "cultura"
+    ],
+    "puntajes": {
+      "guias": 5,
+      "cultura": 5,
+      "naturaleza": 2,
+      "gastronomia": 1,
+      "adrenalina": 2,
+      "logistica": 4
+    },
+    "global": 4.9,
+    "nivel": "imprescindible",
+    "mejor_epoca": [
+      4,
+      5,
+      6,
+      9,
+      10
+    ],
+    "dias_sugeridos": 1,
+    "costo": "$$",
+    "acceso": "Bus regional desde Nîmes o Aviñón (unos 45 min) o coche, con aparcamiento de pago en el sitio.",
+    "alerta": null,
+    "platos": [],
+    "por_que": "Es el puente del acueducto romano de unos 50 km que llevaba agua a Nîmes, una obra maestra de la ingeniería antigua que tiene tres estrellas en la Michelin y en Rick Steves. Se puede llegar en kayak bajando el Gardon desde Collias, unos 8 km, y bañarse en las playas fluviales bajo los arcos. Queda a 25 km de Nîmes y de Aviñón.",
+    "fuentes": [
+      {
+        "guia": "Michelin Guide Vert",
+        "url": "https://boutique.laventure.michelin.com/produit/guide-vert-languedoc-ebook"
+      },
+      {
+        "guia": "Rick Steves",
+        "url": "https://www.ricksteves.com/europe/france/provence"
+      },
+      {
+        "guia": "UNESCO",
+        "url": "https://whc.unesco.org/en/list/344/"
+      }
+    ],
+    "adrenalina_cerca": [
+      {
+        "nombre": "Parc Spirou Provence",
+        "tipo": "parque_diversiones",
+        "km": 38,
+        "lat": 44.027,
+        "lng": 4.997,
+        "temporada": "abr–nov",
+        "url": "https://rcdb.com/15273.htm"
+      }
+    ],
+    "investigado_en": "2026-10-27"
+  },
+  {
+    "id": "fr-gorges-du-verdon",
+    "nombre": "Gargantas del Verdon",
+    "pais_iso": "FR",
+    "pais": "Francia",
+    "region": "Provenza-Alpes-Costa Azul",
+    "lat": 43.7667,
+    "lng": 6.35,
+    "categorias": [
+      "naturaleza",
+      "adrenalina"
+    ],
+    "puntajes": {
+      "guias": 5,
+      "cultura": 1,
+      "naturaleza": 5,
+      "gastronomia": 1,
+      "adrenalina": 5,
+      "logistica": 3
+    },
+    "global": 4.7,
+    "nivel": "imprescindible",
+    "mejor_epoca": [
+      5,
+      6,
+      9,
+      10
+    ],
+    "dias_sugeridos": 2,
+    "costo": "$$",
+    "acceso": "Hace falta coche (bases en Moustiers o La Palud); la lanzadera del sendero Blanc-Martel, con reserva en línea, funciona de abril a principios de noviembre.",
+    "alerta": "Carreteras estrechas y muy concurridas en julio y agosto; el sendero Blanc-Martel es exigente y en invierno depende de la nieve.",
+    "platos": [
+      "Miel de lavanda"
+    ],
+    "por_que": "El mayor cañón de Europa occidental, con paredes de hasta 700 m y agua turquesa. Desde Castellane salen descensos de rafting, hidrospeed y canyoning por las propias gargantas, y el sentier Blanc-Martel recorre el fondo en unas 5 h 30. Moustiers-Sainte-Marie, con su loza, queda en la salida hacia el lago de Sainte-Croix.",
+    "fuentes": [
+      {
+        "guia": "Michelin Guide Vert",
+        "url": "https://boutique.laventure.michelin.com/produit/guide-vert-alpes-du-sud-hautes-alpes-alpes-de-haute-provence-ebook/"
+      },
+      {
+        "guia": "Lonely Planet",
+        "url": "https://www.lonelyplanet.com/france/gorges-du-verdon/attractions"
+      },
+      {
+        "guia": "Time Out",
+        "url": "https://www.timeout.com/news/europes-natural-wonders-revealed-081326"
+      },
+      {
+        "guia": "FFRandonnée (lanzadera Blanc-Martel 2026)",
+        "url": "https://www.ffrandonnee.fr/s-informer/actualites/parcourir-les-gorges-du-verdon-sans-voiture-pensez-a-la-navette-blanc-martel"
+      },
+      {
+        "guia": "Provence-Alpes-Côte d'Azur Tourisme",
+        "url": "https://provence-alpes-cotedazur.com/que-faire/itineraires-randonnee/sentier-blanc-martel-la-palud-sur-verdon-fr-4348476/"
+      },
+      {
+        "guia": "Provence-Alpes-Côte d'Azur Tourisme (oficial)",
+        "url": "https://provence-alpes-cotedazur.com/que-faire/itineraires-randonnee/la-palud-sur-verdon-le-sentier-blanc-martel-la-palud-sur-verdon-fr-4683666/"
+      },
+      {
+        "guia": "Verdon Tourisme",
+        "url": "https://www.verdontourisme.com/en/?p=96789"
+      },
+      {
+        "guia": "Parc naturel régional du Verdon",
+        "url": "https://www.parcduverdon.fr/sites/default/files/pnrverdon/pdf/2020_depliant_navette_blanc_martel_fr.pdf"
+      }
+    ],
+    "adrenalina_cerca": [
+      {
+        "nombre": "Montagne et Rivière (rafting, hidrospeed, canyoning)",
+        "tipo": "rafting",
+        "km": 16,
+        "lat": 43.847,
+        "lng": 6.513,
+        "temporada": "abr–oct",
+        "url": "https://provence-alpes-cotedazur.com/sejourner/informations-pratiques/tous-les-services-pratiques/montagne-et-riviere-castellane-fr-2880241/"
+      }
+    ],
+    "investigado_en": "2026-10-27"
+  },
+  {
+    "id": "fr-biarritz-costa-vasca",
+    "nombre": "Biarritz y la costa vasca (Bayona, San Juan de Luz)",
+    "pais_iso": "FR",
+    "pais": "Francia",
+    "region": "Nueva Aquitania (País Vasco francés)",
+    "lat": 43.4832,
+    "lng": -1.5586,
+    "categorias": [
+      "gastronomia",
+      "adrenalina",
+      "playa",
+      "ciudad"
+    ],
+    "puntajes": {
+      "guias": 5,
+      "cultura": 3,
+      "naturaleza": 3,
+      "gastronomia": 4,
+      "adrenalina": 4,
+      "logistica": 5
+    },
+    "global": 4.6,
+    "nivel": "imprescindible",
+    "mejor_epoca": [
+      5,
+      6,
+      9,
+      10
+    ],
+    "dias_sugeridos": 3,
+    "costo": "$$$",
+    "acceso": "Aeropuerto de Biarritz y TGV desde París a Bayona y Biarritz (aprox. 4 h); tren regional y bus entre Bayona, Biarritz y San Juan de Luz.",
+    "alerta": "Corrientes fuertes en las playas de surf: bañarse solo en zonas vigiladas.",
+    "platos": [
+      "Piperade",
+      "Poulet basquaise",
+      "Jamón de Bayona",
+      "Gâteau basque"
+    ],
+    "por_que": "Biarritz es una de las cunas del surf europeo, con escuelas en la playa de la Côte des Basques y pintxos en el centro. A pocos kilómetros, Bayona tiene Les Halles, jamón y chocolate, y San Juan de Luz la iglesia de la boda de Luis XIV. La cocina vasca francesa, de piperade y piment d'Espelette, tiene identidad propia.",
+    "fuentes": [
+      {
+        "guia": "Lonely Planet",
+        "url": "https://www.lonelyplanet.com/articles/best-regions-in-france"
+      },
+      {
+        "guia": "Lonely Planet",
+        "url": "https://www.lonelyplanet.com/articles/france-best-itineraries"
+      },
+      {
+        "guia": "Time Out",
+        "url": "https://www.timeout.com/france/things-to-do/best-things-to-do-in-france"
+      },
+      {
+        "guia": "Michelin Guide Vert",
+        "url": "https://boutique.laventure.michelin.com/produit/guide-vert-pays-basque-france-espagne-bearn-navarre-ebook-2/"
+      },
+      {
+        "guia": "Rick Steves",
+        "url": "https://www.ricksteves.com/europe/france/basque-country"
+      },
+      {
+        "guia": "UNESCO (Caminos de Santiago en Francia)",
+        "url": "https://whc.unesco.org/en/list/868/"
+      },
+      {
+        "guia": "TasteAtlas",
+        "url": "https://www.tasteatlas.com/best-rated-vegetable-dishes-in-france"
+      },
+      {
+        "guia": "TasteAtlas",
+        "url": "https://www.tasteatlas.com/best-rated-chicken-dishes-in-france"
+      }
+    ],
+    "adrenalina_cerca": [
+      {
+        "nombre": "Lagoondy Surf Camp (clases en la Côte des Basques)",
+        "tipo": "otro",
+        "km": 1,
+        "lat": 43.478,
+        "lng": -1.566,
+        "temporada": "todo el año (mejor abr–oct)",
+        "url": "https://www.tourisme.biarritz.fr/en/discover/surf/lagoondy-surf-camp/ASCAQU064FS0005F"
+      }
+    ],
+    "investigado_en": "2026-10-27"
+  },
+  {
+    "id": "fr-carcasona",
+    "nombre": "Carcasona",
+    "pais_iso": "FR",
+    "pais": "Francia",
+    "region": "Occitania (Aude)",
+    "lat": 43.2063,
+    "lng": 2.3636,
+    "categorias": [
+      "cultura",
+      "gastronomia",
+      "ciudad"
+    ],
+    "puntajes": {
+      "guias": 4,
+      "cultura": 5,
+      "naturaleza": 1,
+      "gastronomia": 4,
+      "adrenalina": 1,
+      "logistica": 5
+    },
+    "global": 4.6,
+    "nivel": "imprescindible",
+    "mejor_epoca": [
+      4,
+      5,
+      6,
+      9,
+      10
+    ],
+    "dias_sugeridos": 2,
+    "costo": "$$",
+    "acceso": "Tren desde Toulouse (aprox. 1 h) o Narbona; aeropuerto con vuelos low cost; la Cité queda a 30 min a pie o en bus desde la estación.",
+    "alerta": null,
+    "platos": [
+      "Cassoulet de Carcassonne",
+      "Vinos de Corbières y Minervois",
+      "Blanquette de Limoux"
+    ],
+    "por_que": "Una ciudad fortificada medieval con doble muralla y 52 torres, restaurada por Viollet-le-Duc en el siglo XIX, que es una obra fundacional de la conservación moderna. Aquí se toma el cassoulet con cordero o perdiz, entre viñedos de Corbières y Minervois. Limoux, con su blanquette espumosa, queda a 25 km.",
+    "fuentes": [
+      {
+        "guia": "Rick Steves",
+        "url": "https://www.ricksteves.com/europe/france/itinerary"
+      },
+      {
+        "guia": "Lonely Planet",
+        "url": "https://www.lonelyplanet.com/articles/france-best-itineraries"
+      },
+      {
+        "guia": "Time Out",
+        "url": "https://www.timeout.com/france/things-to-do/best-places-to-visit-in-france"
+      },
+      {
+        "guia": "UNESCO",
+        "url": "https://whc.unesco.org/en/list/345/"
+      },
+      {
+        "guia": "TasteAtlas",
+        "url": "https://www.tasteatlas.com/cassoulet-castelnaudary"
+      },
+      {
+        "guia": "TasteAtlas",
+        "url": "https://www.tasteatlas.com/best-rated-casseroles-in-occitanie"
+      }
+    ],
+    "adrenalina_cerca": [],
+    "investigado_en": "2026-10-27"
+  },
+  {
+    "id": "fr-versalles",
+    "nombre": "Versalles",
+    "pais_iso": "FR",
+    "pais": "Francia",
+    "region": "Île-de-France",
+    "lat": 48.8049,
+    "lng": 2.1204,
+    "categorias": [
+      "cultura"
+    ],
+    "puntajes": {
+      "guias": 4,
+      "cultura": 5,
+      "naturaleza": 2,
+      "gastronomia": 2,
+      "adrenalina": 2,
+      "logistica": 5
+    },
+    "global": 4.6,
+    "nivel": "imprescindible",
+    "mejor_epoca": [
+      4,
+      5,
+      6,
+      9,
+      10
+    ],
+    "dias_sugeridos": 1,
+    "costo": "$$$",
+    "acceso": "RER C a Versailles Château Rive Gauche o tren desde Saint-Lazare o Montparnasse, unos 40 min; el palacio cierra los lunes y conviene reservar hora.",
+    "alerta": null,
+    "platos": [
+      "Productos del mercado Notre-Dame",
+      "Brie de Meaux"
+    ],
+    "por_que": "La residencia de los reyes de Francia de Luis XIV a Luis XVI, con la Galería de los Espejos, los Grandes Apartamentos, los Trianon y los jardines de Le Nôtre. El parque de unas 800 ha y el Gran Canal se recorren mejor en bici. Está a 17 km de París, y dormir allí permite entrar antes que las excursiones.",
+    "fuentes": [
+      {
+        "guia": "Rick Steves",
+        "url": "https://www.ricksteves.com/europe/france/itinerary"
+      },
+      {
+        "guia": "Lonely Planet",
+        "url": "https://www.lonelyplanet.com/articles/the-best-day-trips-from-paris"
+      },
+      {
+        "guia": "National Geographic",
+        "url": "https://www.nationalgeographic.com/travel/article/overnight-trips-near-paris"
+      },
+      {
+        "guia": "UNESCO",
+        "url": "https://whc.unesco.org/en/list/83/"
+      }
+    ],
+    "adrenalina_cerca": [
+      {
+        "nombre": "Disneyland Paris",
+        "tipo": "parque_diversiones",
+        "km": 49,
+        "lat": 48.8722,
+        "lng": 2.7758,
+        "temporada": "todo el año",
+        "url": "https://parisjetaime.com/culture/disneyland-paris-p3614"
+      },
+      {
+        "nombre": "Parc Astérix (Toutatis)",
+        "tipo": "parque_diversiones",
+        "km": 49,
+        "lat": 49.134,
+        "lng": 2.571,
+        "temporada": "abr–ene (por calendario)",
+        "url": "https://rcdb.com/4790.htm"
+      }
+    ],
+    "investigado_en": "2026-10-27"
+  },
+  {
+    "id": "fr-annecy",
+    "nombre": "Annecy y su lago",
+    "pais_iso": "FR",
+    "pais": "Francia",
+    "region": "Auvernia-Ródano-Alpes (Alta Saboya)",
+    "lat": 45.8992,
+    "lng": 6.1294,
+    "categorias": [
+      "naturaleza",
+      "adrenalina",
+      "ciudad"
+    ],
+    "puntajes": {
+      "guias": 4,
+      "cultura": 2,
+      "naturaleza": 4,
+      "gastronomia": 3,
+      "adrenalina": 5,
+      "logistica": 4
+    },
+    "global": 4.5,
+    "nivel": "imprescindible",
+    "mejor_epoca": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "dias_sugeridos": 2,
+    "costo": "$$$",
+    "acceso": "TGV desde París (aprox. 3 h 40) o bus desde el aeropuerto de Ginebra (unos 45 min); carril bici alrededor del lago.",
+    "alerta": null,
+    "platos": [
+      "Tartiflette",
+      "Reblochon",
+      "Fondue savoyarde",
+      "Filets de perche o féra del lago"
+    ],
+    "por_que": "Casco antiguo con canales y el Palais de l'Isle, una prisión del siglo XII, a orillas de un lago alpino de agua muy limpia, con playas para bañarse. Se puede dar la vuelta al lago en bici por la vía verde o volar en parapente biplaza desde el Col de la Forclaz, uno de los despegues más prestigiosos de Francia. Para cenar, tartiflette, reblochon y perca del lago.",
+    "fuentes": [
+      {
+        "guia": "Time Out",
+        "url": "https://www.timeout.com/france/things-to-do/best-places-to-visit-in-france"
+      },
+      {
+        "guia": "Rough Guides",
+        "url": "https://roughguides.com/destinations/europe/france/the-alps-and-franche-comte"
+      },
+      {
+        "guia": "Lonely Planet",
+        "url": "https://www.lonelyplanet.com/articles/summer-french-alps-itinerary"
+      },
+      {
+        "guia": "Michelin (nota de prensa Francia y Mónaco 2026)",
+        "url": "https://www.michelin.com/en/publications/products-and-services/new-selection-michelin-guide-france-monaco-2026"
+      },
+      {
+        "guia": "Haute-Savoie Mont-Blanc Tourisme (oficial)",
+        "url": "https://hautesavoiemontblanc-tourisme.com/offres/tour-du-lac-par-le-haut-itineraire-cyclo-annecy-fr-5835106/"
+      },
+      {
+        "guia": "Haute-Savoie Mont-Blanc Tourisme (oficial)",
+        "url": "https://hautesavoiemontblanc-tourisme.com/offres/le-circuit-des-trois-lacs-semnoz-viuz-la-chiesaz-fr-5869543/"
+      }
+    ],
+    "adrenalina_cerca": [
+      {
+        "nombre": "Parapente biplaza en el Col de la Forclaz",
+        "tipo": "parapente",
+        "km": 13,
+        "lat": 45.813,
+        "lng": 6.247,
+        "temporada": "abr–oct",
+        "url": "https://www.adrenactive.com/bapteme-parapente-annecy-forclaz-74-2012.htm"
+      },
+      {
+        "nombre": "Walibi Rhône-Alpes",
+        "tipo": "parque_diversiones",
+        "km": 53,
+        "lat": 45.626,
+        "lng": 5.566,
+        "temporada": "abr–nov",
+        "url": "https://rcdb.com/4857.htm"
+      },
+      {
+        "nombre": "Teleférico de la Aiguille du Midi",
+        "tipo": "otro",
+        "km": 59,
+        "lat": 45.8786,
+        "lng": 6.8873,
+        "temporada": "todo el año salvo noviembre (mantenimiento)",
+        "url": "https://hautesavoiemontblanc-tourisme.com/notre-destination/hautement-blanche/mythique-en-haute-savoie-hiver/aiguille-du-midi-telepherique/"
+      }
+    ],
+    "investigado_en": "2026-10-27"
+  },
+  {
+    "id": "fr-chamonix-mont-blanc",
+    "nombre": "Chamonix-Mont-Blanc",
+    "pais_iso": "FR",
+    "pais": "Francia",
+    "region": "Auvernia-Ródano-Alpes (Alta Saboya)",
+    "lat": 45.9237,
+    "lng": 6.8694,
+    "categorias": [
+      "naturaleza",
+      "adrenalina"
+    ],
+    "puntajes": {
+      "guias": 4,
+      "cultura": 1,
+      "naturaleza": 5,
+      "gastronomia": 2,
+      "adrenalina": 5,
+      "logistica": 4
+    },
+    "global": 4.5,
+    "nivel": "imprescindible",
+    "mejor_epoca": [
+      1,
+      2,
+      3,
+      6,
+      7,
+      8,
+      9
+    ],
+    "dias_sugeridos": 3,
+    "costo": "$$$",
+    "acceso": "Bus o traslado desde el aeropuerto de Ginebra (aprox. 1 h 15) o tren vía Saint-Gervais; el teleférico de la Aiguille du Midi cierra de principios de noviembre a mediados de diciembre.",
+    "alerta": "Túnel del Mont-Blanc con cierres nocturnos programados en otoño de 2026; en altura, riesgo de mal tiempo repentino y avalanchas fuera de pistas.",
+    "platos": [
+      "Fondue savoyarde",
+      "Tartiflette",
+      "Diots al vino blanco"
+    ],
+    "por_que": "El valle al pie del Mont Blanc (4806 m) es la capital mundial del alpinismo. El teleférico de la Aiguille du Midi sube en unos 20 minutos hasta 3842 m, con la caja de cristal del Pas dans le Vide. En verano, la ruta al Lac Blanc desde la Flégère ofrece una de las vistas más famosas de los Alpes.",
+    "fuentes": [
+      {
+        "guia": "Rick Steves",
+        "url": "https://www.ricksteves.com/europe/france/itinerary"
+      },
+      {
+        "guia": "Lonely Planet",
+        "url": "https://www.lonelyplanet.com/france/the-french-alps/attractions"
+      },
+      {
+        "guia": "Time Out",
+        "url": "https://www.timeout.com/france/things-to-do/best-things-to-do-in-france"
+      },
+      {
+        "guia": "Passy Mont-Blanc (turismo, horarios de la Aiguille du Midi 2026)",
+        "url": "https://www.passy-mont-blanc.com/en/equipement/telepherique-de-laiguille-du-midi/"
+      },
+      {
+        "guia": "Chamonix.net (cierre anual de la Aiguille du Midi)",
+        "url": "https://www.chamonix.net/index.php/francais/actualite/aiguille-du-midi-train-du-montenvers-fermes-depuis-hier"
+      },
+      {
+        "guia": "Chamonix.net (túnel del Mont-Blanc 2026)",
+        "url": "https://www.chamonix.net/francais/actualite/2026-tunnel-du-mont-blanc-pas-de-fermeture-prolongee"
+      },
+      {
+        "guia": "Auvergne-Rhône-Alpes Tourisme (oficial)",
+        "url": "https://www.auvergnerhonealpes-tourisme.com/en/fiches/hike-to-the-lac-blanc-from-la-flegere/"
+      },
+      {
+        "guia": "Haute-Savoie Tourisme",
+        "url": "https://www.haute-savoie-tourisme.org/6107493-randonnee-au-lac-blanc-depuis-lindex"
+      }
+    ],
+    "adrenalina_cerca": [
+      {
+        "nombre": "Teleférico de la Aiguille du Midi",
+        "tipo": "otro",
+        "km": 5,
+        "lat": 45.8786,
+        "lng": 6.8873,
+        "temporada": "todo el año salvo noviembre (mantenimiento)",
+        "url": "https://hautesavoiemontblanc-tourisme.com/notre-destination/hautement-blanche/mythique-en-haute-savoie-hiver/aiguille-du-midi-telepherique/"
+      },
+      {
+        "nombre": "Parapente biplaza en el Col de la Forclaz (Annecy)",
+        "tipo": "parapente",
+        "km": 50,
+        "lat": 45.813,
+        "lng": 6.247,
+        "temporada": "abr–oct",
+        "url": "https://www.adrenactive.com/bapteme-parapente-annecy-forclaz-74-2012.htm"
+      }
+    ],
+    "investigado_en": "2026-10-27"
+  },
+  {
+    "id": "fr-corcega",
+    "nombre": "Córcega (GR20, Scandola, Calanche de Piana)",
+    "pais_iso": "FR",
+    "pais": "Francia",
+    "region": "Córcega",
+    "lat": 42.0396,
+    "lng": 9.0129,
+    "categorias": [
+      "naturaleza",
+      "gastronomia",
+      "playa"
+    ],
+    "puntajes": {
+      "guias": 4,
+      "cultura": 2,
+      "naturaleza": 5,
+      "gastronomia": 4,
+      "adrenalina": 2,
+      "logistica": 3
+    },
+    "global": 4.3,
+    "nivel": "imprescindible",
+    "mejor_epoca": [
+      5,
+      6,
+      9,
+      10
+    ],
+    "dias_sugeridos": 7,
+    "costo": "$$$",
+    "acceso": "Ferry desde Marsella, Toulon o Niza (de unas 5 h en los rápidos a 12-13 h en los nocturnos) o avión a Ajaccio, Bastia, Calvi y Figari; coche casi imprescindible; refugios del GR20 de junio a septiembre.",
+    "alerta": "Riesgo de incendio en verano y carreteras de montaña muy sinuosas; el GR20 es una travesía exigente.",
+    "platos": [
+      "Figatellu",
+      "Brocciu",
+      "Fiadone",
+      "Vino de Patrimonio"
+    ],
+    "por_que": "Una isla montañosa con el GR20, una de las travesías más duras de Europa, y el golfo de Porto, Patrimonio Natural: la reserva de Scandola y las Calanche de Piana se ven en barco desde Porto. Por el camino están la casa natal de Napoleón en Ajaccio y la ciudadela de Calvi. Su despensa es muy propia, con figatellu, brocciu AOP, harina de castaña y vino de Patrimonio.",
+    "fuentes": [
+      {
+        "guia": "Lonely Planet",
+        "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-corsica"
+      },
+      {
+        "guia": "Lonely Planet",
+        "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-france"
+      },
+      {
+        "guia": "Rough Guides",
+        "url": "https://www.roughguides.com/france/things-to-do-corsica/"
+      },
+      {
+        "guia": "Time Out",
+        "url": "https://www.timeout.com/france/things-to-do/best-villages-in-france"
+      },
+      {
+        "guia": "TasteAtlas",
+        "url": "https://www.tasteatlas.com/best-rated-dishes-in-corsica"
+      },
+      {
+        "guia": "TasteAtlas",
+        "url": "https://www.tasteatlas.com/brocciu-corse"
+      },
+      {
+        "guia": "TasteAtlas",
+        "url": "https://www.tasteatlas.com/figatelli-de-lile-de-beaute"
+      },
+      {
+        "guia": "Visit Corsica (agencia de turismo de Córcega, llegada en barco)",
+        "url": "https://www.visit-corsica.com/de/layout/set/print/Mein-Urlaub-auf-Korsika/Anreise/Per-Schiff"
+      },
+      {
+        "guia": "Direct Ferries (Marsella-Bastia)",
+        "url": "https://www.directferries.fr/marseille_bastia_ferry.htm"
+      },
+      {
+        "guia": "UNESCO",
+        "url": "https://whc.unesco.org/en/list/258"
+      }
+    ],
+    "adrenalina_cerca": [],
+    "investigado_en": "2026-10-27"
+  },
+  {
+    "id": "fr-gorges-du-tarn",
+    "nombre": "Gargantas del Tarn",
+    "pais_iso": "FR",
+    "pais": "Francia",
+    "region": "Occitania (Lozère)",
+    "lat": 44.3653,
+    "lng": 3.4114,
+    "categorias": [
+      "naturaleza",
+      "adrenalina"
+    ],
+    "puntajes": {
+      "guias": 5,
+      "cultura": 2,
+      "naturaleza": 4,
+      "gastronomia": 1,
+      "adrenalina": 4,
+      "logistica": 3
+    },
+    "global": 4.3,
+    "nivel": "imprescindible",
+    "mejor_epoca": [
+      5,
+      6,
+      9
+    ],
+    "dias_sugeridos": 2,
+    "costo": "$$",
+    "acceso": "Solo en coche: Sainte-Enimie queda a aprox. 1 h de Millau o Florac; canoa y barqueros de La Malène de primavera a otoño.",
+    "alerta": "Carretera estrecha y con mucho tráfico en verano; crecidas tras las tormentas de otoño (episodios cevenoles).",
+    "platos": [
+      "Aligot"
+    ],
+    "por_que": "Un cañón de unos 50 km excavado entre los Causses Méjean y de Sauveterre, con pueblos como Sainte-Enimie y Castelbouc colgados de la roca, que la Michelin califica con tres estrellas. El plan clásico es bajar el río en canoa de Sainte-Enimie a La Malène y subir al mirador del Point Sublime. En el radio hay vías ferratas y el parapente de Millau.",
+    "fuentes": [
+      {
+        "guia": "Michelin Guide Vert",
+        "url": "https://boutique.laventure.michelin.com/produit/guide-vert-languedoc-ebook"
+      },
+      {
+        "guia": "Rough Guides",
+        "url": "https://www.roughguides.com/france/best-road-trips/"
+      },
+      {
+        "guia": "Tourisme Occitanie (oficial)",
+        "url": "https://www.tourisme-occitanie.com/destinations/sites-unesco/causses-et-cevennes/"
+      }
+    ],
+    "adrenalina_cerca": [
+      {
+        "nombre": "Locanoe (canoa, Sainte-Enimie)",
+        "tipo": "otro",
+        "km": 0,
+        "lat": 44.3653,
+        "lng": 3.4114,
+        "temporada": "abr–sep",
+        "url": "https://www.cevennes-gorges-du-tarn.com/activite/locanoe/"
+      },
+      {
+        "nombre": "Canoë au Moulin de La Malène",
+        "tipo": "otro",
+        "km": 10,
+        "lat": 44.301,
+        "lng": 3.317,
+        "temporada": "abr–sep",
+        "url": "https://www.lozere-tourisme.com/activite/canoe-au-moulin-de-la-malene-paddle-des-gorges-du-tarn/"
+      },
+      {
+        "nombre": "Canoë Le Rozier",
+        "tipo": "otro",
+        "km": 25,
+        "lat": 44.191,
+        "lng": 3.207,
+        "temporada": "abr–sep",
+        "url": "https://www.cevennes-gorges-du-tarn.com/en/activite/canoe-le-rozier/"
+      },
+      {
+        "nombre": "Vía ferrata de Liaucous",
+        "tipo": "via_ferrata",
+        "km": 27,
+        "lat": 44.19,
+        "lng": 3.17,
+        "temporada": "abr–oct",
+        "url": "https://www.manawa.com/fr/destinations/2444-millau"
+      },
+      {
+        "nombre": "Parapente biplaza en Millau (Air Zone Parapente)",
+        "tipo": "parapente",
+        "km": 40,
+        "lat": 44.098,
+        "lng": 3.078,
+        "temporada": "abr–oct",
+        "url": "https://www.manawa.com/fr/destinations/2444-millau"
+      }
+    ],
+    "investigado_en": "2026-10-27"
+  },
+  {
+    "id": "fr-les-3-vallees",
+    "nombre": "Les 3 Vallées (Courchevel, Méribel, Val Thorens)",
+    "pais_iso": "FR",
+    "pais": "Francia",
+    "region": "Auvernia-Ródano-Alpes (Saboya)",
+    "lat": 45.3967,
+    "lng": 6.5656,
+    "categorias": [
+      "naturaleza",
+      "gastronomia",
+      "adrenalina"
+    ],
+    "puntajes": {
+      "guias": 4,
+      "cultura": 0,
+      "naturaleza": 4,
+      "gastronomia": 4,
+      "adrenalina": 5,
+      "logistica": 3
+    },
+    "global": 4.3,
+    "nivel": "imprescindible",
+    "mejor_epoca": [
+      12,
+      1,
+      2,
+      3
+    ],
+    "dias_sugeridos": 6,
+    "costo": "$$$$",
+    "acceso": "Tren a Moûtiers-Salins y bus o traslado a las estaciones (30-60 min); temporada 2026-27 desde el 21 de noviembre (Val Thorens) y principios de diciembre (Courchevel, Méribel) hasta finales de abril o principios de mayo.",
+    "alerta": "Riesgo de avalancha fuera de pistas: consultar el boletín de Météo-France.",
+    "platos": [
+      "Beaufort AOP",
+      "Fondue savoyarde",
+      "Tartiflette",
+      "Alta cocina de estación"
+    ],
+    "por_que": "Se considera el mayor dominio esquiable conectado del mundo: unos 600 km de pistas que unen Courchevel, Méribel y Val Thorens, por encima de los 2300 m. Courchevel tiene alta cocina de estación, como Le 1947 à Cheval Blanc, con tres estrellas Michelin. En verano hay senderos junto al Parque Nacional de la Vanoise, como el del lago de Tuéda.",
+    "fuentes": [
+      {
+        "guia": "Lonely Planet",
+        "url": "https://www.lonelyplanet.com/articles/best-places-to-ski-in-france"
+      },
+      {
+        "guia": "National Geographic",
+        "url": "https://www.nationalgeographic.com/travel/article/best-places-to-ski-in-france"
+      },
+      {
+        "guia": "National Geographic",
+        "url": "https://www.nationalgeographic.com/travel/article/visit-worlds-largest-interconnected-ski-area-in-saint-martin-de-belleville-france"
+      },
+      {
+        "guia": "Rough Guides",
+        "url": "https://www.roughguides.com/articles/where-to-go-skiing-in-france/"
+      },
+      {
+        "guia": "Time Out",
+        "url": "https://www.timeout.com/europe/travel/best-ski-resorts-in-europe"
+      },
+      {
+        "guia": "Remontées-mécaniques.net (base de datos de estaciones)",
+        "url": "https://www.remontees-mecaniques.net/bdd/station-meribel-8.html"
+      },
+      {
+        "guia": "Remontées-mécaniques.net (base de datos de estaciones)",
+        "url": "https://remontees-mecaniques.net/bdd/station-meribel-mottaret-466.html"
+      },
+      {
+        "guia": "Skiinfo (fechas de apertura de Les 3 Vallées)",
+        "url": "https://www.skiinfo.fr/les-3-vallees/dates-ouverture-stations.html"
+      },
+      {
+        "guia": "Journal des Palaces (Le 1947 à Cheval Blanc, tres estrellas)",
+        "url": "https://www.journaldespalaces.com/carriere/offre-309347-Chef-de-rang-Le-1947-a-Cheval-Blanc-Cheval-Blanc-Courchevel-Courchevel.html"
+      },
+      {
+        "guia": "Méribel Tourisme (oficial)",
+        "url": "https://www.meribel.net/randonnee/lac-de-tueda-et-refuge-du-saut-meribel"
+      }
+    ],
+    "adrenalina_cerca": [],
+    "investigado_en": "2026-10-27"
+  },
+  {
+    "id": "fr-mont-saint-michel",
+    "nombre": "Mont-Saint-Michel",
+    "pais_iso": "FR",
+    "pais": "Francia",
+    "region": "Normandía",
+    "lat": 48.6361,
+    "lng": -1.5115,
+    "categorias": [
+      "cultura",
+      "naturaleza"
+    ],
+    "puntajes": {
+      "guias": 4,
+      "cultura": 5,
+      "naturaleza": 4,
+      "gastronomia": 2,
+      "adrenalina": 1,
+      "logistica": 3
+    },
+    "global": 4.3,
+    "nivel": "imprescindible",
+    "mejor_epoca": [
+      4,
+      5,
+      6,
+      9,
+      10
+    ],
+    "dias_sugeridos": 2,
+    "costo": "$$$",
+    "acceso": "Tren a Rennes o Pontorson y bus; desde los aparcamientos de pago del continente, lanzadera gratuita Le Passeur (unos 12 min) que deja a 350 m del Mont.",
+    "alerta": "Mareas de gran amplitud y arenas movedizas: no cruzar la bahía a pie sin guía autorizado.",
+    "platos": [
+      "Omelette de La Mère Poulard",
+      "Cordero de prés-salés del Mont-Saint-Michel"
+    ],
+    "por_que": "Una abadía benedictina gótica sobre un islote de marea, con el pueblo amurallado a sus pies. La bahía tiene una de las mayores amplitudes de marea de Europa, y cruzarla a pie con guía en marea baja es la mejor forma de llegar. Conviene ir temprano o dormir allí para evitar las multitudes.",
+    "fuentes": [
+      {
+        "guia": "Lonely Planet",
+        "url": "https://www.lonelyplanet.com/destinations/france/normandy/mont-st-michel"
+      },
+      {
+        "guia": "Lonely Planet",
+        "url": "https://www.lonelyplanet.com/articles/first-time-france-where-to-go-and-what-to-do"
+      },
+      {
+        "guia": "Rick Steves",
+        "url": "https://www.ricksteves.com/europe/france"
+      },
+      {
+        "guia": "Rough Guides",
+        "url": "https://www.roughguides.com/france/things-to-do/"
+      },
+      {
+        "guia": "Rough Guides",
+        "url": "https://www.roughguides.com/france/travel-tips/"
+      },
+      {
+        "guia": "UNESCO",
+        "url": "https://whc.unesco.org/en/list/80"
+      },
+      {
+        "guia": "Office de Tourisme Mont-Saint-Michel (guía de accesibilidad 2026)",
+        "url": "https://www.ot-montsaintmichel.com/wp-content/uploads/2026/06/Guide-de-laccessibilité-2026.pdf"
+      }
+    ],
+    "adrenalina_cerca": [],
+    "investigado_en": "2026-10-27"
+  },
+  {
+    "id": "fr-sarlat-dordona",
+    "nombre": "Sarlat-la-Canéda y la Dordoña",
+    "pais_iso": "FR",
+    "pais": "Francia",
+    "region": "Nueva Aquitania (Dordoña)",
+    "lat": 44.889,
+    "lng": 1.2167,
+    "categorias": [
+      "gastronomia"
+    ],
+    "puntajes": {
+      "guias": 5,
+      "cultura": 3,
+      "naturaleza": 3,
+      "gastronomia": 4,
+      "adrenalina": 3,
+      "logistica": 3
+    },
+    "global": 4.3,
+    "nivel": "imprescindible",
+    "mejor_epoca": [
+      5,
+      6,
+      9,
+      10
+    ],
+    "dias_sugeridos": 3,
+    "costo": "$$",
+    "acceso": "Tren regional desde Burdeos a Sarlat (aprox. 2 h 45); para castillos, jardines y canoa por el Dordoña hace falta coche.",
+    "alerta": null,
+    "platos": [
+      "Foie gras de canard",
+      "Trufa negra del Périgord",
+      "Pommes sarladaises",
+      "Nueces del Périgord AOP"
+    ],
+    "por_que": "Sarlat conserva uno de los cascos medievales y renacentistas más completos de Francia, con un gran mercado los sábados. El valle del Dordoña suma castillos como Beynac y Castelnaud, los jardines de Marqueyssac y descensos en canoa entre acantilados. Es la capital del Périgord Noir del foie gras, la trufa negra y las nueces.",
+    "fuentes": [
+      {
+        "guia": "Rick Steves",
+        "url": "https://www.ricksteves.com/watch-read-listen/video/tv-show/france-dordogne"
+      },
+      {
+        "guia": "Lonely Planet",
+        "url": "https://www.lonelyplanet.com/articles/france-best-itineraries"
+      },
+      {
+        "guia": "Lonely Planet",
+        "url": "https://www.lonelyplanet.com/destinations/france/the-dordogne-limousin-the-lot"
+      },
+      {
+        "guia": "Rough Guides",
+        "url": "https://www.roughguides.com/france/things-to-do/"
+      },
+      {
+        "guia": "National Geographic",
+        "url": "https://www.nationalgeographic.com/travel/article/autumn-road-trip-france-dordogne-valley"
+      },
+      {
+        "guia": "UNESCO (cueva de Lascaux, valle del Vézère)",
+        "url": "https://whc.unesco.org/en/documents/108437"
+      },
+      {
+        "guia": "TasteAtlas",
+        "url": "https://www.tasteatlas.com/best-rated-offal-dishes-in-france"
+      },
+      {
+        "guia": "TasteAtlas",
+        "url": "https://www.tasteatlas.com/best-rated-appetizers-in-france"
+      }
+    ],
+    "adrenalina_cerca": [
+      {
+        "nombre": "Canoës Découverte (descenso del Dordoña desde Vézac, 7–28 km)",
+        "tipo": "otro",
+        "km": 7,
+        "lat": 44.836,
+        "lng": 1.159,
+        "temporada": "abr–oct",
+        "url": "https://www.lascaux-dordogne.com/en/?p=41395"
+      }
+    ],
+    "investigado_en": "2026-10-27"
+  },
+  {
+    "id": "fr-valle-del-loira",
+    "nombre": "Valle del Loira (Amboise, Chenonceau, Chambord)",
+    "pais_iso": "FR",
+    "pais": "Francia",
+    "region": "Centro-Valle de Loira",
+    "lat": 47.4133,
+    "lng": 0.9826,
+    "categorias": [
+      "cultura",
+      "gastronomia"
+    ],
+    "puntajes": {
+      "guias": 4,
+      "cultura": 5,
+      "naturaleza": 2,
+      "gastronomia": 4,
+      "adrenalina": 1,
+      "logistica": 3
+    },
+    "global": 4.3,
+    "nivel": "imprescindible",
+    "mejor_epoca": [
+      4,
+      5,
+      6,
+      9,
+      10
+    ],
+    "dias_sugeridos": 3,
+    "costo": "$$",
+    "acceso": "TGV de París a Saint-Pierre-des-Corps (aprox. 1 h) y tren regional a Amboise o Blois; entre castillos, coche, bici (La Loire à Vélo) o minibús.",
+    "alerta": null,
+    "platos": [
+      "Vouvray (chenin blanc)",
+      "Sainte-maure-de-touraine",
+      "Rillettes de Tours",
+      "Chinon (cabernet franc)"
+    ],
+    "por_que": "Es un paisaje cultural Patrimonio Mundial de castillos renacentistas: Chambord, Chenonceau y Amboise, donde está la tumba de Leonardo, se ven en un día con base en Amboise. Entre castillo y castillo, la Loire à Vélo recorre la orilla y las bodegas de Vouvray, Montlouis y Chinon están excavadas en la toba. Se acompaña con queso de cabra sainte-maure y rillettes de Tours.",
+    "fuentes": [
+      {
+        "guia": "Lonely Planet",
+        "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-france"
+      },
+      {
+        "guia": "Rick Steves",
+        "url": "https://www.ricksteves.com/watch-read-listen/read/articles/frances-loire-valley-of-a-thousand-chateaux"
+      },
+      {
+        "guia": "Rick Steves",
+        "url": "https://www.ricksteves.com/europe/france/itinerary"
+      },
+      {
+        "guia": "Rough Guides",
+        "url": "https://www.roughguides.com/france/best-places-to-visit/"
+      },
+      {
+        "guia": "UNESCO",
+        "url": "https://whc.unesco.org/en/list/933/"
+      },
+      {
+        "guia": "Touraine Val de Loire (turismo oficial, sitios trogloditas)",
+        "url": "https://www.tourainevaldeloire.com/en/activities/all-visits/troglodyte-sites/"
+      },
+      {
+        "guia": "Amboise Val de Loire (turismo oficial, cuevas trogloditas)",
+        "url": "https://amboise-valdeloire.com/en/?p=4512"
+      },
+      {
+        "guia": "Val de Loire France (turismo regional, pueblos trogloditas)",
+        "url": "https://www.valdeloire-france.com/?p=630057"
+      }
+    ],
+    "adrenalina_cerca": [],
+    "investigado_en": "2026-10-27"
+  },
+  {
+    "id": "fr-valle-vezere-lascaux",
+    "nombre": "Valle del Vézère (Lascaux, Les Eyzies)",
+    "pais_iso": "FR",
+    "pais": "Francia",
+    "region": "Nueva Aquitania (Dordoña)",
+    "lat": 44.997,
+    "lng": 1.091,
+    "categorias": [
+      "cultura"
+    ],
+    "puntajes": {
+      "guias": 4,
+      "cultura": 5,
+      "naturaleza": 2,
+      "gastronomia": 3,
+      "adrenalina": 2,
+      "logistica": 3
+    },
+    "global": 4.3,
+    "nivel": "imprescindible",
+    "mejor_epoca": [
+      4,
+      5,
+      6,
+      9,
+      10
+    ],
+    "dias_sugeridos": 2,
+    "costo": "$$",
+    "acceso": "Coche necesario: Montignac está a 25 km de Sarlat; Lascaux IV vende entradas con horario y conviene reservar en línea; cierra unos días o semanas en enero.",
+    "alerta": null,
+    "platos": [
+      "Foie gras",
+      "Confit de canard",
+      "Gâteau aux noix"
+    ],
+    "por_que": "El valle del Vézère reúne un arte paleolítico de primer nivel mundial: la réplica Lascaux IV en Montignac y cuevas originales como Font-de-Gaume y Rouffignac, alrededor de Les Eyzies. Se puede bajar el río en canoa entre abrigos rocosos y comer en las fermes-auberges del Périgord Noir. Sarlat queda a unos 25 km.",
+    "fuentes": [
+      {
+        "guia": "Lonely Planet",
+        "url": "https://www.lonelyplanet.com/articles/france-best-itineraries"
+      },
+      {
+        "guia": "Rough Guides",
+        "url": "https://www.roughguides.com/france/things-to-do/"
+      },
+      {
+        "guia": "National Geographic",
+        "url": "https://www.nationalgeographic.com/travel/article/autumn-road-trip-france-dordogne-valley"
+      },
+      {
+        "guia": "UNESCO (cueva de Lascaux, valle del Vézère)",
+        "url": "https://whc.unesco.org/en/documents/108437"
+      },
+      {
+        "guia": "TasteAtlas",
+        "url": "https://www.tasteatlas.com/best-rated-offal-dishes-in-france"
+      },
+      {
+        "guia": "Lascaux Dordogne (turismo oficial, horarios y tarifas)",
+        "url": "https://www.lascaux-dordogne.com/en/a-voir-a-faire/decouvrir/les-grottes/lascaux/visite-de-lascaux-horaires-et-tarifs/"
+      },
+      {
+        "guia": "Dordogne Périgord Tourisme (Lascaux IV)",
+        "url": "https://www.dordogne-perigord-tourisme.fr/offres/lascaux-iv-centre-international-de-lart-parietal-montignac-montignac-lascaux-fr-5788689/"
+      }
+    ],
+    "adrenalina_cerca": [
+      {
+        "nombre": "Canoës Découverte (descenso del Dordoña desde Vézac)",
+        "tipo": "otro",
+        "km": 19,
+        "lat": 44.836,
+        "lng": 1.159,
+        "temporada": "abr–oct",
+        "url": "https://www.lascaux-dordogne.com/en/?p=41395"
+      }
+    ],
+    "investigado_en": "2026-10-27"
+  },
+  {
+    "id": "fr-avinon",
+    "nombre": "Aviñón",
+    "pais_iso": "FR",
+    "pais": "Francia",
+    "region": "Provenza-Alpes-Costa Azul",
+    "lat": 43.9493,
+    "lng": 4.8055,
+    "categorias": [
+      "cultura",
+      "gastronomia",
+      "ciudad"
+    ],
+    "puntajes": {
+      "guias": 3,
+      "cultura": 5,
+      "naturaleza": 1,
+      "gastronomia": 4,
+      "adrenalina": 3,
+      "logistica": 5
+    },
+    "global": 4.2,
+    "nivel": "imprescindible",
+    "mejor_epoca": [
+      4,
+      5,
+      6,
+      9,
+      10
+    ],
+    "dias_sugeridos": 2,
+    "costo": "$$",
+    "acceso": "TGV desde París a Avignon TGV (aprox. 2 h 40) y tren lanzadera de 5 min al centro; casco amurallado a pie.",
+    "alerta": null,
+    "platos": [
+      "Châteauneuf-du-Pape y Côtes du Rhône",
+      "Ratatouille",
+      "Papalines d'Avignon",
+      "Tapenade"
+    ],
+    "por_que": "El Palacio de los Papas, el mayor palacio gótico de Europa, y el puente de Saint-Bénézet dominan la ciudad, que en julio se llena con su Festival de teatro. Es la base natural para los Côtes du Rhône: Châteauneuf-du-Pape queda a 15 km, y Les Halles reúnen lo mejor de la cocina provenzal. Llega el TGV directo desde París.",
+    "fuentes": [
+      {
+        "guia": "Rick Steves",
+        "url": "https://www.ricksteves.com/europe/france/provence"
+      },
+      {
+        "guia": "Time Out",
+        "url": "https://www.timeout.com/france/travel/best-french-cities-to-visit"
+      },
+      {
+        "guia": "UNESCO",
+        "url": "https://whc.unesco.org/en/list/228/"
+      },
+      {
+        "guia": "AOC Châteauneuf-du-Pape (federación de productores)",
+        "url": "https://en.chateauneuf.com/wine-cellar-visit-tasting-chateauneuf-du-pape/"
+      },
+      {
+        "guia": "TasteAtlas",
+        "url": "https://www.tasteatlas.com/best-rated-dishes-in-provence-alpes-cote-dazur"
+      }
+    ],
+    "adrenalina_cerca": [
+      {
+        "nombre": "Parc Spirou Provence",
+        "tipo": "parque_diversiones",
+        "km": 18,
+        "lat": 44.027,
+        "lng": 4.997,
+        "temporada": "abr–nov",
+        "url": "https://rcdb.com/15273.htm"
+      }
+    ],
+    "investigado_en": "2026-10-27"
+  },
+  {
+    "id": "fr-burdeos",
+    "nombre": "Burdeos",
+    "pais_iso": "FR",
+    "pais": "Francia",
+    "region": "Nueva Aquitania (Gironda)",
+    "lat": 44.8378,
+    "lng": -0.5792,
+    "categorias": [
+      "cultura",
+      "gastronomia",
+      "ciudad"
+    ],
+    "puntajes": {
+      "guias": 3,
+      "cultura": 4,
+      "naturaleza": 1,
+      "gastronomia": 5,
+      "adrenalina": 2,
+      "logistica": 5
+    },
+    "global": 4.2,
+    "nivel": "imprescindible",
+    "mejor_epoca": [
+      4,
+      5,
+      6,
+      9,
+      10
+    ],
+    "dias_sugeridos": 3,
+    "costo": "$$",
+    "acceso": "TGV desde París (aprox. 2 h 05), tranvía en la ciudad y bus lanzadera desde el aeropuerto de Mérignac.",
+    "alerta": null,
+    "platos": [
+      "Vinos de Burdeos (Médoc, Graves, Sauternes)",
+      "Canelés",
+      "Entrecôte à la bordelaise",
+      "Ostras de Arcachon"
+    ],
+    "por_que": "El Puerto de la Luna es un conjunto urbano del siglo XVIII, Patrimonio Mundial, con la Place de la Bourse, el Grand Théâtre y la Cité du Vin. Desde la ciudad salen trenes regionales a Saint-Émilion (34 min) y Margaux (45 min), y los châteaux del Médoc abren en jornadas de puertas abiertas. No te vayas sin probar canelés y entrecôte à la bordelaise.",
+    "fuentes": [
+      {
+        "guia": "Lonely Planet",
+        "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-france"
+      },
+      {
+        "guia": "Rough Guides",
+        "url": "https://www.roughguides.com/france/best-places-to-visit/"
+      },
+      {
+        "guia": "UNESCO",
+        "url": "https://whc.unesco.org/en/list/1256/"
+      },
+      {
+        "guia": "Bordeaux.com (CIVB, interprofesión)",
+        "url": "https://www.bordeaux.com/en/mag/blog/a-car-free-escape-through-bordeaux-s-vineyards/"
+      },
+      {
+        "guia": "Bordeaux.com (CIVB, interprofesión)",
+        "url": "https://www.bordeaux.com/en/mag/blog/open-days-in-the-bordeaux-vineyards-irresistible/"
+      },
+      {
+        "guia": "Bordeaux.com (CIVB, interprofesión)",
+        "url": "https://www.bordeaux.com/en/mag/blog/histoires-de-resolution-chateau-lafaurie-peyraguey-imaginer-un-oenotourisme-singulier"
+      }
+    ],
+    "adrenalina_cerca": [
+      {
+        "nombre": "Parapente en la Duna de Pilat",
+        "tipo": "parapente",
+        "km": 57,
+        "lat": 44.589,
+        "lng": -1.213,
+        "temporada": "mar–nov",
+        "url": "https://www.dunedupilat.com/fr/la-dune/parapente/"
+      }
+    ],
+    "investigado_en": "2026-10-27"
+  },
+  {
+    "id": "fr-disneyland-paris",
+    "nombre": "Disneyland Paris",
+    "pais_iso": "FR",
+    "pais": "Francia",
+    "region": "Île-de-France (Marne-la-Vallée)",
+    "lat": 48.8722,
+    "lng": 2.7758,
+    "categorias": [
+      "adrenalina"
+    ],
+    "puntajes": {
+      "guias": 3,
+      "cultura": 1,
+      "naturaleza": 0,
+      "gastronomia": 1,
+      "adrenalina": 5,
+      "logistica": 5
+    },
+    "global": 4.2,
+    "nivel": "imprescindible",
+    "mejor_epoca": [
+      4,
+      5,
+      6,
+      9,
+      10,
+      12
+    ],
+    "dias_sugeridos": 2,
+    "costo": "$$$",
+    "acceso": "RER A desde el centro de París a Marne-la-Vallée-Chessy (aprox. 40 min); TGV directo desde el aeropuerto CDG y otras ciudades; abierto todo el año.",
+    "alerta": null,
+    "platos": [],
+    "por_que": "El complejo de parques más visitado de Europa, a 31 km de París y con RER directo. Desde marzo de 2026 el segundo parque se llama Disney Adventure World, con World of Frozen, Worlds of Pixar y el Avengers Campus. Para verlo entero hacen falta dos o tres días.",
+    "fuentes": [
+      {
+        "guia": "Lonely Planet",
+        "url": "https://www.lonelyplanet.com/articles/paris-for-families"
+      },
+      {
+        "guia": "Frommer's",
+        "url": "https://www.frommers.com/destinations/disneyland-paris/things-to-do/"
+      },
+      {
+        "guia": "Office de Tourisme de Paris",
+        "url": "https://parisjetaime.com/culture/disneyland-paris-p3614"
+      }
+    ],
+    "adrenalina_cerca": [],
+    "investigado_en": "2026-10-27"
+  },
+  {
+    "id": "fr-lyon",
+    "nombre": "Lyon",
+    "pais_iso": "FR",
+    "pais": "Francia",
+    "region": "Auvernia-Ródano-Alpes",
+    "lat": 45.764,
+    "lng": 4.8357,
+    "categorias": [
+      "cultura",
+      "gastronomia",
+      "ciudad"
+    ],
+    "puntajes": {
+      "guias": 3,
+      "cultura": 5,
+      "naturaleza": 1,
+      "gastronomia": 5,
+      "adrenalina": 2,
+      "logistica": 5
+    },
+    "global": 4.2,
+    "nivel": "imprescindible",
+    "mejor_epoca": [
+      4,
+      5,
+      6,
+      9,
+      10,
+      12
+    ],
+    "dias_sugeridos": 3,
+    "costo": "$$",
+    "acceso": "TGV desde París (2 h) y aeropuerto Saint-Exupéry con el tranvía exprés Rhônexpress; metro y funiculares en la ciudad.",
+    "alerta": null,
+    "platos": [
+      "Quenelles de brochet",
+      "Saucisson brioché",
+      "Tablier de sapeur",
+      "Cervelle de canut"
+    ],
+    "por_que": "Se la considera la capital gastronómica de Francia por sus bouchons, el legado de Paul Bocuse y Les Halles de Lyon, y el Beaujolais queda a menos de una hora. Su sitio histórico Patrimonio Mundial suma los teatros romanos de Fourvière, el Vieux Lyon renacentista con sus traboules y la Presqu'île. Hay que probar las quenelles de lucio y el saucisson brioché.",
+    "fuentes": [
+      {
+        "guia": "Time Out",
+        "url": "https://www.timeout.com/france/things-to-do/best-places-to-visit-in-france"
+      },
+      {
+        "guia": "Time Out",
+        "url": "https://www.timeout.com/france/travel/best-french-cities-to-visit"
+      },
+      {
+        "guia": "Rough Guides",
+        "url": "https://www.roughguides.com/france/travel-tips/"
+      },
+      {
+        "guia": "UNESCO",
+        "url": "https://whc.unesco.org/en/list/872/"
+      },
+      {
+        "guia": "TasteAtlas",
+        "url": "https://www.tasteatlas.com/lyon"
+      },
+      {
+        "guia": "Guía Michelin (Francia 2026)",
+        "url": "https://guide.michelin.com/en/article/news-and-views/michelin-starred-restaurants-france-new"
+      }
+    ],
+    "adrenalina_cerca": [
+      {
+        "nombre": "Walibi Rhône-Alpes",
+        "tipo": "parque_diversiones",
+        "km": 59,
+        "lat": 45.626,
+        "lng": 5.566,
+        "temporada": "abr–nov",
+        "url": "https://rcdb.com/4857.htm"
+      }
+    ],
+    "investigado_en": "2026-10-27"
+  },
+  {
+    "id": "fr-fontainebleau",
+    "nombre": "Palacio de Fontainebleau",
+    "pais_iso": "FR",
+    "pais": "Francia",
+    "region": "Île-de-France (Sena y Marne)",
+    "lat": 48.4021,
+    "lng": 2.7002,
+    "categorias": [
+      "cultura",
+      "naturaleza"
+    ],
+    "puntajes": {
+      "guias": 4,
+      "cultura": 4,
+      "naturaleza": 4,
+      "gastronomia": 1,
+      "adrenalina": 3,
+      "logistica": 5
+    },
+    "global": 4.2,
+    "nivel": "imprescindible",
+    "mejor_epoca": [
+      4,
+      5,
+      6,
+      9,
+      10
+    ],
+    "dias_sugeridos": 1,
+    "costo": "$$",
+    "acceso": "Transilien R desde Paris-Gare de Lyon a Fontainebleau-Avon (aprox. 40 min) y bus línea 1 hasta la parada Château; el palacio cierra los martes.",
+    "alerta": null,
+    "platos": [
+      "Brie de Melun"
+    ],
+    "por_que": "Francisco I convirtió un pabellón de caza medieval en un palacio renacentista, con su galería y la escuela de Fontainebleau, y fue residencia de los soberanos hasta Napoleón III. Lo rodea un bosque de unas 25 000 ha con caos de arenisca, que es la cuna mundial de la escalada en bloque y tiene rutas como la del desierto de Apremont. Queda a una hora de París.",
+    "fuentes": [
+      {
+        "guia": "Lonely Planet",
+        "url": "https://www.lonelyplanet.com/articles/first-time-guide-to-fontainebleau"
+      },
+      {
+        "guia": "Lonely Planet",
+        "url": "https://www.lonelyplanet.com/points-of-interest/chateau-de-fontainebleau/1023076"
+      },
+      {
+        "guia": "Frommer's",
+        "url": "https://www.frommers.com/destinations/fontainebleau/attractions/chteau-de-fontainebleau/"
+      },
+      {
+        "guia": "Time Out",
+        "url": "https://www.timeout.com/paris/en/attractions/fontainebleau"
+      },
+      {
+        "guia": "Fodor's",
+        "url": "https://www.fodors.com/world/europe/france/side-trips-from-paris/places/fontainebleau"
+      },
+      {
+        "guia": "Rick Steves",
+        "url": "https://www.gpb.org/node/270961"
+      },
+      {
+        "guia": "UNESCO",
+        "url": "https://whc.unesco.org/en/list/160/"
+      },
+      {
+        "guia": "Château de Fontainebleau (oficial)",
+        "url": "https://www.chateaudefontainebleau.fr/en/go-to-the-chateau-de-fontainebleau-for-the-historical-re-enactments/"
+      },
+      {
+        "guia": "Fontainebleau Tourisme (oficial, preguntas frecuentes)",
+        "url": "https://fontainebleau-tourisme.com/?p=3810"
+      },
+      {
+        "guia": "Fontainebleau Tourisme (oficina oficial)",
+        "url": "https://www.fontainebleau-tourisme.com/wp-content/uploads/2023/01/Aout-2021-Prolonger-les-petits-plaisirs-de-la-marche-et-de-la-randonnee-6-belles-idees-au-Pays-de-Fontainebleau.pdf"
+      },
+      {
+        "guia": "Visorando",
+        "url": "https://www.visorando.com/randonnee-foret-de-fontainebleau-circuit-randonnee/"
+      }
+    ],
+    "adrenalina_cerca": [
+      {
+        "nombre": "Escalada en bloque en el bosque de Fontainebleau (Bas-Cuvier y otros sectores)",
+        "tipo": "otro",
+        "km": 7,
+        "lat": 48.445,
+        "lng": 2.638,
+        "temporada": "todo el año (mejor primavera y otoño)",
+        "url": "https://www.iledefrance.fr/toutes-les-actualites/comment-jai-appris-lescalade-de-bloc-dans-la-foret-de-fontainebleau"
+      },
+      {
+        "nombre": "Disneyland Paris",
+        "tipo": "parque_diversiones",
+        "km": 53,
+        "lat": 48.8722,
+        "lng": 2.7758,
+        "temporada": "todo el año",
+        "url": "https://parisjetaime.com/culture/disneyland-paris-p3614"
+      }
+    ],
+    "investigado_en": "2026-10-27"
+  },
+  {
+    "id": "fr-reims-champana",
+    "nombre": "Reims y Épernay (Champaña)",
+    "pais_iso": "FR",
+    "pais": "Francia",
+    "region": "Gran Este (Champaña)",
+    "lat": 49.2583,
+    "lng": 4.0317,
+    "categorias": [
+      "cultura",
+      "gastronomia",
+      "ciudad"
+    ],
+    "puntajes": {
+      "guias": 3,
+      "cultura": 5,
+      "naturaleza": 2,
+      "gastronomia": 5,
+      "adrenalina": 1,
+      "logistica": 5
+    },
+    "global": 4.2,
+    "nivel": "imprescindible",
+    "mejor_epoca": [
+      4,
+      5,
+      6,
+      9,
+      10
+    ],
+    "dias_sugeridos": 2,
+    "costo": "$$$",
+    "acceso": "TGV desde Paris-Est a Reims (45 min); Épernay a unos 30 min en tren regional; las casas de champán piden reserva.",
+    "alerta": null,
+    "platos": [
+      "Champán",
+      "Biscuits roses de Reims",
+      "Jambon de Reims",
+      "Chaource"
+    ],
+    "por_que": "La catedral donde se coronaba a los reyes de Francia, la abadía de Saint-Rémi y el Palacio del Tau forman un solo bien UNESCO, y las laderas, casas y bodegas de Champaña son también Patrimonio Mundial. En Reims se visitan las crayères de Veuve Clicquot, Ruinart o Pommery. En Épernay, bajo la Avenue de Champagne, corren más de 110 km de bodegas.",
+    "fuentes": [
+      {
+        "guia": "Rick Steves",
+        "url": "https://www.ricksteves.com/tours/france/eastern-france"
+      },
+      {
+        "guia": "Rick Steves",
+        "url": "https://www.ricksteves.com/watch-read-listen/video/tv-show/france-alsace"
+      },
+      {
+        "guia": "Lonely Planet",
+        "url": "https://www.lonelyplanet.com/articles/things-to-do-in-france-autumn-and-winter"
+      },
+      {
+        "guia": "UNESCO",
+        "url": "https://whc.unesco.org/en/list/601/"
+      },
+      {
+        "guia": "Tourisme en Champagne (turismo oficial)",
+        "url": "https://tourisme-en-champagne.com/en/?p=20472"
+      },
+      {
+        "guia": "Tourisme en Champagne (turismo oficial)",
+        "url": "https://tourisme-en-champagne.com/en/all-about-champagne/vignobles-decouvertes-2/the-southern-slopes-of-epernay-and-the-cote-des-blancs/"
+      }
+    ],
+    "adrenalina_cerca": [],
+    "investigado_en": "2026-10-27"
+  },
+  {
+    "id": "fr-arles",
+    "nombre": "Arlés",
+    "pais_iso": "FR",
+    "pais": "Francia",
+    "region": "Provenza-Alpes-Costa Azul",
+    "lat": 43.6766,
+    "lng": 4.6278,
+    "categorias": [
+      "cultura",
+      "ciudad"
+    ],
+    "puntajes": {
+      "guias": 3,
+      "cultura": 5,
+      "naturaleza": 3,
+      "gastronomia": 3,
+      "adrenalina": 2,
+      "logistica": 4
+    },
+    "global": 4.1,
+    "nivel": "imprescindible",
+    "mejor_epoca": [
+      4,
+      5,
+      6,
+      9,
+      10
+    ],
+    "dias_sugeridos": 2,
+    "costo": "$$",
+    "acceso": "Tren regional desde Aviñón (unos 20 min) o Marsella; centro compacto a pie; la Camarga, en coche o bus.",
+    "alerta": null,
+    "platos": [
+      "Gardiane de taureau",
+      "Arroz de Camarga",
+      "Saucisson d'Arles",
+      "Fleur de sel de Camargue"
+    ],
+    "por_que": "El anfiteatro, el teatro y los criptopórticos romanos, más el claustro románico de Saint-Trophime, son Patrimonio Mundial, y la ciudad conserva la huella de Van Gogh y acoge los Rencontres de la fotografía cada verano. Es la puerta de la Camarga: flamencos en el étang de Vaccarès, arroz IGP y gardiane de toro. El sábado hay mercado en el bulevar des Lices.",
+    "fuentes": [
+      {
+        "guia": "Rick Steves",
+        "url": "https://www.ricksteves.com/europe/france/provence"
+      },
+      {
+        "guia": "National Geographic",
+        "url": "https://www.nationalgeographic.com/travel/article/overtourism-paris-underrated-cities-to-visit-france"
+      },
+      {
+        "guia": "UNESCO",
+        "url": "https://whc.unesco.org/en/list/164/"
+      },
+      {
+        "guia": "TasteAtlas",
+        "url": "https://www.tasteatlas.com/best-rated-dishes-in-provence-alpes-cote-dazur"
+      },
+      {
+        "guia": "Parc naturel régional de Camargue (oficial)",
+        "url": "https://www.parc-camargue.fr/Local/parc-camargue/files/2457/N4_vaccares.pdf"
+      },
+      {
+        "guia": "Provence-Alpes-Côte d'Azur Tourisme (oficial)",
+        "url": "https://provence-alpes-cotedazur.com/que-faire/culture-et-patrimoine/lieux/la-capeliere-maison-de-la-reserve-et-du-vaccares-arles-fr-2991191/"
+      },
+      {
+        "guia": "Parc naturel régional de Camargue (folleto 2023)",
+        "url": "https://parc-camargue.fr/parc-camargue/202300076/0001/Depliant_PNRC_2023-FR.pdf"
+      }
+    ],
+    "adrenalina_cerca": [
+      {
+        "nombre": "Parc Spirou Provence",
+        "tipo": "parque_diversiones",
+        "km": 49,
+        "lat": 44.027,
+        "lng": 4.997,
+        "temporada": "abr–nov",
+        "url": "https://rcdb.com/15273.htm"
+      }
+    ],
+    "investigado_en": "2026-10-27"
+  },
+  {
+    "id": "fr-beaune-cote-dor",
+    "nombre": "Beaune y la Côte d'Or",
+    "pais_iso": "FR",
+    "pais": "Francia",
+    "region": "Borgoña-Franco Condado",
+    "lat": 47.026,
+    "lng": 4.84,
+    "categorias": [
+      "cultura",
+      "gastronomia"
+    ],
+    "puntajes": {
+      "guias": 3,
+      "cultura": 4,
+      "naturaleza": 2,
+      "gastronomia": 5,
+      "adrenalina": 1,
+      "logistica": 4
+    },
+    "global": 4.1,
+    "nivel": "imprescindible",
+    "mejor_epoca": [
+      5,
+      6,
+      9,
+      10
+    ],
+    "dias_sugeridos": 2,
+    "costo": "$$",
+    "acceso": "Tren desde Dijon (unos 20 min); para los viñedos de la Côte d'Or, bici, coche o tour.",
+    "alerta": null,
+    "platos": [
+      "Pinot noir y chardonnay de la Côte d'Or",
+      "Bœuf bourguignon",
+      "Œufs en meurette",
+      "Époisses"
+    ],
+    "por_que": "Es la capital del vino de Borgoña. La Route des Grands Crus recorre los climats de la Côte de Nuits y la Côte de Beaune, Patrimonio Mundial, con cientos de bodegas que reciben visitas. En Beaune, el Hôtel-Dieu de 1443, con su tejado de tejas vidriadas, y la Cité des Climats; entre pueblos se puede pedalear por la Voie des Vignes hasta Santenay.",
+    "fuentes": [
+      {
+        "guia": "Rick Steves",
+        "url": "https://www.ricksteves.com/tours/france/eastern-france"
+      },
+      {
+        "guia": "Rick Steves",
+        "url": "https://www.ricksteves.com/europe/france/itinerary"
+      },
+      {
+        "guia": "Lonely Planet",
+        "url": "https://www.lonelyplanet.com/articles/best-regions-in-france"
+      },
+      {
+        "guia": "Bourgogne Wines (BIVB, interprofesión)",
+        "url": "https://www.bourgogne-wines.com/trips-to-the-bourgogne-region/la-grande-route-des-vins-old/la-route-touristique-des-grands-vins/la-route-touristique-des-grands-vins-explore-and-discover-over-100km-of-picturesque-trails,2564,9639.html"
+      },
+      {
+        "guia": "Bourgogne Wines (BIVB, interprofesión)",
+        "url": "https://www.bourgogne-wines.com/trips-to-the-bourgogne-region/the-vignobles-decouvertes-cellars/guide-to-accredited-wineries,2568,9651.html"
+      },
+      {
+        "guia": "Beaune Tourisme (turismo oficial)",
+        "url": "https://www.beaune-tourism.com/offers/sejour-en-cote-de-beaune-beaune-en-5821468"
+      },
+      {
+        "guia": "UNESCO",
+        "url": "https://whc.unesco.org/en/list/1425/"
+      },
+      {
+        "guia": "UNESCO (Salle des Pôvres, Hospices de Beaune)",
+        "url": "https://whc.unesco.org/en/documents/137359"
+      }
+    ],
+    "adrenalina_cerca": [],
+    "investigado_en": "2026-10-27"
+  },
+  {
+    "id": "fr-chaine-des-puys",
+    "nombre": "Cadena de los Puys y Puy de Dôme",
+    "pais_iso": "FR",
+    "pais": "Francia",
+    "region": "Auvernia-Ródano-Alpes (Puy-de-Dôme)",
+    "lat": 45.7725,
+    "lng": 2.9644,
+    "categorias": [
+      "naturaleza"
+    ],
+    "puntajes": {
+      "guias": 3,
+      "cultura": 1,
+      "naturaleza": 5,
+      "gastronomia": 2,
+      "adrenalina": 3,
+      "logistica": 4
+    },
+    "global": 4.1,
+    "nivel": "imprescindible",
+    "mejor_epoca": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "dias_sugeridos": 2,
+    "costo": "$$",
+    "acceso": "Bus urbano desde Clermont-Ferrand hasta la estación del Panoramique des Dômes; la carretera de la cumbre está cerrada a coches: se sube en tren cremallera o a pie por el Chemin des Muletiers.",
+    "alerta": null,
+    "platos": [
+      "Saint-nectaire AOP",
+      "Truffade",
+      "Bleu d'Auvergne"
+    ],
+    "por_que": "Una alineación de unos 80 volcanes jóvenes sobre la falla de la Limagne, Patrimonio Natural de la UNESCO desde 2018. Se sube al Puy de Dôme (1465 m) a pie por el Chemin des Muletiers o en el tren Panoramique des Dômes, se da la vuelta al cráter del Puy de Pariou y se puede volar en parapente biplaza desde la cima. Abajo esperan el saint-nectaire y la truffade.",
+    "fuentes": [
+      {
+        "guia": "Lonely Planet",
+        "url": "https://lonelyplanet.com/france/puy-de-dome"
+      },
+      {
+        "guia": "Lonely Planet",
+        "url": "https://www.lonelyplanet.com/articles/slow-travel-hiking-auvergne-france"
+      },
+      {
+        "guia": "Rough Guides",
+        "url": "https://roughguides.com/france/massif-central/auvergne"
+      },
+      {
+        "guia": "Frommer's",
+        "url": "https://www.frommers.com/destinations/clermont-ferrand/things-to-do/"
+      },
+      {
+        "guia": "Transdev (Panoramique des Dômes)",
+        "url": "https://www.transdev.com/en/reference/panoramique-des-domes"
+      },
+      {
+        "guia": "TourMaG (reapertura del Panoramique des Dômes)",
+        "url": "https://www.tourmag.com/Le-Panoramique-des-Domes-reprend-du-service_a128998.html"
+      },
+      {
+        "guia": "UNESCO",
+        "url": "https://whc.unesco.org/fr/list/1434/"
+      }
+    ],
+    "adrenalina_cerca": [
+      {
+        "nombre": "Bautismo de parapente en Orcines (Chaîne des Puys)",
+        "tipo": "parapente",
+        "km": 4,
+        "lat": 45.784,
+        "lng": 3.013,
+        "temporada": "todo el año según meteorología",
+        "url": "https://www.adrenactive.com/vol-parapente-clermont-ferrand-9586.htm"
+      },
+      {
+        "nombre": "Freedom Parapente (vuelos biplaza, Saint-Genès-Champanelle)",
+        "tipo": "parapente",
+        "km": 7,
+        "lat": 45.721,
+        "lng": 3.019,
+        "temporada": "todo el año según meteorología",
+        "url": "https://www.terravolcana.com/en/activities/sports-and-outdoor-activities"
+      }
+    ],
+    "investigado_en": "2026-10-27"
+  },
+  {
+    "id": "fr-duna-pilat-arcachon",
+    "nombre": "Duna de Pilat y bahía de Arcachon",
+    "pais_iso": "FR",
+    "pais": "Francia",
+    "region": "Nueva Aquitania (Gironda)",
+    "lat": 44.589,
+    "lng": -1.213,
+    "categorias": [
+      "naturaleza",
+      "adrenalina",
+      "playa"
+    ],
+    "puntajes": {
+      "guias": 3,
+      "cultura": 1,
+      "naturaleza": 5,
+      "gastronomia": 3,
+      "adrenalina": 4,
+      "logistica": 4
+    },
+    "global": 4.1,
+    "nivel": "imprescindible",
+    "mejor_epoca": [
+      5,
+      6,
+      9
+    ],
+    "dias_sugeridos": 2,
+    "costo": "$$$",
+    "acceso": "Tren regional desde Burdeos a Arcachon (aprox. 50 min) y bus local hasta la duna; barco a Cap Ferret desde el muelle de Arcachon.",
+    "alerta": "Riesgo de incendio forestal en verano en los pinares de La Teste; la arena quema en julio y agosto.",
+    "platos": [
+      "Ostras de Arcachon",
+      "Crepinettes con ostras",
+      "Ostras del bassin d'Arcachon",
+      "Ostras con crépinettes",
+      "Vino blanco de Entre-deux-Mers"
+    ],
+    "por_que": "La Dune du Pilat, de unos 100 m, es la duna más alta de Europa, y desde la cresta se ven la bahía de Arcachon, el banco de Arguin y el bosque de las Landas. Es uno de los mejores sitios de Europa para volar en parapente sobre el océano, y en la bahía se puede ir en kayak a la Île aux Oiseaux. Las ostras se catan en las cabañas de Cap Ferret o del puerto de Larros.",
+    "fuentes": [
+      {
+        "guia": "Lonely Planet",
+        "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-france"
+      },
+      {
+        "guia": "Time Out",
+        "url": "https://www.timeout.com/france/travel/most-beautiful-sights-natural-wonders-france"
+      },
+      {
+        "guia": "Ministère de la Transition écologique (lista Grands Sites, 2026)",
+        "url": "https://www.ecologie.gouv.fr/sites/default/files/documents/1er%20janvier%202026-Liste%20OGS-GSF%20Tableau.pdf"
+      },
+      {
+        "guia": "France.fr (turismo oficial)",
+        "url": "https://www.france.fr/fr/article/huitres-bassin-darcachon/"
+      },
+      {
+        "guia": "France.fr (turismo oficial)",
+        "url": "https://www.france.fr/fr/bordeaux/liste/huitres-bassin-darcachon"
+      }
+    ],
+    "adrenalina_cerca": [
+      {
+        "nombre": "Parapente en la Duna de Pilat (Grand Site)",
+        "tipo": "parapente",
+        "km": 0,
+        "lat": 44.589,
+        "lng": -1.213,
+        "temporada": "mar–nov",
+        "url": "https://www.dunedupilat.com/fr/la-dune/parapente/"
+      }
+    ],
+    "investigado_en": "2026-10-27"
+  },
+  {
+    "id": "fr-marsella-calanques",
+    "nombre": "Marsella y las Calanques",
+    "pais_iso": "FR",
+    "pais": "Francia",
+    "region": "Provenza-Alpes-Costa Azul",
+    "lat": 43.2965,
+    "lng": 5.3698,
+    "categorias": [
+      "naturaleza",
+      "gastronomia",
+      "ciudad"
+    ],
+    "puntajes": {
+      "guias": 3,
+      "cultura": 3,
+      "naturaleza": 5,
+      "gastronomia": 4,
+      "adrenalina": 3,
+      "logistica": 4
+    },
+    "global": 4.1,
+    "nivel": "imprescindible",
+    "mejor_epoca": [
+      4,
+      5,
+      6,
+      9,
+      10
+    ],
+    "dias_sugeridos": 3,
+    "costo": "$$",
+    "acceso": "TGV desde París (aprox. 3 h 15), metro y bus; a las Calanques, a pie desde Luminy o en barco desde el Vieux-Port; Sugiton exige reserva gratuita en fechas de verano (en 2026, todos los días del 27 de junio al 30 de agosto y algunos fines de semana).",
+    "alerta": "Los macizos de las Calanques pueden cerrarse en días de riesgo de incendio (junio a septiembre); reserva obligatoria para Sugiton en temporada alta.",
+    "platos": [
+      "Bouillabaisse",
+      "Panisse",
+      "Navettes",
+      "Blanco de Cassis"
+    ],
+    "por_que": "Un puerto fundado por los griegos hace 2600 años, con el Vieux-Port, el barrio del Panier, Notre-Dame-de-la-Garde y el MuCEM, y la cuna de la bouillabaisse. A las afueras empieza el Parque Nacional de las Calanques: acantilados blancos sobre calas turquesa, como Sugiton o En-Vau. El mirador de Sugiton exige reserva gratuita de junio a septiembre.",
+    "fuentes": [
+      {
+        "guia": "Time Out",
+        "url": "https://www.timeout.com/france/things-to-do/best-places-to-visit-in-france"
+      },
+      {
+        "guia": "Time Out",
+        "url": "https://www.timeout.com/france/things-to-do/best-things-to-do-in-france"
+      },
+      {
+        "guia": "Lonely Planet",
+        "url": "https://www.lonelyplanet.com/articles/france-best-itineraries"
+      },
+      {
+        "guia": "TasteAtlas",
+        "url": "https://www.tasteatlas.com/best-rated-dishes-in-provence-alpes-cote-dazur"
+      },
+      {
+        "guia": "Parc national des Calanques (reserva de Sugiton 2026)",
+        "url": "https://calanques-parcnational.fr/fr/actualites/reservation-sugiton-les-dates-du-dispositif-2026"
+      },
+      {
+        "guia": "Marseille Tourisme (Calanque de Sugiton)",
+        "url": "https://www.marseille-tourisme.com/offres/plage-calanque-de-sugiton-marseille-9eme-fr-2801387/"
+      },
+      {
+        "guia": "Office de tourisme de Marseille (oficial)",
+        "url": "https://www.marseille-tourisme.com/decouvrez-marseille/calanques-plages-et-nature/les-calanques-de-marseille/quelles-calanques-decouvrir/la-plus-belle-calanque/"
+      },
+      {
+        "guia": "France.fr (Atout France, oficial)",
+        "url": "https://www.france.fr/en/destination/marseille/"
+      }
+    ],
+    "adrenalina_cerca": [
+      {
+        "nombre": "OK Corral (Pioneer, Gold Rush, Serpent Hopi)",
+        "tipo": "parque_diversiones",
+        "km": 30,
+        "lat": 43.279,
+        "lng": 5.742,
+        "temporada": "abr–nov (diario solo jul–ago)",
+        "url": "https://rcdb.com/4861.htm"
+      }
+    ],
+    "investigado_en": "2026-10-27"
+  },
+  {
+    "id": "fr-parc-asterix",
+    "nombre": "Parc Astérix",
+    "pais_iso": "FR",
+    "pais": "Francia",
+    "region": "Altos de Francia (Plailly, Oise)",
+    "lat": 49.134,
+    "lng": 2.571,
+    "categorias": [
+      "adrenalina"
+    ],
+    "puntajes": {
+      "guias": 3,
+      "cultura": 1,
+      "naturaleza": 1,
+      "gastronomia": 1,
+      "adrenalina": 5,
+      "logistica": 4
+    },
+    "global": 4.1,
+    "nivel": "imprescindible",
+    "mejor_epoca": [
+      4,
+      5,
+      6,
+      9,
+      10
+    ],
+    "dias_sugeridos": 1,
+    "costo": "$$$",
+    "acceso": "Lanzadera desde la estación de buses Roissypole (aeropuerto CDG), unos 20 min, los días de apertura; temporada 2026 del 4 de abril al 8 de noviembre, más las vacaciones de Navidad.",
+    "alerta": null,
+    "platos": [],
+    "por_que": "Es el parque con las montañas rusas más intensas de Francia: Toutatis, de 51 m y 110 km/h, la más alta y rápida del país, más Goudurix, Tonnerre 2 Zeus y OzIris. Está a 35 km de París y tematizado con el cómic de Goscinny y Uderzo. Es una alternativa más extrema a Disneyland.",
+    "fuentes": [
+      {
+        "guia": "Lonely Planet",
+        "url": "https://www.lonelyplanet.com/france/paris/attractions/parc-asterix/a/poi-sig/1094725/359279"
+      },
+      {
+        "guia": "Lonely Planet",
+        "url": "https://www.lonelyplanet.com/articles/paris-with-kids"
+      },
+      {
+        "guia": "Frommer's",
+        "url": "https://www.frommers.com/destinations/disneyland-paris/things-to-do/"
+      },
+      {
+        "guia": "RCDB",
+        "url": "https://rcdb.com/4790.htm"
+      },
+      {
+        "guia": "RCDB",
+        "url": "https://rcdb.com/16327.htm"
+      },
+      {
+        "guia": "Parc Attraction Loisirs (cómo ir al Parc Astérix)",
+        "url": "https://www.parc-attraction-loisirs.fr/le-parc-asterix/aller-parc-asterix-navette/"
+      },
+      {
+        "guia": "Ooparc (horarios del Parc Astérix)",
+        "url": "https://www.ooparc.com/fr/189-Parc_Asterix/Infos/Horaires/"
+      }
+    ],
+    "adrenalina_cerca": [],
+    "investigado_en": "2026-10-27"
+  },
+  {
+    "id": "fr-saint-emilion",
+    "nombre": "Saint-Émilion",
+    "pais_iso": "FR",
+    "pais": "Francia",
+    "region": "Nueva Aquitania (Gironda)",
+    "lat": 44.8936,
+    "lng": -0.1553,
+    "categorias": [
+      "cultura",
+      "gastronomia"
+    ],
+    "puntajes": {
+      "guias": 3,
+      "cultura": 4,
+      "naturaleza": 2,
+      "gastronomia": 5,
+      "adrenalina": 1,
+      "logistica": 4
+    },
+    "global": 4.1,
+    "nivel": "imprescindible",
+    "mejor_epoca": [
+      5,
+      6,
+      9,
+      10
+    ],
+    "dias_sugeridos": 1,
+    "costo": "$$$",
+    "acceso": "Tren regional desde Burdeos (aprox. 35 min) y unos 15 min a pie hasta el pueblo; los châteaux se visitan con reserva previa.",
+    "alerta": null,
+    "platos": [
+      "Saint-Émilion Grand Cru (merlot y cabernet franc)",
+      "Macarons de Saint-Émilion",
+      "Lamproie à la bordelaise"
+    ],
+    "por_que": "Un pueblo medieval con una iglesia monolítica excavada en la roca y murallas, en medio de un paisaje vitícola del siglo XII que es Patrimonio Mundial. Muchos Grands Crus Classés reciben visitas, y se puede caminar o pedalear entre viñedos hasta Pomerol. Está a 34 minutos en tren de Burdeos, y los macarons son la especialidad local.",
+    "fuentes": [
+      {
+        "guia": "Lonely Planet",
+        "url": "https://www.lonelyplanet.com/france/st-emilion/top-things-to-do"
+      },
+      {
+        "guia": "Lonely Planet",
+        "url": "https://www.lonelyplanet.com/articles/best-day-trips-from-bordeaux"
+      },
+      {
+        "guia": "Lonely Planet",
+        "url": "https://www.lonelyplanet.com/articles/best-wine-regions-in-france"
+      },
+      {
+        "guia": "Bordeaux.com (CIVB, interprofesión)",
+        "url": "https://www.bordeaux.com/en/designations/saint-emilion-pomerol-fronsac/"
+      },
+      {
+        "guia": "Bordeaux.com (CIVB, interprofesión)",
+        "url": "https://www.bordeaux.com/en/mag/blog/a-car-free-escape-through-bordeaux-s-vineyards/"
+      },
+      {
+        "guia": "Saint-Émilion Tourisme (turismo oficial)",
+        "url": "https://www.saint-emilion-tourisme.com/en/viticole/fiche/1359?fromP=50"
+      },
+      {
+        "guia": "UNESCO",
+        "url": "https://whc.unesco.org/en/list/932/"
+      }
+    ],
+    "adrenalina_cerca": [],
+    "investigado_en": "2026-10-27"
+  },
+  {
+    "id": "fr-cognac",
+    "nombre": "Cognac",
+    "pais_iso": "FR",
+    "pais": "Francia",
+    "region": "Nueva Aquitania (Charente)",
+    "lat": 45.6956,
+    "lng": -0.3289,
+    "categorias": [
+      "gastronomia",
+      "ciudad"
+    ],
+    "puntajes": {
+      "guias": 4,
+      "cultura": 2,
+      "naturaleza": 2,
+      "gastronomia": 4,
+      "adrenalina": 1,
+      "logistica": 4
+    },
+    "global": 4,
+    "nivel": "imprescindible",
+    "mejor_epoca": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "dias_sugeridos": 2,
+    "costo": "$$",
+    "acceso": "Tren regional desde Angulema (aprox. 50 min); las casas de coñac están en el centro y se visitan con reserva.",
+    "alerta": null,
+    "platos": [
+      "Coñac",
+      "Pineau des Charentes",
+      "Mejillones con pineau",
+      "Galette charentaise"
+    ],
+    "por_que": "La capital del aguardiente más famoso de Francia tiene sus casas a orillas del Charente. Hennessy enseña bodegas y tonelería con cruce del río en barco, Rémy Martin su casa histórica y sus viñedos de Grande Champagne, y abren también Martell, Camus y otras. En la ciudad nació Francisco I, en el castillo de los Valois.",
+    "fuentes": [
+      {
+        "guia": "Lonely Planet",
+        "url": "https://www.lonelyplanet.com/articles/a-first-time-guide-to-cognac-france"
+      },
+      {
+        "guia": "Fodor's",
+        "url": "https://www.fodors.com/world/europe/france/experiences/news/discover-frances-cognac-region-history-culture-and-spirits"
+      },
+      {
+        "guia": "Frommer's",
+        "url": "https://www.frommers.com/destinations/cognac/things-to-do/"
+      },
+      {
+        "guia": "Cognac Tourisme (turismo oficial)",
+        "url": "https://www.destination-cognac.com/en/wine-tourism/cognac/visits-to-trading-houses-distilleries-and-vineyards/"
+      },
+      {
+        "guia": "Cognac Tourisme (turismo oficial)",
+        "url": "https://www.destination-cognac.com/en/wine-tourism/cognac/degustation/"
+      }
+    ],
+    "adrenalina_cerca": [],
+    "investigado_en": "2026-10-27"
+  },
+  {
+    "id": "fr-chateauneuf-du-pape",
+    "nombre": "Châteauneuf-du-Pape",
+    "pais_iso": "FR",
+    "pais": "Francia",
+    "region": "Provenza-Alpes-Costa Azul (Vaucluse)",
+    "lat": 44.0563,
+    "lng": 4.8327,
+    "categorias": [
+      "gastronomia"
+    ],
+    "puntajes": {
+      "guias": 4,
+      "cultura": 2,
+      "naturaleza": 2,
+      "gastronomia": 4,
+      "adrenalina": 3,
+      "logistica": 3
+    },
+    "global": 3.9,
+    "nivel": "muy_recomendado",
+    "mejor_epoca": [
+      5,
+      6,
+      9,
+      10
+    ],
+    "dias_sugeridos": 1,
+    "costo": "$$",
+    "acceso": "A unos 20 km de Aviñón: coche, bici o bus regional poco frecuente; bodegas con cata, algunas con reserva.",
+    "alerta": null,
+    "platos": [
+      "Châteauneuf-du-Pape tinto (garnacha, syrah, mourvèdre)",
+      "Châteauneuf-du-Pape blanco",
+      "Daube provenzal"
+    ],
+    "por_que": "Es el cru más célebre del sur del Ródano: tintos de garnacha, syrah y mourvèdre de viñedos sobre cantos rodados, a 15 km de Aviñón. Se catan en la vinoteca de la denominación, en la Maison des Vins Vinadea, con más de 200 referencias, y en bodegas con reserva. Se puede caminar entre viñedos hasta las ruinas del castillo de los papas, con el Mont Ventoux al fondo.",
+    "fuentes": [
+      {
+        "guia": "Fodor's",
+        "url": "https://www.fodors.com/world/europe/france/provence/places/the-vaucluse/chateauneuf-du-pape"
+      },
+      {
+        "guia": "Fodor's",
+        "url": "https://www.fodors.com/world/europe/france/provence/places/the-vaucluse/chateauneuf-du-pape/things-to-do/sights"
+      },
+      {
+        "guia": "Frommer's",
+        "url": "https://www.frommers.com/destinations/chateauneuf-du-pape/"
+      },
+      {
+        "guia": "Lonely Planet",
+        "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-avignon"
+      },
+      {
+        "guia": "AOC Châteauneuf-du-Pape (federación de productores)",
+        "url": "https://en.chateauneuf.com/wine-cellar-visit-tasting-chateauneuf-du-pape/"
+      },
+      {
+        "guia": "AOC Châteauneuf-du-Pape (federación de productores)",
+        "url": "https://en.chateauneuf.com/oenotourisme/vinadea-maison-des-vins-de-chateauneuf-du-pape/"
+      },
+      {
+        "guia": "Oficina de turismo de Châteauneuf-du-Pape",
+        "url": "https://www.chateauneuf-du-pape-tourisme.fr/en/listing/ch%C3%A2teauneuf-du-pape"
+      }
+    ],
+    "adrenalina_cerca": [
+      {
+        "nombre": "Parc Spirou Provence",
+        "tipo": "parque_diversiones",
+        "km": 14,
+        "lat": 44.027,
+        "lng": 4.997,
+        "temporada": "abr–nov",
+        "url": "https://rcdb.com/15273.htm"
+      }
+    ],
+    "investigado_en": "2026-10-27"
+  },
+  {
+    "id": "fr-circo-de-gavarnie",
+    "nombre": "Circo de Gavarnie (Pirineos-Monte Perdido)",
+    "pais_iso": "FR",
+    "pais": "Francia",
+    "region": "Occitania (Altos Pirineos)",
+    "lat": 42.7331,
+    "lng": -0.0097,
+    "categorias": [
+      "naturaleza"
+    ],
+    "puntajes": {
+      "guias": 3,
+      "cultura": 2,
+      "naturaleza": 5,
+      "gastronomia": 2,
+      "adrenalina": 1,
+      "logistica": 3
+    },
+    "global": 3.9,
+    "nivel": "muy_recomendado",
+    "mejor_epoca": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "dias_sugeridos": 1,
+    "costo": "$$",
+    "acceso": "Coche o bus regional desde Lourdes (aprox. 1 h 15); desde el pueblo, unos 90 min a pie hasta el pie del circo.",
+    "alerta": "Riesgo de avalanchas y caída de hielo en el circo en invierno y primavera.",
+    "platos": [
+      "Mouton Barèges-Gavarnie AOP",
+      "Garbure",
+      "Gâteau à la broche"
+    ],
+    "por_que": "Es el circo glaciar al que Victor Hugo llamó el Coliseo de la naturaleza, con una de las cascadas más altas de Europa, dentro del sitio UNESCO Pirineos-Monte Perdido. Desde el pueblo, una caminata de unas 3 horas ida y vuelta lleva hasta el pie de la Gran Cascada. En las posadas del valle se sirve cordero Barèges-Gavarnie AOP.",
+    "fuentes": [
+      {
+        "guia": "Fodor's",
+        "url": "https://www.fodors.com/world/europe/france/the-basque-country-gascony-and-hautes-pyrenees/things-to-do/sights/reviews/cirque-de-gavarnie-448644"
+      },
+      {
+        "guia": "Fodor's",
+        "url": "https://www.fodors.com/world/europe/france/the-basque-country-gascony-and-hautes-pyrenees/places/gavarnie"
+      },
+      {
+        "guia": "Lonely Planet",
+        "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-the-french-pyrenees"
+      },
+      {
+        "guia": "Lonely Planet",
+        "url": "https://www.lonelyplanet.com/articles/best-hikes-in-french-pyrenees"
+      },
+      {
+        "guia": "Visit Occitanie (oficial, Cirque de Gavarnie)",
+        "url": "https://www.visit-occitanie.com/en/discovering/unesco-classified-sites/cirque-de-gavarnie"
+      },
+      {
+        "guia": "Parc national des Pyrénées (oficial)",
+        "url": "https://www.pyrenees-parcnational.fr/sites/pyrenees-parcnational.fr/files/available_docs/pyrenees-mont-perdu-unesco-fr.pdf"
+      }
+    ],
+    "adrenalina_cerca": [],
+    "investigado_en": "2026-10-27"
+  },
+  {
+    "id": "fr-grotte-chauvet",
+    "nombre": "Cueva Chauvet-Pont d'Arc (réplica Chauvet 2)",
+    "pais_iso": "FR",
+    "pais": "Francia",
+    "region": "Auvernia-Ródano-Alpes (Ardèche)",
+    "lat": 44.392,
+    "lng": 4.414,
+    "categorias": [
+      "cultura",
+      "naturaleza"
+    ],
+    "puntajes": {
+      "guias": 4,
+      "cultura": 4,
+      "naturaleza": 4,
+      "gastronomia": 2,
+      "adrenalina": 1,
+      "logistica": 3
+    },
+    "global": 3.9,
+    "nivel": "muy_recomendado",
+    "mejor_epoca": [
+      4,
+      5,
+      6,
+      9,
+      10
+    ],
+    "dias_sugeridos": 1,
+    "costo": "$$",
+    "acceso": "En coche, a 8 km de Vallon-Pont-d'Arc (salida Montélimar-Sud de la A7); visita a la réplica con entrada horaria, mejor reservada; sin coche, bus desde Montélimar o Valence y taxi.",
+    "alerta": null,
+    "platos": [
+      "Crème de marrons del Ardèche",
+      "Picodon",
+      "Caillette ardéchoise"
+    ],
+    "por_que": "La cueva guarda los dibujos figurativos más antiguos y mejor conservados que se conocen, de hace 30 000 a 32 000 años. La original está cerrada, pero su réplica fiel, Chauvet 2, se visita junto a Vallon-Pont-d'Arc. A pocos kilómetros, el arco natural del Pont d'Arc abre las Gorges de l'Ardèche, que se bajan en canoa en uno o dos días.",
+    "fuentes": [
+      {
+        "guia": "Frommer's",
+        "url": "https://www.frommers.com/destinations/the-ardeche/attractions/grotte-chauvet-pont-darc/"
+      },
+      {
+        "guia": "Fodor's",
+        "url": "https://www.fodors.com/world/europe/france/lyon-and-the-alps/experiences/news/5-must-visit-spots-in-the-ardeche-11142"
+      },
+      {
+        "guia": "National Geographic",
+        "url": "https://www.nationalgeographic.com/travel/article/frances-faux-cave-art"
+      },
+      {
+        "guia": "UNESCO",
+        "url": "https://whc.unesco.org/en/list/1426/"
+      },
+      {
+        "guia": "Generation Voyage (visitar la Grotte Chauvet)",
+        "url": "https://generationvoyage.fr/visiter-grotte-chauvet-ardeche/"
+      },
+      {
+        "guia": "FCDO Reino Unido",
+        "url": "https://www.gov.uk/foreign-travel-advice/france/print"
+      },
+      {
+        "guia": "Office de tourisme Pont d'Arc-Ardèche (oficial)",
+        "url": "https://en.gorges-ardeche-pontdarc.fr/discovery/the-must-sees/the-ardeche-gorges/"
+      }
+    ],
+    "adrenalina_cerca": [],
+    "investigado_en": "2026-10-27"
+  },
+  {
+    "id": "fr-parque-nacional-ecrins",
+    "nombre": "Parque Nacional de los Écrins (Vallouise-Ailefroide)",
+    "pais_iso": "FR",
+    "pais": "Francia",
+    "region": "Provenza-Alpes-Costa Azul (Altos Alpes)",
+    "lat": 44.8847,
+    "lng": 6.4436,
+    "categorias": [
+      "naturaleza"
+    ],
+    "puntajes": {
+      "guias": 3,
+      "cultura": 1,
+      "naturaleza": 5,
+      "gastronomia": 1,
+      "adrenalina": 2,
+      "logistica": 3
+    },
+    "global": 3.9,
+    "nivel": "muy_recomendado",
+    "mejor_epoca": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "dias_sugeridos": 2,
+    "costo": "$$",
+    "acceso": "Tren a L'Argentière-les-Écrins y bus de verano o coche a Vallouise-Ailefroide; la carretera alta hacia Ailefroide cierra en invierno.",
+    "alerta": "Alta montaña: tormentas de verano y caída de piedras en los accesos a los refugios.",
+    "platos": [
+      "Tourtons",
+      "Oreilles d'âne"
+    ],
+    "por_que": "Un macizo de alta montaña coronado por la Barre des Écrins (4102 m), con glaciares y valles salvajes. Desde Ailefroide y el Pré de Madame Carle, en la Vallouise, se sube al refugio del Glacier Blanc o al de los Bans. Ailefroide es además un sitio de escalada reconocido.",
+    "fuentes": [
+      {
+        "guia": "Lonely Planet",
+        "url": "https://www.lonelyplanet.com/articles/best-national-parks-france"
+      },
+      {
+        "guia": "Lonely Planet",
+        "url": "https://www.lonelyplanet.com/france/dauphine/attractions/parc-national-des-ecrins/a/poi-sig/1598285/1323166"
+      },
+      {
+        "guia": "Rough Guides",
+        "url": "https://www.roughguides.com/france/things-to-do-hautes-alpes/"
+      },
+      {
+        "guia": "Parc national des Écrins (oficial)",
+        "url": "https://www.ecrins-parcnational.fr/sites/ecrins-parcnational.com/files/fiche_doc/10546/freq2001vall.pdf"
+      },
+      {
+        "guia": "Sentiers en France (ficha Rando Écrins)",
+        "url": "https://www.sentiers-en-france.eu/sentiers-hautes-alpes-05/vallouise/sentier-le-refuge-des-bans"
+      }
+    ],
+    "adrenalina_cerca": [
+      {
+        "nombre": "Les 3 Vallées (Méribel)",
+        "tipo": "esqui",
+        "km": 58,
+        "lat": 45.3967,
+        "lng": 6.5656,
+        "temporada": "dic–abr",
+        "url": "https://www.remontees-mecaniques.net/bdd/station-meribel-8.html"
+      }
+    ],
+    "investigado_en": "2026-10-27"
+  },
+  {
+    "id": "fr-port-cros-porquerolles",
+    "nombre": "Parque Nacional de Port-Cros y Porquerolles (islas de Hyères)",
+    "pais_iso": "FR",
+    "pais": "Francia",
+    "region": "Provenza-Alpes-Costa Azul (Var)",
+    "lat": 43.0069,
+    "lng": 6.3897,
+    "categorias": [
+      "naturaleza",
+      "playa"
+    ],
+    "puntajes": {
+      "guias": 4,
+      "cultura": 1,
+      "naturaleza": 4,
+      "gastronomia": 2,
+      "adrenalina": 1,
+      "logistica": 3
+    },
+    "global": 3.9,
+    "nivel": "muy_recomendado",
+    "mejor_epoca": [
+      5,
+      6,
+      9,
+      10
+    ],
+    "dias_sugeridos": 2,
+    "costo": "$$$",
+    "acceso": "Barco desde La Tour Fondue en Hyères (unos 25 min a Porquerolles, todo el año) o desde Le Lavandou; en julio y agosto hay cupo diario de visitantes y conviene reservar.",
+    "alerta": "Cupo diario de visitantes en verano; agua potable escasa; zonas cerradas en días de riesgo de incendio.",
+    "platos": [
+      "Rosado Côtes de Provence de Porquerolles",
+      "Bouillabaisse"
+    ],
+    "por_que": "Un parque nacional marino frente a Hyères, con islas sin coches, calas, pinares y praderas de posidonia. En la playa de la Palud, en Port-Cros, está el primer sendero submarino de Francia (1979), con boyas que explican lo que se ve con snorkel. Porquerolles se recorre en bici y tiene bodegas de Côtes de Provence.",
+    "fuentes": [
+      {
+        "guia": "Lonely Planet",
+        "url": "https://lonelyplanet.com/france/ile-de-port-cros/attractions/parc-national-de-port-cros/a/poi-sig/1188637/1323111"
+      },
+      {
+        "guia": "Lonely Planet",
+        "url": "https://www.lonelyplanet.com/articles/weekend-itinerary-hyeres-france"
+      },
+      {
+        "guia": "Fodor's",
+        "url": "https://www.fodors.com/world/europe/france/provence/places/aix-marseille-and-the-central-coast/iles-dhyeres"
+      },
+      {
+        "guia": "Frommer's",
+        "url": "https://www.frommers.com/destinations/iles-dhyeres/"
+      },
+      {
+        "guia": "Office de Tourisme Le Lavandou (Porquerolles)",
+        "url": "https://www.ot-lelavandou.fr/en/destination/incontournables/porquerolles/"
+      },
+      {
+        "guia": "L'Écho touristique (cupo de Porquerolles)",
+        "url": "https://www.lechotouristique.com/article/quota-la-frequentation-de-porquerolles-encore-limitee-cet-ete"
+      },
+      {
+        "guia": "Parc national de Port-Cros (oficial)",
+        "url": "https://www.portcros-parcnational.fr/sites/portcros-parcnational.fr/files/available_docs/sentier_sousmarin_palud_fr.pdf"
+      },
+      {
+        "guia": "Parc national de Port-Cros (oficial)",
+        "url": "https://portcros-parcnational.fr/sites/portcros-parcnational.fr/files/2024-07/EXE_sentiers%20soumarin%202024%20basse%20def%20calameo.pdf"
+      }
+    ],
+    "adrenalina_cerca": [],
+    "investigado_en": "2026-10-27"
+  },
+  {
+    "id": "fr-albi",
+    "nombre": "Albi (ciudad episcopal)",
+    "pais_iso": "FR",
+    "pais": "Francia",
+    "region": "Occitania (Tarn)",
+    "lat": 43.9286,
+    "lng": 2.143,
+    "categorias": [
+      "cultura",
+      "ciudad"
+    ],
+    "puntajes": {
+      "guias": 3,
+      "cultura": 4,
+      "naturaleza": 1,
+      "gastronomia": 2,
+      "adrenalina": 1,
+      "logistica": 5
+    },
+    "global": 3.8,
+    "nivel": "muy_recomendado",
+    "mejor_epoca": [
+      4,
+      5,
+      6,
+      9,
+      10
+    ],
+    "dias_sugeridos": 1,
+    "costo": "$$",
+    "acceso": "Tren regional desde Toulouse (aprox. 1 h 05); la estación Albi-Ville está a unos 15 min a pie del casco episcopal.",
+    "alerta": null,
+    "platos": [
+      "Vinos de Gaillac",
+      "Croquants de Cordes",
+      "Cassoulet"
+    ],
+    "por_que": "Ciudad episcopal de ladrillo rojo, Patrimonio Mundial, presidida por Santa Cecilia, una catedral-fortaleza del gótico meridional con un enorme Juicio Final pintado. Al lado, el palacio de la Berbie alberga el Museo Toulouse-Lautrec. Los viñedos de Gaillac, uno de los más antiguos de Francia, quedan a unos 25 km.",
+    "fuentes": [
+      {
+        "guia": "Rick Steves",
+        "url": "https://blog.ricksteves.com/cameron/2015/06/amazing-albi"
+      },
+      {
+        "guia": "Fodor's",
+        "url": "https://www.fodors.com/world/europe/france/the-midi-pyrenees-and-languedoc-roussillon/things-to-do/sights?pois=639745"
+      },
+      {
+        "guia": "UNESCO",
+        "url": "https://whc.unesco.org/en/list/1337/"
+      },
+      {
+        "guia": "Albi Tourisme (oficial)",
+        "url": "https://www.albi-tourisme.fr/en/?p=12270"
+      },
+      {
+        "guia": "Tourisme Occitanie (oficial)",
+        "url": "https://www.tourisme-occitanie.com/destinations/incontournables/albi/albi-la-rouge-cite-episcopale-classee-unesco/"
+      }
+    ],
+    "adrenalina_cerca": [],
+    "investigado_en": "2026-10-27"
+  },
+  {
+    "id": "fr-amiens",
+    "nombre": "Amiens (catedral)",
+    "pais_iso": "FR",
+    "pais": "Francia",
+    "region": "Altos de Francia (Somme)",
+    "lat": 49.8947,
+    "lng": 2.3022,
+    "categorias": [
+      "cultura",
+      "ciudad"
+    ],
+    "puntajes": {
+      "guias": 3,
+      "cultura": 4,
+      "naturaleza": 2,
+      "gastronomia": 2,
+      "adrenalina": 1,
+      "logistica": 5
+    },
+    "global": 3.8,
+    "nivel": "muy_recomendado",
+    "mejor_epoca": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      12
+    ],
+    "dias_sugeridos": 1,
+    "costo": "$$",
+    "acceso": "Tren regional directo desde Paris-Nord (algo más de 1 h, aprox. cada hora); la catedral está a unos 10 min a pie de la estación.",
+    "alerta": null,
+    "platos": [
+      "Ficelle picarde",
+      "Macarons d'Amiens",
+      "Pâté de canard d'Amiens"
+    ],
+    "por_que": "Su catedral, levantada casi entera entre 1220 y 1288, es una de las mayores iglesias góticas del mundo y tiene una fachada esculpida excepcional. Junto al centro, los hortillonnages, unas 300 ha de huertas flotantes entre canales del Somme, se recorren en barca. Suma la casa de Julio Verne y los macarons de Amiens.",
+    "fuentes": [
+      {
+        "guia": "Lonely Planet",
+        "url": "https://lonelyplanet.com/france/northern-france/amiens/attractions/cathedrale-notre-dame/a/poi-sig/1233600/359275"
+      },
+      {
+        "guia": "Frommer's",
+        "url": "https://www.frommers.com/destinations/amiens/attractions/cathdrale-notre-dame-damiens/"
+      },
+      {
+        "guia": "UNESCO",
+        "url": "https://whc.unesco.org/en/list/162/"
+      },
+      {
+        "guia": "SNCF Connect (trenes a Amiens)",
+        "url": "https://www.sncf-connect.com/train/france/hauts-de-france/amiens"
+      }
+    ],
+    "adrenalina_cerca": [],
+    "investigado_en": "2026-10-27"
+  },
+  {
+    "id": "fr-chartres",
+    "nombre": "Chartres",
+    "pais_iso": "FR",
+    "pais": "Francia",
+    "region": "Centro-Valle de Loira",
+    "lat": 48.4469,
+    "lng": 1.4892,
+    "categorias": [
+      "cultura",
+      "ciudad"
+    ],
+    "puntajes": {
+      "guias": 2,
+      "cultura": 5,
+      "naturaleza": 1,
+      "gastronomia": 2,
+      "adrenalina": 1,
+      "logistica": 5
+    },
+    "global": 3.8,
+    "nivel": "muy_recomendado",
+    "mejor_epoca": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "dias_sugeridos": 1,
+    "costo": "$$",
+    "acceso": "Tren directo desde Paris-Montparnasse, aprox. 1 h 10; la catedral queda a 10 min a pie de la estación.",
+    "alerta": null,
+    "platos": [
+      "Pâté de Chartres",
+      "Mentchikoff (bombón local)"
+    ],
+    "por_que": "Su catedral gótica conserva el conjunto de vidrieras y escultura de los siglos XII y XIII mejor preservado que existe, y su planta sirvió de modelo a Reims y Amiens. Queda a una hora en tren de París, así que es una excursión fácil. El pâté de Chartres en hojaldre es la especialidad local.",
+    "fuentes": [
+      {
+        "guia": "Lonely Planet",
+        "url": "https://www.lonelyplanet.com/articles/the-best-day-trips-from-paris"
+      },
+      {
+        "guia": "UNESCO",
+        "url": "https://whc.unesco.org/en/list/81/"
+      }
+    ],
+    "adrenalina_cerca": [],
+    "investigado_en": "2026-10-27"
+  },
+  {
+    "id": "fr-dijon",
+    "nombre": "Dijon",
+    "pais_iso": "FR",
+    "pais": "Francia",
+    "region": "Borgoña-Franco Condado",
+    "lat": 47.322,
+    "lng": 5.0415,
+    "categorias": [
+      "cultura",
+      "gastronomia",
+      "ciudad"
+    ],
+    "puntajes": {
+      "guias": 3,
+      "cultura": 4,
+      "naturaleza": 1,
+      "gastronomia": 4,
+      "adrenalina": 1,
+      "logistica": 5
+    },
+    "global": 3.8,
+    "nivel": "muy_recomendado",
+    "mejor_epoca": [
+      5,
+      6,
+      9,
+      10
+    ],
+    "dias_sugeridos": 2,
+    "costo": "$$",
+    "acceso": "TGV directo desde Paris-Gare de Lyon (aprox. 1 h 35); centro peatonal y tranvía.",
+    "alerta": null,
+    "platos": [
+      "Mostaza de Dijon",
+      "Jambon persillé",
+      "Kir (crème de cassis y aligoté)",
+      "Pain d'épices"
+    ],
+    "por_que": "La antigua capital de los duques de Borgoña tiene el Palacio de los Duques, con las tumbas ducales en el Museo de Bellas Artes, y un centro que forma parte del bien UNESCO de los climats. Desde 2022 acoge la Cité internationale de la gastronomie et du vin, en el antiguo hospital. Aquí empieza la Route des Grands Crus, y es la cuna de la mostaza y del kir.",
+    "fuentes": [
+      {
+        "guia": "National Geographic",
+        "url": "https://www.nationalgeographic.com/travel/article/overtourism-paris-underrated-cities-to-visit-france"
+      },
+      {
+        "guia": "Lonely Planet",
+        "url": "https://www.lonelyplanet.com/articles/best-regions-in-france"
+      },
+      {
+        "guia": "France.fr (turismo oficial, prensa)",
+        "url": "https://us.media.france.fr/en/node/8972"
+      },
+      {
+        "guia": "Banque des Territoires",
+        "url": "https://www.banquedesterritoires.fr/la-cite-internationale-de-la-gastronomie-et-du-vin-de-dijon-ouvre-le-6-mai-2022"
+      },
+      {
+        "guia": "Bourgogne Wines (BIVB, interprofesión)",
+        "url": "https://www.bourgogne-wines.com/trips-to-the-bourgogne-region/la-grande-route-des-vins-old/la-route-touristique-des-grands-vins/la-route-touristique-des-grands-vins-explore-and-discover-over-100km-of-picturesque-trails,2564,9639.html"
+      },
+      {
+        "guia": "UNESCO",
+        "url": "https://whc.unesco.org/en/list/1425/"
+      }
+    ],
+    "adrenalina_cerca": [],
+    "investigado_en": "2026-10-27"
+  },
+  {
+    "id": "fr-lille",
+    "nombre": "Lille",
+    "pais_iso": "FR",
+    "pais": "Francia",
+    "region": "Altos de Francia",
+    "lat": 50.6292,
+    "lng": 3.0573,
+    "categorias": [
+      "cultura",
+      "ciudad"
+    ],
+    "puntajes": {
+      "guias": 3,
+      "cultura": 4,
+      "naturaleza": 1,
+      "gastronomia": 2,
+      "adrenalina": 3,
+      "logistica": 5
+    },
+    "global": 3.8,
+    "nivel": "muy_recomendado",
+    "mejor_epoca": [
+      5,
+      6,
+      9,
+      12
+    ],
+    "dias_sugeridos": 2,
+    "costo": "$$",
+    "acceso": "TGV desde París (1 h) y Eurostar desde Londres y Bruselas; metro automático en la ciudad.",
+    "alerta": null,
+    "platos": [
+      "Carbonade flamande",
+      "Potjevleesch",
+      "Welsh",
+      "Gaufre fourrée"
+    ],
+    "por_que": "El Vieux-Lille conserva la arquitectura flamenca, el campanario del ayuntamiento es Patrimonio Mundial y el Palais des Beaux-Arts es uno de los mayores museos de Francia. Se come carbonade, potjevleesch y welsh en estaminets. Está a una hora de París en tren y a 25 km del parque Bellewaerde, en Bélgica.",
+    "fuentes": [
+      {
+        "guia": "National Geographic",
+        "url": "https://www.nationalgeographic.com/travel/article/overtourism-paris-underrated-cities-to-visit-france"
+      },
+      {
+        "guia": "Time Out",
+        "url": "https://www.timeout.com/france/travel/best-french-cities-to-visit"
+      },
+      {
+        "guia": "UNESCO (Campanarios de Bélgica y Francia)",
+        "url": "https://whc.unesco.org/en/list/943/"
+      }
+    ],
+    "adrenalina_cerca": [
+      {
+        "nombre": "Bellewaerde Park",
+        "tipo": "parque_diversiones",
+        "km": 25,
+        "lat": 50.846,
+        "lng": 2.948,
+        "temporada": "abr–nov (por calendario)",
+        "url": "https://rcdb.com/4848.htm"
+      },
+      {
+        "nombre": "Plopsaland De Panne",
+        "tipo": "parque_diversiones",
+        "km": 60,
+        "lat": 51.081,
+        "lng": 2.598,
+        "temporada": "abr–ene (por calendario)",
+        "url": "https://rcdb.com/17725.htm"
+      }
+    ],
+    "investigado_en": "2026-10-27"
+  },
+  {
+    "id": "fr-nancy",
+    "nombre": "Nancy",
+    "pais_iso": "FR",
+    "pais": "Francia",
+    "region": "Gran Este (Lorena)",
+    "lat": 48.6921,
+    "lng": 6.1844,
+    "categorias": [
+      "cultura",
+      "ciudad"
+    ],
+    "puntajes": {
+      "guias": 3,
+      "cultura": 4,
+      "naturaleza": 1,
+      "gastronomia": 3,
+      "adrenalina": 2,
+      "logistica": 5
+    },
+    "global": 3.8,
+    "nivel": "muy_recomendado",
+    "mejor_epoca": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      12
+    ],
+    "dias_sugeridos": 2,
+    "costo": "$$",
+    "acceso": "TGV desde Paris-Est (aprox. 1 h 30); centro peatonal en torno a la plaza Stanislas.",
+    "alerta": null,
+    "platos": [
+      "Quiche lorraine",
+      "Macarons de Nancy",
+      "Bergamotes de Nancy",
+      "Tarte aux mirabelles"
+    ],
+    "por_que": "La Place Stanislas, con las rejas doradas de Jean Lamour, y las plazas de la Carrière y d'Alliance, de 1752 a 1756, son Patrimonio Mundial. Nancy es además la capital del art nouveau francés, con el Museo de la Escuela de Nancy. Los dulces locales son las bergamotes IGP, los macarons y la tarta de mirabel.",
+    "fuentes": [
+      {
+        "guia": "Lonely Planet",
+        "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-france"
+      },
+      {
+        "guia": "Time Out",
+        "url": "https://www.timeout.com/france/travel/best-french-cities-to-visit"
+      },
+      {
+        "guia": "UNESCO",
+        "url": "https://whc.unesco.org/en/list/229/"
+      },
+      {
+        "guia": "TasteAtlas",
+        "url": "https://www.tasteatlas.com/best-rated-dishes-in-lorraine"
+      },
+      {
+        "guia": "France.fr (turismo oficial)",
+        "url": "https://www.france.fr/fr/article/5-specialites-de-lorraine-a-gouter-absolument/"
+      }
+    ],
+    "adrenalina_cerca": [
+      {
+        "nombre": "Walygator Grand Est",
+        "tipo": "parque_diversiones",
+        "km": 60,
+        "lat": 49.229,
+        "lng": 6.147,
+        "temporada": "abr–nov",
+        "url": "https://rcdb.com/4478.htm"
+      }
+    ],
+    "investigado_en": "2026-10-27"
+  },
+  {
+    "id": "fr-niza",
+    "nombre": "Niza y Villefranche-sur-Mer",
+    "pais_iso": "FR",
+    "pais": "Francia",
+    "region": "Provenza-Alpes-Costa Azul (Costa Azul)",
+    "lat": 43.7102,
+    "lng": 7.262,
+    "categorias": [
+      "cultura",
+      "gastronomia",
+      "playa",
+      "ciudad"
+    ],
+    "puntajes": {
+      "guias": 3,
+      "cultura": 4,
+      "naturaleza": 2,
+      "gastronomia": 4,
+      "adrenalina": 3,
+      "logistica": 5
+    },
+    "global": 3.8,
+    "nivel": "muy_recomendado",
+    "mejor_epoca": [
+      4,
+      5,
+      6,
+      9,
+      10
+    ],
+    "dias_sugeridos": 3,
+    "costo": "$$$",
+    "acceso": "Aeropuerto Nice Côte d'Azur unido al centro por el tranvía T2; tren regional costero a Villefranche (unos 7 min), Mónaco y Menton.",
+    "alerta": "Robos en los trenes de la costa y en el aeropuerto de Niza (FCDO).",
+    "platos": [
+      "Socca",
+      "Pissaladière",
+      "Pan bagnat",
+      "Salade niçoise"
+    ],
+    "por_que": "La Promenade des Anglais y los barrios de villas del siglo XIX forman la ciudad de veraneo de la Riviera, Patrimonio Mundial desde 2021, con los museos Matisse y Chagall. Tiene cocina propia, como la socca del Cours Saleya, la pissaladière, el pan bagnat y el viñedo AOC Bellet. Villefranche, a 6 km, tiene la capilla de Cocteau y el sendero litoral de Cap Ferrat.",
+    "fuentes": [
+      {
+        "guia": "Lonely Planet",
+        "url": "https://www.lonelyplanet.com/articles/france-best-itineraries"
+      },
+      {
+        "guia": "Lonely Planet",
+        "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-france"
+      },
+      {
+        "guia": "Rick Steves",
+        "url": "https://www.ricksteves.com/europe/france/itinerary"
+      },
+      {
+        "guia": "Rick Steves",
+        "url": "https://www.ricksteves.com/watch-read-listen/video/tv-show/french-riviera-uniquely-chic"
+      },
+      {
+        "guia": "TasteAtlas",
+        "url": "https://www.tasteatlas.com/best-rated-dishes-in-provence-alpes-cote-dazur"
+      },
+      {
+        "guia": "FCDO Reino Unido (Mónaco)",
+        "url": "https://www.gov.uk/foreign-travel-advice/monaco/safety-and-security"
+      },
+      {
+        "guia": "UNESCO",
+        "url": "https://whc.unesco.org/en/list/1635/"
+      }
+    ],
+    "adrenalina_cerca": [
+      {
+        "nombre": "Canyoning en La Bollène-Vésubie",
+        "tipo": "canyoning",
+        "km": 32,
+        "lat": 43.993,
+        "lng": 7.333,
+        "temporada": "jun–sep",
+        "url": "https://en.experiencecotedazur.com/la-bollene-vesubie/canyoning-adventure-bollene-esteron-valley+camp4-canyoning"
+      },
+      {
+        "nombre": "Vésùbia Mountain Park (canyoning y escalada)",
+        "tipo": "canyoning",
+        "km": 40,
+        "lat": 44.069,
+        "lng": 7.256,
+        "temporada": "todo el año",
+        "url": "https://www.puremontagne.fr/en/to-do/sport/item/canyoning"
+      }
+    ],
+    "investigado_en": "2026-10-27"
+  },
+  {
+    "id": "fr-parque-nacional-mercantour",
+    "nombre": "Parque Nacional del Mercantour y valle de las Maravillas",
+    "pais_iso": "FR",
+    "pais": "Francia",
+    "region": "Provenza-Alpes-Costa Azul (Alpes Marítimos)",
+    "lat": 44.0872,
+    "lng": 7.5939,
+    "categorias": [
+      "naturaleza"
+    ],
+    "puntajes": {
+      "guias": 3,
+      "cultura": 2,
+      "naturaleza": 5,
+      "gastronomia": 1,
+      "adrenalina": 3,
+      "logistica": 2
+    },
+    "global": 3.8,
+    "nivel": "muy_recomendado",
+    "mejor_epoca": [
+      7,
+      8,
+      9
+    ],
+    "dias_sugeridos": 2,
+    "costo": "$$",
+    "acceso": "Coche hasta Casterino o el lago de las Mesches, cerca de Tende; el valle de las Maravillas solo se recorre a pie, con refugios en verano.",
+    "alerta": "Zona de grabados rupestres con normas estrictas (algunos sectores solo con guía) y tormentas de verano en altura.",
+    "platos": [
+      "Tourte de blettes",
+      "Brousse"
+    ],
+    "por_que": "68 500 ha de alta montaña en continuidad con el parque italiano de los Alpi Marittime, con íbices y lagos de altura. En el valle de las Maravillas, al pie del Mont Bégo, hay decenas de miles de grabados rupestres de la Edad del Bronce, a un día de caminata desde el lago de las Mesches. Tras la tormenta Alex de 2020 conviene revisar el estado de los senderos.",
+    "fuentes": [
+      {
+        "guia": "Lonely Planet",
+        "url": "https://www.lonelyplanet.com/articles/best-national-parks-france"
+      },
+      {
+        "guia": "National Geographic",
+        "url": "https://www.nationalgeographic.com/travel/article/mercantour-national-park-unsung-side-french-rivieria"
+      },
+      {
+        "guia": "Parc national du Mercantour (oficial, folleto Merveilles)",
+        "url": "https://www.mercantour-parcnational.fr/sites/mercantour-parcnational.fr/files/2025-07/2025-07-03%20Brochure%20Merveilles%20VD%20light.pdf"
+      },
+      {
+        "guia": "Parc national du Mercantour (oficial, mapa Merveilles 2026)",
+        "url": "https://www.mercantour-parcnational.fr/sites/mercantour-parcnational.fr/files/2026-06/Depliant-cartographie%20Merveilles%202026.pdf"
+      },
+      {
+        "guia": "Côte d'Azur France (turismo oficial)",
+        "url": "https://cotedazurfrance.fr/decouvrir/les-plus-beaux-sites-naturels/le-parc-national-du-mercantour"
+      }
+    ],
+    "adrenalina_cerca": [
+      {
+        "nombre": "Canyoning en La Bollène-Vésubie",
+        "tipo": "canyoning",
+        "km": 23,
+        "lat": 43.993,
+        "lng": 7.333,
+        "temporada": "jun–sep",
+        "url": "https://en.experiencecotedazur.com/la-bollene-vesubie/canyoning-adventure-bollene-esteron-valley+camp4-canyoning"
+      },
+      {
+        "nombre": "Vésùbia Mountain Park (canyoning y escalada)",
+        "tipo": "canyoning",
+        "km": 27,
+        "lat": 44.069,
+        "lng": 7.256,
+        "temporada": "todo el año",
+        "url": "https://www.puremontagne.fr/en/to-do/sport/item/canyoning"
+      }
+    ],
+    "investigado_en": "2026-10-27"
+  },
+  {
+    "id": "fr-toulouse",
+    "nombre": "Toulouse",
+    "pais_iso": "FR",
+    "pais": "Francia",
+    "region": "Occitania (Alto Garona)",
+    "lat": 43.6047,
+    "lng": 1.4442,
+    "categorias": [
+      "cultura",
+      "gastronomia",
+      "ciudad"
+    ],
+    "puntajes": {
+      "guias": 3,
+      "cultura": 4,
+      "naturaleza": 1,
+      "gastronomia": 4,
+      "adrenalina": 1,
+      "logistica": 5
+    },
+    "global": 3.8,
+    "nivel": "muy_recomendado",
+    "mejor_epoca": [
+      4,
+      5,
+      6,
+      9,
+      10
+    ],
+    "dias_sugeridos": 2,
+    "costo": "$$",
+    "acceso": "Aeropuerto de Blagnac con tranvía y lanzadera al centro; TGV desde París (aprox. 4 h 30); metro en la ciudad.",
+    "alerta": null,
+    "platos": [
+      "Saucisse de Toulouse",
+      "Cassoulet",
+      "Violetas de Toulouse",
+      "Vinos de Fronton"
+    ],
+    "por_que": "La basílica de Saint-Sernin es la mayor iglesia románica conservada y está en el Camino de Santiago, y el Canal du Midi llega hasta la ciudad de ladrillo rosa. Se completa con los Jacobinos y el Museo de los Agustinos, ya reabierto. Es la capital de la cocina occitana: cassoulet con saucisse de Toulouse en el mercado Victor Hugo.",
+    "fuentes": [
+      {
+        "guia": "National Geographic",
+        "url": "https://www.nationalgeographic.com/travel/article/overtourism-paris-underrated-cities-to-visit-france"
+      },
+      {
+        "guia": "National Geographic",
+        "url": "https://www.nationalgeographic.com/travel/article/underrated-european-cities-to-visit-this-summer"
+      },
+      {
+        "guia": "Lonely Planet",
+        "url": "https://www.lonelyplanet.com/articles/things-to-do-in-france-autumn-and-winter"
+      },
+      {
+        "guia": "UNESCO (Caminos de Santiago en Francia)",
+        "url": "https://whc.unesco.org/en/list/868/"
+      },
+      {
+        "guia": "UNESCO (Canal du Midi)",
+        "url": "https://whc.unesco.org/en/list/770/"
+      },
+      {
+        "guia": "TasteAtlas",
+        "url": "https://www.tasteatlas.com/best-rated-dishes-in-occitanie"
+      },
+      {
+        "guia": "TasteAtlas",
+        "url": "https://www.tasteatlas.com/best-rated-meat-dishes-in-occitanie"
+      }
+    ],
+    "adrenalina_cerca": [],
+    "investigado_en": "2026-10-27"
+  },
+  {
+    "id": "fr-giverny",
+    "nombre": "Giverny",
+    "pais_iso": "FR",
+    "pais": "Francia",
+    "region": "Normandía",
+    "lat": 49.0753,
+    "lng": 1.5337,
+    "categorias": [
+      "ciudad"
+    ],
+    "puntajes": {
+      "guias": 4,
+      "cultura": 3,
+      "naturaleza": 2,
+      "gastronomia": 1,
+      "adrenalina": 1,
+      "logistica": 4
+    },
+    "global": 3.6,
+    "nivel": "muy_recomendado",
+    "mejor_epoca": [
+      4,
+      5,
+      6,
+      9,
+      10
+    ],
+    "dias_sugeridos": 1,
+    "costo": "$$",
+    "acceso": "Tren desde Paris-Saint-Lazare a Vernon-Giverny (unos 45 min) y lanzadera, bici o 5 km a pie; la casa y los jardines de Monet solo abren de abril a octubre.",
+    "alerta": null,
+    "platos": [
+      "Sidra normanda"
+    ],
+    "por_que": "La casa y los jardines donde Monet pintó de 1883 a 1926: el estanque de nenúfares, el puente japonés y su colección de estampas japonesas. En Vernon, a 5 km, el museo Blanche Hoschedé-Monet completa la visita impresionista. Abre de abril a octubre y es una excursión clásica desde París.",
+    "fuentes": [
+      {
+        "guia": "Rick Steves",
+        "url": "https://www.ricksteves.com/europe/france/itinerary"
+      },
+      {
+        "guia": "Lonely Planet",
+        "url": "https://www.lonelyplanet.com/articles/the-best-day-trips-from-paris"
+      },
+      {
+        "guia": "Time Out",
+        "url": "https://www.timeout.com/france/things-to-do/best-villages-in-france"
+      },
+      {
+        "guia": "Normandie Tourisme (oficial)",
+        "url": "https://en.normandie-tourisme.fr/museums-and-heritage-sites/museum-blanche-hoschede-monet/"
+      }
+    ],
+    "adrenalina_cerca": [],
+    "investigado_en": "2026-10-27"
+  },
+  {
+    "id": "fr-le-puy-en-velay",
+    "nombre": "Le Puy-en-Velay",
+    "pais_iso": "FR",
+    "pais": "Francia",
+    "region": "Auvernia-Ródano-Alpes (Alto Loira)",
+    "lat": 45.0458,
+    "lng": 3.8828,
+    "categorias": [
+      "cultura",
+      "ciudad"
+    ],
+    "puntajes": {
+      "guias": 3,
+      "cultura": 4,
+      "naturaleza": 3,
+      "gastronomia": 3,
+      "adrenalina": 1,
+      "logistica": 4
+    },
+    "global": 3.6,
+    "nivel": "muy_recomendado",
+    "mejor_epoca": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "dias_sugeridos": 2,
+    "costo": "$$",
+    "acceso": "Tren regional directo desde Lyon (aprox. 2 h 20) o vía Saint-Étienne; el casco alto se sube a pie.",
+    "alerta": null,
+    "platos": [
+      "Lentille verte du Puy AOP (petit salé aux lentilles)",
+      "Verveine du Velay",
+      "Saucisse de montagne"
+    ],
+    "por_que": "Una ciudad levantada sobre pitones volcánicos, con una catedral románica de influencia mozárabe y la capilla de Saint-Michel-d'Aiguilhe en lo alto de una aguja de roca. De aquí sale la Via Podiensis, el GR65 del Camino de Santiago, por los montes del Velay. Es la tierra de la lenteja verde du Puy, la primera legumbre con AOC de Francia.",
+    "fuentes": [
+      {
+        "guia": "Frommer's",
+        "url": "https://www.frommers.com/destinations/le-puy-en-velay/things-to-do/"
+      },
+      {
+        "guia": "Lonely Planet",
+        "url": "https://www.lonelyplanet.com/france/le-puy-en-velay/attractions/la-distillerie-de-la-verveine-du-velay/a/poi-sig/1234928/1317035"
+      },
+      {
+        "guia": "UNESCO (catedral de Le Puy, Caminos de Santiago)",
+        "url": "https://whc.unesco.org/en/documents/112803"
+      },
+      {
+        "guia": "UNESCO (Caminos de Santiago en Francia)",
+        "url": "https://whc.unesco.org/en/list/868/"
+      },
+      {
+        "guia": "Omio (trenes TER a Le Puy-en-Velay)",
+        "url": "https://www.omio.fr/trains/le-puy-en-velay-ole4w"
+      },
+      {
+        "guia": "INAO (consejo regulador, pliego Lentille verte du Puy)",
+        "url": "https://extranet.inao.gouv.fr/fichier/PNODULentilleverteduPuy2016.pdf"
+      },
+      {
+        "guia": "Ministerio de Agricultura de Francia (pliego oficial)",
+        "url": "https://info.agriculture.gouv.fr/boagri/document_administratif-3b601fa7-0c84-48e9-b94b-bffff44295fb/telechargement"
+      },
+      {
+        "guia": "FFRandonnée (oficial)",
+        "url": "https://www.ffrandonnee.fr/randonner/sentiers/gr-65-le-chemin-de-compostelle-via-le-puy"
+      },
+      {
+        "guia": "FFRandonnée (oficial)",
+        "url": "https://www.ffrandonnee.fr/s-informer/actualites/sur-le-chemin-vers-saint-jacques-de-compostelle-du-puy-en-velay-a-conques"
+      }
+    ],
+    "adrenalina_cerca": [],
+    "investigado_en": "2026-10-27"
+  },
+  {
+    "id": "fr-bonifacio",
+    "nombre": "Bonifacio",
+    "pais_iso": "FR",
+    "pais": "Francia",
+    "region": "Córcega",
+    "lat": 41.3874,
+    "lng": 9.1595,
+    "categorias": [
+      "naturaleza"
+    ],
+    "puntajes": {
+      "guias": 3,
+      "cultura": 2,
+      "naturaleza": 4,
+      "gastronomia": 3,
+      "adrenalina": 1,
+      "logistica": 3
+    },
+    "global": 3.5,
+    "nivel": "muy_recomendado",
+    "mejor_epoca": [
+      5,
+      6,
+      9,
+      10
+    ],
+    "dias_sugeridos": 2,
+    "costo": "$$$",
+    "acceso": "Aeropuerto de Figari a unos 20 km; ferry a Santa Teresa di Gallura (Cerdeña); barcos a las grutas y acantilados desde el puerto.",
+    "alerta": null,
+    "platos": [
+      "Aubergines à la bonifacienne",
+      "Brocciu",
+      "Charcutería corsa"
+    ],
+    "por_que": "Una ciudadela genovesa sobre acantilados de caliza blanca de unos 70 m en el extremo sur de Córcega, con la escalera del Rey de Aragón tallada en la roca. Lo mejor es verla desde el mar, en barco por las grutas hasta las islas Lavezzi, o a pie hasta el cabo Pertusato. Hay pescado del estrecho y vinos AOC de Figari.",
+    "fuentes": [
+      {
+        "guia": "Lonely Planet",
+        "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-corsica"
+      },
+      {
+        "guia": "Rough Guides",
+        "url": "https://www.roughguides.com/france/things-to-do-corsica/"
+      },
+      {
+        "guia": "TasteAtlas",
+        "url": "https://www.tasteatlas.com/best-rated-dishes-in-corsica"
+      },
+      {
+        "guia": "Visit Corsica (agencia de turismo de Córcega, llegada en barco)",
+        "url": "https://www.visit-corsica.com/de/layout/set/print/Mein-Urlaub-auf-Korsika/Anreise/Per-Schiff"
+      }
+    ],
+    "adrenalina_cerca": [],
+    "investigado_en": "2026-10-27"
+  },
+  {
+    "id": "fr-parque-nacional-vanoise",
+    "nombre": "Parque Nacional de la Vanoise (Pralognan-la-Vanoise)",
+    "pais_iso": "FR",
+    "pais": "Francia",
+    "region": "Auvernia-Ródano-Alpes (Saboya)",
+    "lat": 45.3818,
+    "lng": 6.7208,
+    "categorias": [
+      "naturaleza"
+    ],
+    "puntajes": {
+      "guias": 2,
+      "cultura": 1,
+      "naturaleza": 5,
+      "gastronomia": 2,
+      "adrenalina": 3,
+      "logistica": 3
+    },
+    "global": 3.5,
+    "nivel": "muy_recomendado",
+    "mejor_epoca": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "dias_sugeridos": 3,
+    "costo": "$$",
+    "acceso": "Tren a Moûtiers y bus a Pralognan-la-Vanoise (aprox. 45 min); refugios guardados de mediados de junio a mediados de septiembre.",
+    "alerta": "Alta montaña con tiempo cambiante; normas del parque nacional (sin perros, sin acampada libre fuera de zonas autorizadas).",
+    "platos": [
+      "Beaufort AOP",
+      "Tomme de Savoie",
+      "Crozets"
+    ],
+    "por_que": "El primer parque nacional de Francia (1963), con unos 400 km de senderos, más de 50 refugios, glaciares e íbices. Pralognan es la puerta principal: de allí se sube al refugio del Col de la Vanoise y empieza el Tour des Glaciers de la Vanoise, de varios días. Está en la Tarentaise, tierra del queso Beaufort.",
+    "fuentes": [
+      {
+        "guia": "Lonely Planet",
+        "url": "https://www.lonelyplanet.com/articles/best-national-parks-france"
+      },
+      {
+        "guia": "Lonely Planet",
+        "url": "https://www.lonelyplanet.com/points-of-interest/parc-national-de-la-vanoise/1598287"
+      },
+      {
+        "guia": "Parc national de la Vanoise (oficial, Pralognan)",
+        "url": "https://vanoise-parcnational.fr/sites/vanoise-parcnational.fr/files/documents/downloads/pralognan-la-vanoise.pdf"
+      },
+      {
+        "guia": "Parc national de la Vanoise (oficial, guía 2026)",
+        "url": "https://vanoise-parcnational.fr/sites/vanoise-parcnational.fr/files/2026-06/Guide%20Experiences%20Vanoise%202026.pdf"
+      },
+      {
+        "guia": "Parc national de la Vanoise (oficial)",
+        "url": "https://vanoise-parcnational.fr/sites/vanoise-parcnational.fr/files/2024-06/Tour%20des%20Glaciers%20de%20la%20Vanoise.pdf"
+      }
+    ],
+    "adrenalina_cerca": [
+      {
+        "nombre": "Les 3 Vallées (Courchevel, Méribel, Val Thorens)",
+        "tipo": "esqui",
+        "km": 12,
+        "lat": 45.3967,
+        "lng": 6.5656,
+        "temporada": "dic–abr",
+        "url": "https://www.remontees-mecaniques.net/bdd/station-meribel-8.html"
+      },
+      {
+        "nombre": "Teleférico de la Aiguille du Midi",
+        "tipo": "otro",
+        "km": 57,
+        "lat": 45.8786,
+        "lng": 6.8873,
+        "temporada": "todo el año salvo noviembre",
+        "url": "https://hautesavoiemontblanc-tourisme.com/notre-destination/hautement-blanche/mythique-en-haute-savoie-hiver/aiguille-du-midi-telepherique/"
+      }
+    ],
+    "investigado_en": "2026-10-27"
+  },
+  {
+    "id": "fr-rocamadour",
+    "nombre": "Rocamadour",
+    "pais_iso": "FR",
+    "pais": "Francia",
+    "region": "Occitania (Lot)",
+    "lat": 44.7994,
+    "lng": 1.6178,
+    "categorias": [
+      "cultura"
+    ],
+    "puntajes": {
+      "guias": 3,
+      "cultura": 4,
+      "naturaleza": 2,
+      "gastronomia": 3,
+      "adrenalina": 2,
+      "logistica": 3
+    },
+    "global": 3.5,
+    "nivel": "muy_recomendado",
+    "mejor_epoca": [
+      4,
+      5,
+      6,
+      9,
+      10
+    ],
+    "dias_sugeridos": 1,
+    "costo": "$$",
+    "acceso": "La estación Rocamadour-Padirac queda a unos 4 km (taxi); mejor en coche desde Sarlat (aprox. 1 h); ascensores entre los niveles del pueblo.",
+    "alerta": null,
+    "platos": [
+      "Queso rocamadour AOP",
+      "Foie gras del Quercy",
+      "Vino de Cahors"
+    ],
+    "por_que": "Un santuario mariano colgado de un acantilado sobre el cañón del Alzou, con siete capillas y la Virgen Negra, en el Camino de Santiago. Se puede bajar por el fondo del cañón y recorrer granjas del queso de cabra rocamadour AOP, en el Quercy de la trufa y el foie gras. La canoa del Dordoña queda a unos 36 km.",
+    "fuentes": [
+      {
+        "guia": "Lonely Planet",
+        "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-france"
+      },
+      {
+        "guia": "National Geographic",
+        "url": "https://nationalgeographic.com/travel/destinations/europe/france/dordogne-romance-castles-what-to-do"
+      },
+      {
+        "guia": "UNESCO (Caminos de Santiago en Francia)",
+        "url": "https://whc.unesco.org/en/list/868/"
+      },
+      {
+        "guia": "TasteAtlas",
+        "url": "https://www.tasteatlas.com/best-rated-dishes-in-occitanie"
+      }
+    ],
+    "adrenalina_cerca": [
+      {
+        "nombre": "Canoës Découverte (descenso del Dordoña desde Vézac)",
+        "tipo": "otro",
+        "km": 36,
+        "lat": 44.836,
+        "lng": 1.159,
+        "temporada": "abr–oct",
+        "url": "https://www.lascaux-dordogne.com/en/?p=41395"
+      }
+    ],
+    "investigado_en": "2026-10-27"
+  },
+  {
+    "id": "fr-verdun",
+    "nombre": "Verdún (campos de batalla de la Primera Guerra Mundial)",
+    "pais_iso": "FR",
+    "pais": "Francia",
+    "region": "Gran Este (Lorena)",
+    "lat": 49.1598,
+    "lng": 5.3844,
+    "categorias": [
+      "cultura"
+    ],
+    "puntajes": {
+      "guias": 3,
+      "cultura": 4,
+      "naturaleza": 1,
+      "gastronomia": 1,
+      "adrenalina": 2,
+      "logistica": 3
+    },
+    "global": 3.5,
+    "nivel": "muy_recomendado",
+    "mejor_epoca": [
+      4,
+      5,
+      6,
+      9,
+      10
+    ],
+    "dias_sugeridos": 2,
+    "costo": "$$",
+    "acceso": "TGV a Meuse TGV y bus, o tren regional; los campos de batalla (Douaumont, osario) necesitan coche o tour.",
+    "alerta": "Munición sin explotar en el antiguo frente: no salir de los caminos señalizados.",
+    "platos": [
+      "Dragées de Verdun"
+    ],
+    "por_que": "El campo de batalla de 1916, con el osario de Douaumont, sus necrópolis y el fuerte de Vaux, forma parte de los sitios funerarios de la Primera Guerra Mundial inscritos en 2023. El Memorial de Verdún explica la batalla, y los bosques que cubren el frente se recorren a pie. Rick Steves lo incluye en su tour del este de Francia.",
+    "fuentes": [
+      {
+        "guia": "Rick Steves",
+        "url": "https://www.ricksteves.com/tours/france/eastern-france"
+      },
+      {
+        "guia": "Lonely Planet",
+        "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-france"
+      },
+      {
+        "guia": "UNESCO (decisión 45 COM 8B.52)",
+        "url": "https://whc.unesco.org/en/decisions/8384/"
+      },
+      {
+        "guia": "UNESCO (documento Verdun)",
+        "url": "https://whc.unesco.org/en/documents/201083"
+      }
+    ],
+    "adrenalina_cerca": [
+      {
+        "nombre": "Walygator Grand Est",
+        "tipo": "parque_diversiones",
+        "km": 56,
+        "lat": 49.229,
+        "lng": 6.147,
+        "temporada": "abr–nov",
+        "url": "https://rcdb.com/4478.htm"
+      }
+    ],
+    "investigado_en": "2026-10-27"
+  },
+  {
+    "id": "fr-bourges",
+    "nombre": "Bourges (catedral de San Esteban)",
+    "pais_iso": "FR",
+    "pais": "Francia",
+    "region": "Centro-Valle de Loira (Cher)",
+    "lat": 47.0822,
+    "lng": 2.3994,
+    "categorias": [
+      "cultura",
+      "ciudad"
+    ],
+    "puntajes": {
+      "guias": 2,
+      "cultura": 4,
+      "naturaleza": 1,
+      "gastronomia": 2,
+      "adrenalina": 1,
+      "logistica": 5
+    },
+    "global": 3.4,
+    "nivel": "muy_recomendado",
+    "mejor_epoca": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "dias_sugeridos": 1,
+    "costo": "$$",
+    "acceso": "Tren desde París (unas 2 h) y bus urbano o 20 min a pie hasta la catedral; los marais se recorren a pie o en barca.",
+    "alerta": null,
+    "platos": [
+      "Menetou-Salon (sauvignon blanc)",
+      "Crottin de Chavignol",
+      "Poulet en barbouille"
+    ],
+    "por_que": "La catedral de San Esteban es una obra maestra del gótico, con una planta singular de cinco naves sin crucero y vidrieras de los siglos XIII a XVI. El casco conserva el palacio de Jacques Cœur y casas de entramado, y los marais son huertas junto al Yèvre. Sancerre y el crottin de Chavignol quedan a unos 45 km.",
+    "fuentes": [
+      {
+        "guia": "Frommer's",
+        "url": "https://www.frommers.com/destinations/bourges/"
+      },
+      {
+        "guia": "UNESCO",
+        "url": "https://whc.unesco.org/en/list/635/"
+      },
+      {
+        "guia": "SNCF Connect (escapada a Bourges)",
+        "url": "https://www.sncf-connect.com/article/city-break-bourges-92123"
+      }
+    ],
+    "adrenalina_cerca": [],
+    "investigado_en": "2026-10-27"
+  },
+  {
+    "id": "fr-nimes",
+    "nombre": "Nîmes",
+    "pais_iso": "FR",
+    "pais": "Francia",
+    "region": "Occitania (Gard)",
+    "lat": 43.8367,
+    "lng": 4.3601,
+    "categorias": [
+      "cultura",
+      "ciudad"
+    ],
+    "puntajes": {
+      "guias": 2,
+      "cultura": 4,
+      "naturaleza": 1,
+      "gastronomia": 2,
+      "adrenalina": 2,
+      "logistica": 5
+    },
+    "global": 3.4,
+    "nivel": "muy_recomendado",
+    "mejor_epoca": [
+      4,
+      5,
+      6,
+      9,
+      10
+    ],
+    "dias_sugeridos": 1,
+    "costo": "$$",
+    "acceso": "TGV desde París (aprox. 3 h); las Arenas están a 10 min a pie de la estación.",
+    "alerta": null,
+    "platos": [
+      "Brandade de Nîmes",
+      "Costières de Nîmes",
+      "Croquants Villaret"
+    ],
+    "por_que": "Una de las ciudades con más monumentos romanos en pie fuera de Italia: las Arenas y la Maison Carrée, un templo del siglo I que es Patrimonio Mundial desde 2023. Desde los Jardins de la Fontaine se sube a la Tour Magne, y el Pont du Gard queda a 25 km. Su plato típico es la brandade de bacalao, con vinos Costières de Nîmes.",
+    "fuentes": [
+      {
+        "guia": "Michelin Guide Vert",
+        "url": "https://boutique.laventure.michelin.com/produit/guide-vert-languedoc-ebook"
+      },
+      {
+        "guia": "UNESCO",
+        "url": "https://whc.unesco.org/en/list/1569/"
+      },
+      {
+        "guia": "FCDO Reino Unido (transporte y huelgas en Francia)",
+        "url": "https://www.gov.uk/foreign-travel-advice/france/print"
+      }
+    ],
+    "adrenalina_cerca": [
+      {
+        "nombre": "Parc Spirou Provence",
+        "tipo": "parque_diversiones",
+        "km": 55,
+        "lat": 44.027,
+        "lng": 4.997,
+        "temporada": "abr–nov",
+        "url": "https://rcdb.com/15273.htm"
+      }
+    ],
+    "investigado_en": "2026-10-27"
+  },
+  {
+    "id": "fr-aix-en-provence",
+    "nombre": "Aix-en-Provence",
+    "pais_iso": "FR",
+    "pais": "Francia",
+    "region": "Provenza-Alpes-Costa Azul",
+    "lat": 43.5297,
+    "lng": 5.4474,
+    "categorias": [
+      "ciudad"
+    ],
+    "puntajes": {
+      "guias": 3,
+      "cultura": 3,
+      "naturaleza": 2,
+      "gastronomia": 3,
+      "adrenalina": 3,
+      "logistica": 5
+    },
+    "global": 3.3,
+    "nivel": "muy_recomendado",
+    "mejor_epoca": [
+      4,
+      5,
+      6,
+      9,
+      10
+    ],
+    "dias_sugeridos": 2,
+    "costo": "$$",
+    "acceso": "TGV a Aix-en-Provence TGV y bus lanzadera al centro (unos 15 min), o bus desde Marsella (30-40 min).",
+    "alerta": null,
+    "platos": [
+      "Calissons d'Aix",
+      "Rosado Coteaux d'Aix-en-Provence",
+      "Tapenade",
+      "Ratatouille"
+    ],
+    "por_que": "La ciudad de Cézanne: palacetes del siglo XVII en el barrio Mazarino, el Cours Mirabeau con la Fontaine de la Rotonde y el mercado diario de la place Richelme, con calissons y rosado de las Coteaux d'Aix. Se puede subir a la Croix de Provence, en la montaña Sainte-Victoire que él pintó, a unos 15 km. El Atelier des Lauves cierra por restauración desde el 1 de noviembre de 2026.",
+    "fuentes": [
+      {
+        "guia": "Rough Guides",
+        "url": "https://www.roughguides.com/france/things-to-do/"
+      },
+      {
+        "guia": "Rick Steves",
+        "url": "https://www.ricksteves.com/tours/france/eastern-france"
+      },
+      {
+        "guia": "TasteAtlas",
+        "url": "https://www.tasteatlas.com/best-rated-dishes-in-provence-alpes-cote-dazur"
+      },
+      {
+        "guia": "Provence-Alpes-Côte d'Azur Tourisme (oficial)",
+        "url": "https://provence-alpes-cotedazur.com/en/provence/things-to-do/culture-and-heritage/stroll-aix-en-provence-cezanne/"
+      },
+      {
+        "guia": "Cézanne en Provence (sitios oficiales de Cézanne)",
+        "url": "https://www.cezanne-en-provence.com/les-sites-de-cezanne/atelier-de-cezanne/"
+      }
+    ],
+    "adrenalina_cerca": [
+      {
+        "nombre": "OK Corral (Pioneer, Gold Rush, Serpent Hopi)",
+        "tipo": "parque_diversiones",
+        "km": 37,
+        "lat": 43.279,
+        "lng": 5.742,
+        "temporada": "abr–nov (diario solo jul–ago)",
+        "url": "https://rcdb.com/4861.htm"
+      }
+    ],
+    "investigado_en": "2026-10-27"
+  },
+  {
+    "id": "fr-saint-malo",
+    "nombre": "Saint-Malo",
+    "pais_iso": "FR",
+    "pais": "Francia",
+    "region": "Bretaña",
+    "lat": 48.6493,
+    "lng": -2.0257,
+    "categorias": [
+      "playa",
+      "ciudad"
+    ],
+    "puntajes": {
+      "guias": 3,
+      "cultura": 3,
+      "naturaleza": 3,
+      "gastronomia": 3,
+      "adrenalina": 1,
+      "logistica": 4
+    },
+    "global": 3.2,
+    "nivel": "muy_recomendado",
+    "mejor_epoca": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "dias_sugeridos": 2,
+    "costo": "$$",
+    "acceso": "TGV directo desde Paris-Montparnasse (aprox. 2 h 15); ferris a Inglaterra y a las islas del Canal.",
+    "alerta": "El paso a pie a la isla de Grand-Bé solo es posible con marea baja: consultar la tabla de mareas.",
+    "platos": [
+      "Galette de sarrasin",
+      "Ostras de Cancale",
+      "Poulet au cidre",
+      "Kouign-amann"
+    ],
+    "por_que": "La ciudad corsaria amurallada se recorre por lo alto de las murallas. Con marea baja se cruza a pie a la isla de Grand-Bé, y el GR34 sigue por la Costa Esmeralda hacia la Pointe du Grouin. Las ostras de Cancale están a 14 km, y en la ciudad hay galettes, kouign-amann y sidra.",
+    "fuentes": [
+      {
+        "guia": "Lonely Planet",
+        "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-brittany"
+      },
+      {
+        "guia": "Rough Guides",
+        "url": "https://www.roughguides.com/destinations/europe/france/brittany/eastern-brittany-north-coast/"
+      },
+      {
+        "guia": "TasteAtlas",
+        "url": "https://www.tasteatlas.com/best-rated-chicken-dishes-in-france"
+      },
+      {
+        "guia": "Bretagne Tourisme (oficial)",
+        "url": "https://www.brittanytourism.com/destinations/the-10-destinations/cap-frehel-saint-malo-mont-saint-michel-bay/saint-malo/"
+      }
+    ],
+    "adrenalina_cerca": [],
+    "investigado_en": "2026-10-27"
+  },
+  {
+    "id": "fr-bayeux-playas-desembarco",
+    "nombre": "Bayeux y playas del Desembarco",
+    "pais_iso": "FR",
+    "pais": "Francia",
+    "region": "Normandía",
+    "lat": 49.2764,
+    "lng": -0.7024,
+    "categorias": [
+      "cultura",
+      "ciudad"
+    ],
+    "puntajes": {
+      "guias": 2,
+      "cultura": 4,
+      "naturaleza": 2,
+      "gastronomia": 3,
+      "adrenalina": 1,
+      "logistica": 3
+    },
+    "global": 3.1,
+    "nivel": "muy_recomendado",
+    "mejor_epoca": [
+      4,
+      5,
+      6,
+      9,
+      10
+    ],
+    "dias_sugeridos": 3,
+    "costo": "$$",
+    "acceso": "Tren desde Paris-Saint-Lazare a Bayeux vía Caen, unas 2 h 15; para las playas del Desembarco hace falta coche o tour guiado.",
+    "alerta": null,
+    "platos": [
+      "Camembert de Normandie",
+      "Tripes à la mode de Caen",
+      "Sidra y calvados",
+      "Tarte normande"
+    ],
+    "por_que": "Bayeux tiene una catedral normanda y es la base para recorrer en coche las playas del Desembarco de 1944: Omaha, Arromanches, la Pointe du Hoc y el Cementerio Americano. El tapiz del siglo XI está prestado al British Museum desde el otoño de 2026, hasta que abra el museo nuevo en 2027. Se come cocina normanda de nata y manzana, con camembert, sidra y calvados.",
+    "fuentes": [
+      {
+        "guia": "Rick Steves",
+        "url": "https://www.ricksteves.com/europe/france/itinerary"
+      },
+      {
+        "guia": "TasteAtlas",
+        "url": "https://www.tasteatlas.com/best-rated-dishes-in-lower-normandy"
+      },
+      {
+        "guia": "TasteAtlas",
+        "url": "https://www.tasteatlas.com/best-rated-cheeses-in-normandy"
+      },
+      {
+        "guia": "Normandie Tourisme (oficial)",
+        "url": "https://en.normandie-tourisme.fr/unmissable-sites/bayeux/"
+      },
+      {
+        "guia": "Normandie Tourisme (oficial, tapiz de Bayeux)",
+        "url": "https://en.normandie-tourisme.fr/discover/history/medieval-normandy/sites-to-visit/in-calvados/the-bayeux-tapestry/"
+      }
+    ],
+    "adrenalina_cerca": [],
+    "investigado_en": "2026-10-27"
+  },
+  {
+    "id": "fr-carnac",
+    "nombre": "Carnac (alineamientos megalíticos)",
+    "pais_iso": "FR",
+    "pais": "Francia",
+    "region": "Bretaña",
+    "lat": 47.595,
+    "lng": -3.079,
+    "categorias": [
+      "cultura"
+    ],
+    "puntajes": {
+      "guias": 2,
+      "cultura": 4,
+      "naturaleza": 2,
+      "gastronomia": 2,
+      "adrenalina": 1,
+      "logistica": 3
+    },
+    "global": 3.1,
+    "nivel": "muy_recomendado",
+    "mejor_epoca": [
+      5,
+      6,
+      9
+    ],
+    "dias_sugeridos": 1,
+    "costo": "$$",
+    "acceso": "Tren hasta Auray y bus regional, o coche; los alineamientos se recorren por senderos perimetrales y en verano el interior solo con visita guiada.",
+    "alerta": null,
+    "platos": [
+      "Ostras de Quiberon",
+      "Crêpes y galettes"
+    ],
+    "por_que": "Unos 3000 menhires en tres alineamientos, más dólmenes y túmulos neolíticos, forman el mayor conjunto megalítico del mundo, Patrimonio Mundial desde 2025. A pocos kilómetros, la Côte Sauvage de Quiberon tiene un sendero de unos 10 km sobre los acantilados. Se completa con ostras de la bahía y galettes bretonas.",
+    "fuentes": [
+      {
+        "guia": "Lonely Planet",
+        "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-brittany"
+      },
+      {
+        "guia": "Lonely Planet",
+        "url": "https://www.lonelyplanet.com/articles/best-regions-in-france"
+      },
+      {
+        "guia": "UNESCO",
+        "url": "https://whc.unesco.org/en/list/1725/"
+      }
+    ],
+    "adrenalina_cerca": [],
+    "investigado_en": "2026-10-27"
+  },
+  {
+    "id": "fr-etretat",
+    "nombre": "Étretat",
+    "pais_iso": "FR",
+    "pais": "Francia",
+    "region": "Normandía",
+    "lat": 49.7071,
+    "lng": 0.2056,
+    "categorias": [
+      "naturaleza"
+    ],
+    "puntajes": {
+      "guias": 2,
+      "cultura": 1,
+      "naturaleza": 4,
+      "gastronomia": 2,
+      "adrenalina": 1,
+      "logistica": 3
+    },
+    "global": 3.1,
+    "nivel": "muy_recomendado",
+    "mejor_epoca": [
+      5,
+      6,
+      9,
+      10
+    ],
+    "dias_sugeridos": 1,
+    "costo": "$$",
+    "acceso": "Sin tren: bus desde Le Havre (aprox. 1 h) o coche; aparcamiento escaso y lleno los fines de semana de verano.",
+    "alerta": "Desprendimientos en los acantilados y marea que sube rápido: no caminar al pie de las paredes ni por el borde.",
+    "platos": [
+      "Moules marinières",
+      "Sidra normanda"
+    ],
+    "por_que": "Acantilados de creta de la Côte d'Albâtre con los arcos de la Porte d'Aval y la Manneporte y una aguja de 51 m, los mismos que pintaron Monet y Courbet. Un sendero de unos 5 km recorre lo alto del acantilado de Aval y vuelve por Amont. Es pequeño y se ve en medio día, con mejillones y sidra al final.",
+    "fuentes": [
+      {
+        "guia": "Time Out",
+        "url": "https://www.timeout.com/paris/en/things-to-do/best-day-trips-from-paris"
+      },
+      {
+        "guia": "Ministère de la Transition écologique (lista Grands Sites, 2026)",
+        "url": "https://www.ecologie.gouv.fr/sites/default/files/documents/1er%20janvier%202026-Liste%20OGS-GSF%20Tableau.pdf"
+      },
+      {
+        "guia": "Time Out",
+        "url": "https://www.timeout.com/france/travel/most-beautiful-sights-natural-wonders-france"
+      }
+    ],
+    "adrenalina_cerca": [],
+    "investigado_en": "2026-10-27"
+  },
+  {
+    "id": "fr-luberon",
+    "nombre": "Luberon (Gordes, Ménerbes)",
+    "pais_iso": "FR",
+    "pais": "Francia",
+    "region": "Provenza-Alpes-Costa Azul",
+    "lat": 43.9116,
+    "lng": 5.2003,
+    "categorias": [
+      "naturaleza"
+    ],
+    "puntajes": {
+      "guias": 2,
+      "cultura": 2,
+      "naturaleza": 4,
+      "gastronomia": 3,
+      "adrenalina": 3,
+      "logistica": 3
+    },
+    "global": 3.1,
+    "nivel": "muy_recomendado",
+    "mejor_epoca": [
+      5,
+      6,
+      7,
+      9,
+      10
+    ],
+    "dias_sugeridos": 2,
+    "costo": "$$$",
+    "acceso": "Hace falta coche: Gordes queda a unos 40 min de Aviñón y el bus entre pueblos es escaso; la lavanda florece de finales de junio a julio.",
+    "alerta": "Riesgo de incendio en verano: el acceso a los macizos forestales puede restringirse.",
+    "platos": [
+      "Frutas confitadas de Apt",
+      "Trufa negra (Tuber melanosporum)",
+      "Vinos AOC Luberon",
+      "Tapenade"
+    ],
+    "por_que": "Pueblos encaramados como Gordes y Ménerbes, la abadía cisterciense de Sénanque entre lavandas y las canteras de ocre de Roussillon, que se recorren por el Sentier des Ocres. Los mercados semanales de Lourmarin, Apt o Coustellet venden trufa negra en invierno, aceite y frutas confitadas de Apt. La lavanda florece de finales de junio a julio.",
+    "fuentes": [
+      {
+        "guia": "Time Out",
+        "url": "https://www.timeout.com/france/things-to-do/best-villages-in-france"
+      },
+      {
+        "guia": "TasteAtlas",
+        "url": "https://www.tasteatlas.com/best-rated-dishes-in-provence-alpes-cote-dazur"
+      },
+      {
+        "guia": "Provence-Alpes-Côte d'Azur Tourisme (oficial)",
+        "url": "https://provence-alpes-cotedazur.com/que-faire/itineraires-randonnee/roussillon-ecomusee-village-colore-et-sentier-des-ocres-roussillon-fr-6571326/"
+      },
+      {
+        "guia": "Lonely Planet (Francia)",
+        "url": "https://www.lonelyplanet.fr/article/randonnee-coloree-autour-de-roussillon"
+      }
+    ],
+    "adrenalina_cerca": [
+      {
+        "nombre": "Parc Spirou Provence",
+        "tipo": "parque_diversiones",
+        "km": 21,
+        "lat": 44.027,
+        "lng": 4.997,
+        "temporada": "abr–nov",
+        "url": "https://rcdb.com/15273.htm"
+      }
+    ],
+    "investigado_en": "2026-10-27"
+  },
+  {
+    "id": "fr-parque-nacional-cevenas",
+    "nombre": "Parque Nacional de las Cevenas y monte Lozère (Florac)",
+    "pais_iso": "FR",
+    "pais": "Francia",
+    "region": "Occitania (Lozère)",
+    "lat": 44.3244,
+    "lng": 3.5933,
+    "categorias": [
+      "naturaleza"
+    ],
+    "puntajes": {
+      "guias": 2,
+      "cultura": 3,
+      "naturaleza": 4,
+      "gastronomia": 2,
+      "adrenalina": 3,
+      "logistica": 3
+    },
+    "global": 3.1,
+    "nivel": "muy_recomendado",
+    "mejor_epoca": [
+      5,
+      6,
+      9,
+      10
+    ],
+    "dias_sugeridos": 3,
+    "costo": "$$",
+    "acceso": "Coche casi imprescindible: Florac queda a aprox. 1 h 15 de Mende o Alès y los buses regionales son escasos.",
+    "alerta": "Episodios cevenoles (lluvias torrenciales) en otoño: vigilar las alertas meteorológicas.",
+    "platos": [
+      "Pélardon AOP",
+      "Oignon doux des Cévennes",
+      "Castañas"
+    ],
+    "por_que": "Un parque nacional y reserva de la biosfera con sede en el castillo de Florac, cuyo techo es el Pic de Finiels (1699 m), en el monte Lozère. Su paisaje agropastoral de cañadas, aldeas de piedra y trashumancia aún viva es Patrimonio Mundial, y lo cruza el GR70, el Camino de Stevenson. Las canoas de las gargantas del Tarn quedan a 15 km.",
+    "fuentes": [
+      {
+        "guia": "Lonely Planet",
+        "url": "https://www.lonelyplanet.com/articles/best-national-parks-france"
+      },
+      {
+        "guia": "Visit Occitanie (oficial, Florac)",
+        "url": "https://www.visit-occitanie.com/en/fiche/patrimoine-naturel/le-parc-national-des-cevennes-florac_TFOPNALAR048V507TCT"
+      },
+      {
+        "guia": "Parc national des Cévennes (oficial)",
+        "url": "https://www2.cevennes-parcnational.fr/sites/cevennes-parcnational.fr/files/plaquette_pnc_21x21_fr_bd.pdf"
+      },
+      {
+        "guia": "Tourisme Occitanie (oficial)",
+        "url": "https://www.tourisme-occitanie.com/destinations/sites-unesco/causses-et-cevennes/"
+      },
+      {
+        "guia": "UNESCO",
+        "url": "https://whc.unesco.org/en/list/1153/"
+      }
+    ],
+    "adrenalina_cerca": [
+      {
+        "nombre": "Locanoe (canoa, Sainte-Enimie)",
+        "tipo": "otro",
+        "km": 15,
+        "lat": 44.3653,
+        "lng": 3.4114,
+        "temporada": "abr–sep",
+        "url": "https://www.cevennes-gorges-du-tarn.com/activite/locanoe/"
+      },
+      {
+        "nombre": "Canoë au Moulin de La Malène",
+        "tipo": "otro",
+        "km": 22,
+        "lat": 44.301,
+        "lng": 3.317,
+        "temporada": "abr–sep",
+        "url": "https://www.lozere-tourisme.com/activite/canoe-au-moulin-de-la-malene-paddle-des-gorges-du-tarn/"
+      },
+      {
+        "nombre": "Canoë Le Rozier",
+        "tipo": "otro",
+        "km": 34,
+        "lat": 44.191,
+        "lng": 3.207,
+        "temporada": "abr–sep",
+        "url": "https://www.cevennes-gorges-du-tarn.com/en/activite/canoe-le-rozier/"
+      }
+    ],
+    "investigado_en": "2026-10-27"
+  },
+  {
+    "id": "fr-pointe-du-raz",
+    "nombre": "Pointe du Raz y cabo Sizun",
+    "pais_iso": "FR",
+    "pais": "Francia",
+    "region": "Bretaña (Finisterre)",
+    "lat": 48.0395,
+    "lng": -4.7389,
+    "categorias": [
+      "naturaleza"
+    ],
+    "puntajes": {
+      "guias": 2,
+      "cultura": 1,
+      "naturaleza": 4,
+      "gastronomia": 1,
+      "adrenalina": 1,
+      "logistica": 3
+    },
+    "global": 3.1,
+    "nivel": "muy_recomendado",
+    "mejor_epoca": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "dias_sugeridos": 1,
+    "costo": "$$",
+    "acceso": "En coche desde Quimper (aprox. 1 h), con transporte público limitado; aparcamiento de pago y unos 15 min a pie hasta la punta.",
+    "alerta": "Viento fuerte y bordes de acantilado sin barandilla.",
+    "platos": [
+      "Galette de sarrasin",
+      "Kouign-amann"
+    ],
+    "por_que": "Un cabo de granito en el extremo occidental de Bretaña, Grand Site de France, frente a las corrientes del Raz de Sein y el faro de la Vieille. El GR34 lo une en unos 10 km con la Baie des Trépassés y la Pointe du Van. Se visita mejor fuera de agosto, y con viento es todavía más impresionante.",
+    "fuentes": [
+      {
+        "guia": "Rough Guides",
+        "url": "https://roughguides.com/destinations/europe/france/brittany/finistere"
+      },
+      {
+        "guia": "Ministère de la Transition écologique (Grands Sites de France 2026)",
+        "url": "https://www.ecologie.gouv.fr/sites/default/files/documents/1er%20janvier%202026-Liste%20OGS-GSF%20Tableau.pdf"
+      },
+      {
+        "guia": "FCDO Reino Unido",
+        "url": "https://www.gov.uk/foreign-travel-advice/france/print"
+      },
+      {
+        "guia": "Randozone",
+        "url": "https://www.randozone.com/article/les-grands-sites-de-france/"
+      }
+    ],
+    "adrenalina_cerca": [],
+    "investigado_en": "2026-10-27"
+  },
+  {
+    "id": "fr-vezelay",
+    "nombre": "Vézelay (basílica y colina)",
+    "pais_iso": "FR",
+    "pais": "Francia",
+    "region": "Borgoña-Franco Condado (Yonne)",
+    "lat": 47.4664,
+    "lng": 3.7483,
+    "categorias": [
+      "cultura"
+    ],
+    "puntajes": {
+      "guias": 2,
+      "cultura": 4,
+      "naturaleza": 2,
+      "gastronomia": 2,
+      "adrenalina": 1,
+      "logistica": 3
+    },
+    "global": 3.1,
+    "nivel": "muy_recomendado",
+    "mejor_epoca": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "dias_sugeridos": 1,
+    "costo": "$$",
+    "acceso": "Tren regional hasta Sermizelles-Vézelay (estación sin taquilla, a unos 10 km) y taxi, o coche desde Avallon (15 km).",
+    "alerta": null,
+    "platos": [
+      "Vézelay (chardonnay)",
+      "Œufs en meurette",
+      "Gougères"
+    ],
+    "por_que": "La basílica románica de la Magdalena, con su tímpano esculpido, corona una colina sobre el valle del Cure y es punto de partida de uno de los Caminos de Santiago. Es un gran centro de peregrinación desde el siglo XI. Se puede bajar a pie por el sendero de peregrinos hasta Asquins, entre los viñedos de la AOC Vézelay.",
+    "fuentes": [
+      {
+        "guia": "Lonely Planet",
+        "url": "https://www.lonelyplanet.fr/destinations/france/que-faire/vezelay"
+      },
+      {
+        "guia": "Lonely Planet",
+        "url": "https://media.lonelyplanet.com/shop/pdfs/chateaux-of-the-loire-valley-road-trips-1-burgundy-preview.pdf"
+      },
+      {
+        "guia": "UNESCO",
+        "url": "https://whc.unesco.org/en/list/84/"
+      },
+      {
+        "guia": "TER Bourgogne-Franche-Comté (estación Sermizelles-Vézelay)",
+        "url": "https://www.ter.sncf.com/bourgogne-franche-comte/se-deplacer/gares/sermizelles-vezelay-87683722"
+      }
+    ],
+    "adrenalina_cerca": [],
+    "investigado_en": "2026-10-27"
+  },
+  {
+    "id": "fr-menton",
+    "nombre": "Menton",
+    "pais_iso": "FR",
+    "pais": "Francia",
+    "region": "Provenza-Alpes-Costa Azul (Costa Azul)",
+    "lat": 43.7764,
+    "lng": 7.5048,
+    "categorias": [
+      "playa",
+      "ciudad"
+    ],
+    "puntajes": {
+      "guias": 2,
+      "cultura": 2,
+      "naturaleza": 2,
+      "gastronomia": 3,
+      "adrenalina": 3,
+      "logistica": 5
+    },
+    "global": 2.9,
+    "nivel": "si_hay_tiempo",
+    "mejor_epoca": [
+      2,
+      3,
+      4,
+      5,
+      9,
+      10
+    ],
+    "dias_sugeridos": 1,
+    "costo": "$$",
+    "acceso": "Tren regional desde Niza (unos 35 min) por la costa; la frontera italiana está a pocos minutos.",
+    "alerta": null,
+    "platos": [
+      "Limón de Menton",
+      "Barbajuan",
+      "Socca",
+      "Tourte de blettes"
+    ],
+    "por_que": "Un casco barroco escalonado con la basílica de San Miguel y el Museo Jean Cocteau, entre jardines subtropicales y montañas que caen al mar junto a Italia. Es la ciudad del limón IGP y de la Fête du Citron, y aquí está Mirazur, de Mauro Colagreco, número uno de The World's 50 Best en 2019. El canyoning de la Vésubie queda a 28 km.",
+    "fuentes": [
+      {
+        "guia": "Lonely Planet",
+        "url": "https://www.lonelyplanet.com/articles/france-best-itineraries"
+      },
+      {
+        "guia": "TasteAtlas",
+        "url": "https://www.tasteatlas.com/best-rated-dishes-in-provence-alpes-cote-dazur"
+      }
+    ],
+    "adrenalina_cerca": [
+      {
+        "nombre": "Canyoning en La Bollène-Vésubie",
+        "tipo": "canyoning",
+        "km": 28,
+        "lat": 43.993,
+        "lng": 7.333,
+        "temporada": "jun–sep",
+        "url": "https://en.experiencecotedazur.com/la-bollene-vesubie/canyoning-adventure-bollene-esteron-valley+camp4-canyoning"
+      },
+      {
+        "nombre": "Vésùbia Mountain Park (canyoning y escalada)",
+        "tipo": "canyoning",
+        "km": 38,
+        "lat": 44.069,
+        "lng": 7.256,
+        "temporada": "todo el año",
+        "url": "https://www.puremontagne.fr/en/to-do/sport/item/canyoning"
+      }
+    ],
+    "investigado_en": "2026-10-27"
+  },
+  {
+    "id": "fr-honfleur",
+    "nombre": "Honfleur",
+    "pais_iso": "FR",
+    "pais": "Francia",
+    "region": "Normandía",
+    "lat": 49.419,
+    "lng": 0.233,
+    "categorias": [
+      "ciudad"
+    ],
+    "puntajes": {
+      "guias": 2,
+      "cultura": 2,
+      "naturaleza": 2,
+      "gastronomia": 3,
+      "adrenalina": 1,
+      "logistica": 3
+    },
+    "global": 2.6,
+    "nivel": "si_hay_tiempo",
+    "mejor_epoca": [
+      5,
+      6,
+      9
+    ],
+    "dias_sugeridos": 1,
+    "costo": "$$",
+    "acceso": "Sin estación de tren: bus desde Le Havre (unos 30 min por el puente de Normandía) o desde Caen; en coche es más cómodo.",
+    "alerta": null,
+    "platos": [
+      "Calvados del Pays d'Auge",
+      "Pont-l'évêque",
+      "Moules à la normande",
+      "Tarte normande"
+    ],
+    "por_que": "El Vieux Bassin está rodeado de casas altas de pizarra, y la iglesia de Santa Catalina es de madera; aquí nació el preimpresionismo de Boudin. Es la puerta del Pays d'Auge, tierra de calvados, sidra y pont-l'évêque, y tiene restaurantes de marisco en el puerto. Desde el Mont-Joli se ve el estuario del Sena.",
+    "fuentes": [
+      {
+        "guia": "Rick Steves",
+        "url": "https://www.ricksteves.com/europe/france/itinerary"
+      },
+      {
+        "guia": "TasteAtlas",
+        "url": "https://www.tasteatlas.com/best-rated-beverages-in-normandy"
+      },
+      {
+        "guia": "TasteAtlas",
+        "url": "https://www.tasteatlas.com/best-rated-dishes-in-normandy"
+      }
+    ],
+    "adrenalina_cerca": [],
+    "investigado_en": "2026-10-27"
+  },
+  {
+    "id": "fr-puy-du-fou",
+    "nombre": "Puy du Fou",
+    "pais_iso": "FR",
+    "pais": "Francia",
+    "region": "Países del Loira (Vendée)",
+    "lat": 46.8892,
+    "lng": -0.9306,
+    "categorias": [
+      "adrenalina"
+    ],
+    "puntajes": {
+      "guias": 2,
+      "cultura": 2,
+      "naturaleza": 1,
+      "gastronomia": 1,
+      "adrenalina": 3,
+      "logistica": 3
+    },
+    "global": 2.6,
+    "nivel": "si_hay_tiempo",
+    "mejor_epoca": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "dias_sugeridos": 2,
+    "costo": "$$$",
+    "acceso": "Mejor en coche (Les Epesses, Vendée); en tren, TGV a Angers o Nantes y autocar; abre de abril a principios de noviembre y la Cinéscénie nocturna solo en verano, con reserva.",
+    "alerta": null,
+    "platos": [
+      "Brioche vendéenne",
+      "Mogettes"
+    ],
+    "por_que": "Un parque de espectáculos históricos a gran escala, con batallas, carreras de cuadrigas y la Cinéscénie nocturna, junto a las ruinas de un castillo renacentista en la Vendée. No tiene montañas rusas: aquí se viene por el espectáculo. La temporada va de abril a principios de noviembre, y lo ideal es dedicarle dos días.",
+    "fuentes": [
+      {
+        "guia": "Lonely Planet",
+        "url": "https://www.lonelyplanet.com/articles/france-with-kids"
+      },
+      {
+        "guia": "Sitio oficial",
+        "url": "https://www.puydufou.com/france/fr/node/8034"
+      }
+    ],
+    "adrenalina_cerca": [],
+    "investigado_en": "2026-10-27"
+  },
+  {
     "id": "it-florencia",
     "nombre": "Florencia",
     "pais_iso": "IT",

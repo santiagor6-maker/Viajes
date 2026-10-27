@@ -1,0 +1,65 @@
+{
+  "agente": "curador",
+  "subregion": "francia-alpes",
+  "fecha": "2026-10-27",
+  "fusionados": [],
+  "descartados": [
+    {
+      "id": "li-castillo-gutenberg",
+      "global": 1.8,
+      "motivo": "global 1.8 < 2 (guías 1, mejor temático 2, logística 3)"
+    },
+    {
+      "id": "nl-schokland",
+      "global": 1.8,
+      "motivo": "global 1.8 < 2 (guías 0, mejor temático 3, logística 3)"
+    },
+    {
+      "id": "nl-parque-nacional-biesbosch",
+      "global": 1.8,
+      "motivo": "global 1.8 < 2 (guías 0, mejor temático 3, logística 3)"
+    },
+    {
+      "id": "li-fuerstensteig",
+      "global": 1.8,
+      "motivo": "global 1.8 < 2 (guías 0, mejor temático 3, logística 3)"
+    }
+  ],
+  "conteo_por_pais": {
+    "FR": 65,
+    "MC": 5,
+    "BE": 25,
+    "NL": 29,
+    "LU": 9,
+    "CH": 39,
+    "AT": 40,
+    "LI": 3
+  },
+  "notas": {
+    "FR": {
+      "guias_busqueda": "22 WebSearch (de 25) para los 22 lugares FR que no propuso guias-expertas. Solo se usan URL vistas en los resultados; se excluyen foros (Rick Steves community, Fodor's Travel Talk, Thorn Tree) y operadores de tours. Escala: 2 = una guía; 3 = dos guías con página propia; 4 = tres guías con página o artículo dedicado.",
+      "guias_conservadores": {
+        "fr-puy-du-fou": "Solo Lonely Planet (France with kids). Time Out solo lo menciona en noticias del parque británico; no cuenta. Queda en 2.",
+        "fr-bourges": "Solo la guía de destino de Frommer's; Rick Steves y Fodor's aparecen solo en foros. Queda en 2.",
+        "fr-pointe-du-raz": "Solo Rough Guides (Finistère); el resto eran foros. Queda en 2.",
+        "fr-vezelay": "Solo Lonely Planet (edición francesa y PDF de muestra de la guía de rutas). Queda en 2.",
+        "fr-parque-nacional-vanoise": "Lonely Planet (artículo de parques nacionales y ficha). No se confirmó qué 8 parques recoge el artículo. Queda en 2.",
+        "fr-parque-nacional-cevenas": "Solo el artículo de Lonely Planet sobre parques nacionales, sin confirmar que lo incluya en la lista. Queda en 2.",
+        "fr-fontainebleau": "La fuente Rick Steves es la página del episodio de TV «Paris Side-Trips» en GPB; sus guías impresas lo cubren de forma desigual. Con Lonely Planet, Frommer's, Time Out y Fodor's queda en 4.",
+        "fr-les-3-vallees": "Cinco artículos (LP, NatGeo x2, Rough Guides, Time Out) sobre esquí en Francia o Europa; no se pudo comprobar que sea el primero de cada lista, así que queda en 4, no en 5.",
+        "fr-grotte-chauvet": "Frommer's, Fodor's (5 imprescindibles del Ardèche) y National Geographic Travel: 4."
+      },
+      "sin_fusion": {
+        "fr-valle-vezere-lascaux/fr-sarlat-dordona": "Unos 25 km. Son viajes distintos (arte rupestre frente a castillos, mercado y canoa del Dordoña) y guias-expertas los separó a propósito.",
+        "fr-bonifacio/fr-corcega": "Córcega tiene las coordenadas en el centro de la isla, a unos 75 km. Bonifacio es un destino propio en el extremo sur.",
+        "fr-chateauneuf-du-pape/fr-avinon": "Unos 12 km. Es un pueblo vinícola con denominación propia, no un monumento de la ciudad, así que se mantiene aparte. Fusionarlo subiría el puntaje de guías de Aviñón de 3 a 4.",
+        "fr-parque-nacional-vanoise/fr-les-3-vallees": "Unos 12 km entre Pralognan y Méribel. Uno es un dominio de esquí y el otro un parque nacional de verano, así que van aparte.",
+        "fr-gorges-du-tarn/fr-parque-nacional-cevenas": "Unos 15 km. El agente de naturaleza los separó (cañón frente a monte Lozère y Florac)."
+      },
+      "playa": "Se añade playa a Niza, Córcega, Port-Cros/Porquerolles y Saint-Malo. Se quita la playa deducida del tipo costa a Étretat y la Pointe du Raz, que son acantilados. Biarritz, la Duna de Pilat y Menton ya la reciben por su tipo costa.",
+      "coordenadas": "Se revisaron las 65; todas son coherentes con el nombre y no hubo que corregir ninguna.",
+      "alertas_en_por_que": "El Atelier de Cézanne en Aix cierra desde el 1/11/2026 y el tapiz de Bayeux está en el British Museum hasta 2027. Logística debería ponerlo en la alerta.",
+      "categorias": "fr-puy-du-fou no llega a 3.5 en ningún temático ni es playa o ciudad, así que el script le asigna adrenalina (3) por defecto. Se acepta porque es un parque de espectáculos y no hay una categoría mejor."
+    }
+  }
+}

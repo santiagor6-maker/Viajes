@@ -1,7 +1,7 @@
 {
   "pausado": false,
   "subregion": "francia-alpes",
-  "paso": "logistica",
+  "paso": "curador",
   "ronda": 1,
   "orden_subregiones": [
     "iberica-italia",
@@ -99,6 +99,18 @@
       "subregion": "francia-alpes",
       "paso": "especialistas",
       "resultado": "8 especialistas ronda 1: 53 lugares nuevos (Disneyland, Efteling, Parc Astérix, 3 Vallées, Area 47, parques nacionales franceses, Saint-Émilion, Abadía de San Galo...)"
+    },
+    {
+      "fecha": "2026-10-27",
+      "subregion": "francia-alpes",
+      "paso": "logistica",
+      "resultado": "Logística completa: 219 lugares (FR/MC/BE/NL/LU 135, CH/AT/LI 84) + cruce r2"
+    },
+    {
+      "fecha": "2026-10-27",
+      "subregion": "francia-alpes",
+      "paso": "publicar",
+      "resultado": "Prioridad del usuario: Francia publicada antes del revisor (65 lugares: 31 imprescindibles, 31 muy recomendados, 3 si hay tiempo; 65 por_que, 22 puntajes de guías nuevos). Falta curador manual de MC/BE/NL/LU/CH/AT/LI."
     }
   ],
   "ronda_revisor": 0,
