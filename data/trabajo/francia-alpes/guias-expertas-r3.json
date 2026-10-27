@@ -3,6 +3,7 @@
   "subregion": "francia-alpes",
   "ronda": 3,
   "estado": "en_curso",
+  "notas": "Ronda de huecos. Sólo cuentan páginas editoriales de cada guía que salieron en WebSearch. No cuentan foros (community.ricksteves.com, fodors.com/community, thorntree), tiendas ni tours de terceros revendidos en lonelyplanet.com. Las URL nonprod de Lonely Planet que dio cobertura se reemplazan por su forma canónica cuando la canónica apareció en una búsqueda; si no apareció, van a fuentes_quitar.",
   "nuevos": [
     {
       "id": "be-pairi-daiza",
@@ -19,7 +20,183 @@
         { "guia": "Michelin Guide Vert", "url": "https://vrtnws.be/p.ZPNNDmZJa" },
         { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/belgium/wallonia-1342569/attractions" }
       ]
+    },
+    {
+      "id": "ch-davos",
+      "nombre": "Davos",
+      "pais_iso": "CH",
+      "region": "Grisones",
+      "lat": 46.8027,
+      "lng": 9.8360,
+      "tipo": "montaña",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Fodor's", "Rough Guides"],
+      "justificacion": "Lonely Planet reseña el Museo Kirchner (la mayor colección de Ernst Ludwig Kirchner del mundo) y, en su guía de esquí, sitúa Davos-Klosters entre las grandes estaciones suizas (300 km de pistas en seis zonas, Parsenn y Jakobshorn). Fodor's pone el Museo Kirchner como primer sitio de Davos y Rough Guides lo incluye en sus mejores cosas de Suiza. Schatzalp ('La montaña mágica') es la otra visita clásica, aunque no encontré una ficha de guía sobre ella. Klosters queda a 10 km y tiene su propia ficha.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://lonelyplanet.com/switzerland/davos/attractions/kirchner-museum/a/poi-sig/1116407/1314892" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-ski-in-switzerland" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/switzerland/graubunden/places/davos/things-to-do/sights" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/switzerland/things-to-do/" }
+      ]
+    },
+    {
+      "id": "fr-antibes-cannes",
+      "nombre": "Antibes, Cannes y las islas de Lérins",
+      "pais_iso": "FR",
+      "region": "Provenza-Alpes-Costa Azul (Alpes Marítimos)",
+      "lat": 43.5808,
+      "lng": 7.1251,
+      "tipo": "costa",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Michelin Guide Vert"],
+      "justificacion": "Lonely Planet los incluye en sus 13 mejores lugares de la Costa Azul: en Antibes, el Museo Picasso del castillo Grimaldi, el casco amurallado, el fuerte Carré y la playa de Juan-les-Pins; en Cannes, la Croisette, Le Suquet, el mercado Forville y el ferry a las islas Sainte-Marguerite y Saint-Honorat. Tiene además una guía para primerizos de Cannes. La Guía Verde Côte d'Azur organiza una de sus regiones en torno a Cannes y propone un itinerario de 4 días desde Antibes, pero no encontré sus estrellas. Antibes y Cannes están a 11 km, por eso van fusionados. Coordenadas en el casco de Antibes.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-cote-d-azur" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/guide-to-cannes" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/france/cote-dazur/antibes-juan-les-pins/attractions" },
+        { "guia": "Michelin Guide Vert", "url": "https://boutique.laventure.michelin.com/produit/guide-vert-cote-dazur-monaco-ebook" }
+      ]
+    },
+    {
+      "id": "fr-saint-tropez",
+      "nombre": "Saint-Tropez",
+      "pais_iso": "FR",
+      "region": "Provenza-Alpes-Costa Azul (Var)",
+      "lat": 43.2727,
+      "lng": 6.6406,
+      "tipo": "costa",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Michelin Guide Vert"],
+      "justificacion": "Lonely Planet lo incluye en sus mejores lugares de la Costa Azul: Vieux Port, playa de Pampelonne, la tarta tropezienne en la place des Lices y el paseo en barco por el golfo. La Guía Verde Côte d'Azur lo destaca como 'coup de coeur' por su ambiente de principios del siglo XX, sin que la ficha dé sus estrellas. El sendero litoral y el Musée de l'Annonciade completan la visita.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-cote-d-azur" },
+        { "guia": "Michelin Guide Vert", "url": "https://boutique.laventure.michelin.com/produit/guide-vert-cote-dazur-monaco-ebook" }
+      ]
     }
   ],
-  "puntajes": []
+  "puntajes": [
+    {
+      "id": "fr-lyon",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Time Out", "Rough Guides", "Lonely Planet", "Rick Steves"],
+      "justificacion": "Sube de 3 a 5. Ahora son cuatro guías: Time Out (5.ª entre los 20 mejores lugares de Francia) y Rough Guides, que ya estaban, más Lonely Planet, que le dedica sus 9 mejores cosas que hacer (Fourvière, Croix-Rousse, bouchons, Confluences, teatros romanos), y Rick Steves, que le dedica un programa de TV ('French Alps & Lyon') y la cuenta entre las grandes ciudades de su guía de Francia.",
+      "fuentes": [
+        { "guia": "Time Out", "url": "https://www.timeout.com/france/things-to-do/best-places-to-visit-in-france" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/france/travel-tips/" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-lyon" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/watch-read-listen/video/tv-show/lyon" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/france" }
+      ]
+    },
+    {
+      "id": "fr-marsella-calanques",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Michelin Guide Vert", "Time Out", "Lonely Planet"],
+      "justificacion": "Sube de 3 a 5. La ficha de la Guía Verde Provence lista 'Les calanques de Marseille***', y además es top pick en otra guía: Time Out la pone 2.ª entre los 20 mejores lugares de Francia. Lonely Planet recomienda el Vieux Port, Le Panier, el ferry al castillo de If y la calanque d'En-Vau, y le dedica también un artículo de excursiones desde Marsella.",
+      "fuentes": [
+        { "guia": "Michelin Guide Vert", "url": "https://boutique.laventure.michelin.com/en/product/guide-vert-provence-ebook/" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/france/things-to-do/best-places-to-visit-in-france" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-provence" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-day-trips-from-marseille" }
+      ]
+    },
+    {
+      "id": "fr-avinon",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Rick Steves", "Time Out", "Lonely Planet"],
+      "justificacion": "Sube de 3 a 4 por una tercera guía. A Rick Steves (dos estrellas en Provenza) y Time Out (mejores ciudades fuera de París) se suma Lonely Planet, que tiene página de destino de Aviñón con el Palacio de los Papas (el mayor palacio gótico jamás construido) y el puente de Saint-Bénézet. La ficha Michelin que encontré (Guide Vert Provence) no muestra las estrellas de Aviñón, así que no se le da el 5.",
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/france/provence" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/france/travel/best-french-cities-to-visit" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/france/provence/avignon" }
+      ]
+    },
+    {
+      "id": "fr-arles",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Rick Steves", "National Geographic", "Lonely Planet"],
+      "justificacion": "Sube de 3 a 4 por una tercera guía. A Rick Steves (base en Provenza) y National Geographic (ciudades infravaloradas de Francia) se suma Lonely Planet, que le dedica sus 19 mejores cosas que hacer: las Arènes, Alyscamps, criptopórticos, Fundación Van Gogh y LUMA Arles. La ficha Michelin no muestra las estrellas de Arlés, así que no se le da el 5.",
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/france/provence" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/overtourism-paris-underrated-cities-to-visit-france" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-arles" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/destinations/france/provence/arles" }
+      ]
+    },
+    {
+      "id": "fr-honfleur",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Michelin Guide Vert", "Rick Steves", "Lonely Planet"],
+      "justificacion": "Sube de 2 a 5. La ficha del Guide Vert Normandie Vallée de Seine pone Honfleur entre sus ★★★, junto a los acantilados de Étretat. Rick Steves lo incluye en su ruta de 3 semanas y en su guía de Francia como 'cozy port town', así que cumple la regla de ★★★ más top pick en otra guía. Lonely Planet lo cubre en su guía de Normandía (Vieux Bassin, museo Boudin, casa de Satie).",
+      "fuentes": [
+        { "guia": "Michelin Guide Vert", "url": "https://boutique.laventure.michelin.com/en/product/guide-vert-normandie-vallee-de-seine-ebook" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/france/itinerary" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/france" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/destinations/france/normandy" }
+      ]
+    },
+    {
+      "id": "fr-bayeux-playas-desembarco",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Rick Steves", "Lonely Planet", "Michelin Guide Vert"],
+      "justificacion": "Sube de 2 a 5. Rick Steves usa Bayeux como base y dedica un día a las playas. Lonely Planet pone el tour del Día D por Omaha Beach (a 22 km de Bayeux) en sus mejores cosas de Normandía y destaca el tapiz, que reabre en 2027. El Guide Vert Plages du Débarquement da ★★★ al Cementerio Americano de Colleville y al Memorial de Caen, y presenta Bayeux como ciudad de base. Cumple la regla de ★★★ más top pick en otra guía.",
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/france/itinerary" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-normandy" },
+        { "guia": "Michelin Guide Vert", "url": "https://editions.michelin.com/produits/guide-vert-plages-du-debarquement-et-bataille-de-normandie/" }
+      ]
+    },
+    {
+      "id": "fr-chartres",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rick Steves"],
+      "justificacion": "Sube de 2 a 3 por una segunda guía. A Lonely Planet (excursión desde París, la catedral medieval mejor conservada de Francia) se suma Rick Steves, que pone Chartres en su lista 'Near Paris' junto a Versalles y Giverny y llama radiante a su catedral.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/the-best-day-trips-from-paris" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/france" }
+      ]
+    },
+    {
+      "id": "nl-zaanse-schans",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Time Out", "Rick Steves"],
+      "justificacion": "Sube de 2 a 3 por una segunda guía. A Time Out (excursión desde Ámsterdam) se suma Rick Steves: en su artículo sobre los museos al aire libre de los Países Bajos llama 'únicos y de verdad interesantes' a sus molinos en funcionamiento y al museo del Tiempo, a 15 minutos en tren de Ámsterdam, aunque avisa de los grupos de mediodía. Lonely Planet solo lo menciona en su guía con niños, como mención menor.",
+      "fuentes": [
+        { "guia": "Time Out", "url": "https://www.timeout.com/amsterdam/things-to-do/best-day-trips-from-amsterdam" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/watch-read-listen/read/articles/folk-museums-in-the-netherlands" }
+      ]
+    },
+    {
+      "id": "ch-oeschinensee",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Lonely Planet"],
+      "justificacion": "Sube de 0 a 2. Lonely Planet tiene ficha propia del lago (agua turquesa, telecabina desde Kandersteg y 20 minutos a pie, una hora de bajada al pueblo). Rick Steves y Fodor's solo lo tratan en foros, que no cuentan, así que no llega a 3.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/points-of-interest/oeschinensee/1379712" }
+      ]
+    },
+    {
+      "id": "ch-valais-sion-vinos",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Fodor's"],
+      "justificacion": "Sube de 0 a 3. Lonely Planet tiene ficha del castillo de Tourbillon y, en su guía del Valais, destaca los dos castillos de Sion y el Valais Wine Pass para las catas. Fodor's reseña Valère, una iglesia-fortaleza con la iglesia de Notre-Dame del siglo XI, y Tourbillon en sus sitios del Valais.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/switzerland/sion/attractions/chateau-de-tourbillon/a/poi-sig/1115640/1314842" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/destinations/switzerland/valais" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/switzerland/valais/things-to-do/sights" }
+      ]
+    },
+    {
+      "id": "ch-klosters",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Fodor's"],
+      "justificacion": "Sube de 1 a 3. Fodor's tiene guía propia de Klosters (con el museo Nutli-Hüschi, una granja de 1565). Lonely Planet tiene ficha de destino y en su guía de esquí presenta Davos-Klosters como un dominio compartido de 300 km. Davos va ahora como lugar propio (ch-davos), a 10 km.",
+      "fuentes": [
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/switzerland/graubunden/places/klosters" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/switzerland/klosters" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-ski-in-switzerland" }
+      ]
+    }
+  ],
+  "fuentes_quitar": []
 }
