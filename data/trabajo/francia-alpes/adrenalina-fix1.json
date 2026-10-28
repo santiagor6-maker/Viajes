@@ -1,0 +1,242 @@
+{
+  "agente": "adrenalina",
+  "subregion": "francia-alpes",
+  "ronda": 4,
+  "estado": "en_curso",
+  "criterio": "Regla única de la subregión: cuenta toda actividad a 60 km o menos en línea recta, sin excepciones por carretera. Tope de 2 para monumentos, museos y sitios religiosos salvo actividad en el propio lugar; tope de 3 para espacios naturales que solo se recorren a pie. Escala: 5 = clase mundial en el lugar o a 15 km o menos; 4 = actividad de primer nivel a 30 km o menos, o varias destacadas; 3 = actividad notable en el radio, o de primer nivel a más de 30 km y hasta 50 km; 2 = oferta menor, o la única actividad está en el borde del radio (más de 50 km y hasta 60 km), aunque sea un parque grande; 1 = sin oferta verificable. Un 3 o más exige web del operador, turismo oficial o RCDB.",
+  "puntajes": [
+    {
+      "id": "be-coo-ambleve",
+      "puntaje": 4,
+      "justificacion": "Junto a la cascada de Coo, el salto de unos 15 m del Amblève, se concentran el descenso en kayak del río y el telesilla, que destaca la oficina de turismo de Stavelot, y el parque Plopsa Coo. El circuito de Spa-Francorchamps, a 8 km, vende Taxi Laps oficiales: dos vueltas como pasajero en un Alpine A110 con piloto profesional. Son varias actividades destacadas, aunque ninguna de clase mundial en el propio lugar.",
+      "actividades": [
+        { "nombre": "Kayak en el Amblève y telesilla de la cascada de Coo", "tipo": "otro", "km": 0, "lat": 50.3912, "lng": 5.8790, "temporada": "abr–oct", "url": "https://tourismestavelot.be/en/node/3174", "url_tipo": "turismo_oficial", "km_aprox": true },
+        { "nombre": "Circuit de Spa-Francorchamps: Taxi Laps (2 vueltas en Alpine A110 con piloto)", "tipo": "motor", "km": 8, "lat": 50.4370, "lng": 5.9710, "temporada": "según calendario del circuito", "url": "https://www.spa-francorchamps.be/en/track-experiences", "url_tipo": "operador_oficial", "km_aprox": true }
+      ],
+      "fuentes": [
+        { "guia": "Tourisme Stavelot (oficina de turismo)", "url": "https://tourismestavelot.be/en/node/3174" },
+        { "guia": "Circuit de Spa-Francorchamps (experiencias de pista)", "url": "https://www.spa-francorchamps.be/en/track-experiences" }
+      ]
+    },
+    {
+      "id": "be-spa",
+      "puntaje": 4,
+      "justificacion": "El circuito de Spa-Francorchamps, uno de los trazados míticos de la F1, está a 10 km. Su web oficial vende Taxi Laps: dos vueltas como pasajero en un Alpine A110 con piloto profesional, por unos 209 € y unas 2,5 horas de actividad. La cascada de Coo, con kayak en el Amblève, queda a unos 13 km. Es una experiencia de motor de primer nivel a menos de 30 km.",
+      "actividades": [
+        { "nombre": "Circuit de Spa-Francorchamps: Taxi Laps", "tipo": "motor", "km": 10, "lat": 50.4370, "lng": 5.9710, "temporada": "según calendario del circuito", "url": "https://www.spa-francorchamps.be/en/track-experiences", "url_tipo": "operador_oficial", "km_aprox": true },
+        { "nombre": "Bautismo de pista como pasajero en GT (Spa-Francorchamps)", "tipo": "motor", "km": 10, "lat": 50.4370, "lng": 5.9710, "temporada": "según calendario del circuito", "url": "https://www.adrenactive.com/bapteme-passager-spa-francorchamps-9454.htm", "url_tipo": "plataforma", "km_aprox": true }
+      ],
+      "fuentes": [
+        { "guia": "Circuit de Spa-Francorchamps (experiencias de pista)", "url": "https://www.spa-francorchamps.be/en/track-experiences" }
+      ]
+    },
+    {
+      "id": "be-lieja",
+      "puntaje": 3,
+      "justificacion": "Las Taxi Laps del circuito de Spa-Francorchamps, experiencia de motor de primer nivel, están a 35 km, y el kayak del Amblève junto a la cascada de Coo a 34 km. Ambas quedan a más de 30 km.",
+      "actividades": [
+        { "nombre": "Circuit de Spa-Francorchamps: Taxi Laps", "tipo": "motor", "km": 35, "lat": 50.4370, "lng": 5.9710, "temporada": "según calendario del circuito", "url": "https://www.spa-francorchamps.be/en/track-experiences", "url_tipo": "operador_oficial", "km_aprox": true },
+        { "nombre": "Kayak en el Amblève y telesilla de la cascada de Coo", "tipo": "otro", "km": 34, "lat": 50.3912, "lng": 5.8790, "temporada": "abr–oct", "url": "https://tourismestavelot.be/en/node/3174", "url_tipo": "turismo_oficial", "km_aprox": true }
+      ],
+      "fuentes": [
+        { "guia": "Circuit de Spa-Francorchamps (experiencias de pista)", "url": "https://www.spa-francorchamps.be/en/track-experiences" }
+      ]
+    },
+    {
+      "id": "be-hautes-fagnes",
+      "puntaje": 3,
+      "justificacion": "El circuito de Spa-Francorchamps, con Taxi Laps oficiales, está a 11 km. Es una meseta de turberas que se recorre a pie, así que el tope es 3.",
+      "actividades": [
+        { "nombre": "Circuit de Spa-Francorchamps: Taxi Laps", "tipo": "motor", "km": 11, "lat": 50.4370, "lng": 5.9710, "temporada": "según calendario del circuito", "url": "https://www.spa-francorchamps.be/en/track-experiences", "url_tipo": "operador_oficial", "km_aprox": true }
+      ],
+      "fuentes": [
+        { "guia": "Circuit de Spa-Francorchamps (experiencias de pista)", "url": "https://www.spa-francorchamps.be/en/track-experiences" }
+      ]
+    },
+    {
+      "id": "nl-maastricht",
+      "puntaje": 3,
+      "justificacion": "SnowWorld Landgraaf, a 25 km, es una de las mayores pistas de esquí cubiertas de Europa: cinco pistas, telesilla y funpark, abierta los 365 días del año según su web oficial. En el borde del radio quedan el circuito de Spa-Francorchamps (50 km) y la cascada de Coo (53 km). Es una actividad notable, no de primer nivel europeo.",
+      "actividades": [
+        { "nombre": "SnowWorld Landgraaf (esquí cubierto: 5 pistas, telesilla y funpark)", "tipo": "esqui", "km": 25, "lat": 50.9000, "lng": 6.0450, "temporada": "todo el año", "url": "https://www.snowworld.com/landgraaf/en/ski-slope", "url_tipo": "operador_oficial", "km_aprox": true },
+        { "nombre": "Circuit de Spa-Francorchamps: Taxi Laps", "tipo": "motor", "km": 50, "lat": 50.4370, "lng": 5.9710, "temporada": "según calendario del circuito", "url": "https://www.spa-francorchamps.be/en/track-experiences", "url_tipo": "operador_oficial", "km_aprox": true },
+        { "nombre": "Kayak en el Amblève (cascada de Coo)", "tipo": "otro", "km": 53, "lat": 50.3912, "lng": 5.8790, "temporada": "abr–oct", "url": "https://tourismestavelot.be/en/node/3174", "url_tipo": "turismo_oficial", "km_aprox": true }
+      ],
+      "fuentes": [
+        { "guia": "SnowWorld Landgraaf (sitio oficial)", "url": "https://www.snowworld.com/landgraaf/en/ski-slope" },
+        { "guia": "Circuit de Spa-Francorchamps (experiencias de pista)", "url": "https://www.spa-francorchamps.be/en/track-experiences" }
+      ]
+    },
+    {
+      "id": "lu-clervaux",
+      "puntaje": 3,
+      "justificacion": "Clervaux es un pueblo, no un monumento aislado. A 39 km está la cascada de Coo, con descenso en kayak del Amblève y telesilla, y a 43 km el circuito de Spa-Francorchamps con sus Taxi Laps oficiales. Son actividades de primer nivel, pero a más de 30 km.",
+      "actividades": [
+        { "nombre": "Kayak en el Amblève y telesilla de la cascada de Coo", "tipo": "otro", "km": 39, "lat": 50.3912, "lng": 5.8790, "temporada": "abr–oct", "url": "https://tourismestavelot.be/en/node/3174", "url_tipo": "turismo_oficial", "km_aprox": true },
+        { "nombre": "Circuit de Spa-Francorchamps: Taxi Laps", "tipo": "motor", "km": 43, "lat": 50.4370, "lng": 5.9710, "temporada": "según calendario del circuito", "url": "https://www.spa-francorchamps.be/en/track-experiences", "url_tipo": "operador_oficial", "km_aprox": true }
+      ],
+      "fuentes": [
+        { "guia": "Tourisme Stavelot (oficina de turismo)", "url": "https://tourismestavelot.be/en/node/3174" },
+        { "guia": "Circuit de Spa-Francorchamps (experiencias de pista)", "url": "https://www.spa-francorchamps.be/en/track-experiences" }
+      ]
+    },
+    {
+      "id": "lu-vianden",
+      "puntaje": 2,
+      "justificacion": "En el propio pueblo, a unos diez minutos a pie del castillo, está el parque de cuerdas Indian Forest, con recorridos por los árboles y una tirolesa de unos 375 m, y el telesilla que sube sobre el valle del Our. La cascada de Coo (56 km) y el circuito de Spa-Francorchamps (58 km) quedan en el borde del radio. Es una oferta menor.",
+      "actividades": [
+        { "nombre": "Indian Forest (parque de cuerdas y tirolesa, Bildchenbësch)", "tipo": "tirolesa", "km": 1, "lat": 49.9380, "lng": 6.2000, "temporada": "abr–oct", "url": "https://en.paperjam.lu/article/news_indian-forest-adventure", "url_tipo": "prensa", "km_aprox": true },
+        { "nombre": "Kayak en el Amblève y telesilla de la cascada de Coo", "tipo": "otro", "km": 56, "lat": 50.3912, "lng": 5.8790, "temporada": "abr–oct", "url": "https://tourismestavelot.be/en/node/3174", "url_tipo": "turismo_oficial", "km_aprox": true },
+        { "nombre": "Circuit de Spa-Francorchamps: Taxi Laps", "tipo": "motor", "km": 58, "lat": 50.4370, "lng": 5.9710, "temporada": "según calendario del circuito", "url": "https://www.spa-francorchamps.be/en/track-experiences", "url_tipo": "operador_oficial", "km_aprox": true }
+      ],
+      "fuentes": [
+        { "guia": "Paperjam (prensa, Indian Forest)", "url": "https://en.paperjam.lu/article/news_indian-forest-adventure" },
+        { "guia": "Tourisme Stavelot (oficina de turismo)", "url": "https://tourismestavelot.be/en/node/3174" }
+      ]
+    },
+    {
+      "id": "lu-esch-sur-sure",
+      "puntaje": 2,
+      "justificacion": "La cascada de Coo, con kayak en el Amblève (54 km), y el circuito de Spa-Francorchamps (59 km) entran en el radio, pero en el borde. Es la única oferta verificable.",
+      "actividades": [
+        { "nombre": "Kayak en el Amblève y telesilla de la cascada de Coo", "tipo": "otro", "km": 54, "lat": 50.3912, "lng": 5.8790, "temporada": "abr–oct", "url": "https://tourismestavelot.be/en/node/3174", "url_tipo": "turismo_oficial", "km_aprox": true },
+        { "nombre": "Circuit de Spa-Francorchamps: Taxi Laps", "tipo": "motor", "km": 59, "lat": 50.4370, "lng": 5.9710, "temporada": "según calendario del circuito", "url": "https://www.spa-francorchamps.be/en/track-experiences", "url_tipo": "operador_oficial", "km_aprox": true }
+      ],
+      "fuentes": [
+        { "guia": "Tourisme Stavelot (oficina de turismo)", "url": "https://tourismestavelot.be/en/node/3174" }
+      ]
+    },
+    {
+      "id": "lu-bourscheid",
+      "puntaje": 2,
+      "justificacion": "Es la ruina de un castillo, así que el puntaje no pasa de 2. La cascada de Coo (55 km) y el circuito de Spa-Francorchamps (59 km) entran en el borde del radio.",
+      "actividades": [
+        { "nombre": "Kayak en el Amblève y telesilla de la cascada de Coo", "tipo": "otro", "km": 55, "lat": 50.3912, "lng": 5.8790, "temporada": "abr–oct", "url": "https://tourismestavelot.be/en/node/3174", "url_tipo": "turismo_oficial", "km_aprox": true },
+        { "nombre": "Circuit de Spa-Francorchamps: Taxi Laps", "tipo": "motor", "km": 59, "lat": 50.4370, "lng": 5.9710, "temporada": "según calendario del circuito", "url": "https://www.spa-francorchamps.be/en/track-experiences", "url_tipo": "operador_oficial", "km_aprox": true }
+      ],
+      "fuentes": [
+        { "guia": "Tourisme Stavelot (oficina de turismo)", "url": "https://tourismestavelot.be/en/node/3174" }
+      ]
+    },
+    {
+      "id": "ch-klosters",
+      "puntaje": 5,
+      "justificacion": "Klosters es la otra base de Davos Klosters: desde el pueblo, el teleférico de la Gotschna sube al Parsenn, a unos 7 km, el sector mayor y más tradicional del dominio, con unos 100 km de pistas y el descenso de 12 km hasta Küblis, según Graubünden Tourismus. Es una estación de clase mundial a menos de 15 km. En el radio están también la Silvretta Arena de Ischgl (33 km), Ski Arlberg y la Olympia Bob Run (41 km).",
+      "actividades": [
+        { "nombre": "Parsenn, Davos Klosters (unos 100 km de pistas, Weissfluhgipfel 2844 m)", "tipo": "esqui", "km": 7, "lat": 46.8330, "lng": 9.8060, "temporada": "nov–abr", "url": "https://graubuenden.ch/en/activities/winter/skiing/ski-resorts/davos-klosters-parsenn", "url_tipo": "turismo_oficial", "km_aprox": true },
+        { "nombre": "Silvretta Arena Ischgl/Samnaun", "tipo": "esqui", "km": 33, "lat": 46.9690, "lng": 10.2930, "temporada": "nov–may", "url": "https://ischgl.com/en/winter/silvretta-arena", "url_tipo": "turismo_oficial", "km_aprox": true },
+        { "nombre": "Ski Arlberg, sector St. Anton", "tipo": "esqui", "km": 41, "lat": 47.1297, "lng": 10.2683, "temporada": "dic–abr", "url": "https://www.austria.info/en-gb/highlights/largest-ski-areas/", "url_tipo": "turismo_oficial" },
+        { "nombre": "Olympia Bob Run St. Moritz–Celerina", "tipo": "otro", "km": 41, "lat": 46.5020, "lng": 9.8530, "temporada": "invierno (dic–mar aprox.)", "url": "https://www.stmoritz.com/en/olympia-bob-run/", "url_tipo": "turismo_oficial", "km_aprox": true }
+      ],
+      "fuentes": [
+        { "guia": "Graubünden Tourismus (Davos Klosters Parsenn)", "url": "https://graubuenden.ch/en/activities/winter/skiing/ski-resorts/davos-klosters-parsenn" }
+      ]
+    },
+    {
+      "id": "ch-buendner-herrschaft",
+      "puntaje": 4,
+      "justificacion": "El Parsenn de Davos Klosters, estación de clase mundial, está a 29 km en línea recta, y la zona freestyle de Laax a 30 km. El Floomzer de Flumserberg, un alpine coaster de 2 km, queda a 21 km y Ski Arlberg a 51 km.",
+      "actividades": [
+        { "nombre": "Rodelbahn Floomzer, Flumserberg (alpine coaster de 2 km)", "tipo": "alpine_coaster", "km": 21, "lat": 47.0920, "lng": 9.2830, "temporada": "verano", "url": "https://graubuenden.ch/en/attractions/toboggan-run-floomzer", "url_tipo": "turismo_oficial", "km_aprox": true },
+        { "nombre": "Parsenn, Davos Klosters (unos 100 km de pistas)", "tipo": "esqui", "km": 29, "lat": 46.8330, "lng": 9.8060, "temporada": "nov–abr", "url": "https://graubuenden.ch/en/activities/winter/skiing/ski-resorts/davos-klosters-parsenn", "url_tipo": "turismo_oficial", "km_aprox": true },
+        { "nombre": "LAAX Freestyle: superpipe y 5 snowparks", "tipo": "esqui", "km": 30, "lat": 46.8250, "lng": 9.2400, "temporada": "dic–abr", "url": "https://www.laax.com/en/freestyle", "url_tipo": "operador_oficial", "km_aprox": true },
+        { "nombre": "Ski Arlberg, sector Lech-Zürs", "tipo": "esqui", "km": 51, "lat": 47.2083, "lng": 10.1417, "temporada": "dic–abr", "url": "https://www.austria.info/en-gb/highlights/largest-ski-areas/", "url_tipo": "turismo_oficial" }
+      ],
+      "fuentes": [
+        { "guia": "Graubünden Tourismus (Davos Klosters Parsenn)", "url": "https://graubuenden.ch/en/activities/winter/skiing/ski-resorts/davos-klosters-parsenn" },
+        { "guia": "Sitio oficial LAAX", "url": "https://www.laax.com/en/freestyle" }
+      ]
+    },
+    {
+      "id": "ch-guarda",
+      "puntaje": 4,
+      "justificacion": "En línea recta, la Silvretta Arena de Ischgl y Samnaun, con 239 km de pistas, está a 24 km y el Parsenn de Davos Klosters a 27 km: dos estaciones de primer nivel a menos de 30 km. Desde Guarda, el acceso más directo al esquí es Motta Naluns (Scuol), a unos 8 km, con 70 km de pistas entre 1250 y 2785 m según Graubünden Tourismus. La Olympia Bob Run (38 km) y Ski Arlberg (40 km) completan la oferta.",
+      "actividades": [
+        { "nombre": "Motta Naluns, Scuol (70 km de pistas, 1250–2785 m)", "tipo": "esqui", "km": 8, "lat": 46.7870, "lng": 10.2620, "temporada": "dic–abr", "url": "https://www.graubuenden.ch/en/activities/winter/skiing/ski-resorts/scuol", "url_tipo": "turismo_oficial", "km_aprox": true },
+        { "nombre": "Silvretta Arena Ischgl/Samnaun (239 km de pistas)", "tipo": "esqui", "km": 24, "lat": 46.9690, "lng": 10.2930, "temporada": "nov–may", "url": "https://ischgl.com/en/winter/silvretta-arena", "url_tipo": "turismo_oficial", "km_aprox": true },
+        { "nombre": "Parsenn, Davos Klosters", "tipo": "esqui", "km": 27, "lat": 46.8330, "lng": 9.8060, "temporada": "nov–abr", "url": "https://graubuenden.ch/en/activities/winter/skiing/ski-resorts/davos-klosters-parsenn", "url_tipo": "turismo_oficial", "km_aprox": true },
+        { "nombre": "Olympia Bob Run St. Moritz–Celerina", "tipo": "otro", "km": 38, "lat": 46.5020, "lng": 9.8530, "temporada": "invierno (dic–mar aprox.)", "url": "https://www.stmoritz.com/en/olympia-bob-run/", "url_tipo": "turismo_oficial", "km_aprox": true },
+        { "nombre": "Ski Arlberg, sector St. Anton", "tipo": "esqui", "km": 40, "lat": 47.1297, "lng": 10.2683, "temporada": "dic–abr", "url": "https://www.austria.info/en-gb/highlights/largest-ski-areas/", "url_tipo": "turismo_oficial" }
+      ],
+      "fuentes": [
+        { "guia": "Graubünden Tourismus (Scuol)", "url": "https://www.graubuenden.ch/en/activities/winter/skiing/ski-resorts/scuol" },
+        { "guia": "Ischgl (turismo oficial, Silvretta Arena)", "url": "https://ischgl.com/en/winter/silvretta-arena" }
+      ]
+    },
+    {
+      "id": "ch-valais-sion-vinos",
+      "puntaje": 4,
+      "justificacion": "Dos estaciones de primer nivel quedan a 18 km en línea recta: Verbier, puerta de las 4 Vallées y sede de la final del Freeride World Tour en el Bec des Rosses (19 km), y Glacier 3000, con el Alpine Coaster más alto del mundo y el Peak Walk. Aquaparc de Le Bouveret (42 km) y el Matterhorn Ski Paradise (43 km) completan la oferta.",
+      "actividades": [
+        { "nombre": "Glacier 3000: Alpine Coaster y Peak Walk", "tipo": "alpine_coaster", "km": 18, "lat": 46.3600, "lng": 7.2140, "temporada": "may–oct (coaster); todo el año (Peak Walk)", "url": "https://www.glacier3000.ch/en/leisures/", "url_tipo": "operador_oficial", "km_aprox": true },
+        { "nombre": "Xtreme Verbier, final del Freeride World Tour (Bec des Rosses)", "tipo": "esqui", "km": 19, "lat": 46.0750, "lng": 7.2630, "temporada": "final de marzo", "url": "https://www.freerideworldtour.com/events/2026-yeti-xtreme-verbier/", "url_tipo": "organizador_oficial", "km_aprox": true },
+        { "nombre": "Aquaparc Le Bouveret", "tipo": "parque_acuatico", "km": 42, "lat": 46.3850, "lng": 6.8560, "temporada": "todo el año", "url": "https://www.valais.ch/fr/explorer/activites/autres-activites-estivales/parcs-de-loisirs/aquaparc", "url_tipo": "turismo_oficial", "km_aprox": true },
+        { "nombre": "Matterhorn Ski Paradise", "tipo": "esqui", "km": 43, "lat": 45.9383, "lng": 7.7297, "temporada": "todo el año (glaciar en verano)", "url": "https://www.zermatt.ch/en/unique/International-Ski-Area", "url_tipo": "turismo_oficial" }
+      ],
+      "fuentes": [
+        { "guia": "Sitio oficial Glacier 3000", "url": "https://www.glacier3000.ch/en/leisures/" },
+        { "guia": "Freeride World Tour (organizador oficial)", "url": "https://www.freerideworldtour.com/events/2026-yeti-xtreme-verbier/" }
+      ]
+    },
+    {
+      "id": "ch-montreux-chillon",
+      "puntaje": 4,
+      "justificacion": "Glacier 3000, sobre Les Diablerets, está a 25 km: según su web oficial tiene el Alpine Coaster, la pista de trineo sobre raíles más alta del mundo, y el Peak Walk, el único puente colgante que une dos cumbres. Aquaparc de Le Bouveret, con el tobogán con looping Booster Loop, queda a 7 km. Son varias actividades destacadas.",
+      "actividades": [
+        { "nombre": "Aquaparc Le Bouveret (Booster Loop)", "tipo": "parque_acuatico", "km": 7, "lat": 46.3850, "lng": 6.8560, "temporada": "todo el año", "url": "https://www.valais.ch/fr/explorer/activites/autres-activites-estivales/parcs-de-loisirs/aquaparc", "url_tipo": "turismo_oficial", "km_aprox": true },
+        { "nombre": "Glacier 3000: Alpine Coaster y Peak Walk", "tipo": "alpine_coaster", "km": 25, "lat": 46.3600, "lng": 7.2140, "temporada": "may–oct (coaster); todo el año (Peak Walk)", "url": "https://www.glacier3000.ch/en/leisures/", "url_tipo": "operador_oficial", "km_aprox": true }
+      ],
+      "fuentes": [
+        { "guia": "Sitio oficial Glacier 3000", "url": "https://www.glacier3000.ch/en/leisures/" },
+        { "guia": "Valais Tourisme (Aquaparc)", "url": "https://www.valais.ch/fr/explorer/activites/autres-activites-estivales/parcs-de-loisirs/aquaparc" }
+      ]
+    },
+    {
+      "id": "ch-gruyeres",
+      "puntaje": 4,
+      "justificacion": "Glacier 3000, con el Alpine Coaster más alto del mundo y el Peak Walk, está a 27 km en línea recta, y Aquaparc de Le Bouveret a 28 km. Glacier 3000 es una actividad de primer nivel a menos de 30 km.",
+      "actividades": [
+        { "nombre": "Glacier 3000: Alpine Coaster y Peak Walk", "tipo": "alpine_coaster", "km": 27, "lat": 46.3600, "lng": 7.2140, "temporada": "may–oct (coaster); todo el año (Peak Walk)", "url": "https://www.glacier3000.ch/en/leisures/", "url_tipo": "operador_oficial", "km_aprox": true },
+        { "nombre": "Aquaparc Le Bouveret", "tipo": "parque_acuatico", "km": 28, "lat": 46.3850, "lng": 6.8560, "temporada": "todo el año", "url": "https://www.valais.ch/fr/explorer/activites/autres-activites-estivales/parcs-de-loisirs/aquaparc", "url_tipo": "turismo_oficial", "km_aprox": true }
+      ],
+      "fuentes": [
+        { "guia": "Sitio oficial Glacier 3000", "url": "https://www.glacier3000.ch/en/leisures/" }
+      ]
+    },
+    {
+      "id": "ch-monte-tamaro",
+      "puntaje": 5,
+      "justificacion": "Es la montaña de aventura del Tesino, a 20 minutos en teleférico desde Rivera hasta Alpe Foppa (1530 m): tiene el Coaster Bob (800 m, 50 km/h), una tirolesa y un parque de aventura en los árboles. El 007 Bungy Jump de la presa de Verzasca, de 220 m y fama mundial, está a 10 km. Con la misma regla que da el 5 a Bellinzona (14 km del puenting), aquí también corresponde 5.",
+      "actividades": [
+        { "nombre": "Monte Tamaro: Coaster Bob (800 m, 50 km/h), tirolesa y parque de aventura", "tipo": "alpine_coaster", "km": 0, "lat": 46.1100, "lng": 8.8880, "temporada": "primavera–otoño (temporada del teleférico)", "url": "https://www.montetamaro.ch/en/adventure/coaster-bob", "url_tipo": "operador_oficial", "km_aprox": true },
+        { "nombre": "007 Bungy Jump, presa de Verzasca (220 m)", "tipo": "bungee", "km": 10, "lat": 46.1975, "lng": 8.8467, "temporada": "Pascua–oct", "url": "https://007bungy.ch/en/location", "url_tipo": "operador_oficial" }
+      ],
+      "fuentes": [
+        { "guia": "Sitio oficial", "url": "https://www.montetamaro.ch/en/adventure/coaster-bob" },
+        { "guia": "007 Bungy Jump (operador)", "url": "https://007bungy.ch/en/location" }
+      ]
+    },
+    {
+      "id": "at-achensee",
+      "puntaje": 4,
+      "justificacion": "El freeride de la Nordkette (Innsbruck), con el corredor Karrinne, de un 70 % de pendiente, está a 28 km. Se trata como actividad de primer nivel, igual que en Innsbruck y Hall in Tirol, así que a menos de 30 km corresponde 4. KitzSki queda a 51 km.",
+      "actividades": [
+        { "nombre": "Nordkette (Innsbrucker Nordkettenbahnen): freeride en la Karrinne y Skylinepark", "tipo": "esqui", "km": 28, "lat": 47.3100, "lng": 11.3830, "temporada": "nov–abr", "url": "https://www.innsbruck.info/en/skiing/skiing-and-snowboarding/ski-resorts/nordkette.html", "url_tipo": "turismo_oficial", "km_aprox": true },
+        { "nombre": "KitzSki y la Streif del Hahnenkamm", "tipo": "esqui", "km": 51, "lat": 47.4470, "lng": 12.3890, "temporada": "dic–abr", "url": "https://www.tyrol.com/infrastructure/bergbahn-kitzbuehel-hahnenkammbahn", "url_tipo": "turismo_oficial" }
+      ],
+      "fuentes": [
+        { "guia": "Innsbruck Tourismus (Nordkette)", "url": "https://www.innsbruck.info/en/skiing/skiing-and-snowboarding/ski-resorts/nordkette.html" }
+      ]
+    }
+  ],
+  "nuevos": [],
+  "fuentes_quitar": [
+    { "id": "be-spa", "url": "https://www.spa-francorchamps.be/en/search?q=gift" },
+    { "id": "be-coo-ambleve", "url": "https://www.spa-francorchamps.be/en/search?q=gift" },
+    { "id": "be-lieja", "url": "https://www.spa-francorchamps.be/en/search?q=gift" },
+    { "id": "be-hautes-fagnes", "url": "https://www.spa-francorchamps.be/en/search?q=gift" },
+    { "id": "nl-maastricht", "url": "https://www.spa-francorchamps.be/en/search?q=gift" }
+  ],
+  "correcciones_base": [],
+  "busquedas_usadas": 5
+}

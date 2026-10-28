@@ -15,6 +15,7 @@
 //   "ciudad":     ["<id>"],      // añade ciudad
 //   "no_ciudad":  ["<id>"],
 //   "por_que":    { "<id>": "2–3 frases en español" },
+//   "fuentes_quitar": [{ "id": "<id>", "url": "https://..." }],   // como en los archivos fix
 //   "quitar":     ["<id>"],      // ids que no se publican (además, nunca se publica un id sin nombre,
 //                                 // coordenadas, país o logística: p. ej. uno que solo aparece en puntajes)
 //   "notas":      { ... }        // se copian tal cual a curador.json (p. ej. búsquedas de guías sin resultado)
@@ -89,7 +90,7 @@ const ponerBase = (r, e, prioridad) => {
 };
 
 // correcciones del revisor que traen los archivos <agente>-fix<n>.json
-const fuentesQuitar = [], coordenadas = [];
+const fuentesQuitar = [...(aj.fuentes_quitar || [])], coordenadas = [];
 // se procesan por ronda ascendente para que los campos de logística de una ronda posterior ganen
 const entradas = archivos
   .map((f) => ({ f, d: JSON.parse(readFileSync(join(raiz, dirTrabajo, f), 'utf8')) }))

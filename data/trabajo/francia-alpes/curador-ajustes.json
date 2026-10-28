@@ -6,6 +6,13 @@
         "lu-mullerthal"
       ],
       "nombre": "Echternach y el Mullerthal (Pequeña Suiza)"
+    },
+    {
+      "destino": "ch-davos",
+      "origenes": [
+        "ch-klosters"
+      ],
+      "nombre": "Davos y Klosters"
     }
   ],
   "quitar": [],
@@ -25,16 +32,20 @@
   ],
   "no_playa": [
     "fr-etretat",
-    "fr-pointe-du-raz"
+    "fr-pointe-du-raz",
+    "fr-cote-opale",
+    "fr-cote-granit-rose"
   ],
   "ciudad": [
     "fr-biarritz-costa-vasca",
     "fr-menton",
     "nl-leeuwarden-frisia",
     "nl-middelburg-zelanda",
-    "ch-klosters",
     "at-millstatt",
-    "li-malbun"
+    "li-malbun",
+    "fr-puy-du-fou",
+    "ch-brienz",
+    "at-hall-in-tirol"
   ],
   "no_ciudad": [
     "at-mauthausen"
@@ -61,8 +72,8 @@
       "puntaje": 3,
       "fuentes": [
         {
-          "guia": "Rick Steves",
-          "url": "https://blog.ricksteves.com/cameron/2015/06/amazing-albi"
+          "guia": "Rick Steves (Classroom Europe)",
+          "url": "https://classroom.ricksteves.com/videos/toulouse-lautrec-in-albi-france"
         },
         {
           "guia": "Fodor's",
@@ -398,8 +409,8 @@
           "url": "https://media.lonelyplanet.com/shop/pdfs/belgium-luxembourg-6-western-wallonia-preview.pdf"
         },
         {
-          "guia": "Michelin (ViaMichelin, Beffroi de Tournai)",
-          "url": "https://viamichelin.pl/web/Atrakcja-Turystyczna/Tournai-7500-Beffroi_de_Tournai-9536f0725867"
+          "guia": "Frommer's",
+          "url": "https://www.frommers.com/destinations/tournai/things-to-do/"
         }
       ]
     },
@@ -419,6 +430,10 @@
     "be-bosque-de-soignes": {
       "puntaje": 2,
       "fuentes": [
+        {
+          "guia": "Lonely Planet (mejores parques de Bruselas)",
+          "url": "https://www.lonelyplanet.com/articles/best-parks-brussels"
+        },
         {
           "guia": "Lonely Planet",
           "url": "https://www.lonelyplanet.com/points-of-interest/foret-de-soignes/1262118"
@@ -448,8 +463,17 @@
       ]
     },
     "nl-schokland": {
-      "puntaje": 0,
-      "fuentes": []
+      "puntaje": 3,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://lonelyplanet.com/the-netherlands/flevoland/attractions/schokland-museum/a/poi-sig/1126078/1315688"
+        },
+        {
+          "guia": "Frommer's",
+          "url": "https://www.frommers.com/destinations/flevoland/regions-in-brief/schokland/"
+        }
+      ]
     },
     "nl-beemster": {
       "puntaje": 0,
@@ -592,12 +616,49 @@
       "fuentes": [
         {
           "guia": "Lonely Planet (Top Choice)",
-          "url": "https://www.lonelyplanet.com/pois/1128436"
+          "url": "https://www.lonelyplanet.com/points-of-interest/efteling/1128436"
+        }
+      ]
+    },
+    "fr-bayeux-playas-desembarco": {
+      "fuentes": [
+        {
+          "guia": "Ministerio de Asuntos Exteriores de Francia (inscripción UNESCO 2026)",
+          "url": "https://www.diplomatie.gouv.fr/en/presse-et-ressources/decouvrir-et-informer/actualites/comite-du-patrimoine-mondial-de-l-unesco-deux-inscriptions-de-sites-francais-sur-la-liste-du"
         }
       ]
     }
   },
-  "lugares": {},
+  "lugares": {
+    "fr-gorges-du-verdon": {
+      "lat": 43.7956,
+      "lng": 6.3986
+    },
+    "fr-beaune-cote-dor": {
+      "lat": 47.0213,
+      "lng": 4.8376
+    },
+    "fr-cascadas-herisson": {
+      "lat": 46.6196,
+      "lng": 5.8692
+    },
+    "mc-monaco-ville": {
+      "lat": 43.7313,
+      "lng": 7.4197
+    },
+    "nl-giethoorn": {
+      "lat": 52.7394,
+      "lng": 6.0784
+    },
+    "nl-efteling": {
+      "lat": 51.6507,
+      "lng": 5.0497
+    },
+    "nl-walibi-holland": {
+      "lat": 52.441,
+      "lng": 5.7641
+    }
+  },
   "por_que": {
     "fr-aix-en-provence": "La ciudad de Cézanne: palacetes del siglo XVII en el barrio Mazarino, el Cours Mirabeau con la Fontaine de la Rotonde y el mercado diario de la place Richelme, con calissons y rosado de las Coteaux d'Aix. Se puede subir a la Croix de Provence, en la montaña Sainte-Victoire que él pintó, a unos 15 km. El Atelier des Lauves cierra por restauración desde el 1 de noviembre de 2026.",
     "fr-albi": "Ciudad episcopal de ladrillo rojo, Patrimonio Mundial, presidida por Santa Cecilia, una catedral-fortaleza del gótico meridional con un enorme Juicio Final pintado. Al lado, el palacio de la Berbie alberga el Museo Toulouse-Lautrec. Los viñedos de Gaillac, uno de los más antiguos de Francia, quedan a unos 25 km.",
@@ -605,7 +666,7 @@
     "fr-annecy": "Casco antiguo con canales y el Palais de l'Isle, una prisión del siglo XII, a orillas de un lago alpino de agua muy limpia, con playas para bañarse. Se puede dar la vuelta al lago en bici por la vía verde o volar en parapente biplaza desde el Col de la Forclaz, uno de los despegues más prestigiosos de Francia. Para cenar, tartiflette, reblochon y perca del lago.",
     "fr-arles": "El anfiteatro, el teatro y los criptopórticos romanos, más el claustro románico de Saint-Trophime, son Patrimonio Mundial, y la ciudad conserva la huella de Van Gogh y acoge los Rencontres de la fotografía cada verano. Es la puerta de la Camarga: flamencos en el étang de Vaccarès, arroz IGP y gardiane de toro. El sábado hay mercado en el bulevar des Lices.",
     "fr-avinon": "El Palacio de los Papas, el mayor palacio gótico de Europa, y el puente de Saint-Bénézet dominan la ciudad, que en julio se llena con su Festival de teatro. Es la base natural para los Côtes du Rhône: Châteauneuf-du-Pape queda a 15 km, y Les Halles reúnen lo mejor de la cocina provenzal. Llega el TGV directo desde París.",
-    "fr-bayeux-playas-desembarco": "Bayeux tiene una catedral normanda y es la base para recorrer en coche las playas del Desembarco de 1944: Omaha, Arromanches, la Pointe du Hoc y el Cementerio Americano. El tapiz del siglo XI está prestado al British Museum desde el otoño de 2026, hasta que abra el museo nuevo en 2027. Se come cocina normanda de nata y manzana, con camembert, sidra y calvados.",
+    "fr-bayeux-playas-desembarco": "Bayeux tiene una catedral normanda y es la base para recorrer en coche las playas del Desembarco de 1944 (Omaha, Arromanches, la Pointe du Hoc y el Cementerio Americano), inscritas como Patrimonio Mundial en 2026. El tapiz del siglo XI está prestado al British Museum hasta julio de 2027. Se come cocina normanda de nata y manzana, con camembert, sidra y calvados.",
     "fr-beaune-cote-dor": "Es la capital del vino de Borgoña. La Route des Grands Crus recorre los climats de la Côte de Nuits y la Côte de Beaune, Patrimonio Mundial, con cientos de bodegas que reciben visitas. En Beaune, el Hôtel-Dieu de 1443, con su tejado de tejas vidriadas, y la Cité des Climats; entre pueblos se puede pedalear por la Voie des Vignes hasta Santenay.",
     "fr-biarritz-costa-vasca": "Biarritz es una de las cunas del surf europeo, con escuelas en la playa de la Côte des Basques y pintxos en el centro. A pocos kilómetros, Bayona tiene Les Halles, jamón y chocolate, y San Juan de Luz la iglesia de la boda de Luis XIV. La cocina vasca francesa, de piperade y piment d'Espelette, tiene identidad propia.",
     "fr-bonifacio": "Una ciudadela genovesa sobre acantilados de caliza blanca de unos 70 m en el extremo sur de Córcega, con la escalera del Rey de Aragón tallada en la roca. Lo mejor es verla desde el mar, en barco por las grutas hasta las islas Lavezzi, o a pie hasta el cabo Pertusato. Hay pescado del estrecho y vinos AOC de Figari.",
@@ -675,12 +736,12 @@
     "be-amberes": "El Museo Plantin-Moretus es la única imprenta renacentista conservada del mundo, y la ciudad tiene además la catedral con los Rubens, la Casa de Rubens y el KMSKA. Es la capital belga de la moda y de la alta cocina: Zilte tiene tres estrellas y The Jane subió a dos en 2026. Se brinda con un bolleke de De Koninck.",
     "be-ypres-flanders-fields": "Ypres es el centro de la memoria de la Primera Guerra Mundial: el In Flanders Fields Museum en la Lonja de los Paños, la Puerta de Menin, donde suena el Last Post cada día a las 20:00, y los cementerios del Saliente, que se recorren en coche o en bici. Poperinge, capital del lúpulo, y la trapa de Westvleteren quedan a menos de 20 km.",
     "be-lovaina": "Tiene la universidad católica más antigua en funcionamiento, un ayuntamiento gótico flamígero muy recargado y el Gran Beaterio, Patrimonio Mundial, además del Museo M. La Oude Markt, llena de bares de estudiantes, es la plaza de la cerveza en la ciudad de Stella Artois. Está a 20 minutos en tren de Bruselas y a 15 del aeropuerto.",
-    "be-malinas": "La torre de San Rumoldo tiene uno de los mejores carillones del país y, con el Gran Beaterio, es Patrimonio Mundial. El Kazerne Dossin cuenta la deportación de los judíos de Bélgica desde este mismo cuartel. Para beber, la Gouden Carolus de la cervecería Het Anker. Queda a 20 minutos de Bruselas y de Amberes.",
+    "be-malinas": "La torre de San Rumoldo tiene uno de los mejores carillones del país y, con el Gran Beaterio, es Patrimonio Mundial. El Kazerne Dossin cuenta la deportación de los judíos de Bélgica desde este mismo cuartel. Se bebe la Gouden Carolus de la cervecería Het Anker, y Bruselas y Amberes quedan a 20 minutos.",
     "be-costa-belga": "Son 67 km de playas anchas y dunas que recorre de punta a punta el tranvía costero Kusttram, con Ostende, la casa de James Ensor y las villas belle époque de De Haan. En Oostduinkerke todavía se pescan gambas grises a caballo, y las croquetas de gamba son el plato de la costa. Para niños, Plopsaland De Panne está a 27 km.",
     "be-namur": "La ciudadela, una de las mayores de Europa, domina la confluencia del Sambre y el Mosa, y se sube en teleférico. En la ciudad están el campanario Patrimonio Mundial y el museo Félicien Rops. Es la puerta de las Ardenas, a una hora de tren de Bruselas y a media hora del kayak del Lesse.",
     "be-dinant": "La colegiata gótica se aprieta bajo la ciudadela y los acantilados calizos del Mosa, y aquí nació Adolphe Sax, el inventor del saxofón. Es la base del descenso en kayak del Lesse, el más conocido de Bélgica, con tramos de 12 a 21 km hasta Anseremme; en julio y agosto hay que reservar. Para llevar, couque de Dinant.",
     "be-han-sur-lesse": "El Lesse excavó aquí la red de cuevas más conocida de Bélgica, que se visita a pie con salidas cada media hora o cada hora entre febrero y noviembre. La entrada incluye un parque de fauna de las Ardenas que se recorre en safari. Se llega en tren a Jemelle y bus, o en coche.",
-    "be-durbuy": "Es un pueblo medieval de piedra metido en un meandro del Ourthe, con castillo y callejuelas, y presume de ser la «ciudad» más pequeña de Bélgica. Hay buenas caminatas, como la del mirador de la Falize y las rocas plegadas del anticlinal. Para comer, jamón de las Ardenas y caza en otoño. Los fines de semana de temporada se llena.",
+    "be-durbuy": "Es un pueblo medieval de piedra metido en un meandro del Ourthe, con castillo y callejuelas, que presume de ser la «ciudad» más pequeña de Bélgica. Hay buenas caminatas, como la del mirador de la Falize y las rocas plegadas del anticlinal, y para comer, jamón de las Ardenas y caza en otoño. Los fines de semana de temporada se llena.",
     "be-la-roche-en-ardenne": "Las ruinas del castillo feudal vigilan los meandros del Ourthe entre colinas de bosque, y el museo de 1944 recuerda que el pueblo estuvo en la primera línea de la batalla de las Ardenas. Se sube al mirador del Grès de la Roche y en temporada se baja el Ourthe en kayak. En la mesa, jamón y civet de jabalí.",
     "be-bouillon": "El castillo de Godofredo de Bouillon, del siglo X y reforzado por Vauban, se levanta sobre tres espolones de roca encima del Semois, y es uno de los conjuntos feudales mejor conservados de Bélgica. Desde allí se sigue el valle de meandros cerrados hasta Vresse, con el mirador del Tombeau du Géant. La abadía de Orval está a unos 25 km.",
     "be-lieja": "Es la cuna de la gaufre de Liège y de los boulets con sirope; el domingo, el mercado de La Batte se extiende por la orilla del Mosa. En la ciudad están el palacio de los Príncipes-Obispos, el Grand Curtius, con arte mosano, armas y vidrio, y la estación de Guillemins de Calatrava, donde paran el ICE y el TGV. Spa-Francorchamps queda a 35 km.",
@@ -723,9 +784,9 @@
     "nl-naarden": "Es una ciudad fortificada en forma de estrella, con doble foso y bastiones intactos, que forma parte de las Líneas de Defensa por Agua, Patrimonio Mundial. Se da la vuelta a las murallas a pie y se visita el Vestingmuseum, que abre de martes a domingo. Está a 25 minutos de tren de Ámsterdam, con el humedal del Naardermeer muy cerca.",
     "nl-beemster": "El pólder se desecó a comienzos del siglo XVII y conserva intacto su trazado renacentista de caminos, canales y granjas en cuadrícula, por lo que es Patrimonio Mundial. Se recorre en bici desde el centro de visitantes de Middenbeemster, donde también se compra el queso Beemster. Está a unos 20 minutos de Ámsterdam, vía Purmerend.",
     "nl-yerseke": "Es la capital neerlandesa del mejillón y la ostra, cultivados en el Escalda Oriental desde 1870. Se visitan con guía los viveros históricos de ostras y la lonja del mejillón, y desde los diques del parque nacional Oosterschelde salen barcos para ver focas. La temporada de mejillones va de julio a abril, y en verano se celebra el Mosseldag.",
-    "lu-luxemburgo-ciudad": "La ciudad se asienta sobre los restos de una de las mayores fortalezas de Europa, Patrimonio Mundial: las Casamatas del Bock, el barrio del Grund al fondo del valle del Alzette y el Palacio Gran Ducal. A 3 km, en la meseta de Kirchberg, están el MUDAM de I. M. Pei, la Filarmónica y el fuerte Thüngen con el Musée Dräi Eechelen, y el transporte público es gratis en todo el país. Para comer, judd mat gaardebounen y crémant del Mosela, que está a 25 km.",
+    "lu-luxemburgo-ciudad": "La ciudad se asienta sobre los restos de una de las mayores fortalezas de Europa, Patrimonio Mundial: las Casamatas del Bock, el barrio del Grund al fondo del valle del Alzette y el Palacio Gran Ducal. En la meseta de Kirchberg, a 3 km, están el MUDAM de I. M. Pei, la Filarmónica y el fuerte Thüngen, y el transporte público es gratis en todo el país. Para comer, judd mat gaardebounen y crémant del Mosela.",
     "lu-vianden": "Su castillo románico-gótico restaurado, sobre el valle boscoso del Our, es de los más fotogénicos de Europa, y en el pueblo está la casa donde vivió Victor Hugo. Entre abril y octubre funciona el telesilla que sube a la ladera con vistas al castillo. En octubre se celebra la feria de la nuez.",
-    "lu-echternach": "La ciudad más antigua del país tiene la abadía y la basílica de San Willibrord, cuya procesión danzante del martes de Pentecostés es Patrimonio Inmaterial. A pocos minutos del centro empieza el Mullerthal, la «Pequeña Suiza», con gargantas de arenisca como la Wolfsschlucht y bosques de musgo por los que pasa la ruta 2 del Mullerthal Trail hacia Berdorf. Hay bus gratis desde la capital, y conviene no salirse de los senderos, porque todavía hay munición sin explotar de la Segunda Guerra Mundial.",
+    "lu-echternach": "La ciudad más antigua del país tiene la abadía de San Willibrord, cuya procesión danzante de Pentecostés es Patrimonio Inmaterial. Al lado empieza el Mullerthal, la «Pequeña Suiza», con gargantas de arenisca como la Wolfsschlucht y bosques de musgo. Conviene no salirse de los senderos: aún queda munición sin explotar de la Segunda Guerra Mundial.",
     "lu-mosela": "Es la región vinícola del país, con crémant, riesling y auxerrois. En Remich, Caves St Martin enseña casi un kilómetro de túneles calizos con cata, y en Grevenmacher están Bernard-Massard y la cooperativa Vinsmoselle. Se camina entre viñas de Wellenstein a Remich, y en Schengen se visita el museo del acuerdo de 1985.",
     "lu-clervaux": "En el castillo del siglo XII, rehecho después de la batalla de las Ardenas, se expone desde 1994 la última versión completa de The Family of Man, la exposición fotográfica de Edward Steichen que está en el registro Memoria del Mundo de la UNESCO. Encima del pueblo está la abadía de San Mauricio. Se llega en tren gratis desde la capital en una hora.",
     "lu-esch-sur-sure": "Es un pueblo encajado en un meandro del Sûre bajo las ruinas libres de su castillo, a 1 km del lago de la Alta Sûre. En el lago se puede nadar, ir en canoa o vela y subir a un barco solar, porque los motores están prohibidos. El centro del parque natural ocupa la antigua fábrica de paños.",
@@ -754,13 +815,12 @@
     "ch-valle-verzasca": "Es un valle de agua verde esmeralda y pozas de granito, con el Ponte dei Salti de doble arco en Lavertezzo y aldeas de piedra como Corippo y Sonogno. En la entrada, la presa ofrece el puenting de 220 m de GoldenEye. Hay que llegar temprano porque el aparcamiento es escaso, y no hay que bañarse cerca de remolinos ni después de lluvias: el río ahoga a alguien casi cada verano.",
     "ch-st-moritz-engadina": "St. Moritz tiene la Olympia Bob Run, de 1904, la pista de bobsleigh más antigua del mundo y la única de hielo natural, donde el público baja en un bob con piloto a unos 130 km/h. Es extremo del Ferrocarril Rético del Albula y el Bernina, Patrimonio Mundial, y los pueblos de la Alta Engadina, como Zuoz, tienen casas con esgrafiados. Hay alta cocina, como Da Vittorio, con dos estrellas, y tarta de nueces engadina.",
     "ch-parque-nacional-suizo": "Es el único parque nacional de Suiza, creado en 1914, y una reserva de protección estricta con íbices, ciervos, quebrantahuesos y marmotas, unos 100 km de senderos y ninguna concesión: no se puede salir del camino, llevar perro, hacer fuego ni acampar. La ruta clásica sube de Zernez a la Chamanna Cluozza, la única cabaña del parque. Los senderos están sin nieve más o menos de junio a octubre.",
-    "ch-guarda": "Es un pueblo modelo de la cultura romanche, a 1650 m sobre la Baja Engadina, con casas del siglo XVII decoradas con esgrafiados, portalones en arco y vistas al Piz Buin. Ganó el premio Wakker en 1975 y es el escenario del cuento de Schellen-Ursli. En invierno, la Silvretta Arena de Ischgl y Samnaun, con 239 km de pistas, queda a 24 km.",
+    "ch-guarda": "Es un pueblo modelo de la cultura romanche, a 1650 m sobre la Baja Engadina, con casas del siglo XVII decoradas con esgrafiados, portalones en arco y vistas al Piz Buin. Ganó el premio Wakker en 1975 y es el escenario del cuento de Schellen-Ursli. Para esquiar, Motta Naluns, sobre Scuol, queda a unos 9 km y tiene 70 km de pistas.",
     "ch-glaciar-aletsch": "El Gran Glaciar de Aletsch, de unos 20 km, es el mayor de los Alpes y el eje del sitio UNESCO Jungfrau-Aletsch. Se ve desde arriba subiendo en teleférico al Eggishorn o caminando de Fiescheralp a Bettmeralp, que son pueblos sin coches. No hay que pisar el hielo sin guía de montaña, porque tiene grietas ocultas.",
     "ch-saas-fee": "Es un pueblo sin coches en un circo glaciar rodeado de cumbres de 4000 m del Valais. El teleférico y el metro alpino suben al Allalin, sobre el glaciar Fee, donde hay nieve garantizada para esquiar, y en verano la alta montaña queda a mano. Se llega en bus PostAuto desde Visp.",
     "ch-engelberg-titlis": "A 45 minutos en tren de Lucerna, varios teleféricos encadenados suben del pueblo al glaciar del Titlis, a 3020 m, con el puente colgante Titlis Cliff Walk, y pasan por el lago Trübsee. Abajo, la abadía benedictina de 1120 tiene una iglesia barroca y una quesería a la vista. Abre casi todo el año.",
     "ch-murten": "Es una pequeña ciudad con una muralla medieval de 12 torres que se puede recorrer por arriba y calles de casas con soportales, junto al campo de la batalla de 1476 contra Carlos el Temerario. A 8 km está Aventicum, la antigua capital romana de los helvecios. Se prueba el Nidelkuchen y los vinos del Vully, y hay barcos por tres lagos.",
     "ch-einsiedeln": "Es el principal santuario de peregrinación de Suiza: una iglesia abacial barroca de 1719-1735, obra maestra del barroco de Vorarlberg, que guarda la Virgen Negra en la Capilla de la Gracia y fue etapa medieval del Camino de Santiago. Queda a una hora de Zúrich en S-Bahn. Para llevar, los Schafböcke, galletas con forma de carnero.",
-    "ch-klosters": "Es un pueblo de chalés del Prättigau, junto a Davos, más tranquilo que su vecino. Del lado de la estación sale el teleférico de la Gotschna para esquiar o caminar hacia la Silvretta. Se llega en tren de los Ferrocarriles Réticos desde Landquart o por el túnel de la Vereina desde la Engadina.",
     "ch-monte-tamaro": "Desde Rivera, una telecabina sube en 20 minutos a Alpe Foppa, a 1530 m, donde están el Coaster Bob de 800 m, una tirolesa, un parque de aventura y la capilla de Mario Botta con pinturas de Enzo Cucchi. Desde allí sale la travesía por la cresta hasta el Monte Lema, en la frontera con Italia, con vistas a los lagos de Lugano y Maggiore. En el invierno 2026-27 solo abre los fines de semana y sin las atracciones de verano.",
     "ch-st-gallen": "El recinto de la abadía es Patrimonio Mundial como modelo de gran monasterio carolingio. Su biblioteca barroca es una de las más antiguas del mundo y guarda el plano arquitectónico en pergamino más antiguo que se conoce, junto a una catedral rococó. La biblioteca cierra del 9 al 23 de noviembre de 2026. Se come la St. Galler Bratwurst, que se toma sin mostaza.",
     "ch-mustair": "Fundado hacia 775, probablemente por orden de Carlomagno, este convento benedictino sigue habitado por monjas y conserva en su iglesia el mayor ciclo de frescos carolingios que se mantiene en su sitio original. Es Patrimonio Mundial y está en el Val Müstair, junto a la frontera italiana, dentro de la reserva de la biosfera que comparte con el Parque Nacional Suizo. Se llega en bus postal desde Zernez por el paso del Ofen.",
@@ -775,8 +835,8 @@
     "at-hallstatt": "La mina de sal de Hallstatt, explotada desde la prehistoria, dio nombre a una cultura de la Edad del Hierro, y el pueblo, colgado sobre el lago con su osario de calaveras pintadas, es el centro de un paisaje Patrimonio Mundial. El teleférico del Krippenstein sube al mirador 5fingers y a las cuevas de hielo del Dachstein entre mayo y octubre. El pueblo tiene unos 700 habitantes y recibe hasta 10.000 visitantes al día, así que conviene dormir allí o llegar muy temprano.",
     "at-wachau": "Es el tramo del Danubio entre Melk y Krems, Patrimonio Mundial, con la abadía barroca de Melk, el castillo de Dürnstein donde estuvo preso Ricardo Corazón de León y terrazas de viñedo medievales. La Wachau es una de las grandes regiones de blanco del mundo, con grüner veltliner y riesling Smaragd que se beben en los Heurigen junto a albaricoques. Se baja en bici (unos 36 km) o en los barcos de la DDSG, de marzo a noviembre.",
     "at-innsbruck": "Es la única gran ciudad de los Alpes: desde el centro, el funicular de Zaha Hadid y los teleféricos suben en unos 20 minutos a la Nordkette, a 2250 m, donde el corredor Karrinne tiene un 70 % de pendiente. Abajo están el Tejadillo de Oro, la Hofkirche con las 28 estatuas de bronce de Maximiliano I y el castillo de Ambras. Para comer, Gröstl y Speckknödel.",
-    "at-hall-in-tirol": "Tiene el casco antiguo más grande del Tirol, enriquecido por la sal, y en el castillo de Hasegg está la Casa de la Moneda donde se acuñaron los primeros táleros, antecesores del dólar. Rick Steves lo recomienda para dormir en lugar de Innsbruck, a 10 minutos. Schwarzer Adler tiene estrella Michelin, y el freeride de la Nordkette queda a 10 km.",
-    "at-grossglockner": "La carretera alpina de 1935, de 48 km y 36 curvas, sube hasta la Kaiser-Franz-Josefs-Höhe, frente al Grossglockner (3798 m) y el glaciar Pasterze, dentro del Hohe Tauern, el mayor parque nacional de los Alpes. Abre solo de primavera a otoño, cobra 46,50 euros por coche en 2026 y puede cerrarse por nieve incluso en verano. Arriba, a unos 2500 m, hay niebla y frío.",
+    "at-hall-in-tirol": "Tiene el casco antiguo más grande del Tirol, enriquecido por la sal, y en el castillo de Hasegg está la Casa de la Moneda donde se acuñaron los primeros táleros, antecesores del dólar. Rick Steves lo recomienda para dormir en lugar de Innsbruck, a 10 minutos. El Schwarzer Adler tiene dos estrellas Michelin, y el freeride de la Nordkette queda a 10 km.",
+    "at-grossglockner": "La carretera alpina de 1935, de 48 km y 36 curvas, sube hasta la Kaiser-Franz-Josefs-Höhe, frente al Grossglockner (3798 m) y el glaciar Pasterze, dentro del Hohe Tauern, el mayor parque nacional de los Alpes. Es de peaje, abre solo de primavera a otoño y puede cerrarse por nieve incluso en verano. Arriba, a unos 2500 m, hay niebla y frío.",
     "at-cascadas-krimml": "Son las cascadas más altas de Austria: 380 m en tres saltos del Krimmler Ache, dentro del Parque Nacional Hohe Tauern. El Wasserfallweg sube junto a los saltos con miradores, y la primera cascada está a 15 minutos del aparcamiento. El sendero de pago abre de mayo a finales de octubre; se llega en el tren de vía estrecha del Pinzgau desde Zell am See.",
     "at-werfen-eisriesenwelt": "La Eisriesenwelt es la mayor cueva de hielo del mundo, con más de 42 km de galerías, y se visita en una ruta guiada de 1 h 15 con lámparas de carburo por el primer kilómetro helado. Hay unos 1400 escalones y temperaturas bajo cero incluso en verano; abre del 1 de mayo al 26 de octubre y no se permiten fotos. Sobre el pueblo está la fortaleza de Hohenwerfen, con exhibiciones de cetrería.",
     "at-zell-am-see-kaprun": "Es un lago alpino al borde del Hohe Tauern. Sobre Kaprun está el glaciar del Kitzsteinhorn, que fue la primera estación de esquí de glaciar de Austria y abre de octubre a junio, y el Schmittenhöhe es el mirador sobre el lago. Se llega en tren desde Salzburgo en hora y media, y en verano se nada y se navega en el Zeller See.",
@@ -846,11 +906,12 @@
     "ch-verbier": "Verbier es la puerta de las 4 Vallées, con unos 410 km de pistas hasta el Mont-Fort (3.330 m), y su Bec des Rosses acoge desde 1996 el Xtreme, la final del Freeride World Tour. En verano hay excursiones al lago de los Vaux y el Tour du Mont-Fort, de varios días, y en julio el Verbier Festival trae música clásica de primer nivel. En el Val de Bagnes se hace la Raclette du Valais AOP.",
     "ch-flims-laax": "Laax es la referencia del freestyle en Europa, con cinco snowparks y un halfpipe de 200 m. En verano, la Ruinaulta, el desfiladero del Rin Anterior abierto entre los derrubios de un deslizamiento prehistórico, se baja en rafting entre paredes de hasta 300 m o se mira desde el mirador Il Spir. En el bosque de Flims, el Caumasee es un lago turquesa con baño.",
     "ch-glacier-3000": "Un teleférico sube desde el Col du Pillon a los 3.000 m del macizo de los Diablerets, donde el Peak Walk une dos cumbres con un puente colgante de 107 m y el Alpine Coaster es la pista de trineo sobre raíles más alta del mundo. En verano hay rutas por el glaciar de Tsanfleuron hasta la Quille du Diable. Gstaad está a unos 15 km, y en L'Etivaz se cuaja al fuego de leña el queso AOP que lleva su nombre.",
-    "ch-davos": "El Parsenn sale del propio pueblo hacia el Weissfluhjoch y tiene un descenso de 12 km hasta Küblis con unos 2.000 m de desnivel, dentro de los 300 km de pistas de Davos Klosters. El Museo Kirchner guarda la mayor colección del expresionista, y la Schatzalp, escenario de La montaña mágica de Thomas Mann, tiene un jardín alpino de más de 3.500 especies. En verano, el Panoramaweg y los valles de Sertig y Dischma.",
+    "ch-davos": "Davos y Klosters comparten un dominio de 300 km de pistas: el Parsenn sube desde Davos al Weissfluhjoch y baja 12 km hasta Küblis con unos 2.000 m de desnivel, y desde Klosters el teleférico de la Gotschna enlaza con el mismo sector. En Davos, el Museo Kirchner guarda la mayor colección del expresionista y la Schatzalp fue el escenario de La montaña mágica de Thomas Mann, mientras que Klosters, a 10 km, es un pueblo de chalés más tranquilo. En verano, el Panoramaweg y los valles de Sertig y Dischma.",
     "at-zillertal-mayrhofen": "Sobre Mayrhofen, la Harakiri del Penken es la pista más empinada de Austria (78 %), y el glaciar de Hintertux, a 18 km, abre los 365 días del año. En verano, la carretera del Schlegeis sube a 1.800 m, punto de partida hacia los refugios del parque natural de los Alpes del Ziller y del Berliner Höhenweg, de ocho días. La quesería de leche de heno de Mayrhofen se visita tras una vidriera.",
     "at-schladming-dachstein": "La Planai sale del propio Schladming y acoge cada enero The Nightrace, el eslalon nocturno de la Copa del Mundo, en una red de unos 123 km de pistas. Desde Ramsau, un teleférico sube al glaciar del Dachstein, a unos 2.700 m, donde el Skywalk, el puente colgante y la 'escalera a la nada' asoman sobre la pared sur.",
     "at-swarovski-wattens": "André Heller creó en 1995, para el centenario de Swarovski, un gigante de 17 m que esconde las Cámaras de las Maravillas, salas de instalaciones con obras de artistas contemporáneos. Desde 2015 lo rodean 7,5 ha de jardines. Está a unos 25 minutos en bus de Innsbruck.",
-    "at-eisenstadt": "Haydn sirvió unos 40 años a los Esterházy, y en su palacio se conserva la sala Haydn barroca donde estrenó muchas de sus obras; está enterrado en la Bergkirche. La ciudad está en la DAC Leithaberg, de blaufränkisch y blancos sobre caliza, y el lago Neusiedl queda a unos 10 km. Es una excursión fácil desde Viena."
+    "at-eisenstadt": "Haydn sirvió unos 40 años a los Esterházy, y en su palacio se conserva la sala Haydn barroca donde estrenó muchas de sus obras; está enterrado en la Bergkirche. La ciudad está en la DAC Leithaberg, de blaufränkisch y blancos sobre caliza, y el lago Neusiedl queda a unos 10 km. Es una excursión fácil desde Viena.",
+    "nl-schokland": "Fue una isla del Zuiderzee, evacuada en 1859, y hoy es una loma alargada en medio del Noordoostpolder, Patrimonio Mundial desde 1995. El museo de Middelbuurt, junto a la iglesia, expone herramientas de la Edad del Bronce y huesos de mamut hallados al desecar el mar. Una ruta a pie de 10 km rodea la antigua isla, cuyo contorno dibujan los árboles."
   },
   "notas": {
     "FR": {
@@ -951,6 +1012,44 @@
       "playa_r3": "Playa según naturaleza-r3 ('LUGAR DE PLAYA: sí'): fr-ile-de-re, fr-collioure, fr-saint-tropez, fr-antibes-cannes, fr-camarga, fr-crozon y nl-texel. No se añade playa a fr-cote-granit-rose ni fr-quimper-cornualles ('parcialmente'), fr-cote-opale ('sí, con matices': agua fría, el motivo son los cabos), fr-bahia-somme, fr-la-rochelle ni nl-deltawerken ('no').",
       "por_que_ampliados": "Se añaden Dinan a fr-saint-malo, Haut-Koenigsbourg a fr-colmar-ruta-vino-alsacia y Kirchberg/MUDAM a lu-luxemburgo-ciudad, como pidió cobertura. Swarovski Wattens tiene lugar propio (at-swarovski-wattens), así que no se añade a at-hall-in-tirol.",
       "mauthausen": "at-mauthausen pasa de 'ciudad' a 'no_ciudad': es un memorial, no una ciudad."
+    },
+    "ronda4": {
+      "nl-schokland": "Recuperado: guias-expertas-fix1 le da guias 3 (Lonely Planet, ficha del Museo de Schokland, y Frommer's). El ajuste de guías del curador pasa de 0 a 3 con esas dos fuentes, y se escribe su por_que. Global 3,0 (muy_recomendado).",
+      "fuentes_guias_curador": "fr-albi: se quita la entrada del blog de un empleado de Rick Steves (2015) y se cita el vídeo de Rick Steves Classroom sobre Toulouse-Lautrec en Albi; no apareció ninguna página de Frommer's sobre Albi, así que siguen 2 guías (guias 3). fr-castillos-cataros: la página de archivo del blog la quita guias-expertas-fix1. nl-efteling: URL canónica lonelyplanet.com/points-of-interest/efteling/1128436. be-bosque-de-soignes: la ficha POI solo aparece en el espejo nonprod; se añade el artículo de producción lonelyplanet.com/articles/best-parks-brussels, que la incluye entre los mejores parques de Bruselas (guias 2, igual). be-pairi-daiza: guias-expertas-fix1 cambia vrtnws.be por la nota de prensa del parque.",
+      "viamichelin": "Criterio único: las fichas de ViaMichelin no cuentan como guía en ningún lugar. be-tournai pierde la de viamichelin.pl y se cita Frommer's (Things to do in Tournai): Lonely Planet + Frommer's = 2 guías, guias 3 sin cambio. at-carnuntum sigue con guias 0.",
+      "coordenadas": "Los siete lugares con 2 decimales tienen ahora 4 en lugares: fr-gorges-du-verdon, fr-beaune-cote-dor, fr-cascadas-herisson, mc-monaco-ville y nl-giethoorn (mismos valores que correcciones_base de guias-expertas-fix1 y naturaleza-fix1), nl-efteling (51,6507; 5,0497, latlong.net) y nl-walibi-holland (52,4410; 5,7641, Sygic y Travelprofy).",
+      "playa": "Se quita playa de fr-cote-opale y fr-cote-granit-rose (no_playa), como decía notas.ronda3.playa_r3: la playa venía del tipo costa.",
+      "categorias": "fr-puy-du-fou pasa a ciudad. Es un parque de espectáculos históricos y no tiene ningún temático ≥ 3,5, así que se usa el respaldo para no publicarlo como adrenalina. Si cultura-historia le sube la cultura a ≥ 3,5, también saldrá como cultura. ch-brienz y at-hall-in-tirol se añaden a ciudad como respaldo por si adrenalina-fix1 les baja la adrenalina por debajo de 3,5. at-bregenzerwald (gastronomía 4) y ch-bellinzona (cultura 4 y ciudad) ya tienen otra categoría.",
+      "klosters_davos": "Se fusiona ch-klosters en ch-davos con el nombre «Davos y Klosters». Están a unos 10 km, comparten el dominio Davos Klosters (Parsenn y Gotschna, 300 km de pistas) y las guías lo tratan como un solo destino de esquí. Con la fusión desaparece la incoherencia entre a3 y a5 por el mismo Parsenn. Se quedan las coordenadas y la logística de Davos, y se reescribe su por_que para incluir Klosters.",
+      "por_que": "ch-guarda: se quita la Silvretta Arena «a 24 km» y se usa Motta Naluns (Scuol, unos 9 km). at-hall-in-tirol: el Schwarzer Adler tiene dos estrellas Michelin en 2026 (tyrol.com, presse.tirol.at). at-grossglockner: se quita el precio de 46,50 €, que no se confirmó. be-malinas, be-durbuy y lu-luxemburgo-ciudad pasan a 3 frases, y lu-echternach a menos de 350 caracteres. fr-bayeux-playas-desembarco menciona la inscripción de las playas del Desembarco como Patrimonio Mundial en 2026 y cita el comunicado de diplomatie.gouv.fr (añadido como fuente sin puntaje en guias). Las alertas de fr-aix-en-provence (cierre del Atelier de Cézanne) y de fr-bayeux (tapiz en Londres hasta julio de 2027) ya llegan en logistica-temporada-fix1.",
+      "fuentes_quitar": "curar.mjs solo lee fuentes_quitar de los archivos <agente>-fix<n>.json, no de curador-ajustes.json. La lista fuentes_quitar de este archivo documenta lo que debe salir. Ya lo quitan los fix1 de los especialistas: swissactivities (ch-glacier-3000, naturaleza-fix1), alt.schladming-dachstein.at/pl y skiamade.com/nl (logistica-temporada-fix1) y Time Out Aletsch «Advertising» (guias-expertas-fix1). PENDIENTE: https://vermieter-alt.schladming-dachstein.at/en/regional-and-offerings/News/Urlaubszentrum/SD/Nightrace (at-schladming-dachstein) no la quita ningún fix1. Para quitarla, el orquestador puede añadir en curar.mjs la lectura de aj.fuentes_quitar o pedírselo a adrenalina/logística en su fix."
     }
-  }
+  },
+  "fuentes_quitar": [
+    {
+      "id": "at-schladming-dachstein",
+      "url": "https://vermieter-alt.schladming-dachstein.at/en/regional-and-offerings/News/Urlaubszentrum/SD/Nightrace",
+      "motivo": "Subdominio antiguo (vermieter-alt.) del turismo regional."
+    },
+    {
+      "id": "at-schladming-dachstein",
+      "url": "https://alt.schladming-dachstein.at/pl/serwis/a-z/Stairway-to-nothingness_az_819501",
+      "motivo": "Subdominio antiguo y en polaco (ya en logistica-temporada-fix1)."
+    },
+    {
+      "id": "at-schladming-dachstein",
+      "url": "https://skiamade.com/nl/The-Nightrace-in-Schladming_e_443959",
+      "motivo": "Versión en neerlandés (ya en logistica-temporada-fix1)."
+    },
+    {
+      "id": "ch-glacier-3000",
+      "url": "https://www.swissactivities.com/en-gb/glacier-3000---the-glacier-world-in-les-diablerets/",
+      "motivo": "Revendedor (ya en naturaleza-fix1)."
+    },
+    {
+      "id": "ch-glaciar-aletsch",
+      "url": "https://www.timeout.com/switzerland/things-to-do/5-great-things-to-do-in-aletsch-arena",
+      "motivo": "Contenido pagado 'Advertising' (ya en guias-expertas-fix1)."
+    }
+  ]
 }
