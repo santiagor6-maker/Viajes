@@ -1,0 +1,612 @@
+{
+  "agente": "gastronomia-vino",
+  "subregion": "francia-alpes",
+  "ronda": 4,
+  "estado": "completo",
+  "nota": "Corrección de la ronda 1 del revisor (grupos a y b). Se usaron 25 WebSearch; WebFetch está bloqueado. Se sustituyeron las listas genéricas de TasteAtlas por fichas concretas (bouillabaisse, calissons, choucroute, restaurantes de socca), oficinas de turismo o páginas Michelin, y la oferta de empleo de Les 3 Vallées por la ficha de The World's 50 Best y las webs oficiales. No aparecieron en las búsquedas champagne.fr, vinea-wachau.at, kamptal.at ni leithaberg.at: Champaña se respalda con la carta de acogida del CIVC y la misión UNESCO, y las DAC austriacas con la página del Ministerio de Agricultura. No apareció la lista oficial Michelin 2026 de Cannes, Antibes, Niza ni Marsella, ni la selección Michelin Suiza 2026, así que en Suiza se cita la lista completa 2025 de guide.michelin.com. Gruyères baja de 5 a 4 para quedar coherente con Basilea y Lausana. Suben Rotterdam (4), Menton (4), Hall in Tirol (4), Lech Zürs (4) y Werfen (3).",
+  "puntajes": [
+    {
+      "id": "fr-les-3-vallees",
+      "puntaje": 4,
+      "justificacion": "Courchevel es una de las estaciones de esquí con más alta cocina del mundo. Le 1947 à Cheval Blanc, de Yannick Alléno, en Courchevel 1850, es el único tres estrellas Michelin de los Alpes franceses de estación y figura en la selección de The World's 50 Best. Se suma la cocina saboyana de queso en los refugios de los tres valles.",
+      "platos": ["Beaufort AOP", "Fondue savoyarde", "Tartiflette", "Alta cocina de estación"],
+      "fuentes": [
+        {"guia": "The World's 50 Best (Le 1947, Courchevel)", "url": "https://www.theworlds50best.com/discovery/Establishments/France/Courchevel/Le-1947.html"},
+        {"guia": "Courchevel Tourisme (oficial, Le 1947 à Cheval Blanc)", "url": "https://courchevel.com/en/a/le-1947-a-cheval-blanc-185096/"},
+        {"guia": "Cheval Blanc Courchevel (restaurante oficial)", "url": "https://www.chevalblanc.com/en/maison/courchevel/restaurants-and-bars/le-1947-cheval-blanc"}
+      ]
+    },
+    {
+      "id": "fr-saint-malo",
+      "puntaje": 3,
+      "justificacion": "Tiene la cocina bretona de crêperies y galettes de trigo sarraceno, la mantequilla salada y la sidra. Cancale, a 14 km, es la capital de la ostra plana y creuse, con mercado de ostras en el puerto y una tradición inscrita en el patrimonio inmaterial francés.",
+      "platos": ["Galette de sarrasin", "Ostras de Cancale", "Poulet au cidre", "Kouign-amann"],
+      "fuentes": [
+        {"guia": "Tourisme Bretagne (oficial, ostras de Cancale)", "url": "https://www.tourismebretagne.com/selon-mes-envies/gastronomie/les-produits-de-la-mer/les-huitres/"},
+        {"guia": "Tourisme Bretagne (oficial, Cancale)", "url": "https://www.tourismebretagne.com/destinations/les-10-destinations/cap-frehel-saint-malo-baie-du-mont-saint-michel/cancale"}
+      ]
+    },
+    {
+      "id": "fr-reims-champana",
+      "puntaje": 5,
+      "justificacion": "Es una región vinícola de referencia mundial. Las Laderas, Casas y Bodegas de Champaña son Patrimonio Mundial desde 2015, y en la colina Saint-Nicaise de Reims hay crayères visitables, como las de Veuve Clicquot, Ruinart y Pommery. El Comité Champagne (CIVC), la interprofesión de la denominación, tiene una carta de acogida para las bodegas que reciben visitas, y bajo la Avenue de Champagne de Épernay corren más de 110 km de bodegas.",
+      "platos": ["Champán", "Biscuits roses de Reims", "Jambon de Reims", "Chaource"],
+      "fuentes": [
+        {"guia": "Comité Champagne (CIVC, carta de acogida en bodegas)", "url": "https://vignoble-champenois.chambres-agriculture.fr/fileadmin/user_upload/Grand-Est/Eve_51-Viti-champenoise/oenotourisme/CHARTE_ACCUEIL-CIVC-1.pdf"},
+        {"guia": "Mission Coteaux, Maisons et Caves de Champagne (UNESCO, enoturismo)", "url": "https://www.champagne-patrimoinemondial.org/sites/default/files/2020-10/brochure-synthese-oenotourisme-web.pdf"},
+        {"guia": "Tourisme en Champagne (turismo oficial)", "url": "https://tourisme-en-champagne.com/en/?p=20472"},
+        {"guia": "Tourisme en Champagne (turismo oficial)", "url": "https://tourisme-en-champagne.com/en/all-about-champagne/vignobles-decouvertes-2/the-southern-slopes-of-epernay-and-the-cote-des-blancs/"}
+      ]
+    },
+    {
+      "id": "fr-cognac",
+      "puntaje": 4,
+      "justificacion": "Es la capital del aguardiente más famoso de Francia, con casas visitables a orillas del Charente. Hennessy organiza visitas a bodegas y tonelería con cruce del río en barco, y Rémy Martin a su casa histórica y a sus viñedos de Grande Champagne. La interprofesión (BNIC) reúne la oferta de visitas bajo la marca colectiva Explore Cognac, con casi cincuenta experiencias.",
+      "platos": ["Coñac", "Pineau des Charentes", "Mejillones con pineau", "Galette charentaise"],
+      "fuentes": [
+        {"guia": "BNIC (interprofesión del Cognac, oferta turística Explore Cognac)", "url": "https://www.cognac.fr/en/press/tourism-the-cognac-collective-offer-is-expanding-with-new-experiences-to-discover/"},
+        {"guia": "Cognac Tourisme (turismo oficial)", "url": "https://www.destination-cognac.com/en/wine-tourism/cognac/visits-to-trading-houses-distilleries-and-vineyards/"},
+        {"guia": "Cognac Tourisme (turismo oficial)", "url": "https://www.destination-cognac.com/en/wine-tourism/cognac/degustation/"}
+      ]
+    },
+    {
+      "id": "fr-aix-en-provence",
+      "puntaje": 3,
+      "justificacion": "Es la ciudad de los calissons, una pasta de almendra y melón confitado sobre oblea, que se elaboran aquí desde el siglo XV y se pueden ver hacer en las confiterías. Tiene mercados diarios en la place Richelme y el rosado de las Coteaux d'Aix.",
+      "platos": ["Calissons d'Aix", "Rosado Coteaux d'Aix-en-Provence", "Tapenade", "Ratatouille"],
+      "fuentes": [
+        {"guia": "TasteAtlas (calissons d'Aix)", "url": "https://www.tasteatlas.com/calissons-daix"},
+        {"guia": "France.fr (turismo oficial, fabricación del calisson)", "url": "https://www.france.fr/en/provence/moodboard/manufaturing-calisson-aix-roy-reine"}
+      ]
+    },
+    {
+      "id": "fr-arles",
+      "puntaje": 3,
+      "justificacion": "Es la puerta de la Camarga, con el arroz IGP, la carne de toro en gardiane, el saucisson d'Arles y la flor de sal de Camarga, IGP desde 2024. Tiene un gran mercado de sábado en el bulevar des Lices.",
+      "platos": ["Gardiane de taureau", "Arroz de Camarga IGP", "Saucisson d'Arles", "Fleur de sel de Camargue IGP"],
+      "fuentes": [
+        {"guia": "INAO (IGP Sel de Camargue)", "url": "https://inao.gouv.fr/sites/default/files/2024-02/CP_INAO_IGP-Sel_de_Camargue_02-02-2024.pdf"},
+        {"guia": "France Today (gastronomía de la Camarga)", "url": "https://francetoday.com/food-drink/foodie-holidays/gourmet_travels_in_the_camargue/"}
+      ]
+    },
+    {
+      "id": "fr-luberon",
+      "puntaje": 3,
+      "justificacion": "Apt es la capital de la fruta confitada, un saber hacer inscrito en el inventario francés del patrimonio inmaterial, con la Maison du Fruit Confit, confiterías como Marcel Richaud y un museo en una antigua fábrica. Se suman los mercados provenzales semanales, los vinos AOC Luberon, la trufa negra y el aceite de oliva.",
+      "platos": ["Frutas confitadas de Apt", "Trufa negra (Tuber melanosporum)", "Vinos AOC Luberon", "Tapenade"],
+      "fuentes": [
+        {"guia": "Luberon.fr (Office de Tourisme Pays d'Apt Luberon, gastronomía)", "url": "https://luberon.fr/page/gastronomie-et-produits-locaux-en-luberon+173624.html"},
+        {"guia": "Ministerio de Cultura (inventario PCI, fruta confitada de Apt)", "url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-fabrication-des-fruits-confits-d-Apt"}
+      ]
+    },
+    {
+      "id": "fr-menton",
+      "puntaje": 4,
+      "justificacion": "Aquí está Mirazur, de Mauro Colagreco, con tres estrellas Michelin y estrella verde, cocina creativa de su propio huerto en permacultura y número uno de The World's 50 Best en 2019. Se suman el limón de Menton IGP, la Fête du Citron y la cocina ligur y provenzal.",
+      "platos": ["Limón de Menton IGP", "Barbajuan", "Socca", "Tourte de blettes"],
+      "fuentes": [
+        {"guia": "Guía Michelin (Mirazur)", "url": "https://guide.michelin.com/lu/fr/provence-alpes-cote-dazur/menton/restaurant/mirazur"}
+      ]
+    },
+    {
+      "id": "fr-niza",
+      "puntaje": 4,
+      "justificacion": "Su cocina nizarda tiene identidad propia: la socca de garbanzos cocida en placas de cobre en horno de leña se toma en puestos como La Socca d'Or o Socca'Tram, que TasteAtlas destaca. Se completan la pissaladière, el pan bagnat, el mercado del Cours Saleya y el pequeño viñedo AOC Bellet dentro de la ciudad.",
+      "platos": ["Socca", "Pissaladière", "Pan bagnat", "Salade niçoise"],
+      "fuentes": [
+        {"guia": "TasteAtlas (La Socca d'Or, Niza)", "url": "https://tasteatlas.com/la-socca-dor"},
+        {"guia": "TasteAtlas (Socca'Tram, Niza)", "url": "https://tasteatlas.com/soccatram"}
+      ]
+    },
+    {
+      "id": "fr-marsella-calanques",
+      "puntaje": 4,
+      "justificacion": "Es la cuna de la bouillabaisse, que nació en el siglo XVIII con la pesca sobrante de los pescadores y se sirve con el pescado cortado delante del cliente, con la rascasse como pieza clave. La cocina es portuaria, con panisses, navettes y el mercado de pescado del Vieux-Port, y los blancos de Cassis están junto a las Calanques.",
+      "platos": ["Bouillabaisse", "Panisse", "Navettes", "Blanco de Cassis"],
+      "fuentes": [
+        {"guia": "Marseille Tourisme (oficial, la bouillabaisse)", "url": "https://www.marseille-tourisme.com/en/discover-marseille/local-food/la-bouillabaisse/"},
+        {"guia": "TasteAtlas (bouillabaisse)", "url": "https://tasteatlas.com/bouillabaisse"}
+      ]
+    },
+    {
+      "id": "fr-avinon",
+      "puntaje": 4,
+      "justificacion": "Está en el corazón de los Côtes du Rhône, con Les Halles de Avignon como mercado. Châteauneuf-du-Pape, a 15 km, tiene vinoteca de la denominación, el museo del vino y bodegas con cata. La cocina es provenzal.",
+      "platos": ["Châteauneuf-du-Pape y Côtes du Rhône", "Ratatouille", "Papalines d'Avignon", "Tapenade"],
+      "fuentes": [
+        {"guia": "AOC Châteauneuf-du-Pape (federación de productores)", "url": "https://en.chateauneuf.com/wine-cellar-visit-tasting-chateauneuf-du-pape/"}
+      ]
+    },
+    {
+      "id": "fr-biarritz-costa-vasca",
+      "puntaje": 4,
+      "justificacion": "La cocina vasca francesa tiene identidad propia, con piperade y poulet basquaise sazonados con piment d'Espelette AOP, que se seca en ristras en las fachadas del pueblo de Espelette, a 25 km. Se suman el jamón de Bayona, Les Halles de Bayona, el chocolate de Bayona y los pintxos de Biarritz.",
+      "platos": ["Piperade", "Poulet basquaise", "Jamón de Bayona", "Gâteau basque"],
+      "fuentes": [
+        {"guia": "Tourisme 64 (oficial, Espelette y su pimiento)", "url": "https://www.tourisme64.com/en/our-destinations/welcome-to-the-basque-country/espelette/"}
+      ]
+    },
+    {
+      "id": "fr-estrasburgo",
+      "puntaje": 4,
+      "justificacion": "Es la capital de la cocina alsaciana de winstub: choucroute garnie con chucrut IGP, salchichas de Estrasburgo y riesling, baeckeoffe, flammekueche y coq au riesling. La Ruta del Vino de Alsacia empieza en Marlenheim, a 20 km.",
+      "platos": ["Choucroute garnie", "Baeckeoffe", "Flammekueche", "Kougelhopf"],
+      "fuentes": [
+        {"guia": "TasteAtlas (choucroute d'Alsace)", "url": "https://tasteatlas.com/choucroute-dalsace"},
+        {"guia": "TasteAtlas (platos de Estrasburgo)", "url": "https://www.tasteatlas.com/best-dishes-in-strasbourg"},
+        {"guia": "Visit Alsace (turismo oficial)", "url": "https://pro.visit.alsace/?p=11506"}
+      ]
+    },
+    {
+      "id": "fr-sarlat-dordona",
+      "puntaje": 4,
+      "justificacion": "Es la capital del Périgord Noir, con foie gras de oca y pato, trufa negra y nueces AOP. El mercado de los miércoles y sábados es una institución, de diciembre a febrero hay marché au gras los sábados en la place Boissarie y en febrero o marzo se celebra la Fest'oie. Bergerac y Monbazillac están en el mismo departamento.",
+      "platos": ["Foie gras de canard", "Trufa negra del Périgord", "Pommes sarladaises", "Nueces del Périgord AOP"],
+      "fuentes": [
+        {"guia": "Dordogne Périgord Tourisme (oficial, mercados de Sarlat)", "url": "https://www.dordogne-perigord-tourisme.fr/sinspirer/zoom-sur/marches-sarlat-perigord-noir/"},
+        {"guia": "Dordogne Périgord Tourisme (oficial, marchés au gras)", "url": "https://www.dordogne-perigord-tourisme.fr/preparer-son-sejour/agenda-des-animations/a-ne-pas-manquer/marches-au-gras/"}
+      ]
+    },
+    {
+      "id": "fr-valle-vezere-lascaux",
+      "puntaje": 3,
+      "justificacion": "Tiene la misma despensa del Périgord Noir (foie gras, confit, trufa, nueces) en fermes-auberges y mercados de Montignac y Les Eyzies, a 25 km de Sarlat, y en invierno entra en el circuito de los marchés au gras del departamento.",
+      "platos": ["Foie gras", "Confit de canard", "Gâteau aux noix"],
+      "fuentes": [
+        {"guia": "Dordogne Périgord Tourisme (oficial, marchés au gras)", "url": "https://www.dordogne-perigord-tourisme.fr/preparer-son-sejour/agenda-des-animations/a-ne-pas-manquer/marches-au-gras/"}
+      ]
+    },
+    {
+      "id": "fr-rocamadour",
+      "puntaje": 3,
+      "justificacion": "Da nombre al rocamadour AOP, el queso AOP más pequeño de Francia: un cabécou de leche cruda de cabra de rebaños que pastan en los Causses del Quercy. En la zona hay granjas queseras visitables, y el Quercy suma trufa, foie gras y vino de Cahors.",
+      "platos": ["Queso rocamadour AOP", "Foie gras del Quercy", "Vino de Cahors"],
+      "fuentes": [
+        {"guia": "Dairy Products from France (CNIEL, ficha del rocamadour)", "url": "https://dairy-products-from-france.com/cheeses/rocamadour/"},
+        {"guia": "The Cheese Atlas (rocamadour AOP)", "url": "https://thecheeseatlas.com/cheese-profiles/rocamadour/"}
+      ]
+    },
+    {
+      "id": "fr-toulouse",
+      "puntaje": 4,
+      "justificacion": "Es la capital de la cocina occitana: la saucisse de Toulouse es la base de su cassoulet, cocido en la cassole de barro, que se toma en sus brasseries. Tiene el mercado cubierto Victor Hugo, las violetas confitadas y los vinos de Fronton y Gaillac.",
+      "platos": ["Saucisse de Toulouse", "Cassoulet", "Violetas de Toulouse", "Vinos de Fronton"],
+      "fuentes": [
+        {"guia": "Toulouse Tourisme (oficial, especialidades culinarias)", "url": "https://www.toulouse-tourisme.com/manger-boire-un-verre/les-specialites-culinaires-de-toulouse/"},
+        {"guia": "National Geographic (sabores de Toulouse)", "url": "https://www.nationalgeographic.com/travel/article/flavours-of-toulouse-cassoulet-to-violets"}
+      ]
+    },
+    {
+      "id": "fr-honfleur",
+      "puntaje": 3,
+      "justificacion": "Es la puerta del Pays d'Auge, tierra de sidra, pommeau y calvados AOC y de los tres quesos AOP del Calvados: pont-l'évêque, a 15 km, livarot y camembert de Normandie. El puerto tiene restaurantes de pescado y marisco de la costa normanda.",
+      "platos": ["Calvados del Pays d'Auge", "Pont-l'évêque AOP", "Moules à la normande", "Tarte normande"],
+      "fuentes": [
+        {"guia": "Calvados Attractivité (oficial, livarot, pont-l'évêque y camembert)", "url": "https://www.explore-calvados.com/?p=36971"},
+        {"guia": "Taste France (guía gastronómica de Normandía)", "url": "https://www.tastefrance.com/magazine/gourmet-travelers-guide/food-lovers-guide-normandy-what-eat-drink"}
+      ]
+    },
+    {
+      "id": "fr-bayeux-playas-desembarco",
+      "puntaje": 3,
+      "justificacion": "Está en plena Baja Normandía lechera, con Isigny a 30 km. Hay quesos AOP del Calvados como el camembert, el livarot y el pont-l'évêque, mantequilla y nata de Isigny, sidra y calvados, y la cocina normanda de nata y manzana.",
+      "platos": ["Camembert de Normandie AOP", "Tripes à la mode de Caen", "Sidra y calvados", "Tarte normande"],
+      "fuentes": [
+        {"guia": "Calvados Attractivité (oficial, livarot, pont-l'évêque y camembert)", "url": "https://www.explore-calvados.com/?p=36971"},
+        {"guia": "Taste France (guía gastronómica de Normandía)", "url": "https://www.tastefrance.com/magazine/gourmet-travelers-guide/food-lovers-guide-normandy-what-eat-drink"}
+      ]
+    },
+    {
+      "id": "fr-bonifacio",
+      "puntaje": 3,
+      "justificacion": "Tiene cocina corsa con pescado del estrecho, las berenjenas a la bonifaciana, charcutería y el brocciu AOP, el requesón de suero de oveja o cabra de la isla. Las bodegas del AOC Figari están cerca.",
+      "platos": ["Aubergines à la bonifacienne", "Brocciu AOP", "Charcutería corsa"],
+      "fuentes": [
+        {"guia": "TasteAtlas (brocciu)", "url": "https://www.tasteatlas.com/brocciu-corse"}
+      ]
+    },
+    {
+      "id": "fr-corcega",
+      "puntaje": 4,
+      "justificacion": "La isla tiene una despensa muy propia: charcutería de cerdo nustrale (figatellu, lonzu, coppa), el brocciu AOP, quesos de oveja como el niolo, harina de castaña y vinos AOC Patrimonio y Ajaccio.",
+      "platos": ["Figatellu", "Brocciu", "Fiadone", "Vino de Patrimonio"],
+      "fuentes": [
+        {"guia": "TasteAtlas (brocciu)", "url": "https://www.tasteatlas.com/brocciu-corse"},
+        {"guia": "TasteAtlas (figatelli)", "url": "https://www.tasteatlas.com/figatelli-de-lile-de-beaute"}
+      ]
+    },
+    {
+      "id": "fr-carcasona",
+      "puntaje": 4,
+      "justificacion": "Es una de las tres ciudades que reclaman el cassoulet: la versión de Carcasona añade cordero o perdiz. La rodean los viñedos de Corbières, Minervois y Malepère, y Limoux, con su blanquette espumosa, está a 25 km.",
+      "platos": ["Cassoulet de Carcassonne", "Vinos de Corbières y Minervois", "Blanquette de Limoux"],
+      "fuentes": [
+        {"guia": "TasteAtlas (cassoulet)", "url": "https://www.tasteatlas.com/cassoulet-castelnaudary"}
+      ]
+    },
+    {
+      "id": "fr-nancy",
+      "puntaje": 3,
+      "justificacion": "Es la capital de la cocina de Lorena: quiche lorraine y tarta de mirabel. Las bergamotes de Nancy son caramelos de azúcar cocido con bergamota, con IGP, que solo pueden elaborar cuatro confiteros de la ciudad, y los macarons de Nancy se venden por docenas.",
+      "platos": ["Quiche lorraine", "Bergamotes de Nancy IGP", "Macarons de Nancy", "Tarte aux mirabelles"],
+      "fuentes": [
+        {"guia": "France.fr (turismo oficial)", "url": "https://www.france.fr/fr/article/5-specialites-de-lorraine-a-gouter-absolument/"}
+      ]
+    },
+    {
+      "id": "fr-antibes-cannes",
+      "puntaje": 3,
+      "justificacion": "Tiene buena cocina de la Riviera, con el mercado provenzal cubierto de Antibes, la socca, el pan bagnat y el vino de los monjes de la abadía de Lérins, frente a Cannes. En alta cocina destacan Les Pêcheurs, en el Cap d'Antibes, con una estrella en 2026, y Bruno Oger, con dos estrellas en Le Cannet.",
+      "platos": ["Socca", "Pan bagnat", "Vino de la abadía de Lérins", "Pescado de roca"],
+      "fuentes": [
+        {"guia": "Foodle (estrellados Michelin de Antibes, 2026)", "url": "https://foodle.pro/restaurants/michelin-star-restaurants/1-star/c-france/antibes"},
+        {"guia": "Provence Holidays (restaurantes de Cannes)", "url": "https://www.provenceholidays.com/en/restaurants/cannes"}
+      ]
+    },
+    {
+      "id": "fr-saint-tropez",
+      "puntaje": 4,
+      "justificacion": "Tiene una escena culinaria destacada. La Vague d'Or, de Arnaud Donckele en el Cheval Blanc, figura entre los tres estrellas Michelin de la costa en la guía 2026, y La Voile, en La Réserve de Ramatuelle, tiene dos. Está en pleno viñedo de Côtes de Provence y es la cuna de la tarte tropézienne.",
+      "platos": ["Tarte tropézienne", "Rosado Côtes de Provence", "Pescado de roca a la brasa"],
+      "fuentes": [
+        {"guia": "Figaro Nautisme (estrellados Michelin 2026 junto al mar)", "url": "https://figaronautisme.meteoconsult.fr/actus-nautisme-lifestyle/2026-03-17/86785-guide-michelin-2026-quels-sont-les-restaurants-etoiles-en-bord-de-mer-en-france"},
+        {"guia": "See Saint-Tropez (Guía Michelin)", "url": "https://www.seesainttropez.com/news/shoots-for-the-stars-michelin-guide-693989"}
+      ]
+    },
+    {
+      "id": "nl-rotterdam",
+      "puntaje": 4,
+      "justificacion": "Es la escena culinaria más fuerte del país fuera de Ámsterdam: Fred, de Fred Mustert, en el Boompjes, y FG, de François Geurds, tienen dos estrellas Michelin, y la ciudad suma más estrellados en la selección neerlandesa de 2026. El Markthal es el mercado cubierto emblemático del país y la oferta es muy multicultural.",
+      "platos": ["Kibbeling", "Bitterballen", "Cocina surinamesa (roti)"],
+      "fuentes": [
+        {"guia": "Guía Michelin (Fred, Rotterdam)", "url": "https://guide.michelin.com/en/zuid-holland/rotterdam/restaurant/fred"},
+        {"guia": "Rotterdam Partners (turismo oficial, estrellados de Rotterdam)", "url": "https://www.rotterdam.info/en/visit/guide/michelin-starred-restaurants-in-rotterdam"},
+        {"guia": "Michelin (nota de prensa Países Bajos 2026)", "url": "https://www.michelin.com/en/publications/products-and-services/the-2026-michelin-guide-netherlands"}
+      ]
+    },
+    {
+      "id": "lu-luxemburgo-ciudad",
+      "puntaje": 3,
+      "justificacion": "Tiene cocina luxemburguesa propia, con el judd mat gaardebounen, plato nacional, y los kniddelen. En la selección Michelin Bélgica y Luxemburgo 2026, que da 12 estrellados al país, Le Lys, de Kim De Dood, ganó su primera estrella. Los crémants del Mosela están a 25 km.",
+      "platos": ["Judd mat gaardebounen", "Kniddelen", "Gromperekichelcher", "Crémant de Luxembourg"],
+      "fuentes": [
+        {"guia": "Michelin (nota de prensa Bélgica y Luxemburgo 2026)", "url": "https://www.michelin.com/en/publications/products-and-services/cuines-33-and-the-jane-are-rewarded-with-two-michelin-stars-in-the-2026-belgium-and-luxembourg-michelin-guide"},
+        {"guia": "TasteAtlas (judd mat gaardebounen)", "url": "https://www.tasteatlas.com/judd-mat-gaardebounen"}
+      ]
+    },
+    {
+      "id": "fr-cascadas-herisson",
+      "puntaje": 2,
+      "justificacion": "Está en la meseta de los lagos del Jura, tierra de comté y morbier, y Château-Chalon, el pueblo del vin jaune, queda a unos 25 km. Se viene por las cascadas.",
+      "platos": ["Comté AOP", "Morbier AOP", "Trucha de los lagos del Jura"],
+      "fuentes": []
+    },
+    {
+      "id": "fr-cote-granit-rose",
+      "puntaje": 2,
+      "justificacion": "Es costa bretona con crêperies, marisco y la vieira de la bahía de Saint-Brieuc cerca. Se viene por el paisaje.",
+      "platos": ["Galettes de trigo sarraceno y crêpes", "Coquilles Saint-Jacques de la bahía de Saint-Brieuc", "Sidra bretona"],
+      "fuentes": []
+    },
+    {
+      "id": "fr-crozon",
+      "puntaje": 2,
+      "justificacion": "Tiene crêperies y marisco del Finisterre, y Douarnenez, el puerto de la sardina, está al otro lado de la bahía.",
+      "platos": ["Galettes y crêpes", "Sardinas de Douarnenez", "Kouign-amann"],
+      "fuentes": []
+    },
+    {
+      "id": "fr-lourdes",
+      "puntaje": 2,
+      "justificacion": "Es una ciudad de peregrinación con cocina de los Altos Pirineos (garbure, queso de oveja), aunque la oferta está pensada sobre todo para peregrinos.",
+      "platos": ["Garbure", "Queso de oveja de los Pirineos", "Gâteau à la broche"],
+      "fuentes": []
+    },
+    {
+      "id": "fr-castillos-cataros",
+      "puntaje": 2,
+      "justificacion": "Están entre los viñedos de Corbières y de Maury (vino dulce natural), con bodegas en los pueblos al pie de los castillos. Se viene por los castillos.",
+      "platos": ["Vino de Corbières", "Maury (vino dulce natural)", "Cassoulet"],
+      "fuentes": []
+    },
+    {
+      "id": "fr-cote-opale",
+      "puntaje": 2,
+      "justificacion": "Boulogne-sur-Mer, a 20 km, es el primer puerto pesquero de Francia, con arenque ahumado y cocina del Norte en sus restaurantes.",
+      "platos": ["Pescado de Boulogne-sur-Mer", "Arenque ahumado (hareng saur)", "Welsh rarebit del Norte"],
+      "fuentes": []
+    },
+    {
+      "id": "fr-lille",
+      "puntaje": 2,
+      "justificacion": "Tiene la cocina flamenca del norte en estaminets (carbonade, potjevleesch, welsh) y el queso maroilles. Es agradable, aunque menos destacada que otras capitales regionales.",
+      "platos": ["Carbonade flamande", "Potjevleesch", "Welsh", "Gaufre fourrée"],
+      "fuentes": []
+    },
+    {
+      "id": "fr-albi",
+      "puntaje": 2,
+      "justificacion": "Tiene cocina del Tarn y está a unos 25 km del viñedo AOC Gaillac, uno de los más antiguos de Francia.",
+      "platos": ["Vinos de Gaillac", "Croquants de Cordes", "Cassoulet"],
+      "fuentes": []
+    },
+    {
+      "id": "fr-vezelay",
+      "puntaje": 2,
+      "justificacion": "La colina está rodeada por el pequeño viñedo de la AOC Vézelay, de chardonnay, con bodegas en Saint-Père y Asquins, y por la cocina borgoñona.",
+      "platos": ["Vézelay (chardonnay)", "Œufs en meurette", "Gougères"],
+      "fuentes": []
+    },
+    {
+      "id": "be-pairi-daiza",
+      "puntaje": 1,
+      "justificacion": "Es un parque zoológico con restauración temática y poco interés gastronómico.",
+      "platos": ["Gofres belgas", "Cerveza belga"],
+      "fuentes": []
+    },
+    {
+      "id": "be-coo-ambleve",
+      "puntaje": 2,
+      "justificacion": "Es cocina de las Ardenas: jamón de las Ardenas, trucha y cervezas de la zona de Stavelot.",
+      "platos": ["Jamón de las Ardenas IGP", "Trucha a la ardenesa", "Cerveza de Stavelot"],
+      "fuentes": []
+    },
+    {
+      "id": "nl-la-haya",
+      "puntaje": 2,
+      "justificacion": "Tiene la comunidad indonesia más asentada del país, con restaurantes de rijsttafel, y el arenque nuevo de Scheveningen.",
+      "platos": ["Hollandse Nieuwe (Scheveningen)", "Rijsttafel"],
+      "fuentes": []
+    },
+    {
+      "id": "nl-beemster",
+      "puntaje": 2,
+      "justificacion": "Es el pólder que da nombre al queso Beemster, que se vende en las granjas y tiendas de Middenbeemster.",
+      "platos": ["Queso Beemster"],
+      "fuentes": []
+    },
+    {
+      "id": "nl-hunebedden-drenthe",
+      "puntaje": 1,
+      "justificacion": "Es un sitio arqueológico rural con oferta gastronómica básica.",
+      "platos": ["Erwtensoep (sopa de guisantes)", "Krentenbrood"],
+      "fuentes": []
+    },
+    {
+      "id": "nl-deltawerken",
+      "puntaje": 2,
+      "justificacion": "Está en el Oosterschelde, la zona de los mejillones y ostras de Zelanda, con restaurantes de marisco en Neeltje Jans. Yerseke, la capital del marisco, ya es lugar propio.",
+      "platos": ["Mejillones de Zelanda", "Ostras del Oosterschelde", "Zeeuwse bolus"],
+      "fuentes": []
+    },
+    {
+      "id": "lu-larochette",
+      "puntaje": 1,
+      "justificacion": "Es un castillo en un pueblo pequeño, con poca oferta gastronómica propia.",
+      "platos": ["Judd mat Gaardebounen", "Gromperekichelcher"],
+      "fuentes": []
+    },
+    {
+      "id": "lu-minett",
+      "puntaje": 1,
+      "justificacion": "Es patrimonio industrial, con cocina luxemburguesa corriente en Esch-sur-Alzette.",
+      "platos": ["Bouneschlupp", "Gromperekichelcher"],
+      "fuentes": []
+    },
+    {
+      "id": "at-hall-in-tirol",
+      "puntaje": 4,
+      "justificacion": "Schwarzer Adler, de Johannes Nuding, en la Eugenstrasse, tiene dos estrellas Michelin en 2026 con cocina europea contemporánea de temporada. El casco antiguo tiene además posadas tirolesas tradicionales.",
+      "platos": ["Tiroler Gröstl", "Schlutzkrapfen", "Tiroler Speck g.g.A."],
+      "fuentes": [
+        {"guia": "Guía Michelin (Schwarzer Adler, Hall in Tirol)", "url": "https://guide.michelin.com/hr/en/tirol/hall-in-tirol_1040546/restaurant/schwarzer-adler-109176"},
+        {"guia": "Guía Michelin (estrellados Austria 2026)", "url": "https://guide.michelin.com/at/en/article/michelin-guide-ceremony/all-starred-restaurants---michelin-guide-austria-2026"}
+      ]
+    },
+    {
+      "id": "at-innsbruck",
+      "puntaje": 3,
+      "justificacion": "Tiene buena cocina tirolesa (Gröstl, Speckknödel, Kaspressknödel) y la Markthalle junto al Inn. A 9 km, en Hall in Tirol, Schwarzer Adler tiene dos estrellas Michelin en 2026.",
+      "platos": ["Tiroler Gröstl", "Speckknödel", "Kaspressknödel", "Tiroler Speck g.g.A."],
+      "fuentes": [
+        {"guia": "Guía Michelin (Schwarzer Adler, Hall in Tirol)", "url": "https://guide.michelin.com/hr/en/tirol/hall-in-tirol_1040546/restaurant/schwarzer-adler-109176"},
+        {"guia": "Guía Michelin (estrellados Austria 2026)", "url": "https://guide.michelin.com/at/en/article/michelin-guide-ceremony/all-starred-restaurants---michelin-guide-austria-2026"}
+      ]
+    },
+    {
+      "id": "at-werfen-eisriesenwelt",
+      "puntaje": 3,
+      "justificacion": "En el centro del pueblo está Obauer, con dos estrellas Michelin: casa familiar de cocina clásica con productos de temporada, que llevan dos hermanos, con menú de mediodía más asequible y habitaciones. Döllerer, en Golling, a unos 12 km, tiene también dos estrellas.",
+      "platos": ["Pongauer Kasnocken", "Salzburger Nockerl", "Trucha del Pongau"],
+      "fuentes": [
+        {"guia": "Guía Michelin (Obauer, Werfen)", "url": "https://guide.michelin.com/en/salzburg-region/werfen_1047689/restaurant/obauer"},
+        {"guia": "Guía Michelin (estrellados Austria 2026)", "url": "https://guide.michelin.com/at/en/article/michelin-guide-ceremony/all-starred-restaurants---michelin-guide-austria-2026"}
+      ]
+    },
+    {
+      "id": "at-lech-zurs",
+      "puntaje": 4,
+      "justificacion": "Es uno de los destinos de alta cocina de los Alpes: en la Guía Michelin Austria 2026 suma cinco estrellas en tres restaurantes, Rote Wand Chef's Table y Griggeler Stuba con dos cada uno y La Fenice con una. Es alta cocina de temporada de esquí, junto a la cocina de queso de Vorarlberg.",
+      "platos": ["Käsknöpfle", "Bergkäse de Vorarlberg", "Kaiserschmarrn"],
+      "fuentes": [
+        {"guia": "Guía Michelin (estrellados Austria 2026)", "url": "https://guide.michelin.com/at/en/article/michelin-guide-ceremony/all-starred-restaurants---michelin-guide-austria-2026"},
+        {"guia": "Lech Zürs Tourismus (oficial, restaurantes Michelin)", "url": "https://www.lechzuers.com/en/culinary/guide-michelin-restaurants"}
+      ]
+    },
+    {
+      "id": "ch-lucerna",
+      "puntaje": 3,
+      "justificacion": "Tiene cocina propia de la Suiza central, como la Luzerner Chügelipastete (volován de ternera), y mercado semanal a orillas del Reuss. En la selección Michelin Suiza 2025 Minamo, en Lucerna, ganó su primera estrella.",
+      "platos": ["Luzerner Chügelipastete", "Pescado del lago de los Cuatro Cantones (Egli)", "Luzerner Lebkuchen"],
+      "fuentes": [
+        {"guia": "Guía Michelin (nuevas estrellas Suiza 2025)", "url": "https://guide.michelin.com/ch/fr/article/michelin-guide-ceremony/toutes-les-nouvelles-etoiles-de-la-selection-suisse-2025"},
+        {"guia": "Guía Michelin (lista completa Suiza 2025)", "url": "https://guide.michelin.com/ch/fr/article/michelin-guide-ceremony/la-liste-complete-des-etoiles-du-guide-michelin-suisse-2025"}
+      ]
+    },
+    {
+      "id": "ch-lausana",
+      "puntaje": 4,
+      "justificacion": "A 7 km está el Restaurant de l'Hôtel de Ville de Crissier, de Franck Giovannini, uno de los cuatro tres estrellas Michelin de Suiza. Lausanne Tourisme ofrece además catas de chasselas de los viñedos de Lavaux, que empiezan en las afueras de la ciudad.",
+      "platos": ["Papet vaudois con saucisse aux choux", "Filets de perche", "Chasselas de Lavaux", "Taillé aux greubons"],
+      "fuentes": [
+        {"guia": "Guía Michelin (lista completa Suiza 2025)", "url": "https://guide.michelin.com/ch/fr/article/michelin-guide-ceremony/la-liste-complete-des-etoiles-du-guide-michelin-suisse-2025"},
+        {"guia": "Lausanne Tourisme (turismo oficial)", "url": "https://www.lausanne-tourisme.ch/fr/offre/degustation-secrets-du-chasselas-de-lavaux/"}
+      ]
+    },
+    {
+      "id": "ch-basilea",
+      "puntaje": 4,
+      "justificacion": "Aquí está Cheval Blanc by Peter Knogl, en el Grand Hotel Les Trois Rois sobre el Rin, uno de los cuatro tres estrellas Michelin de Suiza. La ciudad tiene además dulces propios, como los Basler Läckerli, y la Mehlsuppe del carnaval.",
+      "platos": ["Basler Läckerli", "Basler Mehlsuppe", "Fastenwähe"],
+      "fuentes": [
+        {"guia": "Guía Michelin (lista completa Suiza 2025)", "url": "https://guide.michelin.com/ch/fr/article/michelin-guide-ceremony/la-liste-complete-des-etoiles-du-guide-michelin-suisse-2025"}
+      ]
+    },
+    {
+      "id": "ch-gruyeres",
+      "puntaje": 4,
+      "justificacion": "Es la cuna de uno de los quesos más famosos del mundo. En La Maison du Gruyère, la quesería de demostración de Pringy, el maestro quesero elabora a la vista hasta 48 hormas de Gruyère AOP al día. Es también tierra de la fondue moitié-moitié y de la crème double con merengues, y a 5 km, en Broc, está la fábrica de chocolate Cailler.",
+      "platos": ["Le Gruyère AOP", "Fondue moitié-moitié", "Meringues à la crème double de la Gruyère", "Chocolate Cailler"],
+      "fuentes": [
+        {"guia": "La Maison du Gruyère (dossier oficial 2024)", "url": "https://www.lamaisondugruyere.ch/wp-content/uploads/2024/04/La-Maison-du-Gruyere_2024_fr.pdf"},
+        {"guia": "Museos suizos (ficha de La Maison du Gruyère)", "url": "https://www.museums.ch/fr/visite-au-musee/musees/musees/la-maison-du-gruyere-2579.html"}
+      ]
+    },
+    {
+      "id": "ch-buendner-herrschaft",
+      "puntaje": 4,
+      "justificacion": "Es la región suiza del pinot noir, que ocupa más de tres cuartas partes de unas 400 ha en cuatro pueblos de la tierra de Heidi. Turismo de los Grisones propone rutas a pie y en e-bike entre bodegas, y Gantenbein, en Fläsch, es uno de sus nombres más conocidos. Memories, en el Grand Resort Bad Ragaz, al otro lado del Rin, tiene tres estrellas Michelin.",
+      "platos": ["Pinot noir (Blauburgunder) de la Bündner Herrschaft", "Completer de Malans", "Bündner Nusstorte", "Maluns"],
+      "fuentes": [
+        {"guia": "Graubünden Ferien (turismo oficial)", "url": "https://www.graubuenden.ch/en/attractions/wine-experience-bundner-herrschaft"},
+        {"guia": "Swiss Wine Promotion (interprofesión)", "url": "https://www.swisswine.com/en/news/a-wine-curious-weekend-in-graubuenden-s-buendner-herrschaft"},
+        {"guia": "Guía Michelin (lista completa Suiza 2025)", "url": "https://guide.michelin.com/ch/fr/article/michelin-guide-ceremony/la-liste-complete-des-etoiles-du-guide-michelin-suisse-2025"}
+      ]
+    },
+    {
+      "id": "at-wachau",
+      "puntaje": 5,
+      "justificacion": "Es una de las grandes regiones de vino blanco del mundo: la Wachau DAC, con unas 1.340 ha de terrazas sobre el Danubio, se rige desde la añada 2020 por la normativa DAC del Ministerio de Agricultura, con vendimia a mano y vinos de región, de pueblo y de pago. Se mantienen las categorías Steinfeder, Federspiel y Smaragd, y los Heurigen de Spitz, Weißenkirchen y Dürnstein sirven el albaricoque Wachauer Marille.",
+      "platos": ["Grüner Veltliner y Riesling Smaragd", "Wachauer Marillenknödel", "Marillenschnaps", "Wachauer Laberl"],
+      "fuentes": [
+        {"guia": "Ministerio austriaco de Agricultura (regiones DAC)", "url": "https://www.bmluk.gv.at/themen/landwirtschaft/gemeinsame-agrarpolitik-foerderungen/gmo-rechtsinfo/gmo-wein/DAC.html"},
+        {"guia": "Falstaff (lo mejor de la Wachau)", "url": "https://www.falstaff.com/en/news/famous-wines-best-of-wachau"},
+        {"guia": "Harpers (Wachau DAC)", "url": "https://harpers.co.uk/news/fullstory.php/aid/27097/Wachau_becomes_a_DAC_region.html"}
+      ]
+    },
+    {
+      "id": "at-kamptal-langenlois",
+      "puntaje": 4,
+      "justificacion": "Langenlois es la mayor ciudad vinícola de Austria y el centro de la Kamptal DAC, una de las regiones DAC de Baja Austria, que solo admite grüner veltliner y riesling bajo su nombre, con viñedos célebres como el Heiligenstein. El Loisium conecta un centro de visitantes de arquitectura vanguardista con galerías de bodega históricas, y la Wachau está a 15 km.",
+      "platos": ["Grüner Veltliner Kamptal DAC", "Riesling del Heiligenstein", "Sekt austriaco", "Heurigenjause"],
+      "fuentes": [
+        {"guia": "Ministerio austriaco de Agricultura (regiones DAC)", "url": "https://www.bmluk.gv.at/themen/landwirtschaft/gemeinsame-agrarpolitik-foerderungen/gmo-rechtsinfo/gmo-wein/DAC.html"},
+        {"guia": "Meininger (región vinícola Kamptal)", "url": "https://www.meininger.de/wein/weinanbaugebiete/Kamptal"}
+      ]
+    },
+    {
+      "id": "at-eisenstadt",
+      "puntaje": 3,
+      "justificacion": "Está en la Leithaberg DAC, en la ladera de los montes Leitha al oeste del lago Neusiedl, la primera DAC austriaca para tintos y blancos: blaufränkisch en tinto y pinot blanc, chardonnay, grüner veltliner o neuburger en blanco. El Weingut Esterházy, la bodega de la familia del palacio, y el Winzerschlössl Kaiser de Eisenstadt elaboran Leithaberg DAC, y Rust y su Ausbruch están a 13 km.",
+      "platos": ["Blaufränkisch Leithaberg DAC", "Chardonnay y pinot blanc del Leithaberg", "Ruster Ausbruch", "Esterházy-Torte"],
+      "fuentes": [
+        {"guia": "Ministerio austriaco de Agricultura (regiones DAC)", "url": "https://www.bmluk.gv.at/themen/landwirtschaft/gemeinsame-agrarpolitik-foerderungen/gmo-rechtsinfo/gmo-wein/DAC.html"},
+        {"guia": "Falstaff (Weingut Esterházy, Blaufränkisch Leithaberg DAC)", "url": "https://www.falstaff.com/en/wines/weingut-esterhazy-2023-blaufraenkisch-leithaberg-dac-2"},
+        {"guia": "Wine Anorak (Leithaberg DAC)", "url": "https://wineanorak.com/2019/11/11/leithaberg-wines-from-a-distinctive-austrian-dac/"}
+      ]
+    },
+    {
+      "id": "ch-flims-laax",
+      "puntaje": 2,
+      "justificacion": "Es una estación con cocina grisona en las cabañas, como los capuns de acelga y la carne seca Bündnerfleisch, y sopa de cebada en los refugios.",
+      "platos": ["Capuns", "Bündnerfleisch IGP", "Bündner Gerstensuppe"],
+      "fuentes": []
+    },
+    {
+      "id": "ch-davos",
+      "puntaje": 2,
+      "justificacion": "Es una estación grande con cocina grisona (capuns, Gerstensuppe, Nusstorte) y restaurantes de hotel; la Gault Millau de 2020 recogía varios, como Glow by Armin Amrein con 17 puntos.",
+      "platos": ["Capuns", "Bündner Gerstensuppe", "Bündnerfleisch IGP", "Bündner Nusstorte"],
+      "fuentes": [
+        {"guia": "Südostschweiz (Gault Millau Grisones, 2020)", "url": "https://www.suedostschweiz.ch/schweiz-und-welt/das-sind-die-gourmet-tempel-graubuendens-1028442"}
+      ]
+    },
+    {
+      "id": "ch-la-chaux-de-fonds",
+      "puntaje": 2,
+      "justificacion": "Está en el Jura neuchâtelois, con quesos y charcutería del Jura, y el Val-de-Travers, cuna de la absenta, está a unos 30 km.",
+      "platos": ["Absenta del Val-de-Travers", "Saucisse neuchâteloise", "Tête de Moine (Jura vecino)"],
+      "fuentes": []
+    },
+    {
+      "id": "ch-st-gallen",
+      "puntaje": 2,
+      "justificacion": "La ciudad da nombre a la St. Galler Bratwurst, una salchicha blanca de ternera con IGP que se toma sin mostaza, y tiene cocina de la Suiza oriental, con el Biber y el panecillo Bürli.",
+      "platos": ["St. Galler Bratwurst IGP", "Biber de San Galo", "Bürli (panecillo)"],
+      "fuentes": []
+    },
+    {
+      "id": "at-schladming-dachstein",
+      "puntaje": 2,
+      "justificacion": "Es cocina del Ennstal estirio, con Steirerkas y aceite de semilla de calabaza, en cabañas de esquí y alpages.",
+      "platos": ["Ennstaler Steirerkas", "Steirisches Kürbiskernöl", "Schwammerlsuppe"],
+      "fuentes": []
+    },
+    {
+      "id": "at-swarovski-wattens",
+      "puntaje": 1,
+      "justificacion": "Es una atracción de diseño con cafetería y poco interés gastronómico.",
+      "platos": ["Tiroler Speck", "Apfelstrudel"],
+      "fuentes": []
+    },
+    {
+      "id": "at-carnuntum",
+      "puntaje": 2,
+      "justificacion": "Da nombre a la región vinícola Carnuntum, de zweigelt y blaufränkisch, con bodegas en Göttlesbrunn y Höflein a pocos kilómetros.",
+      "platos": ["Zweigelt de Carnuntum", "Blaufränkisch"],
+      "fuentes": []
+    }
+  ],
+  "nuevos": [],
+  "fuentes_quitar": [
+    {"id": "fr-les-3-vallees", "url": "https://www.journaldespalaces.com/carriere/offre-309347-Chef-de-rang-Le-1947-a-Cheval-Blanc-Cheval-Blanc-Courchevel-Courchevel.html"},
+    {"id": "fr-saint-malo", "url": "https://www.tasteatlas.com/best-rated-chicken-dishes-in-france"},
+    {"id": "fr-aix-en-provence", "url": "https://www.tasteatlas.com/best-rated-dishes-in-provence-alpes-cote-dazur"},
+    {"id": "fr-arles", "url": "https://www.tasteatlas.com/best-rated-dishes-in-provence-alpes-cote-dazur"},
+    {"id": "fr-luberon", "url": "https://www.tasteatlas.com/best-rated-dishes-in-provence-alpes-cote-dazur"},
+    {"id": "fr-menton", "url": "https://www.tasteatlas.com/best-rated-dishes-in-provence-alpes-cote-dazur"},
+    {"id": "fr-niza", "url": "https://www.tasteatlas.com/best-rated-dishes-in-provence-alpes-cote-dazur"},
+    {"id": "fr-marsella-calanques", "url": "https://www.tasteatlas.com/best-rated-dishes-in-provence-alpes-cote-dazur"},
+    {"id": "fr-avinon", "url": "https://www.tasteatlas.com/best-rated-dishes-in-provence-alpes-cote-dazur"},
+    {"id": "fr-biarritz-costa-vasca", "url": "https://www.tasteatlas.com/best-rated-vegetable-dishes-in-france"},
+    {"id": "fr-biarritz-costa-vasca", "url": "https://www.tasteatlas.com/best-rated-chicken-dishes-in-france"},
+    {"id": "fr-estrasburgo", "url": "https://www.tasteatlas.com/best-rated-vegetable-dishes-in-france"},
+    {"id": "fr-estrasburgo", "url": "https://www.tasteatlas.com/best-rated-casseroles-in-france"},
+    {"id": "fr-sarlat-dordona", "url": "https://www.tasteatlas.com/best-rated-offal-dishes-in-france"},
+    {"id": "fr-sarlat-dordona", "url": "https://www.tasteatlas.com/best-rated-appetizers-in-france"},
+    {"id": "fr-valle-vezere-lascaux", "url": "https://www.tasteatlas.com/best-rated-offal-dishes-in-france"},
+    {"id": "fr-rocamadour", "url": "https://www.tasteatlas.com/best-rated-dishes-in-occitanie"},
+    {"id": "fr-toulouse", "url": "https://www.tasteatlas.com/best-rated-dishes-in-occitanie"},
+    {"id": "fr-toulouse", "url": "https://www.tasteatlas.com/best-rated-meat-dishes-in-occitanie"},
+    {"id": "fr-honfleur", "url": "https://www.tasteatlas.com/best-rated-beverages-in-normandy"},
+    {"id": "fr-honfleur", "url": "https://www.tasteatlas.com/best-rated-dishes-in-normandy"},
+    {"id": "fr-bayeux-playas-desembarco", "url": "https://www.tasteatlas.com/best-rated-dishes-in-lower-normandy"},
+    {"id": "fr-bayeux-playas-desembarco", "url": "https://www.tasteatlas.com/best-rated-cheeses-in-normandy"},
+    {"id": "fr-bonifacio", "url": "https://www.tasteatlas.com/best-rated-dishes-in-corsica"},
+    {"id": "fr-corcega", "url": "https://www.tasteatlas.com/best-rated-dishes-in-corsica"},
+    {"id": "fr-carcasona", "url": "https://www.tasteatlas.com/best-rated-casseroles-in-occitanie"},
+    {"id": "fr-nancy", "url": "https://www.tasteatlas.com/best-rated-dishes-in-lorraine"},
+    {"id": "fr-antibes-cannes", "url": "https://monaco-tribune.com/en/2022/03/where-are-the-michelin-starred-restaurants-on-the-french-riviera"},
+    {"id": "fr-saint-tropez", "url": "https://www.seesainttropez.com/news/which-saint-tropez-restaurants-have-a-michelin-star-in-2020-riviera-cote-dazur-733376"},
+    {"id": "lu-luxemburgo-ciudad", "url": "https://www.brusselstimes.com/belgium/2112019/nine-new-restaurants-awarded-michelin-stars-in-belgium/"},
+    {"id": "lu-luxemburgo-ciudad", "url": "https://www.tasteatlas.com/best-rated-dishes-in-luxembourg"},
+    {"id": "at-lech-zurs", "url": "https://www.lechzuers.com/media/51475/download/2026-03-19_Pressrelease_Michelin_Guide_Confirms_LechZuers_as_Gourmet_Destination.pdf"},
+    {"id": "ch-lucerna", "url": "https://www.bluewin.ch/en/people/michelin-guide-increases-number-of-swiss-starred-restaurants-to-li.2926596"},
+    {"id": "ch-lausana", "url": "https://www.bluewin.ch/en/people/michelin-guide-increases-number-of-swiss-starred-restaurants-to-li.2926596"},
+    {"id": "ch-basilea", "url": "https://www.bluewin.ch/en/people/michelin-guide-increases-number-of-swiss-starred-restaurants-to-li.2926596"},
+    {"id": "ch-buendner-herrschaft", "url": "https://www.bluewin.ch/en/people/michelin-guide-increases-number-of-swiss-starred-restaurants-to-li.2926596"},
+    {"id": "at-kamptal-langenlois", "url": "https://bruendlmayer.at/en/wines/langenloiser-loiserberg-1oetw-kellerreserve-gruener-veltliner-2011"},
+    {"id": "at-eisenstadt", "url": "https://www.thedrinksbusiness.com/2016/11/leithaberg-chardonnay-among-worlds-best/"}
+  ],
+  "correcciones_base": []
+}
