@@ -1,11 +1,15 @@
 {
   "agente": "curador",
   "subregion": "francia-alpes",
-  "fecha": "2026-10-27",
+  "fecha": "2026-11-01",
   "fusionados": [
     [
       "lu-echternach",
       "lu-mullerthal"
+    ],
+    [
+      "ch-davos",
+      "ch-klosters"
     ]
   ],
   "descartados": [
@@ -13,11 +17,6 @@
       "id": "li-castillo-gutenberg",
       "global": 1.8,
       "motivo": "global 1.8 < 2 (guías 1, mejor temático 2, logística 3)"
-    },
-    {
-      "id": "nl-schokland",
-      "global": 1.8,
-      "motivo": "global 1.8 < 2 (guías 0, mejor temático 3, logística 3)"
     },
     {
       "id": "li-fuerstensteig",
@@ -29,9 +28,9 @@
     "FR": 86,
     "MC": 5,
     "BE": 27,
-    "NL": 32,
+    "NL": 33,
     "LU": 11,
-    "CH": 43,
+    "CH": 42,
     "AT": 44,
     "LI": 3
   },
@@ -134,6 +133,17 @@
       "playa_r3": "Playa según naturaleza-r3 ('LUGAR DE PLAYA: sí'): fr-ile-de-re, fr-collioure, fr-saint-tropez, fr-antibes-cannes, fr-camarga, fr-crozon y nl-texel. No se añade playa a fr-cote-granit-rose ni fr-quimper-cornualles ('parcialmente'), fr-cote-opale ('sí, con matices': agua fría, el motivo son los cabos), fr-bahia-somme, fr-la-rochelle ni nl-deltawerken ('no').",
       "por_que_ampliados": "Se añaden Dinan a fr-saint-malo, Haut-Koenigsbourg a fr-colmar-ruta-vino-alsacia y Kirchberg/MUDAM a lu-luxemburgo-ciudad, como pidió cobertura. Swarovski Wattens tiene lugar propio (at-swarovski-wattens), así que no se añade a at-hall-in-tirol.",
       "mauthausen": "at-mauthausen pasa de 'ciudad' a 'no_ciudad': es un memorial, no una ciudad."
+    },
+    "ronda4": {
+      "nl-schokland": "Recuperado: guias-expertas-fix1 le da guias 3 (Lonely Planet, ficha del Museo de Schokland, y Frommer's). El ajuste de guías del curador pasa de 0 a 3 con esas dos fuentes, y se escribe su por_que. Global 3,0 (muy_recomendado).",
+      "fuentes_guias_curador": "fr-albi: se quita la entrada del blog de un empleado de Rick Steves (2015) y se cita el vídeo de Rick Steves Classroom sobre Toulouse-Lautrec en Albi; no apareció ninguna página de Frommer's sobre Albi, así que siguen 2 guías (guias 3). fr-castillos-cataros: la página de archivo del blog la quita guias-expertas-fix1. nl-efteling: URL canónica lonelyplanet.com/points-of-interest/efteling/1128436. be-bosque-de-soignes: la ficha POI solo aparece en el espejo nonprod; se añade el artículo de producción lonelyplanet.com/articles/best-parks-brussels, que la incluye entre los mejores parques de Bruselas (guias 2, igual). be-pairi-daiza: guias-expertas-fix1 cambia vrtnws.be por la nota de prensa del parque.",
+      "viamichelin": "Criterio único: las fichas de ViaMichelin no cuentan como guía en ningún lugar. be-tournai pierde la de viamichelin.pl y se cita Frommer's (Things to do in Tournai): Lonely Planet + Frommer's = 2 guías, guias 3 sin cambio. at-carnuntum sigue con guias 0.",
+      "coordenadas": "Los siete lugares con 2 decimales tienen ahora 4 en lugares: fr-gorges-du-verdon, fr-beaune-cote-dor, fr-cascadas-herisson, mc-monaco-ville y nl-giethoorn (mismos valores que correcciones_base de guias-expertas-fix1 y naturaleza-fix1), nl-efteling (51,6507; 5,0497, latlong.net) y nl-walibi-holland (52,4410; 5,7641, Sygic y Travelprofy).",
+      "playa": "Se quita playa de fr-cote-opale y fr-cote-granit-rose (no_playa), como decía notas.ronda3.playa_r3: la playa venía del tipo costa.",
+      "categorias": "fr-puy-du-fou pasa a ciudad. Es un parque de espectáculos históricos y no tiene ningún temático ≥ 3,5, así que se usa el respaldo para no publicarlo como adrenalina. Si cultura-historia le sube la cultura a ≥ 3,5, también saldrá como cultura. ch-brienz y at-hall-in-tirol se añaden a ciudad como respaldo por si adrenalina-fix1 les baja la adrenalina por debajo de 3,5. at-bregenzerwald (gastronomía 4) y ch-bellinzona (cultura 4 y ciudad) ya tienen otra categoría.",
+      "klosters_davos": "Se fusiona ch-klosters en ch-davos con el nombre «Davos y Klosters». Están a unos 10 km, comparten el dominio Davos Klosters (Parsenn y Gotschna, 300 km de pistas) y las guías lo tratan como un solo destino de esquí. Con la fusión desaparece la incoherencia entre a3 y a5 por el mismo Parsenn. Se quedan las coordenadas y la logística de Davos, y se reescribe su por_que para incluir Klosters.",
+      "por_que": "ch-guarda: se quita la Silvretta Arena «a 24 km» y se usa Motta Naluns (Scuol, unos 9 km). at-hall-in-tirol: el Schwarzer Adler tiene dos estrellas Michelin en 2026 (tyrol.com, presse.tirol.at). at-grossglockner: se quita el precio de 46,50 €, que no se confirmó. be-malinas, be-durbuy y lu-luxemburgo-ciudad pasan a 3 frases, y lu-echternach a menos de 350 caracteres. fr-bayeux-playas-desembarco menciona la inscripción de las playas del Desembarco como Patrimonio Mundial en 2026 y cita el comunicado de diplomatie.gouv.fr (añadido como fuente sin puntaje en guias). Las alertas de fr-aix-en-provence (cierre del Atelier de Cézanne) y de fr-bayeux (tapiz en Londres hasta julio de 2027) ya llegan en logistica-temporada-fix1.",
+      "fuentes_quitar": "curar.mjs solo lee fuentes_quitar de los archivos <agente>-fix<n>.json, no de curador-ajustes.json. La lista fuentes_quitar de este archivo documenta lo que debe salir. Ya lo quitan los fix1 de los especialistas: swissactivities (ch-glacier-3000, naturaleza-fix1), alt.schladming-dachstein.at/pl y skiamade.com/nl (logistica-temporada-fix1) y Time Out Aletsch «Advertising» (guias-expertas-fix1). PENDIENTE: https://vermieter-alt.schladming-dachstein.at/en/regional-and-offerings/News/Urlaubszentrum/SD/Nightrace (at-schladming-dachstein) no la quita ningún fix1. Para quitarla, el orquestador puede añadir en curar.mjs la lectura de aj.fuentes_quitar o pedírselo a adrenalina/logística en su fix."
     }
   }
 }

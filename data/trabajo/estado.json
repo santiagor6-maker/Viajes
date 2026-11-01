@@ -1,7 +1,7 @@
 {
   "pausado": false,
   "subregion": "francia-alpes",
-  "paso": "correcciones",
+  "paso": "revisor",
   "ronda": 3,
   "orden_subregiones": [
     "iberica-italia",
@@ -141,8 +141,14 @@
       "subregion": "francia-alpes",
       "paso": "revisor",
       "resultado": "Ronda revisor 1: 0/7 agentes ≥9.5 (a: 6.5–8.0; b: 7.0–8.5). Países: FR 6.8, MC 7.5, BE 7.0, NL 6.9, LU 6.8, CH 7.6, AT 7.5, LI 8.2. Siguiente: correcciones fix1 (ronda 4), 6 especialistas; los puntos del curador se aplican en el paso curador"
+    },
+    {
+      "fecha": "2026-11-01",
+      "subregion": "francia-alpes",
+      "paso": "correcciones",
+      "resultado": "fix1 (ronda 4) de los 6 especialistas + ajustes del curador (Schokland recuperado, Davos+Klosters fusionados, categorías). Interrumpido por límite semanal 28-oct→1-nov. 251 lugares; validador sin errores; republicado (versión 10). Siguiente: revisor ronda 2 (última)"
     }
   ],
-  "ronda_revisor": 1,
+  "ronda_revisor": 2,
   "max_rondas_revisor": 2
 }
