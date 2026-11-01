@@ -3,7 +3,7 @@
   "subregion": "britanicas-nordicos",
   "grupo": "b",
   "ronda": 1,
-  "notas": "Grupo b: NO, SE, FI, DK, EE, LV, LT. En curso (NO y SE completos).",
+  "notas": "Grupo b: NO, SE, FI, DK, EE, LV, LT. En curso (NO, SE, FI y DK completos).",
   "candidatos": [
     {
       "id": "no-bergen",
@@ -15,10 +15,10 @@
       "tipo": "ciudad",
       "puntaje": 5,
       "guias_que_lo_recomiendan": ["Lonely Planet", "Rick Steves", "Fodor's", "Frommer's", "Time Out"],
-      "justificacion": "Lonely Planet la incluye entre sus 12 mejores lugares de Noruega por el muelle hanseático de Bryggen (UNESCO). Rick Steves la presenta como el gran puerto del oeste, con el funicular al monte Fløyen. Fodor's le dedica una guía a Bryggen y la incluye en su lista de 25 imprescindibles de Noruega. Frommer's la considera la mejor base para los fiordos y Time Out la recomienda entre lo mejor del país.",
+      "justificacion": "Lonely Planet la incluye entre sus 12 mejores lugares de Noruega por el muelle hanseático de Bryggen (UNESCO). Rick Steves le dedica parte de su episodio sobre los fiordos del oeste y Bergen. Fodor's le dedica una guía a Bryggen y la incluye en su lista de 25 imprescindibles de Noruega. Frommer's la considera la mejor base para los fiordos y Time Out la recomienda entre lo mejor del país, con el funicular al monte Fløyen.",
       "fuentes": [
         { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-norway" },
-        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/norway" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/watch-read-listen/video/tv-show/norways-west-fjords-mountains-and-bergen" },
         { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/norway/bergen/bryggen" },
         { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/bergen/" },
         { "guia": "Time Out", "url": "https://www.timeout.com/norway/things-to-do/best-things-to-do-in-norway" }
@@ -166,12 +166,11 @@
       "lat": 58.9700,
       "lng": 5.7331,
       "tipo": "ciudad",
-      "puntaje": 4,
-      "guias_que_lo_recomiendan": ["Rough Guides", "Rick Steves", "Lonely Planet"],
-      "justificacion": "Rough Guides le dedica un capítulo (Stavanger and around) como puerta del Lysefjord. Rick Steves incluye Stavanger en su cobertura del sur de Noruega. Lonely Planet la propone como base para los fiordos en su lista de los mejores lugares de Escandinavia.",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Rough Guides", "Lonely Planet"],
+      "justificacion": "Rough Guides le dedica un capítulo (Stavanger and around) como puerta del Lysefjord. Lonely Planet la propone como base para los fiordos y el Preikestolen en su lista de los mejores lugares de Escandinavia.",
       "fuentes": [
         { "guia": "Rough Guides", "url": "https://www.roughguides.com/norway/south/stavanger-around/" },
-        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/norway" },
         { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-scandinavia" }
       ]
     },
@@ -355,11 +354,10 @@
       "lat": 61.1153,
       "lng": 10.4662,
       "tipo": "ciudad",
-      "puntaje": 4,
-      "guias_que_lo_recomiendan": ["Rick Steves", "Fodor's", "Frommer's"],
-      "justificacion": "Rick Steves la incluye en su cobertura de Noruega por el museo al aire libre de Maihaugen, aunque la llama turística. Fodor's pone el esquí de fondo en Lillehammer entre sus 25 imprescindibles. Frommer's la presenta en su guía de Noruega centro-oriental como la célebre estación de los Juegos Olímpicos de 1994.",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Fodor's", "Frommer's"],
+      "justificacion": "Fodor's pone el esquí de fondo en Lillehammer entre sus 25 imprescindibles de Noruega. Frommer's la presenta en su guía de Noruega centro-oriental como la célebre estación de los Juegos Olímpicos de 1994.",
       "fuentes": [
-        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/norway" },
         { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/norway/experiences/news/photos/the-best-things-to-do-in-norway" },
         { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/east-central-norway/" }
       ]
@@ -405,7 +403,7 @@
       "tipo": "ciudad",
       "puntaje": 5,
       "guias_que_lo_recomiendan": ["Lonely Planet", "Rick Steves", "National Geographic", "Time Out", "Frommer's", "Rough Guides"],
-      "justificacion": "Lonely Planet la pone primera en sus 11 mejores lugares de Suecia (14 islas, historia, cultura y naturaleza) y tiene una guía propia de imprescindibles. Rick Steves destaca Gamla Stan, el museo Vasa y Skansen, al que llama el primer y mejor museo al aire libre de Europa. NatGeo le dedica una guía de la capital del archipiélago, Time Out sus 19 mejores cosas que hacer y Frommer's sus experiencias favoritas. Rough Guides pone Gamla Stan y el museo Vasa entre las 27 mejores cosas que hacer en Suecia.",
+      "justificacion": "Lonely Planet la pone primera en sus 11 mejores lugares de Suecia (14 islas, historia, cultura y naturaleza) y tiene una guía propia de imprescindibles. Rick Steves le dedica una guía de destino y destaca Gamla Stan, el museo Vasa y Skansen, al que llama el primer y mejor museo al aire libre de Europa. NatGeo le dedica una guía de la capital del archipiélago, Time Out sus 19 mejores cosas que hacer y Frommer's sus experiencias favoritas. Rough Guides pone Gamla Stan y el museo Vasa entre las 27 mejores cosas que hacer en Suecia.",
       "fuentes": [
         { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-sweden" },
         { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-stockholm" },
@@ -425,14 +423,13 @@
       "lng": 18.3513,
       "tipo": "isla",
       "puntaje": 5,
-      "guias_que_lo_recomiendan": ["Rick Steves", "National Geographic", "Rough Guides", "Lonely Planet", "Fodor's"],
-      "justificacion": "Rick Steves lo llama el jardín rocoso de más de 30.000 islas de Suecia y recomienda Vaxholm, Grinda y Sandhamn en barco desde Estocolmo. NatGeo recomienda Fjäderholmarna como primera parada perfecta del archipiélago. Rough Guides incluye el archipiélago entre las 27 mejores cosas que hacer en Suecia. Lonely Planet recomienda una excursión de un día al archipiélago en su ficha de Estocolmo y Fodor's destaca sus más de 28.000 islas e islotes.",
+      "guias_que_lo_recomiendan": ["Rick Steves", "National Geographic", "Rough Guides", "Lonely Planet"],
+      "justificacion": "Rick Steves lo llama el jardín rocoso de más de 30.000 islas de Suecia y recomienda Vaxholm, Grinda y Sandhamn en barco desde Estocolmo. NatGeo recomienda Fjäderholmarna como primera parada perfecta del archipiélago. Rough Guides incluye el archipiélago entre las 27 mejores cosas que hacer en Suecia. Lonely Planet recomienda una excursión de un día al archipiélago en su ficha de Estocolmo dentro de los 11 mejores lugares del país.",
       "fuentes": [
         { "guia": "Rick Steves", "url": "https://www.ricksteves.com/watch-read-listen/read/articles/stockholms-noble-past-and-present" },
         { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/guide-to-stockholm-sweden-capital" },
         { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-sweden/" },
-        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-sweden" },
-        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/sweden" }
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-sweden" }
       ]
     },
     {
@@ -445,14 +442,14 @@
       "tipo": "ciudad",
       "puntaje": 5,
       "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides", "National Geographic", "Time Out", "Fodor's", "Frommer's"],
-      "justificacion": "Lonely Planet la incluye entre sus 11 mejores lugares de Suecia por su ambiente relajado y su museo de arte, y le dedica un artículo de imprescindibles. Rough Guides le dedica sus 13 mejores cosas que hacer y la propone como próxima escapada urbana europea. NatGeo tiene una guía de la 'elegante segunda ciudad', con su archipiélago de una veintena de islas. Time Out tiene su guía de imprescindibles, Fodor's una guía de destino y Frommer's destaca Liseberg y el archipiélago.",
+      "justificacion": "Lonely Planet la incluye entre sus 11 mejores lugares de Suecia por su ambiente relajado y su museo de arte, y le dedica un artículo de imprescindibles. Rough Guides le dedica sus 13 mejores cosas que hacer. NatGeo tiene una guía de la 'elegante segunda ciudad', con su archipiélago de una veintena de islas. Time Out tiene su guía de imprescindibles, Fodor's una guía de destino y Frommer's pone Liseberg y el archipiélago entre sus experiencias favoritas en Suecia.",
       "fuentes": [
         { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-gothenburg" },
         { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/things-to-do-in-gothenburg/" },
         { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/gothenburg-sweden-inside-guide" },
         { "guia": "Time Out", "url": "https://www.timeout.com/sweden/things-to-do/best-things-to-do-in-gothenburg" },
         { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/sweden/goteborg-gothenburg" },
-        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/sweden/" }
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/sweden/frommers-favorite-experiences/" }
       ]
     },
     {
@@ -463,13 +460,12 @@
       "lat": 57.6348,
       "lng": 18.2948,
       "tipo": "isla",
-      "puntaje": 5,
-      "guias_que_lo_recomiendan": ["Lonely Planet", "Fodor's", "Frommer's", "Rough Guides"],
-      "justificacion": "Lonely Planet incluye Gotland entre sus 11 mejores lugares de Suecia: Visby tiene uno de los cascos medievales mejor conservados de Escandinavia. Fodor's la describe como la principal isla de vacaciones de Suecia, con 3 km de muralla y 44 torres. Frommer's destaca la ciudad hanseática y su Semana Medieval de agosto. Rough Guides le dedica un capítulo y pone las playas de Gotland entre las 27 mejores cosas que hacer en Suecia.",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Frommer's", "Rough Guides"],
+      "justificacion": "Lonely Planet incluye Gotland entre sus 11 mejores lugares de Suecia: Visby tiene uno de los cascos medievales mejor conservados de Escandinavia. Frommer's destaca la ciudad hanseática, su muralla de más de 3 km con 44 torres y la Semana Medieval de agosto. Rough Guides le dedica un capítulo y pone las playas de Gotland entre las 27 mejores cosas que hacer en Suecia.",
       "fuentes": [
         { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-sweden" },
-        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/sweden" },
-        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/sweden/" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/sweden/frommers-favorite-experiences/" },
         { "guia": "Rough Guides", "url": "https://www.roughguides.com/sweden/southeast/gotland/" }
       ]
     },
@@ -498,12 +494,11 @@
       "lat": 59.8586,
       "lng": 17.6389,
       "tipo": "ciudad",
-      "puntaje": 4,
-      "guias_que_lo_recomiendan": ["Lonely Planet", "Rick Steves", "Frommer's"],
-      "justificacion": "Lonely Planet la incluye entre sus 11 mejores lugares de Suecia por los túmulos reales de Gamla Uppsala y le dedica un artículo con sus 8 imprescindibles. Rick Steves la considera la mejor excursión desde Estocolmo, a menos de una hora en tren. Frommer's destaca la catedral, la mayor de Escandinavia, el jardín de Linneo y Gamla Uppsala.",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Frommer's"],
+      "justificacion": "Lonely Planet la incluye entre sus 11 mejores lugares de Suecia por los túmulos reales de Gamla Uppsala y le dedica un artículo con sus 8 imprescindibles. Frommer's destaca la catedral, la mayor de Escandinavia, el jardín de Linneo y Gamla Uppsala.",
       "fuentes": [
         { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-uppsala-sweden" },
-        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/sweden" },
         { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/sweden/frommers-favorite-experiences/" }
       ]
     },
@@ -570,11 +565,11 @@
       "tipo": "region",
       "puntaje": 4,
       "guias_que_lo_recomiendan": ["Lonely Planet", "Frommer's", "Time Out"],
-      "justificacion": "Lonely Planet incluye Dalarna entre sus 11 mejores lugares de Suecia por las artes tradicionales y los caballitos de Dala de Nusnäs, y propone una ruta en coche por el lago Siljan. Frommer's la cuenta entre sus destinos favoritos, con pueblos junto al Siljan que conservan su aire antiguo. Time Out le dedica sus 10 mejores cosas que hacer, con las casas de Carl Larsson y Anders Zorn y la gran mina de cobre de Falun.",
+      "justificacion": "Lonely Planet incluye Dalarna entre sus 11 mejores lugares de Suecia por las artes tradicionales y los caballitos de Dala de Nusnäs, y propone una ruta en coche por el lago Siljan. Frommer's la cuenta entre sus experiencias favoritas, con pueblos junto al Siljan que conservan su aire antiguo. Time Out le dedica sus 10 mejores cosas que hacer, con las casas de Carl Larsson y Anders Zorn y la gran mina de cobre de Falun.",
       "fuentes": [
         { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-sweden" },
         { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-road-trips-in-sweden" },
-        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/sweden/" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/sweden/frommers-favorite-experiences/" },
         { "guia": "Time Out", "url": "https://www.timeout.com/sweden/things-to-do/10-best-things-to-do-in-dalarna" }
       ]
     },
@@ -588,12 +583,12 @@
       "tipo": "parque",
       "puntaje": 5,
       "guias_que_lo_recomiendan": ["Lonely Planet", "Fodor's", "Frommer's", "Rough Guides"],
-      "justificacion": "Lonely Planet pone la Laponia sueca entre sus 11 mejores lugares de Suecia, con el Parque Nacional de Abisko como capital de las auroras y el Kungsleden como una de las grandes rutas de larga distancia del mundo. Fodor's incluye Abisko en su top 10 mundial para ver auroras. Frommer's llama al Kungsleden, de Abisko a Hemavan y junto al Kebnekaise, la caminata de tu vida. Rough Guides pone el Kungsleden y las auroras entre las 27 mejores cosas que hacer en Suecia.",
+      "justificacion": "Lonely Planet pone la Laponia sueca entre sus 11 mejores lugares de Suecia, con el Parque Nacional de Abisko como capital de las auroras y el Kungsleden como una de las grandes rutas de larga distancia del mundo. Fodor's incluye Abisko en su top 10 mundial para ver auroras. Frommer's pone entre sus experiencias favoritas el Kungsleden, de Abisko a Hemavan y junto al Kebnekaise: 'la caminata de tu vida'. Rough Guides pone el Kungsleden y las auroras entre las 27 mejores cosas que hacer en Suecia.",
       "fuentes": [
         { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-sweden" },
         { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-kiruna-lapland-sweden" },
         { "guia": "Fodor's", "url": "https://www.fodors.com/news/trip-ideas/top-10-places-to-see-the-northern-lights" },
-        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/sweden/" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/sweden/frommers-favorite-experiences/" },
         { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-sweden/" }
       ]
     },
@@ -607,7 +602,7 @@
       "tipo": "pueblo",
       "puntaje": 4,
       "guias_que_lo_recomiendan": ["Lonely Planet", "Frommer's", "Fodor's"],
-      "justificacion": "Lonely Planet le dedica un artículo a Kiruna y la Laponia sueca y dice que el Icehotel de Jukkasjärvi, tallado de nuevo cada invierno, es un destino en sí mismo. Frommer's destaca el Ice Hotel, a 200 km al norte del círculo polar, y el festival de la nieve de Kiruna. Fodor's incluye el Ice Hotel y la Laponia sueca entre sus 10 destinos de frío para el invierno.",
+      "justificacion": "Lonely Planet le dedica un artículo a Kiruna y la Laponia sueca y dice que el Icehotel de Jukkasjärvi, tallado de nuevo cada invierno, es un destino en sí mismo. Frommer's destaca en su guía de actividades de la Laponia sueca el Ice Hotel, a 200 km al norte del círculo polar, y el festival de la nieve de Kiruna. Fodor's incluye el Ice Hotel y la Laponia sueca entre sus 10 destinos de frío para el invierno.",
       "fuentes": [
         { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-kiruna-lapland-sweden" },
         { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/swedish-lapland/active-pursuits/" },
@@ -657,10 +652,10 @@
       "tipo": "region",
       "puntaje": 4,
       "guias_que_lo_recomiendan": ["Lonely Planet", "Frommer's", "Rough Guides"],
-      "justificacion": "Lonely Planet pone el crucero o la ruta en bici por el canal de Göta (66 esclusas, escaleras de Berg y Borenshult) entre las mejores cosas que hacer en Suecia. Frommer's le dedica una guía y llama a Vadstena la parada más evocadora del recorrido. Rough Guides describe Vadstena, con su castillo con foso y la abadía de Santa Brígida, y recomienda el canal en bici por sus caminos de sirga.",
+      "justificacion": "Lonely Planet pone el crucero o la ruta en bici por el canal de Göta (66 esclusas, escaleras de Berg y Borenshult) entre las mejores cosas que hacer en Suecia. Frommer's le dedica una guía y llama a Vadstena la parada más evocadora del recorrido. Rough Guides describe Vadstena, con su castillo con foso y la abadía de Santa Brígida, en su capítulo del sureste.",
       "fuentes": [
         { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-sweden" },
-        { "guia": "Frommer's", "url": "https://frommers.com/destinations/lake-vanern-and-the-gota-canal/attractions/overview" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/lake-vanern-and-the-gota-canal/attractions/overview" },
         { "guia": "Rough Guides", "url": "https://www.roughguides.com/sweden/southeast/" }
       ]
     },
@@ -690,17 +685,16 @@
       "lat": 55.7047,
       "lng": 13.1910,
       "tipo": "ciudad",
-      "puntaje": 4,
-      "guias_que_lo_recomiendan": ["Rough Guides", "Fodor's", "Lonely Planet"],
-      "justificacion": "Rough Guides pone la catedral de Lund entre las 27 mejores cosas que hacer en Suecia y compara la ciudad universitaria con Oxford. Fodor's le dedica una guía de destino (catedral de 1145 con su reloj astronómico, museo al aire libre Kulturen). Lonely Planet destaca la Lunds domkyrka y el museo Skissernas entre lo mejor del sur de Suecia.",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Rough Guides", "Fodor's"],
+      "justificacion": "Rough Guides pone la catedral de Lund entre las 27 mejores cosas que hacer en Suecia y compara la ciudad universitaria con Oxford. Fodor's le dedica una guía de destino (catedral de 1145 con su reloj astronómico, museo al aire libre Kulturen).",
       "fuentes": [
         { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-sweden/" },
-        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/sweden/the-south-and-the-kingdom-of-glass/places/lund" },
-        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/sweden/top-things-to-do" }
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/sweden/the-south-and-the-kingdom-of-glass/places/lund" }
       ]
     },
     {
-      "id": "se-ystad-osterlen",
+      "id": "se-ystad-ales-stenar",
       "nombre": "Ystad y Ales Stenar",
       "pais_iso": "SE",
       "region": "Skåne",
@@ -760,18 +754,510 @@
       ]
     },
     {
-      "id": "se-sigtuna",
-      "nombre": "Sigtuna",
-      "pais_iso": "SE",
-      "region": "Estocolmo",
-      "lat": 59.6173,
-      "lng": 17.7236,
+      "id": "fi-helsinki",
+      "nombre": "Helsinki y la fortaleza de Suomenlinna",
+      "pais_iso": "FI",
+      "region": "Uusimaa",
+      "lat": 60.1699,
+      "lng": 24.9384,
+      "tipo": "ciudad",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rick Steves", "Time Out", "Frommer's", "National Geographic", "Rough Guides"],
+      "justificacion": "Lonely Planet la pone primera en sus 10 mejores lugares de Finlandia por su diseño, sus museos (Kiasma, Ateneum) y la fortaleza UNESCO de Suomenlinna, y le dedica 20 imprescindibles. Rick Steves le dedica un episodio de televisión y recomienda pasear por las fortificaciones de Suomenlinna. Time Out propone empezar en la plaza del Senado y tomar el ferry a Suomenlinna. Frommer's tiene una guía de destino, NatGeo una guía de un día perfecto y Rough Guides pone su Design District entre las 13 mejores cosas que hacer en Finlandia.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-helsinki" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/watch-read-listen/video/tv-show/helsinki-and-tallinn-baltic-sisters" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/helsinki/things-to-do/best-things-to-do-in-helsinki" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/helsinki/" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/what-to-do-and-see-in-helsinki-24-hour-guide" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-finland/" }
+      ]
+    },
+    {
+      "id": "fi-rovaniemi",
+      "nombre": "Rovaniemi y el Círculo Polar Ártico",
+      "pais_iso": "FI",
+      "region": "Laponia",
+      "lat": 66.5039,
+      "lng": 25.7294,
+      "tipo": "ciudad",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides", "Fodor's", "National Geographic", "Time Out"],
+      "justificacion": "Lonely Planet la incluye entre sus 10 mejores lugares de Finlandia como capital de la Laponia finlandesa y recomienda la temporada media para evitar el gentío navideño. Rough Guides pone la Aldea de Papá Noel sobre el Círculo Polar entre las 13 mejores cosas que hacer en Finlandia. Fodor's la llama capital cultural del norte. NatGeo le dedica una guía (museo Arktikum, auroras) y Time Out incluye su Sauna World entre lo mejor de Laponia en invierno.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-finland" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-finland/" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/finland/lapland/things-to-do/sights?pois=809138" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/rovaniemi-things-to-do-northern-lights-finland-lapland" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/finland/things-to-do/best-things-to-do-in-lapland-in-winter" }
+      ]
+    },
+    {
+      "id": "fi-savonlinna-olavinlinna",
+      "nombre": "Savonlinna y el castillo de Olavinlinna",
+      "pais_iso": "FI",
+      "region": "Savonia del Sur (región de los lagos)",
+      "lat": 61.8686,
+      "lng": 28.8786,
+      "tipo": "ciudad",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides", "Frommer's", "Fodor's", "National Geographic"],
+      "justificacion": "Lonely Planet la incluye entre sus 10 mejores lugares de Finlandia por el castillo de Olavinlinna, del siglo XV, y como puerta a los parques nacionales del Saimaa. Rough Guides pone el castillo y su festival de ópera entre las 13 mejores cosas que hacer en Finlandia. Frommer's la presenta como la principal ciudad de la región de los lagos, con un festival de ópera de nivel mundial. Fodor's le dedica una guía de destino y NatGeo la recomienda en su fin de semana en Punkaharju.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-finland" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-finland/" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/finlands-lake-region/" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/finland/the-lakelands/places/savonlinna" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/perfect-weekend-punkaharju-heart-of-finlands-lake-district" }
+      ]
+    },
+    {
+      "id": "fi-saimaa",
+      "nombre": "Lago Saimaa (Linnansaari, Kolovesi, Punkaharju)",
+      "pais_iso": "FI",
+      "region": "Savonia del Sur (región de los lagos)",
+      "lat": 62.0800,
+      "lng": 28.5300,
+      "tipo": "naturaleza",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides", "National Geographic"],
+      "justificacion": "Lonely Planet pone remar por el Saimaa entre las 15 mejores cosas que hacer en Finlandia y recomienda en kayak los parques nacionales de Linnansaari y Kolovesi para ver la foca anillada del Saimaa. Rough Guides incluye el lago Saimaa entre sus 13 imprescindibles por el senderismo, las aves y el piragüismo. NatGeo le dedica un fin de semana en Punkaharju, corazón de la región de los lagos.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-finland" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-finland/" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/perfect-weekend-punkaharju-heart-of-finlands-lake-district" }
+      ]
+    },
+    {
+      "id": "fi-tampere",
+      "nombre": "Tampere",
+      "pais_iso": "FI",
+      "region": "Pirkanmaa",
+      "lat": 61.4978,
+      "lng": 23.7610,
+      "tipo": "ciudad",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides"],
+      "justificacion": "Lonely Planet la incluye entre sus 10 mejores lugares de Finlandia como ciudad lacustre creativa, con su distrito museístico en antiguas fábricas textiles y el museo Vapriikki. Rough Guides la pone entre las 13 mejores cosas que hacer en Finlandia por sus lagos y museos.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-finland" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-finland/" }
+      ]
+    },
+    {
+      "id": "fi-turku",
+      "nombre": "Turku y Naantali",
+      "pais_iso": "FI",
+      "region": "Finlandia Propia",
+      "lat": 60.4518,
+      "lng": 22.2666,
+      "tipo": "ciudad",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides", "Fodor's"],
+      "justificacion": "Lonely Planet la incluye entre sus 10 mejores lugares de Finlandia y le dedica sus 10 mejores experiencias. Rough Guides pone el castillo de Turku entre las 13 mejores cosas que hacer en Finlandia y la propone como base para el archipiélago y Naantali. Fodor's destaca la catedral, santuario nacional, y el castillo junto a la desembocadura del Aura.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-turku-finland" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/finland/southwest/" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/finland/southwestern-coast-and-the-alands/places/turku/things-to-do/sights" }
+      ]
+    },
+    {
+      "id": "fi-kuopio",
+      "nombre": "Kuopio",
+      "pais_iso": "FI",
+      "region": "Savonia del Norte (región de los lagos)",
+      "lat": 62.8924,
+      "lng": 27.6770,
+      "tipo": "ciudad",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides", "Fodor's"],
+      "justificacion": "Lonely Planet la incluye entre sus 10 mejores lugares de Finlandia. Rough Guides pone su sauna de humo, que llama la mayor del mundo, entre las 13 mejores cosas que hacer en Finlandia. Fodor's marca como Fodor's Choice el Museo de la Iglesia Ortodoxa y recomienda la torre de Puijo al atardecer.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-finland" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-finland/" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/finland/the-lakelands/places/kuopio/things-to-do/sights?pois=809008" }
+      ]
+    },
+    {
+      "id": "fi-aland",
+      "nombre": "Islas Åland (Mariehamn)",
+      "pais_iso": "FI",
+      "region": "Åland",
+      "lat": 60.0973,
+      "lng": 19.9348,
+      "tipo": "isla",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides", "Fodor's"],
+      "justificacion": "Lonely Planet incluye el archipiélago entre sus 10 mejores lugares de Finlandia como destino de verano de islas unidas por puentes y ferris. Rough Guides pone el buque museo Pommern de Mariehamn entre las 13 mejores cosas que hacer en Finlandia. Fodor's destaca el Pommern y el castillo medieval de Kastelholm.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-finland" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-finland/" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/finland/southwestern-coast-and-the-alands/things-to-do/sights?pois=809304" }
+      ]
+    },
+    {
+      "id": "fi-inari",
+      "nombre": "Inari (museo sami Siida y lago Inari)",
+      "pais_iso": "FI",
+      "region": "Laponia",
+      "lat": 68.9055,
+      "lng": 27.0288,
+      "tipo": "pueblo",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides", "Fodor's", "Time Out", "National Geographic"],
+      "justificacion": "Lonely Planet la incluye entre sus 10 mejores lugares de Finlandia por la cultura sami y la cercanía del Parque Nacional de Lemmenjoki. Rough Guides pone la cultura sami en el primer puesto de sus 13 mejores cosas que hacer en Finlandia. Fodor's, Time Out y NatGeo destacan el museo y centro de naturaleza Siida, a orillas del lago Inari.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-finland" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-finland/" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/finland/lapland/things-to-do/sights?pois=808144" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/finland/things-to-do/best-things-to-do-lapland" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/changing-indigneous-cultural-tourism-in-arctic-sapmi-region" }
+      ]
+    },
+    {
+      "id": "fi-urho-kekkonen-saariselka",
+      "nombre": "Parque Nacional Urho Kekkonen y Saariselkä",
+      "pais_iso": "FI",
+      "region": "Laponia",
+      "lat": 68.4200,
+      "lng": 27.4100,
+      "tipo": "parque",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Time Out"],
+      "justificacion": "Lonely Planet incluye el Parque Nacional Urho Kekkonen entre sus 10 mejores lugares de Finlandia por su fauna, sus fells y su bosque primario. Time Out recomienda Saariselkä como puerta de entrada al parque en su guía de lo mejor de Laponia.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-finland" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/finland/things-to-do/best-things-to-do-lapland" }
+      ]
+    },
+    {
+      "id": "fi-yllas-pallas",
+      "nombre": "Ylläs y Parque Nacional Pallas-Yllästunturi",
+      "pais_iso": "FI",
+      "region": "Laponia",
+      "lat": 67.6040,
+      "lng": 24.1500,
+      "tipo": "montaña",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Time Out"],
+      "justificacion": "Lonely Planet incluye Ylläs entre sus 10 mejores lugares de Finlandia. Time Out destaca el Parque Nacional Pallas-Yllästunturi en su guía de lo mejor de Laponia.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-finland" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/finland/things-to-do/best-things-to-do-lapland" }
+      ]
+    },
+    {
+      "id": "fi-rauma",
+      "nombre": "Vieja Rauma",
+      "pais_iso": "FI",
+      "region": "Satakunta",
+      "lat": 61.1287,
+      "lng": 21.5112,
       "tipo": "pueblo",
       "puntaje": 2,
-      "guias_que_lo_recomiendan": ["Rick Steves"],
-      "justificacion": "Rick Steves la recomienda en su cobertura de Suecia como la ciudad más antigua del país, con piedras rúnicas y casas del siglo XVIII.",
+      "guias_que_lo_recomiendan": ["Lonely Planet"],
+      "justificacion": "Lonely Planet pone la Vieja Rauma, el mayor casco antiguo medieval de madera de los países nórdicos y Patrimonio de la Humanidad, entre las 15 mejores cosas que hacer en Finlandia.",
       "fuentes": [
-        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/sweden" }
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-finland" }
+      ]
+    },
+    {
+      "id": "fi-porvoo",
+      "nombre": "Porvoo",
+      "pais_iso": "FI",
+      "region": "Uusimaa",
+      "lat": 60.3932,
+      "lng": 25.6650,
+      "tipo": "pueblo",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Frommer's"],
+      "justificacion": "Frommer's la incluye entre los mejores pueblos de Finlandia: fundada por los suecos en 1346, a 48 km de Helsinki, sede de la primera Dieta finlandesa, con barco de verano desde la plaza del Mercado.",
+      "fuentes": [
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/finland/introduction/the-best-small-towns-and-villages" }
+      ]
+    },
+    {
+      "id": "fi-koli",
+      "nombre": "Parque Nacional de Koli",
+      "pais_iso": "FI",
+      "region": "Karelia del Norte",
+      "lat": 63.0960,
+      "lng": 29.8060,
+      "tipo": "parque",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Rough Guides"],
+      "justificacion": "Rough Guides abre su itinerario de naturaleza de 14 días con tres días en Koli: el sendero de Herajärvi y la subida al Ukko-Koli, cuyas vistas inspiraron a los pintores finlandeses.",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/finland/itineraries/" }
+      ]
+    },
+    {
+      "id": "fi-oulanka",
+      "nombre": "Parque Nacional de Oulanka (Karhunkierros)",
+      "pais_iso": "FI",
+      "region": "Ostrobotnia del Norte",
+      "lat": 66.3700,
+      "lng": 29.3200,
+      "tipo": "parque",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Rough Guides"],
+      "justificacion": "Rough Guides recomienda en Oulanka el rafting por el río Kitkajoki y el Karhunkierros, el 'círculo del oso' de 80 km, con temporada de mayo a septiembre.",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/finland/sports-outdoor-activities/" }
+      ]
+    },
+    {
+      "id": "fi-nuuksio",
+      "nombre": "Parque Nacional de Nuuksio",
+      "pais_iso": "FI",
+      "region": "Uusimaa",
+      "lat": 60.3070,
+      "lng": 24.5070,
+      "tipo": "parque",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Time Out"],
+      "justificacion": "Time Out lo incluye entre las mejores excursiones de un día desde Helsinki, a una hora de la ciudad, con paseos en trineo de huskies.",
+      "fuentes": [
+        { "guia": "Time Out", "url": "https://www.timeout.com/helsinki/things-to-do/best-day-trips-from-helsinki-that-even-locals-swear-by" }
+      ]
+    },
+    {
+      "id": "dk-copenhague",
+      "nombre": "Copenhague",
+      "pais_iso": "DK",
+      "region": "Hovedstaden",
+      "lat": 55.6761,
+      "lng": 12.5683,
+      "tipo": "ciudad",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rick Steves", "Rough Guides", "Time Out", "Frommer's", "National Geographic"],
+      "justificacion": "Lonely Planet la pone primera en sus 8 mejores lugares de Dinamarca por su arquitectura y su calidad de vida. Rick Steves le dedica un episodio de televisión. Rough Guides pone Tivoli, Christiania y Amalienborg entre las 15 mejores cosas que hacer en Dinamarca. Time Out tiene su guía de imprescindibles (Tivoli, Nyhavn, Glyptotek), Frommer's sus experiencias favoritas y NatGeo su top 10 de la ciudad.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-denmark" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/watch-read-listen/video/tv-show/copenhagen" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-denmark/" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/copenhagen/things-to-do/best-things-to-do-in-copenhagen" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/copenhagen/things-to-do/frommers-favorite-experiences/" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/top-activities-things-to-do-14" }
+      ]
+    },
+    {
+      "id": "dk-roskilde",
+      "nombre": "Roskilde (catedral y Museo de Barcos Vikingos)",
+      "pais_iso": "DK",
+      "region": "Sjælland",
+      "lat": 55.6415,
+      "lng": 12.0803,
+      "tipo": "ciudad",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Rick Steves", "Rough Guides", "Lonely Planet"],
+      "justificacion": "Rick Steves le dedica un artículo de excursión perfecta desde Copenhague: la catedral con las tumbas de 39 reyes y reinas y el Museo de Barcos Vikingos. Rough Guides pone el museo, al que llama el más famoso de Dinamarca, y el festival de Roskilde entre las 15 mejores cosas que hacer en el país. Lonely Planet la incluye entre sus 8 mejores excursiones de un día desde Copenhague.",
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/watch-read-listen/read/articles/denmark-beyond-copenhagen" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-denmark/" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-day-trips-from-copenhagen" }
+      ]
+    },
+    {
+      "id": "dk-helsingor-louisiana",
+      "nombre": "Zelanda del Norte: Helsingør (Kronborg) y Louisiana",
+      "pais_iso": "DK",
+      "region": "Hovedstaden",
+      "lat": 56.0390,
+      "lng": 12.6213,
+      "tipo": "monumento",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides", "Time Out"],
+      "justificacion": "Lonely Planet incluye Zelanda del Norte entre sus 8 mejores lugares de Dinamarca (castillo de Kronborg en Helsingør, museo Louisiana, playas de Gilleleje y Tisvildeleje) y ambos entre sus mejores excursiones desde Copenhague. Rough Guides pone Kronborg, el Elsinore de Hamlet, entre las 15 mejores cosas que hacer en el país. Time Out dice que lo mejor que hacer en Copenhague es ir al Louisiana, en Humlebæk.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-denmark" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-day-trips-from-copenhagen" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-denmark/" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/copenhagen/things-to-do/louisiana-museum-of-modern-art" }
+      ]
+    },
+    {
+      "id": "dk-frederiksborg",
+      "nombre": "Castillo de Frederiksborg (Hillerød)",
+      "pais_iso": "DK",
+      "region": "Hovedstaden",
+      "lat": 55.9349,
+      "lng": 12.3010,
+      "tipo": "monumento",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Rick Steves", "Lonely Planet"],
+      "justificacion": "Rick Steves lo combina con Roskilde en su 'Zealand Blitz': un palacio sobre una isla en un lago de Hillerød, a menos de una hora de Copenhague. Lonely Planet lo incluye entre sus 8 mejores excursiones desde Copenhague como palacio renacentista convertido en Museo Nacional de Historia.",
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/watch-read-listen/read/articles/denmark-beyond-copenhagen" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-day-trips-from-copenhagen" }
+      ]
+    },
+    {
+      "id": "dk-aarhus",
+      "nombre": "Aarhus",
+      "pais_iso": "DK",
+      "region": "Midtjylland",
+      "lat": 56.1629,
+      "lng": 10.2039,
+      "tipo": "ciudad",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides", "National Geographic"],
+      "justificacion": "Lonely Planet la pone segunda en sus 8 mejores lugares de Dinamarca por el museo ARoS, el Moesgaard y su Barrio Latino. Rough Guides pone el ARoS entre las 15 mejores cosas que hacer en el país y le dedica un fin de semana en 'la ciudad más feliz de Dinamarca'. NatGeo le dedica una guía de viaje a la segunda ciudad del país.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-denmark" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/aarhus-a-weekend-in-denmarks-happiest-city/" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/travel-guide-aarhus-denmark" }
+      ]
+    },
+    {
+      "id": "dk-odense",
+      "nombre": "Odense (casa de Hans Christian Andersen)",
+      "pais_iso": "DK",
+      "region": "Syddanmark (Fionia)",
+      "lat": 55.4038,
+      "lng": 10.4024,
+      "tipo": "ciudad",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides", "Rick Steves", "Fodor's"],
+      "justificacion": "Lonely Planet la incluye entre sus 8 mejores lugares de Dinamarca para los amantes de los cuentos, por sus museos de Hans Christian Andersen. Rough Guides pone el museo de Andersen entre las 15 mejores cosas que hacer en el país. Rick Steves la incluye en su itinerario escandinavo de 14 días. Fodor's la presenta en su guía de Fionia como tercera ciudad del país.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-denmark" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-denmark/" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/scandinavia-itinerary" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/denmark/funen-and-the-central-islands#things-to-do" }
+      ]
+    },
+    {
+      "id": "dk-aero",
+      "nombre": "Isla de Ærø (Ærøskøbing) y archipiélago de Fionia del Sur",
+      "pais_iso": "DK",
+      "region": "Syddanmark (Fionia)",
+      "lat": 54.8880,
+      "lng": 10.4122,
+      "tipo": "isla",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Rick Steves", "Lonely Planet", "Fodor's"],
+      "justificacion": "Rick Steves la cuenta entre sus islas favoritas de Europa, le dedica un artículo de ruta en bici y dice que Ærøskøbing es el pueblo del siglo XVIII mejor conservado de Dinamarca. Lonely Planet incluye el archipiélago de Fionia del Sur, con Ærø como isla principal, entre sus 8 mejores lugares de Dinamarca. Fodor's describe en su guía de Fionia las casas de entramado pintadas de Ærøskøbing.",
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/watch-read-listen/read/articles/europe-best-island-getaways" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/watch-read-listen/read/articles/aeroe-dynamic-bike-ride" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-denmark" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/denmark/funen-and-the-central-islands#things-to-do" }
+      ]
+    },
+    {
+      "id": "dk-skagen",
+      "nombre": "Skagen y Grenen",
+      "pais_iso": "DK",
+      "region": "Nordjylland",
+      "lat": 57.7209,
+      "lng": 10.5839,
+      "tipo": "pueblo",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Fodor's", "Frommer's"],
+      "justificacion": "Lonely Planet le dedica una página (herencia artística, marisco, barrios fotogénicos) y la destaca dentro de Jutlandia del Norte en sus 8 mejores lugares de Dinamarca. Fodor's recomienda Grenen, la punta donde se encuentran el mar del Norte y el Kattegat, y el museo Anchers Hus. Frommer's le dedica una página de atracciones: el puerto, el Skagens Museum de los pintores de Skagen y la iglesia enterrada en la arena.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/destinations/denmark/skagen" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/denmark/jutland/things-to-do/sights?pois=915370" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/skagen/attractions" }
+      ]
+    },
+    {
+      "id": "dk-ribe",
+      "nombre": "Ribe",
+      "pais_iso": "DK",
+      "region": "Syddanmark (Jutlandia)",
+      "lat": 55.3280,
+      "lng": 8.7610,
+      "tipo": "pueblo",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Frommer's"],
+      "justificacion": "Lonely Planet la menciona en sus 8 mejores lugares de Dinamarca como la ciudad más antigua del país, de unos 1.000 años, y tiene una ficha de su catedral (desde al menos 948). Frommer's le dedica una página de qué hacer y la llama la ciudad medieval mejor conservada de Dinamarca, con la catedral y el centro vikingo.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-denmark" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/points-of-interest/ribe-domkirke/1291785" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/ribe/things-to-do/" }
+      ]
+    },
+    {
+      "id": "dk-mar-wadden",
+      "nombre": "Parque Nacional del Mar de Wadden (Mandø, Rømø)",
+      "pais_iso": "DK",
+      "region": "Syddanmark (Jutlandia)",
+      "lat": 55.2000,
+      "lng": 8.5500,
+      "tipo": "costa",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides"],
+      "justificacion": "Lonely Planet incluye Jutlandia Occidental entre sus 8 mejores lugares de Dinamarca por el Parque Nacional del Mar de Wadden y la isla de Mandø. Rough Guides pone este litoral de mareas UNESCO, con aves y focas, entre las 15 mejores cosas que hacer en Dinamarca.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-denmark" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-denmark/" }
+      ]
+    },
+    {
+      "id": "dk-bornholm",
+      "nombre": "Bornholm (Hammershus)",
+      "pais_iso": "DK",
+      "region": "Bornholm",
+      "lat": 55.1500,
+      "lng": 14.9200,
+      "tipo": "isla",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Fodor's", "National Geographic"],
+      "justificacion": "Lonely Planet la incluye entre sus 8 mejores lugares de Dinamarca como la isla del sol, con rutas en bici, playas y gastronomía. Fodor's le dedica una guía de destino y destaca Hammershus, la mayor ruina de fortaleza del norte de Europa. NatGeo la incluye entre sus escapadas gastronómicas de Dinamarca por sus ahumaderos de arenque y el restaurante Kadeau.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-denmark" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/denmark/ronne" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/best-gourmet-getaways-denmark" }
+      ]
+    },
+    {
+      "id": "dk-mons-klint",
+      "nombre": "Acantilados de Møns Klint",
+      "pais_iso": "DK",
+      "region": "Sjælland",
+      "lat": 54.9670,
+      "lng": 12.5450,
+      "tipo": "costa",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Rough Guides", "National Geographic", "Lonely Planet"],
+      "justificacion": "Rough Guides pone los acantilados de creta de hasta 128 m entre las 15 mejores cosas que hacer en Dinamarca. NatGeo le dedica un artículo: Patrimonio de la Humanidad desde 2025, fósiles en la playa y reserva de cielo oscuro. Lonely Planet tiene fichas de Møns Klint y propone una caminata de 75 minutos por la base y la cima desde el faro de Møns Fyr.",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-denmark/" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/mons-klint-the-white-cliffs-of-denmark" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/denmark/mons-klint/attractions/klintholm-beaches/a/poi-sig/1578777/1315923" }
+      ]
+    },
+    {
+      "id": "dk-billund-legoland",
+      "nombre": "Billund (Legoland y Lego House)",
+      "pais_iso": "DK",
+      "region": "Syddanmark (Jutlandia)",
+      "lat": 55.7354,
+      "lng": 9.1265,
+      "tipo": "ciudad",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Rough Guides"],
+      "justificacion": "Rough Guides incluye Legoland y la Lego House de Billund entre las 15 mejores cosas que hacer en Dinamarca como plan familiar, con Legoland abierto de abril a septiembre.",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-denmark/" }
+      ]
+    },
+    {
+      "id": "dk-thy-klitmoller",
+      "nombre": "Parque Nacional de Thy y Klitmøller ('Cold Hawaii')",
+      "pais_iso": "DK",
+      "region": "Nordjylland",
+      "lat": 57.0410,
+      "lng": 8.4950,
+      "tipo": "costa",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Rough Guides", "National Geographic"],
+      "justificacion": "Rough Guides llama a Klitmøller la capital del surf de Dinamarca en su guía de actividades al aire libre y pone las playas salvajes de Jutlandia entre las 15 mejores cosas que hacer en el país. NatGeo le dedica un reportaje en su revista a la cultura de arena y surf de la costa oeste.",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/denmark/sports-outdoor-activities/" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/magazine/article/denmark-has-a-secret-to-happiness-sand-and-surf" }
       ]
     }
   ]
