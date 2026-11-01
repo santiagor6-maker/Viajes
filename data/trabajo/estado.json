@@ -1,7 +1,7 @@
 {
   "pausado": false,
   "subregion": "britanicas-nordicos",
-  "paso": "guias",
+  "paso": "especialistas",
   "ronda": 1,
   "orden_subregiones": [
     "iberica-italia",
@@ -154,6 +154,12 @@
       "subregion": "francia-alpes",
       "paso": "publicar",
       "resultado": "Cerrada tras el revisor ronda 2 (final): 251 lugares. Aprobado solo cultura-historia (grupo a). Notas: FR 8.8, MC 9.2, BE 9.1, NL 8.9, LU 9.3, CH 8.9, AT 8.6, LI 9.4 (todos con revisión pendiente). Correcciones posteriores (curador-ajustes notas.ronda5): escala oficial de guías en 15 lugares, Mont-Saint-Michel ★★★ confirmado, Parsenn recuperado. Republicado (versión 12)."
+    },
+    {
+      "fecha": "2026-11-01",
+      "subregion": "britanicas-nordicos",
+      "paso": "guias",
+      "resultado": "169 candidatos (GB 30, IE 17, IS 15, NO 22, SE 21, FI 16, DK 14, EE 11, LV 11, LT 12); escala oficial; sin ★★★ Michelin públicos en estos países. Siguiente: 8 especialistas ronda 1 (170 búsquedas)"
     }
   ],
   "ronda_revisor": 0,

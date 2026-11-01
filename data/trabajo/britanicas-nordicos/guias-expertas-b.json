@@ -3,7 +3,8 @@
   "subregion": "britanicas-nordicos",
   "grupo": "b",
   "ronda": 1,
-  "notas": "Grupo b: NO, SE, FI, DK, EE, LV, LT. En curso (NO, SE, FI y DK completos).",
+  "estado": "completo",
+  "notas": "Grupo b: NO, SE, FI, DK, EE, LV, LT. Guías consultadas: Lonely Planet, Rough Guides, Rick Steves, Fodor's, Frommer's, National Geographic, Time Out y Bradt. Rick Steves solo cubre Noruega, Suecia, Dinamarca, Helsinki y Tallin; para Riga y Lituania solo hay foros, que no se cuentan. Condé Nast Traveler bloqueó la búsqueda. No se encontró ninguna página pública del Guide Vert Michelin ni de DK Eyewitness con fichas de estos países, así que no se asigna ningún ★★★. No se cuentan el contenido pagado de NatGeo (Skåne, Kaunas, Levi), los viajes de National Geographic Expeditions, los foros ni las fichas de librería. Se descartaron como fuente las páginas genéricas de país (p. ej. ricksteves.com/europe/sweden, frommers.com/destinations/finland).",
   "candidatos": [
     {
       "id": "no-bergen",
@@ -655,7 +656,7 @@
       "justificacion": "Lonely Planet pone el crucero o la ruta en bici por el canal de Göta (66 esclusas, escaleras de Berg y Borenshult) entre las mejores cosas que hacer en Suecia. Frommer's le dedica una guía y llama a Vadstena la parada más evocadora del recorrido. Rough Guides describe Vadstena, con su castillo con foso y la abadía de Santa Brígida, en su capítulo del sureste.",
       "fuentes": [
         { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-sweden" },
-        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/lake-vanern-and-the-gota-canal/attractions/overview" },
+        { "guia": "Frommer's", "url": "https://frommers.com/destinations/lake-vanern-and-the-gota-canal/attractions/overview" },
         { "guia": "Rough Guides", "url": "https://www.roughguides.com/sweden/southeast/" }
       ]
     },
@@ -1258,6 +1259,572 @@
       "fuentes": [
         { "guia": "Rough Guides", "url": "https://www.roughguides.com/denmark/sports-outdoor-activities/" },
         { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/magazine/article/denmark-has-a-secret-to-happiness-sand-and-surf" }
+      ]
+    },
+    {
+      "id": "ee-tallinn",
+      "nombre": "Tallin (casco antiguo y Toompea)",
+      "pais_iso": "EE",
+      "region": "Harju",
+      "lat": 59.4370,
+      "lng": 24.7536,
+      "tipo": "ciudad",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rick Steves", "Rough Guides", "Fodor's", "Frommer's", "National Geographic", "Time Out", "Bradt"],
+      "justificacion": "Lonely Planet abre sus 15 mejores cosas que hacer en Estonia con el casco antiguo, uno de los mejor conservados del norte de Europa. Rick Steves le dedica un artículo y dice que ninguna ciudad medieval nórdica está tan bien conservada. Rough Guides lo pone entre sus 15 imprescindibles, Fodor's lo incluye en sus 10 razones para visitar los Bálticos y tiene una guía de la ciudad, y Frommer's sus experiencias favoritas. NatGeo propone un fin de semana en Tallin, Time Out destaca su mercado de Navidad en la plaza del Ayuntamiento y Bradt le dedica una guía de destino.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-estonia" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/watch-read-listen/read/articles/tallinn-estonia" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-estonia/" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/news/photos/10-ultimate-things-to-do-in-the-baltics" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/estonia/tallinn" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/tallinn/introduction/frommers-favorite-experiences" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/spend-weekend-tallinn-estonia" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/europe/things-to-do/best-christmas-markets-in-europe" },
+        { "guia": "Bradt", "url": "https://www.bradtguides.com/destinations/europe/estonia/tallinn.html" }
+      ]
+    },
+    {
+      "id": "ee-saaremaa",
+      "nombre": "Saaremaa (Kuressaare y cráter de Kaali)",
+      "pais_iso": "EE",
+      "region": "Saare",
+      "lat": 58.2529,
+      "lng": 22.4850,
+      "tipo": "isla",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Rough Guides", "Lonely Planet", "National Geographic", "Fodor's"],
+      "justificacion": "Rough Guides pone Saaremaa en el primer puesto de sus 15 mejores cosas que hacer en Estonia, por el castillo de Kuressaare, uno de los mejores de los Bálticos, y el cráter de Kaali. Lonely Planet la recomienda para un viaje de varios días en su artículo sobre recorrer las islas estonias. NatGeo le dedica un artículo de islas del oeste (molinos, castillo, sendero de Harilaid). Fodor's la destaca en sus 10 razones para visitar los Bálticos.",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-estonia/" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/estonia-island-hopping-trip" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/island-hopping-through-estonias-western-isles" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/news/photos/10-ultimate-things-to-do-in-the-baltics" }
+      ]
+    },
+    {
+      "id": "ee-hiiumaa",
+      "nombre": "Hiiumaa",
+      "pais_iso": "EE",
+      "region": "Hiiu",
+      "lat": 58.9978,
+      "lng": 22.7493,
+      "tipo": "isla",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "National Geographic"],
+      "justificacion": "Lonely Planet recomienda Hiiumaa, junto con Muhu, en su artículo sobre cómo recorrer las islas estonias. NatGeo la incluye en su recorrido por las islas del oeste de Estonia, unidas por ferris regulares.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/estonia-island-hopping-trip" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/island-hopping-through-estonias-western-isles" }
+      ]
+    },
+    {
+      "id": "ee-lahemaa",
+      "nombre": "Parque Nacional de Lahemaa (Palmse, ciénaga de Viru)",
+      "pais_iso": "EE",
+      "region": "Lääne-Viru",
+      "lat": 59.5100,
+      "lng": 25.9530,
+      "tipo": "parque",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides", "National Geographic"],
+      "justificacion": "Lonely Planet le dedica una página como el mayor parque nacional de Estonia (costa, bosque, turberas, mansiones) y cita la ciénaga de Viru, la más visitada, en sus 15 mejores cosas que hacer en el país. Rough Guides lo incluye entre sus 15 imprescindibles y recomienda recorrerlo en bici. NatGeo recomienda la mansión de Palmse, la cascada de Jägala y la ciénaga de Viru en su guía esencial de Estonia.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/estonia/northeastern-estonia/lahemaa-national-park" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-estonia" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-estonia/" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/estonia-travel-guide" }
+      ]
+    },
+    {
+      "id": "ee-tartu",
+      "nombre": "Tartu",
+      "pais_iso": "EE",
+      "region": "Tartu",
+      "lat": 58.3776,
+      "lng": 26.7290,
+      "tipo": "ciudad",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides", "National Geographic"],
+      "justificacion": "Lonely Planet la presenta en su guía para primerizos como la ciudad universitaria y cultural de Estonia, con la colina de Toomemägi y las ruinas de la catedral. Rough Guides incluye su centro de ciencia AHHAA y el Museo Nacional de Estonia entre sus 15 imprescindibles. NatGeo la destaca en su artículo de lo que más gusta a los locales (Capital Europea de la Cultura 2024, universidad más antigua del país).",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/guide-to-estonia" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-estonia/" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/expert-tips-visit-estonia-tallinn-tartu" }
+      ]
+    },
+    {
+      "id": "ee-soomaa",
+      "nombre": "Parque Nacional de Soomaa",
+      "pais_iso": "EE",
+      "region": "Pärnu y Viljandi",
+      "lat": 58.4300,
+      "lng": 25.0300,
+      "tipo": "parque",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides", "National Geographic"],
+      "justificacion": "Lonely Planet pone el kayak por los bosques inundados de Soomaa en primavera entre las 15 mejores cosas que hacer en Estonia. Rough Guides lo incluye entre sus 15 imprescindibles por sus ciénagas recorridas por pasarelas. NatGeo recomienda la 'quinta estación', la crecida de marzo-abril, para remar por canales temporales.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-estonia" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-estonia/" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/estonia-travel-guide" }
+      ]
+    },
+    {
+      "id": "ee-parnu",
+      "nombre": "Pärnu",
+      "pais_iso": "EE",
+      "region": "Pärnu",
+      "lat": 58.3859,
+      "lng": 24.4971,
+      "tipo": "playa",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Rough Guides", "Lonely Planet"],
+      "justificacion": "Rough Guides la incluye entre sus 15 imprescindibles de Estonia por su playa y sus eventos de verano. Lonely Planet tiene una ficha de su larga playa de arena, principal atractivo estival, y la presenta como destino de verano favorito en su ruta por los países bálticos.",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-estonia/" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/road-trip-baltic-states" }
+      ]
+    },
+    {
+      "id": "ee-kihnu",
+      "nombre": "Isla de Kihnu",
+      "pais_iso": "EE",
+      "region": "Pärnu",
+      "lat": 58.1300,
+      "lng": 23.9800,
+      "tipo": "isla",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Fodor's"],
+      "justificacion": "Fodor's destaca Kihnu, junto con Saaremaa, en el apartado de islas de sus 10 razones para visitar los Bálticos.",
+      "fuentes": [
+        { "guia": "Fodor's", "url": "https://www.fodors.com/news/photos/10-ultimate-things-to-do-in-the-baltics" }
+      ]
+    },
+    {
+      "id": "ee-matsalu",
+      "nombre": "Parque Nacional de Matsalu",
+      "pais_iso": "EE",
+      "region": "Lääne",
+      "lat": 58.7700,
+      "lng": 23.6500,
+      "tipo": "parque",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Rough Guides"],
+      "justificacion": "Rough Guides incluye la bahía de Matsalu, refugio de avocetas, charranes, cisnes y águilas de cola blanca, entre las 15 mejores cosas que hacer en Estonia.",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-estonia/" }
+      ]
+    },
+    {
+      "id": "ee-narva",
+      "nombre": "Narva",
+      "pais_iso": "EE",
+      "region": "Ida-Viru",
+      "lat": 59.3772,
+      "lng": 28.1903,
+      "tipo": "ciudad",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Rough Guides"],
+      "justificacion": "Rough Guides incluye Narva, ciudad fronteriza con Rusia y su castillo, entre las 15 mejores cosas que hacer en Estonia.",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-estonia/" }
+      ]
+    },
+    {
+      "id": "ee-peipsi",
+      "nombre": "Lago Peipsi y la Ruta de la Cebolla (Viejos Creyentes)",
+      "pais_iso": "EE",
+      "region": "Tartu y Jõgeva",
+      "lat": 58.6600,
+      "lng": 27.1700,
+      "tipo": "naturaleza",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides"],
+      "justificacion": "Lonely Planet pone recorrer en bici la Ruta de la Cebolla para conocer a los Viejos Creyentes de la orilla del Peipsi entre las 15 mejores cosas que hacer en Estonia. Rough Guides también incluye el lago Peipsi entre sus 15 imprescindibles.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-estonia" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-estonia/" }
+      ]
+    },
+    {
+      "id": "lv-riga",
+      "nombre": "Riga (casco antiguo y Art Nouveau)",
+      "pais_iso": "LV",
+      "region": "Riga",
+      "lat": 56.9496,
+      "lng": 24.1052,
+      "tipo": "ciudad",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides", "Fodor's", "Time Out", "National Geographic", "Bradt"],
+      "justificacion": "Lonely Planet le dedica sus 13 mejores cosas que hacer y recomienda recorrer a pie el casco antiguo y el barrio Art Nouveau. Rough Guides pone el casco antiguo entre las 14 mejores cosas que hacer en Letonia. Fodor's incluye su Art Nouveau en sus 10 razones para visitar los Bálticos. Time Out la eligió la mejor escapada urbana calidad-precio de Europa, NatGeo le dedica una guía de un vecino y Bradt destaca su castillo, aún habitado.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-riga" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-latvia/" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/news/photos/10-ultimate-things-to-do-in-the-baltics" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/news/the-underrated-baltic-capital-just-named-europes-best-value-city-break-052025" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/i-heart-my-city-martinss-riga" },
+        { "guia": "Bradt", "url": "https://www.bradtguides.com/best-castles-in-latvia/" }
+      ]
+    },
+    {
+      "id": "lv-gauja-sigulda",
+      "nombre": "Parque Nacional del Gauja (Sigulda, Turaida, Krimulda)",
+      "pais_iso": "LV",
+      "region": "Vidzeme",
+      "lat": 57.1537,
+      "lng": 24.8530,
+      "tipo": "parque",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides", "National Geographic"],
+      "justificacion": "Lonely Planet pone el senderismo en el Parque Nacional del Gauja, los 'Alpes' de Letonia, en el primer puesto de sus 15 mejores cosas que hacer en el país, junto al castillo de Turaida (1214). Rough Guides incluye el parque y la reserva museo de Turaida entre sus 14 imprescindibles. NatGeo pone la Ruta de los Tres Castillos (Sigulda, Turaida y Krimulda) entre las mejores caminatas de otoño de Europa.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/the-top-things-to-do-in-latvia" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-latvia/" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/best-autumn-hikes-in-europe" }
+      ]
+    },
+    {
+      "id": "lv-cesis",
+      "nombre": "Cēsis",
+      "pais_iso": "LV",
+      "region": "Vidzeme",
+      "lat": 57.3119,
+      "lng": 25.2706,
+      "tipo": "pueblo",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides", "Bradt"],
+      "justificacion": "Lonely Planet destaca en su guía para primerizos el castillo de Cēsis, que se explora con un farol. Rough Guides lo incluye entre las 14 mejores cosas que hacer en Letonia. Bradt lo cuenta entre los mejores castillos del país, rodeado por los bosques del Parque Nacional del Gauja.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/first-time-guide-to-latvia" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-latvia/" },
+        { "guia": "Bradt", "url": "https://www.bradtguides.com/best-castles-in-latvia/" }
+      ]
+    },
+    {
+      "id": "lv-jurmala",
+      "nombre": "Jūrmala",
+      "pais_iso": "LV",
+      "region": "Riga (costa)",
+      "lat": 56.9715,
+      "lng": 23.7990,
+      "tipo": "playa",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Rough Guides", "Lonely Planet", "National Geographic"],
+      "justificacion": "Rough Guides pone las playas de Jūrmala en el primer puesto de sus 14 mejores cosas que hacer en Letonia. Lonely Planet incluye su playa de 24 km de arena compacta entre sus 15 imprescindibles del país. NatGeo la llama una de las playas más largas y bonitas de Letonia en su fin de semana por el oeste del país.",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-latvia/" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/the-top-things-to-do-in-latvia" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/how-to-spend-a-weekend-latvia-wild-west" }
+      ]
+    },
+    {
+      "id": "lv-kemeri",
+      "nombre": "Parque Nacional de Ķemeri (Gran Ciénaga)",
+      "pais_iso": "LV",
+      "region": "Riga (costa)",
+      "lat": 56.9230,
+      "lng": 23.4840,
+      "tipo": "parque",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides"],
+      "justificacion": "Lonely Planet lo llama quizá el lugar más contemplativo de Letonia y recomienda la pasarela de 3,5 km de la Gran Ciénaga de Ķemeri en sus 15 mejores cosas que hacer en el país. Rough Guides lo pone segundo en sus 14 imprescindibles por sus humedales para senderistas y observadores de aves.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/the-top-things-to-do-in-latvia" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-latvia/" }
+      ]
+    },
+    {
+      "id": "lv-rundale",
+      "nombre": "Palacio de Rundāle",
+      "pais_iso": "LV",
+      "region": "Zemgale",
+      "lat": 56.4139,
+      "lng": 24.0253,
+      "tipo": "monumento",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Rough Guides", "Fodor's"],
+      "justificacion": "Rough Guides incluye el palacio barroco de Rundāle entre las 14 mejores cosas que hacer en Letonia. Fodor's lo pone en sus 10 razones para visitar los Bálticos como obra de Rastrelli y uno de los lugares más visitados del país.",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-latvia/" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/news/photos/10-ultimate-things-to-do-in-the-baltics" }
+      ]
+    },
+    {
+      "id": "lv-kuldiga",
+      "nombre": "Kuldīga (Ventas Rumba)",
+      "pais_iso": "LV",
+      "region": "Kurzeme",
+      "lat": 56.9677,
+      "lng": 21.9686,
+      "tipo": "pueblo",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "National Geographic"],
+      "justificacion": "Lonely Planet incluye Kuldīga y sus cascadas, la Alekšupīte y la célebre Ventas Rumba, entre las 15 mejores cosas que hacer en Letonia. NatGeo la destaca entre los nuevos Patrimonios de la Humanidad de Europa en 2023, con sus casas de madera y la cascada más ancha de Europa.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/the-top-things-to-do-in-latvia" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/new-unesco-world-heritage-sites-2023-europe" }
+      ]
+    },
+    {
+      "id": "lv-ventspils",
+      "nombre": "Ventspils",
+      "pais_iso": "LV",
+      "region": "Kurzeme",
+      "lat": 57.3894,
+      "lng": 21.5606,
+      "tipo": "ciudad",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Rough Guides", "Lonely Planet"],
+      "justificacion": "Rough Guides incluye Ventspils entre las 14 mejores cosas que hacer en Letonia por su casco antiguo y la que llama la mejor playa del país. Lonely Planet recomienda su mercado en sus 15 imprescindibles.",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-latvia/" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/the-top-things-to-do-in-latvia" }
+      ]
+    },
+    {
+      "id": "lv-liepaja-karosta",
+      "nombre": "Liepāja y Karosta",
+      "pais_iso": "LV",
+      "region": "Kurzeme",
+      "lat": 56.5047,
+      "lng": 21.0108,
+      "tipo": "ciudad",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides"],
+      "justificacion": "Lonely Planet incluye el Mercado de San Pedro de Liepāja, de mediados del siglo XVII, entre sus 15 mejores cosas que hacer en Letonia. Rough Guides pone dormir en la cárcel militar de Karosta entre sus 14 imprescindibles del país.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/the-top-things-to-do-in-latvia" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-latvia/" }
+      ]
+    },
+    {
+      "id": "lv-kolka",
+      "nombre": "Cabo Kolka",
+      "pais_iso": "LV",
+      "region": "Kurzeme",
+      "lat": 57.7570,
+      "lng": 22.5920,
+      "tipo": "costa",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Rough Guides"],
+      "justificacion": "Rough Guides incluye el pueblo de Kolka y su cabo, donde se unen el golfo de Riga y el Báltico, entre las 14 mejores cosas que hacer en Letonia.",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-latvia/" }
+      ]
+    },
+    {
+      "id": "lv-daugavpils-latgale",
+      "nombre": "Daugavpils y lagos de Latgale (Centro Rothko, Aglona)",
+      "pais_iso": "LV",
+      "region": "Latgale",
+      "lat": 55.8714,
+      "lng": 26.5161,
+      "tipo": "ciudad",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Bradt"],
+      "justificacion": "Lonely Planet tiene una ficha de la fortaleza de Daugavpils, con el Centro de Arte Mark Rothko en el antiguo arsenal, y en su ruta por los países bálticos propone pernoctar junto al lago Rāzna y visitar la basílica de Aglona. Bradt destaca el centro Rothko en su artículo de los mejores castillos de Letonia.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/latvia/daugavpils/attractions/daugavpils-fortress/a/poi-sig/1466039/360093" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/road-trip-baltic-states" },
+        { "guia": "Bradt", "url": "https://www.bradtguides.com/best-castles-in-latvia/" }
+      ]
+    },
+    {
+      "id": "lt-vilnius",
+      "nombre": "Vilna (casco antiguo y Užupis)",
+      "pais_iso": "LT",
+      "region": "Vilna",
+      "lat": 54.6872,
+      "lng": 25.2797,
+      "tipo": "ciudad",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides", "Fodor's", "Time Out", "National Geographic"],
+      "justificacion": "Lonely Planet le dedica una guía para primerizos y pone su casco antiguo, la colina de Gediminas y Užupis entre las 12 mejores cosas que hacer en Lituania. Rough Guides abre sus 15 imprescindibles con el casco antiguo barroco y la torre de televisión. Fodor's le dedica una guía de destino y destaca Užupis en sus 10 razones para visitar los Bálticos. Time Out la incluye entre los lugares más infravalorados de Europa y NatGeo le dedica una guía de una vecina.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/first-time-guide-to-vilnius" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-lithuania/" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/lithuania/places/vilnius" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/europe/travel/most-underrated-travel-destinations-europe" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/intelligent-travel/2014/11/05/i-heart-my-city-kamiles-vilnius" }
+      ]
+    },
+    {
+      "id": "lt-trakai",
+      "nombre": "Trakai (castillo de la isla)",
+      "pais_iso": "LT",
+      "region": "Vilna",
+      "lat": 54.6522,
+      "lng": 24.9336,
+      "tipo": "monumento",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides", "Bradt", "Fodor's"],
+      "justificacion": "Lonely Planet incluye la excursión al castillo de la isla del lago Galvė entre las 12 mejores cosas que hacer en Lituania. Rough Guides lo pone entre sus 15 imprescindibles, a unos 30 km de Vilna. Bradt lo encabeza en su lista de los castillos más interesantes del país. Fodor's lo recomienda como excursión en su guía de Vilna.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-lithuania" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-lithuania/" },
+        { "guia": "Bradt", "url": "https://www.bradtguides.com/most-interesting-castles-lithuania/" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/lithuania/places/vilnius" }
+      ]
+    },
+    {
+      "id": "lt-istmo-curonia",
+      "nombre": "Istmo de Curlandia (Nida, duna de Parnidis, Juodkrantė)",
+      "pais_iso": "LT",
+      "region": "Klaipėda",
+      "lat": 55.3036,
+      "lng": 21.0058,
+      "tipo": "costa",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides", "Bradt"],
+      "justificacion": "Lonely Planet abre sus 12 mejores cosas que hacer en Lituania con el istmo: recorrer en bici sus cuatro pueblos pesqueros y subir a la duna de Parnidis en Nida. Rough Guides lo incluye entre sus 15 imprescindibles y aconseja quedarse varios días; también recomienda la Colina de las Brujas de Juodkrantė. Bradt destaca la playa de Nida, en el istmo Patrimonio de la Humanidad.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-lithuania" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-lithuania/" },
+        { "guia": "Bradt", "url": "https://www.bradtguides.com/best-beaches-lithuania/" }
+      ]
+    },
+    {
+      "id": "lt-kaunas",
+      "nombre": "Kaunas (casco antiguo, art déco y Pažaislis)",
+      "pais_iso": "LT",
+      "region": "Kaunas",
+      "lat": 54.8985,
+      "lng": 23.9036,
+      "tipo": "ciudad",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides", "Bradt", "Frommer's"],
+      "justificacion": "Lonely Planet pone su casco antiguo, su castillo y su arquitectura de entreguerras (museos de Art Déco y de la Escuela de Ámsterdam) entre las 12 mejores cosas que hacer en Lituania. Rough Guides incluye el castillo, el casco antiguo y el monasterio barroco de Pažaislis entre sus 15 imprescindibles. Bradt incluye el castillo de Kaunas entre los más interesantes del país. Frommer's la presenta como segunda ciudad del país, con su castillo y el ayuntamiento.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-lithuania" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-lithuania/" },
+        { "guia": "Bradt", "url": "https://www.bradtguides.com/most-interesting-castles-lithuania/" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/trip-ideas/cultural-immersion/lithuania-center-of-the-new-old-world/" }
+      ]
+    },
+    {
+      "id": "lt-colina-cruces",
+      "nombre": "Colina de las Cruces (Šiauliai)",
+      "pais_iso": "LT",
+      "region": "Šiauliai",
+      "lat": 56.0153,
+      "lng": 23.4167,
+      "tipo": "monumento",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Rough Guides", "Fodor's"],
+      "justificacion": "Rough Guides incluye la Colina de las Cruces entre las 15 mejores cosas que hacer en Lituania. Fodor's la pone en sus 10 razones para visitar los Bálticos, con más de 100.000 cruces.",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-lithuania/" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/news/photos/10-ultimate-things-to-do-in-the-baltics" }
+      ]
+    },
+    {
+      "id": "lt-palanga",
+      "nombre": "Palanga",
+      "pais_iso": "LT",
+      "region": "Klaipėda",
+      "lat": 55.9175,
+      "lng": 21.0686,
+      "tipo": "playa",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides", "Bradt"],
+      "justificacion": "Lonely Planet la incluye entre las 12 mejores cosas que hacer en Lituania como balneario de fiesta en verano con un lado tranquilo entre pinares. Rough Guides la llama el principal balneario del país en sus 15 imprescindibles. Bradt la considera la playa más fotografiada de Lituania, con 18 km de costa y el muelle de 470 m.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-lithuania" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-lithuania/" },
+        { "guia": "Bradt", "url": "https://www.bradtguides.com/best-beaches-lithuania/" }
+      ]
+    },
+    {
+      "id": "lt-aukstaitija",
+      "nombre": "Parque Nacional de Aukštaitija",
+      "pais_iso": "LT",
+      "region": "Utena (Aukštaitija)",
+      "lat": 55.3300,
+      "lng": 26.0500,
+      "tipo": "parque",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides"],
+      "justificacion": "Lonely Planet incluye sus lagos, senderos forestales y actividades de verano entre las 12 mejores cosas que hacer en Lituania. Rough Guides también lo pone entre sus 15 imprescindibles.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-lithuania" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-lithuania/" }
+      ]
+    },
+    {
+      "id": "lt-druskininkai",
+      "nombre": "Druskininkai y Parque Grūtas",
+      "pais_iso": "LT",
+      "region": "Alytus (Dzūkija)",
+      "lat": 54.0185,
+      "lng": 23.9706,
+      "tipo": "pueblo",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides"],
+      "justificacion": "Lonely Planet incluye los tratamientos de spa y las aguas minerales de Druskininkai entre las 12 mejores cosas que hacer en Lituania. Rough Guides pone las ciudades balneario y el parque de esculturas soviéticas Grūtas, junto a Druskininkai, entre sus 15 imprescindibles.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-lithuania" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-lithuania/" }
+      ]
+    },
+    {
+      "id": "lt-dzukija",
+      "nombre": "Parque Nacional de Dzūkija",
+      "pais_iso": "LT",
+      "region": "Alytus (Dzūkija)",
+      "lat": 54.0600,
+      "lng": 24.3900,
+      "tipo": "parque",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Lonely Planet"],
+      "justificacion": "Lonely Planet incluye las tradiciones rurales y las estancias en granjas de los bosques de Dzūkija entre las 12 mejores cosas que hacer en Lituania.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-lithuania" }
+      ]
+    },
+    {
+      "id": "lt-delta-nemunas",
+      "nombre": "Delta del Nemunas (Rusnė)",
+      "pais_iso": "LT",
+      "region": "Klaipėda",
+      "lat": 55.2970,
+      "lng": 21.3720,
+      "tipo": "naturaleza",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Lonely Planet"],
+      "justificacion": "Lonely Planet incluye la observación de aves en el delta del Nemunas, con 270 de las 294 especies del país, entre las 12 mejores cosas que hacer en Lituania.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-lithuania" }
+      ]
+    },
+    {
+      "id": "lt-zemaitija",
+      "nombre": "Parque Nacional de Žemaitija (base de misiles de Plokštinė)",
+      "pais_iso": "LT",
+      "region": "Telšiai (Samogitia)",
+      "lat": 56.0450,
+      "lng": 21.8580,
+      "tipo": "parque",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Lonely Planet"],
+      "justificacion": "Lonely Planet incluye bajar al búnker nuclear soviético del Parque Nacional de Žemaitija entre las 12 mejores cosas que hacer en Lituania.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-lithuania" }
+      ]
+    },
+    {
+      "id": "lt-anyksciai",
+      "nombre": "Anykščiai (sendero de las copas de los árboles)",
+      "pais_iso": "LT",
+      "region": "Utena (Aukštaitija)",
+      "lat": 55.5260,
+      "lng": 25.1050,
+      "tipo": "naturaleza",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Rough Guides"],
+      "justificacion": "Rough Guides incluye el sendero elevado entre las copas de los árboles de Anykščiai entre las 15 mejores cosas que hacer en Lituania.",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-lithuania/" }
       ]
     }
   ]
