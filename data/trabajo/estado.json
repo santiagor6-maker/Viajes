@@ -1,8 +1,8 @@
 {
   "pausado": false,
-  "subregion": "francia-alpes",
-  "paso": "revisor",
-  "ronda": 3,
+  "subregion": "britanicas-nordicos",
+  "paso": "guias",
+  "ronda": 1,
   "orden_subregiones": [
     "iberica-italia",
     "francia-alpes",
@@ -12,9 +12,10 @@
     "este-caucaso-turquia"
   ],
   "terminadas": [
-    "iberica-italia"
+    "iberica-italia",
+    "francia-alpes"
   ],
-  "notas": "francia-alpes: grupo a = FR, MC, BE, NL, LU; grupo b = CH, AT, LI. Aplicar las lecciones de ORQUESTADOR.md desde la primera ronda. Máximo 2 rondas del revisor. PRIORIDAD del usuario (27-oct): publicar Francia cuanto antes, apenas tenga logística + curador-ajustes (FR), antes del revisor; luego seguir el flujo normal.",
+  "notas": "britanicas-nordicos: definir grupos a/b según data/paises/europa.json. Aplicar las lecciones de ORQUESTADOR.md desde la primera ronda, incluida la escala oficial de guías de criterios.json (5 = top pick en 4+ guías o ★★★ Michelin + otra; no bajar el umbral). El mapa muestra solo los destacados por país (criterios.destacados), así que basta con buena cobertura regional de los mejores; no hace falta inflar la cantidad.",
   "historial": [
     {
       "fecha": "2026-10-26",
@@ -147,8 +148,14 @@
       "subregion": "francia-alpes",
       "paso": "correcciones",
       "resultado": "fix1 (ronda 4) de los 6 especialistas + ajustes del curador (Schokland recuperado, Davos+Klosters fusionados, categorías). Interrumpido por límite semanal 28-oct→1-nov. 251 lugares; validador sin errores; republicado (versión 10). Siguiente: revisor ronda 2 (última)"
+    },
+    {
+      "fecha": "2026-11-01",
+      "subregion": "francia-alpes",
+      "paso": "publicar",
+      "resultado": "Cerrada tras el revisor ronda 2 (final): 251 lugares. Aprobado solo cultura-historia (grupo a). Notas: FR 8.8, MC 9.2, BE 9.1, NL 8.9, LU 9.3, CH 8.9, AT 8.6, LI 9.4 (todos con revisión pendiente). Correcciones posteriores (curador-ajustes notas.ronda5): escala oficial de guías en 15 lugares, Mont-Saint-Michel ★★★ confirmado, Parsenn recuperado. Republicado (versión 12)."
     }
   ],
-  "ronda_revisor": 2,
+  "ronda_revisor": 0,
   "max_rondas_revisor": 2
 }

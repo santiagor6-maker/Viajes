@@ -3,57 +3,192 @@
   "grupo": "b",
   "ronda": 2,
   "fecha": "2026-11-01",
-  "estado": "PRELIMINAR (en curso)",
-  "alcance": "CH, AT, LI. Revisados *-fix1.json (ronda 4), curador-ajustes.json (notas.ronda4) y los 89 lugares CH/AT/LI de data/lugares/europa.json tras la fusión Davos+Klosters.",
+  "alcance": "CH, AT, LI. Ronda 2 y última. Revisados guias-expertas-fix1, cultura-historia-fix1, naturaleza-fix1, gastronomia-vino-fix1, adrenalina-fix1 y logistica-temporada-fix1 (ronda 4), curador-ajustes.json (notas.ronda4, con la fusión Davos+Klosters) y los 89 lugares CH/AT/LI de data/lugares/europa.json (42 CH, 44 AT, 3 LI).",
+  "metodo": "WebFetch bloqueado: una URL cuenta como verificada si una WebSearch devuelve esa página o la misma ruta. Se usaron 26 búsquedas. Con scripts se comprobó: (1) que los 5 puntajes temáticos de cada fix1 llegan sin cambios a europa.json (sin discrepancias; solo falta ch-klosters, que se fusionó); (2) la distancia en línea recta de cada lugar a todas las actividades con coordenadas de adrenalina-*.json, para encontrar actividades a 60 km o menos que no se tuvieron en cuenta; (3) las notas de proceso que quedan en las justificaciones del grupo b (no queda ninguna); (4) cómo aplica curar.mjs los fuentes_quitar (las URL se quitan de forma global de las actividades de adrenalina, no por id).",
+  "verificacion_urls": {
+    "guias-expertas": {
+      "comprobadas": 6,
+      "verificadas": 3,
+      "no_confirmadas": [
+        "https://www.fodors.com/world/europe/austria/innsbruck-tirol-and-vorarlberg/places/hall-in-tyrol (at-hall-in-tirol)",
+        "https://www.ricksteves.com/watch-read-listen/read/articles/high-in-switzerlands-appenzell (ch-appenzell: aparece la columna sindicada 'Mountain fun in Switzerland's Appenzell' y la página https://www.ricksteves.com/europe/switzerland/appenzell, pero no esa ruta)"
+      ],
+      "nota": "Verificadas: fodors.com/world/europe/austria/innsbruck-tirol-and-vorarlberg/places/kitzbuhel (Ski Safari, jardín alpino del Kitzbüheler Horn, Santa Catalina), frommers.com/destinations/linz/ y la ficha 'Top Choice' del Kirchner Museum de LP. Esta ficha existe en su forma canónica, https://www.lonelyplanet.com/points-of-interest/kirchner-museum/1116407, así que no es cierto que la búsqueda solo devuelva la forma /a/poi-sig/."
+    },
+    "cultura-historia": {
+      "comprobadas": 2,
+      "verificadas": 2,
+      "nota": "Verificadas: tourismus.li/en/activities/art-culture/5-museen-tuer-an-tuer/ (titulada 'Top 6 Museums Vaduz') y la ficha salzkammergut.at del altar de Michael Pacher (430010077). También existen, aunque el agente no las usó, las webs oficiales que faltan: nordkette.com e innsbruck.info para Innsbruck, y tourismus.li."
+    },
+    "naturaleza": {
+      "comprobadas": 2,
+      "verificadas": 1,
+      "no_confirmadas": [
+        "https://www.derdachstein.at/en/dachstein-glacier-world/mountain-active/hiking-and-touring (no salió esa página, aunque el dominio aparece citado como reserva oficial de la Dachstein Gletscherbahn)"
+      ],
+      "nota": "Se buscó nordkette.com, la web cuya ausencia usa el agente para bajar at-innsbruck de 4 a 2. Existe: https://nordkette.com/en/karwendel.html ('Austria's largest nature park in just a few minutes') y https://nordkette.com/en/summer/hiking-trails, y también https://www.innsbruck.info/en/hiking/hiking-areas/karwendel-nature-reserve.html."
+    },
+    "gastronomia-vino": {
+      "comprobadas": 5,
+      "verificadas": 4,
+      "no_confirmadas": [
+        "https://www.bmluk.gv.at/themen/landwirtschaft/gemeinsame-agrarpolitik-foerderungen/gmo-rechtsinfo/gmo-wein/DAC.html (at-wachau, at-kamptal-langenlois, at-eisenstadt): no salió; la norma de la Wachau que aparece es BGBl. II Nr. 200/2020 en ris.bka.gv.at"
+      ],
+      "nota": "Verificadas: guide.michelin.com/at/en/article/michelin-guide-ceremony/all-starred-restaurants---michelin-guide-austria-2026 (18/03/2026, 101 restaurantes), la ficha Michelin de Obauer en Werfen (dos estrellas), Schwarzer Adler con dos estrellas y Hubert Wallner (Wörthersee) con una. La selección Michelin Suiza 2025 se anunció el 20/10/2025 y no se encontró ninguna de 2026, así que citarla es correcto. DATO NUEVO: según Salzburg24, Karl y Rudi Obauer cierran su restaurante el día de la Fiesta Nacional (26/10/2026), después de casi 50 años."
+    },
+    "adrenalina": {
+      "comprobadas": 6,
+      "verificadas": 5,
+      "nota": "Verificadas: olympiaworld.at/en/services-facilities/guest-race-and-summer-bobsleigh-rides-wok-guest-skeleton/ (el Gästebob se dejó de ofrecer en 2021/22, pero siguen las bajadas en bob de competición con piloto por 119 € y el bob de verano, como dice el agente), titlis.ch/en/activities, saas-fee.ch/en/world-of-adventures/mittelallalin-in-summer, visitvillach.at/en/annenheim/info/flug-taxi-fun-fly.html (1911 m y 1400 m de desnivel) y la Skiregion Gastein en salzburgerland.com (la versión /en/ da 226 km). Búsquedas de lo que el agente dio por inexistente: la Zauberberg Semmering sí tiene webs oficiales (semmering.com/en/content/31/skiing, del operador, y lower-austria.info/semmering-hirschenkogel). El freeride del Krippenstein lo documenta el turismo oficial: 'Freesports Arena Krippenstein' en upperaustria.com y el folleto de invierno de dachstein.salzkammergut.at, con unos 30 km de variantes. La rampa del Pyramidenkogel sigue sin web oficial en las búsquedas, así que es aceptable no contarla."
+    },
+    "logistica-temporada": {
+      "comprobadas": 3,
+      "verificadas": 3,
+      "nota": "Verificados: la tarifa de la Grossglockner, 46,50 € por coche en 2026 y 41,50 € en preventa del ÖAMTC (la cifra está bien y el curador la quitó del por_que sin necesidad, lo que es aceptable), el informe anual 2025 de la Stiftsbibliothek con el cierre del 10 al 24/11/2025 y el aviso de EE. UU. para LI, de nivel 1 y del 22/05/2025. No se confirmó que 'en 2026 la exposición de invierno del Barocksaal abre el 24 de noviembre': solo aparece la exposición de verano 2026, hasta el 8/11."
+    }
+  },
   "agentes": {
     "guias-expertas": {
       "nota": 9.0,
+      "desglose": {
+        "fuentes": 1.5,
+        "exactitud": 2.0,
+        "criterio": 1.5,
+        "coherencia": 2.0,
+        "descripcion": 2.0
+      },
       "aprobado": false,
+      "ronda_agente": 2,
       "comentarios": [
-        "preliminar"
+        "Se corrigió lo de la ronda 1: Time Out Aletsch ('Advertising') y las otras páginas de Time Out Suiza no se cuentan, ch-glaciar-aletsch queda en 3, ch-oeschinensee en 2, se sustituyen las páginas genéricas de país, at-kitzbuhel queda en 4, li-vaduz en 4, at-linz sube a 4 con Fodor's y Frommer's, el Peak Walk mide 107 m y se quita el Fodor's ?pois=678192.",
+        "La regla escrita contradice lo que se aplica. Las notas dicen que 'No cuentan las páginas de destino o de POI', pero se cuentan como guía la ficha POI de LP y la página de destino de Fodor's en ch-davos (4), las fichas POI de LP y las páginas de destino de Fodor's, Frommer's y Rough Guides en li-vaduz (4), la 'guía propia' de Fodor's en at-kitzbuhel (4), at-linz (4) y at-hall-in-tirol (2), y las fichas POI de LP y Fodor's en ch-valais-sion-vinos y ch-la-chaux-de-fonds (3). Con la regla escrita, Vaduz y Kitzbühel bajarían. Hay que reescribir la regla según lo que se aplica en realidad (por ejemplo, 'cuenta la página de destino propia del lugar o una ficha marcada Top Choice/Fodor's Choice; no cuentan las páginas genéricas de país ni las menciones de paso') o repuntuar.",
+        "URLs de LP con el formato /a/poi-sig/: la nota dice que se mantienen 'porque es la forma que devuelve la búsqueda', pero la del Kirchner Museum sale en su forma canónica, https://www.lonelyplanet.com/points-of-interest/kirchner-museum/1116407. Hay que cambiarla en ch-davos, que en europa.json aparece dos veces, con y sin www, y probar el mismo patrón en li-vaduz (Kunstmuseum), ch-la-chaux-de-fonds, ch-valais-sion-vinos (Tourbillon) y ch-lugano.",
+        "No confirmadas: el artículo de Rick Steves sobre Appenzell (la ruta /watch-read-listen/read/articles/high-in-switzerlands-appenzell no aparece; sí aparece https://www.ricksteves.com/europe/switzerland/appenzell) y la página de Fodor's de Hall in Tyrol. Hay que sustituir la primera por la página de destino que sí existe."
       ]
     },
     "cultura-historia": {
       "nota": 8.5,
+      "desglose": {
+        "fuentes": 1.5,
+        "exactitud": 2.0,
+        "criterio": 1.5,
+        "coherencia": 1.5,
+        "descripcion": 2.0
+      },
       "aprobado": false,
+      "ronda_agente": 2,
       "comentarios": [
-        "preliminar"
+        "Se corrigió: se añadió fuente oficial o patrimonial a ch-basilea, ch-lucerna, ch-zurich, ch-lausana, at-innsbruck, ch-lugano, ch-appenzell, at-linz, at-bregenzerwald, at-st-wolfgang, li-vaduz y ch-einsiedeln; ch-st-gallen baja a 4 y ch-guarda, at-hall-in-tirol y ch-gruyeres a 3, al nivel de Stein am Rhein y Murten; se quitaron las notas de proceso.",
+        "Se bajaron puntajes por no buscar la fuente, cuando el comentario pedía añadirla. at-bad-ischl pasa de 3 a 2, aunque la propia justificación dice que es la Kaiservilla, la villa de Lehár y la Capital Europea de la Cultura 2024: queda por debajo de at-hall-in-tirol y ch-stein-am-rhein (3), y con eso Bad Ischl sale publicado solo como 'adrenalina'. at-bregenz pasa a 2 con el Festival del escenario flotante y el Kunsthaus de Zumthor, y su única fuente es un PDF de prensa del Werkraum Haus de Andelsbuch, que es otro lugar. ch-locarno-ascona pasa a 2 (Madonna del Sasso, castillo Visconteo, Monte Verità) mientras ch-lugano tiene 3. Estos tres deberían tener 3, con kaiservilla.at o salzkammergut.at, bregenzerfestspiele.com o kunsthaus-bregenz.at, y ascona-locarno.com, que naturaleza ya cita.",
+        "ch-davos sigue en 2, sin fuente, con la nota 'Sin buscar por falta de presupuesto'. Es el mismo comentario de la ronda 1 y la página https://www.lonelyplanet.com/points-of-interest/kirchner-museum/1116407 (Top Choice) ya está en las fuentes del lugar. Con el Museo Kirchner y la Schatzalp le corresponde 3, como a at-linz. at-mauthausen sigue sin https://mauthausen-memorial.org; la ficha de Oberösterreich Tourismus es aceptable como turismo oficial."
       ]
     },
     "naturaleza": {
       "nota": 9.0,
+      "desglose": {
+        "fuentes": 2.0,
+        "exactitud": 2.0,
+        "criterio": 1.5,
+        "coherencia": 1.5,
+        "descripcion": 2.0
+      },
       "aprobado": false,
+      "ronda_agente": 2,
       "comentarios": [
-        "preliminar"
+        "Se corrigió: se añadió fuente oficial a 22 de los 27 puntajes señalados, se quitaron news.at, Salzburg24, ich-geh-wandern.de, swissactivities.com y las dos páginas de coe.int, at-schladming-dachstein cita derdachstein.at, ch-glacier-3000 cita glacier3000.ch, el Pasterze mide unos 8 km y la información de playa pasa a su propio campo.",
+        "Se bajaron cinco lugares porque 'las búsquedas no devolvieron una página oficial', aunque esas páginas existen y algunas ya están en los datos de la subregión: at-innsbruck de 4 a 2 (existen https://nordkette.com/en/karwendel.html e innsbruck.info/en/hiking/hiking-areas/karwendel-nature-reserve.html, y adrenalina cita innsbruck.info para la Nordkette), ch-interlaken a 2 (adrenalina cita interlaken.ch), li-malbun a 2 (cultura cita tourismus.li), ch-brienz a 2 y ch-guarda a 2. El resultado es incoherente: Innsbruck, con el parque natural más grande de Austria a 20 minutos en funicular desde el centro, tiene 2 y Lucerna, con el Pilatus, tiene 4. Hay que restituir los puntajes que el propio agente reconoce que corresponden ('con esa fuente volverían a 3, 4 en Innsbruck').",
+        "Pendiente menor: at-zillertal-mayrhofen sigue con el PDF de una sola ruta (Neumarkter Runde) en naturparke.at. Es aceptable porque naturparke.at es la asociación oficial de parques naturales, pero es mejor citar la página del Hochgebirgs-Naturpark Zillertaler Alpen."
       ]
     },
     "gastronomia-vino": {
-      "nota": 9.5,
-      "aprobado": true,
+      "nota": 9.0,
+      "desglose": {
+        "fuentes": 1.5,
+        "exactitud": 1.5,
+        "criterio": 2.0,
+        "coherencia": 2.0,
+        "descripcion": 2.0
+      },
+      "aprobado": false,
+      "ronda_agente": 2,
       "comentarios": [
-        "preliminar"
+        "Se corrigió todo lo de la ronda 1: Schwarzer Adler tiene dos estrellas (at-hall-in-tirol 4, at-innsbruck 3), Obauer en Werfen dos (at-werfen-eisriesenwelt 3), Lech Zürs suma cinco estrellas en tres restaurantes (4), ch-gruyeres baja a 4, Suiza se cita con la lista completa de guide.michelin.com (la de 2025, de octubre de 2025, es la última que hay), las DAC se citan con la normativa y se quitaron los rellenos.",
+        "at-werfen-eisriesenwelt: según Salzburg24, Karl y Rudi Obauer cerraron el restaurante el 26/10/2026, día de la Fiesta Nacional, después de casi 50 años. La justificación 'En el centro del pueblo está Obauer, con dos estrellas' ya no vale. Hay que reescribirla con Döllerer, en Golling, a 12 km y con dos estrellas. El 3 puede quedarse, porque es coherente con at-innsbruck, que tiene 3 por Schwarzer Adler a 9 km.",
+        "No se confirmó la página del Ministerio https://www.bmluk.gv.at/.../gmo-wein/DAC.html, que es la única fuente oficial de at-wachau 5, at-kamptal-langenlois 4 y at-eisenstadt 3. Hay que añadir la DAC-Verordnung de ris.bka.gv.at (Wachau: BGBl. II Nr. 200/2020) o la página de österreichwein.at. ch-davos (2) solo cita un artículo de la Gault Millau de 2020: es aceptable porque el puntaje es 2, pero el dato tiene seis años."
       ]
     },
     "adrenalina": {
       "nota": 8.5,
+      "desglose": {
+        "fuentes": 1.5,
+        "exactitud": 2.0,
+        "criterio": 1.5,
+        "coherencia": 1.5,
+        "descripcion": 2.0
+      },
       "aprobado": false,
+      "ronda_agente": 2,
       "comentarios": [
-        "preliminar"
+        "Se corrigió casi todo: se propagaron el Dachstein y la Planai (Hallstatt 4, Bad Ischl 4, St. Wolfgang 3, Werfen 3), Verbier y Glacier 3000 (Sion 4, Montreux 4, Gruyères 4) y el Parsenn (Klosters 5, Bündner Herrschaft 4); ch-guarda queda en 4 con la distancia en línea recta; se acreditaron el Titlis (Engelberg 5, Lucerna 4), Saas-Fee (5), Ski Gastein, Igls (Innsbruck 5, Hall 5), la Gerlitzen y Tamaro 5; la Nordkette se trata igual en Achensee (4); Brienz baja a 4; se cambiaron las fuentes (valais.ch, la página de producto de Skydive Interlaken, schladming-dachstein.at/de) y se quitaron las notas de proceso. Se comprobó que en Igls siguen las bajadas en bob de competición con piloto.",
+        "Falta una propagación: at-salzburgo tiene adrenalina 1 y adrenalina_cerca vacía, pero el glaciar del Dachstein está a 57 km en línea recta. Con la misma regla que da 3 a ch-berna (Interlaken a 45 km), le corresponde 3.",
+        "Oferta que se dio por inexistente, aunque sí aparece. La Zauberberg de at-semmering tiene la web del operador (semmering.com/en/content/31/skiing) y la del turismo oficial (lower-austria.info/semmering-hirschenkogel), así que hay que quitar schneehoehen.de y la frase 'su web oficial no apareció'. El freeride del Krippenstein, a unos 5 km de at-hallstatt, sigue 'no buscado', pero lo documenta el turismo oficial: Freesports Arena Krippenstein en upperaustria.com, con unos 30 km de variantes. Hay que añadirlo a Hallstatt y valorar si sube a 5 por la regla de los 15 km. El Flying Fox XXL de Leogang (at-zell-am-see-kaprun) sigue en la lista con una URL de manawa.com, una plataforma de reventa: hay que citar la web de Saalfelden Leogang o quitarlo.",
+        "Coherencia. La regla se formula de dos maneras: en at-hall-in-tirol se lee 'una experiencia de clase mundial a 15 km o menos da 5', pero ch-brienz, con Skydive Interlaken a 15 km, se queda en 4 'justo en el límite'. Hay que dejar el umbral escrito como '< 15 km' o '≤ 15 km' y aplicarlo igual (Grindelwald a 14 km tiene 5). at-bad-gastein tiene 4 aunque la Skiregion Gastein (226 km, Ski amadé) sale del propio pueblo, mientras at-schladming-dachstein (123 km) y at-kitzbuhel tienen 5. Hay que justificar la diferencia o igualarlos."
       ]
     },
     "logistica-temporada": {
-      "nota": 8.0,
+      "nota": 8.5,
+      "desglose": {
+        "fuentes": 1.0,
+        "exactitud": 2.0,
+        "criterio": 1.5,
+        "coherencia": 2.0,
+        "descripcion": 2.0
+      },
       "aprobado": false,
+      "ronda_agente": 2,
       "comentarios": [
-        "preliminar"
+        "Se corrigió: los avisos de AT (URL vigente, nivel 1, 21/08/2026) y de LI (nivel 1, 22/05/2025, ya confirmado); la tarifa de la Grossglockner (46,50 € y 41,50 € en preventa del ÖAMTC, confirmada); la página de horarios del Pilatus; las fuentes de acceso de ch-verbier (TMR, St-Bernard Express), ch-davos (RhB, Davos Klosters Mountains), at-schladming-dachstein (turismo oficial), at-eisenstadt (Eisenstadt Tourismus, VOR) y at-carnuntum (carnuntum.at, sin la frase de proceso).",
+        "Falta el comentario principal de la ronda 1, que no se tocó. Estos 25 lugares siguen con logística respaldada solo por guías, sin SBB, ÖBB, operador ni oficina de turismo para el acceso y la temporada: ch-berna, ch-ginebra, ch-zurich, ch-basilea, ch-lugano, ch-locarno-ascona, ch-bellinzona, ch-engelberg-titlis, ch-einsiedeln, at-salzburgo, at-innsbruck, at-hall-in-tirol, at-zell-am-see-kaprun, at-bad-gastein, at-bad-ischl, at-graz, at-linz, at-ruta-vino-estiria-sur, at-mauthausen, at-bregenz, at-lech-zurs, at-worthersee, at-millstatt, at-villach y ch-klosters (este ya fusionado). El fix1 solo trae 9 lugares del grupo b.",
+        "Los fuentes_quitar causan daños fuera de su campo. curar.mjs quita esas URL de forma global, así que al quitar como fuente propia https://graubuenden.ch/en/activities/winter/skiing/ski-resorts/davos-klosters-parsenn (ch-davos) desaparece el Parsenn de adrenalina_cerca en ch-davos, ch-guarda, ch-buendner-herrschaft y ch-parque-nacional-suizo. Davos sale publicado con adrenalina 5 y sin su propio dominio en la lista. También se quitaron https://www.davos.ch/en/activities/hiking y verbier4vallees.ch/.../must-see-places, que son fuentes de naturaleza. Un agente solo debe quitar URLs que haya aportado él.",
+        "ch-st-gallen: hay que quitar 'en 2026 la exposición de invierno del Barocksaal abre el 24 de noviembre', que no se confirmó. Lo que sí se encuentra es la exposición de verano 2026, abierta hasta el 8/11."
       ]
     },
     "curador": {
       "nota": 8.5,
+      "desglose": {
+        "fuentes": 1.5,
+        "exactitud": 1.5,
+        "criterio": 1.5,
+        "coherencia": 2.0,
+        "descripcion": 2.0
+      },
       "aprobado": false,
+      "ronda_agente": 2,
       "comentarios": [
-        "preliminar"
+        "Se corrigió: se fusionó ch-klosters con ch-davos ('Davos y Klosters', con por_que nuevo); se dio a ch-brienz y at-hall-in-tirol 'ciudad' como categoría de respaldo; se reescribieron los por_que de ch-guarda (Motta Naluns), at-hall-in-tirol (dos estrellas) y at-grossglockner; ViaMichelin no se cuenta en ningún lugar, así que at-carnuntum sigue en 0; se filtraron swissactivities, alt.schladming-dachstein.at, skiamade.com/nl y Time Out Aletsch, y vermieter-alt lo quitó adrenalina-fix1.",
+        "Con las correcciones aparecen dos lugares con 'adrenalina' como única categoría, el mismo caso de ch-brienz que se señaló en la ronda 1: ch-guarda (cultura 3, adrenalina 4), un pueblo premio Wakker cuyo por_que trata de esgrafiados y del Schellenursli, y at-bad-ischl (cultura 2, adrenalina 4 por el Dachstein a 27 km), la ciudad termal de Francisco José. Hay que añadirlos a 'ciudad' en curador-ajustes, como se hizo con Brienz.",
+        "La fusión dejó a ch-davos con adrenalina 5 y sin el Parsenn en adrenalina_cerca: la lista empieza en la Olympia Bob Run, a 33 km. La causa es el fuentes_quitar de logística, que curar.mjs aplica de forma global (urlsQuitadas) también a las actividades. Hay que filtrar por id y url o recuperar la actividad, y comprobar ch-guarda, ch-buendner-herrschaft y ch-parque-nacional-suizo. Además, las fuentes de ch-davos repiten la ficha POI de LP del Kirchner Museum con y sin www: hay que normalizar el host antes de quitar duplicados y usar la URL canónica /points-of-interest/kirchner-museum/1116407.",
+        "Para el orquestador: urlsQuitadas (curar.mjs, línea 181) es un Set global de URLs. Debería ser un conjunto de pares id|url, o al menos no aplicarse a las actividades de otros agentes."
       ]
     }
-  }
+  },
+  "paises": {
+    "CH": {
+      "nota": 8.9,
+      "revision_pendiente": true,
+      "detalle": "Guías 9.0 (regla escrita frente a la aplicada en Davos y Valais; URL poi-sig de LP del Kirchner, que tiene forma canónica; artículo de Rick Steves sobre Appenzell sin confirmar), cultura 8.5 (Davos 2 sin fuente y Locarno 2 por no buscar la fuente), naturaleza 9.0 (Interlaken, Brienz y Guarda bajados por no buscar la fuente), gastronomía 9.5 (solo Davos con la Gault Millau de 2020), adrenalina 9.5 (umbral de 15 km de Brienz), logística 8.5 (10 lugares con solo guías; Parsenn borrado por su fuentes_quitar; fecha de St. Gallen 2026) y curador 8.5 (Guarda solo como adrenalina; Davos sin Parsenn y con fuentes duplicadas)."
+    },
+    "AT": {
+      "nota": 8.6,
+      "revision_pendiente": true,
+      "detalle": "Guías 9.0 (página de Fodor's de Hall sin confirmar; regla escrita frente a Kitzbühel y Linz), cultura 8.5 (Bad Ischl 2 y Bregenz 2, este con una fuente de otro lugar), naturaleza 9.0 (Innsbruck 2 frente a Lucerna 4), gastronomía 8.5 (Obauer cerró el 26/10/2026; página DAC del Ministerio sin confirmar), adrenalina 8.0 (Salzburgo sin el Dachstein; Semmering y Krippenstein sin buscar la fuente oficial; manawa en Zell; Gastein 4 frente a Schladming 5), logística 8.5 (15 lugares con solo guías) y curador 8.5 (Bad Ischl solo como adrenalina)."
+    },
+    "LI": {
+      "nota": 9.4,
+      "revision_pendiente": true,
+      "detalle": "Guías 9.0 (Vaduz 4 con fichas POI y páginas de destino que la regla escrita excluye), cultura 9.5 (Vaduz con tourismus.li, verificado), naturaleza 9.0 (Malbun bajado a 2 aunque cultura cita tourismus.li), gastronomía 9.5, adrenalina 9.5, logística 9.5 (aviso de EE. UU. corregido y confirmado) y curador 9.5. Queda por debajo de 9,5 por guías y naturaleza."
+    }
+  },
+  "resumen": "Ronda 2, la última. Ningún agente llega a 9,5: guías 9.0, cultura 8.5, naturaleza 9.0, gastronomía 9.0, adrenalina 8.5, logística 8.5 y curador 8.5. No se reenvían. CH (8.9), AT (8.6) y LI (9.4) quedan con revision_pendiente: true. Los puntos más graves: el Parsenn desaparece de adrenalina_cerca por un fuentes_quitar global; Guarda y Bad Ischl salen publicados solo como adrenalina; Obauer (Werfen) cerró; at-salzburgo no recibe el Dachstein; los 25 lugares de logística con solo guías siguen igual; y cultura y naturaleza bajaron puntajes en lugar de buscar fuentes que existen.",
+  "busquedas_usadas": 26
 }

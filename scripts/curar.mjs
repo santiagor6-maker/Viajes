@@ -8,7 +8,7 @@
 // data/trabajo/<subregion>/curador-ajustes.json:
 // {
 //   "fusiones":   [{ "destino": "pt-porto", "origenes": ["pt-vila-nova-de-gaia"], "nombre": "...", "lat": 0, "lng": 0, "region": "..." }],
-//   "guias":      { "<id>": { "puntaje": 3, "fuentes": [{ "guia": "Lonely Planet", "url": "https://..." }] } },
+//   "guias":      { "<id>": { "puntaje": 3, "ronda": 5, "fuentes": [{ "guia": "Lonely Planet", "url": "https://..." }] } },  // ronda opcional (1 por defecto)
 //   "lugares":    { "<id>": { "nombre": "...", "lat": 0, "lng": 0, "region": "..." } },   // correcciones sueltas
 //   "playa":      ["<id>"],      // añade la categoría playa
 //   "no_playa":   ["<id>"],      // quita la playa deducida de tipo costa/playa
@@ -98,7 +98,9 @@ const entradas = archivos
 for (const { f, d } of entradas) {
   // listas auxiliares (p. ej. pendientes-logistica-*.json) no son salida de agente
   if (Array.isArray(d) || !d || typeof d !== 'object' || !d.agente) { console.warn(`  (ignoro ${f}: no es salida de agente)`); continue; }
-  fuentesQuitar.push(...(d.fuentes_quitar || []));
+  // solo las URLs que quita adrenalina (dueño de las actividades) se descartan como actividad en todos
+  // los lugares; las de otros agentes (p. ej. "no sirve como fuente de logística de X") solo en ese lugar
+  fuentesQuitar.push(...(d.fuentes_quitar || []).map((q) => ({ ...q, global: q.global ?? /^adrenalina/.test(f) })));
   coordenadas.push(...(d.correcciones_base || []));
   const agente = agenteDe(f, d);
   const crit = AGENTE_A_CRITERIO[agente];
@@ -135,7 +137,8 @@ for (const { f, d } of entradas) {
 for (const [id, g] of Object.entries(aj.guias || {})) {
   if (!lugares.has(id)) { console.warn(`  ajuste guias para id inexistente ${id}`); continue; }
   const r = lugares.get(id);
-  ponerPuntaje(r, 'guias', g.puntaje);
+  // "ronda" permite que el curador corrija un puntaje de guías ya puesto por un agente (p. ej. tras el revisor)
+  ponerPuntaje(r, 'guias', g.puntaje, g.ronda ?? 1);
   for (const s of g.fuentes || []) r.fuentes.push({ ...limpiarFuente(s), _g: 1 });
 }
 
@@ -178,7 +181,8 @@ for (const fu of aj.fusiones || []) {
   for (const k of ['nombre', 'lat', 'lng', 'region']) if (fu[k] != null) dst[k] = fu[k];
 }
 // una URL que un agente pidió quitar tampoco vale como actividad de adrenalina de ningún lugar
-const urlsQuitadas = new Set(fuentesQuitar.map((q) => q.url));
+// (las de curador-ajustes.json también son globales salvo "global": false); las demás no tocan actividades
+const urlsQuitadas = new Set(fuentesQuitar.filter((q) => q.global !== false).map((q) => q.url));
 const RADIO_KM = criterios.criterios.adrenalina.radio_km;
 // un id fusionado apunta a su destino
 const destinoDe = new Map(fusionados.map(([dst, o]) => [o, dst]));

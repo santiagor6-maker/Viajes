@@ -1726,7 +1726,8 @@
     "lat": 47.7111,
     "lng": 13.6236,
     "categorias": [
-      "adrenalina"
+      "adrenalina",
+      "ciudad"
     ],
     "puntajes": {
       "guias": 4,
@@ -7117,6 +7118,15 @@
     ],
     "adrenalina_cerca": [
       {
+        "nombre": "Parsenn, Davos Klosters (unos 100 km de pistas, Weissfluhgipfel 2844 m)",
+        "tipo": "esqui",
+        "km": 4,
+        "lat": 46.833,
+        "lng": 9.806,
+        "temporada": "nov–abr",
+        "url": "https://graubuenden.ch/en/activities/winter/skiing/ski-resorts/davos-klosters-parsenn"
+      },
+      {
         "nombre": "Olympia Bob Run St. Moritz–Celerina",
         "tipo": "otro",
         "km": 33,
@@ -7916,6 +7926,15 @@
         "lng": 10.293,
         "temporada": "nov–may",
         "url": "https://ischgl.com/en/winter/silvretta-arena"
+      },
+      {
+        "nombre": "Parsenn, Davos Klosters",
+        "tipo": "esqui",
+        "km": 35,
+        "lat": 46.833,
+        "lng": 9.806,
+        "temporada": "nov–abr",
+        "url": "https://graubuenden.ch/en/activities/winter/skiing/ski-resorts/davos-klosters-parsenn"
       },
       {
         "nombre": "Ski Arlberg, sector St. Anton",
@@ -9782,7 +9801,8 @@
     "lat": 46.7756,
     "lng": 10.1514,
     "categorias": [
-      "adrenalina"
+      "adrenalina",
+      "ciudad"
     ],
     "puntajes": {
       "guias": 2,
@@ -9863,6 +9883,15 @@
         "lng": 10.293,
         "temporada": "nov–may",
         "url": "https://ischgl.com/en/winter/silvretta-arena"
+      },
+      {
+        "nombre": "Parsenn, Davos Klosters",
+        "tipo": "esqui",
+        "km": 27,
+        "lat": 46.833,
+        "lng": 9.806,
+        "temporada": "nov–abr",
+        "url": "https://graubuenden.ch/en/activities/winter/skiing/ski-resorts/davos-klosters-parsenn"
       },
       {
         "nombre": "Olympia Bob Run St. Moritz–Celerina",
@@ -10243,6 +10272,15 @@
         "lng": 9.283,
         "temporada": "verano",
         "url": "https://graubuenden.ch/en/attractions/toboggan-run-floomzer"
+      },
+      {
+        "nombre": "Parsenn, Davos Klosters (unos 100 km de pistas)",
+        "tipo": "esqui",
+        "km": 29,
+        "lat": 46.833,
+        "lng": 9.806,
+        "temporada": "nov–abr",
+        "url": "https://graubuenden.ch/en/activities/winter/skiing/ski-resorts/davos-klosters-parsenn"
       },
       {
         "nombre": "LAAX Freestyle: superpipe y 5 snowparks",
@@ -17047,186 +17085,6 @@
     "investigado_en": "2026-10-27"
   },
   {
-    "id": "fr-burdeos",
-    "nombre": "Burdeos",
-    "pais_iso": "FR",
-    "pais": "Francia",
-    "region": "Nueva Aquitania (Gironda)",
-    "lat": 44.8378,
-    "lng": -0.5792,
-    "categorias": [
-      "cultura",
-      "gastronomia",
-      "ciudad"
-    ],
-    "puntajes": {
-      "guias": 5,
-      "cultura": 4,
-      "naturaleza": 1,
-      "gastronomia": 5,
-      "adrenalina": 2,
-      "logistica": 5
-    },
-    "global": 5,
-    "nivel": "imprescindible",
-    "mejor_epoca": [
-      4,
-      5,
-      6,
-      9,
-      10
-    ],
-    "dias_sugeridos": 3,
-    "costo": "$$",
-    "acceso": "TGV desde París (aprox. 2 h 05), tranvía en la ciudad y bus lanzadera desde el aeropuerto de Mérignac.",
-    "alerta": null,
-    "platos": [
-      "Vinos de Burdeos (Médoc, Graves, Sauternes)",
-      "Canelés",
-      "Entrecôte à la bordelaise",
-      "Ostras de Arcachon"
-    ],
-    "por_que": "El Puerto de la Luna es un conjunto urbano del siglo XVIII, Patrimonio Mundial, con la Place de la Bourse, el Grand Théâtre y la Cité du Vin. Desde la ciudad salen trenes regionales a Saint-Émilion (34 min) y Margaux (45 min), y los châteaux del Médoc abren en jornadas de puertas abiertas. No te vayas sin probar canelés y entrecôte à la bordelaise.",
-    "fuentes": [
-      {
-        "guia": "Lonely Planet",
-        "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-france"
-      },
-      {
-        "guia": "Rough Guides",
-        "url": "https://www.roughguides.com/france/best-places-to-visit/"
-      },
-      {
-        "guia": "Lonely Planet",
-        "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-bordeaux"
-      },
-      {
-        "guia": "Time Out",
-        "url": "https://www.timeout.com/france/best-things-do-in-bordeaux"
-      },
-      {
-        "guia": "UNESCO",
-        "url": "https://whc.unesco.org/en/list/1256/"
-      },
-      {
-        "guia": "Bordeaux.com (CIVB, interprofesión)",
-        "url": "https://www.bordeaux.com/en/mag/blog/a-car-free-escape-through-bordeaux-s-vineyards/"
-      },
-      {
-        "guia": "Bordeaux.com (CIVB, interprofesión)",
-        "url": "https://www.bordeaux.com/en/mag/blog/open-days-in-the-bordeaux-vineyards-irresistible/"
-      },
-      {
-        "guia": "Bordeaux.com (CIVB, interprofesión)",
-        "url": "https://www.bordeaux.com/en/mag/blog/histoires-de-resolution-chateau-lafaurie-peyraguey-imaginer-un-oenotourisme-singulier"
-      }
-    ],
-    "adrenalina_cerca": [
-      {
-        "nombre": "Parapente en la Duna de Pilat",
-        "tipo": "parapente",
-        "km": 57,
-        "lat": 44.589,
-        "lng": -1.213,
-        "temporada": "mar–nov",
-        "url": "https://www.dunedupilat.com/fr/la-dune/parapente/"
-      }
-    ],
-    "investigado_en": "2026-11-01"
-  },
-  {
-    "id": "fr-carcasona",
-    "nombre": "Carcasona",
-    "pais_iso": "FR",
-    "pais": "Francia",
-    "region": "Occitania (Aude)",
-    "lat": 43.2063,
-    "lng": 2.3636,
-    "categorias": [
-      "cultura",
-      "gastronomia",
-      "ciudad"
-    ],
-    "puntajes": {
-      "guias": 5,
-      "cultura": 5,
-      "naturaleza": 1,
-      "gastronomia": 4,
-      "adrenalina": 3,
-      "logistica": 5
-    },
-    "global": 5,
-    "nivel": "imprescindible",
-    "mejor_epoca": [
-      4,
-      5,
-      6,
-      9,
-      10
-    ],
-    "dias_sugeridos": 2,
-    "costo": "$$",
-    "acceso": "Tren desde Toulouse (aprox. 1 h) o Narbona; aeropuerto con vuelos low cost; la Cité queda a 30 min a pie o en bus desde la estación.",
-    "alerta": null,
-    "platos": [
-      "Cassoulet de Carcassonne",
-      "Vinos de Corbières y Minervois",
-      "Blanquette de Limoux"
-    ],
-    "por_que": "Una ciudad fortificada medieval con doble muralla y 52 torres, restaurada por Viollet-le-Duc en el siglo XIX, que es una obra fundacional de la conservación moderna. Aquí se toma el cassoulet con cordero o perdiz, entre viñedos de Corbières y Minervois. Limoux, con su blanquette espumosa, queda a 25 km.",
-    "fuentes": [
-      {
-        "guia": "Rick Steves",
-        "url": "https://www.ricksteves.com/europe/france/itinerary"
-      },
-      {
-        "guia": "Lonely Planet",
-        "url": "https://www.lonelyplanet.com/articles/france-best-itineraries"
-      },
-      {
-        "guia": "Time Out",
-        "url": "https://www.timeout.com/france/things-to-do/best-places-to-visit-in-france"
-      },
-      {
-        "guia": "UNESCO",
-        "url": "https://whc.unesco.org/en/list/345/"
-      },
-      {
-        "guia": "TasteAtlas",
-        "url": "https://www.tasteatlas.com/cassoulet-castelnaudary"
-      },
-      {
-        "guia": "Tourisme Occitanie (Aude Rafting)",
-        "url": "https://www.tourisme-occitanie.com/fr/fiche/activite/aude-rafting-saint-martin-lys_TFOASCLAR011FS00031/"
-      },
-      {
-        "guia": "Tourisme Occitanie (Sud Rafting)",
-        "url": "https://www.tourisme-occitanie.com/fr/fiche/activite/sud-rafting-axat_TFOASCLAR0110000096/"
-      }
-    ],
-    "adrenalina_cerca": [
-      {
-        "nombre": "Aude Rafting (rafting y canyoning, Saint-Martin-Lys)",
-        "tipo": "rafting",
-        "km": 43,
-        "lat": 42.829,
-        "lng": 2.238,
-        "temporada": "abr–sep",
-        "url": "https://www.tourisme-occitanie.com/fr/fiche/activite/aude-rafting-saint-martin-lys_TFOASCLAR011FS00031/"
-      },
-      {
-        "nombre": "Sud Rafting (gargantas de la Pierre-Lys, Axat)",
-        "tipo": "rafting",
-        "km": 46,
-        "lat": 42.805,
-        "lng": 2.232,
-        "temporada": "abr–sep",
-        "url": "https://www.tourisme-occitanie.com/fr/fiche/activite/sud-rafting-axat_TFOASCLAR0110000096/"
-      }
-    ],
-    "investigado_en": "2026-11-01"
-  },
-  {
     "id": "fr-estrasburgo",
     "nombre": "Estrasburgo",
     "pais_iso": "FR",
@@ -17537,178 +17395,6 @@
     "investigado_en": "2026-11-01"
   },
   {
-    "id": "fr-versalles",
-    "nombre": "Versalles",
-    "pais_iso": "FR",
-    "pais": "Francia",
-    "region": "Île-de-France",
-    "lat": 48.8049,
-    "lng": 2.1204,
-    "categorias": [
-      "cultura"
-    ],
-    "puntajes": {
-      "guias": 5,
-      "cultura": 5,
-      "naturaleza": 2,
-      "gastronomia": 2,
-      "adrenalina": 2,
-      "logistica": 5
-    },
-    "global": 5,
-    "nivel": "imprescindible",
-    "mejor_epoca": [
-      4,
-      5,
-      6,
-      9,
-      10
-    ],
-    "dias_sugeridos": 1,
-    "costo": "$$$",
-    "acceso": "RER C a Versailles Château Rive Gauche o tren desde Saint-Lazare o Montparnasse, unos 40 min; el palacio cierra los lunes y conviene reservar hora.",
-    "alerta": null,
-    "platos": [
-      "Productos del mercado Notre-Dame",
-      "Brie de Meaux"
-    ],
-    "por_que": "La residencia de los reyes de Francia de Luis XIV a Luis XVI, con la Galería de los Espejos, los Grandes Apartamentos, los Trianon y los jardines de Le Nôtre. El parque de unas 800 ha y el Gran Canal se recorren mejor en bici. Está a 17 km de París, y dormir allí permite entrar antes que las excursiones.",
-    "fuentes": [
-      {
-        "guia": "Rick Steves",
-        "url": "https://www.ricksteves.com/europe/france/itinerary"
-      },
-      {
-        "guia": "Lonely Planet",
-        "url": "https://www.lonelyplanet.com/articles/the-best-day-trips-from-paris"
-      },
-      {
-        "guia": "National Geographic",
-        "url": "https://www.nationalgeographic.com/travel/article/overnight-trips-near-paris"
-      },
-      {
-        "guia": "UNESCO",
-        "url": "https://whc.unesco.org/en/list/83/"
-      }
-    ],
-    "adrenalina_cerca": [
-      {
-        "nombre": "Disneyland Paris",
-        "tipo": "parque_diversiones",
-        "km": 49,
-        "lat": 48.8722,
-        "lng": 2.7758,
-        "temporada": "todo el año",
-        "url": "https://parisjetaime.com/culture/disneyland-paris-p3614"
-      },
-      {
-        "nombre": "Parc Astérix (Toutatis)",
-        "tipo": "parque_diversiones",
-        "km": 49,
-        "lat": 49.134,
-        "lng": 2.571,
-        "temporada": "abr–ene (por calendario)",
-        "url": "https://rcdb.com/4790.htm"
-      }
-    ],
-    "investigado_en": "2026-11-01"
-  },
-  {
-    "id": "fr-arles",
-    "nombre": "Arlés",
-    "pais_iso": "FR",
-    "pais": "Francia",
-    "region": "Provenza-Alpes-Costa Azul",
-    "lat": 43.6766,
-    "lng": 4.6278,
-    "categorias": [
-      "cultura",
-      "ciudad"
-    ],
-    "puntajes": {
-      "guias": 5,
-      "cultura": 5,
-      "naturaleza": 3,
-      "gastronomia": 3,
-      "adrenalina": 2,
-      "logistica": 4
-    },
-    "global": 4.9,
-    "nivel": "imprescindible",
-    "mejor_epoca": [
-      4,
-      5,
-      6,
-      9,
-      10
-    ],
-    "dias_sugeridos": 2,
-    "costo": "$$",
-    "acceso": "Tren regional desde Aviñón (unos 20 min) o Marsella; centro compacto a pie; la Camarga, en coche o bus.",
-    "alerta": null,
-    "platos": [
-      "Gardiane de taureau",
-      "Arroz de Camarga",
-      "Saucisson d'Arles",
-      "Fleur de sel de Camargue"
-    ],
-    "por_que": "El anfiteatro, el teatro y los criptopórticos romanos, más el claustro románico de Saint-Trophime, son Patrimonio Mundial, y la ciudad conserva la huella de Van Gogh y acoge los Rencontres de la fotografía cada verano. Es la puerta de la Camarga: flamencos en el étang de Vaccarès, arroz IGP y gardiane de toro. El sábado hay mercado en el bulevar des Lices.",
-    "fuentes": [
-      {
-        "guia": "Rick Steves",
-        "url": "https://www.ricksteves.com/europe/france/provence"
-      },
-      {
-        "guia": "National Geographic",
-        "url": "https://www.nationalgeographic.com/travel/article/overtourism-paris-underrated-cities-to-visit-france"
-      },
-      {
-        "guia": "Lonely Planet",
-        "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-arles"
-      },
-      {
-        "guia": "Lonely Planet",
-        "url": "https://www.lonelyplanet.com/destinations/france/provence/arles"
-      },
-      {
-        "guia": "UNESCO",
-        "url": "https://whc.unesco.org/en/list/164/"
-      },
-      {
-        "guia": "Parc naturel régional de Camargue (oficial)",
-        "url": "https://www.parc-camargue.fr/Local/parc-camargue/files/2457/N4_vaccares.pdf"
-      },
-      {
-        "guia": "Provence-Alpes-Côte d'Azur Tourisme (oficial)",
-        "url": "https://provence-alpes-cotedazur.com/que-faire/culture-et-patrimoine/lieux/la-capeliere-maison-de-la-reserve-et-du-vaccares-arles-fr-2991191/"
-      },
-      {
-        "guia": "Parc naturel régional de Camargue (folleto 2023)",
-        "url": "https://parc-camargue.fr/parc-camargue/202300076/0001/Depliant_PNRC_2023-FR.pdf"
-      },
-      {
-        "guia": "INAO (IGP Sel de Camargue)",
-        "url": "https://inao.gouv.fr/sites/default/files/2024-02/CP_INAO_IGP-Sel_de_Camargue_02-02-2024.pdf"
-      },
-      {
-        "guia": "France Today (gastronomía de la Camarga)",
-        "url": "https://francetoday.com/food-drink/foodie-holidays/gourmet_travels_in_the_camargue/"
-      }
-    ],
-    "adrenalina_cerca": [
-      {
-        "nombre": "Parc Spirou Provence",
-        "tipo": "parque_diversiones",
-        "km": 49,
-        "lat": 44.027,
-        "lng": 4.997,
-        "temporada": "abr–nov",
-        "url": "https://rcdb.com/15273.htm"
-      }
-    ],
-    "investigado_en": "2026-11-01"
-  },
-  {
     "id": "fr-colmar-ruta-vino-alsacia",
     "nombre": "Colmar y la Ruta del Vino de Alsacia",
     "pais_iso": "FR",
@@ -17975,202 +17661,6 @@
     "investigado_en": "2026-11-01"
   },
   {
-    "id": "fr-bayeux-playas-desembarco",
-    "nombre": "Bayeux y playas del Desembarco",
-    "pais_iso": "FR",
-    "pais": "Francia",
-    "region": "Normandía",
-    "lat": 49.2764,
-    "lng": -0.7024,
-    "categorias": [
-      "cultura",
-      "ciudad"
-    ],
-    "puntajes": {
-      "guias": 5,
-      "cultura": 5,
-      "naturaleza": 2,
-      "gastronomia": 3,
-      "adrenalina": 1,
-      "logistica": 3
-    },
-    "global": 4.7,
-    "nivel": "imprescindible",
-    "mejor_epoca": [
-      4,
-      5,
-      6,
-      9,
-      10
-    ],
-    "dias_sugeridos": 3,
-    "costo": "$$",
-    "acceso": "Tren desde Paris-Saint-Lazare a Bayeux vía Caen, unas 2 h 15; para las playas del Desembarco hace falta coche o tour guiado.",
-    "alerta": "El Tapiz de Bayeux está prestado al British Museum de Londres (exposición del 10 de septiembre de 2026 al 11 de julio de 2027): hasta su regreso no se puede ver en Bayeux.",
-    "platos": [
-      "Camembert de Normandie",
-      "Tripes à la mode de Caen",
-      "Sidra y calvados",
-      "Tarte normande"
-    ],
-    "por_que": "Bayeux tiene una catedral normanda y es la base para recorrer en coche las playas del Desembarco de 1944 (Omaha, Arromanches, la Pointe du Hoc y el Cementerio Americano), inscritas como Patrimonio Mundial en 2026. El tapiz del siglo XI está prestado al British Museum hasta julio de 2027. Se come cocina normanda de nata y manzana, con camembert, sidra y calvados.",
-    "fuentes": [
-      {
-        "guia": "Rick Steves",
-        "url": "https://www.ricksteves.com/europe/france/itinerary"
-      },
-      {
-        "guia": "Lonely Planet",
-        "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-normandy"
-      },
-      {
-        "guia": "Time Out",
-        "url": "https://www.timeout.com/france/things-to-do/best-places-to-visit-in-france"
-      },
-      {
-        "guia": "Ministerio de Asuntos Exteriores de Francia (inscripción UNESCO 2026)",
-        "url": "https://www.diplomatie.gouv.fr/en/presse-et-ressources/decouvrir-et-informer/actualites/comite-du-patrimoine-mondial-de-l-unesco-deux-inscriptions-de-sites-francais-sur-la-liste-du"
-      },
-      {
-        "guia": "Normandie Tourisme (oficial)",
-        "url": "https://en.normandie-tourisme.fr/unmissable-sites/bayeux/"
-      },
-      {
-        "guia": "Normandie Tourisme (oficial, tapiz de Bayeux)",
-        "url": "https://en.normandie-tourisme.fr/discover/history/medieval-normandy/sites-to-visit/in-calvados/the-bayeux-tapestry/"
-      },
-      {
-        "guia": "UNESCO (decisión 48 COM 8B.26, playas del Desembarco)",
-        "url": "https://whc.unesco.org/en/decisions/9180"
-      },
-      {
-        "guia": "UNESCO (documento de la inscripción)",
-        "url": "https://whc.unesco.org/document/227312"
-      },
-      {
-        "guia": "Normandie Tourisme (oficial, inscripción UNESCO)",
-        "url": "https://en.normandie-tourisme.fr/discover/d-day-and-the-battle-of-normandy/dday-landing-beaches/the-d-day-landing-beaches-on-the-unesco-world-heritage-list/"
-      },
-      {
-        "guia": "Calvados Attractivité (oficial, livarot, pont-l'évêque y camembert)",
-        "url": "https://www.explore-calvados.com/?p=36971"
-      },
-      {
-        "guia": "Taste France (guía gastronómica de Normandía)",
-        "url": "https://www.tastefrance.com/magazine/gourmet-travelers-guide/food-lovers-guide-normandy-what-eat-drink"
-      },
-      {
-        "guia": "SNCF Connect (horarios desde Bayeux vía Paris-Saint-Lazare)",
-        "url": "https://www.sncf-connect.com/en-en/train/timetables/bayeux/lyon"
-      },
-      {
-        "guia": "British Museum (nota de prensa, el Tapiz de Bayeux en Londres)",
-        "url": "https://www.britishmuseum.org/about-us/press/press-releases/bayeux-tapestry-displayed-british-museum"
-      }
-    ],
-    "adrenalina_cerca": [],
-    "investigado_en": "2026-11-01"
-  },
-  {
-    "id": "fr-corcega",
-    "nombre": "Córcega (GR20, Scandola, Calanche de Piana)",
-    "pais_iso": "FR",
-    "pais": "Francia",
-    "region": "Córcega",
-    "lat": 42.0396,
-    "lng": 9.0129,
-    "categorias": [
-      "naturaleza",
-      "gastronomia",
-      "playa"
-    ],
-    "puntajes": {
-      "guias": 5,
-      "cultura": 2,
-      "naturaleza": 5,
-      "gastronomia": 4,
-      "adrenalina": 3,
-      "logistica": 3
-    },
-    "global": 4.7,
-    "nivel": "imprescindible",
-    "mejor_epoca": [
-      5,
-      6,
-      9,
-      10
-    ],
-    "dias_sugeridos": 7,
-    "costo": "$$$",
-    "acceso": "Ferry desde Marsella, Toulon o Niza (de unas 5 h en los rápidos a 12-13 h en los nocturnos) o avión a Ajaccio, Bastia, Calvi y Figari; coche casi imprescindible; refugios del GR20 de junio a septiembre.",
-    "alerta": "Riesgo de incendio en verano y carreteras de montaña muy sinuosas; el GR20 es una travesía exigente.",
-    "platos": [
-      "Figatellu",
-      "Brocciu",
-      "Fiadone",
-      "Vino de Patrimonio"
-    ],
-    "por_que": "Una isla montañosa con el GR20, una de las travesías más duras de Europa, y el golfo de Porto, Patrimonio Natural: la reserva de Scandola y las Calanche de Piana se ven en barco desde Porto. Por el camino están la casa natal de Napoleón en Ajaccio y la ciudadela de Calvi. Su despensa es muy propia, con figatellu, brocciu AOP, harina de castaña y vino de Patrimonio.",
-    "fuentes": [
-      {
-        "guia": "Lonely Planet",
-        "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-corsica"
-      },
-      {
-        "guia": "Lonely Planet",
-        "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-france"
-      },
-      {
-        "guia": "Rough Guides",
-        "url": "https://www.roughguides.com/france/things-to-do-corsica/"
-      },
-      {
-        "guia": "Time Out",
-        "url": "https://www.timeout.com/france/things-to-do/best-villages-in-france"
-      },
-      {
-        "guia": "TasteAtlas",
-        "url": "https://www.tasteatlas.com/brocciu-corse"
-      },
-      {
-        "guia": "TasteAtlas",
-        "url": "https://www.tasteatlas.com/figatelli-de-lile-de-beaute"
-      },
-      {
-        "guia": "Visit Corsica (agencia de turismo de Córcega, llegada en barco)",
-        "url": "https://www.visit-corsica.com/de/layout/set/print/Mein-Urlaub-auf-Korsika/Anreise/Per-Schiff"
-      },
-      {
-        "guia": "Direct Ferries (Marsella-Bastia)",
-        "url": "https://www.directferries.fr/marseille_bastia_ferry.htm"
-      },
-      {
-        "guia": "UNESCO",
-        "url": "https://whc.unesco.org/en/list/258"
-      },
-      {
-        "guia": "Agence du Tourisme de la Corse (Corsica Madness)",
-        "url": "https://www.visit-corsica.com/fr/Mes-Favoris/CORSICA-MADNESS"
-      },
-      {
-        "guia": "Agence du Tourisme de la Corse (Corse Rando Canyon)",
-        "url": "https://www.visit-corsica.com/en/Offres-et-idees-sejours/Selon-vos-envies/Canyoning-en-Sud-Corse-avec-Corse-Rando-Canyon"
-      }
-    ],
-    "adrenalina_cerca": [
-      {
-        "nombre": "Corsica Madness (barranquismo y vía ferrata en Bavella)",
-        "tipo": "canyoning",
-        "km": 32,
-        "lat": 41.795,
-        "lng": 9.225,
-        "temporada": "may–oct",
-        "url": "https://www.visit-corsica.com/fr/Mes-Favoris/CORSICA-MADNESS"
-      }
-    ],
-    "investigado_en": "2026-11-01"
-  },
-  {
     "id": "fr-gorges-du-verdon",
     "nombre": "Gargantas del Verdon",
     "pais_iso": "FR",
@@ -18321,6 +17811,10 @@
         "url": "https://www.timeout.com/france/things-to-do/best-places-to-visit-in-france"
       },
       {
+        "guia": "Michelin Guide Vert (★★★)",
+        "url": "https://www.viamichelin.pl/maps/tourist-attractions/poi/le_mont_saint_michel-50170-fbcbbcedd64c"
+      },
+      {
         "guia": "UNESCO",
         "url": "https://whc.unesco.org/en/list/80"
       },
@@ -18335,83 +17829,6 @@
       {
         "guia": "Tourisme Bretagne (oficial)",
         "url": "https://www.tourismebretagne.com/preparer-mon-sejour/bouger-visiter/toutes-les-activites/decouverte-de-la-baie-du-mont-saint-michel-genets-fr-2315779/"
-      }
-    ],
-    "adrenalina_cerca": [],
-    "investigado_en": "2026-11-01"
-  },
-  {
-    "id": "fr-valle-del-loira",
-    "nombre": "Valle del Loira (Amboise, Chenonceau, Chambord)",
-    "pais_iso": "FR",
-    "pais": "Francia",
-    "region": "Centro-Valle de Loira",
-    "lat": 47.4133,
-    "lng": 0.9826,
-    "categorias": [
-      "cultura",
-      "gastronomia"
-    ],
-    "puntajes": {
-      "guias": 5,
-      "cultura": 5,
-      "naturaleza": 2,
-      "gastronomia": 4,
-      "adrenalina": 1,
-      "logistica": 3
-    },
-    "global": 4.7,
-    "nivel": "imprescindible",
-    "mejor_epoca": [
-      4,
-      5,
-      6,
-      9,
-      10
-    ],
-    "dias_sugeridos": 3,
-    "costo": "$$",
-    "acceso": "TGV de París a Saint-Pierre-des-Corps (aprox. 1 h) y tren regional a Amboise o Blois; entre castillos, coche, bici (La Loire à Vélo) o minibús.",
-    "alerta": null,
-    "platos": [
-      "Vouvray (chenin blanc)",
-      "Sainte-maure-de-touraine",
-      "Rillettes de Tours",
-      "Chinon (cabernet franc)"
-    ],
-    "por_que": "Es un paisaje cultural Patrimonio Mundial de castillos renacentistas: Chambord, Chenonceau y Amboise, donde está la tumba de Leonardo, se ven en un día con base en Amboise. Entre castillo y castillo, la Loire à Vélo recorre la orilla y las bodegas de Vouvray, Montlouis y Chinon están excavadas en la toba. Se acompaña con queso de cabra sainte-maure y rillettes de Tours.",
-    "fuentes": [
-      {
-        "guia": "Lonely Planet",
-        "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-france"
-      },
-      {
-        "guia": "Rick Steves",
-        "url": "https://www.ricksteves.com/watch-read-listen/read/articles/frances-loire-valley-of-a-thousand-chateaux"
-      },
-      {
-        "guia": "Rick Steves",
-        "url": "https://www.ricksteves.com/europe/france/itinerary"
-      },
-      {
-        "guia": "Rough Guides",
-        "url": "https://www.roughguides.com/france/best-places-to-visit/"
-      },
-      {
-        "guia": "UNESCO",
-        "url": "https://whc.unesco.org/en/list/933/"
-      },
-      {
-        "guia": "Touraine Val de Loire (turismo oficial, sitios trogloditas)",
-        "url": "https://www.tourainevaldeloire.com/en/activities/all-visits/troglodyte-sites/"
-      },
-      {
-        "guia": "Amboise Val de Loire (turismo oficial, cuevas trogloditas)",
-        "url": "https://amboise-valdeloire.com/en/?p=4512"
-      },
-      {
-        "guia": "Val de Loire France (turismo regional, pueblos trogloditas)",
-        "url": "https://www.valdeloire-france.com/?p=630057"
       }
     ],
     "adrenalina_cerca": [],
@@ -18582,6 +17999,256 @@
     "investigado_en": "2026-11-01"
   },
   {
+    "id": "fr-burdeos",
+    "nombre": "Burdeos",
+    "pais_iso": "FR",
+    "pais": "Francia",
+    "region": "Nueva Aquitania (Gironda)",
+    "lat": 44.8378,
+    "lng": -0.5792,
+    "categorias": [
+      "cultura",
+      "gastronomia",
+      "ciudad"
+    ],
+    "puntajes": {
+      "guias": 4,
+      "cultura": 4,
+      "naturaleza": 1,
+      "gastronomia": 5,
+      "adrenalina": 2,
+      "logistica": 5
+    },
+    "global": 4.6,
+    "nivel": "imprescindible",
+    "mejor_epoca": [
+      4,
+      5,
+      6,
+      9,
+      10
+    ],
+    "dias_sugeridos": 3,
+    "costo": "$$",
+    "acceso": "TGV desde París (aprox. 2 h 05), tranvía en la ciudad y bus lanzadera desde el aeropuerto de Mérignac.",
+    "alerta": null,
+    "platos": [
+      "Vinos de Burdeos (Médoc, Graves, Sauternes)",
+      "Canelés",
+      "Entrecôte à la bordelaise",
+      "Ostras de Arcachon"
+    ],
+    "por_que": "El Puerto de la Luna es un conjunto urbano del siglo XVIII, Patrimonio Mundial, con la Place de la Bourse, el Grand Théâtre y la Cité du Vin. Desde la ciudad salen trenes regionales a Saint-Émilion (34 min) y Margaux (45 min), y los châteaux del Médoc abren en jornadas de puertas abiertas. No te vayas sin probar canelés y entrecôte à la bordelaise.",
+    "fuentes": [
+      {
+        "guia": "Lonely Planet",
+        "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-france"
+      },
+      {
+        "guia": "Rough Guides",
+        "url": "https://www.roughguides.com/france/best-places-to-visit/"
+      },
+      {
+        "guia": "Lonely Planet",
+        "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-bordeaux"
+      },
+      {
+        "guia": "Time Out",
+        "url": "https://www.timeout.com/france/best-things-do-in-bordeaux"
+      },
+      {
+        "guia": "UNESCO",
+        "url": "https://whc.unesco.org/en/list/1256/"
+      },
+      {
+        "guia": "Bordeaux.com (CIVB, interprofesión)",
+        "url": "https://www.bordeaux.com/en/mag/blog/a-car-free-escape-through-bordeaux-s-vineyards/"
+      },
+      {
+        "guia": "Bordeaux.com (CIVB, interprofesión)",
+        "url": "https://www.bordeaux.com/en/mag/blog/open-days-in-the-bordeaux-vineyards-irresistible/"
+      },
+      {
+        "guia": "Bordeaux.com (CIVB, interprofesión)",
+        "url": "https://www.bordeaux.com/en/mag/blog/histoires-de-resolution-chateau-lafaurie-peyraguey-imaginer-un-oenotourisme-singulier"
+      }
+    ],
+    "adrenalina_cerca": [
+      {
+        "nombre": "Parapente en la Duna de Pilat",
+        "tipo": "parapente",
+        "km": 57,
+        "lat": 44.589,
+        "lng": -1.213,
+        "temporada": "mar–nov",
+        "url": "https://www.dunedupilat.com/fr/la-dune/parapente/"
+      }
+    ],
+    "investigado_en": "2026-11-01"
+  },
+  {
+    "id": "fr-carcasona",
+    "nombre": "Carcasona",
+    "pais_iso": "FR",
+    "pais": "Francia",
+    "region": "Occitania (Aude)",
+    "lat": 43.2063,
+    "lng": 2.3636,
+    "categorias": [
+      "cultura",
+      "gastronomia",
+      "ciudad"
+    ],
+    "puntajes": {
+      "guias": 4,
+      "cultura": 5,
+      "naturaleza": 1,
+      "gastronomia": 4,
+      "adrenalina": 3,
+      "logistica": 5
+    },
+    "global": 4.6,
+    "nivel": "imprescindible",
+    "mejor_epoca": [
+      4,
+      5,
+      6,
+      9,
+      10
+    ],
+    "dias_sugeridos": 2,
+    "costo": "$$",
+    "acceso": "Tren desde Toulouse (aprox. 1 h) o Narbona; aeropuerto con vuelos low cost; la Cité queda a 30 min a pie o en bus desde la estación.",
+    "alerta": null,
+    "platos": [
+      "Cassoulet de Carcassonne",
+      "Vinos de Corbières y Minervois",
+      "Blanquette de Limoux"
+    ],
+    "por_que": "Una ciudad fortificada medieval con doble muralla y 52 torres, restaurada por Viollet-le-Duc en el siglo XIX, que es una obra fundacional de la conservación moderna. Aquí se toma el cassoulet con cordero o perdiz, entre viñedos de Corbières y Minervois. Limoux, con su blanquette espumosa, queda a 25 km.",
+    "fuentes": [
+      {
+        "guia": "Rick Steves",
+        "url": "https://www.ricksteves.com/europe/france/itinerary"
+      },
+      {
+        "guia": "Lonely Planet",
+        "url": "https://www.lonelyplanet.com/articles/france-best-itineraries"
+      },
+      {
+        "guia": "Time Out",
+        "url": "https://www.timeout.com/france/things-to-do/best-places-to-visit-in-france"
+      },
+      {
+        "guia": "UNESCO",
+        "url": "https://whc.unesco.org/en/list/345/"
+      },
+      {
+        "guia": "TasteAtlas",
+        "url": "https://www.tasteatlas.com/cassoulet-castelnaudary"
+      },
+      {
+        "guia": "Tourisme Occitanie (Aude Rafting)",
+        "url": "https://www.tourisme-occitanie.com/fr/fiche/activite/aude-rafting-saint-martin-lys_TFOASCLAR011FS00031/"
+      },
+      {
+        "guia": "Tourisme Occitanie (Sud Rafting)",
+        "url": "https://www.tourisme-occitanie.com/fr/fiche/activite/sud-rafting-axat_TFOASCLAR0110000096/"
+      }
+    ],
+    "adrenalina_cerca": [
+      {
+        "nombre": "Aude Rafting (rafting y canyoning, Saint-Martin-Lys)",
+        "tipo": "rafting",
+        "km": 43,
+        "lat": 42.829,
+        "lng": 2.238,
+        "temporada": "abr–sep",
+        "url": "https://www.tourisme-occitanie.com/fr/fiche/activite/aude-rafting-saint-martin-lys_TFOASCLAR011FS00031/"
+      },
+      {
+        "nombre": "Sud Rafting (gargantas de la Pierre-Lys, Axat)",
+        "tipo": "rafting",
+        "km": 46,
+        "lat": 42.805,
+        "lng": 2.232,
+        "temporada": "abr–sep",
+        "url": "https://www.tourisme-occitanie.com/fr/fiche/activite/sud-rafting-axat_TFOASCLAR0110000096/"
+      }
+    ],
+    "investigado_en": "2026-11-01"
+  },
+  {
+    "id": "fr-nimes",
+    "nombre": "Nîmes",
+    "pais_iso": "FR",
+    "pais": "Francia",
+    "region": "Occitania (Gard)",
+    "lat": 43.8367,
+    "lng": 4.3601,
+    "categorias": [
+      "cultura",
+      "ciudad"
+    ],
+    "puntajes": {
+      "guias": 5,
+      "cultura": 4,
+      "naturaleza": 1,
+      "gastronomia": 2,
+      "adrenalina": 2,
+      "logistica": 5
+    },
+    "global": 4.6,
+    "nivel": "imprescindible",
+    "mejor_epoca": [
+      4,
+      5,
+      6,
+      9,
+      10
+    ],
+    "dias_sugeridos": 1,
+    "costo": "$$",
+    "acceso": "TGV desde París (aprox. 3 h); las Arenas están a 10 min a pie de la estación.",
+    "alerta": null,
+    "platos": [
+      "Brandade de Nîmes",
+      "Costières de Nîmes",
+      "Croquants Villaret"
+    ],
+    "por_que": "Una de las ciudades con más monumentos romanos en pie fuera de Italia: las Arenas y la Maison Carrée, un templo del siglo I que es Patrimonio Mundial desde 2023. Desde los Jardins de la Fontaine se sube a la Tour Magne, y el Pont du Gard queda a 25 km. Su plato típico es la brandade de bacalao, con vinos Costières de Nîmes.",
+    "fuentes": [
+      {
+        "guia": "Michelin Guide Vert",
+        "url": "https://boutique.laventure.michelin.com/produit/guide-vert-languedoc-ebook"
+      },
+      {
+        "guia": "Rick Steves",
+        "url": "https://www.ricksteves.com/watch-read-listen/read/articles/nimes-france"
+      },
+      {
+        "guia": "UNESCO",
+        "url": "https://whc.unesco.org/en/list/1569/"
+      },
+      {
+        "guia": "FCDO Reino Unido (transporte y huelgas en Francia)",
+        "url": "https://www.gov.uk/foreign-travel-advice/france/print"
+      }
+    ],
+    "adrenalina_cerca": [
+      {
+        "nombre": "Parc Spirou Provence",
+        "tipo": "parque_diversiones",
+        "km": 55,
+        "lat": 44.027,
+        "lng": 4.997,
+        "temporada": "abr–nov",
+        "url": "https://rcdb.com/15273.htm"
+      }
+    ],
+    "investigado_en": "2026-11-01"
+  },
+  {
     "id": "fr-niza",
     "nombre": "Niza y Villefranche-sur-Mer",
     "pais_iso": "FR",
@@ -18683,6 +18350,83 @@
         "lng": 7.256,
         "temporada": "todo el año",
         "url": "https://www.puremontagne.fr/en/to-do/sport/item/canyoning"
+      }
+    ],
+    "investigado_en": "2026-11-01"
+  },
+  {
+    "id": "fr-versalles",
+    "nombre": "Versalles",
+    "pais_iso": "FR",
+    "pais": "Francia",
+    "region": "Île-de-France",
+    "lat": 48.8049,
+    "lng": 2.1204,
+    "categorias": [
+      "cultura"
+    ],
+    "puntajes": {
+      "guias": 4,
+      "cultura": 5,
+      "naturaleza": 2,
+      "gastronomia": 2,
+      "adrenalina": 2,
+      "logistica": 5
+    },
+    "global": 4.6,
+    "nivel": "imprescindible",
+    "mejor_epoca": [
+      4,
+      5,
+      6,
+      9,
+      10
+    ],
+    "dias_sugeridos": 1,
+    "costo": "$$$",
+    "acceso": "RER C a Versailles Château Rive Gauche o tren desde Saint-Lazare o Montparnasse, unos 40 min; el palacio cierra los lunes y conviene reservar hora.",
+    "alerta": null,
+    "platos": [
+      "Productos del mercado Notre-Dame",
+      "Brie de Meaux"
+    ],
+    "por_que": "La residencia de los reyes de Francia de Luis XIV a Luis XVI, con la Galería de los Espejos, los Grandes Apartamentos, los Trianon y los jardines de Le Nôtre. El parque de unas 800 ha y el Gran Canal se recorren mejor en bici. Está a 17 km de París, y dormir allí permite entrar antes que las excursiones.",
+    "fuentes": [
+      {
+        "guia": "Rick Steves",
+        "url": "https://www.ricksteves.com/europe/france/itinerary"
+      },
+      {
+        "guia": "Lonely Planet",
+        "url": "https://www.lonelyplanet.com/articles/the-best-day-trips-from-paris"
+      },
+      {
+        "guia": "National Geographic",
+        "url": "https://www.nationalgeographic.com/travel/article/overnight-trips-near-paris"
+      },
+      {
+        "guia": "UNESCO",
+        "url": "https://whc.unesco.org/en/list/83/"
+      }
+    ],
+    "adrenalina_cerca": [
+      {
+        "nombre": "Disneyland Paris",
+        "tipo": "parque_diversiones",
+        "km": 49,
+        "lat": 48.8722,
+        "lng": 2.7758,
+        "temporada": "todo el año",
+        "url": "https://parisjetaime.com/culture/disneyland-paris-p3614"
+      },
+      {
+        "nombre": "Parc Astérix (Toutatis)",
+        "tipo": "parque_diversiones",
+        "km": 49,
+        "lat": 49.134,
+        "lng": 2.571,
+        "temporada": "abr–ene (por calendario)",
+        "url": "https://rcdb.com/4790.htm"
       }
     ],
     "investigado_en": "2026-11-01"
@@ -18794,6 +18538,101 @@
     "investigado_en": "2026-11-01"
   },
   {
+    "id": "fr-arles",
+    "nombre": "Arlés",
+    "pais_iso": "FR",
+    "pais": "Francia",
+    "region": "Provenza-Alpes-Costa Azul",
+    "lat": 43.6766,
+    "lng": 4.6278,
+    "categorias": [
+      "cultura",
+      "ciudad"
+    ],
+    "puntajes": {
+      "guias": 4,
+      "cultura": 5,
+      "naturaleza": 3,
+      "gastronomia": 3,
+      "adrenalina": 2,
+      "logistica": 4
+    },
+    "global": 4.5,
+    "nivel": "imprescindible",
+    "mejor_epoca": [
+      4,
+      5,
+      6,
+      9,
+      10
+    ],
+    "dias_sugeridos": 2,
+    "costo": "$$",
+    "acceso": "Tren regional desde Aviñón (unos 20 min) o Marsella; centro compacto a pie; la Camarga, en coche o bus.",
+    "alerta": null,
+    "platos": [
+      "Gardiane de taureau",
+      "Arroz de Camarga",
+      "Saucisson d'Arles",
+      "Fleur de sel de Camargue"
+    ],
+    "por_que": "El anfiteatro, el teatro y los criptopórticos romanos, más el claustro románico de Saint-Trophime, son Patrimonio Mundial, y la ciudad conserva la huella de Van Gogh y acoge los Rencontres de la fotografía cada verano. Es la puerta de la Camarga: flamencos en el étang de Vaccarès, arroz IGP y gardiane de toro. El sábado hay mercado en el bulevar des Lices.",
+    "fuentes": [
+      {
+        "guia": "Rick Steves",
+        "url": "https://www.ricksteves.com/europe/france/provence"
+      },
+      {
+        "guia": "National Geographic",
+        "url": "https://www.nationalgeographic.com/travel/article/overtourism-paris-underrated-cities-to-visit-france"
+      },
+      {
+        "guia": "Lonely Planet",
+        "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-arles"
+      },
+      {
+        "guia": "Lonely Planet",
+        "url": "https://www.lonelyplanet.com/destinations/france/provence/arles"
+      },
+      {
+        "guia": "UNESCO",
+        "url": "https://whc.unesco.org/en/list/164/"
+      },
+      {
+        "guia": "Parc naturel régional de Camargue (oficial)",
+        "url": "https://www.parc-camargue.fr/Local/parc-camargue/files/2457/N4_vaccares.pdf"
+      },
+      {
+        "guia": "Provence-Alpes-Côte d'Azur Tourisme (oficial)",
+        "url": "https://provence-alpes-cotedazur.com/que-faire/culture-et-patrimoine/lieux/la-capeliere-maison-de-la-reserve-et-du-vaccares-arles-fr-2991191/"
+      },
+      {
+        "guia": "Parc naturel régional de Camargue (folleto 2023)",
+        "url": "https://parc-camargue.fr/parc-camargue/202300076/0001/Depliant_PNRC_2023-FR.pdf"
+      },
+      {
+        "guia": "INAO (IGP Sel de Camargue)",
+        "url": "https://inao.gouv.fr/sites/default/files/2024-02/CP_INAO_IGP-Sel_de_Camargue_02-02-2024.pdf"
+      },
+      {
+        "guia": "France Today (gastronomía de la Camarga)",
+        "url": "https://francetoday.com/food-drink/foodie-holidays/gourmet_travels_in_the_camargue/"
+      }
+    ],
+    "adrenalina_cerca": [
+      {
+        "nombre": "Parc Spirou Provence",
+        "tipo": "parque_diversiones",
+        "km": 49,
+        "lat": 44.027,
+        "lng": 4.997,
+        "temporada": "abr–nov",
+        "url": "https://rcdb.com/15273.htm"
+      }
+    ],
+    "investigado_en": "2026-11-01"
+  },
+  {
     "id": "fr-chamonix-mont-blanc",
     "nombre": "Chamonix-Mont-Blanc",
     "pais_iso": "FR",
@@ -18896,6 +18735,255 @@
         "url": "https://hautesavoiemontblanc-tourisme.com/notre-destination/hautement-blanche/mythique-en-haute-savoie-hiver/aiguille-du-midi-telepherique/"
       }
     ],
+    "investigado_en": "2026-11-01"
+  },
+  {
+    "id": "fr-bayeux-playas-desembarco",
+    "nombre": "Bayeux y playas del Desembarco",
+    "pais_iso": "FR",
+    "pais": "Francia",
+    "region": "Normandía",
+    "lat": 49.2764,
+    "lng": -0.7024,
+    "categorias": [
+      "cultura",
+      "ciudad"
+    ],
+    "puntajes": {
+      "guias": 4,
+      "cultura": 5,
+      "naturaleza": 2,
+      "gastronomia": 3,
+      "adrenalina": 1,
+      "logistica": 3
+    },
+    "global": 4.3,
+    "nivel": "imprescindible",
+    "mejor_epoca": [
+      4,
+      5,
+      6,
+      9,
+      10
+    ],
+    "dias_sugeridos": 3,
+    "costo": "$$",
+    "acceso": "Tren desde Paris-Saint-Lazare a Bayeux vía Caen, unas 2 h 15; para las playas del Desembarco hace falta coche o tour guiado.",
+    "alerta": "El Tapiz de Bayeux está prestado al British Museum de Londres (exposición del 10 de septiembre de 2026 al 11 de julio de 2027): hasta su regreso no se puede ver en Bayeux.",
+    "platos": [
+      "Camembert de Normandie",
+      "Tripes à la mode de Caen",
+      "Sidra y calvados",
+      "Tarte normande"
+    ],
+    "por_que": "Bayeux tiene una catedral normanda y es la base para recorrer en coche las playas del Desembarco de 1944 (Omaha, Arromanches, la Pointe du Hoc y el Cementerio Americano), inscritas como Patrimonio Mundial en 2026. El tapiz del siglo XI está prestado al British Museum hasta julio de 2027. Se come cocina normanda de nata y manzana, con camembert, sidra y calvados.",
+    "fuentes": [
+      {
+        "guia": "Rick Steves",
+        "url": "https://www.ricksteves.com/europe/france/itinerary"
+      },
+      {
+        "guia": "Lonely Planet",
+        "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-normandy"
+      },
+      {
+        "guia": "Time Out",
+        "url": "https://www.timeout.com/france/things-to-do/best-places-to-visit-in-france"
+      },
+      {
+        "guia": "Normandie Tourisme (oficial)",
+        "url": "https://en.normandie-tourisme.fr/unmissable-sites/bayeux/"
+      },
+      {
+        "guia": "Normandie Tourisme (oficial, tapiz de Bayeux)",
+        "url": "https://en.normandie-tourisme.fr/discover/history/medieval-normandy/sites-to-visit/in-calvados/the-bayeux-tapestry/"
+      },
+      {
+        "guia": "UNESCO (decisión 48 COM 8B.26, playas del Desembarco)",
+        "url": "https://whc.unesco.org/en/decisions/9180"
+      },
+      {
+        "guia": "UNESCO (documento de la inscripción)",
+        "url": "https://whc.unesco.org/document/227312"
+      },
+      {
+        "guia": "Normandie Tourisme (oficial, inscripción UNESCO)",
+        "url": "https://en.normandie-tourisme.fr/discover/d-day-and-the-battle-of-normandy/dday-landing-beaches/the-d-day-landing-beaches-on-the-unesco-world-heritage-list/"
+      },
+      {
+        "guia": "Calvados Attractivité (oficial, livarot, pont-l'évêque y camembert)",
+        "url": "https://www.explore-calvados.com/?p=36971"
+      },
+      {
+        "guia": "Taste France (guía gastronómica de Normandía)",
+        "url": "https://www.tastefrance.com/magazine/gourmet-travelers-guide/food-lovers-guide-normandy-what-eat-drink"
+      },
+      {
+        "guia": "SNCF Connect (horarios desde Bayeux vía Paris-Saint-Lazare)",
+        "url": "https://www.sncf-connect.com/en-en/train/timetables/bayeux/lyon"
+      },
+      {
+        "guia": "British Museum (nota de prensa, el Tapiz de Bayeux en Londres)",
+        "url": "https://www.britishmuseum.org/about-us/press/press-releases/bayeux-tapestry-displayed-british-museum"
+      }
+    ],
+    "adrenalina_cerca": [],
+    "investigado_en": "2026-11-01"
+  },
+  {
+    "id": "fr-corcega",
+    "nombre": "Córcega (GR20, Scandola, Calanche de Piana)",
+    "pais_iso": "FR",
+    "pais": "Francia",
+    "region": "Córcega",
+    "lat": 42.0396,
+    "lng": 9.0129,
+    "categorias": [
+      "naturaleza",
+      "gastronomia",
+      "playa"
+    ],
+    "puntajes": {
+      "guias": 4,
+      "cultura": 2,
+      "naturaleza": 5,
+      "gastronomia": 4,
+      "adrenalina": 3,
+      "logistica": 3
+    },
+    "global": 4.3,
+    "nivel": "imprescindible",
+    "mejor_epoca": [
+      5,
+      6,
+      9,
+      10
+    ],
+    "dias_sugeridos": 7,
+    "costo": "$$$",
+    "acceso": "Ferry desde Marsella, Toulon o Niza (de unas 5 h en los rápidos a 12-13 h en los nocturnos) o avión a Ajaccio, Bastia, Calvi y Figari; coche casi imprescindible; refugios del GR20 de junio a septiembre.",
+    "alerta": "Riesgo de incendio en verano y carreteras de montaña muy sinuosas; el GR20 es una travesía exigente.",
+    "platos": [
+      "Figatellu",
+      "Brocciu",
+      "Fiadone",
+      "Vino de Patrimonio"
+    ],
+    "por_que": "Una isla montañosa con el GR20, una de las travesías más duras de Europa, y el golfo de Porto, Patrimonio Natural: la reserva de Scandola y las Calanche de Piana se ven en barco desde Porto. Por el camino están la casa natal de Napoleón en Ajaccio y la ciudadela de Calvi. Su despensa es muy propia, con figatellu, brocciu AOP, harina de castaña y vino de Patrimonio.",
+    "fuentes": [
+      {
+        "guia": "Lonely Planet",
+        "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-corsica"
+      },
+      {
+        "guia": "Lonely Planet",
+        "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-france"
+      },
+      {
+        "guia": "Rough Guides",
+        "url": "https://www.roughguides.com/france/things-to-do-corsica/"
+      },
+      {
+        "guia": "Time Out",
+        "url": "https://www.timeout.com/france/things-to-do/best-villages-in-france"
+      },
+      {
+        "guia": "TasteAtlas",
+        "url": "https://www.tasteatlas.com/brocciu-corse"
+      },
+      {
+        "guia": "TasteAtlas",
+        "url": "https://www.tasteatlas.com/figatelli-de-lile-de-beaute"
+      },
+      {
+        "guia": "Visit Corsica (agencia de turismo de Córcega, llegada en barco)",
+        "url": "https://www.visit-corsica.com/de/layout/set/print/Mein-Urlaub-auf-Korsika/Anreise/Per-Schiff"
+      },
+      {
+        "guia": "Direct Ferries (Marsella-Bastia)",
+        "url": "https://www.directferries.fr/marseille_bastia_ferry.htm"
+      },
+      {
+        "guia": "UNESCO",
+        "url": "https://whc.unesco.org/en/list/258"
+      },
+      {
+        "guia": "Agence du Tourisme de la Corse (Corsica Madness)",
+        "url": "https://www.visit-corsica.com/fr/Mes-Favoris/CORSICA-MADNESS"
+      },
+      {
+        "guia": "Agence du Tourisme de la Corse (Corse Rando Canyon)",
+        "url": "https://www.visit-corsica.com/en/Offres-et-idees-sejours/Selon-vos-envies/Canyoning-en-Sud-Corse-avec-Corse-Rando-Canyon"
+      }
+    ],
+    "adrenalina_cerca": [
+      {
+        "nombre": "Corsica Madness (barranquismo y vía ferrata en Bavella)",
+        "tipo": "canyoning",
+        "km": 32,
+        "lat": 41.795,
+        "lng": 9.225,
+        "temporada": "may–oct",
+        "url": "https://www.visit-corsica.com/fr/Mes-Favoris/CORSICA-MADNESS"
+      }
+    ],
+    "investigado_en": "2026-11-01"
+  },
+  {
+    "id": "fr-etretat",
+    "nombre": "Étretat",
+    "pais_iso": "FR",
+    "pais": "Francia",
+    "region": "Normandía",
+    "lat": 49.7071,
+    "lng": 0.2056,
+    "categorias": [
+      "naturaleza"
+    ],
+    "puntajes": {
+      "guias": 5,
+      "cultura": 1,
+      "naturaleza": 4,
+      "gastronomia": 2,
+      "adrenalina": 1,
+      "logistica": 3
+    },
+    "global": 4.3,
+    "nivel": "imprescindible",
+    "mejor_epoca": [
+      5,
+      6,
+      9,
+      10
+    ],
+    "dias_sugeridos": 1,
+    "costo": "$$",
+    "acceso": "Sin tren: bus desde Le Havre (aprox. 1 h) o coche; aparcamiento escaso y lleno los fines de semana de verano.",
+    "alerta": "Desprendimientos en los acantilados y marea que sube rápido: no caminar al pie de las paredes ni por el borde.",
+    "platos": [
+      "Moules marinières",
+      "Sidra normanda"
+    ],
+    "por_que": "Acantilados de creta de la Côte d'Albâtre con los arcos de la Porte d'Aval y la Manneporte y una aguja de 51 m, los mismos que pintaron Monet y Courbet. Un sendero de unos 5 km recorre lo alto del acantilado de Aval y vuelve por Amont. Es pequeño y se ve en medio día, con mejillones y sidra al final.",
+    "fuentes": [
+      {
+        "guia": "Time Out",
+        "url": "https://www.timeout.com/paris/en/things-to-do/best-day-trips-from-paris"
+      },
+      {
+        "guia": "Michelin Guide Vert",
+        "url": "https://boutique.laventure.michelin.com/en/product/guide-vert-normandie-vallee-de-seine-ebook"
+      },
+      {
+        "guia": "Time Out",
+        "url": "https://www.timeout.com/france/travel/most-beautiful-sights-natural-wonders-france"
+      },
+      {
+        "guia": "Visorando",
+        "url": "https://www.visorando.com/randonnee-etretat-et-le-phare-du-cap-d-antifer/"
+      }
+    ],
+    "adrenalina_cerca": [],
     "investigado_en": "2026-11-01"
   },
   {
@@ -19191,6 +19279,83 @@
     "investigado_en": "2026-11-01"
   },
   {
+    "id": "fr-valle-del-loira",
+    "nombre": "Valle del Loira (Amboise, Chenonceau, Chambord)",
+    "pais_iso": "FR",
+    "pais": "Francia",
+    "region": "Centro-Valle de Loira",
+    "lat": 47.4133,
+    "lng": 0.9826,
+    "categorias": [
+      "cultura",
+      "gastronomia"
+    ],
+    "puntajes": {
+      "guias": 4,
+      "cultura": 5,
+      "naturaleza": 2,
+      "gastronomia": 4,
+      "adrenalina": 1,
+      "logistica": 3
+    },
+    "global": 4.3,
+    "nivel": "imprescindible",
+    "mejor_epoca": [
+      4,
+      5,
+      6,
+      9,
+      10
+    ],
+    "dias_sugeridos": 3,
+    "costo": "$$",
+    "acceso": "TGV de París a Saint-Pierre-des-Corps (aprox. 1 h) y tren regional a Amboise o Blois; entre castillos, coche, bici (La Loire à Vélo) o minibús.",
+    "alerta": null,
+    "platos": [
+      "Vouvray (chenin blanc)",
+      "Sainte-maure-de-touraine",
+      "Rillettes de Tours",
+      "Chinon (cabernet franc)"
+    ],
+    "por_que": "Es un paisaje cultural Patrimonio Mundial de castillos renacentistas: Chambord, Chenonceau y Amboise, donde está la tumba de Leonardo, se ven en un día con base en Amboise. Entre castillo y castillo, la Loire à Vélo recorre la orilla y las bodegas de Vouvray, Montlouis y Chinon están excavadas en la toba. Se acompaña con queso de cabra sainte-maure y rillettes de Tours.",
+    "fuentes": [
+      {
+        "guia": "Lonely Planet",
+        "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-france"
+      },
+      {
+        "guia": "Rick Steves",
+        "url": "https://www.ricksteves.com/watch-read-listen/read/articles/frances-loire-valley-of-a-thousand-chateaux"
+      },
+      {
+        "guia": "Rick Steves",
+        "url": "https://www.ricksteves.com/europe/france/itinerary"
+      },
+      {
+        "guia": "Rough Guides",
+        "url": "https://www.roughguides.com/france/best-places-to-visit/"
+      },
+      {
+        "guia": "UNESCO",
+        "url": "https://whc.unesco.org/en/list/933/"
+      },
+      {
+        "guia": "Touraine Val de Loire (turismo oficial, sitios trogloditas)",
+        "url": "https://www.tourainevaldeloire.com/en/activities/all-visits/troglodyte-sites/"
+      },
+      {
+        "guia": "Amboise Val de Loire (turismo oficial, cuevas trogloditas)",
+        "url": "https://amboise-valdeloire.com/en/?p=4512"
+      },
+      {
+        "guia": "Val de Loire France (turismo regional, pueblos trogloditas)",
+        "url": "https://www.valdeloire-france.com/?p=630057"
+      }
+    ],
+    "adrenalina_cerca": [],
+    "investigado_en": "2026-11-01"
+  },
+  {
     "id": "fr-valle-vezere-lascaux",
     "nombre": "Valle del Vézère (Lascaux, Les Eyzies)",
     "pais_iso": "FR",
@@ -19423,76 +19588,6 @@
       }
     ],
     "adrenalina_cerca": [],
-    "investigado_en": "2026-11-01"
-  },
-  {
-    "id": "fr-nimes",
-    "nombre": "Nîmes",
-    "pais_iso": "FR",
-    "pais": "Francia",
-    "region": "Occitania (Gard)",
-    "lat": 43.8367,
-    "lng": 4.3601,
-    "categorias": [
-      "cultura",
-      "ciudad"
-    ],
-    "puntajes": {
-      "guias": 4,
-      "cultura": 4,
-      "naturaleza": 1,
-      "gastronomia": 2,
-      "adrenalina": 2,
-      "logistica": 5
-    },
-    "global": 4.2,
-    "nivel": "imprescindible",
-    "mejor_epoca": [
-      4,
-      5,
-      6,
-      9,
-      10
-    ],
-    "dias_sugeridos": 1,
-    "costo": "$$",
-    "acceso": "TGV desde París (aprox. 3 h); las Arenas están a 10 min a pie de la estación.",
-    "alerta": null,
-    "platos": [
-      "Brandade de Nîmes",
-      "Costières de Nîmes",
-      "Croquants Villaret"
-    ],
-    "por_que": "Una de las ciudades con más monumentos romanos en pie fuera de Italia: las Arenas y la Maison Carrée, un templo del siglo I que es Patrimonio Mundial desde 2023. Desde los Jardins de la Fontaine se sube a la Tour Magne, y el Pont du Gard queda a 25 km. Su plato típico es la brandade de bacalao, con vinos Costières de Nîmes.",
-    "fuentes": [
-      {
-        "guia": "Michelin Guide Vert",
-        "url": "https://boutique.laventure.michelin.com/produit/guide-vert-languedoc-ebook"
-      },
-      {
-        "guia": "Rick Steves",
-        "url": "https://www.ricksteves.com/watch-read-listen/read/articles/nimes-france"
-      },
-      {
-        "guia": "UNESCO",
-        "url": "https://whc.unesco.org/en/list/1569/"
-      },
-      {
-        "guia": "FCDO Reino Unido (transporte y huelgas en Francia)",
-        "url": "https://www.gov.uk/foreign-travel-advice/france/print"
-      }
-    ],
-    "adrenalina_cerca": [
-      {
-        "nombre": "Parc Spirou Provence",
-        "tipo": "parque_diversiones",
-        "km": 55,
-        "lat": 44.027,
-        "lng": 4.997,
-        "temporada": "abr–nov",
-        "url": "https://rcdb.com/15273.htm"
-      }
-    ],
     "investigado_en": "2026-11-01"
   },
   {
@@ -20590,63 +20685,6 @@
       {
         "guia": "Office de tourisme Pont d'Arc-Ardèche (oficial)",
         "url": "https://en.gorges-ardeche-pontdarc.fr/discovery/the-must-sees/the-ardeche-gorges/"
-      }
-    ],
-    "adrenalina_cerca": [],
-    "investigado_en": "2026-11-01"
-  },
-  {
-    "id": "fr-etretat",
-    "nombre": "Étretat",
-    "pais_iso": "FR",
-    "pais": "Francia",
-    "region": "Normandía",
-    "lat": 49.7071,
-    "lng": 0.2056,
-    "categorias": [
-      "naturaleza"
-    ],
-    "puntajes": {
-      "guias": 4,
-      "cultura": 1,
-      "naturaleza": 4,
-      "gastronomia": 2,
-      "adrenalina": 1,
-      "logistica": 3
-    },
-    "global": 3.9,
-    "nivel": "muy_recomendado",
-    "mejor_epoca": [
-      5,
-      6,
-      9,
-      10
-    ],
-    "dias_sugeridos": 1,
-    "costo": "$$",
-    "acceso": "Sin tren: bus desde Le Havre (aprox. 1 h) o coche; aparcamiento escaso y lleno los fines de semana de verano.",
-    "alerta": "Desprendimientos en los acantilados y marea que sube rápido: no caminar al pie de las paredes ni por el borde.",
-    "platos": [
-      "Moules marinières",
-      "Sidra normanda"
-    ],
-    "por_que": "Acantilados de creta de la Côte d'Albâtre con los arcos de la Porte d'Aval y la Manneporte y una aguja de 51 m, los mismos que pintaron Monet y Courbet. Un sendero de unos 5 km recorre lo alto del acantilado de Aval y vuelve por Amont. Es pequeño y se ve en medio día, con mejillones y sidra al final.",
-    "fuentes": [
-      {
-        "guia": "Time Out",
-        "url": "https://www.timeout.com/paris/en/things-to-do/best-day-trips-from-paris"
-      },
-      {
-        "guia": "Michelin Guide Vert",
-        "url": "https://boutique.laventure.michelin.com/en/product/guide-vert-normandie-vallee-de-seine-ebook"
-      },
-      {
-        "guia": "Time Out",
-        "url": "https://www.timeout.com/france/travel/most-beautiful-sights-natural-wonders-france"
-      },
-      {
-        "guia": "Visorando",
-        "url": "https://www.visorando.com/randonnee-etretat-et-le-phare-du-cap-d-antifer/"
       }
     ],
     "adrenalina_cerca": [],
@@ -31364,6 +31402,82 @@
     "investigado_en": "2026-11-01"
   },
   {
+    "id": "lu-echternach",
+    "nombre": "Echternach y el Mullerthal (Pequeña Suiza)",
+    "pais_iso": "LU",
+    "pais": "Luxemburgo",
+    "region": "Mullerthal",
+    "lat": 49.8117,
+    "lng": 6.4214,
+    "categorias": [
+      "naturaleza"
+    ],
+    "puntajes": {
+      "guias": 3,
+      "cultura": 3,
+      "naturaleza": 4,
+      "gastronomia": 1,
+      "adrenalina": 1,
+      "logistica": 4
+    },
+    "global": 3.6,
+    "nivel": "muy_recomendado",
+    "mejor_epoca": [
+      5,
+      6,
+      9,
+      10
+    ],
+    "dias_sugeridos": 1,
+    "costo": "$$",
+    "acceso": "Bus gratuito directo desde la ciudad de Luxemburgo (aprox. 1 h); la procesión danzante es el martes de Pentecostés.",
+    "alerta": "Aviso EE. UU. Level 2 para el este por munición sin explotar: no salir de los senderos señalizados en el bosque.",
+    "platos": [
+      "Gromperekichelcher"
+    ],
+    "por_que": "La ciudad más antigua del país tiene la abadía de San Willibrord, cuya procesión danzante de Pentecostés es Patrimonio Inmaterial. Al lado empieza el Mullerthal, la «Pequeña Suiza», con gargantas de arenisca como la Wolfsschlucht y bosques de musgo. Conviene no salirse de los senderos: aún queda munición sin explotar de la Segunda Guerra Mundial.",
+    "fuentes": [
+      {
+        "guia": "Lonely Planet",
+        "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-luxembourg"
+      },
+      {
+        "guia": "Fodor's",
+        "url": "https://www.fodors.com/world/europe/luxembourg/things-to-do/sights"
+      },
+      {
+        "guia": "Departamento de Estado EE. UU. (Luxemburgo)",
+        "url": "https://travel.state.gov/en/international-travel/travel-advisories/luxembourg.html"
+      },
+      {
+        "guia": "Visit Luxembourg (oficial)",
+        "url": "https://www.visitluxembourg.com/tour/stage-trail-mullerthal-trail-route-2"
+      },
+      {
+        "guia": "UNESCO Patrimonio Inmaterial (procesión de Echternach)",
+        "url": "https://ich.unesco.org/en/RL/echternach-hopping-procession-00392"
+      },
+      {
+        "guia": "Luxembourg.public.lu (Gobierno de Luxemburgo)",
+        "url": "https://luxembourg.public.lu/en/society-and-culture/festivals-and-traditions/echternach-hopping-procession.html"
+      },
+      {
+        "guia": "Mullerthal Region (oficial, llegada y movilidad)",
+        "url": "https://www.mullerthal.lu/useful-informations/arrival-and-mobility"
+      },
+      {
+        "guia": "Ville de Luxembourg (oficial, transporte público gratuito)",
+        "url": "https://www.vdl.lu/en/node/84265"
+      },
+      {
+        "guia": "Mullerthal (turismo regional oficial)",
+        "url": "https://mullerthal.lu/tour/stage-trail-mullerthal-trail-route-2"
+      }
+    ],
+    "adrenalina_cerca": [],
+    "investigado_en": "2026-11-01"
+  },
+  {
     "id": "lu-vianden",
     "nombre": "Vianden",
     "pais_iso": "LU",
@@ -31375,15 +31489,15 @@
       "cultura"
     ],
     "puntajes": {
-      "guias": 4,
+      "guias": 3,
       "cultura": 4,
       "naturaleza": 2,
       "gastronomia": 2,
       "adrenalina": 2,
       "logistica": 4
     },
-    "global": 4,
-    "nivel": "imprescindible",
+    "global": 3.6,
+    "nivel": "muy_recomendado",
     "mejor_epoca": [
       5,
       6,
@@ -31472,82 +31586,6 @@
         "url": "https://www.spa-francorchamps.be/en/track-experiences"
       }
     ],
-    "investigado_en": "2026-11-01"
-  },
-  {
-    "id": "lu-echternach",
-    "nombre": "Echternach y el Mullerthal (Pequeña Suiza)",
-    "pais_iso": "LU",
-    "pais": "Luxemburgo",
-    "region": "Mullerthal",
-    "lat": 49.8117,
-    "lng": 6.4214,
-    "categorias": [
-      "naturaleza"
-    ],
-    "puntajes": {
-      "guias": 3,
-      "cultura": 3,
-      "naturaleza": 4,
-      "gastronomia": 1,
-      "adrenalina": 1,
-      "logistica": 4
-    },
-    "global": 3.6,
-    "nivel": "muy_recomendado",
-    "mejor_epoca": [
-      5,
-      6,
-      9,
-      10
-    ],
-    "dias_sugeridos": 1,
-    "costo": "$$",
-    "acceso": "Bus gratuito directo desde la ciudad de Luxemburgo (aprox. 1 h); la procesión danzante es el martes de Pentecostés.",
-    "alerta": "Aviso EE. UU. Level 2 para el este por munición sin explotar: no salir de los senderos señalizados en el bosque.",
-    "platos": [
-      "Gromperekichelcher"
-    ],
-    "por_que": "La ciudad más antigua del país tiene la abadía de San Willibrord, cuya procesión danzante de Pentecostés es Patrimonio Inmaterial. Al lado empieza el Mullerthal, la «Pequeña Suiza», con gargantas de arenisca como la Wolfsschlucht y bosques de musgo. Conviene no salirse de los senderos: aún queda munición sin explotar de la Segunda Guerra Mundial.",
-    "fuentes": [
-      {
-        "guia": "Lonely Planet",
-        "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-luxembourg"
-      },
-      {
-        "guia": "Fodor's",
-        "url": "https://www.fodors.com/world/europe/luxembourg/things-to-do/sights"
-      },
-      {
-        "guia": "Departamento de Estado EE. UU. (Luxemburgo)",
-        "url": "https://travel.state.gov/en/international-travel/travel-advisories/luxembourg.html"
-      },
-      {
-        "guia": "Visit Luxembourg (oficial)",
-        "url": "https://www.visitluxembourg.com/tour/stage-trail-mullerthal-trail-route-2"
-      },
-      {
-        "guia": "UNESCO Patrimonio Inmaterial (procesión de Echternach)",
-        "url": "https://ich.unesco.org/en/RL/echternach-hopping-procession-00392"
-      },
-      {
-        "guia": "Luxembourg.public.lu (Gobierno de Luxemburgo)",
-        "url": "https://luxembourg.public.lu/en/society-and-culture/festivals-and-traditions/echternach-hopping-procession.html"
-      },
-      {
-        "guia": "Mullerthal Region (oficial, llegada y movilidad)",
-        "url": "https://www.mullerthal.lu/useful-informations/arrival-and-mobility"
-      },
-      {
-        "guia": "Ville de Luxembourg (oficial, transporte público gratuito)",
-        "url": "https://www.vdl.lu/en/node/84265"
-      },
-      {
-        "guia": "Mullerthal (turismo regional oficial)",
-        "url": "https://mullerthal.lu/tour/stage-trail-mullerthal-trail-route-2"
-      }
-    ],
-    "adrenalina_cerca": [],
     "investigado_en": "2026-11-01"
   },
   {
@@ -31935,85 +31973,6 @@
     "investigado_en": "2026-11-01"
   },
   {
-    "id": "lu-bourscheid",
-    "nombre": "Castillo de Bourscheid",
-    "pais_iso": "LU",
-    "pais": "Luxemburgo",
-    "region": "Ardenas luxemburguesas (Éislek)",
-    "lat": 49.9089,
-    "lng": 6.0656,
-    "categorias": [
-      "cultura"
-    ],
-    "puntajes": {
-      "guias": 3,
-      "cultura": 2,
-      "naturaleza": 2,
-      "gastronomia": 1,
-      "adrenalina": 2,
-      "logistica": 3
-    },
-    "global": 2.6,
-    "nivel": "si_hay_tiempo",
-    "mejor_epoca": [
-      5,
-      6,
-      7,
-      8,
-      9,
-      10
-    ],
-    "dias_sugeridos": 1,
-    "costo": "$$",
-    "acceso": "Coche o bus gratuito desde Ettelbruck; el castillo tiene horario reducido en invierno.",
-    "alerta": "Aviso EE. UU. Level 2 para el norte por munición sin explotar: no salir de los senderos señalizados.",
-    "platos": [],
-    "por_que": "Es la mayor ruina de castillo medieval de Luxemburgo, en lo alto del valle boscoso del Sûre. Un sendero baja a la playa fluvial de Bourscheid-Moulin. En invierno abre con horario reducido; se llega en bus gratis desde Ettelbruck o en coche.",
-    "fuentes": [
-      {
-        "guia": "Lonely Planet",
-        "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-luxembourg"
-      },
-      {
-        "guia": "Rough Guides",
-        "url": "https://www.roughguides.com/articles/smallest-countries-in-the-world/"
-      },
-      {
-        "guia": "Departamento de Estado EE. UU. (Luxemburgo)",
-        "url": "https://travel.state.gov/en/international-travel/travel-advisories/luxembourg.html"
-      },
-      {
-        "guia": "Tourisme Stavelot (oficina de turismo)",
-        "url": "https://tourismestavelot.be/en/node/3174"
-      },
-      {
-        "guia": "Ville de Luxembourg (oficial, transporte público gratuito)",
-        "url": "https://www.vdl.lu/en/node/84265"
-      }
-    ],
-    "adrenalina_cerca": [
-      {
-        "nombre": "Kayak en el Amblève y telesilla de la cascada de Coo",
-        "tipo": "otro",
-        "km": 55,
-        "lat": 50.3912,
-        "lng": 5.879,
-        "temporada": "abr–oct",
-        "url": "https://tourismestavelot.be/en/node/3174"
-      },
-      {
-        "nombre": "Circuit de Spa-Francorchamps: Taxi Laps",
-        "tipo": "motor",
-        "km": 59,
-        "lat": 50.437,
-        "lng": 5.971,
-        "temporada": "según calendario del circuito",
-        "url": "https://www.spa-francorchamps.be/en/track-experiences"
-      }
-    ],
-    "investigado_en": "2026-11-01"
-  },
-  {
     "id": "lu-larochette",
     "nombre": "Castillo de Larochette",
     "pais_iso": "LU",
@@ -32152,6 +32111,85 @@
         "nombre": "Kayak en el Amblève y telesilla de la cascada de Coo",
         "tipo": "otro",
         "km": 54,
+        "lat": 50.3912,
+        "lng": 5.879,
+        "temporada": "abr–oct",
+        "url": "https://tourismestavelot.be/en/node/3174"
+      },
+      {
+        "nombre": "Circuit de Spa-Francorchamps: Taxi Laps",
+        "tipo": "motor",
+        "km": 59,
+        "lat": 50.437,
+        "lng": 5.971,
+        "temporada": "según calendario del circuito",
+        "url": "https://www.spa-francorchamps.be/en/track-experiences"
+      }
+    ],
+    "investigado_en": "2026-11-01"
+  },
+  {
+    "id": "lu-bourscheid",
+    "nombre": "Castillo de Bourscheid",
+    "pais_iso": "LU",
+    "pais": "Luxemburgo",
+    "region": "Ardenas luxemburguesas (Éislek)",
+    "lat": 49.9089,
+    "lng": 6.0656,
+    "categorias": [
+      "cultura"
+    ],
+    "puntajes": {
+      "guias": 2,
+      "cultura": 2,
+      "naturaleza": 2,
+      "gastronomia": 1,
+      "adrenalina": 2,
+      "logistica": 3
+    },
+    "global": 2.2,
+    "nivel": "si_hay_tiempo",
+    "mejor_epoca": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "dias_sugeridos": 1,
+    "costo": "$$",
+    "acceso": "Coche o bus gratuito desde Ettelbruck; el castillo tiene horario reducido en invierno.",
+    "alerta": "Aviso EE. UU. Level 2 para el norte por munición sin explotar: no salir de los senderos señalizados.",
+    "platos": [],
+    "por_que": "Es la mayor ruina de castillo medieval de Luxemburgo, en lo alto del valle boscoso del Sûre. Un sendero baja a la playa fluvial de Bourscheid-Moulin. En invierno abre con horario reducido; se llega en bus gratis desde Ettelbruck o en coche.",
+    "fuentes": [
+      {
+        "guia": "Lonely Planet",
+        "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-luxembourg"
+      },
+      {
+        "guia": "Rough Guides",
+        "url": "https://www.roughguides.com/articles/smallest-countries-in-the-world/"
+      },
+      {
+        "guia": "Departamento de Estado EE. UU. (Luxemburgo)",
+        "url": "https://travel.state.gov/en/international-travel/travel-advisories/luxembourg.html"
+      },
+      {
+        "guia": "Tourisme Stavelot (oficina de turismo)",
+        "url": "https://tourismestavelot.be/en/node/3174"
+      },
+      {
+        "guia": "Ville de Luxembourg (oficial, transporte público gratuito)",
+        "url": "https://www.vdl.lu/en/node/84265"
+      }
+    ],
+    "adrenalina_cerca": [
+      {
+        "nombre": "Kayak en el Amblève y telesilla de la cascada de Coo",
+        "tipo": "otro",
+        "km": 55,
         "lat": 50.3912,
         "lng": 5.879,
         "temporada": "abr–oct",
@@ -34130,151 +34168,6 @@
     "investigado_en": "2026-11-01"
   },
   {
-    "id": "nl-utrecht",
-    "nombre": "Utrecht",
-    "pais_iso": "NL",
-    "pais": "Países Bajos",
-    "region": "Utrecht",
-    "lat": 52.0907,
-    "lng": 5.1214,
-    "categorias": [
-      "cultura",
-      "ciudad"
-    ],
-    "puntajes": {
-      "guias": 5,
-      "cultura": 4,
-      "naturaleza": 1,
-      "gastronomia": 2,
-      "adrenalina": 3,
-      "logistica": 5
-    },
-    "global": 4.6,
-    "nivel": "imprescindible",
-    "mejor_epoca": [
-      4,
-      5,
-      6,
-      9,
-      10
-    ],
-    "dias_sugeridos": 1,
-    "costo": "$$",
-    "acceso": "Tren desde Ámsterdam (unos 27 min); el centro está a pie desde Utrecht Centraal.",
-    "alerta": null,
-    "platos": [
-      "Utrechtse sprits",
-      "Bitterballen"
-    ],
-    "por_que": "La casa Rietveld Schröder, Patrimonio Mundial, es el manifiesto construido de De Stijl. La Domtoren, de 112 m, domina un centro de canales con muelles a dos niveles en el Oudegracht, llenos de terrazas. Es una ciudad universitaria con menos turistas que Ámsterdam, a 27 minutos de tren.",
-    "fuentes": [
-      {
-        "guia": "Lonely Planet",
-        "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-the-netherlands"
-      },
-      {
-        "guia": "Rough Guides",
-        "url": "https://www.roughguides.com/articles/7-dutch-cities-to-explore-beyond-amsterdam/"
-      },
-      {
-        "guia": "Time Out",
-        "url": "https://www.timeout.com/netherlands/travel/best-netherlands-cities-to-visit"
-      },
-      {
-        "guia": "UNESCO",
-        "url": "https://whc.unesco.org/en/list/965/gallery/"
-      }
-    ],
-    "adrenalina_cerca": [
-      {
-        "nombre": "Efteling (Baron 1898)",
-        "tipo": "parque_diversiones",
-        "km": 49,
-        "lat": 51.65,
-        "lng": 5.0497,
-        "temporada": "todo el año",
-        "url": "https://www.efteling.com/nl/pers/nieuwe-efteling-achtbaan-baron-1898-nu-open-voor-publiek/"
-      },
-      {
-        "nombre": "Walibi Holland",
-        "tipo": "parque_diversiones",
-        "km": 58,
-        "lat": 52.44,
-        "lng": 5.764,
-        "temporada": "abr–nov",
-        "url": "https://www.walibi.nl/en/park/attractions/rollercoasters"
-      }
-    ],
-    "investigado_en": "2026-11-01"
-  },
-  {
-    "id": "nl-kinderdijk",
-    "nombre": "Kinderdijk",
-    "pais_iso": "NL",
-    "pais": "Países Bajos",
-    "region": "Holanda Meridional",
-    "lat": 51.884,
-    "lng": 4.639,
-    "categorias": [
-      "cultura"
-    ],
-    "puntajes": {
-      "guias": 5,
-      "cultura": 4,
-      "naturaleza": 2,
-      "gastronomia": 1,
-      "adrenalina": 2,
-      "logistica": 4
-    },
-    "global": 4.4,
-    "nivel": "imprescindible",
-    "mejor_epoca": [
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10
-    ],
-    "dias_sugeridos": 1,
-    "costo": "$$",
-    "acceso": "Waterbus desde Róterdam (unos 30-45 min) o bus regional; los molinos visitables piden entrada, mejor comprada en línea.",
-    "alerta": null,
-    "platos": [],
-    "por_que": "Los 19 molinos del siglo XVIII, con diques, embalses y estaciones de bombeo, son Patrimonio Mundial y la mejor explicación de cómo los neerlandeses ganaron la tierra al agua. Se recorren a pie o en bici por los diques, y dos molinos se visitan por dentro con entrada comprada en línea. Se llega en waterbus desde Róterdam.",
-    "fuentes": [
-      {
-        "guia": "Lonely Planet",
-        "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-the-netherlands"
-      },
-      {
-        "guia": "Rough Guides",
-        "url": "https://www.roughguides.com/articles/best-things-to-do-in-the-netherlands/"
-      },
-      {
-        "guia": "Fodor's",
-        "url": "https://www.fodors.com/world/europe/netherlands/experiences/news/photos/10-places-to-go-in-the-netherlands-outside-of-amsterdam"
-      },
-      {
-        "guia": "UNESCO",
-        "url": "https://whc.unesco.org/en/list/818/"
-      }
-    ],
-    "adrenalina_cerca": [
-      {
-        "nombre": "Efteling (Baron 1898)",
-        "tipo": "parque_diversiones",
-        "km": 38,
-        "lat": 51.65,
-        "lng": 5.0497,
-        "temporada": "todo el año",
-        "url": "https://www.efteling.com/nl/pers/nieuwe-efteling-achtbaan-baron-1898-nu-open-voor-publiek/"
-      }
-    ],
-    "investigado_en": "2026-11-01"
-  },
-  {
     "id": "nl-hoge-veluwe",
     "nombre": "Parque Nacional De Hoge Veluwe (Museo Kröller-Müller)",
     "pais_iso": "NL",
@@ -34465,6 +34358,151 @@
     "investigado_en": "2026-11-01"
   },
   {
+    "id": "nl-utrecht",
+    "nombre": "Utrecht",
+    "pais_iso": "NL",
+    "pais": "Países Bajos",
+    "region": "Utrecht",
+    "lat": 52.0907,
+    "lng": 5.1214,
+    "categorias": [
+      "cultura",
+      "ciudad"
+    ],
+    "puntajes": {
+      "guias": 4,
+      "cultura": 4,
+      "naturaleza": 1,
+      "gastronomia": 2,
+      "adrenalina": 3,
+      "logistica": 5
+    },
+    "global": 4.2,
+    "nivel": "imprescindible",
+    "mejor_epoca": [
+      4,
+      5,
+      6,
+      9,
+      10
+    ],
+    "dias_sugeridos": 1,
+    "costo": "$$",
+    "acceso": "Tren desde Ámsterdam (unos 27 min); el centro está a pie desde Utrecht Centraal.",
+    "alerta": null,
+    "platos": [
+      "Utrechtse sprits",
+      "Bitterballen"
+    ],
+    "por_que": "La casa Rietveld Schröder, Patrimonio Mundial, es el manifiesto construido de De Stijl. La Domtoren, de 112 m, domina un centro de canales con muelles a dos niveles en el Oudegracht, llenos de terrazas. Es una ciudad universitaria con menos turistas que Ámsterdam, a 27 minutos de tren.",
+    "fuentes": [
+      {
+        "guia": "Lonely Planet",
+        "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-the-netherlands"
+      },
+      {
+        "guia": "Rough Guides",
+        "url": "https://www.roughguides.com/articles/7-dutch-cities-to-explore-beyond-amsterdam/"
+      },
+      {
+        "guia": "Time Out",
+        "url": "https://www.timeout.com/netherlands/travel/best-netherlands-cities-to-visit"
+      },
+      {
+        "guia": "UNESCO",
+        "url": "https://whc.unesco.org/en/list/965/gallery/"
+      }
+    ],
+    "adrenalina_cerca": [
+      {
+        "nombre": "Efteling (Baron 1898)",
+        "tipo": "parque_diversiones",
+        "km": 49,
+        "lat": 51.65,
+        "lng": 5.0497,
+        "temporada": "todo el año",
+        "url": "https://www.efteling.com/nl/pers/nieuwe-efteling-achtbaan-baron-1898-nu-open-voor-publiek/"
+      },
+      {
+        "nombre": "Walibi Holland",
+        "tipo": "parque_diversiones",
+        "km": 58,
+        "lat": 52.44,
+        "lng": 5.764,
+        "temporada": "abr–nov",
+        "url": "https://www.walibi.nl/en/park/attractions/rollercoasters"
+      }
+    ],
+    "investigado_en": "2026-11-01"
+  },
+  {
+    "id": "nl-kinderdijk",
+    "nombre": "Kinderdijk",
+    "pais_iso": "NL",
+    "pais": "Países Bajos",
+    "region": "Holanda Meridional",
+    "lat": 51.884,
+    "lng": 4.639,
+    "categorias": [
+      "cultura"
+    ],
+    "puntajes": {
+      "guias": 4,
+      "cultura": 4,
+      "naturaleza": 2,
+      "gastronomia": 1,
+      "adrenalina": 2,
+      "logistica": 4
+    },
+    "global": 4,
+    "nivel": "imprescindible",
+    "mejor_epoca": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "dias_sugeridos": 1,
+    "costo": "$$",
+    "acceso": "Waterbus desde Róterdam (unos 30-45 min) o bus regional; los molinos visitables piden entrada, mejor comprada en línea.",
+    "alerta": null,
+    "platos": [],
+    "por_que": "Los 19 molinos del siglo XVIII, con diques, embalses y estaciones de bombeo, son Patrimonio Mundial y la mejor explicación de cómo los neerlandeses ganaron la tierra al agua. Se recorren a pie o en bici por los diques, y dos molinos se visitan por dentro con entrada comprada en línea. Se llega en waterbus desde Róterdam.",
+    "fuentes": [
+      {
+        "guia": "Lonely Planet",
+        "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-the-netherlands"
+      },
+      {
+        "guia": "Rough Guides",
+        "url": "https://www.roughguides.com/articles/best-things-to-do-in-the-netherlands/"
+      },
+      {
+        "guia": "Fodor's",
+        "url": "https://www.fodors.com/world/europe/netherlands/experiences/news/photos/10-places-to-go-in-the-netherlands-outside-of-amsterdam"
+      },
+      {
+        "guia": "UNESCO",
+        "url": "https://whc.unesco.org/en/list/818/"
+      }
+    ],
+    "adrenalina_cerca": [
+      {
+        "nombre": "Efteling (Baron 1898)",
+        "tipo": "parque_diversiones",
+        "km": 38,
+        "lat": 51.65,
+        "lng": 5.0497,
+        "temporada": "todo el año",
+        "url": "https://www.efteling.com/nl/pers/nieuwe-efteling-achtbaan-baron-1898-nu-open-voor-publiek/"
+      }
+    ],
+    "investigado_en": "2026-11-01"
+  },
+  {
     "id": "nl-efteling",
     "nombre": "Efteling",
     "pais_iso": "NL",
@@ -34571,59 +34609,6 @@
       {
         "guia": "Lonely Planet (Museum De Lakenhal)",
         "url": "https://www.lonelyplanet.com/the-netherlands/the-randstad/leiden/attractions/museum-de-lakenhal/a/poi-sig/462064/360851"
-      }
-    ],
-    "adrenalina_cerca": [],
-    "investigado_en": "2026-11-01"
-  },
-  {
-    "id": "nl-keukenhof-bollenstreek",
-    "nombre": "Keukenhof y la Bollenstreek (campos de tulipanes)",
-    "pais_iso": "NL",
-    "pais": "Países Bajos",
-    "region": "Holanda Meridional",
-    "lat": 52.2697,
-    "lng": 4.5469,
-    "categorias": [
-      "naturaleza"
-    ],
-    "puntajes": {
-      "guias": 5,
-      "cultura": 2,
-      "naturaleza": 3,
-      "gastronomia": 0,
-      "adrenalina": 1,
-      "logistica": 2
-    },
-    "global": 3.7,
-    "nivel": "muy_recomendado",
-    "mejor_epoca": [
-      3,
-      4,
-      5
-    ],
-    "dias_sugeridos": 1,
-    "costo": "$$$",
-    "acceso": "Bus exprés desde Schiphol o Leiden en temporada; abre solo unas 8 semanas en primavera (en 2027, del 18 de marzo al 9 de mayo) y conviene comprar la entrada en línea.",
-    "alerta": "Gran afluencia los fines de semana de abril: reservar entrada y transporte con antelación.",
-    "platos": [],
-    "por_que": "Durante unas ocho semanas de primavera (en 2027, del 18 de marzo al 9 de mayo) Keukenhof y los campos de bulbos entre Lisse y Noordwijk se cubren de tulipanes, jacintos y narcisos. Se recorren en bici por fuera del jardín. Los fines de semana de abril hay que reservar la entrada y el bus desde Schiphol o Leiden con antelación.",
-    "fuentes": [
-      {
-        "guia": "Lonely Planet",
-        "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-the-netherlands"
-      },
-      {
-        "guia": "Rough Guides",
-        "url": "https://www.roughguides.com/articles/best-things-to-do-in-the-netherlands/"
-      },
-      {
-        "guia": "Time Out",
-        "url": "https://www.timeout.com/amsterdam/things-to-do/best-day-trips-from-amsterdam"
-      },
-      {
-        "guia": "I amsterdam (Keukenhof)",
-        "url": "https://www.iamsterdam.com/en/see-and-do/things-to-do/attractions-and-sights/overview-of-attractions/keukenhof"
       }
     ],
     "adrenalina_cerca": [],
@@ -34839,6 +34824,59 @@
         "url": "https://www.efteling.com/nl/pers/nieuwe-efteling-achtbaan-baron-1898-nu-open-voor-publiek/"
       }
     ],
+    "investigado_en": "2026-11-01"
+  },
+  {
+    "id": "nl-keukenhof-bollenstreek",
+    "nombre": "Keukenhof y la Bollenstreek (campos de tulipanes)",
+    "pais_iso": "NL",
+    "pais": "Países Bajos",
+    "region": "Holanda Meridional",
+    "lat": 52.2697,
+    "lng": 4.5469,
+    "categorias": [
+      "naturaleza"
+    ],
+    "puntajes": {
+      "guias": 4,
+      "cultura": 2,
+      "naturaleza": 3,
+      "gastronomia": 0,
+      "adrenalina": 1,
+      "logistica": 2
+    },
+    "global": 3.3,
+    "nivel": "muy_recomendado",
+    "mejor_epoca": [
+      3,
+      4,
+      5
+    ],
+    "dias_sugeridos": 1,
+    "costo": "$$$",
+    "acceso": "Bus exprés desde Schiphol o Leiden en temporada; abre solo unas 8 semanas en primavera (en 2027, del 18 de marzo al 9 de mayo) y conviene comprar la entrada en línea.",
+    "alerta": "Gran afluencia los fines de semana de abril: reservar entrada y transporte con antelación.",
+    "platos": [],
+    "por_que": "Durante unas ocho semanas de primavera (en 2027, del 18 de marzo al 9 de mayo) Keukenhof y los campos de bulbos entre Lisse y Noordwijk se cubren de tulipanes, jacintos y narcisos. Se recorren en bici por fuera del jardín. Los fines de semana de abril hay que reservar la entrada y el bus desde Schiphol o Leiden con antelación.",
+    "fuentes": [
+      {
+        "guia": "Lonely Planet",
+        "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-the-netherlands"
+      },
+      {
+        "guia": "Rough Guides",
+        "url": "https://www.roughguides.com/articles/best-things-to-do-in-the-netherlands/"
+      },
+      {
+        "guia": "Time Out",
+        "url": "https://www.timeout.com/amsterdam/things-to-do/best-day-trips-from-amsterdam"
+      },
+      {
+        "guia": "I amsterdam (Keukenhof)",
+        "url": "https://www.iamsterdam.com/en/see-and-do/things-to-do/attractions-and-sights/overview-of-attractions/keukenhof"
+      }
+    ],
+    "adrenalina_cerca": [],
     "investigado_en": "2026-11-01"
   },
   {
