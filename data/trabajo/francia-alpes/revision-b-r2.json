@@ -1,0 +1,59 @@
+{
+  "subregion": "francia-alpes",
+  "grupo": "b",
+  "ronda": 2,
+  "fecha": "2026-11-01",
+  "estado": "PRELIMINAR (en curso)",
+  "alcance": "CH, AT, LI. Revisados *-fix1.json (ronda 4), curador-ajustes.json (notas.ronda4) y los 89 lugares CH/AT/LI de data/lugares/europa.json tras la fusión Davos+Klosters.",
+  "agentes": {
+    "guias-expertas": {
+      "nota": 9.0,
+      "aprobado": false,
+      "comentarios": [
+        "preliminar"
+      ]
+    },
+    "cultura-historia": {
+      "nota": 8.5,
+      "aprobado": false,
+      "comentarios": [
+        "preliminar"
+      ]
+    },
+    "naturaleza": {
+      "nota": 9.0,
+      "aprobado": false,
+      "comentarios": [
+        "preliminar"
+      ]
+    },
+    "gastronomia-vino": {
+      "nota": 9.5,
+      "aprobado": true,
+      "comentarios": [
+        "preliminar"
+      ]
+    },
+    "adrenalina": {
+      "nota": 8.5,
+      "aprobado": false,
+      "comentarios": [
+        "preliminar"
+      ]
+    },
+    "logistica-temporada": {
+      "nota": 8.0,
+      "aprobado": false,
+      "comentarios": [
+        "preliminar"
+      ]
+    },
+    "curador": {
+      "nota": 8.5,
+      "aprobado": false,
+      "comentarios": [
+        "preliminar"
+      ]
+    }
+  }
+}

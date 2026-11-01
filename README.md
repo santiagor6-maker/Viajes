@@ -26,6 +26,19 @@ Cada lugar recibe un puntaje de 0 a 5 en seis criterios. Los pesos, niveles y um
 - **Si hay tiempo:** ≥ 2.0
 - Por debajo de 2.0, el lugar se descarta.
 
+## Destacados
+El mapa muestra por defecto solo los destinos destacados de cada país, agrupados por región. Los demás aparecen con "Ver más" o con el botón "Solo destacados" del mapa. La selección la hace `scripts/construir-app.mjs` con la configuración `destacados` de `data/criterios.json`:
+- Se eligen los destinos de mayor puntaje global; en caso de empate, gana el de mejor puntaje de guías.
+- Cupo por país:
+
+  | Tamaño | Destacados | Máximo por región |
+  |---|---|---|
+  | Grande | 15 | 3 |
+  | Mediano | 10 | 2 |
+  | Pequeño | 7 | 2 |
+  | Microestado | 3 | 3 |
+- Un lugar que ya marcaste siempre se ve, aunque no sea destacado.
+
 ## Equipo de agentes
 Las definiciones están en `.claude/agents/`.
 

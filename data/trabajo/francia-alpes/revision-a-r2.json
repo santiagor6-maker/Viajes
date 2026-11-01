@@ -1,0 +1,64 @@
+{
+  "subregion": "francia-alpes",
+  "grupo": "a",
+  "ronda": 2,
+  "fecha": "2026-11-01",
+  "estado": "parcial: faltan gastronomia-vino, adrenalina, logistica-temporada, curador y notas por país",
+  "agentes": {
+    "guias-expertas": {
+      "nota": 8.5,
+      "desglose": {
+        "fuentes": 1.5,
+        "exactitud": 2.0,
+        "criterio": 1.5,
+        "coherencia": 1.5,
+        "descripcion": 2.0
+      },
+      "aprobado": false,
+      "comentarios": [
+        "Alcance revisado: guias-expertas-fix1.json (ronda 4, ids de FR/MC/BE/NL/LU) frente a los comentarios de revision-a-r1, y su propagación a data/lugares/europa.json (los 39 puntajes del fix1 coinciden con el archivo final).",
+        "Comentarios de r1 resueltos: fr-honfleur baja a 4; fr-bayeux-playas-desembarco ya no cuenta el ★★★ del Cementerio Americano; be-pairi-daiza baja a 4 y cita la nota de prensa del parque; fr-roquefort-millau baja a 3; fr-chantilly queda con 4 guías; fr-etretat y fr-nimes suben a 4; fr-pont-du-gard cita la ficha guide-vert-languedoc-ebook; se quitan las páginas genéricas de país; las coordenadas de fr-gorges-du-verdon (Point Sublime), fr-beaune-cote-dor, mc-monaco-ville y nl-giethoorn tienen 4 decimales; y se recupera nl-schokland. Las justificaciones ya no tienen notas internas.",
+        "Búsquedas: 9, sobre 6 URL nuevas. Confirmadas 3: nationalgeographic.com/travel/article/overnight-trips-near-paris ('These 3 cities near Paris deserve more than a day trip': Chantilly, Fontainebleau y Versalles), ricksteves.com/watch-read-listen/read/articles/nimes-france ('Roman Treasures in Nîmes') y timeout.com/paris/en/attractions/fun-things-to-do-near-paris-visit-the-domaine-de-chantilly. No confirmadas 3, con dos búsquedas cada una: roughguides.com/articles/smallest-countries-in-the-world/ (no aparece ninguna página de Rough Guides con ese título; es la tercera guía de lu-vianden (4) y la segunda de lu-bourscheid (3), así que si no existe Vianden baja a 3 y Bourscheid a 2); fodors.com/.../pont-du-gard-146139 (no sale la reseña ni el sello Fodor's Choice; fr-pont-du-gard se queda en 5 con el ★★★ Michelin y Rick Steves, pero la justificación no debe afirmar el Fodor's Choice sin prueba); y frommers.com/destinations/flevoland/regions-in-brief/schokland/ (salió en r1, no ahora; se acepta).",
+        "Escala distinta de criterios.json. La regla de notas del fix1 ('5 = top pick en al menos 3 guías; 4 = 3 guías, o 2 si una da ★★★') no es la de criterios.criterios.guias.guia_puntaje ('5 = top pick en 4+ guías o ★★★ Michelin + top pick en otra; 4 = destacado en 3 guías'). En r1 se pidió buscar la cuarta guía de Mont-Saint-Michel, Versalles y Carcasona, y en su lugar se bajó el umbral del 5. Así, con la escala oficial: fr-mont-saint-michel, fr-versalles, fr-carcasona, fr-valle-del-loira, fr-burdeos, fr-arles, fr-corcega, fr-bayeux-playas-desembarco, nl-utrecht, nl-kinderdijk y nl-keukenhof-bollenstreek (3 guías, sin ★★★ citado) serían 4, y fr-etretat y fr-nimes (★★★ + otra guía) serían 5. El orden relativo queda invertido respecto a la escala. Si el proyecto adopta la regla del fix1, hay que escribirla en criterios.json; si no, hay que aplicar la oficial.",
+        "Coherencia: fr-chartres baja a 2 (solo Lonely Planet), por debajo de fr-chantilly (4) y fr-bahia-somme (2), cuando su catedral es un ★★★ del Guide Vert Île-de-France y Rick Steves le dedica capítulo de excursión desde París. Busca esas dos pruebas. No se revisaron nl-delft, nl-haarlem y nl-la-haya (5), que en r1 quedaban por encima de Versalles: con la escala oficial también necesitan 4 top picks.",
+        "Esta es la última ronda: no se reenvía. Los países afectados se marcan con revision_pendiente."
+      ]
+    },
+    "cultura-historia": {
+      "nota": 9.5,
+      "desglose": {
+        "fuentes": 1.5,
+        "exactitud": 2.0,
+        "criterio": 2.0,
+        "coherencia": 2.0,
+        "descripcion": 2.0
+      },
+      "aprobado": true,
+      "comentarios": [
+        "Alcance revisado: cultura-historia-fix1.json (ronda 4, ids de FR/MC/BE/NL/LU) frente a revision-a-r1 y su propagación a europa.json (coincide).",
+        "Resueltos: fr-bayeux-playas-desembarco pasa a unesco:true y a 5, con la decisión 48 COM 8B.26; be-ypres-flanders-fields añade la ficha whc 1567; nl-maastricht (4), lu-vianden (4), lu-echternach (3, con la ficha de Patrimonio Inmaterial) y be-abadia-villers (3) ya tienen fuente y puntaje; fr-marsella-calanques sube a 4 y fr-annecy a 3; be-waterloo cita waterloo1815.be; fr-eze-saint-paul sustituye la URL rota por cotedazurfrance.com; ya no aparece la frase del presupuesto de búsquedas y las justificaciones tienen 2 frases.",
+        "Búsquedas: 5 URL, todas confirmadas: whc.unesco.org/en/decisions/9180 (Beaches of the D-Day Landings, Normandy, 1944, decisión 48 COM 8B.26, criterio vi), ich.unesco.org/en/RL/echternach-hopping-procession-00392 (inscrita en 2010, martes de Pentecostés, registros desde 1100), guide.michelin.com/nl/nl/article/travel/meesterlijk-maastricht (artículo del 9 de diciembre de 2025 con arquitectura y patrimonio religioso), villers.be/en/visiting y la ficha de destinationbw.be de Villers.",
+        "Pendiente menor, sin reenvío: nl-den-bosch (4) sigue apoyándose en una ruta a pie de la ANWB y en un listado de dagjeweg.nl. En r1 se pidió citar la catedral de San Juan o bezoekdenbosch.nl, y el agente reconoce que no lo buscó. fr-annecy cita para el patrimonio una página de agenda ('dimanches gratuits aux musées'): mejor la ficha del Palais de l'Isle en annecy.fr o lac-annecy.com. lu-echternach dice 'unos 8.000 danzantes', mientras que la ficha UNESCO habla de unos 13.000 participantes en total: aclara que son danzantes, no participantes."
+      ]
+    },
+    "naturaleza": {
+      "nota": 9.0,
+      "desglose": {
+        "fuentes": 1.5,
+        "exactitud": 2.0,
+        "criterio": 2.0,
+        "coherencia": 2.0,
+        "descripcion": 1.5
+      },
+      "aprobado": false,
+      "comentarios": [
+        "Alcance revisado: naturaleza-fix1.json (ronda 4, ids de FR/MC/BE/NL/LU) frente a revision-a-r1 y su propagación a europa.json (coincide).",
+        "Resueltos: se quita PDOK de los 7 lugares neerlandeses y se citan hogeveluwe.nl, natuurmonumenten.nl, np-oosterschelde.nl, texel.net y wisenten.nl; la lista PDF de Grands Sites se sustituye en fr-duna-pilat-arcachon, fr-pointe-du-raz y fr-etretat; los cuatro 4 que solo tenían Lonely Planet añaden fuente oficial (botrange.be, grotte-de-han.be, Oficina de Medio Ambiente de Córcega y ot-montsaintmichel.com); be-pairi-daiza baja a 2 y nl-keukenhof-bollenstreek a 3; fr-duna-pilat-arcachon baja a 4; se explica la diferencia entre nl-texel y nl-islas-wadden; la playa pasa a un campo propio; y fr-cascadas-herisson tiene 4 decimales.",
+        "Búsquedas: 3 URL nuevas. Confirmada 1: natuurmonumenten.nl, ruta Veluwezoom–Posbank (nl-arnhem); pero la ficha de Natuurmonumenten da unos 10,4 km, no 5 km y 1 h 40 como dice la actividad: comprueba qué ruta es. Parcial 1: np-oosterschelde.nl, dunas de Neeltje Jans (nl-deltawerken); sale el panel informativo del parque con un sendero de 4,4 km, no la página de actividad citada. No confirmada 1: ladunedupilat.com/en/preparation/on-the-spot (fr-duna-pilat-arcachon); el dominio del Grand Site es real, pero la ruta no aparece.",
+        "Fuentes que siguen siendo genéricas o de segunda mano: nl-parque-nacional-biesbosch (3) cita solo una página de la provincia de Holanda Meridional sobre parques nacionales en general (zuid-holland.nl/.../nationale-parken), el mismo problema que tenía PDOK: cita np-biesbosch.nl. fr-bahia-somme (4) cita dos informes del CGEDD y un artículo de Routard en lugar de baiedesomme.fr, y fr-cote-opale (4) sigue con el informe IGEDD, la FFRandonnée y un PDF de un club alpino en lugar de lesdeuxcaps.fr. fr-cote-granit-rose (4) se apoya en Routard, randozone y Cicerone, sin el Conservatorio del Litoral ni la oficina de turismo de Perros-Guirec.",
+        "Texto: se quitaron las notas de playa, pero en su lugar las justificaciones explican el puntaje con el vocabulario interno: 'Queda por debajo de nl-islas-wadden porque...' (nl-texel, que además cita un id), 'Las coordenadas son las de Drimmelen' (nl-parque-nacional-biesbosch), 'Un geoparque no es Patrimonio Mundial, por eso unesco = false' (nl-hunebedden-drenthe), 'No es parque nacional ni UNESCO, así que no llega a 5' (fr-camarga), 'así que no llega a 4' (nl-giethoorn), 'así que no se marca como natural' (fr-mont-saint-michel) y 'así que queda por debajo de los grandes parques de montaña' (fr-duna-pilat-arcachon). Ese razonamiento va en notas, no en el texto para el viajero.",
+        "Esta es la última ronda: no se reenvía."
+      ]
+    }
+  }
+}

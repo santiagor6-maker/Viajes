@@ -193,6 +193,8 @@ a { color: var(--accent); }
 .chip { display: inline-flex; align-items: center; gap: 5px; border-radius: 999px; padding: 3px 10px; font-size: 12px; font-weight: 600; background: var(--surface-2); color: var(--ink); white-space: nowrap; }
 .chip.n-imprescindible { background: var(--accent); color: var(--surface); }
 .chip.n-muy_recomendado { background: var(--accent-soft); color: var(--accent); }
+.chip-n { font-size: 11px; font-weight: 600; color: var(--muted); }
+.chip-n.n-imprescindible { color: var(--accent); }
 .chips { display: flex; gap: 6px; flex-wrap: wrap; }
 
 .cabecera-lugar { display: grid; grid-template-columns: 1fr auto; gap: 12px; align-items: start; }
@@ -315,6 +317,7 @@ details.como ul { padding-left: 18px; margin: 6px 0; }
         <select class="sel" id="f-mes" aria-label="Mes ideal para viajar">
           <option value="">Cualquier mes</option>
         </select>
+        <button class="btn-adr" id="f-todos" aria-pressed="false" title="Mostrar también los destinos no destacados"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 3 2.6 5.6 6.1.7-4.5 4.2 1.2 6L12 16.6 6.6 19.5l1.2-6-4.5-4.2 6.1-.7z"/></svg>Solo destacados</button>
         <button class="btn-adr" id="f-adr" aria-pressed="false"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M13 2 4.5 13.5H11L10 22l8.5-11.5H12z"/></svg>Adrenalina</button>
       </div>
       <div class="aviso-mapa" id="aviso-agregar" hidden>Toca el mapa donde está tu lugar <button id="cancelar-agregar">Cancelar</button></div>
@@ -367,7 +370,7 @@ const S = {
   lugares: [], porId: new Map(), paises: new Map(), subregiones: [], muestra: false,
   marcas: new Map(), propios: new Map(),
   filtros: { estado: 'todos', cat: '', nivel: '', mes: '' },
-  adrenalina: false, vista: 'continente', pais: null, lugar: null, propio: null, borrador: null,
+  adrenalina: false, verTodos: false, vista: 'continente', pais: null, lugar: null, propio: null, borrador: null,
   tab: 'lista', agrupar: 'region', colapsados: new Set(),
   db: null, dbListo: false, soloLectura: false, agregando: false,
 };
@@ -395,8 +398,13 @@ function catPrincipal(l) {
   if (l.categorias?.includes(mejor)) return mejor;
   return l.categorias?.[0] || mejor;
 }
+// región principal: sin el detalle entre paréntesis ni las regiones secundarias ("Lombardía / Véneto")
+const regionBase = (r) => (r || 'Otras').replace(/\s*\([^)]*\)/g, '').split(/\s*\/\s*/)[0].trim();
+// por defecto solo los destacados de cada país (más los que ya marcaste); "Ver todos" muestra el resto
+const nDestinos = (p) => (S.verTodos ? p.total_lugares : p.destacados ?? p.total_lugares);
 function pasaFiltro(l) {
   const f = S.filtros, e = estadoDe(l.id) || 'sin_marcar';
+  if (!S.verTodos && !l.destacado && e === 'sin_marcar') return false;
   if (f.estado !== 'todos' && e !== f.estado) return false;
   if (f.cat && !l.categorias.includes(f.cat)) return false;
   if (f.nivel && l.nivel !== f.nivel) return false;
@@ -476,7 +484,7 @@ function alPais(f, capa) {
   if (!S.paises.has(iso)) return;
   capa.bindTooltip(() => {
     const p = S.paises.get(iso), c = conteoEstados(lugaresPais(iso).map((l) => l.id), propiosPais(iso));
-    const det = p.total_lugares ? `${p.total_lugares} destinos · ${c.visitado} visitados${c.quiero_ir ? ` · ${c.quiero_ir} quiero ir` : ''}` : 'Por investigar';
+    const det = p.total_lugares ? `${nDestinos(p)} destinos · ${c.visitado} visitados${c.quiero_ir ? ` · ${c.quiero_ir} quiero ir` : ''}` : 'Por investigar';
     return `<b>${esc(p.nombre)}</b><small>${det}</small>`;
   }, { sticky: true, className: 'tt', direction: 'top', offset: [0, -8] });
   capa.on('mouseover', () => { if (S.pais !== iso) capa.setStyle({ weight: 1.8, color: C.accent }); });
@@ -498,7 +506,7 @@ function crearBurbujas() {
 }
 function iconoBurbuja(p) {
   const e = estadoPais(p.iso);
-  return L.divIcon({ className: 'burbuja-wrap', iconSize: [0, 0], html: `<div class="burbuja ${p.total_lugares ? '' : 'vacia'} ${e ? 'e-' + e : ''}"><b>${p.total_lugares || ''}</b><span>${esc(p.nombre)}</span></div>` });
+  return L.divIcon({ className: 'burbuja-wrap', iconSize: [0, 0], html: `<div class="burbuja ${p.total_lugares ? '' : 'vacia'} ${e ? 'e-' + e : ''}"><b>${p.total_lugares ? nDestinos(p) : ''}</b><span>${esc(p.nombre)}</span></div>` });
 }
 function actualizarBurbujas() { for (const [iso, m] of burbujas) m.setIcon(iconoBurbuja(S.paises.get(iso))); }
 
@@ -669,7 +677,7 @@ function vistaContinente() {
   const inv = [...S.paises.values()].filter((p) => p.total_lugares).length;
   const visitados = [...S.paises.keys()].filter((iso) => estadoPais(iso) === 'visitado').length;
   let h = `<div class="grupo"><span class="ceja">Continente</span><h2>${CONTINENTES.map((k) => NOMBRE_CONT[k]).join(' · ')}</h2>
-    <span class="sub">${S.paises.size} países · ${inv} investigados · ${S.lugares.length} destinos</span></div>${avisoDatos()}
+    <span class="sub">${S.paises.size} países · ${inv} investigados · ${S.verTodos ? S.lugares.length : S.lugares.filter((l) => l.destacado).length} destinos${S.verTodos ? '' : ' destacados'}</span></div>${avisoDatos()}
     <div class="cifras"><div class="cifra"><b>${visitados}</b><span><i class="dot e-visitado"></i>países visitados</span></div>
     <div class="cifra"><b>${c.visitado}</b><span><i class="dot e-visitado"></i>lugares visitados</span></div>
     <div class="cifra"><b>${c.quiero_ir}</b><span><i class="dot e-quiero_ir"></i>quiero ir</span></div></div>`;
@@ -677,7 +685,7 @@ function vistaContinente() {
     const filas = sr.paises.map((iso) => S.paises.get(iso)).filter(Boolean).sort((a, b) => a.nombre.localeCompare(b.nombre, 'es'));
     h += `<div class="grupo"><h3>${esc(sr.nombre)}</h3><ul class="lista-paises">${filas.map((p) => {
       const cc = conteoEstados(lugaresPais(p.iso).map((l) => l.id), propiosPais(p.iso));
-      const der = p.total_lugares ? `<span class="n">${p.total_lugares}</span>${barraEstado(cc, 'mini')}` : '<span class="pend">por investigar</span><span></span>';
+      const der = p.total_lugares ? `<span class="n">${nDestinos(p)}</span>${barraEstado(cc, 'mini')}` : '<span class="pend">por investigar</span><span></span>';
       return `<li><button data-pais="${p.iso}"><span>${esc(p.nombre)}</span>${der}</button></li>`;
     }).join('')}</ul></div>`;
   }
@@ -693,7 +701,7 @@ function vistaPais() {
   const sr = S.subregiones.find((s) => s.id === p.subregion);
   let h = `<button class="volver" data-act="continente">← ${esc(sr?.nombre || 'Continente')}</button>
     <div class="grupo"><span class="ceja">${esc(NOMBRE_CONT[p.continente] || '')}</span><h2>${esc(p.nombre)}</h2>
-    <span class="sub">${p.total_lugares ? `${p.total_lugares} destinos` : 'Todavía no investigado'}${typeof p.nota_revisor === 'number' ? ` · revisión ${fmt1(p.nota_revisor)} / 10` : p.total_lugares ? ' · en revisión de calidad' : ''}${p.revision_pendiente ? ' · revisión pendiente' : ''}</span>
+    <span class="sub">${p.total_lugares ? (S.verTodos ? `${p.total_lugares} destinos` : `${p.destacados} destacados de ${p.total_lugares}`) : 'Todavía no investigado'}${typeof p.nota_revisor === 'number' ? ` · revisión ${fmt1(p.nota_revisor)} / 10` : p.total_lugares ? ' · en revisión de calidad' : ''}${p.revision_pendiente ? ' · revisión pendiente' : ''}</span>
     ${p.total_lugares ? barraEstado(c) : ''}</div>${avisoDatos()}`;
   if (p.justificacion) h += `<p class="sub" style="margin:0">${esc(p.justificacion)}</p>`;
   if (!p.total_lugares && !props.length) {
@@ -704,11 +712,13 @@ function vistaPais() {
     return h + `<div class="mente-ctl">Agrupar por <div class="seg" id="agrupar">${[['region', 'Región'], ['categoria', 'Categoría'], ['nivel', 'Nivel']].map(([v, t]) => `<button data-agrupar="${v}" aria-pressed="${S.agrupar === v}">${t}</button>`).join('')}</div></div><div class="mente" id="mente"></div>`;
   }
   if (!ls.length && !props.length) h += '<p class="vacio">Ningún destino coincide con los filtros.</p>';
-  for (const n of ORDEN_NIVEL) {
-    const grupo = ls.filter((l) => l.nivel === n).sort((a, b) => b.global - a.global);
-    if (!grupo.length) continue;
-    h += `<div class="grupo"><div class="nivel-tit"><h3>${NIVELES[n]}</h3><span class="sub">${grupo.length}</span></div><ul class="lugares">${grupo.map(filaLugar).join('')}</ul></div>`;
+  // agrupados por región; las regiones se ordenan por su mejor destino
+  const regiones = [...d3.group(ls, (l) => regionBase(l.region))].map(([r, g]) => [r, g.sort((a, b) => b.global - a.global)]).sort((a, b) => b[1][0].global - a[1][0].global);
+  for (const [r, grupo] of regiones) {
+    h += `<div class="grupo"><div class="nivel-tit"><h3>${esc(r)}</h3><span class="sub">${grupo.length}</span></div><ul class="lugares">${grupo.map(filaLugar).join('')}</ul></div>`;
   }
+  const resto = todos.length - p.destacados;
+  if (resto > 0) h += `<div class="acciones"><button class="btn" data-act="ver-todos">${S.verTodos ? 'Ver solo los destacados' : `Ver más: ${resto} destinos más`}</button></div>`;
   if (props.length) h += `<div class="grupo"><h3>Tus lugares</h3><ul class="lugares">${props.map((q) => `<li><button data-propio="${q._id}"><i class="dot e-${q.estado || 'none'}"></i><span><span class="nom">${esc(q.nombre)}</span><span class="reg">Agregado por ti</span></span><span></span></button></li>`).join('')}</ul></div>`;
   h += `<div class="acciones"><button class="btn" data-act="agregar">+ Agregar un lugar propio</button></div>`;
   return h;
@@ -716,7 +726,7 @@ function vistaPais() {
 function filaLugar(l) {
   const e = estadoDe(l.id);
   const cats = l.categorias.map((k) => `<span title="${CATS[k]}" style="display:inline-flex">${G[k]}</span>`).join('');
-  return `<li><button data-lugar="${l.id}"><i class="dot ${e ? 'e-' + e : ''}" title="${e ? ESTADOS[e] : 'Sin marcar'}"></i><span><span class="nom">${esc(l.nombre)}</span><span class="reg">${esc(l.region)} ${cats}</span></span><span class="pt">${fmt1(l.global)}</span></button></li>`;
+  return `<li><button data-lugar="${l.id}"><i class="dot ${e ? 'e-' + e : ''}" title="${e ? ESTADOS[e] : 'Sin marcar'}"></i><span><span class="nom">${esc(l.nombre)}</span><span class="reg"><span class="chip-n n-${l.nivel}">${NIVELES[l.nivel]}</span> ${cats}</span></span><span class="pt">${fmt1(l.global)}</span></button></li>`;
 }
 
 function controlesEstado(m) {
@@ -795,8 +805,6 @@ function dibujarMente() {
   const cont = $('#mente'); if (!cont || !window.d3) return;
   const p = S.paises.get(S.pais);
   const ls = lugaresPais(p.iso).filter(pasaFiltro), props = propiosPais(p.iso).filter(pasaFiltroPropio);
-  // región principal: sin el detalle entre paréntesis ni las regiones secundarias ("Lombardía / Véneto")
-  const regionBase = (r) => (r || 'Otras').replace(/\s*\([^)]*\)/g, '').split(/\s*\/\s*/)[0].trim();
   const clave = S.agrupar === 'region' ? (l) => regionBase(l.region) : S.agrupar === 'categoria' ? (l) => CATS[catPrincipal(l)] : (l) => NIVELES[l.nivel];
   const mapaG = d3.group(ls, clave);
   let grupos = [...mapaG].map(([k, v]) => ({ k, hijos: v.sort((a, b) => b.global - a.global).map((l) => ({ id: l.id, nombre: l.nombre, estado: estadoDe(l.id), lugar: true })) }));
@@ -1019,6 +1027,7 @@ function eventos() {
     if (act === 'continente') return volverContinente();
     if (act === 'pais') return seleccionarPais(S.pais, { volar: true });
     if (act === 'agregar') return modoAgregar(true);
+    if (act === 'ver-todos') return alternarTodos();
     if (act === 'cancelar-nuevo') { S.borrador = null; capaFoco.clearLayers(); S.vista = S.pais ? 'pais' : 'continente'; return renderPanel(); }
     if (act === 'ver') { const x = S.vista === 'lugar' ? S.porId.get(S.lugar) : S.propios.get(S.propio); if (x) volarALugar(x.lat, x.lng); return; }
     if (act === 'borrar') { $('#confirmar').hidden = false; return; }
@@ -1058,6 +1067,7 @@ function eventos() {
   });
   const sm = $('#f-mes'); MESES_L.forEach((m, i) => sm.insertAdjacentHTML('beforeend', `<option value="${i + 1}">Ideal en ${m}</option>`));
   for (const [id, k] of [['#f-cat', 'cat'], ['#f-nivel', 'nivel'], ['#f-mes', 'mes']]) $(id).addEventListener('change', (e) => { S.filtros[k] = e.target.value; alFiltrar(); });
+  $('#f-todos').addEventListener('click', alternarTodos);
   $('#f-adr').addEventListener('click', (e) => {
     S.adrenalina = !S.adrenalina; e.currentTarget.setAttribute('aria-pressed', String(S.adrenalina));
     S.adrenalina ? mapa.addLayer(capaAdr) : mapa.removeLayer(capaAdr);
@@ -1087,6 +1097,11 @@ function eventos() {
 function guardarTexto(el) {
   if (el.id === 'notas') S.vista === 'lugar' ? guardarMarca(S.lugar, { notas: el.value.trim() }) : guardarPropio(S.propio, { notas: el.value.trim() });
   if (el.id === 'propio-nombre' && el.value.trim()) guardarPropio(S.propio, { nombre: el.value.trim() });
+}
+function alternarTodos() {
+  S.verTodos = !S.verTodos;
+  const b = $('#f-todos'); b.setAttribute('aria-pressed', String(S.verTodos)); b.lastChild.textContent = S.verTodos ? 'Todos los destinos' : 'Solo destacados';
+  actualizarBurbujas(); alFiltrar();
 }
 function alFiltrar() { construirMarcadores(); refrescarPanel(); if (S.vista === 'pais' && S.tab === 'mente') dibujarMente(); }
 
