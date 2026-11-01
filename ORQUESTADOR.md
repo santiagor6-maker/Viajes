@@ -41,6 +41,13 @@ Para evitar duplicados y lugares sin puntuar, el prompt de cada especialista lis
 - Regla de adrenalina: cuenta todo lo que esté a 60 km o menos. Monumentos, museos y sitios religiosos tienen máximo 2 salvo que la actividad esté en el lugar. Espacios naturales que solo se recorren a pie, máximo 3.
 - El curador busca el puntaje de guías de **todos** los lugares nuevos; ninguno queda en 0 sin buscar.
 
+Lecciones de `francia-alpes`:
+- Guías: se usa la escala de `criterios.json` tal cual (5 = top pick en 4+ guías, o ★★★ Michelin + top pick en otra; 4 = destacado en 3). Si falta una guía, se busca; no se baja el umbral. ViaMichelin («Worth the trip») vale como prueba del ★★★.
+- Un puntaje no se baja por no encontrar la fuente: primero se busca (web oficial del parque, de la estación, del turismo regional).
+- Logística: el acceso y la temporada se citan con la web del operador o del turismo oficial, no solo con guías. Nada de blogs, revendedores (Omio, Belambra) ni servidores de desarrollo.
+- Categorías: si un lugar solo queda como "adrenalina", el curador le agrega "ciudad" como respaldo.
+- El mapa muestra solo los destacados de cada país (`criterios.destacados`). Importa la calidad y el reparto regional de los mejores, no inflar la cantidad.
+
 ## Grupos de países por subregión
 Los grupos dividen el trabajo para que cada agente tenga un tamaño razonable.
 
