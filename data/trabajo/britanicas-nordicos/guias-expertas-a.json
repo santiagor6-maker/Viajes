@@ -1,0 +1,1079 @@
+{
+  "agente": "guias-expertas",
+  "subregion": "britanicas-nordicos",
+  "grupo": "a",
+  "ronda": 1,
+  "estado": "completo",
+  "notas": "Grupo a: GB, IE, IS. Guías consultadas: Lonely Planet, Rick Steves, Fodor's, Frommer's, Rough Guides, Time Out, National Geographic y Michelin Guide Vert (travelguide.michelin.com). WebFetch no tiene acceso a lonelyplanet.com, así que todo lo citado sale de los resultados de WebSearch. Condé Nast Traveler bloquea la búsqueda. DK Eyewitness solo aparece en librerías, que no cuentan. Las fichas públicas del Guide Vert no muestran las estrellas de los sitios británicos, irlandeses ni islandeses, así que no se asigna ningún ★★★. Tampoco se cuentan los foros (community.ricksteves.com, fodors.com/community), las librerías, las excursiones revendidas ni el contenido patrocinado de NatGeo.",
+  "candidatos": [
+    {
+      "id": "gb-londres",
+      "nombre": "Londres",
+      "pais_iso": "GB",
+      "region": "Londres (Inglaterra)",
+      "lat": 51.5074,
+      "lng": -0.1278,
+      "tipo": "ciudad",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rick Steves", "Fodor's", "Frommer's", "Time Out"],
+      "justificacion": "Lonely Planet la pone en su lista de los mejores lugares de Inglaterra y destaca sus museos y galerías gratuitos. Rick Steves abre con ella todas las versiones de su itinerario por Gran Bretaña. Fodor's le dedica su lista de las 15 mejores cosas que hacer. Frommer's le da los tres primeros días de su ruta de dos semanas (Westminster, la Torre, el British Museum, la Tate Modern). Time Out la incluye entre los mejores lugares del Reino Unido en 2024 y en 2026 suma el Strand.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-england" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/britain-itinerary" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/england/london/experiences/news/photos/20-ultimate-things-to-do-in-london" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/england/suggested-itineraries/in-two-weeks/" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/london/news/its-official-london-is-one-of-the-best-places-to-visit-in-the-uk-in-2024-120723" }
+      ]
+    },
+    {
+      "id": "gb-windsor",
+      "nombre": "Windsor y su castillo",
+      "pais_iso": "GB",
+      "region": "Sureste de Inglaterra",
+      "lat": 51.4839,
+      "lng": -0.6044,
+      "tipo": "monumento",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Frommer's"],
+      "justificacion": "Lonely Planet nombra el castillo de Windsor en su lista de los mejores lugares de Inglaterra. Frommer's le dedica el tercer día de su ruta de dos semanas, como excursión desde Londres.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-england" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/england/suggested-itineraries/in-two-weeks/" }
+      ]
+    },
+    {
+      "id": "gb-canterbury",
+      "nombre": "Canterbury",
+      "pais_iso": "GB",
+      "region": "Sureste de Inglaterra",
+      "lat": 51.2802,
+      "lng": 1.0789,
+      "tipo": "ciudad",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Fodor's"],
+      "justificacion": "Fodor's le dedica una guía de destino propia dentro del sureste de Inglaterra.",
+      "fuentes": [
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/england/the-southeast/places/canterbury" }
+      ]
+    },
+    {
+      "id": "gb-oxford",
+      "nombre": "Oxford y el palacio de Blenheim",
+      "pais_iso": "GB",
+      "region": "Sureste de Inglaterra",
+      "lat": 51.7520,
+      "lng": -1.2577,
+      "tipo": "ciudad",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Fodor's", "Frommer's"],
+      "justificacion": "Lonely Planet destaca la Bodleian Library de Oxford en su lista de los mejores lugares de Inglaterra. Fodor's le dedica una guía de destino e incluye pasear en batea por el Cherwell entre sus 26 experiencias imprescindibles del país. Frommer's le da el sexto día de su ruta de dos semanas (Carfax Tower, paseo en batea) y el séptimo al palacio de Blenheim, en Woodstock, a 13 km.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-england" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/england/the-thames-valley/places/oxford" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/england/suggested-itineraries/in-two-weeks/" }
+      ]
+    },
+    {
+      "id": "gb-cambridge",
+      "nombre": "Cambridge",
+      "pais_iso": "GB",
+      "region": "Este de Inglaterra",
+      "lat": 52.2053,
+      "lng": 0.1218,
+      "tipo": "ciudad",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Fodor's", "Lonely Planet"],
+      "justificacion": "Fodor's incluye pasear en batea por el Cam entre sus 26 experiencias imprescindibles de Inglaterra. Lonely Planet eligió East Anglia para su Best in Travel 2025 y cita Cambridge entre sus atractivos, según la reseña de Time Out.",
+      "fuentes": [
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/england/experiences/news/photos/ultimate-things-to-do-in-england" },
+        { "guia": "Lonely Planet (Best in Travel 2025, reseñado por Time Out)", "url": "https://www.timeout.com/uk/news/this-region-of-england-has-been-named-one-of-the-best-places-to-visit-in-the-world-by-lonely-planet-102624" }
+      ]
+    },
+    {
+      "id": "gb-bath",
+      "nombre": "Bath",
+      "pais_iso": "GB",
+      "region": "Suroeste de Inglaterra",
+      "lat": 51.3811,
+      "lng": -2.3590,
+      "tipo": "ciudad",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Rick Steves", "Fodor's", "Frommer's", "Michelin Guide Vert"],
+      "justificacion": "Rick Steves la pone entre las primeras paradas de su itinerario por Gran Bretaña, junto a York y Edimburgo. Fodor's la llama una de las ciudades más bellas de Europa en sus 26 experiencias imprescindibles de Inglaterra. Frommer's la define como la ciudad más armoniosa de Inglaterra y dice que sus termas están entre los mejores restos romanos del país. El Guide Vert de Michelin pone las termas romanas entre sus sitios principales y marca el Royal Crescent como «muy recomendable».",
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/britain-itinerary" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/england/experiences/news/photos/ultimate-things-to-do-in-england" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/bath/" },
+        { "guia": "Michelin Guide Vert", "url": "https://travelguide.michelin.com/europe/united-kingdom/great-britain/england/bath-and-north-east-somerset/bath" },
+        { "guia": "Michelin Guide Vert", "url": "https://travelguide.michelin.com/europe/united-kingdom/great-britain/england/bath-and-north-east-somerset/bath/royal-crescent" }
+      ]
+    },
+    {
+      "id": "gb-stonehenge",
+      "nombre": "Stonehenge, Avebury y Salisbury",
+      "pais_iso": "GB",
+      "region": "Suroeste de Inglaterra",
+      "lat": 51.1789,
+      "lng": -1.8262,
+      "tipo": "monumento",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Rough Guides", "Fodor's", "Frommer's", "Michelin Guide Vert"],
+      "justificacion": "Rough Guides lo llama el círculo de piedras más importante de Inglaterra y propone Avebury como alternativa sin cuerdas ni vallas. Fodor's recomienda verlo al amanecer o al atardecer en sus 26 experiencias imprescindibles de Inglaterra. Frommer's le dedica el octavo día de su ruta de dos semanas, junto a la catedral de Salisbury. El Guide Vert de Michelin lo incluye en su lista de visitas de Gran Bretaña, pero sin reseña destacada.",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-england/?redirect_n" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/england/experiences/news/photos/ultimate-things-to-do-in-england" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/england/suggested-itineraries/in-two-weeks/" },
+        { "guia": "Michelin Guide Vert", "url": "https://travelguide.michelin.com/europe/united-kingdom/grande-bretagne/to-visit" }
+      ]
+    },
+    {
+      "id": "gb-wells-glastonbury",
+      "nombre": "Wells y Glastonbury",
+      "pais_iso": "GB",
+      "region": "Suroeste de Inglaterra",
+      "lat": 51.2094,
+      "lng": -2.6467,
+      "tipo": "pueblo",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Frommer's", "Rick Steves"],
+      "justificacion": "Frommer's les da el décimo día de su ruta de dos semanas, con la catedral de Wells y la abadía de Glastonbury. Rick Steves los incluye como parada en su viaje de 14 días por lo mejor de Inglaterra.",
+      "fuentes": [
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/england/suggested-itineraries/in-two-weeks/" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/tours/england/best-england-tour" }
+      ]
+    },
+    {
+      "id": "gb-cornualles",
+      "nombre": "Cornualles (St Ives, St Michael's Mount, The Lizard)",
+      "pais_iso": "GB",
+      "region": "Suroeste de Inglaterra",
+      "lat": 50.1700,
+      "lng": -5.4300,
+      "tipo": "costa",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Rough Guides", "Fodor's", "Lonely Planet"],
+      "justificacion": "Rough Guides le dedica una lista de 16 imprescindibles: St Michael's Mount, Tintagel, el sendero costero de The Lizard, el surf en Newquay y el Eden Project. Fodor's incluye Cornualles entre sus 26 experiencias imprescindibles de Inglaterra. Lonely Planet recomienda la playa de Fistral para hacer surf y elige el South West Coast Path como su mejor caminata para escapar de las multitudes.",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/england/things-to-do-cornwall/" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/england/experiences/news/photos/ultimate-things-to-do-in-england" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-hikes-in-england" }
+      ]
+    },
+    {
+      "id": "gb-cotswolds",
+      "nombre": "Cotswolds",
+      "pais_iso": "GB",
+      "region": "Cotswolds (Inglaterra)",
+      "lat": 51.8800,
+      "lng": -1.7800,
+      "tipo": "región",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Rick Steves", "Fodor's", "Frommer's", "Time Out"],
+      "justificacion": "Rick Steves suma los Cotswolds a su itinerario por Gran Bretaña desde los 11 días, y forman parte de su viaje de 14 días por Inglaterra. Fodor's los incluye entre sus 26 experiencias imprescindibles del país. Frommer's elige el paseo entre Upper y Lower Slaughter como una de las caminatas más memorables de Inglaterra y recomienda el Cotswold Way hasta Bath. Time Out pone Cirencester entre sus mejores lugares del mundo para 2026.",
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/britain-itinerary" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/england/experiences/news/photos/ultimate-things-to-do-in-england" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/england/introduction/the-best-walks" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/uk/news/the-beautiful-british-town-that-is-one-of-time-outs-best-places-to-visit-in-the-world-in-2026-011426" }
+      ]
+    },
+    {
+      "id": "gb-stratford-upon-avon",
+      "nombre": "Stratford-upon-Avon y Warwick",
+      "pais_iso": "GB",
+      "region": "Midlands del Oeste (Inglaterra)",
+      "lat": 52.1917,
+      "lng": -1.7083,
+      "tipo": "pueblo",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Frommer's", "Fodor's", "Time Out", "Lonely Planet"],
+      "justificacion": "Frommer's le da dos días de su ruta de dos semanas: la casa natal de Shakespeare, la casa de Anne Hathaway y una excursión al castillo de Warwick. Fodor's recomienda ver teatro en Stratford entre sus 26 experiencias imprescindibles de Inglaterra. Time Out lo incluye por Shakespeare entre las 25 mejores cosas que hacer en el Reino Unido. Lonely Planet tiene una página de destino con lo mejor que ver allí, que es una ficha y no una selección de imprescindibles.",
+      "fuentes": [
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/england/suggested-itineraries/in-two-weeks/" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/england/experiences/news/photos/ultimate-things-to-do-in-england" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/uk/things-to-do/best-things-to-do-in-the-united-kingdom-2026" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/england/the-midlands/stratford-upon-avon/top-things-to-do" }
+      ]
+    },
+    {
+      "id": "gb-peak-district",
+      "nombre": "Peak District (Castleton, Edale, Chatsworth)",
+      "pais_iso": "GB",
+      "region": "Midlands del Este (Inglaterra)",
+      "lat": 53.3480,
+      "lng": -1.7750,
+      "tipo": "parque",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "National Geographic"],
+      "justificacion": "Lonely Planet le dedica una página de destino y pone la subida al Mam Tor desde Edale entre las mejores caminatas de Inglaterra. National Geographic le dedica un perfil (Kinder Scout, las cuevas de Castleton, Chatsworth House) y otro artículo sobre Buxton como base para recorrerlo.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/destinations/england/the-midlands/peak-district" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-hikes-in-england" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/peak-district-england" }
+      ]
+    },
+    {
+      "id": "gb-liverpool",
+      "nombre": "Liverpool",
+      "pais_iso": "GB",
+      "region": "Noroeste de Inglaterra",
+      "lat": 53.4084,
+      "lng": -2.9916,
+      "tipo": "ciudad",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Fodor's", "Time Out"],
+      "justificacion": "Fodor's propone recorrer los lugares de los Beatles en Liverpool entre sus 26 experiencias imprescindibles de Inglaterra. Time Out también incluye los sitios beatle de Liverpool entre las 25 mejores cosas que hacer en el Reino Unido.",
+      "fuentes": [
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/england/experiences/news/photos/ultimate-things-to-do-in-england" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/uk/things-to-do/best-things-to-do-in-the-united-kingdom-2026" }
+      ]
+    },
+    {
+      "id": "gb-york",
+      "nombre": "York",
+      "pais_iso": "GB",
+      "region": "Yorkshire (Inglaterra)",
+      "lat": 53.9600,
+      "lng": -1.0873,
+      "tipo": "ciudad",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Rick Steves", "Fodor's", "Lonely Planet"],
+      "justificacion": "Rick Steves la incluye entre las paradas básicas de su itinerario por Gran Bretaña desde los 9 días, y en su viaje de 14 días por Inglaterra. Fodor's marca la catedral de York como Fodor's Choice: el edificio gótico más grande al norte de los Alpes, con una vidriera este que está entre los grandes vitrales medievales. Lonely Planet la recorre en su lista de las 14 mejores cosas que hacer en Yorkshire.",
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/britain-itinerary" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/england/yorkshire/things-to-do/sights?pois=751361" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-things-to-do-yorkshire-england" }
+      ]
+    },
+    {
+      "id": "gb-yorkshire-dales",
+      "nombre": "Yorkshire Dales (Malham, Swaledale, Wensleydale)",
+      "pais_iso": "GB",
+      "region": "Yorkshire (Inglaterra)",
+      "lat": 54.2500,
+      "lng": -2.1000,
+      "tipo": "parque",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "National Geographic"],
+      "justificacion": "Lonely Planet recomienda el reto de los Three Peaks, el sendero de Malham Cove y el Tan Hill Inn, el pub más alto de las islas británicas. National Geographic propone recorrer Swaledale y Wensleydale sin prisas, con sus pueblos y muros de piedra seca.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/national-parks-england" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-hikes-in-england" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/slow-travel-yorkshire-dales" }
+      ]
+    },
+    {
+      "id": "gb-lake-district",
+      "nombre": "Lake District (Windermere, Grasmere, Coniston)",
+      "pais_iso": "GB",
+      "region": "Lake District (Inglaterra)",
+      "lat": 54.4609,
+      "lng": -3.0886,
+      "tipo": "parque",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Rough Guides", "Rick Steves", "Fodor's", "Lonely Planet"],
+      "justificacion": "Rough Guides lo pone en el número 1 de sus 20 mejores cosas que hacer en Inglaterra y propone una ruta de una semana de Windermere a Coniston. Rick Steves lo suma a su itinerario por Gran Bretaña y a su viaje de 14 días por Inglaterra. Fodor's incluye caminar por el Lake District entre sus 26 experiencias imprescindibles. Lonely Planet lo recorre en su guía de lo mejor de los 10 parques nacionales de Inglaterra.",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/england/things-to-do/" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/britain-itinerary" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/england/experiences/news/photos/ultimate-things-to-do-in-england" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/national-parks-england" }
+      ]
+    },
+    {
+      "id": "gb-muro-adriano",
+      "nombre": "Muro de Adriano (Housesteads, Chesters)",
+      "pais_iso": "GB",
+      "region": "Noreste de Inglaterra",
+      "lat": 55.0131,
+      "lng": -2.3306,
+      "tipo": "monumento",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Fodor's", "Rick Steves"],
+      "justificacion": "Lonely Planet lo elige como su sitio romano favorito de Inglaterra y propone el tramo de 15,5 km entre los fuertes de Housesteads y Chesters, o el sendero completo de 5 a 7 días. Fodor's incluye caminarlo entre sus 26 experiencias imprescindibles del país. Rick Steves lo incluye en la versión en coche de su itinerario por Gran Bretaña y en su viaje de 14 días por Inglaterra.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-historic-sights-england" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-hikes-in-england" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/england/experiences/news/photos/ultimate-things-to-do-in-england" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/tours/england/best-england-tour" }
+      ]
+    },
+    {
+      "id": "gb-edimburgo",
+      "nombre": "Edimburgo",
+      "pais_iso": "GB",
+      "region": "Escocia",
+      "lat": 55.9533,
+      "lng": -3.1883,
+      "tipo": "ciudad",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rick Steves", "Rough Guides", "Frommer's", "Time Out"],
+      "justificacion": "Lonely Planet abre con Edimburgo y Skye su guía de los mejores lugares de Escocia. Rick Steves le da tres noches para empezar su ruta de dos semanas. Rough Guides incluye su casco antiguo entre las 30 mejores cosas que hacer en Escocia. Frommer's empieza su semana en Escocia por el castillo, la Royal Mile y Arthur's Seat. Time Out la pone en su lista de los mejores lugares del Reino Unido en 2026 y le dedica una guía de sus 15 mejores atracciones.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-scotland" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/scotland/itinerary" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-scotland/" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/scotland/suggested-itineraries/in-one-week/" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/edinburgh/things-to-do/top-edinburgh-attractions" }
+      ]
+    },
+    {
+      "id": "gb-glasgow",
+      "nombre": "Glasgow",
+      "pais_iso": "GB",
+      "region": "Escocia",
+      "lat": 55.8642,
+      "lng": -4.2518,
+      "tipo": "ciudad",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Rick Steves", "Time Out", "Rough Guides"],
+      "justificacion": "Rick Steves la suma a su itinerario por Escocia desde los cinco días, y forma parte de su viaje de 13 días por lo mejor de Escocia. Time Out le dedica una guía de lo mejor que hacer en 2026 (Kelvingrove, el Jardín Botánico, la Necrópolis). Rough Guides tiene una guía de Glasgow con consejos de un local.",
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/scotland/itinerary" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/glasgow/things-to-do/best-things-to-do-in-glasgow" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/glasgow-an-insiders-guide/" }
+      ]
+    },
+    {
+      "id": "gb-stirling",
+      "nombre": "Stirling",
+      "pais_iso": "GB",
+      "region": "Escocia",
+      "lat": 56.1165,
+      "lng": -3.9369,
+      "tipo": "ciudad",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Time Out", "Rick Steves"],
+      "justificacion": "Time Out la elige como el mejor lugar de Gran Bretaña para visitar en 2026, por su nueva línea de tren y su programa cultural. Rick Steves la suma a su itinerario por Escocia desde los cinco días y termina allí su ruta de dos semanas.",
+      "fuentes": [
+        { "guia": "Time Out", "url": "https://www.timeout.com/uk/news/the-legendary-former-capital-city-with-a-game-changing-new-train-route-that-is-time-outs-best-place-to-visit-in-britain-in-2026-010826" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/scotland/itinerary" }
+      ]
+    },
+    {
+      "id": "gb-isla-de-skye",
+      "nombre": "Isla de Skye",
+      "pais_iso": "GB",
+      "region": "Escocia",
+      "lat": 57.3500,
+      "lng": -6.2000,
+      "tipo": "isla",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rick Steves", "Frommer's", "Rough Guides"],
+      "justificacion": "Lonely Planet abre con la escarpada Skye su guía de los mejores lugares de Escocia. Rick Steves la incluye en su ruta de dos semanas en coche. Frommer's la llama la más bella e intrigante de las islas, la que hay que elegir si solo se visita una, y destaca los Cuillin y el crucero desde Elgol. Los lectores de Rough Guides la votaron el lugar más bello de Escocia.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-scotland" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/scotland/itinerary" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/scotland/suggested-itineraries/in-two-weeks/" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/scotland/planning-a-trip/" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/gallery/the-most-beautiful-places-in-scotland-as-voted-by-you/" }
+      ]
+    },
+    {
+      "id": "gb-glencoe",
+      "nombre": "Glencoe",
+      "pais_iso": "GB",
+      "region": "Escocia",
+      "lat": 56.6700,
+      "lng": -5.0400,
+      "tipo": "montaña",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Rough Guides", "Time Out", "Rick Steves", "Frommer's"],
+      "justificacion": "Rough Guides incluye las caminatas por Glen Coe entre las 13 mejores cosas que hacer en las Highlands y las islas. Time Out lo pone en su lista de lo mejor de Escocia por sus caminatas, su fauna y la historia de la masacre de 1692. Rick Steves suma Oban y Glencoe a su itinerario desde los siete días. Frommer's lo incluye en su semana en Escocia, con el memorial y el centro de visitantes.",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/scottish-highlands-islands-things-to-do/" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/scotland/things-to-do/best-things-to-do-in-scotland" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/scotland/itinerary" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/scotland/suggested-itineraries/in-one-week/" }
+      ]
+    },
+    {
+      "id": "gb-lago-ness-inverness",
+      "nombre": "Lago Ness, castillo de Urquhart e Inverness",
+      "pais_iso": "GB",
+      "region": "Escocia",
+      "lat": 57.3241,
+      "lng": -4.4419,
+      "tipo": "lago",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Rick Steves", "Frommer's", "Time Out"],
+      "justificacion": "Rick Steves suma Inverness y el lago Ness a su itinerario desde los nueve días, y forman parte de su viaje de 13 días por Escocia. Frommer's recorre la orilla oeste del lago, con la exposición de Drumnadrochit y el castillo de Urquhart. Time Out incluye el lago Ness entre sus mejores excursiones desde Edimburgo.",
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/scotland/itinerary" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/scotland/suggested-itineraries/in-one-week/" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/edinburgh/things-to-do/best-day-trips-from-edinburgh" }
+      ]
+    },
+    {
+      "id": "gb-oban-mull-iona",
+      "nombre": "Oban, Mull, Iona y Staffa",
+      "pais_iso": "GB",
+      "region": "Escocia",
+      "lat": 56.4152,
+      "lng": -5.4718,
+      "tipo": "costa",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Rick Steves", "Time Out", "Rough Guides"],
+      "justificacion": "Rick Steves incluye en su ruta de dos semanas una noche en Oban con excursión a Mull e Iona, y suma Staffa en la versión de 13 días. Time Out le dedica una guía (destilería, marisco, ferris a Mull) y lo elige entre sus mejores pueblos costeros de 2026. Rough Guides pone Staffa entre las 30 mejores cosas que hacer en Escocia.",
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/scotland/itinerary" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/oban/things-to-do/best-things-to-do-in-oban" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-scotland/" }
+      ]
+    },
+    {
+      "id": "gb-cairngorms",
+      "nombre": "Parque Nacional de los Cairngorms",
+      "pais_iso": "GB",
+      "region": "Escocia",
+      "lat": 57.0800,
+      "lng": -3.6700,
+      "tipo": "parque",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Rough Guides", "Time Out"],
+      "justificacion": "Rough Guides lo pone entre las 30 mejores cosas que hacer en Escocia y lo recomienda por su fauna, con las águilas pescadoras del lago Garten. Time Out lo incluye entre sus mejores excursiones desde Edimburgo.",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/scottish-highlands-islands-things-to-do/" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/edinburgh/things-to-do/best-day-trips-from-edinburgh" }
+      ]
+    },
+    {
+      "id": "gb-snowdonia",
+      "nombre": "Eryri (Snowdonia)",
+      "pais_iso": "GB",
+      "region": "Gales",
+      "lat": 53.0685,
+      "lng": -4.0763,
+      "tipo": "parque",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rick Steves", "Rough Guides"],
+      "justificacion": "Lonely Planet lo pone en el número 1 de sus 12 mejores lugares de Gales y destaca el Yr Wyddfa (Snowdon), la cumbre más alta del país. Rick Steves lo presenta como lo más bonito del norte de Gales, con Beddgelert, Betws-y-Coed, sus trenes históricos y el castillo de Harlech. Rough Guides le dedica una guía con las seis rutas a la cumbre y el tren de montaña.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-wales" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/wales/north-wales" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/snowdonia-national-park-guide-wales/" }
+      ]
+    },
+    {
+      "id": "gb-conwy",
+      "nombre": "Conwy",
+      "pais_iso": "GB",
+      "region": "Gales",
+      "lat": 53.2800,
+      "lng": -3.8270,
+      "tipo": "pueblo",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Rick Steves", "Lonely Planet", "Rough Guides"],
+      "justificacion": "Rick Steves le da su máxima calificación en el norte de Gales: un pueblo costero rodeado por las mejores murallas medievales de Gran Bretaña. Lonely Planet llama a su castillo el más bonito de los cuatro de Eduardo I declarados Patrimonio de la Humanidad. Rough Guides incluye el castillo de Conwy entre las 28 mejores cosas que hacer en Gales.",
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/wales/north-wales" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/wales/north-wales/conwy/attractions/conwy-castle/a/poi-sig/1344144/360975" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-wales/" }
+      ]
+    },
+    {
+      "id": "gb-pembrokeshire-st-davids",
+      "nombre": "Costa de Pembrokeshire y St Davids",
+      "pais_iso": "GB",
+      "region": "Gales",
+      "lat": 51.8812,
+      "lng": -5.2660,
+      "tipo": "costa",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides"],
+      "justificacion": "Lonely Planet la incluye entre sus 12 mejores lugares de Gales por sus más de 50 playas, las colinas Preseli y la isla de Skomer. Rough Guides llama a la catedral de St Davids el corazón espiritual de Gales y recomienda el sendero costero de Pembrokeshire y el coasteering, que nació allí.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-wales" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-wales/" }
+      ]
+    },
+    {
+      "id": "gb-calzada-del-gigante",
+      "nombre": "Calzada del Gigante y costa de Causeway",
+      "pais_iso": "GB",
+      "region": "Irlanda del Norte",
+      "lat": 55.2408,
+      "lng": -6.5116,
+      "tipo": "costa",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rick Steves", "Time Out"],
+      "justificacion": "Lonely Planet la llama el sitio mítico más famoso de la isla de Irlanda, la incluye entre sus 9 imprescindibles de Irlanda del Norte y elige la costa de Causeway como su mejor destino de senderismo de la isla. Rick Steves dice que es lo mejor de toda la costa de Antrim. Time Out la pone en su lista de lo mejor de Irlanda del Norte y entre las 25 mejores cosas que hacer en el Reino Unido.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-northern-ireland" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/watch-read-listen/read/articles/antrim-coast-the-scenic-north" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/northern-ireland/things-to-do/best-things-to-do-in-northern-ireland" }
+      ]
+    },
+    {
+      "id": "gb-belfast",
+      "nombre": "Belfast",
+      "pais_iso": "GB",
+      "region": "Irlanda del Norte",
+      "lat": 54.5973,
+      "lng": -5.9301,
+      "tipo": "ciudad",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rick Steves", "Time Out"],
+      "justificacion": "Lonely Planet dice que Titanic Belfast es la principal atracción de la ciudad y recomienda los murales y muros de paz del oeste de Belfast. Rick Steves la incluye en su ruta de dos semanas por Irlanda y le dedica una charla junto a Derry y la costa de Antrim. Time Out le dedica una guía de las 11 mejores cosas que hacer.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-northern-ireland" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/travel-tips/travel-classes/monday-night-travel/northern-ireland" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/belfast/things-to-do/best-things-to-do-in-belfast" }
+      ]
+    },
+    {
+      "id": "ie-dublin",
+      "nombre": "Dublín",
+      "pais_iso": "IE",
+      "region": "Leinster",
+      "lat": 53.3498,
+      "lng": -6.2603,
+      "tipo": "ciudad",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rick Steves", "Fodor's", "Time Out", "Frommer's"],
+      "justificacion": "Lonely Planet la incluye en sus mejores lugares de Irlanda y le dedica una lista de 12 imprescindibles (Trinity College, la cárcel de Kilmainham). Rick Steves le da tres noches para abrir su ruta de dos semanas. Fodor's le dedica sus 15 mejores cosas que hacer. Time Out destaca la Guinness Storehouse, Kilmainham Gaol y Phoenix Park. Frommer's empieza allí su semana en Irlanda.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-things-to-do-in-dublin" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/ireland/itinerary" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/ireland/dublin/experiences/news/photos/best-things-to-do-in-dublin" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/dublin/things-to-do/best-attractions-in-dublin" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/ireland/suggested-itineraries/in-one-week/" }
+      ]
+    },
+    {
+      "id": "ie-glendalough",
+      "nombre": "Glendalough y los montes de Wicklow",
+      "pais_iso": "IE",
+      "region": "Leinster",
+      "lat": 53.0104,
+      "lng": -6.3290,
+      "tipo": "monumento",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Rough Guides", "Frommer's", "Time Out"],
+      "justificacion": "Rough Guides describe sus ruinas monásticas en un valle boscoso y lo pone en su ruta de Dublín a los montes de Wicklow. Frommer's lo incluye en su semana en Irlanda, junto a Powerscourt, y aconseja llegar muy temprano. Time Out lo propone entre sus mejores excursiones desde Dublín.",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/ireland/best-places-to-visit/" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/ireland/suggested-itineraries/in-one-week/" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/dublin/things-to-do/best-day-trips-from-dublin" }
+      ]
+    },
+    {
+      "id": "ie-bru-na-boinne",
+      "nombre": "Brú na Bóinne (Newgrange y valle del Boyne)",
+      "pais_iso": "IE",
+      "region": "Leinster",
+      "lat": 53.6947,
+      "lng": -6.4755,
+      "tipo": "monumento",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Rough Guides", "Frommer's", "Rick Steves"],
+      "justificacion": "Rough Guides incluye ver Brú na Bóinne entre sus mejores cosas que hacer en Irlanda: una tumba de 5200 años que se ilumina en el solsticio de invierno. Frommer's la destaca como más antigua que las pirámides y Stonehenge, y aconseja visitarla temprano. Rick Steves cuenta el valle del Boyne entre las visitas de su ruta por Irlanda, con la advertencia de que sin coche hay que ir en excursión.",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-ireland/" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/county-meath/things-to-do/" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/ireland/itinerary" }
+      ]
+    },
+    {
+      "id": "ie-kilkenny",
+      "nombre": "Kilkenny",
+      "pais_iso": "IE",
+      "region": "Leinster",
+      "lat": 52.6541,
+      "lng": -7.2448,
+      "tipo": "ciudad",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rick Steves", "Frommer's", "Time Out"],
+      "justificacion": "Lonely Planet la incluye entre los mejores lugares de Irlanda por su centro medieval. Rick Steves duerme allí el cuarto día de su ruta de dos semanas. Frommer's la recomienda como la primera noche fuera de Dublín, con su castillo y sus talleres de cerámica. Time Out la llama una minimetrópolis medieval y la incluye entre sus mejores excursiones desde Dublín.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-ireland" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/ireland/itinerary" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/ireland/suggested-itineraries/in-one-week/" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/dublin/things-to-do/best-day-trips-from-dublin" }
+      ]
+    },
+    {
+      "id": "ie-carlingford",
+      "nombre": "Carlingford",
+      "pais_iso": "IE",
+      "region": "Leinster",
+      "lat": 54.0419,
+      "lng": -6.1869,
+      "tipo": "pueblo",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Lonely Planet"],
+      "justificacion": "Lonely Planet lo incluye entre los 12 pueblos más bonitos de Irlanda por sus callejones medievales, sus murallas y sus vistas al mar.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/irelands-best-beautiful-towns-villages" }
+      ]
+    },
+    {
+      "id": "ie-rock-of-cashel",
+      "nombre": "Roca de Cashel",
+      "pais_iso": "IE",
+      "region": "Munster",
+      "lat": 52.5200,
+      "lng": -7.8906,
+      "tipo": "monumento",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rick Steves"],
+      "justificacion": "Lonely Planet elige Tipperary entre los mejores lugares de Irlanda por la Roca de Cashel y el castillo de Cahir. Rick Steves la visita el quinto día de su ruta de dos semanas, camino de Kinsale.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-ireland" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/ireland/itinerary" }
+      ]
+    },
+    {
+      "id": "ie-acantilados-de-moher",
+      "nombre": "Acantilados de Moher",
+      "pais_iso": "IE",
+      "region": "Munster",
+      "lat": 52.9715,
+      "lng": -9.4309,
+      "tipo": "costa",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Fodor's", "Frommer's", "Time Out", "Rick Steves"],
+      "justificacion": "Fodor's le dedica una guía propia y lo cuenta entre los grandes sitios de Irlanda: 214 m de altura y 8 km de costa en Clare. Frommer's lo pone en su semana en Irlanda, con vistas que parecen llegar hasta América. Time Out lo llama uno de los lugares más bellos de un país bello. Rick Steves lo propone como parada en el trayecto de Dingle a Galway.",
+      "fuentes": [
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/ireland/experiences/news/photos/cliffs-of-moher-101-everything-to-you-need-to-know-before-visiting-the-edge-of-ireland" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/slideshows/818148-what-to-see-in-ireland-7-best-moments" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/ireland/things-to-do/best-things-to-do-in-ireland" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/ireland/itinerary" }
+      ]
+    },
+    {
+      "id": "ie-burren-doolin",
+      "nombre": "El Burren y Doolin",
+      "pais_iso": "IE",
+      "region": "Munster",
+      "lat": 53.0300,
+      "lng": -9.2500,
+      "tipo": "naturaleza",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Fodor's", "Rick Steves", "Lonely Planet"],
+      "justificacion": "Fodor's incluye el Burren, un paisaje rocoso único en Clare, entre sus 25 mejores cosas que hacer en Irlanda. Rick Steves propone Galway como base para visitarlo. Lonely Planet elige Clare como su destino para la música tradicional y pone las sesiones de Doolin entre lo mejor que hacer en Irlanda.",
+      "fuentes": [
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/ireland/experiences/news/photos/ultimate-things-to-do-in-ireland" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/ireland/itinerary" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-ireland" }
+      ]
+    },
+    {
+      "id": "ie-peninsula-de-dingle",
+      "nombre": "Península de Dingle (Slea Head)",
+      "pais_iso": "IE",
+      "region": "Munster",
+      "lat": 52.1409,
+      "lng": -10.2640,
+      "tipo": "costa",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Rick Steves", "Fodor's", "Rough Guides"],
+      "justificacion": "Rick Steves la incluye en su ruta de dos semanas y aconseja elegir Dingle antes que el Ring of Kerry si solo hay tiempo para una península. Fodor's la llama una visita obligada de la Wild Atlantic Way. Rough Guides la considera la alternativa más auténtica y menos concurrida al Ring of Kerry, con Slea Head, el oratorio de Gallarus y las casas colmena.",
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/ireland/itinerary" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/ireland/experiences/news/photos/ultimate-things-to-do-in-ireland" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/ireland/kerry/" }
+      ]
+    },
+    {
+      "id": "ie-ring-of-kerry",
+      "nombre": "Ring of Kerry, Killarney y Skellig Michael",
+      "pais_iso": "IE",
+      "region": "Munster",
+      "lat": 51.9300,
+      "lng": -10.0500,
+      "tipo": "región",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Time Out", "Fodor's", "Rough Guides"],
+      "justificacion": "Lonely Planet elige la península de Iveragh, con Skellig Michael, como su destino de paisaje en Irlanda. Time Out recomienda el Ring of Kerry, Skellig Michael y los lagos del parque nacional de Killarney. Fodor's le dedica una guía de destino y llama a Skellig Michael quizá el lugar más espectacular de Irlanda. Rough Guides destaca el parque nacional de Killarney y propone el pueblo como base para el Ring.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-ireland" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/ireland/things-to-do/best-things-to-do-in-ireland" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/ireland/the-southwest/places/the-ring-of-kerry" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/ireland/kerry/" }
+      ]
+    },
+    {
+      "id": "ie-kinsale-cobh",
+      "nombre": "Kinsale y Cobh (Cork)",
+      "pais_iso": "IE",
+      "region": "Munster",
+      "lat": 51.7059,
+      "lng": -8.5222,
+      "tipo": "pueblo",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Rick Steves", "Lonely Planet", "Rough Guides"],
+      "justificacion": "Rick Steves recomienda los dos puertos de Cork: Kinsale, la capital gastronómica de Irlanda con el fuerte Charles, y Cobh, la última escala del Titanic. Lonely Planet incluye Kinsale entre los 12 pueblos más bonitos de Irlanda por su comida y su color. Rough Guides la llama la capital culinaria del suroeste, con su festival gourmet de septiembre.",
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/ireland/itinerary" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/irelands-best-beautiful-towns-villages" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/ireland/best-places-to-visit/" }
+      ]
+    },
+    {
+      "id": "ie-galway",
+      "nombre": "Galway",
+      "pais_iso": "IE",
+      "region": "Connacht",
+      "lat": 53.2707,
+      "lng": -9.0568,
+      "tipo": "ciudad",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Rick Steves", "Lonely Planet", "Time Out", "Rough Guides"],
+      "justificacion": "Rick Steves la llama una ciudad universitaria llena de energía y la mejor base de la costa oeste para el Burren, las Aran y Connemara. Lonely Planet la elige como su destino gastronómico en Irlanda. Time Out la recomienda por su música celta. Rough Guides la presenta como una ciudad animada, de música en vivo, y el mejor lugar de Irlanda para comer ostras.",
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/ireland/itinerary" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-ireland" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/ireland/things-to-do/best-things-to-do-in-ireland" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/ireland/best-places-to-visit/" }
+      ]
+    },
+    {
+      "id": "ie-islas-aran",
+      "nombre": "Islas Aran (Inis Mór)",
+      "pais_iso": "IE",
+      "region": "Connacht",
+      "lat": 53.1180,
+      "lng": -9.7000,
+      "tipo": "isla",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Rick Steves", "Rough Guides", "Time Out"],
+      "justificacion": "Rick Steves las describe como tres islas sin árboles rodeadas de acantilados y coronadas por ruinas, e incluye un ferri a Inis Mór en su viaje por Irlanda. Rough Guides destaca sus fuertes de piedra y su cultura tradicional, y aconseja hacer noche para evitar a los excursionistas. Time Out las recomienda por sus monumentos antiguos y su paisaje.",
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/tours/ireland/best-ireland-tour" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-ireland/" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/ireland/things-to-do/best-things-to-do-in-ireland" }
+      ]
+    },
+    {
+      "id": "ie-connemara",
+      "nombre": "Connemara",
+      "pais_iso": "IE",
+      "region": "Connacht",
+      "lat": 53.5000,
+      "lng": -9.7500,
+      "tipo": "región",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Rough Guides", "Rick Steves"],
+      "justificacion": "Rough Guides pone en primer lugar de su lista de Irlanda caminar por Connemara, con sus turberas, lagos y muros de piedra, y propone subir el Diamond Hill. Rick Steves la añade a su ruta junto a Westport y avisa de que sin coche hay que ir en excursión.",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-ireland/" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/ireland/itinerary" }
+      ]
+    },
+    {
+      "id": "ie-achill",
+      "nombre": "Isla de Achill (noroeste de Mayo)",
+      "pais_iso": "IE",
+      "region": "Connacht",
+      "lat": 53.9636,
+      "lng": -10.0050,
+      "tipo": "isla",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Lonely Planet"],
+      "justificacion": "Lonely Planet incluye el noroeste de Mayo entre los mejores lugares de Irlanda y dice que la bahía de Keem, en Achill, es quizá la playa más bonita del país.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-ireland" }
+      ]
+    },
+    {
+      "id": "ie-slieve-league",
+      "nombre": "Acantilados de Slieve League (Sliabh Liag)",
+      "pais_iso": "IE",
+      "region": "Ulster (Donegal)",
+      "lat": 54.6288,
+      "lng": -8.6853,
+      "tipo": "costa",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Fodor's", "Lonely Planet"],
+      "justificacion": "Fodor's los incluye entre sus 25 mejores cosas que hacer en Irlanda: los acantilados accesibles más altos de Europa, unas tres veces más altos que los de Moher. Lonely Planet pone el sendero costero de Sliabh Liag entre lo mejor que hacer en Irlanda.",
+      "fuentes": [
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/ireland/experiences/news/photos/ultimate-things-to-do-in-ireland" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-ireland" }
+      ]
+    },
+    {
+      "id": "ie-inishowen",
+      "nombre": "Península de Inishowen",
+      "pais_iso": "IE",
+      "region": "Ulster (Donegal)",
+      "lat": 55.2000,
+      "lng": -7.3000,
+      "tipo": "costa",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Lonely Planet"],
+      "justificacion": "Lonely Planet la pone en primer lugar de su lista de los mejores lugares de Irlanda y la recomienda para recorrerla en coche.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-ireland" }
+      ]
+    },
+    {
+      "id": "is-reikiavik",
+      "nombre": "Reikiavik",
+      "pais_iso": "IS",
+      "region": "Región de la Capital (Höfuðborgarsvæðið)",
+      "lat": 64.1466,
+      "lng": -21.9426,
+      "tipo": "ciudad",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Time Out", "Rough Guides", "Fodor's", "Rick Steves"],
+      "justificacion": "Lonely Planet le dedica una lista de las 14 mejores cosas que hacer en la ciudad y sus alrededores. Time Out le dedica una guía (Hallgrímskirkja, el puerto viejo, Sky Lagoon). Rough Guides pone la Hallgrímskirkja entre sus imprescindibles de Islandia. Fodor's incluye Reikiavik entre sus 14 mejores cosas que hacer en el país. Rick Steves empieza allí su programa sobre Islandia y le dedica un artículo para una escala de un día.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-reykjavik" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/iceland/things-to-do/best-things-to-do-in-reykjavik" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/iceland/things-to-do/" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/iceland/experiences/news/photos/15-ultimate-things-to-do-in-iceland" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/watch-read-listen/read/articles/iceland-in-one-day" }
+      ]
+    },
+    {
+      "id": "is-circulo-dorado",
+      "nombre": "Círculo Dorado (Þingvellir, Geysir, Gullfoss)",
+      "pais_iso": "IS",
+      "region": "Sur de Islandia (Suðurland)",
+      "lat": 64.3000,
+      "lng": -20.5200,
+      "tipo": "región",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides", "Fodor's", "Time Out", "Rick Steves"],
+      "justificacion": "Lonely Planet le dedica una guía para recorrerlo en coche. Rough Guides pone Þingvellir entre sus imprescindibles y presenta el circuito como la forma más fácil de ver cascadas, géiseres y fallas en una vuelta. Fodor's lo incluye entre sus 14 mejores cosas que hacer en Islandia. Time Out destaca Þingvellir, donde se reunió uno de los primeros parlamentos del mundo en 930. Rick Steves lo hace como excursión de un día desde Reikiavik.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/lonely-planet-guide-to-golden-circle" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/iceland/things-to-do/" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/iceland/experiences/news/photos/15-ultimate-things-to-do-in-iceland" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/iceland/things-to-do/best-things-to-do-in-iceland" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/watch-read-listen/video/tv-show/iceland" }
+      ]
+    },
+    {
+      "id": "is-laguna-azul",
+      "nombre": "Laguna Azul (península de Reykjanes)",
+      "pais_iso": "IS",
+      "region": "Península de Reykjanes (Suðurnes)",
+      "lat": 63.8804,
+      "lng": -22.4495,
+      "tipo": "naturaleza",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Rough Guides", "Fodor's", "Time Out", "Frommer's"],
+      "justificacion": "Rough Guides abre con ella su lista de imprescindibles de Islandia. Fodor's la incluye entre sus 14 mejores cosas que hacer en el país. Time Out la llama el baño termal más famoso de Islandia y aconseja ir temprano o tarde. Frommer's la pone en lo más alto de sus mejores experiencias auténticas.",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/iceland/things-to-do/" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/iceland/experiences/news/photos/15-ultimate-things-to-do-in-iceland" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/iceland/things-to-do/best-things-to-do-in-iceland" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/iceland/best-authentic-experiences/" }
+      ]
+    },
+    {
+      "id": "is-costa-sur-vik",
+      "nombre": "Costa sur: Skógafoss, Reynisfjara y Vík",
+      "pais_iso": "IS",
+      "region": "Sur de Islandia (Suðurland)",
+      "lat": 63.4500,
+      "lng": -19.2000,
+      "tipo": "costa",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Time Out", "Lonely Planet", "Rick Steves", "Fodor's"],
+      "justificacion": "Time Out incluye Skógafoss y la playa negra de Reynisfjara entre sus 21 mejores cosas que hacer en Islandia. Lonely Planet pone Reynisfjara entre las 10 mejores maravillas naturales del país. Rick Steves recorre la costa sur en su programa sobre Islandia, con una escapada al valle de Þórsmörk. Fodor's incluye las cascadas entre sus 14 mejores cosas que hacer en el país.",
+      "fuentes": [
+        { "guia": "Time Out", "url": "https://www.timeout.com/iceland/things-to-do/best-things-to-do-in-iceland" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-nature-spots-iceland" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/watch-read-listen/video/tv-show/iceland" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/iceland/experiences/news/photos/15-ultimate-things-to-do-in-iceland" }
+      ]
+    },
+    {
+      "id": "is-vestmannaeyjar",
+      "nombre": "Islas Westman (Heimaey)",
+      "pais_iso": "IS",
+      "region": "Sur de Islandia (Suðurland)",
+      "lat": 63.4427,
+      "lng": -20.2734,
+      "tipo": "isla",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Time Out", "Rough Guides", "Rick Steves"],
+      "justificacion": "Time Out incluye Heimaey entre sus 21 mejores cosas que hacer en Islandia, por el museo Eldheimar de la erupción de 1973 y sus colonias de frailecillos. Rough Guides la recomienda para ver frailecillos en verano. Rick Steves navega hasta las islas en su programa sobre Islandia.",
+      "fuentes": [
+        { "guia": "Time Out", "url": "https://www.timeout.com/iceland/things-to-do/best-things-to-do-in-iceland" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/iceland/things-to-do/" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/watch-read-listen/video/tv-show/iceland" }
+      ]
+    },
+    {
+      "id": "is-jokulsarlon",
+      "nombre": "Laguna glaciar de Jökulsárlón y Diamond Beach",
+      "pais_iso": "IS",
+      "region": "Sureste de Islandia (Austur-Skaftafellssýsla)",
+      "lat": 64.0784,
+      "lng": -16.2306,
+      "tipo": "naturaleza",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Fodor's", "Frommer's", "Rough Guides", "Rick Steves"],
+      "justificacion": "Lonely Planet la llama una visita obligada del parque nacional Vatnajökull. Fodor's dice que es uno de los lugares más especiales de Islandia, con la Diamond Beach al sur de la laguna. Frommer's la considera la atracción más famosa de la región y dice que vale la pena pagar para navegar entre los icebergs. Rough Guides la llama un lugar irreal para navegar entre icebergs. Rick Steves la visita en su vuelta por la carretera de circunvalación.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-national-parks-iceland" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/iceland/things-to-do" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/jokulsarlon-region/exploring-the-area/" },
+        { "guia": "Rough Guides", "url": "https://roughguides.com/articles/how-to-drive-the-iceland-ring-road-itinerary-10-days" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/watch-read-listen/video/tv-show/iceland" }
+      ]
+    },
+    {
+      "id": "is-skaftafell",
+      "nombre": "Skaftafell (parque nacional Vatnajökull)",
+      "pais_iso": "IS",
+      "region": "Sureste de Islandia (Austur-Skaftafellssýsla)",
+      "lat": 64.0161,
+      "lng": -16.9711,
+      "tipo": "parque",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Rough Guides", "Fodor's"],
+      "justificacion": "Rough Guides incluye Skaftafell entre sus imprescindibles de Islandia. Fodor's propone la caminata hasta el glaciar de Skaftafell, la cascada de Svartifoss y la ruta exigente a los picos Kristínartindar, e incluye el glaciar Vatnajökull entre sus 14 mejores cosas que hacer en el país.",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/iceland/things-to-do/" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/iceland/things-to-do" }
+      ]
+    },
+    {
+      "id": "is-landmannalaugar",
+      "nombre": "Landmannalaugar y el sendero Laugavegur",
+      "pais_iso": "IS",
+      "region": "Tierras Altas (Hálendið)",
+      "lat": 63.9908,
+      "lng": -19.0606,
+      "tipo": "montaña",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Rough Guides", "Lonely Planet", "National Geographic"],
+      "justificacion": "Rough Guides pone sus campos de lava entre los primeros de su lista de imprescindibles de Islandia. Lonely Planet le dedica una página con lo mejor que hacer: la poza termal entre colinas volcánicas, el cráter Hnausapollur y el sendero Laugavegur hasta Þórsmörk, de 2 a 4 días. National Geographic le dedica un reportaje a una caminata por las Tierras Altas.",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/iceland/things-to-do/" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/iceland/landmannalaugar/top-things-to-do" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/hike-through-iceland-highlands" }
+      ]
+    },
+    {
+      "id": "is-askja",
+      "nombre": "Caldera de Askja",
+      "pais_iso": "IS",
+      "region": "Tierras Altas (Hálendið)",
+      "lat": 65.0300,
+      "lng": -16.7500,
+      "tipo": "montaña",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides", "Fodor's"],
+      "justificacion": "Lonely Planet pone la caldera de Askja entre las 10 mejores maravillas naturales de Islandia. Rough Guides incluye su cráter entre sus primeros imprescindibles del país. Fodor's propone la excursión en superjeep a Askja entre sus 14 mejores cosas que hacer en Islandia.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-nature-spots-iceland" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/iceland/things-to-do/" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/iceland/experiences/news/photos/15-ultimate-things-to-do-in-iceland" }
+      ]
+    },
+    {
+      "id": "is-snaefellsnes",
+      "nombre": "Península de Snæfellsnes (Kirkjufell, Arnarstapi)",
+      "pais_iso": "IS",
+      "region": "Oeste de Islandia (Vesturland)",
+      "lat": 64.8000,
+      "lng": -23.4000,
+      "tipo": "costa",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Fodor's", "Frommer's", "Rough Guides", "Rick Steves"],
+      "justificacion": "Lonely Planet destaca el parque nacional Snæfellsjökull y el Kirkjufell, la montaña más fotografiada de Islandia. Fodor's la incluye entre sus 14 mejores cosas que hacer en el país y la llama una «mini Islandia». Frommer's recomienda el sendero costero de Arnarstapi a Hellnar y la playa de Djúpalónssandur. Rough Guides la presenta como la «Islandia en miniatura». Rick Steves termina en ella su vuelta a la isla.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-iceland-itineraries" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/iceland/experiences/news/photos/15-ultimate-things-to-do-in-iceland" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/snaefellsnes/exploring-the-area/" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/iceland/best-places-to-visit/" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/watch-read-listen/video/tv-show/iceland" }
+      ]
+    },
+    {
+      "id": "is-fiordos-del-oeste",
+      "nombre": "Fiordos del Oeste (Ísafjörður, Dynjandi, Hornstrandir)",
+      "pais_iso": "IS",
+      "region": "Fiordos del Oeste (Vestfirðir)",
+      "lat": 66.0749,
+      "lng": -23.1350,
+      "tipo": "región",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides", "Fodor's", "National Geographic"],
+      "justificacion": "Lonely Planet les dedica una guía y pone la reserva de Hornstrandir entre las 10 mejores maravillas naturales de Islandia. Rough Guides incluye las caminatas por Hornstrandir entre sus primeros imprescindibles del país. Fodor's tiene una guía de Ísafjörður y recomienda los acantilados de Látrabjarg y la cascada de Dynjandi. National Geographic les dedica un reportaje sobre la nueva ruta Westfjords Way. Solo Lonely Planet y Rough Guides los ponen en su selección de imprescindibles; Fodor's y National Geographic los cubren en páginas propias de la región.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/guide-to-westfjords-iceland" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-nature-spots-iceland" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/iceland/things-to-do/" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/iceland/westfjords/isafjordur" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/road-tripping-through-icelands-remote-corners-westfjords-way" }
+      ]
+    },
+    {
+      "id": "is-myvatn",
+      "nombre": "Lago Mývatn (Dimmuborgir, Hverir, Hverfjall)",
+      "pais_iso": "IS",
+      "region": "Noreste de Islandia (Norðurland eystra)",
+      "lat": 65.6039,
+      "lng": -16.9961,
+      "tipo": "naturaleza",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Rough Guides", "Frommer's", "Rick Steves", "Lonely Planet"],
+      "justificacion": "Rough Guides incluye el lago Mývatn entre sus imprescindibles de Islandia. Frommer's le dedica un día entero en su ruta de dos semanas: Grjótagjá, el cráter Hverfell, Dimmuborgir, Hverir y los baños naturales. Rick Steves recorre sus zonas geotérmicas en su programa sobre Islandia. Lonely Planet propone el Diamond Circle, la ruta que lo une con Húsavík y Dettifoss, entre los mejores viajes por carretera del país.",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/iceland/things-to-do/" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/iceland/in-two-weeks-in-iceland" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/watch-read-listen/video/tv-show/iceland" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-road-trips-in-iceland" }
+      ]
+    },
+    {
+      "id": "is-husavik",
+      "nombre": "Húsavík",
+      "pais_iso": "IS",
+      "region": "Noreste de Islandia (Norðurland eystra)",
+      "lat": 66.0449,
+      "lng": -17.3389,
+      "tipo": "pueblo",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides", "Time Out", "Frommer's", "Rick Steves"],
+      "justificacion": "Lonely Planet lo incluye entre sus 12 mejores lugares de Islandia para avistar ballenas. Rough Guides también lo recomienda para ver ballenas. Time Out lo llama la capital no oficial del avistamiento de ballenas. Frommer's dice que es el mejor puerto de Islandia para verlas. Rick Steves visita este pueblo pesquero del extremo norte en su programa sobre Islandia.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-iceland" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/iceland/things-to-do/" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/iceland/things-to-do/best-things-to-do-in-iceland" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/iceland/planning-a-trip/" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/watch-read-listen/video/tv-show/iceland" }
+      ]
+    },
+    {
+      "id": "is-dettifoss",
+      "nombre": "Dettifoss (Jökulsárgljúfur)",
+      "pais_iso": "IS",
+      "region": "Noreste de Islandia (Norðurland eystra)",
+      "lat": 65.8147,
+      "lng": -16.3846,
+      "tipo": "naturaleza",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Rough Guides", "Lonely Planet"],
+      "justificacion": "Rough Guides incluye la cascada de Dettifoss entre sus imprescindibles de Islandia. Lonely Planet la recorre en el Diamond Circle, uno de sus mejores viajes por carretera del país.",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/iceland/things-to-do/" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-road-trips-in-iceland" }
+      ]
+    },
+    {
+      "id": "is-seydisfjordur",
+      "nombre": "Seyðisfjörður y los fiordos del Este",
+      "pais_iso": "IS",
+      "region": "Este de Islandia (Austurland)",
+      "lat": 65.2597,
+      "lng": -14.0103,
+      "tipo": "pueblo",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides", "Rick Steves"],
+      "justificacion": "Lonely Planet lo incluye en sus rutas por la carretera de circunvalación y destaca la escultura sonora Tvísöngur y su escena artística. Rough Guides lo pone en el séptimo día de su ruta de 10 días y destaca sus casas de madera de estilo noruego y su comunidad creativa. Rick Steves recorre los fiordos del Este en su programa sobre Islandia.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-iceland-itineraries" },
+        { "guia": "Rough Guides", "url": "https://roughguides.com/articles/how-to-drive-the-iceland-ring-road-itinerary-10-days" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/watch-read-listen/video/tv-show/iceland" }
+      ]
+    }
+  ]
+}

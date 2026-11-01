@@ -1,0 +1,778 @@
+{
+  "agente": "guias-expertas",
+  "subregion": "britanicas-nordicos",
+  "grupo": "b",
+  "ronda": 1,
+  "notas": "Grupo b: NO, SE, FI, DK, EE, LV, LT. En curso (NO y SE completos).",
+  "candidatos": [
+    {
+      "id": "no-bergen",
+      "nombre": "Bergen (Bryggen y monte Fløyen)",
+      "pais_iso": "NO",
+      "region": "Vestland",
+      "lat": 60.3913,
+      "lng": 5.3221,
+      "tipo": "ciudad",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rick Steves", "Fodor's", "Frommer's", "Time Out"],
+      "justificacion": "Lonely Planet la incluye entre sus 12 mejores lugares de Noruega por el muelle hanseático de Bryggen (UNESCO). Rick Steves la presenta como el gran puerto del oeste, con el funicular al monte Fløyen. Fodor's le dedica una guía a Bryggen y la incluye en su lista de 25 imprescindibles de Noruega. Frommer's la considera la mejor base para los fiordos y Time Out la recomienda entre lo mejor del país.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-norway" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/norway" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/norway/bergen/bryggen" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/bergen/" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/norway/things-to-do/best-things-to-do-in-norway" }
+      ]
+    },
+    {
+      "id": "no-oslo",
+      "nombre": "Oslo",
+      "pais_iso": "NO",
+      "region": "Oslo",
+      "lat": 59.9139,
+      "lng": 10.7522,
+      "tipo": "ciudad",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Rick Steves", "Fodor's", "Time Out", "Rough Guides"],
+      "justificacion": "Rick Steves le dedica un episodio de televisión (Ópera, parque Vigeland, Museo del Folclore). Fodor's marca como Fodor's Choice el Norsk Folkemuseum y destaca el parque Vigeland, la Ópera y el Nasjonalmuseet. Time Out tiene su propia guía de imprescindibles y la eligió como la mejor escapada urbana nórdica. Rough Guides pone el Vigelandsparken entre las 25 mejores cosas que hacer en Noruega.",
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/watch-read-listen/video/tv-show/oslo" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/norway/oslo/things-to-do/sights?pois=729024" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/oslo/things-to-do/best-things-to-do-in-oslo" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/news/this-is-the-best-nordic-city-break-right-now-according-to-time-out-082225" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-norway/" }
+      ]
+    },
+    {
+      "id": "no-lofoten",
+      "nombre": "Islas Lofoten (Reine, Henningsvær, Å)",
+      "pais_iso": "NO",
+      "region": "Nordland",
+      "lat": 68.1500,
+      "lng": 13.6100,
+      "tipo": "isla",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides", "Fodor's", "Time Out", "National Geographic", "Frommer's"],
+      "justificacion": "Lonely Planet abre su lista de los mejores lugares de Noruega con las Lofoten, por su belleza ártica. Rough Guides elige Å como el mejor pueblo, con Henningsvær y Stamsund muy cerca, y recomienda el Trollfjord. Fodor's incluye un viaje por carretera por las Lofoten entre sus 25 imprescindibles. Time Out recomienda dormir en un rorbu, NatGeo propone recorrer las islas en ferry desde Svolvær en su top 10 de verano y Frommer's destaca Henningsvær y Reine.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-norway" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/norway/trondheim-lofoten-islands/lofoten-islands/" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/norway/experiences/news/photos/the-best-things-to-do-in-norway" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/norway/things-to-do/best-things-to-do-in-norway" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/summer-experiences-in-norway" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/lofoten-islands/suggested-itineraries/" }
+      ]
+    },
+    {
+      "id": "no-geirangerfjord",
+      "nombre": "Geirangerfjord (Geiranger y Dalsnibba)",
+      "pais_iso": "NO",
+      "region": "Møre og Romsdal",
+      "lat": 62.1008,
+      "lng": 7.2059,
+      "tipo": "costa",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides", "Fodor's", "Time Out"],
+      "justificacion": "Lonely Planet lo pone entre las mejores cosas que hacer en Noruega: fiordo UNESCO de paredes verticales y cascadas, con el ferry Geiranger-Hellesylt y el mirador de Dalsnibba. Rough Guides lo pone primero entre sus imprescindibles. Fodor's lo llama el fiordo más famoso del país y lo incluye en sus 25 imprescindibles. Time Out lo recomienda para recorrerlo en kayak.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-norway" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/norway/bergen-and-the-western-fjords/geiranger" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/norway/bergen-western-fjords/western-fjords/" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/norway/experiences/news/photos/the-best-things-to-do-in-norway" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/norway/things-to-do/best-things-to-do-in-norway" }
+      ]
+    },
+    {
+      "id": "no-sognefjord-flam",
+      "nombre": "Sognefjord, Nærøyfjord y Flåm (Norway in a Nutshell)",
+      "pais_iso": "NO",
+      "region": "Vestland",
+      "lat": 60.8628,
+      "lng": 7.1136,
+      "tipo": "costa",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Rick Steves", "Frommer's", "Lonely Planet", "Rough Guides", "Fodor's", "National Geographic"],
+      "justificacion": "Rick Steves considera el circuito Norway in a Nutshell (tren de Flåm y crucero por el Nærøyfjord) la gran experiencia natural del país, y describe el Sognefjord como el más largo y profundo. Frommer's dice que no hay viaje en tren más panorámico en Europa que Myrdal-Flåm. Lonely Planet pone el Sognefjord entre sus 12 mejores lugares. Rough Guides recomienda el Flåmsbana y Fodor's lo incluye en sus 25 imprescindibles. NatGeo cita el Sognefjord entre sus cruceros por fiordos del top 10 de verano.",
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/watch-read-listen/read/articles/norways-ultimate-natural-thrill" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/watch-read-listen/read/articles/the-nature-of-norway" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/bergen/" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-norway" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/norway/bergen-western-fjords/western-fjords/" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/norway/experiences/news/photos/the-best-things-to-do-in-norway" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/summer-experiences-in-norway" }
+      ]
+    },
+    {
+      "id": "no-urnes-lustrafjord",
+      "nombre": "Iglesia de madera de Urnes y Lustrafjord (Solvorn)",
+      "pais_iso": "NO",
+      "region": "Vestland",
+      "lat": 61.2983,
+      "lng": 7.3236,
+      "tipo": "monumento",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Rough Guides", "Fodor's", "Rick Steves"],
+      "justificacion": "Rough Guides incluye Urnes entre las 25 mejores cosas que hacer en Noruega y la llama la mejor iglesia de madera (stavkirke) del país, frente a Solvorn en el Lustrafjord. Fodor's incluye las stavkirker en sus 25 imprescindibles y señala Urnes (UNESCO, hacia 1130) como la más antigua. Rick Steves lleva su itinerario por el Sognefjellsvegen hasta el Lustrafjord.",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-norway/" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/norway/experiences/news/photos/the-best-things-to-do-in-norway" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/scandinavia-itinerary" }
+      ]
+    },
+    {
+      "id": "no-tromso",
+      "nombre": "Tromsø",
+      "pais_iso": "NO",
+      "region": "Troms",
+      "lat": 69.6492,
+      "lng": 18.9553,
+      "tipo": "ciudad",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Fodor's", "Frommer's", "Time Out", "National Geographic"],
+      "justificacion": "Lonely Planet le dedica una guía propia y la elige como la mejor ciudad de Noruega para actividades al aire libre todo el año (auroras, sol de medianoche, Catedral Ártica). Fodor's pone las auroras de Tromsø y las ballenas de sus fiordos entre sus 25 imprescindibles. Frommer's la llama la puerta del Ártico y el lugar más práctico para ver auroras. Time Out la pone tercera en su ranking de destinos de 'noctourism' 2026 y NatGeo incluye el teleférico y los conciertos de medianoche en la Catedral Ártica en su top 10 de verano.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/guide-to-tromso" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/norway/experiences/news/photos/the-best-things-to-do-in-norway" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/tromso/things-to-do/" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/news/the-surprising-european-city-named-the-best-noctourism-destination-for-2026-010926" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/summer-experiences-in-norway" }
+      ]
+    },
+    {
+      "id": "no-lysefjord-preikestolen",
+      "nombre": "Lysefjord (Preikestolen y Kjerag)",
+      "pais_iso": "NO",
+      "region": "Rogaland",
+      "lat": 58.9864,
+      "lng": 6.1903,
+      "tipo": "montaña",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides", "National Geographic", "Fodor's"],
+      "justificacion": "Lonely Planet tiene un artículo propio sobre el Lysefjord y pone el Preikestolen entre las mejores cosas que hacer en Noruega (unas 4 horas ida y vuelta, sin barandillas). Rough Guides lo incluye entre los imprescindibles y lo llama el mirador más célebre del Lysefjord. NatGeo propone subir al Preikestolen al amanecer entre sus ocho grandes aventuras en Noruega. Fodor's incluye la subida al Kjerag entre sus 25 imprescindibles.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-stavanger-lysefjord-norway" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-norway" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-norway/" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/norways-ultimate-adventures-musk-ox-safari-arctic-surfing" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/norway/experiences/news/photos/the-best-things-to-do-in-norway" }
+      ]
+    },
+    {
+      "id": "no-stavanger",
+      "nombre": "Stavanger",
+      "pais_iso": "NO",
+      "region": "Rogaland",
+      "lat": 58.9700,
+      "lng": 5.7331,
+      "tipo": "ciudad",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Rough Guides", "Rick Steves", "Lonely Planet"],
+      "justificacion": "Rough Guides le dedica un capítulo (Stavanger and around) como puerta del Lysefjord. Rick Steves incluye Stavanger en su cobertura del sur de Noruega. Lonely Planet la propone como base para los fiordos en su lista de los mejores lugares de Escandinavia.",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/norway/south/stavanger-around/" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/norway" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-scandinavia" }
+      ]
+    },
+    {
+      "id": "no-hardangerfjord",
+      "nombre": "Hardangerfjord (Ulvik, Lofthus)",
+      "pais_iso": "NO",
+      "region": "Vestland",
+      "lat": 60.3290,
+      "lng": 6.6640,
+      "tipo": "costa",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides", "National Geographic", "Frommer's"],
+      "justificacion": "Lonely Planet lo incluye entre sus 12 mejores lugares de Noruega: el segundo fiordo más largo del país, con huertos frutales y cascadas. Rough Guides recomienda Ulvik y Lofthus como las mejores bases. NatGeo cita el Hardangerfjord en los cruceros por fiordos de su top 10 de verano. Frommer's lo propone como excursión desde Bergen, aunque prefiere el Sognefjord.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-norway" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/norway/bergen-western-fjords/western-fjords/" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/summer-experiences-in-norway" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/bergen/" }
+      ]
+    },
+    {
+      "id": "no-trolltunga",
+      "nombre": "Trolltunga (Odda)",
+      "pais_iso": "NO",
+      "region": "Vestland",
+      "lat": 60.1242,
+      "lng": 6.7400,
+      "tipo": "montaña",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "National Geographic", "Fodor's", "Time Out"],
+      "justificacion": "Lonely Planet pone la caminata a Trolltunga entre las 13 mejores cosas que hacer en Noruega. NatGeo la incluye en su top 10 de verano, solo de mediados de junio a mediados de septiembre. Fodor's la pone entre sus 25 imprescindibles y Time Out entre las mejores cosas que hacer en el país.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-norway" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/summer-experiences-in-norway" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/norway/experiences/news/photos/the-best-things-to-do-in-norway" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/norway/things-to-do/best-things-to-do-in-norway" }
+      ]
+    },
+    {
+      "id": "no-alesund",
+      "nombre": "Ålesund",
+      "pais_iso": "NO",
+      "region": "Møre og Romsdal",
+      "lat": 62.4722,
+      "lng": 6.1495,
+      "tipo": "ciudad",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Fodor's", "Rough Guides"],
+      "justificacion": "Lonely Planet le dedica una página y la incluye en su lista de los mejores lugares de Noruega por su conjunto Jugendstil, reconstruido tras el incendio de 1904, y el mirador de Aksla. Fodor's pone su arquitectura modernista entre sus 25 imprescindibles. Rough Guides la cuenta entre lo mejor de los fiordos del norte, junto con Loen.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/destinations/norway/bergen-and-the-western-fjords/alesund" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/norway/experiences/news/photos/the-best-things-to-do-in-norway" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/norway/bergen-western-fjords/western-fjords/" }
+      ]
+    },
+    {
+      "id": "no-trollstigen",
+      "nombre": "Trollstigen y valle de Romsdal",
+      "pais_iso": "NO",
+      "region": "Møre og Romsdal",
+      "lat": 62.4564,
+      "lng": 7.6693,
+      "tipo": "montaña",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["National Geographic", "Fodor's"],
+      "justificacion": "NatGeo incluye la carretera del Trollstigen, entre Strynefjell y Romsdal, en su top 10 de verano en Noruega. Fodor's pone sus 11 curvas de horquilla entre sus 25 imprescindibles del país.",
+      "fuentes": [
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/summer-experiences-in-norway" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/norway/experiences/news/photos/the-best-things-to-do-in-norway" }
+      ]
+    },
+    {
+      "id": "no-atlanterhavsveien",
+      "nombre": "Carretera del Atlántico (Atlanterhavsveien)",
+      "pais_iso": "NO",
+      "region": "Møre og Romsdal",
+      "lat": 63.0177,
+      "lng": 7.3537,
+      "tipo": "costa",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Time Out"],
+      "justificacion": "Lonely Planet la incluye entre sus cinco grandes rutas por carretera de Noruega: ocho puentes sobre el Atlántico que unen Averøy con el continente desde 1989. Time Out la incluye entre las mejores cosas que hacer en Noruega.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-road-trips-in-norway" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/norway/things-to-do/best-things-to-do-in-norway" }
+      ]
+    },
+    {
+      "id": "no-trondheim",
+      "nombre": "Trondheim (catedral de Nidaros)",
+      "pais_iso": "NO",
+      "region": "Trøndelag",
+      "lat": 63.4305,
+      "lng": 10.3951,
+      "tipo": "ciudad",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Rough Guides", "Lonely Planet", "National Geographic"],
+      "justificacion": "Rough Guides le dedica un artículo de razones para visitarla y pone la catedral de Nidaros, el mayor edificio medieval de Escandinavia, entre las 25 mejores cosas que hacer en Noruega. Lonely Planet tiene una página propia de destino. NatGeo incluye en su top 10 de verano el Camino de San Olav, la ruta de peregrinación que termina en Nidaros.",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/reasons-to-visit-trondheim-norway/" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/norway/trondheim" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/summer-experiences-in-norway" }
+      ]
+    },
+    {
+      "id": "no-roros",
+      "nombre": "Røros",
+      "pais_iso": "NO",
+      "region": "Trøndelag",
+      "lat": 62.5747,
+      "lng": 11.3842,
+      "tipo": "pueblo",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Frommer's", "Rough Guides"],
+      "justificacion": "Frommer's le dedica una página de qué hacer: antigua ciudad minera del cobre del siglo XVIII, Patrimonio de la Humanidad, con la mina Olavsgruva a 9,5 km. Rough Guides la describe en su capítulo de Noruega central como una fascinante ciudad minera de casas de madera en la meseta, buena para caminar en verano y esquí de fondo en invierno.",
+      "fuentes": [
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/roros/things-to-do/" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/norway/central-norway/" }
+      ]
+    },
+    {
+      "id": "no-svalbard",
+      "nombre": "Svalbard (Longyearbyen)",
+      "pais_iso": "NO",
+      "region": "Svalbard",
+      "lat": 78.2232,
+      "lng": 15.6267,
+      "tipo": "isla",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides", "Fodor's", "National Geographic"],
+      "justificacion": "Lonely Planet lo incluye entre sus 12 mejores lugares de Noruega, a medio camino entre el continente y el Polo Norte. Rough Guides lo considera un gran imprescindible por sus safaris de fauna, glaciares y motos de nieve. Fodor's le dedica una guía de qué hacer y lo pone entre sus 25 imprescindibles (pueblos fantasma, trineos de perros, osos polares). NatGeo le dedica un artículo a sus parques nacionales.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-norway" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/norway/north-norway/svalbard/" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/norway/longyearbyen-svalbard/things-to-do" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/svalbard-norway" }
+      ]
+    },
+    {
+      "id": "no-nordkapp",
+      "nombre": "Cabo Norte (Nordkapp) y Finnmark",
+      "pais_iso": "NO",
+      "region": "Finnmark",
+      "lat": 71.1685,
+      "lng": 25.7838,
+      "tipo": "costa",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Fodor's", "National Geographic", "Frommer's", "Lonely Planet"],
+      "justificacion": "Fodor's incluye el Cabo Norte entre sus 25 imprescindibles de Noruega. NatGeo pone la cultura sami y el Ártico de Finnmark, con el acantilado del Cabo Norte y la meseta de Finnmarksvidda, en su top 10 de verano. Frommer's lo destaca entre sus experiencias favoritas como el punto más septentrional de Europa para ver el sol de medianoche. Lonely Planet tiene una página propia de destino, aunque no lo pone en su lista principal.",
+      "fuentes": [
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/norway/experiences/news/photos/the-best-things-to-do-in-norway" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/summer-experiences-in-norway" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/norway/introduction/frommers-favorite-experiences" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/norway/finnmark/nordkapp" }
+      ]
+    },
+    {
+      "id": "no-jotunheimen",
+      "nombre": "Parque Nacional de Jotunheimen (Galdhøpiggen, Besseggen, Lom)",
+      "pais_iso": "NO",
+      "region": "Innlandet",
+      "lat": 61.6363,
+      "lng": 8.3125,
+      "tipo": "parque",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rick Steves", "Rough Guides", "Time Out"],
+      "justificacion": "Lonely Planet lo incluye entre sus mejores lugares y sus mejores cosas que hacer en Noruega: las cumbres más altas del país, con refugios y senderismo. Rick Steves le dedica un capítulo (Gudbrandsdal y Jotunheimen) y lo atraviesa por el Sognefjellsvegen en su itinerario. Rough Guides lo pone entre las tres mejores zonas de senderismo del país y Time Out recomienda subir al Galdhøpiggen.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-norway" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/scandinavia-itinerary" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/norway/sports-outdoor-activities/" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/norway/things-to-do/best-things-to-do-in-norway" }
+      ]
+    },
+    {
+      "id": "no-lillehammer",
+      "nombre": "Lillehammer y Gudbrandsdal",
+      "pais_iso": "NO",
+      "region": "Innlandet",
+      "lat": 61.1153,
+      "lng": 10.4662,
+      "tipo": "ciudad",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Rick Steves", "Fodor's", "Frommer's"],
+      "justificacion": "Rick Steves la incluye en su cobertura de Noruega por el museo al aire libre de Maihaugen, aunque la llama turística. Fodor's pone el esquí de fondo en Lillehammer entre sus 25 imprescindibles. Frommer's la presenta en su guía de Noruega centro-oriental como la célebre estación de los Juegos Olímpicos de 1994.",
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/norway" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/norway/experiences/news/photos/the-best-things-to-do-in-norway" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/east-central-norway/" }
+      ]
+    },
+    {
+      "id": "no-hardangervidda",
+      "nombre": "Parque Nacional de Hardangervidda",
+      "pais_iso": "NO",
+      "region": "Vestland / Buskerud",
+      "lat": 60.1000,
+      "lng": 7.5000,
+      "tipo": "parque",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Rough Guides"],
+      "justificacion": "Rough Guides lo describe como la mayor meseta de montaña de Europa, de paisaje lunar y lagos, favorita de los senderistas noruegos, y lo pone entre las tres mejores zonas de senderismo del país junto con Rondane y Jotunheimen.",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/norway/sports-outdoor-activities/" }
+      ]
+    },
+    {
+      "id": "no-vesteralen-andenes",
+      "nombre": "Vesterålen (Andenes y Stø, avistamiento de ballenas)",
+      "pais_iso": "NO",
+      "region": "Nordland",
+      "lat": 69.3143,
+      "lng": 16.1194,
+      "tipo": "isla",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Rough Guides", "National Geographic"],
+      "justificacion": "Rough Guides pone el avistamiento de ballenas en Andenes entre las 25 mejores cosas que hacer en Noruega. NatGeo incluye los safaris de ballenas desde Stø, de finales de mayo a agosto, en su top 10 de verano.",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-norway/" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/summer-experiences-in-norway" }
+      ]
+    },
+    {
+      "id": "se-estocolmo",
+      "nombre": "Estocolmo (Gamla Stan, Djurgården)",
+      "pais_iso": "SE",
+      "region": "Estocolmo",
+      "lat": 59.3293,
+      "lng": 18.0686,
+      "tipo": "ciudad",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rick Steves", "National Geographic", "Time Out", "Frommer's", "Rough Guides"],
+      "justificacion": "Lonely Planet la pone primera en sus 11 mejores lugares de Suecia (14 islas, historia, cultura y naturaleza) y tiene una guía propia de imprescindibles. Rick Steves destaca Gamla Stan, el museo Vasa y Skansen, al que llama el primer y mejor museo al aire libre de Europa. NatGeo le dedica una guía de la capital del archipiélago, Time Out sus 19 mejores cosas que hacer y Frommer's sus experiencias favoritas. Rough Guides pone Gamla Stan y el museo Vasa entre las 27 mejores cosas que hacer en Suecia.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-sweden" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-stockholm" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/sweden/stockholm" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/guide-to-stockholm-sweden-capital" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/stockholm/things-to-do/best-things-to-do-in-stockholm" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/stockholm/introduction/frommers-favorite-experiences" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-sweden/" }
+      ]
+    },
+    {
+      "id": "se-archipielago-estocolmo",
+      "nombre": "Archipiélago de Estocolmo (Vaxholm, Grinda, Sandhamn)",
+      "pais_iso": "SE",
+      "region": "Estocolmo",
+      "lat": 59.4024,
+      "lng": 18.3513,
+      "tipo": "isla",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Rick Steves", "National Geographic", "Rough Guides", "Lonely Planet", "Fodor's"],
+      "justificacion": "Rick Steves lo llama el jardín rocoso de más de 30.000 islas de Suecia y recomienda Vaxholm, Grinda y Sandhamn en barco desde Estocolmo. NatGeo recomienda Fjäderholmarna como primera parada perfecta del archipiélago. Rough Guides incluye el archipiélago entre las 27 mejores cosas que hacer en Suecia. Lonely Planet recomienda una excursión de un día al archipiélago en su ficha de Estocolmo y Fodor's destaca sus más de 28.000 islas e islotes.",
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/watch-read-listen/read/articles/stockholms-noble-past-and-present" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/guide-to-stockholm-sweden-capital" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-sweden/" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-sweden" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/sweden" }
+      ]
+    },
+    {
+      "id": "se-gotemburgo",
+      "nombre": "Gotemburgo y su archipiélago",
+      "pais_iso": "SE",
+      "region": "Västra Götaland",
+      "lat": 57.7089,
+      "lng": 11.9746,
+      "tipo": "ciudad",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides", "National Geographic", "Time Out", "Fodor's", "Frommer's"],
+      "justificacion": "Lonely Planet la incluye entre sus 11 mejores lugares de Suecia por su ambiente relajado y su museo de arte, y le dedica un artículo de imprescindibles. Rough Guides le dedica sus 13 mejores cosas que hacer y la propone como próxima escapada urbana europea. NatGeo tiene una guía de la 'elegante segunda ciudad', con su archipiélago de una veintena de islas. Time Out tiene su guía de imprescindibles, Fodor's una guía de destino y Frommer's destaca Liseberg y el archipiélago.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-gothenburg" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/things-to-do-in-gothenburg/" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/gothenburg-sweden-inside-guide" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/sweden/things-to-do/best-things-to-do-in-gothenburg" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/sweden/goteborg-gothenburg" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/sweden/" }
+      ]
+    },
+    {
+      "id": "se-gotland-visby",
+      "nombre": "Gotland y Visby",
+      "pais_iso": "SE",
+      "region": "Gotland",
+      "lat": 57.6348,
+      "lng": 18.2948,
+      "tipo": "isla",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Fodor's", "Frommer's", "Rough Guides"],
+      "justificacion": "Lonely Planet incluye Gotland entre sus 11 mejores lugares de Suecia: Visby tiene uno de los cascos medievales mejor conservados de Escandinavia. Fodor's la describe como la principal isla de vacaciones de Suecia, con 3 km de muralla y 44 torres. Frommer's destaca la ciudad hanseática y su Semana Medieval de agosto. Rough Guides le dedica un capítulo y pone las playas de Gotland entre las 27 mejores cosas que hacer en Suecia.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-sweden" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/sweden" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/sweden/" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/sweden/southeast/gotland/" }
+      ]
+    },
+    {
+      "id": "se-bohuslan",
+      "nombre": "Costa de Bohuslän (Smögen, Fjällbacka, grabados de Tanum)",
+      "pais_iso": "SE",
+      "region": "Västra Götaland",
+      "lat": 58.3536,
+      "lng": 11.2236,
+      "tipo": "costa",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides", "National Geographic"],
+      "justificacion": "Lonely Planet incluye Bohuslän entre sus 11 mejores lugares de Suecia y le dedica un artículo de ruta en coche (Smögen, Fjällbacka, grabados rupestres de Tanum). Rough Guides pone la navegación por la costa de Bohuslän, con unas 3.000 islas, entre las 27 mejores cosas que hacer en Suecia. NatGeo le dedica una guía de la costa oeste sueca.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/road-tripping-swedens-sublime-bohuslan-coast" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-sweden/" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/insiders-guide-to-swedens-west-coast" }
+      ]
+    },
+    {
+      "id": "se-uppsala",
+      "nombre": "Uppsala y Gamla Uppsala",
+      "pais_iso": "SE",
+      "region": "Uppsala",
+      "lat": 59.8586,
+      "lng": 17.6389,
+      "tipo": "ciudad",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rick Steves", "Frommer's"],
+      "justificacion": "Lonely Planet la incluye entre sus 11 mejores lugares de Suecia por los túmulos reales de Gamla Uppsala y le dedica un artículo con sus 8 imprescindibles. Rick Steves la considera la mejor excursión desde Estocolmo, a menos de una hora en tren. Frommer's destaca la catedral, la mayor de Escandinavia, el jardín de Linneo y Gamla Uppsala.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-uppsala-sweden" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/sweden" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/sweden/frommers-favorite-experiences/" }
+      ]
+    },
+    {
+      "id": "se-kalmar",
+      "nombre": "Kalmar (castillo de Kalmar)",
+      "pais_iso": "SE",
+      "region": "Kalmar (Småland)",
+      "lat": 56.6634,
+      "lng": 16.3568,
+      "tipo": "ciudad",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rick Steves", "Fodor's", "Frommer's", "Rough Guides"],
+      "justificacion": "Lonely Planet incluye Kalmar y el Glasriket entre sus 11 mejores lugares de Suecia por su castillo renacentista. Rick Steves llama al castillo una gran experiencia medieval y recomienda dormir en Kalmar para recorrer la región del vidrio. Fodor's considera el castillo su principal atracción y tiene una página de sus lugares de interés. Frommer's le dedica una guía de destino (el castillo renacentista mejor conservado de Suecia) y Rough Guides pone el castillo entre las 27 mejores cosas que hacer en Suecia.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-sweden" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/watch-read-listen/read/articles/rural-sweden-glass-castles-and-minnesotans" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/sweden/the-south-and-the-kingdom-of-glass/places/kalmar/things-to-do/sights" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/kalmar/" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-sweden/" }
+      ]
+    },
+    {
+      "id": "se-glasriket",
+      "nombre": "Glasriket, el Reino del Vidrio (Kosta, Orrefors)",
+      "pais_iso": "SE",
+      "region": "Kronoberg y Kalmar (Småland)",
+      "lat": 56.8400,
+      "lng": 15.5700,
+      "tipo": "region",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Rick Steves", "Lonely Planet", "Frommer's"],
+      "justificacion": "Rick Steves le dedica un artículo: el rincón más atractivo de Småland, entre Kalmar y Växjö, lleno de talleres de vidrio soplado. Lonely Planet lo incluye junto con Kalmar entre sus 11 mejores lugares de Suecia. Frommer's destaca que al menos 16 grandes vidrierías, como Kosta Boda y Orrefors, reciben visitantes.",
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/watch-read-listen/read/articles/rural-sweden-glass-castles-and-minnesotans" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-sweden" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/kalmar/" }
+      ]
+    },
+    {
+      "id": "se-oland",
+      "nombre": "Isla de Öland",
+      "pais_iso": "SE",
+      "region": "Kalmar (Småland)",
+      "lat": 56.8794,
+      "lng": 16.6560,
+      "tipo": "isla",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Frommer's", "Rough Guides"],
+      "justificacion": "Lonely Planet la incluye entre sus 11 mejores lugares de Suecia por sus paisajes austeros y la playa de Böda Sand. Frommer's le dedica una guía de destino: playas, el alvar sin árboles cubierto de flores, aves y molinos. Rough Guides la describe en su capítulo del sureste, con más de cuatrocientos molinos antiguos y el alvaret.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-sweden" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/oland/" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/sweden/southeast/" }
+      ]
+    },
+    {
+      "id": "se-dalarna-siljan",
+      "nombre": "Dalarna y lago Siljan (Rättvik, Mora, Falun)",
+      "pais_iso": "SE",
+      "region": "Dalarna",
+      "lat": 60.8865,
+      "lng": 15.1170,
+      "tipo": "region",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Frommer's", "Time Out"],
+      "justificacion": "Lonely Planet incluye Dalarna entre sus 11 mejores lugares de Suecia por las artes tradicionales y los caballitos de Dala de Nusnäs, y propone una ruta en coche por el lago Siljan. Frommer's la cuenta entre sus destinos favoritos, con pueblos junto al Siljan que conservan su aire antiguo. Time Out le dedica sus 10 mejores cosas que hacer, con las casas de Carl Larsson y Anders Zorn y la gran mina de cobre de Falun.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-sweden" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-road-trips-in-sweden" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/sweden/" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/sweden/things-to-do/10-best-things-to-do-in-dalarna" }
+      ]
+    },
+    {
+      "id": "se-abisko-kungsleden",
+      "nombre": "Abisko y el Kungsleden (Kebnekaise)",
+      "pais_iso": "SE",
+      "region": "Norrbotten (Laponia sueca)",
+      "lat": 68.3495,
+      "lng": 18.8312,
+      "tipo": "parque",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Fodor's", "Frommer's", "Rough Guides"],
+      "justificacion": "Lonely Planet pone la Laponia sueca entre sus 11 mejores lugares de Suecia, con el Parque Nacional de Abisko como capital de las auroras y el Kungsleden como una de las grandes rutas de larga distancia del mundo. Fodor's incluye Abisko en su top 10 mundial para ver auroras. Frommer's llama al Kungsleden, de Abisko a Hemavan y junto al Kebnekaise, la caminata de tu vida. Rough Guides pone el Kungsleden y las auroras entre las 27 mejores cosas que hacer en Suecia.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-sweden" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-kiruna-lapland-sweden" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/news/trip-ideas/top-10-places-to-see-the-northern-lights" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/sweden/" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-sweden/" }
+      ]
+    },
+    {
+      "id": "se-kiruna-icehotel",
+      "nombre": "Kiruna e Icehotel de Jukkasjärvi",
+      "pais_iso": "SE",
+      "region": "Norrbotten (Laponia sueca)",
+      "lat": 67.8558,
+      "lng": 20.2253,
+      "tipo": "pueblo",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Frommer's", "Fodor's"],
+      "justificacion": "Lonely Planet le dedica un artículo a Kiruna y la Laponia sueca y dice que el Icehotel de Jukkasjärvi, tallado de nuevo cada invierno, es un destino en sí mismo. Frommer's destaca el Ice Hotel, a 200 km al norte del círculo polar, y el festival de la nieve de Kiruna. Fodor's incluye el Ice Hotel y la Laponia sueca entre sus 10 destinos de frío para el invierno.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-kiruna-lapland-sweden" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/swedish-lapland/active-pursuits/" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/news/photos/10-cold-weather-destinations-to-visit-this-winter" }
+      ]
+    },
+    {
+      "id": "se-laponia-jokkmokk",
+      "nombre": "Laponia y Jokkmokk (Sarek, cultura sami)",
+      "pais_iso": "SE",
+      "region": "Norrbotten (Laponia sueca)",
+      "lat": 66.6066,
+      "lng": 19.8227,
+      "tipo": "region",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Rough Guides", "Lonely Planet"],
+      "justificacion": "Rough Guides incluye el mercado de invierno de Jokkmokk, que se celebra cada febrero, en su lista de imprescindibles de Suecia. Lonely Planet tiene fichas del área Patrimonio de la Humanidad de Laponia y advierte que Sarek es solo para senderistas experimentados y bien equipados.",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-sweden/" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/sweden/laponia-world-heritage-area/attractions/kvikkjokk/a/poi-sig/1578959/1330276" }
+      ]
+    },
+    {
+      "id": "se-hoga-kusten",
+      "nombre": "Costa Alta (Höga Kusten) y Skuleskogen",
+      "pais_iso": "SE",
+      "region": "Västernorrland",
+      "lat": 63.0900,
+      "lng": 18.3800,
+      "tipo": "costa",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Rough Guides", "Lonely Planet", "National Geographic"],
+      "justificacion": "Rough Guides le dedica una página: Patrimonio de la Humanidad, con los acantilados más altos del país y una tierra que se ha elevado unos 286 m desde la última glaciación. Lonely Planet recomienda subir al Skuleberget y recorrer el Parque Nacional de Skuleskogen en su artículo de parques nacionales. NatGeo destaca las cabañas gratuitas de Skuleskogen para quienes recorren la Costa Alta.",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/sweden/bothnian-coast/hoga-kusten-the-high-coast/" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-national-parks-sweden" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/at-these-cabins-sweden-goes-wild" }
+      ]
+    },
+    {
+      "id": "se-gota-kanal-vadstena",
+      "nombre": "Canal de Göta y Vadstena",
+      "pais_iso": "SE",
+      "region": "Östergötland",
+      "lat": 58.4475,
+      "lng": 14.8902,
+      "tipo": "region",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Frommer's", "Rough Guides"],
+      "justificacion": "Lonely Planet pone el crucero o la ruta en bici por el canal de Göta (66 esclusas, escaleras de Berg y Borenshult) entre las mejores cosas que hacer en Suecia. Frommer's le dedica una guía y llama a Vadstena la parada más evocadora del recorrido. Rough Guides describe Vadstena, con su castillo con foso y la abadía de Santa Brígida, y recomienda el canal en bici por sus caminos de sirga.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-sweden" },
+        { "guia": "Frommer's", "url": "https://frommers.com/destinations/lake-vanern-and-the-gota-canal/attractions/overview" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/sweden/southeast/" }
+      ]
+    },
+    {
+      "id": "se-malmo",
+      "nombre": "Malmö",
+      "pais_iso": "SE",
+      "region": "Skåne",
+      "lat": 55.6050,
+      "lng": 13.0038,
+      "tipo": "ciudad",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Time Out", "Fodor's", "Rough Guides"],
+      "justificacion": "Lonely Planet le dedica sus 7 mejores cosas que hacer (Gamla Staden, Moderna Museet en una antigua central eléctrica). Time Out tiene su propia guía de imprescindibles, con los baños fríos de Ribersborg y el barrio de Västra Hamnen. Fodor's tiene una guía de destino (Lilla Torg, castillo de Malmöhus, S:t Petri). Rough Guides la describe en su capítulo del suroeste como tercera ciudad del país, unida a Copenhague por el puente del Øresund.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-malmo-sweden" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/sweden/things-to-do/best-things-to-do-in-malmo" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/sweden/the-south-and-the-kingdom-of-glass/places/malmo" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/sweden/southwest/" }
+      ]
+    },
+    {
+      "id": "se-lund",
+      "nombre": "Lund (catedral románica)",
+      "pais_iso": "SE",
+      "region": "Skåne",
+      "lat": 55.7047,
+      "lng": 13.1910,
+      "tipo": "ciudad",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Rough Guides", "Fodor's", "Lonely Planet"],
+      "justificacion": "Rough Guides pone la catedral de Lund entre las 27 mejores cosas que hacer en Suecia y compara la ciudad universitaria con Oxford. Fodor's le dedica una guía de destino (catedral de 1145 con su reloj astronómico, museo al aire libre Kulturen). Lonely Planet destaca la Lunds domkyrka y el museo Skissernas entre lo mejor del sur de Suecia.",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-sweden/" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/sweden/the-south-and-the-kingdom-of-glass/places/lund" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/sweden/top-things-to-do" }
+      ]
+    },
+    {
+      "id": "se-ystad-osterlen",
+      "nombre": "Ystad y Ales Stenar",
+      "pais_iso": "SE",
+      "region": "Skåne",
+      "lat": 55.4295,
+      "lng": 13.8200,
+      "tipo": "pueblo",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Fodor's"],
+      "justificacion": "Fodor's le dedica una guía de destino: casco medieval de casas de entramado, el convento franciscano y la iglesia de Santa María, con el círculo de piedras de Ales Stenar a menos de media hora al este.",
+      "fuentes": [
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/sweden/the-south-and-the-kingdom-of-glass/places/ystad" }
+      ]
+    },
+    {
+      "id": "se-are",
+      "nombre": "Åre",
+      "pais_iso": "SE",
+      "region": "Jämtland",
+      "lat": 63.3990,
+      "lng": 13.0815,
+      "tipo": "montaña",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Time Out"],
+      "justificacion": "Time Out le dedica 20 consejos y la presenta como el mayor destino de montaña de Escandinavia, con esquí, caminatas y sauna junto al río Indalsälven.",
+      "fuentes": [
+        { "guia": "Time Out", "url": "https://www.timeout.com/sweden/things-to-do/best-things-to-do-in-are" }
+      ]
+    },
+    {
+      "id": "se-klaralven-varmland",
+      "nombre": "Río Klarälven (balsas de troncos en Värmland)",
+      "pais_iso": "SE",
+      "region": "Värmland",
+      "lat": 60.7310,
+      "lng": 12.8710,
+      "tipo": "naturaleza",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Rough Guides"],
+      "justificacion": "Rough Guides pone el descenso en balsa por el Klarälven, en Värmland, entre los primeros puestos de sus 27 mejores cosas que hacer en Suecia.",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-sweden/" }
+      ]
+    },
+    {
+      "id": "se-birka",
+      "nombre": "Birka (isla de Björkö)",
+      "pais_iso": "SE",
+      "region": "Estocolmo",
+      "lat": 59.3350,
+      "lng": 17.5430,
+      "tipo": "monumento",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Rough Guides"],
+      "justificacion": "Rough Guides incluye el yacimiento vikingo de Birka, Patrimonio de la Humanidad en una isla del lago Mälaren, entre las 27 mejores cosas que hacer en Suecia.",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-sweden/" }
+      ]
+    },
+    {
+      "id": "se-sigtuna",
+      "nombre": "Sigtuna",
+      "pais_iso": "SE",
+      "region": "Estocolmo",
+      "lat": 59.6173,
+      "lng": 17.7236,
+      "tipo": "pueblo",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Rick Steves"],
+      "justificacion": "Rick Steves la recomienda en su cobertura de Suecia como la ciudad más antigua del país, con piedras rúnicas y casas del siglo XVIII.",
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/sweden" }
+      ]
+    }
+  ]
+}
