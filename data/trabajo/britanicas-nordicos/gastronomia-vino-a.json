@@ -1,0 +1,22 @@
+{
+  "agente": "gastronomia-vino",
+  "subregion": "britanicas-nordicos",
+  "grupo": "a",
+  "ronda": 1,
+  "paises": ["GB", "IE", "IS"],
+  "estado": "en_progreso",
+  "puntajes": [
+    {
+      "id": "gb-lake-district",
+      "puntaje": 5,
+      "justificacion": "L'Enclume, de Simon Rogan en Cartmel, tiene tres estrellas Michelin desde 2022 y una estrella verde, y es el único triestrellado británico fuera de Londres y el sureste. Cumbria suma otros restaurantes con estrella y productos propios como la salchicha de Cumberland y el pan de jengibre de Grasmere.",
+      "platos": ["Salchicha de Cumberland", "Pan de jengibre de Grasmere", "Sticky toffee pudding de Cartmel", "Cordero Herdwick"],
+      "fuentes": [
+        {"guia": "Guía Michelin (L'Enclume)", "url": "https://guide.michelin.com/en/cumbria/cartmel/restaurant/l-enclume"},
+        {"guia": "Guía Michelin (L'Enclume, tercera estrella 2022)", "url": "https://guide.michelin.com/gb/en/article/michelin-star-revelation/l-enclume-the-uk-s-newest-three-star-restaurant"},
+        {"guia": "Time Out (estrellas por región 2026)", "url": "https://www.timeout.com/uk/news/which-uk-region-has-the-most-michelin-star-restaurants-in-2026-022826"}
+      ]
+    }
+  ],
+  "nuevos": []
+}

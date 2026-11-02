@@ -1,0 +1,12 @@
+{
+  "agente": "cultura-historia",
+  "subregion": "britanicas-nordicos",
+  "grupo": "b",
+  "ronda": 1,
+  "estado": "parcial",
+  "puntajes": [
+    { "id": "no-urnes-lustrafjord", "puntaje": 4, "unesco": true, "justificacion": "La iglesia de madera de Urnes, de los siglos XII-XIII, es Patrimonio Mundial desde 1979 y la stavkirke más antigua conservada, con tallas en estilo animal que enlazan el arte vikingo con el románico.", "fuentes": [{ "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/58/" }] },
+    { "id": "se-bohuslan", "puntaje": 4, "unesco": true, "justificacion": "Los grabados rupestres de Tanum, Patrimonio Mundial desde 1994, reúnen más de 600 paneles de la Edad del Bronce con barcos, armas, animales y figuras humanas, la mayor densidad del norte de Europa.", "fuentes": [{ "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/557/" }] }
+  ],
+  "nuevos": []
+}
