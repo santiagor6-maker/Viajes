@@ -1,0 +1,190 @@
+{
+  "subregion": "britanicas-nordicos",
+  "grupo": "a",
+  "ronda": 2,
+  "fecha": "2026-11-02",
+  "ultima_ronda": true,
+  "estado": "completo",
+  "busquedas_usadas": 33,
+  "nota_alcance": "Segunda y última ronda de revisión de GB (47 lugares), IE (21) e IS (15). Revisé los *-fix1.json (ronda 4) de los seis especialistas, solo los ids gb-/ie-/is-, y curador-ajustes.json (notas.ronda4), punto por punto frente a revision-a-r1.json, más los 83 lugares finales de data/lugares/europa.json. WebFetch no se usó: una URL cuenta como verificada si WebSearch devuelve esa página o la misma ruta. Usé 33 de las 35 WebSearch. Comprobaciones automáticas en los 83 lugares: la fórmula global y el nivel están bien en todos; todos los puntajes de los cinco fix1 temáticos y los 3 de logística coinciden con el archivo final; ninguna URL de fuentes_quitar sigue publicada; ninguna actividad de adrenalina_cerca pasa de 60 km; y ya no hay coordenadas con menos de 3 decimales. Spot-check de las coordenadas corregidas: is-circulo-dorado (Geysir, 64,3131 / -20,3006), is-askja (Víti, 65,0471 / -16,7235), gb-glencoe (centro de visitantes, 56,6711 / -5,0829), ie-inishowen (Malin Head, 55,3819 / -7,3739) y gb-cotswolds (Chipping Campden, 52,0514 / -1,7808): todas en el lugar correcto. is-glaumbaer sigue descartado (global 1,8), así que su fix1 de gastronomía no tiene efecto. Como es la última ronda, ningún agente se reenvía; los comentarios quedan como pendientes.",
+  "agentes": {
+    "guias-expertas": {
+      "nota": 8.0,
+      "desglose": {
+        "fuentes": 1.5,
+        "exactitud": 2.0,
+        "criterio": 1.5,
+        "coherencia": 1.5,
+        "descripcion": 1.5
+      },
+      "aprobado": false,
+      "comentarios": [
+        "Alcance: guias-expertas-fix1.json (ronda 4), 12 puntajes y 18 correcciones de coordenadas de GB/IE/IS, frente a revision-a-r1. Todo está propagado a europa.json.",
+        "Resueltos de r1: las 18 coordenadas tienen ahora 4 decimales y el punto pedido (comprobadas 5); se quita Rick Steves de is-husavik e is-seydisfjordur (Seyðisfjörður baja a 3); gb-hebridas-exteriores sube a 4 con Bradt y National Geographic; gb-north-york-moors-whitby, a 4 con Frommer's y National Geographic; gb-canterbury (3) e ie-rock-of-cashel (3) se volvieron a buscar; gb-stonehenge y ie-bru-na-boinne suben a 5; gb-york y gb-oxford se quedan en 4 porque no apareció la cuarta guía; se quita la ficha de Fodor's de York Minster; y salen las notas de proceso de Hébridas, North York Moors y Brighton.",
+        "Búsquedas: 12 sobre 10 URL nuevas. Confirmadas 5: lonelyplanet.com/articles/best-historic-sights-england, timeout.com/york/things-to-do/best-things-to-do-in-york, lonelyplanet.com/articles/best-places-to-visit-in-iceland (Húsavík sale en el puesto 7), timeout.com/iceland/things-to-do/best-things-to-do-in-iceland (la página existe, pero no pude ver si nombra Heimaey y Húsavík) y la presencia de las islas Westman en el especial de Rick Steves sobre Islandia (Travel Bites 905 en PBS; la ruta ricksteves.com/tv-programmers/iceland no salió). No confirmadas 4, con 1 o 2 búsquedas cada una: roughguides.com/articles/best-things-to-do-in-ireland/ y frommers.com/destinations/county-meath/things-to-do/ (son 2 de las 4 guías del 5 de ie-bru-na-boinne; sin ellas, con LP y Rick Steves, quedaría en 3); frommers.com/destinations/iceland/planning-a-trip/ (cuarta guía de is-husavik); y fodors.com/world/europe/iceland/westfjords/isafjordur (existe la sección de Fodor's de los Fiordos del Oeste, pero Látrabjarg está en su página de Patreksfjörður, no en la de Ísafjörður).",
+        "Coherencia de la escala. En las notas fijas una regla única: «cada guía cuenta una vez si tiene una lista de imprescindibles, un itinerario o una ficha propia». Con esa regla, ie-kilkenny conserva el 5 con dos itinerarios, una lista y las excursiones de un día de Time Out. Pero gb-brighton se queda en 4 con 4 guías («Son guías propias de la ciudad, no listas nacionales de imprescindibles, por eso tiene 4»), y lo mismo is-husavik con 4 guías («no de imprescindibles del país»). Es la excepción que la propia regla dice no hacer. Además, la de Húsavík es falsa: la URL citada de Lonely Planet es su lista nacional de mejores lugares de Islandia, donde sale en el puesto 7.",
+        "Texto: en is-husavik la justificación dice que LP lo incluye «entre sus 12 mejores lugares de Islandia para avistar ballenas», pero la URL es la lista general de lugares. La frase sobre el puntaje de gb-brighton y la de is-husavik explican la escala en lugar de describir la recomendación; van en notas.",
+        "Pendientes que tú mismo declaras y que vienen del curador en r1: gb-orcadas-neolitico sigue con «Rick Steves (columna sindicada)» en luxurytraveladvisor.com y la Travelist de LP citada por Visit Orkney; gb-seven-sisters, con «Rough Guides vía la autoridad del parque». Con fuentes propias, Orkney quedaría en 2 y Seven Sisters en 1. gb-cambridge cuenta Best in Travel de LP «reseñado por Time Out»: el 5 se sostiene igual con el ★★★ de ViaMichelin más Fodor's, pero la cita de LP es de segunda mano.",
+        "Última ronda: no se reenvía. Los tres países quedan con revision_pendiente."
+      ]
+    },
+    "cultura-historia": {
+      "nota": 9.5,
+      "desglose": {
+        "fuentes": 1.5,
+        "exactitud": 2.0,
+        "criterio": 2.0,
+        "coherencia": 2.0,
+        "descripcion": 2.0
+      },
+      "aprobado": true,
+      "comentarios": [
+        "Alcance: cultura-historia-fix1.json (ronda 4), 21 puntajes de GB/IE, frente a revision-a-r1. Todo está propagado a europa.json.",
+        "Resueltos de r1: cada ciudad cita su propia fuente en lugar de la página genérica de VisitBritain (kings.cam.ac.uk, Glasgow Life, titanicbelfast.com, HES para Stirling, nts.org.uk para Culloden y chatsworth.org); gb-canterbury cita la ficha whc 496; gb-wells-glastonbury deja la página de rodajes y el proyecto de Reading; los cuatro PDF comerciales de la OPW se cambian por fichas de heritageireland.ie o ireland.com; gb-canterbury y gb-durham suben a 5 frente a ie-dublin; gb-oxford y gb-cambridge quedan los dos en 5 y Oxford ya no se apoya en Blenheim; el centro de Calanais lleva fecha; y las justificaciones de r3 quedan en dos frases.",
+        "Búsquedas: 3. Confirmadas: la reapertura del centro de visitantes de Calanais en julio de 2026 (calanais.org/visit y Visit Outer Hebrides), la apertura del centro de Carrowmore el 1 de abril de 2026 (heritageireland.ie, OPW y RTÉ) y la página de sothebys.com sobre el Museo Internacional de la Esclavitud.",
+        "Pendiente menor: gb-liverpool cita el directorio de museos de Sotheby's, que existe pero no es la fuente oficial. En r1 se pidió liverpoolmuseums.org.uk. gb-wells-glastonbury cita la National Churches Trust para Glastonbury en lugar de glastonburyabbey.com; se acepta.",
+        "Aprobado."
+      ]
+    },
+    "naturaleza": {
+      "nota": 9.5,
+      "desglose": {
+        "fuentes": 2.0,
+        "exactitud": 2.0,
+        "criterio": 2.0,
+        "coherencia": 2.0,
+        "descripcion": 1.5
+      },
+      "aprobado": true,
+      "comentarios": [
+        "Alcance: naturaleza-fix1.json (ronda 4), 6 puntajes de GB, frente a revision-a-r1. Todo está propagado a europa.json.",
+        "Resueltos de r1: gb-snowdonia y gb-cairngorms suben a 5, al nivel de Glencoe, Skye y el Lake District; gb-north-york-moors-whitby cambia el blog de YHA y visitbritain.org por National Trails; gb-loch-lomond-trossachs cambia Walkhighlands por Forestry and Land Scotland; gb-cornualles cambia Ramblers por el National Trust; y se quita la nota interna de gb-lake-district. Los datos son correctos (Yr Wyddfa, 1.085 m; Cleveland Way, 109 millas).",
+        "Búsquedas: 2. Confirmadas: cairngorms.co.uk/the-national-park/landscapes/mountains-and-the-plateaux («the most extensive 'arctic' area in the UK») y la ruta del Miners' Track en la web de la autoridad de Eryri (ficha oficial de 13 km, «hard»). La ruta exacta snowdonia.gov.wales/visiting/walking/mountain-walks/miners-track no salió, pero el dominio y el contenido son los de la autoridad.",
+        "Texto: en gb-snowdonia, «es un paisaje de montaña emblemático del nivel de Glencoe o del Lake District» justifica el puntaje comparándolo con otros lugares en vez de describir el sitio. Va en notas.",
+        "Aprobado."
+      ]
+    },
+    "gastronomia-vino": {
+      "nota": 9.5,
+      "desglose": {
+        "fuentes": 1.5,
+        "exactitud": 2.0,
+        "criterio": 2.0,
+        "coherencia": 2.0,
+        "descripcion": 2.0
+      },
+      "aprobado": true,
+      "comentarios": [
+        "Alcance: gastronomia-vino-fix1.json (ronda 4), 34 puntajes de GB/IE/IS, frente a revision-a-r1. Todo está propagado a europa.json; el fix de is-glaumbaer no tiene efecto porque el lugar está descartado.",
+        "Resueltos de r1: gb-lake-district corrige el dato falso y cita a Moor Hall como triestrellado desde 2025; gb-liverpool sube de 2 a 4 por Moor Hall, a 18 km; is-reikiavik sube a 4 con las fichas de Dill y ÓX; gb-oxford, gb-londres, gb-oban-mull-iona y gb-belfast cambian las fuentes débiles por fichas de la Guía Michelin o turismo oficial; gb-st-andrews confirma que The Peat Inn conserva la estrella en 2026; y las coletillas «Algo de interés» y «Poca oferta» se sustituyen por el producto concreto (sal de Achill, cordero IGP de Connemara, ostras de Carlingford, el fish and chips en grasa de vacuno de Blists Hill).",
+        "Búsquedas: 3. Confirmadas: The Peat Inn en la lista de estrellas Michelin de VisitScotland y en la de The Scotsman de 2026; Dill y ÓX con estrella en visiticeland.com; y OX con una estrella en Belfast.",
+        "Pendientes menores. gb-belfast cita visitbelfastpartners.com, el portal profesional de Visit Belfast y no su web para el visitante, en «tres restaurantes entre los mejores del mundo»; además, The Muddlers Club también tiene estrella y la frase no lo deja claro. gb-stirling dice «sin platos ni productos propios», pero en platos pone el haggis. gb-londres: «la mayoría» de los 10 triestrellados de 2026 están en Londres; compruébalo, porque si son 5 de 10 es la mitad.",
+        "Aprobado."
+      ]
+    },
+    "adrenalina": {
+      "nota": 9.0,
+      "desglose": {
+        "fuentes": 1.5,
+        "exactitud": 2.0,
+        "criterio": 1.5,
+        "coherencia": 2.0,
+        "descripcion": 2.0
+      },
+      "aprobado": false,
+      "comentarios": [
+        "Alcance: adrenalina-fix1.json (ronda 4), 24 puntajes de GB/IE/IS, frente a revision-a-r1. Todo está propagado a europa.json; las distancias coinciden con las coordenadas y ninguna pasa de 60 km.",
+        "Resueltos de r1: gb-calzada-del-gigante sube a 3 con Causeway Coasteering; is-fiordos-del-oeste, a 3 con Tungudalur; is-seydisfjordur, a 2 con Stafdalur; ie-peninsula-de-dingle e ie-ring-of-kerry, a 3 con la escuela de surf de Inch; gb-windsor añade Legoland Windsor, a 4 km; is-jokulsarlon sube a 4 con salida desde la laguna; el 5 de is-circulo-dorado se justifica con la motonieve en el Langjökull desde Gullfoss; gb-glasgow sube a 3; Nevis Range ya cita la versión en inglés de VisitScotland y Blackpool, RCDB; y las frases sobre el tope ya no están en las justificaciones.",
+        "Búsquedas: 7. Confirmadas 6: westfjords.is/en/service/tungudalurseljalandsdalur-ski-area, east.is/en/service/stafdalur-skiing-area, discoverireland.ie/kerry/offshore-surf-school, heyiceland.is/day-tours/detail/1144/crystal-ice-cave-in-vatnajokull-glacier (sale de Jökulsárlón de octubre a marzo), south.is/en/service/mountaineers-of-iceland (la mayor flota de motos de nieve del país) y goape.co.uk (Aberfoyle).",
+        "Regla de 60 km, error nuevo: ie-carrowmore se queda en 1 con «En el radio no hay parques de atracciones ni operadores de aventura con web oficial», y la propia frase nombra la playa de Strandhill. Strandhill Surf School, aprobada por la Irish Surfing Association, está a unos 6 km (discoverireland.ie/sligo/strandhill-surf-school, confirmada). Por el tope de monumento, le corresponde 2, y la frase es falsa.",
+        "Datos: «tirolesa doble de más de 400 m» en Go Ape Aberfoyle (gb-glasgow, gb-stirling, gb-loch-lomond-trossachs). Las fuentes dan 426 m y 323 m, o 750 m entre las dos. Escribe «dos tirolesas de unos 320 y 430 m». La ficha de Hey Iceland es de una agencia: la excursión la opera Arctic Adventures, así que cita la web del operador.",
+        "Última ronda: no se reenvía."
+      ]
+    },
+    "logistica-temporada": {
+      "nota": 9.0,
+      "desglose": {
+        "fuentes": 1.5,
+        "exactitud": 1.5,
+        "criterio": 2.0,
+        "coherencia": 2.0,
+        "descripcion": 2.0
+      },
+      "aprobado": false,
+      "comentarios": [
+        "Alcance: logistica-temporada-fix1.json (ronda 4), 3 entradas de grupo a, frente a revision-a-r1. Las tres están propagadas a europa.json.",
+        "Resueltos de r1: ie-glendalough tiene ya el acceso vigente (desde diciembre de 2025, la 183 Arklow-Rathdrum-Glendalough y la nueva 895 Sallins-Blessington-Glendalough, con cuatro idas y vueltas diarias coordinadas con la 183) y cita los dos horarios en PDF de TFI y la nota de prensa. ie-peninsula-de-dingle cita la línea 275 de Bus Éireann e ie-ballymaloe-east-cork, la ficha de la estación de Midleton.",
+        "Búsquedas: 3. Confirmadas: el horario de la 895 de TFI (transportforireland.ie/wp-content/uploads/2025/12/TFI-LL-R895-Sallins-to-Glendalough-Nov25-Web-FA.pdf), irishrail.ie/en-ie/station/midleton y la línea 275 Tralee-Dingle (aprox. 1 h; la página de buseireann.ie no salió, pero la línea y el horario aparecen en TFI, Local Link y bustimes).",
+        "Pendientes de r1 sin tocar, que el propio fix declara por falta de cupo (11 de los 14 lugares señalados): gb-liverpool sigue publicando avantiwestcoast.co.uk/liverpool-john-moores-university-open-day y «unas 2 h 20» (cita avantiwestcoast.co.uk/where-we-go/destination-guides/liverpool, unas 2 h 30); gb-windsor y gb-cardiff, solo la página genérica de horarios de GWR (Cardiff además cita el aviso de EE. UU.); gb-seven-sisters, sin el bus costero 12/12X; gb-north-york-moors-whitby, con una noticia local y un evento de Visit York (cita nymr.co.uk); e ie-kilkenny, ie-galway, ie-kinsale-cobh, ie-achill, ie-carrowmore e ie-connemara, con la página genérica de horarios por ruta de Irish Rail.",
+        "Última ronda: no se reenvía."
+      ]
+    },
+    "curador": {
+      "nota": 8.5,
+      "desglose": {
+        "fuentes": 1.5,
+        "exactitud": 1.5,
+        "criterio": 2.0,
+        "coherencia": 2.0,
+        "descripcion": 1.5
+      },
+      "aprobado": false,
+      "comentarios": [
+        "Alcance: curador-ajustes.json (notas.ronda4) y los 83 lugares de GB/IE/IS en data/lugares/europa.json. La fórmula global y el nivel son correctos en los 83; los puntajes de los seis fix1 están propagados; ninguna URL de fuentes_quitar sigue publicada; las coordenadas tienen 4 decimales; y los platos quedan vacíos solo donde no hay producto local (Stonehenge, Glendalough, Askja), de forma coherente. notas.ronda4 solo habla del grupo b: no hay registro de qué se hizo con los comentarios de r1 del grupo a.",
+        "Resueltos de r1: las 18 coordenadas de 2 o 3 decimales; gb-hebridas-exteriores (guías 4, global 3,9) y gb-north-york-moors-whitby (guías 4, global 3,9); y Legoland Windsor ya está en adrenalina_cerca de gb-windsor.",
+        "Sin resolver. (1) El por_que de gb-hebridas-exteriores sigue diciendo «aunque el centro de visitantes estuvo cerrado por obras», cuando cultura-historia-fix1 y calanais.org confirman que reabrió en julio de 2026. Es un dato desfasado en el texto público. (2) El por_que de gb-windsor mantiene «que hay que reservar con mucha antelación», que es un consejo de logística, y cita solo Thorpe Park (11 km), cuando Legoland está a 4 km. Además, cita travelagentcentral.com, que es prensa del sector. (3) gb-orcadas-neolitico sigue con guías 3 apoyado en «Rick Steves (columna sindicada)» y en la Travelist de LP vía Visit Orkney, y gb-seven-sisters con «Rough Guides (vía Autoridad del Parque...)».",
+        "Publicación de URL defectuosas: como en francia-alpes, el curador debe filtrar lo que el revisor marcó como ajeno al viaje. gb-liverpool sigue publicando avantiwestcoast.co.uk/liverpool-john-moores-university-open-day.",
+        "Texto: el por_que de gb-liverpool no menciona Moor Hall, aunque la gastronomía (4) ahora sale de ese restaurante y está entre los platos («Menú de degustación de Moor Hall»).",
+        "Última ronda: no se reenvía."
+      ]
+    }
+  },
+  "paises": {
+    "GB": {
+      "nota": 8.8,
+      "revision_pendiente": true,
+      "comentario": "Promedio de los 7 agentes: 9,0. Queda algo por debajo porque aquí se concentra lo pendiente: gb-orcadas-neolitico y gb-seven-sisters con guías de segunda mano; gb-brighton fuera de la regla de guías declarada; 5 lugares con logística genérica (Liverpool con la URL de la jornada universitaria, Windsor, Cardiff, Seven Sisters y North York Moors); los por_que desfasados de Hébridas (centro de Calanais) y Windsor; y la longitud de las tirolesas de Go Ape. Está resuelto lo grave de r1: las coordenadas, L'Enclume y Moor Hall, Liverpool, Calzada del Gigante, Legoland, Snowdonia y Cairngorms, Canterbury y Durham, y las fuentes propias de cultura."
+    },
+    "IE": {
+      "nota": 8.9,
+      "revision_pendiente": true,
+      "comentario": "El 5 de ie-bru-na-boinne depende de Rough Guides y de Frommer's, que no aparecieron en dos búsquedas cada una; ie-kilkenny conserva el 5 con itinerarios y excursiones de un día. Quedan 6 lugares con solo la página genérica de Irish Rail (Kilkenny, Galway, Kinsale-Cobh, Achill, Carrowmore y Connemara), y ie-carrowmore tiene adrenalina 1 con Strandhill Surf School a 6 km. Resueltos: Glendalough (acceso con la 183 y la 895), Dingle y Ring of Kerry con el surf de Inch, las fichas de heritageireland.ie y las coordenadas."
+    },
+    "IS": {
+      "nota": 9.3,
+      "revision_pendiente": true,
+      "comentario": "Es el país más sólido: coordenadas corregidas; adrenalina de los Fiordos del Oeste, Seyðisfjörður, Jökulsárlón y el Círculo Dorado con fuentes oficiales confirmadas; y Reikiavik con gastronomía 4 por Dill y ÓX. Restan is-husavik, con una justificación que contradice su fuente de Lonely Planet (lista nacional, puesto 7) y la cuarta guía (Frommer's) sin confirmar; la página de Fodor's de Ísafjörður sin confirmar; y Hey Iceland, una agencia, citada en lugar del operador Arctic Adventures."
+    }
+  },
+  "pendientes": [
+    "guias-expertas: confirmar Rough Guides y Frommer's de ie-bru-na-boinne o bajarlo a 3; aplicar la regla declarada a gb-brighton e is-husavik, o explicar en criterios.json qué cuenta como top pick; gb-orcadas-neolitico y gb-seven-sisters con fuentes propias de las guías.",
+    "adrenalina: ie-carrowmore a 2 con Strandhill Surf School; longitudes de las tirolesas de Go Ape Aberfoyle; operador Arctic Adventures en lugar de Hey Iceland.",
+    "logistica-temporada: fuentes oficiales para gb-liverpool (Avanti, 2 h 30), gb-windsor, gb-cardiff, gb-seven-sisters, gb-north-york-moors-whitby, ie-kilkenny, ie-galway, ie-kinsale-cobh, ie-achill, ie-carrowmore e ie-connemara.",
+    "curador: por_que de gb-hebridas-exteriores (centro de Calanais reabierto en julio de 2026) y de gb-windsor (Legoland y sin el consejo de reservar); quitar la URL de la jornada de puertas abiertas de Avanti en gb-liverpool; mencionar Moor Hall en el por_que de gb-liverpool.",
+    "cultura-historia (menor): liverpoolmuseums.org.uk en lugar de Sotheby's para gb-liverpool.",
+    "gastronomia-vino (menor): fuente para Visit Belfast y The Muddlers Club; la contradicción de los platos de gb-stirling."
+  ],
+  "resumen": {
+    "aprobados": [
+      "cultura-historia",
+      "naturaleza",
+      "gastronomia-vino"
+    ],
+    "rechazados_sin_reenvio": [
+      "guias-expertas",
+      "adrenalina",
+      "logistica-temporada",
+      "curador"
+    ],
+    "notas": {
+      "guias-expertas": 8.0,
+      "cultura-historia": 9.5,
+      "naturaleza": 9.5,
+      "gastronomia-vino": 9.5,
+      "adrenalina": 9.0,
+      "logistica-temporada": 9.0,
+      "curador": 8.5
+    },
+    "busquedas_usadas": 33
+  }
+}
