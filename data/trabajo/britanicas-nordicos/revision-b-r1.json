@@ -1,0 +1,229 @@
+{
+ "subregion": "britanicas-nordicos",
+ "grupo": "b",
+ "ronda": 1,
+ "fecha": "2026-11-02",
+ "estado": "completo",
+ "alcance": "NO (30 lugares), SE (25), FI (19), DK (19), EE (11), LV (11) y LT (13): 128 lugares en data/lugares/europa.json. Archivos revisados, solo con ids del grupo b: guias-expertas-b y -r3; cultura-historia-b, -r2 y -r3; naturaleza-b, -r2 y -r3; gastronomia-vino-b, -r2 y -r3; adrenalina-b, -r2 y -r3; logistica-temporada-b y -r3; curador.json, curador-ajustes.json (notas grupo_b) y cobertura.json. GB, IE e IS los revisa el grupo a.",
+ "metodo": "Una URL cuenta como verificada si una WebSearch devuelve esa página o la misma ruta. Se usaron 38 búsquedas. Con scripts se comprobó: (1) la fórmula global y el nivel de los 128 lugares, sin errores; (2) que cada puntaje final coincide con la última ronda del agente o con el ajuste del curador; las únicas diferencias vienen de las fusiones (Repovesi+Verla c3, Jostedalsbreen+Loen ga2/a4, Abisko+Riksgränsen a4), y son correctas; (3) los km de las 60 entradas de adrenalina_cerca frente a las coordenadas: todos coinciden (±3 km) y ninguno pasa de 60 km; (4) que ningún lugar a 60 km o menos de una actividad ya registrada se quede sin ella; solo hay variantes de nombre. Coordenadas revisadas a mano: no-trolltunga, no-nordkapp, no-urnes, lv-kuldiga, lv-gauja-sigulda, se-kalmar, se-abisko, se-kosterhavet, dk-mons-klint, dk-aero, dk-henne-kirkeby-kro, ee-saaremaa (Kuressaare), ee-lahemaa (Palmse), ee-kihnu, lt-colina-cruces, fi-repovesi y fi-saimaa (Linnansaari). Todas son correctas salvo dk-mar-wadden (55.2, 8.55), que cae en los bajíos entre Mandø y Rømø. Además, varios lugares usan solo 2 decimales.",
+ "criterio_fuentes_compartidas": "Citar una URL que encontró otro agente se acepta solo si la página respalda el dato concreto de ese campo. naturaleza-b reutiliza artículos de guías de guias-expertas-b (LP, Rough Guides, Rick Steves, Time Out, NatGeo, Bradt) como única fuente de puntajes de 3 y 4. Eso va contra la lección de iberica-italia (web oficial del parque o del turismo). logistica-temporada hace lo mismo con el acceso y la temporada de 21 lugares, contra la lección de francia-alpes. Y si la URL de origen no se confirma, como pasa con la de Fodor's Noruega, fallan los dos agentes.",
+ "verificacion_urls": {
+  "guias-expertas": {
+   "comprobadas": 10,
+   "verificadas": 7,
+   "no_confirmadas": [
+    "https://www.fodors.com/world/europe/norway/experiences/news/photos/the-best-things-to-do-in-norway (2 búsquedas sin resultado; es la fuente de Fodor's de 11 lugares de NO)",
+    "https://www.fodors.com/world/europe/norway/northern-norway/senja/hotels (existe, pero es la lista de hoteles Fodor's Choice; la ficha de destino es /senja)",
+    "https://www.nationalgeographic.com/premium/article/viking-runestone-thyra-jelling-bluetooth-gorm (existe, pero es una noticia de arqueología de 2023 sobre la reina Thyra, no una recomendación de viaje)"
+   ],
+   "nota": "Verificadas: LP best-places-to-visit-in-sweden (11 lugares, febrero de 2026), Rick Steves 'Sweden's Glass Country Sparkles' (Kalmar y Småland), Time Out sobre Riga (existe, pero es la encuesta de precios City Costs Barometer de Post Office, no una recomendación), Fodor's '10 Ultimate Things to Do in the Baltics' (junio de 2018), LP estonia-island-hopping-trip, NatGeo island-hopping-through-estonias-western-isles y Frommer's rondane-and-dovrefjell-national-parks."
+  },
+  "cultura-historia": {
+   "comprobadas": 3,
+   "verificadas": 2,
+   "no_confirmadas": [
+    "https://whc.unesco.org/en/review/43 (citada para lv-riga y lt-kernave; no es la ficha de ninguno de los dos: 'review/43' corresponde a otro documento. Las fichas son https://whc.unesco.org/en/list/852 para Riga y https://whc.unesco.org/en/list/1137 para Kernavė)"
+   ],
+   "nota": "Verificadas: visitporvoo.fi/en/sights/history (Dieta de 1809; ojo, el plano de la ciudad sitúa la apertura en la Sala Capitular) y lithuania.travel (Žemaitija y Museo de la Guerra Fría de Plokštinė)."
+  },
+  "naturaleza": {
+   "comprobadas": 5,
+   "verificadas": 4,
+   "no_confirmadas": [
+    "https://www.norgesnasjonalparker.no/en/nationalparks/ (no-hardangervidda: es la lista general de parques, no la página del parque)"
+   ],
+   "nota": "Verificadas: whc.unesco.org/en/list/1728 (Møns Klint, inscrito el 13/07/2025), la ficha de Fulufjället en sverigesnationalparker.se (dice que Njupeskär es 'una de las cascadas más altas de Suecia', con la mayor caída libre del país, 70 m, y no 'la más alta'), rmk.ee/.../vilsandi-national-park y latvia.travel/en/sight/great-kemeri-bog-boardwalk."
+  },
+  "gastronomia-vino": {
+   "comprobadas": 5,
+   "verificadas": 5,
+   "nota": "Verificadas con la Guía Michelin Nordic 2026 (1/06/2026): Gaptrast sube a dos estrellas, Kvitnes Gård recibe la primera estrella al norte del círculo polar, Okê (Skagen) entra con una y Kadeau Copenhagen sube a tres. Michelin Letonia 2026: Max Cekot Kitchen y JOHN Chef's Hall tienen una estrella y Pavāru māja tiene estrella verde. ERROR DE DATO: los tres restaurantes de tres estrellas de Dinamarca en 2026 son Geranium, Jordnær y Kadeau, no noma (los seis tres estrellas nórdicos son estos tres más Maaemo, RE-NAA y Frantzén)."
+  },
+  "adrenalina": {
+   "comprobadas": 5,
+   "verificadas": 1,
+   "nota": "Verificada: aresweden.com/en/afraid-of-heights (tirolesa de Åre). Las otras 4 búsquedas buscaron actividades que faltan a 60 km o menos, y las 4 existen con web oficial o de turismo oficial: Līvu Akvaparks en Jūrmala (el mayor parque acuático cubierto del Báltico, más de 20 toboganes; visitjurmala.lv), Kongeparken en Ålgård (RCDB 4725, dos montañas rusas y torre de caída de 80 m; fjordnorway.com/en/attractions/kongeparken), Trolltunga Via Ferrata de Trolltunga Active, en el propio sendero (visitnorway.com/listings/trolltunga-via-ferrata-trolltunga-active/18742/), y Tromsø Alpinpark (visittromso.no/partner/tromso-alpinpark, 5 pistas a 10 minutos del centro)."
+  },
+  "logistica-temporada": {
+   "comprobadas": 5,
+   "verificadas": 3,
+   "no_confirmadas": [
+    "Narva: 'unas 2 h 20' no se confirma. Rome2rio y Station Narva dan 5 trenes de unas 3 h, y la línea Tapa–Narva está en obras de electrificación hasta 2027.",
+    "Bergen: '6-7 salidas al día' no se confirma. Las fuentes dan 4-5 diurnos más el nocturno; hay que citar el horario de Vy."
+   ],
+   "nota": "Verificados: el aviso de EE. UU. para Noruega (Level 1, julio de 2026), aunque la URL vigente es https://travel.state.gov/en/international-travel/travel-advisories/norway.html y no la del formato antiguo (/content/travel/en/traveladvisories/...) que se cita para NO, DK, LV y LT; el aviso de Dinamarca (Level 2 por terrorismo, emitido el 17/09/2024, con URL nueva /en/international-travel/travel-advisories/denmark.html) y el estado de emergencia de Lituania por los globos de Bielorrusia (9/12/2025)."
+  },
+  "curador": {
+   "comprobadas": 3,
+   "verificadas": 1,
+   "nota": "Verificada: Frommer's Rondane and Dovrefjell. La ficha de Fodor's de Senja que se cita es la de hoteles, y la de NatGeo de Jelling es una noticia de arqueología (ver guias-expertas). Ninguna de las dos es una recomendación que justifique contar una tercera guía para un 4."
+  }
+ },
+ "agentes": {
+  "guias-expertas": {
+   "nota": 7.0,
+   "desglose": {
+    "fuentes": 1.0,
+    "exactitud": 1.5,
+    "criterio": 1.5,
+    "coherencia": 1.0,
+    "descripcion": 2.0
+   },
+   "aprobado": false,
+   "comentarios": [
+    "Fuente no confirmada en 2 búsquedas: https://www.fodors.com/world/europe/norway/experiences/news/photos/the-best-things-to-do-in-norway. Es la única prueba de Fodor's en no-lofoten, no-geirangerfjord, no-sognefjord-flam, no-urnes-lustrafjord, no-tromso, no-lysefjord-preikestolen, no-trolltunga, no-alesund, no-trollstigen, no-nordkapp y no-lillehammer. Sustitúyela por la ficha de Fodor's de cada lugar (por ejemplo fodors.com/world/europe/norway/things-to-do, por región) o quita Fodor's y recalcula. Si no aparece otra guía, no-urnes-lustrafjord y no-alesund bajan de 4 a 3, no-trollstigen y no-lillehammer de 3 a 2, y no-trolltunga y no-lysefjord-preikestolen de 5 a 4.",
+    "Escala mal aplicada en los 5 (top pick en 4+ guías). ee-saaremaa tiene 5, igual que Tallin, con la lista de Rough Guides, dos artículos de island-hopping (LP y NatGeo) y la lista de Fodor's de 2018 sobre los Bálticos: eso es 'destacado', así que le corresponde 4. se-kalmar tiene 5 con páginas de destino de Frommer's y Fodor's y un artículo de Rick Steves sobre Småland, mientras que se-gotland-visby (UNESCO, en la lista de LP) tiene 4: o se baja Kalmar a 4 o se busca la cuarta guía de Visby y se sube a 5. Cobertura ya avisó de lo de Kalmar.",
+    "lv-riga cita https://www.timeout.com/news/the-underrated-baltic-capital-just-named-europes-best-value-city-break-052025, que es un resumen de la encuesta de precios de Post Office, no una recomendación de Time Out. No cuenta como guía: busca la página de Time Out Riga o cita otra.",
+    "Lugares que quedan bajos sin haber buscado: se-are tiene 2 (solo Time Out) siendo la mayor estación de Escandinavia, y fi-nuuksio, fi-koli y fi-oulanka tienen 2 con una sola guía. Busca la ficha de LP o de Rough Guides de cada uno antes de dejarlos en 2 (lección: no se baja sin buscar).",
+    "Fuentes genéricas contadas como recomendación: Frommer's /destinations/bergen/ se usa para no-sognefjord-flam y no-hardangerfjord, y Rough Guides /norway/sports-outdoor-activities/ para no-jotunheimen y no-hardangervidda. Son páginas de destino o de actividades, no recomendaciones del lugar. Cita la página de cada sitio.",
+    "Coordenadas con 2 decimales o puntos poco concretos: dk-bornholm (55.15, 14.92; usa Hammershus o Rønne), dk-mar-wadden (55.2, 8.55, en los bajíos; usa Mandø By o Havneby en Rømø), no-hardangervidda (60.1, 7.5; usa el centro de Finse o el de Skinnarbu) y ee-soomaa (58.43, 25.03; usa el centro de visitantes de Tõramaa)."
+   ]
+  },
+  "cultura-historia": {
+   "nota": 8.0,
+   "desglose": {
+    "fuentes": 1.0,
+    "exactitud": 2.0,
+    "criterio": 1.5,
+    "coherencia": 1.5,
+    "descripcion": 2.0
+   },
+   "aprobado": false,
+   "comentarios": [
+    "URL equivocada: lv-riga y lt-kernave citan https://whc.unesco.org/en/review/43, que no es la ficha de ninguno de los dos. Cita https://whc.unesco.org/en/list/852 (Centro histórico de Riga) y https://whc.unesco.org/en/list/1137 (Kernavė).",
+    "La lección pide la ficha UNESCO del sitio, no otros documentos. Cambia: no-roros (uploads/nominations/55bis.pdf → /en/list/55), fi-rauma (document/153809 → /en/list/582), no-alta (documents/110688 → /en/list/352), ee-tallinn (document/217752 → /en/list/822), dk-helsingor-louisiana (/en/list/696/maps y documents/169912 → /en/list/696), se-laponia-jokkmokk (advisory_body_evaluation/774.pdf → /en/list/774) y fi-verla (PDF del Comité de 2014 → /en/list/751).",
+    "Puntajes de 4 con fuentes genéricas que no nombran el lugar: se-kalmar (visitsweden history-museums-in-sweden), no-trondheim (visitnorway trondheim/winter), ee-tartu (visitestonia what-to-do/museums), dk-ribe (visitdenmark things-do/history-culture). Lo mismo pasa con los 3 de no-stavanger (visitnorway museums) y lv-gauja-sigulda (latvia.travel/en/museums). Cita la página oficial del castillo de Kalmar, de la catedral de Nidaros, del Museo Nacional de Estonia, de Ribe/VikingeCenter, de Gamle Stavanger y de la reserva museo de Turaida.",
+    "Coherencia: dk-helsingor-louisiana tiene c5, igual que Copenhague, y por encima de no-bergen (c4, Bryggen UNESCO más KODE) y no-trondheim (c4, Nidaros). Un castillo UNESCO, un palacio y un museo de arte en tres pueblos distintos no superan a Bergen. Deja Helsingør en 4 o sube Bergen a 5 con fuente. Revisa también se-gotemburgo c2, con el Konstmuseum, Röhsska y Universeum; un 3 con fuente sería más coherente con Malmö y Lund.",
+    "Dato por confirmar en se-lund: 'la iglesia más visitada de Suecia' no tiene fuente. Cítala o quítala."
+   ]
+  },
+  "naturaleza": {
+   "nota": 7.5,
+   "desglose": {
+    "fuentes": 1.0,
+    "exactitud": 1.5,
+    "criterio": 1.5,
+    "coherencia": 1.5,
+    "descripcion": 2.0
+   },
+   "aprobado": false,
+   "comentarios": [
+    "Puntajes de 3 o más con artículos de guías como única fuente, en lugar de la web del parque o del turismo oficial (lección de iberica-italia). Puntajes de 4: no-hardangerfjord (LP), se-archipielago-estocolmo (Rick Steves y Rough Guides), dk-bornholm (LP y Fodor's Rønne) y fi-urho-kekkonen-saariselka (LP y Time Out; falta luontoon.fi/en/destinations/urho-kekkonen-national-park). Puntajes de 3: no-bergen, se-dalarna-siljan, se-gota-kanal-vadstena, se-are, se-kiruna-icehotel, se-klaralven-varmland, fi-rovaniemi, fi-turku, fi-aland, ee-hiiumaa, ee-parnu, ee-peipsi, lv-jurmala, lv-kuldiga, lv-daugavpils-latgale, lt-trakai, lt-palanga, lt-druskininkai, lt-delta-nemunas, lt-zemaitija y lt-anyksciai. Busca la web del parque nacional (zemaitijosnp.lt, dzukijosparkas.lt, nemunodelta.lt, Trakai HNP, Rāzna NP) o del turismo regional y cítala.",
+    "no-hardangervidda cita la lista general de norgesnasjonalparker.no. Cita la página del parque o la del centro de visitantes de Skinnarbu.",
+    "Exactitud: en se-fulufjallet, la web del parque dice que Njupeskär es 'una de las cascadas más altas de Suecia' (93 m) con la mayor caída libre del país (70 m), no 'la más alta'. En se-abisko-kungsleden, el Kungsleden mide unos 440 km, no 'más de 450'.",
+    "Coherencia entre países: Dinamarca tiene tres n5 (dk-mons-klint, dk-mar-wadden y dk-skagen, este último subido en r3) y Finlandia ninguno: fi-oulanka, fi-urho-kekkonen-saariselka, fi-lemmenjoki y fi-saimaa tienen 4. Skagen (Grenen y Råbjerg Mile) con 5, igual que Geiranger, Lofoten o Svalbard, está por encima de su nivel. O bajas Skagen a 4 y argumentas Møns Klint y Wadden, o subes a 5 el gran parque de Laponia o de los lagos de Finlandia (Oulanka, con el Karhunkierros, o Urho Kekkonen), con fuente oficial."
+   ]
+  },
+  "gastronomia-vino": {
+   "nota": 8.5,
+   "desglose": {
+    "fuentes": 1.5,
+    "exactitud": 1.5,
+    "criterio": 2.0,
+    "coherencia": 1.5,
+    "descripcion": 2.0
+   },
+   "aprobado": false,
+   "comentarios": [
+    "Error de dato en dk-copenhague: en la guía nórdica 2026, los tres restaurantes de tres estrellas de Copenhague son Geranium, Jordnær y Kadeau, no noma. Corrige la justificación y cambia la fuente https://guide.michelin.com/kr/en/capital-region/copenhagen/restaurant/noma por la ficha de Jordnær. El error pasó al por_que final, así que hay que avisar al curador.",
+    "se-kalix tiene 4, igual que Helsinki, Riga o Vilna, por un solo producto, la löjrom DOP, y solo cita TasteAtlas. Bájalo a 3 o cita además el registro DOP de la UE (eAmbrosia) y algún restaurante reconocido de la zona.",
+    "no-hardangerfjord (4) y se-bohuslan (4) solo citan TasteAtlas. La lección pide el consejo regulador o la denominación: cita la DOP 'Sider fra Hardanger' (Matmerk o eAmbrosia, o la web de la Hardanger Siderrute) y el turismo de Grebbestad o Västsverige para las ostras.",
+    "no-vesteralen-andenes cita para Kvitnes Gård una nota de prensa de mynewsdesk y globaltravelerusa. La estrella está confirmada, pero hay que citar la ficha de guide.michelin.com o el artículo de la ceremonia de 2026.",
+    "fi-inari (3) cita la lista genérica 'best-rated dishes in northern Finland' de TasteAtlas. Cita algo del propio Inari, como la cocina sami de Siida o un restaurante de la guía o del turismo de Inari.",
+    "Coherencia: no-stavanger (4, con RE-NAA de tres estrellas) queda igual que dk-henne-kirkeby-kro (4, un solo dos estrellas) y dk-bornholm (4, una estrella). O Stavanger sube a 5 por su tres estrellas, como Oslo y Estocolmo, o se explica por qué un tres estrellas no basta."
+   ]
+  },
+  "adrenalina": {
+   "nota": 7.0,
+   "desglose": {
+    "fuentes": 1.5,
+    "exactitud": 2.0,
+    "criterio": 1.0,
+    "coherencia": 1.0,
+    "descripcion": 1.5
+   },
+   "aprobado": false,
+   "comentarios": [
+    "Actividades a 60 km o menos que faltan, todas con web oficial o de turismo oficial. (1) Līvu Akvaparks, en Lielupe (Jūrmala), es el mayor parque acuático cubierto del Báltico, con más de 20 toboganes y abierto todo el año (visitjurmala.lv/en/seasonal-offers/health/waterpark-livu-akvaparks/; web akvaparks.lv): lv-jurmala pasa de 1 a 3 como mínimo, y suma también para lv-riga (unos 25 km) y lv-kemeri (con el tope de 3). (2) Kongeparken, en Ålgård, tiene dos montañas rusas y una torre de caída de 80 m (rcdb.com/4725.htm; fjordnorway.com/en/attractions/kongeparken), a unos 23-25 km: no-stavanger pasa de 1 a 3 y no-lysefjord-preikestolen de 1 a 3. (3) La Trolltunga Via Ferrata de Trolltunga Active está en el propio sendero (visitnorway.com/listings/trolltunga-via-ferrata-trolltunga-active/18742/): no-trolltunga pasa de 2 a 4, porque la actividad está en el lugar. (4) Tromsø Alpinpark, con 5 pistas a 10 minutos del centro (visittromso.no/partner/tromso-alpinpark): no-tromso pasa de 1 a 2.",
+    "La lección dice que no se baja un puntaje sin buscar. Las notas de adrenalina-b reconocen que no se buscaron, o no aparecieron, Kongeparken, Hafjell y el Galdhøpiggen Sommerskisenter, y la r2 no los retomó. Busca también para se-dalarna-siljan, que tiene 1 con Grönklitt (Orsa) y Romme Alpin cerca; lt-vilnius y lt-kaunas, ambos con 1 (paracaidismo en Pociūnai y otros operadores), y no-jotunheimen (esquí de verano del Galdhøpiggen). Añade Hafjell a no-lillehammer en adrenalina_cerca.",
+    "Coherencia: ee-parnu tiene 3 por Tervise Paradiis y lv-jurmala tiene 1 aunque tiene un parque acuático mayor en el propio municipio. no-trolltunga tiene 2 mientras no-jostedalsbreen tiene 3 por una vía ferrata a 22 km, cuando Trolltunga tiene la suya en el sendero.",
+    "Fuentes débiles: Liseberg se acredita con una nota de prensa de 2014 en mynewsdesk (cita liseberg.com) y SkiStar Åre con un PDF de prensa de 2010-2011 (cita skistar.com/en/ski-destinations/are). Legoland Billund se acredita con la página de Lalandia: cita legoland.dk.",
+    "Notas internas en las justificaciones: 'El puntaje es conservador' (no-fredrikstad, r3), 'no se acredita porque no apareció su web oficial' (fi-kuopio, fi-yllas-pallas y fi-urho-kekkonen-saariselka en b) y 'no se acreditó con web oficial' (no-svalbard, dk-thy-klitmoller, no-jotunheimen). Pásalas a notas."
+   ]
+  },
+  "logistica-temporada": {
+   "nota": 8.0,
+   "desglose": {
+    "fuentes": 1.0,
+    "exactitud": 1.5,
+    "criterio": 1.5,
+    "coherencia": 2.0,
+    "descripcion": 2.0
+   },
+   "aprobado": false,
+   "comentarios": [
+    "Hay 21 lugares que solo citan guías o avisos de viaje para el acceso y la temporada, y la lección de francia-alpes pide la web del operador o del turismo oficial. Son lt-vilnius, lt-trakai, lt-kaunas, lt-colina-cruces, lt-aukstaitija, lt-druskininkai, lt-dzukija, lt-delta-nemunas, lt-zemaitija, lt-anyksciai, lv-ventspils, lv-liepaja-karosta, lv-kolka, lv-daugavpils-latgale, ee-kihnu, fi-porvoo, fi-nuuksio, dk-thy-klitmoller, se-uppsala, se-halsingland y se-kalix. En Lituania son 10 de 13. Cita, por ejemplo, ltglink.lt o traukiniobilietas.lt (trenes LTG), govilnius.lt, visit.kaunas.lt, trakai-visit.lt, visitdruskininkai.lt, visitventspils.com, liepaja.travel, visitkihnu.ee o la naviera Kihnu Veeteed, visitporvoo.fi, luontoon.fi/nuuksio, SJ/UL para Uppsala, Norrbotten (Länstrafiken) para Kalix, X-trafik para Hälsingland y Thy Turistbureau.",
+    "se-oland (r3) cita para el acceso a Öland la página de Visit Sweden sobre Glasriket, que no trata de cómo llegar. Cita oland.se o la página de transporte de Kalmar Länstrafik.",
+    "Avisos de EE. UU. con la URL antigua (/content/travel/en/traveladvisories/...) para NO, DK, LV y LT, y la página de información del país en vez del aviso para EE. Usa el formato vigente https://travel.state.gov/en/international-travel/travel-advisories/<país>.html, como ya haces para SE y FI.",
+    "Exactitud: ee-narva da 'unas 2 h 20, 5 trenes al día', pero las fuentes dan unas 3 h y avisan de obras de electrificación Tapa–Narva hasta 2027. Cita elron.ee y menciona las obras. En no-bergen, '6-7 salidas al día' en la Bergensbanen no se confirma: las fuentes dan 4-5 diurnos más el nocturno. Cita el horario de Vy."
+   ]
+  },
+  "curador": {
+   "nota": 8.0,
+   "desglose": {
+    "fuentes": 1.5,
+    "exactitud": 1.5,
+    "criterio": 1.5,
+    "coherencia": 1.5,
+    "descripcion": 2.0
+   },
+   "aprobado": false,
+   "comentarios": [
+    "dk-copenhague: el por_que publicado dice 'tres restaurantes de tres estrellas Michelin en 2026 (noma, Geranium y Kadeau)'. Lo correcto es Geranium, Jordnær y Kadeau. Cambia también la fuente de noma.",
+    "Puntaje de guías de lugares nuevos con fuentes que no son recomendaciones. no-senja tiene 4 con la página de hoteles de Fodor's (/senja/hotels); usa la ficha /senja o déjalo en 3. dk-jelling tiene 4 con una noticia de arqueología de NatGeo Premium sobre la reina Thyra; sin ella le corresponde 3. Además, con 4 queda por encima de dk-ribe (3), que está en la lista de LP. dk-djurs-sommerland cita un artículo de Time Out sobre un parque acuático británico; confirma que nombra a Djurs Sommerland o quítalo.",
+    "Coordenadas: corregiste fi-kvarken, que caía en el mar, pero dk-mar-wadden (55.2, 8.55) también cae en los bajíos entre Mandø y Rømø. Muévelo a Mandø By (55.279, 8.556) o a Havneby, en Rømø.",
+    "En las fusiones, lv-gauja-sigulda perdió el bungee del teleférico en adrenalina_cerca (solo queda el bobsleigh), aunque el por_que lo menciona. Añádelo.",
+    "se-kalmar sigue con guias 5 por encima de se-gotland-visby (4). Cobertura ya lo avisó y el curador no lo resolvió: se arregla con la corrección de guias-expertas."
+   ]
+  }
+ },
+ "paises": {
+  "NO": {
+   "nota": 7.8,
+   "revision_pendiente": false,
+   "detalle": "Guías 6.5 (la URL de Fodor's sin confirmar en 11 lugares; Senja con la página de hoteles), cultura 8.5 (Røros con el PDF de nominación, Trondheim y Stavanger con fuentes genéricas), naturaleza 7.5 (Hardangerfjord solo con LP, Hardangervidda con la lista general), gastronomía 9.0, adrenalina 6.5 (faltan Kongeparken, la Trolltunga Via Ferrata y Tromsø Alpinpark), logística 8.5 (Bergensbanen y URL antigua del aviso de EE. UU.) y curador 8.0."
+  },
+  "SE": {
+   "nota": 7.8,
+   "detalle": "Guías 7.0 (Kalmar 5 frente a Visby 4, Åre 2 sin buscar), cultura 8.0 (Kalmar con fuente genérica, Lund sin fuente), naturaleza 7.5 (archipiélago y varios 3 solo con guías, Njupeskär), gastronomía 8.0 (Kalix 4, Bohuslän solo con TasteAtlas), adrenalina 8.0 (Dalarna sin buscar), logística 7.5 (Uppsala, Hälsingland y Kalix sin fuente oficial, Öland con fuente que no viene al caso) y curador 8.5.",
+   "revision_pendiente": false
+  },
+  "FI": {
+   "nota": 8.1,
+   "revision_pendiente": false,
+   "detalle": "Guías 8.0 (Nuuksio, Koli y Oulanka con 2 sin buscar), cultura 8.0 (Rauma y Verla sin la ficha UNESCO), naturaleza 7.0 (Urho Kekkonen y cuatro 3 solo con guías; ningún 5 frente a los tres de DK), gastronomía 8.5 (Inari con fuente genérica), adrenalina 8.5 (Laponia bien corregida en r2), logística 8.0 (Porvoo y Nuuksio) y curador 8.5."
+  },
+  "DK": {
+   "nota": 7.7,
+   "revision_pendiente": false,
+   "detalle": "Guías 7.0 (Jelling 4 frente a Ribe 3, coordenadas de Bornholm y Wadden), cultura 8.0 (Helsingør 5, Ribe con fuente genérica), naturaleza 7.5 (Skagen 5, Bornholm solo con guías), gastronomía 7.0 (el error de noma, Henne 4 frente a Stavanger), adrenalina 8.5, logística 8.5 (Thy) y curador 7.5 (noma en el por_que, Wadden en el mar, Time Out sobre un parque británico en Djurs)."
+  },
+  "EE": {
+   "nota": 8.1,
+   "revision_pendiente": false,
+   "detalle": "Guías 7.0 (Saaremaa 5, igual que Tallin), cultura 8.0 (Tallin sin la ficha UNESCO, Tartu con fuente genérica), naturaleza 8.0 (Hiiumaa, Pärnu y Peipsi solo con guías), gastronomía 9.0, adrenalina 8.5, logística 8.0 (Kihnu, duración del tren a Narva, página de información del país en vez del aviso) y curador 8.5."
+  },
+  "LV": {
+   "nota": 7.6,
+   "revision_pendiente": false,
+   "detalle": "Guías 7.5 (Time Out de Riga es una encuesta de precios), cultura 7.0 (Riga con una URL de UNESCO equivocada, Gauja con fuente genérica), naturaleza 7.5 (Jūrmala, Kuldīga y Daugavpils solo con guías), gastronomía 9.0, adrenalina 6.5 (falta Līvu Akvaparks en Jūrmala, Riga y Ķemeri), logística 7.0 (4 lugares solo con guías) y curador 8.5 (falta el bungee en Gauja)."
+  },
+  "LT": {
+   "nota": 7.6,
+   "revision_pendiente": false,
+   "detalle": "Guías 8.0, cultura 7.5 (Kernavė con una URL de UNESCO equivocada), naturaleza 7.0 (Trakai, Nemunas, Žemaitija, Druskininkai, Anykščiai y Palanga solo con guías), gastronomía 9.0, adrenalina 7.5 (Vilna y Kaunas en 1 sin más búsqueda), logística 6.0 (10 de 13 lugares solo con guías o avisos) y curador 8.5."
+  }
+ },
+ "cobertura": "No se califica (no es uno de los 7 agentes), pero se revisó cobertura.json. Los pedidos del grupo b (no-sorlandet, no-fredrikstad, fi-porvoo g3/c4, dk-skagen n5/c4 y no-alesund c4) se aplicaron. El pedido de Skagen n5 crea la descompensación con Finlandia que se señala en naturaleza. La observación sobre Kalmar con guías 5 se quedó sin resolver.",
+ "busquedas_usadas": 38
+}

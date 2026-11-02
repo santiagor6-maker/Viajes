@@ -1,0 +1,159 @@
+{
+  "subregion": "britanicas-nordicos",
+  "grupo": "a",
+  "ronda": 1,
+  "fecha": "2026-11-02",
+  "estado": "completo",
+  "busquedas_usadas": 31,
+  "nota_alcance": "Revisión de GB (47 lugares), IE (21) e IS (15). Revisé los archivos -a, -r2 y -r3 de cada especialista (solo ids gb-/ie-/is-), curador.json, curador-ajustes.json, cobertura.json y los 83 lugares finales de data/lugares/europa.json. WebFetch no se usó: una URL cuenta como verificada si WebSearch muestra esa página o la misma ruta. Usé 31 WebSearch. Comprobaciones automáticas en los 83 lugares: la fórmula global y el nivel están bien en todos. Los km de adrenalina_cerca coinciden con las coordenadas y ninguno pasa de 60 km. Las categorías siguen la regla de 3,5; la única excepción es is-laguna-azul (naturaleza 3 como último recurso, documentado). Spot-check de coordenadas correcto en is-jokulsarlon, gb-calzada-del-gigante, gb-st-andrews, gb-hebridas-exteriores (Luskentyre) y ie-kinsale-cobh (Cork). Hay 18 lugares con coordenadas de 2 o 3 decimales (ver curador). Cobertura: cobertura.json pidió 7 lugares nuevos en GB, 2 correcciones de puntaje y 2 ajustes de región, y todo está aplicado salvo partir Leinster. El curador lo descartó con razón, porque construir-app.mjs completa el cupo cuando el tope por región lo deja corto (líneas 35-37). Glenveagh (2,8) sigue entre los destacados por el tope de Ulster; es aceptable.",
+  "criterio_fuentes_cruzadas": "Igual que en francia-alpes: citar una URL de otro agente se acepta solo si respalda el dato concreto de ese campo. Al revés también aplica: si una guía de criterios.json ya aparece en las fuentes finales del lugar (Bradt y National Geographic en gb-hebridas-exteriores, National Geographic en gb-north-york-moors-whitby), el agente de guías y el curador tienen que contarla al puntuar guias.",
+  "agentes": {
+    "guias-expertas": {
+      "nota": 7.0,
+      "desglose": {
+        "fuentes": 1.5,
+        "exactitud": 1.5,
+        "criterio": 1.5,
+        "coherencia": 1.0,
+        "descripcion": 1.5
+      },
+      "aprobado": false,
+      "comentarios": [
+        "Alcance: guias-expertas-a.json (62 candidatos: GB 30, IE 17, IS 15) y guias-expertas-r3.json (9 ids de GB). Se buscaron 6 URLs y se confirmaron 3. (1) La ficha de ViaMichelin de King's College Chapel (viamichelin…/poi/cambridge-_-cb52bc9ac039) tiene «Worth the trip», así que gb-cambridge = 5 queda bien. (2) bradtguides.com/5-fantastic-beaches-in-the-outer-hebrides/ existe. (3) Lonely Planet pone la Roca de Cashel como imprescindible en lonelyplanet.com/stories/20-most-incredible-places-to-visit-in-ireland. No se confirmaron 3. (a) La ficha de Fodor's de York Minster (fodors.com/world/europe/england/yorkshire/things-to-do/sights?pois=751361) como «Fodor's Choice». (b) Que el programa de Rick Steves sobre Islandia (ricksteves.com/watch-read-listen/video/tv-show/iceland) cubra Húsavík y Seyðisfjörður: las sinopsis citan Reikiavik, el Círculo Dorado, los glaciares, Mývatn y Snæfellsnes. (c) Ninguna página editorial de Rick Steves sobre Northumberland.",
+        "is-husavik e is-seydisfjordur: no cuentes a Rick Steves con la página genérica del programa si no muestras que el lugar sale en él. Sin esa guía, is-seydisfjordur se queda con LP y Rough Guides (3). is-husavik conserva 4 guías, pero dos son listas de avistamiento de ballenas y no top picks: déjalo en 4 o prueba el top pick.",
+        "En r3 tomaste el «Worth the trip» de Cambridge del pedido de cobertura y no de la ficha («se toma del pedido de cobertura»). Esta vez la ficha lo confirma, pero la etiqueta se cita después de leerla en la fuente.",
+        "Faltan guías que ya están en las fuentes finales o que salen en la primera búsqueda. gb-hebridas-exteriores tiene 2 (solo LP), pero el lugar cita Bradt (bradtguides.com/5-fantastic-beaches-in-the-outer-hebrides/, confirmada) y National Geographic (journey-through-lewis-harris…), y las dos están en criterios.json: con 3 guías le corresponde 4. gb-north-york-moors-whitby tiene 2, pero cita National Geographic (nationalgeographic.com/travel/article/north-york-moors-england, confirmada), y Frommer's tiene frommers.com/destinations/north-york-moors-national-park/things-to-do/ (confirmada): 4.",
+        "Puntajes bajos que no se volvieron a buscar. gb-canterbury sigue en 2 desde r1 con una sola ficha de Fodor's. Rick Steves tiene ricksteves.com/europe/england/canterbury (confirmada), y la catedral, Patrimonio Mundial, está en LP y en Michelin: busca esas guías y recalcula (esperable 4). ie-rock-of-cashel tiene 3. LP la llama imprescindible en su lista de los 20 lugares de Irlanda y en Best in Travel 2026 (Tipperary), y el lugar sale también en Fodor's y Frommer's: busca esas guías y recalcula (esperable 4-5).",
+        "Coherencia de la escala. Se cuentan itinerarios como top pick de forma desigual. ie-kilkenny tiene 5 con dos itinerarios y una excursión de un día, mientras ie-bru-na-boinne (Patrimonio Mundial, en todas las guías) tiene 4. gb-cotswolds y gb-cambridge tienen 5, pero gb-york, gb-oxford y gb-stonehenge tienen 4, aunque York y Oxford tienen capítulo propio en Rick Steves y Stonehenge sale en los imprescindibles de Fodor's y Rough Guides. Aplica un mismo criterio: o el itinerario cuenta como top pick en todos los lugares, o en ninguno. Busca la cuarta guía de York, Oxford, Stonehenge y Brú na Bóinne (por ejemplo, Michelin ★★★ en ViaMichelin, como en Cambridge) y súbelos a 5, o baja Kilkenny a 4.",
+        "Coordenadas con 2 decimales (piden 4): is-circulo-dorado (64.3, -20.52), is-costa-sur-vik (63.45, -19.2), is-snaefellsnes (64.8, -23.4), is-askja (65.03, -16.75), gb-glencoe (56.67, -5.04), gb-isla-de-skye (57.35, -6.2), gb-cornualles (50.17, -5.43), gb-cotswolds (51.88, -1.78), gb-cairngorms (57.08, -3.67), gb-yorkshire-dales (54.25, -2.1), ie-ring-of-kerry (51.93, -10.05), ie-burren-doolin (53.03, -9.25), ie-connemara (53.5, -9.75) e ie-inishowen (55.2, -7.3). Además, la lat de gb-york (53.96) y gb-conwy (53.28) y la lng de ie-islas-aran (-9.7). Da un punto concreto con 4 decimales: Þingvellir o Geysir, Skógafoss, Arnarstapi, Víti, el centro de visitantes de Glencoe, Portree, St Ives, Chipping Campden, Aviemore, Malham, Killarney, Doolin, Clifden y Malin Head.",
+        "Texto: quita de las justificaciones las notas de proceso como «Solo encontré páginas editoriales de esta guía» (gb-north-york-moors-whitby, gb-hebridas-exteriores) o «No la encontré en las listas nacionales» (gb-brighton). Eso va en notas."
+      ]
+    },
+    "cultura-historia": {
+      "nota": 8.0,
+      "desglose": {
+        "fuentes": 1.0,
+        "exactitud": 2.0,
+        "criterio": 2.0,
+        "coherencia": 1.5,
+        "descripcion": 1.5
+      },
+      "aprobado": false,
+      "comentarios": [
+        "Alcance: cultura-historia-a.json (62 puntajes y 7 nuevos de GB/IE/IS), -r2.json (15 de grupo a) y -r3.json (4 puntajes y 4 nuevos). Lo bueno: los Patrimonios Mundiales citan la ficha del sitio en whc.unesco.org (Bath 428, Stonehenge 373, Durham 370, Fountains 372, Muro de Adriano 430, Gwynedd 374, Skellig 757), y los nuevos de r3 citan fuentes oficiales de Historic Environment Scotland, English Heritage y Cadw. Se buscaron 3 URLs: visitbritain.com/en/destinations/cities existe pero es genérica (ver abajo); heritageireland.ie no muestra el catálogo WAW 2026 que citas para ie-carrowmore (dice que «se subirá en breve»), aunque los datos de Carrowmore se confirman en su ficha propia.",
+        "Fuentes genéricas en puntajes de 4. gb-cambridge, gb-liverpool, gb-glasgow y gb-belfast se apoyan en la misma página de ciudades de VisitBritain, que en Belfast solo tiene un pie de foto del Titanic. Cita la fuente propia de cada uno: kings.cam.ac.uk o fitzmuseum.cam.ac.uk para Cambridge; liverpoolmuseums.org.uk para Liverpool; burrellcollection o Glasgow Life para Glasgow; titanicbelfast.com para Belfast. gb-stirling y gb-lago-ness-inverness citan la página del Explorer Pass de HES: cita las fichas del castillo de Stirling y del castillo de Urquhart o de Culloden (nts.org.uk). gb-peak-district usa «period drama filming locations» (cita chatsworth.org) y gb-stratford-upon-avon un itinerario de 5 días (cita shakespeare.org.uk). ie-glendalough cita la página genérica de monumentos de ireland.com (cita heritageireland.ie/places-to-visit/glendalough-visitor-centre/). ie-kilkenny, ie-kinsale-cobh, ie-clonmacnoise e ie-carrowmore citan catálogos comerciales en PDF de la OPW. Cita las fichas de heritageireland.ie: castillo de Kilkenny, Charles Fort, Clonmacnoise y heritageireland.ie/places-to-visit/carrowmore-megalithic-cemetery/.",
+        "gb-canterbury cita whc.unesco.org/document/221016 en lugar de la ficha del bien (whc.unesco.org/en/list/496). gb-wells-glastonbury cita la página de rodajes de la catedral (wellscathedral.org.uk/your-cathedral/filming) y un proyecto de la Universidad de Reading sobre la tumba de Arturo: usa la página de historia de la catedral y glastonburyabbey.com.",
+        "Coherencia. ie-dublin tiene 5, como Edimburgo, Bath, York y Londres, sin Patrimonio Mundial, mientras gb-canterbury (catedral madre anglicana, Patrimonio Mundial) y gb-durham (catedral y castillo, Patrimonio Mundial, «el mayor monumento normando») tienen 4. Sube Canterbury y Durham a 5, o justifica Dublín frente a ellos. gb-oxford llega a 5 por Blenheim, a 13 km y sin fusionar. Cambridge (4), con King's College Chapel ★★★, queda por debajo con un perfil parecido: o los dos 5 o los dos 4, y Blenheim no puede ser el motivo.",
+        "Texto: en gb-hebridas-exteriores, «aunque el centro de visitantes estuvo cerrado por obras» no tiene fecha y deja al lector sin saber si está abierto. Comprueba el estado en historicenvironment.scot y escríbelo con fecha o quítalo. Varias justificaciones de r3 pasan de 2 frases (gb-north-york-moors-whitby, gb-cardiff y gb-costa-northumberland, con más de 400 caracteres)."
+      ]
+    },
+    "naturaleza": {
+      "nota": 8.5,
+      "desglose": {
+        "fuentes": 1.5,
+        "exactitud": 2.0,
+        "criterio": 1.5,
+        "coherencia": 1.5,
+        "descripcion": 2.0
+      },
+      "aprobado": false,
+      "comentarios": [
+        "Alcance: naturaleza-a.json (62 puntajes y 3 nuevos), -r2.json (8 correcciones y 21 cruces de grupo a) y -r3.json (4 puntajes y 3 nuevos). Lo bueno: fuentes oficiales en casi todo (nationalparks.ie, ust.is, vatnajokulsthjodgardur.is, fi.is, National Trust, autoridades de parques), con datos concretos y correctos (Moher, unos 214 m; Skógafoss, unos 60 m; Slieve League, unos 600 m). Se buscaron 3 URLs y las 3 se confirmaron: east.is/en/place/gufufoss-waterfall, nationalgeographic.com/travel/article/north-york-moors-england y bradtguides.com/5-fantastic-beaches-in-the-outer-hebrides/.",
+        "Lección incumplida en r1: dejaste 8 lugares en 2 «por falta de fuente» aunque decías que merecían más (gb-glencoe, gb-cairngorms, gb-pembrokeshire-st-davids, gb-cornualles, ie-peninsula-de-dingle, gb-lago-ness-inverness, gb-muro-adriano, is-seydisfjordur). Se corrigió en r2, pero la regla es buscar antes de bajar.",
+        "Coherencia entre parques. gb-snowdonia (Eryri, la cumbre más alta de Gales y el parque nacional más visitado del país) tiene 4, igual que Peak District, Yorkshire Dales, North York Moors y Seven Sisters, y por debajo de Glencoe (5), que es un solo valle. Súbelo a 5, o explica por qué es menos que Glencoe. Revisa también gb-cairngorms (4, el mayor parque del Reino Unido, con la meseta ártico-alpina).",
+        "Fuentes débiles: gb-north-york-moors-whitby cita un blog de YHA (yha.org.uk/blog/…) y la web comercial visitbritain.org, en lugar de northyorkmoors.org.uk. gb-loch-lomond-trossachs usa walkhighlands.co.uk; mejor lochlomond-trossachs.org, que la logística ya cita. gb-cornualles cita ramblers.org.uk; basta con la ficha del National Trust.",
+        "Texto: en gb-lake-district, «así que no se marca como natural» es una nota interna; va en notas."
+      ]
+    },
+    "gastronomia-vino": {
+      "nota": 7.5,
+      "desglose": {
+        "fuentes": 1.5,
+        "exactitud": 1.5,
+        "criterio": 2.0,
+        "coherencia": 1.0,
+        "descripcion": 1.5
+      },
+      "aprobado": false,
+      "comentarios": [
+        "Alcance: gastronomia-vino-a.json (62 puntajes y 6 nuevos), -r2.json (13 de grupo a) y -r3.json (7). Lo bueno: fichas de la Guía Michelin para los puntajes altos, 50 Best Discovery para Ballymaloe y DOP para el pasty y el espumoso de Sussex. Se buscaron 4 URLs. Confirmadas 3: la lista de travelextra.ie (Chapter One, Liath y Patrick Guilbaud con dos estrellas y Forest Avenue nueva en 2026), la nota de michelin.com de 2026 (10 triestrellados, ninguno nuevo) y la de Time Out sobre Belfast. Esta última es de noviembre de 2023 y trata del cierre de Deanes Eipic, no de OX: no sirve para respaldar OX. Cita guide.michelin.com/…/belfast/restaurant/ox.",
+        "Error de dato en gb-lake-district: «único triestrellado británico fuera de Londres y el sureste» es falso. Moor Hall (Aughton, Lancashire) tiene tres estrellas desde la guía de 2025 y en la de 2026 fue nombrado el mejor restaurante del Reino Unido. Corrige la frase.",
+        "Incoherencia por ese mismo dato: Moor Hall está a unos 18 km del centro de Liverpool, pero gb-liverpool tiene gastronomía 2. Con la misma regla que usaste en Windsor-Bray (8 km, 5), Oxford-Le Manoir (13 km) y Cambridge-Midsummer House, Liverpool debe subir a 4 o 5 citando guide.michelin.com (Moor Hall). Además, is-reikiavik (3, la capital y la mayor oferta del país, con varios restaurantes de la Guía Michelin) no puede igualar a is-laguna-azul (3, un solo restaurante): sube Reikiavik a 4 si confirmas sus estrellas en guide.michelin.com/is.",
+        "Fuentes débiles: gb-oban-mull-iona cita un blog de oban.org.uk; gb-oxford, la sala de prensa de Belmond y la web de la Craft Guild of Chefs (cita guide.michelin.com/…/le-manoir-aux-quat-saisons); gb-londres, una página corporativa de michelin.com en lugar de la guía.",
+        "Texto: quita la nota interna de gb-st-andrews: «En 2025 salió a la venta, así que conviene confirmar que sigue abierto». Confírmalo y escríbelo, o cambia de restaurante. Las coletillas «Algo de interés.» y «Poca oferta.» se repiten en una veintena de justificaciones y no aportan nada: sustitúyelas por el producto o el dato concreto."
+      ]
+    },
+    "adrenalina": {
+      "nota": 7.0,
+      "desglose": {
+        "fuentes": 1.5,
+        "exactitud": 2.0,
+        "criterio": 1.0,
+        "coherencia": 1.0,
+        "descripcion": 1.5
+      },
+      "aprobado": false,
+      "comentarios": [
+        "Alcance: adrenalina-a.json (62 puntajes y 2 nuevos), -r2.json (21 de grupo a) y -r3.json (7). Todas las distancias coinciden con las coordenadas y ninguna pasa de 60 km. Se buscaron 2 URLs y se confirmaron las 2: honister.com/honister-infinity-bridge-named-cumbrias-experience-of-the-year-2023/ y troll.is/silfra-iceland/.",
+        "Regla de 60 km: lugares en 1 «sin operador verificable» que tienen oferta oficial a pocos kilómetros, encontrada con una sola búsqueda. gb-calzada-del-gigante tiene a Causeway Coasteering en Portrush, a unos 10 km (discovernorthernireland.com/things-to-do/causeway-coasteering-p703821): como St Davids con TYF, debería tener 3 o 4. is-fiordos-del-oeste tiene la estación de esquí de Tungudalur, a 8 min de Ísafjörður (westfjords.is/en/service/tungudalurseljalandsdalur-ski-area): 3. is-seydisfjordur tiene la estación de Stafdalur, a 8 km (east.is/en/service/stafdalur-skiing-area): 2-3. ie-peninsula-de-dingle e ie-ring-of-kerry tienen la escuela de surf de Inch (discoverireland.ie/kerry/offshore-surf-school), a menos de 30 km de los dos: 3. Añade esas actividades con su URL y recalcula.",
+        "gb-windsor: le faltan Legoland Windsor, que está en el propio Windsor, y la regla de «máximo 2» por ser una visita de castillo. Windsor es una ciudad, no un monumento, así que el tope no se aplica. Añade Legoland Windsor (legoland.co.uk) a las actividades. El 4 final, heredado de Bray, es correcto, pero tiene que salir de tu puntaje de Windsor.",
+        "Coherencia en Islandia: is-circulo-dorado tiene 5 (Silfra y rafting), pero is-jokulsarlon tiene 3 aunque las cuevas de hielo y las caminatas por el Breiðamerkurjökull salen de la propia laguna. Cita un operador con salida desde Jökulsárlón y súbelo a 4. Pon el Círculo Dorado en 4, o justifica el 5 con una actividad de clase mundial adicional (motonieve en el Langjökull, a menos de 60 km de Gullfoss). gb-glasgow (2): M&D's queda a 16 km, y Go Ape Aberfoyle, que ya citas para Loch Lomond, a unos 35 km. Revisa si llega a 3.",
+        "Fuentes: Nevis Range se cita con visitscotland.com/de-de (cita nevisrange.co.uk); el coasteering de TYF, con visitwales.com (cita tyf.com); y Blackpool Pleasure Beach, con una página de 2018 de visitblackpool.com (cita blackpoolpleasurebeach.com o rcdb.com).",
+        "Texto: frases como «Es una abadía, así que el puntaje no pasa de 2» (gb-fountains-abbey, gb-ironbridge, ie-carrowmore, is-glaumbaer) explican la regla en vez de describir la oferta. Van en notas."
+      ]
+    },
+    "logistica-temporada": {
+      "nota": 9.0,
+      "desglose": {
+        "fuentes": 1.5,
+        "exactitud": 1.5,
+        "criterio": 2.0,
+        "coherencia": 2.0,
+        "descripcion": 2.0
+      },
+      "aprobado": false,
+      "comentarios": [
+        "Alcance: logistica-temporada-a.json (80 entradas de GB/IE/IS) y -r3.json (16 de grupo a). Lo bueno: todos los campos completos; avisos de EE. UU., Canadá y el FCDO por país; alertas prácticas útiles (Reynisfjara, calzada de Lindisfarne, carreteras F, Skellig, Durdle Door); meses sensatos (Cairngorms con enero y febrero por el esquí, Tierras Altas solo julio y agosto). En r3 se arreglaron 13 lugares que solo citaban avisos de viaje. Se buscaron 3 URLs: la página de la ruta 183 de TFI existe, pero está desfasada (ver abajo); la de Avanti para Liverpool es la de una jornada de puertas abiertas universitaria; y para la Laguna Azul no hay erupciones en 2026, así que la alerta prudente es razonable.",
+        "ie-glendalough: el acceso está desfasado. Desde el 4 de diciembre de 2025, la ruta 183 de TFI Local Link va solo de Arklow a Glendalough, con unas 7 salidas diarias, y la nueva 895 une Glendalough con Sallins por Blessington. Ya no son «cuatro al día» por Wicklow y Roundwood. Cita el horario vigente (transportforireland.ie/wp-content/uploads/2025/12/TFI-LL-R183-Sallins-to-Arklow-Nov25-FA-WEB.pdf) en lugar de la noticia de 2022.",
+        "gb-liverpool cita avantiwestcoast.co.uk/liverpool-john-moores-university-open-day, que no tiene que ver con el viaje: cita avantiwestcoast.co.uk/where-we-go/destination-guides/liverpool, que da unas 2 h 30 (tú pones 2 h 20).",
+        "Quedan accesos con fuentes genéricas o sin operador. gb-windsor solo cita la página genérica de horarios de GWR (cita gwr.com/…/trains-to-windsor o la de South Western Railway para Waterloo-Riverside). gb-cardiff cita la misma página genérica de GWR y el aviso de EE. UU. gb-seven-sisters no cita el bus costero (Brighton & Hove Buses 12/12X) que nombra en el acceso. gb-north-york-moors-whitby se apoya en una noticia local y en un evento de Visit York (cita nymr.co.uk y northyorkmoors.org.uk). En IE, ocho lugares citan solo la página genérica de horarios por ruta de Irish Rail (ie-kilkenny, ie-galway, ie-kinsale-cobh, ie-achill, ie-carrowmore, ie-ballymaloe-east-cork, ie-connemara, ie-peninsula-de-dingle). Añade la ficha de turismo oficial o del operador de bus (Bus Éireann, TFI Local Link, Discover Ireland) que respalde el tramo final."
+      ]
+    },
+    "curador": {
+      "nota": 7.5,
+      "desglose": {
+        "fuentes": 1.5,
+        "exactitud": 1.5,
+        "criterio": 1.5,
+        "coherencia": 1.5,
+        "descripcion": 1.5
+      },
+      "aprobado": false,
+      "comentarios": [
+        "Alcance: los 83 lugares de GB, IE e IS en data/lugares/europa.json, más curador.json y curador-ajustes.json (grupo_a y ronda3). La fórmula global y el nivel son correctos en los 83. Lecciones aplicadas: se buscaron las guías de todos los nuevos, sin foros, agregadores ni nonprod.lonelyplanet.com; las fusiones Windsor + Bray (8 km), Seven Sisters + viñedos de Sussex y Kinsale-Cobh + Cork están justificadas; y no partir Leinster es correcto (construir-app.mjs completa el cupo). Se confirmó la ficha de Lonely Planet de Clonmacnoise (lonelyplanet.com/pois/1017545, Top choice de los Midlands).",
+        "Coordenadas: en notas dices «Se revisaron las 79; todas caen en su lugar», pero 18 lugares tienen 2 o 3 decimales (la lista está en el comentario de guias-expertas: is-circulo-dorado, is-costa-sur-vik, is-snaefellsnes, is-askja, gb-glencoe, gb-isla-de-skye, gb-cornualles, gb-cotswolds, gb-cairngorms, gb-yorkshire-dales, ie-ring-of-kerry, ie-burren-doolin, ie-connemara, ie-inishowen, más la lat de gb-york y gb-conwy, la de ie-rock-of-cashel y la lng de ie-islas-aran). Corrígelas con 4 decimales al re-curar.",
+        "Guías que no se contaron con las fuentes del propio lugar: gb-hebridas-exteriores cita Bradt y National Geographic y gb-north-york-moors-whitby cita National Geographic, pero las dos tienen guias 2. Recalcula: Hebrides, 4 (global 3,1 → 3,9); North York Moors, 3 o 4.",
+        "Fuentes de guías de segunda mano en gb-orcadas-neolitico: «Rick Steves (columna sindicada)» en luxurytraveladvisor.com y la Travelist de LP citada por Visit Orkney. Con solo la guía de LP, Orkney queda en 2. Busca la página de Rick Steves (ricksteves.com/europe/scotland/orkney) o Frommer's para sostener el 3. Lo mismo con gb-seven-sisters («Rough Guides vía la autoridad del parque»): busca la página propia de Rough Guides.",
+        "gb-windsor: la adrenalina 4 depende de Thorpe Park y Legoland, pero adrenalina_cerca solo lista Thorpe Park y Chessington. Añade Legoland Windsor cuando adrenalina lo corrija. En por_que, quita «que hay que reservar con mucha antelación», que es un consejo de logística, o déjalo en acceso.",
+        "Texto: los por_que son concretos y están en buen español. Dos detalles. En gb-hebridas-exteriores, «aunque el centro de visitantes estuvo cerrado por obras» va sin fecha. Y 16 lugares quedan con platos vacío (ie-acantilados-de-moher, ie-bru-na-boinne, ie-glendalough, is-askja, is-landmannalaugar, gb-glencoe, gb-stonehenge, entre otros). Si no hay plato local, deja la lista vacía de forma consistente. Si lo hay (por ejemplo, el cordero de Kerry o el plokkfiskur en las paradas de la ruta 1), complétalo."
+      ]
+    }
+  },
+  "paises": {
+    "GB": {
+      "nota": 7.6,
+      "revision_pendiente": false,
+      "comentario": "Promedio de los 7 agentes: 7,8. Baja por concentrar los fallos de más peso. Guías: York, Oxford y Stonehenge en 4 frente a Cotswolds y Cambridge en 5; Canterbury en 2 sin volver a buscar; Hébridas y North York Moors en 2 con Bradt, NatGeo y Frommer's a mano. Adrenalina: Calzada del Gigante en 1 con Causeway Coasteering a 10 km; Legoland Windsor sin listar. Gastronomía: el dato falso de L'Enclume y Liverpool en 2 con Moor Hall a 18 km. Cultura: cuatro ciudades con 4 apoyadas en la misma página genérica de VisitBritain. Además, 10 lugares con coordenadas de 2 o 3 decimales."
+    },
+    "IE": {
+      "nota": 7.6,
+      "revision_pendiente": false,
+      "comentario": "Restan Kilkenny (guías 5) por encima de Brú na Bóinne (4) y de la Roca de Cashel (3, imprescindible para LP y en Best in Travel 2026); Dingle y Ring of Kerry en adrenalina 1 con la escuela de surf de Inch; el acceso a Glendalough con la ruta 183 desfasada; ocho lugares con solo la página genérica de Irish Rail; fuentes de cultura en catálogos PDF de la OPW; y 5 lugares con coordenadas de 2 o 3 decimales."
+    },
+    "IS": {
+      "nota": 7.9,
+      "revision_pendiente": false,
+      "comentario": "Naturaleza y logística, muy sólidas, con fuentes oficiales. Restan Rick Steves contado en Húsavík y Seyðisfjörður sin pruebas; adrenalina en 1 en los Fiordos del Oeste (estación de Tungudalur) y en Seyðisfjörður (Stafdalur), y Jökulsárlón (3) frente al Círculo Dorado (5); Reikiavik con gastronomía igual a la Laguna Azul; y 4 lugares con coordenadas de 2 decimales (Círculo Dorado, costa sur, Snæfellsnes y Askja)."
+    }
+  }
+}
