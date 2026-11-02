@@ -1,0 +1,129 @@
+{
+  "agente": "guias-expertas",
+  "subregion": "britanicas-nordicos",
+  "ronda": 3,
+  "estado": "completo",
+  "notas": "Ronda de huecos: puntaje guías para los 9 lugares nuevos de pendientes-huecos.json (ninguno creado por guias-expertas, así que no hay 'nuevos') y 2 correcciones de puntaje (gb-cambridge, fi-porvoo). Escala oficial. 15 WebSearch. Solo se citan URL que salieron en WebSearch. WebFetch no resuelve www.viamichelin.com ni travelguide.michelin.com, así que no pude abrir la ficha de King's College Chapel para leer la etiqueta. El «Worth the trip» se toma del pedido de cobertura, y en la búsqueda salen tanto la ficha de ViaMichelin como la del Green Guide, que la llama la obra maestra de Cambridge y el apogeo del gótico perpendicular. Para Cambridge, Northumberland, Cardiff y North York Moors, Rick Steves solo dio resultados de su foro (community.ricksteves.com), que no cuentan, así que no se le suma en esos lugares. Tampoco cuentan los foros de Fodor's. Northumberland, North York Moors-Whitby y las Hébridas Exteriores quedan en 2 porque solo Lonely Planet tiene páginas editoriales verificadas, aunque con mucho contenido.",
+  "puntajes": [
+    {
+      "id": "gb-cambridge",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Michelin Guide Vert", "Fodor's", "Lonely Planet"],
+      "justificacion": "ViaMichelin y la Guía Verde de Michelin tienen ficha de la capilla del King's College con la calificación «Worth the trip» (★★★). La describen como la obra maestra de Cambridge (1446-1515), apogeo del gótico perpendicular, con 25 vidrieras del siglo XVI, bóveda de abanico y la Adoración de los Magos de Rubens. Fodor's pone pasear en batea por el Cam entre sus 26 experiencias imprescindibles de Inglaterra, y Lonely Planet cita Cambridge entre los atractivos de East Anglia, que eligió para su Best in Travel 2025. Cumple la regla de ★★★ Michelin más top pick en otra guía.",
+      "fuentes": [
+        { "guia": "Michelin Guide Vert (ViaMichelin)", "url": "https://www.viamichelin.com/maps/tourist-attractions/poi/cambridge-_-cb52bc9ac039" },
+        { "guia": "Michelin Guide Vert", "url": "https://travelguide.michelin.com/europe/united-kingdom/great-britain/england/cambridgeshire/cambridge/kings-college-chapel" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/england/experiences/news/photos/ultimate-things-to-do-in-england" },
+        { "guia": "Lonely Planet (Best in Travel 2025, reseñado por Time Out)", "url": "https://www.timeout.com/uk/news/this-region-of-england-has-been-named-one-of-the-best-places-to-visit-in-the-world-by-lonely-planet-102624" }
+      ]
+    },
+    {
+      "id": "fi-porvoo",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Frommer's", "Lonely Planet"],
+      "justificacion": "Frommer's la incluye entre los mejores pueblos de Finlandia: fundada por los suecos en 1346, a 48 km de Helsinki y sede de la primera Dieta finlandesa. Lonely Planet tiene ficha de la Vieja Porvoo (callejones empedrados, almacenes rojos junto al río Porvoonjoki y la catedral del siglo XV) y la propone como primera parada de sus rutas por carretera desde Helsinki.",
+      "fuentes": [
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/finland/introduction/the-best-small-towns-and-villages" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/finland/helsinki/porvoo/attractions/vanha-porvoo/a/poi-sig/505806/359155" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-road-trips-in-finland" }
+      ]
+    },
+    {
+      "id": "gb-cardiff",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides"],
+      "justificacion": "Lonely Planet le dedica sus 12 mejores cosas que hacer en Cardiff: el castillo, con su torreón normando y los interiores góticos victorianos de William Burges, y el museo al aire libre de St Fagans, con casas históricas de todo Gales trasladadas piedra a piedra. Rough Guides tiene un capítulo propio de Cardiff y sus alrededores dentro del sur de Gales.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-cardiff" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/wales/south-wales/cardiff-around/" }
+      ]
+    },
+    {
+      "id": "gb-costa-northumberland",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Lonely Planet"],
+      "justificacion": "Lonely Planet le dedica un artículo con las 14 mejores cosas que hacer en Northumberland, en el que dice que la vista del castillo de Bamburgh desde la playa es una de las más bonitas de Inglaterra. Además tiene fichas del castillo y del priorato de Lindisfarne (Holy Island, a la que se llega por una calzada que cubre la marea) y una página de atracciones de la costa (Alnwick, Craster y Dunstanburgh, barcos a las islas Farne). Solo encontré páginas editoriales de esta guía.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-northumberland" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/england/northeast-england/holy-island-lindisfarne/attractions/lindisfarne-priory/a/poi-sig/1220153/358929" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/england/northeast-england/northumberland/attractions" }
+      ]
+    },
+    {
+      "id": "gb-brighton",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides", "Fodor's", "Frommer's"],
+      "justificacion": "Cuatro guías le dedican contenido propio. Lonely Planet tiene sus 15 mejores cosas que hacer en Brighton y una ficha del Palace Pier, y Rough Guides sus 16 mejores cosas que hacer. Fodor's da 10 razones para visitarla (el carrusel y la cervecería victoriana del muelle) y Frommer's tiene ficha del Royal Pavilion de Jorge IV, con sus interiores de chinoiserie. No la encontré en las listas nacionales de imprescindibles de estas guías, así que se queda en 4 y no en 5.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/england/southeast-england/brighton-and-hove/attractions" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/england/things-to-do-brighton/" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/england/the-southeast/places/brighton/experiences/news/photos/10-reasons-to-visit-brighton-uk" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/brighton/attractions/the-royal-pavilion-at-brighton/" }
+      ]
+    },
+    {
+      "id": "gb-north-york-moors-whitby",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Lonely Planet"],
+      "justificacion": "Lonely Planet tiene página de destino del Parque Nacional de North York Moors y de las atracciones de Whitby. También tiene ficha de la abadía de Whitby, en lo alto del East Cliff, que inspiró la llegada de Drácula en la novela de Bram Stoker, y un artículo sobre el tren de vapor North Yorkshire Moors Railway. Solo encontré páginas editoriales de esta guía.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/england/yorkshire/north-york-moors-national-park" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/points-of-interest/whitby-abbey/1069082" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/discover-the-joy-of-steam-on-the-north-yorkshire-moors-railway" }
+      ]
+    },
+    {
+      "id": "gb-st-andrews",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Rick Steves", "Lonely Planet", "Rough Guides"],
+      "justificacion": "Rick Steves le dedica una página de destino (ruinas de la catedral, que guardó las reliquias de San Andrés, y el R&A World Golf Museum) y la incluye en su circuito Heart of Scotland para ver el Old Course, cuna del golf. Lonely Planet la pone entre los 14 mejores lugares de Escocia como hogar espiritual del golf, con ruinas medievales, edificios universitarios y la playa de West Sands. Rough Guides la describe como la universidad escocesa que más se compara con Oxford y Cambridge.",
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/scotland/st-andrews" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/tours/scotland/heart-scotland" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-scotland" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/scotland/" }
+      ]
+    },
+    {
+      "id": "gb-hebridas-exteriores",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Lonely Planet"],
+      "justificacion": "Lonely Planet pone Luskentyre, en Harris, entre las mejores playas de Escocia por su arena blanquísima y su agua verde con la marea baja. También menciona la playa-aeropuerto de Tràigh Mhòr en Barra y el tweed de Harris en Tarbert, y recoge las islas en su lista de los mejores lugares de Escocia. Solo encontré páginas editoriales de esta guía.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-beaches-scotland" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-scotland" }
+      ]
+    },
+    {
+      "id": "gb-loch-lomond-trossachs",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Rough Guides", "Fodor's"],
+      "justificacion": "Rough Guides le dedica una página propia y lo llama el epítome del esplendor paisajístico escocés: la orilla occidental, más concurrida, la oriental, más tranquila, y las subidas a Ben Lomond y Conic Hill por la West Highland Way. Fodor's lo cubre en su capítulo de Stirling y las Tierras Altas Centrales, junto con los Trossachs.",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/scotland/central-scotland/loch-lomond/" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/scotland/the-central-highlands/things-to-do/sights?pois=694333" }
+      ]
+    },
+    {
+      "id": "no-sorlandet",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Rough Guides", "Fodor's"],
+      "justificacion": "Rough Guides tiene un capítulo del sur de Noruega. Llama a Lillesand uno de los pueblos costeros más bonitos, con casas blancas de tablas, y presenta Risør, con sus casas de madera blancas reconstruidas tras el incendio de 1861 y su pasado de puerto maderero. Fodor's tiene un capítulo propio de Southern Norway.",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/norway/south/" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/norway/southern-norway/restaurants?pois=689951" }
+      ]
+    },
+    {
+      "id": "no-fredrikstad",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides"],
+      "justificacion": "Lonely Planet tiene fichas de varios puntos de Gamlebyen (Bastion 5, la puerta central, la puerta de la muralla) y de la fortaleza de Kongsten. Rough Guides la presenta en su capítulo del fiordo de Oslo: una fortaleza del siglo XVII en la orilla este del Glomma, la más fuerte de Noruega en 1685, hoy convertida en el casco antiguo.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/norway/southern-norway/fredrikstad/attractions/kongsten-festning/a/poi-sig/1418676/360246" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/norway/southern-norway/fredrikstad/attractions/bastion-5/a/poi-sig/1431510/360246" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/norway/oslo-oslofjord/the-oslofjord/" }
+      ]
+    }
+  ]
+}
