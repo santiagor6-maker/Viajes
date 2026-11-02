@@ -4,7 +4,598 @@
   "grupo": "b",
   "ronda": 1,
   "paises": ["CZ", "SK", "HU", "SI"],
-  "estado": "en_progreso",
-  "puntajes": [],
-  "nuevos": []
+  "estado": "completo",
+  "puntajes": [
+    {
+      "id": "cz-praga",
+      "puntaje": 4,
+      "justificacion": "Es la capital gastronómica de Chequia. En la primera guía Michelin nacional (diciembre de 2025) Field y La Degustation Bohême Bourgeoise mantuvieron su estrella y Levitate se estrenó con una. Además es la gran capital de la cerveza checa, con tabernas de cerveza de tanque y cocina bohemia tradicional.",
+      "platos": ["Svíčková na smetaně (solomillo en salsa de nata)", "Vepřo knedlo zelo (cerdo con knedlíky y chucrut)", "Pilsner de tanque", "Chlebíčky (tostas abiertas)"],
+      "fuentes": [
+        {"guia": "Michelin (lista de estrellas de Chequia 2025)", "url": "https://guide.michelin.com/en/article/michelin-guide-ceremony/czechia-the-full-list-of-michelin-starred-restaurants"},
+        {"guia": "VisitCzechia (Chequia tiene diez estrellas Michelin)", "url": "https://www.visitczechia.com/en-us/news/2025/12/n-michelin-guide-czechia-2025"}
+      ]
+    },
+    {
+      "id": "cz-cesky-krumlov",
+      "puntaje": 2,
+      "justificacion": "Tiene la cervecería histórica Eggenberg y tabernas junto al Moldava con trucha y cocina del sur de Bohemia. Algo de interés.",
+      "platos": ["Trucha a la parrilla", "Cerveza Eggenberg"],
+      "fuentes": []
+    },
+    {
+      "id": "cz-kutna-hora",
+      "puntaje": 1,
+      "justificacion": "Es una ciudad patrimonial con tabernas de cocina checa corriente. Poca oferta propia.",
+      "platos": [],
+      "fuentes": []
+    },
+    {
+      "id": "cz-olomouc",
+      "puntaje": 3,
+      "justificacion": "Entrée recibió una estrella Michelin en la guía de Chequia de 2025 y Long Story Short Eatery & Bakery figura en la selección de la ciudad. Es la tierra del Olomoucké tvarůžky, el queso curado de olor intenso que se elabora en la cercana Loštice.",
+      "platos": ["Olomoucké tvarůžky (queso curado)", "Tvarůžky rebozados", "Cerveza morava"],
+      "fuentes": [
+        {"guia": "Michelin (lista de estrellas de Chequia 2025)", "url": "https://guide.michelin.com/en/article/michelin-guide-ceremony/czechia-the-full-list-of-michelin-starred-restaurants"},
+        {"guia": "Michelin (anuncio de la guía de Chequia 2025)", "url": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-czechia-2025"}
+      ]
+    },
+    {
+      "id": "cz-karlovy-vary",
+      "puntaje": 3,
+      "justificacion": "Es la cuna de la Becherovka, el licor de hierbas más famoso del país. El Museo Jan Becher, en el edificio histórico de la fábrica, enseña su historia, baja a las bodegas y termina con cata. A eso se suman las oplatky, las obleas de balneario que se toman con el agua de los manantiales.",
+      "platos": ["Becherovka", "Karlovarské oplatky (obleas de balneario)", "Agua de los manantiales termales"],
+      "fuentes": [
+        {"guia": "VisitCzechia (Museo Jan Becher)", "url": "https://www.visitczechia.com/en-us/things-to-do/places/culture/museums-and-galleries/c-carlsbad-jan-becher-museum"},
+        {"guia": "Karlovy Vary (turismo municipal, Museo Jan Becher)", "url": "https://www.karlovy-vary.cz/en/about-karlovy-vary/jan-becher-museum"}
+      ]
+    },
+    {
+      "id": "cz-telc",
+      "puntaje": 1,
+      "justificacion": "Es un pueblo de plaza renacentista con restaurantes sencillos y pescado de los estanques. Poca oferta.",
+      "platos": ["Carpa de los estanques"],
+      "fuentes": []
+    },
+    {
+      "id": "cz-karlstejn",
+      "puntaje": 2,
+      "justificacion": "El pueblo del castillo tiene pocas tabernas, pero a pocos kilómetros, junto a las cuevas de Koněprusy, está Papilio, el primer restaurante checo con dos estrellas Michelin (2025).",
+      "platos": ["Menú degustación de Papilio", "Cocina checa de taberna"],
+      "fuentes": [
+        {"guia": "Michelin (lista de estrellas de Chequia 2025)", "url": "https://guide.michelin.com/en/article/michelin-guide-ceremony/czechia-the-full-list-of-michelin-starred-restaurants"}
+      ]
+    },
+    {
+      "id": "cz-lednice-valtice",
+      "puntaje": 4,
+      "justificacion": "Es el corazón de la Moravia vinícola. El Centro Nacional del Vino, en el castillo de Valtice, organiza el Salón de los Vinos, el principal concurso del país, y expone todo el año en sus bodegas los vinos ganadores para catarlos. Entre Lednice y Valtice, en Hlohovec, ESSENS se estrenó en 2025 con una estrella Michelin.",
+      "platos": ["Vinos del Salón de los Vinos de la República Checa", "Ryzlink vlašský (riesling itálico)", "Frankovka (blaufränkisch)", "Pescado de los estanques de Lednice"],
+      "fuentes": [
+        {"guia": "Centro Nacional del Vino (folleto del Salón de los Vinos 2026)", "url": "https://www.vinarskecentrum.cz/storage/files/Salon-vin-brozura-150x150mm-AJ-2026.pdf"},
+        {"guia": "VisitCzechia (Salón de los Vinos)", "url": "https://www.visitczechia.com/en-us/things-to-do/events/2026/01/e-wine-salon"},
+        {"guia": "Michelin (lista de estrellas de Chequia 2025)", "url": "https://guide.michelin.com/en/article/michelin-guide-ceremony/czechia-the-full-list-of-michelin-starred-restaurants"}
+      ]
+    },
+    {
+      "id": "cz-mikulov",
+      "puntaje": 4,
+      "justificacion": "Da nombre a la subregión vinícola de Mikulov, una de las cuatro de Moravia, que concentra la gran mayoría del viñedo checo. Ya en 1368 era uno de los mayores centros del vino de Moravia. Los blancos de las colinas calizas de Pálava y las bodegas del pueblo son la base de las rutas en bici entre viñedos.",
+      "platos": ["Pálava (uva aromática local)", "Ryzlink vlašský", "Veltlínské zelené (grüner veltliner)", "Burčák (mosto en fermentación, en vendimia)"],
+      "fuentes": [
+        {"guia": "Centro Nacional del Vino (folleto del Salón de los Vinos 2026)", "url": "https://www.vinarskecentrum.cz/storage/files/Salon-vin-brozura-150x150mm-AJ-2026.pdf"},
+        {"guia": "Wikipedia (subregión de Mikulov)", "url": "https://en.wikipedia.org/wiki/Mikulovsk%C3%A1_wine"}
+      ]
+    },
+    {
+      "id": "cz-brno",
+      "puntaje": 3,
+      "justificacion": "La guía Michelin de Chequia 2025 le dio dos Bib Gourmand nuevos (Bar ATELIER & Bistro y Valoria) y recomienda varios restaurantes más. Tiene una activa escena de cafés y bares de vino y es la puerta de entrada a la Moravia vinícola.",
+      "platos": ["Brněnský řízek (escalope relleno de jamón y huevo)", "Vino de Moravia del Sur por copas", "Cerveza Starobrno"],
+      "fuentes": [
+        {"guia": "Michelin (lista de estrellas y Bib Gourmand de Chequia 2025)", "url": "https://guide.michelin.com/en/article/michelin-guide-ceremony/czechia-the-full-list-of-michelin-starred-restaurants"}
+      ]
+    },
+    {
+      "id": "cz-plzen",
+      "puntaje": 4,
+      "justificacion": "Es la cuna de la cerveza pilsner, nacida aquí en 1842. La visita a la cervecería Pilsner Urquell dura unos 110 minutos, recorre la fábrica y termina en las bodegas históricas con cata de cerveza sin filtrar. Hay recorridos en inglés todos los días y conviene reservar.",
+      "platos": ["Pilsner Urquell sin filtrar de barrica", "Svíčková", "Gulash checo con knedlíky"],
+      "fuentes": [
+        {"guia": "Pilsner Urquell (visita oficial de la cervecería)", "url": "https://www.prazdrojvisit.cz/en/tours/prohlidka-pilsner-urquell/"},
+        {"guia": "VisitCzechia (visita a la cervecería Pilsner Urquell)", "url": "https://www.visitczechia.com/en-US/Czech-Convention-Bureau/Group-activities/Activities/PILSEN-URQUELL-BREWERY-TOUR"}
+      ]
+    },
+    {
+      "id": "cz-ceske-svycarsko",
+      "puntaje": 1,
+      "justificacion": "Es un parque nacional con posadas y tabernas sencillas en Hřensko. Poca oferta.",
+      "platos": [],
+      "fuentes": []
+    },
+    {
+      "id": "cz-trebon",
+      "puntaje": 3,
+      "justificacion": "Es la capital de la carpa checa, criada en sus estanques desde hace siglos. Šupina a Šupinka, dedicada al pescado de estanque, tiene Bib Gourmand en la guía Michelin de Chequia 2025. El pueblo tiene además la cervecería Regent.",
+      "platos": ["Carpa de Třeboň", "Sopa de pescado", "Cerveza Regent"],
+      "fuentes": [
+        {"guia": "Michelin (lista de estrellas y Bib Gourmand de Chequia 2025)", "url": "https://guide.michelin.com/en/article/michelin-guide-ceremony/czechia-the-full-list-of-michelin-starred-restaurants"}
+      ]
+    },
+    {
+      "id": "cz-terezin",
+      "puntaje": 0,
+      "justificacion": "Es un memorial del Holocausto sin oferta gastronómica.",
+      "platos": [],
+      "fuentes": []
+    },
+    {
+      "id": "cz-moravsky-kras",
+      "puntaje": 1,
+      "justificacion": "Es una zona de cuevas con merenderos y restaurantes de visitantes. Poca oferta.",
+      "platos": [],
+      "fuentes": []
+    },
+    {
+      "id": "cz-krkonose-snezka",
+      "puntaje": 1,
+      "justificacion": "Hay cabañas de montaña con cocina de los Montes de los Gigantes. Poca oferta.",
+      "platos": ["Krkonošské kyselo (sopa agria de masa madre y setas)"],
+      "fuentes": []
+    },
+    {
+      "id": "cz-hluboka",
+      "puntaje": 1,
+      "justificacion": "Es un castillo con restaurante para visitantes. La cervecería Budvar de České Budějovice queda a unos 10 km.",
+      "platos": ["Carpa del sur de Bohemia"],
+      "fuentes": []
+    },
+    {
+      "id": "cz-sumava",
+      "puntaje": 1,
+      "justificacion": "Es un parque nacional de bosque con posadas rurales. Poca oferta.",
+      "platos": [],
+      "fuentes": []
+    },
+    {
+      "id": "sk-bratislava",
+      "puntaje": 3,
+      "justificacion": "Es el punto de partida de la Ruta del Vino de los Pequeños Cárpatos, que va de Bratislava por Svätý Jur, Pezinok y Modra hasta Trnava. En la ciudad se prueba la cocina eslovaca de pastores y los bratislavské rožky, medialunas rellenas de nuez o amapola con indicación geográfica protegida.",
+      "platos": ["Bryndzové halušky (ñoquis con queso de oveja)", "Bratislavské rožky (IGP)", "Vino de los Pequeños Cárpatos"],
+      "fuentes": [
+        {"guia": "Slovakia.travel (Ruta del Vino de los Pequeños Cárpatos)", "url": "https://slovakia.travel/en/little-carpathian-wine-route"},
+        {"guia": "Visit Bratislava (Asociación de la Ruta del Vino)", "url": "https://visitbratislava.com/members/zdruzenie-malokarpatska-vinna-cesta"}
+      ]
+    },
+    {
+      "id": "sk-altos-tatras",
+      "puntaje": 2,
+      "justificacion": "Tiene kolibas, tabernas de montaña con cocina de pastores y quesos de oveja. Algo de interés.",
+      "platos": ["Bryndzové halušky", "Oštiepok (queso ahumado de oveja)"],
+      "fuentes": []
+    },
+    {
+      "id": "sk-spis-levoca",
+      "puntaje": 1,
+      "justificacion": "Es una zona de castillo y ciudad medieval con restaurantes sencillos. Poca oferta.",
+      "platos": [],
+      "fuentes": []
+    },
+    {
+      "id": "sk-banska-stiavnica",
+      "puntaje": 1,
+      "justificacion": "Es una ciudad minera con cafés y restaurantes en el casco antiguo. Poca oferta propia.",
+      "platos": [],
+      "fuentes": []
+    },
+    {
+      "id": "sk-kosice",
+      "puntaje": 2,
+      "justificacion": "Tiene restaurantes y cervecerías en su calle principal y es la ciudad grande más cercana al Tokaj eslovaco. Algo de interés.",
+      "platos": ["Vino de Tokaj eslovaco", "Bryndzové halušky"],
+      "fuentes": []
+    },
+    {
+      "id": "sk-slovensky-raj",
+      "puntaje": 1,
+      "justificacion": "Es un parque de gargantas con chiringuitos y pensiones. Poca oferta.",
+      "platos": [],
+      "fuentes": []
+    },
+    {
+      "id": "sk-castillo-orava",
+      "puntaje": 2,
+      "justificacion": "Orava es la tierra del oravský korbáčik, el queso de tiras trenzadas con indicación geográfica protegida. Algo de interés.",
+      "platos": ["Oravský korbáčik (IGP)", "Oštiepok"],
+      "fuentes": []
+    },
+    {
+      "id": "sk-bojnice",
+      "puntaje": 1,
+      "justificacion": "Es un castillo con restaurantes para visitantes en el pueblo balneario. Poca oferta.",
+      "platos": [],
+      "fuentes": []
+    },
+    {
+      "id": "sk-bardejov",
+      "puntaje": 1,
+      "justificacion": "Es una ciudad histórica con cocina sencilla del este eslovaco. Poca oferta.",
+      "platos": [],
+      "fuentes": []
+    },
+    {
+      "id": "sk-dobsinska",
+      "puntaje": 0,
+      "justificacion": "Es una cueva de hielo sin oferta gastronómica.",
+      "platos": [],
+      "fuentes": []
+    },
+    {
+      "id": "sk-demanovska",
+      "puntaje": 1,
+      "justificacion": "Es un valle de cuevas y esquí con restaurantes de estación. Poca oferta.",
+      "platos": [],
+      "fuentes": []
+    },
+    {
+      "id": "sk-piestany",
+      "puntaje": 1,
+      "justificacion": "Es un balneario con restaurantes y cafés de paseo. Poca oferta propia.",
+      "platos": [],
+      "fuentes": []
+    },
+    {
+      "id": "sk-zdiar",
+      "puntaje": 2,
+      "justificacion": "Es un pueblo goral con tabernas de cocina de montaña y quesos de oveja. Algo de interés.",
+      "platos": ["Oštiepok", "Žinčica (suero de leche de oveja)", "Bryndzové halušky"],
+      "fuentes": []
+    },
+    {
+      "id": "sk-tokaj",
+      "puntaje": 4,
+      "justificacion": "Es la parte eslovaca de la región del Tokaj, con siete pueblos. Su vino emblema es el Tokajský výber, que envejece en barrica de tres a seis años en bodegas de 8 a 16 metros de profundidad. Las bodegas más visitadas están en Malá Tŕňa, Veľká Tŕňa y Viničky, donde también se come cocina local. La bodega histórica de Tokaj & Co, en Malá Tŕňa, de los siglos XV y XVI, es monumento nacional.",
+      "platos": ["Tokajský výber", "Furmint", "Lipovina (hárslevelű)"],
+      "fuentes": [
+        {"guia": "Slovakia.travel (Ruta del Vino de Tokaj)", "url": "https://slovakia.travel/en/tokaj-wine-route"},
+        {"guia": "Košice Region Tourism (Tokaj & Co)", "url": "https://www.kosiceregion.com/en/poi/tokaj-co/"},
+        {"guia": "Košice Region Tourism (folleto del Tokaj)", "url": "https://www.kosiceregion.com/wp-content/uploads/2026/02/Brozura_JedinecnyTokaj26_EN_dvojstrany_scrn.pdf"}
+      ]
+    },
+    {
+      "id": "hu-budapest",
+      "puntaje": 4,
+      "justificacion": "Concentra la alta cocina húngara. En la guía Michelin de Hungría 2025, Stand mantiene sus dos estrellas, y Babel, Borkonyha Winekitchen, Costes, essência, Rumour y Salt tienen una. Suma el Gran Mercado Central, los cafés históricos y bares de vino con toda la gama de vinos húngaros.",
+      "platos": ["Gulyás (sopa gulash)", "Lángos", "Tarta Dobos", "Pörkölt con nokedli"],
+      "fuentes": [
+        {"guia": "Michelin (guía de Hungría 2025)", "url": "https://guide.michelin.com/fi/en/article/michelin-guide-ceremony/the-michelin-guide-hungary-2025-is-out"},
+        {"guia": "VisitHungary (restaurantes húngaros con estrella)", "url": "https://visithungary.com/articles/10-hungarian-restaurants-have-already-earned-a-michelin-star"}
+      ]
+    },
+    {
+      "id": "hu-szentendre",
+      "puntaje": 2,
+      "justificacion": "Es un pueblo turístico con cafés y pastelerías, y un museo del mazapán. Algo de interés.",
+      "platos": ["Mazapán", "Lángos"],
+      "fuentes": []
+    },
+    {
+      "id": "hu-visegrad",
+      "puntaje": 1,
+      "justificacion": "Es una fortaleza con restaurantes de visitantes junto al Danubio. Poca oferta.",
+      "platos": [],
+      "fuentes": []
+    },
+    {
+      "id": "hu-esztergom",
+      "puntaje": 3,
+      "justificacion": "El restaurante 42 tiene una estrella Michelin en la guía de Hungría 2025, una de las pocas fuera de Budapest. Es una buena parada gastronómica en el Recodo del Danubio.",
+      "platos": ["Menú degustación de 42", "Pescado del Danubio"],
+      "fuentes": [
+        {"guia": "Michelin (guía de Hungría 2025)", "url": "https://guide.michelin.com/fi/en/article/michelin-guide-ceremony/the-michelin-guide-hungary-2025-is-out"}
+      ]
+    },
+    {
+      "id": "hu-eger",
+      "puntaje": 4,
+      "justificacion": "Es la ciudad del Egri Bikavér (Sangre de Toro). En el valle de Szépasszony (Valle de la Bella Mujer), a 10 o 15 minutos a pie del centro, hay unas 200 bodegas excavadas en la toba, varias abiertas a catas. El turismo oficial organiza recorridos de bodegas en la vendimia y en Adviento.",
+      "platos": ["Egri Bikavér", "Egri Csillag (blanco de coupage)", "Gulyás de bodega"],
+      "fuentes": [
+        {"guia": "Visit Eger (valle de Szépasszony)", "url": "https://visiteger.com/en/sights/all/szepasszony-valley"},
+        {"guia": "Visit Eger (recorrido de bodegas de vendimia 2026)", "url": "https://visiteger.com/en/gm/programs/gastro/harvest-cellar-tour-2026"}
+      ]
+    },
+    {
+      "id": "hu-pecs",
+      "puntaje": 2,
+      "justificacion": "Tiene buena oferta de restaurantes y está a unos 35 km de la región vinícola de Villány. Algo de interés.",
+      "platos": ["Vino tinto de Villány", "Pörkölt"],
+      "fuentes": []
+    },
+    {
+      "id": "hu-balaton",
+      "puntaje": 4,
+      "justificacion": "En la orilla norte, los cerros volcánicos de Badacsony forman la principal región de blancos volcánicos del país. Allí se cultiva casi todo el kéknyelű, una uva autóctona rara, junto al olaszrizling. El lago aporta el fogas, su lucioperca, y en verano los lángos de playa.",
+      "platos": ["Kéknyelű de Badacsony", "Olaszrizling", "Fogas (lucioperca del Balaton)", "Lángos"],
+      "fuentes": [
+        {"guia": "Wines of Hungary (distrito vinícola de Badacsony)", "url": "https://winesofhungary.hu/wine-regions/badacsony-wine-district"},
+        {"guia": "World of Fine Wine (kéknyelű)", "url": "https://worldoffinewine.com/news-features/wine-hungary-keknyelu"}
+      ]
+    },
+    {
+      "id": "hu-tokaj",
+      "puntaje": 5,
+      "justificacion": "Es una de las regiones vinícolas históricas más importantes del mundo. Su paisaje cultural vitivinícola es Patrimonio de la Humanidad desde 2002 e incluye bodegas históricas en Tolcsva, Sárospatak, Sátoraljaújhely y Hercegkút. El Tokaji aszú, de uvas botritizadas, es uno de los vinos dulces más antiguos del mundo, y la región se delimitó por decreto en el siglo XVIII. Mád y Tállya reúnen muchas de las mejores bodegas.",
+      "platos": ["Tokaji aszú", "Tokaji szamorodni", "Furmint seco", "Eszencia"],
+      "fuentes": [
+        {"guia": "UNESCO (decisión de inscripción del paisaje de Tokaj)", "url": "https://whc.unesco.org/en/decisions/929/"},
+        {"guia": "Tokaj Turizmus (rutas del vino)", "url": "https://www.tokaj-turizmus.hu/Wine-tour"}
+      ]
+    },
+    {
+      "id": "hu-hortobagy",
+      "puntaje": 2,
+      "justificacion": "En la puszta se crían vacas grises húngaras y ovejas racka, y la histórica csárda de Hortobágy sirve cocina pastoril. Algo de interés.",
+      "platos": ["Hortobágyi palacsinta (crepe relleno de pörkölt)", "Gulyás de vaca gris"],
+      "fuentes": []
+    },
+    {
+      "id": "hu-godollo",
+      "puntaje": 1,
+      "justificacion": "Es un palacio con cafetería y restaurantes sencillos. Poca oferta.",
+      "platos": [],
+      "fuentes": []
+    },
+    {
+      "id": "hu-bukk-lillafured",
+      "puntaje": 2,
+      "justificacion": "En Lillafüred y los valles del Bükk se come trucha de los arroyos de montaña. Algo de interés.",
+      "platos": ["Trucha de Lillafüred", "Gulyás"],
+      "fuentes": []
+    },
+    {
+      "id": "hu-sopron",
+      "puntaje": 3,
+      "justificacion": "Es el centro del distrito vinícola de Sopron, en las faldas de los Alpes y a orillas del lago Fertő. Allí el kékfrankos es de lejos la uva dominante y da tintos con notas de violeta y frambuesa. Las uvas tintas ya son unos dos tercios del viñedo.",
+      "platos": ["Kékfrankos de Sopron", "Zweigelt", "Cocina de frontera austrohúngara"],
+      "fuentes": [
+        {"guia": "Wines of Hungary (distrito vinícola de Sopron)", "url": "https://winesofhungary.hu/wine-regions/sopron-wine-district"},
+        {"guia": "Wines of Hungary (folleto de la región de Panonia Superior)", "url": "https://winesofhungary.hu/media/uploads/publications_and_maps/upper_pannon_leaflet.pdf"}
+      ]
+    },
+    {
+      "id": "hu-heviz",
+      "puntaje": 2,
+      "justificacion": "Es un balneario con buena hostelería, cerca de Keszthely y de las colinas vinícolas del oeste del Balaton. Algo de interés.",
+      "platos": ["Fogas del Balaton", "Vino blanco de la zona del Balaton"],
+      "fuentes": []
+    },
+    {
+      "id": "hu-holloko",
+      "puntaje": 1,
+      "justificacion": "Es una aldea museo con alguna taberna de cocina palóc. Poca oferta.",
+      "platos": ["Palócleves (sopa palóc)"],
+      "fuentes": []
+    },
+    {
+      "id": "hu-aggtelek",
+      "puntaje": 0,
+      "justificacion": "Es una zona de cuevas sin oferta gastronómica.",
+      "platos": [],
+      "fuentes": []
+    },
+    {
+      "id": "hu-pannonhalma",
+      "puntaje": 3,
+      "justificacion": "La archiabadía benedictina recuperó en 2002 su producción de vino, interrumpida tras la guerra, y abrió en 2003 una bodega moderna visitable. Es la principal bodega del distrito de Pannonhalma, distrito independiente desde 1990, de clima fresco y dominado por los blancos.",
+      "platos": ["Vinos de la archiabadía (Tricollis)", "Kékfrankos de Pannonhalma"],
+      "fuentes": [
+        {"guia": "Wines of Hungary (distrito vinícola de Pannonhalma)", "url": "https://winesofhungary.hu/wine-regions/pannonhalma-wine-district"},
+        {"guia": "Wines of Hungary (bodega de la archiabadía)", "url": "https://winesofhungary.hu/wineries/pannonhalma-archabbey-4237"}
+      ]
+    },
+    {
+      "id": "si-ljubljana",
+      "puntaje": 4,
+      "justificacion": "Es el centro de la escena culinaria eslovena y reúne buena parte de la selección Michelin del país, presente en Eslovenia desde 2020. Tiene el mercado central de Plečnik y la Odprta kuhna (Cocina Abierta), un mercado de comida callejera de cocineros locales que se monta los viernes de primavera a otoño.",
+      "platos": ["Kranjska klobasa (IGP)", "Štruklji", "Potica", "Idrijski žlikrofi"],
+      "fuentes": [
+        {"guia": "Visit Ljubljana (la guía Michelin llega a Eslovenia)", "url": "https://visitljubljana.com/en/media/news/michelins-iconic-guide-now-covers-slovenia"},
+        {"guia": "Slovenia.info (siguiendo las estrellas Michelin)", "url": "https://www.slovenia.info/en/stories/follow-the-michelin-stars-in-slovenia"}
+      ]
+    },
+    {
+      "id": "si-bled",
+      "puntaje": 3,
+      "justificacion": "Es la casa de la kremšnita de Bled, la tarta de crema y hojaldre que creó en 1953 la pastelería del Park Hotel y que desde entonces se ha vendido por millones. National Geographic la presenta como un postre de cuento. Probarla con vistas al lago es un clásico.",
+      "platos": ["Kremšnita de Bled", "Trucha del lago", "Štruklji"],
+      "fuentes": [
+        {"guia": "National Geographic (la kremšnita de Bled)", "url": "https://www.nationalgeographic.com/culture/article/lake-bled-cream-cake-a-confection-straight-from-the-storybooks"},
+        {"guia": "RTV Slovenija (Bled y su kremšnita)", "url": "https://www.rtvslo.si/news-in-english/slovenia-revealed/a-slovenian-resort-is-synonymous-with-a-cream-cake/348570"}
+      ]
+    },
+    {
+      "id": "si-bohinj",
+      "puntaje": 2,
+      "justificacion": "Es tierra de queserías de montaña: el queso de Bohinj y el mohant, con denominación de origen protegida. Algo de interés.",
+      "platos": ["Mohant (DOP)", "Queso de Bohinj", "Trucha del lago"],
+      "fuentes": []
+    },
+    {
+      "id": "si-piran",
+      "puntaje": 3,
+      "justificacion": "A pocos kilómetros están las salinas de Sečovlje, donde la sal de Piran se sigue cosechando a mano. Tienen un museo de la sal y la técnica está en el registro de patrimonio inmaterial esloveno desde 2015. El puerto ofrece pescado del Adriático, aceite de oliva de la Istria eslovena y malvazija.",
+      "platos": ["Sal y flor de sal de Piran", "Pescado y marisco a la parrilla", "Aceite de oliva de la Istria eslovena", "Malvazija"],
+      "fuentes": [
+        {"guia": "Culture.si (Museo de la Sal de Sečovlje)", "url": "https://www.culture.si/en/Museum_of_Salt_Making,_Sečovlje"},
+        {"guia": "Portorož-Piran (turismo oficial)", "url": "https://www.portoroz.si/en/3023"}
+      ]
+    },
+    {
+      "id": "si-skocjan",
+      "puntaje": 3,
+      "justificacion": "Las cuevas están en el Karst (Kras), una de las cuatro zonas vinícolas de Primorska. Allí la refošk da en la tierra roja el teran, el tinto característico de la región, y el viento bora seca el kraški pršut, el jamón del Karst. Hay bodegas y osmice (tabernas de granja) en los pueblos cercanos.",
+      "platos": ["Teran", "Kraški pršut (jamón del Karst)", "Jota (guiso de chucrut y alubias)"],
+      "fuentes": [
+        {"guia": "In Your Pocket (región vinícola de Primorska)", "url": "https://www.inyourpocket.com/slovenia/ljubljana/articles/slovenian-wine-primorska-wine-region"}
+      ]
+    },
+    {
+      "id": "si-postojna-predjama",
+      "puntaje": 1,
+      "justificacion": "Es una zona de cuevas y castillo con restaurantes de visitantes. Poca oferta.",
+      "platos": [],
+      "fuentes": []
+    },
+    {
+      "id": "si-triglav-vrsic",
+      "puntaje": 2,
+      "justificacion": "Hay refugios de montaña con cocina alpina y quesos de los pastos de altura. Algo de interés.",
+      "platos": ["Ričet (guiso de cebada)", "Queso de pastos de montaña"],
+      "fuentes": []
+    },
+    {
+      "id": "si-soca-bovec",
+      "puntaje": 5,
+      "justificacion": "En el mismo valle del Soča, en Kobarid, está Hiša Franko, de la chef Ana Roš. Es el único restaurante esloveno con tres estrellas Michelin y además tiene estrella verde, que conservó en 2025. Muchos viajan al valle solo por él. El valle aporta la trucha marmorata del Soča y los quesos de montaña tolminc y bovški sir.",
+      "platos": ["Menú de Hiša Franko", "Trucha marmorata del Soča", "Queso tolminc (DOP)", "Frika (tortilla de patata y queso)"],
+      "fuentes": [
+        {"guia": "Michelin (guía de Eslovenia 2025)", "url": "https://guide.michelin.com/si/en/article/news-and-views/the-michelin-guide-slovenia-2025-is-out"},
+        {"guia": "Hiša Franko (tres estrellas y estrella verde 2025)", "url": "https://www.hisafranko.com/en/news/205/hisa-franko-tudi-v-letu-2025-s-tremi-michelinovimi-zvezdicami-in-zeleno-zvezdico"},
+        {"guia": "Slovenia.info (nota de prensa Michelin 2025)", "url": "https://www.slovenia.info/en/press-centre/press-releases/33458-slovenia-earns-9-michelin-stars-this-year-hisa-franko-retains-three-stars-milka-receives-two-a-new-green-star-for-hotel-plesnik-three-new-special-awards-introduced"}
+      ]
+    },
+    {
+      "id": "si-maribor",
+      "puntaje": 4,
+      "justificacion": "Es la capital vinícola de la Estiria eslovena. En el barrio de Lent está la Vieja Vid, una žametovka de más de 400 años que Guinness reconoce como la vid más antigua del mundo que sigue dando fruto. La bodega Vinag tiene bodegas subterráneas desde 1847, de las mayores y más antiguas de Europa. El turismo oficial propone catas y rutas del vino por la región.",
+      "platos": ["Žametovka de la Vieja Vid", "Šipon (furmint)", "Laški rizling", "Aceite de semilla de calabaza de Estiria"],
+      "fuentes": [
+        {"guia": "Slovenia.info (vino en Maribor y Estiria)", "url": "https://www.slovenia.info/en/stories/wine-experiences-in-maribor-and-the-stajerska-region"},
+        {"guia": "Slovenia.info (la Vieja Vid de Maribor)", "url": "https://www.slovenia.info/en/press-centre/news-of-the-tourism-press-agency/35878-maribor-s-old-vine-retains-its-crown-the-world-s-oldest-noble-grapevine-still-producing-fruit"},
+        {"guia": "Guinness World Records (vid más antigua)", "url": "https://www.guinnessworldrecords.com/world-records/72739-oldest-vine"}
+      ]
+    },
+    {
+      "id": "si-ptuj",
+      "puntaje": 3,
+      "justificacion": "Tiene la bodega más antigua de Eslovenia, bajo el convento de los minoritas fundado en 1239. Allí se guarda un Golden Vine de 1917, considerado el vino esloveno más antiguo. Está entre las colinas vinícolas de Haloze y Jeruzalem.",
+      "platos": ["Šipon de Haloze", "Laški rizling", "Ptujski lük (cebolla de Ptuj)"],
+      "fuentes": [
+        {"guia": "Slovenia.info (ciudades históricas con tradición vinícola)", "url": "https://www.slovenia.info/en/stories/historic-towns-with-a-wine-tradition"}
+      ]
+    },
+    {
+      "id": "si-goriska-brda",
+      "puntaje": 4,
+      "justificacion": "Es la región vinícola más conocida de Eslovenia, pegada al Collio italiano. Destaca por sus blancos y vinos naranja de rebula, y cada vez más por su pinot noir y sus coupages bordeleses. Sus bodegas familiares se recorren en bici entre pueblos de colina.",
+      "platos": ["Rebula (ribolla gialla)", "Vino naranja de maceración", "Cerezas de Brda", "Pršut"],
+      "fuentes": [
+        {"guia": "Decanter (guía del vino de Eslovenia)", "url": "https://www.decanter.com/wine-news/slovenia-a-wine-lovers-guide-517554/"},
+        {"guia": "Lonely Planet (las tierras del vino del oeste de Eslovenia)", "url": "https://www.lonelyplanet.com/travel-tips-and-articles/five-reasons-to-visit-slovenias-western-winelands/40625c8c-8a11-5710-a052-1479d276adea"}
+      ]
+    },
+    {
+      "id": "si-izola",
+      "puntaje": 2,
+      "justificacion": "Es un pueblo pesquero con tabernas de pescado en el puerto y aceite de oliva de la Istria eslovena. Algo de interés.",
+      "platos": ["Sardinas a la parrilla", "Aceite de oliva de la Istria eslovena"],
+      "fuentes": []
+    },
+    {
+      "id": "si-kranjska-gora",
+      "puntaje": 4,
+      "justificacion": "Junto al lago Jasna está Milka, que mantiene en la guía Michelin de Eslovenia 2025 sus dos estrellas, el segundo mejor reconocimiento del país. Su cocina alpina contemporánea justifica el desvío.",
+      "platos": ["Menú degustación de Milka", "Trucha alpina", "Queso de montaña"],
+      "fuentes": [
+        {"guia": "Slovenia.info (nota de prensa Michelin 2025)", "url": "https://www.slovenia.info/en/press-centre/press-releases/33458-slovenia-earns-9-michelin-stars-this-year-hisa-franko-retains-three-stars-milka-receives-two-a-new-green-star-for-hotel-plesnik-three-new-special-awards-introduced"},
+        {"guia": "Gobierno de Eslovenia (Michelin 2025)", "url": "https://www.gov.si/en/news/2025-06-13-slovenia-earns-9-michelin-stars-this-year-hisa-franko-retains-three-stars-milka-receives-two-a-new-green-star-for-hotel-plesnik-three-new-special-awards-introduced/"}
+      ]
+    }
+  ],
+  "nuevos": [
+    {
+      "id": "cz-ceske-budejovice",
+      "nombre": "České Budějovice (cervecería Budvar)",
+      "pais_iso": "CZ",
+      "region": "Jihočeský kraj",
+      "lat": 48.9745,
+      "lng": 14.4743,
+      "tipo": "ciudad",
+      "puntaje": 3,
+      "justificacion": "Es la ciudad de la cerveza Budweiser Budvar, cuya cervecería se fundó en 1895, a unos 2,5 km del centro. Tiene visitas guiadas diarias, un centro de visitantes con la exposición sobre la historia de la cerveza de Budějovice y cata directa del tanque. La plaza Přemysl Otakar II, de las más grandes del país, está llena de cervecerías.",
+      "platos": ["Budweiser Budvar sin filtrar del tanque", "Carpa del sur de Bohemia", "Knedlíky con carne asada"],
+      "fuentes": [
+        {"guia": "VisitCzechia (cervecería Budvar)", "url": "https://www.visitczechia.com/en-US/Things-to-Do/Places/Gastronomic-Tourism/Beer-and-Breweries/c-ceske-budejovice-budvar"},
+        {"guia": "Budějovický Budvar (visitas a la cervecería)", "url": "https://www.budejovickybudvar.cz/tiskove-zpravy/budweiser-budvar-is-offering-tours-of-the-brewery-as-well-as-tasting-its-premium-lager-free"},
+        {"guia": "Turismo de Bohemia del Sur (Budvar)", "url": "https://www.jiznicechy.cz/en/targets/2294-budejovicky-budvar"}
+      ]
+    },
+    {
+      "id": "cz-zatec",
+      "nombre": "Žatec y el paisaje del lúpulo de Saaz",
+      "pais_iso": "CZ",
+      "region": "Ústecký kraj",
+      "lat": 50.3271,
+      "lng": 13.5458,
+      "tipo": "pueblo",
+      "puntaje": 3,
+      "justificacion": "Es la ciudad del lúpulo de Saaz, la variedad más famosa del mundo y la base de la pilsner checa. Desde 2023 es Patrimonio de la Humanidad como paisaje cultural del cultivo y procesado del lúpulo. El Museo Nacional de Agricultura tiene aquí una exposición sobre el lúpulo y su paisaje, y la ciudad conserva almacenes y secaderos históricos.",
+      "platos": ["Cerveza con lúpulo de Saaz", "Cerveza de la cervecería de Žatec"],
+      "fuentes": [
+        {"guia": "UNESCO (Žatec y el paisaje del lúpulo de Saaz)", "url": "https://whc.unesco.org/en/list/1558"},
+        {"guia": "Museo Nacional de Agricultura (exposición de Žatec)", "url": "https://www.nzm.cz/en/program/expositions/zatec-and-the-landscape-of-saaz-hops"}
+      ]
+    },
+    {
+      "id": "sk-malokarpatska",
+      "nombre": "Ruta del Vino de los Pequeños Cárpatos (Pezinok, Modra, Svätý Jur)",
+      "pais_iso": "SK",
+      "region": "Bratislavský kraj",
+      "lat": 48.2894,
+      "lng": 17.2667,
+      "tipo": "region",
+      "puntaje": 4,
+      "justificacion": "Es la principal región vinícola de Eslovaquia, a las puertas de Bratislava. La ruta oficial une las antiguas ciudades reales de Svätý Jur, Pezinok y Modra con decenas de pueblos hasta Trnava. En noviembre se celebra el día de bodegas abiertas, con más de un centenar de productores. Pezinok es el centro de la ruta y tiene el Museo de los Pequeños Cárpatos, dedicado a la tradición vinícola.",
+      "platos": ["Frankovka modrá (blaufränkisch)", "Rizling vlašský", "Ganso asado con lokše (Slovenský Grob)"],
+      "fuentes": [
+        {"guia": "Slovakia.travel (Ruta del Vino de los Pequeños Cárpatos)", "url": "https://slovakia.travel/en/little-carpathian-wine-route"},
+        {"guia": "Visit Bratislava (Asociación de la Ruta del Vino)", "url": "https://visitbratislava.com/members/zdruzenie-malokarpatska-vinna-cesta"}
+      ]
+    },
+    {
+      "id": "hu-villany",
+      "nombre": "Villány (región del vino tinto)",
+      "pais_iso": "HU",
+      "region": "Baranya",
+      "lat": 45.8690,
+      "lng": 18.4530,
+      "tipo": "region",
+      "puntaje": 4,
+      "justificacion": "Es la región más al sur de Hungría y la referencia del vino tinto húngaro, con su cabernet franc y sus coupages bordeleses. La Ruta del Vino Villány-Siklós, la primera oficial del país (1994), recorre las bodegas, muy juntas y fáciles de visitar a pie o en bici, como la hilera de bodegas de Villánykövesd. En octubre se celebra el festival del vino tinto.",
+      "platos": ["Villányi Franc (cabernet franc)", "Coupage bordelés de Villány", "Portugieser", "Cocina suaba del sur de Hungría"],
+      "fuentes": [
+        {"guia": "VisitHungary (Villány)", "url": "https://visithungary.com/articles/-visit-villany"},
+        {"guia": "VisitHungary (ruta del vino de Villány)", "url": "https://visithungary.com/articles/wine-tour-villany-from-the-siklos-castle-to-the-cellar-row-in-palkonya"},
+        {"guia": "Wines of Hungary (distrito vinícola de Villány)", "url": "https://winesofhungary.hu/wine-tourism/villany-wine-district"}
+      ]
+    },
+    {
+      "id": "si-vipava",
+      "nombre": "Valle del Vipava",
+      "pais_iso": "SI",
+      "region": "Goriška",
+      "lat": 45.8464,
+      "lng": 13.9631,
+      "tipo": "region",
+      "puntaje": 4,
+      "justificacion": "Es una de las zonas vinícolas más dinámicas de Eslovenia. Sus bodegas familiares trabajan uvas autóctonas como la pinela y la zelen en suelos de flysch, con el clima marcado por el viento bora. Las rutas en bici enlazan bodegas y el castillo de Rihemberk. En 2025 la guía Michelin dio su primer premio al sumiller de Eslovenia a Anže Kristan, de Gostilna Pri Lojzetu, en el valle.",
+      "platos": ["Zelen", "Pinela", "Pršut", "Jota"],
+      "fuentes": [
+        {"guia": "Decanter (rutas en bici con bodegas por el oeste de Eslovenia)", "url": "https://www.decanter.com/wine/wine-travel/cycling-tour-in-western-slovenia-five-great-bike-routes-with-wineries-and-stunning-views/"},
+        {"guia": "Lonely Planet (las tierras del vino del oeste de Eslovenia)", "url": "https://www.lonelyplanet.com/travel-tips-and-articles/five-reasons-to-visit-slovenias-western-winelands/40625c8c-8a11-5710-a052-1479d276adea"},
+        {"guia": "Slovenia.info (nota de prensa Michelin 2025)", "url": "https://www.slovenia.info/en/press-centre/press-releases/33458-slovenia-earns-9-michelin-stars-this-year-hisa-franko-retains-three-stars-milka-receives-two-a-new-green-star-for-hotel-plesnik-three-new-special-awards-introduced"}
+      ]
+    }
+  ]
 }
