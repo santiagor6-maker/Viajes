@@ -1,7 +1,7 @@
 {
   "pausado": false,
   "subregion": "britanicas-nordicos",
-  "paso": "huecos",
+  "paso": "revisor",
   "ronda": 3,
   "orden_subregiones": [
     "iberica-italia",
@@ -184,8 +184,14 @@
       "subregion": "britanicas-nordicos",
       "paso": "cobertura",
       "resultado": "Todos ≥10 y sin concentración en la capital. 9 huecos (GB: Cardiff, Northumberland, Brighton, North York Moors, St Andrews, Hébridas Exteriores, Loch Lomond; NO: Sørlandet, Fredrikstad) y 7 correcciones (Cambridge guías 5, Cotswolds/Ålesund/Porvoo/Skagen). Escocia en 3 regiones. construir-app completa el cupo de destacados en países con pocas regiones (IE 8→10, MT 5→7). Siguiente: huecos (ronda 3)"
+    },
+    {
+      "fecha": "2026-11-02",
+      "subregion": "britanicas-nordicos",
+      "paso": "huecos",
+      "resultado": "Ronda 3: 9 lugares nuevos (Cardiff, Northumberland, Brighton, North York Moors, St Andrews, Hébridas, Loch Lomond, Sørlandet, Fredrikstad) + correcciones (Cambridge guías 5, Cotswolds, Ålesund, Porvoo, Skagen) + 11 fuentes oficiales de logística. Curador: 211 lugares; validador sin errores; republicado (versión 14). Siguiente: revisor ronda 1"
     }
   ],
-  "ronda_revisor": 0,
+  "ronda_revisor": 1,
   "max_rondas_revisor": 2
 }

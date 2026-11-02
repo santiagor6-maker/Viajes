@@ -10668,6 +10668,103 @@
     "investigado_en": "2026-11-02"
   },
   {
+    "id": "dk-skagen",
+    "nombre": "Skagen y Grenen",
+    "pais_iso": "DK",
+    "pais": "Dinamarca",
+    "region": "Nordjylland",
+    "lat": 57.7209,
+    "lng": 10.5839,
+    "categorias": [
+      "cultura",
+      "naturaleza",
+      "playa"
+    ],
+    "puntajes": {
+      "guias": 4,
+      "cultura": 4,
+      "naturaleza": 5,
+      "gastronomia": 3,
+      "adrenalina": 1,
+      "logistica": 4
+    },
+    "global": 4.5,
+    "nivel": "imprescindible",
+    "mejor_epoca": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "dias_sugeridos": 2,
+    "costo": "$$$",
+    "acceso": "Tren de Nordjyske Jernbaner de Frederikshavn a Skagen (unos 40 min), que enlaza con la red de DSB y queda cerca de la terminal de ferris de Frederikshavn; Grenen a pie, en bici o en bus de verano.",
+    "alerta": "En Grenen está prohibido bañarse por las corrientes donde se juntan los dos mares.",
+    "platos": [
+      "Gambas de Skagen (rejer)",
+      "Fiskefrikadeller",
+      "Pescado fresco del puerto"
+    ],
+    "por_que": "En Grenen, la punta de arena más al norte de Dinamarca, se ven chocar el Skagerrak y el Kattegat, aunque está prohibido bañarse por las corrientes. El Skagens Museum reúne a los pintores que llegaron a finales del siglo XIX por su luz, y cerca están la iglesia enterrada en la arena y Råbjerg Mile, una duna que avanza unos 15 m al año. Las gambas del puerto y el restaurante Okê, con estrella Michelin en 2026, completan la visita.",
+    "fuentes": [
+      {
+        "guia": "Lonely Planet",
+        "url": "https://www.lonelyplanet.com/destinations/denmark/skagen"
+      },
+      {
+        "guia": "Fodor's",
+        "url": "https://www.fodors.com/world/europe/denmark/jutland/things-to-do/sights?pois=915370"
+      },
+      {
+        "guia": "Frommer's",
+        "url": "https://www.frommers.com/destinations/skagen/attractions"
+      },
+      {
+        "guia": "VisitDenmark",
+        "url": "https://www.visitdenmark.com/denmark/things-to-do/attractions/best-museums"
+      },
+      {
+        "guia": "VisitDenmark (oficial)",
+        "url": "https://www.visitdenmark.com/denmark/explore/rabjerg-mile-gdk640523"
+      },
+      {
+        "guia": "Naturstyrelsen (oficial)",
+        "url": "https://naturstyrelsen.dk/find-et-naturomraade/naturguider/thy-og-vendsyssel/raabjerg-mile-og-bunken-klitplantage/oplevelser"
+      },
+      {
+        "guia": "Michelin (nota de prensa nórdica 2026, Okê nueva estrella)",
+        "url": "https://news.michelin.se/articles/the-2026-edition-of-the-michelin-guide-nordic-countries-has-been-unveiled"
+      },
+      {
+        "guia": "Ruths Hotel (Okê)",
+        "url": "https://www.ruths-hotel.dk/en/ophold/tid-til-mere-ophold-1-1-1"
+      },
+      {
+        "guia": "Enjoy Nordjylland (turismo oficial del norte de Jutlandia)",
+        "url": "https://www.enjoynordjylland.com/north-jutland/plan-your-trip/gastronomy/critically-acclaimed-restaurants-eastern-north-jutland"
+      },
+      {
+        "guia": "VisitDenmark",
+        "url": "https://www.visitdenmark.com/denmark/explore/skagens-museum-gdk600081"
+      },
+      {
+        "guia": "Colección Hirschsprung (museo)",
+        "url": "https://hirschsprung.dk/en/collection/art/the-skagen-painters"
+      },
+      {
+        "guia": "Visit Denmark (Nordjyske Jernbaner)",
+        "url": "https://www.visitdenmark.com/denmark/plan-your-trip/nordjyske-jernbaner-gdk700789"
+      },
+      {
+        "guia": "Enjoy Nordjylland (turismo oficial)",
+        "url": "https://enjoynordjylland.com/north-jutland/experiences/free-attractions-and-activities-north-denmark"
+      }
+    ],
+    "adrenalina_cerca": [],
+    "investigado_en": "2026-11-02"
+  },
+  {
     "id": "dk-mons-klint",
     "nombre": "Acantilados de Møns Klint",
     "pais_iso": "DK",
@@ -11038,86 +11135,6 @@
         "url": "https://www.lalandia.dk/en/billund/go%20exploring/legoland"
       }
     ],
-    "investigado_en": "2026-11-02"
-  },
-  {
-    "id": "dk-skagen",
-    "nombre": "Skagen y Grenen",
-    "pais_iso": "DK",
-    "pais": "Dinamarca",
-    "region": "Nordjylland",
-    "lat": 57.7209,
-    "lng": 10.5839,
-    "categorias": [
-      "naturaleza",
-      "playa"
-    ],
-    "puntajes": {
-      "guias": 4,
-      "cultura": 3,
-      "naturaleza": 4,
-      "gastronomia": 3,
-      "adrenalina": 1,
-      "logistica": 4
-    },
-    "global": 4,
-    "nivel": "imprescindible",
-    "mejor_epoca": [
-      5,
-      6,
-      7,
-      8,
-      9
-    ],
-    "dias_sugeridos": 2,
-    "costo": "$$$",
-    "acceso": "Tren local desde Frederikshavn (unos 40 min), que enlaza con la red danesa; Grenen a pie, en bici o en bus de verano.",
-    "alerta": "En Grenen está prohibido bañarse por las corrientes donde se juntan los dos mares.",
-    "platos": [
-      "Gambas de Skagen (rejer)",
-      "Fiskefrikadeller",
-      "Pescado fresco del puerto"
-    ],
-    "por_que": "En Grenen, la punta de arena más al norte de Dinamarca, se ven chocar el Skagerrak y el Kattegat, aunque está prohibido bañarse por las corrientes. El Skagens Museum reúne a los pintores que llegaron a finales del siglo XIX por su luz, y cerca están la iglesia enterrada en la arena y Råbjerg Mile, una duna que avanza unos 15 m al año. Las gambas del puerto y el restaurante Okê, con estrella Michelin en 2026, completan la visita.",
-    "fuentes": [
-      {
-        "guia": "Lonely Planet",
-        "url": "https://www.lonelyplanet.com/destinations/denmark/skagen"
-      },
-      {
-        "guia": "Fodor's",
-        "url": "https://www.fodors.com/world/europe/denmark/jutland/things-to-do/sights?pois=915370"
-      },
-      {
-        "guia": "Frommer's",
-        "url": "https://www.frommers.com/destinations/skagen/attractions"
-      },
-      {
-        "guia": "VisitDenmark",
-        "url": "https://www.visitdenmark.com/denmark/things-to-do/attractions/best-museums"
-      },
-      {
-        "guia": "VisitDenmark (oficial)",
-        "url": "https://www.visitdenmark.com/denmark/explore/rabjerg-mile-gdk640523"
-      },
-      {
-        "guia": "Naturstyrelsen (oficial)",
-        "url": "https://naturstyrelsen.dk/find-et-naturomraade/naturguider/thy-og-vendsyssel/raabjerg-mile-og-bunken-klitplantage/oplevelser"
-      },
-      {
-        "guia": "Michelin (nota de prensa nórdica 2026, Okê nueva estrella)",
-        "url": "https://news.michelin.se/articles/the-2026-edition-of-the-michelin-guide-nordic-countries-has-been-unveiled"
-      },
-      {
-        "guia": "Ruths Hotel (Okê)",
-        "url": "https://www.ruths-hotel.dk/en/ophold/tid-til-mere-ophold-1-1-1"
-      },
-      {
-        "guia": "Enjoy Nordjylland (turismo oficial del norte de Jutlandia)",
-        "url": "https://www.enjoynordjylland.com/north-jutland/plan-your-trip/gastronomy/critically-acclaimed-restaurants-eastern-north-jutland"
-      }
-    ],
-    "adrenalina_cerca": [],
     "investigado_en": "2026-11-02"
   },
   {
@@ -20024,6 +20041,87 @@
     "investigado_en": "2026-11-02"
   },
   {
+    "id": "fi-porvoo",
+    "nombre": "Porvoo",
+    "pais_iso": "FI",
+    "pais": "Finlandia",
+    "region": "Uusimaa",
+    "lat": 60.3932,
+    "lng": 25.665,
+    "categorias": [
+      "cultura"
+    ],
+    "puntajes": {
+      "guias": 3,
+      "cultura": 4,
+      "naturaleza": 1,
+      "gastronomia": 2,
+      "adrenalina": 3,
+      "logistica": 4
+    },
+    "global": 3.6,
+    "nivel": "muy_recomendado",
+    "mejor_epoca": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      12
+    ],
+    "dias_sugeridos": 1,
+    "costo": "$$",
+    "acceso": "Bus desde Helsinki (a unos 50 km) todo el año; en verano, barco desde la plaza del Mercado.",
+    "alerta": null,
+    "platos": [
+      "Runebergintorttu (tarta de Runeberg)",
+      "Chocolate artesanal de Porvoo"
+    ],
+    "por_que": "Fundada hace casi 800 años, conserva un casco antiguo de casas de madera, los almacenes rojizos junto al río y la catedral del siglo XV donde se reunió la Dieta de 1809. Es la ciudad del poeta Runeberg, que da nombre a una tarta de almendra y frambuesa, y tiene chocolatería y cafés junto al agua. Está a unos 50 km de Helsinki en bus, y en verano se puede llegar en barco desde la plaza del Mercado.",
+    "fuentes": [
+      {
+        "guia": "Frommer's",
+        "url": "https://www.frommers.com/destinations/finland/introduction/the-best-small-towns-and-villages"
+      },
+      {
+        "guia": "Lonely Planet",
+        "url": "https://www.lonelyplanet.com/finland/helsinki/porvoo/attractions/vanha-porvoo/a/poi-sig/505806/359155"
+      },
+      {
+        "guia": "Lonely Planet",
+        "url": "https://www.lonelyplanet.com/articles/best-road-trips-in-finland"
+      },
+      {
+        "guia": "Visit Finland",
+        "url": "https://www.visitfinland.com/en/articles/9-hot-summer-cities/"
+      },
+      {
+        "guia": "Visit Porvoo (oficial)",
+        "url": "https://www.visitporvoo.fi/en/sights/history/"
+      },
+      {
+        "guia": "Lonely Planet",
+        "url": "https://www.lonelyplanet.com/finland/helsinki/porvoo/attractions/tuomiokirkko/a/poi-sig/1290114/359155"
+      },
+      {
+        "guia": "Ciudad de Porvoo (oficial)",
+        "url": "https://www.porvoo.fi/app/uploads/sites/4/2022/06/Citymap_Porvoo_EN_GE-1.pdf"
+      }
+    ],
+    "adrenalina_cerca": [
+      {
+        "nombre": "Linnanmäki (Taiga, torre de caída Kingi)",
+        "tipo": "parque_diversiones",
+        "km": 46,
+        "lat": 60.188,
+        "lng": 24.94,
+        "temporada": "abr–oct",
+        "url": "https://www.myhelsinki.fi/en/see-and-do/sights/linnanmaki-amusement-park"
+      }
+    ],
+    "investigado_en": "2026-11-02"
+  },
+  {
     "id": "fi-yllas-pallas",
     "nombre": "Ylläs y Parque Nacional Pallas-Yllästunturi",
     "pais_iso": "FI",
@@ -20524,67 +20622,6 @@
         "nombre": "Linnanmäki (Taiga, torre de caída Kingi)",
         "tipo": "parque_diversiones",
         "km": 27,
-        "lat": 60.188,
-        "lng": 24.94,
-        "temporada": "abr–oct",
-        "url": "https://www.myhelsinki.fi/en/see-and-do/sights/linnanmaki-amusement-park"
-      }
-    ],
-    "investigado_en": "2026-11-02"
-  },
-  {
-    "id": "fi-porvoo",
-    "nombre": "Porvoo",
-    "pais_iso": "FI",
-    "pais": "Finlandia",
-    "region": "Uusimaa",
-    "lat": 60.3932,
-    "lng": 25.665,
-    "categorias": [
-      "ciudad"
-    ],
-    "puntajes": {
-      "guias": 2,
-      "cultura": 3,
-      "naturaleza": 1,
-      "gastronomia": 2,
-      "adrenalina": 3,
-      "logistica": 4
-    },
-    "global": 2.8,
-    "nivel": "si_hay_tiempo",
-    "mejor_epoca": [
-      5,
-      6,
-      7,
-      8,
-      9,
-      12
-    ],
-    "dias_sugeridos": 1,
-    "costo": "$$",
-    "acceso": "Bus desde Helsinki (a unos 50 km) todo el año; en verano, barco desde la plaza del Mercado.",
-    "alerta": null,
-    "platos": [
-      "Runebergintorttu (tarta de Runeberg)",
-      "Chocolate artesanal de Porvoo"
-    ],
-    "por_que": "Fundada hace casi 800 años, conserva un casco antiguo de casas de madera, los almacenes rojizos junto al río y la catedral del siglo XV donde se reunió la Dieta de 1809. Es la ciudad del poeta Runeberg, que da nombre a una tarta de almendra y frambuesa, y tiene chocolatería y cafés junto al agua. Está a unos 50 km de Helsinki en bus, y en verano se puede llegar en barco desde la plaza del Mercado.",
-    "fuentes": [
-      {
-        "guia": "Frommer's",
-        "url": "https://www.frommers.com/destinations/finland/introduction/the-best-small-towns-and-villages"
-      },
-      {
-        "guia": "Visit Finland",
-        "url": "https://www.visitfinland.com/en/articles/9-hot-summer-cities/"
-      }
-    ],
-    "adrenalina_cerca": [
-      {
-        "nombre": "Linnanmäki (Taiga, torre de caída Kingi)",
-        "tipo": "parque_diversiones",
-        "km": 46,
         "lat": 60.188,
         "lng": 24.94,
         "temporada": "abr–oct",
@@ -27897,7 +27934,7 @@
     "nombre": "Edimburgo",
     "pais_iso": "GB",
     "pais": "Reino Unido",
-    "region": "Escocia",
+    "region": "Tierras Bajas de Escocia",
     "lat": 55.9533,
     "lng": -3.1883,
     "categorias": [
@@ -28125,7 +28162,7 @@
     "nombre": "Glencoe",
     "pais_iso": "GB",
     "pais": "Reino Unido",
-    "region": "Escocia",
+    "region": "Tierras Altas de Escocia",
     "lat": 56.67,
     "lng": -5.04,
     "categorias": [
@@ -28319,7 +28356,7 @@
     "nombre": "Isla de Skye",
     "pais_iso": "GB",
     "pais": "Reino Unido",
-    "region": "Escocia",
+    "region": "Islas de Escocia",
     "lat": 57.35,
     "lng": -6.2,
     "categorias": [
@@ -28386,6 +28423,94 @@
       {
         "guia": "VisitScotland (oficial)",
         "url": "https://www.visitscotland.com/places-to-go/islands/isle-skye"
+      }
+    ],
+    "adrenalina_cerca": [],
+    "investigado_en": "2026-11-02"
+  },
+  {
+    "id": "gb-cambridge",
+    "nombre": "Cambridge",
+    "pais_iso": "GB",
+    "pais": "Reino Unido",
+    "region": "Este de Inglaterra",
+    "lat": 52.2053,
+    "lng": 0.1218,
+    "categorias": [
+      "cultura",
+      "ciudad"
+    ],
+    "puntajes": {
+      "guias": 5,
+      "cultura": 4,
+      "naturaleza": 1,
+      "gastronomia": 3,
+      "adrenalina": 1,
+      "logistica": 5
+    },
+    "global": 4.6,
+    "nivel": "imprescindible",
+    "mejor_epoca": [
+      4,
+      5,
+      6,
+      9,
+      10
+    ],
+    "dias_sugeridos": 1,
+    "costo": "$$$",
+    "acceso": "Tren rápido de Great Northern o Thameslink desde King's Cross (en torno a 1 h) o Greater Anglia desde Liverpool Street (aprox. 1 h 25); centro a pie o en bici.",
+    "alerta": null,
+    "platos": [
+      "Afternoon tea",
+      "Chelsea bun de Fitzbillies",
+      "Menú de Midsummer House"
+    ],
+    "por_que": "Colleges desde el siglo XIII, la capilla gótica del King's College y el Fitzwilliam Museum, con los Backs a orillas del Cam como estampa universitaria más famosa del país. Pasear en batea hasta los prados de Grantchester es la experiencia clásica. Está a menos de una hora en tren de Londres y tiene alta cocina en Midsummer House, con dos estrellas Michelin.",
+    "fuentes": [
+      {
+        "guia": "Fodor's",
+        "url": "https://www.fodors.com/world/europe/england/experiences/news/photos/ultimate-things-to-do-in-england"
+      },
+      {
+        "guia": "Lonely Planet (Best in Travel 2025, reseñado por Time Out)",
+        "url": "https://www.timeout.com/uk/news/this-region-of-england-has-been-named-one-of-the-best-places-to-visit-in-the-world-by-lonely-planet-102624"
+      },
+      {
+        "guia": "Michelin Guide Vert (ViaMichelin)",
+        "url": "https://www.viamichelin.com/maps/tourist-attractions/poi/cambridge-_-cb52bc9ac039"
+      },
+      {
+        "guia": "Michelin Guide Vert",
+        "url": "https://travelguide.michelin.com/europe/united-kingdom/great-britain/england/cambridgeshire/cambridge/kings-college-chapel"
+      },
+      {
+        "guia": "VisitBritain (oficial)",
+        "url": "https://www.visitbritain.com/en/destinations/cities"
+      },
+      {
+        "guia": "Departamento de Estado EE. UU.",
+        "url": "https://travel.state.gov/en/international-travel/travel-advisories/united-kingdom.html"
+      },
+      {
+        "guia": "Guía Michelin (Midsummer House)",
+        "url": "https://guide.michelin.com/gb/en/cambridgeshire/cambridge/restaurant/midsummer-house?millesime=um3g85"
+      },
+      {
+        "guia": "The Caterer (segunda estrella)",
+        "url": "https://www.thecaterer.com/archive/cliffords-midsummer-house-gets-second-michelin-star"
+      },
+      {
+        "guia": "Visit Cambridge (cómo llegar)",
+        "url": "https://www.visitcambridge.org/visitor-information/how-to-get-here"
+      },
+      {
+        "guia": "Great Northern (King's Cross a Cambridge)",
+        "url": "https://www.greatnorthernrail.com/journey/london-kings-cross-to-cambridge"
+      },
+      {
+        "guia": "Greater Anglia (Liverpool Street a Cambridge)",
+        "url": "https://www.greateranglia.co.uk/train-times/london-liverpool-street-to-cambridge"
       }
     ],
     "adrenalina_cerca": [],
@@ -28773,6 +28898,103 @@
     "investigado_en": "2026-11-02"
   },
   {
+    "id": "gb-cotswolds",
+    "nombre": "Cotswolds",
+    "pais_iso": "GB",
+    "pais": "Reino Unido",
+    "region": "Suroeste de Inglaterra",
+    "lat": 51.88,
+    "lng": -1.78,
+    "categorias": [
+      "cultura",
+      "ciudad"
+    ],
+    "puntajes": {
+      "guias": 5,
+      "cultura": 4,
+      "naturaleza": 2,
+      "gastronomia": 3,
+      "adrenalina": 1,
+      "logistica": 4
+    },
+    "global": 4.4,
+    "nivel": "imprescindible",
+    "mejor_epoca": [
+      4,
+      5,
+      6,
+      9,
+      10
+    ],
+    "dias_sugeridos": 2,
+    "costo": "$$$",
+    "acceso": "Tren GWR desde Paddington y Oxford a Moreton-in-Marsh (unos 34 min desde Oxford) por la Cotswold Line; entre pueblos, coche, bus local escaso o a pie.",
+    "alerta": null,
+    "platos": [
+      "Double Gloucester",
+      "Cordero de los Cotswolds",
+      "Sunday roast en pub",
+      "Productos de la granja Daylesford"
+    ],
+    "por_que": "Pueblos de piedra color miel enriquecidos por el comercio de la lana, como Chipping Campden, Bibury o las Slaughters, unidos por caminos rurales y el Cotswold Way hasta Bath. Se come bien en pubs de campo y en la granja ecológica de Daylesford, con el queso Double Gloucester. La Cotswold Line llega desde Paddington a Moreton-in-Marsh; entre pueblos conviene coche, y los fines de semana de verano se llenan.",
+    "fuentes": [
+      {
+        "guia": "Rick Steves",
+        "url": "https://www.ricksteves.com/europe/britain-itinerary"
+      },
+      {
+        "guia": "Fodor's",
+        "url": "https://www.fodors.com/world/europe/england/experiences/news/photos/ultimate-things-to-do-in-england"
+      },
+      {
+        "guia": "Frommer's",
+        "url": "https://www.frommers.com/destinations/england/introduction/the-best-walks"
+      },
+      {
+        "guia": "Time Out",
+        "url": "https://www.timeout.com/uk/news/the-beautiful-british-town-that-is-one-of-time-outs-best-places-to-visit-in-the-world-in-2026-011426"
+      },
+      {
+        "guia": "VisitBritain (oficial)",
+        "url": "https://www.visitbritain.com/en/things-to-do/autumn-britain-activities-and-best-places-visit"
+      },
+      {
+        "guia": "GWR (trenes a los Cotswolds)",
+        "url": "https://www.gwr.com/stations-and-destinations/destinations/trains-to-the-cotswolds"
+      },
+      {
+        "guia": "GWR (excursiones de un día de Londres a los Cotswolds)",
+        "url": "https://www.gwr.com/stations-and-destinations/travel-inspiration/blogs/london-to-cotswolds-daytrips"
+      },
+      {
+        "guia": "Cotswolds.com (turismo oficial, comida y bebida)",
+        "url": "https://cotswolds.com/food-and-drink/"
+      },
+      {
+        "guia": "Guía Michelin (Café at Daylesford Organic)",
+        "url": "https://guide.michelin.com/ae-du/en/gloucestershire/daylesford/restaurant/cafe-at-daylesford-organic"
+      },
+      {
+        "guia": "Cotswolds.com (sabores de los Cotswolds)",
+        "url": "https://www.cotswolds.com/inspire-me/taste-of-the-cotswolds"
+      },
+      {
+        "guia": "National Churches Trust (Northleach)",
+        "url": "https://nationalchurchestrust.org/node/307"
+      },
+      {
+        "guia": "Campden & District Historical Society",
+        "url": "https://www.chippingcampdenhistory.org.uk/content/tag/wool-trade"
+      },
+      {
+        "guia": "UNESCO (Blenheim Palace)",
+        "url": "https://whc.unesco.org/en/list/425/documents/"
+      }
+    ],
+    "adrenalina_cerca": [],
+    "investigado_en": "2026-11-02"
+  },
+  {
     "id": "gb-belfast",
     "nombre": "Belfast",
     "pais_iso": "GB",
@@ -28933,7 +29155,7 @@
     "nombre": "Glasgow",
     "pais_iso": "GB",
     "pais": "Reino Unido",
-    "region": "Escocia",
+    "region": "Tierras Bajas de Escocia",
     "lat": 55.8642,
     "lng": -4.2518,
     "categorias": [
@@ -29185,87 +29407,98 @@
     "investigado_en": "2026-11-02"
   },
   {
-    "id": "gb-cotswolds",
-    "nombre": "Cotswolds",
+    "id": "gb-st-andrews",
+    "nombre": "St Andrews",
     "pais_iso": "GB",
     "pais": "Reino Unido",
-    "region": "Suroeste de Inglaterra",
-    "lat": 51.88,
-    "lng": -1.78,
+    "region": "Tierras Bajas de Escocia (Fife)",
+    "lat": 56.3398,
+    "lng": -2.796,
     "categorias": [
+      "cultura",
       "ciudad"
     ],
     "puntajes": {
-      "guias": 5,
-      "cultura": 3,
+      "guias": 4,
+      "cultura": 4,
       "naturaleza": 2,
       "gastronomia": 3,
-      "adrenalina": 1,
+      "adrenalina": 2,
       "logistica": 4
     },
     "global": 4,
     "nivel": "imprescindible",
     "mejor_epoca": [
-      4,
       5,
       6,
-      9,
-      10
+      7,
+      8,
+      9
     ],
-    "dias_sugeridos": 2,
+    "dias_sugeridos": 1,
     "costo": "$$$",
-    "acceso": "Tren GWR desde Paddington y Oxford a Moreton-in-Marsh (unos 34 min desde Oxford) por la Cotswold Line; entre pueblos, coche, bus local escaso o a pie.",
+    "acceso": "Sin estación propia: tren desde Edimburgo a Leuchars (aprox. 1 h) y bus 99 cada 15 min hasta St Andrews (10-15 min), con billete combinado de ScotRail; bus Jet 787 desde el aeropuerto de Edimburgo.",
     "alerta": null,
     "platos": [
-      "Double Gloucester",
-      "Cordero de los Cotswolds",
-      "Sunday roast en pub",
-      "Productos de la granja Daylesford"
+      "Menú de temporada de The Peat Inn",
+      "Langosta y cangrejo del East Neuk",
+      "Arbroath smokie",
+      "Whisky de Kingsbarns"
     ],
-    "por_que": "Pueblos de piedra color miel enriquecidos por el comercio de la lana, como Chipping Campden, Bibury o las Slaughters, unidos por caminos rurales y el Cotswold Way hasta Bath. Se come bien en pubs de campo y en la granja ecológica de Daylesford, con el queso Double Gloucester. La Cotswold Line llega desde Paddington a Moreton-in-Marsh; entre pueblos conviene coche, y los fines de semana de verano se llenan.",
+    "por_que": "Las ruinas de la catedral, consagrada en 1318 ante Roberto I Bruce, fueron la mayor iglesia de la Escocia medieval y la sede de su primado; junto a ellas, el castillo episcopal y la universidad más antigua de Escocia (1413). El Old Course la convierte además en la cuna del golf.",
     "fuentes": [
       {
         "guia": "Rick Steves",
-        "url": "https://www.ricksteves.com/europe/britain-itinerary"
+        "url": "https://www.ricksteves.com/europe/scotland/st-andrews"
       },
       {
-        "guia": "Fodor's",
-        "url": "https://www.fodors.com/world/europe/england/experiences/news/photos/ultimate-things-to-do-in-england"
+        "guia": "Rick Steves",
+        "url": "https://www.ricksteves.com/tours/scotland/heart-scotland"
       },
       {
-        "guia": "Frommer's",
-        "url": "https://www.frommers.com/destinations/england/introduction/the-best-walks"
+        "guia": "Lonely Planet",
+        "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-scotland"
       },
       {
-        "guia": "Time Out",
-        "url": "https://www.timeout.com/uk/news/the-beautiful-british-town-that-is-one-of-time-outs-best-places-to-visit-in-the-world-in-2026-011426"
+        "guia": "Rough Guides",
+        "url": "https://www.roughguides.com/scotland/"
       },
       {
-        "guia": "VisitBritain (oficial)",
-        "url": "https://www.visitbritain.com/en/things-to-do/autumn-britain-activities-and-best-places-visit"
+        "guia": "Historic Environment Scotland (oficial)",
+        "url": "https://www.historicenvironment.scot/visit-a-place/places/st-andrews-cathedral/history/"
       },
       {
-        "guia": "GWR (trenes a los Cotswolds)",
-        "url": "https://www.gwr.com/stations-and-destinations/destinations/trains-to-the-cotswolds"
+        "guia": "Historic Environment Scotland (oficial)",
+        "url": "https://www.historicenvironment.scot/visit-a-place/places/st-andrews-cathedral/overview/"
       },
       {
-        "guia": "GWR (excursiones de un día de Londres a los Cotswolds)",
-        "url": "https://www.gwr.com/stations-and-destinations/travel-inspiration/blogs/london-to-cotswolds-daytrips"
+        "guia": "VisitScotland (turismo oficial, restaurantes con estrella Michelin)",
+        "url": "https://www.visitscotland.com/things-to-do/food-drink/michelin-star"
       },
       {
-        "guia": "Cotswolds.com (turismo oficial, comida y bebida)",
-        "url": "https://cotswolds.com/food-and-drink/"
+        "guia": "The Scotsman (The Peat Inn, 20 años con estrella)",
+        "url": "https://www.scotsman.com/lifestyle/the-elegant-michelin-starred-fife-restaurant-thats-celebrating-20-years-since-opening-9090375"
       },
       {
-        "guia": "Guía Michelin (Café at Daylesford Organic)",
-        "url": "https://guide.michelin.com/ae-du/en/gloucestershire/daylesford/restaurant/cafe-at-daylesford-organic"
+        "guia": "LNER (trenes al Old Course de St Andrews)",
+        "url": "https://www.lner.co.uk/destinations/travel-inspiration/trains-to-the-old-course-at-st-andrews/"
       },
       {
-        "guia": "Cotswolds.com (sabores de los Cotswolds)",
-        "url": "https://www.cotswolds.com/inspire-me/taste-of-the-cotswolds"
+        "guia": "Universidad de St Andrews (cómo llegar)",
+        "url": "https://www.st-andrews.ac.uk/orientation/before-you-depart/travel-arrangements"
       }
     ],
-    "adrenalina_cerca": [],
+    "adrenalina_cerca": [
+      {
+        "nombre": "Midlothian Snowsports Centre (Hillend)",
+        "tipo": "esqui",
+        "km": 56,
+        "lat": 55.889,
+        "lng": -3.21,
+        "temporada": "todo el año",
+        "url": "https://www.midlothian.gov.uk/news/article/3997/midlothian_snowsports_centre_celebrates_60_years_at_hillend"
+      }
+    ],
     "investigado_en": "2026-11-02"
   },
   {
@@ -29298,7 +29531,7 @@
     ],
     "dias_sugeridos": 2,
     "costo": "$$$",
-    "acceso": "Tren desde London Marylebone (unas 2 h) o desde Birmingham (aprox. 1 h); Warwick, a unos 15 km, en tren o bus.",
+    "acceso": "Tren de Chiltern Railways desde London Marylebone (unas 2 h, aprox. uno por hora, a menudo con cambio en Leamington Spa) o desde Birmingham; Warwick a unos 15 km.",
     "alerta": null,
     "platos": [
       "Afternoon tea",
@@ -29329,6 +29562,14 @@
       {
         "guia": "Departamento de Estado EE. UU.",
         "url": "https://travel.state.gov/en/international-travel/travel-advisories/united-kingdom.html"
+      },
+      {
+        "guia": "Chiltern Railways (Londres a Stratford-upon-Avon)",
+        "url": "https://www.chilternrailways.co.uk/london-marylebone-stratford-upon-avon-train"
+      },
+      {
+        "guia": "Chiltern Railways (Stratford-upon-Avon)",
+        "url": "https://www.chilternrailways.co.uk/destinations/stratford-upon-avon"
       }
     ],
     "adrenalina_cerca": [],
@@ -29519,7 +29760,7 @@
     "nombre": "Oban, Mull, Iona y Staffa",
     "pais_iso": "GB",
     "pais": "Reino Unido",
-    "region": "Escocia",
+    "region": "Islas de Escocia",
     "lat": 56.4152,
     "lng": -5.4718,
     "categorias": [
@@ -29628,7 +29869,7 @@
     "nombre": "Orcadas neolíticas (Skara Brae, Brodgar, Maeshowe)",
     "pais_iso": "GB",
     "pais": "Reino Unido",
-    "region": "Escocia",
+    "region": "Islas de Escocia",
     "lat": 59.0013,
     "lng": -3.229,
     "categorias": [
@@ -29708,15 +29949,16 @@
     "investigado_en": "2026-11-02"
   },
   {
-    "id": "gb-cambridge",
-    "nombre": "Cambridge",
+    "id": "gb-cardiff",
+    "nombre": "Cardiff (castillo, St Fagans y bahía)",
     "pais_iso": "GB",
     "pais": "Reino Unido",
-    "region": "Este de Inglaterra",
-    "lat": 52.2053,
-    "lng": 0.1218,
+    "region": "Gales",
+    "lat": 51.4822,
+    "lng": -3.1812,
     "categorias": [
       "cultura",
+      "adrenalina",
       "ciudad"
     ],
     "puntajes": {
@@ -29724,7 +29966,7 @@
       "cultura": 4,
       "naturaleza": 1,
       "gastronomia": 3,
-      "adrenalina": 1,
+      "adrenalina": 4,
       "logistica": 5
     },
     "global": 3.8,
@@ -29733,46 +29975,83 @@
       4,
       5,
       6,
-      9,
-      10
+      7,
+      8,
+      9
     ],
-    "dias_sugeridos": 1,
-    "costo": "$$$",
-    "acceso": "Tren directo desde King's Cross o Liverpool Street (de 50 min a 1 h 20); centro a pie o en bici.",
+    "dias_sugeridos": 2,
+    "costo": "$$",
+    "acceso": "Tren GWR directo desde London Paddington a Cardiff Central (unas 2 h, varios por hora); castillo y bahía a pie o en bus urbano; St Fagans a unos 8 km en bus.",
     "alerta": null,
     "platos": [
-      "Afternoon tea",
-      "Chelsea bun de Fitzbillies",
-      "Menú de Midsummer House"
+      "Welsh cakes",
+      "Cawl (guiso galés de cordero)",
+      "Welsh rarebit",
+      "Laverbread (pan de algas)"
     ],
-    "por_que": "Colleges desde el siglo XIII, la capilla gótica del King's College y el Fitzwilliam Museum, con los Backs a orillas del Cam como estampa universitaria más famosa del país. Pasear en batea hasta los prados de Grantchester es la experiencia clásica. Está a menos de una hora en tren de Londres y tiene alta cocina en Midsummer House, con dos estrellas Michelin.",
+    "por_que": "El castillo une un torreón normando con los interiores neogóticos que William Burges creó para el marqués de Bute desde 1865, de los más importantes de la época victoriana en Gran Bretaña. A unos 6 km, St Fagans, el museo nacional de historia de Gales, gratuito, reúne más de 40 edificios históricos trasladados piedra a piedra.",
     "fuentes": [
       {
-        "guia": "Fodor's",
-        "url": "https://www.fodors.com/world/europe/england/experiences/news/photos/ultimate-things-to-do-in-england"
+        "guia": "Lonely Planet",
+        "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-cardiff"
       },
       {
-        "guia": "Lonely Planet (Best in Travel 2025, reseñado por Time Out)",
-        "url": "https://www.timeout.com/uk/news/this-region-of-england-has-been-named-one-of-the-best-places-to-visit-in-the-world-by-lonely-planet-102624"
+        "guia": "Rough Guides",
+        "url": "https://www.roughguides.com/wales/south-wales/cardiff-around/"
       },
       {
-        "guia": "VisitBritain (oficial)",
-        "url": "https://www.visitbritain.com/en/destinations/cities"
+        "guia": "Visit Wales (oficial)",
+        "url": "https://www.visitwales.com/attraction/castle/cardiff-castle-532571"
+      },
+      {
+        "guia": "Cadw (oficial)",
+        "url": "https://cadw.gov.wales/sites/default/files/2019-05/William%20Burges_EN.pdf"
+      },
+      {
+        "guia": "Amgueddfa Cymru – St Fagans (museo oficial)",
+        "url": "https://museum.wales/stfagans/about/"
+      },
+      {
+        "guia": "Guía Michelin (Gorse)",
+        "url": "https://guide.michelin.com/en/south-glamorgan/cardiff/restaurant/gorse"
+      },
+      {
+        "guia": "Guía Michelin (mejores restaurantes de Cardiff)",
+        "url": "https://guide.michelin.com/gb/en/best-of/best-restaurants-cardiff"
+      },
+      {
+        "guia": "GWR (horarios)",
+        "url": "https://www.gwr.com/travel-information/train-times"
+      },
+      {
+        "guia": "Visit Wales (cómo moverse por Gales)",
+        "url": "https://www.visitwales.com/info/getting-around/trains-planes-buses-and-bikes"
       },
       {
         "guia": "Departamento de Estado EE. UU.",
         "url": "https://travel.state.gov/en/international-travel/travel-advisories/united-kingdom.html"
-      },
-      {
-        "guia": "Guía Michelin (Midsummer House)",
-        "url": "https://guide.michelin.com/gb/en/cambridgeshire/cambridge/restaurant/midsummer-house?millesime=um3g85"
-      },
-      {
-        "guia": "The Caterer (segunda estrella)",
-        "url": "https://www.thecaterer.com/archive/cliffords-midsummer-house-gets-second-michelin-star"
       }
     ],
-    "adrenalina_cerca": [],
+    "adrenalina_cerca": [
+      {
+        "nombre": "Cardiff International White Water (rafting en canal olímpico)",
+        "tipo": "rafting",
+        "km": 4,
+        "lat": 51.447,
+        "lng": -3.192,
+        "temporada": "todo el año",
+        "url": "https://www.ciww.com/family-rafting/"
+      },
+      {
+        "nombre": "Zip World Tower (tirolesa Phoenix y Tower Coaster)",
+        "tipo": "tirolesa",
+        "km": 38,
+        "lat": 51.74,
+        "lng": -3.55,
+        "temporada": "todo el año (según clima)",
+        "url": "https://www.visitwales.com/activity/activity/zip-world-tower-573961"
+      }
+    ],
     "investigado_en": "2026-11-02"
   },
   {
@@ -29919,7 +30198,7 @@
     "nombre": "Stirling",
     "pais_iso": "GB",
     "pais": "Reino Unido",
-    "region": "Escocia",
+    "region": "Tierras Bajas de Escocia",
     "lat": 56.1165,
     "lng": -3.9369,
     "categorias": [
@@ -29987,6 +30266,103 @@
         "lng": -3.21,
         "temporada": "todo el año",
         "url": "https://www.midlothian.gov.uk/news/article/3997/midlothian_snowsports_centre_celebrates_60_years_at_hillend"
+      }
+    ],
+    "investigado_en": "2026-11-02"
+  },
+  {
+    "id": "gb-brighton",
+    "nombre": "Brighton (Royal Pavilion y el muelle)",
+    "pais_iso": "GB",
+    "pais": "Reino Unido",
+    "region": "Sureste de Inglaterra",
+    "lat": 50.8223,
+    "lng": -0.1372,
+    "categorias": [
+      "ciudad"
+    ],
+    "puntajes": {
+      "guias": 4,
+      "cultura": 3,
+      "naturaleza": 2,
+      "gastronomia": 3,
+      "adrenalina": 2,
+      "logistica": 5
+    },
+    "global": 3.7,
+    "nivel": "muy_recomendado",
+    "mejor_epoca": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "dias_sugeridos": 2,
+    "costo": "$$$",
+    "acceso": "Tren directo de Southern desde London Victoria (en torno a 1 h, varios por hora; también Thameslink desde London Bridge); la estación está a 15 min a pie del Royal Pavilion y el muelle.",
+    "alerta": "Las obras programadas cierran a veces la línea entre Three Bridges y Brighton en fin de semana o en semanas de febrero: revisar los avisos de Southern.",
+    "platos": [
+      "Fish and chips del paseo marítimo",
+      "Espumoso de Sussex (DOP)",
+      "Ostras y marisco de la costa de Sussex"
+    ],
+    "por_que": "El Royal Pavilion, palacio de recreo de Jorge IV con exterior de inspiración india e interiores chinescos de la Regencia, es único en Europa; lo completan las terrazas georgianas del frente marítimo, las callejuelas de las Lanes y el Palace Pier victoriano.",
+    "fuentes": [
+      {
+        "guia": "Lonely Planet",
+        "url": "https://www.lonelyplanet.com/england/southeast-england/brighton-and-hove/attractions"
+      },
+      {
+        "guia": "Rough Guides",
+        "url": "https://www.roughguides.com/england/things-to-do-brighton/"
+      },
+      {
+        "guia": "Fodor's",
+        "url": "https://www.fodors.com/world/europe/england/the-southeast/places/brighton/experiences/news/photos/10-reasons-to-visit-brighton-uk"
+      },
+      {
+        "guia": "Frommer's",
+        "url": "https://www.frommers.com/destinations/brighton/attractions/the-royal-pavilion-at-brighton/"
+      },
+      {
+        "guia": "Brighton & Hove Museums (oficial)",
+        "url": "https://brightonmuseums.org.uk/royalpavilion/history/"
+      },
+      {
+        "guia": "Visit South East England (oficial)",
+        "url": "https://www.visitsoutheastengland.com/things-to-do/royal-pavilion-p1913271"
+      },
+      {
+        "guia": "Guía Michelin (Flint House, Brighton)",
+        "url": "https://guide.michelin.com/gb/en/east-sussex/brighton-and-hove/restaurant/flint-house?millesime=df548b"
+      },
+      {
+        "guia": "Guía Michelin (restaurantes de Brighton y Hove)",
+        "url": "https://guide.michelin.com/be/fr/east-sussex/brighton-and-hove/restaurants"
+      },
+      {
+        "guia": "Parque Nacional South Downs (viñedos)",
+        "url": "https://www.southdowns.gov.uk/food-drink/vineyards-breweries-distilleries/vineyards-wineries/"
+      },
+      {
+        "guia": "Southern (London Victoria a Brighton)",
+        "url": "https://www.southernrailway.com/journey/london-victoria-to-brighton"
+      },
+      {
+        "guia": "Southern (Brighton)",
+        "url": "https://www.southernrailway.com/destinations-and-offers/where-we-travel-to/brighton"
+      }
+    ],
+    "adrenalina_cerca": [
+      {
+        "nombre": "Atracciones del Brighton Palace Pier (Crazy Mouse, Turbo)",
+        "tipo": "parque_diversiones",
+        "km": 1,
+        "lat": 50.816,
+        "lng": -0.1365,
+        "temporada": "todo el año (atracciones según tiempo)",
+        "url": "https://brightonpier.co.uk/rides-and-attractions"
       }
     ],
     "investigado_en": "2026-11-02"
@@ -30063,7 +30439,7 @@
     "nombre": "Lago Ness, castillo de Urquhart e Inverness",
     "pais_iso": "GB",
     "pais": "Reino Unido",
-    "region": "Escocia",
+    "region": "Tierras Altas de Escocia",
     "lat": 57.3241,
     "lng": -4.4419,
     "categorias": [
@@ -30143,11 +30519,97 @@
     "investigado_en": "2026-11-02"
   },
   {
+    "id": "gb-loch-lomond-trossachs",
+    "nombre": "Loch Lomond y los Trossachs",
+    "pais_iso": "GB",
+    "pais": "Reino Unido",
+    "region": "Tierras Altas de Escocia",
+    "lat": 56.1006,
+    "lng": -4.6383,
+    "categorias": [
+      "naturaleza"
+    ],
+    "puntajes": {
+      "guias": 3,
+      "cultura": 2,
+      "naturaleza": 4,
+      "gastronomia": 2,
+      "adrenalina": 3,
+      "logistica": 4
+    },
+    "global": 3.6,
+    "nivel": "muy_recomendado",
+    "mejor_epoca": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "dias_sugeridos": 2,
+    "costo": "$$",
+    "acceso": "Tren ScotRail de Glasgow Queen Street a Balloch (unos 50 min, dos por hora); la West Highland Line para en Arrochar & Tarbet, Ardlui y Crianlarich; en los Trossachs, coche o transporte a demanda.",
+    "alerta": "Acampada en las orillas regulada con permiso en las zonas de gestión de marzo a septiembre.",
+    "platos": [
+      "Whisky de las Tierras Altas del Sur",
+      "Trucha y salmón escocés",
+      "Haggis"
+    ],
+    "por_que": "Tierra de Rob Roy y escenario de «La dama del lago» de Walter Scott en Loch Katrine, con el priorato de Inchmahome, donde se refugió de niña María Estuardo; el interés principal es natural.",
+    "fuentes": [
+      {
+        "guia": "Rough Guides",
+        "url": "https://www.roughguides.com/scotland/central-scotland/loch-lomond/"
+      },
+      {
+        "guia": "Fodor's",
+        "url": "https://www.fodors.com/world/europe/scotland/the-central-highlands/things-to-do/sights?pois=694333"
+      },
+      {
+        "guia": "Parque Nacional de Loch Lomond & The Trossachs (cómo llegar)",
+        "url": "https://www.lochlomond-trossachs.org/plan-your-visit/getting-to-the-park/"
+      },
+      {
+        "guia": "Forestry and Land Scotland (oficial)",
+        "url": "https://forestryandland.gov.scot/visit/forest-parks/queen-elizabeth-forest-park/balmaha"
+      },
+      {
+        "guia": "Forestry and Land Scotland (oficial)",
+        "url": "https://forestryandland.gov.scot/visit/forest-parks/queen-elizabeth-forest-park/loch-katrine"
+      },
+      {
+        "guia": "Walkhighlands",
+        "url": "https://walkhighlands.co.uk/lochlomond/conic-hill.shtml"
+      }
+    ],
+    "adrenalina_cerca": [
+      {
+        "nombre": "Go Ape Aberfoyle (tirolesa doble de más de 400 m)",
+        "tipo": "tirolesa",
+        "km": 18,
+        "lat": 56.184,
+        "lng": -4.387,
+        "temporada": "todo el año (por calendario)",
+        "url": "https://goape.co.uk/locations/aberfoyle/"
+      },
+      {
+        "nombre": "M&D's, Scotland's Theme Park",
+        "tipo": "parque_diversiones",
+        "km": 51,
+        "lat": 55.797,
+        "lng": -4.02,
+        "temporada": "mar–oct",
+        "url": "https://rcdb.com/4915.htm"
+      }
+    ],
+    "investigado_en": "2026-11-02"
+  },
+  {
     "id": "gb-cairngorms",
     "nombre": "Parque Nacional de los Cairngorms",
     "pais_iso": "GB",
     "pais": "Reino Unido",
-    "region": "Escocia",
+    "region": "Tierras Altas de Escocia",
     "lat": 57.08,
     "lng": -3.67,
     "categorias": [
@@ -30504,7 +30966,7 @@
     ],
     "dias_sugeridos": 1,
     "costo": "$$",
-    "acceso": "Sin tren: estación de Telford Central y bus o taxi; mejor en coche para recorrer los museos repartidos por la garganta.",
+    "acceso": "Tren a Telford Central (a unos 7 km) y bus de Arriva hasta la garganta y Blists Hill; entre museos, coche, bus o a pie por cuestas.",
     "alerta": null,
     "platos": [
       "Fish and chips victoriano",
@@ -30527,6 +30989,18 @@
       {
         "guia": "Departamento de Estado EE. UU.",
         "url": "https://travel.state.gov/en/international-travel/travel-advisories/united-kingdom.html"
+      },
+      {
+        "guia": "Ironbridge Gorge (cómo llegar)",
+        "url": "https://www.ironbridge.org.uk/plan/how-to-get-here/"
+      },
+      {
+        "guia": "National Trust (planificar la visita a Ironbridge Gorge)",
+        "url": "https://www.nationaltrust.org.uk/visit/shropshire-staffordshire/ironbridge-gorge/planning-your-visit"
+      },
+      {
+        "guia": "National Trust (reservas para Blists Hill y Jackfield)",
+        "url": "https://www.nationaltrust.org.uk/visit/shropshire-staffordshire/ironbridge-gorge/booking-your-visit-to-ironbridge-gorge"
       }
     ],
     "adrenalina_cerca": [
@@ -30547,7 +31021,7 @@
     "nombre": "Speyside y la Malt Whisky Trail (Dufftown)",
     "pais_iso": "GB",
     "pais": "Reino Unido",
-    "region": "Escocia",
+    "region": "Tierras Altas de Escocia",
     "lat": 57.4462,
     "lng": -3.1283,
     "categorias": [
@@ -30781,7 +31255,7 @@
     ],
     "dias_sugeridos": 1,
     "costo": "$$$",
-    "acceso": "Tren de alta velocidad de Southeastern desde St Pancras a Canterbury West, aprox. 55 min; casco antiguo y catedral a pie.",
+    "acceso": "Tren de alta velocidad de Southeastern desde St Pancras a Canterbury West (unos 55 min) o tren a Canterbury East; catedral y casco antiguo a pie.",
     "alerta": null,
     "platos": [
       "Cerveza con lúpulo de Kent",
@@ -30800,6 +31274,10 @@
       {
         "guia": "Departamento de Estado EE. UU.",
         "url": "https://travel.state.gov/en/international-travel/travel-advisories/united-kingdom.html"
+      },
+      {
+        "guia": "Southeastern (trenes a Canterbury)",
+        "url": "https://www.southeasternrailway.co.uk/travel-inspiration/popular-destinations/canterbury"
       }
     ],
     "adrenalina_cerca": [],
@@ -30909,7 +31387,7 @@
     ],
     "dias_sugeridos": 1,
     "costo": "$$",
-    "acceso": "Tren a Eastbourne, Seaford o Brighton y bus costero hasta Seven Sisters Country Park o Birling Gap.",
+    "acceso": "Tren de Southern desde London Victoria a Brighton (en torno a 1 h) o a Eastbourne o Seaford, y bus costero hasta Seven Sisters Country Park o Birling Gap.",
     "alerta": "Acantilados de tiza en erosión constante con desprendimientos: no acercarse al borde ni caminar al pie.",
     "platos": [
       "Espumoso de Sussex (DOP)",
@@ -30943,6 +31421,10 @@
         "url": "https://rathfinnyestate.com/tour/vineyard-walking-trail/"
       },
       {
+        "guia": "Southern (London Victoria a Brighton)",
+        "url": "https://www.southernrailway.com/journey/london-victoria-to-brighton"
+      },
+      {
         "guia": "East Sussex County Council (DOP Sussex)",
         "url": "https://news.eastsussex.gov.uk/2022/07/26/sussex-wine-growers-celebrate-protected-status/"
       }
@@ -30951,11 +31433,218 @@
     "investigado_en": "2026-11-02"
   },
   {
+    "id": "gb-costa-northumberland",
+    "nombre": "Costa de Northumberland (Bamburgh, Lindisfarne y Alnwick)",
+    "pais_iso": "GB",
+    "pais": "Reino Unido",
+    "region": "Noreste de Inglaterra",
+    "lat": 55.609,
+    "lng": -1.7099,
+    "categorias": [
+      "cultura",
+      "naturaleza",
+      "playa"
+    ],
+    "puntajes": {
+      "guias": 2,
+      "cultura": 4,
+      "naturaleza": 4,
+      "gastronomia": 3,
+      "adrenalina": 2,
+      "logistica": 3
+    },
+    "global": 3.1,
+    "nivel": "muy_recomendado",
+    "mejor_epoca": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "dias_sugeridos": 3,
+    "costo": "$$",
+    "acceso": "Tren de la East Coast Main Line a Alnmouth o Berwick-upon-Tweed y bus costero; para enlazar Alnwick, Bamburgh, Seahouses y Holy Island conviene coche.",
+    "alerta": "La calzada de Holy Island (Lindisfarne) se inunda dos veces al día: cruzar solo dentro del horario seguro que publica el condado; el Pilgrims' Way a pie no tiene horario seguro publicado y cada año hay rescates de coches atrapados.",
+    "platos": [
+      "Craster kippers (arenque ahumado)",
+      "Cangrejo de Northumberland",
+      "Salmón ahumado en roble",
+      "Hidromiel de Lindisfarne"
+    ],
+    "por_que": "En Holy Island, el priorato de Lindisfarne recuerda el monasterio que fundó san Aidán hacia 635, cuna del cristianismo en Northumbria y de los Evangelios de Lindisfarne, con museo de English Heritage. Lo completan los castillos de Bamburgh, sobre la playa, Alnwick, el segundo castillo habitado más grande de Inglaterra, y las ruinas de Dunstanburgh.",
+    "fuentes": [
+      {
+        "guia": "Lonely Planet",
+        "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-northumberland"
+      },
+      {
+        "guia": "Lonely Planet",
+        "url": "https://www.lonelyplanet.com/england/northeast-england/holy-island-lindisfarne/attractions/lindisfarne-priory/a/poi-sig/1220153/358929"
+      },
+      {
+        "guia": "Lonely Planet",
+        "url": "https://www.lonelyplanet.com/england/northeast-england/northumberland/attractions"
+      },
+      {
+        "guia": "English Heritage (oficial)",
+        "url": "https://english-heritage.org.uk/visit/places/lindisfarne-priory"
+      },
+      {
+        "guia": "Historic England (registro oficial)",
+        "url": "https://historicengland.org.uk/listing/the-list/list-entry/1011650"
+      },
+      {
+        "guia": "VisitBritain (oficial)",
+        "url": "https://www.visitbritain.com/au/en/media/story-ideas/explore-northumberlands-coast-castles-and-roman-heritage"
+      },
+      {
+        "guia": "National Geographic (mejores ahumaderos del Reino Unido)",
+        "url": "https://www.nationalgeographic.com/travel/article/best-smokehouses-in-the-uk"
+      },
+      {
+        "guia": "Living North (la familia de los Craster kippers)",
+        "url": "https://www.livingnorth.com/article/meet-family-behind-northumberlands-world-famous-craster-kippers"
+      },
+      {
+        "guia": "Northumberland County Council (horarios seguros de la calzada de Holy Island)",
+        "url": "https://holyislandcrossingtimes.northumberland.gov.uk"
+      },
+      {
+        "guia": "Visit Northumberland (horarios de cruce a Holy Island)",
+        "url": "https://www.visitnorthumberland.com/coast/holy-island/crossing-times"
+      },
+      {
+        "guia": "Northumberland County Council (aviso de mareas en la calzada, 2025)",
+        "url": "https://www.northumberland.gov.uk/News/2025/Aug/Visitors-urged-Don-t-turn-your-staycation-into-a-h.aspx"
+      },
+      {
+        "guia": "National Trust",
+        "url": "https://www.nationaltrust.org.uk/farne-islands/features/puffins-on-the-farne-islands"
+      },
+      {
+        "guia": "National Trust",
+        "url": "https://nationaltrust.org.uk/visit/north-east/farne-islands/our-work-on-the-farne-islands"
+      }
+    ],
+    "adrenalina_cerca": [
+      {
+        "nombre": "Coasteering en la costa de Northumberland (Rumbling Kern, Howick)",
+        "tipo": "otro",
+        "km": 19,
+        "lat": 55.45,
+        "lng": -1.585,
+        "temporada": "abr–oct",
+        "url": "https://nationalcoasteeringcharter.org.uk/location/coasteering-north-east-england"
+      }
+    ],
+    "investigado_en": "2026-11-02"
+  },
+  {
+    "id": "gb-hebridas-exteriores",
+    "nombre": "Hébridas Exteriores (Lewis y Harris)",
+    "pais_iso": "GB",
+    "pais": "Reino Unido",
+    "region": "Islas de Escocia",
+    "lat": 57.886,
+    "lng": -6.938,
+    "categorias": [
+      "cultura",
+      "naturaleza"
+    ],
+    "puntajes": {
+      "guias": 2,
+      "cultura": 4,
+      "naturaleza": 4,
+      "gastronomia": 3,
+      "adrenalina": 2,
+      "logistica": 3
+    },
+    "global": 3.1,
+    "nivel": "muy_recomendado",
+    "mejor_epoca": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "dias_sugeridos": 4,
+    "costo": "$$$",
+    "acceso": "Ferri CalMac Ullapool-Stornoway (aprox. 2 h 40, a Lewis) o Uig (Skye)-Tarbert (a Harris), ambos con reserva recomendada también a pie; en las islas, coche casi imprescindible.",
+    "alerta": "Cancelaciones de ferris por temporal, sobre todo en invierno; en Lewis y Harris muchos servicios cierran el domingo.",
+    "platos": [
+      "Morcilla de Stornoway (IGP)",
+      "Ginebra Isle of Harris",
+      "Salmón ahumado de las Hébridas",
+      "Cigalas y cangrejo"
+    ],
+    "por_que": "Las piedras de Calanais, levantadas entre 2900 y 2600 a. C., antes que el círculo principal de Stonehenge, forman un círculo con avenidas de piedras en cruz; son gratuitas y abiertas todo el año, aunque el centro de visitantes estuvo cerrado por obras. Suman el broch de Dun Carloway, la casa negra de Arnol y la tradición viva del gaélico y del tweed de Harris.",
+    "fuentes": [
+      {
+        "guia": "Lonely Planet",
+        "url": "https://www.lonelyplanet.com/articles/best-beaches-scotland"
+      },
+      {
+        "guia": "Historic Environment Scotland (oficial)",
+        "url": "https://www.historicenvironment.scot/visit-a-place/places/calanais-standing-stones/history/"
+      },
+      {
+        "guia": "Historic Environment Scotland (registro de monumentos)",
+        "url": "https://portal.historicenvironment.scot/designation/SM90054"
+      },
+      {
+        "guia": "Visit Outer Hebrides (turismo oficial, Charles MacLeod Butchers)",
+        "url": "https://www.visitouterhebrides.co.uk/food-and-drink/charles-macleod-butchers-p529141"
+      },
+      {
+        "guia": "Visit Outer Hebrides (productores)",
+        "url": "https://www.visitouterhebrides.co.uk/food-and-drink/producers?p=2"
+      },
+      {
+        "guia": "CalMac (Ullapool-Stornoway)",
+        "url": "https://www.calmac.co.uk/en-gb/route-information/stornoway-ullapool/"
+      },
+      {
+        "guia": "CalMac (Uig-Tarbert)",
+        "url": "https://www.calmac.co.uk/en-gb/route-information/uig-tarbert-harris/"
+      },
+      {
+        "guia": "CalMac (ferris a Harris)",
+        "url": "https://www.calmac.co.uk/en-gb/destinations/harris/"
+      },
+      {
+        "guia": "Visit Outer Hebrides (turismo oficial)",
+        "url": "https://visitouterhebrides.co.uk/see-and-do/luskentyre-p523481"
+      },
+      {
+        "guia": "Bradt",
+        "url": "https://www.bradtguides.com/5-fantastic-beaches-in-the-outer-hebrides/"
+      },
+      {
+        "guia": "National Geographic",
+        "url": "https://www.nationalgeographic.com/travel/article/journey-through-lewis-harris-wild-heart-scotlands-outer-hebrides"
+      }
+    ],
+    "adrenalina_cerca": [
+      {
+        "nombre": "Surf Lewis (clases de surf y paddle surf)",
+        "tipo": "otro",
+        "km": 48,
+        "lat": 58.209,
+        "lng": -6.389,
+        "temporada": "abr–oct",
+        "url": "https://www.visitouterhebrides.co.uk/hebrideanway/things-to-do/surf-lewis-p514431"
+      }
+    ],
+    "investigado_en": "2026-11-02"
+  },
+  {
     "id": "gb-islay",
     "nombre": "Isla de Islay (destilerías de whisky)",
     "pais_iso": "GB",
     "pais": "Reino Unido",
-    "region": "Escocia",
+    "region": "Islas de Escocia",
     "lat": 55.757,
     "lng": -6.288,
     "categorias": [
@@ -31027,6 +31716,117 @@
       }
     ],
     "adrenalina_cerca": [],
+    "investigado_en": "2026-11-02"
+  },
+  {
+    "id": "gb-north-york-moors-whitby",
+    "nombre": "North York Moors y Whitby",
+    "pais_iso": "GB",
+    "pais": "Reino Unido",
+    "region": "Yorkshire (Inglaterra)",
+    "lat": 54.486,
+    "lng": -0.615,
+    "categorias": [
+      "cultura",
+      "naturaleza"
+    ],
+    "puntajes": {
+      "guias": 2,
+      "cultura": 4,
+      "naturaleza": 4,
+      "gastronomia": 3,
+      "adrenalina": 3,
+      "logistica": 3
+    },
+    "global": 3.1,
+    "nivel": "muy_recomendado",
+    "mejor_epoca": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "dias_sugeridos": 2,
+    "costo": "$$",
+    "acceso": "Tren de la Esk Valley Line desde Middlesbrough a Whitby o bus desde York y Scarborough; el tren de vapor une Pickering y Whitby por el parque; para los páramos y Robin Hood's Bay, coche o bus local.",
+    "alerta": "La línea del tren de vapor ha tenido cortes por obras en puentes: consultar el horario vigente antes de ir.",
+    "platos": [
+      "Fish and chips de Whitby",
+      "Bisque de cangrejo de Whitby",
+      "Kippers de Whitby",
+      "Menú de huerto de The Black Swan"
+    ],
+    "por_que": "Sobre Whitby se alzan las ruinas de la abadía benedictina, heredera del monasterio de santa Hilda del siglo VII, que inspiró a Bram Stoker escenarios y el nombre de Drácula tras su estancia de 1890. Dentro del parque, la abadía de Rievaulx, fundada en 1132 por monjes de Claraval, fue la primera casa cisterciense del norte de Inglaterra y una de las mayores del país, con museo de English Heritage.",
+    "fuentes": [
+      {
+        "guia": "Lonely Planet",
+        "url": "https://www.lonelyplanet.com/england/yorkshire/north-york-moors-national-park"
+      },
+      {
+        "guia": "Lonely Planet",
+        "url": "https://www.lonelyplanet.com/points-of-interest/whitby-abbey/1069082"
+      },
+      {
+        "guia": "Lonely Planet",
+        "url": "https://www.lonelyplanet.com/articles/discover-the-joy-of-steam-on-the-north-yorkshire-moors-railway"
+      },
+      {
+        "guia": "English Heritage (oficial)",
+        "url": "https://www.english-heritage.org.uk/visit/places/whitby-abbey/history-and-stories/dracula"
+      },
+      {
+        "guia": "Lonely Planet",
+        "url": "https://www.lonelyplanet.com/england/yorkshire/whitby/attractions/whitby-abbey/a/poi-sig/1069082/359095"
+      },
+      {
+        "guia": "Historic England (registro oficial)",
+        "url": "https://historicengland.org.uk/listing/the-list/list-entry/1012065"
+      },
+      {
+        "guia": "Visit Whitby (The Magpie Cafe)",
+        "url": "https://www.visitwhitby.com/?p=418"
+      },
+      {
+        "guia": "Visit Whitby (mejores fish and chips)",
+        "url": "https://www.visitwhitby.com/?p=1336"
+      },
+      {
+        "guia": "Visit York (The Black Swan at Oldstead)",
+        "url": "https://www.visityork.org/eat-and-drink/the-black-swan-at-oldstead-p1027131"
+      },
+      {
+        "guia": "This is the Coast (reapertura de la línea completa a Whitby)",
+        "url": "https://www.thisisthecoast.co.uk/news/local-news/north-yorkshire-moors-railway-confirms-reopening-of-full-line-service-to-whitby/"
+      },
+      {
+        "guia": "Visit York (excursiones de invierno Pickering-Whitby)",
+        "url": "https://visityork.org/events/nymr-pickering-to-whitby-winter-excursions"
+      },
+      {
+        "guia": "VisitBritain (oficial)",
+        "url": "https://www.visitbritain.org/destinations/north-york-moors"
+      },
+      {
+        "guia": "National Geographic",
+        "url": "https://www.nationalgeographic.com/travel/article/north-york-moors-england"
+      },
+      {
+        "guia": "YHA",
+        "url": "https://www.yha.org.uk/blog/must-do-north-yorkshire-coastal-walk-whitby-robin-hoods-bay"
+      }
+    ],
+    "adrenalina_cerca": [
+      {
+        "nombre": "Flamingo Land (Sik, Mumbo Jumbo)",
+        "tipo": "parque_diversiones",
+        "km": 33,
+        "lat": 54.2097,
+        "lng": -0.8063,
+        "temporada": "mar–nov",
+        "url": "https://rcdb.com/4804.htm"
+      }
+    ],
     "investigado_en": "2026-11-02"
   },
   {
@@ -31678,7 +32478,7 @@
     ],
     "dias_sugeridos": 1,
     "costo": "$$",
-    "acceso": "En coche, aprox. 1 h desde Dublín, o en el bus privado St Kevin's Bus o en excursión desde Dublín.",
+    "acceso": "St Kevin's Bus diario desde Dublín, o TFI Local Link 183 (Arklow-Wicklow-Roundwood-Laragh-Glendalough, cuatro al día los siete días); en coche, aprox. 1 h desde Dublín.",
     "alerta": "Senderos de montaña con tiempo cambiante en los montes de Wicklow.",
     "platos": [],
     "por_que": "El monasterio que san Kevin fundó en el siglo VI, con una de las torres redondas mejor conservadas de Irlanda, iglesias de piedra y cruces en un valle glaciar con dos lagos. Nueve senderos señalizados del Parque Nacional de los Montes de Wicklow salen de allí, y por él pasa el Wicklow Way. Está a 1 h de Dublín en coche o en el St Kevin's Bus; los fines de semana de verano conviene llegar temprano.",
@@ -31706,6 +32506,18 @@
       {
         "guia": "National Parks of Ireland (oficial)",
         "url": "https://www.nationalparks.ie/wicklow/things-to-do/"
+      },
+      {
+        "guia": "Glendalough (St Kevin's Bus)",
+        "url": "https://glendalough.ie/transport/by-bus/"
+      },
+      {
+        "guia": "Transport for Ireland (Local Link 183, siete días)",
+        "url": "https://www.transportforireland.ie/news/tfi-local-link-route-183-sallins-to-arklow-7-day-per-week-service/"
+      },
+      {
+        "guia": "Visit Wicklow (St Kevin's Bus)",
+        "url": "https://visitwicklow.ie/listing/st-kevins-bus-service/"
       }
     ],
     "adrenalina_cerca": [
@@ -32498,7 +33310,7 @@
     ],
     "dias_sugeridos": 2,
     "costo": "$$",
-    "acceso": "En coche: el circuito Inishowen 100 sale de Derry o Buncrana; el bus es escaso.",
+    "acceso": "En coche, por el circuito Inishowen 100 desde Derry o Buncrana; buses TFI Local Link 959 (Greencastle-Carndonagh-Buncrana) y 954 (Malin Head-Carndonagh), con pocas salidas.",
     "alerta": null,
     "platos": [],
     "por_que": "Península del extremo norte de Irlanda que se recorre en coche por el circuito Inishowen 100, con Malin Head, playas largas como Five Finger Strand y las colinas Urris sobre el Lough Swilly. En lo alto está el fuerte circular de piedra de Grianán of Aileach. Se sale desde Derry o Buncrana; el bus es escaso.",
@@ -32514,6 +33326,10 @@
       {
         "guia": "Discover Ireland (Fáilte Ireland)",
         "url": "https://www.discoverireland.ie/wild-atlantic-way/hikes-wild-atlantic-way"
+      },
+      {
+        "guia": "Transport for Ireland (más servicios Local Link en Inishowen)",
+        "url": "https://www.transportforireland.ie/news/tfi-local-link-donegal-sligo-leitrim-announce-significant-increase-in-services-for-inishowen-peninsula/"
       }
     ],
     "adrenalina_cerca": [],
@@ -32549,7 +33365,7 @@
     ],
     "dias_sugeridos": 1,
     "costo": "$$",
-    "acceso": "En coche, aprox. 1 h 15 desde Dublín por la M1; bus local desde Dundalk o Newry.",
+    "acceso": "En coche, aprox. 1 h 15 desde Dublín por la M1; bus diario desde Dundalk y Newry con parada frente a la oficina de turismo.",
     "alerta": null,
     "platos": [
       "Ostras de Carlingford",
@@ -32564,6 +33380,10 @@
       {
         "guia": "Departamento de Estado EE. UU. (Irlanda)",
         "url": "https://travel.state.gov/en/international-travel/travel-advisories/ireland.html"
+      },
+      {
+        "guia": "Carlingford (oficina de turismo, cómo llegar)",
+        "url": "https://www.carlingford.ie/find-us-carlingford-tourist-office"
       }
     ],
     "adrenalina_cerca": [
@@ -41291,7 +42111,7 @@
     ],
     "dias_sugeridos": 1,
     "costo": "$",
-    "acceso": "Bus desde la estación de autobuses de Vilna (aprox. 1 h) o coche; no hay tren.",
+    "acceso": "Bus desde la estación de autobuses de Vilna (andenes 10 u 11, unas seis salidas al día) o coche (menos de 1 h); también hay tours de un día; no hay tren.",
     "alerta": null,
     "platos": [],
     "por_que": "Primera capital del Gran Ducado de Lituania, con cinco colinas fortificadas sobre el valle del Neris y restos de unos diez milenios de poblamiento, Patrimonio Mundial desde 2004. El museo arqueológico expone lo hallado bajo los sedimentos del río, y cada julio se celebra un festival de arqueología experimental. Está a algo más de una hora en bus desde Vilna.",
@@ -41311,6 +42131,14 @@
       {
         "guia": "Departamento de Estado EE. UU.",
         "url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/lithuania-travel-advisory.html"
+      },
+      {
+        "guia": "Go Vilnius (excursión de un día a Kernavė)",
+        "url": "https://www.govilnius.lt/visit-vilnius/day-trips-near-vilnius/historic-trail-a-day-trip-from-vilnius-to-kernave"
+      },
+      {
+        "guia": "Lithuania Travel (sitio arqueológico de Kernavė)",
+        "url": "https://lithuania.travel/en/why-lithuania/culture-and-heritage/unesco-heritage/kernaves-archeological-site"
       }
     ],
     "adrenalina_cerca": [],
@@ -48136,6 +48964,85 @@
     "investigado_en": "2026-11-02"
   },
   {
+    "id": "no-alesund",
+    "nombre": "Ålesund",
+    "pais_iso": "NO",
+    "pais": "Noruega",
+    "region": "Møre og Romsdal",
+    "lat": 62.4722,
+    "lng": 6.1495,
+    "categorias": [
+      "cultura",
+      "ciudad"
+    ],
+    "puntajes": {
+      "guias": 4,
+      "cultura": 4,
+      "naturaleza": 3,
+      "gastronomia": 2,
+      "adrenalina": 1,
+      "logistica": 5
+    },
+    "global": 4.2,
+    "nivel": "imprescindible",
+    "mejor_epoca": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "dias_sugeridos": 2,
+    "costo": "$$$$",
+    "acceso": "Aeropuerto de Vigra con bus al centro; escala diaria del Hurtigruten; base para el Geirangerfjord en coche o en barco.",
+    "alerta": null,
+    "platos": [
+      "Klippfisk (bacalao salado y seco)",
+      "Bacalao a la noruega"
+    ],
+    "por_que": "Reconstruida en Jugendstil después del incendio de 1904, es uno de los conjuntos Art Nouveau más homogéneos de Europa, con un centro dedicado al estilo en la antigua farmacia Svaneapoteket. Los 418 escalones al mirador de Aksla dan la vista de la ciudad sobre las islas. Es una buena base para el Geirangerfjord y el Hjørundfjord, con aeropuerto y escala diaria del Hurtigruten.",
+    "fuentes": [
+      {
+        "guia": "Lonely Planet",
+        "url": "https://www.lonelyplanet.com/destinations/norway/bergen-and-the-western-fjords/alesund"
+      },
+      {
+        "guia": "Fodor's",
+        "url": "https://www.fodors.com/world/europe/norway/experiences/news/photos/the-best-things-to-do-in-norway"
+      },
+      {
+        "guia": "Rough Guides",
+        "url": "https://www.roughguides.com/norway/bergen-western-fjords/western-fjords/"
+      },
+      {
+        "guia": "Visit Norway",
+        "url": "https://www.visitnorway.com/things-to-do/art-culture/art/museums/"
+      },
+      {
+        "guia": "Hurtigruten (puerto a puerto)",
+        "url": "https://www.hurtigruten.com/about-us/voyages/port-to-port"
+      },
+      {
+        "guia": "Fjord1 (turismo y fiordos)",
+        "url": "https://www.fjord1.no/eng/about-fjord1/our-operating-segments/tourism"
+      },
+      {
+        "guia": "Visit Norway (oficial)",
+        "url": "https://www.visitnorway.com/places-to-go/fjord-norway/northwest/?lang=primary"
+      },
+      {
+        "guia": "Visit Norway",
+        "url": "https://www.visitnorway.com/listings/the-art-nouveau-centre-the-art-museum-kube/13917/"
+      },
+      {
+        "guia": "Fjord Norway (turismo oficial)",
+        "url": "https://fjordnorway.com/en/see-and-do/the-art-nouveau-centre--the-art-museum-kube"
+      }
+    ],
+    "adrenalina_cerca": [],
+    "investigado_en": "2026-11-02"
+  },
+  {
     "id": "no-trondheim",
     "nombre": "Trondheim (catedral de Nidaros)",
     "pais_iso": "NO",
@@ -48718,6 +49625,89 @@
     "investigado_en": "2026-11-02"
   },
   {
+    "id": "no-fredrikstad",
+    "nombre": "Fredrikstad (Gamlebyen) y Hvaler",
+    "pais_iso": "NO",
+    "pais": "Noruega",
+    "region": "Østfold",
+    "lat": 59.2056,
+    "lng": 10.9575,
+    "categorias": [
+      "cultura",
+      "ciudad"
+    ],
+    "puntajes": {
+      "guias": 3,
+      "cultura": 4,
+      "naturaleza": 3,
+      "gastronomia": 2,
+      "adrenalina": 1,
+      "logistica": 5
+    },
+    "global": 3.8,
+    "nivel": "muy_recomendado",
+    "mejor_epoca": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "dias_sugeridos": 2,
+    "costo": "$$$",
+    "acceso": "Tren de Vy desde Oslo (en torno a 1 h, uno o dos por hora) y ferri urbano corto o paseo hasta Gamlebyen; Hvaler en bus o coche.",
+    "alerta": null,
+    "platos": [
+      "Gambas (reker) de Hvaler",
+      "Marisco del fiordo de Oslo"
+    ],
+    "por_que": "Gamlebyen, fundada en 1567 y amurallada según el sistema holandés con fosos de agua y bastiones de tierra, es la ciudad fortificada mejor conservada del norte de Europa; fue guarnición hasta 2002 y hoy sus calles empedradas tienen galerías y talleres. Cerca está la fortaleza de Kongsten.",
+    "fuentes": [
+      {
+        "guia": "Lonely Planet",
+        "url": "https://www.lonelyplanet.com/norway/southern-norway/fredrikstad/attractions/kongsten-festning/a/poi-sig/1418676/360246"
+      },
+      {
+        "guia": "Lonely Planet",
+        "url": "https://www.lonelyplanet.com/norway/southern-norway/fredrikstad/attractions/bastion-5/a/poi-sig/1431510/360246"
+      },
+      {
+        "guia": "Rough Guides",
+        "url": "https://www.roughguides.com/norway/oslo-oslofjord/the-oslofjord/"
+      },
+      {
+        "guia": "Visit Norway",
+        "url": "https://www.visitnorway.com/listings/the-old-town-gamlebyen-fredrikstad/9384/"
+      },
+      {
+        "guia": "Forsvarsbygg (oficial)",
+        "url": "https://www.forsvarsbygg.no/en/festningene/fredrikstad-fortress"
+      },
+      {
+        "guia": "Visit Fredrikstad & Hvaler (oficial)",
+        "url": "https://www.visitfredrikstadhvaler.com/en/The-Fortified-Town"
+      },
+      {
+        "guia": "Visit Fredrikstad & Hvaler (transporte)",
+        "url": "https://visitfredrikstadhvaler.com/en/transport"
+      },
+      {
+        "guia": "Visit Fredrikstad & Hvaler (tren de Vy)",
+        "url": "https://visitfredrikstadhvaler.com/en/transport/vy-train"
+      },
+      {
+        "guia": "Visit Norway (oficial)",
+        "url": "https://www.visitnorway.com/listings/ytre-hvaler-national-park/18214/"
+      },
+      {
+        "guia": "Miljødirektoratet (oficial)",
+        "url": "https://www.miljodirektoratet.no/globalassets/dokumenter/publikasjoner/brosjyrer/ytre-hvaler_np_engelsk_nett.pdf"
+      }
+    ],
+    "adrenalina_cerca": [],
+    "investigado_en": "2026-11-02"
+  },
+  {
     "id": "no-lillehammer",
     "nombre": "Lillehammer y Gudbrandsdal",
     "pais_iso": "NO",
@@ -48861,73 +49851,113 @@
     "investigado_en": "2026-11-02"
   },
   {
-    "id": "no-alesund",
-    "nombre": "Ålesund",
+    "id": "no-sorlandet",
+    "nombre": "Costa de Sørlandet (Kristiansand, Lillesand, Risør y Lindesnes)",
     "pais_iso": "NO",
     "pais": "Noruega",
-    "region": "Møre og Romsdal",
-    "lat": 62.4722,
-    "lng": 6.1495,
+    "region": "Agder",
+    "lat": 58.1467,
+    "lng": 7.9956,
     "categorias": [
-      "ciudad"
+      "naturaleza",
+      "gastronomia",
+      "playa"
     ],
     "puntajes": {
-      "guias": 4,
+      "guias": 3,
       "cultura": 3,
-      "naturaleza": 3,
-      "gastronomia": 2,
-      "adrenalina": 1,
-      "logistica": 5
+      "naturaleza": 4,
+      "gastronomia": 4,
+      "adrenalina": 3,
+      "logistica": 4
     },
-    "global": 3.7,
+    "global": 3.6,
     "nivel": "muy_recomendado",
     "mejor_epoca": [
-      5,
       6,
       7,
-      8,
-      9
+      8
     ],
-    "dias_sugeridos": 2,
+    "dias_sugeridos": 3,
     "costo": "$$$$",
-    "acceso": "Aeropuerto de Vigra con bus al centro; escala diaria del Hurtigruten; base para el Geirangerfjord en coche o en barco.",
+    "acceso": "Tren de la Sørlandsbanen desde Oslo a Kristiansand (unas 4 h 30; lo opera Go-Ahead y los billetes se venden también en Vy); Lillesand, Grimstad y Risør en bus costero; Lindesnes y el restaurante Under, en coche.",
     "alerta": null,
     "platos": [
-      "Klippfisk (bacalao salado y seco)",
-      "Bacalao a la noruega"
+      "Menú de degustación de mar de Under",
+      "Gambas (reker) de Fiskebrygga",
+      "Bogavante y mejillones de la costa de Agder",
+      "Bacalao skrei (en febrero)"
     ],
-    "por_que": "Reconstruida en Jugendstil después del incendio de 1904, es uno de los conjuntos Art Nouveau más homogéneos de Europa, con un centro dedicado al estilo en la antigua farmacia Svaneapoteket. Los 418 escalones al mirador de Aksla dan la vista de la ciudad sobre las islas. Es una buena base para el Geirangerfjord y el Hjørundfjord, con aeropuerto y escala diaria del Hurtigruten.",
+    "por_que": "En Kristiansand, el Kunstsilo, abierto en 2024 en un silo de grano de 1935, alberga la colección Tangen, la mayor de arte modernista nórdico, con más de 5.000 obras. La costa suma los pueblos de casas blancas de madera de Lillesand y Risør y la farmacia-museo de Ibsen en Grimstad.",
     "fuentes": [
       {
-        "guia": "Lonely Planet",
-        "url": "https://www.lonelyplanet.com/destinations/norway/bergen-and-the-western-fjords/alesund"
+        "guia": "Rough Guides",
+        "url": "https://www.roughguides.com/norway/south/"
       },
       {
         "guia": "Fodor's",
-        "url": "https://www.fodors.com/world/europe/norway/experiences/news/photos/the-best-things-to-do-in-norway"
+        "url": "https://www.fodors.com/world/europe/norway/southern-norway/restaurants?pois=689951"
       },
       {
-        "guia": "Rough Guides",
-        "url": "https://www.roughguides.com/norway/bergen-western-fjords/western-fjords/"
+        "guia": "Kunstsilo (museo oficial)",
+        "url": "https://kunstsilo.no/en/our-collections/the-tangen-collection"
       },
       {
         "guia": "Visit Norway",
-        "url": "https://www.visitnorway.com/things-to-do/art-culture/art/museums/"
+        "url": "https://www.visitnorway.com/listings/kunstsilo-nordic-art-museum-in-kristiansand/222785/"
       },
       {
-        "guia": "Hurtigruten (puerto a puerto)",
-        "url": "https://www.hurtigruten.com/about-us/voyages/port-to-port"
+        "guia": "Guía Michelin (Under, una estrella en 2026)",
+        "url": "https://guide.michelin.com/no/en/agder/lindesnes/restaurant/under"
       },
       {
-        "guia": "Fjord1 (turismo y fiordos)",
-        "url": "https://www.fjord1.no/eng/about-fjord1/our-operating-segments/tourism"
+        "guia": "Guía Michelin (restaurantes en los lugares más insólitos del mundo)",
+        "url": "https://guide.michelin.com/en/article/travel/the-most-original-michelin-guide-restaurants-over-the-world"
+      },
+      {
+        "guia": "Visit Norway (Fiskebrygga, Kristiansand)",
+        "url": "https://www.visitnorway.com/listings/fiskebrygga-the-fish-quay-in-kristiansand/19910/"
+      },
+      {
+        "guia": "Visit Sørlandet (turismo oficial, verano en Kristiansand)",
+        "url": "https://en.visitsorlandet.com/destinations/kristiansand/summer-in-kristiansand/10-tips-to-summer-activities-in-kristiansand/"
+      },
+      {
+        "guia": "Vy (tren a Kristiansand)",
+        "url": "https://www.vy.no/en/train/kristiansand"
+      },
+      {
+        "guia": "Visit Norway (Sørlandsbanen)",
+        "url": "https://www.visitnorway.com/plan-your-trip/getting-around/by-train/the-sorland-line"
       },
       {
         "guia": "Visit Norway (oficial)",
-        "url": "https://www.visitnorway.com/places-to-go/fjord-norway/northwest/?lang=primary"
+        "url": "https://www.visitnorway.com/listings/raet-national-park-in-arendal/208572/"
+      },
+      {
+        "guia": "Visit Norway (oficial)",
+        "url": "https://www.visitnorway.com/listings/explore-grimstads-skerries/212310/"
+      },
+      {
+        "guia": "Visit Norway (oficial)",
+        "url": "https://www.visitnorway.com/listings/lindesnes-lighthouse/3644/"
+      },
+      {
+        "guia": "Visit Sørlandet (turismo oficial)",
+        "url": "https://en.visitsorlandet.com/destinations/mandal-lindesnes/attractions-in-mandal-lindesnes/"
       }
     ],
-    "adrenalina_cerca": [],
+    "adrenalina_cerca": [
+      {
+        "nombre": "Dyreparken (zoo, atracciones y parque acuático Badelandet)",
+        "tipo": "parque_diversiones",
+        "km": 9,
+        "lat": 58.185,
+        "lng": 8.135,
+        "temporada": "may–sep (temporada alta); Badelandet de Semana Santa a octubre",
+        "url": "https://www.visitnorway.com/listings/dyreparken-kristiansand-zoo-and-amusement-park/21056"
+      }
+    ],
     "investigado_en": "2026-11-02"
   },
   {
@@ -53095,8 +54125,8 @@
     ],
     "dias_sugeridos": 3,
     "costo": "$$$",
-    "acceso": "Ferry de Destination Gotland desde Nynäshamn u Oskarshamn (unas 3 h) o vuelo desde Estocolmo; en la isla, bici o coche.",
-    "alerta": "Durante la Semana Medieval de agosto hay que reservar ferry y alojamiento con mucha antelación.",
+    "acceso": "Ferri de Destination Gotland desde Nynäshamn u Oskarshamn (unas 3 h) hasta el centro de Visby, con reserva; vuelos de SAS desde Estocolmo todo el año; en la isla, bici o coche.",
+    "alerta": "Durante la Semana Medieval de agosto hay que reservar ferri y alojamiento con mucha antelación.",
     "platos": [
       "Saffranspannkaka (pudín de arroz con azafrán)",
       "Cordero de Gotland",
@@ -53131,6 +54161,14 @@
       {
         "guia": "Visit Sweden (oficial)",
         "url": "https://visitsweden.com/where-to-go/southern-sweden/gotland/faro-gotland/"
+      },
+      {
+        "guia": "Destination Gotland (viajar en el ferri)",
+        "url": "https://www.destinationgotland.se/en/travel/"
+      },
+      {
+        "guia": "Gotland.com (turismo oficial, cómo llegar)",
+        "url": "https://gotland.com/article/getting-to-gotland/"
       }
     ],
     "adrenalina_cerca": [],
@@ -53565,6 +54603,10 @@
       {
         "guia": "Visit Sweden",
         "url": "https://visitsweden.com/where-to-go/middle-sweden/uppland/"
+      },
+      {
+        "guia": "Departamento de Estado EE. UU.",
+        "url": "https://travel.state.gov/en/international-travel/travel-advisories/sweden.html"
       }
     ],
     "adrenalina_cerca": [],
