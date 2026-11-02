@@ -2,8 +2,8 @@
   "agente": "guias-expertas",
   "subregion": "britanicas-nordicos",
   "ronda": 4,
-  "estado": "en_curso",
-  "notas": "Corrección de la ronda 1 del revisor (grupos a y b). Versión parcial guardada temprano.",
+  "estado": "completo",
+  "notas": "Corrección de la ronda 1 del revisor, grupos a y b. Escala oficial de criterios.json, con el mismo criterio para todos: cada guía cuenta una vez si tiene una lista de imprescindibles, un itinerario o una ficha propia que recomienda el lugar. 30 WebSearch (4 fallaron por el límite de uso). Sin WebFetch. Solo se citan URL que salieron en mis búsquedas, salvo dos que el revisor confirmó y que ya están en las fuentes finales del lugar: la de Bradt sobre las Hébridas y la de National Geographic sobre North York Moors. Resultados de las búsquedas. (1) La lista de Fodor's sobre Noruega no aparece: se quita de los 11 lugares y se recalculan. (2) Rick Steves: ricksteves.com/tv-programmers/iceland y el episodio Iceland's Ring Road cubren las islas Westman, los fiordos del Este (sin nombrar Seyðisfjörður) y Mývatn, pero no Húsavík. (3) No aparecieron Fodor's ni Frommer's para la Roca de Cashel; ViaMichelin para la catedral de York; páginas de Lonely Planet o Rough Guides para Åre y Koli; una cuarta guía para Visby y Oxford; ni Rough Guides para Jotunheimen y Hardangervidda. (4) La página de Lonely Planet sobre Canterbury solo salió en nonprod.lonelyplanet.com y en un espejo imagizer, que no cuentan. Pendientes del curador que no toqué por falta de cupo: no-senja (página de hoteles de Fodor's), dk-jelling (noticia de NatGeo), dk-djurs-sommerland (Time Out), gb-orcadas-neolitico y gb-seven-sisters. Las coordenadas de correcciones_base salen de las búsquedas para Doolin, el centro de visitantes de Glencoe, Víti, Arnarstapi y Soomaa. Las demás son el punto concreto que pidió el revisor, tomado de coordenadas conocidas, con 4 decimales y sin cero final.",
   "puntajes": [
     {
       "id": "is-seydisfjordur",
@@ -28,6 +28,290 @@
       ]
     },
     {
+      "id": "is-vestmannaeyjar",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Time Out", "Rough Guides", "Rick Steves"],
+      "justificacion": "Time Out incluye Heimaey entre sus 21 mejores cosas que hacer en Islandia, por el museo Eldheimar de la erupción de 1973 y sus colonias de frailecillos. Rough Guides la recomienda para ver frailecillos en verano. Rick Steves va a las islas a ver frailecillos en su especial sobre Islandia, después de la costa sur.",
+      "fuentes": [
+        { "guia": "Time Out", "url": "https://www.timeout.com/iceland/things-to-do/best-things-to-do-in-iceland" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/iceland/things-to-do/" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/tv-programmers/iceland" }
+      ]
+    },
+    {
+      "id": "is-fiordos-del-oeste",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides", "Fodor's", "National Geographic"],
+      "justificacion": "Lonely Planet les dedica una guía y pone la reserva de Hornstrandir entre las 10 mejores maravillas naturales de Islandia. Rough Guides incluye las caminatas por Hornstrandir entre sus primeros imprescindibles del país. Fodor's tiene una guía de Ísafjörður con los acantilados de Látrabjarg y la cascada de Dynjandi, y National Geographic les dedica un reportaje sobre la nueva ruta Westfjords Way.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/guide-to-westfjords-iceland" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-nature-spots-iceland" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/iceland/things-to-do/" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/iceland/westfjords/isafjordur" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/road-tripping-through-icelands-remote-corners-westfjords-way" }
+      ]
+    },
+    {
+      "id": "gb-canterbury",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Fodor's", "Rick Steves"],
+      "justificacion": "Fodor's le dedica una guía de destino propia dentro del sureste de Inglaterra. Rick Steves tiene una página de destino de Canterbury, uno de los grandes centros religiosos de Inglaterra, que durante siglos recibió a los peregrinos de su catedral.",
+      "fuentes": [
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/england/the-southeast/places/canterbury" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/england/canterbury" }
+      ]
+    },
+    {
+      "id": "ie-rock-of-cashel",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rick Steves"],
+      "justificacion": "Lonely Planet la pone entre los 20 lugares más increíbles de Irlanda, elige Tipperary entre los mejores lugares del país por la Roca y el castillo de Cahir, y tiene ficha propia de este peñón calizo de 63 m coronado por la catedral y la capilla de Cormac. Rick Steves la visita el quinto día de su ruta de dos semanas, camino de Kinsale.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/stories/20-most-incredible-places-to-visit-in-ireland" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/ireland/county-tipperary/cashel/attractions/rock-of-cashel/a/poi-sig/491650/359751" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-ireland" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/ireland/itinerary" }
+      ]
+    },
+    {
+      "id": "gb-hebridas-exteriores",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Bradt", "National Geographic"],
+      "justificacion": "Lonely Planet pone Luskentyre, en Harris, entre las mejores playas de Escocia por su arena blanquísima y su agua verde con la marea baja, y menciona la playa-aeropuerto de Tràigh Mhòr en Barra. Bradt, que tiene una guía entera de las Hébridas Exteriores, selecciona sus cinco mejores playas. National Geographic dedica un reportaje a Lewis y Harris, con sus 38 playas de arena de conchas, y pone Luskentyre entre las playas más bonitas de Europa en su selección de las Hébridas.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-beaches-scotland" },
+        { "guia": "Bradt", "url": "https://www.bradtguides.com/5-fantastic-beaches-in-the-outer-hebrides/" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/journey-through-lewis-harris-wild-heart-scotlands-outer-hebrides" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/best-places-to-visit-hebrides" }
+      ]
+    },
+    {
+      "id": "gb-north-york-moors-whitby",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Frommer's", "National Geographic"],
+      "justificacion": "Lonely Planet tiene página de destino del parque nacional y ficha de la abadía de Whitby, que inspiró la llegada de Drácula en la novela de Bram Stoker, además de un artículo sobre el tren de vapor North Yorkshire Moors Railway. Frommer's tiene página de qué hacer en el parque: la mayor extensión de páramo de Inglaterra, con el Cleveland Way de 177 km, que bordea la costa de Yorkshire. National Geographic le dedica un artículo propio.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/england/yorkshire/north-york-moors-national-park" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/points-of-interest/whitby-abbey/1069082" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/discover-the-joy-of-steam-on-the-north-yorkshire-moors-railway" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/north-york-moors-national-park/things-to-do/" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/north-york-moors-england" }
+      ]
+    },
+    {
+      "id": "gb-costa-northumberland",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Lonely Planet"],
+      "justificacion": "Lonely Planet le dedica un artículo con las 14 mejores cosas que hacer en Northumberland, en el que dice que la vista del castillo de Bamburgh desde la playa es una de las más bonitas de Inglaterra. Tiene además fichas del priorato de Lindisfarne, en Holy Island, a la que se llega por una calzada que cubre la marea, y de los atractivos de la costa: Alnwick, Craster, Dunstanburgh y los barcos a las islas Farne.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-northumberland" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/england/northeast-england/holy-island-lindisfarne/attractions/lindisfarne-priory/a/poi-sig/1220153/358929" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/england/northeast-england/northumberland/attractions" }
+      ]
+    },
+    {
+      "id": "gb-brighton",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides", "Fodor's", "Frommer's"],
+      "justificacion": "Lonely Planet tiene sus 15 mejores cosas que hacer en Brighton y una ficha del Palace Pier, y Rough Guides sus 16 mejores cosas que hacer. Fodor's da 10 razones para visitarla, entre ellas el carrusel y la cervecería victoriana del muelle, y Frommer's tiene ficha del Royal Pavilion de Jorge IV, con sus interiores de chinoiserie. Son guías propias de la ciudad, no listas nacionales de imprescindibles, por eso tiene 4.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/england/southeast-england/brighton-and-hove/attractions" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/england/things-to-do-brighton/" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/england/the-southeast/places/brighton/experiences/news/photos/10-reasons-to-visit-brighton-uk" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/brighton/attractions/the-royal-pavilion-at-brighton/" }
+      ]
+    },
+    {
+      "id": "gb-stonehenge",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides", "Fodor's", "Frommer's"],
+      "justificacion": "Lonely Planet lo pone en el número 1 de los 15 mejores sitios históricos de Inglaterra, como el yacimiento arqueológico más emblemático de Gran Bretaña. Rough Guides lo llama el círculo de piedras más importante de Inglaterra y propone Avebury como alternativa sin cuerdas ni vallas. Fodor's recomienda verlo al amanecer o al atardecer en sus 26 experiencias imprescindibles de Inglaterra, y Frommer's le dedica el octavo día de su ruta de dos semanas, junto a la catedral de Salisbury.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-historic-sights-england" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/england/southwest-england/stonehenge" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-england/?redirect_n" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/england/experiences/news/photos/ultimate-things-to-do-in-england" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/england/suggested-itineraries/in-two-weeks/" }
+      ]
+    },
+    {
+      "id": "ie-bru-na-boinne",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Rough Guides", "Frommer's", "Rick Steves", "Lonely Planet"],
+      "justificacion": "Rough Guides incluye ver Brú na Bóinne entre sus mejores cosas que hacer en Irlanda: una tumba de 5200 años que se ilumina en el solsticio de invierno. Frommer's la destaca como más antigua que las pirámides y Stonehenge. Rick Steves cuenta el valle del Boyne entre las visitas de su ruta por Irlanda, y Lonely Planet marca como Top Choice el centro de visitantes, única entrada a Newgrange y Knowth.",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-ireland/" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/county-meath/things-to-do/" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/ireland/itinerary" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/points-of-interest/bru-na-boinne-visitor-centre/1098566" }
+      ]
+    },
+    {
+      "id": "gb-york",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Rick Steves", "Lonely Planet", "Time Out"],
+      "justificacion": "Rick Steves la incluye entre las paradas básicas de su itinerario por Gran Bretaña desde los 9 días. Lonely Planet la recorre en su lista de las 14 mejores cosas que hacer en Yorkshire, con la catedral, la mayor catedral medieval del norte de Europa. Time Out le dedica una selección de las 20 mejores cosas que hacer en la ciudad.",
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/britain-itinerary" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-things-to-do-yorkshire-england" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/york/things-to-do/best-things-to-do-in-york" }
+      ]
+    },
+    {
+      "id": "no-lofoten",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides", "Time Out", "National Geographic", "Frommer's"],
+      "justificacion": "Lonely Planet abre su lista de los mejores lugares de Noruega con las Lofoten, por su belleza ártica. Rough Guides elige Å como el mejor pueblo, con Henningsvær y Stamsund muy cerca, y recomienda el Trollfjord. Time Out recomienda dormir en un rorbu, National Geographic propone recorrer las islas en ferry desde Svolvær en su top 10 de verano y Frommer's destaca Henningsvær y Reine.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-norway" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/norway/trondheim-lofoten-islands/lofoten-islands/" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/norway/things-to-do/best-things-to-do-in-norway" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/summer-experiences-in-norway" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/lofoten-islands/suggested-itineraries/" }
+      ]
+    },
+    {
+      "id": "no-geirangerfjord",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides", "Time Out"],
+      "justificacion": "Lonely Planet lo pone entre las mejores cosas que hacer en Noruega: un fiordo Patrimonio de la Humanidad de paredes verticales y cascadas, con el ferry Geiranger-Hellesylt y el mirador de Dalsnibba. Rough Guides lo pone primero entre sus imprescindibles de los fiordos del oeste y Time Out lo recomienda para recorrerlo en kayak.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-norway" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/norway/bergen-and-the-western-fjords/geiranger" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/norway/bergen-western-fjords/western-fjords/" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/norway/things-to-do/best-things-to-do-in-norway" }
+      ]
+    },
+    {
+      "id": "no-sognefjord-flam",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Rick Steves", "Lonely Planet", "Rough Guides", "National Geographic"],
+      "justificacion": "Rick Steves considera el circuito Norway in a Nutshell, con el tren de Flåm y el crucero por el Nærøyfjord, la gran experiencia natural del país, y describe el Sognefjord como el más largo y profundo. Lonely Planet pone el Sognefjord entre sus 12 mejores lugares de Noruega. Rough Guides recomienda el Flåmsbana y National Geographic cita el Sognefjord entre los cruceros por fiordos de su top 10 de verano.",
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/watch-read-listen/read/articles/norways-ultimate-natural-thrill" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/watch-read-listen/read/articles/the-nature-of-norway" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-norway" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/norway/bergen-western-fjords/western-fjords/" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/summer-experiences-in-norway" }
+      ]
+    },
+    {
+      "id": "no-urnes-lustrafjord",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Rough Guides", "Rick Steves"],
+      "justificacion": "Rough Guides incluye Urnes entre las 25 mejores cosas que hacer en Noruega y la llama la mejor iglesia de madera del país, frente a Solvorn en el Lustrafjord. Rick Steves lleva su itinerario escandinavo por el Sognefjellsvegen hasta el Lustrafjord.",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-norway/" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/scandinavia-itinerary" }
+      ]
+    },
+    {
+      "id": "no-tromso",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Frommer's", "Time Out", "National Geographic"],
+      "justificacion": "Lonely Planet le dedica una guía propia y la elige como la mejor ciudad de Noruega para actividades al aire libre todo el año: auroras, sol de medianoche y la Catedral Ártica. Frommer's la llama la puerta del Ártico y el lugar más práctico para ver auroras. Time Out la pone tercera en su ranking de destinos de turismo nocturno de 2026, y National Geographic incluye el teleférico y los conciertos de medianoche de la Catedral Ártica en su top 10 de verano.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/guide-to-tromso" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/tromso/things-to-do/" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/news/the-surprising-european-city-named-the-best-noctourism-destination-for-2026-010926" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/summer-experiences-in-norway" }
+      ]
+    },
+    {
+      "id": "no-lysefjord-preikestolen",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides", "National Geographic"],
+      "justificacion": "Lonely Planet tiene un artículo propio sobre el Lysefjord y pone el Preikestolen entre las mejores cosas que hacer en Noruega: unas 4 horas ida y vuelta, sin barandillas. Rough Guides lo incluye entre sus imprescindibles y lo llama el mirador más célebre del Lysefjord. National Geographic propone subir al Preikestolen al amanecer entre sus ocho grandes aventuras en Noruega.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-stavanger-lysefjord-norway" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-norway" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-norway/" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/norways-ultimate-adventures-musk-ox-safari-arctic-surfing" }
+      ]
+    },
+    {
+      "id": "no-trolltunga",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "National Geographic", "Time Out"],
+      "justificacion": "Lonely Planet pone la caminata a Trolltunga entre las 13 mejores cosas que hacer en Noruega. National Geographic la incluye en su top 10 de verano, solo de mediados de junio a mediados de septiembre, y Time Out la pone entre las mejores cosas que hacer en el país.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-norway" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/summer-experiences-in-norway" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/norway/things-to-do/best-things-to-do-in-norway" }
+      ]
+    },
+    {
+      "id": "no-alesund",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides"],
+      "justificacion": "Lonely Planet le dedica una página y la incluye en su lista de los mejores lugares de Noruega por su conjunto Jugendstil, reconstruido tras el incendio de 1904, y el mirador de Aksla. Rough Guides la cuenta entre lo mejor de los fiordos del norte, junto con Loen.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/destinations/norway/bergen-and-the-western-fjords/alesund" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/norway/bergen-western-fjords/western-fjords/" }
+      ]
+    },
+    {
+      "id": "no-trollstigen",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["National Geographic"],
+      "justificacion": "National Geographic incluye la carretera del Trollstigen, con sus 11 curvas de horquilla entre Strynefjell y Romsdal, en su top 10 de verano en Noruega.",
+      "fuentes": [
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/summer-experiences-in-norway" }
+      ]
+    },
+    {
+      "id": "no-nordkapp",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["National Geographic", "Frommer's", "Lonely Planet"],
+      "justificacion": "National Geographic pone en su top 10 de verano la cultura sami y el Ártico de Finnmark, con el acantilado del Cabo Norte y la meseta de Finnmarksvidda. Frommer's lo destaca entre sus experiencias favoritas como el punto más septentrional de Europa para ver el sol de medianoche. Lonely Planet le dedica una página de destino.",
+      "fuentes": [
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/summer-experiences-in-norway" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/norway/introduction/frommers-favorite-experiences" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/norway/finnmark/nordkapp" }
+      ]
+    },
+    {
+      "id": "no-lillehammer",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Frommer's"],
+      "justificacion": "Frommer's la presenta en su guía de Noruega centro-oriental como la célebre estación de los Juegos Olímpicos de Invierno de 1994, puerta del valle de Gudbrandsdal.",
+      "fuentes": [
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/east-central-norway/" }
+      ]
+    },
+    {
+      "id": "no-hardangerfjord",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides", "National Geographic"],
+      "justificacion": "Lonely Planet lo incluye entre sus 12 mejores lugares de Noruega: el segundo fiordo más largo del país, con huertos frutales y cascadas. Rough Guides recomienda Ulvik y Lofthus como las mejores bases, y National Geographic cita el Hardangerfjord en los cruceros por fiordos de su top 10 de verano.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-norway" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/norway/bergen-western-fjords/western-fjords/" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/summer-experiences-in-norway" }
+      ]
+    },
+    {
+      "id": "no-jotunheimen",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rick Steves", "Time Out"],
+      "justificacion": "Lonely Planet lo incluye entre sus mejores lugares de Noruega y, en su ficha del parque, lo llama uno de los mejores destinos de naturaleza salvaje del país, con el Galdhøpiggen, la cumbre más alta de Escandinavia. Rick Steves lo atraviesa por el Sognefjellsvegen en su itinerario escandinavo. Time Out recomienda subir al Galdhøpiggen.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-norway" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/points-of-interest/jotunheimen-national-park/1046553" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/scandinavia-itinerary" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/norway/things-to-do/best-things-to-do-in-norway" }
+      ]
+    },
+    {
+      "id": "no-hardangervidda",
+      "puntaje": 1,
+      "guias_que_lo_recomiendan": ["Rough Guides"],
+      "justificacion": "Rough Guides solo lo menciona en su página general de actividades al aire libre de Noruega, entre las tres mejores zonas de senderismo del país junto con Rondane y Jotunheimen, como la mayor meseta de montaña de Europa.",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/norway/sports-outdoor-activities/" }
+      ]
+    },
+    {
       "id": "ee-saaremaa",
       "puntaje": 4,
       "guias_que_lo_recomiendan": ["Rough Guides", "Lonely Planet", "National Geographic", "Fodor's"],
@@ -43,7 +327,7 @@
       "id": "se-kalmar",
       "puntaje": 4,
       "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides", "Rick Steves", "Fodor's", "Frommer's"],
-      "justificacion": "Lonely Planet incluye Kalmar y el Glasriket entre sus 11 mejores lugares de Suecia por su castillo renacentista, y Rough Guides pone el castillo entre las 27 mejores cosas que hacer en el país. Rick Steves llama al castillo una gran experiencia medieval y recomienda dormir en Kalmar para recorrer la región del vidrio. Fodor's y Frommer's le dedican páginas de destino, con el castillo como principal atracción.",
+      "justificacion": "Lonely Planet incluye Kalmar y el Glasriket entre sus 11 mejores lugares de Suecia por su castillo renacentista, y Rough Guides pone el castillo entre las 27 mejores cosas que hacer en el país. Rick Steves llama al castillo una gran experiencia medieval y recomienda dormir en Kalmar para recorrer la región del vidrio. Fodor's y Frommer's le dedican páginas de destino, con el castillo como principal atracción. Tiene el mismo puntaje que Visby, que también figura en tres guías.",
       "fuentes": [
         { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-sweden" },
         { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-sweden/" },
@@ -64,13 +348,73 @@
         { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/i-heart-my-city-martinss-riga" },
         { "guia": "Bradt", "url": "https://www.bradtguides.com/best-castles-in-latvia/" }
       ]
+    },
+    {
+      "id": "fi-nuuksio",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Time Out", "Lonely Planet"],
+      "justificacion": "Lonely Planet lo recomienda en su guía de los mejores parques nacionales de Finlandia para caminatas fáciles de un día: está tan cerca de Helsinki que es una excursión popular y se llega en transporte público. Time Out lo incluye entre las mejores excursiones de un día desde Helsinki, con paseos en trineo de huskies.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-national-parks-finland" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/helsinki/things-to-do/best-day-trips-from-helsinki-that-even-locals-swear-by" }
+      ]
+    },
+    {
+      "id": "fi-oulanka",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Rough Guides", "Lonely Planet"],
+      "justificacion": "Lonely Planet lo elige en su guía de los mejores parques nacionales de Finlandia como el mejor para flora y fauna, con el sendero Karhunkierros, que sale de Hautajärvi, Ristikallio, Ruka y Juuma. Rough Guides recomienda en Oulanka el rafting por el río Kitkajoki y el Karhunkierros, el círculo del oso de 80 km, de mayo a septiembre.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-national-parks-finland" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/finland/sports-outdoor-activities/" }
+      ]
     }
   ],
   "nuevos": [],
   "fuentes_quitar": [
     { "id": "is-husavik", "url": "https://www.ricksteves.com/watch-read-listen/video/tv-show/iceland" },
     { "id": "is-seydisfjordur", "url": "https://www.ricksteves.com/watch-read-listen/video/tv-show/iceland" },
-    { "id": "lv-riga", "url": "https://www.timeout.com/news/the-underrated-baltic-capital-just-named-europes-best-value-city-break-052025" }
+    { "id": "is-vestmannaeyjar", "url": "https://www.ricksteves.com/watch-read-listen/video/tv-show/iceland" },
+    { "id": "lv-riga", "url": "https://www.timeout.com/news/the-underrated-baltic-capital-just-named-europes-best-value-city-break-052025" },
+    { "id": "gb-york", "url": "https://www.fodors.com/world/europe/england/yorkshire/things-to-do/sights?pois=751361" },
+    { "id": "gb-stonehenge", "url": "https://travelguide.michelin.com/europe/united-kingdom/grande-bretagne/to-visit" },
+    { "id": "no-lofoten", "url": "https://www.fodors.com/world/europe/norway/experiences/news/photos/the-best-things-to-do-in-norway" },
+    { "id": "no-geirangerfjord", "url": "https://www.fodors.com/world/europe/norway/experiences/news/photos/the-best-things-to-do-in-norway" },
+    { "id": "no-sognefjord-flam", "url": "https://www.fodors.com/world/europe/norway/experiences/news/photos/the-best-things-to-do-in-norway" },
+    { "id": "no-sognefjord-flam", "url": "https://www.frommers.com/destinations/bergen/" },
+    { "id": "no-urnes-lustrafjord", "url": "https://www.fodors.com/world/europe/norway/experiences/news/photos/the-best-things-to-do-in-norway" },
+    { "id": "no-tromso", "url": "https://www.fodors.com/world/europe/norway/experiences/news/photos/the-best-things-to-do-in-norway" },
+    { "id": "no-lysefjord-preikestolen", "url": "https://www.fodors.com/world/europe/norway/experiences/news/photos/the-best-things-to-do-in-norway" },
+    { "id": "no-trolltunga", "url": "https://www.fodors.com/world/europe/norway/experiences/news/photos/the-best-things-to-do-in-norway" },
+    { "id": "no-alesund", "url": "https://www.fodors.com/world/europe/norway/experiences/news/photos/the-best-things-to-do-in-norway" },
+    { "id": "no-trollstigen", "url": "https://www.fodors.com/world/europe/norway/experiences/news/photos/the-best-things-to-do-in-norway" },
+    { "id": "no-nordkapp", "url": "https://www.fodors.com/world/europe/norway/experiences/news/photos/the-best-things-to-do-in-norway" },
+    { "id": "no-lillehammer", "url": "https://www.fodors.com/world/europe/norway/experiences/news/photos/the-best-things-to-do-in-norway" },
+    { "id": "no-hardangerfjord", "url": "https://www.frommers.com/destinations/bergen/" },
+    { "id": "no-jotunheimen", "url": "https://www.roughguides.com/norway/sports-outdoor-activities/" }
   ],
-  "correcciones_base": []
+  "correcciones_base": [
+    { "id": "is-circulo-dorado", "lat": 64.3131, "lng": -20.3006, "punto": "Geysir y Strokkur" },
+    { "id": "is-costa-sur-vik", "lat": 63.5321, "lng": -19.5114, "punto": "Skógafoss" },
+    { "id": "is-snaefellsnes", "lat": 64.7703, "lng": -23.6194, "punto": "Puerto de Arnarstapi" },
+    { "id": "is-askja", "lat": 65.0471, "lng": -16.7235, "punto": "Cráter Víti" },
+    { "id": "gb-glencoe", "lat": 56.6711, "lng": -5.0829, "punto": "Centro de visitantes de Glencoe (NTS)" },
+    { "id": "gb-isla-de-skye", "lat": 57.4128, "lng": -6.1957, "punto": "Portree" },
+    { "id": "gb-cornualles", "lat": 50.2113, "lng": -5.4797, "punto": "St Ives" },
+    { "id": "gb-cotswolds", "lat": 52.0514, "lng": -1.7808, "punto": "Chipping Campden (Market Hall)" },
+    { "id": "gb-cairngorms", "lat": 57.1952, "lng": -3.8253, "punto": "Aviemore" },
+    { "id": "gb-yorkshire-dales", "lat": 54.0614, "lng": -2.1527, "punto": "Malham" },
+    { "id": "gb-york", "lat": 53.9623, "lng": -1.0819, "punto": "Catedral de York" },
+    { "id": "gb-conwy", "lat": 53.2801, "lng": -3.8257, "punto": "Castillo de Conwy" },
+    { "id": "ie-ring-of-kerry", "lat": 52.0594, "lng": -9.5068, "punto": "Killarney" },
+    { "id": "ie-burren-doolin", "lat": 53.0161, "lng": -9.3769, "punto": "Doolin" },
+    { "id": "ie-connemara", "lat": 53.4891, "lng": -10.0189, "punto": "Clifden" },
+    { "id": "ie-inishowen", "lat": 55.3819, "lng": -7.3739, "punto": "Malin Head" },
+    { "id": "ie-rock-of-cashel", "lat": 52.5201, "lng": -7.8906, "punto": "Roca de Cashel" },
+    { "id": "ie-islas-aran", "lat": 53.1211, "lng": -9.6669, "punto": "Kilronan (Cill Rónáin), Inis Mór" },
+    { "id": "dk-bornholm", "lat": 55.2711, "lng": 14.7572, "punto": "Hammershus" },
+    { "id": "dk-mar-wadden", "lat": 55.2789, "lng": 8.5562, "punto": "Mandø By" },
+    { "id": "no-hardangervidda", "lat": 60.6023, "lng": 7.5036, "punto": "Finse" },
+    { "id": "ee-soomaa", "lat": 58.4312, "lng": 25.0314, "punto": "Centro de visitantes de Kõrtsi-Tõramaa" }
+  ]
 }
