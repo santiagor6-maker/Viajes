@@ -1,0 +1,18 @@
+{
+  "agente": "logistica-temporada",
+  "subregion": "centroeuropa",
+  "grupo": "a",
+  "ronda": 1,
+  "estado": "en_progreso",
+  "paises": ["DE", "PL"],
+  "fecha_consulta": "2026-11-02",
+  "avisos_pais": [
+    { "pais_iso": "DE", "emisor": "EE. UU.", "nivel": "Level 2 - Exercise increased caution (terrorismo)", "url": "https://travel.state.gov/en/international-travel/travel-advisories/germany.html" },
+    { "pais_iso": "DE", "emisor": "Reino Unido (FCDO)", "nivel": "Sin desaconsejar viajes; atentados muy probables en lugares públicos como mercados y centros comerciales; avalanchas y esquí fuera de pista en los Alpes", "url": "https://www.gov.uk/foreign-travel-advice/germany/safety-and-security" },
+    { "pais_iso": "DE", "emisor": "Canadá", "nivel": "Exercise a high degree of caution (terrorismo; carteristas y tirones)", "url": "https://www.travel.gc.ca/destinations/germany" },
+    { "pais_iso": "PL", "emisor": "EE. UU.", "nivel": "Level 1 - Exercise normal precautions", "url": "https://travel.state.gov/en/international-travel/travel-advisories/poland.html" },
+    { "pais_iso": "PL", "emisor": "Reino Unido (FCDO)", "nivel": "Sin desaconsejar viajes; no se descartan atentados; acceso restringido a las fronteras terrestres con Ucrania y Bielorrusia", "url": "https://www.gov.uk/foreign-travel-advice/poland/safety-and-security" },
+    { "pais_iso": "PL", "emisor": "Canadá", "nivel": "Take normal security precautions (con mención a la guerra en la vecina Ucrania)", "url": "https://travel.gc.ca/destinations/poland" }
+  ],
+  "logistica": []
+}

@@ -1,0 +1,24 @@
+{
+  "agente": "logistica-temporada",
+  "subregion": "centroeuropa",
+  "grupo": "b",
+  "ronda": 1,
+  "estado": "en_curso",
+  "paises": ["CZ", "SK", "HU", "SI"],
+  "fecha_consulta": "2026-11-02",
+  "avisos_pais": [
+    { "pais_iso": "CZ", "emisor": "EE. UU.", "nivel": "Level 1 - Exercise normal precautions (8-ene-2026); hurtos en zonas turísticas y transporte público", "url": "https://travel.state.gov/en/international-travel/travel-advisories/czechia.html" },
+    { "pais_iso": "CZ", "emisor": "Reino Unido (FCDO)", "nivel": "Sin desaconsejar viajes; carteristas en Praga (bus del aeropuerto y tranvías), falsos policías de paisano y bebidas adulteradas", "url": "https://www.gov.uk/foreign-travel-advice/czechia/safety-and-security" },
+    { "pais_iso": "CZ", "emisor": "Canadá", "nivel": "Take normal security precautions; neumáticos de invierno obligatorios del 1 de noviembre al 31 de marzo", "url": "https://travel.gc.ca/destinations/czechia" },
+    { "pais_iso": "SK", "emisor": "EE. UU.", "nivel": "Level 1 - Exercise normal precautions (12-feb-2026)", "url": "https://travel.state.gov/en/international-travel/travel-advisories/slovakia.html" },
+    { "pais_iso": "SK", "emisor": "Reino Unido (FCDO)", "nivel": "Sin desaconsejar viajes; hurtos y bebidas adulteradas en el casco antiguo de Bratislava, falsas averías contra coches extranjeros; llevar el pasaporte es obligatorio", "url": "https://www.gov.uk/foreign-travel-advice/slovakia/safety-and-security" },
+    { "pais_iso": "SK", "emisor": "Canadá", "nivel": "Take normal security precautions; posibles restricciones en los pasos fronterizos con Ucrania", "url": "https://travel.gc.ca/destinations/slovakia" },
+    { "pais_iso": "HU", "emisor": "EE. UU.", "nivel": "Level 1 - Exercise normal precautions (15-abr-2026); carteristas y tirones en Budapest, sobre todo en zonas turísticas y grandes estaciones", "url": "https://travel.state.gov/en/international-travel/travel-advisories/hungary.html" },
+    { "pais_iso": "HU", "emisor": "Reino Unido (FCDO)", "nivel": "Sin desaconsejar viajes", "url": "https://www.gov.uk/world/travelling-to-hungary" },
+    { "pais_iso": "HU", "emisor": "Canadá", "nivel": "Take normal security precautions; cobros abusivos en bares y restaurantes de zonas turísticas", "url": "https://travel.gc.ca/destinations/hungary?pubDate=20250529" },
+    { "pais_iso": "SI", "emisor": "EE. UU.", "nivel": "Level 1 - Exercise normal precautions (15-may-2026); precaución en los Alpes Julianos: seguir las indicaciones locales, vigilar el tiempo y no caminar solo", "url": "https://travel.state.gov/en/international-travel/travel-advisories/slovenia.html" },
+    { "pais_iso": "SI", "emisor": "Reino Unido (FCDO)", "nivel": "Sin desaconsejar viajes; equipo de invierno obligatorio en coche del 15 de noviembre al 15 de marzo; llevar documento de identidad", "url": "https://www.gov.uk/foreign-travel-advice/slovenia/safety-and-security" },
+    { "pais_iso": "SI", "emisor": "Canadá", "nivel": "Take normal security precautions; robos en coches en áreas de servicio; acampada libre prohibida", "url": "https://travel.gc.ca/destinations/slovenia?wbdisable=false" }
+  ],
+  "logistica": []
+}

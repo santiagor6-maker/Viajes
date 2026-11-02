@@ -1,0 +1,12 @@
+{
+  "agente": "gastronomia-vino",
+  "subregion": "centroeuropa",
+  "ronda": 2,
+  "puntajes": [
+    {"id": "de-phantasialand", "puntaje": 1, "justificacion": "Es un parque de atracciones con restauración temática para familias. Poco interés gastronómico.", "platos": [], "fuentes": []},
+    {"id": "de-heide-park", "puntaje": 1, "justificacion": "Es un parque de atracciones con restauración familiar. Poco interés gastronómico; en la comarca se cría el cordero Heidschnucke.", "platos": ["Cordero Heidschnucke de la Lüneburger Heide"], "fuentes": []},
+    {"id": "pl-energylandia", "puntaje": 1, "justificacion": "Es un parque de atracciones con restauración familiar. Poco interés gastronómico.", "platos": [], "fuentes": []},
+    {"id": "hu-hungaroring", "puntaje": 1, "justificacion": "Es un circuito de carreras con restauración para el público de los eventos. Poco interés gastronómico.", "platos": [], "fuentes": []}
+  ],
+  "nuevos": []
+}
