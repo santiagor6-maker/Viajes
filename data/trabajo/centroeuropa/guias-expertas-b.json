@@ -823,7 +823,7 @@
         { "guia": "Rick Steves", "url": "https://www.ricksteves.com/watch-read-listen/video/tv-show/slovenia" },
         { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-slovenia/" },
         { "guia": "Time Out", "url": "https://www.timeout.com/news/the-underrated-capital-named-europes-best-creative-city-destination-for-2026-031726" },
-        { "guia": "National Geographic", "url": "https://nationalgeographic.com/travel/where-the-locals-go/europe/slovenia/city-local-travel-tips-ljubljana-slovenia" }
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/where-the-locals-go/europe/slovenia/city-local-travel-tips-ljubljana-slovenia" }
       ]
     },
     {
@@ -910,10 +910,10 @@
       "tipo": "naturaleza",
       "puntaje": 5,
       "guias_que_lo_recomiendan": ["Rough Guides", "Rick Steves", "Fodor's", "Frommer's", "Lonely Planet"],
-      "justificacion": "Rough Guides incluye la cueva de Postojna y el castillo de Predjama en su lista de lo mejor de Eslovenia. Rick Steves llama a Predjama uno de los castillos más fotogénicos de Europa, encajado en la boca de una cueva. Fodor's señala Postojna como una de las dos cuevas más notables del Karst. Frommer's la describe como lo más parecido a un parque temático natural, con tren subterráneo. Lonely Planet tiene ficha de la cueva, la mayor atracción subterránea del país. Predjama está a 9 km, por eso van juntos.",
+      "justificacion": "Rough Guides incluye la cueva de Postojna y el castillo de Predjama en su lista de lo mejor de Eslovenia. Rick Steves llama a Predjama, en «The Best of Slovenia», uno de los castillos más fotogénicos de Europa, encajado en la boca de una cueva. Fodor's señala Postojna como una de las dos cuevas más notables del Karst. Frommer's la describe como lo más parecido a un parque temático natural, con tren subterráneo. Lonely Planet tiene ficha de la cueva, la mayor atracción subterránea del país. Predjama está a 9 km, por eso van juntos.",
       "fuentes": [
         { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-slovenia/" },
-        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/slovenia" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/watch-read-listen/video/tv-show/slovenia" },
         { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/slovenia/places/the-karst-region-and-the-adriatic-coast" },
         { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/slovenia/suggested-itineraries/" },
         { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/slovenia/karst-and-coast/postojna/attractions/expo-postojna-cave-karst/a/poi-sig/1525176/360719" }
