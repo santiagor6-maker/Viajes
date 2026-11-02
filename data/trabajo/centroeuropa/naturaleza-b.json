@@ -35,7 +35,7 @@
     { "id": "sk-castillo-orava", "puntaje": 2, "unesco": false, "justificacion": "Castillo sobre un risco del río Orava, con los Tatras Occidentales (Roháče) a unos 30 km.", "actividad": "Paseo en balsa por el río Orava bajo el castillo", "fuentes": [] },
     { "id": "sk-bojnice", "puntaje": 1, "unesco": false, "justificacion": "Castillo con parque, zoológico y balneario, sin paisaje natural destacado.", "actividad": "Paseo por el parque del castillo", "fuentes": [] },
     { "id": "sk-bardejov", "puntaje": 1, "unesco": false, "justificacion": "Ciudad histórica en las colinas de los Bajos Beskides, con el balneario de Bardejovské Kúpele entre bosques.", "actividad": "Paseo por los bosques de Bardejovské Kúpele", "fuentes": [] },
-    { "id": "sk-dobsinska", "puntaje": 4, "unesco": true, "justificacion": "Cueva de hielo con capas de hielo de hasta 25 m, añadida en 2000 al sitio natural UNESCO de las Cuevas del Karst de Aggtelek y del Karst Eslovaco. Está junto al Paraíso Eslovaco.", "actividad": "Visita guiada a la cueva de hielo (temperatura bajo cero todo el año)", "fuentes": [ { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/725" } ] },
+    { "id": "sk-dobsinska", "puntaje": 4, "unesco": true, "justificacion": "Una de las mayores cuevas de hielo de Europa, añadida en 2000 al sitio natural UNESCO de las Cuevas del Karst de Aggtelek y del Karst Eslovaco. Está junto al Paraíso Eslovaco.", "actividad": "Visita guiada a la cueva de hielo (temperatura bajo cero todo el año)", "fuentes": [ { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/725" } ] },
     { "id": "sk-demanovska", "puntaje": 4, "unesco": false, "justificacion": "Valle kárstico de los Bajos Tatras con la cueva de la Libertad, la más visitada del país, y la cueva de hielo de Demänovská. Al fondo, la estación de Jasná y el Chopok (2.024 m).", "actividad": "Visita a la cueva de la Libertad y sendero educativo de acceso; circular por el Chopok y el Ďumbier (unos 23 km, 7,5 h)", "fuentes": [ { "guia": "Slovakia Travel (oficial)", "url": "https://slovakia.travel/en/demaenovska-jaskyna-slobody-cave" }, { "guia": "Visit Liptov (turismo regional oficial)", "url": "https://www.visitliptov.sk/en/route/natural-trail-demanovska-cave-of-liberty/" } ] },
     { "id": "sk-piestany", "puntaje": 1, "unesco": false, "justificacion": "Balneario termal a orillas del Váh, sin paisaje natural destacado.", "actividad": "Paseo por la isla del balneario y la orilla del Váh", "fuentes": [] },
     { "id": "sk-zdiar", "puntaje": 2, "unesco": false, "justificacion": "Aldea goral al pie de los Tatras Belianske, dentro del entorno del TANAP.", "actividad": "Sendero educativo de los Tatras Belianske hasta el Široké sedlo", "fuentes": [] },
@@ -83,7 +83,7 @@
       "tipo": "naturaleza",
       "puntaje": 4,
       "unesco": false,
-      "justificacion": "La mayor ciudad de roca de Chequia: torres de arenisca de hasta 100 m, gargantas estrechas y un lago en una antigua cantera, junto a la frontera polaca. Abierta todo el año.",
+      "justificacion": "La mayor ciudad de roca de Chequia y una de las formaciones rocosas más visitadas del país: torres de arenisca, gargantas estrechas y un lago en un antiguo arenal, junto a la frontera polaca. Abierta todo el año.",
       "actividad": "Circuito por la ciudad de roca de Adršpach con el lago Pískovna (unos 3 h), con opción de seguir a la garganta del Lobo",
       "fuentes": [
         { "guia": "VisitCzechia (CzechTourism, oficial)", "url": "https://www.visitczechia.com/it-IT/Things-to-Do/Places/Nature/Rock-Formations/c-adrspach-teplice-rocks" },
@@ -100,7 +100,7 @@
       "tipo": "parque",
       "puntaje": 4,
       "unesco": false,
-      "justificacion": "Primera área protegida de Checoslovaquia (1955) y único geoparque mundial UNESCO de Chequia: ciudades de roca de arenisca como Hrubá Skála y Prachovské skály, con torres de hasta 60 m, y las ruinas volcánicas del castillo de Trosky.",
+      "justificacion": "Primera área protegida de Checoslovaquia (1955) y único geoparque mundial UNESCO de Chequia: ciudades de roca de arenisca como Hrubá Skála y Prachovské skály, con torres de hasta 60 m, y el castillo de Trosky sobre dos chimeneas volcánicas.",
       "actividad": "Ruta por la ciudad de roca de Hrubá Skála hasta el castillo de Valdštejn; laberinto de Prachovské skály junto a Jičín",
       "fuentes": [
         { "guia": "VisitCzechia (CzechTourism, oficial)", "url": "https://www.visitczechia.com/en-US/Things-to-Do/Places/Nature/Protected-Areas-and-National-Parks/c-bohemian-paradise-unesco-geopark" },
