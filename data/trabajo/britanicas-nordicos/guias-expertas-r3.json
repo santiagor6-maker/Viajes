@@ -76,7 +76,7 @@
       "id": "gb-st-andrews",
       "puntaje": 4,
       "guias_que_lo_recomiendan": ["Rick Steves", "Lonely Planet", "Rough Guides"],
-      "justificacion": "Rick Steves le dedica una página de destino (ruinas de la catedral, que guardó las reliquias de San Andrés, y el R&A World Golf Museum) y la incluye en su circuito Heart of Scotland para ver el Old Course, cuna del golf. Lonely Planet la pone entre los 14 mejores lugares de Escocia como hogar espiritual del golf, con ruinas medievales, edificios universitarios y la playa de West Sands. Rough Guides la describe como la universidad escocesa que más se compara con Oxford y Cambridge.",
+      "justificacion": "Rick Steves le dedica una página de destino (ruinas de la catedral, que guardó las reliquias de San Andrés, y el R&A World Golf Museum) y la incluye en su circuito Heart of Scotland para ver el Old Course, cuna del golf. Lonely Planet la pone entre los 14 mejores lugares de Escocia como hogar espiritual del golf, con ruinas medievales, edificios universitarios y la playa de West Sands. Rough Guides la cubre en su guía de Escocia como la universidad escocesa que más se compara con Oxford y Cambridge.",
       "fuentes": [
         { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/scotland/st-andrews" },
         { "guia": "Rick Steves", "url": "https://www.ricksteves.com/tours/scotland/heart-scotland" },
@@ -88,17 +88,16 @@
       "id": "gb-hebridas-exteriores",
       "puntaje": 2,
       "guias_que_lo_recomiendan": ["Lonely Planet"],
-      "justificacion": "Lonely Planet pone Luskentyre, en Harris, entre las mejores playas de Escocia por su arena blanquísima y su agua verde con la marea baja. También menciona la playa-aeropuerto de Tràigh Mhòr en Barra y el tweed de Harris en Tarbert, y recoge las islas en su lista de los mejores lugares de Escocia. Solo encontré páginas editoriales de esta guía.",
+      "justificacion": "Lonely Planet pone Luskentyre, en Harris, entre las mejores playas de Escocia por su arena blanquísima y su agua verde con la marea baja, y menciona la playa-aeropuerto de Tràigh Mhòr en Barra y el tweed de Harris en Tarbert. Solo encontré páginas editoriales de esta guía.",
       "fuentes": [
-        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-beaches-scotland" },
-        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-scotland" }
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-beaches-scotland" }
       ]
     },
     {
       "id": "gb-loch-lomond-trossachs",
       "puntaje": 3,
       "guias_que_lo_recomiendan": ["Rough Guides", "Fodor's"],
-      "justificacion": "Rough Guides le dedica una página propia y lo llama el epítome del esplendor paisajístico escocés: la orilla occidental, más concurrida, la oriental, más tranquila, y las subidas a Ben Lomond y Conic Hill por la West Highland Way. Fodor's lo cubre en su capítulo de Stirling y las Tierras Altas Centrales, junto con los Trossachs.",
+      "justificacion": "Rough Guides le dedica una página propia y lo llama el epítome del esplendor paisajístico escocés: la orilla occidental, más concurrida, la oriental, más tranquila, y las subidas a Ben Lomond y Conic Hill por la West Highland Way. Fodor's tiene un capítulo de Stirling y las Tierras Altas Centrales, la región del parque, con los Trossachs.",
       "fuentes": [
         { "guia": "Rough Guides", "url": "https://www.roughguides.com/scotland/central-scotland/loch-lomond/" },
         { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/scotland/the-central-highlands/things-to-do/sights?pois=694333" }
