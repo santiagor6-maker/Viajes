@@ -3,13 +3,226 @@
   "subregion": "centroeuropa",
   "grupo": "b",
   "ronda": 1,
+  "estado": "completo",
   "paises": ["CZ", "SK", "HU", "SI"],
-  "notas": "Borrador en curso.",
+  "notas": "Se puntúan los 61 candidatos de guias-expertas-b.json: CZ 18, SK 14, HU 16 y SI 13. Se usaron 22 de 22 búsquedas. Las fuentes son webs oficiales de parques y agencias (KRNAP, Ministerio de Medio Ambiente checo, park-skocjanske-jame.si, vintgar.si, logarska-dolina.si, hnp.hu), turismos oficiales (VisitCzechia, Kudy z nudy, South Moravia, Slovakia Travel, Prešov Region, Visit Liptov, Tatry, Štrbské Pleso, VisitHungary, MTÜ, Hello Hungary, Bled, Bohinj, Slovenia.info) y fichas UNESCO (725, 390 y 1133). Para sk-slovensky-raj, si-postojna-predjama, si-triglav-vrsic, si-soca-bovec, si-kranjska-gora y hu-visegrad no salió la web del parque y se citan guías ya verificadas en guias-expertas-b.json. Solo se marca unesco=true en sitios naturales: Cuevas del Karst de Aggtelek y del Karst Eslovaco (hu-aggtelek, sk-dobsinska), Škocjan y los hayedos primarios de los Cárpatos (sk-poloniny). Hortobágy y Lednice-Valtice son paisajes culturales UNESCO y no se marcan; el Český ráj es geoparque UNESCO, no Patrimonio Mundial. Sin búsqueda propia y por eso en 2, aunque su naturaleza da para 3: cz-mikulov (colinas calizas de Pálava, reserva de la biosfera), cz-trebon (estanques de la reserva de la biosfera de Třeboňsko), cz-lednice-valtice, sk-zdiar (Tatras Belianske), sk-banska-stiavnica (Štiavnické vrchy y sus tajchy) y si-piran (acantilados de Strunjan y salinas de Sečovlje). Quedaron sin agregar por falta de fuente: Velika planina (solo salió Lonely Planet), el Parque Nacional de Őrség y el lago Tisza en Hungría, y los Jeseníky (Praděd) en Chequia. Son los primeros candidatos para la fase de huecos.",
   "puntajes": [
-    { "id": "cz-ceske-svycarsko", "puntaje": 5, "unesco": false, "justificacion": "Parque nacional de arenisca con el mayor arco natural de piedra de Europa, Pravčická brána, gargantas y miradores sobre el valle del Elba.", "actividad": "Ruta a Pravčická brána desde Hřensko (unos 4 km, empinada) o por la Mlýnská cesta desde Mezní Louka (3,5 km)", "fuentes": [ { "guia": "VisitCzechia (CzechTourism, oficial)", "url": "https://www.visitczechia.com/en-US/Things-to-Do/Places/Nature/Natural-Attractions/c-pravcicka-brana" } ] },
-    { "id": "cz-krkonose-snezka", "puntaje": 4, "unesco": false, "justificacion": "Parque nacional más antiguo del país (1963), con tundra ártico-alpina en las crestas y el Sněžka (1.603 m), techo de Chequia.", "actividad": "Subida al Sněžka desde Pec pod Sněžkou (circular de unos 13 km) o en telesilla", "fuentes": [ { "guia": "Krkonošský národní park (KRNAP, oficial)", "url": "https://www.krnap.cz/media/cygprjwv/kouzlo_krkonos_en_2020_w.pdf" } ] },
-    { "id": "cz-sumava", "puntaje": 4, "unesco": false, "justificacion": "El mayor parque nacional checo: bosques de montaña, turberas y lagos glaciares como Černé jezero, el mayor del país.", "actividad": "Caminata a los lagos Černé y Čertovo desde Špičácké sedlo; valle del Vydra de Čeňkova pila a Antýgl (7,3 km, fácil)", "fuentes": [ { "guia": "VisitCzechia (CzechTourism, oficial)", "url": "https://www.visitczechia.com/fr-fr/things-to-do/places/summer-sports/hiking-and-nordic-walking/s-sumava-cerne-certovo-lakes-walk" }, { "guia": "VisitCzechia (CzechTourism, oficial)", "url": "https://www.visitczechia.com/en-us/things-to-do/places/nature/mountains/a-sumava-top-trip-centres" } ] },
-    { "id": "cz-moravsky-kras", "puntaje": 4, "unesco": false, "justificacion": "Área kárstica protegida con más de mil cuevas. Las cuevas de Punkva bajan al fondo de la sima de Macocha (unos 139 m) y siguen en barca por el río subterráneo; es la cueva más visitada del país.", "actividad": "Visita a las cuevas de Punkva con paseo en barca y teleférico al mirador de Macocha (reserva recomendada)", "fuentes": [ { "guia": "Kudy z nudy (CzechTourism, oficial)", "url": "https://www.kudyznudy.cz/aktivity/prochazka-punkevnimi-jeskynemi-v-moravskem-krasu" }, { "guia": "Ministerio de Medio Ambiente de Chequia", "url": "https://mzp.gov.cz/sites/default/files/tiskove-zpravy/Zpristupnene%20jeskyne.pdf" } ] }
+    { "id": "cz-praga", "puntaje": 1, "unesco": false, "justificacion": "Capital a orillas del Moldava. Su verde son la colina de Petřín y valles periurbanos como Divoká Šárka.", "actividad": "Paseo por el valle de Divoká Šárka o subida a Petřín", "fuentes": [] },
+    { "id": "cz-cesky-krumlov", "puntaje": 2, "unesco": false, "justificacion": "Pueblo en un meandro del Moldava, al pie del monte Kleť y a las puertas de Šumava.", "actividad": "Descenso del Moldava en canoa o balsa entre Vyšší Brod y Český Krumlov", "fuentes": [] },
+    { "id": "cz-kutna-hora", "puntaje": 1, "unesco": false, "justificacion": "Ciudad histórica entre campos de Bohemia Central, sin paisaje natural destacado.", "actividad": "Paseo por el valle del arroyo Vrchlice bajo la catedral", "fuentes": [] },
+    { "id": "cz-olomouc", "puntaje": 1, "unesco": false, "justificacion": "Ciudad con parques de ronda. Los bosques de ribera del área protegida de Litovelské Pomoraví quedan a unos 15 km.", "actividad": "Paseo por los parques que rodean el casco antiguo", "fuentes": [] },
+    { "id": "cz-karlovy-vary", "puntaje": 2, "unesco": false, "justificacion": "Balneario en el valle boscoso del Teplá, rodeado por los bosques de Slavkovský les.", "actividad": "Sendero por el bosque hasta el mirador de Diana", "fuentes": [] },
+    { "id": "cz-telc", "puntaje": 1, "unesco": false, "justificacion": "Pueblo rodeado de estanques en la meseta de Vysočina, sin paisaje natural destacado.", "actividad": "Paseo alrededor de los estanques Ulický y Štěpnický", "fuentes": [] },
+    { "id": "cz-karlstejn", "puntaje": 2, "unesco": false, "justificacion": "Castillo dentro del área protegida del Karst de Bohemia (Český kras), con roquedos calizos sobre el río Berounka.", "actividad": "Sendero por el Český kras desde Karlštejn hasta Svatý Jan pod Skalou", "fuentes": [] },
+    { "id": "cz-lednice-valtice", "puntaje": 2, "unesco": false, "justificacion": "Parque paisajista de unos 200 km² con bosques de ribera del Dyje y estanques con aves. Es un paisaje diseñado, no natural.", "actividad": "Ruta en bici por el parque entre Lednice y Valtice", "fuentes": [] },
+    { "id": "cz-mikulov", "puntaje": 2, "unesco": false, "justificacion": "Pueblo al pie de las colinas calizas de Pálava, con estepa, orquídeas y vistas sobre los embalses de Nové Mlýny.", "actividad": "Subida al Děvín (550 m) por la cresta de Pálava", "fuentes": [] },
+    { "id": "cz-brno", "puntaje": 1, "unesco": false, "justificacion": "Ciudad con el embalse de Brno y bosques periurbanos. El Karst de Moravia queda a unos 25 km.", "actividad": "Paseo por la orilla del embalse de Brno", "fuentes": [] },
+    { "id": "cz-plzen", "puntaje": 0, "unesco": false, "justificacion": "Ciudad industrial y cervecera sin naturaleza relevante.", "actividad": "Paseo por las riberas de sus cuatro ríos", "fuentes": [] },
+    { "id": "cz-ceske-svycarsko", "puntaje": 5, "unesco": false, "justificacion": "Parque nacional de arenisca con el mayor arco natural de piedra de Europa, Pravčická brána, gargantas del Kamenice y miradores sobre el valle del Elba. Tras el incendio de 2022 la Gabrielina stezka sigue cerrada; al arco se llega por otras rutas.", "actividad": "Ruta a Pravčická brána desde Hřensko (unos 4 km, empinada) o por la Mlýnská cesta desde Mezní Louka (3,5 km)", "fuentes": [ { "guia": "VisitCzechia (CzechTourism, oficial)", "url": "https://www.visitczechia.com/en-US/Things-to-Do/Places/Nature/Natural-Attractions/c-pravcicka-brana" } ] },
+    { "id": "cz-trebon", "puntaje": 2, "unesco": false, "justificacion": "Pueblo entre los estanques medievales y turberas de la reserva de la biosfera de Třeboňsko.", "actividad": "Ruta en bici por los diques del estanque Rožmberk", "fuentes": [] },
+    { "id": "cz-terezin", "puntaje": 1, "unesco": false, "justificacion": "Fortaleza en la llanura del Ohře. Las colinas volcánicas de České středohoří quedan cerca.", "actividad": "Subida a la colina de Radobýl, junto a Litoměřice", "fuentes": [] },
+    { "id": "cz-moravsky-kras", "puntaje": 4, "unesco": false, "justificacion": "Área kárstica protegida con más de mil cuevas. Las cuevas de Punkva bajan al fondo de la sima de Macocha (unos 139 m) y siguen en barca por el río subterráneo; es la cueva más visitada de la región, con unos 200.000 visitantes al año.", "actividad": "Visita a las cuevas de Punkva con barca por el río subterráneo y teleférico al mirador de Macocha (conviene reservar)", "fuentes": [ { "guia": "Kudy z nudy (CzechTourism, oficial)", "url": "https://www.kudyznudy.cz/aktivity/prochazka-punkevnimi-jeskynemi-v-moravskem-krasu" }, { "guia": "Ministerio de Medio Ambiente de Chequia", "url": "https://mzp.gov.cz/sites/default/files/tiskove-zpravy/Zpristupnene%20jeskyne.pdf" } ] },
+    { "id": "cz-krkonose-snezka", "puntaje": 4, "unesco": false, "justificacion": "Parque nacional más antiguo del país (1963), con tundra ártico-alpina en las crestas, circos glaciares y el Sněžka (1.603 m), techo de Chequia.", "actividad": "Subida al Sněžka desde Pec pod Sněžkou (circular de unos 13 km) o en telesilla; muy concurrido en verano", "fuentes": [ { "guia": "Krkonošský národní park (KRNAP, oficial)", "url": "https://www.krnap.cz/media/cygprjwv/kouzlo_krkonos_en_2020_w.pdf" } ] },
+    { "id": "cz-hluboka", "puntaje": 2, "unesco": false, "justificacion": "Castillo con parque inglés junto al Moldava y estanques con aves como el Munický.", "actividad": "Paseo por el parque del castillo y los estanques", "fuentes": [] },
+    { "id": "cz-sumava", "puntaje": 4, "unesco": false, "justificacion": "El mayor parque nacional checo: bosques de montaña, turberas y lagos glaciares como Černé jezero, el mayor lago natural del país.", "actividad": "Caminata a los lagos Černé y Čertovo desde Špičácké sedlo; valle del Vydra de Čeňkova pila a Antýgl (unos 7 km, fácil)", "fuentes": [ { "guia": "VisitCzechia (CzechTourism, oficial)", "url": "https://www.visitczechia.com/fr-fr/things-to-do/places/summer-sports/hiking-and-nordic-walking/s-sumava-cerne-certovo-lakes-walk" }, { "guia": "VisitCzechia (CzechTourism, oficial)", "url": "https://www.visitczechia.com/en-us/things-to-do/places/nature/mountains/a-sumava-top-trip-centres" } ] },
+
+    { "id": "sk-bratislava", "puntaje": 2, "unesco": false, "justificacion": "Capital junto al Danubio, con los bosques de los Pequeños Cárpatos en el parque forestal de Kamzík y la confluencia del Morava bajo Devín.", "actividad": "Caminata por el parque forestal de Bratislava hasta Kamzík", "fuentes": [] },
+    { "id": "sk-altos-tatras", "puntaje": 5, "unesco": false, "justificacion": "La cordillera alpina más pequeña de Europa, dentro del Parque Nacional de los Tatras (TANAP), con lagos glaciares, cascadas y cumbres de más de 2.600 m.", "actividad": "Ruta de Štrbské Pleso a Popradské Pleso y vuelta (10,2 km, 270 m de desnivel, unos 3 h). Los senderos altos cierran del 1 de noviembre al 15 de junio", "fuentes": [ { "guia": "Štrbské Pleso (turismo oficial)", "url": "https://www.strbskepleso.sk/things-to-enjoy/hiking/from-strbske-pleso-to-popradske-pleso-and-back" }, { "guia": "Tatry (turismo regional oficial)", "url": "https://tatry.sk/en/capie-a-okruhle-pleso-2" } ] },
+    { "id": "sk-spis-levoca", "puntaje": 2, "unesco": false, "justificacion": "Castillo sobre una colina de travertino, con la reserva natural de Dreveník al lado.", "actividad": "Paseo por la meseta de travertino de Dreveník", "fuentes": [] },
+    { "id": "sk-banska-stiavnica", "puntaje": 2, "unesco": false, "justificacion": "Ciudad en la caldera volcánica de los Štiavnické vrchy, rodeada de bosques y de los tajchy, estanques mineros donde se nada en verano.", "actividad": "Baño en el tajch Počúvadlo o subida al Sitno (1.009 m)", "fuentes": [] },
+    { "id": "sk-kosice", "puntaje": 1, "unesco": false, "justificacion": "Ciudad del este del país. Los bosques de los montes Volovské quedan al norte.", "actividad": "Paseo por el bosque de Bankov", "fuentes": [] },
+    { "id": "sk-slovensky-raj", "puntaje": 4, "unesco": false, "justificacion": "Parque nacional de gargantas calizas con cascadas que se remontan por escaleras, pasarelas y peldaños de hierro.", "actividad": "Garganta de Suchá Belá desde Podlesok (circular de medio día) o Prielom Hornádu; algunas secciones cierran en invierno", "fuentes": [ { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-slovakia" }, { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-slovakia/" } ] },
+    { "id": "sk-castillo-orava", "puntaje": 2, "unesco": false, "justificacion": "Castillo sobre un risco del río Orava, con los Tatras Occidentales (Roháče) a unos 30 km.", "actividad": "Paseo en balsa por el río Orava bajo el castillo", "fuentes": [] },
+    { "id": "sk-bojnice", "puntaje": 1, "unesco": false, "justificacion": "Castillo con parque, zoológico y balneario, sin paisaje natural destacado.", "actividad": "Paseo por el parque del castillo", "fuentes": [] },
+    { "id": "sk-bardejov", "puntaje": 1, "unesco": false, "justificacion": "Ciudad histórica en las colinas de los Bajos Beskides, con el balneario de Bardejovské Kúpele entre bosques.", "actividad": "Paseo por los bosques de Bardejovské Kúpele", "fuentes": [] },
+    { "id": "sk-dobsinska", "puntaje": 4, "unesco": true, "justificacion": "Cueva de hielo con capas de hielo de hasta 25 m, añadida en 2000 al sitio natural UNESCO de las Cuevas del Karst de Aggtelek y del Karst Eslovaco. Está junto al Paraíso Eslovaco.", "actividad": "Visita guiada a la cueva de hielo (temperatura bajo cero todo el año)", "fuentes": [ { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/725" } ] },
+    { "id": "sk-demanovska", "puntaje": 4, "unesco": false, "justificacion": "Valle kárstico de los Bajos Tatras con la cueva de la Libertad, la más visitada del país, y la cueva de hielo de Demänovská. Al fondo, la estación de Jasná y el Chopok (2.024 m).", "actividad": "Visita a la cueva de la Libertad y sendero educativo de acceso; circular por el Chopok y el Ďumbier (unos 23 km, 7,5 h)", "fuentes": [ { "guia": "Slovakia Travel (oficial)", "url": "https://slovakia.travel/en/demaenovska-jaskyna-slobody-cave" }, { "guia": "Visit Liptov (turismo regional oficial)", "url": "https://www.visitliptov.sk/en/route/natural-trail-demanovska-cave-of-liberty/" } ] },
+    { "id": "sk-piestany", "puntaje": 1, "unesco": false, "justificacion": "Balneario termal a orillas del Váh, sin paisaje natural destacado.", "actividad": "Paseo por la isla del balneario y la orilla del Váh", "fuentes": [] },
+    { "id": "sk-zdiar", "puntaje": 2, "unesco": false, "justificacion": "Aldea goral al pie de los Tatras Belianske, dentro del entorno del TANAP.", "actividad": "Sendero educativo de los Tatras Belianske hasta el Široké sedlo", "fuentes": [] },
+    { "id": "sk-tokaj", "puntaje": 1, "unesco": false, "justificacion": "Colinas volcánicas cubiertas de viñedos. Es paisaje rural más que natural.", "actividad": "Paseo entre viñedos en Malá Tŕňa", "fuentes": [] },
+
+    { "id": "hu-budapest", "puntaje": 2, "unesco": false, "justificacion": "Capital partida por el Danubio, con las colinas boscosas de Buda y cuevas bajo la ciudad.", "actividad": "Tren de los niños por las colinas de Buda hasta el János-hegy; cueva Pál-völgyi", "fuentes": [] },
+    { "id": "hu-szentendre", "puntaje": 2, "unesco": false, "justificacion": "Pueblo a orillas del Danubio, a la entrada del Recodo del Danubio y de los montes Pilis.", "actividad": "Paseo por la ribera del Danubio y excursión a los montes Pilis", "fuentes": [] },
+    { "id": "hu-visegrad", "puntaje": 3, "unesco": false, "justificacion": "El Danubio gira entre los montes volcánicos de Visegrád y Börzsöny, dentro del Parque Nacional del Danubio-Ipoly, con vistas imponentes desde la ciudadela.", "actividad": "Subida a pie a la ciudadela y senderos de los montes de Visegrád", "fuentes": [ { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/hungary/the-danube-bend" } ] },
+    { "id": "hu-esztergom", "puntaje": 2, "unesco": false, "justificacion": "Ciudad sobre el Danubio frente a Eslovaquia, cerca de los montes Pilis.", "actividad": "Paseo por la ribera y el puente María Valeria", "fuentes": [] },
+    { "id": "hu-eger", "puntaje": 2, "unesco": false, "justificacion": "Ciudad al pie de los montes Bükk; el valle de Szalajka queda a unos 25 km.", "actividad": "Excursión al valle de Szalajka desde Szilvásvárad", "fuentes": [] },
+    { "id": "hu-pecs", "puntaje": 2, "unesco": false, "justificacion": "Ciudad en la ladera de los montes Mecsek, con bosques y miradores sobre la llanura.", "actividad": "Subida a la torre de televisión del Misina por los senderos del Mecsek", "fuentes": [] },
+    { "id": "hu-balaton", "puntaje": 4, "unesco": false, "justificacion": "El mayor lago de Europa Central, con la península volcánica de Tihany y los cerros de basalto de la orilla norte dentro del Parque Nacional de las Tierras Altas del Balaton (1997). En Tihany hay campos de lavanda y antiguos geiseres.", "actividad": "Sendero de los geiseres en la península de Tihany y baño en el lago (junio a agosto)", "fuentes": [ { "guia": "VisitHungary (oficial)", "url": "https://visithungary.com/articles/ten-must-see-bucket-list-destinations-lake-balaton-and-its-surroundings" }, { "guia": "Consejo de Europa (Convenio de Berna)", "url": "https://www.coe.int/fr/web/bern-convention/-/volcanic-phenomena-of-the-tihany-peninsula" } ] },
+    { "id": "hu-tokaj", "puntaje": 2, "unesco": false, "justificacion": "Colinas volcánicas de los montes Zemplén sobre la confluencia del Tisza y el Bodrog.", "actividad": "Subida al monte Kopasz (513 m) sobre Tokaj", "fuentes": [] },
+    { "id": "hu-hortobagy", "puntaje": 4, "unesco": false, "justificacion": "Primer y mayor parque nacional de Hungría: la mayor estepa natural de Europa Central, con ganado gris húngaro, ovejas racka y caballos. Es Patrimonio Mundial como paisaje cultural, así que no se marca como natural.", "actividad": "Paseo en carro por la puszta desde la yeguada de Máta, junto al puente de los Nueve Ojos; grullas en otoño", "fuentes": [ { "guia": "Hortobágy National Park (oficial)", "url": "https://www.hnp.hu/uploads/documents/the-hortobagy-national-park--the-puszta.pdf" } ] },
+    { "id": "hu-godollo", "puntaje": 1, "unesco": false, "justificacion": "Palacio con parque en las colinas de Gödöllő, sin paisaje natural destacado.", "actividad": "Paseo por el parque del palacio", "fuentes": [] },
+    { "id": "hu-bukk-lillafured", "puntaje": 3, "unesco": false, "justificacion": "Meseta kárstica de los montes Bükk, uno de los primeros parques nacionales del país, con el valle de Szalajka y la cascada del Velo (17 m, en escalones de toba). La cascada de Lillafüred, de unos 20 m, es artificial (hacia 1930).", "actividad": "Valle de Szalajka hasta la cascada del Velo desde Szilvásvárad (a pie o en tren forestal); tren de vía estrecha a Lillafüred", "fuentes": [ { "guia": "Hello Hungary (Agencia Húngara de Turismo)", "url": "https://hellohungary.hu/en/active/the-bukk-fennsik-bukk-plateau-a-stronghold-of-hungarys-natural-treasures" }, { "guia": "Hello Hungary (Agencia Húngara de Turismo)", "url": "https://hellohungary.hu/en/toplists/countrywide/trip/lakes-rivers/water-related/visit-the-most-unique-waterfalls-in-the-country" } ] },
+    { "id": "hu-sopron", "puntaje": 2, "unesco": false, "justificacion": "Ciudad al pie de las colinas boscosas de los Lővérek, a unos 10 km del lago Fertő (Neusiedl).", "actividad": "Caminata por los bosques de Lővér hasta la torre Károly", "fuentes": [] },
+    { "id": "hu-heviz", "puntaje": 3, "unesco": false, "justificacion": "Lago termal natural alimentado por un manantial, citado como el mayor de su tipo donde uno se puede bañar; el agua ronda los 33–35 °C en verano y está cubierto de nenúfares.", "actividad": "Baño en el lago termal, todo el año", "fuentes": [ { "guia": "VisitHungary (oficial)", "url": "https://visithungary.com/articles/ten-must-see-bucket-list-destinations-lake-balaton-and-its-surroundings" }, { "guia": "Agencia Húngara de Turismo (MTÜ)", "url": "https://mtu.gov.hu/dokumentumok/BUCKET_LIST_BALATON_AND_WEST_eng.pdf" } ] },
+    { "id": "hu-holloko", "puntaje": 2, "unesco": false, "justificacion": "Aldea en las colinas boscosas de Cserhát, bajo las ruinas de su castillo.", "actividad": "Sendero de la reserva paisajística hasta el castillo", "fuentes": [] },
+    { "id": "hu-aggtelek", "puntaje": 5, "unesco": true, "justificacion": "Sitio natural UNESCO (1995) compartido con Eslovaquia, con más de 700 cuevas. La cueva de Baradla, la mayor de Hungría, tiene enormes salas de estalactitas y continúa en Eslovaquia como Domica.", "actividad": "Visita guiada a la cueva de Baradla desde Aggtelek o Jósvafő (recorridos de 1 a 5 h)", "fuentes": [ { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/725" } ] },
+    { "id": "hu-pannonhalma", "puntaje": 1, "unesco": false, "justificacion": "Abadía sobre una colina entre viñedos y un arboreto, sin paisaje natural destacado.", "actividad": "Paseo por el arboreto de la abadía", "fuentes": [] },
+
+    { "id": "si-ljubljana", "puntaje": 2, "unesco": false, "justificacion": "Capital con el parque Tivoli unido a los bosques de Rožnik y los pantanos de Liubliana al sur.", "actividad": "Caminata de Tivoli a la colina de Rožnik", "fuentes": [] },
+    { "id": "si-bled", "puntaje": 5, "unesco": false, "justificacion": "Lago glaciar con la única isla natural de Eslovenia, al borde del Parque Nacional del Triglav. A 4 km, la garganta de Vintgar (1,6 km, paredes de 50 a 100 m) excavada por el Radovna termina en la cascada de Šum.", "actividad": "Vuelta al lago (6 km) y pasarelas de la garganta de Vintgar (sentido único, entrada con horario)", "fuentes": [ { "guia": "Bled (turismo oficial)", "url": "https://www.bled.si/en/what-to-see-do/attractions/6/vintgar-gorge/" }, { "guia": "Vintgar (oficial)", "url": "https://www.vintgar.si/en/point/point-1-oskars-vintgar/" } ] },
+    { "id": "si-bohinj", "puntaje": 5, "unesco": false, "justificacion": "El mayor lago natural de Eslovenia, sin urbanizar y dentro del Parque Nacional del Triglav. La cascada Savica (78 m) está en la zona de máxima protección del parque y recibe agua del valle de los Lagos del Triglav.", "actividad": "Subida a la cascada Savica (unos 550 escalones); teleférico al Vogel", "fuentes": [ { "guia": "Bohinj (turismo oficial)", "url": "https://www.bohinj.si/en/savica-waterfall/" } ] },
+    { "id": "si-piran", "puntaje": 2, "unesco": false, "justificacion": "Pueblo costero en una punta del Adriático, entre los acantilados de Strunjan y las salinas de Sečovlje.", "actividad": "Sendero costero hasta los acantilados de Strunjan", "fuentes": [] },
+    { "id": "si-skocjan", "puntaje": 5, "unesco": true, "justificacion": "Sitio natural UNESCO desde 1986: el río Reka corre por un cañón subterráneo de los mayores del mundo, referencia mundial del estudio del karst.", "actividad": "Visita guiada por el cañón subterráneo y el puente de Cerkvenik, con salida por las dolinas", "fuentes": [ { "guia": "UNESCO", "url": "https://whc.unesco.org/ES/list/390" }, { "guia": "Parque de las Cuevas de Škocjan (oficial)", "url": "https://www.park-skocjanske-jame.si/en/news/unescos-world-natural-heritage-site" } ] },
+    { "id": "si-postojna-predjama", "puntaje": 4, "unesco": false, "justificacion": "La mayor cueva turística de Eslovenia, con tren subterráneo, grandes salas de concreciones y el proteo, anfibio ciego del karst.", "actividad": "Tren y recorrido a pie por la cueva de Postojna (unos 5 km)", "fuentes": [ { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/slovenia/karst-and-coast/postojna/attractions/expo-postojna-cave-karst/a/poi-sig/1525176/360719" }, { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/slovenia/suggested-itineraries/" } ] },
+    { "id": "si-triglav-vrsic", "puntaje": 5, "unesco": false, "justificacion": "Único parque nacional de Eslovenia, en los Alpes Julianos, con el Triglav (2.864 m), el valle de los Siete Lagos y la carretera de montaña del paso de Vršič (1.611 m).", "actividad": "Paso de Vršič en coche o bici; valle de los Lagos del Triglav desde la Savica (circular de 6–7 h)", "fuentes": [ { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/how-to-plan-a-road-trip-around-julian-alps-slovenia" }, { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-slovenia/" }, { "guia": "Bohinj (turismo oficial)", "url": "https://www.bohinj.si/en/savica-waterfall/" } ] },
+    { "id": "si-soca-bovec", "puntaje": 5, "unesco": false, "justificacion": "Río alpino de color esmeralda que baja del Triglav entre gargantas y pozas, con Bovec como base de kayak, rafting y barranquismo.", "actividad": "Sendero del Soča desde el nacimiento hasta Bovec (unos 25 km); rafting en el Soča", "fuentes": [ { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-slovenia" }, { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/how-to-plan-a-road-trip-around-julian-alps-slovenia" } ] },
+    { "id": "si-maribor", "puntaje": 2, "unesco": false, "justificacion": "Ciudad a orillas del Drava al pie del macizo boscoso del Pohorje.", "actividad": "Teleférico del Pohorje y sendero por los bosques de la cima", "fuentes": [] },
+    { "id": "si-ptuj", "puntaje": 1, "unesco": false, "justificacion": "Ciudad histórica en la llanura del Drava, sin paisaje natural destacado.", "actividad": "Paseo por el lago de Ptuj", "fuentes": [] },
+    { "id": "si-goriska-brda", "puntaje": 2, "unesco": false, "justificacion": "Colinas de viñedos y huertos frutales entre el Soča y la frontera italiana; es paisaje rural.", "actividad": "Ruta en bici por las colinas desde Šmartno", "fuentes": [] },
+    { "id": "si-izola", "puntaje": 2, "unesco": false, "justificacion": "Pueblo pesquero en la costa adriática, a unos 5 km de los acantilados de Strunjan.", "actividad": "Ruta en bici por la Parenzana hasta Strunjan", "fuentes": [] },
+    { "id": "si-kranjska-gora", "puntaje": 4, "unesco": false, "justificacion": "Puerta norte del Parque Nacional del Triglav: el lago Jasna, al pie del paso de Vršič, la reserva natural de Zelenci, nacimiento del Sava, y el valle de Planica.", "actividad": "Baño en el lago Jasna y paseo a Zelenci (unos 5 km)", "fuentes": [ { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-slovenia/" } ] }
   ],
-  "nuevos": []
+  "nuevos": [
+    {
+      "id": "cz-adrspach-teplice",
+      "nombre": "Rocas de Adršpach-Teplice",
+      "pais_iso": "CZ",
+      "region": "Královéhradecký kraj",
+      "lat": 50.6150,
+      "lng": 16.1160,
+      "tipo": "naturaleza",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "La mayor ciudad de roca de Chequia: torres de arenisca de hasta 100 m, gargantas estrechas y un lago en una antigua cantera, junto a la frontera polaca. Abierta todo el año.",
+      "actividad": "Circuito por la ciudad de roca de Adršpach con el lago Pískovna (unos 3 h), con opción de seguir a la garganta del Lobo",
+      "fuentes": [
+        { "guia": "VisitCzechia (CzechTourism, oficial)", "url": "https://www.visitczechia.com/it-IT/Things-to-Do/Places/Nature/Rock-Formations/c-adrspach-teplice-rocks" },
+        { "guia": "Broumovsko (turismo regional oficial)", "url": "https://broumovsko.cz/en/region/natural-monuments/adrspach-rocks" }
+      ]
+    },
+    {
+      "id": "cz-cesky-raj",
+      "nombre": "Paraíso de Bohemia (Český ráj)",
+      "pais_iso": "CZ",
+      "region": "Liberecký kraj",
+      "lat": 50.5447,
+      "lng": 15.1936,
+      "tipo": "parque",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "Primera área protegida de Checoslovaquia (1955) y único geoparque mundial UNESCO de Chequia: ciudades de roca de arenisca como Hrubá Skála y Prachovské skály, con torres de hasta 60 m, y las ruinas volcánicas del castillo de Trosky.",
+      "actividad": "Ruta por la ciudad de roca de Hrubá Skála hasta el castillo de Valdštejn; laberinto de Prachovské skály junto a Jičín",
+      "fuentes": [
+        { "guia": "VisitCzechia (CzechTourism, oficial)", "url": "https://www.visitczechia.com/en-US/Things-to-Do/Places/Nature/Protected-Areas-and-National-Parks/c-bohemian-paradise-unesco-geopark" },
+        { "guia": "VisitCzechia (CzechTourism, oficial)", "url": "https://www.visitczechia.com/nl-NL/Things-to-Do/Places/Summer-Sports/Hiking-and-Nordic-Walking/s-bohemian-paradise-walk" }
+      ]
+    },
+    {
+      "id": "cz-podyji",
+      "nombre": "Parque Nacional de Podyjí",
+      "pais_iso": "CZ",
+      "region": "Jihomoravský kraj",
+      "lat": 48.8747,
+      "lng": 15.8702,
+      "tipo": "parque",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "El parque nacional más pequeño de Chequia: el valle encajado del Dyje en la frontera con Austria, con bosques, roquedos, brezales y el viñedo histórico de Šobes en un meandro.",
+      "actividad": "Sendero desde Čížov al mirador de Hardegg (roca de unos 90 m sobre el valle) y al viñedo de Šobes",
+      "fuentes": [
+        { "guia": "South Moravia (turismo regional oficial)", "url": "https://www.south-moravia.com/en/home-page/o70477-podyji-national-park" },
+        { "guia": "Kudy z nudy (CzechTourism, oficial)", "url": "https://www.kudyznudy.cz/aktuality/10-duvodu-proc-jet-na-vylet-do-narodniho-parku-pod" }
+      ]
+    },
+    {
+      "id": "sk-mala-fatra",
+      "nombre": "Parque Nacional Malá Fatra (Jánošíkove diery y Veľký Rozsutec)",
+      "pais_iso": "SK",
+      "region": "Žilinský kraj",
+      "lat": 49.2385,
+      "lng": 19.0490,
+      "tipo": "parque",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "Montañas calizas sobre Terchová con gargantas de cascadas que se suben por escaleras y pasarelas, y el Veľký Rozsutec (1.610 m), reserva natural nacional y símbolo del parque.",
+      "actividad": "Gargantas de Jánošíkove diery por escaleras y pasarelas; subida al Veľký Rozsutec desde Štefanová",
+      "fuentes": [
+        { "guia": "Slovensko.sk (portal oficial del Gobierno de Eslovaquia)", "url": "https://www.slovensko.sk/sk/lokality/_a00d5b43-f723-4970-806a-a1e1f0215d21" }
+      ]
+    },
+    {
+      "id": "sk-pieniny",
+      "nombre": "Pieniny y garganta del Dunajec (Červený Kláštor)",
+      "pais_iso": "SK",
+      "region": "Prešovský kraj",
+      "lat": 49.3924,
+      "lng": 20.4196,
+      "tipo": "parque",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "Parque nacional fronterizo con Polonia donde el Dunajec atraviesa una garganta caliza de unos 8 km entre paredes y meandros.",
+      "actividad": "Descenso en balsa de madera de Červený Kláštor a Lesnica (9 km, unos 80 min) y vuelta a pie o en bici por el sendero de la garganta",
+      "fuentes": [
+        { "guia": "Slovakia Travel (oficial)", "url": "https://slovakia.travel/en/dunajec" },
+        { "guia": "Prešov Region (turismo regional oficial)", "url": "https://presovregion.travel/en/trip/danube-breakthrough-pieniny/" }
+      ]
+    },
+    {
+      "id": "sk-poloniny",
+      "nombre": "Parque Nacional Poloniny (hayedos primarios de Stužica)",
+      "pais_iso": "SK",
+      "region": "Prešovský kraj",
+      "lat": 49.0560,
+      "lng": 22.5180,
+      "tipo": "parque",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "Bosques vírgenes de haya del extremo oriental de Eslovaquia, en la frontera con Polonia y Ucrania. Stužica, Havešová y Rožok forman parte del sitio natural UNESCO de los hayedos primarios de los Cárpatos. Zona remota y poco visitada.",
+      "actividad": "Subida desde Nová Sedlica al Kremenec (1.221 m), trifinio con Polonia y Ucrania, por el borde de la reserva de Stužica",
+      "fuentes": [
+        { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/1133/maps/" },
+        { "guia": "Región de Prešov (oficial)", "url": "https://www.po-kraj.sk/en/presov-region/remains/unesco-remains/carpathian-beech-primeval-forests.html" }
+      ]
+    },
+    {
+      "id": "hu-kiskunsag",
+      "nombre": "Parque Nacional de Kiskunság (puszta de Bugac)",
+      "pais_iso": "HU",
+      "region": "Bács-Kiskun",
+      "lat": 46.6900,
+      "lng": 19.6060,
+      "tipo": "parque",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "Estepa arenosa de la Gran Llanura con dunas, pastizales y bosquetes de enebro, reserva de la biosfera UNESCO. Bugac es la mayor y más visitada de sus siete zonas.",
+      "actividad": "Paseo a pie o en carro por la puszta de Bugac hasta el museo de los pastores y exhibición de jinetes húngaros",
+      "fuentes": [
+        { "guia": "Hello Hungary (Agencia Húngara de Turismo)", "url": "https://hellohungary.hu/en/active/szeged-region/draft/draft/draft/the-bugac-steppe-is-a-secret-and-magical-place-in-the-great-plain" },
+        { "guia": "Varázslatos Magyarország (portal de parques nacionales)", "url": "https://varazslatosmagyarorszag.hu/nemzeti-park/kiskunsag-national-park" }
+      ]
+    },
+    {
+      "id": "si-logarska-dolina",
+      "nombre": "Valle de Logar (Logarska dolina) y cascada Rinka",
+      "pais_iso": "SI",
+      "region": "Savinjska",
+      "lat": 46.3950,
+      "lng": 14.6300,
+      "tipo": "parque",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "Valle glaciar de los Alpes de Kamnik-Savinja, parque paisajístico rodeado de paredes calizas de más de 2.000 m. Al fondo cae la Rinka, una de las cascadas de caída libre más altas del país.",
+      "actividad": "Sendero del valle de Logar hasta la cascada Rinka y subida a Okrešelj",
+      "fuentes": [
+        { "guia": "Logarska dolina (parque paisajístico, oficial)", "url": "https://www.logarska-dolina.si/en/attractions/nature/natural-values" },
+        { "guia": "Logarska dolina (parque paisajístico, oficial)", "url": "https://logarska-dolina.si/en/attractions/nature/the-logar-valley-trail" }
+      ]
+    },
+    {
+      "id": "si-cerknica",
+      "nombre": "Lago intermitente de Cerknica",
+      "pais_iso": "SI",
+      "region": "Primorsko-notranjska",
+      "lat": 45.7521,
+      "lng": 14.3545,
+      "tipo": "lago",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "El mayor lago intermitente de Eslovenia: con las lluvias se llena y pasa a ser el mayor lago del país, y en épocas secas se vacía por sumideros del karst. Tiene torres de observación de aves.",
+      "actividad": "Sendero por la orilla del lago desde Dolenje Jezero con torres de observación",
+      "fuentes": [
+        { "guia": "Slovenia.info (turismo oficial)", "url": "https://www.slovenia.info/fr/histoires/randonnee-dans-les-parcs-naturels" }
+      ]
+    }
+  ]
 }
