@@ -1,0 +1,45 @@
+{
+  "agente": "adrenalina",
+  "subregion": "britanicas-nordicos",
+  "ronda": 3,
+  "criterio": "Regla única de la subregión: toda actividad o parque a 60 km o menos en línea recta cuenta para cada lugar del radio. Tope de 2 para monumentos, museos y sitios religiosos, salvo que la actividad esté en el propio lugar; tope de 3 para espacios naturales que solo se recorren a pie. Escala: 5 si hay oferta de clase mundial en el lugar o a 15 km o menos; 4 si hay una actividad de primer nivel a 30 km o menos o varias destacadas; 3 si hay una actividad notable en el radio o una de primer nivel a más de 30 km; 2 si solo hay oferta menor o la única actividad está en el borde del radio (50–60 km); 1 si no se identificó ninguna actividad con web oficial en el radio. km_aprox=true indica que las coordenadas de la actividad son aproximadas.",
+  "busquedas_usadas": 4,
+  "puntajes": [
+    {
+      "id": "gb-cardiff",
+      "puntaje": 4,
+      "justificacion": "Dos actividades destacadas en el radio. Cardiff International White Water, en la Sports Village de la bahía, a unos 4 km, es un canal de rafting de nivel olímpico abierto todo el año. Zip World Tower, en la antigua mina de Tower Colliery (Rhigos), a unos 38 km, tiene la Phoenix, la tirolesa sentada más rápida del mundo (hasta unos 110 km/h), que cruza el embalse de Llyn Fawr, además de un coaster de montaña.",
+      "actividades": [
+        { "nombre": "Cardiff International White Water (rafting en canal olímpico)", "tipo": "rafting", "km": 4, "lat": 51.4470, "lng": -3.1920, "temporada": "todo el año", "url": "https://www.ciww.com/family-rafting/", "url_tipo": "operador_oficial", "km_aprox": true },
+        { "nombre": "Zip World Tower (tirolesa Phoenix y Tower Coaster)", "tipo": "tirolesa", "km": 38, "lat": 51.7400, "lng": -3.5500, "temporada": "todo el año (según clima)", "url": "https://www.visitwales.com/activity/activity/zip-world-tower-573961", "url_tipo": "turismo_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "gb-north-york-moors-whitby",
+      "puntaje": 3,
+      "justificacion": "Flamingo Land, el parque de montañas rusas de Yorkshire, con Sik (2022, 10 inversiones) y Mumbo Jumbo, de caída más empinada que la vertical, queda a unos 33 km de Whitby, en el borde sur de los páramos. El parque nacional y la costa se recorren sobre todo a pie, así que el puntaje no pasa de 3.",
+      "actividades": [
+        { "nombre": "Flamingo Land (Sik, Mumbo Jumbo)", "tipo": "parque_diversiones", "km": 33, "lat": 54.2097, "lng": -0.8063, "temporada": "mar–nov", "url": "https://rcdb.com/4804.htm", "url_tipo": "rcdb" }
+      ]
+    },
+    {
+      "id": "gb-loch-lomond-trossachs",
+      "puntaje": 3,
+      "justificacion": "Go Ape Aberfoyle, en el Queen Elizabeth Forest Park, dentro del parque nacional y a unos 18 km de Luss, tiene una tirolesa doble que cruza el valle con más de 400 m de largo, a unos 45 m de altura y sobre una cascada. M&D's, el parque temático de Escocia, queda a unos 51 km. El parque nacional se recorre sobre todo a pie y en barco, así que el puntaje no pasa de 3.",
+      "actividades": [
+        { "nombre": "Go Ape Aberfoyle (tirolesa doble de más de 400 m)", "tipo": "tirolesa", "km": 18, "lat": 56.1840, "lng": -4.3870, "temporada": "todo el año (por calendario)", "url": "https://goape.co.uk/locations/aberfoyle/", "url_tipo": "operador_oficial", "km_aprox": true },
+        { "nombre": "M&D's, Scotland's Theme Park", "tipo": "parque_diversiones", "km": 51, "lat": 55.7970, "lng": -4.0200, "temporada": "mar–oct", "url": "https://rcdb.com/4915.htm", "url_tipo": "rcdb" }
+      ]
+    },
+    {
+      "id": "no-sorlandet",
+      "puntaje": 3,
+      "justificacion": "Dyreparken, a unos 9 km del centro de Kristiansand, es el zoo y parque de atracciones más visitado de Noruega, con atracciones, el mundo pirata de Kaptein Sabeltann y el parque acuático Badelandet, con toboganes (entrada aparte). Es una oferta notable pero sobre todo familiar.",
+      "actividades": [
+        { "nombre": "Dyreparken (zoo, atracciones y parque acuático Badelandet)", "tipo": "parque_diversiones", "km": 9, "lat": 58.1850, "lng": 8.1350, "temporada": "may–sep (temporada alta); Badelandet de Semana Santa a octubre", "url": "https://www.visitnorway.com/listings/dyreparken-kristiansand-zoo-and-amusement-park/21056", "url_tipo": "turismo_oficial", "km_aprox": true }
+      ]
+    }
+  ],
+  "nuevos": [],
+  "estado": "en_progreso"
+}

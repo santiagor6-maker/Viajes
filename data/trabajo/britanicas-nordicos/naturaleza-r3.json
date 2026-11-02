@@ -1,0 +1,87 @@
+{
+  "agente": "naturaleza",
+  "subregion": "britanicas-nordicos",
+  "ronda": 3,
+  "estado": "completo",
+  "notas": "Ronda de huecos. Se crean los 4 lugares asignados a naturaleza (gb-north-york-moors-whitby, gb-hebridas-exteriores, gb-loch-lomond-trossachs y no-sorlandet), se puntúan los otros 5 nuevos de pendientes-huecos.json y se corrige dk-skagen de 4 a 5. Se usaron 12 búsquedas. Las fuentes oficiales de los parques (northyorkmoors.org.uk y lochlomond-trossachs.org) no salieron en los resultados. Para North York Moors se citan VisitBritain y National Geographic, y para Loch Lomond, Forestry and Land Scotland (organismo oficial) y Walkhighlands. Para Sørlandet se cita el Parque Nacional de Raet (Visit Norway), que cubre la costa de Grimstad, Arendal y Tvedestrand, en lugar del canal de Blindleia, que no tuvo fuente válida. Cardiff, Brighton y St Andrews quedan en 1 o 2 porque su naturaleza es secundaria, no por falta de fuente.",
+  "puntajes": [
+    { "id": "dk-skagen", "puntaje": 5, "unesco": false, "justificacion": "Extremo norte de Dinamarca. En la punta de Grenen se juntan el Skagerrak y el Kattegat y se ve cómo chocan las olas de los dos mares. A pocos kilómetros está Råbjerg Mile, la mayor duna móvil del norte de Europa: unos 40 m de alto y 3,5 millones de m³ de arena, que avanza hacia el noreste unos 15 m al año y está protegida para que siga moviéndose libremente. Cerca queda la iglesia enterrada en la arena (Den Tilsandede Kirke). Es un paisaje de primer orden, al nivel de Møns Klint y del mar de Wadden.", "actividad": "Paseo por la playa hasta la punta de Grenen, con un pie en cada mar; subida y travesía a pie de la duna de Råbjerg Mile", "fuentes": [ { "guia": "VisitDenmark (oficial)", "url": "https://www.visitdenmark.com/denmark/explore/rabjerg-mile-gdk640523" }, { "guia": "Enjoy Nordjylland (turismo oficial)", "url": "https://enjoynordjylland.com/north-jutland/experiences/free-attractions-and-activities-north-denmark" } ] },
+
+    { "id": "gb-costa-northumberland", "puntaje": 4, "unesco": false, "justificacion": "Costa protegida del Northumberland Coast AONB, con playas largas, dunas y los riscos de basalto del Whin Sill bajo Bamburgh y Dunstanburgh. Frente a Seahouses están las islas Farne, reserva natural nacional del National Trust desde 1925, con miles de parejas de frailecillos, charranes árticos, araos y una colonia de focas grises. Holy Island de Lindisfarne queda aislada por la marea dos veces al día.", "actividad": "Barco desde el puerto de Seahouses a Inner Farne (frailecillos de abril a finales de julio); paseo costero de Craster a las ruinas de Dunstanburgh", "fuentes": [ { "guia": "National Trust", "url": "https://www.nationaltrust.org.uk/farne-islands/features/puffins-on-the-farne-islands" }, { "guia": "National Trust", "url": "https://nationaltrust.org.uk/visit/north-east/farne-islands/our-work-on-the-farne-islands" } ] },
+    { "id": "no-fredrikstad", "puntaje": 3, "unesco": false, "justificacion": "Ciudad fortificada en la desembocadura del Glomma. El atractivo natural es el archipiélago de Hvaler, con el Parque Nacional de Ytre Hvaler, el primer parque nacional marino de Noruega (2009). Tiene unos 354 km² de costa y escollos, el 96 % bajo el agua, con arrecifes de coral, bosques de kelp y colonias de aves marinas. El centro de visitantes está en Storesand.", "actividad": "Excursión al archipiélago de Hvaler por la Rv 108: senderos por las rocas pulidas y baño en Storesand; barca o kayak entre los islotes", "fuentes": [ { "guia": "Visit Norway (oficial)", "url": "https://www.visitnorway.com/listings/ytre-hvaler-national-park/18214/" }, { "guia": "Miljødirektoratet (oficial)", "url": "https://www.miljodirektoratet.no/globalassets/dokumenter/publikasjoner/brosjyrer/ytre-hvaler_np_engelsk_nett.pdf" } ] },
+    { "id": "gb-cardiff", "puntaje": 1, "unesco": false, "justificacion": "Capital con entorno urbano. La bahía es un puerto reconvertido, con el humedal de Cardiff Bay Wetlands, y Bute Park es el gran parque junto al castillo. El Parque Nacional de Bannau Brycheiniog (Brecon Beacons) queda a unos 40 km.", "actividad": "Paseo por Bute Park y la ribera del Taff; excursión a Bannau Brycheiniog", "fuentes": [] },
+    { "id": "gb-brighton", "puntaje": 2, "unesco": false, "justificacion": "Ciudad costera con playa de guijarros y entorno urbano. Linda con el Parque Nacional de los South Downs: Devil's Dyke está a unos 8 km y los acantilados de las Seven Sisters a unos 20 km.", "actividad": "Caminata por el South Downs Way en Devil's Dyke o por los acantilados de las Seven Sisters", "fuentes": [] },
+    { "id": "gb-st-andrews", "puntaje": 2, "unesco": false, "justificacion": "Pueblo histórico junto al mar, con la playa larga de West Sands y sus dunas. Lo recorre el Fife Coastal Path.", "actividad": "Paseo por West Sands; tramo del Fife Coastal Path hacia Kingsbarns", "fuentes": [] }
+  ],
+  "nuevos": [
+    {
+      "id": "gb-north-york-moors-whitby",
+      "nombre": "North York Moors y Whitby",
+      "pais_iso": "GB",
+      "region": "Yorkshire (Inglaterra)",
+      "lat": 54.4860,
+      "lng": -0.6150,
+      "tipo": "parque",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "Parque nacional con la mayor extensión continua de brezal de Inglaterra, que cubre un tercio del parque y florece en púrpura a finales del verano. A eso se suman valles boscosos y la costa protegida (Heritage Coast) de acantilados y bahías como Robin Hood's Bay, Staithes y Saltwick Bay. Whitby, con su abadía sobre el acantilado, es la puerta de la costa. El Cleveland Way bordea los acantilados al norte y al sur del pueblo. El tren de vapor de North Yorkshire Moors Railway cruza el páramo entre Pickering y Whitby.", "actividad": "Cleveland Way de Whitby a Robin Hood's Bay por los acantilados y Saltwick Bay (unos 11 km; mirar la marea), con vuelta en autobús o por la vía verde del Cinder Track",
+      "fuentes": [
+        { "guia": "VisitBritain (oficial)", "url": "https://www.visitbritain.org/destinations/north-york-moors" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/north-york-moors-england" },
+        { "guia": "YHA", "url": "https://www.yha.org.uk/blog/must-do-north-yorkshire-coastal-walk-whitby-robin-hoods-bay" }
+      ]
+    },
+    {
+      "id": "gb-hebridas-exteriores",
+      "nombre": "Hébridas Exteriores (Lewis y Harris)",
+      "pais_iso": "GB",
+      "region": "Islas de Escocia",
+      "lat": 57.8860,
+      "lng": -6.9380,
+      "tipo": "isla",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "Islas atlánticas de turberas, lagos y montañas de gneis, entre las rocas más antiguas de Europa. En la costa oeste de Harris hay playas de arena de concha y agua turquesa. El turismo oficial de las Hébridas presenta Luskentyre como la más grande y espectacular de Harris. Con marea baja se une a la de Seilebost, enfrente de la isla de Taransay. Las montañas del norte de Harris (Clisham) y la costa de Uig en Lewis completan el paisaje.", "actividad": "Paseo por la playa de Luskentyre con marea baja hasta Seilebost (la playa mide unos 3,5 km) y subida a Beinn Dhubh",
+      "fuentes": [
+        { "guia": "Visit Outer Hebrides (turismo oficial)", "url": "https://visitouterhebrides.co.uk/see-and-do/luskentyre-p523481" },
+        { "guia": "Bradt", "url": "https://www.bradtguides.com/5-fantastic-beaches-in-the-outer-hebrides/" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/journey-through-lewis-harris-wild-heart-scotlands-outer-hebrides" }
+      ]
+    },
+    {
+      "id": "gb-loch-lomond-trossachs",
+      "nombre": "Loch Lomond y los Trossachs",
+      "pais_iso": "GB",
+      "region": "Tierras Altas de Escocia",
+      "lat": 56.1006,
+      "lng": -4.6383,
+      "tipo": "parque",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "Primer parque nacional de Escocia, a unos 30 km de Glasgow, en la falla que separa las Tierras Bajas de las Altas. Tiene Loch Lomond con sus islas, el Ben Lomond y los lagos y bosques de los Trossachs, dentro del Queen Elizabeth Forest Park. Desde Balmaha, el West Highland Way sube a Conic Hill, con vista sobre las islas del lago. En Loch Katrine navega el vapor Sir Walter Scott desde 1900.", "actividad": "Subida a Conic Hill desde Balmaha por el West Highland Way (unos 6,5 km ida y vuelta, 2–2,5 h); Ben A'an sobre Loch Katrine (1,8 km y 340 m de desnivel hasta la cima)",
+      "fuentes": [
+        { "guia": "Forestry and Land Scotland (oficial)", "url": "https://forestryandland.gov.scot/visit/forest-parks/queen-elizabeth-forest-park/balmaha" },
+        { "guia": "Forestry and Land Scotland (oficial)", "url": "https://forestryandland.gov.scot/visit/forest-parks/queen-elizabeth-forest-park/loch-katrine" },
+        { "guia": "Walkhighlands", "url": "https://walkhighlands.co.uk/lochlomond/conic-hill.shtml" }
+      ]
+    },
+    {
+      "id": "no-sorlandet",
+      "nombre": "Costa de Sørlandet (Kristiansand, Lillesand, Risør y Lindesnes)",
+      "pais_iso": "NO",
+      "region": "Agder",
+      "lat": 58.1467,
+      "lng": 7.9956,
+      "tipo": "costa",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "Costa del Skagerrak con miles de islotes y rocas pulidas por el hielo, y canales abrigados como el Blindleia, entre Kristiansand y Lillesand. Es el destino de verano de los propios noruegos. Entre Grimstad, Arendal y Tvedestrand está el Parque Nacional de Raet (2016), uno de los parques marinos de Noruega, con 607 km² casi todos bajo el agua. El extremo oeste es el faro de Lindesnes, el punto más al sur de Noruega continental, con el primer fuego del país (1656) y el recinto abierto todo el año.", "actividad": "Kayak o barca entre los islotes de Raet desde Arendal o el faro de Torungen, o barco por los escollos de Grimstad en julio; paseo por las rocas del faro de Lindesnes",
+      "fuentes": [
+        { "guia": "Visit Norway (oficial)", "url": "https://www.visitnorway.com/listings/raet-national-park-in-arendal/208572/" },
+        { "guia": "Visit Norway (oficial)", "url": "https://www.visitnorway.com/listings/explore-grimstads-skerries/212310/" },
+        { "guia": "Visit Norway (oficial)", "url": "https://www.visitnorway.com/listings/lindesnes-lighthouse/3644/" },
+        { "guia": "Visit Sørlandet (turismo oficial)", "url": "https://en.visitsorlandet.com/destinations/mandal-lindesnes/attractions-in-mandal-lindesnes/" }
+      ]
+    }
+  ]
+}

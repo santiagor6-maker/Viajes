@@ -1,0 +1,10 @@
+{
+  "agente": "logistica-temporada",
+  "subregion": "britanicas-nordicos",
+  "ronda": 3,
+  "estado": "en_curso",
+  "fecha_consulta": "2026-11-02",
+  "puntajes": [
+    { "id": "gb-cardiff", "puntaje": 5, "mejor_epoca": [4, 5, 6, 7, 8, 9], "dias_sugeridos": 2, "costo": "$$", "temporada": "Todo el año.", "acceso": "Tren GWR directo desde London Paddington a Cardiff Central (unas 2 h, varios por hora); castillo y bahía a pie o en bus urbano; St Fagans a unos 8 km en bus.", "alerta": null, "justificacion": "Capital con estación principal en la línea de GWR desde Londres y transporte urbano: fácil y accesible todo el año.", "fuentes": [ { "guia": "GWR (horarios)", "url": "https://www.gwr.com/travel-information/train-times" }, { "guia": "Visit Wales (cómo moverse por Gales)", "url": "https://www.visitwales.com/info/getting-around/trains-planes-buses-and-bikes" }, { "guia": "Departamento de Estado EE. UU.", "url": "https://travel.state.gov/en/international-travel/travel-advisories/united-kingdom.html" } ] }
+  ]
+}
