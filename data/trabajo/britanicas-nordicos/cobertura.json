@@ -1,0 +1,414 @@
+{
+  "agente": "evaluador-cobertura",
+  "subregion": "britanicas-nordicos",
+  "ronda": 1,
+  "fecha": "2026-11-02",
+  "nota_general": "Todos los países superan el mínimo de 10 y ninguno pasa del 40 % en el área de la capital (el máximo es LV, con 27 %). Todos tienen 5 o 6 categorías. GB tiene 40 lugares, por encima de 20–30; no se pide recortar porque el mapa muestra solo los destacados. Se piden 9 lugares nuevos (7 en GB, 2 en NO), 7 correcciones de puntaje (GB 2, NO 1, DK 2, FI 2) y 2 ajustes de región (Escocia en 3; Leinster en 2). Los ajustes de región arreglan que Irlanda solo pueda tener 8 destacados y que Brú na Bóinne quede fuera mientras entra Glenveagh (2,8). Simulé los destacados con la lógica de construir-app.mjs y estos cambios. GB queda en Bath, Edimburgo, Londres, Glencoe, Lake District, Skye, Cambridge, Oxford, York, Calzada, Snowdonia, Stonehenge, Cotswolds, Belfast y Conwy (salen Windsor y Alton Towers). NO cambia Rondane por Ålesund, DK Jelling por Skagen, FI Rauma por Porvoo, e IE suma Brú na Bóinne y Glendalough. IS, SE, EE, LV y LT cumplen sin huecos. 11 WebSearch usadas.",
+  "paises": [
+    {
+      "pais_iso": "GB",
+      "total": 40,
+      "cumple": false,
+      "excepcion_minimo": false,
+      "justificacion": null,
+      "observaciones": "Cantidad: 40, por encima del objetivo de 20–30; no se pide recortar. El área de Londres (≤ 50 km) tiene 2/40 = 5 % (Londres y Windsor). Hay 6 categorías. Destacados actuales (15): Bath, Edimburgo, Londres, Glencoe, Lake District, Skye, Oxford, York, Calzada del Gigante, Snowdonia, Stonehenge, Belfast, Conwy, Windsor y Alton Towers. Problemas: (1) el Este de Inglaterra no tiene destacado porque Cambridge tiene guias 3, cuando con la escala oficial le toca 5; (2) los Cotswolds (g5) quedan fuera con c3 y solo la etiqueta 'ciudad'; (3) Alton Towers entra en el top 15 del país con g3 y solo adrenalina. Con las dos correcciones salen Alton Towers y Windsor, y entran Cambridge y los Cotswolds. Huecos regionales: el sur de Gales y su capital (Cardiff), la costa de Northumberland, Brighton y la costa de Sussex, North York Moors y Whitby; en Escocia, St Andrews, las Hébridas Exteriores y Loch Lomond. Glasgow (4,2) se queda fuera por desempate con Belfast y Conwy; no es un problema de calibración. Ajuste de regiones: Escocia es una sola región con 11 lugares (16 con los nuevos), mientras que Inglaterra está partida en 9. Propongo partirla en Tierras Bajas, Tierras Altas e Islas para agrupar mejor en el mapa (ver ajustes_region). Con los datos actuales no cambia qué lugares son destacados, pero sí los protege cuando entren los nuevos.",
+      "huecos": [
+        {
+          "tipo": "lugar_nuevo",
+          "id": "gb-cardiff",
+          "nombre": "Cardiff (castillo, St Fagans y bahía)",
+          "region": "Gales",
+          "agente": "cultura-historia",
+          "agentes": [
+            "cultura-historia",
+            "gastronomia-vino",
+            "adrenalina",
+            "guias-expertas",
+            "logistica-temporada"
+          ],
+          "prioridad": "alta",
+          "pedido": "Falta la capital de Gales: el sur del país no tiene ningún lugar (Gales solo tiene Snowdonia, Conwy y Pembrokeshire). Ficha con el castillo de Cardiff (torreón normando e interiores victorianos de Burges), el museo al aire libre de St Fagans (gratis, a unos 8 km), la bahía con el Senedd y el Wales Millennium Centre, y en el por_que Castell Coch y Caerphilly (a unos 12 km). Lonely Planet pone el castillo y St Fagans entre lo imprescindible de Gales. Gastronomía: mercado de Cardiff y, si se confirma, la cocina galesa de Michelin en la zona. Adrenalina a ≤ 60 km: Cardiff International White Water (rafting) y Zip World Tower. Coordenadas aprox. 51.482, -3.181."
+        },
+        {
+          "tipo": "lugar_nuevo",
+          "id": "gb-costa-northumberland",
+          "nombre": "Costa de Northumberland (Bamburgh, Lindisfarne y Alnwick)",
+          "region": "Noreste de Inglaterra",
+          "agente": "cultura-historia",
+          "agentes": [
+            "cultura-historia",
+            "naturaleza",
+            "gastronomia-vino",
+            "guias-expertas",
+            "logistica-temporada"
+          ],
+          "prioridad": "alta",
+          "pedido": "Imprescindible de la costa norte de Inglaterra que no está: el castillo de Bamburgh sobre la playa, Holy Island de Lindisfarne (priorato y castillo; se llega por una calzada que corta la marea dos veces al día), el castillo de Alnwick y las ruinas de Dunstanburgh, con los barcos a las islas Farne (frailecillos y focas) desde Seahouses. Lonely Planet tiene artículo propio de Northumberland y pone Bamburgh en primer lugar. Gastronomía: cangrejo de Craster (arenques ahumados, kippers) y ostras de Lindisfarne. Región: Noreste, que hoy solo tiene Durham y el Muro de Adriano. Coordenadas aprox. 55.609, -1.709 (Bamburgh)."
+        },
+        {
+          "tipo": "lugar_nuevo",
+          "id": "gb-brighton",
+          "nombre": "Brighton (Royal Pavilion y el muelle)",
+          "region": "Sureste de Inglaterra",
+          "agente": "cultura-historia",
+          "agentes": [
+            "cultura-historia",
+            "adrenalina",
+            "gastronomia-vino",
+            "guias-expertas",
+            "logistica-temporada"
+          ],
+          "prioridad": "media",
+          "pedido": "La ciudad costera más visitada de Inglaterra no está: el Royal Pavilion de Jorge IV, las Lanes y North Laine, el Palace Pier y la torre i360. Seven Sisters la menciona solo de pasada. Categoría playa + cultura. Adrenalina: atracciones del Palace Pier y bajada de la i360 (si sigue operando el descenso), con parapente en Devil's Dyke a 8 km. Tren directo desde Londres Victoria (≈1 h). Coordenadas aprox. 50.822, -0.137."
+        },
+        {
+          "tipo": "lugar_nuevo",
+          "id": "gb-north-york-moors-whitby",
+          "nombre": "North York Moors y Whitby",
+          "region": "Yorkshire (Inglaterra)",
+          "agente": "naturaleza",
+          "agentes": [
+            "naturaleza",
+            "cultura-historia",
+            "gastronomia-vino",
+            "guias-expertas",
+            "logistica-temporada"
+          ],
+          "prioridad": "media",
+          "pedido": "El Parque Nacional de North York Moors y la costa de Whitby (abadía de Whitby, escenario de Drácula; Robin Hood's Bay) no tienen lugar propio; Yorkshire solo tiene York, Fountains y los Dales. Incluir el tren de vapor North Yorkshire Moors Railway (Pickering–Whitby) y el fish and chips de Whitby. Coordenadas aprox. 54.486, -0.615 (Whitby)."
+        },
+        {
+          "tipo": "lugar_nuevo",
+          "id": "gb-st-andrews",
+          "nombre": "St Andrews",
+          "region": "Tierras Bajas de Escocia (Fife)",
+          "agente": "cultura-historia",
+          "agentes": [
+            "cultura-historia",
+            "guias-expertas",
+            "logistica-temporada"
+          ],
+          "prioridad": "media",
+          "pedido": "Falta St Andrews: la cuna del golf (Old Course; los domingos se puede pasear por el campo), la catedral medieval en ruinas, que fue la mayor iglesia de Escocia, el castillo y la universidad más antigua del país, con playa de West Sands. Rick Steves le dedica artículo propio. Está a unos 80 km de Edimburgo. Coordenadas aprox. 56.340, -2.796."
+        },
+        {
+          "tipo": "lugar_nuevo",
+          "id": "gb-hebridas-exteriores",
+          "nombre": "Hébridas Exteriores (Lewis y Harris)",
+          "region": "Islas de Escocia",
+          "agente": "naturaleza",
+          "agentes": [
+            "naturaleza",
+            "cultura-historia",
+            "gastronomia-vino",
+            "guias-expertas",
+            "logistica-temporada"
+          ],
+          "prioridad": "media",
+          "pedido": "Las Hébridas Exteriores no aparecen: las piedras de Calanais (círculo de unos 5.000 años; el sitio estaba en obras de mejora con reapertura prevista a finales de junio de 2026, así que hay que verificar), las playas de arena de concha de Luskentyre y Seilebost en Harris, el broch de Dun Carloway, la casa negra de Arnol y la destilería de Harris. Categorías naturaleza, playa y cultura. Ferry CalMac Ullapool–Stornoway o Uig (Skye)–Tarbert. Coordenadas aprox. 57.86, -6.95 (Luskentyre)."
+        },
+        {
+          "tipo": "lugar_nuevo",
+          "id": "gb-loch-lomond-trossachs",
+          "nombre": "Loch Lomond y los Trossachs",
+          "region": "Tierras Altas de Escocia",
+          "agente": "naturaleza",
+          "agentes": [
+            "naturaleza",
+            "adrenalina",
+            "guias-expertas",
+            "logistica-temporada"
+          ],
+          "prioridad": "baja",
+          "pedido": "El primer parque nacional de Escocia solo sale citado en Glasgow (a 30 km) y en Stirling (puerta de los Trossachs). Ficha propia con Loch Lomond (Luss, Conic Hill, Ben Lomond), Loch Katrine con el vapor Sir Walter Scott y Ben A'an. Adrenalina: kayak y paddle surf, tirolinas de Go Ape en Aberfoyle y canoa. Si el curador prefiere no abrir ficha, que al menos entre en el por_que de Stirling. Coordenadas aprox. 56.10, -4.63 (Luss)."
+        },
+        {
+          "tipo": "puntaje",
+          "id": "gb-cambridge",
+          "criterio": "guias",
+          "valor_actual": 3,
+          "valor_propuesto": 5,
+          "agente": "guias-expertas",
+          "motivo": "Con la escala oficial le corresponde 5: ViaMichelin le da a la capilla del King's College el «Worth the trip» (★★★, prueba aceptada en las lecciones de francia-alpes) y es top pick de Rick Steves (England, capítulo propio), Fodor's y Lonely Planet. Hoy solo cita Fodor's y LP vía Time Out. Hay que buscar y citar la ficha de ViaMichelin y la de Rick Steves.",
+          "efecto_destacados": "global 3,8 → 4,6. Entra en destacados y el Este de Inglaterra deja de quedar vacío.",
+          "pedido": "gb-cambridge: guias 3 → 5. Con la escala oficial le corresponde 5: ViaMichelin le da a la capilla del King's College el «Worth the trip» (★★★, prueba aceptada en las lecciones de francia-alpes) y es top pick de Rick Steves (England, capítulo propio), Fodor's y Lonely Planet. Hoy solo cita Fodor's y LP vía Time Out. Hay que buscar y citar la ficha de ViaMichelin y la de Rick Steves."
+        },
+        {
+          "tipo": "puntaje",
+          "id": "gb-cotswolds",
+          "criterio": "cultura",
+          "valor_actual": 3,
+          "valor_propuesto": 4,
+          "agente": "cultura-historia",
+          "motivo": "Los Cotswolds son ante todo un paisaje cultural: pueblos de piedra de la época de la lana (Chipping Campden, Bibury, Castle Combe), iglesias «de la lana» del siglo XV y la abadía de Tewkesbury; el palacio de Blenheim (Patrimonio Mundial, en Woodstock, en el borde del AONB) puede ir en el por_que. Hoy solo está etiquetado como 'ciudad', y el Lake District tiene c4 con un perfil parecido.",
+          "efecto_destacados": "global 4,0 → 4,4. Entra en destacados (Suroeste: Bath, Stonehenge, Cotswolds). Salen Windsor (4,2, guías 3) y Alton Towers (4,1).",
+          "pedido": "gb-cotswolds: cultura 3 → 4. Los Cotswolds son ante todo un paisaje cultural: pueblos de piedra de la época de la lana (Chipping Campden, Bibury, Castle Combe), iglesias «de la lana» del siglo XV y la abadía de Tewkesbury; el palacio de Blenheim (Patrimonio Mundial, en Woodstock, en el borde del AONB) puede ir en el por_que. Hoy solo está etiquetado como 'ciudad', y el Lake District tiene c4 con un perfil parecido."
+        }
+      ]
+    },
+    {
+      "pais_iso": "IE",
+      "total": 21,
+      "cumple": false,
+      "excepcion_minimo": false,
+      "justificacion": null,
+      "observaciones": "Cantidad: 21. El área de Dublín tiene 3/21 = 14 %. Hay 5 categorías. Las 4 provincias están cubiertas y no falta ningún imprescindible: Cork va en Kinsale-Cobh, Killarney y Skellig Michael en Ring of Kerry, Kylemore en Connemara, Waterford en Kilkenny y Westport en Achill. El problema es estructural: IE es mediano (cupo 10, máximo 2 por región) y solo tiene 4 regiones, así que salen 8 destacados como mucho. Hoy entra Glenveagh (2,8) y se quedan fuera Brú na Bóinne (4,5, Patrimonio Mundial, Newgrange) y Glendalough (4,0). Solución sin tocar puntajes: partir Leinster en Leinster Norte (Dublín, Meath, Louth) y Leinster Sur (Wicklow, Kilkenny, Offaly), ver ajustes_region. Simulado con la lógica de construir-app.mjs, quedan 10 destacados: Dublín, Moher, Ring of Kerry, Galway, Kilkenny, Brú na Bóinne, Glendalough, Aran, Slieve League y Glenveagh, sin perder Donegal.",
+      "huecos": [
+        {
+          "tipo": "region",
+          "agente": "curador",
+          "pedido": "Partir Leinster en 'Leinster Norte' (ie-dublin, ie-bru-na-boinne, ie-carlingford) y 'Leinster Sur' (ie-kilkenny, ie-glendalough, ie-clonmacnoise) mediante curador-ajustes.json → lugares.<id>.region. El nombre que cuenta tiene que ir fuera de los paréntesis, porque construir-app.mjs los quita; por ejemplo 'Leinster Norte (Meath)'."
+        }
+      ]
+    },
+    {
+      "pais_iso": "IS",
+      "total": 15,
+      "cumple": true,
+      "excepcion_minimo": false,
+      "justificacion": null,
+      "observaciones": "Cantidad: 15. El área de Reikiavik tiene 2/15 = 13 %. Hay 5 categorías. Las 9 regiones turísticas tienen lugar, y los 10 destacados están bien repartidos y son los esperables (Círculo Dorado, costa sur, Mývatn, Jökulsárlón, Snæfellsnes, Reikiavik, Húsavík, Fiordos del Oeste, Askja, Landmannalaugar). La Laguna Azul (4,0) y Skaftafell (4,1) se quedan fuera por cupo, lo que es razonable. Akureyri sale citada en Mývatn y Húsavík. Sin huecos.",
+      "huecos": []
+    },
+    {
+      "pais_iso": "NO",
+      "total": 28,
+      "cumple": false,
+      "excepcion_minimo": false,
+      "justificacion": null,
+      "observaciones": "Cantidad: 28. El área de Oslo tiene 1/28 = 4 %. Hay 6 categorías. Están los fiordos del oeste, el norte ártico, Svalbard y Trøndelag. Huecos regionales: Agder (Sørlandet, la costa sur) y Østfold/Vestfold (el este del fiordo de Oslo) no tienen ningún lugar. Puntaje: Ålesund con c3 se queda solo como 'ciudad' y fuera de destacados; con c4 entra en lugar de Rondane-Dovre.",
+      "huecos": [
+        {
+          "tipo": "lugar_nuevo",
+          "id": "no-sorlandet",
+          "nombre": "Costa de Sørlandet (Kristiansand, Lillesand, Risør y Lindesnes)",
+          "region": "Agder",
+          "agente": "naturaleza",
+          "agentes": [
+            "naturaleza",
+            "gastronomia-vino",
+            "cultura-historia",
+            "adrenalina",
+            "guias-expertas",
+            "logistica-temporada"
+          ],
+          "prioridad": "alta",
+          "pedido": "Agder (Sørlandet), la costa sur, que es el gran destino de verano de los propios noruegos, no tiene ningún lugar. Ficha con los pueblos blancos de madera de Lillesand, Grimstad (Ibsen) y Risør, el canal costero de Blindleia, Kristiansand (Odderøya, Kilden) y el faro de Lindesnes, el punto más al sur de Noruega continental. Gastronomía: Under, en Lindesnes, primer restaurante submarino de Europa, con 1 estrella Michelin en la guía nórdica 2026 (Visit Norway y The Local). Adrenalina: Kristiansand Dyrepark (con zona de atracciones) y kayak en el archipiélago. Rough Guides y Fodor's tienen capítulo de Southern Norway y ficha de Risør. Categorías naturaleza/playa, gastronomía y cultura. Coordenadas aprox. 58.146, 7.995 (Kristiansand)."
+        },
+        {
+          "tipo": "lugar_nuevo",
+          "id": "no-fredrikstad",
+          "nombre": "Fredrikstad (Gamlebyen) y Hvaler",
+          "region": "Østfold",
+          "agente": "cultura-historia",
+          "agentes": [
+            "cultura-historia",
+            "naturaleza",
+            "guias-expertas",
+            "logistica-temporada"
+          ],
+          "prioridad": "media",
+          "pedido": "El este del fiordo de Oslo (Østfold/Vestfold) no tiene ningún lugar. Gamlebyen de Fredrikstad es la ciudad fortificada mejor conservada de Escandinavia (fosos, puertas, puente levadizo; «Top Choice» de Lonely Planet). Mencionar la fortaleza de Kongsten y el parque nacional marino de Ytre Hvaler. Está a 1 h de Oslo en tren. Coordenadas aprox. 59.205, 10.957."
+        },
+        {
+          "tipo": "puntaje",
+          "id": "no-alesund",
+          "criterio": "cultura",
+          "valor_actual": 3,
+          "valor_propuesto": 4,
+          "agente": "cultura-historia",
+          "motivo": "Ålesund es uno de los conjuntos Art Nouveau (Jugendstil) más homogéneos de Europa, reconstruido entero tras el incendio de 1904, con el Jugendstilsenteret; el propio por_que lo dice. Con c3 queda solo como 'ciudad'. Otras ciudades de cultura comparables tienen c4 (Trondheim, Turku, Kalmar).",
+          "efecto_destacados": "global 3,7 → 4,2. Entra en destacados (Møre og Romsdal: Geiranger y Ålesund) y sale Rondane-Dovre (3,9).",
+          "pedido": "no-alesund: cultura 3 → 4. Ålesund es uno de los conjuntos Art Nouveau (Jugendstil) más homogéneos de Europa, reconstruido entero tras el incendio de 1904, con el Jugendstilsenteret; el propio por_que lo dice. Con c3 queda solo como 'ciudad'. Otras ciudades de cultura comparables tienen c4 (Trondheim, Turku, Kalmar)."
+        }
+      ]
+    },
+    {
+      "pais_iso": "SE",
+      "total": 25,
+      "cumple": true,
+      "excepcion_minimo": false,
+      "justificacion": null,
+      "observaciones": "Cantidad: 25. El área de Estocolmo tiene 3/25 = 12 %. Hay 6 categorías. Están los imprescindibles: Estocolmo (con Drottningholm y Skansen), Gotemburgo, Gotland, Uppsala, Dalarna (con Falun), Kalmar y Öland, Höga Kusten, Abisko, Kiruna y Malmö. Los 15 destacados cubren 11 regiones. Karlskrona (Blekinge, Patrimonio Mundial) y Sigtuna faltan, pero no son imprescindibles evidentes ni entrarían en destacados. Kalmar con guias 5 parece algo alto, pero no cambia nada en destacados. Sin huecos.",
+      "huecos": []
+    },
+    {
+      "pais_iso": "FI",
+      "total": 19,
+      "cumple": false,
+      "excepcion_minimo": false,
+      "justificacion": null,
+      "observaciones": "Cantidad: 19. El área de Helsinki tiene 3/19 = 16 %. Hay 5 categorías, con gastronomía en solo 1 lugar. Están cubiertas Laponia, la región de los lagos, la costa y Åland; Suomenlinna va en Helsinki, Naantali en Turku y Ruka en Oulanka. El único problema es de calibración: Porvoo, la excursión clásica desde Helsinki, tiene g2/c3 (2,8) y se queda fuera, mientras que Rauma (3,2) entra. Sin lugares nuevos.",
+      "huecos": [
+        {
+          "tipo": "puntaje",
+          "id": "fi-porvoo",
+          "criterio": "guias",
+          "valor_actual": 2,
+          "valor_propuesto": 3,
+          "agente": "guias-expertas",
+          "motivo": "Porvoo es la excursión clásica desde Helsinki y aparece en Lonely Planet Finland y en Rough Guides, además de Frommer's. Hoy solo cita Frommer's y Visit Finland. Hay que buscar y citar LP o Rough Guides.",
+          "efecto_destacados": "Junto con cultura 4: global 2,8 → 3,6.",
+          "pedido": "fi-porvoo: guias 2 → 3. Porvoo es la excursión clásica desde Helsinki y aparece en Lonely Planet Finland y en Rough Guides, además de Frommer's. Hoy solo cita Frommer's y Visit Finland. Hay que buscar y citar LP o Rough Guides."
+        },
+        {
+          "tipo": "puntaje",
+          "id": "fi-porvoo",
+          "criterio": "cultura",
+          "valor_actual": 3,
+          "valor_propuesto": 4,
+          "agente": "cultura-historia",
+          "motivo": "Uno de los seis pueblos medievales de Finlandia: catedral del siglo XV donde se reunió la Dieta de Porvoo de 1809 (origen de la autonomía finlandesa), casco antiguo de casas de madera y almacenes rojos junto al río. Rauma tiene c4 con un perfil parecido.",
+          "efecto_destacados": "global 3,6. Entra en destacados (Uusimaa, segundo) y sale Rauma (3,2).",
+          "pedido": "fi-porvoo: cultura 3 → 4. Uno de los seis pueblos medievales de Finlandia: catedral del siglo XV donde se reunió la Dieta de Porvoo de 1809 (origen de la autonomía finlandesa), casco antiguo de casas de madera y almacenes rojos junto al río. Rauma tiene c4 con un perfil parecido."
+        }
+      ]
+    },
+    {
+      "pais_iso": "DK",
+      "total": 19,
+      "cumple": false,
+      "excepcion_minimo": false,
+      "justificacion": null,
+      "observaciones": "Cantidad: 19. El área de Copenhague tiene 4/19 = 21 %. Hay 6 categorías. Todas las regiones tienen lugares, incluidas Bornholm, Ærø y el mar de Wadden; Frederiksborg y Kronborg van en Helsingør. Destacados (7, pequeño): Copenhague, Helsingør, Møns Klint, Aarhus, Odense, Roskilde y Jelling. Nordjylland se queda sin destacado porque Skagen (4,0) pierde el desempate con Jelling. Con las correcciones de Skagen (n5, c4), Skagen entra y sale Jelling. Sin lugares nuevos. Las Islas Feroe no están en la lista de países del proyecto (data/paises), así que no se piden.",
+      "huecos": [
+        {
+          "tipo": "puntaje",
+          "id": "dk-skagen",
+          "criterio": "naturaleza",
+          "valor_actual": 4,
+          "valor_propuesto": 5,
+          "agente": "naturaleza",
+          "motivo": "Grenen (donde se juntan el Skagerrak y el Kattegat), Råbjerg Mile, la mayor duna móvil del norte de Europa, y la iglesia enterrada en la arena forman un paisaje de primer orden, al nivel de Møns Klint y del mar de Wadden, que tienen n5.",
+          "efecto_destacados": "global 4,0 → 4,5. Entra en destacados, Nordjylland gana su primer destacado y sale Jelling (4,0).",
+          "pedido": "dk-skagen: naturaleza 4 → 5. Grenen (donde se juntan el Skagerrak y el Kattegat), Råbjerg Mile, la mayor duna móvil del norte de Europa, y la iglesia enterrada en la arena forman un paisaje de primer orden, al nivel de Møns Klint y del mar de Wadden, que tienen n5."
+        },
+        {
+          "tipo": "puntaje",
+          "id": "dk-skagen",
+          "criterio": "cultura",
+          "valor_actual": 3,
+          "valor_propuesto": 4,
+          "agente": "cultura-historia",
+          "motivo": "El Skagens Museum, con los pintores de Skagen (Krøyer, Anna y Michael Ancher), es una de las grandes pinacotecas de Dinamarca, y además está la casa de los Ancher. c3 se queda corto.",
+          "efecto_destacados": "No cambia el global, pero suma la etiqueta 'cultura'.",
+          "pedido": "dk-skagen: cultura 3 → 4. El Skagens Museum, con los pintores de Skagen (Krøyer, Anna y Michael Ancher), es una de las grandes pinacotecas de Dinamarca, y además está la casa de los Ancher. c3 se queda corto."
+        }
+      ]
+    },
+    {
+      "pais_iso": "EE",
+      "total": 11,
+      "cumple": true,
+      "excepcion_minimo": false,
+      "justificacion": null,
+      "observaciones": "Cantidad: 11. El área de Tallin tiene 1/11 = 9 %. Hay 5 categorías. Están las islas (Saaremaa, Hiiumaa, Kihnu), Lahemaa, Soomaa, Tartu, Pärnu, Narva y Peipsi. Viljandi va en Soomaa y Haapsalu en Hiiumaa. Faltan Otepää y Rakvere, pero no son imprescindibles. Sin huecos.",
+      "huecos": []
+    },
+    {
+      "pais_iso": "LV",
+      "total": 11,
+      "cumple": true,
+      "excepcion_minimo": false,
+      "justificacion": null,
+      "observaciones": "Cantidad: 11. El área de Riga tiene 3/11 = 27 % (Riga, Jūrmala y Ķemeri), por debajo del 40 %. Hay 6 categorías. Las 5 regiones históricas (Riga, Vidzeme, Kurzeme, Zemgale y Latgale) tienen destacado. Aglona va en Daugavpils. Sin huecos.",
+      "huecos": []
+    },
+    {
+      "pais_iso": "LT",
+      "total": 13,
+      "cumple": true,
+      "excepcion_minimo": false,
+      "justificacion": null,
+      "observaciones": "Cantidad: 13. El área de Vilna tiene 3/13 = 23 %. Hay 5 categorías. Están Vilna, Trakai, Kaunas, el istmo de Curlandia, Palanga, la Colina de las Cruces, Aukštaitija, Dzūkija y Samogitia. Kernavė (3,6) se queda fuera por el máximo de 2 en Vilna, lo que es razonable. Sin huecos.",
+      "huecos": []
+    }
+  ],
+  "correcciones_puntaje": [
+    {
+      "id": "gb-cambridge",
+      "criterio": "guias",
+      "valor_actual": 3,
+      "valor_propuesto": 5,
+      "agente": "guias-expertas",
+      "motivo": "Con la escala oficial le corresponde 5: ViaMichelin le da a la capilla del King's College el «Worth the trip» (★★★, prueba aceptada en las lecciones de francia-alpes) y es top pick de Rick Steves (England, capítulo propio), Fodor's y Lonely Planet. Hoy solo cita Fodor's y LP vía Time Out. Hay que buscar y citar la ficha de ViaMichelin y la de Rick Steves.",
+      "efecto_destacados": "global 3,8 → 4,6. Entra en destacados y el Este de Inglaterra deja de quedar vacío."
+    },
+    {
+      "id": "gb-cotswolds",
+      "criterio": "cultura",
+      "valor_actual": 3,
+      "valor_propuesto": 4,
+      "agente": "cultura-historia",
+      "motivo": "Los Cotswolds son ante todo un paisaje cultural: pueblos de piedra de la época de la lana (Chipping Campden, Bibury, Castle Combe), iglesias «de la lana» del siglo XV y la abadía de Tewkesbury; el palacio de Blenheim (Patrimonio Mundial, en Woodstock, en el borde del AONB) puede ir en el por_que. Hoy solo está etiquetado como 'ciudad', y el Lake District tiene c4 con un perfil parecido.",
+      "efecto_destacados": "global 4,0 → 4,4. Entra en destacados (Suroeste: Bath, Stonehenge, Cotswolds). Salen Windsor (4,2, guías 3) y Alton Towers (4,1)."
+    },
+    {
+      "id": "no-alesund",
+      "criterio": "cultura",
+      "valor_actual": 3,
+      "valor_propuesto": 4,
+      "agente": "cultura-historia",
+      "motivo": "Ålesund es uno de los conjuntos Art Nouveau (Jugendstil) más homogéneos de Europa, reconstruido entero tras el incendio de 1904, con el Jugendstilsenteret; el propio por_que lo dice. Con c3 queda solo como 'ciudad'. Otras ciudades de cultura comparables tienen c4 (Trondheim, Turku, Kalmar).",
+      "efecto_destacados": "global 3,7 → 4,2. Entra en destacados (Møre og Romsdal: Geiranger y Ålesund) y sale Rondane-Dovre (3,9)."
+    },
+    {
+      "id": "fi-porvoo",
+      "criterio": "guias",
+      "valor_actual": 2,
+      "valor_propuesto": 3,
+      "agente": "guias-expertas",
+      "motivo": "Porvoo es la excursión clásica desde Helsinki y aparece en Lonely Planet Finland y en Rough Guides, además de Frommer's. Hoy solo cita Frommer's y Visit Finland. Hay que buscar y citar LP o Rough Guides.",
+      "efecto_destacados": "Junto con cultura 4: global 2,8 → 3,6."
+    },
+    {
+      "id": "fi-porvoo",
+      "criterio": "cultura",
+      "valor_actual": 3,
+      "valor_propuesto": 4,
+      "agente": "cultura-historia",
+      "motivo": "Uno de los seis pueblos medievales de Finlandia: catedral del siglo XV donde se reunió la Dieta de Porvoo de 1809 (origen de la autonomía finlandesa), casco antiguo de casas de madera y almacenes rojos junto al río. Rauma tiene c4 con un perfil parecido.",
+      "efecto_destacados": "global 3,6. Entra en destacados (Uusimaa, segundo) y sale Rauma (3,2)."
+    },
+    {
+      "id": "dk-skagen",
+      "criterio": "naturaleza",
+      "valor_actual": 4,
+      "valor_propuesto": 5,
+      "agente": "naturaleza",
+      "motivo": "Grenen (donde se juntan el Skagerrak y el Kattegat), Råbjerg Mile, la mayor duna móvil del norte de Europa, y la iglesia enterrada en la arena forman un paisaje de primer orden, al nivel de Møns Klint y del mar de Wadden, que tienen n5.",
+      "efecto_destacados": "global 4,0 → 4,5. Entra en destacados, Nordjylland gana su primer destacado y sale Jelling (4,0)."
+    },
+    {
+      "id": "dk-skagen",
+      "criterio": "cultura",
+      "valor_actual": 3,
+      "valor_propuesto": 4,
+      "agente": "cultura-historia",
+      "motivo": "El Skagens Museum, con los pintores de Skagen (Krøyer, Anna y Michael Ancher), es una de las grandes pinacotecas de Dinamarca, y además está la casa de los Ancher. c3 se queda corto.",
+      "efecto_destacados": "No cambia el global, pero suma la etiqueta 'cultura'."
+    }
+  ],
+  "ajustes_region": {
+    "nota": "Para curador-ajustes.json → lugares.<id>.region. construir-app.mjs agrupa por el texto que queda fuera de los paréntesis y antes de '/'. Los lugares nuevos de Escocia ya vienen con la región nueva.",
+    "lugares": {
+      "gb-edimburgo": "Tierras Bajas de Escocia",
+      "gb-glasgow": "Tierras Bajas de Escocia",
+      "gb-stirling": "Tierras Bajas de Escocia",
+      "gb-glencoe": "Tierras Altas de Escocia",
+      "gb-lago-ness-inverness": "Tierras Altas de Escocia",
+      "gb-cairngorms": "Tierras Altas de Escocia",
+      "gb-speyside": "Tierras Altas de Escocia",
+      "gb-isla-de-skye": "Islas de Escocia",
+      "gb-oban-mull-iona": "Islas de Escocia",
+      "gb-orcadas-neolitico": "Islas de Escocia",
+      "gb-islay": "Islas de Escocia",
+      "ie-dublin": "Leinster Norte (Dublín)",
+      "ie-bru-na-boinne": "Leinster Norte (Meath)",
+      "ie-carlingford": "Leinster Norte (Louth)",
+      "ie-kilkenny": "Leinster Sur (Kilkenny)",
+      "ie-glendalough": "Leinster Sur (Wicklow)",
+      "ie-clonmacnoise": "Leinster Sur (Offaly)"
+    }
+  }
+}

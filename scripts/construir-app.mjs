@@ -32,6 +32,9 @@ for (const iso of new Set(lugares.map((l) => l.pais_iso))) {
     if (k >= maxRegion) continue;
     porRegion.set(r, k + 1); destacados.add(l.id); n++;
   }
+  // países con pocas regiones (p. ej. Irlanda, 4 provincias): si el tope por región deja el cupo sin
+  // llenar, se completa con los mejores restantes
+  for (const l of ls) { if (n >= cupo) break; if (!destacados.has(l.id)) { destacados.add(l.id); n++; } }
   cuentaDest[iso] = n;
 }
 

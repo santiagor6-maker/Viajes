@@ -620,7 +620,7 @@
       "region": "Noroeste de Inglaterra"
     },
     "gb-orcadas-neolitico": {
-      "region": "Escocia"
+      "region": "Islas de Escocia"
     },
     "gb-costa-jurasica": {
       "region": "Suroeste de Inglaterra"
@@ -677,6 +677,36 @@
     },
     "dk-trelleborg": {
       "nombre": "Trelleborg (fortaleza circular vikinga)"
+    },
+    "gb-edimburgo": {
+      "region": "Tierras Bajas de Escocia"
+    },
+    "gb-glasgow": {
+      "region": "Tierras Bajas de Escocia"
+    },
+    "gb-stirling": {
+      "region": "Tierras Bajas de Escocia"
+    },
+    "gb-glencoe": {
+      "region": "Tierras Altas de Escocia"
+    },
+    "gb-lago-ness-inverness": {
+      "region": "Tierras Altas de Escocia"
+    },
+    "gb-cairngorms": {
+      "region": "Tierras Altas de Escocia"
+    },
+    "gb-speyside": {
+      "region": "Tierras Altas de Escocia"
+    },
+    "gb-isla-de-skye": {
+      "region": "Islas de Escocia"
+    },
+    "gb-oban-mull-iona": {
+      "region": "Islas de Escocia"
+    },
+    "gb-islay": {
+      "region": "Islas de Escocia"
     }
   },
   "por_que": {
@@ -955,7 +985,8 @@
         "coordenadas": "fi-kvarken estaba en el mar, unos 17 km al suroeste de Svedjehamn; se mueve a Björköby (63°21′N 21°19′E), en la isla de Björkö, junto a Svedjehamn y la torre de Saltkaret.",
         "regiones": "Se unifica el texto de región: 'Norrbotten' para Abisko, Kiruna, Jokkmokk y Kalix; 'Vestland' para Hardangervidda y el Nordfjord; 'Innlandet' para Rondane; 'Dalarna' y 'Västra Götaland' sin subzona; 'Pärnu' para Soomaa y 'Tartu' para el lago Peipsi (sedes de sus centros de visitantes); 'Riga' para Jūrmala y Ķemeri (región de planificación de Riga)."
       }
-    }
+    },
+    "ronda3": "Escocia partida en Tierras Bajas, Tierras Altas e Islas (cobertura). Irlanda no se parte: construir-app.mjs completa el cupo de destacados cuando el tope por región lo deja corto."
   },
   "no_ciudad": [],
   "quitar": []

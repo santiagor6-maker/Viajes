@@ -1,8 +1,8 @@
 {
   "pausado": false,
   "subregion": "britanicas-nordicos",
-  "paso": "cobertura",
-  "ronda": 1,
+  "paso": "huecos",
+  "ronda": 3,
   "orden_subregiones": [
     "iberica-italia",
     "francia-alpes",
@@ -178,6 +178,12 @@
       "subregion": "britanicas-nordicos",
       "paso": "curador",
       "resultado": "202 lugares (GB 40, IE 21, IS 15, NO 28, SE 25, FI 19, DK 19, EE 11, LV 11, LT 13); 8 fusiones (Windsor+Bray, Cork+Kinsale+Cobh, Nordfjord, Abisko+Riksgränsen, Estocolmo+Drottningholm...), 1 descarte (Glaumbær); 38 puntajes de guías; 202 por_que; validar.mjs acepta Åland (sin contorno en Natural Earth); publicado como en revisión (versión 13). Siguiente: cobertura"
+    },
+    {
+      "fecha": "2026-11-02",
+      "subregion": "britanicas-nordicos",
+      "paso": "cobertura",
+      "resultado": "Todos ≥10 y sin concentración en la capital. 9 huecos (GB: Cardiff, Northumberland, Brighton, North York Moors, St Andrews, Hébridas Exteriores, Loch Lomond; NO: Sørlandet, Fredrikstad) y 7 correcciones (Cambridge guías 5, Cotswolds/Ålesund/Porvoo/Skagen). Escocia en 3 regiones. construir-app completa el cupo de destacados en países con pocas regiones (IE 8→10, MT 5→7). Siguiente: huecos (ronda 3)"
     }
   ],
   "ronda_revisor": 0,

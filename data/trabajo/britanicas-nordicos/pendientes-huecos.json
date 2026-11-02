@@ -1,0 +1,143 @@
+[
+  {
+    "id": "gb-cardiff",
+    "nombre": "Cardiff (castillo, St Fagans y bahía)",
+    "pais_iso": "GB",
+    "region": "Gales",
+    "creado_por": "cultura-historia",
+    "grupo": "a",
+    "agentes": [
+      "cultura-historia",
+      "gastronomia-vino",
+      "adrenalina",
+      "guias-expertas",
+      "logistica-temporada"
+    ],
+    "prioridad": "alta"
+  },
+  {
+    "id": "gb-costa-northumberland",
+    "nombre": "Costa de Northumberland (Bamburgh, Lindisfarne y Alnwick)",
+    "pais_iso": "GB",
+    "region": "Noreste de Inglaterra",
+    "creado_por": "cultura-historia",
+    "grupo": "a",
+    "agentes": [
+      "cultura-historia",
+      "naturaleza",
+      "gastronomia-vino",
+      "guias-expertas",
+      "logistica-temporada"
+    ],
+    "prioridad": "alta"
+  },
+  {
+    "id": "gb-brighton",
+    "nombre": "Brighton (Royal Pavilion y el muelle)",
+    "pais_iso": "GB",
+    "region": "Sureste de Inglaterra",
+    "creado_por": "cultura-historia",
+    "grupo": "a",
+    "agentes": [
+      "cultura-historia",
+      "adrenalina",
+      "gastronomia-vino",
+      "guias-expertas",
+      "logistica-temporada"
+    ],
+    "prioridad": "media"
+  },
+  {
+    "id": "gb-north-york-moors-whitby",
+    "nombre": "North York Moors y Whitby",
+    "pais_iso": "GB",
+    "region": "Yorkshire (Inglaterra)",
+    "creado_por": "naturaleza",
+    "grupo": "a",
+    "agentes": [
+      "naturaleza",
+      "cultura-historia",
+      "gastronomia-vino",
+      "guias-expertas",
+      "logistica-temporada"
+    ],
+    "prioridad": "media"
+  },
+  {
+    "id": "gb-st-andrews",
+    "nombre": "St Andrews",
+    "pais_iso": "GB",
+    "region": "Tierras Bajas de Escocia (Fife)",
+    "creado_por": "cultura-historia",
+    "grupo": "a",
+    "agentes": [
+      "cultura-historia",
+      "guias-expertas",
+      "logistica-temporada"
+    ],
+    "prioridad": "media"
+  },
+  {
+    "id": "gb-hebridas-exteriores",
+    "nombre": "Hébridas Exteriores (Lewis y Harris)",
+    "pais_iso": "GB",
+    "region": "Islas de Escocia",
+    "creado_por": "naturaleza",
+    "grupo": "a",
+    "agentes": [
+      "naturaleza",
+      "cultura-historia",
+      "gastronomia-vino",
+      "guias-expertas",
+      "logistica-temporada"
+    ],
+    "prioridad": "media"
+  },
+  {
+    "id": "gb-loch-lomond-trossachs",
+    "nombre": "Loch Lomond y los Trossachs",
+    "pais_iso": "GB",
+    "region": "Tierras Altas de Escocia",
+    "creado_por": "naturaleza",
+    "grupo": "a",
+    "agentes": [
+      "naturaleza",
+      "adrenalina",
+      "guias-expertas",
+      "logistica-temporada"
+    ],
+    "prioridad": "baja"
+  },
+  {
+    "id": "no-sorlandet",
+    "nombre": "Costa de Sørlandet (Kristiansand, Lillesand, Risør y Lindesnes)",
+    "pais_iso": "NO",
+    "region": "Agder",
+    "creado_por": "naturaleza",
+    "grupo": "b",
+    "agentes": [
+      "naturaleza",
+      "gastronomia-vino",
+      "cultura-historia",
+      "adrenalina",
+      "guias-expertas",
+      "logistica-temporada"
+    ],
+    "prioridad": "alta"
+  },
+  {
+    "id": "no-fredrikstad",
+    "nombre": "Fredrikstad (Gamlebyen) y Hvaler",
+    "pais_iso": "NO",
+    "region": "Østfold",
+    "creado_por": "cultura-historia",
+    "grupo": "b",
+    "agentes": [
+      "cultura-historia",
+      "naturaleza",
+      "guias-expertas",
+      "logistica-temporada"
+    ],
+    "prioridad": "media"
+  }
+]

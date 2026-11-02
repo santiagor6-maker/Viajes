@@ -37,6 +37,7 @@ El mapa muestra por defecto solo los destinos destacados de cada país, agrupado
   | Mediano | 10 | 2 |
   | Pequeño | 7 | 2 |
   | Microestado | 3 | 3 |
+- Si el tope por región deja a un país por debajo de su cupo (p. ej. Irlanda, con 4 provincias), se completa con los mejores restantes.
 - Un lugar que ya marcaste siempre se ve, aunque no sea destacado.
 
 ## Equipo de agentes
