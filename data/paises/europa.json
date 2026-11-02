@@ -267,7 +267,7 @@
       "total_lugares": 47,
       "excepcion_minimo": false,
       "justificacion": null,
-      "nota_revisor": null,
+      "nota_revisor": 7.6,
       "revision_pendiente": false,
       "estado": "investigado"
     },
@@ -278,7 +278,7 @@
       "total_lugares": 21,
       "excepcion_minimo": false,
       "justificacion": null,
-      "nota_revisor": null,
+      "nota_revisor": 7.6,
       "revision_pendiente": false,
       "estado": "investigado"
     },
@@ -289,7 +289,7 @@
       "total_lugares": 15,
       "excepcion_minimo": false,
       "justificacion": null,
-      "nota_revisor": null,
+      "nota_revisor": 7.9,
       "revision_pendiente": false,
       "estado": "investigado"
     },
@@ -300,7 +300,7 @@
       "total_lugares": 30,
       "excepcion_minimo": false,
       "justificacion": null,
-      "nota_revisor": null,
+      "nota_revisor": 7.8,
       "revision_pendiente": false,
       "estado": "investigado"
     },
@@ -311,7 +311,7 @@
       "total_lugares": 25,
       "excepcion_minimo": false,
       "justificacion": null,
-      "nota_revisor": null,
+      "nota_revisor": 7.8,
       "revision_pendiente": false,
       "estado": "investigado"
     },
@@ -322,7 +322,7 @@
       "total_lugares": 19,
       "excepcion_minimo": false,
       "justificacion": null,
-      "nota_revisor": null,
+      "nota_revisor": 8.1,
       "revision_pendiente": false,
       "estado": "investigado"
     },
@@ -333,7 +333,7 @@
       "total_lugares": 19,
       "excepcion_minimo": false,
       "justificacion": null,
-      "nota_revisor": null,
+      "nota_revisor": 7.7,
       "revision_pendiente": false,
       "estado": "investigado"
     },
@@ -344,7 +344,7 @@
       "total_lugares": 11,
       "excepcion_minimo": false,
       "justificacion": null,
-      "nota_revisor": null,
+      "nota_revisor": 8.1,
       "revision_pendiente": false,
       "estado": "investigado"
     },
@@ -355,7 +355,7 @@
       "total_lugares": 11,
       "excepcion_minimo": false,
       "justificacion": null,
-      "nota_revisor": null,
+      "nota_revisor": 7.6,
       "revision_pendiente": false,
       "estado": "investigado"
     },
@@ -366,7 +366,7 @@
       "total_lugares": 13,
       "excepcion_minimo": false,
       "justificacion": null,
-      "nota_revisor": null,
+      "nota_revisor": 7.6,
       "revision_pendiente": false,
       "estado": "investigado"
     },

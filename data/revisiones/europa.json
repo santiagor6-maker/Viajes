@@ -1365,6 +1365,338 @@
           "correcciones_posteriores": "Tras esta ronda el orquestador aplicó en curador-ajustes.json (notas.ronda5) la escala oficial de guías en 15 lugares (11 bajan de 5 a 4, Étretat y Nîmes suben a 5, Vianden y Bourscheid bajan por la fuente de Rough Guides no confirmada), ciudad como respaldo en Guarda y Bad Ischl, y que curar.mjs conserve las actividades cuyo URL solo se quitó como fuente de otro criterio (Parsenn). El resto queda como revisión pendiente."
         }
       ]
+    },
+    "britanicas-nordicos": {
+      "rondas": [
+        {
+          "ronda": 1,
+          "fecha": "2026-11-02",
+          "agentes": {
+            "guias-expertas": {
+              "grupo_a": {
+                "nota": 7,
+                "desglose": {
+                  "fuentes": 1.5,
+                  "exactitud": 1.5,
+                  "criterio": 1.5,
+                  "coherencia": 1,
+                  "descripcion": 1.5
+                },
+                "aprobado": false,
+                "comentarios": [
+                  "Alcance: guias-expertas-a.json (62 candidatos: GB 30, IE 17, IS 15) y guias-expertas-r3.json (9 ids de GB). Se buscaron 6 URLs y se confirmaron 3. (1) La ficha de ViaMichelin de King's College Chapel (viamichelin…/poi/cambridge-_-cb52bc9ac039) tiene «Worth the trip», así que gb-cambridge = 5 queda bien. (2) bradtguides.com/5-fantastic-beaches-in-the-outer-hebrides/ existe. (3) Lonely Planet pone la Roca de Cashel como imprescindible en lonelyplanet.com/stories/20-most-incredible-places-to-visit-in-ireland. No se confirmaron 3. (a) La ficha de Fodor's de York Minster (fodors.com/world/europe/england/yorkshire/things-to-do/sights?pois=751361) como «Fodor's Choice». (b) Que el programa de Rick Steves sobre Islandia (ricksteves.com/watch-read-listen/video/tv-show/iceland) cubra Húsavík y Seyðisfjörður: las sinopsis citan Reikiavik, el Círculo Dorado, los glaciares, Mývatn y Snæfellsnes. (c) Ninguna página editorial de Rick Steves sobre Northumberland.",
+                  "is-husavik e is-seydisfjordur: no cuentes a Rick Steves con la página genérica del programa si no muestras que el lugar sale en él. Sin esa guía, is-seydisfjordur se queda con LP y Rough Guides (3). is-husavik conserva 4 guías, pero dos son listas de avistamiento de ballenas y no top picks: déjalo en 4 o prueba el top pick.",
+                  "En r3 tomaste el «Worth the trip» de Cambridge del pedido de cobertura y no de la ficha («se toma del pedido de cobertura»). Esta vez la ficha lo confirma, pero la etiqueta se cita después de leerla en la fuente.",
+                  "Faltan guías que ya están en las fuentes finales o que salen en la primera búsqueda. gb-hebridas-exteriores tiene 2 (solo LP), pero el lugar cita Bradt (bradtguides.com/5-fantastic-beaches-in-the-outer-hebrides/, confirmada) y National Geographic (journey-through-lewis-harris…), y las dos están en criterios.json: con 3 guías le corresponde 4. gb-north-york-moors-whitby tiene 2, pero cita National Geographic (nationalgeographic.com/travel/article/north-york-moors-england, confirmada), y Frommer's tiene frommers.com/destinations/north-york-moors-national-park/things-to-do/ (confirmada): 4.",
+                  "Puntajes bajos que no se volvieron a buscar. gb-canterbury sigue en 2 desde r1 con una sola ficha de Fodor's. Rick Steves tiene ricksteves.com/europe/england/canterbury (confirmada), y la catedral, Patrimonio Mundial, está en LP y en Michelin: busca esas guías y recalcula (esperable 4). ie-rock-of-cashel tiene 3. LP la llama imprescindible en su lista de los 20 lugares de Irlanda y en Best in Travel 2026 (Tipperary), y el lugar sale también en Fodor's y Frommer's: busca esas guías y recalcula (esperable 4-5).",
+                  "Coherencia de la escala. Se cuentan itinerarios como top pick de forma desigual. ie-kilkenny tiene 5 con dos itinerarios y una excursión de un día, mientras ie-bru-na-boinne (Patrimonio Mundial, en todas las guías) tiene 4. gb-cotswolds y gb-cambridge tienen 5, pero gb-york, gb-oxford y gb-stonehenge tienen 4, aunque York y Oxford tienen capítulo propio en Rick Steves y Stonehenge sale en los imprescindibles de Fodor's y Rough Guides. Aplica un mismo criterio: o el itinerario cuenta como top pick en todos los lugares, o en ninguno. Busca la cuarta guía de York, Oxford, Stonehenge y Brú na Bóinne (por ejemplo, Michelin ★★★ en ViaMichelin, como en Cambridge) y súbelos a 5, o baja Kilkenny a 4.",
+                  "Coordenadas con 2 decimales (piden 4): is-circulo-dorado (64.3, -20.52), is-costa-sur-vik (63.45, -19.2), is-snaefellsnes (64.8, -23.4), is-askja (65.03, -16.75), gb-glencoe (56.67, -5.04), gb-isla-de-skye (57.35, -6.2), gb-cornualles (50.17, -5.43), gb-cotswolds (51.88, -1.78), gb-cairngorms (57.08, -3.67), gb-yorkshire-dales (54.25, -2.1), ie-ring-of-kerry (51.93, -10.05), ie-burren-doolin (53.03, -9.25), ie-connemara (53.5, -9.75) e ie-inishowen (55.2, -7.3). Además, la lat de gb-york (53.96) y gb-conwy (53.28) y la lng de ie-islas-aran (-9.7). Da un punto concreto con 4 decimales: Þingvellir o Geysir, Skógafoss, Arnarstapi, Víti, el centro de visitantes de Glencoe, Portree, St Ives, Chipping Campden, Aviemore, Malham, Killarney, Doolin, Clifden y Malin Head.",
+                  "Texto: quita de las justificaciones las notas de proceso como «Solo encontré páginas editoriales de esta guía» (gb-north-york-moors-whitby, gb-hebridas-exteriores) o «No la encontré en las listas nacionales» (gb-brighton). Eso va en notas."
+                ]
+              },
+              "grupo_b": {
+                "nota": 7,
+                "desglose": {
+                  "fuentes": 1,
+                  "exactitud": 1.5,
+                  "criterio": 1.5,
+                  "coherencia": 1,
+                  "descripcion": 2
+                },
+                "aprobado": false,
+                "comentarios": [
+                  "Fuente no confirmada en 2 búsquedas: https://www.fodors.com/world/europe/norway/experiences/news/photos/the-best-things-to-do-in-norway. Es la única prueba de Fodor's en no-lofoten, no-geirangerfjord, no-sognefjord-flam, no-urnes-lustrafjord, no-tromso, no-lysefjord-preikestolen, no-trolltunga, no-alesund, no-trollstigen, no-nordkapp y no-lillehammer. Sustitúyela por la ficha de Fodor's de cada lugar (por ejemplo fodors.com/world/europe/norway/things-to-do, por región) o quita Fodor's y recalcula. Si no aparece otra guía, no-urnes-lustrafjord y no-alesund bajan de 4 a 3, no-trollstigen y no-lillehammer de 3 a 2, y no-trolltunga y no-lysefjord-preikestolen de 5 a 4.",
+                  "Escala mal aplicada en los 5 (top pick en 4+ guías). ee-saaremaa tiene 5, igual que Tallin, con la lista de Rough Guides, dos artículos de island-hopping (LP y NatGeo) y la lista de Fodor's de 2018 sobre los Bálticos: eso es 'destacado', así que le corresponde 4. se-kalmar tiene 5 con páginas de destino de Frommer's y Fodor's y un artículo de Rick Steves sobre Småland, mientras que se-gotland-visby (UNESCO, en la lista de LP) tiene 4: o se baja Kalmar a 4 o se busca la cuarta guía de Visby y se sube a 5. Cobertura ya avisó de lo de Kalmar.",
+                  "lv-riga cita https://www.timeout.com/news/the-underrated-baltic-capital-just-named-europes-best-value-city-break-052025, que es un resumen de la encuesta de precios de Post Office, no una recomendación de Time Out. No cuenta como guía: busca la página de Time Out Riga o cita otra.",
+                  "Lugares que quedan bajos sin haber buscado: se-are tiene 2 (solo Time Out) siendo la mayor estación de Escandinavia, y fi-nuuksio, fi-koli y fi-oulanka tienen 2 con una sola guía. Busca la ficha de LP o de Rough Guides de cada uno antes de dejarlos en 2 (lección: no se baja sin buscar).",
+                  "Fuentes genéricas contadas como recomendación: Frommer's /destinations/bergen/ se usa para no-sognefjord-flam y no-hardangerfjord, y Rough Guides /norway/sports-outdoor-activities/ para no-jotunheimen y no-hardangervidda. Son páginas de destino o de actividades, no recomendaciones del lugar. Cita la página de cada sitio.",
+                  "Coordenadas con 2 decimales o puntos poco concretos: dk-bornholm (55.15, 14.92; usa Hammershus o Rønne), dk-mar-wadden (55.2, 8.55, en los bajíos; usa Mandø By o Havneby en Rømø), no-hardangervidda (60.1, 7.5; usa el centro de Finse o el de Skinnarbu) y ee-soomaa (58.43, 25.03; usa el centro de visitantes de Tõramaa)."
+                ]
+              }
+            },
+            "cultura-historia": {
+              "grupo_a": {
+                "nota": 8,
+                "desglose": {
+                  "fuentes": 1,
+                  "exactitud": 2,
+                  "criterio": 2,
+                  "coherencia": 1.5,
+                  "descripcion": 1.5
+                },
+                "aprobado": false,
+                "comentarios": [
+                  "Alcance: cultura-historia-a.json (62 puntajes y 7 nuevos de GB/IE/IS), -r2.json (15 de grupo a) y -r3.json (4 puntajes y 4 nuevos). Lo bueno: los Patrimonios Mundiales citan la ficha del sitio en whc.unesco.org (Bath 428, Stonehenge 373, Durham 370, Fountains 372, Muro de Adriano 430, Gwynedd 374, Skellig 757), y los nuevos de r3 citan fuentes oficiales de Historic Environment Scotland, English Heritage y Cadw. Se buscaron 3 URLs: visitbritain.com/en/destinations/cities existe pero es genérica (ver abajo); heritageireland.ie no muestra el catálogo WAW 2026 que citas para ie-carrowmore (dice que «se subirá en breve»), aunque los datos de Carrowmore se confirman en su ficha propia.",
+                  "Fuentes genéricas en puntajes de 4. gb-cambridge, gb-liverpool, gb-glasgow y gb-belfast se apoyan en la misma página de ciudades de VisitBritain, que en Belfast solo tiene un pie de foto del Titanic. Cita la fuente propia de cada uno: kings.cam.ac.uk o fitzmuseum.cam.ac.uk para Cambridge; liverpoolmuseums.org.uk para Liverpool; burrellcollection o Glasgow Life para Glasgow; titanicbelfast.com para Belfast. gb-stirling y gb-lago-ness-inverness citan la página del Explorer Pass de HES: cita las fichas del castillo de Stirling y del castillo de Urquhart o de Culloden (nts.org.uk). gb-peak-district usa «period drama filming locations» (cita chatsworth.org) y gb-stratford-upon-avon un itinerario de 5 días (cita shakespeare.org.uk). ie-glendalough cita la página genérica de monumentos de ireland.com (cita heritageireland.ie/places-to-visit/glendalough-visitor-centre/). ie-kilkenny, ie-kinsale-cobh, ie-clonmacnoise e ie-carrowmore citan catálogos comerciales en PDF de la OPW. Cita las fichas de heritageireland.ie: castillo de Kilkenny, Charles Fort, Clonmacnoise y heritageireland.ie/places-to-visit/carrowmore-megalithic-cemetery/.",
+                  "gb-canterbury cita whc.unesco.org/document/221016 en lugar de la ficha del bien (whc.unesco.org/en/list/496). gb-wells-glastonbury cita la página de rodajes de la catedral (wellscathedral.org.uk/your-cathedral/filming) y un proyecto de la Universidad de Reading sobre la tumba de Arturo: usa la página de historia de la catedral y glastonburyabbey.com.",
+                  "Coherencia. ie-dublin tiene 5, como Edimburgo, Bath, York y Londres, sin Patrimonio Mundial, mientras gb-canterbury (catedral madre anglicana, Patrimonio Mundial) y gb-durham (catedral y castillo, Patrimonio Mundial, «el mayor monumento normando») tienen 4. Sube Canterbury y Durham a 5, o justifica Dublín frente a ellos. gb-oxford llega a 5 por Blenheim, a 13 km y sin fusionar. Cambridge (4), con King's College Chapel ★★★, queda por debajo con un perfil parecido: o los dos 5 o los dos 4, y Blenheim no puede ser el motivo.",
+                  "Texto: en gb-hebridas-exteriores, «aunque el centro de visitantes estuvo cerrado por obras» no tiene fecha y deja al lector sin saber si está abierto. Comprueba el estado en historicenvironment.scot y escríbelo con fecha o quítalo. Varias justificaciones de r3 pasan de 2 frases (gb-north-york-moors-whitby, gb-cardiff y gb-costa-northumberland, con más de 400 caracteres)."
+                ]
+              },
+              "grupo_b": {
+                "nota": 8,
+                "desglose": {
+                  "fuentes": 1,
+                  "exactitud": 2,
+                  "criterio": 1.5,
+                  "coherencia": 1.5,
+                  "descripcion": 2
+                },
+                "aprobado": false,
+                "comentarios": [
+                  "URL equivocada: lv-riga y lt-kernave citan https://whc.unesco.org/en/review/43, que no es la ficha de ninguno de los dos. Cita https://whc.unesco.org/en/list/852 (Centro histórico de Riga) y https://whc.unesco.org/en/list/1137 (Kernavė).",
+                  "La lección pide la ficha UNESCO del sitio, no otros documentos. Cambia: no-roros (uploads/nominations/55bis.pdf → /en/list/55), fi-rauma (document/153809 → /en/list/582), no-alta (documents/110688 → /en/list/352), ee-tallinn (document/217752 → /en/list/822), dk-helsingor-louisiana (/en/list/696/maps y documents/169912 → /en/list/696), se-laponia-jokkmokk (advisory_body_evaluation/774.pdf → /en/list/774) y fi-verla (PDF del Comité de 2014 → /en/list/751).",
+                  "Puntajes de 4 con fuentes genéricas que no nombran el lugar: se-kalmar (visitsweden history-museums-in-sweden), no-trondheim (visitnorway trondheim/winter), ee-tartu (visitestonia what-to-do/museums), dk-ribe (visitdenmark things-do/history-culture). Lo mismo pasa con los 3 de no-stavanger (visitnorway museums) y lv-gauja-sigulda (latvia.travel/en/museums). Cita la página oficial del castillo de Kalmar, de la catedral de Nidaros, del Museo Nacional de Estonia, de Ribe/VikingeCenter, de Gamle Stavanger y de la reserva museo de Turaida.",
+                  "Coherencia: dk-helsingor-louisiana tiene c5, igual que Copenhague, y por encima de no-bergen (c4, Bryggen UNESCO más KODE) y no-trondheim (c4, Nidaros). Un castillo UNESCO, un palacio y un museo de arte en tres pueblos distintos no superan a Bergen. Deja Helsingør en 4 o sube Bergen a 5 con fuente. Revisa también se-gotemburgo c2, con el Konstmuseum, Röhsska y Universeum; un 3 con fuente sería más coherente con Malmö y Lund.",
+                  "Dato por confirmar en se-lund: 'la iglesia más visitada de Suecia' no tiene fuente. Cítala o quítala."
+                ]
+              }
+            },
+            "naturaleza": {
+              "grupo_a": {
+                "nota": 8.5,
+                "desglose": {
+                  "fuentes": 1.5,
+                  "exactitud": 2,
+                  "criterio": 1.5,
+                  "coherencia": 1.5,
+                  "descripcion": 2
+                },
+                "aprobado": false,
+                "comentarios": [
+                  "Alcance: naturaleza-a.json (62 puntajes y 3 nuevos), -r2.json (8 correcciones y 21 cruces de grupo a) y -r3.json (4 puntajes y 3 nuevos). Lo bueno: fuentes oficiales en casi todo (nationalparks.ie, ust.is, vatnajokulsthjodgardur.is, fi.is, National Trust, autoridades de parques), con datos concretos y correctos (Moher, unos 214 m; Skógafoss, unos 60 m; Slieve League, unos 600 m). Se buscaron 3 URLs y las 3 se confirmaron: east.is/en/place/gufufoss-waterfall, nationalgeographic.com/travel/article/north-york-moors-england y bradtguides.com/5-fantastic-beaches-in-the-outer-hebrides/.",
+                  "Lección incumplida en r1: dejaste 8 lugares en 2 «por falta de fuente» aunque decías que merecían más (gb-glencoe, gb-cairngorms, gb-pembrokeshire-st-davids, gb-cornualles, ie-peninsula-de-dingle, gb-lago-ness-inverness, gb-muro-adriano, is-seydisfjordur). Se corrigió en r2, pero la regla es buscar antes de bajar.",
+                  "Coherencia entre parques. gb-snowdonia (Eryri, la cumbre más alta de Gales y el parque nacional más visitado del país) tiene 4, igual que Peak District, Yorkshire Dales, North York Moors y Seven Sisters, y por debajo de Glencoe (5), que es un solo valle. Súbelo a 5, o explica por qué es menos que Glencoe. Revisa también gb-cairngorms (4, el mayor parque del Reino Unido, con la meseta ártico-alpina).",
+                  "Fuentes débiles: gb-north-york-moors-whitby cita un blog de YHA (yha.org.uk/blog/…) y la web comercial visitbritain.org, en lugar de northyorkmoors.org.uk. gb-loch-lomond-trossachs usa walkhighlands.co.uk; mejor lochlomond-trossachs.org, que la logística ya cita. gb-cornualles cita ramblers.org.uk; basta con la ficha del National Trust.",
+                  "Texto: en gb-lake-district, «así que no se marca como natural» es una nota interna; va en notas."
+                ]
+              },
+              "grupo_b": {
+                "nota": 7.5,
+                "desglose": {
+                  "fuentes": 1,
+                  "exactitud": 1.5,
+                  "criterio": 1.5,
+                  "coherencia": 1.5,
+                  "descripcion": 2
+                },
+                "aprobado": false,
+                "comentarios": [
+                  "Puntajes de 3 o más con artículos de guías como única fuente, en lugar de la web del parque o del turismo oficial (lección de iberica-italia). Puntajes de 4: no-hardangerfjord (LP), se-archipielago-estocolmo (Rick Steves y Rough Guides), dk-bornholm (LP y Fodor's Rønne) y fi-urho-kekkonen-saariselka (LP y Time Out; falta luontoon.fi/en/destinations/urho-kekkonen-national-park). Puntajes de 3: no-bergen, se-dalarna-siljan, se-gota-kanal-vadstena, se-are, se-kiruna-icehotel, se-klaralven-varmland, fi-rovaniemi, fi-turku, fi-aland, ee-hiiumaa, ee-parnu, ee-peipsi, lv-jurmala, lv-kuldiga, lv-daugavpils-latgale, lt-trakai, lt-palanga, lt-druskininkai, lt-delta-nemunas, lt-zemaitija y lt-anyksciai. Busca la web del parque nacional (zemaitijosnp.lt, dzukijosparkas.lt, nemunodelta.lt, Trakai HNP, Rāzna NP) o del turismo regional y cítala.",
+                  "no-hardangervidda cita la lista general de norgesnasjonalparker.no. Cita la página del parque o la del centro de visitantes de Skinnarbu.",
+                  "Exactitud: en se-fulufjallet, la web del parque dice que Njupeskär es 'una de las cascadas más altas de Suecia' (93 m) con la mayor caída libre del país (70 m), no 'la más alta'. En se-abisko-kungsleden, el Kungsleden mide unos 440 km, no 'más de 450'.",
+                  "Coherencia entre países: Dinamarca tiene tres n5 (dk-mons-klint, dk-mar-wadden y dk-skagen, este último subido en r3) y Finlandia ninguno: fi-oulanka, fi-urho-kekkonen-saariselka, fi-lemmenjoki y fi-saimaa tienen 4. Skagen (Grenen y Råbjerg Mile) con 5, igual que Geiranger, Lofoten o Svalbard, está por encima de su nivel. O bajas Skagen a 4 y argumentas Møns Klint y Wadden, o subes a 5 el gran parque de Laponia o de los lagos de Finlandia (Oulanka, con el Karhunkierros, o Urho Kekkonen), con fuente oficial."
+                ]
+              }
+            },
+            "gastronomia-vino": {
+              "grupo_a": {
+                "nota": 7.5,
+                "desglose": {
+                  "fuentes": 1.5,
+                  "exactitud": 1.5,
+                  "criterio": 2,
+                  "coherencia": 1,
+                  "descripcion": 1.5
+                },
+                "aprobado": false,
+                "comentarios": [
+                  "Alcance: gastronomia-vino-a.json (62 puntajes y 6 nuevos), -r2.json (13 de grupo a) y -r3.json (7). Lo bueno: fichas de la Guía Michelin para los puntajes altos, 50 Best Discovery para Ballymaloe y DOP para el pasty y el espumoso de Sussex. Se buscaron 4 URLs. Confirmadas 3: la lista de travelextra.ie (Chapter One, Liath y Patrick Guilbaud con dos estrellas y Forest Avenue nueva en 2026), la nota de michelin.com de 2026 (10 triestrellados, ninguno nuevo) y la de Time Out sobre Belfast. Esta última es de noviembre de 2023 y trata del cierre de Deanes Eipic, no de OX: no sirve para respaldar OX. Cita guide.michelin.com/…/belfast/restaurant/ox.",
+                  "Error de dato en gb-lake-district: «único triestrellado británico fuera de Londres y el sureste» es falso. Moor Hall (Aughton, Lancashire) tiene tres estrellas desde la guía de 2025 y en la de 2026 fue nombrado el mejor restaurante del Reino Unido. Corrige la frase.",
+                  "Incoherencia por ese mismo dato: Moor Hall está a unos 18 km del centro de Liverpool, pero gb-liverpool tiene gastronomía 2. Con la misma regla que usaste en Windsor-Bray (8 km, 5), Oxford-Le Manoir (13 km) y Cambridge-Midsummer House, Liverpool debe subir a 4 o 5 citando guide.michelin.com (Moor Hall). Además, is-reikiavik (3, la capital y la mayor oferta del país, con varios restaurantes de la Guía Michelin) no puede igualar a is-laguna-azul (3, un solo restaurante): sube Reikiavik a 4 si confirmas sus estrellas en guide.michelin.com/is.",
+                  "Fuentes débiles: gb-oban-mull-iona cita un blog de oban.org.uk; gb-oxford, la sala de prensa de Belmond y la web de la Craft Guild of Chefs (cita guide.michelin.com/…/le-manoir-aux-quat-saisons); gb-londres, una página corporativa de michelin.com en lugar de la guía.",
+                  "Texto: quita la nota interna de gb-st-andrews: «En 2025 salió a la venta, así que conviene confirmar que sigue abierto». Confírmalo y escríbelo, o cambia de restaurante. Las coletillas «Algo de interés.» y «Poca oferta.» se repiten en una veintena de justificaciones y no aportan nada: sustitúyelas por el producto o el dato concreto."
+                ]
+              },
+              "grupo_b": {
+                "nota": 8.5,
+                "desglose": {
+                  "fuentes": 1.5,
+                  "exactitud": 1.5,
+                  "criterio": 2,
+                  "coherencia": 1.5,
+                  "descripcion": 2
+                },
+                "aprobado": false,
+                "comentarios": [
+                  "Error de dato en dk-copenhague: en la guía nórdica 2026, los tres restaurantes de tres estrellas de Copenhague son Geranium, Jordnær y Kadeau, no noma. Corrige la justificación y cambia la fuente https://guide.michelin.com/kr/en/capital-region/copenhagen/restaurant/noma por la ficha de Jordnær. El error pasó al por_que final, así que hay que avisar al curador.",
+                  "se-kalix tiene 4, igual que Helsinki, Riga o Vilna, por un solo producto, la löjrom DOP, y solo cita TasteAtlas. Bájalo a 3 o cita además el registro DOP de la UE (eAmbrosia) y algún restaurante reconocido de la zona.",
+                  "no-hardangerfjord (4) y se-bohuslan (4) solo citan TasteAtlas. La lección pide el consejo regulador o la denominación: cita la DOP 'Sider fra Hardanger' (Matmerk o eAmbrosia, o la web de la Hardanger Siderrute) y el turismo de Grebbestad o Västsverige para las ostras.",
+                  "no-vesteralen-andenes cita para Kvitnes Gård una nota de prensa de mynewsdesk y globaltravelerusa. La estrella está confirmada, pero hay que citar la ficha de guide.michelin.com o el artículo de la ceremonia de 2026.",
+                  "fi-inari (3) cita la lista genérica 'best-rated dishes in northern Finland' de TasteAtlas. Cita algo del propio Inari, como la cocina sami de Siida o un restaurante de la guía o del turismo de Inari.",
+                  "Coherencia: no-stavanger (4, con RE-NAA de tres estrellas) queda igual que dk-henne-kirkeby-kro (4, un solo dos estrellas) y dk-bornholm (4, una estrella). O Stavanger sube a 5 por su tres estrellas, como Oslo y Estocolmo, o se explica por qué un tres estrellas no basta."
+                ]
+              }
+            },
+            "adrenalina": {
+              "grupo_a": {
+                "nota": 7,
+                "desglose": {
+                  "fuentes": 1.5,
+                  "exactitud": 2,
+                  "criterio": 1,
+                  "coherencia": 1,
+                  "descripcion": 1.5
+                },
+                "aprobado": false,
+                "comentarios": [
+                  "Alcance: adrenalina-a.json (62 puntajes y 2 nuevos), -r2.json (21 de grupo a) y -r3.json (7). Todas las distancias coinciden con las coordenadas y ninguna pasa de 60 km. Se buscaron 2 URLs y se confirmaron las 2: honister.com/honister-infinity-bridge-named-cumbrias-experience-of-the-year-2023/ y troll.is/silfra-iceland/.",
+                  "Regla de 60 km: lugares en 1 «sin operador verificable» que tienen oferta oficial a pocos kilómetros, encontrada con una sola búsqueda. gb-calzada-del-gigante tiene a Causeway Coasteering en Portrush, a unos 10 km (discovernorthernireland.com/things-to-do/causeway-coasteering-p703821): como St Davids con TYF, debería tener 3 o 4. is-fiordos-del-oeste tiene la estación de esquí de Tungudalur, a 8 min de Ísafjörður (westfjords.is/en/service/tungudalurseljalandsdalur-ski-area): 3. is-seydisfjordur tiene la estación de Stafdalur, a 8 km (east.is/en/service/stafdalur-skiing-area): 2-3. ie-peninsula-de-dingle e ie-ring-of-kerry tienen la escuela de surf de Inch (discoverireland.ie/kerry/offshore-surf-school), a menos de 30 km de los dos: 3. Añade esas actividades con su URL y recalcula.",
+                  "gb-windsor: le faltan Legoland Windsor, que está en el propio Windsor, y la regla de «máximo 2» por ser una visita de castillo. Windsor es una ciudad, no un monumento, así que el tope no se aplica. Añade Legoland Windsor (legoland.co.uk) a las actividades. El 4 final, heredado de Bray, es correcto, pero tiene que salir de tu puntaje de Windsor.",
+                  "Coherencia en Islandia: is-circulo-dorado tiene 5 (Silfra y rafting), pero is-jokulsarlon tiene 3 aunque las cuevas de hielo y las caminatas por el Breiðamerkurjökull salen de la propia laguna. Cita un operador con salida desde Jökulsárlón y súbelo a 4. Pon el Círculo Dorado en 4, o justifica el 5 con una actividad de clase mundial adicional (motonieve en el Langjökull, a menos de 60 km de Gullfoss). gb-glasgow (2): M&D's queda a 16 km, y Go Ape Aberfoyle, que ya citas para Loch Lomond, a unos 35 km. Revisa si llega a 3.",
+                  "Fuentes: Nevis Range se cita con visitscotland.com/de-de (cita nevisrange.co.uk); el coasteering de TYF, con visitwales.com (cita tyf.com); y Blackpool Pleasure Beach, con una página de 2018 de visitblackpool.com (cita blackpoolpleasurebeach.com o rcdb.com).",
+                  "Texto: frases como «Es una abadía, así que el puntaje no pasa de 2» (gb-fountains-abbey, gb-ironbridge, ie-carrowmore, is-glaumbaer) explican la regla en vez de describir la oferta. Van en notas."
+                ]
+              },
+              "grupo_b": {
+                "nota": 7,
+                "desglose": {
+                  "fuentes": 1.5,
+                  "exactitud": 2,
+                  "criterio": 1,
+                  "coherencia": 1,
+                  "descripcion": 1.5
+                },
+                "aprobado": false,
+                "comentarios": [
+                  "Actividades a 60 km o menos que faltan, todas con web oficial o de turismo oficial. (1) Līvu Akvaparks, en Lielupe (Jūrmala), es el mayor parque acuático cubierto del Báltico, con más de 20 toboganes y abierto todo el año (visitjurmala.lv/en/seasonal-offers/health/waterpark-livu-akvaparks/; web akvaparks.lv): lv-jurmala pasa de 1 a 3 como mínimo, y suma también para lv-riga (unos 25 km) y lv-kemeri (con el tope de 3). (2) Kongeparken, en Ålgård, tiene dos montañas rusas y una torre de caída de 80 m (rcdb.com/4725.htm; fjordnorway.com/en/attractions/kongeparken), a unos 23-25 km: no-stavanger pasa de 1 a 3 y no-lysefjord-preikestolen de 1 a 3. (3) La Trolltunga Via Ferrata de Trolltunga Active está en el propio sendero (visitnorway.com/listings/trolltunga-via-ferrata-trolltunga-active/18742/): no-trolltunga pasa de 2 a 4, porque la actividad está en el lugar. (4) Tromsø Alpinpark, con 5 pistas a 10 minutos del centro (visittromso.no/partner/tromso-alpinpark): no-tromso pasa de 1 a 2.",
+                  "La lección dice que no se baja un puntaje sin buscar. Las notas de adrenalina-b reconocen que no se buscaron, o no aparecieron, Kongeparken, Hafjell y el Galdhøpiggen Sommerskisenter, y la r2 no los retomó. Busca también para se-dalarna-siljan, que tiene 1 con Grönklitt (Orsa) y Romme Alpin cerca; lt-vilnius y lt-kaunas, ambos con 1 (paracaidismo en Pociūnai y otros operadores), y no-jotunheimen (esquí de verano del Galdhøpiggen). Añade Hafjell a no-lillehammer en adrenalina_cerca.",
+                  "Coherencia: ee-parnu tiene 3 por Tervise Paradiis y lv-jurmala tiene 1 aunque tiene un parque acuático mayor en el propio municipio. no-trolltunga tiene 2 mientras no-jostedalsbreen tiene 3 por una vía ferrata a 22 km, cuando Trolltunga tiene la suya en el sendero.",
+                  "Fuentes débiles: Liseberg se acredita con una nota de prensa de 2014 en mynewsdesk (cita liseberg.com) y SkiStar Åre con un PDF de prensa de 2010-2011 (cita skistar.com/en/ski-destinations/are). Legoland Billund se acredita con la página de Lalandia: cita legoland.dk.",
+                  "Notas internas en las justificaciones: 'El puntaje es conservador' (no-fredrikstad, r3), 'no se acredita porque no apareció su web oficial' (fi-kuopio, fi-yllas-pallas y fi-urho-kekkonen-saariselka en b) y 'no se acreditó con web oficial' (no-svalbard, dk-thy-klitmoller, no-jotunheimen). Pásalas a notas."
+                ]
+              }
+            },
+            "logistica-temporada": {
+              "grupo_a": {
+                "nota": 9,
+                "desglose": {
+                  "fuentes": 1.5,
+                  "exactitud": 1.5,
+                  "criterio": 2,
+                  "coherencia": 2,
+                  "descripcion": 2
+                },
+                "aprobado": false,
+                "comentarios": [
+                  "Alcance: logistica-temporada-a.json (80 entradas de GB/IE/IS) y -r3.json (16 de grupo a). Lo bueno: todos los campos completos; avisos de EE. UU., Canadá y el FCDO por país; alertas prácticas útiles (Reynisfjara, calzada de Lindisfarne, carreteras F, Skellig, Durdle Door); meses sensatos (Cairngorms con enero y febrero por el esquí, Tierras Altas solo julio y agosto). En r3 se arreglaron 13 lugares que solo citaban avisos de viaje. Se buscaron 3 URLs: la página de la ruta 183 de TFI existe, pero está desfasada (ver abajo); la de Avanti para Liverpool es la de una jornada de puertas abiertas universitaria; y para la Laguna Azul no hay erupciones en 2026, así que la alerta prudente es razonable.",
+                  "ie-glendalough: el acceso está desfasado. Desde el 4 de diciembre de 2025, la ruta 183 de TFI Local Link va solo de Arklow a Glendalough, con unas 7 salidas diarias, y la nueva 895 une Glendalough con Sallins por Blessington. Ya no son «cuatro al día» por Wicklow y Roundwood. Cita el horario vigente (transportforireland.ie/wp-content/uploads/2025/12/TFI-LL-R183-Sallins-to-Arklow-Nov25-FA-WEB.pdf) en lugar de la noticia de 2022.",
+                  "gb-liverpool cita avantiwestcoast.co.uk/liverpool-john-moores-university-open-day, que no tiene que ver con el viaje: cita avantiwestcoast.co.uk/where-we-go/destination-guides/liverpool, que da unas 2 h 30 (tú pones 2 h 20).",
+                  "Quedan accesos con fuentes genéricas o sin operador. gb-windsor solo cita la página genérica de horarios de GWR (cita gwr.com/…/trains-to-windsor o la de South Western Railway para Waterloo-Riverside). gb-cardiff cita la misma página genérica de GWR y el aviso de EE. UU. gb-seven-sisters no cita el bus costero (Brighton & Hove Buses 12/12X) que nombra en el acceso. gb-north-york-moors-whitby se apoya en una noticia local y en un evento de Visit York (cita nymr.co.uk y northyorkmoors.org.uk). En IE, ocho lugares citan solo la página genérica de horarios por ruta de Irish Rail (ie-kilkenny, ie-galway, ie-kinsale-cobh, ie-achill, ie-carrowmore, ie-ballymaloe-east-cork, ie-connemara, ie-peninsula-de-dingle). Añade la ficha de turismo oficial o del operador de bus (Bus Éireann, TFI Local Link, Discover Ireland) que respalde el tramo final."
+                ]
+              },
+              "grupo_b": {
+                "nota": 8,
+                "desglose": {
+                  "fuentes": 1,
+                  "exactitud": 1.5,
+                  "criterio": 1.5,
+                  "coherencia": 2,
+                  "descripcion": 2
+                },
+                "aprobado": false,
+                "comentarios": [
+                  "Hay 21 lugares que solo citan guías o avisos de viaje para el acceso y la temporada, y la lección de francia-alpes pide la web del operador o del turismo oficial. Son lt-vilnius, lt-trakai, lt-kaunas, lt-colina-cruces, lt-aukstaitija, lt-druskininkai, lt-dzukija, lt-delta-nemunas, lt-zemaitija, lt-anyksciai, lv-ventspils, lv-liepaja-karosta, lv-kolka, lv-daugavpils-latgale, ee-kihnu, fi-porvoo, fi-nuuksio, dk-thy-klitmoller, se-uppsala, se-halsingland y se-kalix. En Lituania son 10 de 13. Cita, por ejemplo, ltglink.lt o traukiniobilietas.lt (trenes LTG), govilnius.lt, visit.kaunas.lt, trakai-visit.lt, visitdruskininkai.lt, visitventspils.com, liepaja.travel, visitkihnu.ee o la naviera Kihnu Veeteed, visitporvoo.fi, luontoon.fi/nuuksio, SJ/UL para Uppsala, Norrbotten (Länstrafiken) para Kalix, X-trafik para Hälsingland y Thy Turistbureau.",
+                  "se-oland (r3) cita para el acceso a Öland la página de Visit Sweden sobre Glasriket, que no trata de cómo llegar. Cita oland.se o la página de transporte de Kalmar Länstrafik.",
+                  "Avisos de EE. UU. con la URL antigua (/content/travel/en/traveladvisories/...) para NO, DK, LV y LT, y la página de información del país en vez del aviso para EE. Usa el formato vigente https://travel.state.gov/en/international-travel/travel-advisories/<país>.html, como ya haces para SE y FI.",
+                  "Exactitud: ee-narva da 'unas 2 h 20, 5 trenes al día', pero las fuentes dan unas 3 h y avisan de obras de electrificación Tapa–Narva hasta 2027. Cita elron.ee y menciona las obras. En no-bergen, '6-7 salidas al día' en la Bergensbanen no se confirma: las fuentes dan 4-5 diurnos más el nocturno. Cita el horario de Vy."
+                ]
+              }
+            },
+            "curador": {
+              "grupo_a": {
+                "nota": 7.5,
+                "desglose": {
+                  "fuentes": 1.5,
+                  "exactitud": 1.5,
+                  "criterio": 1.5,
+                  "coherencia": 1.5,
+                  "descripcion": 1.5
+                },
+                "aprobado": false,
+                "comentarios": [
+                  "Alcance: los 83 lugares de GB, IE e IS en data/lugares/europa.json, más curador.json y curador-ajustes.json (grupo_a y ronda3). La fórmula global y el nivel son correctos en los 83. Lecciones aplicadas: se buscaron las guías de todos los nuevos, sin foros, agregadores ni nonprod.lonelyplanet.com; las fusiones Windsor + Bray (8 km), Seven Sisters + viñedos de Sussex y Kinsale-Cobh + Cork están justificadas; y no partir Leinster es correcto (construir-app.mjs completa el cupo). Se confirmó la ficha de Lonely Planet de Clonmacnoise (lonelyplanet.com/pois/1017545, Top choice de los Midlands).",
+                  "Coordenadas: en notas dices «Se revisaron las 79; todas caen en su lugar», pero 18 lugares tienen 2 o 3 decimales (la lista está en el comentario de guias-expertas: is-circulo-dorado, is-costa-sur-vik, is-snaefellsnes, is-askja, gb-glencoe, gb-isla-de-skye, gb-cornualles, gb-cotswolds, gb-cairngorms, gb-yorkshire-dales, ie-ring-of-kerry, ie-burren-doolin, ie-connemara, ie-inishowen, más la lat de gb-york y gb-conwy, la de ie-rock-of-cashel y la lng de ie-islas-aran). Corrígelas con 4 decimales al re-curar.",
+                  "Guías que no se contaron con las fuentes del propio lugar: gb-hebridas-exteriores cita Bradt y National Geographic y gb-north-york-moors-whitby cita National Geographic, pero las dos tienen guias 2. Recalcula: Hebrides, 4 (global 3,1 → 3,9); North York Moors, 3 o 4.",
+                  "Fuentes de guías de segunda mano en gb-orcadas-neolitico: «Rick Steves (columna sindicada)» en luxurytraveladvisor.com y la Travelist de LP citada por Visit Orkney. Con solo la guía de LP, Orkney queda en 2. Busca la página de Rick Steves (ricksteves.com/europe/scotland/orkney) o Frommer's para sostener el 3. Lo mismo con gb-seven-sisters («Rough Guides vía la autoridad del parque»): busca la página propia de Rough Guides.",
+                  "gb-windsor: la adrenalina 4 depende de Thorpe Park y Legoland, pero adrenalina_cerca solo lista Thorpe Park y Chessington. Añade Legoland Windsor cuando adrenalina lo corrija. En por_que, quita «que hay que reservar con mucha antelación», que es un consejo de logística, o déjalo en acceso.",
+                  "Texto: los por_que son concretos y están en buen español. Dos detalles. En gb-hebridas-exteriores, «aunque el centro de visitantes estuvo cerrado por obras» va sin fecha. Y 16 lugares quedan con platos vacío (ie-acantilados-de-moher, ie-bru-na-boinne, ie-glendalough, is-askja, is-landmannalaugar, gb-glencoe, gb-stonehenge, entre otros). Si no hay plato local, deja la lista vacía de forma consistente. Si lo hay (por ejemplo, el cordero de Kerry o el plokkfiskur en las paradas de la ruta 1), complétalo."
+                ]
+              },
+              "grupo_b": {
+                "nota": 8,
+                "desglose": {
+                  "fuentes": 1.5,
+                  "exactitud": 1.5,
+                  "criterio": 1.5,
+                  "coherencia": 1.5,
+                  "descripcion": 2
+                },
+                "aprobado": false,
+                "comentarios": [
+                  "dk-copenhague: el por_que publicado dice 'tres restaurantes de tres estrellas Michelin en 2026 (noma, Geranium y Kadeau)'. Lo correcto es Geranium, Jordnær y Kadeau. Cambia también la fuente de noma.",
+                  "Puntaje de guías de lugares nuevos con fuentes que no son recomendaciones. no-senja tiene 4 con la página de hoteles de Fodor's (/senja/hotels); usa la ficha /senja o déjalo en 3. dk-jelling tiene 4 con una noticia de arqueología de NatGeo Premium sobre la reina Thyra; sin ella le corresponde 3. Además, con 4 queda por encima de dk-ribe (3), que está en la lista de LP. dk-djurs-sommerland cita un artículo de Time Out sobre un parque acuático británico; confirma que nombra a Djurs Sommerland o quítalo.",
+                  "Coordenadas: corregiste fi-kvarken, que caía en el mar, pero dk-mar-wadden (55.2, 8.55) también cae en los bajíos entre Mandø y Rømø. Muévelo a Mandø By (55.279, 8.556) o a Havneby, en Rømø.",
+                  "En las fusiones, lv-gauja-sigulda perdió el bungee del teleférico en adrenalina_cerca (solo queda el bobsleigh), aunque el por_que lo menciona. Añádelo.",
+                  "se-kalmar sigue con guias 5 por encima de se-gotland-visby (4). Cobertura ya lo avisó y el curador no lo resolvió: se arregla con la corrección de guias-expertas."
+                ]
+              }
+            }
+          },
+          "paises": {
+            "GB": {
+              "nota": 7.6,
+              "revision_pendiente": false,
+              "comentario": "Promedio de los 7 agentes: 7,8. Baja por concentrar los fallos de más peso. Guías: York, Oxford y Stonehenge en 4 frente a Cotswolds y Cambridge en 5; Canterbury en 2 sin volver a buscar; Hébridas y North York Moors en 2 con Bradt, NatGeo y Frommer's a mano. Adrenalina: Calzada del Gigante en 1 con Causeway Coasteering a 10 km; Legoland Windsor sin listar. Gastronomía: el dato falso de L'Enclume y Liverpool en 2 con Moor Hall a 18 km. Cultura: cuatro ciudades con 4 apoyadas en la misma página genérica de VisitBritain. Además, 10 lugares con coordenadas de 2 o 3 decimales."
+            },
+            "IE": {
+              "nota": 7.6,
+              "revision_pendiente": false,
+              "comentario": "Restan Kilkenny (guías 5) por encima de Brú na Bóinne (4) y de la Roca de Cashel (3, imprescindible para LP y en Best in Travel 2026); Dingle y Ring of Kerry en adrenalina 1 con la escuela de surf de Inch; el acceso a Glendalough con la ruta 183 desfasada; ocho lugares con solo la página genérica de Irish Rail; fuentes de cultura en catálogos PDF de la OPW; y 5 lugares con coordenadas de 2 o 3 decimales."
+            },
+            "IS": {
+              "nota": 7.9,
+              "revision_pendiente": false,
+              "comentario": "Naturaleza y logística, muy sólidas, con fuentes oficiales. Restan Rick Steves contado en Húsavík y Seyðisfjörður sin pruebas; adrenalina en 1 en los Fiordos del Oeste (estación de Tungudalur) y en Seyðisfjörður (Stafdalur), y Jökulsárlón (3) frente al Círculo Dorado (5); Reikiavik con gastronomía igual a la Laguna Azul; y 4 lugares con coordenadas de 2 decimales (Círculo Dorado, costa sur, Snæfellsnes y Askja)."
+            },
+            "NO": {
+              "nota": 7.8,
+              "revision_pendiente": false,
+              "detalle": "Guías 6.5 (la URL de Fodor's sin confirmar en 11 lugares; Senja con la página de hoteles), cultura 8.5 (Røros con el PDF de nominación, Trondheim y Stavanger con fuentes genéricas), naturaleza 7.5 (Hardangerfjord solo con LP, Hardangervidda con la lista general), gastronomía 9.0, adrenalina 6.5 (faltan Kongeparken, la Trolltunga Via Ferrata y Tromsø Alpinpark), logística 8.5 (Bergensbanen y URL antigua del aviso de EE. UU.) y curador 8.0."
+            },
+            "SE": {
+              "nota": 7.8,
+              "detalle": "Guías 7.0 (Kalmar 5 frente a Visby 4, Åre 2 sin buscar), cultura 8.0 (Kalmar con fuente genérica, Lund sin fuente), naturaleza 7.5 (archipiélago y varios 3 solo con guías, Njupeskär), gastronomía 8.0 (Kalix 4, Bohuslän solo con TasteAtlas), adrenalina 8.0 (Dalarna sin buscar), logística 7.5 (Uppsala, Hälsingland y Kalix sin fuente oficial, Öland con fuente que no viene al caso) y curador 8.5.",
+              "revision_pendiente": false
+            },
+            "FI": {
+              "nota": 8.1,
+              "revision_pendiente": false,
+              "detalle": "Guías 8.0 (Nuuksio, Koli y Oulanka con 2 sin buscar), cultura 8.0 (Rauma y Verla sin la ficha UNESCO), naturaleza 7.0 (Urho Kekkonen y cuatro 3 solo con guías; ningún 5 frente a los tres de DK), gastronomía 8.5 (Inari con fuente genérica), adrenalina 8.5 (Laponia bien corregida en r2), logística 8.0 (Porvoo y Nuuksio) y curador 8.5."
+            },
+            "DK": {
+              "nota": 7.7,
+              "revision_pendiente": false,
+              "detalle": "Guías 7.0 (Jelling 4 frente a Ribe 3, coordenadas de Bornholm y Wadden), cultura 8.0 (Helsingør 5, Ribe con fuente genérica), naturaleza 7.5 (Skagen 5, Bornholm solo con guías), gastronomía 7.0 (el error de noma, Henne 4 frente a Stavanger), adrenalina 8.5, logística 8.5 (Thy) y curador 7.5 (noma en el por_que, Wadden en el mar, Time Out sobre un parque británico en Djurs)."
+            },
+            "EE": {
+              "nota": 8.1,
+              "revision_pendiente": false,
+              "detalle": "Guías 7.0 (Saaremaa 5, igual que Tallin), cultura 8.0 (Tallin sin la ficha UNESCO, Tartu con fuente genérica), naturaleza 8.0 (Hiiumaa, Pärnu y Peipsi solo con guías), gastronomía 9.0, adrenalina 8.5, logística 8.0 (Kihnu, duración del tren a Narva, página de información del país en vez del aviso) y curador 8.5."
+            },
+            "LV": {
+              "nota": 7.6,
+              "revision_pendiente": false,
+              "detalle": "Guías 7.5 (Time Out de Riga es una encuesta de precios), cultura 7.0 (Riga con una URL de UNESCO equivocada, Gauja con fuente genérica), naturaleza 7.5 (Jūrmala, Kuldīga y Daugavpils solo con guías), gastronomía 9.0, adrenalina 6.5 (falta Līvu Akvaparks en Jūrmala, Riga y Ķemeri), logística 7.0 (4 lugares solo con guías) y curador 8.5 (falta el bungee en Gauja)."
+            },
+            "LT": {
+              "nota": 7.6,
+              "revision_pendiente": false,
+              "detalle": "Guías 8.0, cultura 7.5 (Kernavė con una URL de UNESCO equivocada), naturaleza 7.0 (Trakai, Nemunas, Žemaitija, Druskininkai, Anykščiai y Palanga solo con guías), gastronomía 9.0, adrenalina 7.5 (Vilna y Kaunas en 1 sin más búsqueda), logística 6.0 (10 de 13 lugares solo con guías o avisos) y curador 8.5."
+            }
+          }
+        }
+      ]
     }
   }
 }

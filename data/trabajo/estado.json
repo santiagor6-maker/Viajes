@@ -1,7 +1,7 @@
 {
   "pausado": false,
   "subregion": "britanicas-nordicos",
-  "paso": "revisor",
+  "paso": "correcciones",
   "ronda": 3,
   "orden_subregiones": [
     "iberica-italia",
@@ -190,6 +190,12 @@
       "subregion": "britanicas-nordicos",
       "paso": "huecos",
       "resultado": "Ronda 3: 9 lugares nuevos (Cardiff, Northumberland, Brighton, North York Moors, St Andrews, Hébridas, Loch Lomond, Sørlandet, Fredrikstad) + correcciones (Cambridge guías 5, Cotswolds, Ålesund, Porvoo, Skagen) + 11 fuentes oficiales de logística. Curador: 211 lugares; validador sin errores; republicado (versión 14). Siguiente: revisor ronda 1"
+    },
+    {
+      "fecha": "2026-11-02",
+      "subregion": "britanicas-nordicos",
+      "paso": "revisor",
+      "resultado": "Ronda revisor 1: 0/7 agentes ≥9.5 (a: 7.0–9.0; b: 7.0–8.5). Países: GB 7.6, IE 7.6, IS 7.9, NO 7.8, SE 7.8, FI 8.1, DK 7.7, EE 8.1, LV 7.6, LT 7.6. Siguiente: correcciones fix1 (ronda 4), 6 especialistas; los puntos del curador se aplican en el paso curador"
     }
   ],
   "ronda_revisor": 1,
