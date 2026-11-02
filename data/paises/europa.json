@@ -264,111 +264,111 @@
       "iso": "GB",
       "nombre": "Reino Unido",
       "subregion": "britanicas-nordicos",
-      "total_lugares": 0,
+      "total_lugares": 40,
       "excepcion_minimo": false,
       "justificacion": null,
       "nota_revisor": null,
       "revision_pendiente": false,
-      "estado": "sin_investigar"
+      "estado": "investigado"
     },
     {
       "iso": "IE",
       "nombre": "Irlanda",
       "subregion": "britanicas-nordicos",
-      "total_lugares": 0,
+      "total_lugares": 21,
       "excepcion_minimo": false,
       "justificacion": null,
       "nota_revisor": null,
       "revision_pendiente": false,
-      "estado": "sin_investigar"
+      "estado": "investigado"
     },
     {
       "iso": "IS",
       "nombre": "Islandia",
       "subregion": "britanicas-nordicos",
-      "total_lugares": 0,
+      "total_lugares": 15,
       "excepcion_minimo": false,
       "justificacion": null,
       "nota_revisor": null,
       "revision_pendiente": false,
-      "estado": "sin_investigar"
+      "estado": "investigado"
     },
     {
       "iso": "NO",
       "nombre": "Noruega",
       "subregion": "britanicas-nordicos",
-      "total_lugares": 0,
+      "total_lugares": 28,
       "excepcion_minimo": false,
       "justificacion": null,
       "nota_revisor": null,
       "revision_pendiente": false,
-      "estado": "sin_investigar"
+      "estado": "investigado"
     },
     {
       "iso": "SE",
       "nombre": "Suecia",
       "subregion": "britanicas-nordicos",
-      "total_lugares": 0,
+      "total_lugares": 25,
       "excepcion_minimo": false,
       "justificacion": null,
       "nota_revisor": null,
       "revision_pendiente": false,
-      "estado": "sin_investigar"
+      "estado": "investigado"
     },
     {
       "iso": "FI",
       "nombre": "Finlandia",
       "subregion": "britanicas-nordicos",
-      "total_lugares": 0,
+      "total_lugares": 19,
       "excepcion_minimo": false,
       "justificacion": null,
       "nota_revisor": null,
       "revision_pendiente": false,
-      "estado": "sin_investigar"
+      "estado": "investigado"
     },
     {
       "iso": "DK",
       "nombre": "Dinamarca",
       "subregion": "britanicas-nordicos",
-      "total_lugares": 0,
+      "total_lugares": 19,
       "excepcion_minimo": false,
       "justificacion": null,
       "nota_revisor": null,
       "revision_pendiente": false,
-      "estado": "sin_investigar"
+      "estado": "investigado"
     },
     {
       "iso": "EE",
       "nombre": "Estonia",
       "subregion": "britanicas-nordicos",
-      "total_lugares": 0,
+      "total_lugares": 11,
       "excepcion_minimo": false,
       "justificacion": null,
       "nota_revisor": null,
       "revision_pendiente": false,
-      "estado": "sin_investigar"
+      "estado": "investigado"
     },
     {
       "iso": "LV",
       "nombre": "Letonia",
       "subregion": "britanicas-nordicos",
-      "total_lugares": 0,
+      "total_lugares": 11,
       "excepcion_minimo": false,
       "justificacion": null,
       "nota_revisor": null,
       "revision_pendiente": false,
-      "estado": "sin_investigar"
+      "estado": "investigado"
     },
     {
       "iso": "LT",
       "nombre": "Lituania",
       "subregion": "britanicas-nordicos",
-      "total_lugares": 0,
+      "total_lugares": 13,
       "excepcion_minimo": false,
       "justificacion": null,
       "nota_revisor": null,
       "revision_pendiente": false,
-      "estado": "sin_investigar"
+      "estado": "investigado"
     },
     {
       "iso": "DE",

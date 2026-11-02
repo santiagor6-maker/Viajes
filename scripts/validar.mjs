@@ -58,6 +58,9 @@ function kmABorde(pt, g) {
   return min;
 }
 const TOLERANCIA_KM = 25; // costas, islas pequeñas y microestados simplificados a 1:50m
+// territorios que Natural Earth separa del país (sin contorno en los geojson): [lngMin, latMin, lngMax, latMax]
+const EXTRA_BBOX = { FI: [[19.2, 59.6, 21.4, 60.7]] }; // Åland
+const enExtra = ([lng, lat], iso) => (EXTRA_BBOX[iso] || []).some(([a, b, c, d]) => lng >= a && lng <= c && lat >= b && lat <= d);
 
 // ---------- lugares ----------
 const f = criterios.formula_global;
@@ -86,7 +89,8 @@ for (const l of filtrados) {
   if (typeof l.lat !== 'number' || typeof l.lng !== 'number' || Math.abs(l.lat) > 90 || Math.abs(l.lng) > 180) err(id, 'lat/lng inválidos');
   else if (geomPorIso[l.pais_iso]) {
     const pt = [l.lng, l.lat];
-    if (!enGeom(pt, geomPorIso[l.pais_iso])) {
+    if (enExtra(pt, l.pais_iso)) aviso(id, `coordenadas en un territorio sin contorno propio (${l.pais_iso}, tolerado)`);
+    else if (!enGeom(pt, geomPorIso[l.pais_iso])) {
       const d = kmABorde(pt, geomPorIso[l.pais_iso]);
       if (d > TOLERANCIA_KM) err(id, `coordenadas fuera de ${l.pais_iso} (a ${d.toFixed(0)} km del borde)`);
       else if (d > 3) aviso(id, `coordenadas ${d.toFixed(1)} km fuera del contorno de ${l.pais_iso} (tolerado)`);

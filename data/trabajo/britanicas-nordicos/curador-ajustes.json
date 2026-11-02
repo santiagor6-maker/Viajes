@@ -1,0 +1,962 @@
+{
+  "guias": {
+    "gb-alton-towers": {
+      "puntaje": 3,
+      "fuentes": [
+        {
+          "guia": "Time Out",
+          "url": "https://www.timeout.com/uk/attractions/alton-towers"
+        },
+        {
+          "guia": "Time Out (Londres)",
+          "url": "https://www.timeout.com/london/attractions/alton-towers"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/points-of-interest/alton-towers/1213506"
+        }
+      ]
+    },
+    "gb-blackpool-pleasure-beach": {
+      "puntaje": 2,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/england/blackpool/attractions/blackpool-pleasure-beach/a/poi-sig/1220337/358935"
+        }
+      ]
+    },
+    "gb-durham": {
+      "puntaje": 3,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-durham"
+        },
+        {
+          "guia": "Rick Steves (Classroom Europe)",
+          "url": "https://classroom.ricksteves.com/videos/durham-and-england-s-finest-norman-cathedral"
+        }
+      ]
+    },
+    "gb-fountains-abbey": {
+      "puntaje": 3,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/england/attractions/fountains-abbey-studley-royal/a/poi-sig/1218507/358869"
+        },
+        {
+          "guia": "Frommer's",
+          "url": "https://www.frommers.com/destinations/yorkshire-and-the-northeast/attractions/fountains-abbey--studley-royal-park/"
+        }
+      ]
+    },
+    "gb-ironbridge": {
+      "puntaje": 3,
+      "fuentes": [
+        {
+          "guia": "Fodor's",
+          "url": "https://cdn.fodors.com/world/europe/england/stratford-upon-avon-and-the-heart-of-england/places/ironbridge-gorge"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/points-of-interest/museum-of-the-gorge/1029401"
+        }
+      ]
+    },
+    "gb-orcadas-neolitico": {
+      "puntaje": 3,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/guide-to-neolithic-orkney-scotland"
+        },
+        {
+          "guia": "Lonely Planet (Ultimate Travelist, vía Visit Orkney)",
+          "url": "https://visitorkney.com/news/lonely-planet-hitlist"
+        },
+        {
+          "guia": "Rick Steves (columna sindicada)",
+          "url": "https://www.luxurytraveladvisor.com/destinations/remote-rewards-scotland-s-orkney-islands"
+        }
+      ]
+    },
+    "ie-clonmacnoise": {
+      "puntaje": 2,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/pois/1017545"
+        }
+      ]
+    },
+    "ie-carrowmore": {
+      "puntaje": 2,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/ireland/attractions/carrowmore-megalithic-cemetery/a/poi-sig/1219317/1316814"
+        }
+      ]
+    },
+    "gb-speyside": {
+      "puntaje": 2,
+      "fuentes": [
+        {
+          "guia": "Rough Guides",
+          "url": "https://www.roughguides.com/destinations/europe/scotland/northeast-scotland/aberdeenshire-moray/speyside"
+        }
+      ]
+    },
+    "gb-islay": {
+      "puntaje": 2,
+      "fuentes": [
+        {
+          "guia": "Time Out",
+          "url": "https://www.timeout.com/uk/news/the-whisky-famous-scottish-island-that-is-set-to-be-one-of-the-biggest-travel-destinations-in-europe-in-2026-110625"
+        }
+      ]
+    },
+    "ie-ballymaloe-east-cork": {
+      "puntaje": 2,
+      "fuentes": [
+        {
+          "guia": "Condé Nast Traveller (Gold List 2015, vía Hospitality Ireland)",
+          "url": "https://www.hospitalityireland.com/hotel/ballymaloe-house-one-of-world-s-best-hotels-14776"
+        }
+      ]
+    },
+    "gb-costa-jurasica": {
+      "puntaje": 2,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-dorset"
+        }
+      ]
+    },
+    "gb-seven-sisters": {
+      "puntaje": 2,
+      "fuentes": [
+        {
+          "guia": "Rough Guides (vía Autoridad del Parque Nacional de los South Downs)",
+          "url": "https://www.southdowns.gov.uk/south-downs-named-one-of-the-most-beautiful-places-in-england/"
+        }
+      ]
+    },
+    "ie-glenveagh": {
+      "puntaje": 1,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet (Best in Travel 2024: Donegal, vía Tourism Ireland)",
+          "url": "https://www.ireland.com/en-us/things-to-do/attractions/glenveagh-national-park/"
+        }
+      ]
+    },
+    "no-voss": {
+      "puntaje": 3,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/norway/voss"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/norway/voss/activities/voss-vind/a/poi-act/1580230/360189"
+        },
+        {
+          "guia": "Frommer's",
+          "url": "https://www.frommers.com/destinations/voss"
+        },
+        {
+          "guia": "Rough Guides",
+          "url": "https://www.roughguides.com/norway/bergen-western-fjords/western-fjords/"
+        }
+      ]
+    },
+    "no-loen": {
+      "puntaje": 3,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/norway/olden/things-to-do"
+        },
+        {
+          "guia": "Frommer's",
+          "url": "https://www.frommers.com/destinations/jostedal-glacier-area/things-to-do/"
+        }
+      ]
+    },
+    "no-jostedalsbreen": {
+      "puntaje": 4,
+      "fuentes": [
+        {
+          "guia": "Frommer's",
+          "url": "https://www.frommers.com/destinations/jostedal-glacier-area/"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/norway/bergen-and-the-western-fjords/briksdalsbreen/attractions/briksdalsbreen/a/poi-sig/1579873/360179"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/norway/bergen-and-the-western-fjords/briksdalsbreen/attractions/kjenndalsbreen/a/poi-sig/1544288/360179"
+        },
+        {
+          "guia": "Fodor's",
+          "url": "https://www.fodors.com/world/europe/norway/the-west-coast/things-to-do/sights?pois=690127"
+        }
+      ]
+    },
+    "se-riksgransen": {
+      "puntaje": 3,
+      "fuentes": [
+        {
+          "guia": "National Geographic",
+          "url": "https://www.nationalgeographic.com/travel/article/arctic-adventure-skiing-sweden-northerly-resort"
+        },
+        {
+          "guia": "Rough Guides",
+          "url": "https://www.roughguides.com/sweden/swedish-lapland/abisko-around/"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://lonelyplanet.com/travel-tips-and-articles/eternal-winter-where-to-ski-every-month-of-the-year/40625c8c-8a11-5710-a052-1479d276dbe9"
+        }
+      ]
+    },
+    "dk-djurs-sommerland": {
+      "puntaje": 3,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/denmark/djursland/attractions/djurs-sommerland/a/poi-sig/1439450/1329817"
+        },
+        {
+          "guia": "Time Out",
+          "url": "https://www.timeout.com/uk/news/this-uk-waterpark-is-officially-the-best-in-europe-071922"
+        }
+      ]
+    },
+    "no-alta": {
+      "puntaje": 4,
+      "fuentes": [
+        {
+          "guia": "Rough Guides",
+          "url": "https://roughguides.com/destinations/europe/norway/north-norway/the-road-to-finnmark/alta/altas-prehistoric-rock-carvings-and-the-alta-museum"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/norway/finnmark/alta/attractions/alta-museum/a/poi-sig/501410/360207"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/ultimate-seven-day-itinerary-arctic-norway"
+        },
+        {
+          "guia": "Frommer's",
+          "url": "https://www.frommers.com/destinations/alta/things-to-do/"
+        }
+      ]
+    },
+    "no-rjukan-notodden": {
+      "puntaje": 3,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/norway/the-telemark-canal/top-things-to-do/a/poi/1329882"
+        },
+        {
+          "guia": "Frommer's",
+          "url": "https://www.frommers.com/destinations/kongsberg/side-trips/"
+        }
+      ]
+    },
+    "se-drottningholm": {
+      "puntaje": 4,
+      "fuentes": [
+        {
+          "guia": "Rick Steves",
+          "url": "https://www.ricksteves.com/watch-read-listen/read/articles/stockholm-day-trips"
+        },
+        {
+          "guia": "Frommer's",
+          "url": "https://www.frommers.com/destinations/stockholm/attractions/drottningholm-palace-and-theater/"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-day-trips-from-stockholm"
+        },
+        {
+          "guia": "Rough Guides",
+          "url": "https://www.roughguides.com/sweden/day-trips-stockholm/"
+        },
+        {
+          "guia": "Fodor's",
+          "url": "https://www.fodors.com/world/europe/sweden/side-trips-from-stockholm/things-to-do/sights?pois=808380"
+        }
+      ]
+    },
+    "dk-jelling": {
+      "puntaje": 4,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/points-of-interest/kongernes-jelling/1135287"
+        },
+        {
+          "guia": "Frommer's",
+          "url": "https://www.frommers.com/destinations/jelling/things-to-do/"
+        },
+        {
+          "guia": "National Geographic",
+          "url": "https://www.nationalgeographic.com/premium/article/viking-runestone-thyra-jelling-bluetooth-gorm"
+        }
+      ]
+    },
+    "lt-kernave": {
+      "puntaje": 3,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/lithuania/kernave/attractions/kernave-cultural-reserve/a/poi-sig/1277706/1324786"
+        },
+        {
+          "guia": "Fodor's",
+          "url": "https://www.fodors.com/news/arts-culture/step-into-the-stone-age-at-europes-10-best-prehistoric-sites"
+        }
+      ]
+    },
+    "se-kalix": {
+      "puntaje": 1,
+      "fuentes": [
+        {
+          "guia": "Time Out",
+          "url": "https://www.timeout.com/sweden/things-to-do/best-things-to-do-in-skelleftea"
+        }
+      ]
+    },
+    "dk-henne-kirkeby-kro": {
+      "puntaje": 2,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/denmark/restaurants/henne-kirkeby-kro/a/poi-eat/1499661/358836"
+        },
+        {
+          "guia": "Guía Michelin (Henne Kirkeby Kro)",
+          "url": "https://guide.michelin.com/lv/en/southern-denmark/henne/restaurant/henne-kirkeby-kro"
+        }
+      ]
+    },
+    "no-senja": {
+      "puntaje": 4,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/norway/senja/in-location/sights/a/nar/7e02ec8f-493f-43b8-be9b-98c47d961f5c/360231"
+        },
+        {
+          "guia": "Fodor's",
+          "url": "https://www.fodors.com/world/europe/norway/northern-norway/senja/hotels"
+        },
+        {
+          "guia": "National Geographic",
+          "url": "https://www.nationalgeographic.com/travel/article/senja-island-norways-best-kept-secret-adventure-travel"
+        }
+      ]
+    },
+    "no-rondane-dovre": {
+      "puntaje": 4,
+      "fuentes": [
+        {
+          "guia": "Frommer's",
+          "url": "https://www.frommers.com/destinations/rondane-and-dovrefjell-national-parks/attractions"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-national-parks-norway"
+        },
+        {
+          "guia": "Rough Guides",
+          "url": "https://roughguides.com/destinations/europe/norway/central-norway/north-kongsvoll/rondane-nasjonalpark"
+        },
+        {
+          "guia": "National Geographic",
+          "url": "https://www.nationalgeographic.com/travel/article/norways-ultimate-adventures-musk-ox-safari-arctic-surfing"
+        }
+      ]
+    },
+    "se-fulufjallet": {
+      "puntaje": 3,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-national-parks-sweden"
+        },
+        {
+          "guia": "Time Out",
+          "url": "https://www.timeout.com/sweden/things-to-do/10-best-things-to-do-in-dalarna"
+        },
+        {
+          "guia": "Fodor's",
+          "url": "https://www.fodors.com/news/photos/the-10-oldest-trees-on-the-planet-and-where-to-find-them"
+        }
+      ]
+    },
+    "se-kosterhavet": {
+      "puntaje": 3,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/points-of-interest/koster-islands/1417060"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/island-hopping-western-sweden"
+        },
+        {
+          "guia": "Time Out",
+          "url": "https://www.timeout.com/sweden/things-to-do/sun-beaches-and-cliff-swims-12-must-do-experiences-on-swedens-west-coast"
+        }
+      ]
+    },
+    "fi-kvarken": {
+      "puntaje": 2,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/finland/kvarken-archipelago"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/finland-in-a-week"
+        }
+      ]
+    },
+    "fi-repovesi": {
+      "puntaje": 1,
+      "fuentes": [
+        {
+          "guia": "National Geographic",
+          "url": "https://www.nationalgeographic.com/travel/article/perfect-weekend-punkaharju-heart-of-finlands-lake-district"
+        }
+      ]
+    },
+    "fi-lemmenjoki": {
+      "puntaje": 3,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-national-parks-finland"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/finland/lapland/lemmenjoki-national-park/hotels/paltto/a/poi-sle/1192509/359180"
+        },
+        {
+          "guia": "Fodor's",
+          "url": "https://www.fodors.com/world/europe/finland/lapland/things-to-do/sights?pois=808144"
+        }
+      ]
+    },
+    "dk-stevns-klint": {
+      "puntaje": 3,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/denmark/stevns-klint/attractions/hoejerup-gamle-kirke/a/poi-sig/1498925/1342046"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/points-of-interest/stevns-klint-cliff-base/1570776"
+        },
+        {
+          "guia": "Frommer's",
+          "url": "https://www.frommers.com/destinations/koge/side-trips"
+        }
+      ]
+    },
+    "se-halsingland": {
+      "puntaje": 2,
+      "fuentes": [
+        {
+          "guia": "Rough Guides",
+          "url": "https://www.roughguides.com/sweden/bothnian-coast/hudiksvall-around/"
+        }
+      ]
+    },
+    "fi-verla": {
+      "puntaje": 0,
+      "fuentes": []
+    },
+    "dk-trelleborg": {
+      "puntaje": 2,
+      "fuentes": [
+        {
+          "guia": "Frommer's",
+          "url": "https://www.frommers.com/destinations/slagelse/"
+        }
+      ]
+    },
+    "dk-mols-bjerge": {
+      "puntaje": 2,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/denmark/djursland/attractions/mols-bjerge-national-park/a/poi-sig/1571492/1329817"
+        }
+      ]
+    }
+  },
+  "fusiones": [
+    {
+      "destino": "gb-windsor",
+      "origenes": [
+        "gb-bray"
+      ],
+      "nombre": "Windsor y Bray"
+    },
+    {
+      "destino": "gb-seven-sisters",
+      "origenes": [
+        "gb-sussex-vinedos"
+      ],
+      "nombre": "Seven Sisters y viñedos de los South Downs (Alfriston)",
+      "region": "Sureste de Inglaterra"
+    },
+    {
+      "destino": "ie-kinsale-cobh",
+      "origenes": [
+        "ie-cork"
+      ],
+      "nombre": "Cork, Kinsale y Cobh",
+      "lat": 51.8977,
+      "lng": -8.4751,
+      "region": "Munster"
+    },
+    {
+      "destino": "no-jostedalsbreen",
+      "origenes": [
+        "no-loen"
+      ],
+      "nombre": "Nordfjord: glaciar de Jostedalsbreen (Briksdal) y Loen",
+      "region": "Vestland"
+    },
+    {
+      "destino": "se-abisko-kungsleden",
+      "origenes": [
+        "se-riksgransen"
+      ],
+      "nombre": "Abisko, el Kungsleden y Riksgränsen"
+    },
+    {
+      "destino": "dk-helsingor-louisiana",
+      "origenes": [
+        "dk-frederiksborg"
+      ],
+      "nombre": "Zelanda del Norte: Kronborg (Helsingør), Frederiksborg y Louisiana"
+    },
+    {
+      "destino": "se-estocolmo",
+      "origenes": [
+        "se-drottningholm"
+      ],
+      "nombre": "Estocolmo (Gamla Stan, Djurgården y Drottningholm)"
+    },
+    {
+      "destino": "fi-repovesi",
+      "origenes": [
+        "fi-verla"
+      ],
+      "nombre": "Parque Nacional de Repovesi y fábrica de Verla"
+    }
+  ],
+  "ciudad": [
+    "gb-blackpool-pleasure-beach",
+    "ie-kinsale-cobh",
+    "gb-cotswolds",
+    "gb-lago-ness-inverness",
+    "no-voss",
+    "se-are",
+    "dk-djurs-sommerland",
+    "ee-parnu",
+    "lv-jurmala",
+    "lt-palanga",
+    "se-glasriket",
+    "se-gota-kanal-vadstena",
+    "fi-aland",
+    "dk-aero",
+    "lt-anyksciai",
+    "dk-mols-bjerge"
+  ],
+  "playa": [
+    "ie-achill",
+    "no-lofoten",
+    "se-gotland-visby",
+    "se-oland",
+    "dk-skagen",
+    "dk-bornholm",
+    "se-kosterhavet",
+    "dk-aero"
+  ],
+  "no_playa": [
+    "gb-calzada-del-gigante",
+    "ie-acantilados-de-moher",
+    "ie-slieve-league",
+    "no-geirangerfjord",
+    "no-sognefjord-flam",
+    "no-hardangerfjord",
+    "no-nordkapp",
+    "no-atlanterhavsveien",
+    "dk-stevns-klint"
+  ],
+  "lugares": {
+    "gb-cotswolds": {
+      "region": "Suroeste de Inglaterra"
+    },
+    "gb-lake-district": {
+      "region": "Noroeste de Inglaterra"
+    },
+    "gb-orcadas-neolitico": {
+      "region": "Escocia"
+    },
+    "gb-costa-jurasica": {
+      "region": "Suroeste de Inglaterra"
+    },
+    "ie-clonmacnoise": {
+      "region": "Leinster"
+    },
+    "ie-carrowmore": {
+      "region": "Connacht"
+    },
+    "fi-kvarken": {
+      "lat": 63.35,
+      "lng": 21.3167
+    },
+    "dk-henne-kirkeby-kro": {
+      "nombre": "Henne Strand y Filsø (Jutlandia Occidental)"
+    },
+    "no-hardangervidda": {
+      "region": "Vestland"
+    },
+    "no-rondane-dovre": {
+      "region": "Innlandet"
+    },
+    "se-abisko-kungsleden": {
+      "region": "Norrbotten"
+    },
+    "se-kiruna-icehotel": {
+      "region": "Norrbotten"
+    },
+    "se-laponia-jokkmokk": {
+      "region": "Norrbotten"
+    },
+    "se-fulufjallet": {
+      "region": "Dalarna"
+    },
+    "se-kosterhavet": {
+      "region": "Västra Götaland"
+    },
+    "ee-soomaa": {
+      "region": "Pärnu"
+    },
+    "ee-peipsi": {
+      "region": "Tartu"
+    },
+    "lv-jurmala": {
+      "region": "Riga"
+    },
+    "lv-kemeri": {
+      "region": "Riga"
+    },
+    "dk-mols-bjerge": {
+      "nombre": "Mols Bjerge y Ebeltoft (Djursland)",
+      "region": "Midtjylland"
+    },
+    "dk-trelleborg": {
+      "nombre": "Trelleborg (fortaleza circular vikinga)"
+    }
+  },
+  "por_que": {
+    "gb-londres": "Cuatro sitios Patrimonio Mundial (Westminster, la Torre, Greenwich y Kew) y museos gratuitos de primera fila como el British Museum, la National Gallery, la Tate Modern y el V&A. Es además la capital gastronómica de las islas, de los restaurantes con estrellas Michelin a Borough Market y los curries de Brick Lane. Thorpe Park, con Hyperia, la montaña rusa más alta y rápida del Reino Unido, queda a 29 km.",
+    "gb-windsor": "El castillo habitado más grande del mundo, fundado por Guillermo el Conquistador hacia 1070 y residencia oficial del rey, con los apartamentos de Estado y la capilla de San Jorge. A unos 8 km, el pueblo de Bray junto al Támesis reúne dos restaurantes con tres estrellas Michelin, The Fat Duck y The Waterside Inn, que hay que reservar con mucha antelación. Se llega en tren desde Paddington o Waterloo, y Thorpe Park está a 11 km.",
+    "gb-canterbury": "Su catedral, sede del primado anglicano y escenario del asesinato de Thomas Becket, forma con la abadía de San Agustín y la iglesia de San Martín un sitio Patrimonio Mundial sobre los orígenes del cristianismo en Inglaterra. El casco antiguo se recorre a pie y está a menos de una hora de St Pancras en tren de alta velocidad. En The Goods Shed se prueban la fruta y la cerveza de lúpulo de Kent.",
+    "gb-oxford": "La universidad más antigua del mundo anglosajón: la Bodleian, la Radcliffe Camera, colleges medievales, el Ashmolean y paseos en batea por el Cherwell. A 13 km, el palacio barroco de Blenheim, cuna de Churchill, es Patrimonio Mundial con su parque de Capability Brown. Para una comida especial, Le Manoir aux Quat'Saisons, de Raymond Blanc, en Great Milton.",
+    "gb-cambridge": "Colleges desde el siglo XIII, la capilla gótica del King's College y el Fitzwilliam Museum, con los Backs a orillas del Cam como estampa universitaria más famosa del país. Pasear en batea hasta los prados de Grantchester es la experiencia clásica. Está a menos de una hora en tren de Londres y tiene alta cocina en Midsummer House, con dos estrellas Michelin.",
+    "gb-bath": "Ciudad entera Patrimonio Mundial: las termas romanas y el templo de Sulis Minerva, entre los mejores restos romanos del país, junto a la arquitectura georgiana del Royal Crescent y el Circus. Se recorre a pie desde la estación, a 1 h 20 de Paddington. Para merendar, el Sally Lunn bun en los salones de té georgianos.",
+    "gb-stonehenge": "El círculo de piedras prehistórico más célebre del mundo, mejor al amanecer o al atardecer, con Avebury, el mayor y sin vallas, en el mismo paisaje de túmulos Patrimonio Mundial. La catedral de Salisbury guarda una de las cuatro copias originales de la Carta Magna. Desde la estación de Salisbury sale cada hora un bus hasta las piedras, con entrada horaria reservada.",
+    "gb-wells-glastonbury": "Wells tiene la primera catedral inglesa construida en gótico desde su fundación, con una fachada de unas 300 esculturas medievales, y Vicars' Close, la calle medieval habitada sin interrupción más antigua de Europa. A 9 km, las ruinas de la abadía de Glastonbury guardan la supuesta tumba del rey Arturo bajo la colina del Tor. Cheddar, con su garganta y su queso, queda a unos 15 km.",
+    "gb-cornualles": "Acantilados, calas y playas de surf a lo largo del South West Coast Path: St Michael's Mount, al que se cruza a pie con marea baja, Tintagel, la Tate St Ives y la ruta de serpentinita de Kynance Cove a Lizard Point, el extremo sur de Gran Bretaña. Las minas de estaño son Patrimonio Mundial y Newquay es la capital del surf inglés. Para comer, Cornish pasty con IGP, cream tea y pescado de Padstow y Newlyn.",
+    "gb-cotswolds": "Pueblos de piedra color miel enriquecidos por el comercio de la lana, como Chipping Campden, Bibury o las Slaughters, unidos por caminos rurales y el Cotswold Way hasta Bath. Se come bien en pubs de campo y en la granja ecológica de Daylesford, con el queso Double Gloucester. La Cotswold Line llega desde Paddington a Moreton-in-Marsh; entre pueblos conviene coche, y los fines de semana de verano se llenan.",
+    "gb-stratford-upon-avon": "La casa natal y la tumba de Shakespeare, la casa de Anne Hathaway y la Royal Shakespeare Company, que programa casi todo el año en su teatro junto al Avon. A unos 13 km, el castillo medieval de Warwick completa una excursión de dos días. Hay tren directo desde Marylebone y desde Birmingham.",
+    "gb-peak-district": "El primer parque nacional del Reino Unido: páramos de brezo, crestas de gritstone y la subida al Mam Tor sobre el valle de Edale, con las cuevas de Castleton al pie. Chatsworth House guarda una de las mejores colecciones de arte privadas de Europa, y en Bakewell nació el Bakewell pudding. La línea Hope Valley entre Manchester y Sheffield para en Edale y Hope; Alton Towers queda a 41 km.",
+    "gb-liverpool": "Los muelles victorianos del Royal Albert Dock con el Museo Marítimo y la Tate, dos catedrales monumentales y la ruta de los Beatles, del Cavern Club a sus casas de infancia. Es la ciudad del scouse, el guiso que da apodo a sus vecinos. Blackpool Pleasure Beach, con The Big One e ICON, está a 43 km.",
+    "gb-york": "Ciudad medieval casi completa: la catedral gótica más grande al norte de los Alpes con su enorme vitral este, murallas que se recorren a pie, las Shambles, el Jorvik vikingo y el Museo Nacional del Ferrocarril. Se merienda en Bettys con queso Wensleydale y pastel de frutas. Está a 2 h de King's Cross, y Flamingo Land, con la montaña rusa Sik, queda a 33 km.",
+    "gb-yorkshire-dales": "Valles glaciares cruzados por muros de piedra seca y graneros, con la ruta de Malham que une la cascada de Janet's Foss, la garganta de Gordale Scar y el anfiteatro calizo de Malham Cove. En Hawes se hace el queso Wensleydale y en Masham la cerveza de Theakston y Black Sheep. La línea Settle-Carlisle cruza el parque por el viaducto de Ribblehead; para los valles conviene coche.",
+    "gb-lake-district": "Lagos y valles glaciares bajo las cumbres más altas de Inglaterra, Patrimonio Mundial como paisaje cultural de pastoreo y de Wordsworth y Beatrix Potter, cuyas casas se visitan. En la mina de Honister se cruza el Infinity Bridge y se hace vía ferrata, y en Cartmel está L'Enclume, de Simon Rogan, con tres estrellas Michelin. Tren hasta Windermere y luego buses y barcos por los lagos; en verano carreteras y aparcamientos se saturan.",
+    "gb-muro-adriano": "El muro que Adriano levantó hacia el año 122 en el límite norte del Imperio, con los fuertes de Housesteads y Chesters y las tablillas de Vindolanda. El tramo de 15,5 km entre Housesteads y Chesters va sobre los riscos del Whin Sill y junto al lago de Crag Lough. El bus AD122 une los fuertes desde Hexham y Haltwhistle, con descuento en Housesteads.",
+    "gb-edimburgo": "La Ciudad Vieja medieval con el castillo y la Royal Mile frente a la Ciudad Nueva georgiana, ambas Patrimonio Mundial, y Arthur's Seat, un volcán extinto en pleno centro. Tiene la mejor mesa de Escocia, con seis restaurantes con estrella Michelin, además de bares de whisky y haggis. En agosto el Fringe la llena: hay que reservar alojamiento con meses.",
+    "gb-glasgow": "Kelvingrove, la Burrell Collection, la catedral medieval y la Necrópolis, junto a la arquitectura de Charles Rennie Mackintosh y una ruta de murales por el centro. Es la escena gastronómica más animada del oeste de Escocia, de Cail Bruich, con estrella Michelin, a los restaurantes indios de la ciudad que reivindica el tikka masala. Desde Queen Street sale la West Highland Line hacia las Highlands, y Loch Lomond está a unos 30 km.",
+    "gb-stirling": "El castillo renacentista donde se coronó a María Estuardo, el monumento a William Wallace y el campo de Bannockburn: el corazón de las guerras de independencia escocesas. Está a unos 50 min en tren de Edimburgo y Glasgow y el castillo queda a 15 min a pie de la estación. Sirve de puerta a los Trossachs.",
+    "gb-isla-de-skye": "Montañas volcánicas y costas de acantilados: la subida al Old Man of Storr, el Quiraing, las cascadas de Mealt junto a Kilt Rock y los Cuillin, que se ven en barco desde Elgol. Se come marisco de sus lagos en The Three Chimneys y se cata whisky en Talisker. Hace falta coche por carreteras de un solo carril, y en verano hay que reservar alojamiento con mucha antelación.",
+    "gb-glencoe": "El valle de montaña más emblemático de Escocia, con las Three Sisters y el Buachaille Etive Mòr, escenario de la masacre de 1692 contra los MacDonald. A 14 km, Glencoe Mountain tiene esquí en invierno, y Nevis Range, a 20 km, el telecabina y la pista de descenso en bicicleta de la Copa del Mundo. Los autocares Glasgow-Fort William paran junto al centro de visitantes.",
+    "gb-lago-ness-inverness": "Las ruinas del castillo de Urquhart sobre el lago Ness y, junto a Inverness, el campo de batalla de Culloden (1746) y los túmulos de Clava. El Great Glen Way recorre las laderas boscosas sobre el lago entre Fort William e Inverness. Inverness tiene tren desde Edimburgo y Glasgow y bus a Urquhart; las entradas conviene comprarlas en línea.",
+    "gb-oban-mull-iona": "Desde Oban, capital del marisco de Escocia con su destilería en el centro, los ferris cruzan a Mull, con águilas marinas y el castillo de Duart. Más allá están Iona, donde san Columba fundó en 563 el monasterio que llevó el cristianismo a Escocia, y Staffa, con las columnas de basalto de la cueva de Fingal. En invierno hay menos ferris y se cancelan con temporal.",
+    "gb-cairngorms": "El mayor parque nacional del Reino Unido, con la meseta ártico-alpina más alta de Gran Bretaña, pinares caledonios en Rothiemurchus y Glenmore y águilas pescadoras en el lago Garten. Cairngorm Mountain tiene esquí y funicular, y la destilería Glenlivet, en la Malt Whisky Trail, está dentro del parque. Aviemore, con tren desde Inverness, Edimburgo y el Caledonian Sleeper de Londres, es la base.",
+    "gb-snowdonia": "El Yr Wyddfa (Snowdon), la cumbre más alta de Gales, se sube por seis rutas, como el Miners' Track junto a sus lagos, o en tren de montaña de mayo a octubre. A 12 km, Zip World Velocity 2 es la tirolesa más rápida del mundo. Suma el castillo de Harlech, los pueblos de Beddgelert y Betws-y-Coed y los trenes de vía estrecha del paisaje pizarrero.",
+    "gb-conwy": "Castillo de Eduardo I y unas de las murallas urbanas medievales más completas de Europa, Patrimonio Mundial, en un pueblo costero que se recorre a pie desde su estación. Los mejillones de Conwy se recogen a mano en el estuario y tienen feria en otoño. A 20 km, Zip World Velocity 2, la tirolesa más rápida del mundo, y Eryri a un paso.",
+    "gb-pembrokeshire-st-davids": "El único parque nacional costero del Reino Unido: acantilados, más de 50 playas y la isla de Skomer, con frailecillos de mayo a julio. St Davids, la ciudad más pequeña de Gran Bretaña, guarda la catedral del patrón de Gales y es la cuna del coasteering, que TYF Adventure sigue ofreciendo desde el pueblo. Los buses costeros y los barcos a Skomer solo funcionan de Semana Santa a septiembre.",
+    "gb-calzada-del-gigante": "Unas 40.000 columnas de basalto de hace unos 60 millones de años en la costa de Antrim, Patrimonio Natural UNESCO, unidas a la leyenda del gigante Finn McCool. A 3 km, la destilería Old Bushmills, con licencia de 1608, y cerca las ruinas del castillo de Dunluce. Con mar agitado no hay que acercarse a la orilla: las piedras resbalan y el oleaje golpea fuerte.",
+    "gb-belfast": "Titanic Belfast en los astilleros donde se construyó el barco, el Ulster Museum y los murales y muros de paz del oeste de la ciudad, que cuentan los Troubles. La escena gastronómica crece con OX, con estrella Michelin, y el mercado victoriano de St George's los fines de semana. Tiene tren desde Dublín y buses a la costa de Causeway.",
+    "ie-dublin": "El Libro de Kells, del siglo IX, y la Long Room del Trinity College, los museos nacionales, la cárcel de Kilmainham y las plazas georgianas. Es la capital gastronómica de Irlanda, con tres restaurantes con dos estrellas Michelin, además de la Guinness Storehouse y pubs con ostras e Irish stew. El aeropuerto está a 10 km y el centro se recorre a pie; Emerald Park, con la montaña rusa de madera Cú Chulainn, queda a 23 km.",
+    "ie-glendalough": "El monasterio que san Kevin fundó en el siglo VI, con una de las torres redondas mejor conservadas de Irlanda, iglesias de piedra y cruces en un valle glaciar con dos lagos. Nueve senderos señalizados del Parque Nacional de los Montes de Wicklow salen de allí, y por él pasa el Wicklow Way. Está a 1 h de Dublín en coche o en el St Kevin's Bus; los fines de semana de verano conviene llegar temprano.",
+    "ie-bru-na-boinne": "Newgrange, Knowth y Dowth son tumbas de corredor de hace unos 5200 años, más antiguas que las pirámides, con el mayor conjunto de arte megalítico de Europa; la luz del solsticio de invierno entra en la cámara de Newgrange. Solo se visitan con lanzadera y visita guiada desde el centro de visitantes. Hay que reservar en la web oficial de Heritage Ireland (de abril a octubre, con 30 días de antelación) y evitar las webs fraudulentas.",
+    "ie-kilkenny": "La ciudad medieval mejor conservada de Irlanda: la Milla Medieval une el castillo de los Butler, la catedral de San Canice con su torre redonda y la Rothe House. Es la cuna de la cerveza Smithwick's y tiene dos restaurantes con estrella Michelin, Campagne y Lady Helen. Está a 1 h 30 en tren desde Dublín y el centro se recorre a pie.",
+    "ie-carlingford": "Pueblo medieval con el castillo del rey Juan, la casa-torre Taaffe's Castle y callejones amurallados entre las montañas de Cooley y el lough de Carlingford, con las Mourne enfrente. Sus ostras se sirven en los pubs del pueblo. Queda a 1 h 15 de Dublín en coche, como parada camino de Belfast.",
+    "ie-rock-of-cashel": "Sobre una roca caliza en la llanura de Tipperary, la sede de los reyes de Munster, donde Brian Boru fue coronado en 978, reúne una torre redonda, la capilla románica de Cormac y una catedral gótica. El castillo de Cahir queda cerca y la zona produce el queso azul Cashel Blue. Está junto a la autopista Dublín-Cork y las entradas se compran en línea.",
+    "ie-acantilados-de-moher": "Unos 214 m de acantilado sobre el Atlántico a lo largo de 8 km, el paisaje costero más visitado de Irlanda. El sendero por el borde entre Liscannor y Doolin no tiene barreras en los tramos sin pavimentar, así que hay que ir con cuidado con el viento. Lahinch, a 7 km, es uno de los grandes centros de surf de Europa, con escuelas en la playa.",
+    "ie-burren-doolin": "Paisaje kárstico de lapiaz con flora ártico-alpina y mediterránea, cientos de tumbas y fuertes de piedra y el dolmen de Poulnabrone. Doolin tiene sesiones diarias de música tradicional, y la Burren Food Trail lleva a granjas y al salmón ahumado del Burren Smokehouse. En verano una lanzadera gratuita une Doolin, el Burren y los acantilados de Moher; el resto del año hace falta coche.",
+    "ie-peninsula-de-dingle": "El circuito de Slea Head, de unos 38 km desde Dingle, pasa por el oratorio de Gallarus, casas colmena y miradores sobre las islas Blasket, en una zona donde se habla gaélico. Muchos la prefieren al Ring of Kerry por ser más auténtica y tener menos autocares. En Dingle hay marisco del puerto, destilería y los helados Murphy's de sal marina.",
+    "ie-ring-of-kerry": "La península de Iveragh con los lagos y bosques del Parque Nacional de Killarney, Muckross House y el castillo de Ross. Frente a la costa, Skellig Michael conserva un monasterio de celdas de piedra de los siglos VI a VIII, Patrimonio Mundial, al que solo se desembarca de mediados de mayo a septiembre y con buen mar. El circuito se hace en coche o tour desde Killarney, que tiene tren.",
+    "ie-kinsale-cobh": "Cork, con el English Market de 1786, quesos de West Cork y la catedral de San Fin Barre, es la puerta a dos puertos de su bahía. Kinsale, capital gourmet de Irlanda con el fuerte en estrella Charles Fort y festival gastronómico en otoño, está a unos 50 min en bus; Cobh, última escala del Titanic y puerto de la emigración, a 25 min en tren. Hay que tener en cuenta que el English Market cierra los domingos.",
+    "ie-galway": "Ciudad universitaria con música tradicional cada noche, la colegiata de San Nicolás de 1320 y el Spanish Arch, y la mejor base para el Burren, las Aran y Connemara. Es la ciudad de las ostras, con festival en septiembre, y tiene dos restaurantes con estrella Michelin, Aniar y The Pullman. Está a 2 h 30 en tren de Dublín; en julio los festivales encarecen el alojamiento.",
+    "ie-islas-aran": "Tres islas de caliza sin árboles con comunidades de habla gaélica, muros de piedra y Dún Aonghasa, un fuerte prehistórico de unos 3000 años al borde de un acantilado en Inis Mór. Se recorren en bici o minibús, y conviene hacer noche para verlas sin excursionistas. El ferri sale todo el año de Rossaveel y en temporada de Doolin; en verano hay que reservar.",
+    "ie-connemara": "Turberas, lagos y los Twelve Bens, con la subida al Diamond Hill en el Parque Nacional de Connemara y la abadía neogótica de Kylemore. Junto al fiordo de Killary, el Killary Adventure Centre ofrece tirolesa, kayak y cuerdas altas, y sus mejillones y el cordero de monte con IGP llegan a las mesas de Clifden. Sin coche hay que ir en excursión desde Galway.",
+    "ie-achill": "La mayor isla de Irlanda, unida a tierra por un puente, con acantilados atlánticos y la bahía de Keem, quizá la playa más bonita del país, entre el Benmore y el monte Croaghaun. La aldea abandonada de Slievemore recuerda la Gran Hambruna. Se llega desde Westport, con tren desde Dublín, también en bici por el Great Western Greenway.",
+    "ie-slieve-league": "Acantilados de unos 600 m, unas tres veces más altos que los de Moher y entre los más altos de Europa que se pueden recorrer a pie. Desde el centro de visitantes, a 4 km, hay lanzadera al mirador de abril a mediados de noviembre. El paso de One Man's Pass no tiene protección y el viento sopla muy fuerte.",
+    "ie-inishowen": "Península del extremo norte de Irlanda que se recorre en coche por el circuito Inishowen 100, con Malin Head, playas largas como Five Finger Strand y las colinas Urris sobre el Lough Swilly. En lo alto está el fuerte circular de piedra de Grianán of Aileach. Se sale desde Derry o Buncrana; el bus es escaso.",
+    "is-reikiavik": "La exposición de los asentamientos con una casa vikinga del siglo X, el Museo Nacional, la Hallgrímskirkja y el Harpa, en una capital que se recorre a pie. Concentra la mejor cocina del país, de los restaurantes nórdicos de la guía Michelin a los perritos de Bæjarins Beztu. Es la base para hacer snorkel en la falla de Silfra, a 42 km, y esquiar en Bláfjöll, a 23 km.",
+    "is-circulo-dorado": "En un día desde Reikiavik se ven Þingvellir, donde se reunió el Althing desde el año 930 y donde se separan las placas tectónicas, el géiser Strokkur y la cascada de Gullfoss. En la grieta de Silfra se hace snorkel en agua glaciar con unos 100 m de visibilidad, y el río Hvítá tiene rafting. Para comer, sopa de tomate en el invernadero de Friðheimar.",
+    "is-laguna-azul": "Baño geotérmico de agua azul lechosa en un campo de lava del Geoparque de Reykjanes, a unos 20 min del aeropuerto de Keflavík, con entrada horaria reservada y el restaurante Moss en el hotel Retreat. Se puede encajar a la llegada o antes del vuelo de vuelta. Las erupciones en la cercana Sundhnúkur pueden cerrarla sin aviso: conviene revisar Visit Reykjanes antes de ir.",
+    "is-costa-sur-vik": "Por la ruta 1 se encadenan la cascada de Skógafoss, de unos 60 m, el arco de Dyrhólaey con sus aves y la playa negra de Reynisfjara, junto a Vík. En el glaciar Sólheimajökull se hacen caminatas y escalada en hielo con guía todo el año. En Reynisfjara las olas traicioneras han matado a varios visitantes: no hay que acercarse a la orilla ni darle la espalda al mar.",
+    "is-vestmannaeyjar": "Archipiélago volcánico donde el Eldfell nació en la erupción de 1973; el museo Eldheimar conserva una casa sepultada por la ceniza y cuenta la evacuación de Heimaey. Tiene una de las mayores colonias de frailecillos del mundo, de mayo a agosto. El ferri Herjólfur sale de Landeyjahöfn en unos 40 min, pero en invierno se desvía o cancela a menudo.",
+    "is-jokulsarlon": "La laguna glaciar más grande de Islandia, frente al Breiðamerkurjökull, donde se navega entre icebergs que luego varan en la playa negra de Diamond Beach. Está junto a la ruta 1 en el parque Vatnajökull, Patrimonio Natural UNESCO. No hay que subirse a los témpanos ni acercarse a la orilla, donde las olas arrastran bloques de hielo.",
+    "is-skaftafell": "Zona del parque nacional Vatnajökull con lenguas glaciares, abedulares y la cascada de Svartifoss entre columnas de basalto. Es la base de las caminatas guiadas por el glaciar Falljökull y, en invierno, de las cuevas de hielo. El glaciar solo se pisa con guía certificado.",
+    "is-landmannalaugar": "Montañas de riolita de colores, campos de obsidiana y una poza termal natural en las Tierras Altas, al inicio del Laugavegur, la travesía de 2 a 4 días hasta el valle de Þórsmörk. Solo es accesible en verano, por pistas F con 4x4 y vados o en el Highland Bus desde Reikiavik. Conviene registrar la ruta en Safetravel.",
+    "is-askja": "Caldera en el desierto de lava de las Tierras Altas del norte, con el lago Öskjuvatn y el cráter de Víti, dentro del bien UNESCO de Vatnajökull. Se llega en superjeep o bus desde Mývatn entre finales de junio y principios de septiembre, por pistas F que solo admiten 4x4. No hay cobertura móvil en muchos tramos.",
+    "is-snaefellsnes": "Una Islandia en miniatura a 2 h de Reikiavik: el glaciar volcán Snæfellsjökull y su parque nacional, playas negras como Djúpalónssandur, columnas de basalto y el Kirkjufell, la montaña más fotografiada del país. El sendero costero de Arnarstapi a Hellnar es la caminata clásica. En Bjarnarhöfn se prueba el hákarl, el tiburón fermentado.",
+    "is-fiordos-del-oeste": "Fiordos profundos y mesetas basálticas con la cascada de Dynjandi, los acantilados de aves de Látrabjarg y la reserva de Hornstrandir, sin carreteras y con zorros árticos. Ísafjörður tiene vuelos desde Reikiavik y pescado en el restaurante Tjöruhúsið, en una casa del siglo XVIII. Mejor de junio a agosto: en invierno los pasos de montaña cierran.",
+    "is-myvatn": "Lago volcánico con los pseudocráteres de Skútustaðir, los laberintos de lava de Dimmuborgir, el cráter Hverfjall y el campo geotérmico humeante de Hverir. Se prueban el pan de centeno cocido bajo tierra y la trucha ártica ahumada. Está a 1 h de Akureyri por la ruta 1 y forma el Diamond Circle con Húsavík y Dettifoss.",
+    "is-husavik": "La capital islandesa del avistamiento de ballenas: en la bahía de Skjálfandi se ven sobre todo jorobadas, y a veces ballenas azules y orcas, de marzo a noviembre con el pico en verano. Tiene museo de las ballenas y una iglesia de madera de 1907. Está a 1 h 15 de Akureyri, en el Diamond Circle.",
+    "is-dettifoss": "La cascada más caudalosa de Europa, en el cañón de Jökulsárgljúfur, que sigue hasta la herradura de Ásbyrgi dentro del parque Vatnajökull. Se llega en coche desde Mývatn en unos 30 min. La carretera 862 no se mantiene en invierno y la 864 cierra hasta finales de mayo; las rocas junto a la cascada resbalan.",
+    "is-seydisfjordur": "Pueblo de casas de madera de estilo noruego al fondo de un fiordo estrecho, con una activa escena artística, el centro Skaftfell y la escultura sonora Tvísöngur. Al bajar del paso de Fjarðarheiði se ven las cascadas del río Fjarðará, como Gufufoss. Llega el ferri Norröna desde Dinamarca, salvo en invierno, y el paso puede cerrar por nieve.",
+    "gb-alton-towers": "El mayor parque temático del Reino Unido, en los jardines de una mansión neogótica de Staffordshire, con Nemesis Reborn, renovada en 2024, y The Smiler y sus 14 inversiones. Abre de marzo a principios de noviembre y conviene un día entero. Se combina con el Peak District, a 41 km; sin coche hay bus desde Stoke-on-Trent o Uttoxeter.",
+    "gb-blackpool-pleasure-beach": "El gran parque clásico británico, junto al paseo marítimo de Blackpool, con The Big One (1994) e ICON, la primera montaña rusa de doble lanzamiento del país. Al lado están la Blackpool Tower de 1894 con su salón de baile y los muelles victorianos del balneario obrero por excelencia. Tiene estación propia y abre de marzo a noviembre.",
+    "gb-durham": "La catedral es el mayor y más perfecto monumento normando de Inglaterra, con las tumbas de san Cuthberto y Beda, y forma con el castillo de los príncipes-obispos un sitio Patrimonio Mundial sobre un meandro del río Wear. Se puede subir a la torre central por 325 escalones y visitar el castillo con un estudiante de guía. Está a 10-15 min a pie de la estación, en la línea de Londres a Edimburgo.",
+    "gb-fountains-abbey": "Las ruinas de la mayor abadía cisterciense de Inglaterra, del siglo XII, dentro del jardín acuático georgiano de Studley Royal, con estanques, templetes y un parque de ciervos; todo es Patrimonio Mundial. Masham, con las cerveceras Theakston y Black Sheep, queda a 13 km. Desde Ripon se llega en bus algunos días o a pie, unos 5 km.",
+    "gb-ironbridge": "La cuna de la Revolución Industrial: el primer puente de hierro del mundo (1779), los altos hornos de Coalbrookdale y una decena de museos en la garganta boscosa del Severn, Patrimonio Mundial. En el pueblo victoriano de Blists Hill funcionan una panadería y un fish and chips de época. No hay tren: desde Telford Central hace falta bus, taxi o coche.",
+    "gb-orcadas-neolitico": "El poblado de Skara Brae, más antiguo que Stonehenge y con muebles de piedra intactos, la tumba de Maeshowe, alineada con el ocaso del solsticio y con grafitis vikingos, y los círculos de Brodgar y Stenness forman el Corazón Neolítico de las Orcadas, Patrimonio Mundial. Las islas suman whisky de Highland Park y Scapa y los acantilados de Yesnaby. Se llega en ferri desde Scrabster o Aberdeen; los temporales cancelan barcos en invierno.",
+    "ie-clonmacnoise": "El monasterio que san Ciarán fundó hacia 545 a orillas del Shannon fue uno de los grandes centros del saber de la Irlanda medieval: catedral, siete iglesias, dos torres redondas y las cruces altas de las Escrituras. El centro de visitantes guarda las cruces originales. Está a 20 min en coche de Athlone, con tren desde Dublín y Galway.",
+    "ie-carrowmore": "Uno de los cementerios megalíticos más grandes y antiguos de Europa, con decenas de dólmenes y círculos de piedra de hace más de 5500 años, al pie del gran túmulo de Knocknarea. El centro de visitantes se renovó en 2026. Queda a unos 5 km de Sligo, con tren desde Dublín.",
+    "gb-speyside": "La mayor concentración de destilerías de whisky de malta del mundo, más de la mitad de las de Escocia: la Malt Whisky Trail une Glenlivet, Glenfiddich en Dufftown, Strathisla y Glen Moray, con parada en la tonelería Speyside Cooperage. El Speyside Way recorre el valle del Spey, y el castillo de Balvenie está junto a Dufftown. Escocia tiene un límite de alcohol al volante muy bajo, así que conviene un tour para catar.",
+    "gb-islay": "La isla del whisky turbado: el sendero Three Distilleries Pathway, de unos 5,5 km, une Laphroaig, Lagavulin y Ardbeg, y Bowmore es la destilería más antigua. Fuera del whisky, en Loch Gruinart invernan miles de gansos cariblancos, The Oa tiene águilas reales, y la cruz de Kildalton, del siglo VIII, es la más fina de Escocia. Se llega en ferri desde Kennacraig o en avión desde Glasgow; el festival Fèis Ìle llena la isla a finales de mayo.",
+    "ie-ballymaloe-east-cork": "Ballymaloe House, abierto en 1964 por Myrtle Allen, es el lugar emblemático de la cocina irlandesa de granja, y a 3 km está la escuela de cocina de Darina Allen. En Midleton, a unos 15 km, se visita la antigua destilería de Jameson, y cerca están el sendero de acantilados de Ballycotton y las murallas de Youghal. Hay tren de Cork a Midleton; mesa y cursos se reservan con antelación.",
+    "gb-costa-jurasica": "Unos 155 km de costa casi sin urbanizar con rocas que cubren unos 185 millones de años y yacimientos de fósiles, Patrimonio Natural UNESCO. El arco calizo de Durdle Door y la cala redonda de Lulworth se unen por el South West Coast Path. Hay buses desde las estaciones de Wool y Wareham; la bajada a la playa de Durdle Door es empinada y en julio y agosto se llena.",
+    "gb-seven-sisters": "Siete acantilados de creta blanca donde los South Downs llegan al canal de la Mancha, con un circuito del National Trust desde Birling Gap y el valle del Cuckmere hasta Alfriston. Alrededor está la principal región vinícola de Inglaterra, con espumosos de DOP Sussex que se catan en bodegas como Rathfinny, en Alfriston, o Ridgeview, en Ditchling. Hay tren a Eastbourne o Seaford y bus costero; no hay que acercarse al borde, que se desprende.",
+    "ie-glenveagh": "Valle glaciar del interior de Donegal con el lough Veagh, turberas, robledales y la sierra de Derryveagh, el segundo parque nacional más grande de Irlanda. El castillo victoriano de 1870, inspirado en Balmoral, se visita con guía y tiene jardines y salón de té. Los coches se quedan en el centro de visitantes, desde donde una lanzadera recorre los 4 km hasta el castillo.",
+    "no-bergen": "El muelle hanseático de Bryggen, Patrimonio Mundial, conserva las casas de madera de los comerciantes de la Liga Hanseática, y el funicular sube al monte Fløyen, desde donde se puede caminar por la meseta hasta el Ulriken. En la mesa, el mercado de pescado del puerto, la sopa de pescado local y Gaptrast, con dos estrellas Michelin en 2026. Es la puerta de los fiordos: llega el tren Bergensbanen desde Oslo y de aquí zarpa el Hurtigruten hacia el norte; conviene llevar ropa de lluvia en cualquier estación.",
+    "no-oslo": "Capital de museos de primer nivel: el MUNCH, con El grito; el Nasjonalmuseet, el mayor museo de arte nórdico, y el Museo Noruego de Historia Cultural con su stavkirke, además de la Ópera y el parque Vigeland. Maaemo mantiene sus tres estrellas Michelin. Para la adrenalina están la tirolesa que baja desde el trampolín de Holmenkollen y el parque TusenFryd, a 19 km, y en verano los ferris llevan a las islas del fiordo.",
+    "no-lofoten": "Picos de granito que salen del mar, playas blancas y pueblos de pescadores con rorbuer rojas y secaderos de bacalao, como Reine, Henningsvær o Å, por encima del círculo polar. La subida al Reinebringen, de mayo a septiembre, da la vista más famosa del archipiélago, y en Borg el museo Lofotr reconstruye una gran casa vikinga. Hay sol de medianoche de finales de mayo a mediados de julio y auroras en invierno; hace falta coche, y el ferry de Bodø a Moskenes tiene largas esperas en verano.",
+    "no-geirangerfjord": "Fiordo Patrimonio Natural UNESCO con paredes de hasta 1.400 m, la cascada de las Siete Hermanas y granjas colgadas abandonadas como Skageflå. Se recorre en el ferry Geiranger–Hellesylt y desde los miradores de Ørnesvingen y Dalsnibba, en la ruta turística hacia Trollstigen. La mejor época va de mayo a septiembre; la carretera de Dalsnibba cierra con la nieve.",
+    "no-sognefjord-flam": "El tren de Flåm baja desde Myrdal entre cascadas y el barco cruza el Nærøyfjord, el brazo más estrecho del Sognefjord y Patrimonio Natural UNESCO: es el circuito Norway in a Nutshell, que se hace todo el año. En Undredal se elabora queso de cabra a la orilla del fiordo, y la Flåm Zipline, la tirolesa más larga de Escandinavia, sale de la estación de Vatnahalsen. De mayo a septiembre hay más salidas de trenes y barcos.",
+    "no-urnes-lustrafjord": "La iglesia de madera de Urnes, de los siglos XII y XIII, es la stavkirke más antigua que se conserva, Patrimonio Mundial, con tallas de estilo animal que unen el arte vikingo y el románico. Se llega en un ferry corto desde Solvorn, un pueblo blanco del Lustrafjord, el brazo más interior del Sognefjord. A unos 40 km, en Jostedalen, se camina con guía sobre el glaciar Nigardsbreen; la iglesia abre de mayo a septiembre.",
+    "no-tromso": "Es una de las mejores bases del mundo para ver auroras, de septiembre a marzo, y el sol de medianoche en verano. La Catedral Ártica, el Museo Polar y el teleférico Fjellheisen al Storsteinen ocupan bien un día, y los Alpes de Lyngen quedan a unas dos horas. En el mercado de pescado se prueba el rey de los cangrejos y el skrei de invierno, regado con cerveza Mack en el viejo Ølhallen.",
+    "no-lysefjord-preikestolen": "El Preikestolen es una plataforma de roca que cae 604 m a pico sobre el Lysefjord, y la caminata para llegar, de 8 km ida y vuelta y unas 4 horas, es una de las más famosas de Noruega. En el mismo fiordo está el Kjerag, con su roca encajada entre dos paredes, solo para excursionistas con experiencia. De abril a octubre hay bus exprés desde Stavanger; el borde no tiene barandillas y en invierno el sendero se hiela.",
+    "no-stavanger": "Gamle Stavanger reúne unas 170 casas blancas de madera de los siglos XVIII y XIX junto a una catedral del siglo XII, y el Museo del Petróleo explica cómo cambió el país. RE-NAA tiene tres estrellas Michelin por su cocina de pescado y marisco noruego. Es la base natural para el Lysefjord y el Preikestolen, con barcos y buses que salen del centro.",
+    "no-hardangerfjord": "El segundo fiordo más largo de Noruega es tierra de huertos de manzanos que florecen en mayo y de sidrerías familiares como Alde Sider o Kvestad, que también hace sidra de hielo. Ulvik y Lofthus son buenas bases para ver la cascada de Vøringsfossen, el glaciar Folgefonna y la meseta de Hardangervidda. Voss, con rafting y parapente, queda a unos 36 km.",
+    "no-trolltunga": "Saliente de roca a 1.180 m, suspendido unos 700 m sobre el lago Ringedalsvatnet, al que se llega por una de las Rutas Nacionales de Senderismo: 27 km ida y vuelta desde Skjeggedal, de 8 a 12 horas. Por libre solo se hace de junio a septiembre; el resto del año es obligatorio ir con guía y raquetas. Odda, en el Sørfjorden, es la base, con lanzadera de verano hasta el inicio del sendero.",
+    "no-alesund": "Reconstruida en Jugendstil después del incendio de 1904, es uno de los conjuntos Art Nouveau más homogéneos de Europa, con un centro dedicado al estilo en la antigua farmacia Svaneapoteket. Los 418 escalones al mirador de Aksla dan la vista de la ciudad sobre las islas. Es una buena base para el Geirangerfjord y el Hjørundfjord, con aeropuerto y escala diaria del Hurtigruten.",
+    "no-trollstigen": "Carretera de montaña de 1936 que sube en once curvas de herradura entre paredes verticales y la cascada de Stigfossen, parte de la ruta turística Geiranger–Trollstigen. Abajo, el valle de Romsdal tiene la pared del Trollveggen y, en Åndalsnes, la vía ferrata Romsdalsstigen con bajada en góndola. Solo abre de mediados de mayo a octubre, y puede cerrar por desprendimientos.",
+    "no-atlanterhavsveien": "Ruta turística de 36 km entre Kårvåg y Bud que salta de islote en islote sobre el Atlántico por ocho puentes, el más famoso el curvado Storseisundet. Con temporal las olas rompen contra la calzada, y en calma es buena para ver aves marinas desde el mirador de Eldhusøya. Combina con Kristiansund, el gran puerto del bacalao salado.",
+    "no-trondheim": "La catedral de Nidaros, el mayor edificio medieval de Escandinavia, guarda la tumba de San Olav y es la meta del camino de peregrinación que lleva su nombre. Al otro lado del río están los almacenes de madera de Bakklandet. Trøndelag es una de las regiones con mejor producto de Noruega, y la ciudad tiene restaurantes con estrella Michelin como FAGN y Speilsalen; el festival de San Olav es a finales de julio.",
+    "no-roros": "Ciudad minera del cobre, Patrimonio Mundial, con calles enteras de casas de madera de los siglos XVII al XIX, una gran iglesia barroca y las escombreras de la fundición; la mina Olavsgruva está a unos 10 km. Visit Norway la presenta como la capital noruega de la comida local, con la tienda Rørosmat y la carne de reno curada. Llega el tren desde Oslo y Trondheim; los inviernos son muy fríos, con mercado en febrero y en Navidad.",
+    "no-svalbard": "Archipiélago del alto Ártico con casi el 60 % de su superficie bajo el hielo y unos 3.000 osos polares, a medio camino entre el continente y el Polo Norte. Desde Longyearbyen salen barcos hacia los frentes glaciares del Isfjorden, motos de nieve en primavera y excursiones al pueblo minero soviético abandonado de Pyramiden. Fuera del pueblo solo se sale con guía armado; la mejor luz es de marzo a agosto.",
+    "no-nordkapp": "Acantilado de 307 m sobre el mar de Barents, en el extremo norte de Europa, con sol de medianoche aproximadamente del 12 de mayo al 31 de julio. Quien quiera pisar el punto más septentrional de verdad puede caminar unos 18 km ida y vuelta hasta Knivskjellodden, y Finnmark añade la cultura sami de Karasjok y Kautokeino y el rey de los cangrejos. El Hurtigruten para en Honningsvåg; en invierno el último tramo de carretera solo se recorre en convoy.",
+    "no-jotunheimen": "El parque reúne todas las cumbres de Noruega de más de 2.300 m, incluido el Galdhøpiggen, el techo del país, con glaciares, lagos y refugios. La cresta de Besseggen, entre el lago Gjende y el Bessvatnet, es la caminata clásica, de unos 14 km. En Lom, a la entrada, hay una stavkirke de hacia 1160 y una panadería muy conocida; la temporada va de finales de junio a septiembre.",
+    "no-lillehammer": "Sede de los Juegos de 1994: en la pista olímpica de Hunderfossen, a 12 km, el público baja en bobsleigh de competición con piloto profesional a unos 120 km/h, y en verano en Wheelbob sobre ruedas. Maihaugen, el mayor museo al aire libre de Noruega, reúne más de 200 casas históricas y una stavkirke. Está a unas 2 horas de Oslo en tren, en la puerta del Gudbrandsdal, cuna del brunost.",
+    "no-hardangervidda": "La mayor meseta de montaña del norte de Europa: lagos, paisaje casi lunar, la mayor manada de renos salvajes del continente y el glaciar Hardangerjøkulen en su borde. El tren Bergensbanen para en Finse, a 1.222 m y sin carretera, punto de partida para ir de refugio en refugio a pie en verano o con esquís en primavera. El tiempo cambia rápido y hay nieve hasta junio, así que hay que ir bien equipado.",
+    "no-vesteralen-andenes": "Frente a Andøya hay ballenas todo el año: cachalotes de mayo a septiembre y orcas en invierno, con safaris de unas 3 a 4 horas desde Andenes y Stø. Kvitnes Gård, una granja autosuficiente de Vesterålen, recibió en 2026 la primera estrella Michelin al norte del círculo polar. En verano, un ferry sin reserva cruza de Andenes a Senja.",
+    "se-estocolmo": "Ciudad sobre 14 islas: Gamla Stan conserva el casco medieval junto al Palacio Real, el museo Vasa guarda un buque de guerra del siglo XVII y Skansen es el museo al aire libre más antiguo del mundo. A unos 10 km, el palacio de Drottningholm, residencia real y Patrimonio Mundial, tiene un teatro del siglo XVIII con su maquinaria escénica original; se llega en barco por el Mälaren en verano. Frantzén mantiene tres estrellas Michelin y en Djurgården el parque Gröna Lund tiene ocho montañas rusas.",
+    "se-archipielago-estocolmo": "Más de 30.000 islas de granito, pinares y calas que empiezan a las puertas de la ciudad. Los barcos de Waxholmsbolaget llevan a Vaxholm, con su fortaleza del siglo XVI, a Grinda para caminar y bañarse y a Sandhamn, pueblo de veraneo de madera, a unas 2,5 horas. Las líneas exteriores funcionan sobre todo de mayo a septiembre; para comer, ahumaderos y bocadillos de gambas.",
+    "se-gotemburgo": "Liseberg, en plena ciudad, es uno de los grandes parques de atracciones de Europa, con la Helix y la Balder, de madera. Es la capital sueca del marisco, con el mercado de pescado de Feskekörka y restaurantes con estrella Michelin como Koka y SK Mat & Människor. En tranvía y ferry se llega al archipiélago sur, sin coches, con rocas lisas y pueblos pesqueros como Vrångö.",
+    "se-gotland-visby": "Visby, Patrimonio Mundial, conserva más de 3 km de muralla medieval con decenas de torres y las ruinas de las iglesias de una gran ciudad hanseática; la isla suma unas 90 iglesias rurales medievales. Al norte, en Fårö, están los raukar, columnas de caliza junto al mar, y la playa de Sudersand. El ferry desde Nynäshamn tarda unas 3 horas, y para la Semana Medieval de agosto hay que reservar con mucha antelación.",
+    "se-bohuslan": "Costa de granito rosado con miles de islas, pueblos de pescadores como Smögen y Fjällbacka y los grabados rupestres de Tanum, Patrimonio Mundial, con más de 600 paneles de la Edad del Bronce. Es la costa sueca del marisco: Grebbestad es la capital de la ostra plana y en temporada hay salidas para pescar bogavante. La mejor época va de junio a agosto, y con coche se recorre mejor.",
+    "se-uppsala": "La catedral, la más alta de Escandinavia, guarda las tumbas de Gustavo Vasa y de Linneo, cuyo jardín botánico sigue abierto en el centro. A las afueras, los túmulos reales de Gamla Uppsala fueron un lugar sagrado de la Suecia precristiana. Está a unos 40 minutos en tren de Estocolmo y de Arlanda, y la noche de Walpurgis, el 30 de abril, es la gran fiesta estudiantil.",
+    "se-kalmar": "El castillo de Kalmar, fortaleza medieval convertida en palacio renacentista por los Vasa, fue escenario de la Unión de Kalmar y es uno de los grandes castillos de Escandinavia. La ciudad suma la catedral barroca de Tessin y el museo del buque Kronan. Es la base para cruzar el puente a Öland y para recorrer las vidrierías del Glasriket, a unos 45 minutos.",
+    "se-glasriket": "En los bosques de Småland, entre Kalmar y Växjö, las vidrierías de Kosta y Orrefors mantienen una tradición de vidrio soplado de más de dos siglos, con talleres abiertos donde se ve trabajar a los sopladores. Algunas celebran la hyttsill, una cena de arenque asado junto a los hornos. Hace falta coche, y de mayo a septiembre hay más demostraciones.",
+    "se-oland": "El sur de la isla es Patrimonio Mundial por su paisaje agrario: pueblos lineales, molinos y el Stora Alvaret, una llanura caliza sin árboles que florece en mayo y junio y atrae a muchas aves. Suma las ruinas del castillo de Borgholm, la fortaleza de la Edad del Hierro de Eketorp, la playa de Böda Sand y el faro de Långe Jan, junto a la estación ornitológica de Ottenby. Se cruza en coche o bus por el puente desde Kalmar, y dentro de la isla conviene coche o bici.",
+    "se-dalarna-siljan": "Es la cuna del folclore sueco: los caballitos de Dala se tallan en Nusnäs, Carl Larsson pintó su casa en Sundborn y Mora tiene el museo del pintor Anders Zorn. La gran mina de cobre de Falun, Patrimonio Mundial, se explotó desde al menos el siglo XIII. El lago Siljan, que llena el mayor cráter de impacto de Europa, se rodea en bici; las fiestas de San Juan junto al lago son las más tradicionales del país.",
+    "se-abisko-kungsleden": "El Parque Nacional de Abisko, junto al gran lago Torneträsk, es uno de los mejores lugares de Europa para ver auroras y el inicio del Kungsleden, la ruta de más de 450 km que pasa junto al Kebnekaise. Desde el naturum se baja al cañón de Abisko, y la primera etapa hasta Abiskojaure tiene 15 km. A 30 km por la misma línea de tren, Riksgränsen, la estación de esquí más septentrional de Suecia, ofrece fuera de pista, heliesquí y esquí bajo el sol de medianoche hasta finales de mayo o junio.",
+    "se-kiruna-icehotel": "El Icehotel de Jukkasjärvi se talla de nuevo cada invierno con hielo del río Torne y funciona como galería de arte efímero; ICEHOTEL 365 se visita todo el año. Kiruna, ciudad minera que se está trasladando entera, tiene una iglesia de madera de 1912 y es la base para salir en trineo de perros o a ver auroras. Hay vuelos directos desde Estocolmo; en diciembre y enero el frío es intenso y apenas hay luz.",
+    "se-laponia-jokkmokk": "El Área de Laponia, Patrimonio Mundial mixto por el pastoreo trashumante de renos de los sami, reúne Sarek, Padjelanta y Stora Sjöfallet: alta montaña sin caminos, glaciares y valles. En Jokkmokk están el museo sami Ájtte y un mercado de invierno que se celebra cada febrero desde 1605. El tramo del Kungsleden entre Saltoluokta y Kvikkjokk bordea Sarek, que solo es apto para senderistas expertos.",
+    "se-hoga-kusten": "Patrimonio Natural UNESCO porque aquí la tierra se ha elevado unos 286 m desde la última glaciación, el mayor levantamiento conocido, y sigue subiendo. En el Parque Nacional de Skuleskogen se entra en la grieta de Slåttdalsskrevan, de 200 m de largo, y en el Skuleberget hay cuatro vías ferratas sobre una pared de 250 m. Es la cuna del surströmming, el arenque fermentado, y el sendero de la costa se hace de junio a septiembre.",
+    "se-gota-kanal-vadstena": "El canal de Göta, de 1832, une los grandes lagos Vänern y Vättern con 58 esclusas, como las escaleras de Berg, y se recorre en barco o en bici por el camino de sirga. Vadstena, a orillas del Vättern, guarda la abadía de santa Brígida, aún meta de peregrinación, y el castillo de Gustavo Vasa. En 2026 el canal abre del 6 de mayo al 27 de septiembre, con más servicio de mediados de junio a mediados de agosto.",
+    "se-malmo": "Al otro lado del puente del Øresund, Malmö tiene el castillo de Malmöhus, la plaza Lilla Torg y el Moderna Museet en una antigua central eléctrica. Vollmers tiene dos estrellas Michelin y la ciudad es la capital culinaria de Escania, de la spettekaka al falafel, convertido en plato local. En verano se nada en la playa urbana de Ribersborg, y Copenhague, con el Tivoli, queda a unos 35 minutos en tren.",
+    "se-lund": "Ciudad universitaria que se compara con Oxford, con una catedral románica del siglo XII, la iglesia más visitada de Suecia, cuyo reloj astronómico de 1425 sigue en marcha. El museo al aire libre Kulturen reúne casas históricas de Escania en pleno centro. Está a 10 o 15 minutos en tren de Malmö y a unos 35 del aeropuerto de Copenhague.",
+    "se-ystad-ales-stenar": "Ystad conserva un casco de casas de entramado, el convento franciscano medieval y la iglesia de Santa María. A menos de media hora al este, sobre el acantilado de Kåseberga, Ales Stenar es el mayor barco de piedras de Suecia, con 59 bloques frente al Báltico. Es la puerta de Österlen, la comarca de huertos de manzanas de Kivik.",
+    "se-are": "El mayor destino de esquí de Suecia, sede de dos Mundiales de esquí alpino, con unos 100 km de pistas y una bajada de 6,5 km desde el Åreskutan. En verano el teleférico sube a la cumbre para bajar a pie o en bici de montaña, y una tirolesa cruza un barranco a unos 70 km/h. El tren nocturno desde Estocolmo llega por la mañana al centro del pueblo, a tiempo para los remontes.",
+    "se-klaralven-varmland": "Se baja el río Klarälven, entre bosques de Värmland, en una balsa de troncos que uno mismo construye con cuerdas, y se duerme en los bancos de arena de la orilla. Es una aventura tranquila de uno a ocho días que Rough Guides pone entre las mejores cosas que hacer en Suecia. El operador está en el norte de Värmland y la temporada va de mayo a agosto.",
+    "se-birka": "En la isla de Björkö, en el lago Mälaren, Birka fue un gran centro comercial vikingo de los siglos IX y X y se considera la ciudad más antigua de Suecia; con la residencia real de Hovgården es Patrimonio Mundial. Se visitan los túmulos, el museo y una aldea vikinga reconstruida. Solo se llega en el barco de verano que sale junto al Ayuntamiento de Estocolmo, de mayo a septiembre.",
+    "fi-helsinki": "La fortaleza marítima de Suomenlinna, Patrimonio Mundial, está a 15 minutos en ferry desde la plaza del Mercado, con salidas todo el año. La capital suma el centro neoclásico de la plaza del Senado, el Ateneum, el Kiasma y la arquitectura de Aalto, además de restaurantes con dos estrellas Michelin como Palace y Grön. Linnanmäki, el parque de atracciones más antiguo del país, tiene ocho montañas rusas, y de aquí salen ferris a Tallin y Estocolmo.",
+    "fi-rovaniemi": "La capital de Laponia está justo sobre el Círculo Polar Ártico, con la Aldea de Papá Noel y el museo Arktikum, que explica la cultura y la naturaleza del Ártico. Alvar Aalto la reconstruyó tras 1944 y conserva varios de sus edificios. Hay auroras de finales de agosto a marzo y el tren nocturno desde Helsinki tarda unas 12 horas; en Navidad hay mucha gente y los precios suben.",
+    "fi-savonlinna-olavinlinna": "Olavinlinna, fundado en 1475, es el castillo medieval más septentrional que sigue en pie, y cada julio su patio acoge el Festival de Ópera de Savonlinna. La ciudad está entre los lagos del Saimaa, cerca de la cresta boscosa de Punkaharju y del Parque Nacional de Linnansaari. En el mercado del puerto se prueban las lörtsy, empanadas fritas, y el muikku frito; en julio el alojamiento se agota pronto.",
+    "fi-saimaa": "El mayor lago de Finlandia es un laberinto de islas y bosques donde vive la foca anillada del Saimaa, una de las más amenazadas del mundo. Se busca en kayak o canoa por los parques nacionales de Linnansaari y Kolovesi, y cerca está la iglesia de Kerimäki, la mayor de madera del mundo. Los barcos a Linnansaari solo funcionan de junio a septiembre.",
+    "fi-tampere": "La antigua ciudad industrial de Finlandia levantó sus fábricas de ladrillo rojo junto a los rápidos de Tammerkoski, y hoy albergan museos como el Vapriikki y el Werstas. Es la ciudad del mustamakkara, una morcilla de centeno que se come con mermelada de arándano rojo, y de las saunas públicas junto al lago, abiertas incluso en invierno. El parque Särkänniemi tiene cinco montañas rusas, entre ellas la invertida Tornado.",
+    "fi-turku": "La ciudad más antigua de Finlandia tiene el mayor edificio medieval del país, un castillo iniciado hacia 1280, y la catedral consagrada en 1300, iglesia madre del luteranismo finlandés. Kaskis, con estrella Michelin y estrella verde, y el mercado cubierto la convierten en la capital culinaria del suroeste. Es la puerta del Archipelago Trail, unos 250 km en bici y ferry entre islas, y de Naantali, a un corto trayecto en bus.",
+    "fi-kuopio": "La ciudad del kalakukko, un pan de centeno relleno de muikku y cerdo que se compra en las panaderías junto al mercado. En Jätkänkämppä está una de las mayores saunas de humo del mundo, junto al lago Kallavesi, y el Museo de la Iglesia Ortodoxa guarda tesoros de los monasterios de Carelia evacuados en la guerra. En invierno se esquía en Tahko, a una hora por carretera, y se patina sobre el lago helado.",
+    "fi-aland": "Archipiélago autónomo de habla sueca con miles de islas de granito rojo unidas por puentes y ferris de cable, ideal para recorrer en bici. En Mariehamn está el velero museo Pommern, y por las islas el castillo de Kastelholm, las ruinas rusas de Bomarsund y varias iglesias medievales de piedra. Hay ferris diarios desde Turku, Helsinki y Estocolmo; fuera del verano muchos servicios cierran.",
+    "fi-inari": "Es el corazón de la cultura sami en Finlandia: el museo Siida, con museo al aire libre en verano, y el parlamento sami Sajos están en el pueblo. A orillas del lago Inari, de unas 3.000 islas, sale un barco a la isla sagrada de Ukonkivi y un sendero de unos 9 km lleva a la iglesia de madera de Pielpajärvi. Se llega en avión a Ivalo; para auroras, febrero y marzo, y para caminar, la ruska de finales de verano.",
+    "fi-urho-kekkonen-saariselka": "Uno de los mayores parques nacionales de Finlandia, con fells desnudos, bosque primario, renos y refugios abiertos para travesías de varios días. Saariselkä, la puerta del parque, tiene esquí en el Kaunispää y la pista de trineo más larga del país, que baja desde su cima. Hay bus desde el aeropuerto de Ivalo en unos 25 minutos, y la ruska tiñe el paisaje a finales de agosto y en septiembre.",
+    "fi-yllas-pallas": "Ylläs es la mayor estación de esquí de Finlandia, con 62 pistas y bajadas de unos 3 km desde la cima. En verano y otoño, el Parque Nacional de Pallas-Yllästunturi ofrece la ruta Hetta–Pallas, marcada desde 1934, que recorre durante unos 55 km una cadena de fells desnudos con refugios abiertos. El Santa Claus Express llega a Kolari, a un corto traslado de Äkäslompolo.",
+    "fi-rauma": "La Vieja Rauma, Patrimonio Mundial, es el mayor casco antiguo de madera de los países nórdicos: unas calles de casas pintadas que crecieron alrededor de un convento franciscano y se reconstruyeron tras un incendio a finales del siglo XVII. Se recorre a pie en una tarde, y a finales de julio celebra la Semana del Encaje. No hay tren de pasajeros: se llega en bus desde Turku, Pori o Tampere.",
+    "fi-porvoo": "Fundada hace casi 800 años, conserva un casco antiguo de casas de madera, los almacenes rojizos junto al río y la catedral del siglo XV donde se reunió la Dieta de 1809. Es la ciudad del poeta Runeberg, que da nombre a una tarta de almendra y frambuesa, y tiene chocolatería y cafés junto al agua. Está a unos 50 km de Helsinki en bus, y en verano se puede llegar en barco desde la plaza del Mercado.",
+    "fi-koli": "Colinas boscosas sobre el lago Pielinen, consideradas paisaje nacional de Finlandia: la vista desde el Ukko-Koli inspiró a pintores como Eero Järnefelt y a Sibelius. El sendero de Herajärvi da la vuelta en unos 30 km y dos días. Se llega en tren a Joensuu y bus o coche; en febrero y marzo, esquí de fondo.",
+    "fi-oulanka": "Parque de cañones, rápidos y turberas que cruza el Karhunkierros, la ruta de senderismo más popular de Finlandia, de unos 80 km; el Pieni Karhunkierros, de 12 km, pasa por los puentes colgantes del Kitkajoki. En ese río se hace el rafting más conocido del país, de junio a septiembre, y en invierno se esquía en Ruka, a 24 km. Se llega en avión a Kuusamo y bus de senderistas.",
+    "fi-nuuksio": "Bosques, lagos y roca a una hora de Helsinki en transporte público: es la mayor masa forestal del área metropolitana. El sendero Haukankierros, de 4 km desde Haukkalampi, sirve para una buena primera toma de contacto con el bosque finlandés. En invierno hay rutas con raquetas y paseos en trineo de huskies.",
+    "dk-copenhague": "Capital de la nueva cocina nórdica, con tres restaurantes de tres estrellas Michelin en 2026 (noma, Geranium y Kadeau) y el mercado de Torvehallerne. Los museos y palacios están muy juntos: Nationalmuseet, Glyptotek, SMK, Rosenborg, Christiansborg, Amalienborg y el puerto de Nyhavn. En el centro, el Tivoli tiene la Dæmonen y una montaña rusa de madera, y la ciudad es llana y se recorre en bici.",
+    "dk-roskilde": "La catedral de Roskilde, gran basílica gótica de ladrillo y Patrimonio Mundial, guarda las tumbas de 39 reyes y reinas de Dinamarca. El Museo de Barcos Vikingos expone cinco naves del siglo XI rescatadas del fiordo, y en verano se puede navegar en una réplica. Está a unos 25 minutos en tren de Copenhague; a finales de junio el festival de Roskilde llena la ciudad.",
+    "dk-helsingor-louisiana": "El castillo de Kronborg, el Elsinore de Hamlet y Patrimonio Mundial, controló durante siglos el paso del estrecho del Sund. A 10 km, en Humlebæk, el Louisiana es uno de los grandes museos de arte moderno de Europa, con jardín de esculturas sobre el mar, y en Hillerød el palacio renacentista de Frederiksborg, sobre tres islotes de un lago, alberga el Museo de Historia Nacional. Todo se recorre en tren desde Copenhague: unos 45 minutos hasta Helsingør y 35 o 40 hasta Hillerød.",
+    "dk-aarhus": "El ARoS, coronado por el pasillo circular de colores de Olafur Eliasson, es el museo de arte más visitado de Escandinavia; Den Gamle By recrea la ciudad danesa de 1864, 1927 y 1974, y el Moesgaard es un gran museo de arqueología. Es la segunda capital culinaria del país, con Frederikshøj, de dos estrellas Michelin, y el mercado Aarhus Street Food. Djurs Sommerland, el mayor parque de atracciones nórdico, queda a 36 km.",
+    "dk-odense": "La ciudad natal de Hans Christian Andersen tiene una nueva Casa de H.C. Andersen diseñada por Kengo Kuma en 2021 y conserva su casa de infancia junto a la catedral. A las afueras, el museo al aire libre Den Fynske Landsby reúne granjas de Fionia. Está a hora y media en tren de Copenhague, y en agosto celebra un festival dedicado al escritor.",
+    "dk-aero": "Ærøskøbing es uno de los pueblos del siglo XVIII mejor conservados de Dinamarca, con calles empedradas, casas pintadas y un pequeño museo de barcos en botella. La isla tiene colinas suaves, playas y el acantilado de Voderup Klint, y se recorre entera en bici; también hay destilería de whisky y cervecería. El ferry desde Svendborg tarda unos 75 minutos y en verano conviene reservarlo.",
+    "dk-skagen": "En Grenen, la punta de arena más al norte de Dinamarca, se ven chocar el Skagerrak y el Kattegat, aunque está prohibido bañarse por las corrientes. El Skagens Museum reúne a los pintores que llegaron a finales del siglo XIX por su luz, y cerca están la iglesia enterrada en la arena y Råbjerg Mile, una duna que avanza unos 15 m al año. Las gambas del puerto y el restaurante Okê, con estrella Michelin en 2026, completan la visita.",
+    "dk-ribe": "Es la ciudad más antigua de Dinamarca, con más de mil años y un casco medieval de casas de entramado en torno a una catedral románica. El Ribe VikingeCenter recrea un mercado de la época vikinga, y en verano el vigilante nocturno recorre las calles cantando. Es la base para el mar de Wadden: en primavera y otoño, las bandadas de estorninos del 'sol negro' oscurecen el cielo de las marismas.",
+    "dk-mar-wadden": "El mayor sistema continuo de bajíos intermareales del mundo, Patrimonio Natural UNESCO y mayor parque nacional de Dinamarca, con focas y millones de aves migratorias. A Mandø solo se llega con marea baja, por una calzada de grava o en el autobús-tractor desde Vester Vedsted, y en invierno hay salidas a recoger ostras silvestres. En primavera y otoño se ve el 'sol negro', las nubes de estorninos al atardecer.",
+    "dk-bornholm": "La isla gastronómica de Dinamarca: ahumaderos de arenque donde se sirve el 'Sol over Gudhjem' y Kadeau Bornholm, con estrella Michelin. Hammershus es la mayor fortaleza en ruinas del norte de Europa, y la isla tiene cuatro iglesias redondas del siglo XII, acantilados de granito y playas de arena fina en Dueodde. Desde Copenhague se llega en tren a Ystad y ferry rápido, unas 2,5 a 3 horas; hay que llevar documento al cruzar por Suecia.",
+    "dk-mons-klint": "Acantilados de creta blanca de hasta 128 m sobre el Báltico, con bosques de hayas encima y fósiles en la playa; son Patrimonio Natural UNESCO desde 2025 y reserva de cielo oscuro. Una escalera de casi 500 escalones baja hasta la orilla, por donde se camina hasta el faro de Møns Fyr. De abril a octubre funcionan el GeoCenter y el bus directo; no hay que acercarse al borde por los desprendimientos.",
+    "dk-billund-legoland": "El Legoland original, con cuatro montañas rusas y en 2026 la primera montaña rusa doble de duelo de Dinamarca, y la Lego House de Bjarke Ingels, que cuenta la historia del juguete y abre todo el año. A unos 800 m está Lalandia, el mayor parque acuático de Escandinavia. Es un plan familiar; el aeropuerto de Billund está a pocos minutos.",
+    "dk-thy-klitmoller": "El Parque Nacional de Thy es la mayor zona salvaje de Dinamarca: dunas, brezales, lagos y una costa del mar del Norte que se recorre a pie de Hanstholm a Agger. Klitmøller, apodado 'Cold Hawaii', es la capital danesa del surf y el windsurf, con las mejores olas en primavera y otoño. En el puerto de Hanstholm hay pescado fresco; conviene bañarse solo en playas vigiladas por las corrientes.",
+    "ee-tallinn": "El casco antiguo, Patrimonio Mundial, es una ciudad hanseática completa: muralla con torres, ayuntamiento gótico y la colina de Toompea con sus iglesias y miradores. 180° by Matthias Diether fue el primer dos estrellas Michelin de Estonia, y el mercado de Balti Jaam reúne producto local junto a la estación. Para la adrenalina, el Walk on the Edge rodea con arnés la cornisa de la torre de televisión a 175 m; hay ferris rápidos desde Helsinki.",
+    "ee-saaremaa": "El castillo episcopal de Kuressaare, del siglo XIV, es uno de los mejor conservados de los países bálticos, y la isla suma los molinos de viento de Angla, iglesias medievales y el cráter de meteorito de Kaali. Al oeste, el Parque Nacional de Vilsandi tiene focas grises y un sendero de unos 12 km hasta el faro torcido de Kiipsaare. El ferry de Virtsu tarda 25 minutos; en verano conviene reservar el coche.",
+    "ee-hiiumaa": "Isla tranquila de bosques y costas vírgenes, menos visitada que Saaremaa. El faro de Kõpu, de 1531, es uno de los más antiguos del mundo que sigue en funcionamiento, y la península de Kõpu se recorre en bici hasta el faro de Ristna. El ferry de Rohuküla, cerca de Haapsalu, tarda algo más de una hora.",
+    "ee-lahemaa": "El parque nacional más antiguo y mayor de Estonia combina penínsulas, bosques, turberas con pasarelas y grandes bloques erráticos con las mansiones bálticogermanas de Palmse, Sagadi y Vihula. La pasarela de la ciénaga de Viru, de 3,5 km, se recorre todo el año, y el pueblo pesquero de Altja conserva sus casas tradicionales. Se llega en coche desde Tallin en una hora, y el centro de visitantes está en Palmse.",
+    "ee-tartu": "Ciudad universitaria con la universidad más antigua del país y las ruinas de la catedral en la colina de Toomemägi. El Museo Nacional de Estonia, en un edificio contemporáneo sobre una antigua pista militar, es el gran museo de la identidad estonia, y el centro de ciencia AHHAA es muy bueno para ir con niños. Está a unas 2 horas en tren de Tallin.",
+    "ee-soomaa": "Uno de los mayores paisajes de turbera de Europa, famoso por la 'quinta estación': la crecida de marzo y abril inunda bosques y prados y se rema en canoa entre los árboles. Aquí se mantiene la tradición de las canoas de tronco (haabjas), patrimonio inmaterial de la UNESCO, y de mayo a septiembre hay pasarelas como la de Hüpassaare. Hace falta coche: el centro de visitantes está a unos 44 km de Pärnu y de Viljandi.",
+    "ee-parnu": "Balneario histórico desde 1838 con una larga playa de arena de aguas poco profundas, villas de madera y la iglesia barroca de Santa Isabel. Es el destino de verano favorito de los estonios, con terrazas, eventos y el parque acuático Tervise Paradiis, el mayor del país. Se llega en bus desde Tallin, y el Parque Nacional de Soomaa queda a menos de una hora.",
+    "ee-kihnu": "Pequeña isla del golfo de Riga donde una comunidad mantiene viva una cultura tradicional, con las faldas de rayas de las mujeres, música y ritos que son Patrimonio Inmaterial de la UNESCO. Se recorre en bici o en sidecar y el museo local explica los patrones de sus tejidos. El ferry desde Munalaiu, cerca de Pärnu, tiene pocas salidas y puede cancelarse por temporal o hielo.",
+    "ee-matsalu": "Bahía y prados inundables que son una de las grandes áreas de paso de aves acuáticas del norte de Europa: avocetas, charranes, cisnes y águilas de cola blanca. Lo mejor es subir a las torres de observación al amanecer durante la migración, en abril y mayo o en septiembre y octubre. El centro del parque está en la mansión de Penijõe, junto a la carretera de Virtsu.",
+    "ee-narva": "El castillo de Hermann, fundado por los daneses en el siglo XIV, se enfrenta a la fortaleza rusa de Ivangorod al otro lado del río, una imagen única del límite oriental de la Unión Europea. Dentro está el Museo de Narva, y la playa de Narva-Jõesuu queda a unos 13 km. Hay tren desde Tallin en algo más de 2 horas; no se debe cruzar a Rusia.",
+    "ee-peipsi": "En la orilla del cuarto lago más grande de Europa viven los Viejos Creyentes, llegados en el siglo XVII huyendo de la persecución religiosa en Rusia, con casas de madera, casas de oración y un museo en Kolkja. La Ruta de la Cebolla los recorre en bici, con puestos de cebollas, pescado ahumado y té de samovar. Al norte, la playa de arena de Kauksi; se llega en coche o bici desde Tartu.",
+    "lv-riga": "El centro histórico, Patrimonio Mundial, une el casco medieval hanseático con el mayor conjunto de Art Nouveau de Europa, en torno a las calles Alberta y Elizabetes. El Mercado Central ocupa antiguos hangares de zepelines, y restaurantes como Max Cekot Kitchen tienen estrella Michelin. De la ciudad salen trenes de cercanías a Jūrmala, Sigulda y Cēsis; en junio se celebra a lo grande San Juan (Jāņi).",
+    "lv-gauja-sigulda": "Sigulda es la capital báltica de la adrenalina: en la pista olímpica se baja en bob de verano a unos 80 km/h y desde el teleférico que cruza el valle del Gauja se salta en bungee. El parque nacional tiene acantilados de arenisca roja, cuevas y bosques, y el castillo de ladrillo de Turaida, de 1214. En Līgatne, Pavāru māja tiene estrella verde Michelin; el tren desde Riga tarda algo más de una hora.",
+    "lv-cesis": "Su castillo, fundado hacia 1214 por los Hermanos Livonios de la Espada, fue la fortaleza más poderosa de Livonia y se recorre con un farol en la mano. Junto a él hay un casco antiguo bien conservado y una de las cervecerías más antiguas del país. Está dentro del Parque Nacional del Gauja, con senderos y kayak por el río, a algo menos de hora y media en tren de Riga.",
+    "lv-jurmala": "Una playa de 24 km de arena compacta entre pinares, a unos 30 minutos en tren de cercanías desde Riga. El balneario conserva cientos de villas de madera de los siglos XIX y XX, muchas de estilo Art Nouveau, y restaurantes de pescado frente al mar. Está junto al Parque Nacional de Ķemeri, con su gran ciénaga.",
+    "lv-kemeri": "La Gran Ciénaga de Ķemeri se recorre por una pasarela de madera de 1,4 o 3,4 km sobre la turbera, entre droseras y lagunas, con una torre para ver grullas. Al lado está el antiguo balneario de Ķemeri. Se llega en tren de cercanías desde Riga en unos 40 minutos, y en otoño los amaneceres con niebla son el mejor momento.",
+    "lv-rundale": "Palacio construido por Rastrelli, el arquitecto del Palacio de Invierno, como residencia de verano de los duques de Curlandia entre 1736 y 1740; es el mayor monumento barroco y rococó de Letonia. Tiene salones restaurados y un jardín a la francesa que florece de mayo a septiembre. Está a unos 80 km de Riga, con bus directo en verano.",
+    "lv-kuldiga": "Su casco antiguo, Patrimonio Mundial desde 2023, conserva casas de troncos y el trazado de cuando fue centro administrativo del Ducado de Curlandia, con un largo puente de ladrillo sobre el Venta. Junto al pueblo, la Ventas Rumba es la cascada más ancha de Europa, de unos 250 m, y en primavera los peces la saltan río arriba. Está a algo más de 2 horas de Riga, y en sus cafés se prueba el sklandrausis, un pastel de centeno con zanahoria y patata.",
+    "lv-ventspils": "Ciudad portuaria con un castillo de la Orden Livonia del siglo XIII, uno de los mejor conservados de Letonia, y un casco antiguo restaurado. Su playa ancha, con bandera azul, está considerada una de las mejores del país, y el mercado vende pescado ahumado de la costa de Kurzeme. Se llega en bus o coche desde Riga; la temporada es de junio a agosto.",
+    "lv-liepaja-karosta": "Karosta, el antiguo puerto militar zarista y soviético al norte de la ciudad, conserva la catedral ortodoxa de San Nicolás y una cárcel militar que se visita e incluso permite pasar la noche. En el centro, el Mercado de San Pedro, de mediados del siglo XVII, vende pescado ahumado y producto de Kurzeme. La playa ancha junto a la ciudad y el rompeolas de Karosta completan la visita en verano.",
+    "lv-kolka": "En el cabo Kolka se encuentran el golfo de Riga y el Báltico, y por aquí pasan cada primavera grandes bandadas de aves migratorias. La costa es territorio de los livonios, un pueblo finoúgrico casi desaparecido, con su centro cultural en Mazirbe y ahumaderos caseros de pescado. Al lado, el Parque Nacional de Slītere tiene un sendero al faro; hace falta coche.",
+    "lv-daugavpils-latgale": "Daugavpils, ciudad natal de Mark Rothko, tiene en el arsenal de su fortaleza zarista un centro de arte dedicado al pintor. Latgale, la región de los lagos azules, suma la basílica de Aglona, el gran santuario católico del país, y el Parque Nacional de Rāzna. Para los lagos hace falta coche; el 15 de agosto Aglona recibe una gran peregrinación.",
+    "lt-vilnius": "Su centro histórico, Patrimonio Mundial, es uno de los mayores conjuntos barrocos de Europa del Este, con trazado medieval intacto, iglesias góticas y la colina de Gediminas. Užupis, el barrio bohemio que se declaró república, está al otro lado del río. Es el mejor lugar para probar cepelinai y sopa fría de remolacha y la cocina de restaurantes con estrella Michelin como Nineteen18; en marzo se celebra la feria de Kaziukas.",
+    "lt-trakai": "El castillo gótico de ladrillo rojo de los grandes duques de Lituania ocupa una isla del lago Galvė y se alcanza por una pasarela de madera. El pueblo conserva las casas de madera de los caraítas, una comunidad de origen turco cuyas empanadillas, los kibinai, se comen en Senoji Kibininė. Está a unos 40 minutos de Vilna en tren o bus, y en verano se alquilan barcas y kayaks en el lago.",
+    "lt-istmo-curonia": "Una lengua de arena de 98 km entre el Báltico y la laguna de Curlandia, Patrimonio Mundial, con dunas móviles como la de Parnidis, de 52 m, y bosques de pinos. Nida conserva casas de pescadores de madera y la casa de verano de Thomas Mann, y Juodkrantė tiene la Colina de las Brujas y ahumaderos de pescado. Se llega en un ferry de 5 minutos desde Klaipėda y bus a Nida; al sur está la frontera cerrada con Kaliningrado.",
+    "lt-kaunas": "Capital provisional de Lituania entre 1919 y 1939, conserva unos 1.500 edificios modernistas de entreguerras, Patrimonio Mundial desde 2023. Suma el castillo, el casco antiguo y, a las afueras, el monasterio barroco de Pažaislis. Está a una hora de Vilna en tren o bus, y el bistró Nüman tiene Bib Gourmand.",
+    "lt-colina-cruces": "Más de 100.000 cruces, rosarios y figuras cubren una pequeña colina en el campo, cerca de Šiauliai. Los soviéticos la arrasaron varias veces y los lituanos volvían a llenarla, por eso es símbolo de la resistencia nacional; la talla de cruces es Patrimonio Inmaterial de la UNESCO. Se visita todo el año, mejor en coche, porque desde la parada del bus quedan unos 2 km a pie.",
+    "lt-palanga": "El principal balneario de Lituania tiene 18 km de playa con dunas y pinares, mucha vida nocturna en verano y un lado tranquilo entre los árboles. El Museo del Ámbar, en el palacio de los Tyszkiewicz, guarda una de las mayores colecciones de ámbar báltico y está rodeado por el parque botánico de Birutė. Tiene aeropuerto propio y buses frecuentes desde Klaipėda.",
+    "lt-aukstaitija": "Parque de lagos encadenados y bosques: desde la colina de Ladakalnis se ven seis lagos a la vez. Se recorre en canoa, bici o a pie entre pueblos de madera, el molino de agua de Ginučiai y el museo de apicultura de Stripeikiai. Hace falta coche desde Vilna; la temporada es de junio a agosto.",
+    "lt-druskininkai": "Balneario de aguas minerales entre pinares junto al Nemunas, con la Snow Arena, donde se esquía bajo techo todo el año. A pocos kilómetros, el Parque Grūtas reúne las estatuas soviéticas retiradas tras la independencia y es clave para entender la ocupación. El pueblo guarda también el museo memorial de Čiurlionis, pintor y compositor nacional.",
+    "lt-dzukija": "El mayor parque nacional de Lituania: pinares sobre arena, dunas continentales, el valle del Merkys y la turbera de Čepkeliai. Pueblos de madera como Zervynos y Marcinkonys mantienen la recolección de setas y la apicultura, y se puede dormir en granjas con cocina rural. Hace falta coche desde Druskininkai o Varėna, y a finales del verano es temporada de setas.",
+    "lt-delta-nemunas": "Delta de pólderes y canales donde se han visto 270 de las 294 especies de aves de Lituania, con la estación de anillamiento del cabo Ventė. Desde Rusnė salen paseos en barca, y en los pueblos se ahúma pescado de río y de laguna. La migración de primavera y otoño es el mejor momento; las crecidas de primavera pueden cortar la carretera.",
+    "lt-zemaitija": "En el bosque de Plokštinė se baja al silo de una antigua base soviética de misiles nucleares, hoy Museo de la Guerra Fría. El parque rodea el lago Plateliai, el mayor de Samogitia, que se rodea en bici. Hace falta coche, porque queda lejos de las líneas de tren.",
+    "lt-anyksciai": "A las afueras del pueblo, un sendero elevado de unos 300 m recorre las copas del bosque y termina en una torre de 34 m sobre el río Šventoji. En Anykščiai funciona además un ferrocarril histórico de vía estrecha. En otoño el color de los bosques lo hace más vistoso; se llega en bus desde Vilna.",
+    "no-voss": "La capital noruega de los deportes extremos: rafting por el Raundalselva, parapente en tándem, el túnel de viento Voss Vind y, cada final de junio, la Ekstremsportveko. La góndola sube en nueve minutos al Hanguren, con senderos panorámicos, y cerca cae la cascada de Tvindefossen. Es la cuna del smalahove, la cabeza de cordero ahumada que se come en otoño; está a unos 75 minutos en tren de Bergen.",
+    "dk-djurs-sommerland": "El mayor parque de atracciones de los países nórdicos, con más de 60 atracciones y la Juvelen, la montaña rusa más larga de Dinamarca, de 1 km y doble lanzamiento. Tiene también un parque acuático incluido en la entrada, que da acceso ilimitado a todo. Abre solo en temporada de verano y está a unos 36 km de Aarhus, con bus directo en plena temporada.",
+    "no-alta": "El mayor conjunto de arte rupestre del norte de Europa: miles de grabados de entre 7.000 y 2.000 años con renos, osos, barcos y escenas de caza, Patrimonio Mundial desde 1985. Se recorren por unos 3 km de pasarelas de madera junto al fiordo, desde el Museo de Alta. El museo abre todo el año, pero los grabados solo se ven sin nieve, más o menos de mayo a octubre.",
+    "no-rjukan-notodden": "En Notodden está Heddal, la mayor iglesia de madera de Noruega, del siglo XIII. Más arriba, en el valle de Rjukan, el conjunto industrial que Norsk Hydro levantó para fabricar fertilizante es Patrimonio Mundial, y en la central de Vemork se cuenta el sabotaje del agua pesada en la Segunda Guerra Mundial. Sobre Rjukan se sube al Gaustatoppen a pie o en funicular, y en invierno sus cascadas heladas atraen a escaladores de hielo; hace falta coche.",
+    "dk-jelling": "Los dos grandes túmulos y las piedras rúnicas de Gorm el Viejo y de su hijo Harald Diente Azul, Patrimonio Mundial, marcan el paso de Dinamarca al cristianismo hacia el año 965; la piedra mayor se considera el acta de nacimiento del país. Frente a la iglesia, el museo Kongernes Jelling explica la época de los reyes vikingos. Hay tren local desde Vejle, y Legoland queda a 18 km.",
+    "lt-kernave": "Primera capital del Gran Ducado de Lituania, con cinco colinas fortificadas sobre el valle del Neris y restos de unos diez milenios de poblamiento, Patrimonio Mundial desde 2004. El museo arqueológico expone lo hallado bajo los sedimentos del río, y cada julio se celebra un festival de arqueología experimental. Está a algo más de una hora en bus desde Vilna.",
+    "se-kalix": "Cuna del Kalix löjrom, las huevas de corégono del golfo de Botnia, con denominación de origen protegida, que se extraen a mano el mismo día de la pesca. La temporada fuerte es el otoño, de finales de septiembre a octubre, cuando se prueban frescas con smetana y cebolla roja. Está a unos 80 km por carretera de Luleå, frente al archipiélago de Kalix.",
+    "dk-henne-kirkeby-kro": "En una posada del siglo XVIII con techo de paja, Henne Kirkeby Kro tiene dos estrellas Michelin y cocina con la huerta propia y el pescado del mar del Norte. Alrededor están las dunas y la playa de Henne Strand y el lago restaurado de Filsø, bueno para ver aves. Hace falta coche y reservar mesa y habitación con mucha antelación; el mar de Wadden empieza unos 15 km al sur.",
+    "no-jostedalsbreen": "Jostedalsbreen es el mayor glaciar de la Europa continental. Su lengua de Briksdalsbreen se alcanza desde Olden por un sendero fácil, y en Kjenndalsbreen se llega por el valle de Lodalen. En Loen, el teleférico Loen Skylift sube en cinco minutos al monte Hoven, sobre el Nordfjord, y de mayo a octubre una vía ferrata guiada cruza el puente más largo de Europa en su tipo, a 750 m de altura.",
+    "no-senja": "La segunda isla de Noruega tiene picos dentados que caen al mar en la costa exterior, recorrida por una ruta turística nacional entre pueblos de pescadores como Hamn, Husøy y Mefjordvær. La subida al Hesten da la vista clásica del pico Segla sobre el fiordo, en unas 2 horas ida y vuelta. Se llega en coche desde Tromsø o en ferry de verano desde Andenes; hay sol de medianoche de mediados de mayo a mediados de julio.",
+    "no-rondane-dovre": "Rondane fue en 1962 el primer parque nacional de Noruega: montañas redondeadas de más de 2.000 m y refugio del reno salvaje, con la subida al Rondeslottet desde Rondvassbu. Al lado, en Dovrefjell, se hacen safaris guiados para ver bueyes almizcleros desde Hjerkinn o Oppdal. El tren de Dovre para en Hjerkinn y Kongsvoll, y el rafting del río Sjoa queda a unos 25 km.",
+    "se-fulufjallet": "La cascada de Njupeskär, la de mayor caída libre de Suecia, está a unos 2 km a pie del centro de visitantes. En la meseta crece el Old Tjikko, un abeto clonal con raíces de unos 9.500 años que se considera uno de los árboles más viejos del mundo y se visita mejor con guía. En coche se llega por la carretera 70 desde Mora; en transporte público, el último tramo solo funciona dos días a la semana con reserva.",
+    "se-kosterhavet": "El primer parque nacional marino de Suecia protege un fondo con el único arrecife de coral de agua fría del país y miles de especies; en Koster Sur hay un sendero de snorkel señalizado. Las islas Koster, sin coches, se recorren en bici o a pie, con calas en el sur y brezales en el norte. El ferry desde Strömstad tarda menos de una hora y funciona todo el año; para comer, gambas de Strömstad y ostras de Grebbestad.",
+    "fi-kvarken": "La parte finlandesa del Patrimonio Natural UNESCO de la Costa Alta y Kvarken: la tierra sigue subiendo tras la glaciación y van apareciendo islas nuevas, entre campos de morrenas De Geer únicos en el mundo. En Svedjehamn, en la isla de Björkö, la torre de Saltkaret da la mejor vista del archipiélago. Se llega en coche desde Vaasa cruzando el puente de Replot, el más largo de Finlandia; mejor de junio a agosto.",
+    "fi-repovesi": "Lagos, acantilados y pinares con unos 45 km de senderos marcados, a unas dos horas de Helsinki: el circuito Ketunlenkki cruza el puente colgante de Lapinsalmi y un pequeño ferry de tracción manual. A unos 20 km, la fábrica de pasta de madera y cartón de Verla, Patrimonio Mundial, cerró en 1964 y se conserva como museo tal como quedó. Hay bus de fin de semana desde Kouvola a ambos en temporada.",
+    "fi-lemmenjoki": "El mayor espacio protegido de Finlandia: un valle fluvial entre fells y pinares primarios, en tierra sami, con unos 60 km de senderos marcados. Un barco remonta 22 km del río hasta Kultahamina, donde quedan buscadores de oro, y se puede volver a pie por la Ruta del Oro. No hay transporte público desde Inari, a 47 km; los colores de la ruska llegan a finales de agosto y principios de septiembre.",
+    "dk-stevns-klint": "Acantilado de unos 15 km, Patrimonio Natural UNESCO porque conserva la capa de arcilla que dejó el impacto del asteroide que acabó con los dinosaurios. Sobre el borde, la vieja iglesia de Højerup perdió su coro en 1928 al derrumbarse parte del acantilado, y abajo se buscan fósiles en la playa. Al lado está el museo de la Guerra Fría de Stevnsfort; en verano un bus recorre la costa desde Rødvig.",
+    "se-halsingland": "Siete granjas de campesinos ricos de Hälsingland son Patrimonio Mundial por sus casas de madera con interiores pintados de los siglos XVIII y XIX, que mezclan arte popular con el gusto barroco y rococó de la nobleza. Muchas tenían una sala de fiestas aparte, la herrstuga, y algunas sirven la tarta de queso al horno de la región. Hace falta coche, a unas 3 o 4 horas al norte de Estocolmo, y en verano abren más granjas con visita guiada.",
+    "dk-trelleborg": "La mejor conservada de las fortalezas circulares que Harald Diente Azul mandó construir hacia el año 980, Patrimonio Mundial desde 2023, con su trazado geométrico de calles y casas largas aún visible en la hierba. Hay museo y una casa larga reconstruida, y en verano actividades vikingas. Está a unos 7 km de Slagelse, a la que se llega en tren desde Copenhague.",
+    "dk-mols-bjerge": "Parque nacional de unos 180 km² en la península de Djursland: colinas glaciares de brezo, bosques, lagos y costa, con túmulos de la Edad del Bronce. Se camina hasta Trehøje y Agri Bavnehøj, y en la bahía de Kalø están las ruinas de un castillo medieval sobre un istmo. Ebeltoft, con su calle empedrada y la fragata Jylland, queda dentro del parque, a menos de una hora de Aarhus."
+  },
+  "notas": {
+    "grupo_a": {
+      "grupo_a": {
+        "guias_busqueda": "30 WebSearch (máximo del encargo) para los lugares nuevos de GB, IE e IS con guías 0. Solo se citan URL vistas en los resultados; se descartan foros (Fodor's Travel Talk, comunidad de Rick Steves), agregadores (Tripexpert, Wanderlog), librerías (Bookshare) y el servidor de pruebas nonprod.lonelyplanet.com. Escala de criterios.json sin bajar el umbral: 2 = una guía; 3 = dos guías con página o recomendación.",
+        "guias_detalle": {
+          "gb-alton-towers": "Time Out (dos fichas: «el número uno de Gran Bretaña») y ficha de Lonely Planet: 3.",
+          "gb-blackpool-pleasure-beach": "Solo la ficha de Lonely Planet (el parque de atracciones más popular de Gran Bretaña); Time Out y Rough Guides no aparecieron: 2.",
+          "gb-durham": "Artículo de Lonely Planet sobre lo mejor de Durham y vídeo de Rick Steves sobre la catedral normana: 3.",
+          "gb-fountains-abbey": "Lonely Planet (Top Choice) y ficha de Frommer's: 3.",
+          "gb-ironbridge": "Ficha de Fodor's y Lonely Planet (Top Choice del Museum of the Gorge): 3.",
+          "gb-orcadas-neolitico": "Guía de Lonely Planet sobre las Orcadas neolíticas, Skara Brae en el puesto 22 de su Ultimate Travelist (citado por Visit Orkney) y una columna de Rick Steves sindicada en Luxury Travel Advisor: 3. No se halló Fodor's ni Rough Guides.",
+          "ie-clonmacnoise": "Solo Lonely Planet (Top Choice de los Midlands); Rick Steves y Fodor's no aparecieron: 2.",
+          "ie-carrowmore": "Solo Lonely Planet («la visita obligada de Sligo»): 2.",
+          "gb-speyside": "Solo la página de destino de Rough Guides; el Snapshot de Rick Steves sobre las Highlands solo apareció en una ficha de biblioteca (Bookshare), así que no se cita: 2.",
+          "gb-islay": "Solo Time Out (entre los grandes destinos europeos de 2026); Lonely Planet y Rough Guides no aparecieron: 2.",
+          "ie-ballymaloe-east-cork": "Condé Nast Traveller (Gold List 2015, citado por Hospitality Ireland). Las reseñas de Fodor's y Lonely Planet solo aparecieron en el agregador Tripexpert y no se cuentan: 2.",
+          "gb-costa-jurasica": "Lonely Planet pone Durdle Door primero en lo mejor de Dorset. Insight Guides le dedica un artículo, pero no está entre las guías de criterios.json, y Rough Guides y Fodor's no aparecieron: 2.",
+          "gb-seven-sisters": "Rough Guides, citado por la autoridad del Parque Nacional de los South Downs. Lonely Planet y Time Out no aparecieron: 2. El origen fusionado gb-sussex-vinedos no se buscó aparte porque comparte paisaje y búsqueda.",
+          "ie-glenveagh": "Solo una mención indirecta: Tourism Ireland cita a Donegal en el Best in Travel 2024 de Lonely Planet. La ficha del castillo solo salió en el servidor nonprod de Lonely Planet, que no se cita: 1.",
+          "is-glaumbaer": "Se buscó en Lonely Planet y Rough Guides sin resultado. Queda en 0 y se descarta (global 1,8)."
+        },
+        "fusiones": {
+          "gb-bray -> gb-windsor": "Bray está a unos 8 km del castillo. Con sus dos restaurantes de tres estrellas Michelin (The Fat Duck y The Waterside Inn), Windsor sube a gastronomía 5 y global 4,2. La adrenalina queda en 4 por el puntaje de Bray (Thorpe Park a 11-17 km; Legoland Windsor está en el mismo Windsor), aunque el agente había limitado Windsor a 2 por ser visita de castillo. Que el revisor lo confirme.",
+          "gb-sussex-vinedos -> gb-seven-sisters": "Alfriston, con la bodega Rathfinny, está a unos 7 km de Birling Gap, y el valle del Cuckmere une ambos lugares dentro de los South Downs. Ridgeview, en Ditchling, queda a unos 25 km, pero forma parte de la misma ruta de bodegas.",
+          "ie-cork -> ie-kinsale-cobh": "Cobh es el puerto de Cork (15 km, 25 min en tren) y Kinsale está a 22 km. ie-kinsale-cobh ya agrupaba los puertos del condado y repetía el tema gastronómico de Cork. Se conserva el id y la logística del destino (4, con acceso a ambos pueblos desde Cork), pero se renombra «Cork, Kinsale y Cobh» con las coordenadas de la ciudad, y se añade la categoría ciudad.",
+          "ie-ballymaloe-east-cork (no fusionado)": "Shanagarry está a unos 28 km de Cork y Midleton a unos 20 km, fuera de los 15 km. Se mantiene aparte como destino gastronómico de East Cork (global 3,1). Si el revisor prefiere un solo lugar para el condado de Cork, es el siguiente candidato a fusionar con ie-kinsale-cobh."
+        },
+        "categorias": "no_playa en la Calzada del Gigante, Moher y Slieve League (acantilados sin playa de baño, como Étretat en francia-alpes); playa en Achill (bahía de Keem). Se añade ciudad como respaldo a Cotswolds y Lago Ness-Inverness (sin temático ≥ 3,5) y a Blackpool Pleasure Beach (solo adrenalina; Blackpool es ciudad). Alton Towers queda solo como adrenalina porque es un parque aislado, no un pueblo. is-laguna-azul no tiene temático ≥ 3,5 y no encaja como ciudad ni playa, así que el script usa naturaleza (3) como último recurso.",
+        "regiones": "Se unifican las regiones: Cotswolds pasa a Suroeste de Inglaterra (Gloucestershire), Lake District a Noroeste de Inglaterra (Cumbria), Orcadas a Escocia, Costa Jurásica a Suroeste de Inglaterra, Seven Sisters a Sureste de Inglaterra, Clonmacnoise a Leinster y Carrowmore a Connacht. Los tres lugares de Donegal mantienen «Ulster (Donegal)» para distinguirlos de Irlanda del Norte, que está en GB.",
+        "coordenadas": "Se revisaron las 79; todas caen en su lugar. Solo cambia Cork, Kinsale y Cobh, que pasa a la ciudad de Cork (51.8977, -8.4751). La Costa sur de Islandia (63.45, -19.2) es un punto medio entre Skógafoss y Vík, en tierra.",
+        "cobertura": "Con estos ajustes, en simulación en seco con una copia del script: GB 40 (18 imprescindibles y 22 muy recomendados), IE 21 (8, 10 y 3 si hay tiempo) e IS 15 (12 y 3); se descarta is-glaumbaer."
+      }
+    },
+    "grupo_b": {
+      "grupo_b": {
+        "guias_busqueda": "29 WebSearch (de 35) para los 24 lugares sin puntaje de guías, casi todas filtradas a dominios de guías (Lonely Planet, Rick Steves, Fodor's, Frommer's, Rough Guides, National Geographic, Time Out, ViaMichelin). Solo se citan URLs vistas en los resultados; se descartan foros (Rick Steves Travel Forum, Fodor's Travel Talk), Wikivoyage, blogs y operadores. Escala: 1 = mención menor; 2 = una guía; 3 = dos guías con página o recomendación; 4 = tres guías con página o artículo dedicado. Ningún 5: no se pudo confirmar 'top pick' en 4 guías.",
+        "guias_conservadores": {
+          "se-drottningholm": "Cinco guías (Rick Steves, Frommer's, Lonely Planet, Rough Guides, Fodor's) con página o artículo de excursiones; sin confirmar que sea top pick en todas, queda en 4. Se fusiona con Estocolmo.",
+          "no-jostedalsbreen": "Frommer's (destino propio 'Jostedal Glacier Area'), Lonely Planet (ficha de Briksdalsbreen) y Fodor's (ficha de lugares de los fiordos del oeste): 4.",
+          "dk-jelling": "Lonely Planet (Kongernes Jelling), Frommer's (página de Jelling) y National Geographic (artículo sobre las piedras rúnicas de Jelling): 4. El artículo de Fodor's sobre lugares vikingos no se pudo confirmar.",
+          "no-senja": "Lonely Planet (sección propia de Senja), Fodor's (sección de Senja en Northern Norway) y National Geographic (artículo dedicado): 4.",
+          "no-rondane-dovre": "Frommer's (destino propio), Lonely Planet (mejores parques nacionales de Noruega), Rough Guides (página de Rondane) y National Geographic (safari de bueyes almizcleros): 4.",
+          "se-fulufjallet": "Lonely Planet (parques nacionales de Suecia), Time Out (Dalarna) y Fodor's (árboles más viejos, Old Tjikko). No se confirmó el contenido completo de los artículos: 3.",
+          "se-kosterhavet": "Lonely Planet (ficha de las islas Koster y artículo de islas) y Time Out (costa oeste). El artículo de NatGeo de 2014 no se pudo confirmar: 3.",
+          "se-riksgransen": "National Geographic (artículo dedicado al esquí en Riksgränsen), Rough Guides (Abisko and around) y Lonely Planet (esquí por meses): 3. Se fusiona con Abisko.",
+          "dk-henne-kirkeby-kro": "Solo Lonely Planet (ficha del restaurante). La Guía Michelin de restaurantes (dos estrellas) se cita como fuente pero no cuenta como guía de viaje: 2.",
+          "dk-trelleborg": "Frommer's (página de Slagelse, base para Trelleborg). Lonely Planet solo devolvió la Trelleborg sueca y el artículo de NatGeo es una mención: 2.",
+          "dk-mols-bjerge": "Solo Lonely Planet (ficha del parque): 2.",
+          "se-halsingland": "Solo Rough Guides (Hudiksvall and around): 2.",
+          "fi-kvarken": "Solo Lonely Planet (página del archipiélago de Kvarken y artículo Finlandia en una semana): 2.",
+          "fi-repovesi": "Solo una mención en un artículo de National Geographic sobre Punkaharju; el artículo de parques de Lonely Planet no lo incluye: 1.",
+          "se-kalix": "Ninguna guía cubre el pueblo; Time Out solo menciona la löjrom de Kalix en una guía de Skellefteå: 1.",
+          "fi-verla": "Buscado sin resultados en guías: 0. Se fusiona con Repovesi."
+        },
+        "fusiones": {
+          "no-jostedalsbreen + no-loen": "Loen está a 22 km de Briksdal, en el mismo Nordfjord; el Loen Skylift y la vía ferrata son la parte de adrenalina del mismo viaje al glaciar. Se mantienen las coordenadas de Briksdal.",
+          "se-abisko-kungsleden + se-riksgransen": "30-35 km por la misma línea de tren Kiruna-Narvik; Riksgränsen es la estación de esquí del macizo de Abisko y ya era la actividad de adrenalina de Abisko.",
+          "dk-helsingor-louisiana + dk-frederiksborg": "El lugar ya era 'Zelanda del Norte'; Frederiksborg (Hillerød) está a 23 km de Kronborg y se hace en la misma excursión en tren desde Copenhague.",
+          "se-estocolmo + se-drottningholm": "Drottningholm está a 10 km del centro de Estocolmo: monumento a menos de 15 km de su ciudad.",
+          "fi-repovesi + fi-verla": "Verla (UNESCO) está a unos 20 km de Repovesi y comparte el bus de fin de semana desde Kouvola; sola quedaba descartada (guías 0, global 1.8)."
+        },
+        "sin_fusion": {
+          "se-lund/se-malmo": "16 km. Lund es una ciudad propia (catedral románica, universidad, Kulturen), no un monumento de Malmö; guias-expertas la separó con fuentes propias.",
+          "dk-henne-kirkeby-kro": "No hay ningún lugar de Jutlandia Occidental cerca: Ribe y el mar de Wadden quedan a unos 55-60 km. Se mantiene con nombre de zona, 'Henne Strand y Filsø (Jutlandia Occidental)', con el restaurante como motivo principal.",
+          "dk-jelling/dk-billund-legoland": "18,5 km; viajes distintos (patrimonio vikingo frente a parque temático).",
+          "dk-djurs-sommerland/dk-mols-bjerge": "22 km; el parque de atracciones es un destino propio, como Alton Towers en GB."
+        },
+        "rescatados": "se-halsingland, dk-trelleborg y dk-mols-bjerge pasan de descartados a 'si hay tiempo' (2.6) con el puntaje de guías buscado. fi-verla queda dentro de Repovesi.",
+        "categorias": "Se añade 'ciudad' a Voss, Åre y Djurs Sommerland (lección: si solo queda adrenalina) y a pueblos o ciudades sin temático ≥ 3.5 (Pärnu, Jūrmala, Palanga, Glasriket, Vadstena, Åland, Ærø, Anykščiai, Mols Bjerge y Ebeltoft). Se quita la playa deducida de fiordos, acantilados y carreteras (Geiranger, Sognefjord, Hardanger, Nordkapp, Atlanterhavsveien, Stevns Klint). Quedan con aviso del script y temático de respaldo, a propósito porque no son ciudad ni playa: no-atlanterhavsveien, se-klaralven-varmland, fi-nuuksio, ee-hiiumaa, ee-kihnu, ee-matsalu, lt-dzukija, lt-delta-nemunas, lt-zemaitija, se-halsingland, dk-trelleborg y ee-peipsi (su interés es cultural; la playa de Kauksi es secundaria).",
+        "coordenadas": "fi-kvarken estaba en el mar, unos 17 km al suroeste de Svedjehamn; se mueve a Björköby (63°21′N 21°19′E), en la isla de Björkö, junto a Svedjehamn y la torre de Saltkaret.",
+        "regiones": "Se unifica el texto de región: 'Norrbotten' para Abisko, Kiruna, Jokkmokk y Kalix; 'Vestland' para Hardangervidda y el Nordfjord; 'Innlandet' para Rondane; 'Dalarna' y 'Västra Götaland' sin subzona; 'Pärnu' para Soomaa y 'Tartu' para el lago Peipsi (sedes de sus centros de visitantes); 'Riga' para Jūrmala y Ķemeri (región de planificación de Riga)."
+      }
+    }
+  },
+  "no_ciudad": [],
+  "quitar": []
+}

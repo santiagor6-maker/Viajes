@@ -1,7 +1,7 @@
 {
   "pausado": false,
   "subregion": "britanicas-nordicos",
-  "paso": "curador",
+  "paso": "cobertura",
   "ronda": 1,
   "orden_subregiones": [
     "iberica-italia",
@@ -172,6 +172,12 @@
       "subregion": "britanicas-nordicos",
       "paso": "logistica",
       "resultado": "Logística a (80) y b (131) + cruce r2 de los 4 especialistas (subidas con fuente: Glencoe 5, Cairngorms/Pembrokeshire/Cornualles/Dingle 4, Birka/Öland/Turku/Wells 4, Ylläs 4...). Curar en seco: 206 lugares (GB 42, IE 22, IS 15, NO 29, SE 26, FI 19, DK 18, EE 11, LV 11, LT 13), 37 nuevos sin guías. Siguiente: curador a/b (guías de nuevos, fusiones, por_que)"
+    },
+    {
+      "fecha": "2026-11-02",
+      "subregion": "britanicas-nordicos",
+      "paso": "curador",
+      "resultado": "202 lugares (GB 40, IE 21, IS 15, NO 28, SE 25, FI 19, DK 19, EE 11, LV 11, LT 13); 8 fusiones (Windsor+Bray, Cork+Kinsale+Cobh, Nordfjord, Abisko+Riksgränsen, Estocolmo+Drottningholm...), 1 descarte (Glaumbær); 38 puntajes de guías; 202 por_que; validar.mjs acepta Åland (sin contorno en Natural Earth); publicado como en revisión (versión 13). Siguiente: cobertura"
     }
   ],
   "ronda_revisor": 0,

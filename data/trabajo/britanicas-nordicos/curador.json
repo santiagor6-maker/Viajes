@@ -1,0 +1,132 @@
+{
+  "agente": "curador",
+  "subregion": "britanicas-nordicos",
+  "fecha": "2026-11-02",
+  "fusionados": [
+    [
+      "gb-windsor",
+      "gb-bray"
+    ],
+    [
+      "gb-seven-sisters",
+      "gb-sussex-vinedos"
+    ],
+    [
+      "ie-kinsale-cobh",
+      "ie-cork"
+    ],
+    [
+      "no-jostedalsbreen",
+      "no-loen"
+    ],
+    [
+      "se-abisko-kungsleden",
+      "se-riksgransen"
+    ],
+    [
+      "dk-helsingor-louisiana",
+      "dk-frederiksborg"
+    ],
+    [
+      "se-estocolmo",
+      "se-drottningholm"
+    ],
+    [
+      "fi-repovesi",
+      "fi-verla"
+    ]
+  ],
+  "descartados": [
+    {
+      "id": "is-glaumbaer",
+      "global": 1.8,
+      "motivo": "global 1.8 < 2 (guías 0, mejor temático 3, logística 3)"
+    }
+  ],
+  "conteo_por_pais": {
+    "GB": 40,
+    "IE": 21,
+    "IS": 15,
+    "NO": 28,
+    "SE": 25,
+    "FI": 19,
+    "DK": 19,
+    "EE": 11,
+    "LV": 11,
+    "LT": 13
+  },
+  "notas": {
+    "grupo_a": {
+      "grupo_a": {
+        "guias_busqueda": "30 WebSearch (máximo del encargo) para los lugares nuevos de GB, IE e IS con guías 0. Solo se citan URL vistas en los resultados; se descartan foros (Fodor's Travel Talk, comunidad de Rick Steves), agregadores (Tripexpert, Wanderlog), librerías (Bookshare) y el servidor de pruebas nonprod.lonelyplanet.com. Escala de criterios.json sin bajar el umbral: 2 = una guía; 3 = dos guías con página o recomendación.",
+        "guias_detalle": {
+          "gb-alton-towers": "Time Out (dos fichas: «el número uno de Gran Bretaña») y ficha de Lonely Planet: 3.",
+          "gb-blackpool-pleasure-beach": "Solo la ficha de Lonely Planet (el parque de atracciones más popular de Gran Bretaña); Time Out y Rough Guides no aparecieron: 2.",
+          "gb-durham": "Artículo de Lonely Planet sobre lo mejor de Durham y vídeo de Rick Steves sobre la catedral normana: 3.",
+          "gb-fountains-abbey": "Lonely Planet (Top Choice) y ficha de Frommer's: 3.",
+          "gb-ironbridge": "Ficha de Fodor's y Lonely Planet (Top Choice del Museum of the Gorge): 3.",
+          "gb-orcadas-neolitico": "Guía de Lonely Planet sobre las Orcadas neolíticas, Skara Brae en el puesto 22 de su Ultimate Travelist (citado por Visit Orkney) y una columna de Rick Steves sindicada en Luxury Travel Advisor: 3. No se halló Fodor's ni Rough Guides.",
+          "ie-clonmacnoise": "Solo Lonely Planet (Top Choice de los Midlands); Rick Steves y Fodor's no aparecieron: 2.",
+          "ie-carrowmore": "Solo Lonely Planet («la visita obligada de Sligo»): 2.",
+          "gb-speyside": "Solo la página de destino de Rough Guides; el Snapshot de Rick Steves sobre las Highlands solo apareció en una ficha de biblioteca (Bookshare), así que no se cita: 2.",
+          "gb-islay": "Solo Time Out (entre los grandes destinos europeos de 2026); Lonely Planet y Rough Guides no aparecieron: 2.",
+          "ie-ballymaloe-east-cork": "Condé Nast Traveller (Gold List 2015, citado por Hospitality Ireland). Las reseñas de Fodor's y Lonely Planet solo aparecieron en el agregador Tripexpert y no se cuentan: 2.",
+          "gb-costa-jurasica": "Lonely Planet pone Durdle Door primero en lo mejor de Dorset. Insight Guides le dedica un artículo, pero no está entre las guías de criterios.json, y Rough Guides y Fodor's no aparecieron: 2.",
+          "gb-seven-sisters": "Rough Guides, citado por la autoridad del Parque Nacional de los South Downs. Lonely Planet y Time Out no aparecieron: 2. El origen fusionado gb-sussex-vinedos no se buscó aparte porque comparte paisaje y búsqueda.",
+          "ie-glenveagh": "Solo una mención indirecta: Tourism Ireland cita a Donegal en el Best in Travel 2024 de Lonely Planet. La ficha del castillo solo salió en el servidor nonprod de Lonely Planet, que no se cita: 1.",
+          "is-glaumbaer": "Se buscó en Lonely Planet y Rough Guides sin resultado. Queda en 0 y se descarta (global 1,8)."
+        },
+        "fusiones": {
+          "gb-bray -> gb-windsor": "Bray está a unos 8 km del castillo. Con sus dos restaurantes de tres estrellas Michelin (The Fat Duck y The Waterside Inn), Windsor sube a gastronomía 5 y global 4,2. La adrenalina queda en 4 por el puntaje de Bray (Thorpe Park a 11-17 km; Legoland Windsor está en el mismo Windsor), aunque el agente había limitado Windsor a 2 por ser visita de castillo. Que el revisor lo confirme.",
+          "gb-sussex-vinedos -> gb-seven-sisters": "Alfriston, con la bodega Rathfinny, está a unos 7 km de Birling Gap, y el valle del Cuckmere une ambos lugares dentro de los South Downs. Ridgeview, en Ditchling, queda a unos 25 km, pero forma parte de la misma ruta de bodegas.",
+          "ie-cork -> ie-kinsale-cobh": "Cobh es el puerto de Cork (15 km, 25 min en tren) y Kinsale está a 22 km. ie-kinsale-cobh ya agrupaba los puertos del condado y repetía el tema gastronómico de Cork. Se conserva el id y la logística del destino (4, con acceso a ambos pueblos desde Cork), pero se renombra «Cork, Kinsale y Cobh» con las coordenadas de la ciudad, y se añade la categoría ciudad.",
+          "ie-ballymaloe-east-cork (no fusionado)": "Shanagarry está a unos 28 km de Cork y Midleton a unos 20 km, fuera de los 15 km. Se mantiene aparte como destino gastronómico de East Cork (global 3,1). Si el revisor prefiere un solo lugar para el condado de Cork, es el siguiente candidato a fusionar con ie-kinsale-cobh."
+        },
+        "categorias": "no_playa en la Calzada del Gigante, Moher y Slieve League (acantilados sin playa de baño, como Étretat en francia-alpes); playa en Achill (bahía de Keem). Se añade ciudad como respaldo a Cotswolds y Lago Ness-Inverness (sin temático ≥ 3,5) y a Blackpool Pleasure Beach (solo adrenalina; Blackpool es ciudad). Alton Towers queda solo como adrenalina porque es un parque aislado, no un pueblo. is-laguna-azul no tiene temático ≥ 3,5 y no encaja como ciudad ni playa, así que el script usa naturaleza (3) como último recurso.",
+        "regiones": "Se unifican las regiones: Cotswolds pasa a Suroeste de Inglaterra (Gloucestershire), Lake District a Noroeste de Inglaterra (Cumbria), Orcadas a Escocia, Costa Jurásica a Suroeste de Inglaterra, Seven Sisters a Sureste de Inglaterra, Clonmacnoise a Leinster y Carrowmore a Connacht. Los tres lugares de Donegal mantienen «Ulster (Donegal)» para distinguirlos de Irlanda del Norte, que está en GB.",
+        "coordenadas": "Se revisaron las 79; todas caen en su lugar. Solo cambia Cork, Kinsale y Cobh, que pasa a la ciudad de Cork (51.8977, -8.4751). La Costa sur de Islandia (63.45, -19.2) es un punto medio entre Skógafoss y Vík, en tierra.",
+        "cobertura": "Con estos ajustes, en simulación en seco con una copia del script: GB 40 (18 imprescindibles y 22 muy recomendados), IE 21 (8, 10 y 3 si hay tiempo) e IS 15 (12 y 3); se descarta is-glaumbaer."
+      }
+    },
+    "grupo_b": {
+      "grupo_b": {
+        "guias_busqueda": "29 WebSearch (de 35) para los 24 lugares sin puntaje de guías, casi todas filtradas a dominios de guías (Lonely Planet, Rick Steves, Fodor's, Frommer's, Rough Guides, National Geographic, Time Out, ViaMichelin). Solo se citan URLs vistas en los resultados; se descartan foros (Rick Steves Travel Forum, Fodor's Travel Talk), Wikivoyage, blogs y operadores. Escala: 1 = mención menor; 2 = una guía; 3 = dos guías con página o recomendación; 4 = tres guías con página o artículo dedicado. Ningún 5: no se pudo confirmar 'top pick' en 4 guías.",
+        "guias_conservadores": {
+          "se-drottningholm": "Cinco guías (Rick Steves, Frommer's, Lonely Planet, Rough Guides, Fodor's) con página o artículo de excursiones; sin confirmar que sea top pick en todas, queda en 4. Se fusiona con Estocolmo.",
+          "no-jostedalsbreen": "Frommer's (destino propio 'Jostedal Glacier Area'), Lonely Planet (ficha de Briksdalsbreen) y Fodor's (ficha de lugares de los fiordos del oeste): 4.",
+          "dk-jelling": "Lonely Planet (Kongernes Jelling), Frommer's (página de Jelling) y National Geographic (artículo sobre las piedras rúnicas de Jelling): 4. El artículo de Fodor's sobre lugares vikingos no se pudo confirmar.",
+          "no-senja": "Lonely Planet (sección propia de Senja), Fodor's (sección de Senja en Northern Norway) y National Geographic (artículo dedicado): 4.",
+          "no-rondane-dovre": "Frommer's (destino propio), Lonely Planet (mejores parques nacionales de Noruega), Rough Guides (página de Rondane) y National Geographic (safari de bueyes almizcleros): 4.",
+          "se-fulufjallet": "Lonely Planet (parques nacionales de Suecia), Time Out (Dalarna) y Fodor's (árboles más viejos, Old Tjikko). No se confirmó el contenido completo de los artículos: 3.",
+          "se-kosterhavet": "Lonely Planet (ficha de las islas Koster y artículo de islas) y Time Out (costa oeste). El artículo de NatGeo de 2014 no se pudo confirmar: 3.",
+          "se-riksgransen": "National Geographic (artículo dedicado al esquí en Riksgränsen), Rough Guides (Abisko and around) y Lonely Planet (esquí por meses): 3. Se fusiona con Abisko.",
+          "dk-henne-kirkeby-kro": "Solo Lonely Planet (ficha del restaurante). La Guía Michelin de restaurantes (dos estrellas) se cita como fuente pero no cuenta como guía de viaje: 2.",
+          "dk-trelleborg": "Frommer's (página de Slagelse, base para Trelleborg). Lonely Planet solo devolvió la Trelleborg sueca y el artículo de NatGeo es una mención: 2.",
+          "dk-mols-bjerge": "Solo Lonely Planet (ficha del parque): 2.",
+          "se-halsingland": "Solo Rough Guides (Hudiksvall and around): 2.",
+          "fi-kvarken": "Solo Lonely Planet (página del archipiélago de Kvarken y artículo Finlandia en una semana): 2.",
+          "fi-repovesi": "Solo una mención en un artículo de National Geographic sobre Punkaharju; el artículo de parques de Lonely Planet no lo incluye: 1.",
+          "se-kalix": "Ninguna guía cubre el pueblo; Time Out solo menciona la löjrom de Kalix en una guía de Skellefteå: 1.",
+          "fi-verla": "Buscado sin resultados en guías: 0. Se fusiona con Repovesi."
+        },
+        "fusiones": {
+          "no-jostedalsbreen + no-loen": "Loen está a 22 km de Briksdal, en el mismo Nordfjord; el Loen Skylift y la vía ferrata son la parte de adrenalina del mismo viaje al glaciar. Se mantienen las coordenadas de Briksdal.",
+          "se-abisko-kungsleden + se-riksgransen": "30-35 km por la misma línea de tren Kiruna-Narvik; Riksgränsen es la estación de esquí del macizo de Abisko y ya era la actividad de adrenalina de Abisko.",
+          "dk-helsingor-louisiana + dk-frederiksborg": "El lugar ya era 'Zelanda del Norte'; Frederiksborg (Hillerød) está a 23 km de Kronborg y se hace en la misma excursión en tren desde Copenhague.",
+          "se-estocolmo + se-drottningholm": "Drottningholm está a 10 km del centro de Estocolmo: monumento a menos de 15 km de su ciudad.",
+          "fi-repovesi + fi-verla": "Verla (UNESCO) está a unos 20 km de Repovesi y comparte el bus de fin de semana desde Kouvola; sola quedaba descartada (guías 0, global 1.8)."
+        },
+        "sin_fusion": {
+          "se-lund/se-malmo": "16 km. Lund es una ciudad propia (catedral románica, universidad, Kulturen), no un monumento de Malmö; guias-expertas la separó con fuentes propias.",
+          "dk-henne-kirkeby-kro": "No hay ningún lugar de Jutlandia Occidental cerca: Ribe y el mar de Wadden quedan a unos 55-60 km. Se mantiene con nombre de zona, 'Henne Strand y Filsø (Jutlandia Occidental)', con el restaurante como motivo principal.",
+          "dk-jelling/dk-billund-legoland": "18,5 km; viajes distintos (patrimonio vikingo frente a parque temático).",
+          "dk-djurs-sommerland/dk-mols-bjerge": "22 km; el parque de atracciones es un destino propio, como Alton Towers en GB."
+        },
+        "rescatados": "se-halsingland, dk-trelleborg y dk-mols-bjerge pasan de descartados a 'si hay tiempo' (2.6) con el puntaje de guías buscado. fi-verla queda dentro de Repovesi.",
+        "categorias": "Se añade 'ciudad' a Voss, Åre y Djurs Sommerland (lección: si solo queda adrenalina) y a pueblos o ciudades sin temático ≥ 3.5 (Pärnu, Jūrmala, Palanga, Glasriket, Vadstena, Åland, Ærø, Anykščiai, Mols Bjerge y Ebeltoft). Se quita la playa deducida de fiordos, acantilados y carreteras (Geiranger, Sognefjord, Hardanger, Nordkapp, Atlanterhavsveien, Stevns Klint). Quedan con aviso del script y temático de respaldo, a propósito porque no son ciudad ni playa: no-atlanterhavsveien, se-klaralven-varmland, fi-nuuksio, ee-hiiumaa, ee-kihnu, ee-matsalu, lt-dzukija, lt-delta-nemunas, lt-zemaitija, se-halsingland, dk-trelleborg y ee-peipsi (su interés es cultural; la playa de Kauksi es secundaria).",
+        "coordenadas": "fi-kvarken estaba en el mar, unos 17 km al suroeste de Svedjehamn; se mueve a Björköby (63°21′N 21°19′E), en la isla de Björkö, junto a Svedjehamn y la torre de Saltkaret.",
+        "regiones": "Se unifica el texto de región: 'Norrbotten' para Abisko, Kiruna, Jokkmokk y Kalix; 'Vestland' para Hardangervidda y el Nordfjord; 'Innlandet' para Rondane; 'Dalarna' y 'Västra Götaland' sin subzona; 'Pärnu' para Soomaa y 'Tartu' para el lago Peipsi (sedes de sus centros de visitantes); 'Riga' para Jūrmala y Ķemeri (región de planificación de Riga)."
+      }
+    }
+  }
+}
