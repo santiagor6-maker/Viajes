@@ -4,26 +4,821 @@
   "grupo": "b",
   "ronda": 1,
   "paises": ["NO", "SE", "FI", "DK", "EE", "LV", "LT"],
-  "estado": "en_progreso",
-  "busquedas_usadas": 12,
-  "notas": "Archivo parcial: faltan búsquedas y el resto de candidatos.",
+  "criterio": "Regla única de la subregión. (1) Toda actividad o parque a 60 km o menos en línea recta cuenta para cada lugar del radio. (2) Tope de 2 para monumentos, museos y sitios religiosos, salvo que la actividad esté en el propio lugar. (3) Tope de 3 para espacios naturales que solo se recorren a pie. (4) Escala: 5 si hay oferta de clase mundial en el lugar o a 15 km o menos; 4 si hay una actividad de primer nivel a 30 km o menos o varias destacadas; 3 si hay una actividad notable en el radio o una de primer nivel a más de 30 km; 2 si solo hay oferta menor o la única actividad está en el borde del radio (50–60 km); 1 si no se identificó ninguna actividad con web oficial en el radio. (5) Un 3 o más exige al menos una actividad con web del operador, turismo oficial o RCDB. km_aprox=true indica que las coordenadas de la actividad son aproximadas.",
+  "busquedas_usadas": 24,
+  "notas": "No aparecieron en las búsquedas las webs oficiales de Bakken (Klampenborg), de las estaciones de Levi, Ylläs, Saariselkä, Ruka, Tahko y Ounasvaara, de Hafjell, del Holmenkollen y de Kongeparken, así que no se acreditan; varios lugares de Laponia quedan en 1 por eso y conviene buscarlas en una ronda posterior. Levi no se propone como nuevo por la misma razón. El rafting del Sjoa (Heidal Rafting, https://heidalraftingisjoa.no/raftingturer/?lang=en) se buscó, pero su base en Åmot queda a más de 60 km de Jotunheimen y de Lillehammer, así que no suma a ningún candidato.",
+  "estado": "completo",
   "puntajes": [
+    {
+      "id": "no-bergen",
+      "puntaje": 1,
+      "justificacion": "Oferta mínima acreditada. Voss, la capital noruega de los deportes extremos, queda a unos 66 km en línea recta, fuera del radio.",
+      "actividades": []
+    },
     {
       "id": "no-oslo",
       "puntaje": 4,
-      "justificacion": "TusenFryd, el mayor parque de atracciones de Noruega, con la Speed Monster (lanzamiento a 90 km/h) y la invertida Storm, está a unos 20 km al sur.",
+      "justificacion": "TusenFryd, el mayor parque de atracciones de Noruega, está en Vinterbro, a 19 km al sur: más de 30 atracciones, con la Speed Monster (lanzamiento de 0 a 90 km/h en 2,2 s), la invertida Storm (2023) y la ThunderCoaster de madera.",
       "actividades": [
-        { "nombre": "TusenFryd (Speed Monster, Storm, ThunderCoaster)", "tipo": "parque_diversiones", "km": 18, "lat": 59.7450, "lng": 10.7790, "temporada": "may–oct", "url": "https://www.tusenfryd.no/en/park-info", "url_tipo": "operador_oficial", "km_aprox": true }
+        { "nombre": "TusenFryd (Speed Monster, Storm, ThunderCoaster, SuperSplash)", "tipo": "parque_diversiones", "km": 19, "lat": 59.7450, "lng": 10.7790, "temporada": "may–oct", "url": "https://www.tusenfryd.no/en/park-info", "url_tipo": "operador_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "no-lofoten",
+      "puntaje": 1,
+      "justificacion": "Archipiélago de naturaleza y pesca. No se identificaron actividades de adrenalina con web oficial a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "no-geirangerfjord",
+      "puntaje": 3,
+      "justificacion": "La Via Ferrata Loen, a 31 km, sube a 750 m sobre el Nordfjord por el puente de vía ferrata más largo de Europa y baja en el teleférico Loen Skylift. La Romsdalsstigen de Åndalsnes queda a 57 km.",
+      "actividades": [
+        { "nombre": "Via Ferrata Loen y Loen Skylift (monte Hoven)", "tipo": "via_ferrata", "km": 31, "lat": 61.8700, "lng": 6.8600, "temporada": "may–oct", "url": "https://en.loenskylift.no/viaferrataloen", "url_tipo": "operador_oficial", "km_aprox": true },
+        { "nombre": "Romsdalsstigen, vía ferrata del Nesaksla (Åndalsnes)", "tipo": "via_ferrata", "km": 57, "lat": 62.5640, "lng": 7.6930, "temporada": "verano", "url": "https://www.fjordnorway.com/no/se-og-gjore/romsdalsstigen-via-ferrata-vestveggen-5-6-timer", "url_tipo": "turismo_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "no-sognefjord-flam",
+      "puntaje": 4,
+      "justificacion": "La Flåm Zipline, la tirolesa más larga de Escandinavia (1381 m, unos 100 km/h y 305 m de desnivel), sale de la estación de Vatnahalsen del tren de Flåm, a 14 km. Voss, con rafting, parapente tándem y el túnel de viento Voss Vind, está a 46 km.",
+      "actividades": [
+        { "nombre": "Flåm Zipline (Vatnahalsen–Kårdal, 1381 m)", "tipo": "tirolesa", "km": 14, "lat": 60.7370, "lng": 7.1000, "temporada": "primavera–otoño", "url": "https://fjordnorway.com/en/see-and-do/flam-zipline", "url_tipo": "turismo_oficial", "km_aprox": true },
+        { "nombre": "Voss: rafting, parapente tándem y túnel de viento Voss Vind", "tipo": "otro", "km": 46, "lat": 60.6286, "lng": 6.4174, "temporada": "rafting y parapente en verano; Voss Vind todo el año", "url": "https://www.visitvoss.no/en/top-5-family-activities-voss-norway", "url_tipo": "turismo_oficial" }
+      ]
+    },
+    {
+      "id": "no-urnes-lustrafjord",
+      "puntaje": 1,
+      "justificacion": "Es una iglesia de madera junto a un fiordo. No se identificaron actividades de adrenalina con web oficial a 60 km; la Flåm Zipline queda a unos 62 km.",
+      "actividades": []
+    },
+    {
+      "id": "no-tromso",
+      "puntaje": 1,
+      "justificacion": "Oferta mínima acreditada: no se identificaron parques ni operadores de las categorías del criterio con web oficial a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "no-lysefjord-preikestolen",
+      "puntaje": 1,
+      "justificacion": "Es una caminata a un mirador sobre el fiordo. No se identificaron actividades de adrenalina con web oficial a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "no-stavanger",
+      "puntaje": 1,
+      "justificacion": "Oferta mínima: no se identificaron parques ni operadores con web oficial a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "no-hardangerfjord",
+      "puntaje": 3,
+      "justificacion": "Voss, capital noruega de los deportes extremos (rafting en el Raundalselva, parapente tándem y el túnel de viento Voss Vind), está a 36 km. La Flåm Zipline queda a 51 km.",
+      "actividades": [
+        { "nombre": "Voss: rafting, parapente tándem y túnel de viento Voss Vind", "tipo": "otro", "km": 36, "lat": 60.6286, "lng": 6.4174, "temporada": "rafting y parapente en verano; Voss Vind todo el año", "url": "https://www.visitvoss.no/en/top-5-family-activities-voss-norway", "url_tipo": "turismo_oficial" },
+        { "nombre": "Flåm Zipline (Vatnahalsen–Kårdal, 1381 m)", "tipo": "tirolesa", "km": 51, "lat": 60.7370, "lng": 7.1000, "temporada": "primavera–otoño", "url": "https://fjordnorway.com/en/see-and-do/flam-zipline", "url_tipo": "turismo_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "no-trolltunga",
+      "puntaje": 2,
+      "justificacion": "Es una caminata de montaña. La oferta de Voss queda en el borde del radio, a 59 km.",
+      "actividades": [
+        { "nombre": "Voss: rafting, parapente tándem y túnel de viento Voss Vind", "tipo": "otro", "km": 59, "lat": 60.6286, "lng": 6.4174, "temporada": "rafting y parapente en verano; Voss Vind todo el año", "url": "https://www.visitvoss.no/en/top-5-family-activities-voss-norway", "url_tipo": "turismo_oficial" }
+      ]
+    },
+    {
+      "id": "no-alesund",
+      "puntaje": 1,
+      "justificacion": "Oferta mínima: no se identificaron actividades con web oficial a 60 km. Loen y Åndalsnes quedan a más de 65 km en línea recta.",
+      "actividades": []
+    },
+    {
+      "id": "no-trollstigen",
+      "puntaje": 3,
+      "justificacion": "En Åndalsnes, a 12 km al pie del valle de Romsdal, está la Romsdalsstigen: dos vías ferratas al Nesaksla (la Introveggen, de grado B, y la Vestveggen, de grado D, la segunda más difícil de la escala), con bajada en la góndola Romsdalsgondolen.",
+      "actividades": [
+        { "nombre": "Romsdalsstigen, vía ferrata del Nesaksla (Åndalsnes)", "tipo": "via_ferrata", "km": 12, "lat": 62.5640, "lng": 7.6930, "temporada": "verano", "url": "https://www.fjordnorway.com/no/se-og-gjore/romsdalsstigen-via-ferrata-vestveggen-5-6-timer", "url_tipo": "turismo_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "no-atlanterhavsveien",
+      "puntaje": 2,
+      "justificacion": "Es una ruta por carretera. La vía ferrata Romsdalsstigen de Åndalsnes queda en el borde del radio, a 53 km.",
+      "actividades": [
+        { "nombre": "Romsdalsstigen, vía ferrata del Nesaksla (Åndalsnes)", "tipo": "via_ferrata", "km": 53, "lat": 62.5640, "lng": 7.6930, "temporada": "verano", "url": "https://www.fjordnorway.com/no/se-og-gjore/romsdalsstigen-via-ferrata-vestveggen-5-6-timer", "url_tipo": "turismo_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "no-trondheim",
+      "puntaje": 1,
+      "justificacion": "Oferta mínima: no se identificaron parques ni operadores con web oficial a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "no-roros",
+      "puntaje": 1,
+      "justificacion": "Pueblo minero de madera. No se identificaron actividades de adrenalina con web oficial a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "no-svalbard",
+      "puntaje": 1,
+      "justificacion": "Las excursiones en moto de nieve y trineo de perros son la oferta principal, pero no se acreditaron con web oficial de un operador en las búsquedas.",
+      "actividades": []
+    },
+    {
+      "id": "no-nordkapp",
+      "puntaje": 1,
+      "justificacion": "Acantilado y mirador. No se identificaron actividades de adrenalina con web oficial a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "no-jotunheimen",
+      "puntaje": 1,
+      "justificacion": "Parque de senderismo y alta montaña. El rafting del Sjoa sale de Åmot, a más de 60 km en línea recta, y el esquí de verano del Galdhøpiggen no se acreditó con web oficial.",
+      "actividades": []
+    },
+    {
+      "id": "no-lillehammer",
+      "puntaje": 4,
+      "justificacion": "La pista olímpica de bobsleigh y luge de Hunderfossen (1994), a 12 km, ofrece al público el Taxibob, un bobsleigh de competición con piloto profesional a unos 120 km/h, y el Bobraft, a unos 100 km/h; en verano funciona el Wheelbob sobre ruedas. Es la única pista refrigerada artificialmente del norte de Europa.",
+      "actividades": [
+        { "nombre": "Pista olímpica de bobsleigh de Lillehammer: Taxibob y Bobraft", "tipo": "otro", "km": 12, "lat": 61.2200, "lng": 10.4350, "temporada": "invierno (Wheelbob en verano)", "url": "https://olympiaparken.no/en/aktiviteter/taxibob/", "url_tipo": "operador_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "no-hardangervidda",
+      "puntaje": 1,
+      "justificacion": "Meseta de senderismo. No se identificaron actividades de adrenalina con web oficial a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "no-vesteralen-andenes",
+      "puntaje": 1,
+      "justificacion": "Avistamiento de ballenas. No se identificaron actividades de adrenalina con web oficial a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "se-estocolmo",
+      "puntaje": 4,
+      "justificacion": "Gröna Lund, en Djurgården, a 2 km del centro, reúne ocho montañas rusas en un parque compacto: la invertida Monster de Bolliger & Mabillard (2021, 700 m y al menos cuatro inversiones) y la Insane de Intamin, de cuarta dimensión.",
+      "actividades": [
+        { "nombre": "Gröna Lund (Monster, Insane, Kvasten)", "tipo": "parque_diversiones", "km": 2, "lat": 59.3233, "lng": 18.0962, "temporada": "abr–sep", "url": "https://www.gronalund.com/en/rides/monster", "url_tipo": "operador_oficial" }
+      ]
+    },
+    {
+      "id": "se-archipielago-estocolmo",
+      "puntaje": 4,
+      "justificacion": "Gröna Lund, con la Monster y la Insane, está a 17 km, en Djurgården, de donde salen los barcos al archipiélago.",
+      "actividades": [
+        { "nombre": "Gröna Lund (Monster, Insane, Kvasten)", "tipo": "parque_diversiones", "km": 17, "lat": 59.3233, "lng": 18.0962, "temporada": "abr–sep", "url": "https://www.gronalund.com/en/rides/monster", "url_tipo": "operador_oficial" }
       ]
     },
     {
       "id": "se-gotemburgo",
       "puntaje": 5,
-      "justificacion": "Liseberg, en la propia ciudad, es uno de los grandes parques de Europa: Helix (lanzada, 100 km/h, siete inversiones) y Balder, premiada como mejor montaña rusa de madera de Europa.",
+      "justificacion": "Liseberg, en la propia ciudad, es uno de los grandes parques de Europa: Helix (2014, dos lanzamientos, siete inversiones y 100 km/h) y Balder, de madera, elegida mejor montaña rusa de madera en los European Star Awards.",
       "actividades": [
-        { "nombre": "Liseberg (Helix, Balder, Valkyria)", "tipo": "parque_diversiones", "km": 2, "lat": 57.6953, "lng": 11.9925, "temporada": "abr–oct y mercado de Navidad", "url": "https://rcdb.com/4909.htm", "url_tipo": "rcdb" }
+        { "nombre": "Liseberg (Helix, Balder, Valkyria)", "tipo": "parque_diversiones", "km": 2, "lat": 57.6953, "lng": 11.9925, "temporada": "abr–oct y mercado de Navidad", "url": "https://www.mynewsdesk.com/se/liseberg/pressreleases/liseberg-launches-a-new-roller-coaster-in-2014-801243", "url_tipo": "operador_oficial" },
+        { "nombre": "Liseberg en RCDB", "tipo": "parque_diversiones", "km": 2, "lat": 57.6953, "lng": 11.9925, "temporada": "abr–oct", "url": "https://rcdb.com/4909.htm", "url_tipo": "rcdb" }
       ]
+    },
+    {
+      "id": "se-gotland-visby",
+      "puntaje": 1,
+      "justificacion": "Oferta mínima: no se identificaron parques ni operadores con web oficial a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "se-bohuslan",
+      "puntaje": 1,
+      "justificacion": "Costa de navegación e islas. Liseberg queda a unos 73 km, fuera del radio, y no se identificaron otras actividades con web oficial.",
+      "actividades": []
+    },
+    {
+      "id": "se-uppsala",
+      "puntaje": 1,
+      "justificacion": "Oferta mínima: Gröna Lund queda a unos 65 km, fuera del radio.",
+      "actividades": []
+    },
+    {
+      "id": "se-kalmar",
+      "puntaje": 1,
+      "justificacion": "Oferta mínima: no se identificaron parques ni operadores con web oficial a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "se-glasriket",
+      "puntaje": 1,
+      "justificacion": "Región de vidrierías. No se identificaron actividades de adrenalina con web oficial a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "se-oland",
+      "puntaje": 1,
+      "justificacion": "Isla de playas y alvar. No se identificaron actividades de adrenalina con web oficial a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "se-dalarna-siljan",
+      "puntaje": 1,
+      "justificacion": "Oferta mínima acreditada: no se identificaron estaciones ni operadores con web oficial a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "se-abisko-kungsleden",
+      "puntaje": 3,
+      "justificacion": "Riksgränsen, a 30 km, es la estación de esquí más septentrional de Suecia: fuera de pista, heliesquí y esquí bajo el sol de medianoche hasta finales de mayo. El parque se recorre a pie, así que el puntaje no pasa de 3.",
+      "actividades": [
+        { "nombre": "Riksgränsen (esquí fuera de pista, heliesquí y esquí bajo el sol de medianoche)", "tipo": "esqui", "km": 30, "lat": 68.4258, "lng": 18.1272, "temporada": "feb–may (a veces reabre en San Juan)", "url": "https://icehotel.com/skiing-riksgransen", "url_tipo": "operador_oficial" }
+      ]
+    },
+    {
+      "id": "se-kiruna-icehotel",
+      "puntaje": 1,
+      "justificacion": "Hotel de hielo y ciudad minera. Riksgränsen queda a unos 63 km, fuera del radio, y no se acreditaron otros operadores con web oficial.",
+      "actividades": []
+    },
+    {
+      "id": "se-laponia-jokkmokk",
+      "puntaje": 1,
+      "justificacion": "Cultura sami y montaña virgen. No se identificaron actividades de adrenalina con web oficial a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "se-hoga-kusten",
+      "puntaje": 3,
+      "justificacion": "En el Skuleberget, junto al Naturum Höga Kusten, hay cuatro vías ferratas en la pared este de 250 m, gestionadas por la empresa Via Ferrata, con alquiler de equipo y guías.",
+      "actividades": [
+        { "nombre": "Via Ferrata Skuleberget (cuatro rutas en la pared este)", "tipo": "via_ferrata", "km": 3, "lat": 63.1170, "lng": 18.3950, "temporada": "verano", "url": "https://varldsarvethogakusten.se/en/accommodation-and-other-activities/", "url_tipo": "turismo_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "se-gota-kanal-vadstena",
+      "puntaje": 1,
+      "justificacion": "Canal y pueblo histórico. No se identificaron actividades de adrenalina con web oficial a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "se-malmo",
+      "puntaje": 3,
+      "justificacion": "El Tivoli de Copenhague, con la Dæmonen de Bolliger & Mabillard, está a 28 km al otro lado del puente del Øresund.",
+      "actividades": [
+        { "nombre": "Tivoli (Dæmonen, Rutschebanen)", "tipo": "parque_diversiones", "km": 28, "lat": 55.6737, "lng": 12.5681, "temporada": "abr–sep, Halloween y Navidad", "url": "https://rcdb.com/4905.htm", "url_tipo": "rcdb" }
+      ]
+    },
+    {
+      "id": "se-lund",
+      "puntaje": 3,
+      "justificacion": "El Tivoli de Copenhague, con la Dæmonen, está a 39 km.",
+      "actividades": [
+        { "nombre": "Tivoli (Dæmonen, Rutschebanen)", "tipo": "parque_diversiones", "km": 39, "lat": 55.6737, "lng": 12.5681, "temporada": "abr–sep, Halloween y Navidad", "url": "https://rcdb.com/4905.htm", "url_tipo": "rcdb" }
+      ]
+    },
+    {
+      "id": "se-ystad-ales-stenar",
+      "puntaje": 1,
+      "justificacion": "Oferta mínima: no se identificaron parques ni operadores con web oficial a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "se-are",
+      "puntaje": 5,
+      "justificacion": "Åre es el mayor destino de esquí de Suecia, sede de dos Mundiales de esquí alpino, con unos 100 km de pistas y una bajada de 6,5 km desde el Åreskutan. En la misma montaña hay una tirolesa que cruza un barranco a unos 70 km/h.",
+      "actividades": [
+        { "nombre": "SkiStar Åre (unos 100 km de pistas, bajada más larga de 6,5 km)", "tipo": "esqui", "km": 1, "lat": 63.4000, "lng": 13.0800, "temporada": "dic–may", "url": "https://skistar-ab-uk.mynewsdesk.com/pressreleases/news-for-the-year-at-skistar-aare-10-11-487753.pdf", "url_tipo": "operador_oficial", "km_aprox": true },
+        { "nombre": "Tirolesa del Åreskutan", "tipo": "tirolesa", "km": 2, "lat": 63.4100, "lng": 13.0750, "temporada": "verano", "url": "https://aresweden.com/en/afraid-of-heights/", "url_tipo": "turismo_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "se-klaralven-varmland",
+      "puntaje": 2,
+      "justificacion": "El descenso en balsa de troncos por el Klarälven es una aventura tranquila de varios días, no de adrenalina. No se identificaron otras actividades con web oficial a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "se-birka",
+      "puntaje": 2,
+      "justificacion": "Es un yacimiento arqueológico, así que el puntaje no pasa de 2. Gröna Lund está a 31 km.",
+      "actividades": [
+        { "nombre": "Gröna Lund (Monster, Insane, Kvasten)", "tipo": "parque_diversiones", "km": 31, "lat": 59.3233, "lng": 18.0962, "temporada": "abr–sep", "url": "https://www.gronalund.com/en/rides/monster", "url_tipo": "operador_oficial" }
+      ]
+    },
+    {
+      "id": "fi-helsinki",
+      "puntaje": 4,
+      "justificacion": "Linnanmäki, a 2 km del centro, es el parque de atracciones más antiguo de Finlandia y el que más montañas rusas tiene (ocho), entre ellas la Taiga de Intamin: doble lanzamiento, más de 1 km de vía y 52 m de altura.",
+      "actividades": [
+        { "nombre": "Linnanmäki (Taiga, torre de caída Kingi)", "tipo": "parque_diversiones", "km": 2, "lat": 60.1880, "lng": 24.9400, "temporada": "abr–oct", "url": "https://www.myhelsinki.fi/en/see-and-do/sights/linnanmaki-amusement-park", "url_tipo": "turismo_oficial" }
+      ]
+    },
+    {
+      "id": "fi-rovaniemi",
+      "puntaje": 1,
+      "justificacion": "Oferta mínima acreditada: no se identificaron estaciones ni operadores con web oficial en las búsquedas.",
+      "actividades": []
+    },
+    {
+      "id": "fi-savonlinna-olavinlinna",
+      "puntaje": 1,
+      "justificacion": "Castillo y festival de ópera. No se identificaron actividades de adrenalina con web oficial a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "fi-saimaa",
+      "puntaje": 1,
+      "justificacion": "Lago de piragüismo tranquilo. No se identificaron actividades de adrenalina con web oficial a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "fi-tampere",
+      "puntaje": 4,
+      "justificacion": "Särkänniemi, en la propia ciudad, tiene cinco montañas rusas en funcionamiento, entre ellas la Tornado, una invertida de Intamin de 2001.",
+      "actividades": [
+        { "nombre": "Särkänniemi (Tornado, MotoGee)", "tipo": "parque_diversiones", "km": 1, "lat": 61.5050, "lng": 23.7430, "temporada": "may–sep", "url": "https://rcdb.com/4919.htm", "url_tipo": "rcdb" }
+      ]
+    },
+    {
+      "id": "fi-turku",
+      "puntaje": 1,
+      "justificacion": "Oferta mínima: no se identificaron parques ni operadores con web oficial a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "fi-kuopio",
+      "puntaje": 1,
+      "justificacion": "Oferta mínima acreditada. La estación de Tahko no se acredita porque no apareció su web oficial.",
+      "actividades": []
+    },
+    {
+      "id": "fi-aland",
+      "puntaje": 1,
+      "justificacion": "Archipiélago de bicicleta y vela. No se identificaron actividades de adrenalina con web oficial a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "fi-inari",
+      "puntaje": 1,
+      "justificacion": "Cultura sami y lago. No se identificaron actividades de adrenalina con web oficial a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "fi-urho-kekkonen-saariselka",
+      "puntaje": 1,
+      "justificacion": "Parque de senderismo. La pequeña estación de esquí de Saariselkä no se acredita porque no apareció su web oficial.",
+      "actividades": []
+    },
+    {
+      "id": "fi-yllas-pallas",
+      "puntaje": 1,
+      "justificacion": "Ylläs es una gran estación de esquí y Levi queda a unos 36 km, pero ninguna de las dos se acredita porque no apareció su web oficial en las búsquedas.",
+      "actividades": []
+    },
+    {
+      "id": "fi-rauma",
+      "puntaje": 1,
+      "justificacion": "Casco histórico de madera. No se identificaron actividades de adrenalina con web oficial a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "fi-porvoo",
+      "puntaje": 3,
+      "justificacion": "Linnanmäki, en Helsinki, con la Taiga y ocho montañas rusas, está a 46 km.",
+      "actividades": [
+        { "nombre": "Linnanmäki (Taiga, torre de caída Kingi)", "tipo": "parque_diversiones", "km": 46, "lat": 60.1880, "lng": 24.9400, "temporada": "abr–oct", "url": "https://www.myhelsinki.fi/en/see-and-do/sights/linnanmaki-amusement-park", "url_tipo": "turismo_oficial" }
+      ]
+    },
+    {
+      "id": "fi-koli",
+      "puntaje": 1,
+      "justificacion": "Parque de senderismo. No se identificaron actividades de adrenalina con web oficial a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "fi-oulanka",
+      "puntaje": 4,
+      "justificacion": "El río Kitkajoki, que entra en el parque, tiene el rafting más conocido de Finlandia: Basecamp Oulanka sale junto a sus rápidos, a unos 15 km, y Ruka Safaris ofrece la ruta más exigente por el cañón. Las salidas van de junio a septiembre.",
+      "actividades": [
+        { "nombre": "Rafting en el Kitkajoki (Basecamp Oulanka, Juuma)", "tipo": "rafting", "km": 15, "lat": 66.2400, "lng": 29.4300, "temporada": "jun–sep", "url": "https://www.ruka.fi/en/experiences/water-activities/rafting", "url_tipo": "turismo_oficial", "km_aprox": true },
+        { "nombre": "Rafting por el parque nacional (Basecamp Oulanka)", "tipo": "rafting", "km": 15, "lat": 66.2400, "lng": 29.4300, "temporada": "jun–sep", "url": "https://www.visitfinland.com/en/product/1e9b96d2-e968-4d71-8442-fa17d130dac0/river-rafting-through-the-national-park/", "url_tipo": "turismo_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "fi-nuuksio",
+      "puntaje": 3,
+      "justificacion": "Linnanmäki, con la Taiga, está a 27 km. El parque se recorre a pie, así que el puntaje no pasa de 3.",
+      "actividades": [
+        { "nombre": "Linnanmäki (Taiga, torre de caída Kingi)", "tipo": "parque_diversiones", "km": 27, "lat": 60.1880, "lng": 24.9400, "temporada": "abr–oct", "url": "https://www.myhelsinki.fi/en/see-and-do/sights/linnanmaki-amusement-park", "url_tipo": "turismo_oficial" }
+      ]
+    },
+    {
+      "id": "dk-copenhague",
+      "puntaje": 4,
+      "justificacion": "El Tivoli, en pleno centro, es el segundo parque de atracciones más antiguo del mundo y tiene la Dæmonen, una montaña rusa sin suelo de Bolliger & Mabillard con tres inversiones, junto a la Rutschebanen de madera.",
+      "actividades": [
+        { "nombre": "Tivoli (Dæmonen, Rutschebanen)", "tipo": "parque_diversiones", "km": 1, "lat": 55.6737, "lng": 12.5681, "temporada": "abr–sep, Halloween y Navidad", "url": "https://rcdb.com/4905.htm", "url_tipo": "rcdb" }
+      ]
+    },
+    {
+      "id": "dk-roskilde",
+      "puntaje": 3,
+      "justificacion": "El Tivoli de Copenhague, con la Dæmonen, está a 31 km.",
+      "actividades": [
+        { "nombre": "Tivoli (Dæmonen, Rutschebanen)", "tipo": "parque_diversiones", "km": 31, "lat": 55.6737, "lng": 12.5681, "temporada": "abr–sep, Halloween y Navidad", "url": "https://rcdb.com/4905.htm", "url_tipo": "rcdb" }
+      ]
+    },
+    {
+      "id": "dk-helsingor-louisiana",
+      "puntaje": 3,
+      "justificacion": "El Tivoli de Copenhague, con la Dæmonen, está a 41 km.",
+      "actividades": [
+        { "nombre": "Tivoli (Dæmonen, Rutschebanen)", "tipo": "parque_diversiones", "km": 41, "lat": 55.6737, "lng": 12.5681, "temporada": "abr–sep, Halloween y Navidad", "url": "https://rcdb.com/4905.htm", "url_tipo": "rcdb" }
+      ]
+    },
+    {
+      "id": "dk-frederiksborg",
+      "puntaje": 2,
+      "justificacion": "Es un castillo, así que el puntaje no pasa de 2. El Tivoli de Copenhague está a 33 km.",
+      "actividades": [
+        { "nombre": "Tivoli (Dæmonen, Rutschebanen)", "tipo": "parque_diversiones", "km": 33, "lat": 55.6737, "lng": 12.5681, "temporada": "abr–sep, Halloween y Navidad", "url": "https://rcdb.com/4905.htm", "url_tipo": "rcdb" }
+      ]
+    },
+    {
+      "id": "dk-aarhus",
+      "puntaje": 3,
+      "justificacion": "Djurs Sommerland, el mayor parque de atracciones de los países nórdicos según VisitDenmark, está a 36 km: más de 60 atracciones, con la Juvelen, la montaña rusa más larga de Dinamarca (1 km, doble lanzamiento, 85 km/h).",
+      "actividades": [
+        { "nombre": "Djurs Sommerland (Juvelen, DrageKongen, Piraten)", "tipo": "parque_diversiones", "km": 36, "lat": 56.4239, "lng": 10.5403, "temporada": "may–oct", "url": "https://djurssommerland.dk/en/rides/mexicoland/juvelen", "url_tipo": "operador_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "dk-odense",
+      "puntaje": 1,
+      "justificacion": "Oferta mínima: Legoland Billund queda a unos 89 km, fuera del radio.",
+      "actividades": []
+    },
+    {
+      "id": "dk-aero",
+      "puntaje": 1,
+      "justificacion": "Isla de bicicleta y pueblos. No se identificaron actividades de adrenalina con web oficial a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "dk-skagen",
+      "puntaje": 1,
+      "justificacion": "Oferta mínima: no se identificaron parques ni operadores con web oficial a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "dk-ribe",
+      "puntaje": 2,
+      "justificacion": "Legoland Billund y el parque acuático de Lalandia quedan en el borde del radio, a 51 km.",
+      "actividades": [
+        { "nombre": "Legoland Billund y parque acuático Lalandia", "tipo": "parque_diversiones", "km": 51, "lat": 55.7355, "lng": 9.1275, "temporada": "abr–oct (Lalandia todo el año)", "url": "https://www.lalandia.dk/en/billund/go%20exploring/legoland", "url_tipo": "operador_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "dk-mar-wadden",
+      "puntaje": 1,
+      "justificacion": "Litoral de mareas. Legoland Billund queda a unos 70 km, fuera del radio.",
+      "actividades": []
+    },
+    {
+      "id": "dk-bornholm",
+      "puntaje": 1,
+      "justificacion": "Isla de bicicleta y playas. No se identificaron actividades de adrenalina con web oficial a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "dk-mons-klint",
+      "puntaje": 1,
+      "justificacion": "Acantilados de creta. El Tivoli de Copenhague queda a unos 79 km, fuera del radio.",
+      "actividades": []
+    },
+    {
+      "id": "dk-billund-legoland",
+      "puntaje": 4,
+      "justificacion": "Legoland Billund, en el propio pueblo, tiene cuatro montañas rusas (Polar X-plorer es la más rápida) y estrena en 2026 la primera montaña rusa doble de duelo de Dinamarca. A unos 800 m está Lalandia, el mayor parque acuático de Escandinavia. Es oferta sobre todo familiar.",
+      "actividades": [
+        { "nombre": "Legoland Billund (Polar X-plorer, X-treme Racers, Flying Eagle)", "tipo": "parque_diversiones", "km": 1, "lat": 55.7355, "lng": 9.1275, "temporada": "abr–oct", "url": "https://www.lalandia.dk/en/billund/go%20exploring/legoland", "url_tipo": "operador_oficial", "km_aprox": true },
+        { "nombre": "Parque acuático Lalandia Billund", "tipo": "parque_acuatico", "km": 1, "lat": 55.7320, "lng": 9.1150, "temporada": "todo el año", "url": "https://www.lalandia.dk/en/billund/go%20exploring/legoland", "url_tipo": "operador_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "dk-thy-klitmoller",
+      "puntaje": 2,
+      "justificacion": "Klitmøller, el 'Cold Hawaii', es la capital danesa del surf y el windsurf, pero no se acreditó con web oficial de un operador. No hay parques a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "ee-tallinn",
+      "puntaje": 3,
+      "justificacion": "La torre de televisión de Tallin, a 8 km, ofrece el Walk on the Edge: una vuelta completa, con arnés, por la cornisa exterior del piso 22, a 175 m del suelo.",
+      "actividades": [
+        { "nombre": "Walk on the Edge, torre de televisión de Tallin (175 m)", "tipo": "otro", "km": 8, "lat": 59.4712, "lng": 24.8875, "temporada": "según meteorología, sobre todo de primavera a otoño", "url": "https://teletorn.ee/en/attractions/walk-on-the-edge/", "url_tipo": "operador_oficial" }
+      ]
+    },
+    {
+      "id": "ee-saaremaa",
+      "puntaje": 1,
+      "justificacion": "Isla de castillos y molinos. No se identificaron actividades de adrenalina con web oficial a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "ee-hiiumaa",
+      "puntaje": 1,
+      "justificacion": "Isla tranquila. No se identificaron actividades de adrenalina con web oficial a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "ee-lahemaa",
+      "puntaje": 2,
+      "justificacion": "Parque de senderismo. El Walk on the Edge de la torre de televisión de Tallin queda en el borde del radio, a 60 km.",
+      "actividades": [
+        { "nombre": "Walk on the Edge, torre de televisión de Tallin (175 m)", "tipo": "otro", "km": 60, "lat": 59.4712, "lng": 24.8875, "temporada": "según meteorología", "url": "https://teletorn.ee/en/attractions/walk-on-the-edge/", "url_tipo": "operador_oficial" }
+      ]
+    },
+    {
+      "id": "ee-tartu",
+      "puntaje": 1,
+      "justificacion": "Oferta mínima acreditada. Las pistas de Otepää no se acreditan porque no se buscaron con web oficial.",
+      "actividades": []
+    },
+    {
+      "id": "ee-soomaa",
+      "puntaje": 2,
+      "justificacion": "El parque se recorre en canoa y por pasarelas. El parque acuático Tervise Paradiis de Pärnu, el mayor de Estonia, está a 32 km.",
+      "actividades": [
+        { "nombre": "Parque acuático Tervise Paradiis (Pärnu)", "tipo": "parque_acuatico", "km": 32, "lat": 58.3740, "lng": 24.4920, "temporada": "todo el año", "url": "https://visitestonia.com/en/tervise-paradiis-water-park", "url_tipo": "turismo_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "ee-parnu",
+      "puntaje": 3,
+      "justificacion": "En la ciudad está Tervise Paradiis, el mayor parque acuático de Estonia, con cinco toboganes; el más largo es un tubo de 100 m.",
+      "actividades": [
+        { "nombre": "Parque acuático Tervise Paradiis", "tipo": "parque_acuatico", "km": 1, "lat": 58.3740, "lng": 24.4920, "temporada": "todo el año", "url": "https://visitestonia.com/en/tervise-paradiis-water-park", "url_tipo": "turismo_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "ee-kihnu",
+      "puntaje": 2,
+      "justificacion": "Isla tradicional. El parque acuático Tervise Paradiis de Pärnu está a 40 km.",
+      "actividades": [
+        { "nombre": "Parque acuático Tervise Paradiis (Pärnu)", "tipo": "parque_acuatico", "km": 40, "lat": 58.3740, "lng": 24.4920, "temporada": "todo el año", "url": "https://visitestonia.com/en/tervise-paradiis-water-park", "url_tipo": "turismo_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "ee-matsalu",
+      "puntaje": 1,
+      "justificacion": "Bahía de observación de aves. No se identificaron actividades de adrenalina con web oficial a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "ee-narva",
+      "puntaje": 1,
+      "justificacion": "Ciudad fronteriza con castillo. No se identificaron actividades de adrenalina con web oficial a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "ee-peipsi",
+      "puntaje": 1,
+      "justificacion": "Lago y pueblos de Viejos Creyentes. No se identificaron actividades de adrenalina con web oficial a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "lv-riga",
+      "puntaje": 2,
+      "justificacion": "La pista olímpica de bobsleigh de Sigulda, con descensos para el público, queda en el borde del radio, a 50 km; el bungee desde el teleférico del Gauja, a 51 km.",
+      "actividades": [
+        { "nombre": "Pista de bobsleigh y luge de Sigulda (bob de verano y bob blando Vučko)", "tipo": "otro", "km": 50, "lat": 57.1480, "lng": 24.8470, "temporada": "bob de verano may–sep; Vučko nov–mar", "url": "https://www.lnsc.lv/summer-bobsleigh", "url_tipo": "operador_oficial", "km_aprox": true },
+        { "nombre": "Bungee de 43 m desde el teleférico del Gauja (Sigulda)", "tipo": "bungee", "km": 51, "lat": 57.1590, "lng": 24.8560, "temporada": "temporada cálida, fines de semana", "url": "https://www.latvia.travel/en/sight/aerial-cableway-sigulda", "url_tipo": "turismo_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "lv-gauja-sigulda",
+      "puntaje": 5,
+      "justificacion": "Sigulda es la capital de la adrenalina del Báltico: la pista olímpica de bobsleigh y luge ofrece descensos al público (bob de verano a unos 80 km/h de mayo a septiembre y bob blando Vučko en invierno), y desde el teleférico que cruza el valle del Gauja se hace bungee de 43 m.",
+      "actividades": [
+        { "nombre": "Pista de bobsleigh y luge de Sigulda (bob de verano y bob blando Vučko)", "tipo": "otro", "km": 1, "lat": 57.1480, "lng": 24.8470, "temporada": "bob de verano may–sep; Vučko nov–mar", "url": "https://www.lnsc.lv/summer-bobsleigh", "url_tipo": "operador_oficial", "km_aprox": true },
+        { "nombre": "Bungee de 43 m desde el teleférico del Gauja", "tipo": "bungee", "km": 1, "lat": 57.1590, "lng": 24.8560, "temporada": "temporada cálida, fines de semana", "url": "https://www.latvia.travel/en/sight/aerial-cableway-sigulda", "url_tipo": "turismo_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "lv-cesis",
+      "puntaje": 3,
+      "justificacion": "El bungee desde el teleférico del Gauja está a 30 km y la pista de bobsleigh de Sigulda, con descensos para el público, a 31 km.",
+      "actividades": [
+        { "nombre": "Bungee de 43 m desde el teleférico del Gauja (Sigulda)", "tipo": "bungee", "km": 30, "lat": 57.1590, "lng": 24.8560, "temporada": "temporada cálida, fines de semana", "url": "https://www.latvia.travel/en/sight/aerial-cableway-sigulda", "url_tipo": "turismo_oficial", "km_aprox": true },
+        { "nombre": "Pista de bobsleigh y luge de Sigulda (bob de verano y bob blando Vučko)", "tipo": "otro", "km": 31, "lat": 57.1480, "lng": 24.8470, "temporada": "bob de verano may–sep; Vučko nov–mar", "url": "https://www.lnsc.lv/summer-bobsleigh", "url_tipo": "operador_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "lv-jurmala",
+      "puntaje": 1,
+      "justificacion": "Oferta mínima acreditada. Sigulda queda a unos 66 km, fuera del radio.",
+      "actividades": []
+    },
+    {
+      "id": "lv-kemeri",
+      "puntaje": 1,
+      "justificacion": "Ciénaga con pasarelas. No se identificaron actividades de adrenalina con web oficial a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "lv-rundale",
+      "puntaje": 1,
+      "justificacion": "Es un palacio. No se identificaron actividades de adrenalina con web oficial a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "lv-kuldiga",
+      "puntaje": 1,
+      "justificacion": "Pueblo histórico con cascada. No se identificaron actividades de adrenalina con web oficial a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "lv-ventspils",
+      "puntaje": 1,
+      "justificacion": "Oferta mínima: no se identificaron parques ni operadores con web oficial a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "lv-liepaja-karosta",
+      "puntaje": 1,
+      "justificacion": "Oferta mínima: no se identificaron parques ni operadores con web oficial a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "lv-kolka",
+      "puntaje": 1,
+      "justificacion": "Cabo y playa. No se identificaron actividades de adrenalina con web oficial a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "lv-daugavpils-latgale",
+      "puntaje": 1,
+      "justificacion": "Oferta mínima: no se identificaron parques ni operadores con web oficial a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "lt-vilnius",
+      "puntaje": 1,
+      "justificacion": "Oferta mínima acreditada: no se identificaron parques ni operadores con web oficial a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "lt-trakai",
+      "puntaje": 1,
+      "justificacion": "Es un castillo sobre un lago. No se identificaron actividades de adrenalina con web oficial a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "lt-istmo-curonia",
+      "puntaje": 1,
+      "justificacion": "Dunas y pueblos pesqueros. No se identificaron actividades de adrenalina con web oficial a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "lt-kaunas",
+      "puntaje": 1,
+      "justificacion": "Oferta mínima: no se identificaron parques ni operadores con web oficial a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "lt-colina-cruces",
+      "puntaje": 1,
+      "justificacion": "Es un lugar de peregrinación. No se identificaron actividades de adrenalina con web oficial a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "lt-palanga",
+      "puntaje": 1,
+      "justificacion": "Balneario de playa. No se identificaron actividades de adrenalina con web oficial a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "lt-aukstaitija",
+      "puntaje": 1,
+      "justificacion": "Parque de lagos y bosques. No se identificaron actividades de adrenalina con web oficial a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "lt-druskininkai",
+      "puntaje": 3,
+      "justificacion": "En el pueblo está la Snow Arena (2011), el único complejo de deportes de invierno del Báltico abierto todo el año: dos pistas cubiertas de unos 460–600 m a entre −2 y −4 °C y una exterior en invierno.",
+      "actividades": [
+        { "nombre": "Snow Arena (esquí cubierto todo el año)", "tipo": "esqui", "km": 2, "lat": 54.0060, "lng": 23.9860, "temporada": "todo el año", "url": "https://snowarena.lt/en/home/about", "url_tipo": "operador_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "lt-dzukija",
+      "puntaje": 3,
+      "justificacion": "La Snow Arena de Druskininkai, con esquí cubierto todo el año, está a 27 km. El parque se recorre a pie, así que el puntaje no pasa de 3.",
+      "actividades": [
+        { "nombre": "Snow Arena (esquí cubierto todo el año)", "tipo": "esqui", "km": 27, "lat": 54.0060, "lng": 23.9860, "temporada": "todo el año", "url": "https://snowarena.lt/en/home/about", "url_tipo": "operador_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "lt-delta-nemunas",
+      "puntaje": 1,
+      "justificacion": "Humedal de aves. No se identificaron actividades de adrenalina con web oficial a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "lt-zemaitija",
+      "puntaje": 1,
+      "justificacion": "Parque con búnker soviético. No se identificaron actividades de adrenalina con web oficial a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "lt-anyksciai",
+      "puntaje": 1,
+      "justificacion": "Sendero elevado entre los árboles. No se identificaron actividades de adrenalina con web oficial a 60 km.",
+      "actividades": []
     }
   ],
-  "nuevos": []
+  "nuevos": [
+    {
+      "id": "no-voss",
+      "nombre": "Voss",
+      "pais_iso": "NO",
+      "region": "Vestland",
+      "lat": 60.6286,
+      "lng": 6.4174,
+      "tipo": "otro",
+      "destino_propio": true,
+      "puntaje": 5,
+      "justificacion": "Es la capital noruega de los deportes extremos y sede desde los años noventa de la Ekstremsportveko, que reúne rafting, kayak, paracaidismo, parapente, ala delta, BASE y freeride. Ofrece rafting en el río Raundalselva, con rápidos de grado III, parapente en tándem y el túnel de viento Voss Vind. La Flåm Zipline, la tirolesa más larga de Escandinavia, queda a 39 km.",
+      "actividades": [
+        { "nombre": "Voss: rafting en el Raundalselva, parapente tándem y túnel de viento Voss Vind", "tipo": "otro", "km": 0, "lat": 60.6286, "lng": 6.4174, "temporada": "rafting y parapente en verano; Voss Vind todo el año", "url": "https://www.visitvoss.no/en/top-5-family-activities-voss-norway", "url_tipo": "turismo_oficial" },
+        { "nombre": "Flåm Zipline (Vatnahalsen–Kårdal, 1381 m)", "tipo": "tirolesa", "km": 39, "lat": 60.7370, "lng": 7.1000, "temporada": "primavera–otoño", "url": "https://fjordnorway.com/en/see-and-do/flam-zipline", "url_tipo": "turismo_oficial", "km_aprox": true }
+      ],
+      "fuentes": [
+        { "guia": "Turismo oficial de Voss", "url": "https://www.visitvoss.no/en/top-5-family-activities-voss-norway" },
+        { "guia": "Visit Norway", "url": "https://www.visitnorway.com/places-to-go/fjord-norway/voss" }
+      ]
+    },
+    {
+      "id": "no-loen",
+      "nombre": "Loen (Loen Skylift y Via Ferrata Loen)",
+      "pais_iso": "NO",
+      "region": "Vestland (Nordfjord)",
+      "lat": 61.8700,
+      "lng": 6.8600,
+      "tipo": "via_ferrata",
+      "destino_propio": true,
+      "puntaje": 4,
+      "justificacion": "La Via Ferrata Loen sube al monte Hoven, a 750 m sobre el Nordfjord, con el puente de vía ferrata más largo de Europa, y se baja en el teleférico Loen Skylift. Hay salidas guiadas de mayo a octubre y una ruta extrema, la Ragnarok, que es la más difícil de Noruega (grado F). El Geirangerfjord queda a 31 km.",
+      "actividades": [
+        { "nombre": "Via Ferrata Loen y Loen Skylift", "tipo": "via_ferrata", "km": 0, "lat": 61.8700, "lng": 6.8600, "temporada": "may–oct", "url": "https://en.loenskylift.no/viaferrataloen", "url_tipo": "operador_oficial", "km_aprox": true }
+      ],
+      "fuentes": [
+        { "guia": "Sitio oficial", "url": "https://en.loenskylift.no/viaferrataloen" },
+        { "guia": "Turismo oficial de Nordfjord", "url": "https://nordfjord.no/en/loen-skylift-og-ferrata-loen" },
+        { "guia": "Fjord Norway", "url": "https://www.fjordnorway.com/en/see-and-do/via-ferrata-loen" }
+      ]
+    },
+    {
+      "id": "se-riksgransen",
+      "nombre": "Riksgränsen",
+      "pais_iso": "SE",
+      "region": "Norrbotten (Laponia sueca)",
+      "lat": 68.4258,
+      "lng": 18.1272,
+      "tipo": "esqui",
+      "destino_propio": true,
+      "puntaje": 4,
+      "justificacion": "Es la estación de esquí más septentrional de Suecia, en la frontera con Noruega: su temporada va de finales de febrero a finales de mayo, con terreno fuera de pista, heliesquí y esquí nocturno bajo el sol de medianoche, y a veces reabre en San Juan. Abisko queda a 30 km.",
+      "actividades": [
+        { "nombre": "Riksgränsen (esquí fuera de pista, heliesquí y esquí bajo el sol de medianoche)", "tipo": "esqui", "km": 0, "lat": 68.4258, "lng": 18.1272, "temporada": "feb–may", "url": "https://icehotel.com/skiing-riksgransen", "url_tipo": "operador_oficial" }
+      ],
+      "fuentes": [
+        { "guia": "Icehotel (operador)", "url": "https://icehotel.com/skiing-riksgransen" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/arctic-adventure-skiing-sweden-northerly-resort" }
+      ]
+    },
+    {
+      "id": "dk-djurs-sommerland",
+      "nombre": "Djurs Sommerland",
+      "pais_iso": "DK",
+      "region": "Midtjylland",
+      "lat": 56.4239,
+      "lng": 10.5403,
+      "tipo": "parque_diversiones",
+      "destino_propio": true,
+      "puntaje": 4,
+      "justificacion": "VisitDenmark lo presenta como el mayor parque de atracciones de los países nórdicos: más de 60 atracciones, con la Juvelen (1 km, doble lanzamiento, 85 km/h), la montaña rusa más larga de Dinamarca, la suspendida DrageKongen y la Piraten. Aarhus queda a 36 km.",
+      "actividades": [
+        { "nombre": "Djurs Sommerland (Juvelen, DrageKongen, Piraten)", "tipo": "parque_diversiones", "km": 0, "lat": 56.4239, "lng": 10.5403, "temporada": "may–oct", "url": "https://djurssommerland.dk/en/rides/mexicoland/juvelen", "url_tipo": "operador_oficial", "km_aprox": true }
+      ],
+      "fuentes": [
+        { "guia": "Sitio oficial", "url": "https://djurssommerland.dk/en/rides/mexicoland/juvelen" },
+        { "guia": "Sitio oficial (todas las atracciones)", "url": "https://djurssommerland.dk/en/rides/all-rides" },
+        { "guia": "VisitDenmark", "url": "https://www.visitdenmark.com/denmark/plan-your-trip/djurs-sommerland-largest-amusement-park-nordic-region-gdk836452" }
+      ]
+    }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "pausado": false,
   "subregion": "britanicas-nordicos",
-  "paso": "especialistas",
+  "paso": "logistica",
   "ronda": 1,
   "orden_subregiones": [
     "iberica-italia",
@@ -160,6 +160,12 @@
       "subregion": "britanicas-nordicos",
       "paso": "guias",
       "resultado": "169 candidatos (GB 30, IE 17, IS 15, NO 22, SE 21, FI 16, DK 14, EE 11, LV 11, LT 12); escala oficial; sin ★★★ Michelin públicos en estos países. Siguiente: 8 especialistas ronda 1 (170 búsquedas)"
+    },
+    {
+      "fecha": "2026-11-02",
+      "subregion": "britanicas-nordicos",
+      "paso": "especialistas",
+      "resultado": "8 especialistas ronda 1 (interrumpidos por el límite de 5 h y retomados): 42 lugares nuevos (cultura 15, naturaleza 13, gastronomía 8, adrenalina 6). Varios puntajes quedaron en 2 por falta de fuente; se reintentan en el cruce r2. Siguiente: logística a/b + cruce r2 de los 4 especialistas"
     }
   ],
   "ronda_revisor": 0,
