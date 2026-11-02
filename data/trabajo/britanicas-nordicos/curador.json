@@ -128,6 +128,7 @@
         "regiones": "Se unifica el texto de región: 'Norrbotten' para Abisko, Kiruna, Jokkmokk y Kalix; 'Vestland' para Hardangervidda y el Nordfjord; 'Innlandet' para Rondane; 'Dalarna' y 'Västra Götaland' sin subzona; 'Pärnu' para Soomaa y 'Tartu' para el lago Peipsi (sedes de sus centros de visitantes); 'Riga' para Jūrmala y Ķemeri (región de planificación de Riga)."
       }
     },
-    "ronda3": "Escocia partida en Tierras Bajas, Tierras Altas e Islas (cobertura). Irlanda no se parte: construir-app.mjs completa el cupo de destacados cuando el tope por región lo deja corto."
+    "ronda3": "Escocia partida en Tierras Bajas, Tierras Altas e Islas (cobertura). Irlanda no se parte: construir-app.mjs completa el cupo de destacados cuando el tope por región lo deja corto.",
+    "ronda4": "Tras el revisor r1: por_que de Copenhague con Geranium, Jordnær y Kadeau; guías de Senja y Jelling a 3 sin la página de hoteles de Fodor's ni la noticia de NatGeo Premium. Djurs Sommerland queda con guías 2 (solo Lonely Planet)."
   }
 }

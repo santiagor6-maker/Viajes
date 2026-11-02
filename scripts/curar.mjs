@@ -271,7 +271,9 @@ for (const r of lugares.values()) {
     const kmA = typeof a.lat === 'number' && typeof a.lng === 'number' ? Math.round(km(r, a)) : a.km;
     if (typeof kmA !== 'number' || kmA > RADIO_KM) continue;
     const act = { nombre: a.nombre, tipo: a.tipo, km: kmA, lat: a.lat, lng: a.lng, ...(a.temporada ? { temporada: a.temporada } : {}), url: a.url, _ronda: a._ronda };
-    const i = acts.findIndex((b) => norm(b.nombre) === norm(act.nombre) || (typeof b.lat === 'number' && typeof act.lat === 'number' && km(b, act) < 1.5));
+    // duplicado = mismo nombre, o mismo tipo a < 1,5 km (dos actividades distintas en el mismo sitio,
+    // p. ej. el bobsleigh y el bungee de Sigulda, se conservan las dos)
+    const i = acts.findIndex((b) => norm(b.nombre) === norm(act.nombre) || (b.tipo === act.tipo && typeof b.lat === 'number' && typeof act.lat === 'number' && km(b, act) < 1.5));
     if (i < 0) acts.push(act);
     else if (act._ronda > acts[i]._ronda || (act._ronda === acts[i]._ronda && act.km < acts[i].km)) acts[i] = act;
   }

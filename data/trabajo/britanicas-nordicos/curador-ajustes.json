@@ -227,15 +227,12 @@
       ]
     },
     "dk-djurs-sommerland": {
-      "puntaje": 3,
+      "puntaje": 2,
+      "ronda": 5,
       "fuentes": [
         {
           "guia": "Lonely Planet",
           "url": "https://www.lonelyplanet.com/denmark/djursland/attractions/djurs-sommerland/a/poi-sig/1439450/1329817"
-        },
-        {
-          "guia": "Time Out",
-          "url": "https://www.timeout.com/uk/news/this-uk-waterpark-is-officially-the-best-in-europe-071922"
         }
       ]
     },
@@ -299,7 +296,7 @@
       ]
     },
     "dk-jelling": {
-      "puntaje": 4,
+      "puntaje": 3,
       "fuentes": [
         {
           "guia": "Lonely Planet",
@@ -308,12 +305,9 @@
         {
           "guia": "Frommer's",
           "url": "https://www.frommers.com/destinations/jelling/things-to-do/"
-        },
-        {
-          "guia": "National Geographic",
-          "url": "https://www.nationalgeographic.com/premium/article/viking-runestone-thyra-jelling-bluetooth-gorm"
         }
-      ]
+      ],
+      "ronda": 5
     },
     "lt-kernave": {
       "puntaje": 3,
@@ -351,21 +345,18 @@
       ]
     },
     "no-senja": {
-      "puntaje": 4,
+      "puntaje": 3,
       "fuentes": [
         {
           "guia": "Lonely Planet",
           "url": "https://www.lonelyplanet.com/norway/senja/in-location/sights/a/nar/7e02ec8f-493f-43b8-be9b-98c47d961f5c/360231"
         },
         {
-          "guia": "Fodor's",
-          "url": "https://www.fodors.com/world/europe/norway/northern-norway/senja/hotels"
-        },
-        {
           "guia": "National Geographic",
           "url": "https://www.nationalgeographic.com/travel/article/senja-island-norways-best-kept-secret-adventure-travel"
         }
-      ]
+      ],
+      "ronda": 5
     },
     "no-rondane-dovre": {
       "puntaje": 4,
@@ -845,7 +836,7 @@
     "fi-koli": "Colinas boscosas sobre el lago Pielinen, consideradas paisaje nacional de Finlandia: la vista desde el Ukko-Koli inspiró a pintores como Eero Järnefelt y a Sibelius. El sendero de Herajärvi da la vuelta en unos 30 km y dos días. Se llega en tren a Joensuu y bus o coche; en febrero y marzo, esquí de fondo.",
     "fi-oulanka": "Parque de cañones, rápidos y turberas que cruza el Karhunkierros, la ruta de senderismo más popular de Finlandia, de unos 80 km; el Pieni Karhunkierros, de 12 km, pasa por los puentes colgantes del Kitkajoki. En ese río se hace el rafting más conocido del país, de junio a septiembre, y en invierno se esquía en Ruka, a 24 km. Se llega en avión a Kuusamo y bus de senderistas.",
     "fi-nuuksio": "Bosques, lagos y roca a una hora de Helsinki en transporte público: es la mayor masa forestal del área metropolitana. El sendero Haukankierros, de 4 km desde Haukkalampi, sirve para una buena primera toma de contacto con el bosque finlandés. En invierno hay rutas con raquetas y paseos en trineo de huskies.",
-    "dk-copenhague": "Capital de la nueva cocina nórdica, con tres restaurantes de tres estrellas Michelin en 2026 (noma, Geranium y Kadeau) y el mercado de Torvehallerne. Los museos y palacios están muy juntos: Nationalmuseet, Glyptotek, SMK, Rosenborg, Christiansborg, Amalienborg y el puerto de Nyhavn. En el centro, el Tivoli tiene la Dæmonen y una montaña rusa de madera, y la ciudad es llana y se recorre en bici.",
+    "dk-copenhague": "Capital de la nueva cocina nórdica, con tres restaurantes de tres estrellas Michelin en 2026 (Geranium, Jordnær y Kadeau) y el mercado de Torvehallerne. Los museos y palacios están muy juntos: Nationalmuseet, Glyptotek, SMK, Rosenborg, Christiansborg, Amalienborg y el puerto de Nyhavn. En el centro, el Tivoli tiene la Dæmonen y una montaña rusa de madera, y la ciudad es llana y se recorre en bici.",
     "dk-roskilde": "La catedral de Roskilde, gran basílica gótica de ladrillo y Patrimonio Mundial, guarda las tumbas de 39 reyes y reinas de Dinamarca. El Museo de Barcos Vikingos expone cinco naves del siglo XI rescatadas del fiordo, y en verano se puede navegar en una réplica. Está a unos 25 minutos en tren de Copenhague; a finales de junio el festival de Roskilde llena la ciudad.",
     "dk-helsingor-louisiana": "El castillo de Kronborg, el Elsinore de Hamlet y Patrimonio Mundial, controló durante siglos el paso del estrecho del Sund. A 10 km, en Humlebæk, el Louisiana es uno de los grandes museos de arte moderno de Europa, con jardín de esculturas sobre el mar, y en Hillerød el palacio renacentista de Frederiksborg, sobre tres islotes de un lago, alberga el Museo de Historia Nacional. Todo se recorre en tren desde Copenhague: unos 45 minutos hasta Helsingør y 35 o 40 hasta Hillerød.",
     "dk-aarhus": "El ARoS, coronado por el pasillo circular de colores de Olafur Eliasson, es el museo de arte más visitado de Escandinavia; Den Gamle By recrea la ciudad danesa de 1864, 1927 y 1974, y el Moesgaard es un gran museo de arqueología. Es la segunda capital culinaria del país, con Frederikshøj, de dos estrellas Michelin, y el mercado Aarhus Street Food. Djurs Sommerland, el mayor parque de atracciones nórdico, queda a 36 km.",
@@ -986,8 +977,29 @@
         "regiones": "Se unifica el texto de región: 'Norrbotten' para Abisko, Kiruna, Jokkmokk y Kalix; 'Vestland' para Hardangervidda y el Nordfjord; 'Innlandet' para Rondane; 'Dalarna' y 'Västra Götaland' sin subzona; 'Pärnu' para Soomaa y 'Tartu' para el lago Peipsi (sedes de sus centros de visitantes); 'Riga' para Jūrmala y Ķemeri (región de planificación de Riga)."
       }
     },
-    "ronda3": "Escocia partida en Tierras Bajas, Tierras Altas e Islas (cobertura). Irlanda no se parte: construir-app.mjs completa el cupo de destacados cuando el tope por región lo deja corto."
+    "ronda3": "Escocia partida en Tierras Bajas, Tierras Altas e Islas (cobertura). Irlanda no se parte: construir-app.mjs completa el cupo de destacados cuando el tope por región lo deja corto.",
+    "ronda4": "Tras el revisor r1: por_que de Copenhague con Geranium, Jordnær y Kadeau; guías de Senja y Jelling a 3 sin la página de hoteles de Fodor's ni la noticia de NatGeo Premium. Djurs Sommerland queda con guías 2 (solo Lonely Planet)."
   },
   "no_ciudad": [],
-  "quitar": []
+  "quitar": [],
+  "fuentes_quitar": [
+    {
+      "id": "no-senja",
+      "url": "https://www.fodors.com/world/europe/norway/northern-norway/senja/hotels",
+      "motivo": "Página de hoteles, no recomendación (revisor r1).",
+      "global": false
+    },
+    {
+      "id": "dk-jelling",
+      "url": "https://www.nationalgeographic.com/premium/article/viking-runestone-thyra-jelling-bluetooth-gorm",
+      "motivo": "Noticia de arqueología, no recomendación de viaje (revisor r1).",
+      "global": false
+    },
+    {
+      "id": "dk-djurs-sommerland",
+      "url": "https://www.timeout.com/uk/news/this-uk-waterpark-is-officially-the-best-in-europe-071922",
+      "motivo": "Artículo sobre un parque acuático británico; no se confirma que nombre Djurs Sommerland (revisor r1).",
+      "global": false
+    }
+  ]
 }
