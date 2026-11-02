@@ -244,7 +244,7 @@
     {
       "id": "gb-belfast",
       "puntaje": 3,
-      "justificacion": "Tiene una escena culinaria en crecimiento: OX y The Muddlers Club tienen estrella Michelin, y Visit Belfast destaca que tres restaurantes de la ciudad figuran entre los mejores del mundo. El mercado victoriano de St George's abre los fines de semana.",
+      "justificacion": "Tiene una escena culinaria en crecimiento, encabezada por OX, con estrella Michelin, y The Muddlers Club. Visit Belfast destaca tres restaurantes de la ciudad entre los mejores del mundo. El mercado victoriano de St George's abre los fines de semana.",
       "platos": ["Ulster fry", "Champ", "Pan de soda y farl de patata", "Cerveza y whiskey norirlandeses"],
       "fuentes": [
         {"guia": "Visit Belfast (turismo oficial)", "url": "https://visitbelfastpartners.com/article/three-belfast-restaurants-named-among-the-best-in-the-world"},
@@ -547,7 +547,7 @@
       ]
     },
     {
-      "id": "gb-sussex-viñedos",
+      "id": "gb-sussex-vinedos",
       "nombre": "Viñedos de Sussex y los South Downs (Alfriston, Ditchling)",
       "pais_iso": "GB",
       "region": "Sureste de Inglaterra (Sussex)",
@@ -555,7 +555,7 @@
       "lng": 0.1580,
       "tipo": "región",
       "puntaje": 4,
-      "justificacion": "Es la principal región vinícola de Inglaterra. Desde 2022 sus espumosos de método tradicional, de chardonnay y las dos pinots, tienen denominación de origen protegida Sussex. El parque nacional de los South Downs recoge las bodegas visitables, como Rathfinny, en Alfriston, con visitas de marzo a septiembre y restaurante, y Ridgeview, en Ditchling.",
+      "justificacion": "Es la principal región vinícola de Inglaterra. Desde 2022 sus espumosos de método tradicional, de chardonnay, pinot noir y pinot meunier, tienen denominación de origen protegida Sussex. El parque nacional de los South Downs recoge las bodegas visitables, como Rathfinny, en Alfriston, con visitas de marzo a septiembre y restaurante, y Ridgeview, en Ditchling.",
       "platos": ["Espumoso de Sussex (DOP)", "Cordero de los South Downs", "Quesos de Sussex"],
       "fuentes": [
         {"guia": "East Sussex County Council (DOP Sussex)", "url": "https://news.eastsussex.gov.uk/2022/07/26/sussex-wine-growers-celebrate-protected-status/"},
