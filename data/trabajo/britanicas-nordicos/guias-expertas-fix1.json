@@ -1,0 +1,76 @@
+{
+  "agente": "guias-expertas",
+  "subregion": "britanicas-nordicos",
+  "ronda": 4,
+  "estado": "en_curso",
+  "notas": "Corrección de la ronda 1 del revisor (grupos a y b). Versión parcial guardada temprano.",
+  "puntajes": [
+    {
+      "id": "is-seydisfjordur",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides"],
+      "justificacion": "Lonely Planet lo incluye en sus rutas por la carretera de circunvalación y destaca la escultura sonora Tvísöngur y su escena artística. Rough Guides lo pone en el séptimo día de su ruta de 10 días y destaca sus casas de madera de estilo noruego y su comunidad creativa.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-iceland-itineraries" },
+        { "guia": "Rough Guides", "url": "https://roughguides.com/articles/how-to-drive-the-iceland-ring-road-itinerary-10-days" }
+      ]
+    },
+    {
+      "id": "is-husavik",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides", "Time Out", "Frommer's"],
+      "justificacion": "Lonely Planet lo incluye entre sus 12 mejores lugares de Islandia para avistar ballenas, y Rough Guides también lo recomienda para verlas. Time Out lo llama la capital no oficial del avistamiento de ballenas y Frommer's dice que es el mejor puerto de Islandia para verlas. Son recomendaciones destacadas dentro de listas de avistamiento, no de imprescindibles del país.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-iceland" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/iceland/things-to-do/" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/iceland/things-to-do/best-things-to-do-in-iceland" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/iceland/planning-a-trip/" }
+      ]
+    },
+    {
+      "id": "ee-saaremaa",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Rough Guides", "Lonely Planet", "National Geographic", "Fodor's"],
+      "justificacion": "Rough Guides pone Saaremaa en el primer puesto de sus 15 mejores cosas que hacer en Estonia, por el castillo de Kuressaare, uno de los mejores de los Bálticos, y el cráter de Kaali. Lonely Planet y National Geographic la recomiendan en sus artículos sobre recorrer las islas del oeste de Estonia (molinos, castillo, sendero de Harilaid), y Fodor's la destaca en sus 10 razones para visitar los Bálticos. Es un destino destacado en varias guías, pero solo Rough Guides la pone en su lista nacional de imprescindibles.",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-estonia/" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/estonia-island-hopping-trip" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/island-hopping-through-estonias-western-isles" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/news/photos/10-ultimate-things-to-do-in-the-baltics" }
+      ]
+    },
+    {
+      "id": "se-kalmar",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides", "Rick Steves", "Fodor's", "Frommer's"],
+      "justificacion": "Lonely Planet incluye Kalmar y el Glasriket entre sus 11 mejores lugares de Suecia por su castillo renacentista, y Rough Guides pone el castillo entre las 27 mejores cosas que hacer en el país. Rick Steves llama al castillo una gran experiencia medieval y recomienda dormir en Kalmar para recorrer la región del vidrio. Fodor's y Frommer's le dedican páginas de destino, con el castillo como principal atracción.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-sweden" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-sweden/" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/watch-read-listen/read/articles/rural-sweden-glass-castles-and-minnesotans" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/sweden/the-south-and-the-kingdom-of-glass/places/kalmar/things-to-do/sights" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/kalmar/" }
+      ]
+    },
+    {
+      "id": "lv-riga",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides", "Fodor's", "National Geographic", "Bradt"],
+      "justificacion": "Lonely Planet le dedica sus 13 mejores cosas que hacer y recomienda recorrer a pie el casco antiguo y el barrio Art Nouveau. Rough Guides pone el casco antiguo entre las 14 mejores cosas que hacer en Letonia y Fodor's incluye su Art Nouveau en sus 10 razones para visitar los Bálticos. National Geographic le dedica una guía escrita por un vecino y Bradt destaca su castillo, aún habitado.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-riga" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-latvia/" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/news/photos/10-ultimate-things-to-do-in-the-baltics" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/i-heart-my-city-martinss-riga" },
+        { "guia": "Bradt", "url": "https://www.bradtguides.com/best-castles-in-latvia/" }
+      ]
+    }
+  ],
+  "nuevos": [],
+  "fuentes_quitar": [
+    { "id": "is-husavik", "url": "https://www.ricksteves.com/watch-read-listen/video/tv-show/iceland" },
+    { "id": "is-seydisfjordur", "url": "https://www.ricksteves.com/watch-read-listen/video/tv-show/iceland" },
+    { "id": "lv-riga", "url": "https://www.timeout.com/news/the-underrated-baltic-capital-just-named-europes-best-value-city-break-052025" }
+  ],
+  "correcciones_base": []
+}

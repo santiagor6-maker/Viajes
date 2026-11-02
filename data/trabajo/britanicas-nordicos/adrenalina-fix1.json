@@ -1,0 +1,147 @@
+{
+  "agente": "adrenalina",
+  "subregion": "britanicas-nordicos",
+  "ronda": 4,
+  "estado": "en_curso",
+  "puntajes": [
+    {
+      "id": "gb-calzada-del-gigante",
+      "puntaje": 3,
+      "justificacion": "Causeway Coasteering sale de Portrush, a unos 10 km, y recorre la Costa de Causeway saltando desde las rocas, trepando y nadando entre los acantilados, con monitores socorristas. Es una actividad notable en la misma costa de basalto, aunque la Calzada se visita sobre todo a pie.",
+      "fuentes": [{ "guia": "Discover Northern Ireland (turismo oficial)", "url": "https://discovernorthernireland.com/things-to-do/causeway-coasteering-p703821" }],
+      "actividades": [
+        { "nombre": "Causeway Coasteering (Portrush)", "tipo": "otro", "km": 10, "lat": 55.2070, "lng": -6.6560, "temporada": "abr–oct", "url": "https://discovernorthernireland.com/things-to-do/causeway-coasteering-p703821", "url_tipo": "turismo_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "ie-inishowen",
+      "puntaje": 2,
+      "justificacion": "Causeway Coasteering, en Portrush, al otro lado de Lough Foyle, queda a unos 41 km: salidas de coasteering por los acantilados de la costa norte de Irlanda del Norte. En la península la oferta es de carretera y miradores.",
+      "fuentes": [{ "guia": "Discover Northern Ireland (turismo oficial)", "url": "https://discovernorthernireland.com/things-to-do/causeway-coasteering-p703821" }],
+      "actividades": [
+        { "nombre": "Causeway Coasteering (Portrush)", "tipo": "otro", "km": 41, "lat": 55.2070, "lng": -6.6560, "temporada": "abr–oct", "url": "https://discovernorthernireland.com/things-to-do/causeway-coasteering-p703821", "url_tipo": "turismo_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "is-fiordos-del-oeste",
+      "puntaje": 3,
+      "justificacion": "La estación de Ísafjörður, a unos 3 km y a 8 minutos del centro, tiene esquí alpino en Tungudalur y esquí de fondo en Seljalandsdalur, ambos con iluminación nocturna; es la sede de la Skíðavikan, la semana de esquí más popular de Islandia, y de la maratón de esquí Fossavatn.",
+      "fuentes": [{ "guia": "Westfjords (turismo oficial)", "url": "https://www.westfjords.is/en/service/tungudalurseljalandsdalur-ski-area" }],
+      "actividades": [
+        { "nombre": "Estación de esquí de Ísafjörður (Tungudalur y Seljalandsdalur)", "tipo": "esqui", "km": 3, "lat": 66.0600, "lng": -23.1900, "temporada": "ene–abr (según nieve)", "url": "https://www.westfjords.is/en/service/tungudalurseljalandsdalur-ski-area", "url_tipo": "turismo_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "is-seydisfjordur",
+      "puntaje": 2,
+      "justificacion": "Stafdalur, a unos 8 km por la carretera 93 hacia Egilsstaðir, es una estación pequeña con tres remontes, alquiler de esquís y tablas y una pista de fondo de 5 km. Es una oferta menor, pensada para familias y principiantes.",
+      "fuentes": [{ "guia": "East Iceland (turismo oficial)", "url": "https://www.east.is/en/service/stafdalur-skiing-area" }],
+      "actividades": [
+        { "nombre": "Estación de esquí de Stafdalur", "tipo": "esqui", "km": 7, "lat": 65.2700, "lng": -14.1500, "temporada": "ene–abr (según nieve)", "url": "https://www.east.is/en/service/stafdalur-skiing-area", "url_tipo": "turismo_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "ie-peninsula-de-dingle",
+      "puntaje": 3,
+      "justificacion": "En Inch Beach, en la costa sur de la península y a unos 20 km de Dingle, Offshore Surf School da clases de surf para todos los niveles, con monitores acreditados por la Irish Surfing Association y alquiler de tablas y trajes. La península se recorre sobre todo en coche y a pie.",
+      "fuentes": [{ "guia": "Discover Ireland (turismo oficial)", "url": "https://www.discoverireland.ie/kerry/offshore-surf-school" }],
+      "actividades": [
+        { "nombre": "Surf en Inch Beach (Offshore Surf School)", "tipo": "otro", "km": 20, "lat": 52.1330, "lng": -9.9820, "temporada": "abr–oct", "url": "https://www.discoverireland.ie/kerry/offshore-surf-school", "url_tipo": "turismo_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "ie-ring-of-kerry",
+      "puntaje": 3,
+      "justificacion": "Inch Beach, al otro lado de la bahía de Dingle y a unos 23 km, tiene la escuela Offshore Surf School, acreditada por la Irish Surfing Association, con clases para principiantes y alquiler de material. El Ring of Kerry es sobre todo una ruta en coche y a pie.",
+      "fuentes": [{ "guia": "Discover Ireland (turismo oficial)", "url": "https://www.discoverireland.ie/kerry/offshore-surf-school" }],
+      "actividades": [
+        { "nombre": "Surf en Inch Beach (Offshore Surf School)", "tipo": "otro", "km": 23, "lat": 52.1330, "lng": -9.9820, "temporada": "abr–oct", "url": "https://www.discoverireland.ie/kerry/offshore-surf-school", "url_tipo": "turismo_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "gb-windsor",
+      "puntaje": 4,
+      "justificacion": "Legoland Windsor, a unos 4 km del castillo, tiene más de 55 atracciones en 11 zonas, con The Dragon y Flight of the Sky Lion como las más fuertes. Thorpe Park, a 11 km, tiene Hyperia (72 m, más de 128 km/h), la montaña rusa más alta y rápida del Reino Unido, y Chessington World of Adventures queda a 25 km.",
+      "fuentes": [
+        { "guia": "LEGOLAND Windsor (sitio oficial)", "url": "https://www.legoland.co.uk/explore/theme-park/rides-attractions/" },
+        { "guia": "Merlin Annual Pass (Thorpe Park)", "url": "https://merlinannualpass.co.uk/our-attractions/thorpe-park" },
+        { "guia": "RCDB (Chessington)", "url": "https://rcdb.com/4798.htm" }
+      ],
+      "actividades": [
+        { "nombre": "Legoland Windsor Resort (The Dragon, Flight of the Sky Lion)", "tipo": "parque_diversiones", "km": 4, "lat": 51.4637, "lng": -0.6509, "temporada": "mar–nov", "url": "https://www.legoland.co.uk/explore/theme-park/rides-attractions/", "url_tipo": "operador_oficial" },
+        { "nombre": "Thorpe Park (Hyperia, Stealth)", "tipo": "parque_diversiones", "km": 11, "lat": 51.4036, "lng": -0.5130, "temporada": "mar–nov", "url": "https://merlinannualpass.co.uk/our-attractions/thorpe-park", "url_tipo": "operador_oficial" },
+        { "nombre": "Chessington World of Adventures (Vampire, Dragon's Fury)", "tipo": "parque_diversiones", "km": 25, "lat": 51.3478, "lng": -0.3184, "temporada": "mar–nov", "url": "https://rcdb.com/4798.htm", "url_tipo": "rcdb" }
+      ]
+    },
+    {
+      "id": "gb-londres",
+      "puntaje": 4,
+      "justificacion": "Hay tres parques en el radio. Thorpe Park, a 29 km, tiene Hyperia (72 m, más de 128 km/h), la montaña rusa más alta y rápida del Reino Unido, y Stealth, que acelera de 0 a 128 km/h en menos de 2 segundos. Chessington World of Adventures, a 22 km, tiene cinco montañas rusas, entre ellas Vampire, y Legoland Windsor, a 37 km, más de 55 atracciones familiares.",
+      "fuentes": [
+        { "guia": "Merlin Annual Pass (Thorpe Park)", "url": "https://merlinannualpass.co.uk/our-attractions/thorpe-park" },
+        { "guia": "RCDB (Chessington)", "url": "https://rcdb.com/4798.htm" },
+        { "guia": "Chessington (sitio oficial)", "url": "https://chessington.com/our-company/press/latest-news/vampire-celebrates-35-years/" },
+        { "guia": "LEGOLAND Windsor (sitio oficial)", "url": "https://www.legoland.co.uk/explore/theme-park/rides-attractions/" }
+      ],
+      "actividades": [
+        { "nombre": "Thorpe Park (Hyperia, Stealth)", "tipo": "parque_diversiones", "km": 29, "lat": 51.4036, "lng": -0.5130, "temporada": "mar–nov", "url": "https://merlinannualpass.co.uk/our-attractions/thorpe-park", "url_tipo": "operador_oficial" },
+        { "nombre": "Chessington World of Adventures (Vampire, Dragon's Fury)", "tipo": "parque_diversiones", "km": 22, "lat": 51.3478, "lng": -0.3184, "temporada": "mar–nov", "url": "https://rcdb.com/4798.htm", "url_tipo": "rcdb" },
+        { "nombre": "Chessington World of Adventures: 35 años de Vampire", "tipo": "parque_diversiones", "km": 22, "lat": 51.3478, "lng": -0.3184, "temporada": "mar–nov", "url": "https://chessington.com/our-company/press/latest-news/vampire-celebrates-35-years/", "url_tipo": "operador_oficial" },
+        { "nombre": "Legoland Windsor Resort (The Dragon, Flight of the Sky Lion)", "tipo": "parque_diversiones", "km": 37, "lat": 51.4637, "lng": -0.6509, "temporada": "mar–nov", "url": "https://www.legoland.co.uk/explore/theme-park/rides-attractions/", "url_tipo": "operador_oficial" }
+      ]
+    },
+    {
+      "id": "gb-oxford",
+      "puntaje": 2,
+      "justificacion": "Legoland Windsor, con más de 55 atracciones sobre todo familiares, queda a unos 53 km, en el borde del radio. Thorpe Park, a unos 64 km, queda fuera.",
+      "fuentes": [{ "guia": "LEGOLAND Windsor (sitio oficial)", "url": "https://www.legoland.co.uk/explore/theme-park/rides-attractions/" }],
+      "actividades": [
+        { "nombre": "Legoland Windsor Resort (The Dragon, Flight of the Sky Lion)", "tipo": "parque_diversiones", "km": 53, "lat": 51.4637, "lng": -0.6509, "temporada": "mar–nov", "url": "https://www.legoland.co.uk/explore/theme-park/rides-attractions/", "url_tipo": "operador_oficial" }
+      ]
+    },
+    {
+      "id": "gb-glasgow",
+      "puntaje": 3,
+      "justificacion": "M&D's, el parque temático de Escocia, con dos montañas rusas, queda a 16 km en Strathclyde Country Park. Go Ape Aberfoyle, a unos 36 km, tiene una tirolesa doble de más de 400 m que cruza el valle a unos 45 m de altura sobre una cascada.",
+      "fuentes": [
+        { "guia": "RCDB (M&D's)", "url": "https://rcdb.com/4915.htm" },
+        { "guia": "Go Ape Aberfoyle (operador)", "url": "https://goape.co.uk/locations/aberfoyle/" }
+      ],
+      "actividades": [
+        { "nombre": "M&D's, Scotland's Theme Park", "tipo": "parque_diversiones", "km": 16, "lat": 55.7970, "lng": -4.0200, "temporada": "mar–oct", "url": "https://rcdb.com/4915.htm", "url_tipo": "rcdb" },
+        { "nombre": "Go Ape Aberfoyle (tirolesa doble de más de 400 m)", "tipo": "tirolesa", "km": 36, "lat": 56.1840, "lng": -4.3870, "temporada": "todo el año (por calendario)", "url": "https://goape.co.uk/locations/aberfoyle/", "url_tipo": "operador_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "gb-stirling",
+      "puntaje": 3,
+      "justificacion": "Go Ape Aberfoyle, a unos 29 km, tiene una tirolesa doble de más de 400 m sobre una cascada. M&D's, con dos montañas rusas, queda a 36 km, y la pista artificial de esquí de Hillend, a 52 km.",
+      "fuentes": [
+        { "guia": "Go Ape Aberfoyle (operador)", "url": "https://goape.co.uk/locations/aberfoyle/" },
+        { "guia": "RCDB (M&D's)", "url": "https://rcdb.com/4915.htm" },
+        { "guia": "Midlothian Council (Hillend)", "url": "https://www.midlothian.gov.uk/news/article/3997/midlothian_snowsports_centre_celebrates_60_years_at_hillend" }
+      ],
+      "actividades": [
+        { "nombre": "Go Ape Aberfoyle (tirolesa doble de más de 400 m)", "tipo": "tirolesa", "km": 29, "lat": 56.1840, "lng": -4.3870, "temporada": "todo el año (por calendario)", "url": "https://goape.co.uk/locations/aberfoyle/", "url_tipo": "operador_oficial", "km_aprox": true },
+        { "nombre": "M&D's, Scotland's Theme Park", "tipo": "parque_diversiones", "km": 36, "lat": 55.7970, "lng": -4.0200, "temporada": "mar–oct", "url": "https://rcdb.com/4915.htm", "url_tipo": "rcdb" },
+        { "nombre": "Midlothian Snowsports Centre (Hillend)", "tipo": "esqui", "km": 52, "lat": 55.8890, "lng": -3.2100, "temporada": "todo el año", "url": "https://www.midlothian.gov.uk/news/article/3997/midlothian_snowsports_centre_celebrates_60_years_at_hillend", "url_tipo": "operador_oficial" }
+      ]
+    },
+    {
+      "id": "lv-gauja-sigulda",
+      "puntaje": 5,
+      "justificacion": "Sigulda es la capital de la adrenalina del Báltico. La pista olímpica de bobsleigh y luge ofrece descensos al público: bob de verano a unos 80 km/h de mayo a septiembre y bob blando Vučko en invierno. Desde el teleférico que cruza el valle del Gauja se salta en bungee de 43 m.",
+      "fuentes": [
+        { "guia": "Latvian National Sports Centre (pista de Sigulda)", "url": "https://www.lnsc.lv/summer-bobsleigh" },
+        { "guia": "Latvia Travel (teleférico y bungee)", "url": "https://www.latvia.travel/en/sight/aerial-cableway-sigulda" }
+      ],
+      "actividades": [
+        { "nombre": "Pista de bobsleigh y luge de Sigulda (bob de verano y bob blando Vučko)", "tipo": "otro", "km": 1, "lat": 57.1480, "lng": 24.8470, "temporada": "bob de verano may–sep; Vučko nov–mar", "url": "https://www.lnsc.lv/summer-bobsleigh", "url_tipo": "operador_oficial", "km_aprox": true },
+        { "nombre": "Bungee de 43 m desde el teleférico del Gauja", "tipo": "bungee", "km": 1, "lat": 57.1590, "lng": 24.8560, "temporada": "temporada cálida, fines de semana", "url": "https://www.latvia.travel/en/sight/aerial-cableway-sigulda", "url_tipo": "turismo_oficial", "km_aprox": true }
+      ]
+    }
+  ],
+  "nuevos": [],
+  "fuentes_quitar": [],
+  "correcciones_base": []
+}
