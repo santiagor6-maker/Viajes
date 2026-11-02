@@ -1,7 +1,7 @@
 {
   "pausado": false,
   "subregion": "centroeuropa",
-  "paso": "guias",
+  "paso": "especialistas",
   "ronda": 1,
   "orden_subregiones": [
     "iberica-italia",
@@ -209,6 +209,12 @@
       "subregion": "britanicas-nordicos",
       "paso": "publicar",
       "resultado": "Cerrada tras el revisor ronda 2 (final): 211 lugares. Aprobados: cultura, naturaleza y gastronomía (grupo a); cultura y gastronomía (grupo b). Notas: GB 8.8, IE 8.9, IS 9.3, NO 9.1, SE 8.9, FI 9.0, DK 9.2, EE 8.9, LV 9.1, LT 8.7 (todos con revisión pendiente). Correcciones posteriores: curar.mjs protege las URL de guías; Calanais, Windsor, Liverpool. Republicado (versión 16)."
+    },
+    {
+      "fecha": "2026-11-02",
+      "subregion": "centroeuropa",
+      "paso": "guias",
+      "resultado": "120 candidatos (DE 29, PL 17, CZ 18, SK 14, HU 16, SI 13); ★★★ ViaMichelin solo en Praga, Budapest y Bled. Grupo b interrumpido por el límite de 5 h y retomado. Siguiente: 8 especialistas ronda 1"
     }
   ],
   "ronda_revisor": 0,
