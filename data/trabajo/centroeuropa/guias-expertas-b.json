@@ -1,0 +1,1035 @@
+{
+  "agente": "guias-expertas",
+  "subregion": "centroeuropa",
+  "grupo": "b",
+  "ronda": 1,
+  "estado": "completo",
+  "notas": "Grupo b: CZ, SK, HU, SI. Guías consultadas: Lonely Planet, Rough Guides, Rick Steves, Fodor's, Frommer's, National Geographic, Time Out, Michelin (ViaMichelin) y Bradt. Solo se citan URLs que salieron en WebSearch (WebFetch bloqueado para lonelyplanet.com y roughguides.com). No se cuentan foros (community.ricksteves.com, fodors.com/community, Thorn Tree), fichas de librería, tours revendidos ni el contenido pagado de National Geographic (paid-content, partner-content), que abunda en Hungría y Eslovenia. Condé Nast Traveler bloqueó la búsqueda. Michelin («Worth the trip», equivalente a ★★★) solo se confirmó para Praga (Palacio Real del Castillo), Budapest (Parlamento, Palacio Real, Baños Széchenyi) y el lago Bled. Rick Steves no tiene páginas editoriales sobre Eslovaquia fuera de su foro, así que no se cuenta allí. Time Out no tiene guía de Eslovaquia.",
+  "candidatos": [
+    {
+      "id": "cz-praga",
+      "nombre": "Praga",
+      "pais_iso": "CZ",
+      "region": "Hlavní město Praha",
+      "lat": 50.0875,
+      "lng": 14.4213,
+      "tipo": "ciudad",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rick Steves", "Michelin", "Time Out", "National Geographic", "Rough Guides"],
+      "justificacion": "Lonely Planet la pone en su lista de los mejores lugares de Chequia y la eligió entre las 10 mejores ciudades de Best in Travel 2024. Rick Steves la usa como base de todos sus itinerarios checos. ViaMichelin marca el Palacio Real del Castillo de Praga como «Worth the trip» (★★★). Time Out tiene su guía de imprescindibles (Puente de Carlos, Castillo, Ciudad Vieja, Malá Strana). National Geographic le dedica una guía propia y Rough Guides abre su lista de lo mejor del país con la Ciudad Vieja.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-czechia" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/czech-republic/itinerary" },
+        { "guia": "Michelin", "url": "https://www.viamichelin.co.uk/maps/tourist-attractions/poi/praha-_-841218ed28c5" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/prague/things-to-do/best-things-to-do-in-prague" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/prague-guide-czech-republic-evolving-capital" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-the-czech-republic/" }
+      ]
+    },
+    {
+      "id": "cz-cesky-krumlov",
+      "nombre": "Český Krumlov",
+      "pais_iso": "CZ",
+      "region": "Jihočeský kraj",
+      "lat": 48.8127,
+      "lng": 14.3175,
+      "tipo": "pueblo",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rick Steves", "Fodor's", "Frommer's", "Rough Guides", "Michelin"],
+      "justificacion": "Lonely Planet lo incluye entre los mejores lugares de Chequia por su arquitectura histórica. Rick Steves lo llama su parada favorita fuera de Praga en el episodio «Czech Republic Beyond Prague» (castillo y teatro barroco). Fodor's lo marca como Fodor's Choice en Bohemia del Sur. Frommer's le dedica una guía y lo describe como uno de los pueblos más bonitos de Bohemia, Patrimonio de la Humanidad. Rough Guides recomienda dormir allí para evitar las multitudes. ViaMichelin tiene ficha del castillo, el mayor del país después del de Praga.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-czechia" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/watch-read-listen/video/tv-show/czech-republic-beyond-prague" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/czech-republic/southern-bohemia/things-to-do/sights?pois=796199" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/cesky-krumlov/" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/czech-republic/bohemia/" },
+        { "guia": "Michelin", "url": "https://www.viamichelin.com/web/Tourist-Attraction/Cesky_Krumlov-381_01-Schloss_von_Krumau-a54f0063" }
+      ]
+    },
+    {
+      "id": "cz-kutna-hora",
+      "nombre": "Kutná Hora (Santa Bárbara y osario de Sedlec)",
+      "pais_iso": "CZ",
+      "region": "Středočeský kraj",
+      "lat": 49.9484,
+      "lng": 15.2682,
+      "tipo": "pueblo",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rick Steves", "Fodor's", "Rough Guides", "Time Out"],
+      "justificacion": "Lonely Planet dice que la antigua ciudad de la plata vale el viaje desde Praga aun sin su osario. Rick Steves la pone entre las mejores excursiones de un día desde Praga. Fodor's marca como Fodor's Choice la iglesia de Santa Bárbara y el osario de Sedlec. Rough Guides incluye el osario entre lo mejor del país y Time Out abre con ella sus mejores excursiones desde Praga.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-czechia" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/watch-read-listen/read/articles/beyond-prague" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/czech-republic/day-trips-from-prague/things-to-do/sights?pois=904927" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-the-czech-republic/" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/prague/things-to-do/best-day-trips-from-prague" }
+      ]
+    },
+    {
+      "id": "cz-olomouc",
+      "nombre": "Olomouc",
+      "pais_iso": "CZ",
+      "region": "Olomoucký kraj",
+      "lat": 49.5938,
+      "lng": 17.2509,
+      "tipo": "ciudad",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rick Steves", "Rough Guides", "Fodor's"],
+      "justificacion": "Lonely Planet la incluye entre los mejores lugares de Chequia por su arquitectura. Rick Steves la visita en su episodio sobre Chequia fuera de Praga como centro cultural y universitario de Moravia. Rough Guides la cuenta entre sus cinco maravillas de Moravia, como la ciudad histórica más importante después de Praga. Fodor's marca como Fodor's Choice su Columna de la Santísima Trinidad (UNESCO).",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-czechia" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/watch-read-listen/video/tv-show/czech-republic-beyond-prague" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/another-side-to-the-czech-republic-five-marvels-of-moravia/" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/czech-republic/moravia/places/olomouc/things-to-do/sights" }
+      ]
+    },
+    {
+      "id": "cz-karlovy-vary",
+      "nombre": "Karlovy Vary",
+      "pais_iso": "CZ",
+      "region": "Karlovarský kraj",
+      "lat": 50.2306,
+      "lng": 12.8711,
+      "tipo": "ciudad",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Fodor's", "Frommer's", "Rough Guides"],
+      "justificacion": "Lonely Planet la incluye entre los mejores lugares de Chequia por su arquitectura balnearia. Fodor's destaca como Fodor's Choice su columnata Mlýnská en Bohemia Occidental. Frommer's le dedica una guía propia (manantiales, historia desde Carlos IV, cristal). Rough Guides cita sus columnatas y parques en la introducción de su lista de lo mejor del país, sin ficha propia.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-czechia" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/czech-republic/western-bohemia/things-to-do/sights" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/karlovy-vary/introduction" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-the-czech-republic/" }
+      ]
+    },
+    {
+      "id": "cz-telc",
+      "nombre": "Telč",
+      "pais_iso": "CZ",
+      "region": "Kraj Vysočina",
+      "lat": 49.1842,
+      "lng": 15.4527,
+      "tipo": "pueblo",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Frommer's", "Lonely Planet", "Rick Steves"],
+      "justificacion": "Frommer's le dedica una guía propia (plaza trapezoidal Patrimonio de la Humanidad desde 1992, rodeada de estanques) y recomienda dormir allí. Lonely Planet tiene ficha de su castillo renacentista y lo llama uno de los pueblos más bonitos del país. Rick Steves lo incluye en su itinerario checo como excursión tranquila por su enorme plaza de cuento y su castillo.",
+      "fuentes": [
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/telc/" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/czech-republic/moravia/telc/attractions/telc-chateau/a/poi-sig/1242190/358834" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/czech-republic/itinerary" }
+      ]
+    },
+    {
+      "id": "cz-karlstejn",
+      "nombre": "Castillo de Karlštejn",
+      "pais_iso": "CZ",
+      "region": "Středočeský kraj",
+      "lat": 49.9393,
+      "lng": 14.1882,
+      "tipo": "monumento",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Fodor's", "Time Out", "Rough Guides"],
+      "justificacion": "Fodor's lo marca como Fodor's Choice: castillo de cuento construido para guardar las joyas de la corona y el sitio más visitado fuera de Praga. Time Out lo incluye entre sus cinco mejores excursiones desde Praga. Rough Guides lo recomienda como tesoro de Carlos IV en su guía de Praga. Está a unos 28 km de Praga, por eso va aparte.",
+      "fuentes": [
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/czech-republic/day-trips-from-prague/things-to-do/sights/reviews/karlstejn-castle-581905" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/prague/things-to-do/best-day-trips-from-prague" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/czech-republic/prague/" }
+      ]
+    },
+    {
+      "id": "cz-lednice-valtice",
+      "nombre": "Paisaje cultural de Lednice-Valtice",
+      "pais_iso": "CZ",
+      "region": "Jihomoravský kraj",
+      "lat": 48.8016,
+      "lng": 16.8050,
+      "tipo": "monumento",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Fodor's", "National Geographic"],
+      "justificacion": "Lonely Planet tiene ficha del castillo de Valtice, uno de los mejores edificios barrocos del país, y describe Lednice como uno de los destinos de fin de semana más populares. Fodor's destaca el castillo de Lednice y su minarete entre los lugares de Moravia. National Geographic lo incluye en su guía de un fin de semana en Moravia del Sur como parque UNESCO con dos castillos.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/czech-republic/valtice-lednice/attractions/valtice-chateau/a/poi-sig/1272927/1328087" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/czech-republic/moravia/things-to-do/sights?pois=796416" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/what-to-do-south-moravia-czech-wine-country" }
+      ]
+    },
+    {
+      "id": "cz-mikulov",
+      "nombre": "Mikulov y viñedos de Pálava",
+      "pais_iso": "CZ",
+      "region": "Jihomoravský kraj",
+      "lat": 48.8056,
+      "lng": 16.6378,
+      "tipo": "pueblo",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Fodor's", "National Geographic"],
+      "justificacion": "Lonely Planet lo incluye en su lista de los mejores lugares de Chequia como el mejor sitio para el vino y los viñedos, y recomienda recorrer en bici la región vinícola de Moravia. Fodor's le dedica una de sus entradas más detalladas de Moravia (castillo y cementerio judío). National Geographic lo integra en su guía del vino de Moravia del Sur.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-czechia" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/czech-republic/moravia/places" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/what-to-do-south-moravia-czech-wine-country" }
+      ]
+    },
+    {
+      "id": "cz-brno",
+      "nombre": "Brno",
+      "pais_iso": "CZ",
+      "region": "Jihomoravský kraj",
+      "lat": 49.1951,
+      "lng": 16.6068,
+      "tipo": "ciudad",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["National Geographic", "Rough Guides", "Fodor's", "Lonely Planet"],
+      "justificacion": "National Geographic le dedica una guía propia como la peculiar segunda ciudad del país. Rough Guides destaca la Villa Tugendhat de Mies van der Rohe (UNESCO) en su guía de Moravia. Fodor's le dedica una de sus entradas más completas de Moravia, con el Museo de Artes Decorativas. Lonely Planet la menciona en su guía de Chequia por el Museo Mendel y los subterráneos del mercado.",
+      "fuentes": [
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/inside-guide-brno-czech-republic-quirky-second-city" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/czech-republic/moravia/" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/czech-republic/moravia/places" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/guide-to-czechia" }
+      ]
+    },
+    {
+      "id": "cz-plzen",
+      "nombre": "Plzeň",
+      "pais_iso": "CZ",
+      "region": "Plzeňský kraj",
+      "lat": 49.7475,
+      "lng": 13.3776,
+      "tipo": "ciudad",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Rough Guides", "Fodor's"],
+      "justificacion": "Rough Guides incluye la cervecería Pilsner Urquell entre lo mejor que hacer en el país. Fodor's la marca como Fodor's Choice en Bohemia Occidental.",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-the-czech-republic/" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/czech-republic/western-bohemia/things-to-do/sights?pois=796481" }
+      ]
+    },
+    {
+      "id": "cz-ceske-svycarsko",
+      "nombre": "Parque Nacional Suiza Checa (České Švýcarsko)",
+      "pais_iso": "CZ",
+      "region": "Ústecký kraj",
+      "lat": 50.8847,
+      "lng": 14.2817,
+      "tipo": "parque",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "National Geographic"],
+      "justificacion": "Lonely Planet lo incluye entre los mejores lugares de Chequia por su paisaje de arenisca. National Geographic le dedica un artículo propio (Pravčická brána, acceso desde Hřensko y Děčín).",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-czechia" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/bohemian-switzerland-czech-republic" }
+      ]
+    },
+    {
+      "id": "cz-trebon",
+      "nombre": "Třeboň",
+      "pais_iso": "CZ",
+      "region": "Jihočeský kraj",
+      "lat": 49.0037,
+      "lng": 14.7706,
+      "tipo": "pueblo",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Rick Steves"],
+      "justificacion": "Rick Steves lo visita en su episodio sobre Chequia fuera de Praga por su tradición de piscicultura entre estanques artificiales y su balneario de turba.",
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/watch-read-listen/video/tv-show/czech-republic-beyond-prague" }
+      ]
+    },
+    {
+      "id": "cz-terezin",
+      "nombre": "Terezín",
+      "pais_iso": "CZ",
+      "region": "Ústecký kraj",
+      "lat": 50.5106,
+      "lng": 14.1503,
+      "tipo": "monumento",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Rick Steves"],
+      "justificacion": "Rick Steves lo trata en su episodio sobre Chequia fuera de Praga como memorial del Holocausto y lo propone como excursión de un día desde Praga, con al menos cuatro horas de visita.",
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/watch-read-listen/video/tv-show/czech-republic-beyond-prague" }
+      ]
+    },
+    {
+      "id": "cz-moravsky-kras",
+      "nombre": "Karst de Moravia (Moravský kras)",
+      "pais_iso": "CZ",
+      "region": "Jihomoravský kraj",
+      "lat": 49.3713,
+      "lng": 16.7262,
+      "tipo": "parque",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Rough Guides"],
+      "justificacion": "Rough Guides lo incluye entre sus cinco maravillas de Moravia y lo llama el mayor atractivo turístico de la región, con las cuevas de Punkva y buenas rutas a pie.",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/another-side-to-the-czech-republic-five-marvels-of-moravia/" }
+      ]
+    },
+    {
+      "id": "cz-krkonose-snezka",
+      "nombre": "Krkonoše y monte Sněžka",
+      "pais_iso": "CZ",
+      "region": "Královéhradecký kraj",
+      "lat": 50.7360,
+      "lng": 15.7397,
+      "tipo": "parque",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Lonely Planet"],
+      "justificacion": "Lonely Planet incluye entre sus 12 mejores cosas que hacer en Chequia subir el Sněžka (1603 m), el techo del país, en los Montes de los Gigantes, a pie o en teleférico desde Pec pod Sněžkou.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-czechia" }
+      ]
+    },
+    {
+      "id": "cz-hluboka",
+      "nombre": "Castillo de Hluboká",
+      "pais_iso": "CZ",
+      "region": "Jihočeský kraj",
+      "lat": 49.0518,
+      "lng": 14.4342,
+      "tipo": "monumento",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Fodor's"],
+      "justificacion": "Fodor's marca el castillo neogótico de Hluboká como Fodor's Choice en Bohemia del Sur.",
+      "fuentes": [
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/czech-republic/southern-bohemia/things-to-do/sights?pois=796199" }
+      ]
+    },
+    {
+      "id": "cz-sumava",
+      "nombre": "Parque Nacional de Šumava",
+      "pais_iso": "CZ",
+      "region": "Jihočeský kraj",
+      "lat": 48.9750,
+      "lng": 13.7900,
+      "tipo": "parque",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Rough Guides"],
+      "justificacion": "Rough Guides lo recomienda en su lista de lo mejor del país para actividades al aire libre, como uno de los mayores parques nacionales checos.",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-the-czech-republic/" }
+      ]
+    },
+    {
+      "id": "sk-bratislava",
+      "nombre": "Bratislava (con el castillo de Devín)",
+      "pais_iso": "SK",
+      "region": "Bratislavský kraj",
+      "lat": 48.1435,
+      "lng": 17.1077,
+      "tipo": "ciudad",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Frommer's", "Fodor's", "Bradt", "National Geographic"],
+      "justificacion": "Lonely Planet la abre como primer lugar de su lista de Eslovaquia, por su vida nocturna y como base de excursiones. Frommer's le dedica una guía y llama al casco antiguo restaurado su gran atractivo. Fodor's reseña el castillo como centro de la ciudad vieja y el castillo en ruinas de Devín, a 10 km. Bradt le dedica una guía entera y un paseo por el casco antiguo. National Geographic tiene una guía local de la ciudad.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-slovakia" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/bratislava/" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/slovakia/things-to-do/sights/reviews/bratislava-castle-609927" },
+        { "guia": "Bradt", "url": "https://www.bradtguides.com/a-walking-tour-of-bratislavas-old-town/" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/i-heart-my-city-marinas-bratislava" }
+      ]
+    },
+    {
+      "id": "sk-altos-tatras",
+      "nombre": "Altos Tatras (Štrbské Pleso, Starý Smokovec, Lomnický štít)",
+      "pais_iso": "SK",
+      "region": "Prešovský kraj",
+      "lat": 49.1395,
+      "lng": 20.2207,
+      "tipo": "montaña",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides", "Frommer's", "National Geographic"],
+      "justificacion": "Lonely Planet los pone segundos en su lista de Eslovaquia y les dedica un artículo de siete cosas que hacer (lago Popradské Pleso, esquí). Rough Guides los presenta como el gran atractivo del país, con la ruta Štrbské Pleso–Popradské Pleso y la subida al Kriváň. Frommer's les dedica guía propia y los llama la principal atracción turística de Eslovaquia. National Geographic los incluye entre sus experiencias de invierno alternativas en Europa.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/out-on-a-high-exploring-slovakias-high-tatras" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/slovakia/central-slovakia/tatras/" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/the-high-tatras/" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/alternative-winter-experiences-in-europe-ice-climbing-camping" }
+      ]
+    },
+    {
+      "id": "sk-spis-levoca",
+      "nombre": "Castillo de Spiš y Levoča",
+      "pais_iso": "SK",
+      "region": "Prešovský kraj",
+      "lat": 48.9997,
+      "lng": 20.7681,
+      "tipo": "monumento",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides", "Frommer's"],
+      "justificacion": "Lonely Planet incluye Spišské Podhradie entre los mejores lugares de Eslovaquia por el castillo de Spiš, una de las mayores fortalezas de Europa Central. Rough Guides recomienda el castillo y Levoča, con el retablo del maestro Pablo en la iglesia de Santiago. Frommer's dedica una guía a Levoča, una de las ciudades medievales mejor conservadas del país. Levoča está a unos 14 km del castillo y comparten la misma inscripción UNESCO, por eso van juntos.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-slovakia" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/slovakia/east-slovakia/" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/levoca/" }
+      ]
+    },
+    {
+      "id": "sk-banska-stiavnica",
+      "nombre": "Banská Štiavnica",
+      "pais_iso": "SK",
+      "region": "Banskobystrický kraj",
+      "lat": 48.4586,
+      "lng": 18.8932,
+      "tipo": "pueblo",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides"],
+      "justificacion": "Lonely Planet la incluye entre los mejores lugares de Eslovaquia: joyero gótico y renacentista dentro de una caldera volcánica, con fichas de su Kalvária y su Castillo Nuevo. Rough Guides la destaca como la ciudad minera más antigua del país (UNESCO), con el Calvario barroco y los museos de minería.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-slovakia" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/slovakia/banska-stiavnica/attractions/kalvaria/a/poi-sig/1335197/1324762" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/slovakia/central-slovakia/" }
+      ]
+    },
+    {
+      "id": "sk-kosice",
+      "nombre": "Košice",
+      "pais_iso": "SK",
+      "region": "Košický kraj",
+      "lat": 48.7206,
+      "lng": 21.2578,
+      "tipo": "ciudad",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "National Geographic"],
+      "justificacion": "Lonely Planet la incluye entre los mejores lugares de Eslovaquia, con la catedral gótica de Santa Isabel presidiendo su plaza, y le dedica página de destino. National Geographic le dedicó un artículo como estrella emergente del país, con su casco medieval.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-slovakia" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/destinations/slovakia/kosice" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/slovakia-gets-its-15-minutes-of-fame" }
+      ]
+    },
+    {
+      "id": "sk-slovensky-raj",
+      "nombre": "Parque Nacional Paraíso Eslovaco (Slovenský raj)",
+      "pais_iso": "SK",
+      "region": "Košický kraj",
+      "lat": 48.9420,
+      "lng": 20.3900,
+      "tipo": "parque",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides"],
+      "justificacion": "Lonely Planet lo incluye entre los mejores lugares de Eslovaquia y lo describe como un parque de aventuras de cascadas y gargantas con escaleras. Rough Guides lo pone en su lista de lo mejor del país como destino de senderismo.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-slovakia" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-slovakia/" }
+      ]
+    },
+    {
+      "id": "sk-castillo-orava",
+      "nombre": "Castillo de Orava",
+      "pais_iso": "SK",
+      "region": "Žilinský kraj",
+      "lat": 49.2614,
+      "lng": 19.3586,
+      "tipo": "monumento",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Rough Guides", "Lonely Planet"],
+      "justificacion": "Rough Guides lo pone en su lista de lo mejor de Eslovaquia como uno de los castillos más bellos del país, sobre una roca encima del río Orava. Lonely Planet lo propone, junto a Bojnice, para los aficionados a los castillos en sus 9 imprescindibles del país.",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-slovakia/" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-slovakia" }
+      ]
+    },
+    {
+      "id": "sk-bojnice",
+      "nombre": "Castillo de Bojnice",
+      "pais_iso": "SK",
+      "region": "Trenčiansky kraj",
+      "lat": 48.7802,
+      "lng": 18.5781,
+      "tipo": "monumento",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Lonely Planet"],
+      "justificacion": "Lonely Planet lo presenta como castillo de cuento de hadas en sus 9 imprescindibles de Eslovaquia.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-slovakia" }
+      ]
+    },
+    {
+      "id": "sk-bardejov",
+      "nombre": "Bardejov e iglesias de madera",
+      "pais_iso": "SK",
+      "region": "Prešovský kraj",
+      "lat": 49.2918,
+      "lng": 21.2727,
+      "tipo": "pueblo",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Lonely Planet"],
+      "justificacion": "Lonely Planet, en su guía de Eslovaquia Oriental, propone empezar por las iglesias de madera de los pueblos alrededor de Bardejov, cuyo centro histórico es Patrimonio de la Humanidad.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/slovakia/east-slovakia" }
+      ]
+    },
+    {
+      "id": "sk-dobsinska",
+      "nombre": "Cueva de hielo de Dobšiná",
+      "pais_iso": "SK",
+      "region": "Košický kraj",
+      "lat": 48.8714,
+      "lng": 20.2964,
+      "tipo": "naturaleza",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Rough Guides"],
+      "justificacion": "Rough Guides incluye la cueva de hielo de Dobšiná (UNESCO) en su lista de lo mejor de Eslovaquia.",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-slovakia/" }
+      ]
+    },
+    {
+      "id": "sk-demanovska",
+      "nombre": "Valle de Demänová y Bajos Tatras",
+      "pais_iso": "SK",
+      "region": "Žilinský kraj",
+      "lat": 48.9886,
+      "lng": 19.5839,
+      "tipo": "naturaleza",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Lonely Planet"],
+      "justificacion": "Lonely Planet describe las cuevas de Demänovská, en los Bajos Tatras, como un parque de esculturas subterráneo de estalactitas, estalagmitas y lagos oscuros, en su selección de atracciones imprescindibles de Eslovaquia.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/slovakia/attractions" }
+      ]
+    },
+    {
+      "id": "sk-piestany",
+      "nombre": "Piešťany",
+      "pais_iso": "SK",
+      "region": "Trnavský kraj",
+      "lat": 48.5918,
+      "lng": 17.8270,
+      "tipo": "pueblo",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Lonely Planet"],
+      "justificacion": "Lonely Planet recomienda un día de balneario en Piešťany, a menos de 90 minutos de Bratislava, y cita sus aguas termales en sus 9 imprescindibles de Eslovaquia.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-slovakia" }
+      ]
+    },
+    {
+      "id": "sk-zdiar",
+      "nombre": "Ždiar (Tatras Belianske)",
+      "pais_iso": "SK",
+      "region": "Prešovský kraj",
+      "lat": 49.2710,
+      "lng": 20.2640,
+      "tipo": "pueblo",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Lonely Planet"],
+      "justificacion": "Lonely Planet lo incluye entre sus 8 mejores lugares de Eslovaquia por la cultura goral y sus casas de madera pintadas, al pie de los Tatras Belianske.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-slovakia" }
+      ]
+    },
+    {
+      "id": "sk-tokaj",
+      "nombre": "Región vinícola de Tokaj eslovaca",
+      "pais_iso": "SK",
+      "region": "Košický kraj",
+      "lat": 48.4200,
+      "lng": 21.7000,
+      "tipo": "region",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Lonely Planet"],
+      "justificacion": "Lonely Planet incluye el Tokaj eslovaco entre sus 8 mejores lugares de Eslovaquia, por sus bodegas excavadas a mano donde se cata el vino de Tokaj.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-slovakia" }
+      ]
+    },
+    {
+      "id": "hu-budapest",
+      "nombre": "Budapest",
+      "pais_iso": "HU",
+      "region": "Budapest",
+      "lat": 47.4979,
+      "lng": 19.0402,
+      "tipo": "ciudad",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rick Steves", "Michelin", "Time Out", "Fodor's", "Rough Guides"],
+      "justificacion": "Lonely Planet la pone primera en sus 10 mejores lugares de Hungría (baños termales, ruin pubs, Castillo de Buda). Rick Steves le dedica el episodio «Budapest: The Best of Hungary». ViaMichelin marca como «Worth the trip» (★★★) el Parlamento, el Palacio Real y los Baños Széchenyi. Time Out tiene su guía de imprescindibles, Fodor's le dedica un itinerario de siete días y Rough Guides la trata como gran destino del país.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-hungary" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/watch-read-listen/video/tv-show/budapest-the-best-of-hungary" },
+        { "guia": "Michelin", "url": "https://www.viamichelin.com/maps/tourist-attractions/hungary/budapest/_/budapest-1007" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/budapest/things-to-do/best-things-to-do-in-budapest" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/hungary/budapest/experiences/news/how-to-spend-57-days-in-budapest-and-nearby-towns" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-hungary/" }
+      ]
+    },
+    {
+      "id": "hu-szentendre",
+      "nombre": "Szentendre",
+      "pais_iso": "HU",
+      "region": "Pest",
+      "lat": 47.6694,
+      "lng": 19.0756,
+      "tipo": "pueblo",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Fodor's", "Time Out", "Frommer's", "Rick Steves"],
+      "justificacion": "Lonely Planet incluye el Recodo del Danubio, con Szentendre como primera parada, entre los 10 mejores lugares de Hungría. Fodor's lo describe como pueblo barroco romántico con colonia de artistas y el mayor museo al aire libre del país. Time Out lo abre en sus excursiones desde Budapest por sus iglesias ortodoxas serbias y galerías. Frommer's lo trata en su guía del Recodo del Danubio y Rick Steves lo cubre en su clase sobre Hungría fuera de Budapest.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-hungary" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/hungary/the-danube-bend/places/szentendre/things-to-do/sights" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/budapest/things-to-do/day-trips-from-budapest" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/danube-bend/" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/travel-tips/travel-classes/monday-night-travel/hungary" }
+      ]
+    },
+    {
+      "id": "hu-visegrad",
+      "nombre": "Visegrád",
+      "pais_iso": "HU",
+      "region": "Pest",
+      "lat": 47.7853,
+      "lng": 18.9706,
+      "tipo": "pueblo",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Fodor's", "Time Out", "Lonely Planet", "Frommer's"],
+      "justificacion": "Fodor's recomienda las ruinas de la fortaleza, el Palacio del rey Matías y las vistas imponentes del Recodo del Danubio desde la Ciudadela. Time Out lo incluye en sus excursiones desde Budapest por su ciudadela medieval. Lonely Planet lo cita como parada del Recodo del Danubio en sus 10 mejores lugares de Hungría y Frommer's lo trata en su guía de la zona.",
+      "fuentes": [
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/hungary/the-danube-bend" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/budapest/things-to-do/day-trips-from-budapest" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-hungary" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/danube-bend/" }
+      ]
+    },
+    {
+      "id": "hu-esztergom",
+      "nombre": "Esztergom",
+      "pais_iso": "HU",
+      "region": "Komárom-Esztergom",
+      "lat": 47.7983,
+      "lng": 18.7353,
+      "tipo": "ciudad",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Fodor's", "Time Out", "Lonely Planet", "Frommer's"],
+      "justificacion": "Fodor's destaca su impresionante basílica reflejada en el Danubio. Time Out la incluye en sus excursiones desde Budapest, con la basílica como gran atractivo y el Museo del Castillo. Lonely Planet la cita como parada del Recodo del Danubio en sus 10 mejores lugares de Hungría y Frommer's la trata en su guía de la zona.",
+      "fuentes": [
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/hungary/the-danube-bend" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/budapest/things-to-do/day-trips-from-budapest" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-hungary" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/danube-bend/" }
+      ]
+    },
+    {
+      "id": "hu-eger",
+      "nombre": "Eger",
+      "pais_iso": "HU",
+      "region": "Heves",
+      "lat": 47.9025,
+      "lng": 20.3772,
+      "tipo": "ciudad",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides", "Rick Steves", "Time Out", "Frommer's"],
+      "justificacion": "Lonely Planet la incluye entre los 10 mejores lugares de Hungría por su barroco, su castillo y el vino Sangre de Toro. Rough Guides la pone en su lista de lo mejor del país, con el castillo que resistió a los otomanos en 1552 y las bodegas del Valle de la Bella Mujer. Rick Steves la destaca en su clase sobre Hungría fuera de Budapest. Time Out la incluye en sus excursiones desde Budapest y Frommer's la trata en su guía del nordeste de Hungría.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-hungary" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-hungary/" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/travel-tips/travel-classes/monday-night-travel/hungary" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/budapest/things-to-do/day-trips-from-budapest" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/northeastern-hungary/" }
+      ]
+    },
+    {
+      "id": "hu-pecs",
+      "nombre": "Pécs",
+      "pais_iso": "HU",
+      "region": "Baranya",
+      "lat": 46.0727,
+      "lng": 18.2323,
+      "tipo": "ciudad",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides", "Rick Steves", "Time Out"],
+      "justificacion": "Lonely Planet la incluye entre los 10 mejores lugares de Hungría (mezquita otomana, barrio cultural Zsolnay) y le dedica página de destino. Rough Guides la llama la segunda ciudad favorita de todos después de Budapest. Rick Steves la cubre en su clase sobre Hungría fuera de Budapest. Time Out la pone primera en su lista de las mejores ciudades de Hungría que no son Budapest.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/hungary/south-central-hungary/pecs" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-hungary/" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/travel-tips/travel-classes/monday-night-travel/hungary" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/hungary/travel/best-hungary-cities-to-visit" }
+      ]
+    },
+    {
+      "id": "hu-balaton",
+      "nombre": "Lago Balaton (Tihany, Balatonfüred, Badacsony)",
+      "pais_iso": "HU",
+      "region": "Veszprém",
+      "lat": 46.9140,
+      "lng": 17.8890,
+      "tipo": "lago",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides", "Rick Steves", "Time Out", "National Geographic"],
+      "justificacion": "Lonely Planet incluye el Balaton entre los 10 mejores lugares de Hungría como el gran destino de baño del verano. Rough Guides lo pone en su lista de lo mejor del país como «mar húngaro». Rick Steves cubre la zona de balnearios del lago en su clase sobre Hungría fuera de Budapest. Time Out propone Tihany, Badacsony y Siófok en sus excursiones desde Budapest. National Geographic le dedicó un reportaje en su revista.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-hungary" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-hungary/" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/travel-tips/travel-classes/monday-night-travel/hungary" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/budapest/things-to-do/day-trips-from-budapest" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/magazine/article/in-landlocked-hungary-this-sea-is-all-some-tourists-need" }
+      ]
+    },
+    {
+      "id": "hu-tokaj",
+      "nombre": "Región vinícola de Tokaj",
+      "pais_iso": "HU",
+      "region": "Borsod-Abaúj-Zemplén",
+      "lat": 48.1222,
+      "lng": 21.4078,
+      "tipo": "region",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "National Geographic", "Frommer's", "Rough Guides"],
+      "justificacion": "Lonely Planet la incluye entre los 10 mejores lugares de Hungría como el primer destino de turismo del vino del país (aszú). National Geographic le dedica un artículo como región vinícola escondida para amantes de la comida. Frommer's la trata en su guía del nordeste de Hungría y Rough Guides la llama la región vinícola más conocida del país.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-hungary" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/why-you-should-visit-tokaj-hungary-for-wine-and-food" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/northeastern-hungary/" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/destinations/europe/hungary/food-drink" }
+      ]
+    },
+    {
+      "id": "hu-hortobagy",
+      "nombre": "Parque Nacional de Hortobágy",
+      "pais_iso": "HU",
+      "region": "Hajdú-Bihar",
+      "lat": 47.5833,
+      "lng": 21.1500,
+      "tipo": "parque",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides"],
+      "justificacion": "Lonely Planet incluye la Gran Llanura, con el Parque Nacional de Hortobágy y la ciudad de Debrecen, entre los 10 mejores lugares de Hungría. Rough Guides describe en su guía de la Gran Llanura la extensa puszta de Hortobágy, con caballos en libertad, con Debrecen como puerta de entrada.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-hungary" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/hungary/great-plain/" }
+      ]
+    },
+    {
+      "id": "hu-godollo",
+      "nombre": "Palacio Real de Gödöllő",
+      "pais_iso": "HU",
+      "region": "Pest",
+      "lat": 47.5961,
+      "lng": 19.3550,
+      "tipo": "monumento",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Time Out"],
+      "justificacion": "Lonely Planet lo incluye entre los 10 mejores lugares de Hungría por el palacio real, residencia de verano de Sisí. Time Out lo propone en sus excursiones desde Budapest, a 45 minutos en tren HÉV.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-hungary" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/budapest/things-to-do/day-trips-from-budapest" }
+      ]
+    },
+    {
+      "id": "hu-bukk-lillafured",
+      "nombre": "Bükk: Lillafüred y Miskolc",
+      "pais_iso": "HU",
+      "region": "Borsod-Abaúj-Zemplén",
+      "lat": 48.1012,
+      "lng": 20.6236,
+      "tipo": "parque",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Time Out"],
+      "justificacion": "Lonely Planet incluye el Parque Nacional de Bükk, con Lillafüred y el valle de Szalajka, entre los 10 mejores lugares de Hungría por el senderismo. Time Out incluye Miskolc, a 12 km de Lillafüred, entre las mejores ciudades de Hungría fuera de Budapest.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-hungary" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/hungary/travel/best-hungary-cities-to-visit" }
+      ]
+    },
+    {
+      "id": "hu-sopron",
+      "nombre": "Sopron",
+      "pais_iso": "HU",
+      "region": "Győr-Moson-Sopron",
+      "lat": 47.6817,
+      "lng": 16.5845,
+      "tipo": "ciudad",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Rough Guides", "Lonely Planet"],
+      "justificacion": "Rough Guides destaca en su guía de Hungría Occidental su trazado medieval intacto y sus 240 edificios protegidos. Lonely Planet le dedica página de destino en el noroeste de Hungría.",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/hungary/western-hungary/" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/hungary/northwestern-hungary/sopron" }
+      ]
+    },
+    {
+      "id": "hu-heviz",
+      "nombre": "Hévíz y Keszthely",
+      "pais_iso": "HU",
+      "region": "Zala",
+      "lat": 46.7903,
+      "lng": 17.1844,
+      "tipo": "pueblo",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Lonely Planet"],
+      "justificacion": "Lonely Planet incluye el lago termal de Hévíz, junto al Balaton, entre los 10 mejores lugares de Hungría.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-hungary" }
+      ]
+    },
+    {
+      "id": "hu-holloko",
+      "nombre": "Hollókő",
+      "pais_iso": "HU",
+      "region": "Nógrád",
+      "lat": 47.9969,
+      "lng": 19.5925,
+      "tipo": "pueblo",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Lonely Planet"],
+      "justificacion": "Lonely Planet lo incluye entre los 10 mejores lugares de Hungría como aldea UNESCO de arquitectura popular palóc.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-hungary" }
+      ]
+    },
+    {
+      "id": "hu-aggtelek",
+      "nombre": "Cuevas de Aggtelek (Baradla)",
+      "pais_iso": "HU",
+      "region": "Borsod-Abaúj-Zemplén",
+      "lat": 48.4717,
+      "lng": 20.4950,
+      "tipo": "naturaleza",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Rough Guides"],
+      "justificacion": "Rough Guides destaca la cueva de Baradla, la mayor de Hungría, en el Parque Nacional de Aggtelek (UNESCO).",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-hungary/" }
+      ]
+    },
+    {
+      "id": "hu-pannonhalma",
+      "nombre": "Archiabadía de Pannonhalma",
+      "pais_iso": "HU",
+      "region": "Győr-Moson-Sopron",
+      "lat": 47.5530,
+      "lng": 17.7553,
+      "tipo": "monumento",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Lonely Planet"],
+      "justificacion": "Lonely Planet tiene ficha de la archiabadía benedictina de Pannonhalma, Patrimonio de la Humanidad, con acceso en autobús desde Győr.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/points-of-interest/pannonhalma-archabbey/1535576" }
+      ]
+    },
+    {
+      "id": "si-ljubljana",
+      "nombre": "Liubliana",
+      "pais_iso": "SI",
+      "region": "Osrednjeslovenska",
+      "lat": 46.0511,
+      "lng": 14.5051,
+      "tipo": "ciudad",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rick Steves", "Rough Guides", "Time Out", "National Geographic"],
+      "justificacion": "Lonely Planet la abre como primer lugar de Eslovenia y le dedica sus 8 mejores cosas que hacer. Rick Steves la presenta en «The Best of Slovenia» como capital relajada, con su paseo junto al río. Rough Guides pone su casco antiguo en su lista de lo mejor del país. Time Out la eligió mejor destino creativo de Europa para 2026 y National Geographic le dedica una guía local.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-ljubljana" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/watch-read-listen/video/tv-show/slovenia" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-slovenia/" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/news/the-underrated-capital-named-europes-best-creative-city-destination-for-2026-031726" },
+        { "guia": "National Geographic", "url": "https://nationalgeographic.com/travel/where-the-locals-go/europe/slovenia/city-local-travel-tips-ljubljana-slovenia" }
+      ]
+    },
+    {
+      "id": "si-bled",
+      "nombre": "Lago Bled (con la garganta de Vintgar)",
+      "pais_iso": "SI",
+      "region": "Gorenjska",
+      "lat": 46.3636,
+      "lng": 14.0938,
+      "tipo": "lago",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Michelin", "Lonely Planet", "Rick Steves", "Rough Guides", "Time Out", "Frommer's"],
+      "justificacion": "ViaMichelin lo marca como «Worth the trip» (★★★). Lonely Planet lo incluye entre los mejores lugares de Eslovenia (paseo al amanecer y barca a la isla). Rick Steves lo llama casi con certeza el rincón más fotogénico del país. Rough Guides lo pone en su lista de lo mejor del país junto con la garganta de Vintgar, a 4 km. Time Out lo nombró el lugar más bonito de Europa y Frommer's lo llama la atracción más popular de Eslovenia.",
+      "fuentes": [
+        { "guia": "Michelin", "url": "https://www.viamichelin.com/maps/tourist-attractions/poi/bled-_-88a1040b4b29" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-slovenia" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/watch-read-listen/read/articles/kick-back-in-bled" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-slovenia/" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/news/this-slovenian-lake-has-been-named-the-most-beautiful-destination-in-europe-082025" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/bled-and-bohinj/things-to-do/" }
+      ]
+    },
+    {
+      "id": "si-bohinj",
+      "nombre": "Lago Bohinj",
+      "pais_iso": "SI",
+      "region": "Gorenjska",
+      "lat": 46.2797,
+      "lng": 13.8875,
+      "tipo": "lago",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides", "Frommer's", "Fodor's"],
+      "justificacion": "Lonely Planet lo incluye entre los mejores lugares de Eslovenia como el mayor lago natural del país, dentro del Parque Nacional del Triglav. Rough Guides lo pone en su lista de lo mejor del país. Frommer's lo trata junto a Bled como el segundo lago más popular, sin urbanizar. Fodor's lo incluye en sus lugares de Eslovenia, con el teleférico del monte Vogel.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-slovenia" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-slovenia/" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/bled-and-bohinj/things-to-do/" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/slovenia/things-to-do/sights" }
+      ]
+    },
+    {
+      "id": "si-piran",
+      "nombre": "Piran",
+      "pais_iso": "SI",
+      "region": "Obalno-kraška",
+      "lat": 45.5283,
+      "lng": 13.5683,
+      "tipo": "costa",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rick Steves", "Rough Guides", "Fodor's"],
+      "justificacion": "Lonely Planet lo incluye entre los mejores lugares de Eslovenia como el pueblo más bonito de la costa adriática eslovena. Rick Steves lo llama la mejor parada de la costa, encantador y sin expansión turística. Rough Guides lo pone en su lista de lo mejor del país. Fodor's califica su núcleo veneciano de visita obligada en su guía del Karst y la costa.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-slovenia" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/watch-read-listen/video/tv-show/slovenia" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-slovenia/" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/slovenia/places/the-karst-region-and-the-adriatic-coast" }
+      ]
+    },
+    {
+      "id": "si-skocjan",
+      "nombre": "Cuevas de Škocjan (Karst, con Lipica)",
+      "pais_iso": "SI",
+      "region": "Obalno-kraška",
+      "lat": 45.6631,
+      "lng": 13.9898,
+      "tipo": "naturaleza",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Rough Guides", "Rick Steves", "Fodor's", "Frommer's"],
+      "justificacion": "Rough Guides abre su lista de lo mejor de Eslovenia con las cuevas de Škocjan (UNESCO) y su cañón subterráneo. Rick Steves les dedica un vídeo y las llama la cueva más espectacular del Karst, junto a la yeguada de Lipica, a 8 km. Fodor's las señala, con Postojna, como las cuevas más notables del Karst. Frommer's las incluye en su itinerario sugerido de Eslovenia camino de Piran.",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-slovenia/" },
+        { "guia": "Rick Steves", "url": "https://classroom.ricksteves.com/videos/slovenia-s-karst-region-and-skocjan-caves" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/slovenia/places/the-karst-region-and-the-adriatic-coast" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/slovenia/suggested-itineraries/" }
+      ]
+    },
+    {
+      "id": "si-postojna-predjama",
+      "nombre": "Cueva de Postojna y Castillo de Predjama",
+      "pais_iso": "SI",
+      "region": "Primorsko-notranjska",
+      "lat": 45.7826,
+      "lng": 14.2036,
+      "tipo": "naturaleza",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Rough Guides", "Rick Steves", "Fodor's", "Frommer's", "Lonely Planet"],
+      "justificacion": "Rough Guides incluye la cueva de Postojna y el castillo de Predjama en su lista de lo mejor de Eslovenia. Rick Steves llama a Predjama uno de los castillos más fotogénicos de Europa, encajado en la boca de una cueva. Fodor's señala Postojna como una de las dos cuevas más notables del Karst. Frommer's la describe como lo más parecido a un parque temático natural, con tren subterráneo. Lonely Planet tiene ficha de la cueva, la mayor atracción subterránea del país. Predjama está a 9 km, por eso van juntos.",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-slovenia/" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/slovenia" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/slovenia/places/the-karst-region-and-the-adriatic-coast" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/slovenia/suggested-itineraries/" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/slovenia/karst-and-coast/postojna/attractions/expo-postojna-cave-karst/a/poi-sig/1525176/360719" }
+      ]
+    },
+    {
+      "id": "si-triglav-vrsic",
+      "nombre": "Alpes Julianos y Parque Nacional del Triglav (paso de Vršič)",
+      "pais_iso": "SI",
+      "region": "Gorenjska",
+      "lat": 46.4333,
+      "lng": 13.7431,
+      "tipo": "parque",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Rough Guides", "Rick Steves", "National Geographic", "Frommer's", "Lonely Planet"],
+      "justificacion": "Rough Guides pone el Parque Nacional del Triglav segundo en su lista de lo mejor de Eslovenia e incluye la ruta por el paso de Vršič. Rick Steves recorre los Alpes Julianos y el Triglav en «The Best of Slovenia». National Geographic les dedica una guía de viaje por carretera y otra del Juliana Trail. Frommer's tiene guía propia de los Alpes Julianos y Lonely Planet página de destino y la ruta Juliana entre sus 12 mejores cosas que hacer.",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-slovenia/" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/watch-read-listen/video/tv-show/slovenia" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/how-to-plan-a-road-trip-around-julian-alps-slovenia" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/julian-alps/" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/destinations/slovenia/the-julian-alps" }
+      ]
+    },
+    {
+      "id": "si-soca-bovec",
+      "nombre": "Valle del Soča y Bovec",
+      "pais_iso": "SI",
+      "region": "Goriška",
+      "lat": 46.3378,
+      "lng": 13.5522,
+      "tipo": "naturaleza",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "National Geographic", "Rick Steves"],
+      "justificacion": "Lonely Planet incluye Bovec entre los mejores lugares de Eslovenia como paraíso de los deportes de agua en el Soča. National Geographic llama a Bovec la capital de la aventura del país (kayak, barranquismo) en su guía de los Alpes Julianos. Rick Steves baja hacia el valle del Soča y su historia de la Primera Guerra Mundial en «The Best of Slovenia».",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-slovenia" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/how-to-plan-a-road-trip-around-julian-alps-slovenia" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/watch-read-listen/video/tv-show/slovenia" }
+      ]
+    },
+    {
+      "id": "si-maribor",
+      "nombre": "Maribor",
+      "pais_iso": "SI",
+      "region": "Podravska",
+      "lat": 46.5547,
+      "lng": 15.6459,
+      "tipo": "ciudad",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides"],
+      "justificacion": "Lonely Planet la incluye entre los mejores lugares de Eslovenia por su vino, su gastronomía y la Vieja Vid, la más antigua del mundo que sigue dando fruto. Rough Guides la destaca en su guía de Eslovenia Oriental, entre viñedos y el macizo del Pohorje.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-slovenia" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/slovenia/eastern-slovenia/" }
+      ]
+    },
+    {
+      "id": "si-ptuj",
+      "nombre": "Ptuj",
+      "pais_iso": "SI",
+      "region": "Podravska",
+      "lat": 46.4200,
+      "lng": 15.8700,
+      "tipo": "pueblo",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Rough Guides"],
+      "justificacion": "Rough Guides incluye el centro histórico de Ptuj, la ciudad más antigua de Eslovenia, en su lista de lo mejor del país.",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-slovenia/" }
+      ]
+    },
+    {
+      "id": "si-goriska-brda",
+      "nombre": "Goriška Brda",
+      "pais_iso": "SI",
+      "region": "Goriška",
+      "lat": 45.9870,
+      "lng": 13.5560,
+      "tipo": "region",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Lonely Planet"],
+      "justificacion": "Lonely Planet incluye esta región vinícola junto a la frontera italiana entre los mejores lugares de Eslovenia, como paraíso para ciclistas y amantes del vino.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-slovenia" }
+      ]
+    },
+    {
+      "id": "si-izola",
+      "nombre": "Izola",
+      "pais_iso": "SI",
+      "region": "Obalno-kraška",
+      "lat": 45.5398,
+      "lng": 13.6593,
+      "tipo": "costa",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Time Out"],
+      "justificacion": "Time Out nombró a Izola el destino más infravalorado de Europa: el lugar donde mejor brilla la costa eslovena, con calles venecianas y ritmo de pueblo pesquero.",
+      "fuentes": [
+        { "guia": "Time Out", "url": "https://www.timeout.com/news/the-medieval-seaside-village-named-europes-most-underrated-destination-right-now-101425" }
+      ]
+    },
+    {
+      "id": "si-kranjska-gora",
+      "nombre": "Kranjska Gora y lago Jasna",
+      "pais_iso": "SI",
+      "region": "Gorenjska",
+      "lat": 46.4846,
+      "lng": 13.7856,
+      "tipo": "montaña",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Rough Guides"],
+      "justificacion": "Rough Guides incluye el baño en el lago Jasna, a la entrada de Kranjska Gora y al pie del paso de Vršič, en su lista de lo mejor de Eslovenia.",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-slovenia/" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,831 @@
+{
+  "agente": "guias-expertas",
+  "subregion": "centroeuropa",
+  "grupo": "a",
+  "ronda": 1,
+  "estado": "completo",
+  "notas": "Grupo a: DE, PL. Solo se cuentan artículos o páginas de destino propias de cada guía y fichas Fodor's Choice; no cuentan foros (community.ricksteves.com, fodors.com/community, Thorn Tree), librerías, tiendas, páginas genéricas del país ni contenido pagado (p. ej. las páginas 'Liberation Route' de Rough Guides). WebFetch está bloqueado para estos dominios; todas las URL salieron tal cual en resultados de WebSearch. Condé Nast Traveler no es accesible (dominio bloqueado). No se encontró ninguna ficha de ViaMichelin con «Worth the trip» para Alemania, así que no se declara ★★★ en ningún candidato alemán; el Guide Vert no cubre Polonia. Fodor's no tiene guía editorial de Polonia (solo foros). Varias páginas del mismo sello cuentan como una sola guía.",
+  "candidatos": [
+    {
+      "id": "de-berlin",
+      "nombre": "Berlín",
+      "pais_iso": "DE",
+      "region": "Berlín",
+      "lat": 52.5200,
+      "lng": 13.4050,
+      "tipo": "ciudad",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rick Steves", "Rough Guides", "Time Out", "Frommer's", "National Geographic"],
+      "justificacion": "Top pick en todas las guías consultadas. Lonely Planet la incluye en sus 8 mejores lugares de Alemania (la mejor para cultura bohemia y fiesta). Rick Steves la pone como parada fija de su itinerario. Rough Guides abre con ella su lista de mejores lugares (historia de la Guerra Fría y galerías). Time Out la encabeza en sus 7 mejores lugares del país. Frommer's le dedica su página de experiencias favoritas (Nefertiti, Unter den Linden) y National Geographic una guía de su lado creativo.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-germany" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/germany/itinerary" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/germany/best-places-to-visit/" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/germany/travel/best-places-to-visit-in-germany" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/berlin/things-to-do/frommers-favorite-experiences/" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/guide-to-berlin-germany" }
+      ]
+    },
+    {
+      "id": "de-munich",
+      "nombre": "Múnich",
+      "pais_iso": "DE",
+      "region": "Baviera",
+      "lat": 48.1374,
+      "lng": 11.5755,
+      "tipo": "ciudad",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Rick Steves", "Time Out", "Rough Guides", "Frommer's", "Fodor's"],
+      "justificacion": "Rick Steves la usa como base de su itinerario por Baviera (centro peatonal, museos, cervecerías). Time Out la incluye en sus 7 mejores lugares de Alemania. Rough Guides pone la Pinakothek der Moderne y el Oktoberfest entre sus 20 imprescindibles del país. Frommer's le dedica su página de experiencias favoritas (biergarten, Viktualienmarkt, Nymphenburg) y Fodor's la abre en su itinerario de 10 días por Alemania.",
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/germany/itinerary" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/germany/travel/best-places-to-visit-in-germany" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/destinations/europe/germany/things-not-to-miss/" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/munich/frommers-favorite-experiences" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/germany/experiences/news/10-day-germany-itinerary-munich-neuschwanstein-freiburg-hamburg-berlin-and-potsdam" }
+      ]
+    },
+    {
+      "id": "de-neuschwanstein",
+      "nombre": "Castillo de Neuschwanstein y Füssen",
+      "pais_iso": "DE",
+      "region": "Baviera",
+      "lat": 47.5576,
+      "lng": 10.7498,
+      "tipo": "monumento",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Rough Guides", "Fodor's", "Rick Steves", "Lonely Planet"],
+      "justificacion": "Se fusiona con Füssen (4 km) y Hohenschwangau. Rough Guides lo pone en el número 1 de sus 20 imprescindibles de Alemania. Fodor's marca Schloss Neuschwanstein como Fodor's Choice y lo incluye en su itinerario de 10 días. Rick Steves lo llama el destino más popular del sur de Baviera y recomienda Füssen como base. Lonely Planet lo incluye en su itinerario de 9 días por los Alpes bávaros.",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/destinations/europe/germany/things-not-to-miss/" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/germany/the-romantic-road/places/hohenschwangau-and-neuschwanstein" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/watch-read-listen/read/articles/fuessen-oberammergau-castles-bavaria-germany" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/germany/bavarian-alps" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/ultimate-9-day-itinerary-germany-alps" }
+      ]
+    },
+    {
+      "id": "de-rothenburg-ob-der-tauber",
+      "nombre": "Rothenburg ob der Tauber",
+      "pais_iso": "DE",
+      "region": "Baviera",
+      "lat": 49.3772,
+      "lng": 10.1867,
+      "tipo": "pueblo",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Rick Steves", "Fodor's", "Frommer's", "Lonely Planet"],
+      "justificacion": "Rick Steves lo tiene en el corazón de su itinerario y le dedica un episodio de televisión (vigilante nocturno, murallas). Fodor's lo nombra el pueblo mejor conservado de la Ruta Romántica en sus 25 imprescindibles de Alemania y en sus 7 lugares de la Ruta Romántica. Frommer's lo llama uno de los pueblos medievales mejor conservados de Europa en su guía de la Ruta Romántica. Lonely Planet lo incluye en su ruta en coche por la Ruta Romántica.",
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/germany/itinerary" },
+        { "guia": "Rick Steves", "url": "https://www.pbs.org/video/rick-steves-europe-germanys-romantic-rhine-and-rothenburg" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/germany/experiences/news/photos/ultimate-things-to-do-in-germany" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/germany/the-romantic-road/experiences/news/photos/beautiful-places-on-germanys-romantic-road" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/the-romantic-road/" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-road-trips-in-germany" }
+      ]
+    },
+    {
+      "id": "de-bamberg",
+      "nombre": "Bamberg",
+      "pais_iso": "DE",
+      "region": "Baviera",
+      "lat": 49.8916,
+      "lng": 10.8868,
+      "tipo": "ciudad",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Fodor's", "Rough Guides", "Lonely Planet"],
+      "justificacion": "Fodor's lo llama visita obligada (casco antiguo UNESCO casi intacto tras la guerra) y marca la catedral como Fodor's Choice. Rough Guides lo pone primero en sus 5 cascos antiguos más románticos de Alemania (Altes Rathaus en una isla, cerveza ahumada). Lonely Planet le dedica página de destino («la Roma de Franconia», Klein Venedig).",
+      "fuentes": [
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/germany/franconia-and-the-german-danube/places/bamberg" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/germany-most-romantic-town-centres/" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/destinations/germany/bavaria/bamberg" }
+      ]
+    },
+    {
+      "id": "de-nuremberg",
+      "nombre": "Núremberg",
+      "pais_iso": "DE",
+      "region": "Baviera",
+      "lat": 49.4521,
+      "lng": 11.0767,
+      "tipo": "ciudad",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Rick Steves", "Fodor's", "Rough Guides"],
+      "justificacion": "Rick Steves la incluye en su itinerario de tres semanas (casco de arenisca, grandes museos y huellas del pasado nazi). Fodor's la incluye en sus 25 imprescindibles de Alemania por los escenarios de los Juicios de Núremberg. Rough Guides la propone en su ruta norte-sur Hamburgo–Bamberg–Núremberg–Alpes.",
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/germany/itinerary" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/germany/experiences/news/photos/ultimate-things-to-do-in-germany" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/germany/how-to-plan-a-trip/" }
+      ]
+    },
+    {
+      "id": "de-wurzburg",
+      "nombre": "Wurzburgo",
+      "pais_iso": "DE",
+      "region": "Baviera",
+      "lat": 49.7913,
+      "lng": 9.9534,
+      "tipo": "ciudad",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Rick Steves", "Lonely Planet", "Fodor's"],
+      "justificacion": "Rick Steves la suma a su itinerario de tres semanas (Residenz y bares de vino). Lonely Planet la destaca en sus mejores cosas de Baviera por la Residenz UNESCO y la fortaleza de Marienberg, y como inicio de la Ruta Romántica. Fodor's la llama la «perla» barroca de la Ruta Romántica en su ruta clásica en coche.",
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/germany/itinerary" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/things-to-do-in-bavaria" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/itineraries/classic-trips-driving-germanys-romantic-road-13/wurzburg-2/" }
+      ]
+    },
+    {
+      "id": "de-regensburg",
+      "nombre": "Ratisbona",
+      "pais_iso": "DE",
+      "region": "Baviera",
+      "lat": 49.0195,
+      "lng": 12.0975,
+      "tipo": "ciudad",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides"],
+      "justificacion": "Lonely Planet la recomienda en sus mejores cosas de Baviera como una de las ciudades medievales mejor conservadas del país, casi sin daños en la guerra. Rough Guides la incluye en sus 5 cascos antiguos más románticos (puente de piedra del siglo XII, modelo del Puente de Carlos de Praga).",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/things-to-do-in-bavaria" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/germany-most-romantic-town-centres/" }
+      ]
+    },
+    {
+      "id": "de-berchtesgaden",
+      "nombre": "Berchtesgaden y Königssee",
+      "pais_iso": "DE",
+      "region": "Baviera",
+      "lat": 47.6314,
+      "lng": 13.0019,
+      "tipo": "parque",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rick Steves", "Fodor's", "Time Out"],
+      "justificacion": "Pueblo y parque nacional alpino, con el lago Königssee a 5 km. Lonely Planet lo elige el mejor parque nacional alemán para vistas (Watzmann, Königssee). Rick Steves lo destaca en sus Alpes bávaros por el lago tipo fiordo y el Nido del Águila. Fodor's lo incluye en sus 25 imprescindibles de Alemania por el senderismo. Time Out propone bañarse en el Königssee entre sus 19 mejores cosas que hacer en el país.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-national-parks-germany" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/germany/bavarian-alps" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/germany/experiences/news/photos/ultimate-things-to-do-in-germany" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/germany/things-to-do/best-things-to-do-in-germany" }
+      ]
+    },
+    {
+      "id": "de-garmisch-zugspitze",
+      "nombre": "Garmisch-Partenkirchen y Zugspitze",
+      "pais_iso": "DE",
+      "region": "Baviera",
+      "lat": 47.4921,
+      "lng": 11.0958,
+      "tipo": "montana",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Frommer's", "Time Out"],
+      "justificacion": "Lonely Planet incluye la subida a la Zugspitze (2962 m, el techo de Alemania) desde Garmisch en su itinerario de 9 días por los Alpes bávaros. Frommer's la pone entre sus experiencias favoritas de Alemania (tren cremallera y teleférico). Time Out recomienda subir en teleférico en sus 19 mejores cosas que hacer en el país.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/ultimate-9-day-itinerary-germany-alps" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/germany/frommers-favorite-experiences/" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/germany/things-to-do/best-things-to-do-in-germany" }
+      ]
+    },
+    {
+      "id": "de-heidelberg",
+      "nombre": "Heidelberg",
+      "pais_iso": "DE",
+      "region": "Baden-Wurtemberg",
+      "lat": 49.4122,
+      "lng": 8.7100,
+      "tipo": "ciudad",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides", "Fodor's"],
+      "justificacion": "Lonely Planet destaca su castillo renacentista en ruinas en sus mejores rutas en coche por Alemania. Rough Guides le dedica página de destino. Fodor's la incluye en sus 25 imprescindibles de Alemania (subir al castillo en funicular, el mayor tonel de vino del mundo).",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-road-trips-in-germany" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/germany/baden-wurttemberg/heidelberg/" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/germany/experiences/news/photos/ultimate-things-to-do-in-germany" }
+      ]
+    },
+    {
+      "id": "de-selva-negra",
+      "nombre": "Selva Negra (Triberg)",
+      "pais_iso": "DE",
+      "region": "Baden-Wurtemberg",
+      "lat": 48.1306,
+      "lng": 8.2311,
+      "tipo": "region",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Time Out", "Rough Guides", "Lonely Planet", "Fodor's", "Frommer's", "National Geographic", "Rick Steves"],
+      "justificacion": "Coordenadas en Triberg, en el centro de la región. Time Out la incluye en sus 7 mejores lugares de Alemania (Titisee, Schluchsee, Friburgo). Rough Guides la pone entre sus 20 imprescindibles del país. Lonely Planet elige su parque nacional como el mejor para senderismo. Fodor's incluye sus pueblos en sus 25 imprescindibles. Frommer's le dedica guía regional, National Geographic un reportaje sobre su artesanía (relojes de cuco) y Rick Steves la incluye en su itinerario junto con Baden-Baden.",
+      "fuentes": [
+        { "guia": "Time Out", "url": "https://www.timeout.com/germany/travel/best-places-to-visit-in-germany" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/destinations/europe/germany/things-not-to-miss/" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-national-parks-germany" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/germany/experiences/news/photos/ultimate-things-to-do-in-germany" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/the-black-forest/" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/photo-story-germanys-black-forest-craft-heritage" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/germany/itinerary" }
+      ]
+    },
+    {
+      "id": "de-lago-constanza",
+      "nombre": "Lago de Constanza (Meersburg, Lindau)",
+      "pais_iso": "DE",
+      "region": "Baden-Wurtemberg",
+      "lat": 47.6936,
+      "lng": 9.2711,
+      "tipo": "lago",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Frommer's", "Rough Guides"],
+      "justificacion": "Coordenadas en Meersburg, en la orilla de Baden-Wurtemberg. Frommer's incluye Lindau, en la orilla bávara, entre los mejores pueblos pequeños de Alemania. Rough Guides propone el lago en su plan de 7 a 10 días por el sur junto a Múnich y la Ruta Romántica.",
+      "fuentes": [
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/germany/introduction/the-best-small-towns-and-villages" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/germany/how-to-plan-a-trip/" }
+      ]
+    },
+    {
+      "id": "de-dresden",
+      "nombre": "Dresde",
+      "pais_iso": "DE",
+      "region": "Sajonia",
+      "lat": 51.0504,
+      "lng": 13.7373,
+      "tipo": "ciudad",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Rough Guides", "Fodor's", "Rick Steves", "National Geographic", "Lonely Planet"],
+      "justificacion": "Rough Guides pone el Zwinger entre sus 20 imprescindibles de Alemania. Fodor's marca la Frauenkirche y el Zwinger como Fodor's Choice y la Bóveda Verde entre sus 25 imprescindibles. Rick Steves la suma a su itinerario y le dedica un episodio con Leipzig. National Geographic le dedica una guía de ciudad («obra maestra cultural reconstruida») y Lonely Planet la incluye en sus mejores cosas que hacer en Alemania.",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/destinations/europe/germany/things-not-to-miss/" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/germany/saxony-saxony-anhalt-and-thuringia/places/dresden" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/watch-read-listen/video/tv-show/germany-dresden-leipzig" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/city-guide-dresden-eastern-germanys-rebuilt-cultural-masterpiece" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-germany" }
+      ]
+    },
+    {
+      "id": "de-leipzig",
+      "nombre": "Leipzig",
+      "pais_iso": "DE",
+      "region": "Sajonia",
+      "lat": 51.3397,
+      "lng": 12.3731,
+      "tipo": "ciudad",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Time Out", "Rick Steves", "Rough Guides"],
+      "justificacion": "Lonely Planet la incluye en sus mejores cosas que hacer en Alemania por su escena creativa en antiguas naves industriales. Time Out recomienda la Baumwollspinnerei en sus 19 mejores cosas del país. Rick Steves le dedica medio episodio (Bach, monumento a la Batalla de las Naciones, museo de la Stasi). Rough Guides solo la cita de pasada junto a Dresde como cultura sin multitudes.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-germany" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/germany/things-to-do/best-things-to-do-in-germany" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/watch-read-listen/video/tv-show/germany-dresden-leipzig" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/germany/best-places-to-visit/" }
+      ]
+    },
+    {
+      "id": "de-suiza-sajona",
+      "nombre": "Suiza Sajona (Bastei)",
+      "pais_iso": "DE",
+      "region": "Sajonia",
+      "lat": 50.9620,
+      "lng": 14.0730,
+      "tipo": "parque",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["National Geographic", "Lonely Planet"],
+      "justificacion": "National Geographic le dedica una ficha de parque nacional (formaciones de arenisca del Elba, fácil acceso en tren desde Dresde). Lonely Planet lo elige el mejor parque nacional de Alemania para escalada, con más de 15 000 vías.",
+      "fuentes": [
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/saxon-switzerland-germany" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-national-parks-germany" }
+      ]
+    },
+    {
+      "id": "de-weimar",
+      "nombre": "Weimar",
+      "pais_iso": "DE",
+      "region": "Turingia",
+      "lat": 50.9795,
+      "lng": 11.3235,
+      "tipo": "ciudad",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides", "Fodor's"],
+      "justificacion": "Lonely Planet la incluye en sus 8 mejores lugares de Alemania (Goethe, Schiller, Bauhaus). Rough Guides la pone en sus 5 cascos antiguos más románticos por el Weimar clásico UNESCO. Fodor's propone un paseo Bauhaus en sus 25 imprescindibles de Alemania.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-germany" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/germany-most-romantic-town-centres/" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/germany/experiences/news/photos/ultimate-things-to-do-in-germany" }
+      ]
+    },
+    {
+      "id": "de-valle-del-rin",
+      "nombre": "Valle del Rin Medio (Bacharach, St. Goar, Rüdesheim)",
+      "pais_iso": "DE",
+      "region": "Renania-Palatinado",
+      "lat": 50.1515,
+      "lng": 7.7140,
+      "tipo": "region",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rick Steves", "Rough Guides", "Fodor's", "Frommer's"],
+      "justificacion": "Coordenadas en St. Goar, junto a la Loreley. Lonely Planet lo pone en el número 1 de sus mejores lugares de Alemania (tramo UNESCO Coblenza–Rüdesheim). Rick Steves lo tiene como pilar de su itinerario, con Bacharach de base y el crucero St. Goar–Bacharach. Rough Guides lo incluye entre sus 20 imprescindibles. Fodor's propone rutas de 3, 5 y 7 días por el Rin y el Mosela. Frommer's elige el crucero Rüdesheim–Coblenza entre sus experiencias favoritas.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-germany" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/germany/itinerary" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/destinations/europe/germany/things-not-to-miss/" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/germany/the-rhineland/experiences/news/how-to-see-the-rhine-mosel-in-3-5-or-7-days" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/germany/frommers-favorite-experiences/" }
+      ]
+    },
+    {
+      "id": "de-valle-del-mosela",
+      "nombre": "Valle del Mosela (Cochem, Beilstein, Burg Eltz)",
+      "pais_iso": "DE",
+      "region": "Renania-Palatinado",
+      "lat": 50.1469,
+      "lng": 7.1667,
+      "tipo": "region",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Rick Steves", "Fodor's", "Frommer's"],
+      "justificacion": "Coordenadas en Cochem; se fusiona el castillo de Burg Eltz, a unos 12 km. Rick Steves lo incluye en su itinerario y llama a Burg Eltz su castillo favorito de Europa. Fodor's marca Burg Eltz como Fodor's Choice y lo pone, con Bernkastel-Kues, en sus rutas por el Rin y el Mosela. Frommer's incluye Cochem entre los mejores pueblos pequeños de Alemania.",
+      "fuentes": [
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/germany/itinerary" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/germany/the-rhineland/experiences/news/how-to-see-the-rhine-mosel-in-3-5-or-7-days" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/germany/introduction/the-best-small-towns-and-villages" }
+      ]
+    },
+    {
+      "id": "de-trier",
+      "nombre": "Tréveris",
+      "pais_iso": "DE",
+      "region": "Renania-Palatinado",
+      "lat": 49.7497,
+      "lng": 6.6371,
+      "tipo": "ciudad",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Fodor's", "Rick Steves"],
+      "justificacion": "Fodor's marca la Porta Nigra como Fodor's Choice y cierra en Tréveris su ruta de 5 días por el Rin y el Mosela. Rick Steves la añade a su itinerario a partir de los 17 días como la ciudad más antigua de Alemania.",
+      "fuentes": [
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/germany/the-rhineland/experiences/news/how-to-see-the-rhine-mosel-in-3-5-or-7-days" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/germany/itinerary" }
+      ]
+    },
+    {
+      "id": "de-colonia",
+      "nombre": "Colonia",
+      "pais_iso": "DE",
+      "region": "Renania del Norte-Westfalia",
+      "lat": 50.9413,
+      "lng": 6.9583,
+      "tipo": "ciudad",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Rough Guides", "Time Out", "Fodor's", "Rick Steves"],
+      "justificacion": "Rough Guides la incluye en sus 20 imprescindibles de Alemania (carnaval, Kölsch, subir a la catedral). Time Out la pone en sus 7 mejores lugares del país y le dedica guía local. Fodor's marca la catedral como Fodor's Choice y añade la ciudad a su ruta de 7 días por el Rin. Rick Steves la incluye como excursión en su itinerario del Rin.",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/destinations/europe/germany/things-not-to-miss/" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/germany/travel/best-places-to-visit-in-germany" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/germany/things-to-do/best-things-to-do-in-cologne" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/germany/the-rhineland/experiences/news/how-to-see-the-rhine-mosel-in-3-5-or-7-days" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/europe/germany/itinerary" }
+      ]
+    },
+    {
+      "id": "de-aquisgran",
+      "nombre": "Aquisgrán",
+      "pais_iso": "DE",
+      "region": "Renania del Norte-Westfalia",
+      "lat": 50.7753,
+      "lng": 6.0839,
+      "tipo": "ciudad",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Rough Guides", "Fodor's"],
+      "justificacion": "Rough Guides incluye la catedral de Carlomagno (capilla Palatina octogonal y tesoro) entre sus imprescindibles de Alemania. Fodor's la añade a su ruta de 7 días por el Rin y el Mosela.",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/germany-things-not-to-miss/" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/germany/the-rhineland/experiences/news/how-to-see-the-rhine-mosel-in-3-5-or-7-days" }
+      ]
+    },
+    {
+      "id": "de-frankfurt",
+      "nombre": "Fráncfort",
+      "pais_iso": "DE",
+      "region": "Hesse",
+      "lat": 50.1109,
+      "lng": 8.6821,
+      "tipo": "ciudad",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Time Out", "Frommer's"],
+      "justificacion": "Time Out la incluye en sus 7 mejores lugares de Alemania. Frommer's le dedica su página de experiencias favoritas.",
+      "fuentes": [
+        { "guia": "Time Out", "url": "https://www.timeout.com/germany/travel/best-places-to-visit-in-germany" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/frankfurt/things-to-do/frommers-favorite-experiences/" }
+      ]
+    },
+    {
+      "id": "de-hamburgo",
+      "nombre": "Hamburgo",
+      "pais_iso": "DE",
+      "region": "Hamburgo",
+      "lat": 53.5511,
+      "lng": 9.9937,
+      "tipo": "ciudad",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Time Out", "Fodor's", "Rough Guides"],
+      "justificacion": "Lonely Planet la incluye en sus 10 mejores cosas del norte de Alemania (barrio de canales, St. Pauli, Fischmarkt). Time Out la pone en sus 7 mejores lugares del país (museos, teatros, Reeperbahn). Fodor's la incluye en su itinerario de 10 días para primerizos. Rough Guides la lista en sus mejores lugares de Alemania por su puerto y su diseño.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/the-10-best-things-to-do-in-northern-germany" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/germany/travel/best-places-to-visit-in-germany" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/germany/experiences/news/10-day-germany-itinerary-munich-neuschwanstein-freiburg-hamburg-berlin-and-potsdam" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/germany/best-places-to-visit/" }
+      ]
+    },
+    {
+      "id": "de-lubeck",
+      "nombre": "Lübeck",
+      "pais_iso": "DE",
+      "region": "Schleswig-Holstein",
+      "lat": 53.8655,
+      "lng": 10.6866,
+      "tipo": "ciudad",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Rough Guides", "Fodor's", "Lonely Planet", "Frommer's"],
+      "justificacion": "Rough Guides la incluye en sus 5 cascos antiguos más románticos de Alemania (ciudad hanseática UNESCO). Fodor's marca el Holstentor como Fodor's Choice. Lonely Planet le dedica página de destino (Holstentor, Museo Europeo de la Hansa) y Frommer's la destaca como antigua capital de la Liga Hanseática en su guía de Schleswig-Holstein; en estas dos es ficha de destino, no top pick.",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/germany-most-romantic-town-centres/" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/germany/things-to-do/sights" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/destinations/germany/schleswig-holstein/lubeck" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/schleswig-holstein/" }
+      ]
+    },
+    {
+      "id": "de-sylt",
+      "nombre": "Isla de Sylt",
+      "pais_iso": "DE",
+      "region": "Schleswig-Holstein",
+      "lat": 54.9079,
+      "lng": 8.3086,
+      "tipo": "isla",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides"],
+      "justificacion": "Lonely Planet la incluye en sus 10 mejores playas de Alemania («el Saint-Tropez del mar del Norte», deportes de agua). Rough Guides la presenta como la isla más conocida del mar del Norte (pueblos de techos de paja, muy concurrida en julio y agosto).",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-beaches-in-germany" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/germany/things-to-do/" }
+      ]
+    },
+    {
+      "id": "de-rugen",
+      "nombre": "Isla de Rügen (acantilados de Jasmund)",
+      "pais_iso": "DE",
+      "region": "Mecklemburgo-Pomerania Occidental",
+      "lat": 54.4167,
+      "lng": 13.4333,
+      "tipo": "isla",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides"],
+      "justificacion": "Lonely Planet elige Jasmund como el mejor parque nacional para aventuras costeras (acantilados de creta, Königsstuhl) y destaca Rügen en sus 10 mejores cosas del norte de Alemania. Rough Guides la cubre en su guía de Mecklemburgo-Pomerania Occidental (Binz, Königsstuhl, Kap Arkona, Prora).",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-national-parks-germany" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/the-10-best-things-to-do-in-northern-germany" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/germany/mecklenburg-western-pomerania/" }
+      ]
+    },
+    {
+      "id": "de-stralsund",
+      "nombre": "Stralsund",
+      "pais_iso": "DE",
+      "region": "Mecklemburgo-Pomerania Occidental",
+      "lat": 54.3091,
+      "lng": 13.0818,
+      "tipo": "ciudad",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Rough Guides", "Lonely Planet"],
+      "justificacion": "Rough Guides incluye Stralsund y Wismar en sus 5 cascos antiguos más románticos de Alemania (gótico de ladrillo, reloj astronómico). Lonely Planet la cita junto a Lübeck, Wismar y Greifswald por su herencia hanseática en su guía del norte de Alemania.",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/germany-most-romantic-town-centres/" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/destinations/germany/northern-germany" }
+      ]
+    },
+    {
+      "id": "de-potsdam",
+      "nombre": "Potsdam",
+      "pais_iso": "DE",
+      "region": "Brandeburgo",
+      "lat": 52.3906,
+      "lng": 13.0645,
+      "tipo": "ciudad",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Frommer's", "Rough Guides", "Fodor's"],
+      "justificacion": "Frommer's le dedica guía propia y la llama la mejor excursión desde Berlín (palacio de Sanssouci). Rough Guides la propone a 40 minutos de Berlín por sus palacios y parques. Fodor's cierra con ella su itinerario de 10 días por Alemania.",
+      "fuentes": [
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/potsdam/" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/germany/how-to-plan-a-trip/" },
+        { "guia": "Fodor's", "url": "https://www.fodors.com/world/europe/germany/experiences/news/10-day-germany-itinerary-munich-neuschwanstein-freiburg-hamburg-berlin-and-potsdam" }
+      ]
+    },
+    {
+      "id": "de-quedlinburg",
+      "nombre": "Quedlinburg",
+      "pais_iso": "DE",
+      "region": "Sajonia-Anhalt",
+      "lat": 51.7894,
+      "lng": 11.1414,
+      "tipo": "pueblo",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Rough Guides", "Frommer's"],
+      "justificacion": "Rough Guides lo destaca en su guía de Sajonia-Anhalt y el Harz (2069 casas de entramado, colegiata de San Servacio, mejor en invierno). Frommer's lo incluye entre los mejores pueblos pequeños de Alemania (1600 casas de entramado, UNESCO).",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/germany/saxony-anhalt-and-the-harz/" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/germany/introduction/the-best-small-towns-and-villages" }
+      ]
+    },
+    {
+      "id": "pl-cracovia",
+      "nombre": "Cracovia y mina de sal de Wieliczka",
+      "pais_iso": "PL",
+      "region": "Pequeña Polonia",
+      "lat": 50.0617,
+      "lng": 19.9373,
+      "tipo": "ciudad",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides", "Rick Steves", "Frommer's", "National Geographic", "Time Out"],
+      "justificacion": "Se fusiona la mina de sal de Wieliczka, a unos 12 km del Rynek. Lonely Planet la pone en el número 1 de sus 13 mejores lugares de Polonia. Rough Guides incluye la plaza del Mercado, Kazimierz y Wieliczka entre sus 16 imprescindibles. Rick Steves abre con ella su especial de Polonia. Frommer's le dedica sus experiencias favoritas y la compara con Praga. National Geographic le dedica una guía de 72 horas (con Wieliczka) y Time Out su lista de mejores cosas que hacer.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-poland" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-poland/" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/watch-read-listen/video/tv-show/poland" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/krakow/things-to-do/frommers-favorite-experiences/" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/wieliczka-salt-mine/" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/the-utlimate-weekend-itinerary-krakow-poland-europe" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/europe/things-to-do/best-things-to-do-in-krakow" }
+      ]
+    },
+    {
+      "id": "pl-auschwitz-birkenau",
+      "nombre": "Auschwitz-Birkenau (Oświęcim)",
+      "pais_iso": "PL",
+      "region": "Pequeña Polonia",
+      "lat": 50.0266,
+      "lng": 19.2036,
+      "tipo": "monumento",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Rough Guides", "Frommer's", "Rick Steves", "Lonely Planet"],
+      "justificacion": "Memorial a unos 50 km de Cracovia, por eso va aparte. Rough Guides lo incluye entre sus 16 imprescindibles de Polonia. Frommer's lo llama la excursión más importante desde Cracovia. Rick Steves lo visita en su especial de Polonia. Lonely Planet lo incluye en sus 14 mejores cosas de Cracovia y lo cita en su entrada de Cracovia de los mejores lugares del país.",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-poland/" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/outside-krakow/" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/watch-read-listen/read/travel-news/march-2025/poland-special" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-krakow" }
+      ]
+    },
+    {
+      "id": "pl-varsovia",
+      "nombre": "Varsovia",
+      "pais_iso": "PL",
+      "region": "Mazovia",
+      "lat": 52.2297,
+      "lng": 21.0122,
+      "tipo": "ciudad",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides", "Rick Steves", "Time Out"],
+      "justificacion": "Lonely Planet la pone en el número 2 de sus 13 mejores lugares de Polonia (Museo del Levantamiento, POLIN, Łazienki). Rough Guides incluye su casco antiguo, la Ruta Real y el museo POLIN entre sus 16 imprescindibles. Rick Steves le dedica un episodio con Gdańsk. Time Out le dedica su lista de mejores cosas que hacer (Wilanów, Museo del Neón).",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-poland" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-poland/" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/watch-read-listen/video/tv-show/warsaw" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/europe/things-to-do/best-things-to-do-in-warsaw" }
+      ]
+    },
+    {
+      "id": "pl-zakopane-tatras",
+      "nombre": "Zakopane y los Tatras",
+      "pais_iso": "PL",
+      "region": "Pequeña Polonia",
+      "lat": 49.2992,
+      "lng": 19.9496,
+      "tipo": "montana",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides", "Frommer's", "Time Out"],
+      "justificacion": "Lonely Planet lo pone en el número 3 de sus 13 mejores lugares de Polonia y la subida al Giewont encabeza sus 10 mejores rutas a pie. Rough Guides incluye los Tatras entre sus 16 imprescindibles como el mejor destino de senderismo. Frommer's presenta Zakopane como el gran centro de senderismo en verano y de esquí en invierno. Time Out la llama la capital invernal de Polonia.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-poland" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/guide-to-zakopane-poland" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-poland/" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/poland/suggested-itineraries/for-nature-lovers/" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/travel/worlds-best-winter-destinations" }
+      ]
+    },
+    {
+      "id": "pl-bieszczady",
+      "nombre": "Montes Bieszczady",
+      "pais_iso": "PL",
+      "region": "Subcarpacia",
+      "lat": 49.1050,
+      "lng": 22.6500,
+      "tipo": "montana",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "National Geographic"],
+      "justificacion": "Coordenadas en Ustrzyki Górne, base de las rutas. Lonely Planet incluye la subida al Tarnica entre sus 10 mejores rutas a pie de Polonia, para quien busca soledad. National Geographic recomienda la región boscosa del este junto a los Tatras en la lista de 10 cosas que hacer en Polonia de Brigid Pasulka.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-hikes-in-poland" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/brigid_pasulkas_top_10_things" }
+      ]
+    },
+    {
+      "id": "pl-gdansk",
+      "nombre": "Gdańsk y la Triciudad",
+      "pais_iso": "PL",
+      "region": "Pomerania",
+      "lat": 54.3486,
+      "lng": 18.6533,
+      "tipo": "ciudad",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides", "Rick Steves", "National Geographic", "Frommer's"],
+      "justificacion": "Incluye Sopot y Gdynia. Lonely Planet la pone en el número 4 de sus 13 mejores lugares de Polonia y el Museo de la Segunda Guerra Mundial en sus 10 mejores cosas del país. Rough Guides incluye la Triciudad entre sus 16 imprescindibles. Rick Steves le dedica un episodio con Varsovia. National Geographic la elige en su Best of the World 2027 y Frommer's la destaca en su guía de la costa báltica (Solidaridad, Museo del Ámbar).",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-poland" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-poland/" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/watch-read-listen/video/tv-show/warsaw" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/best-of-the-world-2027" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/polands-baltic-coast/" }
+      ]
+    },
+    {
+      "id": "pl-malbork",
+      "nombre": "Castillo de Malbork",
+      "pais_iso": "PL",
+      "region": "Pomerania",
+      "lat": 54.0399,
+      "lng": 19.0283,
+      "tipo": "monumento",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides", "Rick Steves", "Frommer's"],
+      "justificacion": "A unos 45 km de Gdańsk, por eso va aparte. Lonely Planet lo destaca en su entrada de Gdańsk de los 13 mejores lugares de Polonia (la mayor fortaleza de Europa). Rough Guides lo incluye entre sus 16 imprescindibles. Rick Steves lo visita en su especial de Polonia como el mayor castillo de ladrillo del mundo. Frommer's lo califica de visita obligada.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-poland" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-poland/" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/watch-read-listen/read/travel-news/march-2025/poland-special" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/malbork/things-to-do/" }
+      ]
+    },
+    {
+      "id": "pl-slowinski",
+      "nombre": "Parque Nacional Słowiński (dunas de Łeba)",
+      "pais_iso": "PL",
+      "region": "Pomerania",
+      "lat": 54.7420,
+      "lng": 17.4830,
+      "tipo": "parque",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Rough Guides", "Frommer's", "Lonely Planet"],
+      "justificacion": "Rough Guides incluye sus dunas móviles entre sus 16 imprescindibles de Polonia. Frommer's le dedica ficha de atracción (acceso en bici desde Łeba). Lonely Planet tiene ficha de las dunas móviles (hasta 40 m, avanzan 10 m al año).",
+      "fuentes": [
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-poland/" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/leba/attractions/slowinski-national-park/" },
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/poland/pomerania/slowinski-national-park/attractions/shifting-dunes/a/poi-sig/1523761/360325" }
+      ]
+    },
+    {
+      "id": "pl-peninsula-de-hel",
+      "nombre": "Península de Hel",
+      "pais_iso": "PL",
+      "region": "Pomerania",
+      "lat": 54.6966,
+      "lng": 18.6787,
+      "tipo": "costa",
+      "puntaje": 2,
+      "guias_que_lo_recomiendan": ["Lonely Planet"],
+      "justificacion": "Coordenadas en Jastarnia, en el centro de la península. Lonely Planet la pone en el número 5 de sus 13 mejores lugares de Polonia por sus playas de arena blanca, como escape de las multitudes de Gdańsk.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-poland" }
+      ]
+    },
+    {
+      "id": "pl-torun",
+      "nombre": "Toruń",
+      "pais_iso": "PL",
+      "region": "Cuyavia y Pomerania",
+      "lat": 53.0100,
+      "lng": 18.6050,
+      "tipo": "ciudad",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides", "Rick Steves"],
+      "justificacion": "Lonely Planet la incluye en sus 13 mejores lugares de Polonia (gótico y pan de jengibre). Rough Guides la incluye en sus imprescindibles de Polonia como cuna de Copérnico. Rick Steves la visita en su especial de Polonia como antigua ciudad hanseática.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-poland" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/poland-things-not-to-miss/" },
+        { "guia": "Rick Steves", "url": "https://www.ricksteves.com/watch-read-listen/read/travel-news/march-2025/poland-special" }
+      ]
+    },
+    {
+      "id": "pl-wroclaw",
+      "nombre": "Breslavia",
+      "pais_iso": "PL",
+      "region": "Baja Silesia",
+      "lat": 51.1101,
+      "lng": 17.0326,
+      "tipo": "ciudad",
+      "puntaje": 5,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides", "National Geographic", "Frommer's", "Time Out"],
+      "justificacion": "Lonely Planet la incluye en sus 13 mejores lugares de Polonia (isla de la Catedral, escapada asequible). Rough Guides la incluye entre sus 16 imprescindibles por su arquitectura. National Geographic le dedica una guía («maravilla medieval», enanitos de bronce). Frommer's la presenta como base de la Baja Silesia con una de las plazas más animadas del país, y Time Out la recomienda entre sus escapadas urbanas baratas de Europa.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-poland" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-poland/" },
+        { "guia": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/inside-guide-wroclaw-poland-medieval-marvel" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/lower-silesia/" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/europe/things-to-do/best-cheapest-cities-to-visit-in-europe-on-a-budget" }
+      ]
+    },
+    {
+      "id": "pl-karkonosze",
+      "nombre": "Montes Karkonosze (Karpacz y Śnieżka)",
+      "pais_iso": "PL",
+      "region": "Baja Silesia",
+      "lat": 50.7770,
+      "lng": 15.7480,
+      "tipo": "montana",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Frommer's"],
+      "justificacion": "Coordenadas en Karpacz. Lonely Planet incluye la travesía de cresta Śnieżka–Szrenica entre sus 10 mejores rutas a pie de Polonia. Frommer's presenta Karpacz y Szklarska Poręba como las estaciones principales de los Karkonosze, con la subida al Śnieżka en verano.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-hikes-in-poland" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/jelenia-gora/active-pursuits/" }
+      ]
+    },
+    {
+      "id": "pl-poznan",
+      "nombre": "Poznań",
+      "pais_iso": "PL",
+      "region": "Gran Polonia",
+      "lat": 52.4082,
+      "lng": 16.9335,
+      "tipo": "ciudad",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides", "Time Out"],
+      "justificacion": "Lonely Planet la incluye en sus 13 mejores lugares de Polonia por su vida urbana y sus museos. Rough Guides la incluye entre sus 16 imprescindibles del país. Time Out la recomienda entre sus escapadas urbanas baratas de Europa.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-poland" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-poland/" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/europe/things-to-do/best-cheapest-cities-to-visit-in-europe-on-a-budget" }
+      ]
+    },
+    {
+      "id": "pl-bialowieza",
+      "nombre": "Parque Nacional de Białowieża",
+      "pais_iso": "PL",
+      "region": "Podlaquia",
+      "lat": 52.7000,
+      "lng": 23.8667,
+      "tipo": "parque",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides", "Frommer's"],
+      "justificacion": "Lonely Planet lo incluye en sus 13 mejores lugares de Polonia y pone los bisontes de Białowieża en el número 1 de sus 10 mejores cosas del país. Rough Guides lo elige entre los 8 lugares más salvajes de Europa (el último gran bosque primario, solo con guía en la reserva estricta). Frommer's lo destaca en su ruta para amantes de la naturaleza.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/top-10-things-to-do-in-poland" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/back-to-nature-8-of-the-wildest-places-in-europe/" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/poland/suggested-itineraries/for-nature-lovers/" }
+      ]
+    },
+    {
+      "id": "pl-lagos-masurianos",
+      "nombre": "Grandes Lagos Masurianos (Mikołajki)",
+      "pais_iso": "PL",
+      "region": "Varmia y Masuria",
+      "lat": 53.8030,
+      "lng": 21.5700,
+      "tipo": "lago",
+      "puntaje": 4,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Rough Guides", "Frommer's"],
+      "justificacion": "Coordenadas en Mikołajki, en el centro de los lagos. Lonely Planet incluye Olsztyn como puerta del distrito lacustre en sus 13 mejores lugares de Polonia. Rough Guides propone navegar los lagos en verano entre sus 16 imprescindibles. Frommer's los presenta en su guía del noreste como destino de piragüismo y vela.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-poland" },
+        { "guia": "Rough Guides", "url": "https://www.roughguides.com/articles/best-things-to-do-in-poland/" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/northeast-poland/" }
+      ]
+    },
+    {
+      "id": "pl-lublin",
+      "nombre": "Lublin",
+      "pais_iso": "PL",
+      "region": "Lublin",
+      "lat": 51.2480,
+      "lng": 22.5680,
+      "tipo": "ciudad",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Time Out"],
+      "justificacion": "Lonely Planet la incluye en sus 13 mejores lugares de Polonia por su casco antiguo y su historia de la Segunda Guerra Mundial. Time Out la recomienda entre sus escapadas urbanas baratas de Europa.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-poland" },
+        { "guia": "Time Out", "url": "https://www.timeout.com/europe/things-to-do/best-cheapest-cities-to-visit-in-europe-on-a-budget" }
+      ]
+    },
+    {
+      "id": "pl-zamosc",
+      "nombre": "Zamość",
+      "pais_iso": "PL",
+      "region": "Lublin",
+      "lat": 50.7172,
+      "lng": 23.2524,
+      "tipo": "ciudad",
+      "puntaje": 3,
+      "guias_que_lo_recomiendan": ["Lonely Planet", "Frommer's"],
+      "justificacion": "Lonely Planet la incluye en sus 13 mejores lugares de Polonia como ciudad renacentista del siglo XVI muy bien conservada. Frommer's la describe como un ejemplo casi perfecto de urbanismo renacentista en su guía del sureste del país.",
+      "fuentes": [
+        { "guia": "Lonely Planet", "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-poland" },
+        { "guia": "Frommer's", "url": "https://www.frommers.com/destinations/southeastern-poland/" }
+      ]
+    }
+  ]
+}
