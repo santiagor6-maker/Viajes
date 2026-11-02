@@ -1,0 +1,195 @@
+{
+  "agente": "naturaleza",
+  "subregion": "centroeuropa",
+  "grupo": "a",
+  "ronda": 1,
+  "estado": "completo",
+  "paises": ["DE", "PL"],
+  "notas": "Se puntúan los 46 candidatos de DE (30) y PL (16) y se agregan 8 nuevos (4 DE, 4 PL). Todas las URL salieron en búsquedas propias (22 de 22 usadas); son webs de parques nacionales, de turismo oficial o de UNESCO. La ficha principal de UNESCO de los Hayedos Primarios de los Cárpatos y otras regiones de Europa (n.º 1133) no salió en los resultados, así que la pertenencia de Jasmund, Serrahn (Müritz) y Hainich al bien se cita con las webs oficiales de cada parque. De Białowieża (n.º 33) y del Mar de Frisia (n.º 1314) solo salieron las subpáginas de documentos y mapas de la ficha. Quedan en 2 por falta de fuente, aunque podrían valer 3: de-neuschwanstein (garganta del Pöllat y lagos Alpsee y Schwansee al pie de los Alpes de Ammergau). No se agregaron por falta de cupo o de fuente: el Parque Nacional del Mar de Frisia de Baja Sajonia (islas de Frisia Oriental), el Spreewald, el Parque Nacional del Eifel, el valle del Danubio en Weltenburg, la Suiza de Franconia, Kampinos, Ojców y Roztocze. Son candidatos para huecos.",
+  "puntajes": [
+    { "id": "de-berlin", "puntaje": 2, "unesco": false, "justificacion": "Ciudad con mucho verde: el bosque de Grunewald, los lagos del Havel y el Müggelsee dentro del término municipal.", "actividad": "Paseo por el Grunewald hasta el Teufelssee y el Wannsee", "fuentes": [] },
+    { "id": "de-munich", "puntaje": 2, "unesco": false, "justificacion": "El Englischer Garten y las orillas del Isar dentro de la ciudad; el lago Starnberg y los Prealpes quedan a menos de una hora.", "actividad": "Paseo por el Englischer Garten y la ribera renaturalizada del Isar", "fuentes": [] },
+    { "id": "de-neuschwanstein", "puntaje": 2, "unesco": false, "justificacion": "El castillo se alza sobre la garganta del Pöllat, con los lagos Alpsee y Schwansee al pie y los Alpes de Ammergau detrás. El interés principal es el castillo.", "actividad": "Puente de María sobre la garganta del Pöllat y vuelta al Alpsee", "fuentes": [] },
+    { "id": "de-rothenburg-ob-der-tauber", "puntaje": 1, "unesco": false, "justificacion": "Pueblo amurallado sobre el valle del Tauber, con prados y huertos a sus pies.", "actividad": "Paseo por el valle del Tauber bajo las murallas", "fuentes": [] },
+    { "id": "de-bamberg", "puntaje": 1, "unesco": false, "justificacion": "Ciudad a orillas del Regnitz, sin paisaje natural destacado.", "actividad": "Paseo por la ribera del Regnitz", "fuentes": [] },
+    { "id": "de-nuremberg", "puntaje": 1, "unesco": false, "justificacion": "Ciudad a orillas del Pegnitz; la Suiza de Franconia queda a unos 40 km.", "actividad": "Paseo por los prados del Pegnitz", "fuentes": [] },
+    { "id": "de-wurzburg", "puntaje": 1, "unesco": false, "justificacion": "Ciudad en el valle del Main rodeada de viñedos, sin paisaje natural destacado.", "actividad": "Paseo entre viñedos hasta la fortaleza de Marienberg", "fuentes": [] },
+    { "id": "de-regensburg", "puntaje": 2, "unesco": false, "justificacion": "Ciudad a orillas del Danubio; el desfiladero del Danubio en Weltenburg queda a unos 30 km.", "actividad": "Barco por el desfiladero del Danubio de Kelheim a Weltenburg", "fuentes": [] },
+    { "id": "de-berchtesgaden", "puntaje": 5, "unesco": false, "justificacion": "El único parque nacional alpino de Alemania (1978, unos 210 km² y 260 km de senderos). El Königssee, con barcos eléctricos, queda encajado bajo la pared este del Watzmann (2713 m). Desde Salet se llega a pie al Obersee, separado del Königssee por una morrena glaciar.", "actividad": "Barco por el Königssee hasta St. Bartholomä y Salet, y paseo al Obersee (de Semana Santa a mediados de octubre); ruta a la Gotzenalm (19 km)", "fuentes": [ { "guia": "Nationalpark Berchtesgaden (oficial)", "url": "https://www.nationalpark-berchtesgaden.bayern.de/english/nature/national_park/index.htm" }, { "guia": "Berchtesgadener Land Tourismus (oficial)", "url": "https://www.berchtesgaden.de/en/sehenswuerdigkeiten/top-sehenswuerdigkeiten/lake-koenigssee" } ] },
+    { "id": "de-garmisch-zugspitze", "puntaje": 5, "unesco": false, "justificacion": "Al pie de la Zugspitze (2962 m), la cumbre más alta de Alemania, con plataforma glaciar a la que se sube en tren cremallera y teleférico. A las afueras está la garganta del Partnach, monumento natural desde 1912, con más de 200 000 visitantes al año.", "actividad": "Recorrido por la garganta del Partnach desde el estadio olímpico de esquí (abierta todo el año, horario reducido de octubre a mayo); subida a la Zugspitze", "fuentes": [ { "guia": "Bayerische Zugspitzbahn (oficial)", "url": "https://zugspitze.de/Downloads/Tourentipps/EN/Wandertouren_englisch_A6_Partnachklamm.pdf" }, { "guia": "Partnachklamm (Markt Garmisch-Partenkirchen, oficial)", "url": "https://www.partnachklamm.eu/en/History" }, { "guia": "Bayerische Zugspitzbahn (oficial)", "url": "https://zugspitze.de/en/Service-information/Facilities" } ] },
+    { "id": "de-heidelberg", "puntaje": 2, "unesco": false, "justificacion": "Ciudad en la salida del valle del Neckar al Rin, entre las colinas boscosas del Odenwald.", "actividad": "Philosophenweg sobre el Neckar y subida al Heiligenberg", "fuentes": [] },
+    { "id": "de-selva-negra", "puntaje": 4, "unesco": false, "justificacion": "Macizo de bosques de abetos, cumbres redondeadas como el Feldberg, lagos glaciares como el Titisee y cascadas como las de Triberg. En el norte, el Parque Nacional de la Selva Negra deja evolucionar el bosque sin intervención; el Lotharpfad recorre con pasarelas y escaleras el bosque que arrasó el huracán Lothar en 1999.", "actividad": "Lotharpfad, el circuito más corto y visitado del parque nacional (unos 0,9 km, 30 min), ampliable por la Schwarzwaldhochstraße hasta el Schliffkopf y el Ruhestein", "fuentes": [ { "guia": "Nationalpark Schwarzwald (oficial)", "url": "https://www.nationalpark-schwarzwald.de/fileadmin/Mediendatenbank_Nationalpark/06_Karten_und_Broschueren/Flyer_und_Broschueren/NLP_Flyer_Lotharpfad_GB_BF.pdf" }, { "guia": "Schwarzwald Tourismus (oficial)", "url": "https://www.schwarzwald-tourismus.info/touren/lotharpfad-an-der-schwarzwaldhochstrasse-16dc99fb72" } ] },
+    { "id": "de-lago-constanza", "puntaje": 3, "unesco": false, "justificacion": "Gran lago prealpino con vistas a los Alpes, islas como Mainau y Reichenau y cañaverales. El Wollmatinger Ried, junto a Constanza, es la mayor reserva natural de la orilla alemana (774 ha) y sirve de descanso e invernada a una cuarta parte de las aves acuáticas del lago.", "actividad": "Visita guiada del NABU al Wollmatinger Ried y paseo por la alameda hasta la isla de Reichenau; senderismo por la orilla", "fuentes": [ { "guia": "Internationale Bodensee Tourismus (oficial)", "url": "https://www.bodensee.eu/en/what-to-do/map-of-lake-constance/nabu---wollmatinger-marsh_poi1434" }, { "guia": "Internationale Bodensee Tourismus (oficial)", "url": "https://www.bodensee.eu/en/what-to-do/active/hiking" } ] },
+    { "id": "de-dresden", "puntaje": 2, "unesco": false, "justificacion": "Ciudad con las praderas del Elba en pleno centro; el Parque Nacional de la Suiza Sajona queda a unos 30 km en tren de cercanías.", "actividad": "Paseo por las praderas del Elba hasta el puente Blaues Wunder", "fuentes": [] },
+    { "id": "de-leipzig", "puntaje": 1, "unesco": false, "justificacion": "Ciudad con un bosque de ribera (Auwald) en su interior y lagos artificiales de antiguas minas al sur.", "actividad": "Paseo por el Auwald y el Clara-Zetkin-Park", "fuentes": [] },
+    { "id": "de-suiza-sajona", "puntaje": 5, "unesco": false, "justificacion": "Torres, mesetas y gargantas de arenisca sobre el Elba en el Parque Nacional de la Suiza Sajona. La Bastei (305 m) se alza 194 m sobre el río y es reserva natural desde 1938; por ella pasa el Malerweg, la ruta de los pintores románticos. Tras las tormentas hubo cierres de bosque entre la Bastei, Rathen y Hohnstein, así que conviene consultar los avisos del parque.", "actividad": "Malerweg (116 km en 8 etapas); mirador y puente de la Bastei desde Rathen (cercanías y transbordador sobre el Elba)", "fuentes": [ { "guia": "Nationalpark Sächsische Schweiz (oficial)", "url": "https://nationalpark-saechsische-schweiz.de/en/destinations-national-park" }, { "guia": "Tourismusverband Sächsische Schweiz (oficial)", "url": "https://www.saechsische-schweiz.de/wandern/wandern-auf-dem-malerweg" }, { "guia": "Nationalpark Sächsische Schweiz (oficial)", "url": "https://nationalpark-saechsische-schweiz.de/en/warnings/eilmeldung-waldsperrung" } ] },
+    { "id": "de-weimar", "puntaje": 1, "unesco": false, "justificacion": "Ciudad con el parque paisajista del Ilm, sin entorno natural destacado.", "actividad": "Paseo por el parque del Ilm", "fuentes": [] },
+    { "id": "de-valle-del-rin", "puntaje": 4, "unesco": false, "justificacion": "Garganta del Rin entre Bingen y Coblenza, con laderas de viñedo y bosque, peñas como la Loreley y castillos en las cumbres. Es Patrimonio Mundial como paisaje cultural, así que no se marca como natural. El Rheinsteig recorre la orilla derecha y tiene rutas circulares de calidad alrededor de la Loreley.", "actividad": "Rheinsteig Loreley Treppenweg: de St. Goarshausen a Burg Katz y la meseta de la Loreley, con vuelta a St. Goarshausen", "fuentes": [ { "guia": "Rheinsteig (oficial)", "url": "https://www.rheinsteig.de/en/a-rheinsteig-loreley-treppenweg" }, { "guia": "Rheinsteig (oficial)", "url": "https://www.rheinsteig.de/rheinsteig/rheinsteig-etappen/premium-rundwege-am-rheinsteig" } ] },
+    { "id": "de-valle-del-mosela", "puntaje": 3, "unesco": false, "justificacion": "Valle de meandros encajados entre laderas de viñedo y bosque, recorrido por el Moselsteig. En el Calmont, entre Bremm y Eller, el viñedo considerado el más empinado de Europa se cruza por una vía ferrata con escaleras y puentes de cuerda a 200–300 m sobre el río.", "actividad": "Vía ferrata del Calmont (unos 3 km, 1,5–3 h, solo con tiempo seco) o etapa 16 del Moselsteig de Neef a Ediger-Eller (11,4 km, unas 4 h)", "fuentes": [ { "guia": "Mosellandtouristik (oficial)", "url": "https://en.visitmosel.de/cities-culture/poi/calmont" }, { "guia": "Mosellandtouristik (oficial)", "url": "https://www.visitmosel.de/en/tour/moselsteig-stage-16-neef-ediger-eller" } ] },
+    { "id": "de-trier", "puntaje": 1, "unesco": false, "justificacion": "Ciudad a orillas del Mosela, sin paisaje natural destacado.", "actividad": "Paseo por la ribera del Mosela", "fuentes": [] },
+    { "id": "de-colonia", "puntaje": 1, "unesco": false, "justificacion": "Gran ciudad a orillas del Rin, con cinturones verdes.", "actividad": "Paseo por las orillas del Rin y el Rheinpark", "fuentes": [] },
+    { "id": "de-aquisgran", "puntaje": 2, "unesco": false, "justificacion": "Ciudad en la frontera con Bélgica y Países Bajos; el Parque Nacional del Eifel queda a unos 30 km.", "actividad": "Excursión al Parque Nacional del Eifel", "fuentes": [] },
+    { "id": "de-frankfurt", "puntaje": 1, "unesco": false, "justificacion": "Ciudad financiera a orillas del Main; los bosques del Taunus quedan a unos 20 km.", "actividad": "Subida al Großer Feldberg del Taunus", "fuentes": [] },
+    { "id": "de-hamburgo", "puntaje": 1, "unesco": false, "justificacion": "Ciudad portuaria con el lago Alster y las playas del Elba en Övelgönne.", "actividad": "Paseo por la orilla del Elba de Övelgönne a Blankenese", "fuentes": [] },
+    { "id": "de-lubeck", "puntaje": 2, "unesco": false, "justificacion": "Ciudad hanseática; las playas del Báltico de Travemünde y los acantilados del Brodtener Ufer quedan a unos 20 km.", "actividad": "Paseo por el Brodtener Steilufer desde Travemünde", "fuentes": [] },
+    { "id": "de-sylt", "puntaje": 4, "unesco": false, "justificacion": "Isla de dunas y playas de arena en el mar del Norte. La isla no forma parte del parque nacional, pero el Watt que la rodea pertenece al Parque Nacional del Mar de Frisia de Schleswig-Holstein, Patrimonio Natural UNESCO desde 2009. El Morsum-Kliff, de 1,8 km y 21 m de alto, es una de las reservas naturales más antiguas del estado.", "actividad": "Paseo guiado por el Watt con la Schutzstation Wattenmeer (1,5–2 h, todo el año); paseo por el Morsum-Kliff", "fuentes": [ { "guia": "Sylt Marketing (oficial)", "url": "https://www.sylt.de/veranstaltungen/wattwanderungen/erlebnisse" }, { "guia": "Sylt Marketing (oficial)", "url": "https://www.sylt.de/poi/morsum-kliff" }, { "guia": "Nationalpark Wattenmeer (oficial)", "url": "https://www.nationalpark-wattenmeer.de/wp-content/uploads/2020/04/weltnaturerbe-und-sylt.pdf" }, { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/1314/documents" } ] },
+    { "id": "de-rugen", "puntaje": 5, "unesco": true, "justificacion": "Acantilados de creta blanca sobre el Báltico y hayedos antiguos en el Parque Nacional de Jasmund, cuyos hayedos son Patrimonio Natural UNESCO desde 2011 dentro de los Hayedos Primarios de Europa. El Königsstuhl tiene centro del parque y pasarela sobre el borde del acantilado.", "actividad": "Hochuferweg de Sassnitz al Königsstuhl y Lohme (unos 12 km, señalizado en blanco-azul-blanco); no bajar a la playa al pie de los acantilados por desprendimientos", "fuentes": [ { "guia": "Nationalpark Jasmund (oficial)", "url": "https://www.nationalpark-jasmund.de/erleben-erholen/wege-durch-den-nationalpark/hochuferweg" }, { "guia": "Nationalpark-Zentrum Königsstuhl (oficial)", "url": "https://www.koenigsstuhl.com/en/arrival-on-foot" } ] },
+    { "id": "de-stralsund", "puntaje": 2, "unesco": false, "justificacion": "Ciudad portuaria en el estrecho de Strelasund; es la puerta de Rügen y de las lagunas del Parque Nacional de Vorpommersche Boddenlandschaft.", "actividad": "Excursión a Rügen o a la península de Darß", "fuentes": [] },
+    { "id": "de-potsdam", "puntaje": 2, "unesco": false, "justificacion": "Ciudad entre los lagos del Havel, con grandes parques paisajistas y bosques alrededor.", "actividad": "Paseo por el parque de Sanssouci y la orilla del Heiliger See", "fuentes": [] },
+    { "id": "de-quedlinburg", "puntaje": 2, "unesco": false, "justificacion": "Pueblo al pie del Harz; el valle del Bode en Thale queda a unos 10 km.", "actividad": "Garganta del Bode entre Thale y Treseburg", "fuentes": [] },
+
+    { "id": "pl-cracovia", "puntaje": 2, "unesco": false, "justificacion": "Ciudad a orillas del Vístula; el Parque Nacional de Ojców, con valles calizos y cuevas, queda a unos 25 km.", "actividad": "Excursión al valle del Prądnik en Ojców", "fuentes": [] },
+    { "id": "pl-auschwitz-birkenau", "puntaje": 1, "unesco": false, "justificacion": "Memorial en la llanura del Vístula. No es un destino de naturaleza.", "actividad": "Visita al memorial", "fuentes": [] },
+    { "id": "pl-varsovia", "puntaje": 2, "unesco": false, "justificacion": "Capital con orillas salvajes del Vístula y el Parque Nacional de Kampinos, de dunas y bosques, a unos 20 km.", "actividad": "Paseo por la orilla derecha del Vístula; excursión a Kampinos", "fuentes": [] },
+    { "id": "pl-zakopane-tatras", "puntaje": 5, "unesco": false, "justificacion": "Puerta del Parque Nacional de los Tatras, la única cordillera alpina de Polonia. El Morskie Oko es el mayor lago glaciar de los Tatras (860 × 560 m), bajo las paredes del Mięguszowiecki. La entrada al parque es de pago y hay cierres invernales de algunos tramos.", "actividad": "Ruta de Palenica Białczańska al Morskie Oko y vuelta al lago (unos 4 h de subida, 1 h más para rodearlo); subida al Giewont desde Kuźnice", "fuentes": [ { "guia": "Tatrzański Park Narodowy (oficial)", "url": "https://tpn.gov.pl/szlaki-turystyczne/palenica-bialczanska-morskie-oko-i-spacer-wokol-morskiego-oka" }, { "guia": "Tatrzański Park Narodowy (oficial)", "url": "https://tpn.gov.pl/turystyka-piesza" }, { "guia": "Urząd Miasta Zakopane (turismo oficial)", "url": "https://www.zakopane.pl/strefa-turystyczna/turystyka/wycieczki-gorskie-latem/szlaki-lato/morskie-oko/" } ] },
+    { "id": "pl-bieszczady", "puntaje": 4, "unesco": false, "justificacion": "Montañas boscosas y praderas de altura (połoniny) en el extremo sureste del país, protegidas por el Parque Nacional de Bieszczady. El Tarnica (1346 m) es la cumbre más alta de los Bieszczady polacos, con vistas a Ucrania y Eslovaquia.", "actividad": "Sendero azul y amarillo de Wołosate al Tarnica (unos 2 h de subida); travesía Wołosate–Tarnica–Szeroki Wierch–Ustrzyki Górne (5–6 h)", "fuentes": [ { "guia": "Bieszczadzki Park Narodowy (oficial)", "url": "https://bdpn.gov.pl/szlaki-turystyczne/sciezka-przyrodniczo-historyczna-wolosate-tarnica" }, { "guia": "Bieszczadzki Park Narodowy (oficial)", "url": "https://www.bdpn.pl/index.php?option=com_content&task=view&id=61&Itemid=55" } ] },
+    { "id": "pl-gdansk", "puntaje": 2, "unesco": false, "justificacion": "Ciudad portuaria con playas del Báltico en Brzeźno y Sopot y los bosques del Parque Paisajístico de la Triciudad en las colinas.", "actividad": "Paseo por la playa de Brzeźno a Sopot", "fuentes": [] },
+    { "id": "pl-malbork", "puntaje": 1, "unesco": false, "justificacion": "Castillo a orillas del Nogat, sin entorno natural destacado.", "actividad": "Paseo por la orilla del Nogat", "fuentes": [] },
+    { "id": "pl-slowinski", "puntaje": 5, "unesco": false, "justificacion": "Dunas móviles de más de 500 ha entre el Báltico y el lago Łebsko. La duna de Łącka, la más visitada, oscila entre unos 30 y 42 m de altura según el viento y avanza hacia el este entre 2 y más de 10 m al año. En verano la arena se calienta mucho.", "actividad": "Circuito Stara Łeba – orilla del mar – duna de Łącka (15,1 km); sendero costero del parque (34,5 km)", "fuentes": [ { "guia": "Słowiński Park Narodowy (oficial)", "url": "https://spn.gov.pl/szlaki-turystyczne/stara-leba-brzeg-morza-wydma-lacka-stara-leba-petla" }, { "guia": "Słowiński Park Narodowy (oficial)", "url": "https://spn.gov.pl/atrakcje-turystyczne" } ] },
+    { "id": "pl-peninsula-de-hel", "puntaje": 3, "unesco": false, "justificacion": "Lengua de arena entre el Báltico abierto y la bahía de Puck, con playas a ambos lados. Las aguas someras y el viento de la bahía la hacen un destino de kitesurf, windsurf y vela.", "actividad": "Kitesurf o windsurf en la bahía de Puck (Jastarnia, Chałupy); playas del lado del mar abierto", "fuentes": [ { "guia": "Pomorskie Travel (turismo oficial de Pomerania)", "url": "https://pomorskie.travel/en/articles/polwysep-helski/" }, { "guia": "Pomorskie Travel (turismo oficial de Pomerania)", "url": "https://pomorskie.travel/en/articles/sailing-on-the-bay-of-puck-we-visit-jastarnia-and-hel/" } ] },
+    { "id": "pl-torun", "puntaje": 1, "unesco": false, "justificacion": "Ciudad a orillas del Vístula, sin paisaje natural destacado.", "actividad": "Paseo por el bulevar del Vístula", "fuentes": [] },
+    { "id": "pl-wroclaw", "puntaje": 1, "unesco": false, "justificacion": "Ciudad de islas y brazos del Óder, sin paisaje natural destacado.", "actividad": "Paseo por las islas del Óder", "fuentes": [] },
+    { "id": "pl-karkonosze", "puntaje": 4, "unesco": false, "justificacion": "Cordillera del Parque Nacional de Karkonosze, con circos glaciares como el de Łomniczka, de paredes rocosas pulidas por el hielo, y el Śnieżka (1603 m), la cumbre más alta de los Sudetes. El sendero rojo por el circo cierra a menudo en invierno.", "actividad": "Sendero rojo de Karpacz por el circo de Łomniczka al Śnieżka (menos de 2 h hasta el refugio Śląski Dom, más 30–40 min a la cumbre)", "fuentes": [ { "guia": "Karkonoski Park Narodowy (oficial)", "url": "https://kpnmab.pl/otwarty-szlak-przez-kociol-lomniczki-1984/n" }, { "guia": "Karpacz (turismo oficial)", "url": "https://www.karpacz.pl/wycieczki-gorskie" } ] },
+    { "id": "pl-poznan", "puntaje": 1, "unesco": false, "justificacion": "Ciudad con el lago Malta y el Parque Nacional de Wielkopolska a unos 15 km.", "actividad": "Paseo alrededor del lago Malta", "fuentes": [] },
+    { "id": "pl-bialowieza", "puntaje": 5, "unesco": true, "justificacion": "El último gran bosque de llanura primario de Europa, compartido con Bielorrusia y hogar del bisonte europeo. Es Patrimonio Natural UNESCO desde 1979 (criterios ix y x), ampliado en 1992 y 2014. La reserva estricta del parque nacional solo se visita con guía.", "actividad": "Visita guiada a la reserva estricta del Parque Nacional de Białowieża (unos 4 km)", "fuentes": [ { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/33/documents" }, { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/33/maps/" } ] },
+    { "id": "pl-lagos-masurianos", "puntaje": 4, "unesco": false, "justificacion": "Red de lagos glaciares unidos por canales en el noreste del país, el destino clásico de vela de Polonia. La ruta principal de los Grandes Lagos empieza en el lago Wiartel, junto a Pisz.", "actividad": "Navegación a vela o en barco de alquiler entre Pisz, Mikołajki y Giżycko (de un día a varias jornadas)", "fuentes": [ { "guia": "Poland Travel (Organización Polaca de Turismo)", "url": "https://www.poland.travel/en/summer-in-poland-outdoor-adventures-from-lakes-to-mountains/" } ] },
+    { "id": "pl-lublin", "puntaje": 1, "unesco": false, "justificacion": "Ciudad con el embalse de Zemborzyce al sur, sin paisaje natural destacado.", "actividad": "Paseo por el embalse de Zemborzyce", "fuentes": [] },
+    { "id": "pl-zamosc", "puntaje": 2, "unesco": false, "justificacion": "Ciudad renacentista; el Parque Nacional de Roztocze, con bosques de abetos y hayas, queda a unos 30 km.", "actividad": "Excursión a Zwierzyniec y los estanques del Parque Nacional de Roztocze", "fuentes": [] }
+  ],
+  "nuevos": [
+    {
+      "id": "de-harz",
+      "nombre": "Parque Nacional del Harz (Brocken)",
+      "pais_iso": "DE",
+      "region": "Sajonia-Anhalt",
+      "lat": 51.7991,
+      "lng": 10.6156,
+      "tipo": "parque",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "Parque nacional de bosques de abeto y hayedos en el macizo del Harz, entre Sajonia-Anhalt y Baja Sajonia. El Brocken (1141 m), su cumbre, no tiene árboles de forma natural; en lo alto hay un jardín botánico con más de 1500 especies de montaña y un sendero corto por bosque primario. Coordenadas en la cumbre.",
+      "actividad": "Subida al Brocken a pie desde Torfhaus o Schierke, o en el tren de vapor del Harz; jardín del Brocken",
+      "fuentes": [
+        { "guia": "Nationalpark Harz (oficial)", "url": "https://www.nationalpark-harz.de/en/downloads/downloads/Harz_National_Park_english_2018.pdf?m=1525686956" }
+      ]
+    },
+    {
+      "id": "de-bosque-bavaro",
+      "nombre": "Parque Nacional del Bosque Bávaro (Lusen)",
+      "pais_iso": "DE",
+      "region": "Baviera",
+      "lat": 48.8917,
+      "lng": 13.4836,
+      "tipo": "parque",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "El parque nacional más antiguo de Alemania, en la frontera checa, con bosque montano que se deja evolucionar sin intervención. En el centro del Lusen, en Neuschönau, hay un recinto de fauna de más de 200 ha con unas 40 especies (linces, lobos, osos) y un camino por las copas de 1300 m que sube hasta 44 m. Coordenadas en el centro del Lusen.",
+      "actividad": "Circuito del recinto de fauna (7 km, 3–4 h, gratis) y camino por las copas (de pago)",
+      "fuentes": [
+        { "guia": "Nationalpark Bayerischer Wald (oficial)", "url": "https://www.nationalpark-bayerischer-wald.bayern.de/english/visitor/facilities/npc_lusen/index.htm" },
+        { "guia": "Nationalpark Bayerischer Wald (oficial)", "url": "https://www.nationalpark-bayerischer-wald.bayern.de/besucher/einrichtungen/npz_lusen/index.htm" }
+      ]
+    },
+    {
+      "id": "de-muritz",
+      "nombre": "Parque Nacional de Müritz (Serrahn)",
+      "pais_iso": "DE",
+      "region": "Mecklemburgo-Pomerania Occidental",
+      "lat": 53.5167,
+      "lng": 12.6833,
+      "tipo": "parque",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "Parque nacional de lagos, turberas y bosques en la región de los lagos de Mecklemburgo. Los hayedos de Serrahn, sin intervención desde 1990, son Patrimonio Natural UNESCO desde 2011 dentro de los Hayedos Primarios de Europa. En otoño, cientos de grullas pernoctan en el Rederangsee. Coordenadas en Waren (Müritz), principal puerta del parque.",
+      "actividad": "Sendero del bosque de Zinow a Serrahn (6,5 km) por el hayedo UNESCO; observación del vuelo de las grullas con el Kranich-Ticket (de mediados de agosto a octubre)",
+      "fuentes": [
+        { "guia": "Müritz-Nationalpark (oficial)", "url": "https://www.mueritz-nationalpark.de/en/experience-recuperate/out-and-about-in-nature/adventure-trails/forest-discovery-trail-serrahn" },
+        { "guia": "Müritz-Nationalpark (oficial)", "url": "https://www.mueritz-nationalpark.de/wissen-verstehen/unesco-welterbe/welterbe-im-mueritz-nationalpark" }
+      ]
+    },
+    {
+      "id": "de-hainich",
+      "nombre": "Parque Nacional de Hainich",
+      "pais_iso": "DE",
+      "region": "Turingia",
+      "lat": 51.0790,
+      "lng": 10.5040,
+      "tipo": "parque",
+      "puntaje": 4,
+      "unesco": true,
+      "justificacion": "Uno de los mayores hayedos continuos de Alemania, en el oeste de Turingia, dejado a su evolución natural. Sus hayedos antiguos son Patrimonio Natural UNESCO dentro de los Hayedos Primarios de Europa. Coordenadas en el centro del parque en la Thiemsburg.",
+      "actividad": "Camino por las copas de los árboles en la Thiemsburg y senderos por el hayedo",
+      "fuentes": [
+        { "guia": "Nationalpark Hainich (oficial)", "url": "https://www.nationalpark-hainich.de/en/national-park/unesco-world-heritage-site.html" }
+      ]
+    },
+    {
+      "id": "pl-pieniny",
+      "nombre": "Parque Nacional de Pieniny (garganta del Dunajec)",
+      "pais_iso": "PL",
+      "region": "Pequeña Polonia",
+      "lat": 49.4136,
+      "lng": 20.4164,
+      "tipo": "parque",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "Pequeña cordillera caliza en la frontera eslovaca que el Dunajec atraviesa por una garganta con grandes meandros, de Sromowce a Szczawnica. La cumbre de las Trzy Korony (982 m) domina la garganta. Coordenadas en las Trzy Korony.",
+      "actividad": "Descenso del Dunajec en las balsas tradicionales de los almadieros de Sromowce Kąty a Szczawnica; subida a las Trzy Korony",
+      "fuentes": [
+        { "guia": "Pieniński Park Narodowy (oficial)", "url": "https://archiwum.pieninypn.pl/" }
+      ]
+    },
+    {
+      "id": "pl-gory-stolowe",
+      "nombre": "Parque Nacional de los Montes Stołowe (Szczeliniec y Błędne Skały)",
+      "pais_iso": "PL",
+      "region": "Baja Silesia",
+      "lat": 50.4847,
+      "lng": 16.3414,
+      "tipo": "parque",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "Mesetas de arenisca erosionadas en laberintos de grietas y bloques. El Szczeliniec Wielki (919 m) tiene en la cima pasillos como el «Infierno» y la «Cocina del Diablo»; Błędne Skały (852 m) es un laberinto de callejones muy estrechos entre bloques de decenas de metros, sin equivalente en Polonia. La entrada es de pago, con cupo por hora y billete aparte para cada ruta. Coordenadas en el Szczeliniec Wielki.",
+      "actividad": "Recorrido del Szczeliniec Wielki (1,5 h) y de Błędne Skały, unidos por el sendero rojo de los Sudetes (unos 2,5 h)",
+      "fuentes": [
+        { "guia": "Park Narodowy Gór Stołowych (oficial)", "url": "https://pngs.gov.pl/english-version" },
+        { "guia": "Park Narodowy Gór Stołowych (oficial)", "url": "https://pngs.gov.pl/bledne-skaly" },
+        { "guia": "Park Narodowy Gór Stołowych (oficial)", "url": "https://pngs.gov.pl/informacje-o-biletach" }
+      ]
+    },
+    {
+      "id": "pl-biebrza",
+      "nombre": "Parque Nacional del Biebrza",
+      "pais_iso": "PL",
+      "region": "Podlaquia",
+      "lat": 53.4800,
+      "lng": 22.6460,
+      "tipo": "parque",
+      "puntaje": 4,
+      "unesco": false,
+      "justificacion": "El mayor parque nacional de Polonia: turberas y prados inundables del valle del Biebrza, uno de los grandes humedales de Europa. Se han observado unas 298 especies de aves; en primavera se reúnen decenas de miles de gansos, patos y limícolas, y en otoño grandes bandadas de grullas. Coordenadas en Osowiec-Twierdza, sede del parque.",
+      "actividad": "Sendero de la pasarela («Kładka») junto a Osowiec (unos 2 km, 1 km de pasarela de madera sobre la turbera); observación de aves en primavera",
+      "fuentes": [
+        { "guia": "Biebrzański Park Narodowy (oficial)", "url": "https://www.biebrza.org.pl/1395,ptaki" },
+        { "guia": "Biebrzański Park Narodowy (oficial)", "url": "https://archiwum2.biebrza.org.pl/90,sciezka-edukacyjna-kladka" }
+      ]
+    },
+    {
+      "id": "pl-wolin",
+      "nombre": "Parque Nacional de Wolin (Międzyzdroje)",
+      "pais_iso": "PL",
+      "region": "Pomerania Occidental",
+      "lat": 53.9295,
+      "lng": 14.4497,
+      "tipo": "parque",
+      "puntaje": 3,
+      "unesco": false,
+      "justificacion": "Costa de acantilados y hayedos en la isla de Wolin. El Gosań (93 m) es la cota más alta de la costa polaca, con vistas al acantilado y buenas puestas de sol. A 1,5 km de Międzyzdroje hay un recinto de bisontes europeos de 28 ha que es también centro de cría. Coordenadas en Międzyzdroje.",
+      "actividad": "Sendero por el acantilado de Międzyzdroje al Gosań; visita al recinto de bisontes",
+      "fuentes": [
+        { "guia": "Woliński Park Narodowy (oficial)", "url": "https://arch.wolinpn.pl/turystyka-2/punkty-widokowe-i-atrakcje-przyrodnicze-wpn/" },
+        { "guia": "Woliński Park Narodowy (oficial)", "url": "https://arch.wolinpn.pl/category/turystyka-2/zagroda-pokazowa-zubrow/" }
+      ]
+    }
+  ]
+}

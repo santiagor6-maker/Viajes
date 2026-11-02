@@ -1,0 +1,21 @@
+{
+  "agente": "adrenalina",
+  "subregion": "centroeuropa",
+  "grupo": "b",
+  "ronda": 1,
+  "paises": ["CZ", "SK", "HU", "SI"],
+  "estado": "en_progreso",
+  "busquedas_usadas": 12,
+  "notas": "Guardado intermedio; faltan búsquedas y la mayoría de puntajes.",
+  "puntajes": [
+    {
+      "id": "si-bled",
+      "puntaje": 5,
+      "justificacion": "Provisional. Tobogán de verano de Straža en el propio Bled y Planica Zipline a 31 km.",
+      "actividades": [
+        { "nombre": "Tobogán de verano de Straža (520 m, 131 m de desnivel)", "tipo": "alpine_coaster", "km": 1, "lat": 46.3633, "lng": 14.1050, "temporada": "abr–oct", "url": "https://www.bled.si/en/what-to-do/summer-sports/summer-sledding", "url_tipo": "turismo_oficial", "km_aprox": true }
+      ]
+    }
+  ],
+  "nuevos": []
+}

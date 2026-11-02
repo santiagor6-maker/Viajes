@@ -1,0 +1,15 @@
+{
+  "agente": "naturaleza",
+  "subregion": "centroeuropa",
+  "grupo": "b",
+  "ronda": 1,
+  "paises": ["CZ", "SK", "HU", "SI"],
+  "notas": "Borrador en curso.",
+  "puntajes": [
+    { "id": "cz-ceske-svycarsko", "puntaje": 5, "unesco": false, "justificacion": "Parque nacional de arenisca con el mayor arco natural de piedra de Europa, Pravčická brána, gargantas y miradores sobre el valle del Elba.", "actividad": "Ruta a Pravčická brána desde Hřensko (unos 4 km, empinada) o por la Mlýnská cesta desde Mezní Louka (3,5 km)", "fuentes": [ { "guia": "VisitCzechia (CzechTourism, oficial)", "url": "https://www.visitczechia.com/en-US/Things-to-Do/Places/Nature/Natural-Attractions/c-pravcicka-brana" } ] },
+    { "id": "cz-krkonose-snezka", "puntaje": 4, "unesco": false, "justificacion": "Parque nacional más antiguo del país (1963), con tundra ártico-alpina en las crestas y el Sněžka (1.603 m), techo de Chequia.", "actividad": "Subida al Sněžka desde Pec pod Sněžkou (circular de unos 13 km) o en telesilla", "fuentes": [ { "guia": "Krkonošský národní park (KRNAP, oficial)", "url": "https://www.krnap.cz/media/cygprjwv/kouzlo_krkonos_en_2020_w.pdf" } ] },
+    { "id": "cz-sumava", "puntaje": 4, "unesco": false, "justificacion": "El mayor parque nacional checo: bosques de montaña, turberas y lagos glaciares como Černé jezero, el mayor del país.", "actividad": "Caminata a los lagos Černé y Čertovo desde Špičácké sedlo; valle del Vydra de Čeňkova pila a Antýgl (7,3 km, fácil)", "fuentes": [ { "guia": "VisitCzechia (CzechTourism, oficial)", "url": "https://www.visitczechia.com/fr-fr/things-to-do/places/summer-sports/hiking-and-nordic-walking/s-sumava-cerne-certovo-lakes-walk" }, { "guia": "VisitCzechia (CzechTourism, oficial)", "url": "https://www.visitczechia.com/en-us/things-to-do/places/nature/mountains/a-sumava-top-trip-centres" } ] },
+    { "id": "cz-moravsky-kras", "puntaje": 4, "unesco": false, "justificacion": "Área kárstica protegida con más de mil cuevas. Las cuevas de Punkva bajan al fondo de la sima de Macocha (unos 139 m) y siguen en barca por el río subterráneo; es la cueva más visitada del país.", "actividad": "Visita a las cuevas de Punkva con paseo en barca y teleférico al mirador de Macocha (reserva recomendada)", "fuentes": [ { "guia": "Kudy z nudy (CzechTourism, oficial)", "url": "https://www.kudyznudy.cz/aktivity/prochazka-punkevnimi-jeskynemi-v-moravskem-krasu" }, { "guia": "Ministerio de Medio Ambiente de Chequia", "url": "https://mzp.gov.cz/sites/default/files/tiskove-zpravy/Zpristupnene%20jeskyne.pdf" } ] }
+  ],
+  "nuevos": []
+}

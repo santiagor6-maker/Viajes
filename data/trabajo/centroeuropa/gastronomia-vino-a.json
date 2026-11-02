@@ -1,0 +1,441 @@
+{
+  "agente": "gastronomia-vino",
+  "subregion": "centroeuropa",
+  "grupo": "a",
+  "ronda": 1,
+  "paises": ["DE", "PL"],
+  "estado": "completo",
+  "puntajes": [
+    {
+      "id": "de-berlin",
+      "puntaje": 4,
+      "justificacion": "Rutz, en Mitte, tiene tres estrellas Michelin desde 2020 y una estrella verde por sostenibilidad, y la ciudad suma cerca de veinte restaurantes con estrella. A la alta cocina se añaden la comida callejera (currywurst, döner kebab) y mercados como la Markthalle Neun.",
+      "platos": ["Currywurst", "Döner kebab", "Eisbein (codillo de cerdo)", "Berliner (bola de Berlín)"],
+      "fuentes": [
+        {"guia": "Rutz (web oficial del restaurante)", "url": "https://rutz-restaurant.de/en/five-years-three-michelin-stars-and-a-green-star-for-restaurant-rutz-in-berlin/"},
+        {"guia": "Michelin (nota de prensa Alemania 2026)", "url": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-germany-2026"}
+      ]
+    },
+    {
+      "id": "de-munich",
+      "puntaje": 4,
+      "justificacion": "Es una de las capitales de la alta cocina alemana: Tantris, el restaurante con estrella más antiguo de la ciudad, mantiene dos estrellas y Tantris DNA una, y el turismo oficial reúne sus restaurantes gastronómicos premiados. A eso se suman el Viktualienmarkt, las grandes cervecerías y biergarten y el Oktoberfest.",
+      "platos": ["Weißwurst con pretzel y mostaza dulce", "Schweinshaxe (codillo asado)", "Obatzda", "Cerveza de Múnich en biergarten"],
+      "fuentes": [
+        {"guia": "Michelin (ficha de Tantris)", "url": "https://guide.michelin.com/hr/en/bayern/mnchen/restaurant/tantris-75719"},
+        {"guia": "Michelin (ficha de Tantris DNA)", "url": "https://guide.michelin.com/en/bayern/mnchen/restaurant/tantris-dna"},
+        {"guia": "munich.travel (turismo oficial, restaurantes gastronómicos)", "url": "https://www.munich.travel/en/topics/eat-drink/gourmet-restaurants-munich"}
+      ]
+    },
+    {
+      "id": "de-neuschwanstein",
+      "puntaje": 2,
+      "justificacion": "Füssen está en el Allgäu, tierra de quesos de montaña y de cocina suaba-bávara de posada. Algo de interés.",
+      "platos": ["Allgäuer Käsespätzle", "Queso Bergkäse del Allgäu"],
+      "fuentes": []
+    },
+    {
+      "id": "de-rothenburg-ob-der-tauber",
+      "puntaje": 2,
+      "justificacion": "Su dulce típico son los Schneeballen, bolas de masa frita con azúcar, y está en Franconia, con vino y cerveza de la zona en sus tabernas.",
+      "platos": ["Schneeballen", "Bratwurst de Franconia", "Vino de Franconia"],
+      "fuentes": []
+    },
+    {
+      "id": "de-bamberg",
+      "puntaje": 4,
+      "justificacion": "Es una de las grandes ciudades cerveceras del mundo: nueve cervecerías privadas para unos 70 000 habitantes. La Schlenkerla, cuyo origen se remonta a 1405 y que lleva seis generaciones en la familia Trum, sirve su Rauchbier, cerveza ahumada con malta secada sobre madera de haya, en su taberna histórica.",
+      "platos": ["Aecht Schlenkerla Rauchbier", "Bamberger Zwiebel (cebolla rellena)", "Schäufele (paleta de cerdo asada)"],
+      "fuentes": [
+        {"guia": "Schlenkerla (folleto oficial de la cervecería)", "url": "https://www.Schlenkerla.de/sonstiges/druckvorlagen/Historical%20brewery%20tavern%20Schlenkerla.pdf"},
+        {"guia": "inFranken (National Geographic y las ciudades cerveceras)", "url": "https://www.infranken.de/lk/bamberg/bamberg-national-geographic-zeichnet-bierstaedte-aus-brauereigaststaette-schlenklerla-ein-muss-art-5551133"}
+      ]
+    },
+    {
+      "id": "de-nuremberg",
+      "puntaje": 3,
+      "justificacion": "Tiene dos productos protegidos por la UE: las Nürnberger Rostbratwürste, con indicación geográfica protegida desde 2003, y el Nürnberger Lebkuchen, protegido desde 1996. Las salchichas se comen «drei im Weggla» (tres en un panecillo) y el pan de especias es el protagonista del Christkindlesmarkt.",
+      "platos": ["Nürnberger Rostbratwurst (IGP)", "Nürnberger Lebkuchen (IGP)", "Drei im Weggla"],
+      "fuentes": [
+        {"guia": "DPMA (registro de la IGP Nürnberger Bratwürste)", "url": "https://register.dpma.de/DPMAregister/geo/detail.pdfdownload/41217"},
+        {"guia": "Ciudad de Núremberg (especialidades protegidas)", "url": "https://www.nuernberg.de/imperia/md/europa/dokumente/2025/postkartenset.pdf"}
+      ]
+    },
+    {
+      "id": "de-wurzburg",
+      "puntaje": 4,
+      "justificacion": "Es la capital del vino de Franconia, la tierra del Silvaner y de la botella Bocksbeutel. Dos fundaciones históricas son bodegas visitables en el centro: el Juliusspital, fundado en 1576 y una de las mayores bodegas de Alemania, y el Bürgerspital, con más de 700 años y 120 hectáreas de viñedo, ambas con taberna de vino propia.",
+      "platos": ["Silvaner de Franconia en Bocksbeutel", "Meefischli (pescaditos fritos del Meno)", "Blaue Zipfel (salchichas en caldo de vino)"],
+      "fuentes": [
+        {"guia": "Wines of Germany / Deutsches Weininstitut (Juliusspital)", "url": "https://www.winesofgermany.com/our-regions/highlight-of-wine-culture/150/juliusspital"},
+        {"guia": "Wines of Germany / Deutsches Weininstitut (Bürgerspital)", "url": "https://www.winesofgermany.com/wine-industry/winery-search/winery/104/b%C3%BCrgerspital-z-hl-geist-weingut"}
+      ]
+    },
+    {
+      "id": "de-regensburg",
+      "puntaje": 2,
+      "justificacion": "Junto al puente de piedra está la Historische Wurstkuchl, una de las salchicherías más antiguas del mundo, y la ciudad tiene tradición cervecera bávara.",
+      "platos": ["Salchichas de Ratisbona con chucrut", "Mostaza dulce Händlmaier"],
+      "fuentes": []
+    },
+    {
+      "id": "de-berchtesgaden",
+      "puntaje": 2,
+      "justificacion": "Tiene cocina alpina bávara de refugio y posada, y aquí se destila aguardiente de genciana desde el siglo XVII.",
+      "platos": ["Enzian (aguardiente de genciana)", "Kaiserschmarrn", "Trucha del Königssee"],
+      "fuentes": []
+    },
+    {
+      "id": "de-garmisch-zugspitze",
+      "puntaje": 2,
+      "justificacion": "Ofrece cocina alpina bávara en posadas y refugios de montaña. Algo de interés.",
+      "platos": ["Kaiserschmarrn", "Schweinsbraten con Knödel"],
+      "fuentes": []
+    },
+    {
+      "id": "de-heidelberg",
+      "puntaje": 2,
+      "justificacion": "Está junto a la Bergstraße, una pequeña zona vinícola, y en el castillo se ve el gran tonel de vino. Su dulce típico es el Studentenkuss, un bombón de chocolate.",
+      "platos": ["Heidelberger Studentenkuss", "Vino de la Bergstraße"],
+      "fuentes": []
+    },
+    {
+      "id": "de-selva-negra",
+      "puntaje": 4,
+      "justificacion": "Tiene una despensa propia muy reconocida: el Schwarzwälder Schinken, jamón curado y ahumado en frío con indicación geográfica protegida en la UE desde 1997 y controlado por la asociación de productores. Es además la cuna de la tarta Selva Negra y del Kirschwasser, y el turismo oficial dedica una sección a su cocina y sus recetas.",
+      "platos": ["Schwarzwälder Schinken (IGP)", "Tarta Selva Negra (Schwarzwälder Kirschtorte)", "Kirschwasser", "Trucha de río ahumada"],
+      "fuentes": [
+        {"guia": "Schwarzwald Tourismus (turismo oficial, Schwarzwälder Schinken)", "url": "https://www.schwarzwald-tourismus.info/erleben/kulinarik/spezialitaeten/schinken"},
+        {"guia": "Gobierno regional de Baden-Wurtemberg (productos protegidos)", "url": "https://rp.baden-wuerttemberg.de/ua/themen/landwirtschaft/markenrecht/seiten/geschuetzte-lebensmittel-und-agrarerzeugnisse/"}
+      ]
+    },
+    {
+      "id": "de-lago-constanza",
+      "puntaje": 2,
+      "justificacion": "Meersburg es un pueblo vinícola con viñedos junto al lago, y en la orilla se come pescado de agua dulce como el felchen.",
+      "platos": ["Felchen (corégono del lago)", "Vino de Meersburg"],
+      "fuentes": []
+    },
+    {
+      "id": "de-dresden",
+      "puntaje": 3,
+      "justificacion": "Es la ciudad del Dresdner Christstollen, pan dulce navideño con indicación geográfica protegida en la UE. Una asociación de panaderos controla cada año a todos los productores y organiza en diciembre el Stollenfest. Cerca, el valle del Elba tiene viñedos de Sajonia.",
+      "platos": ["Dresdner Christstollen (IGP)", "Eierschecke (tarta sajona)", "Vino de Sajonia"],
+      "fuentes": [
+        {"guia": "Comisión Europea (IGP Dresdner Christstollen)", "url": "https://agriculture.ec.europa.eu/farming/geographical-indications-and-quality-schemes/geographical-indications-food-and-drink/dresdner-christsollen-pgi_en"}
+      ]
+    },
+    {
+      "id": "de-leipzig",
+      "puntaje": 2,
+      "justificacion": "Tiene especialidades propias como el Leipziger Allerlei y la Leipziger Lerche, y la cerveza Gose. Auerbachs Keller es una taberna histórica.",
+      "platos": ["Leipziger Lerche (pastelito de mazapán)", "Leipziger Allerlei", "Gose (cerveza)"],
+      "fuentes": []
+    },
+    {
+      "id": "de-suiza-sajona",
+      "puntaje": 1,
+      "justificacion": "Es un espacio natural con posadas de excursionistas. Poca oferta.",
+      "platos": [],
+      "fuentes": []
+    },
+    {
+      "id": "de-weimar",
+      "puntaje": 2,
+      "justificacion": "Es tierra de la Thüringer Rostbratwurst, que se vende en puestos del centro, y de las albóndigas de patata de Turingia.",
+      "platos": ["Thüringer Rostbratwurst", "Thüringer Klöße"],
+      "fuentes": []
+    },
+    {
+      "id": "de-valle-del-rin",
+      "puntaje": 2,
+      "justificacion": "El valle está cubierto de viñedos de riesling, con tabernas de vino en Bacharach y la Drosselgasse de Rüdesheim, en el extremo del Rheingau.",
+      "platos": ["Riesling del Rin Medio", "Rüdesheimer Kaffee (café con brandy Asbach)"],
+      "fuentes": []
+    },
+    {
+      "id": "de-valle-del-mosela",
+      "puntaje": 5,
+      "justificacion": "Es una de las grandes regiones de riesling del mundo. Según el Instituto Alemán del Vino, sus viticultores son especialistas en riesling, con 5354 hectáreas de viñedo dominadas por la pizarra y laderas de mucha pendiente que se trabajan a mano. Cochem, Beilstein y Bernkastel-Kues tienen bodegas y tabernas de vino visitables.",
+      "platos": ["Riesling del Mosela", "Federweißer con Zwiebelkuchen en la vendimia", "Döppekooche (pastel de patata)"],
+      "fuentes": [
+        {"guia": "Deutsches Weininstitut (región vinícola Mosela)", "url": "https://www.ch.deutscheweine.de/regionen/anbaugebiet/72/mosel"}
+      ]
+    },
+    {
+      "id": "de-trier",
+      "puntaje": 3,
+      "justificacion": "Es la ciudad del vino del Mosela, el Saar y el Ruwer, región de riesling sobre pizarra. Tiene bodegas históricas en la ciudad, como las de las Vereinigte Hospitien, en sótanos de origen romano.",
+      "platos": ["Riesling del Mosela, Saar y Ruwer", "Viez (sidra de Tréveris)", "Trierer Kartoffelpuffer"],
+      "fuentes": [
+        {"guia": "Deutsches Weininstitut (región vinícola Mosela)", "url": "https://www.ch.deutscheweine.de/regionen/anbaugebiet/72/mosel"}
+      ]
+    },
+    {
+      "id": "de-colonia",
+      "puntaje": 3,
+      "justificacion": "Es la ciudad de la Kölsch, cerveza con indicación geográfica protegida en la UE que solo puede elaborarse en Colonia y su entorno según la Kölsch-Konvention. Se sirve en vasos estrechos en los Brauhäuser del casco antiguo, con cocina renana.",
+      "platos": ["Kölsch (IGP)", "Halve Hahn (panecillo de centeno con queso)", "Himmel un Ääd (puré de patata y manzana con morcilla)", "Rheinischer Sauerbraten"],
+      "fuentes": [
+        {"guia": "Reglamento (CE) 430/2009 (IGP Kölsch)", "url": "https://www.legislation.gov.uk/eur/2009/430/data.htm?view=plain"}
+      ]
+    },
+    {
+      "id": "de-aquisgran",
+      "puntaje": 2,
+      "justificacion": "Su producto típico son las Aachener Printen, galletas especiadas duras que se venden en las pastelerías del centro.",
+      "platos": ["Aachener Printen", "Reisfladen (tarta de arroz)"],
+      "fuentes": []
+    },
+    {
+      "id": "de-frankfurt",
+      "puntaje": 3,
+      "justificacion": "La Frankfurter Grüne Soße, salsa fría de siete hierbas que deben cultivarse en Fráncfort o en los municipios vecinos, tiene indicación geográfica protegida en la UE desde 2016. Se toma con sidra de manzana (Apfelwein) en las tabernas de Sachsenhausen, y la Kleinmarkthalle es su mercado cubierto.",
+      "platos": ["Frankfurter Grüne Soße (IGP)", "Apfelwein (Ebbelwoi)", "Handkäs mit Musik", "Frankfurter Würstchen"],
+      "fuentes": [
+        {"guia": "Reglamento de Ejecución (UE) 2016/326 (IGP Frankfurter Grüne Soße)", "url": "https://www.legislation.gov.uk/eur/2016/326/data.html"},
+        {"guia": "Journal Frankfurt (la Grie Soß recibe el sello de la UE)", "url": "https://www.familie.journal-frankfurt.de/gastro_news/kuchengefluster-26/Grie-Soss-wird-geographisch-geschuetzt-Frankfurter-Gruene-Sosse-erhaelt-EU-Siegel-26578.html"}
+      ]
+    },
+    {
+      "id": "de-hamburgo",
+      "puntaje": 4,
+      "justificacion": "The Table, de Kevin Fehling en HafenCity, fue el primer restaurante de Hamburgo con tres estrellas Michelin, y el turismo oficial reúne los demás restaurantes con estrella de la ciudad. La cocina portuaria se completa con el Fischmarkt de los domingos y los bocadillos de pescado.",
+      "platos": ["Fischbrötchen", "Labskaus", "Franzbrötchen", "Aalsuppe (sopa de anguila)"],
+      "fuentes": [
+        {"guia": "hamburg-travel.com (turismo oficial, The Table)", "url": "https://hamburg-travel.com/shopping-enjoying/restaurants-cafes/the-table-kevin-fehling/?noMobile=1"},
+        {"guia": "Hamburg Marketing (restaurantes con estrella)", "url": "https://marketing.hamburg.de/en/media-service/tourism-culture/culinary-in-hamburg/hamburgs-stars"}
+      ]
+    },
+    {
+      "id": "de-lubeck",
+      "puntaje": 3,
+      "justificacion": "Es la capital del mazapán: el Lübecker Marzipan tiene indicación geográfica protegida en la UE desde 1996, con un mínimo de 70 partes de masa de almendra por 30 de azúcar, y lo vigila una asociación de fabricantes fundada en 1974. Niederegger tiene su casa frente al ayuntamiento desde 1806.",
+      "platos": ["Lübecker Marzipan (IGP)", "Tarta de nueces y mazapán de Niederegger", "Rotspon (vino tinto criado en Lübeck)"],
+      "fuentes": [
+        {"guia": "Asociación para la protección del Lübecker Marzipan", "url": "https://www.lubeca-marzipan.de/en/the-marzipan-association/"}
+      ]
+    },
+    {
+      "id": "de-sylt",
+      "puntaje": 2,
+      "justificacion": "Cría ostras propias en el mar de Wadden y tiene puestos de pescado y alta cocina en Kampen y List.",
+      "platos": ["Ostras Sylter Royal", "Fischbrötchen"],
+      "fuentes": []
+    },
+    {
+      "id": "de-rugen",
+      "puntaje": 2,
+      "justificacion": "Tiene ahumaderos de pescado en los puertos y pueblos de pescadores. Algo de interés.",
+      "platos": ["Arenque y anguila ahumados", "Sanddorn (espino amarillo)"],
+      "fuentes": []
+    },
+    {
+      "id": "de-stralsund",
+      "puntaje": 2,
+      "justificacion": "Tiene puestos de bocadillos de pescado en el puerto y cerveza de la cervecería Störtebeker.",
+      "platos": ["Fischbrötchen de arenque", "Cerveza Störtebeker"],
+      "fuentes": []
+    },
+    {
+      "id": "de-potsdam",
+      "puntaje": 2,
+      "justificacion": "Ofrece cafés y restaurantes en el barrio holandés y la cocina de Brandeburgo, con los espárragos de Beelitz en primavera.",
+      "platos": ["Espárragos de Beelitz", "Pepinillos del Spreewald"],
+      "fuentes": []
+    },
+    {
+      "id": "de-quedlinburg",
+      "puntaje": 1,
+      "justificacion": "Tiene cocina casera del Harz en posadas del casco antiguo. Poca oferta.",
+      "platos": ["Harzer Käse"],
+      "fuentes": []
+    },
+    {
+      "id": "pl-cracovia",
+      "puntaje": 4,
+      "justificacion": "Bottiglieria 1881 es el único restaurante de Polonia con dos estrellas Michelin, que mantiene en la guía 2026, y la ciudad reúne más de veinte restaurantes en la guía, con Bib Gourmand como Bufet KRK, Folga o NOAH. Kazimierz concentra bares y comida callejera, y el obwarzanek se vende en cada esquina.",
+      "platos": ["Obwarzanek krakowski", "Pierogi", "Zapiekanka de Kazimierz", "Kiełbasa a la parrilla"],
+      "fuentes": [
+        {"guia": "Michelin (lista completa de estrellas Polonia 2026)", "url": "https://guide.michelin.com/pl/en/article/michelin-guide-ceremony/the-full-list-of-michelin-star-restaurants-in-poland"},
+        {"guia": "Ayuntamiento de Cracovia (Michelin 2026)", "url": "https://krakow.pl/krakow_open_city/news/322875,245,komunikat,krakow%E2%80%99s_culinary_gems_recognised_by_the_michelin_guide.html"}
+      ]
+    },
+    {
+      "id": "pl-auschwitz-birkenau",
+      "puntaje": 0,
+      "justificacion": "Es un memorial; no es un lugar de interés gastronómico.",
+      "platos": [],
+      "fuentes": []
+    },
+    {
+      "id": "pl-varsovia",
+      "puntaje": 4,
+      "justificacion": "Es, con Cracovia, el centro de la alta cocina polaca: en la guía Michelin 2026 tiene restaurantes con estrella como Alon Omakase, la primera estrella japonesa del país, y hub.praga. Conserva los bares mleczne (comedores populares) y mercados gastronómicos como Hala Koszyki.",
+      "platos": ["Pierogi", "Żurek (sopa de centeno fermentado)", "Pączki", "Bigos"],
+      "fuentes": [
+        {"guia": "Michelin (lista completa de estrellas Polonia 2026)", "url": "https://guide.michelin.com/pl/en/article/michelin-guide-ceremony/the-full-list-of-michelin-star-restaurants-in-poland"},
+        {"guia": "Michelin (nota de prensa Polonia 2026)", "url": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-poland-2026"}
+      ]
+    },
+    {
+      "id": "pl-zakopane-tatras",
+      "puntaje": 3,
+      "justificacion": "Es la tierra del oscypek, queso ahumado de leche de oveja con denominación de origen protegida en la UE desde 2008, que se vende a la parrilla con mermelada de arándano rojo en los puestos de Krupówki. Las karczmas sirven cocina góral de montaña.",
+      "platos": ["Oscypek (DOP) a la parrilla con żurawina", "Bryndza podhalańska (DOP)", "Kwaśnica (sopa de chucrut)", "Moskole (tortas de patata)"],
+      "fuentes": [
+        {"guia": "WIJHARS Cracovia (inspección de calidad agroalimentaria, oscypek DOP)", "url": "https://www.gov.pl/web/wijhars-krakow/oscypek-goralski-skarb-chroniony-prawem-ue"}
+      ]
+    },
+    {
+      "id": "pl-bieszczady",
+      "puntaje": 2,
+      "justificacion": "Tiene cocina de montaña de tradición lemka y boyka en posadas y granjas. Algo de interés.",
+      "platos": ["Proziaki (panecillos de soda)", "Pierogi con patata y queso", "Fuczki (tortas de chucrut)"],
+      "fuentes": []
+    },
+    {
+      "id": "pl-gdansk",
+      "puntaje": 3,
+      "justificacion": "Arco by Paco Pérez tiene una estrella en la primera guía Michelin nacional de Polonia (2026). Es la ciudad del Goldwasser, licor con láminas de oro, y su cocina se apoya en el pescado del Báltico, con buena oferta en Sopot y Gdynia.",
+      "platos": ["Goldwasser (licor con oro)", "Arenque del Báltico", "Pescado ahumado", "Pierogi"],
+      "fuentes": [
+        {"guia": "Michelin (lista completa de estrellas Polonia 2026)", "url": "https://guide.michelin.com/pl/en/article/michelin-guide-ceremony/the-full-list-of-michelin-star-restaurants-in-poland"}
+      ]
+    },
+    {
+      "id": "pl-malbork",
+      "puntaje": 1,
+      "justificacion": "Es un castillo con restaurantes para visitantes. Poca oferta.",
+      "platos": [],
+      "fuentes": []
+    },
+    {
+      "id": "pl-slowinski",
+      "puntaje": 1,
+      "justificacion": "Es un parque de dunas; en Łeba hay puestos de pescado frito y ahumado. Poca oferta.",
+      "platos": ["Pescado ahumado del Báltico"],
+      "fuentes": []
+    },
+    {
+      "id": "pl-peninsula-de-hel",
+      "puntaje": 2,
+      "justificacion": "Tiene ahumaderos y freidurías de pescado en Jastarnia, Jurata y Hel, con cocina casuba. Algo de interés.",
+      "platos": ["Pescado ahumado (platija, caballa)", "Arenque a la casuba"],
+      "fuentes": []
+    },
+    {
+      "id": "pl-torun",
+      "puntaje": 3,
+      "justificacion": "Es la ciudad del pan de jengibre: los pierniki se elaboran aquí sin interrupción desde la Edad Media y la cultura del piernik de Toruń está en la lista nacional de patrimonio inmaterial. Se pueden comprar en las tiendas históricas y hacer en el Museo del Piernik.",
+      "platos": ["Pierniki toruńskie", "Katarzynki (pan de jengibre en forma de nube)"],
+      "fuentes": [
+        {"guia": "PAP (el piernik de Toruń en la lista nacional de patrimonio inmaterial)", "url": "https://www.pap.pl/aktualnosci/kultura-torunskiego-piernika-trafila-na-krajowa-liste-niematerialnego-dziedzictwa"}
+      ]
+    },
+    {
+      "id": "pl-wroclaw",
+      "puntaje": 3,
+      "justificacion": "BABA subió a una estrella en la guía Michelin Polonia 2026, la primera de alcance nacional. La plaza del Mercado concentra restaurantes y cervecerías, como el Piwnica Świdnicka, uno de los más antiguos de Europa.",
+      "platos": ["Pierogi", "Żurek", "Cerveza artesanal de Baja Silesia"],
+      "fuentes": [
+        {"guia": "Michelin (lista completa de estrellas Polonia 2026)", "url": "https://guide.michelin.com/pl/en/article/michelin-guide-ceremony/the-full-list-of-michelin-star-restaurants-in-poland"}
+      ]
+    },
+    {
+      "id": "pl-karkonosze",
+      "puntaje": 1,
+      "justificacion": "Es una zona de montaña con albergues y posadas. Poca oferta.",
+      "platos": [],
+      "fuentes": []
+    },
+    {
+      "id": "pl-poznan",
+      "puntaje": 3,
+      "justificacion": "Es la ciudad del rogal świętomarciński, cruasán relleno de semilla de amapola blanca, con indicación geográfica protegida en la UE desde 2008. Se come por toneladas cada 11 de noviembre, día de San Martín, y tiene un museo propio en el casco antiguo.",
+      "platos": ["Rogal świętomarciński (IGP)", "Pyry z gzikiem (patatas con requesón)", "Szare kluski"],
+      "fuentes": [
+        {"guia": "Reglamento (CE) 1070/2008 (IGP Rogal świętomarciński)", "url": "https://eur-lex.europa.eu/eli/reg/2008/1070/oj"}
+      ]
+    },
+    {
+      "id": "pl-bialowieza",
+      "puntaje": 2,
+      "justificacion": "Tiene cocina de Podlaquia, con influencias bielorrusas, y es la cuna del vodka de hierba de bisonte.",
+      "platos": ["Vodka de hierba de bisonte (Żubrówka)", "Babka ziemniaczana", "Kartacze"],
+      "fuentes": []
+    },
+    {
+      "id": "pl-lagos-masurianos",
+      "puntaje": 2,
+      "justificacion": "Tiene pescado de lago (corégono, lucioperca) en las tabernas de Mikołajki y los puertos. Algo de interés.",
+      "platos": ["Sielawa (corégono) ahumada", "Lucioperca de los lagos"],
+      "fuentes": []
+    },
+    {
+      "id": "pl-lublin",
+      "puntaje": 2,
+      "justificacion": "Es la ciudad del cebularz, torta de cebolla y amapola de tradición judía que se vende en las panaderías del casco antiguo.",
+      "platos": ["Cebularz lubelski", "Forszmak lubelski"],
+      "fuentes": []
+    },
+    {
+      "id": "pl-zamosc",
+      "puntaje": 1,
+      "justificacion": "Tiene restaurantes en los soportales de la plaza mayor. Poca oferta.",
+      "platos": ["Pierogi"],
+      "fuentes": []
+    }
+  ],
+  "nuevos": [
+    {
+      "id": "de-deidesheim",
+      "nombre": "Deidesheim y la Ruta Alemana del Vino",
+      "pais_iso": "DE",
+      "region": "Renania-Palatinado (Palatinado)",
+      "lat": 49.4075,
+      "lng": 8.1847,
+      "tipo": "region",
+      "puntaje": 5,
+      "justificacion": "Pueblo vinícola en el centro de la Deutsche Weinstraße, la ruta del vino del Palatinado, entre Neustadt y Bad Dürkheim, con grandes bodegas históricas de riesling. En la guía Michelin 2026 L.A. Jordan, instalado en la antigua finca de la bodega Bassermann-Jordan, subió a tres estrellas: es el primer tres estrellas del Palatinado y el único nuevo de Alemania ese año.",
+      "platos": ["Riesling del Palatinado", "Saumagen (estómago de cerdo relleno)", "Dampfnudeln", "Federweißer con Zwiebelkuchen"],
+      "fuentes": [
+        {"guia": "Michelin (ficha de L.A. Jordan)", "url": "https://guide.michelin.com/en/rheinland-pfalz/deidesheim/restaurant/l-a-jordan"},
+        {"guia": "Michelin (nota de prensa Alemania 2026)", "url": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-germany-2026"},
+        {"guia": "Tageskarte (L.A. Jordan, tres estrellas 2026)", "url": "https://www.tageskarte.io/gastronomie/detail/michelin-guide-2026-deutschland-zeichnet-la-jordan-mit-drei-sternen-aus.html"}
+      ]
+    },
+    {
+      "id": "de-baiersbronn",
+      "nombre": "Baiersbronn",
+      "pais_iso": "DE",
+      "region": "Baden-Wurtemberg (Selva Negra)",
+      "lat": 48.5036,
+      "lng": 8.3711,
+      "tipo": "pueblo",
+      "puntaje": 4,
+      "justificacion": "Pueblo de la Selva Negra norte convertido en destino de alta cocina. La Schwarzwaldstube, restaurante del hotel Traube Tonbach, tiene tres estrellas Michelin sin interrupción desde comienzos de los años noventa y las mantuvo tras su reconstrucción después del incendio, con Torsten Michel en la cocina. Se combina con la cocina regional de la Selva Negra.",
+      "platos": ["Menú de la Schwarzwaldstube", "Schwarzwälder Schinken (IGP)", "Tarta Selva Negra", "Trucha de la Selva Negra"],
+      "fuentes": [
+        {"guia": "Michelin (ficha de la Schwarzwaldstube)", "url": "https://guide.michelin.com/no/en/baden-wurttemberg/baiersbronn/restaurant/schwarzwaldstube"},
+        {"guia": "Tageskarte (la Schwarzwaldstube recupera las tres estrellas)", "url": "https://www.tageskarte.io/gastronomie/detail/schwarzwaldstube-wieder-mit-drei-sternen-ausgezeichnet.html"}
+      ]
+    },
+    {
+      "id": "pl-zielona-gora",
+      "nombre": "Zielona Góra y la Ruta del Vino de Lubusz",
+      "pais_iso": "PL",
+      "region": "Lubusz",
+      "lat": 51.9356,
+      "lng": 15.5062,
+      "tipo": "ciudad",
+      "puntaje": 3,
+      "justificacion": "Es la capital del vino polaco, con tradición vitícola desde la Edad Media. La Lubuski Szlak Wina i Miodu, creada en 2007 y elegida mejor producto turístico por la Organización Polaca de Turismo en 2011, une decenas de viñedos y colmenares visitables, con el Centro del Vino de Lubusz en Zabór. En septiembre la ciudad celebra el Winobranie, su fiesta de la vendimia.",
+      "platos": ["Vino de Lubusz", "Miel de la región", "Pierogi"],
+      "fuentes": [
+        {"guia": "Gobierno regional de Lubusz (viñedos de Lubusz)", "url": "https://lubuskie.pl/wiadomosci/15436/lubuskienawakacje--czesc-v---zachwyc-sie-lubuskimi-winnicami.pdf"},
+        {"guia": "National Geographic Traveler Polska (viñedos de Lubusz)", "url": "https://www.national-geographic.pl/traveler/kierunki/polska-toskania-odkrywamy-lubuskie-winnice-z-agnieszka-trolese/"}
+      ]
+    }
+  ]
+}

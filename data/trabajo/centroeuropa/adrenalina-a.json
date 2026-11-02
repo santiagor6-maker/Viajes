@@ -1,0 +1,428 @@
+{
+  "agente": "adrenalina",
+  "subregion": "centroeuropa",
+  "grupo": "a",
+  "paises": ["DE", "PL"],
+  "ronda": 1,
+  "criterio": "Toda actividad o parque a 60 km o menos en línea recta desde las coordenadas del candidato cuenta para cada lugar del radio. Monumentos, museos y sitios religiosos tienen tope de 2 salvo que la actividad esté en el propio lugar; espacios naturales que solo se recorren a pie, tope de 3. Escala: 5 si hay oferta de clase mundial en el lugar o a 15 km o menos; 4 si hay una actividad de primer nivel europeo a 30 km o menos o varias actividades destacadas; 3 si hay una actividad notable en el radio o una de primer nivel a más de 30 km; 2 si solo hay oferta menor o la única actividad está en el borde del radio (50–60 km); 1 si no se encontró oferta verificable. Un 3 o más exige al menos una actividad con web del operador, turismo oficial o RCDB.",
+  "busquedas_usadas": 21,
+  "puntajes": [
+    {
+      "id": "de-berlin",
+      "puntaje": 1,
+      "justificacion": "Capital sin parques de atracciones grandes ni operadores de adrenalina verificables a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "de-munich",
+      "puntaje": 2,
+      "justificacion": "Las estaciones de esquí de los Prealpes bávaros, como Brauneck (Lenggries) o Spitzingsee, quedan a unos 50–57 km, en el borde del radio; la Zugspitze y Garmisch están a más de 70 km. En la ciudad no hay oferta de adrenalina destacada.",
+      "actividades": []
+    },
+    {
+      "id": "de-neuschwanstein",
+      "puntaje": 2,
+      "justificacion": "La estación de esquí de la Zugspitze, la más alta de Alemania, queda a 24 km y la de Garmisch-Classic a 27 km, pero la visita es la del castillo y el pueblo de Füssen.",
+      "actividades": [
+        { "nombre": "Esquí en la Zugspitze", "tipo": "esqui", "km": 24, "lat": 47.4090, "lng": 10.9820, "temporada": "nov–may", "url": "https://zugspitze.de/en/Ski-season-begins-on-the-Zugspitze-The-summit-cross-returns_bba_1716776" },
+        { "nombre": "Esquí en Garmisch-Classic", "tipo": "esqui", "km": 27, "lat": 47.4650, "lng": 11.0780, "temporada": "dic–mar", "url": "https://zugspitze.de/en/Service-information/Tickets-rates/Garmisch-Classic" }
+      ]
+    },
+    {
+      "id": "de-rothenburg-ob-der-tauber",
+      "puntaje": 1,
+      "justificacion": "Pueblo medieval sin parques ni operadores de adrenalina verificables a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "de-bamberg",
+      "puntaje": 2,
+      "justificacion": "El Erlebnispark Schloss Thurn, en Heroldsbach, a unos 23 km, es un parque de atracciones mediano de Franconia; no hay oferta de adrenalina de primer nivel en el radio.",
+      "actividades": []
+    },
+    {
+      "id": "de-nuremberg",
+      "puntaje": 2,
+      "justificacion": "El Erlebnispark Schloss Thurn, en Heroldsbach, a unos 28 km, es un parque de atracciones mediano de Franconia; no hay oferta de adrenalina de primer nivel en el radio.",
+      "actividades": []
+    },
+    {
+      "id": "de-wurzburg",
+      "puntaje": 1,
+      "justificacion": "Ciudad barroca sin parques ni operadores de adrenalina verificables a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "de-regensburg",
+      "puntaje": 1,
+      "justificacion": "Ciudad medieval sin parques ni operadores de adrenalina verificables a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "de-berchtesgaden",
+      "puntaje": 4,
+      "justificacion": "Desde la cima del Jenner, a 6 km, despegan los vuelos en parapente biplaza con las escuelas asociadas a la Jennerbahn, con el Königssee a los pies; junto a la estación superior sale la vía ferrata Schützensteig al Kleiner Jenner.",
+      "actividades": [
+        { "nombre": "Parapente biplaza desde el Jenner (Jennerbahn)", "tipo": "parapente", "km": 6, "lat": 47.5772, "lng": 13.0236, "temporada": "todo el año (según clima)", "url": "https://www.jennerbahn.de/en/air-sports/" },
+        { "nombre": "Vía ferrata Schützensteig (Kleiner Jenner)", "tipo": "via_ferrata", "km": 6, "lat": 47.5800, "lng": 13.0170, "temporada": "jun–oct", "url": "https://www.berchtesgaden.de/en/touren/schuetzensteig-auf-den-kleinen-jenner" }
+      ]
+    },
+    {
+      "id": "de-garmisch-zugspitze",
+      "puntaje": 4,
+      "justificacion": "Dos estaciones de esquí destacadas en el radio: Garmisch-Classic, sobre el pueblo, a 3 km, y el esquí en la Zugspitze, a 13 km, el más alto de Alemania, con temporada de finales de noviembre a principios de mayo.",
+      "actividades": [
+        { "nombre": "Esquí en Garmisch-Classic", "tipo": "esqui", "km": 3, "lat": 47.4650, "lng": 11.0780, "temporada": "dic–mar", "url": "https://zugspitze.de/en/Service-information/Tickets-rates/Garmisch-Classic" },
+        { "nombre": "Esquí en la Zugspitze", "tipo": "esqui", "km": 13, "lat": 47.4090, "lng": 10.9820, "temporada": "nov–may", "url": "https://zugspitze.de/en/Ski-season-begins-on-the-Zugspitze-The-summit-cross-returns_bba_1716776" }
+      ]
+    },
+    {
+      "id": "de-heidelberg",
+      "puntaje": 3,
+      "justificacion": "Plopsaland Deutschland (antes Holiday Park), en Haßloch, a 32 km, tiene Expedition GeForce, una de las montañas rusas mejor valoradas del mundo: 55 m de altura, caída de 82° y 120 km/h, varias veces ganadora del Golden Ticket Award.",
+      "actividades": [
+        { "nombre": "Plopsaland Deutschland (Expedition GeForce)", "tipo": "parque_diversiones", "km": 32, "lat": 49.3180, "lng": 8.2990, "temporada": "mar–nov", "url": "https://www.holidaypark.de/en/attractions/bigfm-expedition-geforce" }
+      ]
+    },
+    {
+      "id": "de-selva-negra",
+      "puntaje": 3,
+      "justificacion": "Europa-Park, en Rust, a 41 km, es el mayor parque temático de Alemania y uno de los mejores de Europa, con 14 montañas rusas, entre ellas Silver Star (73 m, 130 km/h) y Voltron Nevera.",
+      "actividades": [
+        { "nombre": "Europa-Park (Silver Star, Voltron Nevera)", "tipo": "parque_diversiones", "km": 41, "lat": 48.2660, "lng": 7.7220, "temporada": "abr–nov y temporada de invierno", "url": "https://www.europapark.de/en/theme-park/attractions/silver-star" }
+      ]
+    },
+    {
+      "id": "de-lago-constanza",
+      "puntaje": 1,
+      "justificacion": "Lago con pueblos y viñedos, sin parques ni operadores de adrenalina verificables a 60 km de Meersburg.",
+      "actividades": []
+    },
+    {
+      "id": "de-dresden",
+      "puntaje": 1,
+      "justificacion": "Ciudad sin parques ni operadores de adrenalina verificables a 60 km; la escalada en arenisca de la Suiza Sajona queda a unos 25 km, pero sin operador oficial que citar.",
+      "actividades": []
+    },
+    {
+      "id": "de-leipzig",
+      "puntaje": 3,
+      "justificacion": "Belantis, a 9 km al sur de la ciudad, es el mayor parque de atracciones del este de Alemania; su montaña rusa Huracan, con caída de 97°, es la más empinada del país.",
+      "actividades": [
+        { "nombre": "Belantis (Huracan)", "tipo": "parque_diversiones", "km": 9, "lat": 51.2660, "lng": 12.3330, "temporada": "abr–nov", "url": "https://www.belantis.de/en/discover-belantis/attractions/huracan" }
+      ]
+    },
+    {
+      "id": "de-suiza-sajona",
+      "puntaje": 2,
+      "justificacion": "Las torres de arenisca del Elba son una zona histórica de escalada libre, pero no se encontró un operador oficial de escalada guiada o de otra actividad de aventura que citar.",
+      "actividades": []
+    },
+    {
+      "id": "de-weimar",
+      "puntaje": 1,
+      "justificacion": "Ciudad clásica sin parques ni operadores de adrenalina verificables a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "de-valle-del-rin",
+      "puntaje": 2,
+      "justificacion": "El circuito de Nürburgring, donde cualquiera puede rodar con su coche por la Nordschleife, queda a 58 km de St. Goar, en el borde del radio.",
+      "actividades": [
+        { "nombre": "Nürburgring: Touristenfahrten en la Nordschleife", "tipo": "motor", "km": 58, "lat": 50.3356, "lng": 6.9475, "temporada": "mar–nov", "url": "https://nuerburgring.de/driving/touristdrives" }
+      ]
+    },
+    {
+      "id": "de-valle-del-mosela",
+      "puntaje": 4,
+      "justificacion": "El Nürburgring, a 26 km de Cochem, permite rodar con el propio coche o moto por la Nordschleife, el «Infierno Verde» de 20,8 km, en las Touristenfahrten de marzo a noviembre (30–35 € la vuelta).",
+      "actividades": [
+        { "nombre": "Nürburgring: Touristenfahrten en la Nordschleife", "tipo": "motor", "km": 26, "lat": 50.3356, "lng": 6.9475, "temporada": "mar–nov", "url": "https://nuerburgring.de/driving/touristdrives" }
+      ]
+    },
+    {
+      "id": "de-trier",
+      "puntaje": 1,
+      "justificacion": "Ciudad romana sin parques ni operadores de adrenalina verificables a 60 km; el Nürburgring queda a unos 65 km, fuera del radio.",
+      "actividades": []
+    },
+    {
+      "id": "de-colonia",
+      "puntaje": 4,
+      "justificacion": "Phantasialand, en Brühl, a 17 km, es uno de los parques temáticos más premiados de Europa: Taron, la montaña rusa de lanzamiento múltiple más larga del mundo y nueve veces elegida la mejor de Alemania, y F.L.Y., la primera montaña rusa voladora con lanzamiento, que atraviesa un hotel.",
+      "actividades": [
+        { "nombre": "Phantasialand (Taron, F.L.Y.)", "tipo": "parque_diversiones", "km": 17, "lat": 50.7990, "lng": 6.8790, "temporada": "abr–nov y Wintertraum en invierno", "url": "https://www.phantasialand.de/en/theme-park/one-of-a-kind-attractions/taron/" }
+      ]
+    },
+    {
+      "id": "de-aquisgran",
+      "puntaje": 2,
+      "justificacion": "Phantasialand, con Taron y F.L.Y., queda a 56 km, en el borde del radio.",
+      "actividades": [
+        { "nombre": "Phantasialand (Taron, F.L.Y.)", "tipo": "parque_diversiones", "km": 56, "lat": 50.7990, "lng": 6.8790, "temporada": "abr–nov y Wintertraum en invierno", "url": "https://www.phantasialand.de/en/theme-park/one-of-a-kind-attractions/taron/" }
+      ]
+    },
+    {
+      "id": "de-frankfurt",
+      "puntaje": 1,
+      "justificacion": "Ciudad sin parques grandes ni operadores de adrenalina verificables a 60 km; Plopsaland Deutschland queda a unos 88 km.",
+      "actividades": []
+    },
+    {
+      "id": "de-hamburgo",
+      "puntaje": 2,
+      "justificacion": "El Heide Park Resort, en Soltau, con la montaña rusa de madera Colossos, queda a 59 km, en el borde del radio.",
+      "actividades": [
+        { "nombre": "Heide Park Resort (Colossos)", "tipo": "parque_diversiones", "km": 59, "lat": 53.0250, "lng": 9.8700, "temporada": "mar–nov", "url": "https://www.heide-park.de/en/explore/attractions-shows-entertainment/rides-attractions/colossos-kampf-der-giganten/" }
+      ]
+    },
+    {
+      "id": "de-lubeck",
+      "puntaje": 4,
+      "justificacion": "El Hansa-Park, en Sierksdorf, a 24 km, junto al Báltico, tiene Der Schwur des Kärnan, la segunda montaña rusa más alta de Europa (torre de 79 m, 127 km/h), con una caída libre hacia atrás de más de 60 m única en el mundo.",
+      "actividades": [
+        { "nombre": "Hansa-Park (Der Schwur des Kärnan)", "tipo": "parque_diversiones", "km": 24, "lat": 54.0760, "lng": 10.7780, "temporada": "abr–oct", "url": "https://hansapark.de/attraktion/13/details/der-schwur-des-kaernan?wcs=" }
+      ]
+    },
+    {
+      "id": "de-sylt",
+      "puntaje": 2,
+      "justificacion": "Isla de playas abiertas al mar del Norte, con escuelas de surf y kitesurf en Westerland, pero no se encontró un operador oficial que citar.",
+      "actividades": []
+    },
+    {
+      "id": "de-rugen",
+      "puntaje": 1,
+      "justificacion": "Isla de acantilados y balnearios sin parques ni operadores de adrenalina verificables a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "de-stralsund",
+      "puntaje": 1,
+      "justificacion": "Ciudad hanseática sin parques ni operadores de adrenalina verificables a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "de-potsdam",
+      "puntaje": 1,
+      "justificacion": "Ciudad de palacios sin parques ni operadores de adrenalina verificables a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "de-quedlinburg",
+      "puntaje": 4,
+      "justificacion": "En la presa del Rappbode, a 18 km, Harzdrenalin reúne la Megazipline, anunciada como la mayor tirolesa doble de Europa, el GigaSwing, un péndulo de unos 70 m de caída libre desde el puente colgante Titan RT, y la catapulta Ultrashot.",
+      "actividades": [
+        { "nombre": "Harzdrenalin: Megazipline y GigaSwing (presa del Rappbode)", "tipo": "tirolesa", "km": 18, "lat": 51.7390, "lng": 10.8930, "temporada": "mar–nov (según clima)", "url": "https://harzdrenalin.de/en/" }
+      ]
+    },
+    {
+      "id": "pl-cracovia",
+      "puntaje": 3,
+      "justificacion": "Energylandia, en Zator, a 38 km, es el mayor parque de atracciones de Polonia y uno de los mejores de Europa, con Zadra, híbrida de madera y acero de 62,8 m con caída vertical, y Hyperion, la montaña rusa más alta y rápida del país.",
+      "actividades": [
+        { "nombre": "Energylandia (Zadra, Hyperion)", "tipo": "parque_diversiones", "km": 38, "lat": 49.9990, "lng": 19.4120, "temporada": "abr–nov (por calendario)", "url": "https://energylandia.pl/en/?p=102443" }
+      ]
+    },
+    {
+      "id": "pl-auschwitz-birkenau",
+      "puntaje": 2,
+      "justificacion": "Energylandia queda a 15 km, pero la visita es la del memorial y museo del campo, sin actividad de adrenalina propia.",
+      "actividades": [
+        { "nombre": "Energylandia (Zadra, Hyperion)", "tipo": "parque_diversiones", "km": 15, "lat": 49.9990, "lng": 19.4120, "temporada": "abr–nov (por calendario)", "url": "https://energylandia.pl/en/?p=102443" }
+      ]
+    },
+    {
+      "id": "pl-varsovia",
+      "puntaje": 3,
+      "justificacion": "Suntago, en Wręcza (Mszczonów), a 46 km, se presenta como el mayor parque acuático cubierto de Europa, con toboganes y zonas tropicales abiertas todo el año.",
+      "actividades": [
+        { "nombre": "Suntago Wodny Świat (Park of Poland)", "tipo": "parque_acuatico", "km": 46, "lat": 51.9680, "lng": 20.4880, "temporada": "todo el año", "url": "https://parkofpoland.com/en/attractions" }
+      ]
+    },
+    {
+      "id": "pl-zakopane-tatras",
+      "puntaje": 3,
+      "justificacion": "El Kasprowy Wierch, a 8 km, es la única estación de esquí de alta montaña de Polonia: el teleférico desde Kuźnice y las pistas de Goryczkowa y Gąsienicowa, con más de 5,5 km de bajada hasta Kuźnice; la temporada suele acabar a principios de mayo.",
+      "actividades": [
+        { "nombre": "Esquí en el Kasprowy Wierch (PKL)", "tipo": "esqui", "km": 8, "lat": 49.2320, "lng": 19.9819, "temporada": "dic–may (según nieve)", "url": "https://www.pkl.pl/kasprowy-wierch/trasy-narciarskie.html" }
+      ]
+    },
+    {
+      "id": "pl-bieszczady",
+      "puntaje": 1,
+      "justificacion": "Montañas para senderismo sin parques ni operadores de adrenalina verificables a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "pl-gdansk",
+      "puntaje": 1,
+      "justificacion": "Ciudad portuaria sin parques ni operadores de adrenalina verificables a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "pl-malbork",
+      "puntaje": 1,
+      "justificacion": "Castillo teutónico sin parques ni operadores de adrenalina verificables a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "pl-slowinski",
+      "puntaje": 1,
+      "justificacion": "Dunas que se recorren a pie, sin parques ni operadores de adrenalina verificables a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "pl-peninsula-de-hel",
+      "puntaje": 2,
+      "justificacion": "La bahía de Puck, entre Chałupy y Jastarnia, es la zona de kitesurf y windsurf más conocida de Polonia, con escuelas en la orilla, pero no se encontró un operador oficial que citar.",
+      "actividades": []
+    },
+    {
+      "id": "pl-torun",
+      "puntaje": 1,
+      "justificacion": "Ciudad gótica sin parques ni operadores de adrenalina verificables a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "pl-wroclaw",
+      "puntaje": 1,
+      "justificacion": "Ciudad sin parques grandes ni operadores de adrenalina verificables a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "pl-karkonosze",
+      "puntaje": 2,
+      "justificacion": "Karpacz tiene dos estaciones de esquí pequeñas en la ladera del Śnieżka, Karpacz Ski Arena (Kopa) y Winterpol Biały Jar, de oferta modesta; no se encontró la web oficial de los operadores.",
+      "actividades": []
+    },
+    {
+      "id": "pl-poznan",
+      "puntaje": 1,
+      "justificacion": "Ciudad sin parques grandes ni operadores de adrenalina verificables a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "pl-bialowieza",
+      "puntaje": 1,
+      "justificacion": "Bosque primario que se recorre a pie, sin oferta de adrenalina a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "pl-lagos-masurianos",
+      "puntaje": 1,
+      "justificacion": "Distrito de lagos para vela y piragüismo tranquilo, sin parques ni operadores de adrenalina verificables a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "pl-lublin",
+      "puntaje": 1,
+      "justificacion": "Ciudad sin parques ni operadores de adrenalina verificables a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "pl-zamosc",
+      "puntaje": 1,
+      "justificacion": "Ciudad renacentista sin parques ni operadores de adrenalina verificables a 60 km.",
+      "actividades": []
+    }
+  ],
+  "nuevos": [
+    {
+      "id": "de-europa-park",
+      "nombre": "Europa-Park (Rust)",
+      "pais_iso": "DE",
+      "region": "Baden-Wurtemberg",
+      "lat": 48.2660,
+      "lng": 7.7220,
+      "tipo": "parque_diversiones",
+      "destino_propio": true,
+      "puntaje": 5,
+      "justificacion": "El mayor parque temático de Alemania, en la llanura del Rin junto a la frontera francesa, a 41 km de la Selva Negra: Silver Star, la montaña rusa más alta del país (73 m, 130 km/h), y Voltron Nevera, abierta en 2024, entre sus 14 montañas rusas. Abre de abril a noviembre y en temporada de invierno.",
+      "actividades": [
+        { "nombre": "Europa-Park (Silver Star, Voltron Nevera)", "tipo": "parque_diversiones", "km": 0, "lat": 48.2660, "lng": 7.7220, "temporada": "abr–nov y temporada de invierno", "url": "https://www.europapark.de/en/theme-park/attractions/silver-star" }
+      ],
+      "fuentes": [
+        { "guia": "Sitio oficial", "url": "https://www.europapark.de/en/theme-park/attractions/silver-star" },
+        { "guia": "RCDB", "url": "https://rcdb.com/4870.htm" }
+      ]
+    },
+    {
+      "id": "de-phantasialand",
+      "nombre": "Phantasialand (Brühl)",
+      "pais_iso": "DE",
+      "region": "Renania del Norte-Westfalia",
+      "lat": 50.7990,
+      "lng": 6.8790,
+      "tipo": "parque_diversiones",
+      "destino_propio": true,
+      "puntaje": 5,
+      "justificacion": "Parque temático a 17 km de Colonia, famoso por su ambientación: Taron, la montaña rusa de lanzamiento múltiple más larga del mundo y nueve veces elegida la mejor de Alemania por el público de Parkscout, y F.L.Y., la primera montaña rusa voladora con lanzamiento, que atraviesa el hotel Charles Lindbergh.",
+      "actividades": [
+        { "nombre": "Phantasialand (Taron, F.L.Y.)", "tipo": "parque_diversiones", "km": 0, "lat": 50.7990, "lng": 6.8790, "temporada": "abr–nov y Wintertraum en invierno", "url": "https://www.phantasialand.de/en/theme-park/one-of-a-kind-attractions/taron/" }
+      ],
+      "fuentes": [
+        { "guia": "Sitio oficial", "url": "https://www.phantasialand.de/en/theme-park/one-of-a-kind-attractions/taron/" },
+        { "guia": "Sitio oficial", "url": "https://www.phantasialand.de/en/theme-park/rookburgh/f-l-y/" },
+        { "guia": "RCDB", "url": "https://rcdb.com/4872.htm" }
+      ]
+    },
+    {
+      "id": "de-nurburgring",
+      "nombre": "Nürburgring (Nordschleife)",
+      "pais_iso": "DE",
+      "region": "Renania-Palatinado",
+      "lat": 50.3356,
+      "lng": 6.9475,
+      "tipo": "motor",
+      "destino_propio": true,
+      "puntaje": 5,
+      "justificacion": "El legendario «Infierno Verde» de la Eifel, a 26 km de Cochem: en las Touristenfahrten, de marzo a noviembre, cualquiera con carné y un coche o moto matriculados puede rodar por la Nordschleife o el circuito de Gran Premio, por 30 € la vuelta entre semana y 35 € en fin de semana.",
+      "actividades": [
+        { "nombre": "Touristenfahrten en la Nordschleife", "tipo": "motor", "km": 0, "lat": 50.3356, "lng": 6.9475, "temporada": "mar–nov", "url": "https://nuerburgring.de/driving/touristdrives" }
+      ],
+      "fuentes": [
+        { "guia": "Sitio oficial", "url": "https://nuerburgring.de/driving/touristdrives" },
+        { "guia": "Sitio oficial", "url": "https://nuerburgring.de/news/vorfreude-auf-die-gruene-hoelle-nuerburgring-gibt-termine-fuer-touristenfahrten-2026-bekannt" }
+      ]
+    },
+    {
+      "id": "de-heide-park",
+      "nombre": "Heide Park Resort (Soltau)",
+      "pais_iso": "DE",
+      "region": "Baja Sajonia",
+      "lat": 53.0250,
+      "lng": 9.8700,
+      "tipo": "parque_diversiones",
+      "destino_propio": true,
+      "puntaje": 4,
+      "justificacion": "El mayor parque de atracciones del norte de Alemania, en el brezal de Luneburgo, a 59 km de Hamburgo: siete grandes montañas rusas, con Colossos, la montaña rusa de madera más alta y rápida de Europa (60 m, 110 km/h), que cumplió 25 años en 2026. Abre de marzo a noviembre.",
+      "actividades": [
+        { "nombre": "Heide Park Resort (Colossos)", "tipo": "parque_diversiones", "km": 0, "lat": 53.0250, "lng": 9.8700, "temporada": "mar–nov", "url": "https://www.heide-park.de/en/explore/attractions-shows-entertainment/rides-attractions/colossos-kampf-der-giganten/" }
+      ],
+      "fuentes": [
+        { "guia": "Sitio oficial", "url": "https://www.heide-park.de/en/explore/attractions-shows-entertainment/rides-attractions/colossos-kampf-der-giganten/" },
+        { "guia": "Sitio oficial", "url": "https://www.heide-park.de/entdecken/attraktionen-shows-entertainment/unsere-big-7-grossbahnen/" }
+      ]
+    },
+    {
+      "id": "pl-energylandia",
+      "nombre": "Energylandia (Zator)",
+      "pais_iso": "PL",
+      "region": "Pequeña Polonia",
+      "lat": 49.9990,
+      "lng": 19.4120,
+      "tipo": "parque_diversiones",
+      "destino_propio": true,
+      "puntaje": 5,
+      "justificacion": "El mayor parque de atracciones de Polonia y uno de los de más montañas rusas de Europa, a 38 km de Cracovia: Zadra, híbrida de madera y acero de 62,8 m con caída vertical a 90°, y Hyperion, la montaña rusa más alta, rápida y larga del país. Abre de primavera a otoño según calendario.",
+      "actividades": [
+        { "nombre": "Energylandia (Zadra, Hyperion)", "tipo": "parque_diversiones", "km": 0, "lat": 49.9990, "lng": 19.4120, "temporada": "abr–nov (por calendario)", "url": "https://energylandia.pl/en/?p=102443" }
+      ],
+      "fuentes": [
+        { "guia": "Sitio oficial", "url": "https://energylandia.pl/en/?p=102443" }
+      ]
+    }
+  ],
+  "estado": "completo"
+}

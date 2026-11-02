@@ -1,0 +1,10 @@
+{
+  "agente": "gastronomia-vino",
+  "subregion": "centroeuropa",
+  "grupo": "b",
+  "ronda": 1,
+  "paises": ["CZ", "SK", "HU", "SI"],
+  "estado": "en_progreso",
+  "puntajes": [],
+  "nuevos": []
+}
