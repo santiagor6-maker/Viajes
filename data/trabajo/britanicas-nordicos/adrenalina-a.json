@@ -1,0 +1,20 @@
+{
+  "agente": "adrenalina",
+  "subregion": "britanicas-nordicos",
+  "grupo": "a",
+  "paises": ["GB", "IE", "IS"],
+  "ronda": 1,
+  "estado": "en_progreso",
+  "busquedas_usadas": 8,
+  "puntajes": [
+    {
+      "id": "gb-londres",
+      "puntaje": 4,
+      "justificacion": "Dos grandes parques a menos de 30 km: Thorpe Park (29 km), con Hyperia, la montaña rusa más alta y rápida del Reino Unido (72 m), y Stealth, y Chessington World of Adventures (22 km).",
+      "actividades": [
+        { "nombre": "Thorpe Park (Hyperia, Stealth)", "tipo": "parque_diversiones", "km": 29, "lat": 51.4036, "lng": -0.5130, "temporada": "mar–nov", "url": "https://merlinannualpass.co.uk/our-attractions/thorpe-park" }
+      ]
+    }
+  ],
+  "nuevos": []
+}

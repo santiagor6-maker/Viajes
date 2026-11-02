@@ -1,0 +1,14 @@
+{
+  "agente": "naturaleza",
+  "subregion": "britanicas-nordicos",
+  "grupo": "a",
+  "ronda": 1,
+  "paises": ["GB", "IE", "IS"],
+  "notas": "Borrador parcial: faltan búsquedas para varios puntajes de 3 o más y para algunos lugares nuevos.",
+  "puntajes": [
+    { "id": "gb-lake-district", "puntaje": 5, "unesco": false, "justificacion": "Parque nacional de montañas y lagos glaciares, Patrimonio Mundial como paisaje cultural desde 2017.", "actividad": "Subida al Scafell Pike desde Wasdale Head", "fuentes": [ { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/422/" } ] },
+    { "id": "gb-calzada-del-gigante", "puntaje": 5, "unesco": true, "justificacion": "Unas 40.000 columnas de basalto de hace unos 60 millones de años. Patrimonio Natural UNESCO desde 1986.", "actividad": "Sendero de la costa de Causeway", "fuentes": [ { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/369/" } ] },
+    { "id": "is-jokulsarlon", "puntaje": 5, "unesco": true, "justificacion": "Laguna glaciar en Breiðamerkursandur, dentro del parque nacional Vatnajökull.", "actividad": "Paseo por la orilla y Fellsfjara", "fuentes": [ { "guia": "Vatnajökull National Park (oficial)", "url": "https://www.vatnajokulsthjodgardur.is/en/areas/jokulsarlon" } ] }
+  ],
+  "nuevos": []
+}

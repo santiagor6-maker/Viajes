@@ -5,27 +5,10 @@
   "ronda": 1,
   "paises": ["NO", "SE", "FI", "DK", "EE", "LV", "LT"],
   "estado": "en_progreso",
+  "notas": "Borrador guardado tras el corte por límite de uso; faltan 5 búsquedas (Bohuslän, Gotland, Kuopio/Tampere, Trakai, Laponia).",
   "puntajes": [
-    {
-      "id": "no-oslo",
-      "puntaje": 5,
-      "justificacion": "Maaemo, abierto en 2010, fue en 2016 el primer restaurante de Noruega con tres estrellas Michelin y las mantiene en la guía 2026, además de una estrella verde. La ciudad suma varios restaurantes con estrella, como Credo, que la recuperó en 2026 tras mudarse desde Trondheim.",
-      "platos": ["Bacalao skrei", "Brunost (queso marrón)", "Fenalår (pierna de cordero curada)", "Rakfisk"],
-      "fuentes": [
-        {"guia": "Guía Michelin (Maaemo)", "url": "https://guide.michelin.com/en/oslo-region/oslo/restaurant/maaemo-1194933"},
-        {"guia": "Guía Michelin (estrellas nórdicas 2026)", "url": "https://guide.michelin.com/fi/en/article/michelin-guide-ceremony/full-list-of-michelin-star-restaurants-in-the-nordic-countries"}
-      ]
-    },
-    {
-      "id": "no-stavanger",
-      "puntaje": 5,
-      "justificacion": "RE-NAA obtuvo su tercera estrella Michelin en 2024 con una cocina creativa de pescado y marisco noruego, y es uno de los dos tres estrellas del país. La guía Michelin le dedica una ruta de dos días a la ciudad.",
-      "platos": ["Mariscos del Rogaland", "Fårikål", "Brunost"],
-      "fuentes": [
-        {"guia": "Guía Michelin (RE-NAA)", "url": "https://guide.michelin.com/us/en/rogaland/stavanger/restaurant/re-naa"},
-        {"guia": "Guía Michelin (2 días en Stavanger)", "url": "https://guide.michelin.com/ie/en/article/travel/2-days-in-stavanger-norway-a-journey-of-contrasts-and-natural-culinary-delights"}
-      ]
-    }
+    {"id": "no-oslo", "puntaje": 5, "justificacion": "Maaemo fue en 2016 el primer restaurante de Noruega con tres estrellas Michelin y las conserva en la guía 2026, con estrella verde. La ciudad suma otros restaurantes con estrella, como Credo, que la recuperó en 2026 tras mudarse desde Trondheim.", "platos": ["Bacalao skrei", "Brunost (queso marrón)", "Fenalår (pierna de cordero curada)", "Rakfisk"], "fuentes": [{"guia": "Guía Michelin (Maaemo)", "url": "https://guide.michelin.com/en/oslo-region/oslo/restaurant/maaemo-1194933"}, {"guia": "Guía Michelin (estrellas nórdicas 2026)", "url": "https://guide.michelin.com/fi/en/article/michelin-guide-ceremony/full-list-of-michelin-star-restaurants-in-the-nordic-countries"}]},
+    {"id": "no-stavanger", "puntaje": 4, "justificacion": "RE-NAA obtuvo su tercera estrella Michelin en 2024 con una cocina creativa de pescado y marisco noruego. La guía Michelin le dedica una ruta gastronómica de dos días a la ciudad.", "platos": ["Marisco del Rogaland", "Fårikål (guiso de cordero y col)", "Brunost"], "fuentes": [{"guia": "Guía Michelin (RE-NAA)", "url": "https://guide.michelin.com/us/en/rogaland/stavanger/restaurant/re-naa"}, {"guia": "Guía Michelin (2 días en Stavanger)", "url": "https://guide.michelin.com/ie/en/article/travel/2-days-in-stavanger-norway-a-journey-of-contrasts-and-natural-culinary-delights"}]}
   ],
   "nuevos": []
 }

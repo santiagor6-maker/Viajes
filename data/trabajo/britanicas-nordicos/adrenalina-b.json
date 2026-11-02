@@ -1,0 +1,29 @@
+{
+  "agente": "adrenalina",
+  "subregion": "britanicas-nordicos",
+  "grupo": "b",
+  "ronda": 1,
+  "paises": ["NO", "SE", "FI", "DK", "EE", "LV", "LT"],
+  "estado": "en_progreso",
+  "busquedas_usadas": 12,
+  "notas": "Archivo parcial: faltan búsquedas y el resto de candidatos.",
+  "puntajes": [
+    {
+      "id": "no-oslo",
+      "puntaje": 4,
+      "justificacion": "TusenFryd, el mayor parque de atracciones de Noruega, con la Speed Monster (lanzamiento a 90 km/h) y la invertida Storm, está a unos 20 km al sur.",
+      "actividades": [
+        { "nombre": "TusenFryd (Speed Monster, Storm, ThunderCoaster)", "tipo": "parque_diversiones", "km": 18, "lat": 59.7450, "lng": 10.7790, "temporada": "may–oct", "url": "https://www.tusenfryd.no/en/park-info", "url_tipo": "operador_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "se-gotemburgo",
+      "puntaje": 5,
+      "justificacion": "Liseberg, en la propia ciudad, es uno de los grandes parques de Europa: Helix (lanzada, 100 km/h, siete inversiones) y Balder, premiada como mejor montaña rusa de madera de Europa.",
+      "actividades": [
+        { "nombre": "Liseberg (Helix, Balder, Valkyria)", "tipo": "parque_diversiones", "km": 2, "lat": 57.6953, "lng": 11.9925, "temporada": "abr–oct y mercado de Navidad", "url": "https://rcdb.com/4909.htm", "url_tipo": "rcdb" }
+      ]
+    }
+  ],
+  "nuevos": []
+}

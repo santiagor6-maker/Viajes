@@ -1,0 +1,14 @@
+{
+  "agente": "naturaleza",
+  "subregion": "britanicas-nordicos",
+  "grupo": "b",
+  "ronda": 1,
+  "estado": "en_progreso",
+  "paises": ["NO", "SE", "FI", "DK", "EE", "LV", "LT"],
+  "notas": "Borrador guardado tras 15 búsquedas; faltan las fuentes oficiales de DK, EE, LV, LT y parte de SE/FI.",
+  "puntajes": [
+    { "id": "no-geirangerfjord", "puntaje": 5, "unesco": true, "justificacion": "Fiordo de los Fiordos del Oeste de Noruega, Patrimonio Natural UNESCO desde 2005: paredes de hasta 1.400 m, cascadas de las Siete Hermanas y el mirador de Ørnesvingen sobre la Ruta Turística Geiranger–Trollstigen.", "actividad": "Ferry Geiranger–Hellesylt bajo las Siete Hermanas y subida al mirador de Ørnesvingen", "fuentes": [ { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/1195/" }, { "guia": "Nasjonale turistveger (oficial)", "url": "https://www.nasjonaleturistveger.no/en/routes/geiranger--trollstigen/" } ] },
+    { "id": "no-sognefjord-flam", "puntaje": 5, "unesco": true, "justificacion": "El Nærøyfjord, brazo estrecho del Sognefjord, forma parte de los Fiordos del Oeste de Noruega (UNESCO natural), considerados la localidad tipo de los paisajes de fiordo del mundo.", "actividad": "Crucero por el Nærøyfjord de Flåm a Gudvangen y tren de Flåm", "fuentes": [ { "guia": "UNESCO", "url": "https://whc.unesco.org/en/list/1195/" } ] }
+  ],
+  "nuevos": []
+}
