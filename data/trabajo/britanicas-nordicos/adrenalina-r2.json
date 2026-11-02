@@ -1,0 +1,406 @@
+{
+  "agente": "adrenalina",
+  "subregion": "britanicas-nordicos",
+  "ronda": 2,
+  "criterio": "Regla única de la subregión: toda actividad o parque a 60 km o menos en línea recta cuenta para cada lugar del radio. Tope de 2 para monumentos, museos y sitios religiosos, salvo que la actividad esté en el propio lugar; tope de 3 para espacios naturales que solo se recorren a pie. Escala: 5 si hay oferta de clase mundial en el lugar o a 15 km o menos; 4 si hay una actividad de primer nivel a 30 km o menos o varias destacadas; 3 si hay una actividad notable en el radio o una de primer nivel a más de 30 km; 2 si solo hay oferta menor o la única actividad está en el borde del radio (50–60 km); 1 si no se identificó ninguna actividad con web oficial en el radio. km_aprox=true indica que las coordenadas de la actividad son aproximadas.",
+  "busquedas_usadas": 15,
+  "puntajes": [
+    {
+      "id": "fi-yllas-pallas",
+      "puntaje": 4,
+      "justificacion": "Ylläs, a unos 6 km, es la mayor estación de esquí de Finlandia: 62 pistas, casi la mitad de más de 1 km, y las bajadas más largas del país, de unos 3 km desde la cima. Levi, la otra gran estación de la Laponia finlandesa, queda a 36 km.",
+      "actividades": [
+        { "nombre": "Estación de esquí de Ylläs (62 pistas, bajadas de 3 km)", "tipo": "esqui", "km": 6, "lat": 67.5600, "lng": 24.2200, "temporada": "oct–may (según nieve)", "url": "https://ski.yllas.fi/en/slopes-and-lifts/slopes-at-yllas/", "url_tipo": "operador_oficial", "km_aprox": true },
+        { "nombre": "Estación de esquí de Levi", "tipo": "esqui", "km": 36, "lat": 67.8030, "lng": 24.8090, "temporada": "oct–may", "url": "https://levi.fi/en/ski/slopes-and-lifts", "url_tipo": "operador_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "fi-urho-kekkonen-saariselka",
+      "puntaje": 3,
+      "justificacion": "En Saariselkä, a unos 2 km, hay una estación de esquí repartida entre los fells Kaunispää e Iisakkipää, con 15 pistas (siete iluminadas) y la pista de trineo más larga de Finlandia, que baja desde la cima del Kaunispää. El parque nacional se recorre a pie, así que el puntaje no pasa de 3.",
+      "actividades": [
+        { "nombre": "Estación de esquí de Saariselkä (Kaunispää e Iisakkipää) y pista de trineo del Kaunispää", "tipo": "esqui", "km": 2, "lat": 68.4410, "lng": 27.4300, "temporada": "oct–may (según nieve)", "url": "https://saariselka.com/en/project/downhill-skiing/", "url_tipo": "turismo_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "fi-inari",
+      "puntaje": 2,
+      "justificacion": "La estación de esquí de Saariselkä, con 15 pistas, queda en el borde del radio, a unos 54 km; en Inari no hay oferta de adrenalina propia.",
+      "actividades": [
+        { "nombre": "Estación de esquí de Saariselkä (Kaunispää e Iisakkipää)", "tipo": "esqui", "km": 54, "lat": 68.4410, "lng": 27.4300, "temporada": "oct–may (según nieve)", "url": "https://saariselka.com/en/project/downhill-skiing/", "url_tipo": "turismo_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "fi-rovaniemi",
+      "puntaje": 2,
+      "justificacion": "Ounasvaara, a unos 3 km del centro, es una estación de esquí familiar con 11 pistas, 5 remontes y unos 140 m de desnivel; es una oferta menor.",
+      "actividades": [
+        { "nombre": "Estación de esquí de Ounasvaara", "tipo": "esqui", "km": 3, "lat": 66.4930, "lng": 25.7930, "temporada": "invierno (en verano abre para otras actividades)", "url": "https://ounasvaara.fi/en/", "url_tipo": "operador_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "fi-kuopio",
+      "puntaje": 3,
+      "justificacion": "Tahko, en Nilsiä, a unos 28 km en línea recta (unos 60–70 km por carretera), es la principal estación de esquí del centro de Finlandia: 25 pistas, 15 remontes y snowparks en cuatro zonas.",
+      "actividades": [
+        { "nombre": "Estación de esquí de Tahko", "tipo": "esqui", "km": 28, "lat": 63.0800, "lng": 28.0300, "temporada": "nov–abr (según nieve)", "url": "https://tahko.com/en", "url_tipo": "operador_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "fi-oulanka",
+      "puntaje": 4,
+      "justificacion": "El río Kitkajoki, que entra en el parque, tiene el rafting más conocido de Finlandia: Basecamp Oulanka sale junto a sus rápidos, a unos 15 km, y Ruka Safaris ofrece la ruta más exigente por el cañón, de junio a septiembre. En invierno, la estación de esquí de Ruka, con 41 pistas y 23 remontes, queda a 24 km.",
+      "actividades": [
+        { "nombre": "Rafting en el Kitkajoki (Basecamp Oulanka, Juuma)", "tipo": "rafting", "km": 15, "lat": 66.2400, "lng": 29.4300, "temporada": "jun–sep", "url": "https://www.ruka.fi/en/experiences/water-activities/rafting", "url_tipo": "turismo_oficial", "km_aprox": true },
+        { "nombre": "Rafting por el parque nacional (Basecamp Oulanka)", "tipo": "rafting", "km": 15, "lat": 66.2400, "lng": 29.4300, "temporada": "jun–sep", "url": "https://www.visitfinland.com/en/product/1e9b96d2-e968-4d71-8442-fa17d130dac0/river-rafting-through-the-national-park/", "url_tipo": "turismo_oficial", "km_aprox": true },
+        { "nombre": "Estación de esquí de Ruka (41 pistas)", "tipo": "esqui", "km": 24, "lat": 66.1660, "lng": 29.1440, "temporada": "oct–may", "url": "https://www.ruka.fi/en/skiresort/skischool/guided-tour-on-slopes", "url_tipo": "operador_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "no-oslo",
+      "puntaje": 4,
+      "justificacion": "TusenFryd, el mayor parque de atracciones de Noruega, está a 19 km, con la Speed Monster (de 0 a 90 km/h en 2,2 s) y la invertida Storm. En el trampolín de Holmenkollen, a 7 km, la tirolesa Kollensvevet baja 361 m desde lo alto de la torre, con 107,5 m de desnivel, en primavera, verano y otoño.",
+      "actividades": [
+        { "nombre": "TusenFryd (Speed Monster, Storm, ThunderCoaster, SuperSplash)", "tipo": "parque_diversiones", "km": 19, "lat": 59.7450, "lng": 10.7790, "temporada": "may–oct", "url": "https://www.tusenfryd.no/en/park-info", "url_tipo": "operador_oficial", "km_aprox": true },
+        { "nombre": "Kollensvevet, tirolesa del trampolín de Holmenkollen", "tipo": "tirolesa", "km": 7, "lat": 59.9638, "lng": 10.6676, "temporada": "primavera–otoño", "url": "https://holmenkollen.com/en/aktiviteter/kollensvevet-2/", "url_tipo": "operador_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "dk-copenhague",
+      "puntaje": 4,
+      "justificacion": "El Tivoli, en pleno centro, tiene la Dæmonen, una montaña rusa sin suelo de Bolliger & Mabillard con tres inversiones, y la Rutschebanen de madera. Bakken, en Klampenborg, a 11 km, es el parque de atracciones más antiguo del mundo en funcionamiento, con su propia Rutschebanen de madera de 1932 y varias montañas rusas más; la entrada es gratuita.",
+      "actividades": [
+        { "nombre": "Tivoli (Dæmonen, Rutschebanen)", "tipo": "parque_diversiones", "km": 1, "lat": 55.6737, "lng": 12.5681, "temporada": "abr–sep, Halloween y Navidad", "url": "https://rcdb.com/4905.htm", "url_tipo": "rcdb" },
+        { "nombre": "Bakken (Dyrehavsbakken, Klampenborg)", "tipo": "parque_diversiones", "km": 11, "lat": 55.7745, "lng": 12.5790, "temporada": "primavera–verano (por calendario)", "url": "https://www.visitdenmark.se/danmark/planera-resan/bakken-gdk443528", "url_tipo": "turismo_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "dk-roskilde",
+      "puntaje": 3,
+      "justificacion": "El Tivoli de Copenhague, con la Dæmonen, está a 31 km y Bakken, el parque de atracciones más antiguo del mundo, a 35 km.",
+      "actividades": [
+        { "nombre": "Tivoli (Dæmonen, Rutschebanen)", "tipo": "parque_diversiones", "km": 31, "lat": 55.6737, "lng": 12.5681, "temporada": "abr–sep, Halloween y Navidad", "url": "https://rcdb.com/4905.htm", "url_tipo": "rcdb" },
+        { "nombre": "Bakken (Dyrehavsbakken, Klampenborg)", "tipo": "parque_diversiones", "km": 35, "lat": 55.7745, "lng": 12.5790, "temporada": "primavera–verano (por calendario)", "url": "https://www.visitdenmark.se/danmark/planera-resan/bakken-gdk443528", "url_tipo": "turismo_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "dk-helsingor-louisiana",
+      "puntaje": 3,
+      "justificacion": "Bakken, el parque de atracciones más antiguo del mundo, está a 30 km, en Klampenborg, y el Tivoli de Copenhague, con la Dæmonen, a 41 km.",
+      "actividades": [
+        { "nombre": "Bakken (Dyrehavsbakken, Klampenborg)", "tipo": "parque_diversiones", "km": 30, "lat": 55.7745, "lng": 12.5790, "temporada": "primavera–verano (por calendario)", "url": "https://www.visitdenmark.se/danmark/planera-resan/bakken-gdk443528", "url_tipo": "turismo_oficial", "km_aprox": true },
+        { "nombre": "Tivoli (Dæmonen, Rutschebanen)", "tipo": "parque_diversiones", "km": 41, "lat": 55.6737, "lng": 12.5681, "temporada": "abr–sep, Halloween y Navidad", "url": "https://rcdb.com/4905.htm", "url_tipo": "rcdb" }
+      ]
+    },
+    {
+      "id": "dk-frederiksborg",
+      "puntaje": 2,
+      "justificacion": "Es un castillo, así que el puntaje no pasa de 2. Bakken está a 25 km y el Tivoli de Copenhague a 33 km.",
+      "actividades": [
+        { "nombre": "Bakken (Dyrehavsbakken, Klampenborg)", "tipo": "parque_diversiones", "km": 25, "lat": 55.7745, "lng": 12.5790, "temporada": "primavera–verano (por calendario)", "url": "https://www.visitdenmark.se/danmark/planera-resan/bakken-gdk443528", "url_tipo": "turismo_oficial", "km_aprox": true },
+        { "nombre": "Tivoli (Dæmonen, Rutschebanen)", "tipo": "parque_diversiones", "km": 33, "lat": 55.6737, "lng": 12.5681, "temporada": "abr–sep, Halloween y Navidad", "url": "https://rcdb.com/4905.htm", "url_tipo": "rcdb" }
+      ]
+    },
+    {
+      "id": "se-malmo",
+      "puntaje": 3,
+      "justificacion": "Al otro lado del puente del Øresund están el Tivoli de Copenhague, con la Dæmonen, a 28 km, y Bakken, el parque de atracciones más antiguo del mundo, a 33 km.",
+      "actividades": [
+        { "nombre": "Tivoli (Dæmonen, Rutschebanen)", "tipo": "parque_diversiones", "km": 28, "lat": 55.6737, "lng": 12.5681, "temporada": "abr–sep, Halloween y Navidad", "url": "https://rcdb.com/4905.htm", "url_tipo": "rcdb" },
+        { "nombre": "Bakken (Dyrehavsbakken, Klampenborg)", "tipo": "parque_diversiones", "km": 33, "lat": 55.7745, "lng": 12.5790, "temporada": "primavera–verano (por calendario)", "url": "https://www.visitdenmark.se/danmark/planera-resan/bakken-gdk443528", "url_tipo": "turismo_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "se-lund",
+      "puntaje": 3,
+      "justificacion": "El Tivoli de Copenhague, con la Dæmonen, y Bakken, el parque de atracciones más antiguo del mundo, quedan ambos a 39 km, al otro lado del Øresund.",
+      "actividades": [
+        { "nombre": "Tivoli (Dæmonen, Rutschebanen)", "tipo": "parque_diversiones", "km": 39, "lat": 55.6737, "lng": 12.5681, "temporada": "abr–sep, Halloween y Navidad", "url": "https://rcdb.com/4905.htm", "url_tipo": "rcdb" },
+        { "nombre": "Bakken (Dyrehavsbakken, Klampenborg)", "tipo": "parque_diversiones", "km": 39, "lat": 55.7745, "lng": 12.5790, "temporada": "primavera–verano (por calendario)", "url": "https://www.visitdenmark.se/danmark/planera-resan/bakken-gdk443528", "url_tipo": "turismo_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "gb-cornualles",
+      "puntaje": 3,
+      "justificacion": "Newquay, a unos 37 km de St Ives, es la capital del surf de Inglaterra: en la playa de Fistral hay varias escuelas que enseñan todo el año, y Visit Cornwall lista operadores de surf y deportes acuáticos en la ciudad, como Cornish Wave.",
+      "actividades": [
+        { "nombre": "Surf en Newquay (Cornish Wave)", "tipo": "otro", "km": 37, "lat": 50.4150, "lng": -5.0730, "temporada": "todo el año (mejor abr–oct)", "url": "https://visitcornwall.com/things-to-do/surfing-and-water-sports/cornish-wave", "url_tipo": "turismo_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "gb-londres",
+      "puntaje": 4,
+      "justificacion": "Hay dos parques de montañas rusas en el radio. Thorpe Park, a 29 km, tiene Hyperia (72 m, más de 128 km/h), la montaña rusa más alta y rápida del Reino Unido, y Stealth, que acelera de 0 a 128 km/h en menos de 2 segundos. Chessington World of Adventures, a 22 km, tiene cinco montañas rusas, entre ellas Vampire (1990), la primera suspendida de su tipo en el país, y la giratoria Dragon's Fury.",
+      "actividades": [
+        { "nombre": "Thorpe Park (Hyperia, Stealth)", "tipo": "parque_diversiones", "km": 29, "lat": 51.4036, "lng": -0.5130, "temporada": "mar–nov", "url": "https://merlinannualpass.co.uk/our-attractions/thorpe-park", "url_tipo": "operador_oficial" },
+        { "nombre": "Chessington World of Adventures (Vampire, Dragon's Fury)", "tipo": "parque_diversiones", "km": 22, "lat": 51.3478, "lng": -0.3184, "temporada": "mar–nov", "url": "https://rcdb.com/4798.htm", "url_tipo": "rcdb" },
+        { "nombre": "Chessington World of Adventures: 35 años de Vampire", "tipo": "parque_diversiones", "km": 22, "lat": 51.3478, "lng": -0.3184, "temporada": "mar–nov", "url": "https://chessington.com/our-company/press/latest-news/vampire-celebrates-35-years/", "url_tipo": "operador_oficial" }
+      ]
+    },
+    {
+      "id": "gb-windsor",
+      "puntaje": 2,
+      "justificacion": "Thorpe Park, con Hyperia, la montaña rusa más alta y rápida del Reino Unido, queda a 11 km y Chessington World of Adventures a 25 km, pero la visita es la del castillo, así que el puntaje no pasa de 2.",
+      "actividades": [
+        { "nombre": "Thorpe Park (Hyperia, Stealth)", "tipo": "parque_diversiones", "km": 11, "lat": 51.4036, "lng": -0.5130, "temporada": "mar–nov", "url": "https://merlinannualpass.co.uk/our-attractions/thorpe-park", "url_tipo": "operador_oficial" },
+        { "nombre": "Chessington World of Adventures (Vampire, Dragon's Fury)", "tipo": "parque_diversiones", "km": 25, "lat": 51.3478, "lng": -0.3184, "temporada": "mar–nov", "url": "https://rcdb.com/4798.htm", "url_tipo": "rcdb" }
+      ]
+    },
+    {
+      "id": "ee-tartu",
+      "puntaje": 2,
+      "justificacion": "Otepää, la capital invernal de Estonia, queda a unos 40 km. Sus colinas de Kuutsemäe (siete pistas iluminadas) y Väike-Munamäe tienen esquí alpino, pero con desniveles pequeños, así que es una oferta menor.",
+      "actividades": [
+        { "nombre": "Esquí en Otepää (Kuutsemäe y Väike-Munamäe)", "tipo": "esqui", "km": 40, "lat": 58.0580, "lng": 26.4960, "temporada": "dic–mar (según nieve)", "url": "https://visitestonia.com/en/where-to-go/otepaa-a-winter-capital-for-all-seasons", "url_tipo": "turismo_oficial", "km_aprox": true },
+        { "nombre": "Esquí en el sur de Estonia (guía regional)", "tipo": "esqui", "km": 40, "lat": 58.0580, "lng": 26.4960, "temporada": "dic–mar (según nieve)", "url": "https://visitsouthestonia.com/en/kulastajale/blogi/skiing-south-estonia/", "url_tipo": "turismo_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "gb-durham",
+      "puntaje": 1,
+      "justificacion": "Catedral y castillo. Flamingo Land queda a unos 63 km, fuera del radio, y no se identificó otra actividad de adrenalina con web oficial a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "gb-fountains-abbey",
+      "puntaje": 2,
+      "justificacion": "Es una abadía, así que el puntaje no pasa de 2. Flamingo Land, el parque de montañas rusas de Yorkshire, queda en el borde del radio, a 52 km.",
+      "actividades": [
+        { "nombre": "Flamingo Land (Sik, Mumbo Jumbo)", "tipo": "parque_diversiones", "km": 52, "lat": 54.2097, "lng": -0.8063, "temporada": "mar–nov", "url": "https://rcdb.com/4804.htm", "url_tipo": "rcdb" }
+      ]
+    },
+    {
+      "id": "gb-ironbridge",
+      "puntaje": 2,
+      "justificacion": "Es un conjunto de patrimonio industrial, así que el puntaje no pasa de 2. Alton Towers, el mayor parque temático del Reino Unido, queda en el borde del radio, a 57 km.",
+      "actividades": [
+        { "nombre": "Alton Towers Resort (Nemesis Reborn, The Smiler)", "tipo": "parque_diversiones", "km": 57, "lat": 52.9874, "lng": -1.8865, "temporada": "mar–nov", "url": "https://altontowers.com/press/latest-news/alton-towers-resort-reveals-new-name-and-fearsome-new-creature-for-nemesis-rollercoaster", "url_tipo": "operador_oficial" }
+      ]
+    },
+    {
+      "id": "gb-orcadas-neolitico",
+      "puntaje": 1,
+      "justificacion": "Yacimientos neolíticos en un archipiélago sin parques ni operadores de adrenalina con web oficial a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "ie-clonmacnoise",
+      "puntaje": 1,
+      "justificacion": "Monasterio en el centro de Irlanda. Emerald Park queda a más de 100 km y no se identificó otra actividad de adrenalina a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "ie-carrowmore",
+      "puntaje": 1,
+      "justificacion": "Cementerio megalítico. Strandhill, playa de surf de Sligo, está muy cerca, pero no se acreditó ningún operador con web oficial; al ser un monumento, el puntaje no pasaría de 2.",
+      "actividades": []
+    },
+    {
+      "id": "is-glaumbaer",
+      "puntaje": 1,
+      "justificacion": "Granja museo de turba. No se acreditó con web oficial ninguna actividad de adrenalina a 60 km; al ser un museo, el puntaje no pasaría de 2.",
+      "actividades": []
+    },
+    {
+      "id": "no-alta",
+      "puntaje": 1,
+      "justificacion": "Grabados rupestres al aire libre. No se identificaron actividades de adrenalina con web oficial a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "no-rjukan-notodden",
+      "puntaje": 2,
+      "justificacion": "Rjukan, parte del propio sitio industrial, es según su turismo oficial el mejor lugar del norte de Europa para la escalada en hielo, con más de 190 cascadas heladas y cursos guiados de diciembre a marzo. Pero queda a 52 km de Notodden y la iglesia de Heddal, en el borde del radio, y el sitio es un monumento, así que el puntaje es 2.",
+      "actividades": [
+        { "nombre": "Escalada en hielo en las cascadas de Rjukan", "tipo": "otro", "km": 52, "lat": 59.8786, "lng": 8.5936, "temporada": "dic–mar", "url": "https://www.visitrjukan.com/things-to-do/winter-activities/ice-climbing", "url_tipo": "turismo_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "se-drottningholm",
+      "puntaje": 2,
+      "justificacion": "Es un palacio, así que el puntaje no pasa de 2. Gröna Lund, con la invertida Monster y la Insane, está a 12 km, en Djurgården.",
+      "actividades": [
+        { "nombre": "Gröna Lund (Monster, Insane, Kvasten)", "tipo": "parque_diversiones", "km": 12, "lat": 59.3233, "lng": 18.0962, "temporada": "abr–sep", "url": "https://www.gronalund.com/en/rides/monster", "url_tipo": "operador_oficial" }
+      ]
+    },
+    {
+      "id": "se-halsingland",
+      "puntaje": 1,
+      "justificacion": "Granjas decoradas en el campo de Gävleborg. No se identificaron actividades de adrenalina con web oficial a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "fi-verla",
+      "puntaje": 1,
+      "justificacion": "Fábrica histórica. No se identificaron actividades de adrenalina con web oficial a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "dk-jelling",
+      "puntaje": 2,
+      "justificacion": "Es un conjunto de túmulos e iglesia, así que el puntaje no pasa de 2. Legoland Billund y el parque acuático Lalandia están a 18 km.",
+      "actividades": [
+        { "nombre": "Legoland Billund y parque acuático Lalandia", "tipo": "parque_diversiones", "km": 18, "lat": 55.7355, "lng": 9.1275, "temporada": "abr–oct (Lalandia todo el año)", "url": "https://www.lalandia.dk/en/billund/go%20exploring/legoland", "url_tipo": "operador_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "dk-trelleborg",
+      "puntaje": 1,
+      "justificacion": "Fortaleza vikinga en el oeste de Sjælland. El Tivoli y Bakken quedan a más de 80 km y no se identificó otra actividad de adrenalina a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "lt-kernave",
+      "puntaje": 1,
+      "justificacion": "Yacimiento arqueológico. No se identificaron actividades de adrenalina con web oficial a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "gb-bray",
+      "puntaje": 4,
+      "justificacion": "Thorpe Park, a 17 km, tiene Hyperia (72 m, más de 128 km/h), la montaña rusa más alta y rápida del Reino Unido, y Stealth, con aceleración de 0 a 128 km/h en menos de 2 segundos. Chessington World of Adventures, con cinco montañas rusas, queda a 32 km.",
+      "actividades": [
+        { "nombre": "Thorpe Park (Hyperia, Stealth)", "tipo": "parque_diversiones", "km": 17, "lat": 51.4036, "lng": -0.5130, "temporada": "mar–nov", "url": "https://merlinannualpass.co.uk/our-attractions/thorpe-park", "url_tipo": "operador_oficial" },
+        { "nombre": "Chessington World of Adventures (Vampire, Dragon's Fury)", "tipo": "parque_diversiones", "km": 32, "lat": 51.3478, "lng": -0.3184, "temporada": "mar–nov", "url": "https://rcdb.com/4798.htm", "url_tipo": "rcdb" }
+      ]
+    },
+    {
+      "id": "gb-speyside",
+      "puntaje": 3,
+      "justificacion": "Cairngorm Mountain, una de las principales estaciones de esquí de Escocia, con unos 30 km de pistas, snowpark y funicular, queda a 48 km de Dufftown.",
+      "actividades": [
+        { "nombre": "Cairngorm Mountain", "tipo": "esqui", "km": 48, "lat": 57.1340, "lng": -3.6710, "temporada": "nov–jun (según nieve)", "url": "https://www.visitcairngorms.com/listing/1043/cairngorm-mountain-resort/", "url_tipo": "turismo_oficial" }
+      ]
+    },
+    {
+      "id": "gb-islay",
+      "puntaje": 1,
+      "justificacion": "Isla de destilerías. No se identificaron actividades de adrenalina con web oficial a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "gb-sussex-vinedos",
+      "puntaje": 1,
+      "justificacion": "Viñedos y pueblos de los South Downs. Thorpe Park y Chessington quedan a más de 60 km y no se acreditó otra actividad de adrenalina con web oficial en el radio.",
+      "actividades": []
+    },
+    {
+      "id": "ie-cork",
+      "puntaje": 1,
+      "justificacion": "Ciudad y mercado gastronómico. No se identificaron actividades de adrenalina con web oficial a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "ie-ballymaloe-east-cork",
+      "puntaje": 1,
+      "justificacion": "Zona rural y gastronómica. No se identificaron actividades de adrenalina con web oficial a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "se-kalix",
+      "puntaje": 1,
+      "justificacion": "Pueblo de pesca del golfo de Botnia. No se identificaron actividades de adrenalina con web oficial a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "dk-henne-kirkeby-kro",
+      "puntaje": 2,
+      "justificacion": "Legoland Billund y el parque acuático Lalandia quedan en el borde del radio, a 57 km; en el lugar no hay oferta de adrenalina.",
+      "actividades": [
+        { "nombre": "Legoland Billund y parque acuático Lalandia", "tipo": "parque_diversiones", "km": 57, "lat": 55.7355, "lng": 9.1275, "temporada": "abr–oct (Lalandia todo el año)", "url": "https://www.lalandia.dk/en/billund/go%20exploring/legoland", "url_tipo": "operador_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "gb-costa-jurasica",
+      "puntaje": 1,
+      "justificacion": "Costa de acantilados que se recorre a pie. No se acreditó ningún operador de coasteering o deportes de aventura con web oficial a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "gb-seven-sisters",
+      "puntaje": 1,
+      "justificacion": "Acantilados que se recorren a pie. No se acreditó ninguna actividad de adrenalina con web oficial a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "ie-glenveagh",
+      "puntaje": 1,
+      "justificacion": "Parque de lagos y montaña que se recorre a pie. No se identificaron actividades de adrenalina con web oficial a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "no-jostedalsbreen",
+      "puntaje": 3,
+      "justificacion": "La Via Ferrata Loen, a 22 km, sube a 750 m sobre el Nordfjord por el puente de vía ferrata más largo de Europa y baja en el teleférico Loen Skylift. El parque se recorre sobre todo a pie, así que el puntaje no pasa de 3.",
+      "actividades": [
+        { "nombre": "Via Ferrata Loen y Loen Skylift (monte Hoven)", "tipo": "via_ferrata", "km": 22, "lat": 61.8700, "lng": 6.8600, "temporada": "may–oct", "url": "https://en.loenskylift.no/viaferrataloen", "url_tipo": "operador_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "no-senja",
+      "puntaje": 1,
+      "justificacion": "Isla de montañas y senderismo. No se identificaron actividades de adrenalina con web oficial a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "no-rondane-dovre",
+      "puntaje": 3,
+      "justificacion": "El rafting del río Sjoa, uno de los más conocidos de Noruega, sale de la base de Heidal Rafting en Åmot, a unos 25 km. Los parques se recorren a pie, así que el puntaje no pasa de 3.",
+      "actividades": [
+        { "nombre": "Rafting en el río Sjoa (Heidal Rafting, Åmot)", "tipo": "rafting", "km": 25, "lat": 61.6900, "lng": 9.5300, "temporada": "may–sep", "url": "https://heidalraftingisjoa.no/raftingturer/?lang=en", "url_tipo": "operador_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "se-fulufjallet",
+      "puntaje": 3,
+      "justificacion": "Idre Fjäll, a unos 30 km, es una de las grandes estaciones de esquí de Dalarna: 41 pistas y 23 remontes, con esquí en las cuatro vertientes de la montaña. El parque se recorre a pie, así que el puntaje no pasa de 3.",
+      "actividades": [
+        { "nombre": "Estación de esquí de Idre Fjäll", "tipo": "esqui", "km": 30, "lat": 61.8900, "lng": 12.8500, "temporada": "nov–may (según nieve)", "url": "https://www.visitdalarna.se/en/do/activities/idre-fjall-downhill-skiing", "url_tipo": "turismo_oficial", "km_aprox": true },
+        { "nombre": "Mapa de pistas oficial de Idre Fjäll 2026", "tipo": "esqui", "km": 30, "lat": 61.8900, "lng": 12.8500, "temporada": "nov–may (según nieve)", "url": "https://www.idrefjall.se/globalassets/filer/kartor/pistkartor/idrefjall_pistkarta_2026.pdf", "url_tipo": "operador_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "se-kosterhavet",
+      "puntaje": 1,
+      "justificacion": "Parque marino de islas. No se identificaron actividades de adrenalina con web oficial a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "fi-kvarken",
+      "puntaje": 1,
+      "justificacion": "Archipiélago de levantamiento glaciar. No se identificaron actividades de adrenalina con web oficial a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "fi-repovesi",
+      "puntaje": 1,
+      "justificacion": "Parque de lagos que se recorre a pie y en canoa. No se acreditó ninguna actividad de adrenalina con web oficial a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "fi-lemmenjoki",
+      "puntaje": 1,
+      "justificacion": "Parque de río y fells que se recorre a pie y en barca. La estación de Saariselkä queda a unos 67 km, fuera del radio.",
+      "actividades": []
+    },
+    {
+      "id": "dk-stevns-klint",
+      "puntaje": 3,
+      "justificacion": "El Tivoli de Copenhague, con la Dæmonen, está a 44 km y Bakken, el parque de atracciones más antiguo del mundo, a 55 km. Los acantilados se recorren a pie, así que el puntaje no pasa de 3.",
+      "actividades": [
+        { "nombre": "Tivoli (Dæmonen, Rutschebanen)", "tipo": "parque_diversiones", "km": 44, "lat": 55.6737, "lng": 12.5681, "temporada": "abr–sep, Halloween y Navidad", "url": "https://rcdb.com/4905.htm", "url_tipo": "rcdb" },
+        { "nombre": "Bakken (Dyrehavsbakken, Klampenborg)", "tipo": "parque_diversiones", "km": 55, "lat": 55.7745, "lng": 12.5790, "temporada": "primavera–verano (por calendario)", "url": "https://www.visitdenmark.se/danmark/planera-resan/bakken-gdk443528", "url_tipo": "turismo_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "dk-mols-bjerge",
+      "puntaje": 3,
+      "justificacion": "Djurs Sommerland, el mayor parque de atracciones de los países nórdicos según VisitDenmark, con la Juvelen, la montaña rusa más larga de Dinamarca, está a 22 km. El parque nacional se recorre a pie, así que el puntaje no pasa de 3.",
+      "actividades": [
+        { "nombre": "Djurs Sommerland (Juvelen, DrageKongen, Piraten)", "tipo": "parque_diversiones", "km": 22, "lat": 56.4239, "lng": 10.5403, "temporada": "may–oct", "url": "https://djurssommerland.dk/en/rides/mexicoland/juvelen", "url_tipo": "operador_oficial", "km_aprox": true }
+      ]
+    }
+  ],
+  "nuevos": [],
+  "estado": "completo"
+}
