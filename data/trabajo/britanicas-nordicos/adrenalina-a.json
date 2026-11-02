@@ -4,17 +4,500 @@
   "grupo": "a",
   "paises": ["GB", "IE", "IS"],
   "ronda": 1,
-  "estado": "en_progreso",
-  "busquedas_usadas": 8,
+  "criterio": "Toda actividad o parque a 60 km o menos en línea recta desde las coordenadas del candidato cuenta para cada lugar del radio. Monumentos, museos y sitios religiosos tienen tope de 2 salvo que la actividad esté en el propio lugar; espacios naturales que solo se recorren a pie, tope de 3. Escala: 5 si hay oferta de clase mundial en el lugar o a 15 km o menos; 4 si hay una actividad de primer nivel europeo a 30 km o menos o varias actividades destacadas; 3 si hay una actividad notable en el radio o una de primer nivel a más de 30 km; 2 si solo hay oferta menor o la única actividad está en el borde del radio (50–60 km); 1 si no se encontró oferta verificable. Un 3 o más exige al menos una actividad con web del operador, turismo oficial o RCDB.",
+  "busquedas_usadas": 22,
   "puntajes": [
     {
       "id": "gb-londres",
       "puntaje": 4,
-      "justificacion": "Dos grandes parques a menos de 30 km: Thorpe Park (29 km), con Hyperia, la montaña rusa más alta y rápida del Reino Unido (72 m), y Stealth, y Chessington World of Adventures (22 km).",
+      "justificacion": "Thorpe Park, a 29 km, es el parque de montañas rusas más intenso del sureste de Inglaterra: Hyperia (72 m, más de 128 km/h) es desde 2024 la montaña rusa más alta y rápida del Reino Unido, y Stealth acelera de 0 a 128 km/h en menos de 2 segundos.",
       "actividades": [
         { "nombre": "Thorpe Park (Hyperia, Stealth)", "tipo": "parque_diversiones", "km": 29, "lat": 51.4036, "lng": -0.5130, "temporada": "mar–nov", "url": "https://merlinannualpass.co.uk/our-attractions/thorpe-park" }
       ]
+    },
+    {
+      "id": "gb-windsor",
+      "puntaje": 2,
+      "justificacion": "Thorpe Park, con Hyperia, la montaña rusa más alta y rápida del Reino Unido, queda a 11 km, pero la visita es la del castillo y el pueblo, sin actividad de adrenalina propia.",
+      "actividades": [
+        { "nombre": "Thorpe Park (Hyperia, Stealth)", "tipo": "parque_diversiones", "km": 11, "lat": 51.4036, "lng": -0.5130, "temporada": "mar–nov", "url": "https://merlinannualpass.co.uk/our-attractions/thorpe-park" }
+      ]
+    },
+    {
+      "id": "gb-canterbury",
+      "puntaje": 1,
+      "justificacion": "Ciudad catedralicia sin parques ni operadores de adrenalina verificables a 60 km; los grandes parques de la región de Londres quedan a más de 90 km.",
+      "actividades": []
+    },
+    {
+      "id": "gb-oxford",
+      "puntaje": 1,
+      "justificacion": "Thorpe Park queda a unos 64 km, fuera del radio, y no se encontró otra oferta de adrenalina con operador verificable cerca de Oxford y Blenheim.",
+      "actividades": []
+    },
+    {
+      "id": "gb-cambridge",
+      "puntaje": 1,
+      "justificacion": "Ciudad universitaria sin parques ni operadores de adrenalina verificables a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "gb-bath",
+      "puntaje": 1,
+      "justificacion": "Ciudad termal georgiana sin parques ni operadores de adrenalina verificables a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "gb-stonehenge",
+      "puntaje": 1,
+      "justificacion": "Yacimiento prehistórico sin parques ni operadores de adrenalina verificables a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "gb-wells-glastonbury",
+      "puntaje": 1,
+      "justificacion": "Catedral y abadía en Somerset, sin parques ni operadores de adrenalina verificables a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "gb-cornualles",
+      "puntaje": 2,
+      "justificacion": "La costa norte de Cornualles, con Newquay y la playa de Fistral a unos 37 km de St Ives, es la zona de surf más conocida de Inglaterra, pero no se encontró un operador oficial verificable de surf o coasteering para citar.",
+      "actividades": []
+    },
+    {
+      "id": "gb-cotswolds",
+      "puntaje": 1,
+      "justificacion": "Región de pueblos de piedra sin parques ni operadores de adrenalina verificables a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "gb-stratford-upon-avon",
+      "puntaje": 1,
+      "justificacion": "Alton Towers queda a unos 88 km, fuera del radio, y no se encontró otra oferta de adrenalina con operador verificable cerca de Stratford y Warwick.",
+      "actividades": []
+    },
+    {
+      "id": "gb-peak-district",
+      "puntaje": 3,
+      "justificacion": "Alton Towers, el mayor parque temático del Reino Unido, queda a 41 km del centro del parque nacional, con Nemesis Reborn (renovada en 2024) y The Smiler, la montaña rusa de 14 inversiones.",
+      "actividades": [
+        { "nombre": "Alton Towers Resort (Nemesis Reborn, The Smiler)", "tipo": "parque_diversiones", "km": 41, "lat": 52.9874, "lng": -1.8865, "temporada": "mar–nov", "url": "https://altontowers.com/press/latest-news/alton-towers-resort-reveals-new-name-and-fearsome-new-creature-for-nemesis-rollercoaster" }
+      ]
+    },
+    {
+      "id": "gb-liverpool",
+      "puntaje": 3,
+      "justificacion": "Blackpool Pleasure Beach queda a 43 km: el gran parque clásico del Reino Unido, con The Big One (1994) e ICON, la primera montaña rusa de doble lanzamiento del país (2018).",
+      "actividades": [
+        { "nombre": "Blackpool Pleasure Beach (The Big One, ICON)", "tipo": "parque_diversiones", "km": 43, "lat": 53.7922, "lng": -3.0556, "temporada": "feb–nov (por calendario)", "url": "https://www.visitblackpool.com/things-to-do/new-for-2018/icon-(1)/" }
+      ]
+    },
+    {
+      "id": "gb-york",
+      "puntaje": 3,
+      "justificacion": "Flamingo Land, a 33 km, es el parque de montañas rusas de Yorkshire: Sik (2022, 10 inversiones) y Mumbo Jumbo, de 30 m y caída más empinada que la vertical.",
+      "actividades": [
+        { "nombre": "Flamingo Land (Sik, Mumbo Jumbo)", "tipo": "parque_diversiones", "km": 33, "lat": 54.2097, "lng": -0.8063, "temporada": "mar–nov", "url": "https://rcdb.com/4804.htm" }
+      ]
+    },
+    {
+      "id": "gb-yorkshire-dales",
+      "puntaje": 1,
+      "justificacion": "Flamingo Land (85 km), Honister (77 km) y Blackpool (81 km) quedan fuera del radio, y no se encontró un operador verificable de espeleología o escalada en los Dales.",
+      "actividades": []
+    },
+    {
+      "id": "gb-lake-district",
+      "puntaje": 4,
+      "justificacion": "En la mina de pizarra de Honister, a 9 km, se concentran la vía ferrata Xtreme, el Infinity Bridge (el puente de cable más largo de Europa, unos 190 m colgado a 300 m sobre el valle de Borrowdale, elegido experiencia del año de Cumbria en 2023) y salidas de canyoning.",
+      "actividades": [
+        { "nombre": "Honister: Infinity Bridge", "tipo": "otro", "km": 9, "lat": 54.5103, "lng": -3.1985, "temporada": "todo el año (según clima)", "url": "https://honister.com/honister-infinity-bridge-named-cumbrias-experience-of-the-year-2023/" },
+        { "nombre": "Honister: Via Ferrata Xtreme y canyoning", "tipo": "via_ferrata", "km": 9, "lat": 54.5103, "lng": -3.1985, "temporada": "todo el año (según clima)", "url": "https://honister.com/an-a-to-z-of-honisters-adrenaline-activities" }
+      ]
+    },
+    {
+      "id": "gb-muro-adriano",
+      "puntaje": 1,
+      "justificacion": "Yacimiento romano sin parques ni operadores de adrenalina verificables a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "gb-edimburgo",
+      "puntaje": 3,
+      "justificacion": "El Midlothian Snowsports Centre, en Hillend, a 7 km, tiene la pista de esquí artificial más larga del Reino Unido y la segunda de Europa, abierta todo el año. M&D's, el parque temático de Escocia, queda a 55 km.",
+      "actividades": [
+        { "nombre": "Midlothian Snowsports Centre (Hillend)", "tipo": "esqui", "km": 7, "lat": 55.8890, "lng": -3.2100, "temporada": "todo el año", "url": "https://www.midlothian.gov.uk/news/article/3997/midlothian_snowsports_centre_celebrates_60_years_at_hillend" },
+        { "nombre": "M&D's, Scotland's Theme Park", "tipo": "parque_diversiones", "km": 55, "lat": 55.7970, "lng": -4.0200, "temporada": "mar–oct", "url": "https://rcdb.com/4915.htm" }
+      ]
+    },
+    {
+      "id": "gb-glasgow",
+      "puntaje": 2,
+      "justificacion": "M&D's, el parque temático de Escocia, queda a 16 km en Strathclyde Country Park, con dos montañas rusas y unas pocas atracciones fuertes; es una oferta modesta.",
+      "actividades": [
+        { "nombre": "M&D's, Scotland's Theme Park", "tipo": "parque_diversiones", "km": 16, "lat": 55.7970, "lng": -4.0200, "temporada": "mar–oct", "url": "https://rcdb.com/4915.htm" }
+      ]
+    },
+    {
+      "id": "gb-stirling",
+      "puntaje": 2,
+      "justificacion": "M&D's (36 km) y la pista artificial de Hillend (52 km) están en el radio, pero son una oferta modesta y la visita es la del castillo y el casco histórico.",
+      "actividades": [
+        { "nombre": "M&D's, Scotland's Theme Park", "tipo": "parque_diversiones", "km": 36, "lat": 55.7970, "lng": -4.0200, "temporada": "mar–oct", "url": "https://rcdb.com/4915.htm" },
+        { "nombre": "Midlothian Snowsports Centre (Hillend)", "tipo": "esqui", "km": 52, "lat": 55.8890, "lng": -3.2100, "temporada": "todo el año", "url": "https://www.midlothian.gov.uk/news/article/3997/midlothian_snowsports_centre_celebrates_60_years_at_hillend" }
+      ]
+    },
+    {
+      "id": "gb-isla-de-skye",
+      "puntaje": 1,
+      "justificacion": "Nevis Range queda a unos 90 km, fuera del radio, y no se encontró un operador verificable de escalada o deportes de aventura en la isla.",
+      "actividades": []
+    },
+    {
+      "id": "gb-glencoe",
+      "puntaje": 4,
+      "justificacion": "Dos estaciones de montaña en el radio: Glencoe Mountain Resort, a 14 km, con esquí en invierno y telesilla todo el año, y Nevis Range, a 20 km, con el único telecabina de montaña del Reino Unido, esquí hasta 1190 m y la pista de descenso en bicicleta de la Copa del Mundo UCI desde 2002.",
+      "actividades": [
+        { "nombre": "Glencoe Mountain Resort", "tipo": "esqui", "km": 14, "lat": 56.6290, "lng": -4.8290, "temporada": "dic–abr (esquí); telesilla todo el año", "url": "https://www.glencoemountain.co.uk/about-us/" },
+        { "nombre": "Nevis Range (esquí y descenso en bicicleta)", "tipo": "esqui", "km": 20, "lat": 56.8470, "lng": -5.0070, "temporada": "dic–abr (esquí); may–oct (bicicleta)", "url": "https://visitscotland.com/de-de/things-to-do/outdoor-activities/skiing-snowsports/nevis-range" }
+      ]
+    },
+    {
+      "id": "gb-lago-ness-inverness",
+      "puntaje": 2,
+      "justificacion": "La estación de Cairngorm Mountain queda a 51 km, en el borde del radio; Nevis Range, a unos 63 km, queda fuera.",
+      "actividades": [
+        { "nombre": "Cairngorm Mountain", "tipo": "esqui", "km": 51, "lat": 57.1340, "lng": -3.6710, "temporada": "nov–jun (según nieve)", "url": "https://www.visitcairngorms.com/listing/1043/cairngorm-mountain-resort/" }
+      ]
+    },
+    {
+      "id": "gb-oban-mull-iona",
+      "puntaje": 3,
+      "justificacion": "Glencoe Mountain Resort queda a 46 km y Nevis Range, con la pista de descenso de la Copa del Mundo UCI, a 56 km.",
+      "actividades": [
+        { "nombre": "Glencoe Mountain Resort", "tipo": "esqui", "km": 46, "lat": 56.6290, "lng": -4.8290, "temporada": "dic–abr (esquí); telesilla todo el año", "url": "https://www.glencoemountain.co.uk/about-us/" },
+        { "nombre": "Nevis Range (esquí y descenso en bicicleta)", "tipo": "esqui", "km": 56, "lat": 56.8470, "lng": -5.0070, "temporada": "dic–abr (esquí); may–oct (bicicleta)", "url": "https://visitscotland.com/de-de/things-to-do/outdoor-activities/skiing-snowsports/nevis-range" }
+      ]
+    },
+    {
+      "id": "gb-cairngorms",
+      "puntaje": 3,
+      "justificacion": "Cairngorm Mountain, a 6 km, es una de las principales estaciones de esquí de Escocia: unos 30 km de pistas, snowpark y funicular, con temporada que puede ir de noviembre a junio.",
+      "actividades": [
+        { "nombre": "Cairngorm Mountain", "tipo": "esqui", "km": 6, "lat": 57.1340, "lng": -3.6710, "temporada": "nov–jun (según nieve)", "url": "https://www.visitcairngorms.com/listing/1043/cairngorm-mountain-resort/" }
+      ]
+    },
+    {
+      "id": "gb-snowdonia",
+      "puntaje": 5,
+      "justificacion": "Zip World Velocity 2, en la cantera de Penrhyn (Bethesda), a 12 km, es la tirolesa más rápida del mundo (más de 160 km/h) y la más larga de Europa (1555 m), abierta todo el año.",
+      "actividades": [
+        { "nombre": "Zip World Velocity 2 (cantera de Penrhyn)", "tipo": "tirolesa", "km": 12, "lat": 53.1740, "lng": -4.0600, "temporada": "todo el año", "url": "https://www.zipworld.co.uk/adventure/velocity" }
+      ]
+    },
+    {
+      "id": "gb-conwy",
+      "puntaje": 4,
+      "justificacion": "Zip World Velocity 2, la tirolesa más rápida del mundo y la más larga de Europa, queda a 20 km, en la cantera de Penrhyn.",
+      "actividades": [
+        { "nombre": "Zip World Velocity 2 (cantera de Penrhyn)", "tipo": "tirolesa", "km": 20, "lat": 53.1740, "lng": -4.0600, "temporada": "todo el año", "url": "https://www.zipworld.co.uk/adventure/velocity" }
+      ]
+    },
+    {
+      "id": "gb-pembrokeshire-st-davids",
+      "puntaje": 4,
+      "justificacion": "St Davids es la cuna del coasteering: TYF Adventure lo creó allí en 1986 y sigue saliendo desde el pueblo para saltar, trepar y nadar por los acantilados de la costa de Pembrokeshire.",
+      "actividades": [
+        { "nombre": "TYF Adventure: coasteering en St Davids", "tipo": "otro", "km": 0, "lat": 51.8818, "lng": -5.2665, "temporada": "abr–oct", "url": "https://www.visitwales.com/things-do/adventure-and-activities/watersports/wales-home-coasteering" }
+      ]
+    },
+    {
+      "id": "gb-calzada-del-gigante",
+      "puntaje": 1,
+      "justificacion": "Costa de basalto que se recorre a pie; no se encontró un operador verificable de deportes de aventura en el radio.",
+      "actividades": []
+    },
+    {
+      "id": "gb-belfast",
+      "puntaje": 1,
+      "justificacion": "Ciudad sin parques ni operadores de adrenalina verificables a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "ie-dublin",
+      "puntaje": 3,
+      "justificacion": "Emerald Park (antes Tayto Park), en Ashbourne, a 23 km, es el único gran parque de atracciones de Irlanda, con Cú Chulainn, la única montaña rusa de madera del país (32 m, 90 km/h).",
+      "actividades": [
+        { "nombre": "Emerald Park (Cú Chulainn)", "tipo": "parque_diversiones", "km": 23, "lat": 53.5383, "lng": -6.4011, "temporada": "mar–dic (por calendario)", "url": "https://www.discoverireland.ie/meath/emerald-park" }
+      ]
+    },
+    {
+      "id": "ie-glendalough",
+      "puntaje": 2,
+      "justificacion": "Emerald Park queda a 59 km, en el borde del radio; la visita es la del monasterio y los lagos de Wicklow.",
+      "actividades": [
+        { "nombre": "Emerald Park (Cú Chulainn)", "tipo": "parque_diversiones", "km": 59, "lat": 53.5383, "lng": -6.4011, "temporada": "mar–dic (por calendario)", "url": "https://www.discoverireland.ie/meath/emerald-park" }
+      ]
+    },
+    {
+      "id": "ie-bru-na-boinne",
+      "puntaje": 2,
+      "justificacion": "Emerald Park, con la montaña rusa de madera Cú Chulainn, queda a 18 km, pero la visita es la de las tumbas neolíticas, sin actividad propia.",
+      "actividades": [
+        { "nombre": "Emerald Park (Cú Chulainn)", "tipo": "parque_diversiones", "km": 18, "lat": 53.5383, "lng": -6.4011, "temporada": "mar–dic (por calendario)", "url": "https://rcdb.com/12363.htm" }
+      ]
+    },
+    {
+      "id": "ie-kilkenny",
+      "puntaje": 1,
+      "justificacion": "Ciudad medieval sin parques ni operadores de adrenalina verificables a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "ie-carlingford",
+      "puntaje": 2,
+      "justificacion": "Emerald Park queda a 58 km, en el borde del radio; no se encontró otra oferta con operador verificable.",
+      "actividades": [
+        { "nombre": "Emerald Park (Cú Chulainn)", "tipo": "parque_diversiones", "km": 58, "lat": 53.5383, "lng": -6.4011, "temporada": "mar–dic (por calendario)", "url": "https://www.discoverireland.ie/meath/emerald-park" }
+      ]
+    },
+    {
+      "id": "ie-rock-of-cashel",
+      "puntaje": 1,
+      "justificacion": "Conjunto eclesiástico sin parques ni operadores de adrenalina verificables a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "ie-acantilados-de-moher",
+      "puntaje": 3,
+      "justificacion": "Lahinch, a 7 km, es uno de los principales centros de surf de Europa occidental, con varias escuelas en la playa, como Ollie's Lahinch Surf Centre, dirigida por un surfista de olas grandes.",
+      "actividades": [
+        { "nombre": "Surf en Lahinch (Ollie's Lahinch Surf Centre)", "tipo": "otro", "km": 7, "lat": 52.9330, "lng": -9.3470, "temporada": "feb–nov", "url": "https://www.discoverireland.ie/clare/ollie-s-lahinch-surf-centre" }
+      ]
+    },
+    {
+      "id": "ie-burren-doolin",
+      "puntaje": 3,
+      "justificacion": "Lahinch, a 13 km, es uno de los principales centros de surf de Europa occidental, con varias escuelas en la playa.",
+      "actividades": [
+        { "nombre": "Surf en Lahinch (Ollie's Lahinch Surf Centre)", "tipo": "otro", "km": 13, "lat": 52.9330, "lng": -9.3470, "temporada": "feb–nov", "url": "https://www.discoverireland.ie/clare/ollie-s-lahinch-surf-centre" }
+      ]
+    },
+    {
+      "id": "ie-peninsula-de-dingle",
+      "puntaje": 1,
+      "justificacion": "No se encontró oferta de adrenalina con operador verificable a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "ie-ring-of-kerry",
+      "puntaje": 1,
+      "justificacion": "No se encontró oferta de adrenalina con operador verificable a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "ie-kinsale-cobh",
+      "puntaje": 1,
+      "justificacion": "Puertos de Cork sin parques ni operadores de adrenalina verificables a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "ie-galway",
+      "puntaje": 3,
+      "justificacion": "Dos destinos de aventura en el radio: el surf de Lahinch, a 42 km, y el Killary Adventure Centre, a 58 km, con más de veinte actividades (tirolesa, cuerdas altas, kayak en el fiordo).",
+      "actividades": [
+        { "nombre": "Surf en Lahinch (Ollie's Lahinch Surf Centre)", "tipo": "otro", "km": 42, "lat": 52.9330, "lng": -9.3470, "temporada": "feb–nov", "url": "https://www.discoverireland.ie/clare/ollie-s-lahinch-surf-centre" },
+        { "nombre": "Killary Adventure Centre", "tipo": "tirolesa", "km": 58, "lat": 53.5970, "lng": -9.7450, "temporada": "todo el año (reserva previa)", "url": "https://discoverireland.ie/galway/killary-adventure-company" }
+      ]
+    },
+    {
+      "id": "ie-islas-aran",
+      "puntaje": 3,
+      "justificacion": "El surf de Lahinch, en la costa de Clare, queda a 31 km en línea recta y el Killary Adventure Centre a 53 km; en las islas mismas no hay oferta de adrenalina.",
+      "actividades": [
+        { "nombre": "Surf en Lahinch (Ollie's Lahinch Surf Centre)", "tipo": "otro", "km": 31, "lat": 52.9330, "lng": -9.3470, "temporada": "feb–nov", "url": "https://www.discoverireland.ie/clare/ollie-s-lahinch-surf-centre" },
+        { "nombre": "Killary Adventure Centre", "tipo": "tirolesa", "km": 53, "lat": 53.5970, "lng": -9.7450, "temporada": "todo el año (reserva previa)", "url": "https://discoverireland.ie/galway/killary-adventure-company" }
+      ]
+    },
+    {
+      "id": "ie-connemara",
+      "puntaje": 3,
+      "justificacion": "El Killary Adventure Centre, a 11 km, junto al fiordo de Killary, ofrece más de veinte actividades: tirolesa, cuerdas altas, torre de escalada, kayak y paddle surf.",
+      "actividades": [
+        { "nombre": "Killary Adventure Centre", "tipo": "tirolesa", "km": 11, "lat": 53.5970, "lng": -9.7450, "temporada": "todo el año (reserva previa)", "url": "https://discoverireland.ie/galway/killary-adventure-company" }
+      ]
+    },
+    {
+      "id": "ie-achill",
+      "puntaje": 3,
+      "justificacion": "El Killary Adventure Centre, con tirolesa, cuerdas altas y kayak en el fiordo, queda a 44 km.",
+      "actividades": [
+        { "nombre": "Killary Adventure Centre", "tipo": "tirolesa", "km": 44, "lat": 53.5970, "lng": -9.7450, "temporada": "todo el año (reserva previa)", "url": "https://discoverireland.ie/galway/killary-adventure-company" }
+      ]
+    },
+    {
+      "id": "ie-slieve-league",
+      "puntaje": 1,
+      "justificacion": "Acantilados que se recorren a pie; no se encontró oferta de adrenalina con operador verificable a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "ie-inishowen",
+      "puntaje": 1,
+      "justificacion": "Península para recorrer en coche, sin parques ni operadores de adrenalina verificables a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "is-reikiavik",
+      "puntaje": 4,
+      "justificacion": "Dos actividades destacadas en el radio: la estación de esquí de Bláfjöll, a 23 km, con 14 remontes, y el snorkel o buceo en la falla de Silfra, a 42 km, en el agua glaciar entre las placas norteamericana y euroasiática, con unos 100 m de visibilidad.",
+      "actividades": [
+        { "nombre": "Bláfjöll (esquí)", "tipo": "esqui", "km": 23, "lat": 63.9810, "lng": -21.6560, "temporada": "ene–abr (según nieve)", "url": "https://skidasvaedi.is/en/blafjoll/blafjoll/" },
+        { "nombre": "Snorkel y buceo en Silfra (Þingvellir)", "tipo": "otro", "km": 42, "lat": 64.2556, "lng": -21.1166, "temporada": "todo el año", "url": "https://troll.is/silfra-iceland/" }
+      ]
+    },
+    {
+      "id": "is-circulo-dorado",
+      "puntaje": 5,
+      "justificacion": "El snorkel y buceo en la falla de Silfra, dentro de Þingvellir, es una experiencia única en el mundo: agua glaciar entre dos placas tectónicas con unos 100 m de visibilidad. Además, el rafting por el río Hvítá sale de la base de Drumbó, a 12 km del centro de la ruta.",
+      "actividades": [
+        { "nombre": "Snorkel y buceo en Silfra (Þingvellir)", "tipo": "otro", "km": 29, "lat": 64.2556, "lng": -21.1166, "temporada": "todo el año", "url": "https://troll.is/silfra-iceland/" },
+        { "nombre": "Rafting en el río Hvítá (base de Drumbó)", "tipo": "rafting", "km": 12, "lat": 64.1990, "lng": -20.4560, "temporada": "may–sep", "url": "https://south.is/en/experiences/activities/water-activities/river-rafting" }
+      ]
+    },
+    {
+      "id": "is-laguna-azul",
+      "puntaje": 2,
+      "justificacion": "La estación de esquí de Bláfjöll queda a 40 km; la Laguna Azul es un baño geotermal, sin actividad de adrenalina propia.",
+      "actividades": [
+        { "nombre": "Bláfjöll (esquí)", "tipo": "esqui", "km": 40, "lat": 63.9810, "lng": -21.6560, "temporada": "ene–abr (según nieve)", "url": "https://skidasvaedi.is/en/blafjoll/blafjoll/" }
+      ]
+    },
+    {
+      "id": "is-costa-sur-vik",
+      "puntaje": 4,
+      "justificacion": "En el glaciar Sólheimajökull, a 12 km de Skógafoss, se hacen caminatas por el hielo con crampones y piolet y escalada en hielo de iniciación, con guías de Icelandic Mountain Guides, todo el año.",
+      "actividades": [
+        { "nombre": "Caminata y escalada en hielo en Sólheimajökull", "tipo": "otro", "km": 12, "lat": 63.5310, "lng": -19.3700, "temporada": "todo el año", "url": "https://www.icelandia.com/tours/solheimajokull-glacier-walk-and-ice-climbing" }
+      ]
+    },
+    {
+      "id": "is-vestmannaeyjar",
+      "puntaje": 3,
+      "justificacion": "El glaciar Sólheimajökull, con caminatas y escalada en hielo guiadas, queda a 46 km en línea recta, al otro lado del estrecho.",
+      "actividades": [
+        { "nombre": "Caminata y escalada en hielo en Sólheimajökull", "tipo": "otro", "km": 46, "lat": 63.5310, "lng": -19.3700, "temporada": "todo el año", "url": "https://www.icelandia.com/tours/solheimajokull-glacier-walk-and-ice-climbing" }
+      ]
+    },
+    {
+      "id": "is-jokulsarlon",
+      "puntaje": 3,
+      "justificacion": "Las salidas de caminata por el glaciar y cuevas de hielo del Vatnajökull desde Skaftafell quedan a 36 km.",
+      "actividades": [
+        { "nombre": "Cueva de hielo y caminata por el glaciar desde Skaftafell", "tipo": "otro", "km": 36, "lat": 64.0160, "lng": -16.9660, "temporada": "nov–mar (cuevas); caminatas todo el año", "url": "https://www.mountainguides.is/tour/ice-cave-skaftafell" }
+      ]
+    },
+    {
+      "id": "is-skaftafell",
+      "puntaje": 4,
+      "justificacion": "Skaftafell es la base de las caminatas guiadas por el Vatnajökull, el mayor glaciar de Europa por volumen: Icelandic Mountain Guides sale desde allí a la lengua del Falljökull y, en invierno, a sus cuevas de hielo.",
+      "actividades": [
+        { "nombre": "Cueva de hielo y caminata por el glaciar desde Skaftafell", "tipo": "otro", "km": 0, "lat": 64.0160, "lng": -16.9660, "temporada": "nov–mar (cuevas); caminatas todo el año", "url": "https://www.mountainguides.is/tour/ice-cave-skaftafell" }
+      ]
+    },
+    {
+      "id": "is-landmannalaugar",
+      "puntaje": 2,
+      "justificacion": "El glaciar Sólheimajökull, con caminatas y escalada en hielo guiadas, queda a 53 km, en el borde del radio; Landmannalaugar se recorre a pie.",
+      "actividades": [
+        { "nombre": "Caminata y escalada en hielo en Sólheimajökull", "tipo": "otro", "km": 53, "lat": 63.5310, "lng": -19.3700, "temporada": "todo el año", "url": "https://www.icelandia.com/tours/solheimajokull-glacier-walk-and-ice-climbing" }
+      ]
+    },
+    {
+      "id": "is-askja",
+      "puntaje": 1,
+      "justificacion": "Caldera en las Tierras Altas, sin oferta de adrenalina con operador verificable a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "is-snaefellsnes",
+      "puntaje": 1,
+      "justificacion": "No se encontró oferta de adrenalina con operador verificable a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "is-fiordos-del-oeste",
+      "puntaje": 1,
+      "justificacion": "No se encontró oferta de adrenalina con operador verificable a 60 km de Ísafjörður.",
+      "actividades": []
+    },
+    {
+      "id": "is-myvatn",
+      "puntaje": 2,
+      "justificacion": "Hlíðarfjall, la mayor estación de esquí del norte de Islandia, sobre Akureyri, queda a 55 km, en el borde del radio.",
+      "actividades": [
+        { "nombre": "Hlíðarfjall (esquí)", "tipo": "esqui", "km": 55, "lat": 65.6640, "lng": -18.1800, "temporada": "dic–abr", "url": "https://www.hlidarfjall.is/en/information/about-the-area" }
+      ]
+    },
+    {
+      "id": "is-husavik",
+      "puntaje": 2,
+      "justificacion": "Hlíðarfjall, la mayor estación de esquí del norte de Islandia, queda a 57 km, en el borde del radio.",
+      "actividades": [
+        { "nombre": "Hlíðarfjall (esquí)", "tipo": "esqui", "km": 57, "lat": 65.6640, "lng": -18.1800, "temporada": "dic–abr", "url": "https://www.hlidarfjall.is/en/information/about-the-area" }
+      ]
+    },
+    {
+      "id": "is-dettifoss",
+      "puntaje": 1,
+      "justificacion": "Cascada que se visita a pie, sin oferta de adrenalina con operador verificable a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "is-seydisfjordur",
+      "puntaje": 1,
+      "justificacion": "No se encontró oferta de adrenalina con operador verificable a 60 km.",
+      "actividades": []
     }
   ],
-  "nuevos": []
+  "nuevos": [
+    {
+      "id": "gb-alton-towers",
+      "nombre": "Alton Towers Resort",
+      "pais_iso": "GB",
+      "region": "Midlands del Oeste (Inglaterra)",
+      "lat": 52.9874,
+      "lng": -1.8865,
+      "tipo": "parque_diversiones",
+      "destino_propio": true,
+      "puntaje": 5,
+      "justificacion": "El mayor parque temático del Reino Unido, en los jardines de una mansión de Staffordshire: Nemesis Reborn, la montaña rusa invertida renovada en 2024 tras 18 meses de obras, y The Smiler, con 14 inversiones. Abre de marzo a noviembre y queda a 41 km del Peak District.",
+      "actividades": [
+        { "nombre": "Alton Towers Resort (Nemesis Reborn, The Smiler)", "tipo": "parque_diversiones", "km": 0, "lat": 52.9874, "lng": -1.8865, "temporada": "mar–nov", "url": "https://altontowers.com/press/latest-news/alton-towers-resort-reveals-new-name-and-fearsome-new-creature-for-nemesis-rollercoaster" }
+      ],
+      "fuentes": [
+        { "guia": "Sitio oficial", "url": "https://altontowers.com/press/latest-news/alton-towers-resort-reveals-new-name-and-fearsome-new-creature-for-nemesis-rollercoaster" }
+      ]
+    },
+    {
+      "id": "gb-blackpool-pleasure-beach",
+      "nombre": "Blackpool Pleasure Beach",
+      "pais_iso": "GB",
+      "region": "Noroeste de Inglaterra",
+      "lat": 53.7922,
+      "lng": -3.0556,
+      "tipo": "parque_diversiones",
+      "destino_propio": true,
+      "puntaje": 4,
+      "justificacion": "El gran parque clásico de la costa de Lancashire, junto al paseo marítimo de Blackpool: The Big One (1994) e ICON, la primera montaña rusa de doble lanzamiento del Reino Unido, que cruza 15 veces otras atracciones del parque. Queda a 43 km de Liverpool.",
+      "actividades": [
+        { "nombre": "Blackpool Pleasure Beach (The Big One, ICON)", "tipo": "parque_diversiones", "km": 0, "lat": 53.7922, "lng": -3.0556, "temporada": "feb–nov (por calendario)", "url": "https://www.visitblackpool.com/things-to-do/new-for-2018/icon-(1)/" }
+      ],
+      "fuentes": [
+        { "guia": "Turismo oficial (Visit Blackpool)", "url": "https://www.visitblackpool.com/things-to-do/new-for-2018/icon-(1)/" }
+      ]
+    }
+  ],
+  "estado": "completo"
 }
