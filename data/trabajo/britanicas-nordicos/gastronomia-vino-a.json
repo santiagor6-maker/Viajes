@@ -4,8 +4,127 @@
   "grupo": "a",
   "ronda": 1,
   "paises": ["GB", "IE", "IS"],
-  "estado": "en_progreso",
+  "estado": "completo",
   "puntajes": [
+    {
+      "id": "gb-londres",
+      "puntaje": 5,
+      "justificacion": "Es la capital gastronómica de las islas. La guía Michelin Gran Bretaña e Irlanda 2026 tiene 10 restaurantes con tres estrellas, y varios están en Londres. En 2026 Bonheur by Matt Abé entró directamente con dos estrellas. A la alta cocina se suman Borough Market, los pubs con asado dominical y la cocina india y de otros países.",
+      "platos": ["Fish and chips", "Sunday roast con Yorkshire pudding", "Pie and mash", "Curry de Brick Lane"],
+      "fuentes": [
+        {"guia": "Michelin (nota de prensa Gran Bretaña e Irlanda 2026)", "url": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-great-britain-ireland-2026"},
+        {"guia": "Michelin (nuevas dos estrellas 2026)", "url": "https://news.michelin.co.uk/articles/two-restaurants-newly-awarded-two-michelin-stars-in-the-michelin-guide-great-britain-ireland-2026"},
+        {"guia": "Time Out (estrellas Michelin por región 2026)", "url": "https://www.timeout.com/uk/news/which-uk-region-has-the-most-michelin-star-restaurants-in-2026-022826"}
+      ]
+    },
+    {
+      "id": "gb-windsor",
+      "puntaje": 2,
+      "justificacion": "Tiene pubs y salones de té junto al castillo. Bray, con dos restaurantes de tres estrellas, está a unos 8 km.",
+      "platos": ["Afternoon tea", "Sunday roast"],
+      "fuentes": []
+    },
+    {
+      "id": "gb-canterbury",
+      "puntaje": 2,
+      "justificacion": "Es la capital de Kent, el «jardín de Inglaterra», famoso por su fruta y su lúpulo. Tiene el mercado cubierto The Goods Shed.",
+      "platos": ["Cerveza con lúpulo de Kent", "Fresas y cerezas de Kent"],
+      "fuentes": []
+    },
+    {
+      "id": "gb-oxford",
+      "puntaje": 2,
+      "justificacion": "Tiene el Covered Market, del siglo XVIII, y pubs históricos. Le Manoir aux Quat'Saisons, de Raymond Blanc, está en Great Milton, a unos 13 km.",
+      "platos": ["Oxford sausage", "Mermelada de Oxford", "Cerveza en pubs históricos"],
+      "fuentes": []
+    },
+    {
+      "id": "gb-cambridge",
+      "puntaje": 2,
+      "justificacion": "Tiene un mercado diario en Market Square y alta cocina en Midsummer House, junto al río Cam.",
+      "platos": ["Afternoon tea", "Chelsea bun de Fitzbillies"],
+      "fuentes": []
+    },
+    {
+      "id": "gb-bath",
+      "puntaje": 2,
+      "justificacion": "Es la ciudad del Sally Lunn bun y de las galletas Bath Oliver. Tiene salones de té georgianos y cocina de Somerset.",
+      "platos": ["Sally Lunn bun", "Bath bun", "Sidra de Somerset"],
+      "fuentes": []
+    },
+    {
+      "id": "gb-stonehenge",
+      "puntaje": 1,
+      "justificacion": "Es un sitio arqueológico con cafetería de visitantes. Salisbury tiene mercado, pero poca oferta propia.",
+      "platos": [],
+      "fuentes": []
+    },
+    {
+      "id": "gb-wells-glastonbury",
+      "puntaje": 2,
+      "justificacion": "Está en Somerset, tierra de sidra, y el pueblo de Cheddar, cuna del queso, queda a unos 15 km de Wells.",
+      "platos": ["Queso cheddar", "Sidra de Somerset"],
+      "fuentes": []
+    },
+    {
+      "id": "gb-cornualles",
+      "puntaje": 4,
+      "justificacion": "Tiene la despensa más reconocida de Inglaterra. El Cornish pasty tiene indicación geográfica protegida desde 2011 y solo puede llevar ese nombre si se elabora en Cornualles con la receta tradicional. A eso se suman la nata cuajada (clotted cream), el cream tea y el pescado y marisco de puertos como Padstow y Newlyn.",
+      "platos": ["Cornish pasty (IGP)", "Cream tea con clotted cream", "Sardinas de Cornualles", "Stargazy pie"],
+      "fuentes": [
+        {"guia": "GOV.UK (IGP Cornish pasty)", "url": "https://www.gov.uk/government/publications/protected-food-name-cornish-pasty-pgi"},
+        {"guia": "Cornish Pasty Association (asociación de productores)", "url": "https://www.cornishpasties.org.uk/PGI_status.htm"},
+        {"guia": "Lonely Planet (comer y beber en Cornualles)", "url": "https://www.lonelyplanet.com/articles/eat-and-drink-cornwall"}
+      ]
+    },
+    {
+      "id": "gb-cotswolds",
+      "puntaje": 2,
+      "justificacion": "Tiene pubs rurales con buena cocina, tiendas de granja como Daylesford y el queso Double Gloucester.",
+      "platos": ["Double Gloucester", "Cordero de los Cotswolds", "Sunday roast en pub"],
+      "fuentes": []
+    },
+    {
+      "id": "gb-stratford-upon-avon",
+      "puntaje": 2,
+      "justificacion": "Tiene salones de té y pubs con historia junto al teatro. Algo de interés.",
+      "platos": ["Afternoon tea", "Sunday roast"],
+      "fuentes": []
+    },
+    {
+      "id": "gb-peak-district",
+      "puntaje": 3,
+      "justificacion": "Bakewell, en el corazón del parque, es la cuna del Bakewell pudding, de hojaldre con mermelada y relleno de huevo y almendra, que VisitEngland incluye entre las especialidades regionales de Inglaterra. Chatsworth tiene además su propia tienda de granja.",
+      "platos": ["Bakewell pudding", "Bakewell tart", "Productos de la granja de Chatsworth"],
+      "fuentes": [
+        {"guia": "VisitEngland (especialidades regionales)", "url": "https://www.visitengland.com/things-to-do/spring/countryside/food-and-drink/regional-specialities"}
+      ]
+    },
+    {
+      "id": "gb-liverpool",
+      "puntaje": 2,
+      "justificacion": "Es la ciudad del scouse, el guiso de carne que da apodo a sus vecinos, y tiene food halls como Baltic Market.",
+      "platos": ["Scouse", "Fish and chips"],
+      "fuentes": []
+    },
+    {
+      "id": "gb-york",
+      "puntaje": 3,
+      "justificacion": "Tiene el salón de té Bettys, el mercado de Shambles y la cocina de Yorkshire. VisitBritain la destaca como destino gastronómico, con el Yorkshire pudding, el queso Wensleydale y el ruibarbo del «triángulo del ruibarbo».",
+      "platos": ["Yorkshire pudding", "Fat rascal de Bettys", "Wensleydale con pastel de frutas", "Ruibarbo forzado de Yorkshire"],
+      "fuentes": [
+        {"guia": "VisitBritain (gastronomía de Yorkshire)", "url": "https://www.visitbritain.com/hk/en/media/story-ideas/foodie-focus-yorkshire-0"}
+      ]
+    },
+    {
+      "id": "gb-yorkshire-dales",
+      "puntaje": 3,
+      "justificacion": "Es la tierra del queso Wensleydale, que se elabora en la Wensleydale Creamery de Hawes, con centro de visitantes. En Masham están las cerveceras Theakston y Black Sheep, y hay pubs rurales como el Tan Hill Inn.",
+      "platos": ["Wensleydale", "Cerveza de Masham (Theakston, Black Sheep)", "Cordero de Swaledale"],
+      "fuentes": [
+        {"guia": "VisitBritain (gastronomía de Yorkshire)", "url": "https://www.visitbritain.com/hk/en/media/story-ideas/foodie-focus-yorkshire-0"}
+      ]
+    },
     {
       "id": "gb-lake-district",
       "puntaje": 5,
@@ -14,9 +133,468 @@
       "fuentes": [
         {"guia": "Guía Michelin (L'Enclume)", "url": "https://guide.michelin.com/en/cumbria/cartmel/restaurant/l-enclume"},
         {"guia": "Guía Michelin (L'Enclume, tercera estrella 2022)", "url": "https://guide.michelin.com/gb/en/article/michelin-star-revelation/l-enclume-the-uk-s-newest-three-star-restaurant"},
-        {"guia": "Time Out (estrellas por región 2026)", "url": "https://www.timeout.com/uk/news/which-uk-region-has-the-most-michelin-star-restaurants-in-2026-022826"}
+        {"guia": "Time Out (estrellas Michelin por región 2026)", "url": "https://www.timeout.com/uk/news/which-uk-region-has-the-most-michelin-star-restaurants-in-2026-022826"}
       ]
+    },
+    {
+      "id": "gb-muro-adriano",
+      "puntaje": 1,
+      "justificacion": "Es un sitio arqueológico rural con pubs y cafeterías en los pueblos cercanos.",
+      "platos": ["Pan de Northumberland (stottie cake)"],
+      "fuentes": []
+    },
+    {
+      "id": "gb-edimburgo",
+      "puntaje": 4,
+      "justificacion": "Es la escena culinaria más destacada de Escocia. En la guía Michelin 2026 tiene seis restaurantes con una estrella: Avery, Lyla, Condita, The Kitchin, Restaurant Martin Wishart y Timberyard, que tiene además la estrella verde. Hay también bares de whisky y la cocina escocesa clásica.",
+      "platos": ["Haggis, neeps and tatties", "Cullen skink", "Salmón ahumado escocés", "Whisky de malta"],
+      "fuentes": [
+        {"guia": "Guía Michelin (mejores restaurantes de Edimburgo)", "url": "https://guide.michelin.com/us/en/best-of/the-best-restaurants-in-edinburgh"},
+        {"guia": "The Scotsman (estrellas Michelin en Escocia 2026)", "url": "https://foodanddrink.scotsman.com/in-the-news/michelin-star-restaurants-scotland-2026-full-list-and-new-stars-awarded-as-michelin-guide-uk-published/"}
+      ]
+    },
+    {
+      "id": "gb-glasgow",
+      "puntaje": 3,
+      "justificacion": "Tiene la escena gastronómica más animada del oeste de Escocia: Cail Bruich figura entre los restaurantes con estrella de la guía Michelin 2026, y hay bares de whisky y restaurantes indios en una ciudad que reivindica el pollo tikka masala.",
+      "platos": ["Pollo tikka masala", "Haggis", "Whisky de malta"],
+      "fuentes": [
+        {"guia": "The Scotsman (estrellas Michelin en Escocia 2026)", "url": "https://foodanddrink.scotsman.com/in-the-news/michelin-star-restaurants-scotland-2026-full-list-and-new-stars-awarded-as-michelin-guide-uk-published/"}
+      ]
+    },
+    {
+      "id": "gb-stirling",
+      "puntaje": 1,
+      "justificacion": "Es una ciudad histórica con restaurantes y pubs, pero poca oferta propia.",
+      "platos": ["Haggis"],
+      "fuentes": []
+    },
+    {
+      "id": "gb-isla-de-skye",
+      "puntaje": 3,
+      "justificacion": "Tiene restaurantes de producto local que recoge la guía Michelin, como The Three Chimneys, en Colbost, y Loch Bay, en Stein. Hay langostinos y vieiras de sus lagos marinos y la destilería Talisker, en Carbost, con visitas guiadas.",
+      "platos": ["Langostinos y vieiras de Skye", "Whisky Talisker", "Ostras de Skye"],
+      "fuentes": [
+        {"guia": "The Scotsman (restaurantes escoceses en la guía Michelin 2026)", "url": "https://foodanddrink.scotsman.com/food/every-scottish-restaurant-featured-in-the-michelin-guide-2026-from-cosy-country-pubs-to-townhouse-tasting-menus/"}
+      ]
+    },
+    {
+      "id": "gb-glencoe",
+      "puntaje": 1,
+      "justificacion": "Es un valle de montaña con el hotel Clachaig Inn y poca oferta gastronómica.",
+      "platos": [],
+      "fuentes": []
+    },
+    {
+      "id": "gb-lago-ness-inverness",
+      "puntaje": 2,
+      "justificacion": "Inverness tiene restaurantes de producto de las Highlands, como venado y salmón. Algo de interés.",
+      "platos": ["Venado de las Highlands", "Salmón escocés"],
+      "fuentes": []
+    },
+    {
+      "id": "gb-oban-mull-iona",
+      "puntaje": 3,
+      "justificacion": "Oban se presenta como la capital del marisco de Escocia, con puestos en el muelle y la destilería de Oban en el centro del pueblo. En Mull se elaboran el queso cheddar de la isla y el whisky de Tobermory.",
+      "platos": ["Marisco del muelle de Oban", "Whisky de Oban", "Cheddar de la isla de Mull", "Whisky de Tobermory"],
+      "fuentes": [
+        {"guia": "Wild About Argyll (turismo de Argyll e islas)", "url": "https://www.wildaboutargyll.co.uk/visit/oban-lorn-isles/"},
+        {"guia": "Oban.org.uk (web del pueblo)", "url": "https://www.oban.org.uk/blogs/sailing-oban-10-reasons-to-come-ashore-in-scotlands-seafood-captial/"}
+      ]
+    },
+    {
+      "id": "gb-cairngorms",
+      "puntaje": 3,
+      "justificacion": "La destilería Glenlivet, primera parada de la Malt Whisky Trail de Speyside, está dentro del parque, y el resto de la ruta empieza en su borde norte. Hay además venado y salmón de las Highlands.",
+      "platos": ["Whisky de malta de Speyside", "Venado", "Shortbread"],
+      "fuentes": [
+        {"guia": "VisitScotland (Malt Whisky Trail)", "url": "https://www.visitscotland.com/blog/speyside-malt-whisky-trail-itinerary"}
+      ]
+    },
+    {
+      "id": "gb-snowdonia",
+      "puntaje": 2,
+      "justificacion": "Es tierra de cordero galés, que tiene indicación geográfica protegida, y de bara brith en los salones de té de Betws-y-Coed y Beddgelert.",
+      "platos": ["Cordero galés (IGP)", "Bara brith", "Welsh cakes"],
+      "fuentes": []
+    },
+    {
+      "id": "gb-conwy",
+      "puntaje": 2,
+      "justificacion": "Es famosa por los mejillones de Conwy, que se recogen a mano en el estuario, y celebra una feria del mejillón en otoño.",
+      "platos": ["Mejillones de Conwy", "Welsh rarebit"],
+      "fuentes": []
+    },
+    {
+      "id": "gb-pembrokeshire-st-davids",
+      "puntaje": 2,
+      "justificacion": "Tiene cangrejo y langosta de la costa, y laverbread, el alga cocida típica de Gales.",
+      "platos": ["Laverbread", "Cangrejo de Pembrokeshire", "Cawl"],
+      "fuentes": []
+    },
+    {
+      "id": "gb-calzada-del-gigante",
+      "puntaje": 3,
+      "justificacion": "A unos 3 km está la destilería Old Bushmills, la más antigua en activo de Irlanda del Norte, con una licencia de 1608 y visitas guiadas con cata.",
+      "platos": ["Whiskey Bushmills", "Ulster fry", "Pan de soda"],
+      "fuentes": [
+        {"guia": "Ireland.com (Tourism Ireland)", "url": "https://www.ireland.com/en/things-to-do/attractions/bushmills-distillery/"}
+      ]
+    },
+    {
+      "id": "gb-belfast",
+      "puntaje": 3,
+      "justificacion": "Tiene una escena culinaria en crecimiento: OX y The Muddlers Club tienen estrella Michelin, y Visit Belfast destaca que tres restaurantes de la ciudad figuran entre los mejores del mundo. El mercado victoriano de St George's abre los fines de semana.",
+      "platos": ["Ulster fry", "Champ", "Pan de soda y farl de patata", "Cerveza y whiskey norirlandeses"],
+      "fuentes": [
+        {"guia": "Visit Belfast (turismo oficial)", "url": "https://visitbelfastpartners.com/article/three-belfast-restaurants-named-among-the-best-in-the-world"},
+        {"guia": "Time Out (estrellas Michelin en Belfast)", "url": "https://www.timeout.com/uk/news/belfasts-oldest-michelin-starred-restaurant-is-closing-111023"}
+      ]
+    },
+    {
+      "id": "ie-dublin",
+      "puntaje": 4,
+      "justificacion": "Es la capital gastronómica de Irlanda. En la guía Michelin 2026 tiene tres restaurantes con dos estrellas: Restaurant Patrick Guilbaud, Chapter One y Liath, en Blackrock. Forest Avenue ganó su primera estrella ese año. Tiene además la Guinness Storehouse y pubs con ostras y stew.",
+      "platos": ["Irish stew", "Coddle de Dublín", "Guinness con ostras", "Pan de soda"],
+      "fuentes": [
+        {"guia": "TravelExtra (estrellas Michelin de Irlanda 2026)", "url": "https://www.travelextra.ie/irelands-michelin-star-restaurants"},
+        {"guia": "Ireland.com (Tourism Ireland, destinos gastronómicos)", "url": "https://www.ireland.com/en-gb/magazine/food-and-drink/foodie-destinations-in-ireland"}
+      ]
+    },
+    {
+      "id": "ie-glendalough",
+      "puntaje": 1,
+      "justificacion": "Es un sitio monástico en el bosque con cafetería y hotel. Poca oferta.",
+      "platos": [],
+      "fuentes": []
+    },
+    {
+      "id": "ie-bru-na-boinne",
+      "puntaje": 1,
+      "justificacion": "Es un sitio arqueológico con cafetería en el centro de visitantes.",
+      "platos": [],
+      "fuentes": []
+    },
+    {
+      "id": "ie-kilkenny",
+      "puntaje": 3,
+      "justificacion": "Tiene dos restaurantes con una estrella Michelin en 2026: Campagne, en la ciudad, y Lady Helen, en Mount Juliet, a 15 km. Es la cuna de la cerveza Smithwick's, con su propia visita.",
+      "platos": ["Cerveza Smithwick's", "Cordero irlandés", "Quesos artesanos del sureste"],
+      "fuentes": [
+        {"guia": "TravelExtra (estrellas Michelin de Irlanda 2026)", "url": "https://www.travelextra.ie/irelands-michelin-star-restaurants"}
+      ]
+    },
+    {
+      "id": "ie-carlingford",
+      "puntaje": 2,
+      "justificacion": "Es famosa por las ostras de Carlingford Lough, que se sirven en sus pubs. Algo de interés.",
+      "platos": ["Ostras de Carlingford", "Mejillones"],
+      "fuentes": []
+    },
+    {
+      "id": "ie-rock-of-cashel",
+      "puntaje": 2,
+      "justificacion": "Está en Tipperary, la tierra del queso azul Cashel Blue, que se elabora en la zona.",
+      "platos": ["Cashel Blue"],
+      "fuentes": []
+    },
+    {
+      "id": "ie-acantilados-de-moher",
+      "puntaje": 1,
+      "justificacion": "Es un mirador natural con cafetería en el centro de visitantes.",
+      "platos": [],
+      "fuentes": []
+    },
+    {
+      "id": "ie-burren-doolin",
+      "puntaje": 3,
+      "justificacion": "Tiene la Burren Food Trail, con visitas a granjas, paseos de recolección, talleres de ostras y el Burren Smokehouse de Lisdoonvarna, conocido por su salmón ahumado. Tourism Ireland la incluye entre las grandes experiencias gastronómicas de la Wild Atlantic Way.",
+      "platos": ["Salmón ahumado del Burren Smokehouse", "Ostras de la bahía de Galway", "Cordero del Burren"],
+      "fuentes": [
+        {"guia": "Ireland.com (Tourism Ireland, Wild Atlantic Way)", "url": "https://www.ireland.com/magazine/food-and-drink/10-great-food-experiences-on-the-wild-atlantic-way/"}
+      ]
+    },
+    {
+      "id": "ie-peninsula-de-dingle",
+      "puntaje": 3,
+      "justificacion": "Tiene la Dingle Peninsula Food & Drink Trail, para conocer a los productores locales, y un festival gastronómico en octubre con más de 50 puestos. Hay marisco del puerto, la destilería de Dingle y los helados Murphy's.",
+      "platos": ["Pastel de cordero de Dingle", "Marisco y pescado del puerto", "Whiskey y gin de Dingle", "Helado Murphy's de sal marina"],
+      "fuentes": [
+        {"guia": "Discover Ireland (Fáilte Ireland)", "url": "https://www.discoverireland.ie/kerry/the-dingle-peninsula-food-drink-trail"},
+        {"guia": "Ireland.com (Tourism Ireland, Wild Atlantic Way)", "url": "https://www.ireland.com/magazine/food-and-drink/10-great-food-experiences-on-the-wild-atlantic-way/"}
+      ]
+    },
+    {
+      "id": "ie-ring-of-kerry",
+      "puntaje": 2,
+      "justificacion": "Killarney tiene buena hostelería y la zona produce cordero y queso de Kerry. Algo de interés.",
+      "platos": ["Cordero de Kerry", "Mantequilla Kerrygold"],
+      "fuentes": []
+    },
+    {
+      "id": "ie-kinsale-cobh",
+      "puntaje": 4,
+      "justificacion": "Kinsale se conoce como la capital gourmet de Irlanda. Su festival gastronómico de octubre incluye un campeonato de chowder y una semana de restaurantes. Bastion mantiene su estrella Michelin en 2026 y St Francis Provisions recibió ese año el premio de servicio de la guía.",
+      "platos": ["Seafood chowder", "Pescado y marisco del puerto", "Quesos de West Cork"],
+      "fuentes": [
+        {"guia": "Ireland.com (Tourism Ireland, Wild Atlantic Way)", "url": "https://www.ireland.com/magazine/food-and-drink/10-great-food-experiences-on-the-wild-atlantic-way/"},
+        {"guia": "TravelExtra (estrellas Michelin de Irlanda 2026)", "url": "https://www.travelextra.ie/irelands-michelin-star-restaurants"}
+      ]
+    },
+    {
+      "id": "ie-galway",
+      "puntaje": 4,
+      "justificacion": "Es la ciudad de las ostras. Su festival internacional de ostras y marisco se celebra en septiembre y Lonely Planet la incluye en sus rutas gastronómicas de la Wild Atlantic Way. Aniar mantiene su estrella Michelin y The Pullman, en Glenlo Abbey, ganó la suya en 2026.",
+      "platos": ["Ostras nativas de Galway con Guinness", "Seafood chowder", "Salmón ahumado de Connemara"],
+      "fuentes": [
+        {"guia": "TravelExtra (estrellas Michelin de Irlanda 2026)", "url": "https://www.travelextra.ie/irelands-michelin-star-restaurants"},
+        {"guia": "Ireland.com (Tourism Ireland, Wild Atlantic Way)", "url": "https://www.ireland.com/magazine/food-and-drink/10-great-food-experiences-on-the-wild-atlantic-way/"},
+        {"guia": "Lonely Planet (gastronomía en la Wild Atlantic Way)", "url": "https://www.lonelyplanet.com/articles/epicurean-adventures-along-wild-atlantic-way"}
+      ]
+    },
+    {
+      "id": "ie-islas-aran",
+      "puntaje": 1,
+      "justificacion": "Son islas con pubs y pocos restaurantes. Poca oferta.",
+      "platos": ["Pescado del día"],
+      "fuentes": []
+    },
+    {
+      "id": "ie-connemara",
+      "puntaje": 2,
+      "justificacion": "Tiene el cordero de monte de Connemara, con indicación geográfica protegida, y los mejillones del fiordo de Killary. Algo de interés.",
+      "platos": ["Cordero de monte de Connemara (IGP)", "Mejillones de Killary"],
+      "fuentes": []
+    },
+    {
+      "id": "ie-achill",
+      "puntaje": 2,
+      "justificacion": "Produce la sal marina de Achill y cordero de la isla. Algo de interés.",
+      "platos": ["Sal marina de Achill", "Cordero de Achill"],
+      "fuentes": []
+    },
+    {
+      "id": "ie-slieve-league",
+      "puntaje": 1,
+      "justificacion": "Es un paraje de acantilados con poca oferta gastronómica.",
+      "platos": [],
+      "fuentes": []
+    },
+    {
+      "id": "ie-inishowen",
+      "puntaje": 1,
+      "justificacion": "Es una península rural con pubs y algún restaurante de pescado.",
+      "platos": [],
+      "fuentes": []
+    },
+    {
+      "id": "is-reikiavik",
+      "puntaje": 3,
+      "justificacion": "Concentra la mejor oferta gastronómica del país, con restaurantes de cocina nórdica recomendados por la guía Michelin y el puesto de perritos calientes Bæjarins Beztu. Visit Reykjavík recomienda platos tradicionales como el plokkfiskur, la sopa de cordero y la de langostinos.",
+      "platos": ["Pylsur (perrito caliente islandés)", "Plokkfiskur", "Kjötsúpa (sopa de cordero)", "Skyr"],
+      "fuentes": [
+        {"guia": "Visit Reykjavík (turismo oficial)", "url": "https://visitreykjavik.is/must-try-traditional-icelandic-dishes-reykjavik"}
+      ]
+    },
+    {
+      "id": "is-circulo-dorado",
+      "puntaje": 2,
+      "justificacion": "Tiene el invernadero de tomates de Friðheimar, con restaurante, y el pan de centeno que se cuece bajo tierra con calor geotérmico en Laugarvatn.",
+      "platos": ["Sopa de tomate de Friðheimar", "Rúgbrauð (pan de centeno geotérmico)", "Helado de granja"],
+      "fuentes": []
+    },
+    {
+      "id": "is-laguna-azul",
+      "puntaje": 3,
+      "justificacion": "En el hotel Retreat está Moss, un restaurante de cocina islandesa moderna que figura en la guía Michelin. En octubre de 2025 la guía destacaba su estrella junto con la llave del hotel.",
+      "platos": ["Menú degustación de Moss", "Cordero islandés", "Skyr"],
+      "fuentes": [
+        {"guia": "Guía Michelin (Moss)", "url": "https://guide.michelin.com/is/en/southern-peninsula/grindavik/restaurant/moss"},
+        {"guia": "Guía Michelin (Retreat at Blue Lagoon y Moss)", "url": "https://guide.michelin.com/is/en/article/travel/retreat-blue-lagoon-iceland-moss-michelin-key-star"}
+      ]
+    },
+    {
+      "id": "is-costa-sur-vik",
+      "puntaje": 1,
+      "justificacion": "Es una costa de paisaje con cafeterías y algún restaurante en Vík.",
+      "platos": ["Sopa de cordero"],
+      "fuentes": []
+    },
+    {
+      "id": "is-vestmannaeyjar",
+      "puntaje": 2,
+      "justificacion": "Heimaey es uno de los grandes puertos pesqueros del país, con restaurantes de pescado y marisco del día.",
+      "platos": ["Pescado del día", "Bacalao islandés"],
+      "fuentes": []
+    },
+    {
+      "id": "is-jokulsarlon",
+      "puntaje": 1,
+      "justificacion": "Es una laguna glaciar con puestos de comida. Höfn, conocida por sus langostinos, está a unos 80 km.",
+      "platos": ["Langostino de Höfn"],
+      "fuentes": []
+    },
+    {
+      "id": "is-skaftafell",
+      "puntaje": 1,
+      "justificacion": "Es una zona de parque nacional con cafetería en el centro de visitantes.",
+      "platos": [],
+      "fuentes": []
+    },
+    {
+      "id": "is-landmannalaugar",
+      "puntaje": 0,
+      "justificacion": "Es un área remota de las Tierras Altas sin oferta gastronómica.",
+      "platos": [],
+      "fuentes": []
+    },
+    {
+      "id": "is-askja",
+      "puntaje": 0,
+      "justificacion": "Es una caldera remota sin oferta gastronómica.",
+      "platos": [],
+      "fuentes": []
+    },
+    {
+      "id": "is-snaefellsnes",
+      "puntaje": 2,
+      "justificacion": "En Bjarnarhöfn está el museo del tiburón, donde se prepara y prueba el hákarl, el tiburón fermentado. Algo de interés.",
+      "platos": ["Hákarl (tiburón fermentado)", "Pescado de Stykkishólmur"],
+      "fuentes": []
+    },
+    {
+      "id": "is-fiordos-del-oeste",
+      "puntaje": 2,
+      "justificacion": "En Ísafjörður está Tjöruhúsið, un restaurante de pescado en una casa de madera del siglo XVIII. Es tierra de harðfiskur, el pescado seco.",
+      "platos": ["Pescado del día de Tjöruhúsið", "Harðfiskur (pescado seco)"],
+      "fuentes": []
+    },
+    {
+      "id": "is-myvatn",
+      "puntaje": 2,
+      "justificacion": "Hacen hverabrauð, el pan de centeno cocido en la tierra geotérmica, y trucha ártica ahumada. En la granja Vogafjós se come junto al establo.",
+      "platos": ["Hverabrauð", "Trucha ártica ahumada", "Skyr de granja"],
+      "fuentes": []
+    },
+    {
+      "id": "is-husavik",
+      "puntaje": 1,
+      "justificacion": "Es un puerto con restaurantes de pescado junto al muelle. Poca oferta.",
+      "platos": ["Pescado del día"],
+      "fuentes": []
+    },
+    {
+      "id": "is-dettifoss",
+      "puntaje": 0,
+      "justificacion": "Es una cascada sin oferta gastronómica.",
+      "platos": [],
+      "fuentes": []
+    },
+    {
+      "id": "is-seydisfjordur",
+      "puntaje": 1,
+      "justificacion": "Es un pueblo pequeño con algún café y restaurante. Poca oferta.",
+      "platos": [],
+      "fuentes": []
     }
   ],
-  "nuevos": []
+  "nuevos": [
+    {
+      "id": "gb-bray",
+      "nombre": "Bray",
+      "pais_iso": "GB",
+      "region": "Sureste de Inglaterra (Berkshire)",
+      "lat": 51.5080,
+      "lng": -0.7010,
+      "tipo": "pueblo",
+      "puntaje": 5,
+      "justificacion": "Este pueblo junto al Támesis tiene dos restaurantes con tres estrellas Michelin: The Waterside Inn, de la familia Roux, con tres estrellas desde 1985, y The Fat Duck, de Heston Blumenthal, desde 2004. Tiene además el pub con estrella The Hinds Head. El turismo oficial de Windsor lo presenta como el pueblo de los chefs célebres, a 8 km del castillo.",
+      "platos": ["Menú de The Fat Duck", "Cocina francesa clásica de The Waterside Inn", "Scotch egg de The Hinds Head"],
+      "fuentes": [
+        {"guia": "Windsor.gov.uk (turismo oficial de Windsor)", "url": "https://www.windsor.gov.uk/food-and-drink/celebrity-chefs"},
+        {"guia": "Travel Agent Central", "url": "https://www.travelagentcentral.com/destinations/where-to-eat-britain-s-most-unlikely-culinary-enclave"}
+      ]
+    },
+    {
+      "id": "gb-speyside",
+      "nombre": "Speyside y la Malt Whisky Trail (Dufftown)",
+      "pais_iso": "GB",
+      "region": "Escocia",
+      "lat": 57.4462,
+      "lng": -3.1283,
+      "tipo": "región",
+      "puntaje": 5,
+      "justificacion": "Es la región con más destilerías de whisky de malta del mundo: reúne más de la mitad de las de Escocia. VisitScotland propone la Malt Whisky Trail en tres días: desde Glenlivet y Knockando, por Dufftown, con Glenfiddich, y Keith, con Strathisla, hasta Glen Moray en Elgin, con parada en la tonelería Speyside Cooperage.",
+      "platos": ["Whisky de malta de Speyside", "Salmón del río Spey", "Shortbread de Walkers (Aberlour)"],
+      "fuentes": [
+        {"guia": "VisitScotland (Malt Whisky Trail)", "url": "https://www.visitscotland.com/blog/speyside-malt-whisky-trail-itinerary"},
+        {"guia": "VisitScotland (Malt Whisky Trail)", "url": "https://www.visitscotland.com/fr-fr/planning/trip-ideas/speyside-malt-whisky-trail"}
+      ]
+    },
+    {
+      "id": "gb-islay",
+      "nombre": "Isla de Islay (destilerías de whisky)",
+      "pais_iso": "GB",
+      "region": "Escocia",
+      "lat": 55.7570,
+      "lng": -6.2880,
+      "tipo": "isla",
+      "puntaje": 4,
+      "justificacion": "Es la isla del whisky turbado, con once destilerías en activo, diez de ellas con visitas. En la costa sur, el sendero Three Distilleries Pathway, de unos 5,5 km, une Laphroaig, Lagavulin y Ardbeg. Se llega en ferri desde Kennacraig o en avión desde Glasgow.",
+      "platos": ["Whisky turbado de Islay (Laphroaig, Lagavulin, Ardbeg)", "Ostras y vieiras de Islay", "Cangrejo y langosta"],
+      "fuentes": [
+        {"guia": "Wild About Argyll (turismo de Argyll e islas)", "url": "https://www.wildaboutargyll.co.uk/blogs/visit-10-islay-whisky-distilleries-scotlands-whisky-coast/"}
+      ]
+    },
+    {
+      "id": "gb-sussex-viñedos",
+      "nombre": "Viñedos de Sussex y los South Downs (Alfriston, Ditchling)",
+      "pais_iso": "GB",
+      "region": "Sureste de Inglaterra (Sussex)",
+      "lat": 50.8068,
+      "lng": 0.1580,
+      "tipo": "región",
+      "puntaje": 4,
+      "justificacion": "Es la principal región vinícola de Inglaterra. Desde 2022 sus espumosos de método tradicional, de chardonnay y las dos pinots, tienen denominación de origen protegida Sussex. El parque nacional de los South Downs recoge las bodegas visitables, como Rathfinny, en Alfriston, con visitas de marzo a septiembre y restaurante, y Ridgeview, en Ditchling.",
+      "platos": ["Espumoso de Sussex (DOP)", "Cordero de los South Downs", "Quesos de Sussex"],
+      "fuentes": [
+        {"guia": "East Sussex County Council (DOP Sussex)", "url": "https://news.eastsussex.gov.uk/2022/07/26/sussex-wine-growers-celebrate-protected-status/"},
+        {"guia": "Parque Nacional South Downs (viñedos)", "url": "https://www.southdowns.gov.uk/food-drink/vineyards-breweries-distilleries/vineyards-wineries/"},
+        {"guia": "Rathfinny Wine Estate (bodega)", "url": "https://rathfinnyestate.com/tour/vineyard-walking-trail/"}
+      ]
+    },
+    {
+      "id": "ie-cork",
+      "nombre": "Cork y el English Market",
+      "pais_iso": "IE",
+      "region": "Munster",
+      "lat": 51.8977,
+      "lng": -8.4751,
+      "tipo": "ciudad",
+      "puntaje": 4,
+      "justificacion": "Tourism Ireland la presenta como capital gastronómica del país. Su English Market es un mercado cubierto municipal de 1786, con pescado, carnicerías, quesos de West Cork y especias. Es la puerta a los productores de West y East Cork.",
+      "platos": ["Drisheen y tripas (English Market)", "Quesos de West Cork", "Black pudding de Clonakilty", "Cerveza Murphy's"],
+      "fuentes": [
+        {"guia": "Ireland.com (Tourism Ireland)", "url": "https://www.ireland.com/de-ch/magazine/food-and-drink/cork-tastes-amazing/"},
+        {"guia": "Tourism Ireland (nota de prensa)", "url": "https://media.ireland.com/News-Releases/global/Tuck-into-culinary-Cork’s-great-tastes.aspx"},
+        {"guia": "Discover Ireland (Fáilte Ireland)", "url": "https://www.discoverireland.ie/irelands-ancient-east/food-drink-irelands-ancient-east"}
+      ]
+    },
+    {
+      "id": "ie-ballymaloe-east-cork",
+      "nombre": "Ballymaloe y East Cork (Shanagarry, Midleton)",
+      "pais_iso": "IE",
+      "region": "Munster",
+      "lat": 51.8686,
+      "lng": -8.0758,
+      "tipo": "región",
+      "puntaje": 4,
+      "justificacion": "Ballymaloe House, abierto como restaurante en 1964 por Myrtle Allen, es el lugar emblemático de la cocina irlandesa de granja. Figura en la sección Discovery de The World's 50 Best. A 3 km está la escuela de cocina de Darina Allen. En Midleton, a unos 15 km, está la destilería de Jameson.",
+      "platos": ["Menú de granja de Ballymaloe", "Ballymaloe Relish", "Whiskey de Midleton (Jameson)"],
+      "fuentes": [
+        {"guia": "The World's 50 Best (Discovery)", "url": "https://theworlds50best.com/discovery/Establishments/Ireland/Cork/Ballymaloe-House.html"},
+        {"guia": "Discover Ireland (Fáilte Ireland)", "url": "https://www.discoverireland.ie/cork/ballymaloe-house-restaurant"}
+      ]
+    }
+  ]
 }
