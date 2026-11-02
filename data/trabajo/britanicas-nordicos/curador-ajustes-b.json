@@ -1,0 +1,502 @@
+{
+ "guias": {
+  "no-voss": {
+   "puntaje": 3,
+   "fuentes": [
+    {
+     "guia": "Lonely Planet",
+     "url": "https://www.lonelyplanet.com/norway/voss"
+    },
+    {
+     "guia": "Lonely Planet",
+     "url": "https://www.lonelyplanet.com/norway/voss/activities/voss-vind/a/poi-act/1580230/360189"
+    },
+    {
+     "guia": "Frommer's",
+     "url": "https://www.frommers.com/destinations/voss"
+    },
+    {
+     "guia": "Rough Guides",
+     "url": "https://www.roughguides.com/norway/bergen-western-fjords/western-fjords/"
+    }
+   ]
+  },
+  "no-loen": {
+   "puntaje": 3,
+   "fuentes": [
+    {
+     "guia": "Lonely Planet",
+     "url": "https://www.lonelyplanet.com/norway/olden/things-to-do"
+    },
+    {
+     "guia": "Frommer's",
+     "url": "https://www.frommers.com/destinations/jostedal-glacier-area/things-to-do/"
+    }
+   ]
+  },
+  "no-jostedalsbreen": {
+   "puntaje": 4,
+   "fuentes": [
+    {
+     "guia": "Frommer's",
+     "url": "https://www.frommers.com/destinations/jostedal-glacier-area/"
+    },
+    {
+     "guia": "Lonely Planet",
+     "url": "https://www.lonelyplanet.com/norway/bergen-and-the-western-fjords/briksdalsbreen/attractions/briksdalsbreen/a/poi-sig/1579873/360179"
+    },
+    {
+     "guia": "Lonely Planet",
+     "url": "https://www.lonelyplanet.com/norway/bergen-and-the-western-fjords/briksdalsbreen/attractions/kjenndalsbreen/a/poi-sig/1544288/360179"
+    },
+    {
+     "guia": "Fodor's",
+     "url": "https://www.fodors.com/world/europe/norway/the-west-coast/things-to-do/sights?pois=690127"
+    }
+   ]
+  },
+  "se-riksgransen": {
+   "puntaje": 3,
+   "fuentes": [
+    {
+     "guia": "National Geographic",
+     "url": "https://www.nationalgeographic.com/travel/article/arctic-adventure-skiing-sweden-northerly-resort"
+    },
+    {
+     "guia": "Rough Guides",
+     "url": "https://www.roughguides.com/sweden/swedish-lapland/abisko-around/"
+    },
+    {
+     "guia": "Lonely Planet",
+     "url": "https://lonelyplanet.com/travel-tips-and-articles/eternal-winter-where-to-ski-every-month-of-the-year/40625c8c-8a11-5710-a052-1479d276dbe9"
+    }
+   ]
+  },
+  "dk-djurs-sommerland": {
+   "puntaje": 3,
+   "fuentes": [
+    {
+     "guia": "Lonely Planet",
+     "url": "https://www.lonelyplanet.com/denmark/djursland/attractions/djurs-sommerland/a/poi-sig/1439450/1329817"
+    },
+    {
+     "guia": "Time Out",
+     "url": "https://www.timeout.com/uk/news/this-uk-waterpark-is-officially-the-best-in-europe-071922"
+    }
+   ]
+  },
+  "no-alta": {
+   "puntaje": 4,
+   "fuentes": [
+    {
+     "guia": "Rough Guides",
+     "url": "https://roughguides.com/destinations/europe/norway/north-norway/the-road-to-finnmark/alta/altas-prehistoric-rock-carvings-and-the-alta-museum"
+    },
+    {
+     "guia": "Lonely Planet",
+     "url": "https://www.lonelyplanet.com/norway/finnmark/alta/attractions/alta-museum/a/poi-sig/501410/360207"
+    },
+    {
+     "guia": "Lonely Planet",
+     "url": "https://www.lonelyplanet.com/articles/ultimate-seven-day-itinerary-arctic-norway"
+    },
+    {
+     "guia": "Frommer's",
+     "url": "https://www.frommers.com/destinations/alta/things-to-do/"
+    }
+   ]
+  },
+  "no-rjukan-notodden": {
+   "puntaje": 3,
+   "fuentes": [
+    {
+     "guia": "Lonely Planet",
+     "url": "https://www.lonelyplanet.com/norway/the-telemark-canal/top-things-to-do/a/poi/1329882"
+    },
+    {
+     "guia": "Frommer's",
+     "url": "https://www.frommers.com/destinations/kongsberg/side-trips/"
+    }
+   ]
+  },
+  "se-drottningholm": {
+   "puntaje": 4,
+   "fuentes": [
+    {
+     "guia": "Rick Steves",
+     "url": "https://www.ricksteves.com/watch-read-listen/read/articles/stockholm-day-trips"
+    },
+    {
+     "guia": "Frommer's",
+     "url": "https://www.frommers.com/destinations/stockholm/attractions/drottningholm-palace-and-theater/"
+    },
+    {
+     "guia": "Lonely Planet",
+     "url": "https://www.lonelyplanet.com/articles/best-day-trips-from-stockholm"
+    },
+    {
+     "guia": "Rough Guides",
+     "url": "https://www.roughguides.com/sweden/day-trips-stockholm/"
+    },
+    {
+     "guia": "Fodor's",
+     "url": "https://www.fodors.com/world/europe/sweden/side-trips-from-stockholm/things-to-do/sights?pois=808380"
+    }
+   ]
+  },
+  "dk-jelling": {
+   "puntaje": 4,
+   "fuentes": [
+    {
+     "guia": "Lonely Planet",
+     "url": "https://www.lonelyplanet.com/points-of-interest/kongernes-jelling/1135287"
+    },
+    {
+     "guia": "Frommer's",
+     "url": "https://www.frommers.com/destinations/jelling/things-to-do/"
+    },
+    {
+     "guia": "National Geographic",
+     "url": "https://www.nationalgeographic.com/premium/article/viking-runestone-thyra-jelling-bluetooth-gorm"
+    }
+   ]
+  },
+  "lt-kernave": {
+   "puntaje": 3,
+   "fuentes": [
+    {
+     "guia": "Lonely Planet",
+     "url": "https://www.lonelyplanet.com/lithuania/kernave/attractions/kernave-cultural-reserve/a/poi-sig/1277706/1324786"
+    },
+    {
+     "guia": "Fodor's",
+     "url": "https://www.fodors.com/news/arts-culture/step-into-the-stone-age-at-europes-10-best-prehistoric-sites"
+    }
+   ]
+  },
+  "se-kalix": {
+   "puntaje": 1,
+   "fuentes": [
+    {
+     "guia": "Time Out",
+     "url": "https://www.timeout.com/sweden/things-to-do/best-things-to-do-in-skelleftea"
+    }
+   ]
+  },
+  "dk-henne-kirkeby-kro": {
+   "puntaje": 2,
+   "fuentes": [
+    {
+     "guia": "Lonely Planet",
+     "url": "https://www.lonelyplanet.com/denmark/restaurants/henne-kirkeby-kro/a/poi-eat/1499661/358836"
+    },
+    {
+     "guia": "Guía Michelin (Henne Kirkeby Kro)",
+     "url": "https://guide.michelin.com/lv/en/southern-denmark/henne/restaurant/henne-kirkeby-kro"
+    }
+   ]
+  },
+  "no-senja": {
+   "puntaje": 4,
+   "fuentes": [
+    {
+     "guia": "Lonely Planet",
+     "url": "https://www.lonelyplanet.com/norway/senja/in-location/sights/a/nar/7e02ec8f-493f-43b8-be9b-98c47d961f5c/360231"
+    },
+    {
+     "guia": "Fodor's",
+     "url": "https://www.fodors.com/world/europe/norway/northern-norway/senja/hotels"
+    },
+    {
+     "guia": "National Geographic",
+     "url": "https://www.nationalgeographic.com/travel/article/senja-island-norways-best-kept-secret-adventure-travel"
+    }
+   ]
+  },
+  "no-rondane-dovre": {
+   "puntaje": 4,
+   "fuentes": [
+    {
+     "guia": "Frommer's",
+     "url": "https://www.frommers.com/destinations/rondane-and-dovrefjell-national-parks/attractions"
+    },
+    {
+     "guia": "Lonely Planet",
+     "url": "https://www.lonelyplanet.com/articles/best-national-parks-norway"
+    },
+    {
+     "guia": "Rough Guides",
+     "url": "https://roughguides.com/destinations/europe/norway/central-norway/north-kongsvoll/rondane-nasjonalpark"
+    },
+    {
+     "guia": "National Geographic",
+     "url": "https://www.nationalgeographic.com/travel/article/norways-ultimate-adventures-musk-ox-safari-arctic-surfing"
+    }
+   ]
+  },
+  "se-fulufjallet": {
+   "puntaje": 3,
+   "fuentes": [
+    {
+     "guia": "Lonely Planet",
+     "url": "https://www.lonelyplanet.com/articles/best-national-parks-sweden"
+    },
+    {
+     "guia": "Time Out",
+     "url": "https://www.timeout.com/sweden/things-to-do/10-best-things-to-do-in-dalarna"
+    },
+    {
+     "guia": "Fodor's",
+     "url": "https://www.fodors.com/news/photos/the-10-oldest-trees-on-the-planet-and-where-to-find-them"
+    }
+   ]
+  },
+  "se-kosterhavet": {
+   "puntaje": 3,
+   "fuentes": [
+    {
+     "guia": "Lonely Planet",
+     "url": "https://www.lonelyplanet.com/points-of-interest/koster-islands/1417060"
+    },
+    {
+     "guia": "Lonely Planet",
+     "url": "https://www.lonelyplanet.com/articles/island-hopping-western-sweden"
+    },
+    {
+     "guia": "Time Out",
+     "url": "https://www.timeout.com/sweden/things-to-do/sun-beaches-and-cliff-swims-12-must-do-experiences-on-swedens-west-coast"
+    }
+   ]
+  },
+  "fi-kvarken": {
+   "puntaje": 2,
+   "fuentes": [
+    {
+     "guia": "Lonely Planet",
+     "url": "https://www.lonelyplanet.com/finland/kvarken-archipelago"
+    },
+    {
+     "guia": "Lonely Planet",
+     "url": "https://www.lonelyplanet.com/articles/finland-in-a-week"
+    }
+   ]
+  },
+  "fi-repovesi": {
+   "puntaje": 1,
+   "fuentes": [
+    {
+     "guia": "National Geographic",
+     "url": "https://www.nationalgeographic.com/travel/article/perfect-weekend-punkaharju-heart-of-finlands-lake-district"
+    }
+   ]
+  },
+  "fi-lemmenjoki": {
+   "puntaje": 3,
+   "fuentes": [
+    {
+     "guia": "Lonely Planet",
+     "url": "https://www.lonelyplanet.com/articles/best-national-parks-finland"
+    },
+    {
+     "guia": "Lonely Planet",
+     "url": "https://www.lonelyplanet.com/finland/lapland/lemmenjoki-national-park/hotels/paltto/a/poi-sle/1192509/359180"
+    },
+    {
+     "guia": "Fodor's",
+     "url": "https://www.fodors.com/world/europe/finland/lapland/things-to-do/sights?pois=808144"
+    }
+   ]
+  },
+  "dk-stevns-klint": {
+   "puntaje": 3,
+   "fuentes": [
+    {
+     "guia": "Lonely Planet",
+     "url": "https://www.lonelyplanet.com/denmark/stevns-klint/attractions/hoejerup-gamle-kirke/a/poi-sig/1498925/1342046"
+    },
+    {
+     "guia": "Lonely Planet",
+     "url": "https://www.lonelyplanet.com/points-of-interest/stevns-klint-cliff-base/1570776"
+    },
+    {
+     "guia": "Frommer's",
+     "url": "https://www.frommers.com/destinations/koge/side-trips"
+    }
+   ]
+  },
+  "se-halsingland": {
+   "puntaje": 2,
+   "fuentes": [
+    {
+     "guia": "Rough Guides",
+     "url": "https://www.roughguides.com/sweden/bothnian-coast/hudiksvall-around/"
+    }
+   ]
+  },
+  "fi-verla": {
+   "puntaje": 0,
+   "fuentes": []
+  },
+  "dk-trelleborg": {
+   "puntaje": 2,
+   "fuentes": [
+    {
+     "guia": "Frommer's",
+     "url": "https://www.frommers.com/destinations/slagelse/"
+    }
+   ]
+  },
+  "dk-mols-bjerge": {
+   "puntaje": 2,
+   "fuentes": [
+    {
+     "guia": "Lonely Planet",
+     "url": "https://www.lonelyplanet.com/denmark/djursland/attractions/mols-bjerge-national-park/a/poi-sig/1571492/1329817"
+    }
+   ]
+  }
+ },
+ "fusiones": [
+  {
+   "destino": "no-jostedalsbreen",
+   "origenes": [
+    "no-loen"
+   ],
+   "nombre": "Nordfjord: glaciar de Jostedalsbreen (Briksdal) y Loen",
+   "region": "Vestland"
+  },
+  {
+   "destino": "se-abisko-kungsleden",
+   "origenes": [
+    "se-riksgransen"
+   ],
+   "nombre": "Abisko, el Kungsleden y Riksgränsen"
+  },
+  {
+   "destino": "dk-helsingor-louisiana",
+   "origenes": [
+    "dk-frederiksborg"
+   ],
+   "nombre": "Zelanda del Norte: Kronborg (Helsingør), Frederiksborg y Louisiana"
+  },
+  {
+   "destino": "se-estocolmo",
+   "origenes": [
+    "se-drottningholm"
+   ],
+   "nombre": "Estocolmo (Gamla Stan, Djurgården y Drottningholm)"
+  },
+  {
+   "destino": "fi-repovesi",
+   "origenes": [
+    "fi-verla"
+   ],
+   "nombre": "Parque Nacional de Repovesi y fábrica de Verla"
+  }
+ ],
+ "lugares": {
+  "fi-kvarken": {
+   "lat": 63.35,
+   "lng": 21.3167
+  },
+  "dk-henne-kirkeby-kro": {
+   "nombre": "Henne Strand y Filsø (Jutlandia Occidental)"
+  },
+  "no-hardangervidda": {
+   "region": "Vestland"
+  },
+  "no-rondane-dovre": {
+   "region": "Innlandet"
+  },
+  "se-abisko-kungsleden": {
+   "region": "Norrbotten"
+  },
+  "se-kiruna-icehotel": {
+   "region": "Norrbotten"
+  },
+  "se-laponia-jokkmokk": {
+   "region": "Norrbotten"
+  },
+  "se-fulufjallet": {
+   "region": "Dalarna"
+  },
+  "se-kosterhavet": {
+   "region": "Västra Götaland"
+  },
+  "ee-soomaa": {
+   "region": "Pärnu"
+  },
+  "ee-peipsi": {
+   "region": "Tartu"
+  },
+  "lv-jurmala": {
+   "region": "Riga"
+  },
+  "lv-kemeri": {
+   "region": "Riga"
+  },
+  "dk-mols-bjerge": {
+   "region": "Midtjylland"
+  }
+ },
+ "ciudad": [
+  "no-voss",
+  "se-are",
+  "dk-djurs-sommerland",
+  "ee-parnu",
+  "lv-jurmala",
+  "lt-palanga"
+ ],
+ "playa": [
+  "no-lofoten",
+  "se-gotland-visby",
+  "se-oland",
+  "dk-skagen",
+  "dk-bornholm",
+  "se-kosterhavet",
+  "dk-mols-bjerge"
+ ],
+ "no_playa": [
+  "no-geirangerfjord",
+  "no-sognefjord-flam",
+  "no-hardangerfjord",
+  "no-nordkapp",
+  "no-atlanterhavsveien",
+  "dk-stevns-klint"
+ ],
+ "no_ciudad": [],
+ "quitar": [],
+ "por_que": {
+  "no-bergen": "El muelle hanseático de Bryggen, Patrimonio Mundial, conserva las casas de madera de los comerciantes de la Liga Hanseática, y el funicular sube al monte Fløyen, desde donde se puede caminar por la meseta hasta el Ulriken. En la mesa, el mercado de pescado del puerto, la sopa de pescado local y Gaptrast, con dos estrellas Michelin en 2026. Es la puerta de los fiordos: llega el tren Bergensbanen desde Oslo y de aquí zarpa el Hurtigruten hacia el norte; conviene llevar ropa de lluvia en cualquier estación.",
+  "no-oslo": "Capital de museos de primer nivel: el MUNCH, con El grito; el Nasjonalmuseet, el mayor museo de arte nórdico, y el Museo Noruego de Historia Cultural con su stavkirke, además de la Ópera y el parque Vigeland. Maaemo mantiene sus tres estrellas Michelin. Para la adrenalina están la tirolesa que baja desde el trampolín de Holmenkollen y el parque TusenFryd, a 19 km, y en verano los ferris llevan a las islas del fiordo.",
+  "no-lofoten": "Picos de granito que salen del mar, playas blancas y pueblos de pescadores con rorbuer rojas y secaderos de bacalao, como Reine, Henningsvær o Å, por encima del círculo polar. La subida al Reinebringen, de mayo a septiembre, da la vista más famosa del archipiélago, y en Borg el museo Lofotr reconstruye una gran casa vikinga. Hay sol de medianoche de finales de mayo a mediados de julio y auroras en invierno; hace falta coche, y el ferry de Bodø a Moskenes tiene largas esperas en verano.",
+  "no-geirangerfjord": "Fiordo Patrimonio Natural UNESCO con paredes de hasta 1.400 m, la cascada de las Siete Hermanas y granjas colgadas abandonadas como Skageflå. Se recorre en el ferry Geiranger–Hellesylt y desde los miradores de Ørnesvingen y Dalsnibba, en la ruta turística hacia Trollstigen. La mejor época va de mayo a septiembre; la carretera de Dalsnibba cierra con la nieve.",
+  "no-sognefjord-flam": "El tren de Flåm baja desde Myrdal entre cascadas y el barco cruza el Nærøyfjord, el brazo más estrecho del Sognefjord y Patrimonio Natural UNESCO: es el circuito Norway in a Nutshell, que se hace todo el año. En Undredal se elabora queso de cabra a la orilla del fiordo, y la Flåm Zipline, la tirolesa más larga de Escandinavia, sale de la estación de Vatnahalsen. De mayo a septiembre hay más salidas de trenes y barcos.",
+  "no-urnes-lustrafjord": "La iglesia de madera de Urnes, de los siglos XII y XIII, es la stavkirke más antigua que se conserva, Patrimonio Mundial, con tallas de estilo animal que unen el arte vikingo y el románico. Se llega en un ferry corto desde Solvorn, un pueblo blanco del Lustrafjord, el brazo más interior del Sognefjord. A unos 40 km, en Jostedalen, se camina con guía sobre el glaciar Nigardsbreen; la iglesia abre de mayo a septiembre.",
+  "no-tromso": "Es una de las mejores bases del mundo para ver auroras, de septiembre a marzo, y el sol de medianoche en verano. La Catedral Ártica, el Museo Polar y el teleférico Fjellheisen al Storsteinen ocupan bien un día, y los Alpes de Lyngen quedan a unas dos horas. En el mercado de pescado se prueba el rey de los cangrejos y el skrei de invierno, regado con cerveza Mack en el viejo Ølhallen.",
+  "no-lysefjord-preikestolen": "El Preikestolen es una plataforma de roca que cae 604 m a pico sobre el Lysefjord, y la caminata para llegar, de 8 km ida y vuelta y unas 4 horas, es una de las más famosas de Noruega. En el mismo fiordo está el Kjerag, con su roca encajada entre dos paredes, solo para excursionistas con experiencia. De abril a octubre hay bus exprés desde Stavanger; el borde no tiene barandillas y en invierno el sendero se hiela.",
+  "no-stavanger": "Gamle Stavanger reúne unas 170 casas blancas de madera de los siglos XVIII y XIX junto a una catedral del siglo XII, y el Museo del Petróleo explica cómo cambió el país. RE-NAA tiene tres estrellas Michelin por su cocina de pescado y marisco noruego. Es la base natural para el Lysefjord y el Preikestolen, con barcos y buses que salen del centro.",
+  "no-hardangerfjord": "El segundo fiordo más largo de Noruega es tierra de huertos de manzanos que florecen en mayo y de sidrerías familiares como Alde Sider o Kvestad, que también hace sidra de hielo. Ulvik y Lofthus son buenas bases para ver la cascada de Vøringsfossen, el glaciar Folgefonna y la meseta de Hardangervidda. Voss, con rafting y parapente, queda a unos 36 km.",
+  "no-trolltunga": "Saliente de roca a 1.180 m, suspendido unos 700 m sobre el lago Ringedalsvatnet, al que se llega por una de las Rutas Nacionales de Senderismo: 27 km ida y vuelta desde Skjeggedal, de 8 a 12 horas. Por libre solo se hace de junio a septiembre; el resto del año es obligatorio ir con guía y raquetas. Odda, en el Sørfjorden, es la base, con lanzadera de verano hasta el inicio del sendero.",
+  "no-alesund": "Reconstruida en Jugendstil después del incendio de 1904, es uno de los conjuntos Art Nouveau más homogéneos de Europa, con un centro dedicado al estilo en la antigua farmacia Svaneapoteket. Los 418 escalones al mirador de Aksla dan la vista de la ciudad sobre las islas. Es una buena base para el Geirangerfjord y el Hjørundfjord, con aeropuerto y escala diaria del Hurtigruten.",
+  "no-trollstigen": "Carretera de montaña de 1936 que sube en once curvas de herradura entre paredes verticales y la cascada de Stigfossen, parte de la ruta turística Geiranger–Trollstigen. Abajo, el valle de Romsdal tiene la pared del Trollveggen y, en Åndalsnes, la vía ferrata Romsdalsstigen con bajada en góndola. Solo abre de mediados de mayo a octubre, y puede cerrar por desprendimientos.",
+  "no-atlanterhavsveien": "Ruta turística de 36 km entre Kårvåg y Bud que salta de islote en islote sobre el Atlántico por ocho puentes, el más famoso el curvado Storseisundet. Con temporal las olas rompen contra la calzada, y en calma es buena para ver aves marinas desde el mirador de Eldhusøya. Combina con Kristiansund, el gran puerto del bacalao salado.",
+  "no-trondheim": "La catedral de Nidaros, el mayor edificio medieval de Escandinavia, guarda la tumba de San Olav y es la meta del camino de peregrinación que lleva su nombre. Al otro lado del río están los almacenes de madera de Bakklandet. Trøndelag es una de las regiones con mejor producto de Noruega, y la ciudad tiene restaurantes con estrella Michelin como FAGN y Speilsalen; el festival de San Olav es a finales de julio.",
+  "no-roros": "Ciudad minera del cobre, Patrimonio Mundial, con calles enteras de casas de madera de los siglos XVII al XIX, una gran iglesia barroca y las escombreras de la fundición; la mina Olavsgruva está a unos 10 km. Visit Norway la presenta como la capital noruega de la comida local, con la tienda Rørosmat y la carne de reno curada. Llega el tren desde Oslo y Trondheim; los inviernos son muy fríos, con mercado en febrero y en Navidad.",
+  "no-svalbard": "Archipiélago del alto Ártico con casi el 60 % de su superficie bajo el hielo y unos 3.000 osos polares, a medio camino entre el continente y el Polo Norte. Desde Longyearbyen salen barcos hacia los frentes glaciares del Isfjorden, motos de nieve en primavera y excursiones al pueblo minero soviético abandonado de Pyramiden. Fuera del pueblo solo se sale con guía armado; la mejor luz es de marzo a agosto.",
+  "no-nordkapp": "Acantilado de 307 m sobre el mar de Barents, en el extremo norte de Europa, con sol de medianoche aproximadamente del 12 de mayo al 31 de julio. Quien quiera pisar el punto más septentrional de verdad puede caminar unos 18 km ida y vuelta hasta Knivskjellodden, y Finnmark añade la cultura sami de Karasjok y Kautokeino y el rey de los cangrejos. El Hurtigruten para en Honningsvåg; en invierno el último tramo de carretera solo se recorre en convoy.",
+  "no-jotunheimen": "El parque reúne todas las cumbres de Noruega de más de 2.300 m, incluido el Galdhøpiggen, el techo del país, con glaciares, lagos y refugios. La cresta de Besseggen, entre el lago Gjende y el Bessvatnet, es la caminata clásica, de unos 14 km. En Lom, a la entrada, hay una stavkirke de hacia 1160 y una panadería muy conocida; la temporada va de finales de junio a septiembre.",
+  "no-lillehammer": "Sede de los Juegos de 1994: en la pista olímpica de Hunderfossen, a 12 km, el público baja en bobsleigh de competición con piloto profesional a unos 120 km/h, y en verano en Wheelbob sobre ruedas. Maihaugen, el mayor museo al aire libre de Noruega, reúne más de 200 casas históricas y una stavkirke. Está a unas 2 horas de Oslo en tren, en la puerta del Gudbrandsdal, cuna del brunost.",
+  "no-hardangervidda": "La mayor meseta de montaña del norte de Europa: lagos, paisaje casi lunar, la mayor manada de renos salvajes del continente y el glaciar Hardangerjøkulen en su borde. El tren Bergensbanen para en Finse, a 1.222 m y sin carretera, punto de partida para ir de refugio en refugio a pie en verano o con esquís en primavera. El tiempo cambia rápido y hay nieve hasta junio, así que hay que ir bien equipado.",
+  "no-vesteralen-andenes": "Frente a Andøya hay ballenas todo el año: cachalotes de mayo a septiembre y orcas en invierno, con safaris de unas 3 a 4 horas desde Andenes y Stø. Kvitnes Gård, una granja autosuficiente de Vesterålen, recibió en 2026 la primera estrella Michelin al norte del círculo polar. En verano, un ferry sin reserva cruza de Andenes a Senja.",
+  "se-estocolmo": "Ciudad sobre 14 islas: Gamla Stan conserva el casco medieval junto al Palacio Real, el museo Vasa guarda un buque de guerra del siglo XVII y Skansen es el museo al aire libre más antiguo del mundo. A unos 10 km, el palacio de Drottningholm, residencia real y Patrimonio Mundial, tiene un teatro del siglo XVIII con su maquinaria escénica original; se llega en barco por el Mälaren en verano. Frantzén mantiene tres estrellas Michelin y en Djurgården el parque Gröna Lund tiene ocho montañas rusas.",
+  "se-archipielago-estocolmo": "Más de 30.000 islas de granito, pinares y calas que empiezan a las puertas de la ciudad. Los barcos de Waxholmsbolaget llevan a Vaxholm, con su fortaleza del siglo XVI, a Grinda para caminar y bañarse y a Sandhamn, pueblo de veraneo de madera, a unas 2,5 horas. Las líneas exteriores funcionan sobre todo de mayo a septiembre; para comer, ahumaderos y bocadillos de gambas.",
+  "se-gotemburgo": "Liseberg, en plena ciudad, es uno de los grandes parques de atracciones de Europa, con la Helix y la Balder, de madera. Es la capital sueca del marisco, con el mercado de pescado de Feskekörka y restaurantes con estrella Michelin como Koka y SK Mat & Människor. En tranvía y ferry se llega al archipiélago sur, sin coches, con rocas lisas y pueblos pesqueros como Vrångö.",
+  "se-gotland-visby": "Visby, Patrimonio Mundial, conserva más de 3 km de muralla medieval con decenas de torres y las ruinas de las iglesias de una gran ciudad hanseática; la isla suma unas 90 iglesias rurales medievales. Al norte, en Fårö, están los raukar, columnas de caliza junto al mar, y la playa de Sudersand. El ferry desde Nynäshamn tarda unas 3 horas, y para la Semana Medieval de agosto hay que reservar con mucha antelación.",
+  "se-bohuslan": "Costa de granito rosado con miles de islas, pueblos de pescadores como Smögen y Fjällbacka y los grabados rupestres de Tanum, Patrimonio Mundial, con más de 600 paneles de la Edad del Bronce. Es la costa sueca del marisco: Grebbestad es la capital de la ostra plana y en temporada hay salidas para pescar bogavante. La mejor época va de junio a agosto, y con coche se recorre mejor.",
+  "se-uppsala": "La catedral, la más alta de Escandinavia, guarda las tumbas de Gustavo Vasa y de Linneo, cuyo jardín botánico sigue abierto en el centro. A las afueras, los túmulos reales de Gamla Uppsala fueron un lugar sagrado de la Suecia precristiana. Está a unos 40 minutos en tren de Estocolmo y de Arlanda, y la noche de Walpurgis, el 30 de abril, es la gran fiesta estudiantil.",
+  "se-kalmar": "El castillo de Kalmar, fortaleza medieval convertida en palacio renacentista por los Vasa, fue escenario de la Unión de Kalmar y es uno de los grandes castillos de Escandinavia. La ciudad suma la catedral barroca de Tessin y el museo del buque Kronan. Es la base para cruzar el puente a Öland y para recorrer las vidrierías del Glasriket, a unos 45 minutos.",
+  "se-glasriket": "En los bosques de Småland, entre Kalmar y Växjö, las vidrierías de Kosta y Orrefors mantienen una tradición de vidrio soplado de más de dos siglos, con talleres abiertos donde se ve trabajar a los sopladores. Algunas celebran la hyttsill, una cena de arenque asado junto a los hornos. Hace falta coche, y de mayo a septiembre hay más demostraciones."
+ },
+ "notas": {}
+}

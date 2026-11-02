@@ -1,0 +1,330 @@
+{
+  "guias": {
+    "gb-alton-towers": {
+      "puntaje": 3,
+      "fuentes": [
+        {
+          "guia": "Time Out",
+          "url": "https://www.timeout.com/uk/attractions/alton-towers"
+        },
+        {
+          "guia": "Time Out (Londres)",
+          "url": "https://www.timeout.com/london/attractions/alton-towers"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/points-of-interest/alton-towers/1213506"
+        }
+      ]
+    },
+    "gb-blackpool-pleasure-beach": {
+      "puntaje": 2,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/england/blackpool/attractions/blackpool-pleasure-beach/a/poi-sig/1220337/358935"
+        }
+      ]
+    },
+    "gb-durham": {
+      "puntaje": 3,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-durham"
+        },
+        {
+          "guia": "Rick Steves (Classroom Europe)",
+          "url": "https://classroom.ricksteves.com/videos/durham-and-england-s-finest-norman-cathedral"
+        }
+      ]
+    },
+    "gb-fountains-abbey": {
+      "puntaje": 3,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/england/attractions/fountains-abbey-studley-royal/a/poi-sig/1218507/358869"
+        },
+        {
+          "guia": "Frommer's",
+          "url": "https://www.frommers.com/destinations/yorkshire-and-the-northeast/attractions/fountains-abbey--studley-royal-park/"
+        }
+      ]
+    },
+    "gb-ironbridge": {
+      "puntaje": 3,
+      "fuentes": [
+        {
+          "guia": "Fodor's",
+          "url": "https://cdn.fodors.com/world/europe/england/stratford-upon-avon-and-the-heart-of-england/places/ironbridge-gorge"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/points-of-interest/museum-of-the-gorge/1029401"
+        }
+      ]
+    },
+    "gb-orcadas-neolitico": {
+      "puntaje": 3,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/guide-to-neolithic-orkney-scotland"
+        },
+        {
+          "guia": "Lonely Planet (Ultimate Travelist, vía Visit Orkney)",
+          "url": "https://visitorkney.com/news/lonely-planet-hitlist"
+        },
+        {
+          "guia": "Rick Steves (columna sindicada)",
+          "url": "https://www.luxurytraveladvisor.com/destinations/remote-rewards-scotland-s-orkney-islands"
+        }
+      ]
+    },
+    "ie-clonmacnoise": {
+      "puntaje": 2,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/pois/1017545"
+        }
+      ]
+    },
+    "ie-carrowmore": {
+      "puntaje": 2,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/ireland/attractions/carrowmore-megalithic-cemetery/a/poi-sig/1219317/1316814"
+        }
+      ]
+    },
+    "gb-speyside": {
+      "puntaje": 2,
+      "fuentes": [
+        {
+          "guia": "Rough Guides",
+          "url": "https://www.roughguides.com/destinations/europe/scotland/northeast-scotland/aberdeenshire-moray/speyside"
+        }
+      ]
+    },
+    "gb-islay": {
+      "puntaje": 2,
+      "fuentes": [
+        {
+          "guia": "Time Out",
+          "url": "https://www.timeout.com/uk/news/the-whisky-famous-scottish-island-that-is-set-to-be-one-of-the-biggest-travel-destinations-in-europe-in-2026-110625"
+        }
+      ]
+    },
+    "ie-ballymaloe-east-cork": {
+      "puntaje": 2,
+      "fuentes": [
+        {
+          "guia": "Condé Nast Traveller (Gold List 2015, vía Hospitality Ireland)",
+          "url": "https://www.hospitalityireland.com/hotel/ballymaloe-house-one-of-world-s-best-hotels-14776"
+        }
+      ]
+    },
+    "gb-costa-jurasica": {
+      "puntaje": 2,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-dorset"
+        }
+      ]
+    },
+    "gb-seven-sisters": {
+      "puntaje": 2,
+      "fuentes": [
+        {
+          "guia": "Rough Guides (vía Autoridad del Parque Nacional de los South Downs)",
+          "url": "https://www.southdowns.gov.uk/south-downs-named-one-of-the-most-beautiful-places-in-england/"
+        }
+      ]
+    },
+    "ie-glenveagh": {
+      "puntaje": 1,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet (Best in Travel 2024: Donegal, vía Tourism Ireland)",
+          "url": "https://www.ireland.com/en-us/things-to-do/attractions/glenveagh-national-park/"
+        }
+      ]
+    }
+  },
+  "fusiones": [
+    {
+      "destino": "gb-windsor",
+      "origenes": [
+        "gb-bray"
+      ],
+      "nombre": "Windsor y Bray"
+    },
+    {
+      "destino": "gb-seven-sisters",
+      "origenes": [
+        "gb-sussex-vinedos"
+      ],
+      "nombre": "Seven Sisters y viñedos de los South Downs (Alfriston)",
+      "region": "Sureste de Inglaterra"
+    },
+    {
+      "destino": "ie-kinsale-cobh",
+      "origenes": [
+        "ie-cork"
+      ],
+      "nombre": "Cork, Kinsale y Cobh",
+      "lat": 51.8977,
+      "lng": -8.4751,
+      "region": "Munster"
+    }
+  ],
+  "ciudad": [
+    "gb-blackpool-pleasure-beach",
+    "ie-kinsale-cobh",
+    "gb-cotswolds",
+    "gb-lago-ness-inverness"
+  ],
+  "playa": [
+    "ie-achill"
+  ],
+  "no_playa": [
+    "gb-calzada-del-gigante",
+    "ie-acantilados-de-moher",
+    "ie-slieve-league"
+  ],
+  "lugares": {
+    "gb-cotswolds": {
+      "region": "Suroeste de Inglaterra"
+    },
+    "gb-lake-district": {
+      "region": "Noroeste de Inglaterra"
+    },
+    "gb-orcadas-neolitico": {
+      "region": "Escocia"
+    },
+    "gb-costa-jurasica": {
+      "region": "Suroeste de Inglaterra"
+    },
+    "ie-clonmacnoise": {
+      "region": "Leinster"
+    },
+    "ie-carrowmore": {
+      "region": "Connacht"
+    }
+  },
+  "por_que": {
+    "gb-londres": "Cuatro sitios Patrimonio Mundial (Westminster, la Torre, Greenwich y Kew) y museos gratuitos de primera fila como el British Museum, la National Gallery, la Tate Modern y el V&A. Es además la capital gastronómica de las islas, de los restaurantes con estrellas Michelin a Borough Market y los curries de Brick Lane. Thorpe Park, con Hyperia, la montaña rusa más alta y rápida del Reino Unido, queda a 29 km.",
+    "gb-windsor": "El castillo habitado más grande del mundo, fundado por Guillermo el Conquistador hacia 1070 y residencia oficial del rey, con los apartamentos de Estado y la capilla de San Jorge. A unos 8 km, el pueblo de Bray junto al Támesis reúne dos restaurantes con tres estrellas Michelin, The Fat Duck y The Waterside Inn, que hay que reservar con mucha antelación. Se llega en tren desde Paddington o Waterloo, y Thorpe Park está a 11 km.",
+    "gb-canterbury": "Su catedral, sede del primado anglicano y escenario del asesinato de Thomas Becket, forma con la abadía de San Agustín y la iglesia de San Martín un sitio Patrimonio Mundial sobre los orígenes del cristianismo en Inglaterra. El casco antiguo se recorre a pie y está a menos de una hora de St Pancras en tren de alta velocidad. En The Goods Shed se prueban la fruta y la cerveza de lúpulo de Kent.",
+    "gb-oxford": "La universidad más antigua del mundo anglosajón: la Bodleian, la Radcliffe Camera, colleges medievales, el Ashmolean y paseos en batea por el Cherwell. A 13 km, el palacio barroco de Blenheim, cuna de Churchill, es Patrimonio Mundial con su parque de Capability Brown. Para una comida especial, Le Manoir aux Quat'Saisons, de Raymond Blanc, en Great Milton.",
+    "gb-cambridge": "Colleges desde el siglo XIII, la capilla gótica del King's College y el Fitzwilliam Museum, con los Backs a orillas del Cam como estampa universitaria más famosa del país. Pasear en batea hasta los prados de Grantchester es la experiencia clásica. Está a menos de una hora en tren de Londres y tiene alta cocina en Midsummer House, con dos estrellas Michelin.",
+    "gb-bath": "Ciudad entera Patrimonio Mundial: las termas romanas y el templo de Sulis Minerva, entre los mejores restos romanos del país, junto a la arquitectura georgiana del Royal Crescent y el Circus. Se recorre a pie desde la estación, a 1 h 20 de Paddington. Para merendar, el Sally Lunn bun en los salones de té georgianos.",
+    "gb-stonehenge": "El círculo de piedras prehistórico más célebre del mundo, mejor al amanecer o al atardecer, con Avebury, el mayor y sin vallas, en el mismo paisaje de túmulos Patrimonio Mundial. La catedral de Salisbury guarda una de las cuatro copias originales de la Carta Magna. Desde la estación de Salisbury sale cada hora un bus hasta las piedras, con entrada horaria reservada.",
+    "gb-wells-glastonbury": "Wells tiene la primera catedral inglesa construida en gótico desde su fundación, con una fachada de unas 300 esculturas medievales, y Vicars' Close, la calle medieval habitada sin interrupción más antigua de Europa. A 9 km, las ruinas de la abadía de Glastonbury guardan la supuesta tumba del rey Arturo bajo la colina del Tor. Cheddar, con su garganta y su queso, queda a unos 15 km.",
+    "gb-cornualles": "Acantilados, calas y playas de surf a lo largo del South West Coast Path: St Michael's Mount, al que se cruza a pie con marea baja, Tintagel, la Tate St Ives y la ruta de serpentinita de Kynance Cove a Lizard Point, el extremo sur de Gran Bretaña. Las minas de estaño son Patrimonio Mundial y Newquay es la capital del surf inglés. Para comer, Cornish pasty con IGP, cream tea y pescado de Padstow y Newlyn.",
+    "gb-cotswolds": "Pueblos de piedra color miel enriquecidos por el comercio de la lana, como Chipping Campden, Bibury o las Slaughters, unidos por caminos rurales y el Cotswold Way hasta Bath. Se come bien en pubs de campo y en la granja ecológica de Daylesford, con el queso Double Gloucester. La Cotswold Line llega desde Paddington a Moreton-in-Marsh; entre pueblos conviene coche, y los fines de semana de verano se llenan.",
+    "gb-stratford-upon-avon": "La casa natal y la tumba de Shakespeare, la casa de Anne Hathaway y la Royal Shakespeare Company, que programa casi todo el año en su teatro junto al Avon. A unos 13 km, el castillo medieval de Warwick completa una excursión de dos días. Hay tren directo desde Marylebone y desde Birmingham.",
+    "gb-peak-district": "El primer parque nacional del Reino Unido: páramos de brezo, crestas de gritstone y la subida al Mam Tor sobre el valle de Edale, con las cuevas de Castleton al pie. Chatsworth House guarda una de las mejores colecciones de arte privadas de Europa, y en Bakewell nació el Bakewell pudding. La línea Hope Valley entre Manchester y Sheffield para en Edale y Hope; Alton Towers queda a 41 km.",
+    "gb-liverpool": "Los muelles victorianos del Royal Albert Dock con el Museo Marítimo y la Tate, dos catedrales monumentales y la ruta de los Beatles, del Cavern Club a sus casas de infancia. Es la ciudad del scouse, el guiso que da apodo a sus vecinos. Blackpool Pleasure Beach, con The Big One e ICON, está a 43 km.",
+    "gb-york": "Ciudad medieval casi completa: la catedral gótica más grande al norte de los Alpes con su enorme vitral este, murallas que se recorren a pie, las Shambles, el Jorvik vikingo y el Museo Nacional del Ferrocarril. Se merienda en Bettys con queso Wensleydale y pastel de frutas. Está a 2 h de King's Cross, y Flamingo Land, con la montaña rusa Sik, queda a 33 km.",
+    "gb-yorkshire-dales": "Valles glaciares cruzados por muros de piedra seca y graneros, con la ruta de Malham que une la cascada de Janet's Foss, la garganta de Gordale Scar y el anfiteatro calizo de Malham Cove. En Hawes se hace el queso Wensleydale y en Masham la cerveza de Theakston y Black Sheep. La línea Settle-Carlisle cruza el parque por el viaducto de Ribblehead; para los valles conviene coche.",
+    "gb-lake-district": "Lagos y valles glaciares bajo las cumbres más altas de Inglaterra, Patrimonio Mundial como paisaje cultural de pastoreo y de Wordsworth y Beatrix Potter, cuyas casas se visitan. En la mina de Honister se cruza el Infinity Bridge y se hace vía ferrata, y en Cartmel está L'Enclume, de Simon Rogan, con tres estrellas Michelin. Tren hasta Windermere y luego buses y barcos por los lagos; en verano carreteras y aparcamientos se saturan.",
+    "gb-muro-adriano": "El muro que Adriano levantó hacia el año 122 en el límite norte del Imperio, con los fuertes de Housesteads y Chesters y las tablillas de Vindolanda. El tramo de 15,5 km entre Housesteads y Chesters va sobre los riscos del Whin Sill y junto al lago de Crag Lough. El bus AD122 une los fuertes desde Hexham y Haltwhistle, con descuento en Housesteads.",
+    "gb-edimburgo": "La Ciudad Vieja medieval con el castillo y la Royal Mile frente a la Ciudad Nueva georgiana, ambas Patrimonio Mundial, y Arthur's Seat, un volcán extinto en pleno centro. Tiene la mejor mesa de Escocia, con seis restaurantes con estrella Michelin, además de bares de whisky y haggis. En agosto el Fringe la llena: hay que reservar alojamiento con meses.",
+    "gb-glasgow": "Kelvingrove, la Burrell Collection, la catedral medieval y la Necrópolis, junto a la arquitectura de Charles Rennie Mackintosh y una ruta de murales por el centro. Es la escena gastronómica más animada del oeste de Escocia, de Cail Bruich, con estrella Michelin, a los restaurantes indios de la ciudad que reivindica el tikka masala. Desde Queen Street sale la West Highland Line hacia las Highlands, y Loch Lomond está a unos 30 km.",
+    "gb-stirling": "El castillo renacentista donde se coronó a María Estuardo, el monumento a William Wallace y el campo de Bannockburn: el corazón de las guerras de independencia escocesas. Está a unos 50 min en tren de Edimburgo y Glasgow y el castillo queda a 15 min a pie de la estación. Sirve de puerta a los Trossachs.",
+    "gb-isla-de-skye": "Montañas volcánicas y costas de acantilados: la subida al Old Man of Storr, el Quiraing, las cascadas de Mealt junto a Kilt Rock y los Cuillin, que se ven en barco desde Elgol. Se come marisco de sus lagos en The Three Chimneys y se cata whisky en Talisker. Hace falta coche por carreteras de un solo carril, y en verano hay que reservar alojamiento con mucha antelación.",
+    "gb-glencoe": "El valle de montaña más emblemático de Escocia, con las Three Sisters y el Buachaille Etive Mòr, escenario de la masacre de 1692 contra los MacDonald. A 14 km, Glencoe Mountain tiene esquí en invierno, y Nevis Range, a 20 km, el telecabina y la pista de descenso en bicicleta de la Copa del Mundo. Los autocares Glasgow-Fort William paran junto al centro de visitantes.",
+    "gb-lago-ness-inverness": "Las ruinas del castillo de Urquhart sobre el lago Ness y, junto a Inverness, el campo de batalla de Culloden (1746) y los túmulos de Clava. El Great Glen Way recorre las laderas boscosas sobre el lago entre Fort William e Inverness. Inverness tiene tren desde Edimburgo y Glasgow y bus a Urquhart; las entradas conviene comprarlas en línea.",
+    "gb-oban-mull-iona": "Desde Oban, capital del marisco de Escocia con su destilería en el centro, los ferris cruzan a Mull, con águilas marinas y el castillo de Duart. Más allá están Iona, donde san Columba fundó en 563 el monasterio que llevó el cristianismo a Escocia, y Staffa, con las columnas de basalto de la cueva de Fingal. En invierno hay menos ferris y se cancelan con temporal.",
+    "gb-cairngorms": "El mayor parque nacional del Reino Unido, con la meseta ártico-alpina más alta de Gran Bretaña, pinares caledonios en Rothiemurchus y Glenmore y águilas pescadoras en el lago Garten. Cairngorm Mountain tiene esquí y funicular, y la destilería Glenlivet, en la Malt Whisky Trail, está dentro del parque. Aviemore, con tren desde Inverness, Edimburgo y el Caledonian Sleeper de Londres, es la base.",
+    "gb-snowdonia": "El Yr Wyddfa (Snowdon), la cumbre más alta de Gales, se sube por seis rutas, como el Miners' Track junto a sus lagos, o en tren de montaña de mayo a octubre. A 12 km, Zip World Velocity 2 es la tirolesa más rápida del mundo. Suma el castillo de Harlech, los pueblos de Beddgelert y Betws-y-Coed y los trenes de vía estrecha del paisaje pizarrero.",
+    "gb-conwy": "Castillo de Eduardo I y unas de las murallas urbanas medievales más completas de Europa, Patrimonio Mundial, en un pueblo costero que se recorre a pie desde su estación. Los mejillones de Conwy se recogen a mano en el estuario y tienen feria en otoño. A 20 km, Zip World Velocity 2, la tirolesa más rápida del mundo, y Eryri a un paso.",
+    "gb-pembrokeshire-st-davids": "El único parque nacional costero del Reino Unido: acantilados, más de 50 playas y la isla de Skomer, con frailecillos de mayo a julio. St Davids, la ciudad más pequeña de Gran Bretaña, guarda la catedral del patrón de Gales y es la cuna del coasteering, que TYF Adventure sigue ofreciendo desde el pueblo. Los buses costeros y los barcos a Skomer solo funcionan de Semana Santa a septiembre.",
+    "gb-calzada-del-gigante": "Unas 40.000 columnas de basalto de hace unos 60 millones de años en la costa de Antrim, Patrimonio Natural UNESCO, unidas a la leyenda del gigante Finn McCool. A 3 km, la destilería Old Bushmills, con licencia de 1608, y cerca las ruinas del castillo de Dunluce. Con mar agitado no hay que acercarse a la orilla: las piedras resbalan y el oleaje golpea fuerte.",
+    "gb-belfast": "Titanic Belfast en los astilleros donde se construyó el barco, el Ulster Museum y los murales y muros de paz del oeste de la ciudad, que cuentan los Troubles. La escena gastronómica crece con OX, con estrella Michelin, y el mercado victoriano de St George's los fines de semana. Tiene tren desde Dublín y buses a la costa de Causeway.",
+    "ie-dublin": "El Libro de Kells, del siglo IX, y la Long Room del Trinity College, los museos nacionales, la cárcel de Kilmainham y las plazas georgianas. Es la capital gastronómica de Irlanda, con tres restaurantes con dos estrellas Michelin, además de la Guinness Storehouse y pubs con ostras e Irish stew. El aeropuerto está a 10 km y el centro se recorre a pie; Emerald Park, con la montaña rusa de madera Cú Chulainn, queda a 23 km.",
+    "ie-glendalough": "El monasterio que san Kevin fundó en el siglo VI, con una de las torres redondas mejor conservadas de Irlanda, iglesias de piedra y cruces en un valle glaciar con dos lagos. Nueve senderos señalizados del Parque Nacional de los Montes de Wicklow salen de allí, y por él pasa el Wicklow Way. Está a 1 h de Dublín en coche o en el St Kevin's Bus; los fines de semana de verano conviene llegar temprano.",
+    "ie-bru-na-boinne": "Newgrange, Knowth y Dowth son tumbas de corredor de hace unos 5200 años, más antiguas que las pirámides, con el mayor conjunto de arte megalítico de Europa; la luz del solsticio de invierno entra en la cámara de Newgrange. Solo se visitan con lanzadera y visita guiada desde el centro de visitantes. Hay que reservar en la web oficial de Heritage Ireland (de abril a octubre, con 30 días de antelación) y evitar las webs fraudulentas.",
+    "ie-kilkenny": "La ciudad medieval mejor conservada de Irlanda: la Milla Medieval une el castillo de los Butler, la catedral de San Canice con su torre redonda y la Rothe House. Es la cuna de la cerveza Smithwick's y tiene dos restaurantes con estrella Michelin, Campagne y Lady Helen. Está a 1 h 30 en tren desde Dublín y el centro se recorre a pie.",
+    "ie-carlingford": "Pueblo medieval con el castillo del rey Juan, la casa-torre Taaffe's Castle y callejones amurallados entre las montañas de Cooley y el lough de Carlingford, con las Mourne enfrente. Sus ostras se sirven en los pubs del pueblo. Queda a 1 h 15 de Dublín en coche, como parada camino de Belfast.",
+    "ie-rock-of-cashel": "Sobre una roca caliza en la llanura de Tipperary, la sede de los reyes de Munster, donde Brian Boru fue coronado en 978, reúne una torre redonda, la capilla románica de Cormac y una catedral gótica. El castillo de Cahir queda cerca y la zona produce el queso azul Cashel Blue. Está junto a la autopista Dublín-Cork y las entradas se compran en línea.",
+    "ie-acantilados-de-moher": "Unos 214 m de acantilado sobre el Atlántico a lo largo de 8 km, el paisaje costero más visitado de Irlanda. El sendero por el borde entre Liscannor y Doolin no tiene barreras en los tramos sin pavimentar, así que hay que ir con cuidado con el viento. Lahinch, a 7 km, es uno de los grandes centros de surf de Europa, con escuelas en la playa.",
+    "ie-burren-doolin": "Paisaje kárstico de lapiaz con flora ártico-alpina y mediterránea, cientos de tumbas y fuertes de piedra y el dolmen de Poulnabrone. Doolin tiene sesiones diarias de música tradicional, y la Burren Food Trail lleva a granjas y al salmón ahumado del Burren Smokehouse. En verano una lanzadera gratuita une Doolin, el Burren y los acantilados de Moher; el resto del año hace falta coche.",
+    "ie-peninsula-de-dingle": "El circuito de Slea Head, de unos 38 km desde Dingle, pasa por el oratorio de Gallarus, casas colmena y miradores sobre las islas Blasket, en una zona donde se habla gaélico. Muchos la prefieren al Ring of Kerry por ser más auténtica y tener menos autocares. En Dingle hay marisco del puerto, destilería y los helados Murphy's de sal marina.",
+    "ie-ring-of-kerry": "La península de Iveragh con los lagos y bosques del Parque Nacional de Killarney, Muckross House y el castillo de Ross. Frente a la costa, Skellig Michael conserva un monasterio de celdas de piedra de los siglos VI a VIII, Patrimonio Mundial, al que solo se desembarca de mediados de mayo a septiembre y con buen mar. El circuito se hace en coche o tour desde Killarney, que tiene tren.",
+    "ie-kinsale-cobh": "Cork, con el English Market de 1786, quesos de West Cork y la catedral de San Fin Barre, es la puerta a dos puertos de su bahía. Kinsale, capital gourmet de Irlanda con el fuerte en estrella Charles Fort y festival gastronómico en otoño, está a unos 50 min en bus; Cobh, última escala del Titanic y puerto de la emigración, a 25 min en tren. Hay que tener en cuenta que el English Market cierra los domingos.",
+    "ie-galway": "Ciudad universitaria con música tradicional cada noche, la colegiata de San Nicolás de 1320 y el Spanish Arch, y la mejor base para el Burren, las Aran y Connemara. Es la ciudad de las ostras, con festival en septiembre, y tiene dos restaurantes con estrella Michelin, Aniar y The Pullman. Está a 2 h 30 en tren de Dublín; en julio los festivales encarecen el alojamiento.",
+    "ie-islas-aran": "Tres islas de caliza sin árboles con comunidades de habla gaélica, muros de piedra y Dún Aonghasa, un fuerte prehistórico de unos 3000 años al borde de un acantilado en Inis Mór. Se recorren en bici o minibús, y conviene hacer noche para verlas sin excursionistas. El ferri sale todo el año de Rossaveel y en temporada de Doolin; en verano hay que reservar.",
+    "ie-connemara": "Turberas, lagos y los Twelve Bens, con la subida al Diamond Hill en el Parque Nacional de Connemara y la abadía neogótica de Kylemore. Junto al fiordo de Killary, el Killary Adventure Centre ofrece tirolesa, kayak y cuerdas altas, y sus mejillones y el cordero de monte con IGP llegan a las mesas de Clifden. Sin coche hay que ir en excursión desde Galway.",
+    "ie-achill": "La mayor isla de Irlanda, unida a tierra por un puente, con acantilados atlánticos y la bahía de Keem, quizá la playa más bonita del país, entre el Benmore y el monte Croaghaun. La aldea abandonada de Slievemore recuerda la Gran Hambruna. Se llega desde Westport, con tren desde Dublín, también en bici por el Great Western Greenway.",
+    "ie-slieve-league": "Acantilados de unos 600 m, unas tres veces más altos que los de Moher y entre los más altos de Europa que se pueden recorrer a pie. Desde el centro de visitantes, a 4 km, hay lanzadera al mirador de abril a mediados de noviembre. El paso de One Man's Pass no tiene protección y el viento sopla muy fuerte.",
+    "ie-inishowen": "Península del extremo norte de Irlanda que se recorre en coche por el circuito Inishowen 100, con Malin Head, playas largas como Five Finger Strand y las colinas Urris sobre el Lough Swilly. En lo alto está el fuerte circular de piedra de Grianán of Aileach. Se sale desde Derry o Buncrana; el bus es escaso.",
+    "is-reikiavik": "La exposición de los asentamientos con una casa vikinga del siglo X, el Museo Nacional, la Hallgrímskirkja y el Harpa, en una capital que se recorre a pie. Concentra la mejor cocina del país, de los restaurantes nórdicos de la guía Michelin a los perritos de Bæjarins Beztu. Es la base para hacer snorkel en la falla de Silfra, a 42 km, y esquiar en Bláfjöll, a 23 km.",
+    "is-circulo-dorado": "En un día desde Reikiavik se ven Þingvellir, donde se reunió el Althing desde el año 930 y donde se separan las placas tectónicas, el géiser Strokkur y la cascada de Gullfoss. En la grieta de Silfra se hace snorkel en agua glaciar con unos 100 m de visibilidad, y el río Hvítá tiene rafting. Para comer, sopa de tomate en el invernadero de Friðheimar.",
+    "is-laguna-azul": "Baño geotérmico de agua azul lechosa en un campo de lava del Geoparque de Reykjanes, a unos 20 min del aeropuerto de Keflavík, con entrada horaria reservada y el restaurante Moss en el hotel Retreat. Se puede encajar a la llegada o antes del vuelo de vuelta. Las erupciones en la cercana Sundhnúkur pueden cerrarla sin aviso: conviene revisar Visit Reykjanes antes de ir.",
+    "is-costa-sur-vik": "Por la ruta 1 se encadenan la cascada de Skógafoss, de unos 60 m, el arco de Dyrhólaey con sus aves y la playa negra de Reynisfjara, junto a Vík. En el glaciar Sólheimajökull se hacen caminatas y escalada en hielo con guía todo el año. En Reynisfjara las olas traicioneras han matado a varios visitantes: no hay que acercarse a la orilla ni darle la espalda al mar.",
+    "is-vestmannaeyjar": "Archipiélago volcánico donde el Eldfell nació en la erupción de 1973; el museo Eldheimar conserva una casa sepultada por la ceniza y cuenta la evacuación de Heimaey. Tiene una de las mayores colonias de frailecillos del mundo, de mayo a agosto. El ferri Herjólfur sale de Landeyjahöfn en unos 40 min, pero en invierno se desvía o cancela a menudo.",
+    "is-jokulsarlon": "La laguna glaciar más grande de Islandia, frente al Breiðamerkurjökull, donde se navega entre icebergs que luego varan en la playa negra de Diamond Beach. Está junto a la ruta 1 en el parque Vatnajökull, Patrimonio Natural UNESCO. No hay que subirse a los témpanos ni acercarse a la orilla, donde las olas arrastran bloques de hielo.",
+    "is-skaftafell": "Zona del parque nacional Vatnajökull con lenguas glaciares, abedulares y la cascada de Svartifoss entre columnas de basalto. Es la base de las caminatas guiadas por el glaciar Falljökull y, en invierno, de las cuevas de hielo. El glaciar solo se pisa con guía certificado.",
+    "is-landmannalaugar": "Montañas de riolita de colores, campos de obsidiana y una poza termal natural en las Tierras Altas, al inicio del Laugavegur, la travesía de 2 a 4 días hasta el valle de Þórsmörk. Solo es accesible en verano, por pistas F con 4x4 y vados o en el Highland Bus desde Reikiavik. Conviene registrar la ruta en Safetravel.",
+    "is-askja": "Caldera en el desierto de lava de las Tierras Altas del norte, con el lago Öskjuvatn y el cráter de Víti, dentro del bien UNESCO de Vatnajökull. Se llega en superjeep o bus desde Mývatn entre finales de junio y principios de septiembre, por pistas F que solo admiten 4x4. No hay cobertura móvil en muchos tramos.",
+    "is-snaefellsnes": "Una Islandia en miniatura a 2 h de Reikiavik: el glaciar volcán Snæfellsjökull y su parque nacional, playas negras como Djúpalónssandur, columnas de basalto y el Kirkjufell, la montaña más fotografiada del país. El sendero costero de Arnarstapi a Hellnar es la caminata clásica. En Bjarnarhöfn se prueba el hákarl, el tiburón fermentado.",
+    "is-fiordos-del-oeste": "Fiordos profundos y mesetas basálticas con la cascada de Dynjandi, los acantilados de aves de Látrabjarg y la reserva de Hornstrandir, sin carreteras y con zorros árticos. Ísafjörður tiene vuelos desde Reikiavik y pescado en el restaurante Tjöruhúsið, en una casa del siglo XVIII. Mejor de junio a agosto: en invierno los pasos de montaña cierran.",
+    "is-myvatn": "Lago volcánico con los pseudocráteres de Skútustaðir, los laberintos de lava de Dimmuborgir, el cráter Hverfjall y el campo geotérmico humeante de Hverir. Se prueban el pan de centeno cocido bajo tierra y la trucha ártica ahumada. Está a 1 h de Akureyri por la ruta 1 y forma el Diamond Circle con Húsavík y Dettifoss.",
+    "is-husavik": "La capital islandesa del avistamiento de ballenas: en la bahía de Skjálfandi se ven sobre todo jorobadas, y a veces ballenas azules y orcas, de marzo a noviembre con el pico en verano. Tiene museo de las ballenas y una iglesia de madera de 1907. Está a 1 h 15 de Akureyri, en el Diamond Circle.",
+    "is-dettifoss": "La cascada más caudalosa de Europa, en el cañón de Jökulsárgljúfur, que sigue hasta la herradura de Ásbyrgi dentro del parque Vatnajökull. Se llega en coche desde Mývatn en unos 30 min. La carretera 862 no se mantiene en invierno y la 864 cierra hasta finales de mayo; las rocas junto a la cascada resbalan.",
+    "is-seydisfjordur": "Pueblo de casas de madera de estilo noruego al fondo de un fiordo estrecho, con una activa escena artística, el centro Skaftfell y la escultura sonora Tvísöngur. Al bajar del paso de Fjarðarheiði se ven las cascadas del río Fjarðará, como Gufufoss. Llega el ferri Norröna desde Dinamarca, salvo en invierno, y el paso puede cerrar por nieve.",
+    "gb-alton-towers": "El mayor parque temático del Reino Unido, en los jardines de una mansión neogótica de Staffordshire, con Nemesis Reborn, renovada en 2024, y The Smiler y sus 14 inversiones. Abre de marzo a principios de noviembre y conviene un día entero. Se combina con el Peak District, a 41 km; sin coche hay bus desde Stoke-on-Trent o Uttoxeter.",
+    "gb-blackpool-pleasure-beach": "El gran parque clásico británico, junto al paseo marítimo de Blackpool, con The Big One (1994) e ICON, la primera montaña rusa de doble lanzamiento del país. Al lado están la Blackpool Tower de 1894 con su salón de baile y los muelles victorianos del balneario obrero por excelencia. Tiene estación propia y abre de marzo a noviembre.",
+    "gb-durham": "La catedral es el mayor y más perfecto monumento normando de Inglaterra, con las tumbas de san Cuthberto y Beda, y forma con el castillo de los príncipes-obispos un sitio Patrimonio Mundial sobre un meandro del río Wear. Se puede subir a la torre central por 325 escalones y visitar el castillo con un estudiante de guía. Está a 10-15 min a pie de la estación, en la línea de Londres a Edimburgo.",
+    "gb-fountains-abbey": "Las ruinas de la mayor abadía cisterciense de Inglaterra, del siglo XII, dentro del jardín acuático georgiano de Studley Royal, con estanques, templetes y un parque de ciervos; todo es Patrimonio Mundial. Masham, con las cerveceras Theakston y Black Sheep, queda a 13 km. Desde Ripon se llega en bus algunos días o a pie, unos 5 km.",
+    "gb-ironbridge": "La cuna de la Revolución Industrial: el primer puente de hierro del mundo (1779), los altos hornos de Coalbrookdale y una decena de museos en la garganta boscosa del Severn, Patrimonio Mundial. En el pueblo victoriano de Blists Hill funcionan una panadería y un fish and chips de época. No hay tren: desde Telford Central hace falta bus, taxi o coche.",
+    "gb-orcadas-neolitico": "El poblado de Skara Brae, más antiguo que Stonehenge y con muebles de piedra intactos, la tumba de Maeshowe, alineada con el ocaso del solsticio y con grafitis vikingos, y los círculos de Brodgar y Stenness forman el Corazón Neolítico de las Orcadas, Patrimonio Mundial. Las islas suman whisky de Highland Park y Scapa y los acantilados de Yesnaby. Se llega en ferri desde Scrabster o Aberdeen; los temporales cancelan barcos en invierno.",
+    "ie-clonmacnoise": "El monasterio que san Ciarán fundó hacia 545 a orillas del Shannon fue uno de los grandes centros del saber de la Irlanda medieval: catedral, siete iglesias, dos torres redondas y las cruces altas de las Escrituras. El centro de visitantes guarda las cruces originales. Está a 20 min en coche de Athlone, con tren desde Dublín y Galway.",
+    "ie-carrowmore": "Uno de los cementerios megalíticos más grandes y antiguos de Europa, con decenas de dólmenes y círculos de piedra de hace más de 5500 años, al pie del gran túmulo de Knocknarea. El centro de visitantes se renovó en 2026. Queda a unos 5 km de Sligo, con tren desde Dublín.",
+    "gb-speyside": "La mayor concentración de destilerías de whisky de malta del mundo, más de la mitad de las de Escocia: la Malt Whisky Trail une Glenlivet, Glenfiddich en Dufftown, Strathisla y Glen Moray, con parada en la tonelería Speyside Cooperage. El Speyside Way recorre el valle del Spey, y el castillo de Balvenie está junto a Dufftown. Escocia tiene un límite de alcohol al volante muy bajo, así que conviene un tour para catar.",
+    "gb-islay": "La isla del whisky turbado: el sendero Three Distilleries Pathway, de unos 5,5 km, une Laphroaig, Lagavulin y Ardbeg, y Bowmore es la destilería más antigua. Fuera del whisky, en Loch Gruinart invernan miles de gansos cariblancos, The Oa tiene águilas reales, y la cruz de Kildalton, del siglo VIII, es la más fina de Escocia. Se llega en ferri desde Kennacraig o en avión desde Glasgow; el festival Fèis Ìle llena la isla a finales de mayo.",
+    "ie-ballymaloe-east-cork": "Ballymaloe House, abierto en 1964 por Myrtle Allen, es el lugar emblemático de la cocina irlandesa de granja, y a 3 km está la escuela de cocina de Darina Allen. En Midleton, a unos 15 km, se visita la antigua destilería de Jameson, y cerca están el sendero de acantilados de Ballycotton y las murallas de Youghal. Hay tren de Cork a Midleton; mesa y cursos se reservan con antelación.",
+    "gb-costa-jurasica": "Unos 155 km de costa casi sin urbanizar con rocas que cubren unos 185 millones de años y yacimientos de fósiles, Patrimonio Natural UNESCO. El arco calizo de Durdle Door y la cala redonda de Lulworth se unen por el South West Coast Path. Hay buses desde las estaciones de Wool y Wareham; la bajada a la playa de Durdle Door es empinada y en julio y agosto se llena.",
+    "gb-seven-sisters": "Siete acantilados de creta blanca donde los South Downs llegan al canal de la Mancha, con un circuito del National Trust desde Birling Gap y el valle del Cuckmere hasta Alfriston. Alrededor está la principal región vinícola de Inglaterra, con espumosos de DOP Sussex que se catan en bodegas como Rathfinny, en Alfriston, o Ridgeview, en Ditchling. Hay tren a Eastbourne o Seaford y bus costero; no hay que acercarse al borde, que se desprende.",
+    "ie-glenveagh": "Valle glaciar del interior de Donegal con el lough Veagh, turberas, robledales y la sierra de Derryveagh, el segundo parque nacional más grande de Irlanda. El castillo victoriano de 1870, inspirado en Balmoral, se visita con guía y tiene jardines y salón de té. Los coches se quedan en el centro de visitantes, desde donde una lanzadera recorre los 4 km hasta el castillo."
+  },
+  "notas": {
+    "grupo_a": {
+      "guias_busqueda": "30 WebSearch (máximo del encargo) para los lugares nuevos de GB, IE e IS con guías 0. Solo se citan URL vistas en los resultados; se descartan foros (Fodor's Travel Talk, comunidad de Rick Steves), agregadores (Tripexpert, Wanderlog), librerías (Bookshare) y el servidor de pruebas nonprod.lonelyplanet.com. Escala de criterios.json sin bajar el umbral: 2 = una guía; 3 = dos guías con página o recomendación.",
+      "guias_detalle": {
+        "gb-alton-towers": "Time Out (dos fichas: «el número uno de Gran Bretaña») y ficha de Lonely Planet: 3.",
+        "gb-blackpool-pleasure-beach": "Solo la ficha de Lonely Planet (el parque de atracciones más popular de Gran Bretaña); Time Out y Rough Guides no aparecieron: 2.",
+        "gb-durham": "Artículo de Lonely Planet sobre lo mejor de Durham y vídeo de Rick Steves sobre la catedral normana: 3.",
+        "gb-fountains-abbey": "Lonely Planet (Top Choice) y ficha de Frommer's: 3.",
+        "gb-ironbridge": "Ficha de Fodor's y Lonely Planet (Top Choice del Museum of the Gorge): 3.",
+        "gb-orcadas-neolitico": "Guía de Lonely Planet sobre las Orcadas neolíticas, Skara Brae en el puesto 22 de su Ultimate Travelist (citado por Visit Orkney) y una columna de Rick Steves sindicada en Luxury Travel Advisor: 3. No se halló Fodor's ni Rough Guides.",
+        "ie-clonmacnoise": "Solo Lonely Planet (Top Choice de los Midlands); Rick Steves y Fodor's no aparecieron: 2.",
+        "ie-carrowmore": "Solo Lonely Planet («la visita obligada de Sligo»): 2.",
+        "gb-speyside": "Solo la página de destino de Rough Guides; el Snapshot de Rick Steves sobre las Highlands solo apareció en una ficha de biblioteca (Bookshare), así que no se cita: 2.",
+        "gb-islay": "Solo Time Out (entre los grandes destinos europeos de 2026); Lonely Planet y Rough Guides no aparecieron: 2.",
+        "ie-ballymaloe-east-cork": "Condé Nast Traveller (Gold List 2015, citado por Hospitality Ireland). Las reseñas de Fodor's y Lonely Planet solo aparecieron en el agregador Tripexpert y no se cuentan: 2.",
+        "gb-costa-jurasica": "Lonely Planet pone Durdle Door primero en lo mejor de Dorset. Insight Guides le dedica un artículo, pero no está entre las guías de criterios.json, y Rough Guides y Fodor's no aparecieron: 2.",
+        "gb-seven-sisters": "Rough Guides, citado por la autoridad del Parque Nacional de los South Downs. Lonely Planet y Time Out no aparecieron: 2. El origen fusionado gb-sussex-vinedos no se buscó aparte porque comparte paisaje y búsqueda.",
+        "ie-glenveagh": "Solo una mención indirecta: Tourism Ireland cita a Donegal en el Best in Travel 2024 de Lonely Planet. La ficha del castillo solo salió en el servidor nonprod de Lonely Planet, que no se cita: 1.",
+        "is-glaumbaer": "Se buscó en Lonely Planet y Rough Guides sin resultado. Queda en 0 y se descarta (global 1,8)."
+      },
+      "fusiones": {
+        "gb-bray -> gb-windsor": "Bray está a unos 8 km del castillo. Con sus dos restaurantes de tres estrellas Michelin (The Fat Duck y The Waterside Inn), Windsor sube a gastronomía 5 y global 4,2. La adrenalina queda en 4 por el puntaje de Bray (Thorpe Park a 11-17 km; Legoland Windsor está en el mismo Windsor), aunque el agente había limitado Windsor a 2 por ser visita de castillo. Que el revisor lo confirme.",
+        "gb-sussex-vinedos -> gb-seven-sisters": "Alfriston, con la bodega Rathfinny, está a unos 7 km de Birling Gap, y el valle del Cuckmere une ambos lugares dentro de los South Downs. Ridgeview, en Ditchling, queda a unos 25 km, pero forma parte de la misma ruta de bodegas.",
+        "ie-cork -> ie-kinsale-cobh": "Cobh es el puerto de Cork (15 km, 25 min en tren) y Kinsale está a 22 km. ie-kinsale-cobh ya agrupaba los puertos del condado y repetía el tema gastronómico de Cork. Se conserva el id y la logística del destino (4, con acceso a ambos pueblos desde Cork), pero se renombra «Cork, Kinsale y Cobh» con las coordenadas de la ciudad, y se añade la categoría ciudad.",
+        "ie-ballymaloe-east-cork (no fusionado)": "Shanagarry está a unos 28 km de Cork y Midleton a unos 20 km, fuera de los 15 km. Se mantiene aparte como destino gastronómico de East Cork (global 3,1). Si el revisor prefiere un solo lugar para el condado de Cork, es el siguiente candidato a fusionar con ie-kinsale-cobh."
+      },
+      "categorias": "no_playa en la Calzada del Gigante, Moher y Slieve League (acantilados sin playa de baño, como Étretat en francia-alpes); playa en Achill (bahía de Keem). Se añade ciudad como respaldo a Cotswolds y Lago Ness-Inverness (sin temático ≥ 3,5) y a Blackpool Pleasure Beach (solo adrenalina; Blackpool es ciudad). Alton Towers queda solo como adrenalina porque es un parque aislado, no un pueblo. is-laguna-azul no tiene temático ≥ 3,5 y no encaja como ciudad ni playa, así que el script usa naturaleza (3) como último recurso.",
+      "regiones": "Se unifican las regiones: Cotswolds pasa a Suroeste de Inglaterra (Gloucestershire), Lake District a Noroeste de Inglaterra (Cumbria), Orcadas a Escocia, Costa Jurásica a Suroeste de Inglaterra, Seven Sisters a Sureste de Inglaterra, Clonmacnoise a Leinster y Carrowmore a Connacht. Los tres lugares de Donegal mantienen «Ulster (Donegal)» para distinguirlos de Irlanda del Norte, que está en GB.",
+      "coordenadas": "Se revisaron las 79; todas caen en su lugar. Solo cambia Cork, Kinsale y Cobh, que pasa a la ciudad de Cork (51.8977, -8.4751). La Costa sur de Islandia (63.45, -19.2) es un punto medio entre Skógafoss y Vík, en tierra.",
+      "cobertura": "Con estos ajustes, en simulación en seco con una copia del script: GB 40 (18 imprescindibles y 22 muy recomendados), IE 21 (8, 10 y 3 si hay tiempo) e IS 15 (12 y 3); se descarta is-glaumbaer."
+    }
+  },
+  "estado": "completo"
+}
