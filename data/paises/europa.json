@@ -267,9 +267,9 @@
       "total_lugares": 47,
       "excepcion_minimo": false,
       "justificacion": null,
-      "nota_revisor": 7.6,
-      "revision_pendiente": false,
-      "estado": "investigado"
+      "nota_revisor": 8.8,
+      "revision_pendiente": true,
+      "estado": "revisado"
     },
     {
       "iso": "IE",
@@ -278,9 +278,9 @@
       "total_lugares": 21,
       "excepcion_minimo": false,
       "justificacion": null,
-      "nota_revisor": 7.6,
-      "revision_pendiente": false,
-      "estado": "investigado"
+      "nota_revisor": 8.9,
+      "revision_pendiente": true,
+      "estado": "revisado"
     },
     {
       "iso": "IS",
@@ -289,9 +289,9 @@
       "total_lugares": 15,
       "excepcion_minimo": false,
       "justificacion": null,
-      "nota_revisor": 7.9,
-      "revision_pendiente": false,
-      "estado": "investigado"
+      "nota_revisor": 9.3,
+      "revision_pendiente": true,
+      "estado": "revisado"
     },
     {
       "iso": "NO",
@@ -300,9 +300,9 @@
       "total_lugares": 30,
       "excepcion_minimo": false,
       "justificacion": null,
-      "nota_revisor": 7.8,
-      "revision_pendiente": false,
-      "estado": "investigado"
+      "nota_revisor": 9.1,
+      "revision_pendiente": true,
+      "estado": "revisado"
     },
     {
       "iso": "SE",
@@ -311,9 +311,9 @@
       "total_lugares": 25,
       "excepcion_minimo": false,
       "justificacion": null,
-      "nota_revisor": 7.8,
-      "revision_pendiente": false,
-      "estado": "investigado"
+      "nota_revisor": 8.9,
+      "revision_pendiente": true,
+      "estado": "revisado"
     },
     {
       "iso": "FI",
@@ -322,9 +322,9 @@
       "total_lugares": 19,
       "excepcion_minimo": false,
       "justificacion": null,
-      "nota_revisor": 8.1,
-      "revision_pendiente": false,
-      "estado": "investigado"
+      "nota_revisor": 9,
+      "revision_pendiente": true,
+      "estado": "revisado"
     },
     {
       "iso": "DK",
@@ -333,9 +333,9 @@
       "total_lugares": 19,
       "excepcion_minimo": false,
       "justificacion": null,
-      "nota_revisor": 7.7,
-      "revision_pendiente": false,
-      "estado": "investigado"
+      "nota_revisor": 9.2,
+      "revision_pendiente": true,
+      "estado": "revisado"
     },
     {
       "iso": "EE",
@@ -344,9 +344,9 @@
       "total_lugares": 11,
       "excepcion_minimo": false,
       "justificacion": null,
-      "nota_revisor": 8.1,
-      "revision_pendiente": false,
-      "estado": "investigado"
+      "nota_revisor": 8.9,
+      "revision_pendiente": true,
+      "estado": "revisado"
     },
     {
       "iso": "LV",
@@ -355,9 +355,9 @@
       "total_lugares": 11,
       "excepcion_minimo": false,
       "justificacion": null,
-      "nota_revisor": 7.6,
-      "revision_pendiente": false,
-      "estado": "investigado"
+      "nota_revisor": 9.1,
+      "revision_pendiente": true,
+      "estado": "revisado"
     },
     {
       "iso": "LT",
@@ -366,9 +366,9 @@
       "total_lugares": 13,
       "excepcion_minimo": false,
       "justificacion": null,
-      "nota_revisor": 7.6,
-      "revision_pendiente": false,
-      "estado": "investigado"
+      "nota_revisor": 8.7,
+      "revision_pendiente": true,
+      "estado": "revisado"
     },
     {
       "iso": "DE",

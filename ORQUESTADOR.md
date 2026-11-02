@@ -48,6 +48,11 @@ Lecciones de `francia-alpes`:
 - Categorías: si un lugar solo queda como "adrenalina", el curador le agrega "ciudad" como respaldo.
 - El mapa muestra solo los destacados de cada país (`criterios.destacados`). Importa la calidad y el reparto regional de los mejores, no inflar la cantidad.
 
+Lecciones de `britanicas-nordicos`:
+- `fuentes_quitar` de un especialista no borra una URL que guías-expertas cita como prueba de su puntaje (lo hace `curar.mjs`). Aun así, en los prompts de corrección hay que pedir que no se quiten guías que sostienen el puntaje de guías.
+- Los cortes por el límite de uso de 5 h son frecuentes: los agentes deben guardar temprano y se retoman con SendMessage.
+- La puntuación cruzada (ronda 2) sirve también para que cada especialista suba con fuente los puntajes que dejó en 2 por falta de búsqueda en la ronda 1.
+
 ## Grupos de países por subregión
 Los grupos dividen el trabajo para que cada agente tenga un tamaño razonable.
 

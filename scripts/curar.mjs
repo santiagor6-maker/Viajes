@@ -100,7 +100,7 @@ for (const { f, d } of entradas) {
   if (Array.isArray(d) || !d || typeof d !== 'object' || !d.agente) { console.warn(`  (ignoro ${f}: no es salida de agente)`); continue; }
   // solo las URLs que quita adrenalina (dueño de las actividades) se descartan como actividad en todos
   // los lugares; las de otros agentes (p. ej. "no sirve como fuente de logística de X") solo en ese lugar
-  fuentesQuitar.push(...(d.fuentes_quitar || []).map((q) => ({ ...q, global: q.global ?? /^adrenalina/.test(f) })));
+  fuentesQuitar.push(...(d.fuentes_quitar || []).map((q) => ({ ...q, global: q.global ?? /^adrenalina/.test(f), _crit: AGENTE_A_CRITERIO[agenteDe(f, d)] })));
   coordenadas.push(...(d.correcciones_base || []));
   const agente = agenteDe(f, d);
   const crit = AGENTE_A_CRITERIO[agente];
@@ -123,7 +123,7 @@ for (const { f, d } of entradas) {
     if (e.unesco) r.unesco = true;
     if (e.destino_propio) r.destino_propio = true;
     for (const p of e.platos || []) if (!r.platos.includes(p)) r.platos.push(p);
-    for (const s of e.fuentes || []) if (s?.url) r.fuentes.push({ ...limpiarFuente(s), _g: esGuias ? 1 : 0 });
+    for (const s of e.fuentes || []) if (s?.url) r.fuentes.push({ ...limpiarFuente(s), _g: esGuias ? 1 : 0, _crit: crit });
     for (const a of e.actividades || []) r.actividades.push({ ...a, _ronda: d.ronda || 1 });
     if (crit === 'logistica') {
       for (const k of ['mejor_epoca', 'dias_sugeridos', 'costo', 'acceso', 'alerta']) if (e[k] !== undefined) r[k] = e[k];
@@ -139,7 +139,7 @@ for (const [id, g] of Object.entries(aj.guias || {})) {
   const r = lugares.get(id);
   // "ronda" permite que el curador corrija un puntaje de guías ya puesto por un agente (p. ej. tras el revisor)
   ponerPuntaje(r, 'guias', g.puntaje, g.ronda ?? 1);
-  for (const s of g.fuentes || []) r.fuentes.push({ ...limpiarFuente(s), _g: 1 });
+  for (const s of g.fuentes || []) r.fuentes.push({ ...limpiarFuente(s), _g: 1, _crit: 'guias' });
 }
 
 // ---------- fusiones ----------
@@ -194,7 +194,10 @@ for (const c of coordenadas) {
 }
 for (const q of fuentesQuitar) {
   const r = lugarDe(q.id);
-  if (r) r.fuentes = r.fuentes.filter((s) => s.url !== q.url);
+  // un especialista no puede borrar la prueba del puntaje de guías: si guías-expertas (o curador-ajustes.guias)
+  // cita esa URL, se conserva. Las que quitan guías o curador-ajustes se quitan del todo.
+  const todas = !q._crit || q._crit === 'guias';
+  if (r) r.fuentes = r.fuentes.filter((s) => s.url !== q.url || (!todas && s._crit === 'guias'));
 }
 for (const [id, c] of Object.entries(aj.lugares || {})) {
   const r = lugares.get(id);

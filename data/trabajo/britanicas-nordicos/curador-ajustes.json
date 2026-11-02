@@ -698,11 +698,14 @@
     },
     "gb-islay": {
       "region": "Islas de Escocia"
+    },
+    "gb-liverpool": {
+      "acceso": "Tren Avanti West Coast desde London Euston a Liverpool Lime Street, cada hora y en unas 2 h 30; el Albert Dock y los lugares de los Beatles, a pie o en bus."
     }
   },
   "por_que": {
     "gb-londres": "Cuatro sitios Patrimonio Mundial (Westminster, la Torre, Greenwich y Kew) y museos gratuitos de primera fila como el British Museum, la National Gallery, la Tate Modern y el V&A. Es además la capital gastronómica de las islas, de los restaurantes con estrellas Michelin a Borough Market y los curries de Brick Lane. Thorpe Park, con Hyperia, la montaña rusa más alta y rápida del Reino Unido, queda a 29 km.",
-    "gb-windsor": "El castillo habitado más grande del mundo, fundado por Guillermo el Conquistador hacia 1070 y residencia oficial del rey, con los apartamentos de Estado y la capilla de San Jorge. A unos 8 km, el pueblo de Bray junto al Támesis reúne dos restaurantes con tres estrellas Michelin, The Fat Duck y The Waterside Inn, que hay que reservar con mucha antelación. Se llega en tren desde Paddington o Waterloo, y Thorpe Park está a 11 km.",
+    "gb-windsor": "El castillo habitado más grande del mundo, fundado por Guillermo el Conquistador hacia 1070 y residencia oficial del rey, con los apartamentos de Estado y la capilla de San Jorge. A unos 8 km, el pueblo de Bray junto al Támesis reúne dos restaurantes con tres estrellas Michelin, The Fat Duck y The Waterside Inn, que hay que reservar con mucha antelación. Se llega en tren desde Paddington o Waterloo, y Legoland Windsor queda a 4 km y Thorpe Park a 11 km.",
     "gb-canterbury": "Su catedral, sede del primado anglicano y escenario del asesinato de Thomas Becket, forma con la abadía de San Agustín y la iglesia de San Martín un sitio Patrimonio Mundial sobre los orígenes del cristianismo en Inglaterra. El casco antiguo se recorre a pie y está a menos de una hora de St Pancras en tren de alta velocidad. En The Goods Shed se prueban la fruta y la cerveza de lúpulo de Kent.",
     "gb-oxford": "La universidad más antigua del mundo anglosajón: la Bodleian, la Radcliffe Camera, colleges medievales, el Ashmolean y paseos en batea por el Cherwell. A 13 km, el palacio barroco de Blenheim, cuna de Churchill, es Patrimonio Mundial con su parque de Capability Brown. Para una comida especial, Le Manoir aux Quat'Saisons, de Raymond Blanc, en Great Milton.",
     "gb-cambridge": "Colleges desde el siglo XIII, la capilla gótica del King's College y el Fitzwilliam Museum, con los Backs a orillas del Cam como estampa universitaria más famosa del país. Pasear en batea hasta los prados de Grantchester es la experiencia clásica. Está a menos de una hora en tren de Londres y tiene alta cocina en Midsummer House, con dos estrellas Michelin.",
@@ -902,7 +905,8 @@
     "dk-stevns-klint": "Acantilado de unos 15 km, Patrimonio Natural UNESCO porque conserva la capa de arcilla que dejó el impacto del asteroide que acabó con los dinosaurios. Sobre el borde, la vieja iglesia de Højerup perdió su coro en 1928 al derrumbarse parte del acantilado, y abajo se buscan fósiles en la playa. Al lado está el museo de la Guerra Fría de Stevnsfort; en verano un bus recorre la costa desde Rødvig.",
     "se-halsingland": "Siete granjas de campesinos ricos de Hälsingland son Patrimonio Mundial por sus casas de madera con interiores pintados de los siglos XVIII y XIX, que mezclan arte popular con el gusto barroco y rococó de la nobleza. Muchas tenían una sala de fiestas aparte, la herrstuga, y algunas sirven la tarta de queso al horno de la región. Hace falta coche, a unas 3 o 4 horas al norte de Estocolmo, y en verano abren más granjas con visita guiada.",
     "dk-trelleborg": "La mejor conservada de las fortalezas circulares que Harald Diente Azul mandó construir hacia el año 980, Patrimonio Mundial desde 2023, con su trazado geométrico de calles y casas largas aún visible en la hierba. Hay museo y una casa larga reconstruida, y en verano actividades vikingas. Está a unos 7 km de Slagelse, a la que se llega en tren desde Copenhague.",
-    "dk-mols-bjerge": "Parque nacional de unos 180 km² en la península de Djursland: colinas glaciares de brezo, bosques, lagos y costa, con túmulos de la Edad del Bronce. Se camina hasta Trehøje y Agri Bavnehøj, y en la bahía de Kalø están las ruinas de un castillo medieval sobre un istmo. Ebeltoft, con su calle empedrada y la fragata Jylland, queda dentro del parque, a menos de una hora de Aarhus."
+    "dk-mols-bjerge": "Parque nacional de unos 180 km² en la península de Djursland: colinas glaciares de brezo, bosques, lagos y costa, con túmulos de la Edad del Bronce. Se camina hasta Trehøje y Agri Bavnehøj, y en la bahía de Kalø están las ruinas de un castillo medieval sobre un istmo. Ebeltoft, con su calle empedrada y la fragata Jylland, queda dentro del parque, a menos de una hora de Aarhus.",
+    "gb-hebridas-exteriores": "Las piedras de Calanais, levantadas entre 2900 y 2600 a. C., antes que el círculo principal de Stonehenge, forman un círculo con avenidas de piedras en cruz; son gratuitas y abiertas todo el año, y el centro de visitantes reabrió en el verano de 2026. Suman el broch de Dun Carloway, la casa negra de Arnol y la tradición viva del gaélico y del tweed de Harris."
   },
   "notas": {
     "grupo_a": {
@@ -978,7 +982,8 @@
       }
     },
     "ronda3": "Escocia partida en Tierras Bajas, Tierras Altas e Islas (cobertura). Irlanda no se parte: construir-app.mjs completa el cupo de destacados cuando el tope por región lo deja corto.",
-    "ronda4": "Tras el revisor r1: por_que de Copenhague con Geranium, Jordnær y Kadeau; guías de Senja y Jelling a 3 sin la página de hoteles de Fodor's ni la noticia de NatGeo Premium. Djurs Sommerland queda con guías 2 (solo Lonely Planet)."
+    "ronda4": "Tras el revisor r1: por_que de Copenhague con Geranium, Jordnær y Kadeau; guías de Senja y Jelling a 3 sin la página de hoteles de Fodor's ni la noticia de NatGeo Premium. Djurs Sommerland queda con guías 2 (solo Lonely Planet).",
+    "ronda5": "Tras el revisor r2 (última ronda): Calanais reabierto en 2026 (Hébridas), Legoland en el por_que de Windsor, sin la URL de la jornada universitaria de Avanti en Liverpool y con 2 h 30 de tren. curar.mjs ya no deja que un especialista borre una URL que guías-expertas cita como prueba de su puntaje (31 lugares del grupo b la habían perdido)."
   },
   "no_ciudad": [],
   "quitar": [],
@@ -999,6 +1004,12 @@
       "id": "dk-djurs-sommerland",
       "url": "https://www.timeout.com/uk/news/this-uk-waterpark-is-officially-the-best-in-europe-071922",
       "motivo": "Artículo sobre un parque acuático británico; no se confirma que nombre Djurs Sommerland (revisor r1).",
+      "global": false
+    },
+    {
+      "id": "gb-liverpool",
+      "url": "https://www.avantiwestcoast.co.uk/liverpool-john-moores-university-open-day",
+      "motivo": "Página de una jornada de puertas abiertas universitaria, no del servicio (revisor r2).",
       "global": false
     }
   ]

@@ -1,8 +1,8 @@
 {
   "pausado": false,
-  "subregion": "britanicas-nordicos",
-  "paso": "revisor",
-  "ronda": 3,
+  "subregion": "centroeuropa",
+  "paso": "guias",
+  "ronda": 1,
   "orden_subregiones": [
     "iberica-italia",
     "francia-alpes",
@@ -13,9 +13,10 @@
   ],
   "terminadas": [
     "iberica-italia",
-    "francia-alpes"
+    "francia-alpes",
+    "britanicas-nordicos"
   ],
-  "notas": "britanicas-nordicos: definir grupos a/b según data/paises/europa.json. Aplicar las lecciones de ORQUESTADOR.md desde la primera ronda, incluida la escala oficial de guías de criterios.json (5 = top pick en 4+ guías o ★★★ Michelin + otra; no bajar el umbral). El mapa muestra solo los destacados por país (criterios.destacados), así que basta con buena cobertura regional de los mejores; no hace falta inflar la cantidad.",
+  "notas": "centroeuropa: grupo a = DE, PL; grupo b = CZ, SK, HU, SI. Aplicar las lecciones de ORQUESTADOR.md desde la primera ronda. El mapa muestra solo los destacados por país; importa la calidad y el reparto regional, no inflar la cantidad.",
   "historial": [
     {
       "fecha": "2026-10-26",
@@ -202,8 +203,14 @@
       "subregion": "britanicas-nordicos",
       "paso": "correcciones",
       "resultado": "fix1 (ronda 4) de los 6 especialistas (interrumpidos por el límite de 5 h y retomados) + ajustes del curador (Copenhague sin noma, Senja/Jelling/Djurs guías). curar.mjs: dos actividades distintas en el mismo sitio ya no se fusionan (bungee de Sigulda; también Glacier 3000 y Verdon ganan una). 211 lugares; validador sin errores; republicado (versión 15). Siguiente: revisor ronda 2 (última)"
+    },
+    {
+      "fecha": "2026-11-02",
+      "subregion": "britanicas-nordicos",
+      "paso": "publicar",
+      "resultado": "Cerrada tras el revisor ronda 2 (final): 211 lugares. Aprobados: cultura, naturaleza y gastronomía (grupo a); cultura y gastronomía (grupo b). Notas: GB 8.8, IE 8.9, IS 9.3, NO 9.1, SE 8.9, FI 9.0, DK 9.2, EE 8.9, LV 9.1, LT 8.7 (todos con revisión pendiente). Correcciones posteriores: curar.mjs protege las URL de guías; Calanais, Windsor, Liverpool. Republicado (versión 16)."
     }
   ],
-  "ronda_revisor": 2,
+  "ronda_revisor": 0,
   "max_rondas_revisor": 2
 }

@@ -129,6 +129,7 @@
       }
     },
     "ronda3": "Escocia partida en Tierras Bajas, Tierras Altas e Islas (cobertura). Irlanda no se parte: construir-app.mjs completa el cupo de destacados cuando el tope por región lo deja corto.",
-    "ronda4": "Tras el revisor r1: por_que de Copenhague con Geranium, Jordnær y Kadeau; guías de Senja y Jelling a 3 sin la página de hoteles de Fodor's ni la noticia de NatGeo Premium. Djurs Sommerland queda con guías 2 (solo Lonely Planet)."
+    "ronda4": "Tras el revisor r1: por_que de Copenhague con Geranium, Jordnær y Kadeau; guías de Senja y Jelling a 3 sin la página de hoteles de Fodor's ni la noticia de NatGeo Premium. Djurs Sommerland queda con guías 2 (solo Lonely Planet).",
+    "ronda5": "Tras el revisor r2 (última ronda): Calanais reabierto en 2026 (Hébridas), Legoland en el por_que de Windsor, sin la URL de la jornada universitaria de Avanti en Liverpool y con 2 h 30 de tren. curar.mjs ya no deja que un especialista borre una URL que guías-expertas cita como prueba de su puntaje (31 lugares del grupo b la habían perdido)."
   }
 }
