@@ -2,6 +2,568 @@
   "agente": "adrenalina",
   "subregion": "centroeuropa",
   "ronda": 2,
-  "puntajes": [],
-  "nuevos": []
+  "criterio": "Regla única de la subregión. (1) Toda actividad o parque a 60 km o menos en línea recta cuenta para cada lugar del radio. (2) Tope de 2 para monumentos, museos y sitios religiosos, salvo que la actividad esté en el propio lugar. (3) Tope de 3 para espacios naturales que solo se recorren a pie. (4) Escala: 5 si hay oferta de clase mundial en el lugar o a 15 km o menos; 4 si hay una actividad de primer nivel a 30 km o menos o varias destacadas; 3 si hay una actividad notable en el radio o una de primer nivel a más de 30 km; 2 si solo hay oferta menor o la única actividad está en el borde del radio (50–60 km); 1 si no se identificó ninguna actividad con web oficial en el radio. (5) Un 3 o más exige al menos una actividad con web del operador, turismo oficial o RCDB. km_aprox=true indica que las coordenadas de la actividad son aproximadas (1–3 km).",
+  "busquedas_usadas": 18,
+  "puntajes": [
+    {
+      "id": "de-bremen",
+      "puntaje": 1,
+      "justificacion": "Ciudad hanseática sin parques ni operadores de adrenalina a 60 km; el Heide Park de Soltau queda a unos 71 km, fuera del radio.",
+      "actividades": []
+    },
+    {
+      "id": "de-goslar",
+      "puntaje": 3,
+      "justificacion": "En la presa del Rappbode, a 37 km, Harzdrenalin reúne la Megazipline, anunciada como la mayor tirolesa doble de Europa, el GigaSwing, un péndulo de unos 70 m de caída desde el puente colgante Titan RT, y la catapulta Ultrashot. Es oferta de primer nivel, pero a más de 30 km.",
+      "actividades": [
+        { "nombre": "Harzdrenalin: Megazipline y GigaSwing (presa del Rappbode)", "tipo": "tirolesa", "km": 37, "lat": 51.7390, "lng": 10.8930, "temporada": "mar–nov (según clima)", "url": "https://harzdrenalin.de/en/", "url_tipo": "operador_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "de-zollverein",
+      "puntaje": 2,
+      "justificacion": "Monumento industrial, con tope de 2. El Movie Park Germany, en Bottrop-Kirchhellen, queda a unos 16 km, pero no se verificó su web oficial, así que no se lista; Phantasialand está a 76 km, fuera del radio.",
+      "actividades": []
+    },
+    {
+      "id": "de-dessau",
+      "puntaje": 1,
+      "justificacion": "Ciudad de la Bauhaus sin parques ni operadores de adrenalina a 60 km; Belantis (Leipzig) queda a 64 km y Harzdrenalin a más de 90 km.",
+      "actividades": []
+    },
+    {
+      "id": "pl-swidnica",
+      "puntaje": 2,
+      "justificacion": "Iglesia de madera, con tope de 2. Solo hay oferta en el borde del radio: la Karpacz Ski Arena, en el Kopa, a 53 km, y la estación de Zieleniec, a 57 km.",
+      "actividades": [
+        { "nombre": "Karpacz Ski Arena (telesilla Zbyszek al Kopa)", "tipo": "esqui", "km": 53, "lat": 50.7600, "lng": 15.7380, "temporada": "dic–mar (según nieve)", "url": "https://karpaczskiarena.pl/routes-and-lifts/?lang=en", "url_tipo": "operador_oficial", "km_aprox": true },
+        { "nombre": "Zieleniec Ski Arena (Duszniki-Zdrój)", "tipo": "esqui", "km": 57, "lat": 50.3400, "lng": 16.3900, "temporada": "dic–abr (según nieve)", "url": "https://www.zieleniec.pl/en/zima/dla-kogo-zieleniec", "url_tipo": "operador_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "pl-krzemionki",
+      "puntaje": 1,
+      "justificacion": "Minas prehistóricas que se visitan a pie, sin parques ni operadores de adrenalina a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "cz-litomysl",
+      "puntaje": 2,
+      "justificacion": "Castillo, con tope de 2. La única oferta con web oficial en el radio es la estación de esquí polaca de Zieleniec, en el borde, a 52 km.",
+      "actividades": [
+        { "nombre": "Zieleniec Ski Arena (Duszniki-Zdrój)", "tipo": "esqui", "km": 52, "lat": 50.3400, "lng": 16.3900, "temporada": "dic–abr (según nieve)", "url": "https://www.zieleniec.pl/en/zima/dla-kogo-zieleniec", "url_tipo": "operador_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "cz-kromeriz",
+      "puntaje": 1,
+      "justificacion": "Palacio y jardines sin parques ni operadores de adrenalina a 60 km; Aqualand Moravia queda a unos 75 km.",
+      "actividades": []
+    },
+    {
+      "id": "cz-trebic",
+      "puntaje": 1,
+      "justificacion": "Barrio judío y basílica sin oferta de adrenalina con web oficial dentro del radio; Aqualand Moravia queda justo fuera, a algo más de 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "sk-vlkolinec",
+      "puntaje": 4,
+      "justificacion": "Aldea de casas de madera a las puertas del Liptov: Aquapark Tatralandia, el mayor parque acuático de Eslovaquia, abierto todo el año con agua termal y ola de surf, está a 22 km, y Jasná, la mayor estación de esquí del país, a 24 km.",
+      "actividades": [
+        { "nombre": "Aquapark Tatralandia (Liptovský Mikuláš)", "tipo": "parque_acuatico", "km": 22, "lat": 49.1050, "lng": 19.5640, "temporada": "todo el año", "url": "https://old.tmr.sk/data/upload/short.messages/tatralandia-je-rajom-pre-surferov_3_20150727_093816.pdf", "url_tipo": "operador_oficial", "km_aprox": true },
+        { "nombre": "Jasná Nízke Tatry", "tipo": "esqui", "km": 24, "lat": 48.9550, "lng": 19.5850, "temporada": "dic–abr", "url": "https://old.tmr.sk/data/upload/short.messages/jasna-uspela-v-silnej-konkurencii-alpskych-stredisk_3_20140416_163536.pdf", "url_tipo": "operador_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "sk-trencin",
+      "puntaje": 1,
+      "justificacion": "Ciudad con castillo sin parques ni operadores de adrenalina con web oficial a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "hu-fertod",
+      "puntaje": 2,
+      "justificacion": "Palacio, con tope de 2. El Familypark Neusiedlersee, el gran parque de atracciones del Burgenland austriaco, está a 27 km, en St. Margarethen.",
+      "actividades": [
+        { "nombre": "Familypark Neusiedlersee (St. Margarethen)", "tipo": "parque_diversiones", "km": 27, "lat": 47.8000, "lng": 16.6250, "temporada": "primavera–otoño", "url": "https://burgenland.info/en/dc/detail/POI/familypark-13", "url_tipo": "turismo_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "si-idrija",
+      "puntaje": 3,
+      "justificacion": "Pueblo minero con varias actividades en el radio, ninguna cerca: el esquí del Vogel, sobre Bohinj, a 32 km; el tobogán de verano de Straža (Bled), a 40 km; el barranquismo de Sušec, a 48 km; el Krvavec, a 51 km; el rafting del Soča, a 52 km, y la Planica Zipline, a 58 km.",
+      "actividades": [
+        { "nombre": "Vogel Ski Center (Bohinj)", "tipo": "esqui", "km": 32, "lat": 46.2620, "lng": 13.8380, "temporada": "dic–abr (solo nieve natural)", "url": "https://vogel.si/en/vogel-ski-center/", "url_tipo": "operador_oficial", "km_aprox": true },
+        { "nombre": "Tobogán de verano de Straža (Bled)", "tipo": "alpine_coaster", "km": 40, "lat": 46.3633, "lng": 14.1050, "temporada": "abr–oct", "url": "https://www.bled.si/en/what-to-do/summer-sports/summer-sledding", "url_tipo": "turismo_oficial", "km_aprox": true },
+        { "nombre": "Barranquismo en Sušec y Fratarica (Bovec)", "tipo": "canyoning", "km": 48, "lat": 46.3020, "lng": 13.5900, "temporada": "verano", "url": "https://www.soca-valley.com/en/in-search-of-adventure/activities/on-the-water/2021010510032015/canyoning", "url_tipo": "turismo_oficial", "km_aprox": true },
+        { "nombre": "Krvavec (Cerklje na Gorenjskem)", "tipo": "esqui", "km": 51, "lat": 46.2960, "lng": 14.5360, "temporada": "dic–mar", "url": "https://rtc-krvavec.si/skiing", "url_tipo": "operador_oficial", "km_aprox": true },
+        { "nombre": "Rafting en el Soča (Aktivni Planet, Bovec)", "tipo": "rafting", "km": 52, "lat": 46.3380, "lng": 13.5520, "temporada": "mar–oct", "url": "https://aktivniplanet.si/en/rafting-soca-in-bovec/", "url_tipo": "operador_oficial", "km_aprox": true },
+        { "nombre": "Planica Zipline (566 m, hasta 85 km/h)", "tipo": "tirolesa", "km": 58, "lat": 46.4780, "lng": 13.7220, "temporada": "may–nov", "url": "https://kranjska-gora.si/en/activities/planica-zipline", "url_tipo": "turismo_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "de-deidesheim",
+      "puntaje": 4,
+      "justificacion": "Plopsaland Deutschland (antes Holiday Park), en Haßloch, a 13 km, tiene Expedition GeForce, una de las montañas rusas mejor valoradas del mundo: 55 m de altura, caída de 82° y 120 km/h, varias veces ganadora del Golden Ticket Award.",
+      "actividades": [
+        { "nombre": "Plopsaland Deutschland (Expedition GeForce)", "tipo": "parque_diversiones", "km": 13, "lat": 49.3180, "lng": 8.2990, "temporada": "mar–nov", "url": "https://www.holidaypark.de/en/attractions/bigfm-expedition-geforce", "url_tipo": "operador_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "de-baiersbronn",
+      "puntaje": 2,
+      "justificacion": "Europa-Park, en Rust, queda en el borde del radio, a 55 km; en el valle no se verificó otra oferta de adrenalina con web oficial.",
+      "actividades": [
+        { "nombre": "Europa-Park (Silver Star, Voltron Nevera)", "tipo": "parque_diversiones", "km": 55, "lat": 48.2660, "lng": 7.7220, "temporada": "abr–nov y temporada de invierno", "url": "https://www.europapark.de/en/theme-park/attractions/silver-star", "url_tipo": "operador_oficial", "km_aprox": false }
+      ]
+    },
+    {
+      "id": "pl-zielona-gora",
+      "puntaje": 1,
+      "justificacion": "Ciudad vinícola sin parques ni operadores de adrenalina a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "cz-ceske-budejovice",
+      "puntaje": 3,
+      "justificacion": "Lipno nad Vltavou, a 42 km, tiene el área Bobovka con dos pistas de trineo de montaña que funcionan todo el año y la estación de Kramolín, que en verano es parque activo.",
+      "actividades": [
+        { "nombre": "Lipno: Bobovka (trineo de montaña) y área de Kramolín", "tipo": "alpine_coaster", "km": 42, "lat": 48.6380, "lng": 14.2200, "temporada": "todo el año", "url": "https://www.kudyznudy.cz/aktuality/sezona-na-lipne-nikdy-nekonci", "url_tipo": "turismo_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "cz-zatec",
+      "puntaje": 3,
+      "justificacion": "El Skiareál Klínovec, a 42 km en los Montes Metálicos, es la mayor estación de la zona, con la pista Lázeňská de 3,4 km; en verano funciona como bike park.",
+      "actividades": [
+        { "nombre": "Skiareál Klínovec (Jáchymov–Boží Dar)", "tipo": "esqui", "km": 42, "lat": 50.3960, "lng": 12.9680, "temporada": "dic–mar (bike park en verano)", "url": "https://bozidar.cz/en/activities/winter/downhill-skiing/ski-resort-klinovec.html", "url_tipo": "turismo_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "sk-malokarpatska",
+      "puntaje": 1,
+      "justificacion": "Ruta de bodegas sin parques ni operadores de adrenalina con web oficial a 60 km; el Prater de Viena y el Familypark Neusiedlersee quedan a 64–72 km.",
+      "actividades": []
+    },
+    {
+      "id": "hu-villany",
+      "puntaje": 3,
+      "justificacion": "El Mecsextrém Park, en la ladera del Mecsek sobre Pécs, a 31 km, tiene el Erdei Bob, un alpine coaster de unos 610 m entre el bosque.",
+      "actividades": [
+        { "nombre": "Mecsextrém Park, Erdei Bob (Pécs)", "tipo": "alpine_coaster", "km": 31, "lat": 46.0920, "lng": 18.2200, "url": "https://rcdb.com/13215.htm", "url_tipo": "rcdb", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "si-vipava",
+      "puntaje": 3,
+      "justificacion": "El esquí del Vogel, sobre el lago Bohinj, a 47 km, es una de las mayores estaciones de Eslovenia (unos 22 km de pistas); el barranquismo de Sušec y el tobogán de Straža (Bled) quedan en el borde del radio, a 58–59 km.",
+      "actividades": [
+        { "nombre": "Vogel Ski Center (Bohinj)", "tipo": "esqui", "km": 47, "lat": 46.2620, "lng": 13.8380, "temporada": "dic–abr (solo nieve natural)", "url": "https://vogel.si/en/vogel-ski-center/", "url_tipo": "operador_oficial", "km_aprox": true },
+        { "nombre": "Barranquismo en Sušec y Fratarica (Bovec)", "tipo": "canyoning", "km": 58, "lat": 46.3020, "lng": 13.5900, "temporada": "verano", "url": "https://www.soca-valley.com/en/in-search-of-adventure/activities/on-the-water/2021010510032015/canyoning", "url_tipo": "turismo_oficial", "km_aprox": true },
+        { "nombre": "Tobogán de verano de Straža (Bled)", "tipo": "alpine_coaster", "km": 59, "lat": 46.3633, "lng": 14.1050, "temporada": "abr–oct", "url": "https://www.bled.si/en/what-to-do/summer-sports/summer-sledding", "url_tipo": "turismo_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "de-harz",
+      "puntaje": 3,
+      "justificacion": "Parque nacional que se recorre a pie, con tope de 3. Harzdrenalin, en la presa del Rappbode, a 20 km, reúne la Megazipline, anunciada como la mayor tirolesa doble de Europa, el GigaSwing de unos 70 m de caída y la catapulta Ultrashot.",
+      "actividades": [
+        { "nombre": "Harzdrenalin: Megazipline y GigaSwing (presa del Rappbode)", "tipo": "tirolesa", "km": 20, "lat": 51.7390, "lng": 10.8930, "temporada": "mar–nov (según clima)", "url": "https://harzdrenalin.de/en/", "url_tipo": "operador_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "de-bosque-bavaro",
+      "puntaje": 2,
+      "justificacion": "Bosques que se recorren a pie. Solo hay oferta menor: el Großer Arber, a 35 km, es una estación familiar de esquí con unos 12 km de pistas y telecabina (Arber-Bergbahn).",
+      "actividades": [
+        { "nombre": "Großer Arber (Arber-Bergbahn)", "tipo": "esqui", "km": 35, "lat": 49.1110, "lng": 13.1370, "temporada": "dic–mar", "url": "https://bavaria.travel/accessible-holidays/arber-bergbahn/", "url_tipo": "turismo_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "de-muritz",
+      "puntaje": 1,
+      "justificacion": "Parque de lagos y hayedos que se recorre a pie o en canoa, sin oferta de adrenalina a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "de-hainich",
+      "puntaje": 1,
+      "justificacion": "Hayedo que se recorre a pie, sin parques ni operadores de adrenalina a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "pl-pieniny",
+      "puntaje": 3,
+      "justificacion": "Garganta que se recorre a pie o en almadía tradicional, con tope de 3. En el radio están la estación de Tatranská Lomnica y el alpine coaster Tatrabob, a 29 km; el Kasprowy Wierch, a 37 km, y AquaCity Poprad, a 40 km.",
+      "actividades": [
+        { "nombre": "Estación de esquí de Tatranská Lomnica (Lomnické sedlo)", "tipo": "esqui", "km": 29, "lat": 49.1650, "lng": 20.2790, "temporada": "dic–abr", "url": "https://old.tmr.sk/data/upload/short.messages/tatranska-lomnica-otvara-zjazdovku-v-lomnickom-sedle-_3_20140321_111111.pdf", "url_tipo": "operador_oficial", "km_aprox": true },
+        { "nombre": "Tatrabob (Tatranská Lomnica)", "tipo": "alpine_coaster", "km": 29, "lat": 49.1650, "lng": 20.2830, "temporada": "todo el año", "url": "https://tatry.sk/en/tatrabob-roller-coaster", "url_tipo": "turismo_oficial", "km_aprox": true },
+        { "nombre": "Esquí en el Kasprowy Wierch (PKL)", "tipo": "esqui", "km": 37, "lat": 49.2320, "lng": 19.9819, "temporada": "dic–may (según nieve)", "url": "https://www.pkl.pl/kasprowy-wierch/trasy-narciarskie.html", "url_tipo": "operador_oficial", "km_aprox": false },
+        { "nombre": "AquaCity Poprad", "tipo": "parque_acuatico", "km": 40, "lat": 49.0600, "lng": 20.2900, "temporada": "todo el año", "url": "https://aquacity.sk/en/o-aquacity-poprad/", "url_tipo": "operador_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "pl-gory-stolowe",
+      "puntaje": 3,
+      "justificacion": "Mesetas de arenisca que se recorren a pie, con tope de 3. La Zieleniec Ski Arena, a 16 km, es una de las mayores estaciones de Polonia, con unos 28 km de pistas y la temporada más larga del país; la Karpacz Ski Arena y Špindlerův Mlýn quedan en el borde del radio, a 52–58 km.",
+      "actividades": [
+        { "nombre": "Zieleniec Ski Arena (Duszniki-Zdrój)", "tipo": "esqui", "km": 16, "lat": 50.3400, "lng": 16.3900, "temporada": "dic–abr (según nieve)", "url": "https://www.zieleniec.pl/en/zima/dla-kogo-zieleniec", "url_tipo": "operador_oficial", "km_aprox": true },
+        { "nombre": "Karpacz Ski Arena (telesilla Zbyszek al Kopa)", "tipo": "esqui", "km": 52, "lat": 50.7600, "lng": 15.7380, "temporada": "dic–mar (según nieve)", "url": "https://karpaczskiarena.pl/routes-and-lifts/?lang=en", "url_tipo": "operador_oficial", "km_aprox": true },
+        { "nombre": "Skiareál Špindlerův Mlýn (Medvědín y Svatý Petr)", "tipo": "esqui", "km": 58, "lat": 50.7270, "lng": 15.6100, "temporada": "dic–abr", "url": "https://www.skiareal.cz/en/ski-resort", "url_tipo": "operador_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "pl-biebrza",
+      "puntaje": 1,
+      "justificacion": "Humedales que se recorren a pie o en canoa, sin oferta de adrenalina a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "pl-wolin",
+      "puntaje": 1,
+      "justificacion": "Acantilados y bosques junto al Báltico sin parques ni operadores de adrenalina con web oficial a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "cz-adrspach-teplice",
+      "puntaje": 3,
+      "justificacion": "Laberinto de rocas que se recorre a pie, con tope de 3. En el radio están la Karpacz Ski Arena, a 31 km; la Zieleniec Ski Arena, a 36 km, y Špindlerův Mlýn, la principal estación checa, con su pista de trineo de montaña, a 38 km.",
+      "actividades": [
+        { "nombre": "Karpacz Ski Arena (telesilla Zbyszek al Kopa)", "tipo": "esqui", "km": 31, "lat": 50.7600, "lng": 15.7380, "temporada": "dic–mar (según nieve)", "url": "https://karpaczskiarena.pl/routes-and-lifts/?lang=en", "url_tipo": "operador_oficial", "km_aprox": true },
+        { "nombre": "Zieleniec Ski Arena (Duszniki-Zdrój)", "tipo": "esqui", "km": 36, "lat": 50.3400, "lng": 16.3900, "temporada": "dic–abr (según nieve)", "url": "https://www.zieleniec.pl/en/zima/dla-kogo-zieleniec", "url_tipo": "operador_oficial", "km_aprox": true },
+        { "nombre": "Skiareál Špindlerův Mlýn (Medvědín y Svatý Petr)", "tipo": "esqui", "km": 38, "lat": 50.7270, "lng": 15.6100, "temporada": "dic–abr", "url": "https://www.skiareal.cz/en/ski-resort", "url_tipo": "operador_oficial", "km_aprox": true },
+        { "nombre": "Bobová dráha Špindlerův Mlýn (1400 m)", "tipo": "alpine_coaster", "km": 38, "lat": 50.7290, "lng": 15.6000, "temporada": "todo el año", "url": "https://www.kudyznudy.cz/aktivity/bobova-draha-happyworld-spindleruv-mlyn", "url_tipo": "turismo_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "cz-cesky-raj",
+      "puntaje": 3,
+      "justificacion": "Rocas y castillos que se recorren a pie, con tope de 3. Špindlerův Mlýn, la principal estación de esquí checa, con su pista de trineo de montaña de 1400 m, está a 35–36 km, y la Karpacz Ski Arena a 45 km.",
+      "actividades": [
+        { "nombre": "Bobová dráha Špindlerův Mlýn (1400 m)", "tipo": "alpine_coaster", "km": 35, "lat": 50.7290, "lng": 15.6000, "temporada": "todo el año", "url": "https://www.kudyznudy.cz/aktivity/bobova-draha-happyworld-spindleruv-mlyn", "url_tipo": "turismo_oficial", "km_aprox": true },
+        { "nombre": "Skiareál Špindlerův Mlýn (Medvědín y Svatý Petr)", "tipo": "esqui", "km": 36, "lat": 50.7270, "lng": 15.6100, "temporada": "dic–abr", "url": "https://www.skiareal.cz/en/ski-resort", "url_tipo": "operador_oficial", "km_aprox": true },
+        { "nombre": "Karpacz Ski Arena (telesilla Zbyszek al Kopa)", "tipo": "esqui", "km": 45, "lat": 50.7600, "lng": 15.7380, "temporada": "dic–mar (según nieve)", "url": "https://karpaczskiarena.pl/routes-and-lifts/?lang=en", "url_tipo": "operador_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "cz-podyji",
+      "puntaje": 2,
+      "justificacion": "Valle fluvial que se recorre a pie. La única oferta es el parque acuático Aqualand Moravia, en el borde del radio, a 50 km.",
+      "actividades": [
+        { "nombre": "Aqualand Moravia (Pasohlávky)", "tipo": "parque_acuatico", "km": 50, "lat": 48.9020, "lng": 16.5480, "temporada": "todo el año", "url": "https://www.visitczechia.com/es-es/things-to-do/places/spa-and-wellness/aquaparks-and-swimming-pools/s-pasohlavky-aqualand-moravia", "url_tipo": "turismo_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "sk-mala-fatra",
+      "puntaje": 3,
+      "justificacion": "Gargantas y crestas que se recorren a pie, con tope de 3. Aquapark Tatralandia, el mayor parque acuático de Eslovaquia, está a 40 km, y Jasná, la mayor estación de esquí del país, a 50 km.",
+      "actividades": [
+        { "nombre": "Aquapark Tatralandia (Liptovský Mikuláš)", "tipo": "parque_acuatico", "km": 40, "lat": 49.1050, "lng": 19.5640, "temporada": "todo el año", "url": "https://old.tmr.sk/data/upload/short.messages/tatralandia-je-rajom-pre-surferov_3_20150727_093816.pdf", "url_tipo": "operador_oficial", "km_aprox": true },
+        { "nombre": "Jasná Nízke Tatry", "tipo": "esqui", "km": 50, "lat": 48.9550, "lng": 19.5850, "temporada": "dic–abr", "url": "https://old.tmr.sk/data/upload/short.messages/jasna-uspela-v-silnej-konkurencii-alpskych-stredisk_3_20140416_163536.pdf", "url_tipo": "operador_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "sk-pieniny",
+      "puntaje": 3,
+      "justificacion": "Garganta que se recorre a pie o en almadía tradicional, con tope de 3. La estación de Tatranská Lomnica y el alpine coaster Tatrabob están a 27 km, el Kasprowy Wierch a 36 km y AquaCity Poprad a 38 km.",
+      "actividades": [
+        { "nombre": "Estación de esquí de Tatranská Lomnica (Lomnické sedlo)", "tipo": "esqui", "km": 27, "lat": 49.1650, "lng": 20.2790, "temporada": "dic–abr", "url": "https://old.tmr.sk/data/upload/short.messages/tatranska-lomnica-otvara-zjazdovku-v-lomnickom-sedle-_3_20140321_111111.pdf", "url_tipo": "operador_oficial", "km_aprox": true },
+        { "nombre": "Tatrabob (Tatranská Lomnica)", "tipo": "alpine_coaster", "km": 27, "lat": 49.1650, "lng": 20.2830, "temporada": "todo el año", "url": "https://tatry.sk/en/tatrabob-roller-coaster", "url_tipo": "turismo_oficial", "km_aprox": true },
+        { "nombre": "Esquí en el Kasprowy Wierch (PKL)", "tipo": "esqui", "km": 36, "lat": 49.2320, "lng": 19.9819, "temporada": "dic–may (según nieve)", "url": "https://www.pkl.pl/kasprowy-wierch/trasy-narciarskie.html", "url_tipo": "operador_oficial", "km_aprox": false },
+        { "nombre": "AquaCity Poprad", "tipo": "parque_acuatico", "km": 38, "lat": 49.0600, "lng": 20.2900, "temporada": "todo el año", "url": "https://aquacity.sk/en/o-aquacity-poprad/", "url_tipo": "operador_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "sk-poloniny",
+      "puntaje": 1,
+      "justificacion": "Hayedos primarios que se recorren a pie, sin oferta de adrenalina a 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "hu-kiskunsag",
+      "puntaje": 1,
+      "justificacion": "Puszta protegida sin parques ni operadores de adrenalina a 60 km; el Hungaroring queda a unos 100 km.",
+      "actividades": []
+    },
+    {
+      "id": "si-logarska-dolina",
+      "puntaje": 3,
+      "justificacion": "Valle glaciar que se recorre a pie, con tope de 3. El Krvavec, elegido mejor estación de esquí de Eslovenia en los World Ski Awards, está a 13 km, y el tobogán de verano de Straža (Bled) a 40 km.",
+      "actividades": [
+        { "nombre": "Krvavec (Cerklje na Gorenjskem)", "tipo": "esqui", "km": 13, "lat": 46.2960, "lng": 14.5360, "temporada": "dic–mar", "url": "https://rtc-krvavec.si/skiing", "url_tipo": "operador_oficial", "km_aprox": true },
+        { "nombre": "Tobogán de verano de Straža (Bled)", "tipo": "alpine_coaster", "km": 40, "lat": 46.3633, "lng": 14.1050, "temporada": "abr–oct", "url": "https://www.bled.si/en/what-to-do/summer-sports/summer-sledding", "url_tipo": "turismo_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "si-cerknica",
+      "puntaje": 1,
+      "justificacion": "Lago intermitente que se recorre a pie, sin oferta de adrenalina con web oficial a 60 km; el Krvavec y el Vogel quedan a más de 60 km.",
+      "actividades": []
+    },
+    {
+      "id": "de-munich",
+      "puntaje": 4,
+      "justificacion": "En el Englischer Garten, a 1 km del centro, está la Eisbachwelle, la ola estacionaria de río más famosa del mundo; tras el cierre de 2025, el ayuntamiento volvió a permitir el surf el 8 de mayo de 2026, solo para surfistas con experiencia. El Eiskanal de Augsburgo, el canal de aguas bravas de los Juegos Olímpicos de 1972, en el que se hace rafting de abril a noviembre, queda en el borde del radio, a 54 km.",
+      "actividades": [
+        { "nombre": "Surf en la Eisbachwelle (Englischer Garten)", "tipo": "otro", "km": 1, "lat": 48.1435, "lng": 11.5880, "temporada": "todo el año (según caudal y normas municipales)", "url": "https://www.muenchen.de/en/sights/attractions/eisbach-surferwelle", "url_tipo": "turismo_oficial", "km_aprox": false },
+        { "nombre": "Eiskanal de Augsburgo (canal olímpico de aguas bravas)", "tipo": "rafting", "km": 54, "lat": 48.3500, "lng": 10.9260, "temporada": "abr–nov", "url": "https://www.augsburg-tourismus.de/files/augsburgtourismus/media/infomaterial/pdf/2023/regio_eiskanal_flyer_6seiter_2023%20Kopie_DRUCK.pdf", "url_tipo": "turismo_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "de-dresden",
+      "puntaje": 3,
+      "justificacion": "La Suiza Sajona, cuna de la escalada libre en arenisca, empieza a unos 25 km; la Kletterschule Ottendorfer Hütte, a 34 km, ofrece cursos de iniciación y salidas guiadas de escalada y vía ferrata respetando las normas sajonas de escalada.",
+      "actividades": [
+        { "nombre": "Escalada en arenisca guiada (Kletterschule Ottendorfer Hütte)", "tipo": "otro", "km": 34, "lat": 50.9380, "lng": 14.1960, "temporada": "abr–oct (según clima)", "url": "https://www.saechsische-schweiz.de/ausflugsziele/ottendorfer-huette-kletterschule", "url_tipo": "turismo_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "de-suiza-sajona",
+      "puntaje": 4,
+      "justificacion": "Las torres de arenisca del Elba son una de las zonas históricas de la escalada libre, con miles de vías. La Kletterschule Ottendorfer Hütte, a 9 km de la Bastei, ofrece días de prueba, cursos de dos días y salidas guiadas de escalada y vía ferrata (desde 240 € al día para dos personas); solo se escala en las rocas autorizadas según las normas sajonas.",
+      "actividades": [
+        { "nombre": "Escalada en arenisca guiada (Kletterschule Ottendorfer Hütte)", "tipo": "otro", "km": 9, "lat": 50.9380, "lng": 14.1960, "temporada": "abr–oct (según clima)", "url": "https://www.saechsische-schweiz.de/ausflugsziele/ottendorfer-huette-kletterschule", "url_tipo": "turismo_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "cz-ceske-svycarsko",
+      "puntaje": 3,
+      "justificacion": "Parque de arenisca que se recorre a pie, con tope de 3. Al otro lado de la frontera, a 8 km, la Kletterschule Ottendorfer Hütte ofrece cursos y salidas guiadas de escalada y vía ferrata en la Suiza Sajona.",
+      "actividades": [
+        { "nombre": "Escalada en arenisca guiada (Kletterschule Ottendorfer Hütte)", "tipo": "otro", "km": 8, "lat": 50.9380, "lng": 14.1960, "temporada": "abr–oct (según clima)", "url": "https://www.saechsische-schweiz.de/ausflugsziele/ottendorfer-huette-kletterschule", "url_tipo": "turismo_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "cz-terezin",
+      "puntaje": 2,
+      "justificacion": "Memorial histórico, con tope de 2. La escalada guiada en arenisca de la Suiza Sajona (Kletterschule Ottendorfer Hütte) está a 48 km.",
+      "actividades": [
+        { "nombre": "Escalada en arenisca guiada (Kletterschule Ottendorfer Hütte)", "tipo": "otro", "km": 48, "lat": 50.9380, "lng": 14.1960, "temporada": "abr–oct (según clima)", "url": "https://www.saechsische-schweiz.de/ausflugsziele/ottendorfer-huette-kletterschule", "url_tipo": "turismo_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "de-sylt",
+      "puntaje": 4,
+      "justificacion": "La playa Brandenburger Strand de Westerland es sede de la Copa del Mundo de windsurf y de la única prueba alemana del Kitesurf World Tour (Defender GKA, a finales de agosto); la isla, abierta al viento del mar del Norte, tiene escuelas de kitesurf, windsurf y surf en sus playas.",
+      "actividades": [
+        { "nombre": "Kitesurf y windsurf en Westerland (sede de las Copas del Mundo)", "tipo": "otro", "km": 0, "lat": 54.9050, "lng": 8.3020, "temporada": "may–oct", "url": "https://www.sylt.de/en/veranstaltungen/surf-cups", "url_tipo": "turismo_oficial", "km_aprox": false }
+      ]
+    },
+    {
+      "id": "pl-peninsula-de-hel",
+      "puntaje": 4,
+      "justificacion": "La orilla de la bahía de Puck, entre Chałupy, Jastarnia y Kuźnica, es la meca del kitesurf polaco: el turismo oficial de Pomerania la presenta como uno de los mejores lugares de Europa para aprender windsurf y kitesurf, con agua poco profunda a cientos de metros de la orilla y numerosas escuelas.",
+      "actividades": [
+        { "nombre": "Kitesurf y windsurf en la bahía de Puck (Chałupy–Jastarnia)", "tipo": "otro", "km": 14, "lat": 54.7650, "lng": 18.5050, "temporada": "may–sep", "url": "https://pomorskie.travel/?p=107215", "url_tipo": "turismo_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "pl-gdansk",
+      "puntaje": 3,
+      "justificacion": "El kitesurf y el windsurf de la bahía de Puck, en Chałupy, en la península de Hel, uno de los mejores lugares de Europa para aprender estos deportes según el turismo oficial de Pomerania, quedan a 47 km.",
+      "actividades": [
+        { "nombre": "Kitesurf y windsurf en la bahía de Puck (Chałupy–Jastarnia)", "tipo": "otro", "km": 47, "lat": 54.7650, "lng": 18.5050, "temporada": "may–sep", "url": "https://pomorskie.travel/?p=107215", "url_tipo": "turismo_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "pl-karkonosze",
+      "puntaje": 4,
+      "justificacion": "Karpacz tiene su propia estación, la Karpacz Ski Arena, con el telesilla Zbyszek hasta el Kopa (1377 m). Al otro lado de la cresta, a 11 km, está Špindlerův Mlýn, la principal estación checa (unos 25–28 km de pistas, nominada a mejor estación del país en los World Ski Awards 2026), con una pista de trineo de montaña de 1400 m que funciona todo el año.",
+      "actividades": [
+        { "nombre": "Karpacz Ski Arena (telesilla Zbyszek al Kopa)", "tipo": "esqui", "km": 2, "lat": 50.7600, "lng": 15.7380, "temporada": "dic–mar (según nieve)", "url": "https://karpaczskiarena.pl/routes-and-lifts/?lang=en", "url_tipo": "operador_oficial", "km_aprox": true },
+        { "nombre": "Skiareál Špindlerův Mlýn (Medvědín y Svatý Petr)", "tipo": "esqui", "km": 11, "lat": 50.7270, "lng": 15.6100, "temporada": "dic–abr", "url": "https://www.skiareal.cz/en/ski-resort", "url_tipo": "operador_oficial", "km_aprox": true },
+        { "nombre": "Bobová dráha Špindlerův Mlýn (1400 m)", "tipo": "alpine_coaster", "km": 12, "lat": 50.7290, "lng": 15.6000, "temporada": "todo el año", "url": "https://www.kudyznudy.cz/aktivity/bobova-draha-happyworld-spindleruv-mlyn", "url_tipo": "turismo_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "cz-krkonose-snezka",
+      "puntaje": 4,
+      "justificacion": "Skiareál Špindlerův Mlýn, la principal estación de esquí checa (Medvědín y Svatý Petr, unos 25–28 km de pistas), está a 9 km, junto a su pista de trineo de montaña de 1400 m con 22 curvas y 3 túneles, abierta todo el año. En la vertiente polaca del Sněžka, a 3 km, está la Karpacz Ski Arena.",
+      "actividades": [
+        { "nombre": "Karpacz Ski Arena (telesilla Zbyszek al Kopa)", "tipo": "esqui", "km": 3, "lat": 50.7600, "lng": 15.7380, "temporada": "dic–mar (según nieve)", "url": "https://karpaczskiarena.pl/routes-and-lifts/?lang=en", "url_tipo": "operador_oficial", "km_aprox": true },
+        { "nombre": "Skiareál Špindlerův Mlýn (Medvědín y Svatý Petr)", "tipo": "esqui", "km": 9, "lat": 50.7270, "lng": 15.6100, "temporada": "dic–abr", "url": "https://www.skiareal.cz/en/ski-resort", "url_tipo": "operador_oficial", "km_aprox": true },
+        { "nombre": "Bobová dráha Špindlerův Mlýn (1400 m)", "tipo": "alpine_coaster", "km": 10, "lat": 50.7290, "lng": 15.6000, "temporada": "todo el año", "url": "https://www.kudyznudy.cz/aktivity/bobova-draha-happyworld-spindleruv-mlyn", "url_tipo": "turismo_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "pl-zakopane-tatras",
+      "puntaje": 4,
+      "justificacion": "El Kasprowy Wierch, a 8 km, es la única estación de alta montaña de Polonia. Al otro lado de la frontera hay varias actividades más: la estación de Tatranská Lomnica y el alpine coaster Tatrabob, a 28 km; el Aquapark Tatralandia, el mayor de Eslovaquia, a 35 km; AquaCity Poprad, a 36 km, y Jasná, la mayor estación eslovaca, a 47 km.",
+      "actividades": [
+        { "nombre": "Esquí en el Kasprowy Wierch (PKL)", "tipo": "esqui", "km": 8, "lat": 49.2320, "lng": 19.9819, "temporada": "dic–may (según nieve)", "url": "https://www.pkl.pl/kasprowy-wierch/trasy-narciarskie.html", "url_tipo": "operador_oficial", "km_aprox": false },
+        { "nombre": "Estación de esquí de Tatranská Lomnica (Lomnické sedlo)", "tipo": "esqui", "km": 28, "lat": 49.1650, "lng": 20.2790, "temporada": "dic–abr", "url": "https://old.tmr.sk/data/upload/short.messages/tatranska-lomnica-otvara-zjazdovku-v-lomnickom-sedle-_3_20140321_111111.pdf", "url_tipo": "operador_oficial", "km_aprox": true },
+        { "nombre": "Tatrabob (Tatranská Lomnica)", "tipo": "alpine_coaster", "km": 28, "lat": 49.1650, "lng": 20.2830, "temporada": "todo el año", "url": "https://tatry.sk/en/tatrabob-roller-coaster", "url_tipo": "turismo_oficial", "km_aprox": true },
+        { "nombre": "Aquapark Tatralandia (Liptovský Mikuláš)", "tipo": "parque_acuatico", "km": 35, "lat": 49.1050, "lng": 19.5640, "temporada": "todo el año", "url": "https://old.tmr.sk/data/upload/short.messages/tatralandia-je-rajom-pre-surferov_3_20150727_093816.pdf", "url_tipo": "operador_oficial", "km_aprox": true },
+        { "nombre": "AquaCity Poprad", "tipo": "parque_acuatico", "km": 36, "lat": 49.0600, "lng": 20.2900, "temporada": "todo el año", "url": "https://aquacity.sk/en/o-aquacity-poprad/", "url_tipo": "operador_oficial", "km_aprox": true },
+        { "nombre": "Jasná Nízke Tatry", "tipo": "esqui", "km": 47, "lat": 48.9550, "lng": 19.5850, "temporada": "dic–abr", "url": "https://old.tmr.sk/data/upload/short.messages/jasna-uspela-v-silnej-konkurencii-alpskych-stredisk_3_20140416_163536.pdf", "url_tipo": "operador_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "sk-altos-tatras",
+      "puntaje": 4,
+      "justificacion": "Varias actividades destacadas: en Tatranská Lomnica, a 5 km, están la estación de mayor altitud de Eslovaquia, con su pista desde el Lomnické sedlo (2190 m), y el alpine coaster Tatrabob, abierto todo el año desde 2004. AquaCity Poprad, parque acuático termal, está a 10 km, y el Kasprowy Wierch polaco a 20 km. Tatralandia y Jasná quedan a 48–51 km.",
+      "actividades": [
+        { "nombre": "Estación de esquí de Tatranská Lomnica (Lomnické sedlo)", "tipo": "esqui", "km": 5, "lat": 49.1650, "lng": 20.2790, "temporada": "dic–abr", "url": "https://old.tmr.sk/data/upload/short.messages/tatranska-lomnica-otvara-zjazdovku-v-lomnickom-sedle-_3_20140321_111111.pdf", "url_tipo": "operador_oficial", "km_aprox": true },
+        { "nombre": "Tatrabob (Tatranská Lomnica)", "tipo": "alpine_coaster", "km": 5, "lat": 49.1650, "lng": 20.2830, "temporada": "todo el año", "url": "https://tatry.sk/en/tatrabob-roller-coaster", "url_tipo": "turismo_oficial", "km_aprox": true },
+        { "nombre": "AquaCity Poprad", "tipo": "parque_acuatico", "km": 10, "lat": 49.0600, "lng": 20.2900, "temporada": "todo el año", "url": "https://aquacity.sk/en/o-aquacity-poprad/", "url_tipo": "operador_oficial", "km_aprox": true },
+        { "nombre": "Esquí en el Kasprowy Wierch (PKL)", "tipo": "esqui", "km": 20, "lat": 49.2320, "lng": 19.9819, "temporada": "dic–may (según nieve)", "url": "https://www.pkl.pl/kasprowy-wierch/trasy-narciarskie.html", "url_tipo": "operador_oficial", "km_aprox": false },
+        { "nombre": "Aquapark Tatralandia (Liptovský Mikuláš)", "tipo": "parque_acuatico", "km": 48, "lat": 49.1050, "lng": 19.5640, "temporada": "todo el año", "url": "https://old.tmr.sk/data/upload/short.messages/tatralandia-je-rajom-pre-surferov_3_20150727_093816.pdf", "url_tipo": "operador_oficial", "km_aprox": true },
+        { "nombre": "Jasná Nízke Tatry", "tipo": "esqui", "km": 51, "lat": 48.9550, "lng": 19.5850, "temporada": "dic–abr", "url": "https://old.tmr.sk/data/upload/short.messages/jasna-uspela-v-silnej-konkurencii-alpskych-stredisk_3_20140416_163536.pdf", "url_tipo": "operador_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "sk-zdiar",
+      "puntaje": 4,
+      "justificacion": "La estación de Tatranská Lomnica, la de mayor altitud de Eslovaquia, y el alpine coaster Tatrabob están a 12 km; el Kasprowy Wierch, a 21 km, y AquaCity Poprad, a 24 km. Tatralandia queda a 54 km.",
+      "actividades": [
+        { "nombre": "Estación de esquí de Tatranská Lomnica (Lomnické sedlo)", "tipo": "esqui", "km": 12, "lat": 49.1650, "lng": 20.2790, "temporada": "dic–abr", "url": "https://old.tmr.sk/data/upload/short.messages/tatranska-lomnica-otvara-zjazdovku-v-lomnickom-sedle-_3_20140321_111111.pdf", "url_tipo": "operador_oficial", "km_aprox": true },
+        { "nombre": "Tatrabob (Tatranská Lomnica)", "tipo": "alpine_coaster", "km": 12, "lat": 49.1650, "lng": 20.2830, "temporada": "todo el año", "url": "https://tatry.sk/en/tatrabob-roller-coaster", "url_tipo": "turismo_oficial", "km_aprox": true },
+        { "nombre": "Esquí en el Kasprowy Wierch (PKL)", "tipo": "esqui", "km": 21, "lat": 49.2320, "lng": 19.9819, "temporada": "dic–may (según nieve)", "url": "https://www.pkl.pl/kasprowy-wierch/trasy-narciarskie.html", "url_tipo": "operador_oficial", "km_aprox": false },
+        { "nombre": "AquaCity Poprad", "tipo": "parque_acuatico", "km": 24, "lat": 49.0600, "lng": 20.2900, "temporada": "todo el año", "url": "https://aquacity.sk/en/o-aquacity-poprad/", "url_tipo": "operador_oficial", "km_aprox": true },
+        { "nombre": "Aquapark Tatralandia (Liptovský Mikuláš)", "tipo": "parque_acuatico", "km": 54, "lat": 49.1050, "lng": 19.5640, "temporada": "todo el año", "url": "https://old.tmr.sk/data/upload/short.messages/tatralandia-je-rajom-pre-surferov_3_20150727_093816.pdf", "url_tipo": "operador_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "sk-spis-levoca",
+      "puntaje": 2,
+      "justificacion": "Castillo y ciudad histórica, con tope de 2. AquaCity Poprad está a 36 km, y la estación de Tatranská Lomnica y el Tatrabob a 40 km.",
+      "actividades": [
+        { "nombre": "AquaCity Poprad", "tipo": "parque_acuatico", "km": 36, "lat": 49.0600, "lng": 20.2900, "temporada": "todo el año", "url": "https://aquacity.sk/en/o-aquacity-poprad/", "url_tipo": "operador_oficial", "km_aprox": true },
+        { "nombre": "Estación de esquí de Tatranská Lomnica (Lomnické sedlo)", "tipo": "esqui", "km": 40, "lat": 49.1650, "lng": 20.2790, "temporada": "dic–abr", "url": "https://old.tmr.sk/data/upload/short.messages/tatranska-lomnica-otvara-zjazdovku-v-lomnickom-sedle-_3_20140321_111111.pdf", "url_tipo": "operador_oficial", "km_aprox": true },
+        { "nombre": "Tatrabob (Tatranská Lomnica)", "tipo": "alpine_coaster", "km": 40, "lat": 49.1650, "lng": 20.2830, "temporada": "todo el año", "url": "https://tatry.sk/en/tatrabob-roller-coaster", "url_tipo": "turismo_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "sk-slovensky-raj",
+      "puntaje": 3,
+      "justificacion": "Gargantas que se recorren a pie por escaleras y pasarelas, con tope de 3. AquaCity Poprad está a 15 km, y la estación de Tatranská Lomnica y el Tatrabob a 26 km; Jasná queda en el borde del radio, a 59 km.",
+      "actividades": [
+        { "nombre": "AquaCity Poprad", "tipo": "parque_acuatico", "km": 15, "lat": 49.0600, "lng": 20.2900, "temporada": "todo el año", "url": "https://aquacity.sk/en/o-aquacity-poprad/", "url_tipo": "operador_oficial", "km_aprox": true },
+        { "nombre": "Estación de esquí de Tatranská Lomnica (Lomnické sedlo)", "tipo": "esqui", "km": 26, "lat": 49.1650, "lng": 20.2790, "temporada": "dic–abr", "url": "https://old.tmr.sk/data/upload/short.messages/tatranska-lomnica-otvara-zjazdovku-v-lomnickom-sedle-_3_20140321_111111.pdf", "url_tipo": "operador_oficial", "km_aprox": true },
+        { "nombre": "Tatrabob (Tatranská Lomnica)", "tipo": "alpine_coaster", "km": 26, "lat": 49.1650, "lng": 20.2830, "temporada": "todo el año", "url": "https://tatry.sk/en/tatrabob-roller-coaster", "url_tipo": "turismo_oficial", "km_aprox": true },
+        { "nombre": "Jasná Nízke Tatry", "tipo": "esqui", "km": 59, "lat": 48.9550, "lng": 19.5850, "temporada": "dic–abr", "url": "https://old.tmr.sk/data/upload/short.messages/jasna-uspela-v-silnej-konkurencii-alpskych-stredisk_3_20140416_163536.pdf", "url_tipo": "operador_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "sk-dobsinska",
+      "puntaje": 3,
+      "justificacion": "Cueva que se visita a pie, con tope de 3. AquaCity Poprad está a 21 km, y la estación de Tatranská Lomnica y el Tatrabob a 33 km; Jasná queda a 53 km.",
+      "actividades": [
+        { "nombre": "AquaCity Poprad", "tipo": "parque_acuatico", "km": 21, "lat": 49.0600, "lng": 20.2900, "temporada": "todo el año", "url": "https://aquacity.sk/en/o-aquacity-poprad/", "url_tipo": "operador_oficial", "km_aprox": true },
+        { "nombre": "Estación de esquí de Tatranská Lomnica (Lomnické sedlo)", "tipo": "esqui", "km": 33, "lat": 49.1650, "lng": 20.2790, "temporada": "dic–abr", "url": "https://old.tmr.sk/data/upload/short.messages/tatranska-lomnica-otvara-zjazdovku-v-lomnickom-sedle-_3_20140321_111111.pdf", "url_tipo": "operador_oficial", "km_aprox": true },
+        { "nombre": "Tatrabob (Tatranská Lomnica)", "tipo": "alpine_coaster", "km": 33, "lat": 49.1650, "lng": 20.2830, "temporada": "todo el año", "url": "https://tatry.sk/en/tatrabob-roller-coaster", "url_tipo": "turismo_oficial", "km_aprox": true },
+        { "nombre": "Jasná Nízke Tatry", "tipo": "esqui", "km": 53, "lat": 48.9550, "lng": 19.5850, "temporada": "dic–abr", "url": "https://old.tmr.sk/data/upload/short.messages/jasna-uspela-v-silnej-konkurencii-alpskych-stredisk_3_20140416_163536.pdf", "url_tipo": "operador_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "sk-demanovska",
+      "puntaje": 4,
+      "justificacion": "Jasná, en el propio valle de Demänová a 4 km de las cuevas, es la mayor estación de esquí de Eslovaquia, y el Aquapark Tatralandia, el mayor parque acuático del país, abierto todo el año con agua termal, está a 13 km. AquaCity Poprad, Tatranská Lomnica y el Tatrabob quedan en el borde del radio, a 52–55 km.",
+      "actividades": [
+        { "nombre": "Jasná Nízke Tatry", "tipo": "esqui", "km": 4, "lat": 48.9550, "lng": 19.5850, "temporada": "dic–abr", "url": "https://old.tmr.sk/data/upload/short.messages/jasna-uspela-v-silnej-konkurencii-alpskych-stredisk_3_20140416_163536.pdf", "url_tipo": "operador_oficial", "km_aprox": true },
+        { "nombre": "Aquapark Tatralandia (Liptovský Mikuláš)", "tipo": "parque_acuatico", "km": 13, "lat": 49.1050, "lng": 19.5640, "temporada": "todo el año", "url": "https://old.tmr.sk/data/upload/short.messages/tatralandia-je-rajom-pre-surferov_3_20150727_093816.pdf", "url_tipo": "operador_oficial", "km_aprox": true },
+        { "nombre": "AquaCity Poprad", "tipo": "parque_acuatico", "km": 52, "lat": 49.0600, "lng": 20.2900, "temporada": "todo el año", "url": "https://aquacity.sk/en/o-aquacity-poprad/", "url_tipo": "operador_oficial", "km_aprox": true },
+        { "nombre": "Estación de esquí de Tatranská Lomnica (Lomnické sedlo)", "tipo": "esqui", "km": 54, "lat": 49.1650, "lng": 20.2790, "temporada": "dic–abr", "url": "https://old.tmr.sk/data/upload/short.messages/tatranska-lomnica-otvara-zjazdovku-v-lomnickom-sedle-_3_20140321_111111.pdf", "url_tipo": "operador_oficial", "km_aprox": true },
+        { "nombre": "Tatrabob (Tatranská Lomnica)", "tipo": "alpine_coaster", "km": 55, "lat": 49.1650, "lng": 20.2830, "temporada": "todo el año", "url": "https://tatry.sk/en/tatrabob-roller-coaster", "url_tipo": "turismo_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "sk-castillo-orava",
+      "puntaje": 2,
+      "justificacion": "Castillo, con tope de 2. El Aquapark Tatralandia está a 23 km y la estación de Jasná a 38 km.",
+      "actividades": [
+        { "nombre": "Aquapark Tatralandia (Liptovský Mikuláš)", "tipo": "parque_acuatico", "km": 23, "lat": 49.1050, "lng": 19.5640, "temporada": "todo el año", "url": "https://old.tmr.sk/data/upload/short.messages/tatralandia-je-rajom-pre-surferov_3_20150727_093816.pdf", "url_tipo": "operador_oficial", "km_aprox": true },
+        { "nombre": "Jasná Nízke Tatry", "tipo": "esqui", "km": 38, "lat": 48.9550, "lng": 19.5850, "temporada": "dic–abr", "url": "https://old.tmr.sk/data/upload/short.messages/jasna-uspela-v-silnej-konkurencii-alpskych-stredisk_3_20140416_163536.pdf", "url_tipo": "operador_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "si-ljubljana",
+      "puntaje": 3,
+      "justificacion": "El Krvavec, la estación de esquí de la capital, elegida mejor estación de Eslovenia en los World Ski Awards, está a 27 km, con cumbre a 1971 m y temporada de diciembre a finales de marzo; en invierno hay autobús de esquí desde Liubliana los fines de semana. El tobogán de Straža (Bled) está a 46 km y el Vogel a 56 km.",
+      "actividades": [
+        { "nombre": "Krvavec (Cerklje na Gorenjskem)", "tipo": "esqui", "km": 27, "lat": 46.2960, "lng": 14.5360, "temporada": "dic–mar", "url": "https://rtc-krvavec.si/skiing", "url_tipo": "operador_oficial", "km_aprox": true },
+        { "nombre": "Tobogán de verano de Straža (Bled)", "tipo": "alpine_coaster", "km": 46, "lat": 46.3633, "lng": 14.1050, "temporada": "abr–oct", "url": "https://www.bled.si/en/what-to-do/summer-sports/summer-sledding", "url_tipo": "turismo_oficial", "km_aprox": true },
+        { "nombre": "Vogel Ski Center (Bohinj)", "tipo": "esqui", "km": 56, "lat": 46.2620, "lng": 13.8380, "temporada": "dic–abr (solo nieve natural)", "url": "https://vogel.si/en/vogel-ski-center/", "url_tipo": "operador_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "si-bohinj",
+      "puntaje": 4,
+      "justificacion": "Sobre el propio lago, a 4 km, el Vogel Ski Center sube en teleférico desde 569 m y tiene unos 22 km de pistas con nieve solo natural, hasta 1800 m. El tobogán de Straža (Bled) está a 19 km, el barranquismo de Sušec a 23 km, la Planica Zipline a 25 km y el rafting del Soča a 27 km; el Krvavec queda a 50 km.",
+      "actividades": [
+        { "nombre": "Vogel Ski Center (Bohinj)", "tipo": "esqui", "km": 4, "lat": 46.2620, "lng": 13.8380, "temporada": "dic–abr (solo nieve natural)", "url": "https://vogel.si/en/vogel-ski-center/", "url_tipo": "operador_oficial", "km_aprox": true },
+        { "nombre": "Tobogán de verano de Straža (Bled)", "tipo": "alpine_coaster", "km": 19, "lat": 46.3633, "lng": 14.1050, "temporada": "abr–oct", "url": "https://www.bled.si/en/what-to-do/summer-sports/summer-sledding", "url_tipo": "turismo_oficial", "km_aprox": true },
+        { "nombre": "Barranquismo en Sušec y Fratarica (Bovec)", "tipo": "canyoning", "km": 23, "lat": 46.3020, "lng": 13.5900, "temporada": "verano", "url": "https://www.soca-valley.com/en/in-search-of-adventure/activities/on-the-water/2021010510032015/canyoning", "url_tipo": "turismo_oficial", "km_aprox": true },
+        { "nombre": "Planica Zipline (566 m, hasta 85 km/h)", "tipo": "tirolesa", "km": 25, "lat": 46.4780, "lng": 13.7220, "temporada": "may–nov", "url": "https://kranjska-gora.si/en/activities/planica-zipline", "url_tipo": "turismo_oficial", "km_aprox": true },
+        { "nombre": "Rafting en el Soča (Aktivni Planet, Bovec)", "tipo": "rafting", "km": 27, "lat": 46.3380, "lng": 13.5520, "temporada": "mar–oct", "url": "https://aktivniplanet.si/en/rafting-soca-in-bovec/", "url_tipo": "operador_oficial", "km_aprox": true },
+        { "nombre": "Krvavec (Cerklje na Gorenjskem)", "tipo": "esqui", "km": 50, "lat": 46.2960, "lng": 14.5360, "temporada": "dic–mar", "url": "https://rtc-krvavec.si/skiing", "url_tipo": "operador_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "si-bled",
+      "puntaje": 4,
+      "justificacion": "En la colina de Straža, junto al lago, hay un tobogán de verano de 520 m y 131 m de desnivel y un parque de aventura con tirolinas. El esquí del Vogel está a 23 km, la Planica Zipline, la tirolina más empinada del mundo, a 31 km, el Krvavec a 35 km, y el barranquismo y el rafting del Soča en Bovec a 39–43 km.",
+      "actividades": [
+        { "nombre": "Tobogán de verano de Straža (520 m, 131 m de desnivel)", "tipo": "alpine_coaster", "km": 1, "lat": 46.3633, "lng": 14.1050, "temporada": "abr–oct", "url": "https://www.bled.si/en/what-to-do/summer-sports/summer-sledding", "url_tipo": "turismo_oficial", "km_aprox": true },
+        { "nombre": "Vogel Ski Center (Bohinj)", "tipo": "esqui", "km": 23, "lat": 46.2620, "lng": 13.8380, "temporada": "dic–abr (solo nieve natural)", "url": "https://vogel.si/en/vogel-ski-center/", "url_tipo": "operador_oficial", "km_aprox": true },
+        { "nombre": "Planica Zipline (566 m, hasta 85 km/h)", "tipo": "tirolesa", "km": 31, "lat": 46.4780, "lng": 13.7220, "temporada": "may–nov", "url": "https://kranjska-gora.si/en/activities/planica-zipline", "url_tipo": "turismo_oficial", "km_aprox": true },
+        { "nombre": "Krvavec (Cerklje na Gorenjskem)", "tipo": "esqui", "km": 35, "lat": 46.2960, "lng": 14.5360, "temporada": "dic–mar", "url": "https://rtc-krvavec.si/skiing", "url_tipo": "operador_oficial", "km_aprox": true },
+        { "nombre": "Barranquismo en Sušec y Fratarica (Bovec)", "tipo": "canyoning", "km": 39, "lat": 46.3020, "lng": 13.5900, "temporada": "verano", "url": "https://www.soca-valley.com/en/in-search-of-adventure/activities/on-the-water/2021010510032015/canyoning", "url_tipo": "turismo_oficial", "km_aprox": true },
+        { "nombre": "Rafting en el Soča (Aktivni Planet, Bovec)", "tipo": "rafting", "km": 43, "lat": 46.3380, "lng": 13.5520, "temporada": "mar–oct", "url": "https://aktivniplanet.si/en/rafting-soca-in-bovec/", "url_tipo": "operador_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "si-triglav-vrsic",
+      "puntaje": 3,
+      "justificacion": "Parque de alta montaña que se recorre a pie, con tope de 3. A sus puertas están la Planica Zipline, a 5 km, el rafting del Soča, a 18 km, el barranquismo de Sušec, a 19 km, y el esquí del Vogel, a 20 km.",
+      "actividades": [
+        { "nombre": "Planica Zipline (566 m, hasta 85 km/h)", "tipo": "tirolesa", "km": 5, "lat": 46.4780, "lng": 13.7220, "temporada": "may–nov", "url": "https://kranjska-gora.si/en/activities/planica-zipline", "url_tipo": "turismo_oficial", "km_aprox": true },
+        { "nombre": "Rafting en el Soča (Aktivni Planet, Bovec)", "tipo": "rafting", "km": 18, "lat": 46.3380, "lng": 13.5520, "temporada": "mar–oct", "url": "https://aktivniplanet.si/en/rafting-soca-in-bovec/", "url_tipo": "operador_oficial", "km_aprox": true },
+        { "nombre": "Barranquismo en Sušec y Fratarica (Bovec)", "tipo": "canyoning", "km": 19, "lat": 46.3020, "lng": 13.5900, "temporada": "verano", "url": "https://www.soca-valley.com/en/in-search-of-adventure/activities/on-the-water/2021010510032015/canyoning", "url_tipo": "turismo_oficial", "km_aprox": true },
+        { "nombre": "Vogel Ski Center (Bohinj)", "tipo": "esqui", "km": 20, "lat": 46.2620, "lng": 13.8380, "temporada": "dic–abr (solo nieve natural)", "url": "https://vogel.si/en/vogel-ski-center/", "url_tipo": "operador_oficial", "km_aprox": true },
+        { "nombre": "Tobogán de verano de Straža (Bled)", "tipo": "alpine_coaster", "km": 29, "lat": 46.3633, "lng": 14.1050, "temporada": "abr–oct", "url": "https://www.bled.si/en/what-to-do/summer-sports/summer-sledding", "url_tipo": "turismo_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "si-kranjska-gora",
+      "puntaje": 4,
+      "justificacion": "La Planica Zipline, a 5 km, sigue el perfil de la gran rampa de saltos de Planica y es la tirolina más empinada del mundo (566 m, hasta 85 km/h). El rafting y el barranquismo del Soča están a 24–25 km, el esquí del Vogel a 25 km y el tobogán de Straža (Bled) a 28 km.",
+      "actividades": [
+        { "nombre": "Planica Zipline (566 m, hasta 85 km/h)", "tipo": "tirolesa", "km": 5, "lat": 46.4780, "lng": 13.7220, "temporada": "may–nov", "url": "https://kranjska-gora.si/en/activities/planica-zipline", "url_tipo": "turismo_oficial", "km_aprox": true },
+        { "nombre": "Rafting en el Soča (Aktivni Planet, Bovec)", "tipo": "rafting", "km": 24, "lat": 46.3380, "lng": 13.5520, "temporada": "mar–oct", "url": "https://aktivniplanet.si/en/rafting-soca-in-bovec/", "url_tipo": "operador_oficial", "km_aprox": true },
+        { "nombre": "Barranquismo en Sušec y Fratarica (Bovec)", "tipo": "canyoning", "km": 25, "lat": 46.3020, "lng": 13.5900, "temporada": "verano", "url": "https://www.soca-valley.com/en/in-search-of-adventure/activities/on-the-water/2021010510032015/canyoning", "url_tipo": "turismo_oficial", "km_aprox": true },
+        { "nombre": "Vogel Ski Center (Bohinj)", "tipo": "esqui", "km": 25, "lat": 46.2620, "lng": 13.8380, "temporada": "dic–abr (solo nieve natural)", "url": "https://vogel.si/en/vogel-ski-center/", "url_tipo": "operador_oficial", "km_aprox": true },
+        { "nombre": "Tobogán de verano de Straža (Bled)", "tipo": "alpine_coaster", "km": 28, "lat": 46.3633, "lng": 14.1050, "temporada": "abr–oct", "url": "https://www.bled.si/en/what-to-do/summer-sports/summer-sledding", "url_tipo": "turismo_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "si-soca-bovec",
+      "puntaje": 5,
+      "justificacion": "Bovec es la capital eslovena de los deportes de aventura. Operadores como Aktivni Planet y Soča Rafting bajan el Soča en balsa de mediados de marzo a octubre y ofrecen kayak, hidrospeed y tirolinas. A 5 km están los barrancos de Sušec y Fratarica, la Planica Zipline a 20 km y el esquí del Vogel a 24 km. El lado esloveno de la estación del Kanin no funcionó en la temporada 2025/2026, así que no se cuenta.",
+      "actividades": [
+        { "nombre": "Rafting en el Soča (Aktivni Planet)", "tipo": "rafting", "km": 0, "lat": 46.3380, "lng": 13.5520, "temporada": "mar–oct", "url": "https://aktivniplanet.si/en/rafting-soca-in-bovec/", "url_tipo": "operador_oficial", "km_aprox": true },
+        { "nombre": "Soča Rafting: rafting, kayak, hidrospeed y tirolina", "tipo": "rafting", "km": 0, "lat": 46.3380, "lng": 13.5520, "temporada": "primavera–otoño", "url": "https://www.socarafting.si/en/activities/rafting/", "url_tipo": "operador_oficial", "km_aprox": true },
+        { "nombre": "Kayak en el Soča (Aktivni Planet)", "tipo": "otro", "km": 0, "lat": 46.3380, "lng": 13.5520, "temporada": "mar–oct", "url": "https://aktivniplanet.si/en/kayak-bovec/", "url_tipo": "operador_oficial", "km_aprox": true },
+        { "nombre": "Barranquismo en Sušec y Fratarica", "tipo": "canyoning", "km": 5, "lat": 46.3020, "lng": 13.5900, "temporada": "verano", "url": "https://www.soca-valley.com/en/in-search-of-adventure/activities/on-the-water/2021010510032015/canyoning", "url_tipo": "turismo_oficial", "km_aprox": true },
+        { "nombre": "Planica Zipline (566 m, hasta 85 km/h)", "tipo": "tirolesa", "km": 20, "lat": 46.4780, "lng": 13.7220, "temporada": "may–nov", "url": "https://kranjska-gora.si/en/activities/planica-zipline", "url_tipo": "turismo_oficial", "km_aprox": true },
+        { "nombre": "Vogel Ski Center (Bohinj)", "tipo": "esqui", "km": 24, "lat": 46.2620, "lng": 13.8380, "temporada": "dic–abr (solo nieve natural)", "url": "https://vogel.si/en/vogel-ski-center/", "url_tipo": "operador_oficial", "km_aprox": true },
+        { "nombre": "Tobogán de verano de Straža (Bled)", "tipo": "alpine_coaster", "km": 43, "lat": 46.3633, "lng": 14.1050, "temporada": "abr–oct", "url": "https://www.bled.si/en/what-to-do/summer-sports/summer-sledding", "url_tipo": "turismo_oficial", "km_aprox": true }
+      ]
+    },
+    {
+      "id": "si-goriska-brda",
+      "puntaje": 3,
+      "justificacion": "El barranquismo de Sušec está a 35 km, el esquí del Vogel a 38 km y el rafting del Soča en Bovec a 39 km; la Planica Zipline y el tobogán de Straža quedan en el borde del radio, a 56–59 km.",
+      "actividades": [
+        { "nombre": "Barranquismo en Sušec y Fratarica (Bovec)", "tipo": "canyoning", "km": 35, "lat": 46.3020, "lng": 13.5900, "temporada": "verano", "url": "https://www.soca-valley.com/en/in-search-of-adventure/activities/on-the-water/2021010510032015/canyoning", "url_tipo": "turismo_oficial", "km_aprox": true },
+        { "nombre": "Vogel Ski Center (Bohinj)", "tipo": "esqui", "km": 38, "lat": 46.2620, "lng": 13.8380, "temporada": "dic–abr (solo nieve natural)", "url": "https://vogel.si/en/vogel-ski-center/", "url_tipo": "operador_oficial", "km_aprox": true },
+        { "nombre": "Rafting en el Soča (Aktivni Planet, Bovec)", "tipo": "rafting", "km": 39, "lat": 46.3380, "lng": 13.5520, "temporada": "mar–oct", "url": "https://aktivniplanet.si/en/rafting-soca-in-bovec/", "url_tipo": "operador_oficial", "km_aprox": true },
+        { "nombre": "Planica Zipline (566 m, hasta 85 km/h)", "tipo": "tirolesa", "km": 56, "lat": 46.4780, "lng": 13.7220, "temporada": "may–nov", "url": "https://kranjska-gora.si/en/activities/planica-zipline", "url_tipo": "turismo_oficial", "km_aprox": true },
+        { "nombre": "Tobogán de verano de Straža (Bled)", "tipo": "alpine_coaster", "km": 59, "lat": 46.3633, "lng": 14.1050, "temporada": "abr–oct", "url": "https://www.bled.si/en/what-to-do/summer-sports/summer-sledding", "url_tipo": "turismo_oficial", "km_aprox": true }
+      ]
+    }
+  ],
+  "nuevos": [],
+  "estado": "completo"
 }
