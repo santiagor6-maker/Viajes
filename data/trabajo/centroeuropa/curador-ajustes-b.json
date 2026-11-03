@@ -1,0 +1,207 @@
+{
+ "grupo": "b",
+ "paises": [
+  "CZ",
+  "SK",
+  "HU",
+  "SI"
+ ],
+ "guias": {
+  "hu-hungaroring": {
+   "puntaje": 0,
+   "fuentes": []
+  },
+  "cz-aqualand-moravia": {
+   "puntaje": 0,
+   "fuentes": []
+  },
+  "cz-litomysl": {
+   "puntaje": 2,
+   "fuentes": [
+    {
+     "guia": "Michelin (ViaMichelin)",
+     "url": "https://www.viamichelin.pl/maps/tourist-attractions/poi/litomysl-_-6d323f0bc828"
+    }
+   ]
+  },
+  "cz-kromeriz": {
+   "puntaje": 2,
+   "fuentes": [
+    {
+     "guia": "Lonely Planet",
+     "url": "https://www.lonelyplanet.com/points-of-interest/archbishops-chateau/1272973"
+    },
+    {
+     "guia": "Lonely Planet",
+     "url": "https://www.lonelyplanet.com/czech-republic/kromeriz/attractions/flower-garden/a/poi-sig/1272975/1328092"
+    }
+   ]
+  },
+  "cz-trebic": {
+   "puntaje": 2,
+   "fuentes": [
+    {
+     "guia": "Michelin (ViaMichelin)",
+     "url": "https://www.viamichelin.pl/maps/tourist-attractions/poi/trebic-_-72bdd7d4daaa"
+    }
+   ]
+  },
+  "sk-vlkolinec": {
+   "puntaje": 2,
+   "fuentes": [
+    {
+     "guia": "Lonely Planet (Top Choice)",
+     "url": "https://www.lonelyplanet.com/slovakia/central-slovakia/attractions/vlkolinec/a/poi-sig/1535926/360691"
+    }
+   ]
+  },
+  "sk-trencin": {
+   "puntaje": 2,
+   "fuentes": [
+    {
+     "guia": "Lonely Planet",
+     "url": "https://www.lonelyplanet.com/slovakia/west-slovakia/trencin/attractions/trencin-castle/a/poi-sig/1076742/360705"
+    }
+   ]
+  },
+  "hu-fertod": {
+   "puntaje": 0,
+   "fuentes": []
+  },
+  "si-idrija": {
+   "puntaje": 1,
+   "fuentes": [
+    {
+     "guia": "In Your Pocket (Ljubljana)",
+     "url": "https://inyourpocket.com/slovenia/ljubljana/venues/idrija"
+    }
+   ]
+  },
+  "cz-ceske-budejovice": {
+   "puntaje": 2,
+   "fuentes": [
+    {
+     "guia": "Lonely Planet",
+     "url": "https://www.lonelyplanet.com/points-of-interest/budweiser-budvar-brewery/1241851"
+    }
+   ]
+  },
+  "cz-zatec": {
+   "puntaje": 0,
+   "fuentes": []
+  },
+  "sk-malokarpatska": {
+   "puntaje": 0,
+   "fuentes": []
+  },
+  "hu-villany": {
+   "puntaje": 1,
+   "fuentes": [
+    {
+     "guia": "AAA (TripCanvas)",
+     "url": "https://www.aaa.com/tripcanvas/attraction/villany-VA18937"
+    }
+   ]
+  },
+  "si-vipava": {
+   "puntaje": 2,
+   "fuentes": [
+    {
+     "guia": "Lonely Planet",
+     "url": "https://www.lonelyplanet.com/slovenia/vipava-valley"
+    },
+    {
+     "guia": "Lonely Planet",
+     "url": "https://www.lonelyplanet.com/slovenia/southwestern-slovenia/travel-tips-and-articles/five-reasons-to-visit-slovenias-western-winelands/40625c8c-8a11-5710-a052-1479d276adea"
+    }
+   ]
+  },
+  "cz-adrspach-teplice": {
+   "puntaje": 2,
+   "fuentes": [
+    {
+     "guia": "Michelin (ViaMichelin)",
+     "url": "https://www.viamichelin.pl/maps/tourist-attractions/poi/teplice_nad_metuji-_-b251504c73f9"
+    }
+   ]
+  },
+  "cz-cesky-raj": {
+   "puntaje": 0,
+   "fuentes": []
+  },
+  "sk-mala-fatra": {
+   "puntaje": 0,
+   "fuentes": []
+  },
+  "sk-pieniny": {
+   "puntaje": 2,
+   "fuentes": [
+    {
+     "guia": "Lonely Planet",
+     "url": "https://www.lonelyplanet.com/pois/1609355"
+    }
+   ]
+  },
+  "sk-poloniny": {
+   "puntaje": 0,
+   "fuentes": []
+  },
+  "si-logarska-dolina": {
+   "puntaje": 2,
+   "fuentes": [
+    {
+     "guia": "Lonely Planet",
+     "url": "https://www.lonelyplanet.com/slovenia/logarska-dolina/attractions/logarska-dolina-country-park/a/poi-sig/1259798/1325454"
+    },
+    {
+     "guia": "Lonely Planet",
+     "url": "https://www.lonelyplanet.com/slovenia/logarska-dolina/attractions/matkov-kot/a/poi-sig/1259796/1325454"
+    }
+   ]
+  },
+  "cz-podyji": {
+   "puntaje": 0,
+   "fuentes": []
+  },
+  "hu-kiskunsag": {
+   "puntaje": 2,
+   "fuentes": [
+    {
+     "guia": "Michelin (ViaMichelin)",
+     "url": "https://www.viamichelin.pl/maps/tourist-attractions/poi/bugac-6114-eeb6219cef9c"
+    }
+   ]
+  },
+  "si-cerknica": {
+   "puntaje": 0,
+   "fuentes": []
+  }
+ },
+ "fusiones": [],
+ "ciudad": [],
+ "playa": [],
+ "lugares": {},
+ "por_que": {
+  "hu-hungaroring": "Circuito del Gran Premio de Hungría de Fórmula 1, en Mogyoród, a unos 20 km de Budapest. Fuera de los eventos no se visita libremente, pero hay días de pista abiertos para coches y motos, vueltas en deportivos con instructor y la Formula Experience al volante de monoplazas. Se llega en coche o en el tren suburbano HÉV de Gödöllő, cuyo palacio queda a unos 8 km.",
+  "cz-aqualand-moravia": "Uno de los mayores parques acuáticos de Europa Central, en Pasohlávky, junto a los embalses de Nové Mlýny: unas 40 atracciones, más de veinte toboganes, como el Kamikadze de 13 m, y una piscina de agua termal. La zona cubierta abre todo el año de 10 a 21 h y la exterior solo en verano. Mikulov y los viñedos de Pálava quedan a 13 km.",
+  "cz-litomysl": "Castillo renacentista de arcadas, Patrimonio Mundial desde 1999, con fachadas de esgrafiado, un teatro de castillo del siglo XVIII y la antigua cervecería donde nació Smetana, que da nombre al festival de ópera de cada verano. Reabrió tras su restauración en abril de 2026; en invierno solo abre de jueves a sábado. No hay línea principal de tren: se llega por Choceň o Česká Třebová y bus.",
+  "cz-kromeriz": "La residencia de los obispos de Olomouc es Patrimonio Mundial desde 1998: un palacio barroco con una pinacoteca que guarda un Tiziano y dos jardines, el del Palacio y el de Flores, con su rotonda y su columnata. Bajo el palacio, las bodegas arzobispales elaboran vino de misa y abren a catas. El jardín del Palacio es gratuito y abre todo el año; los interiores, de primavera a otoño.",
+  "cz-trebic": "Su barrio judío, uno de los mejor conservados de Europa, y la basílica románico-gótica de San Procopio, del siglo XIII, son Patrimonio Mundial desde 2003 como testimonio de siglos de convivencia entre judíos y cristianos. El barrio se recorre libremente, y la Sinagoga Trasera organiza visitas guiadas que suben al cementerio judío. Está en la línea de tren Brno–Jihlava, a 1 h 30 de Brno.",
+  "sk-vlkolinec": "Aldea de casas de troncos pintadas a 720 m, sobre Ružomberok, Patrimonio Mundial desde 1993 y el conjunto rural de los Cárpatos mejor conservado de Eslovaquia. Sigue habitada, así que solo se ven los exteriores. Desde la aldea se sube al Sidorovo (1.099 m), y el Aquapark Tatralandia y la estación de Jasná quedan a menos de 25 km.",
+  "sk-trencin": "Capital Europea de la Cultura en 2026, a los pies de uno de los mayores castillos de Eslovaquia, sobre una roca encima del Váh. Bajo sus muros se conserva la inscripción romana de Laugaricio, del año 179, una de las huellas romanas más al norte de Europa Central. Hay tren directo desde Bratislava (1 h 30) y en verano el castillo ofrece visitas nocturnas con antorchas.",
+  "hu-fertod": "El palacio rococó de los Esterházy, llamado el Versalles húngaro, tiene 126 salas y fue durante más de veinte años la casa de Haydn como maestro de capilla; en verano su sala de ceremonias acoge conciertos. Forma parte del paisaje cultural de Fertő/Neusiedlersee, Patrimonio Mundial, y se combina con Sopron, a unos 30 km, y con el kékfrankos de la zona.",
+  "si-idrija": "La mina de mercurio, explotada durante cinco siglos, es Patrimonio Mundial junto a Almadén: se baja por el pozo de Antonio, de 1500, y se visitan el castillo de Gewerkenegg y la fundición. Es la tierra de los idrijski žlikrofi, pasta rellena de patata con sello europeo, y del encaje de bolillos. A 2 km está el Divje jezero, un manantial kárstico que es lago y cueva a la vez.",
+  "cz-zatec": "Patrimonio Mundial desde 2023 como paisaje del lúpulo de Saaz, la variedad de la pilsner checa: la plaza y el ayuntamiento, el barrio de Praga con secaderos y chimeneas de sulfurado y los campos de lúpulo de alrededor. El Templo del Lúpulo y la Cerveza tiene mirador y un pequeño reloj astronómico, y el museo del lúpulo ocupa un almacén del siglo XIX. Mejor de junio a septiembre, con las pérgolas cargadas y la cosecha a finales de verano.",
+  "sk-malokarpatska": "La principal región vinícola de Eslovaquia empieza a las puertas de Bratislava: Svätý Jur, Pezinok y Modra, antiguas ciudades reales con bodegas históricas, y decenas de pueblos hasta Trnava. En noviembre, en el día de bodegas abiertas, más de un centenar de productores sirven frankovka modrá y rizling vlašský, y Modra conserva su mayólica. Hay tren a Svätý Jur y Pezinok en 20-30 minutos.",
+  "hu-villany": "La referencia del vino tinto húngaro, en el extremo sur del país: cabernet franc y coupages bordeleses en la primera ruta del vino oficial de Hungría (1994). Las bodegas están muy juntas y se recorren a pie, como la hilera de bodegas de tres niveles de Villánykövesd, y en octubre hay festival del vino tinto. El castillo de Siklós queda a pocos kilómetros y Pécs, a una hora en tren.",
+  "si-vipava": "Valle vinícola entre la meseta del Nanos y el bosque de Trnovo, con bodegas familiares de uvas autóctonas como la pinela y la zelen; Lonely Planet lo puso entre los diez mejores destinos de Europa en 2018. Las rutas en bici enlazan bodegas, el pueblo fortificado de Vipavski Križ y la mansión de Zemono. La bora puede soplar tan fuerte que corta el paso a vehículos altos.",
+  "cz-adrspach-teplice": "La mayor ciudad de roca de Chequia: torres de arenisca, gargantas estrechas y un lago en una antigua cantera de arena, junto a la frontera polaca. El circuito de Adršpach con el lago Pískovna lleva unas 3 horas y puede seguir por la garganta del Lobo hasta las rocas de Teplice. En temporada conviene comprar en línea la entrada con plaza de aparcamiento.",
+  "cz-cesky-raj": "Primera área protegida de Checoslovaquia (1955) y geoparque mundial UNESCO: ciudades de arenisca como Hrubá Skála y las rocas de Prachov, junto a Jičín, y el castillo de Trosky sobre dos chimeneas volcánicas. Una ruta clásica cruza las rocas de Hrubá Skála hasta el castillo de Valdštejn. Mejor de mayo a octubre, con base en Turnov o Jičín, que tienen tren.",
+  "sk-mala-fatra": "Montañas calizas sobre Terchová, el pueblo del bandolero Jánošík: las gargantas de Jánošíkove diery se suben por escaleras y pasarelas entre cascadas, y el Veľký Rozsutec (1.610 m) es el pico emblema del parque. En las kolibas del valle de Vrátna se comen bryndzové halušky. Las escaleras resbalan con lluvia; la temporada de senderismo va de junio a octubre.",
+  "sk-pieniny": "Garganta caliza del Dunajec en la frontera polaca, que se baja en balsas de madera guiadas por balseros gorales, de Červený Kláštor a Lesnica (unos 9 km), con vuelta a pie o en bici por el sendero del río. El monasterio cartujo de Červený Kláštor, del siglo XIV, es hoy museo. Las balsas salen del 15 de abril al 31 de octubre.",
+  "sk-poloniny": "Hayedos vírgenes en el extremo nordeste de Eslovaquia, en la frontera con Polonia y Ucrania: Stužica forma parte del sitio UNESCO de los hayedos primarios de los Cárpatos, y es el único lugar del país con bisontes en libertad. Desde Nová Sedlica se sube al Kremenec (1.221 m), donde se juntan las tres fronteras, y los pueblos rusinos conservan iglesias de madera. Prácticamente solo se llega en coche; luce sobre todo en otoño.",
+  "si-logarska-dolina": "Valle glaciar de los Alpes de Kamnik-Savinja, cerrado por paredes calizas de más de 2.000 m, con granjas alpinas y, al fondo, la Rinka, una de las cascadas de caída libre más altas del país. El sendero del valle llega a la cascada y sigue hasta Okrešelj; al lado está Matkov kot, mucho menos visitado. Solo se llega en coche o en bici, y los coches pagan peaje de entrada.",
+  "hu-kiskunsag": "La puszta de Bugac, la mayor de las siete zonas del parque nacional y reserva de la biosfera UNESCO: estepa arenosa con dunas, pastizales y bosquetes de enebro. Desde la entrada se va a pie o en carro hasta el museo de los pastores y la yeguada, con espectáculos de jinetes húngaros de primavera a otoño. Las csárdas sirven gulyás de caldero y vino de Kunság; la base es Kecskemét."
+ },
+ "notas": {}
+}
