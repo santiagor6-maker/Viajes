@@ -1,7 +1,7 @@
 {
   "pausado": false,
   "subregion": "centroeuropa",
-  "paso": "logistica",
+  "paso": "curador",
   "ronda": 1,
   "orden_subregiones": [
     "iberica-italia",
@@ -221,6 +221,12 @@
       "subregion": "centroeuropa",
       "paso": "especialistas",
       "resultado": "8 especialistas ronda 1: 45 lugares nuevos (DE 14, PL 8, CZ 9, SK 6, HU 4, SI 4), entre ellos Europa-Park, Phantasialand, Nürburgring, Energylandia, Hungaroring, Deidesheim, Baiersbronn, Zollverein, Bauhaus Dessau, Harz, Bosque Bávaro, Adršpach, Vlkolínec, Idrija, Logarska. Siguiente: logística a/b + cruce r2"
+    },
+    {
+      "fecha": "2026-11-03",
+      "subregion": "centroeuropa",
+      "paso": "logistica",
+      "resultado": "Logística a (68) y b (84) + cruce r2 de los 4 especialistas (interrumpidos por el límite de 5 h y retomados). Subidas con fuente: Auschwitz/Varsovia UNESCO, Fráncfort 4, Rin/Ratisbona/Constanza gastronomía 4, Múnich/Sylt/Hel/Zakopane adrenalina 4. Curar en seco: 149 lugares, 41 nuevos sin guías. Siguiente: curador a/b"
     }
   ],
   "ronda_revisor": 0,
