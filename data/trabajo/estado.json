@@ -1,7 +1,7 @@
 {
   "pausado": false,
   "subregion": "centroeuropa",
-  "paso": "curador",
+  "paso": "cobertura",
   "ronda": 1,
   "orden_subregiones": [
     "iberica-italia",
@@ -227,6 +227,12 @@
       "subregion": "centroeuropa",
       "paso": "logistica",
       "resultado": "Logística a (68) y b (84) + cruce r2 de los 4 especialistas (interrumpidos por el límite de 5 h y retomados). Subidas con fuente: Auschwitz/Varsovia UNESCO, Fráncfort 4, Rin/Ratisbona/Constanza gastronomía 4, Múnich/Sylt/Hel/Zakopane adrenalina 4. Curar en seco: 149 lugares, 41 nuevos sin guías. Siguiente: curador a/b"
+    },
+    {
+      "fecha": "2026-11-03",
+      "subregion": "centroeuropa",
+      "paso": "curador",
+      "resultado": "147 lugares (DE 43, PL 24, CZ 25, SK 19, HU 20, SI 16); 3 fusiones (Baiersbronn→Selva Negra, Hluboká→České Budějovice, Dobšiná→Paraíso Eslovaco), 3 descartes (Krzemionki, Podyjí, Cerknica); 45 puntajes de guías; 147 por_que; URLs espejo de LP normalizadas. Siguiente: publicar y cobertura"
     }
   ],
   "ronda_revisor": 0,

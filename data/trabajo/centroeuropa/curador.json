@@ -1,0 +1,108 @@
+{
+  "agente": "curador",
+  "subregion": "centroeuropa",
+  "fecha": "2026-11-03",
+  "fusionados": [
+    [
+      "de-selva-negra",
+      "de-baiersbronn"
+    ],
+    [
+      "cz-ceske-budejovice",
+      "cz-hluboka"
+    ],
+    [
+      "sk-slovensky-raj",
+      "sk-dobsinska"
+    ]
+  ],
+  "descartados": [
+    {
+      "id": "pl-krzemionki",
+      "global": 1.8,
+      "motivo": "global 1.8 < 2 (guías 0, mejor temático 3, logística 3)"
+    },
+    {
+      "id": "cz-podyji",
+      "global": 1.8,
+      "motivo": "global 1.8 < 2 (guías 0, mejor temático 3, logística 3)"
+    },
+    {
+      "id": "si-cerknica",
+      "global": 1.8,
+      "motivo": "global 1.8 < 2 (guías 0, mejor temático 3, logística 3)"
+    }
+  ],
+  "conteo_por_pais": {
+    "DE": 43,
+    "PL": 24,
+    "CZ": 25,
+    "SK": 19,
+    "HU": 20,
+    "SI": 16
+  },
+  "notas": {
+    "grupo_a": {
+      "grupo_a_DE_PL": {
+        "guias_busqueda": "35 WebSearch para los 22 lugares nuevos de DE y PL con guías 0 (incluido pl-krzemionki). Solo se citan URL que salieron en los resultados; no se usan foros, revendedores ni rankings de prensa como guía. Escala de criterios.json sin bajar umbral: 2 = una guía (aunque tenga varias páginas o sea top pick en ella).",
+        "guias_en_0_tras_buscar": {
+          "de-phantasialand": "3 búsquedas (LP, Fodor's, Rough Guides, Time Out): ninguna guía; solo rankings de parques, blogs y operadores. Queda 0 (global 2,9).",
+          "de-heide-park": "2 búsquedas (LP, Rough Guides, Time Out): sin guía. Queda 0.",
+          "pl-energylandia": "3 búsquedas (LP, Time Out, Rough Guides): sin guía; el ranking de Euronews (n.º 1 de Europa en 2026) no es guía. Queda 0.",
+          "de-goslar": "3 búsquedas (LP, Fodor's, Rick Steves): sin página de guía en los resultados. Queda 0 (global 2,4); probablemente está en las guías impresas, pero no se pudo citar.",
+          "pl-krzemionki": "1 búsqueda (LP, Rough Guides, Bradt): sin guía. Queda 0 y sigue descartado (global 1,8)."
+        },
+        "guias_dudosas": {
+          "pl-pieniny": "La ficha de Lonely Planet solo apareció en nonprod.lonelyplanet.com (copia no productiva). Se cita esa URL; conviene sustituirla por la canónica lonelyplanet.com/points-of-interest/pieniny-national-park/1609355 si el revisor la verifica.",
+          "pl-wolin": "La ficha de Lonely Planet solo apareció en copias (imagizer y nonprod); se cita la de imagizer. Misma recomendación: canónica /points-of-interest/wolin-national-park/1424798.",
+          "de-deidesheim": "La página de Frommer's (Driving Tours in Worms, por la Ruta del Vino) salió en la búsqueda de Deidesheim, pero no se leyó su texto (fodors.com no está permitido para WebFetch en esta sesión y no se intentó con frommers.com). Conviene que el revisor confirme que nombra Deidesheim.",
+          "de-dessau": "Lonely Planet la eligió para Best in Travel 2027 (única alemana), pero es una sola guía: queda 2.",
+          "de-europa-park": "Dos páginas de Fodor's (Rust y el top 10 de parques de Europa, donde abre la lista): una guía, 2."
+        },
+        "fusiones": {
+          "de-baiersbronn -> de-selva-negra": "Baiersbronn (a unos 42 km de Triberg) está dentro de la Selva Negra y su naturaleza es la del Parque Nacional de la Selva Negra, que la ficha de la región ya usa (Lotharpfad, Ruhestein). Se fusiona para no duplicar la región en el mapa; la Schwarzwaldstube entra en el por_que de la Selva Negra. Logística y coordenadas de Triberg.",
+          "de-phantasialand / de-colonia": "No se fusionan: 17 km (más de 15) y un parque temático es un destino distinto de la ciudad; Colonia conserva adrenalina 4 por tenerlo en su radio.",
+          "pl-pieniny / sk-pieniny": "No se fusionan: países distintos.",
+          "de-goslar / de-harz": "No se fusionan: unos 17 km entre el casco de Goslar y el Brocken, y son ciudad frente a parque nacional."
+        },
+        "categorias": "Se añade playa a de-sylt, de-rugen, pl-wolin, pl-slowinski y pl-gdansk (Sopot), todos con playas de arena en el Báltico o el mar del Norte. Los parques temáticos y el Nürburgring quedan solo como adrenalina: no son ciudad ni pueblo.",
+        "lugares": "de-muritz pasa a «Parque Nacional de Müritz» (las coordenadas están en Waren, no en Serrahn). Región de de-deidesheim y de-baiersbronn normalizada al Land (Renania-Palatinado, Baden-Wurtemberg). Coordenadas de DE y PL revisadas: coherentes con el nombre; no hizo falta corregir ninguna.",
+        "busquedas_usadas": 35
+      }
+    },
+    "grupo_b": {
+      "guias_busqueda": "35 WebSearch (máximo 35) para los 20 lugares nuevos con guías 0 y los 3 descartados (cz-podyji, hu-kiskunsag, si-cerknica). Solo se citan URL vistas en los resultados. Escala oficial: 2 = una guía con ficha propia (Lonely Planet o ficha de ViaMichelin), 1 = mención menor fuera de las guías de la lista. No se citan las páginas nonprod.lonelyplanet.com (servidor de desarrollo) ni foros, operadores, Wikivoyage o blogs.",
+      "guias_detalle": {
+        "cz-litomysl": "Ficha de ViaMichelin («Well worth the diversion», ★★, no ★★★). Sin LP, Rough Guides ni Fodor's en 3 búsquedas. 2.",
+        "cz-kromeriz": "Dos fichas de Lonely Planet (palacio arzobispal y Jardín de Flores); no se confirmó la etiqueta Top Choice. 2.",
+        "cz-trebic": "Solo ficha de ViaMichelin; LP y Rough Guides no aparecen en 2 búsquedas. 2.",
+        "sk-vlkolinec": "Lonely Planet lo marca Top Choice, pero es una sola guía (sin Rough Guides). 2.",
+        "sk-trencin": "Ficha de Lonely Planet del castillo. 2.",
+        "cz-ceske-budejovice": "Ficha de Lonely Planet de la cervecería Budvar. 2 (con la fusión se conserva el 2 de Hluboká, Fodor's Choice).",
+        "si-vipava": "Página de destino y artículo de Lonely Planet; Lonely Planet Best in Europe 2018 (puesto 9) consta solo por notas de prensa de slovenia.info. Condé Nast solo por la web del turismo local, sin confirmar. National Geographic: solo contenido pagado, no cuenta. 2.",
+        "cz-adrspach-teplice": "Ficha de ViaMichelin («Well worth the diversion»). 2.",
+        "sk-pieniny": "Ficha de Lonely Planet (lonelyplanet.com/pois/1609355). 2.",
+        "si-logarska-dolina": "Dos fichas de Lonely Planet (Logarska Dolina Country Park y Matkov Kot). 2.",
+        "hu-kiskunsag": "Ficha de ViaMichelin de Bugac. 2: con guías 2 pasa de global 1.8 a 2.6 y deja de estar descartado (necesita por_que, incluido).",
+        "si-idrija": "Lonely Planet solo aparece en nonprod.lonelyplanet.com (no se cita); queda la ficha de In Your Pocket (Ljubljana), mención menor fuera de la lista. 1.",
+        "hu-villany": "Solo la ficha de AAA TripCanvas, mención menor; LP, Rough Guides, Fodor's y ViaMichelin no aparecen en 2 búsquedas. 1.",
+        "en_0_tras_buscar": "hu-hungaroring (1 búsqueda: solo resultados de librerías y Rome2rio), cz-aqualand-moravia (1), hu-fertod (3: Britannica, Euronews, Wikivoyage, no guías), cz-zatec (2), sk-malokarpatska (2: Slovak Spectator, operadores), cz-cesky-raj (1), sk-mala-fatra (1), sk-poloniny (1), cz-podyji (1) y si-cerknica (1). cz-podyji y si-cerknica siguen descartados (global 1.8)."
+      },
+      "fusiones": {
+        "cz-hluboka -> cz-ceske-budejovice": "El castillo está a 9 km de la ciudad (regla del monumento a < 15 km). Global estimado 2.9 (guías 2, cultura 3, gastronomía 3, adrenalina 3, logística 5 del destino).",
+        "sk-dobsinska -> sk-slovensky-raj": "La cueva de hielo está a 10 km, dentro del propio Parque Nacional Paraíso Eslovaco. Global 3.5 sin cambios; se pierde la logística 2 de la cueva (cerrada por obras en 2026), que queda dicha en por_que."
+      },
+      "sin_fusion": {
+        "cz-aqualand-moravia / cz-mikulov": "12,6 km, pero el agente de adrenalina lo marcó destino_propio (parque acuático): va aparte, como los parques de francia-alpes. Mikulov ya lo tiene en adrenalina_cerca y su adrenalina 4 viene de él.",
+        "hu-hungaroring / hu-budapest o hu-godollo": "18,4 km de Budapest (fuera de 15 km) y 8 km de Gödöllő, pero es destino_propio de adrenalina; fusionarlo con el palacio saltaría el tope de 2 de adrenalina para monumentos. Va aparte con guías 0 (global 2.3).",
+        "sk-malokarpatska / sk-bratislava": "Pezinok está a 20 km del centro de Bratislava y Modra a unos 28 km; solo Svätý Jur queda a unos 12 km. La ruta pasa de 15 km: no se fusiona.",
+        "cz-lednice-valtice / cz-mikulov": "12,3 km, pero son destinos distintos (paisaje UNESCO de 200 km² frente a pueblo del vino) y guías-expertas los puntuó por separado.",
+        "si-piran / si-izola": "7,2 km, dos pueblos distintos, no un monumento de la ciudad; Izola tiene su propia fuente (Time Out).",
+        "si-triglav-vrsic / si-kranjska-gora": "6,6 km entre el paso de Vršič y el pueblo; parque nacional frente a estación de esquí con Milka (2 estrellas) y Planica. Se mantienen aparte."
+      },
+      "categorias": "ciudad para hu-szentendre, hu-visegrad y sk-zdiar (solo quedaban como adrenalina). playa para hu-balaton (destino de baño, como at-worthersee). hu-kiskunsag no tiene temático ≥ 3.5 ni es ciudad: el script usará naturaleza (3) como último recurso y avisará; es lo correcto para un parque. hu-hungaroring y cz-aqualand-moravia quedan solo como adrenalina (no son pueblos). Prueba en seco (copia en el scratchpad): el script avisa también de cz-terezin, sk-castillo-orava, sk-bojnice y hu-godollo (monumentos, cultura 3) y de hu-bukk-lillafured (naturaleza 3); se dejan con su temático máximo porque no son ciudades ni playas. Resultado en seco del grupo b: 80 lugares (CZ 25, HU 20, SK 19, SI 16), 2 fusiones, descartados cz-podyji y si-cerknica.",
+      "coordenadas": "Revisadas las 81 coordenadas del grupo b y las de hu-kiskunsag: todas coherentes con el nombre; no hacen falta correcciones.",
+      "por_que": "80 textos: los 79 lugares que quedan del volcado tras las 2 fusiones más hu-kiskunsag. No se escriben para cz-podyji ni si-cerknica (descartados)."
+    }
+  }
+}

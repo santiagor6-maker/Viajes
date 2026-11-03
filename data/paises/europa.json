@@ -374,67 +374,67 @@
       "iso": "DE",
       "nombre": "Alemania",
       "subregion": "centroeuropa",
-      "total_lugares": 0,
+      "total_lugares": 43,
       "excepcion_minimo": false,
       "justificacion": null,
       "nota_revisor": null,
       "revision_pendiente": false,
-      "estado": "sin_investigar"
+      "estado": "investigado"
     },
     {
       "iso": "PL",
       "nombre": "Polonia",
       "subregion": "centroeuropa",
-      "total_lugares": 0,
+      "total_lugares": 24,
       "excepcion_minimo": false,
       "justificacion": null,
       "nota_revisor": null,
       "revision_pendiente": false,
-      "estado": "sin_investigar"
+      "estado": "investigado"
     },
     {
       "iso": "CZ",
       "nombre": "República Checa",
       "subregion": "centroeuropa",
-      "total_lugares": 0,
+      "total_lugares": 25,
       "excepcion_minimo": false,
       "justificacion": null,
       "nota_revisor": null,
       "revision_pendiente": false,
-      "estado": "sin_investigar"
+      "estado": "investigado"
     },
     {
       "iso": "SK",
       "nombre": "Eslovaquia",
       "subregion": "centroeuropa",
-      "total_lugares": 0,
+      "total_lugares": 19,
       "excepcion_minimo": false,
       "justificacion": null,
       "nota_revisor": null,
       "revision_pendiente": false,
-      "estado": "sin_investigar"
+      "estado": "investigado"
     },
     {
       "iso": "HU",
       "nombre": "Hungría",
       "subregion": "centroeuropa",
-      "total_lugares": 0,
+      "total_lugares": 20,
       "excepcion_minimo": false,
       "justificacion": null,
       "nota_revisor": null,
       "revision_pendiente": false,
-      "estado": "sin_investigar"
+      "estado": "investigado"
     },
     {
       "iso": "SI",
       "nombre": "Eslovenia",
       "subregion": "centroeuropa",
-      "total_lugares": 0,
+      "total_lugares": 16,
       "excepcion_minimo": false,
       "justificacion": null,
       "nota_revisor": null,
       "revision_pendiente": false,
-      "estado": "sin_investigar"
+      "estado": "investigado"
     },
     {
       "iso": "HR",

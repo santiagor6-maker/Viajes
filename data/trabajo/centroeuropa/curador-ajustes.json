@@ -1,0 +1,629 @@
+{
+  "fusiones": [
+    {
+      "destino": "de-selva-negra",
+      "origenes": [
+        "de-baiersbronn"
+      ],
+      "nombre": "Selva Negra (Triberg y Baiersbronn)",
+      "region": "Baden-Wurtemberg"
+    },
+    {
+      "destino": "cz-ceske-budejovice",
+      "origenes": [
+        "cz-hluboka"
+      ],
+      "nombre": "České Budějovice y castillo de Hluboká"
+    },
+    {
+      "destino": "sk-slovensky-raj",
+      "origenes": [
+        "sk-dobsinska"
+      ],
+      "nombre": "Parque Nacional Paraíso Eslovaco (Slovenský raj) y cueva de hielo de Dobšiná"
+    }
+  ],
+  "guias": {
+    "de-europa-park": {
+      "puntaje": 2,
+      "fuentes": [
+        {
+          "guia": "Fodor's",
+          "url": "https://cdn.fodors.com/world/europe/germany/the-black-forest/places/rust/things-to-do/sights"
+        },
+        {
+          "guia": "Fodor's",
+          "url": "https://www.fodors.com/news/photos/best-theme-parks-in-europe"
+        }
+      ]
+    },
+    "de-phantasialand": {
+      "puntaje": 0,
+      "fuentes": []
+    },
+    "de-nurburgring": {
+      "puntaje": 2,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/points-of-interest/nurburgring/1208654"
+        }
+      ]
+    },
+    "de-heide-park": {
+      "puntaje": 0,
+      "fuentes": []
+    },
+    "pl-energylandia": {
+      "puntaje": 0,
+      "fuentes": []
+    },
+    "de-bremen": {
+      "puntaje": 2,
+      "fuentes": [
+        {
+          "guia": "Fodor's",
+          "url": "https://cdn.fodors.com/world/europe/germany/the-fairy-tale-road/places/bremen/things-to-do/sights"
+        }
+      ]
+    },
+    "de-goslar": {
+      "puntaje": 0,
+      "fuentes": []
+    },
+    "de-zollverein": {
+      "puntaje": 2,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/points-of-interest/zeche-zollverein/463086"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/points-of-interest/ruhr-museum/463084"
+        }
+      ]
+    },
+    "de-dessau": {
+      "puntaje": 2,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/guide-to-dessau"
+        },
+        {
+          "guia": "Lonely Planet Best in Travel 2027 (noticia en Tageskarte)",
+          "url": "https://www.tageskarte.io/tourismus/detail/lonely-planet-nimmt-dessau-in-seine-reiseziele-fuer-2027-auf.html"
+        }
+      ]
+    },
+    "pl-swidnica": {
+      "puntaje": 2,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/poland/swidnica/attractions/church-of-peace/a/poi-sig/1062500/1004103"
+        }
+      ]
+    },
+    "de-deidesheim": {
+      "puntaje": 2,
+      "fuentes": [
+        {
+          "guia": "Frommer's",
+          "url": "https://www.frommers.com/destinations/worms/driving-tours/"
+        }
+      ]
+    },
+    "de-baiersbronn": {
+      "puntaje": 2,
+      "fuentes": [
+        {
+          "guia": "Fodor's",
+          "url": "https://cdn.fodors.com/world/europe/germany/the-black-forest/places/baiersbronn/restaurants"
+        },
+        {
+          "guia": "Fodor's",
+          "url": "https://cdn.fodors.com/world/europe/germany/the-black-forest/places/baiersbronn/hotels"
+        }
+      ]
+    },
+    "pl-zielona-gora": {
+      "puntaje": 2,
+      "fuentes": [
+        {
+          "guia": "National Geographic Traveler (Polonia)",
+          "url": "https://www.national-geographic.pl/traveler/kierunki/lubuskie-kraina-winem-plynaca-co-zobaczyc-i-czego-sprobowac-w-zielonej-gorze-i-okolicach/"
+        }
+      ]
+    },
+    "de-harz": {
+      "puntaje": 2,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/germany/attractions/harz-national-park/a/poi-sig/1595607/1316316"
+        }
+      ]
+    },
+    "de-bosque-bavaro": {
+      "puntaje": 2,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-national-parks-germany"
+        }
+      ]
+    },
+    "de-muritz": {
+      "puntaje": 2,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/points-of-interest/muritz-national-park/1206778"
+        }
+      ]
+    },
+    "de-hainich": {
+      "puntaje": 2,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/articles/best-national-parks-germany"
+        }
+      ]
+    },
+    "pl-pieniny": {
+      "puntaje": 2,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet (copia no productiva de la ficha)",
+          "url": "https://www.lonelyplanet.com/points-of-interest/pieniny-national-park/1609355"
+        }
+      ]
+    },
+    "pl-gory-stolowe": {
+      "puntaje": 2,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/poland/sudetes-mountains/attractions/gory-stolowe-national-park/a/poi-sig/1520787/1327799"
+        }
+      ]
+    },
+    "pl-biebrza": {
+      "puntaje": 2,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/pois/1421239"
+        }
+      ]
+    },
+    "pl-wolin": {
+      "puntaje": 2,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet (copia en CDN de la ficha)",
+          "url": "https://www.lonelyplanet.com/points-of-interest/wolin-national-park/1424798"
+        }
+      ]
+    },
+    "pl-krzemionki": {
+      "puntaje": 0,
+      "fuentes": []
+    },
+    "hu-hungaroring": {
+      "puntaje": 0,
+      "fuentes": []
+    },
+    "cz-aqualand-moravia": {
+      "puntaje": 0,
+      "fuentes": []
+    },
+    "cz-litomysl": {
+      "puntaje": 2,
+      "fuentes": [
+        {
+          "guia": "Michelin (ViaMichelin)",
+          "url": "https://www.viamichelin.pl/maps/tourist-attractions/poi/litomysl-_-6d323f0bc828"
+        }
+      ]
+    },
+    "cz-kromeriz": {
+      "puntaje": 2,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/points-of-interest/archbishops-chateau/1272973"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/czech-republic/kromeriz/attractions/flower-garden/a/poi-sig/1272975/1328092"
+        }
+      ]
+    },
+    "cz-trebic": {
+      "puntaje": 2,
+      "fuentes": [
+        {
+          "guia": "Michelin (ViaMichelin)",
+          "url": "https://www.viamichelin.pl/maps/tourist-attractions/poi/trebic-_-72bdd7d4daaa"
+        }
+      ]
+    },
+    "sk-vlkolinec": {
+      "puntaje": 2,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet (Top Choice)",
+          "url": "https://www.lonelyplanet.com/slovakia/central-slovakia/attractions/vlkolinec/a/poi-sig/1535926/360691"
+        }
+      ]
+    },
+    "sk-trencin": {
+      "puntaje": 2,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/slovakia/west-slovakia/trencin/attractions/trencin-castle/a/poi-sig/1076742/360705"
+        }
+      ]
+    },
+    "hu-fertod": {
+      "puntaje": 0,
+      "fuentes": []
+    },
+    "si-idrija": {
+      "puntaje": 1,
+      "fuentes": [
+        {
+          "guia": "In Your Pocket (Ljubljana)",
+          "url": "https://inyourpocket.com/slovenia/ljubljana/venues/idrija"
+        }
+      ]
+    },
+    "cz-ceske-budejovice": {
+      "puntaje": 2,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/points-of-interest/budweiser-budvar-brewery/1241851"
+        }
+      ]
+    },
+    "cz-zatec": {
+      "puntaje": 0,
+      "fuentes": []
+    },
+    "sk-malokarpatska": {
+      "puntaje": 0,
+      "fuentes": []
+    },
+    "hu-villany": {
+      "puntaje": 1,
+      "fuentes": [
+        {
+          "guia": "AAA (TripCanvas)",
+          "url": "https://www.aaa.com/tripcanvas/attraction/villany-VA18937"
+        }
+      ]
+    },
+    "si-vipava": {
+      "puntaje": 2,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/slovenia/vipava-valley"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/slovenia/southwestern-slovenia/travel-tips-and-articles/five-reasons-to-visit-slovenias-western-winelands/40625c8c-8a11-5710-a052-1479d276adea"
+        }
+      ]
+    },
+    "cz-adrspach-teplice": {
+      "puntaje": 2,
+      "fuentes": [
+        {
+          "guia": "Michelin (ViaMichelin)",
+          "url": "https://www.viamichelin.pl/maps/tourist-attractions/poi/teplice_nad_metuji-_-b251504c73f9"
+        }
+      ]
+    },
+    "cz-cesky-raj": {
+      "puntaje": 0,
+      "fuentes": []
+    },
+    "sk-mala-fatra": {
+      "puntaje": 0,
+      "fuentes": []
+    },
+    "sk-pieniny": {
+      "puntaje": 2,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/pois/1609355"
+        }
+      ]
+    },
+    "sk-poloniny": {
+      "puntaje": 0,
+      "fuentes": []
+    },
+    "si-logarska-dolina": {
+      "puntaje": 2,
+      "fuentes": [
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/slovenia/logarska-dolina/attractions/logarska-dolina-country-park/a/poi-sig/1259798/1325454"
+        },
+        {
+          "guia": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/slovenia/logarska-dolina/attractions/matkov-kot/a/poi-sig/1259796/1325454"
+        }
+      ]
+    },
+    "cz-podyji": {
+      "puntaje": 0,
+      "fuentes": []
+    },
+    "hu-kiskunsag": {
+      "puntaje": 2,
+      "fuentes": [
+        {
+          "guia": "Michelin (ViaMichelin)",
+          "url": "https://www.viamichelin.pl/maps/tourist-attractions/poi/bugac-6114-eeb6219cef9c"
+        }
+      ]
+    },
+    "si-cerknica": {
+      "puntaje": 0,
+      "fuentes": []
+    }
+  },
+  "lugares": {
+    "de-deidesheim": {
+      "region": "Renania-Palatinado"
+    },
+    "de-baiersbronn": {
+      "region": "Baden-Wurtemberg"
+    },
+    "de-muritz": {
+      "nombre": "Parque Nacional de Müritz"
+    }
+  },
+  "playa": [
+    "de-sylt",
+    "de-rugen",
+    "pl-wolin",
+    "pl-slowinski",
+    "pl-gdansk",
+    "hu-balaton"
+  ],
+  "ciudad": [
+    "hu-szentendre",
+    "hu-visegrad",
+    "sk-zdiar"
+  ],
+  "por_que": {
+    "de-aquisgran": "La capilla Palatina que Carlomagno mandó levantar hacia el año 800, y donde está enterrado, es el núcleo de la catedral, el primer sitio alemán declarado Patrimonio Mundial; allí se coronaron reyes germanos durante seis siglos. Se recorre a pie en un día desde la estación, con parada en las pastelerías del centro para probar las Printen, galletas especiadas con indicación geográfica protegida.",
+    "de-bamberg": "Ciudad entera Patrimonio Mundial, fundada como sede episcopal por Enrique II en 1007: catedral imperial con el Jinete de Bamberg, Ayuntamiento Viejo construido sobre el Regnitz y las casas de pescadores de la Pequeña Venecia. Es además una capital cervecera con nueve fábricas privadas; la taberna Schlenkerla sirve desde hace siglos su Rauchbier, cerveza ahumada con madera de haya.",
+    "de-berchtesgaden": "El único parque nacional alpino de Alemania encierra el Königssee bajo la pared este del Watzmann; los barcos eléctricos llevan a la iglesia de San Bartolomé y a Salet, desde donde se camina al Obersee. Suma la Documentación Obersalzberg y el Nido del Águila, la mina de sal en activo desde 1517 y, desde el Jenner, vuelos en parapente biplaza y una vía ferrata.",
+    "de-berlin": "La Isla de los Museos (Pérgamo, Neues Museum con Nefertiti), los palacios prusianos y los restos del Muro, la Puerta de Brandeburgo y el Reichstag cuentan en una sola ciudad la historia del siglo XX europeo. A la oferta cultural se suma una cocina que va de la currywurst y el döner a Rutz, con tres estrellas Michelin. Hacen falta al menos cuatro días, y desde el aeropuerto BER se llega al centro en tren exprés.",
+    "de-bosque-bavaro": "El parque nacional más antiguo de Alemania, en la frontera checa, deja que el bosque de montaña evolucione sin intervención. En el área del Lusen hay un recinto de fauna de más de 200 ha con unas 40 especies de mamíferos y aves, gratuito, y un camino por las copas de 1300 m que sube hasta 44 m de altura. De mayo a otoño, los Igelbus del parque enlazan con el tren regional en Zwiesel y Grafenau.",
+    "de-bremen": "El ayuntamiento gótico con fachada renacentista y la estatua de Roland de 1404 son Patrimonio Mundial; a pocos pasos están el barrio medieval del Schnoor y la Böttcherstraße expresionista. Bajo el ayuntamiento, el Ratskeller sirve solo vinos alemanes desde 1405 y guarda un barril de 1653. Basta un día: el casco está a 10 minutos a pie de la estación y Hamburgo a una hora en tren.",
+    "de-colonia": "Su catedral gótica, Patrimonio Mundial con el relicario de los Reyes Magos, se alza junto a la estación central; alrededor quedan doce iglesias románicas, el Museo Romano-Germánico y el Museo Ludwig. La Kölsch, cerveza con indicación protegida, se sirve en vasos estrechos en las cervecerías del casco antiguo. Phantasialand, uno de los parques temáticos más premiados de Europa, queda a 17 km.",
+    "de-deidesheim": "Pueblo de bodegas de riesling en el centro de la Ruta Alemana del Vino, la primera ruta enológica oficial del mundo (1935). En la antigua finca Bassermann-Jordan, L.A. Jordan ganó en 2026 la primera tercera estrella Michelin del Palatinado. A 8 km está el castillo de Hambach, cuna de la bandera alemana, y a 13 km Plopsaland, con la montaña rusa Expedition GeForce; los almendros florecen en marzo.",
+    "de-dessau": "Aquí se levantaron el edificio de la Bauhaus de Gropius, las casas de los maestros y las viviendas con galería, Patrimonio Mundial y lugar de origen del diseño moderno; Lonely Planet la eligió para su lista Best in Travel 2027. A unos 15 km, el Reino de los Jardines de Dessau-Wörlitz, también Patrimonio Mundial, se recorre en bici o en barca de abril a octubre.",
+    "de-dresden": "La Bóveda Verde de Augusto el Fuerte, la Galería de Maestros Antiguos del Zwinger, la Frauenkirche reconstruida y la Semperoper hacen de la antigua capital sajona una de las grandes ciudades de arte de Europa. En diciembre su Striezelmarkt, de los mercados navideños más antiguos del país, vende el Christstollen con indicación protegida. La Suiza Sajona, cuna de la escalada en arenisca, queda a unos 30 km en tren de cercanías.",
+    "de-europa-park": "El parque temático más grande de Alemania y uno de los más visitados de Europa, con 14 montañas rusas entre las que destacan Silver Star, la más alta del país (73 m, 130 km/h), y Voltron Nevera. Dentro del resort, Ammolite tiene dos estrellas Michelin. Abre de finales de marzo a principios de enero, con lanzadera desde la estación de Ringsheim; merece dos días.",
+    "de-frankfurt": "Detrás de los rascacielos están la casa natal de Goethe, la catedral de las coronaciones imperiales, la Paulskirche del primer parlamento alemán y el Städel, con siete siglos de pintura europea en la orilla de los museos. En las tabernas de Sachsenhausen se toma sidra de manzana con Grüne Soße, salsa de siete hierbas con indicación protegida. Con el mayor aeropuerto del país, es un buen punto de llegada.",
+    "de-garmisch-zugspitze": "Un tren cremallera y un teleférico suben a la Zugspitze (2962 m), techo de Alemania, con plataforma glaciar y esquí de finales de noviembre a mayo. Abajo, la garganta del Partnach se recorre todo el año, y a unos 20 km está Linderhof, uno de los palacios de Luis II. Desde Múnich se llega en tren regional; arriba el tiempo cambia rápido, así que conviene revisar el parte.",
+    "de-goslar": "Ciudad imperial con el palacio de los emperadores salios y un casco de casas de entramado, unida a la mina de Rammelsberg, explotada sin pausa desde el siglo XI hasta 1988; las dos son Patrimonio Mundial junto al sistema hidráulico del Alto Harz. La mina se visita con guía, a 1,5 km del centro. Es la cuna histórica de la cerveza Gose, y el tren de vapor del Brocken sale de Wernigerode, a unos 30 km.",
+    "de-hainich": "Uno de los mayores hayedos continuos de Alemania, dejado a su evolución natural y Patrimonio Mundial dentro de los Hayedos Primarios de Europa. El camino por las copas de la Thiemsburg permite ver el bosque desde arriba; se llena de flores en abril y mayo y se tiñe de color en octubre. Se llega en bus desde Eisenach o Gotha, y el castillo de Wartburg queda cerca, en Eisenach.",
+    "de-hamburgo": "La Speicherstadt, con sus almacenes de ladrillo sobre islas del Elba, y el Chilehaus son Patrimonio Mundial; junto a ellos se alza la Elbphilharmonie, y la ciudad suma la Kunsthalle y el museo de la emigración BallinStadt. El domingo temprano abre el Fischmarkt, y The Table tiene tres estrellas Michelin. Los ferris del puerto se usan con el billete del transporte público.",
+    "de-harz": "El parque nacional cubre bosques de abeto y hayedos del Harz hasta el Brocken (1141 m), el monte de la Noche de Walpurgis del Fausto, al que sube todo el año un tren de vapor de vía estrecha desde Wernigerode. En la cumbre hay un jardín botánico con más de 1500 especies de montaña. A 20 km, en la presa del Rappbode, Harzdrenalin tiene una tirolesa doble y un péndulo de unos 70 m.",
+    "de-heide-park": "El mayor parque de atracciones del norte de Alemania, en el brezal de Luneburgo, con siete grandes montañas rusas; Colossos, de madera, alcanza 60 m y 110 km/h. Está junto a la A7, a una hora de Hamburgo y de Hannover, y abre de finales de marzo a finales de octubre, con temporada de Halloween.",
+    "de-heidelberg": "El castillo en ruinas sobre el Neckar, símbolo del Romanticismo alemán, guarda la galería de los príncipes electores y el gran tonel de vino; abajo están el puente Viejo y la universidad más antigua de Alemania (1386). Al castillo se sube en funicular, y al otro lado del río el Philosophenweg ofrece la mejor vista. Desde Fráncfort se llega en una hora de tren.",
+    "de-lago-constanza": "En la orilla alemana del lago se reúnen la isla monástica de Reichenau, Patrimonio Mundial por sus pinturas murales anteriores al año 1000, el castillo viejo de Meersburg, los palafitos de Unteruhldingen y el casco insular de Lindau. Hay viñedos sobre el agua, felchen del lago y varios restaurantes con estrella, como Ophelia (dos estrellas) en Constanza. De abril a octubre, los barcos de línea unen los pueblos; el ferri Constanza–Meersburg funciona todo el año.",
+    "de-leipzig": "La ciudad de Bach, cantor y enterrado en la iglesia de Santo Tomás, y de las manifestaciones de 1989 que salieron de la Nikolaikirche; suma el monumento a la Batalla de las Naciones, el museo de la Stasi y la antigua hilandería Baumwollspinnerei, hoy llena de galerías. Se prueba la Gose, cerveza local recuperada, y la Leipziger Lerche, pastelito de mazapán. Berlín queda a algo más de una hora en ICE.",
+    "de-lubeck": "La antigua capital de la Liga Hanseática, Patrimonio Mundial, conserva la puerta de Holsten, Santa María, modelo del gótico de ladrillo del Báltico, y el Museo Europeo de la Hansa. Es la capital del mazapán con indicación protegida, y Niederegger lo vende frente al ayuntamiento desde 1806. Está a 45 minutos en tren de Hamburgo, y el Hansa-Park, con una de las montañas rusas más altas de Europa, queda a 24 km.",
+    "de-munich": "Las tres Pinakotheken, la Residencia de los Wittelsbach, el palacio de Nymphenburg y el Deutsches Museum la ponen entre las grandes ciudades de museos de Europa. Es también la ciudad del Viktualienmarkt, los biergarten y el Oktoberfest, con alta cocina como Tantris. En el Englischer Garten se surfea la ola de la Eisbachwelle, y los Alpes quedan a menos de una hora.",
+    "de-muritz": "Parque nacional de lagos, turberas y bosques en la región de los lagos de Mecklemburgo, con dos áreas: la del lago Müritz, junto a Waren, y la de Serrahn, cuyos hayedos sin intervención son Patrimonio Mundial desde 2011. Se recorre a pie, en bici o en canoa, con águilas pescadoras en verano y cientos de grullas en el Rederangsee en otoño. Hay IC desde Berlín a Waren y bus del parque de abril a octubre.",
+    "de-neuschwanstein": "El castillo de cuento que Luis II mandó levantar entre 1869 y 1886, con la Sala de los Cantores inspirada en Wagner, es Patrimonio Mundial desde 2025; al lado están Hohenschwangau y los lagos Alpsee y Schwansee. El puente de María sobre la garganta del Pöllat da la vista clásica, aunque en invierno puede cerrarse por hielo. Las entradas son por franja horaria y en verano se agotan: hay que reservar con semanas de antelación.",
+    "de-nurburgring": "El «Infierno Verde» de la Eifel, circuito de 1927, es de los pocos del mundo donde cualquiera con carné y coche o moto matriculados puede rodar: en las Touristenfahrten, de marzo a noviembre, la vuelta a la Nordschleife cuesta 30 € entre semana y 35 € el fin de semana. Hace falta coche, y muchos seguros de alquiler excluyen la pista. El valle del Ahr, con sus pinot noir, queda a unos 20 km.",
+    "de-nuremberg": "El castillo imperial, la casa de Durero y el Germanisches Nationalmuseum, el mayor museo de historia cultural de Alemania, conviven con la memoria del siglo XX: el centro de documentación del antiguo campo de congresos nazi y la sala de los Juicios. Las Rostbratwürste se comen de tres en un panecillo, y el Lebkuchen protagoniza el Christkindlesmarkt de Adviento. Hay ICE directo a Múnich en 1 h 40.",
+    "de-phantasialand": "Uno de los parques temáticos más premiados de Europa por su ambientación, en Brühl, a 17 km de Colonia: Taron es la montaña rusa de lanzamiento múltiple más larga del mundo, y F.L.Y., la primera voladora con lanzamiento, atraviesa un hotel. A unos 2 km están los palacios rococó de Augustusburg y Falkenlust, Patrimonio Mundial. Se llega en tren desde Colonia en unos 15 minutos y bus lanzadera; en invierno abre la temporada Wintertraum.",
+    "de-potsdam": "Sanssouci, el Neues Palais, Cecilienhof y unas 2000 ha de jardines prusianos entre los lagos del Havel forman uno de los conjuntos palaciegos más completos de Europa, Patrimonio Mundial. Se llega en S-Bahn desde Berlín en menos de una hora; los parques abren todo el año y algunos palacios solo de abril a octubre.",
+    "de-quedlinburg": "Antigua capital de los reyes otonianos y Patrimonio Mundial, con la colegiata románica de San Servacio, su tesoro y más de 1500 casas de entramado. A 10 km, la garganta del Bode se recorre a pie desde Thale, y en la presa del Rappbode, a 18 km, Harzdrenalin tiene una tirolesa doble y un péndulo de unos 70 m. Desde el pueblo sale el tren de vía estrecha del Selketal.",
+    "de-regensburg": "Casco medieval casi intacto a orillas del Danubio, Patrimonio Mundial, con torres de patricios, la catedral gótica de San Pedro y el Puente de Piedra del siglo XII. Junto al puente, la Historische Wurstkuchl asa salchichas desde hace siglos, y la ciudad tiene tres restaurantes con estrella, entre ellos Aska, la primera barra de sushi con estrella de Alemania. En barco se llega al desfiladero del Danubio en Weltenburg.",
+    "de-rothenburg-ob-der-tauber": "Pueblo amurallado casi intacto sobre el valle del Tauber: se recorre el adarve entre torres, se fotografía el Plönlein y se visita el Museo del Crimen Medieval. De noche, el vigilante nocturno guía el paseo por el casco, y los Schneeballen son el dulce local. En verano se llena de grupos de la Ruta Romántica, así que conviene dormir dentro.",
+    "de-rugen": "La mayor isla de Alemania reúne los acantilados de creta blanca y los hayedos del Parque Nacional de Jasmund, Patrimonio Mundial, con el Königsstuhl y su pasarela sobre el borde, y balnearios de playa como Binz. El Hochuferweg de Sassnitz al Königsstuhl sigue el filo de los acantilados; no hay que bajar al pie de las paredes por los desprendimientos. Suma Kap Arkona, la ciudad clasicista de Putbus y el complejo nazi de Prora.",
+    "de-selva-negra": "Bosques de abeto, lagos glaciares como el Titisee y las cascadas de Triberg, la cuna de los relojes de cuco; el museo al aire libre Vogtsbauernhof muestra granjas de hasta 1599. Al norte, junto al Parque Nacional de la Selva Negra, Baiersbronn es destino de alta cocina con la Schwarzwaldstube, tres estrellas Michelin desde los años noventa; por toda la región se prueban el jamón ahumado y la tarta Selva Negra. La tarjeta KONUS da tren y bus gratis a los huéspedes.",
+    "de-stralsund": "Casco hanseático sobre una isla, sin cambios de trazado desde el siglo XIII y Patrimonio Mundial junto con Wismar: ayuntamiento con fachada de ladrillo, iglesias de San Nicolás y Santa María y huellas del periodo sueco. El Ozeaneum y el casco se recorren a pie desde la estación. Es la puerta de entrada a Rügen y a las lagunas del Parque Nacional de Vorpommersche Boddenlandschaft.",
+    "de-suiza-sajona": "Torres, mesetas y gargantas de arenisca sobre el Elba: el puente de la Bastei, 194 m sobre el río, es la vista más famosa, y el Malerweg sigue en ocho etapas el camino de los pintores románticos. Es una de las cunas de la escalada libre, con escuelas que ofrecen salidas guiadas, y la fortaleza de Königstein domina el río. Se llega en S-Bahn desde Dresde; tras las tormentas hay cierres puntuales, así que conviene revisar los avisos del parque.",
+    "de-sylt": "Isla de dunas y playas del mar del Norte rodeada por el Watt del Parque Nacional del Mar de Frisia, Patrimonio Mundial, con el acantilado del Morsum-Kliff y casas frisonas de techo de paja en Keitum. En Westerland se celebran Copas del Mundo de windsurf y kitesurf, y en List se cultiva la Sylter Royal, la única ostra de Alemania. Se llega en tren por el dique Hindenburgdamm; julio y agosto son caros y concurridos.",
+    "de-trier": "La ciudad más antigua de Alemania conserva la Porta Nigra, la basílica de Constantino, las termas imperiales y el anfiteatro, con la catedral de San Pedro y la Liebfrauenkirche; todo es Patrimonio Mundial. Es también capital del riesling del Mosela, el Saar y el Ruwer, con bodegas en sótanos de origen romano. El casco se recorre a pie desde la estación.",
+    "de-valle-del-mosela": "Meandros entre laderas de pizarra cubiertas de riesling, con pueblos de entramado como Cochem, Beilstein y Bernkastel, y Burg Eltz, en manos de la misma familia desde hace más de 850 años. En el Calmont, considerado el viñedo más empinado de Europa, una vía ferrata cruza la ladera a 200–300 m sobre el río, y el Nürburgring queda a 26 km. Burg Eltz cierra hasta el 21 de marzo de 2027; septiembre y octubre traen la vendimia.",
+    "de-valle-del-rin": "Entre Bingen y Coblenza, el Rin pasa entre viñedos en terrazas, una cuarentena de castillos en las cumbres y la roca de la Loreley; todo el tramo es paisaje cultural Patrimonio Mundial. Bacharach y St. Goar son buenas bases, el Rheinsteig ofrece rutas circulares por la Loreley y en Rüdesheim empieza el Rheingau. Los barcos de línea navegan de abril a mediados de octubre; el resto del año hay trenes por ambas orillas.",
+    "de-weimar": "Reúne dos sitios Patrimonio Mundial: el Weimar clásico de Goethe y Schiller, con sus casas y la biblioteca de la duquesa Ana Amalia, y los edificios donde nació la Bauhaus en 1919. Se recorre a pie en un día, con la salchicha de Turingia de los puestos del centro, y en octubre se celebra el mercado de la cebolla. Erfurt está a 15 minutos en tren.",
+    "de-wurzburg": "La Residencia de los príncipes-obispos, obra de Balthasar Neumann con el fresco de Tiepolo sobre la escalera, es Patrimonio Mundial; enfrente, sobre los viñedos, se alza la fortaleza de Marienberg. Es la capital del vino de Franconia: el Juliusspital (1576) y el Bürgerspital tienen bodegas y tabernas en el centro donde se sirve el Silvaner en Bocksbeutel. Es el punto de partida de la Ruta Romántica.",
+    "de-zollverein": "Complejo minero completo, con pozos, coquería, vías y viviendas obreras en arquitectura del Movimiento Moderno, que funcionó de 1932 a 1986 y hoy es Patrimonio Mundial. En la antigua lavadora de carbón está el Museo del Ruhr, y en la sala de calderas, el Red Dot Design Museum. El recinto se pasea libremente y el museo abre a diario; se llega en el tranvía 107 desde el centro de Essen.",
+    "pl-auschwitz-birkenau": "El mayor complejo de campos de concentración y exterminio nazi, donde fue asesinado más de un millón de personas, sobre todo judíos; el memorial conserva Auschwitz I y Birkenau, con barracones, ruinas de las cámaras de gas y la rampa. Es una visita dura e imprescindible para entender el siglo XX. La entrada exige un pase nominativo reservado en línea con antelación; está a hora y media de Cracovia en bus o tren.",
+    "pl-bialowieza": "El último gran bosque primario de llanura de Europa, compartido con Bielorrusia y Patrimonio Mundial desde 1979, es el refugio del bisonte europeo, más fácil de ver en invierno. La reserva estricta solo se visita con guía con licencia en grupos de hasta diez; el resto de senderos es libre. Conviene coche y prever controles en la zona cercana a la frontera.",
+    "pl-biebrza": "El mayor parque nacional de Polonia protege turberas y prados inundables del valle del Biebrza, uno de los grandes humedales de Europa, con cerca de 300 especies de aves. En abril y mayo se reúnen decenas de miles de gansos, patos y limícolas; la pasarela de madera junto a Osowiec cruza la turbera, y de mayo a septiembre se puede bajar en canoa. Está a una hora en coche de Białystok, y en verano hay mosquitos.",
+    "pl-bieszczady": "Montes boscosos y praderas de altura (połoniny) en el extremo sureste del país; desde el Tarnica (1346 m) se ven Ucrania y Eslovaquia. Las iglesias de madera de Smolnik y Turzańsk, Patrimonio Mundial, recuerdan a las comunidades boykas y lemkas desplazadas en 1947. Es un rincón apartado: casi hace falta coche y hay que pagar la entrada diaria al parque.",
+    "pl-cracovia": "La plaza del Mercado, la colina de Wawel con su castillo y su catedral real y el barrio judío de Kazimierz forman uno de los doce primeros sitios Patrimonio Mundial; a unos 12 km, la mina de sal de Wieliczka guarda capillas talladas en sal. Bottiglieria 1881 es el único dos estrellas Michelin de Polonia, y Kazimierz concentra bares y zapiekanki. Desde Varsovia se llega en tren rápido, y Wieliczka solo se visita con guía.",
+    "pl-energylandia": "El mayor parque de atracciones de Polonia, a 38 km de Cracovia, encabeza varias clasificaciones europeas por su número de montañas rusas: Zadra, híbrida de madera y acero con caída vertical, y Hyperion, la más alta y rápida del país. Abre de primavera a otoño, con temporada de Halloween en octubre. Desde Cracovia hay unos 50 minutos en coche por la A4.",
+    "pl-gdansk": "La Ciudad Principal hanseática, reconstruida tras la guerra, reúne la grúa medieval sobre el Motława, la basílica de Santa María y la Corte de Artus; el Museo de la Segunda Guerra Mundial y el Centro Europeo de Solidaridad cuentan el siglo XX desde aquí. El tren urbano lleva en minutos a las playas de Sopot y al centro modernista de Gdynia, Patrimonio Mundial desde 2026. Se brinda con Goldwasser, licor con láminas de oro.",
+    "pl-gory-stolowe": "Mesetas de arenisca rotas en laberintos de grietas y bloques: en la cima del Szczeliniec Wielki (919 m) se pasa por el «Infierno» y la «Cocina del Diablo», y Błędne Skały obliga a caminar de lado entre paredes de decenas de metros. Los dos tramos tienen entrada de pago con cupo por hora y se unen por el sendero rojo de los Sudetes. Cerca está la capilla de las Calaveras de Czermna, forrada con miles de huesos.",
+    "pl-karkonosze": "El Śnieżka (1603 m), techo de los Sudetes, se sube desde Karpacz por el circo glaciar de Łomniczka en algo más de dos horas, y la cresta hasta el Szrenica es una de las mejores travesías del país. En Karpacz está la iglesia noruega de madera de Wang, del siglo XII, trasladada aquí en 1842. En invierno se esquía en el Kopa o en Špindlerův Mlýn, al otro lado de la frontera.",
+    "pl-lagos-masurianos": "Red de lagos glaciares unidos por canales entre Pisz, Mikołajki y Giżycko, el destino clásico de vela y canoa de Polonia; los barcos de línea navegan de junio a septiembre. En la región están la Guarida del Lobo de Gierłoż, cuartel general de Hitler y escenario del atentado de 1944, y el santuario barroco de Święta Lipka. En las tabernas se come corégono ahumado y lucioperca; conviene coche.",
+    "pl-lublin": "La capilla de la Santísima Trinidad del castillo guarda frescos ruteno-bizantinos de 1418, un cruce único entre Oriente y Occidente; el casco antiguo y la memoria judía de la ciudad se completan con el memorial del campo de Majdanek, a 15 minutos en bus. En las panaderías se compra el cebularz, torta de cebolla y amapola. Está a dos horas en tren de Varsovia.",
+    "pl-malbork": "El mayor castillo de ladrillo del mundo, sede de los grandes maestres de la Orden Teutónica desde 1309 y Patrimonio Mundial. Se recorre en medio día siguiendo la ruta histórica por sus tres castillos; queda a poca distancia a pie de la estación, con trenes desde Gdańsk en menos de una hora. Hasta el 25 de abril de 2027 abre de martes a domingo, con última entrada a las 12:45.",
+    "pl-peninsula-de-hel": "Lengua de arena de unos 35 km entre el Báltico abierto y la bahía de Puck, con playas a ambos lados. Sus aguas someras y el viento constante hacen de Chałupy y Jastarnia la meca polaca del kitesurf y el windsurf, con muchas escuelas. En julio y agosto la única carretera se colapsa: mejor llegar en tren o en barco desde Gdynia, Sopot o Gdańsk.",
+    "pl-pieniny": "El Dunajec atraviesa esta pequeña sierra caliza de la frontera eslovaca por una garganta de grandes meandros que se baja en almadías tradicionales guiadas por gorales: 18 km de Sromowce Kąty a Szczawnica, de abril a octubre. Desde las Trzy Korony (982 m) se domina el cañón, y cerca están los castillos de Niedzica y Czorsztyn y la iglesia de madera de Dębno. En los puestos se vende oscypek, queso de oveja ahumado.",
+    "pl-poznan": "Ostrów Tumski, cuna del Estado polaco, guarda la catedral más antigua del país; en el Rynek, cada mediodía dos cabras mecánicas se topan en la torre del ayuntamiento renacentista. Es la ciudad del rogal świętomarciński, cruasán de amapola blanca con indicación protegida que se come por toneladas el 11 de noviembre. Está en la línea directa Berlín–Varsovia.",
+    "pl-slowinski": "Dunas móviles de más de 500 ha entre el Báltico y el lago Łebsko: la de Łącka alcanza unos 40 m y avanza varios metros al año, sepultando el bosque a su paso. Desde Łeba se llega a pie, en bici o en carrito eléctrico, y se puede volver por la playa. De mayo a septiembre la entrada es de pago, y en verano la arena quema.",
+    "pl-swidnica": "La Iglesia de la Paz, el mayor templo de entramado de madera de Europa, se levantó en el siglo XVII para los protestantes de Silesia tras la Guerra de los Treinta Años, con la condición de no usar piedra; es Patrimonio Mundial junto a la de Jawor. Su interior barroco, con galerías superpuestas para miles de fieles, sorprende tras la sencilla fachada. Está a una hora de Breslavia en tren o bus.",
+    "pl-torun": "Ciudad gótica de ladrillo a orillas del Vístula, Patrimonio Mundial, con el ayuntamiento, las iglesias de San Juan y Santa María, las ruinas del castillo teutónico y la casa natal de Copérnico. Sus pierniki, panes de jengibre que se elaboran aquí desde la Edad Media, se compran en tiendas históricas o se hacen en el Museo del Piernik. Basta un día, con tren desde Varsovia, Gdańsk o Poznań.",
+    "pl-varsovia": "Su casco antiguo, destruido en más de un 85 % en 1944 y reconstruido por sus habitantes, es Patrimonio Mundial como ejemplo único de reconstrucción. El Museo del Levantamiento y el POLIN, de historia judía, están entre los mejores museos de Europa, y la ciudad suma el Castillo Real, Wilanów y el parque Łazienki, con conciertos de Chopin los domingos de verano. Tiene restaurantes con estrella Michelin y bares mleczne de comida popular.",
+    "pl-wolin": "Acantilados y hayedos sobre el Báltico en la isla de Wolin: el Gosań (93 m), la cota más alta de la costa polaca, se alcanza a pie desde Międzyzdroje por el borde del acantilado. A 1,5 km del pueblo hay un recinto de cría de bisontes europeos de 28 ha. Międzyzdroje, a hora y media en tren de Szczecin, tiene playa de arena de junio a agosto.",
+    "pl-wroclaw": "El Rynek con su ayuntamiento gótico, la isla de la Catedral y el Salón del Centenario de Max Berg (1913), Patrimonio Mundial por su cúpula de hormigón armado, se recorren entre puentes sobre el Óder. Por las calles hay cientos de enanitos de bronce, y el panorama de Racławice es un cuadro circular de 114 m. El Piwnica Świdnicka, en el Rynek, es de las cervecerías más antiguas de Europa.",
+    "pl-zakopane-tatras": "Puerta del Parque Nacional de los Tatras, la única cordillera alpina de Polonia: el Morskie Oko, el mayor lago glaciar de la cordillera, y el Giewont son las rutas clásicas, y en invierno se esquía en el Kasprowy Wierch. Zakopane es la capital de la cultura góral, con su arquitectura de madera y el oscypek a la parrilla de los puestos de Krupówki. Para el Morskie Oko, mejor el bus que el coche: los aparcamientos exigen reserva.",
+    "pl-zamosc": "Ciudad ideal del Renacimiento trazada a finales del siglo XVI por un arquitecto paduano para el canciller Jan Zamoyski, con plaza mayor porticada, ayuntamiento de escalinata curva, academia y murallas; es Patrimonio Mundial. Se recorre en un día, y a 30 km el Parque Nacional de Roztocze ofrece bosques de abetos y hayas. Desde Lublin hay bus o tren en hora y media o dos.",
+    "pl-zielona-gora": "La capital del vino polaco, la región vinícola más septentrional de Europa con tradición desde la Edad Media: la Ruta del Vino y la Miel de Lubusz une decenas de viñedos visitables, y el Museo del Vino cuenta su historia. A principios de septiembre la ciudad celebra el Winobranie, su fiesta de la vendimia. Para las bodegas hace falta coche o excursión organizada.",
+    "hu-hungaroring": "Circuito del Gran Premio de Hungría de Fórmula 1, en Mogyoród, a unos 20 km de Budapest. Fuera de los eventos no se visita libremente, pero hay días de pista abiertos para coches y motos, vueltas en deportivos con instructor y la Formula Experience al volante de monoplazas. Se llega en coche o en el tren suburbano HÉV de Gödöllő, cuyo palacio queda a unos 8 km.",
+    "cz-aqualand-moravia": "Uno de los mayores parques acuáticos de Europa Central, en Pasohlávky, junto a los embalses de Nové Mlýny: unas 40 atracciones, más de veinte toboganes, como el Kamikadze de 13 m, y una piscina de agua termal. La zona cubierta abre todo el año de 10 a 21 h y la exterior solo en verano. Mikulov y los viñedos de Pálava quedan a 13 km.",
+    "cz-litomysl": "Castillo renacentista de arcadas, Patrimonio Mundial desde 1999, con fachadas de esgrafiado, un teatro de castillo del siglo XVIII y la antigua cervecería donde nació Smetana, que da nombre al festival de ópera de cada verano. Reabrió tras su restauración en abril de 2026; en invierno solo abre de jueves a sábado. No hay línea principal de tren: se llega por Choceň o Česká Třebová y bus.",
+    "cz-kromeriz": "La residencia de los obispos de Olomouc es Patrimonio Mundial desde 1998: un palacio barroco con una pinacoteca que guarda un Tiziano y dos jardines, el del Palacio y el de Flores, con su rotonda y su columnata. Bajo el palacio, las bodegas arzobispales elaboran vino de misa y abren a catas. El jardín del Palacio es gratuito y abre todo el año; los interiores, de primavera a otoño.",
+    "cz-trebic": "Su barrio judío, uno de los mejor conservados de Europa, y la basílica románico-gótica de San Procopio, del siglo XIII, son Patrimonio Mundial desde 2003 como testimonio de siglos de convivencia entre judíos y cristianos. El barrio se recorre libremente, y la Sinagoga Trasera organiza visitas guiadas que suben al cementerio judío. Está en la línea de tren Brno–Jihlava, a 1 h 30 de Brno.",
+    "sk-vlkolinec": "Aldea de casas de troncos pintadas a 720 m, sobre Ružomberok, Patrimonio Mundial desde 1993 y el conjunto rural de los Cárpatos mejor conservado de Eslovaquia. Sigue habitada, así que solo se ven los exteriores. Desde la aldea se sube al Sidorovo (1.099 m), y el Aquapark Tatralandia y la estación de Jasná quedan a menos de 25 km.",
+    "sk-trencin": "Capital Europea de la Cultura en 2026, a los pies de uno de los mayores castillos de Eslovaquia, sobre una roca encima del Váh. Bajo sus muros se conserva la inscripción romana de Laugaricio, del año 179, una de las huellas romanas más al norte de Europa Central. Hay tren directo desde Bratislava (1 h 30) y en verano el castillo ofrece visitas nocturnas con antorchas.",
+    "hu-fertod": "El palacio rococó de los Esterházy, llamado el Versalles húngaro, tiene 126 salas y fue durante más de veinte años la casa de Haydn como maestro de capilla; en verano su sala de ceremonias acoge conciertos. Forma parte del paisaje cultural de Fertő/Neusiedlersee, Patrimonio Mundial, y se combina con Sopron, a unos 30 km, y con el kékfrankos de la zona.",
+    "si-idrija": "La mina de mercurio, explotada durante cinco siglos, es Patrimonio Mundial junto a Almadén: se baja por el pozo de Antonio, de 1500, y se visitan el castillo de Gewerkenegg y la fundición. Es la tierra de los idrijski žlikrofi, pasta rellena de patata con sello europeo, y del encaje de bolillos. A 2 km está el Divje jezero, un manantial kárstico que es lago y cueva a la vez.",
+    "cz-zatec": "Patrimonio Mundial desde 2023 como paisaje del lúpulo de Saaz, la variedad de la pilsner checa: la plaza y el ayuntamiento, el barrio de Praga con secaderos y chimeneas de sulfurado y los campos de lúpulo de alrededor. El Templo del Lúpulo y la Cerveza tiene mirador y un pequeño reloj astronómico, y el museo del lúpulo ocupa un almacén del siglo XIX. Mejor de junio a septiembre, con las pérgolas cargadas y la cosecha a finales de verano.",
+    "sk-malokarpatska": "La principal región vinícola de Eslovaquia empieza a las puertas de Bratislava: Svätý Jur, Pezinok y Modra, antiguas ciudades reales con bodegas históricas, y decenas de pueblos hasta Trnava. En noviembre, en el día de bodegas abiertas, más de un centenar de productores sirven frankovka modrá y rizling vlašský, y Modra conserva su mayólica. Hay tren a Svätý Jur y Pezinok en 20-30 minutos.",
+    "hu-villany": "La referencia del vino tinto húngaro, en el extremo sur del país: cabernet franc y coupages bordeleses en la primera ruta del vino oficial de Hungría (1994). Las bodegas están muy juntas y se recorren a pie, como la hilera de bodegas de tres niveles de Villánykövesd, y en octubre hay festival del vino tinto. El castillo de Siklós queda a pocos kilómetros y Pécs, a una hora en tren.",
+    "si-vipava": "Valle vinícola entre la meseta del Nanos y el bosque de Trnovo, con bodegas familiares de uvas autóctonas como la pinela y la zelen; Lonely Planet lo puso entre los diez mejores destinos de Europa en 2018. Las rutas en bici enlazan bodegas, el pueblo fortificado de Vipavski Križ y la mansión de Zemono. La bora puede soplar tan fuerte que corta el paso a vehículos altos.",
+    "cz-adrspach-teplice": "La mayor ciudad de roca de Chequia: torres de arenisca, gargantas estrechas y un lago en una antigua cantera de arena, junto a la frontera polaca. El circuito de Adršpach con el lago Pískovna lleva unas 3 horas y puede seguir por la garganta del Lobo hasta las rocas de Teplice. En temporada conviene comprar en línea la entrada con plaza de aparcamiento.",
+    "cz-cesky-raj": "Primera área protegida de Checoslovaquia (1955) y geoparque mundial UNESCO: ciudades de arenisca como Hrubá Skála y las rocas de Prachov, junto a Jičín, y el castillo de Trosky sobre dos chimeneas volcánicas. Una ruta clásica cruza las rocas de Hrubá Skála hasta el castillo de Valdštejn. Mejor de mayo a octubre, con base en Turnov o Jičín, que tienen tren.",
+    "sk-mala-fatra": "Montañas calizas sobre Terchová, el pueblo del bandolero Jánošík: las gargantas de Jánošíkove diery se suben por escaleras y pasarelas entre cascadas, y el Veľký Rozsutec (1.610 m) es el pico emblema del parque. En las kolibas del valle de Vrátna se comen bryndzové halušky. Las escaleras resbalan con lluvia; la temporada de senderismo va de junio a octubre.",
+    "sk-pieniny": "Garganta caliza del Dunajec en la frontera polaca, que se baja en balsas de madera guiadas por balseros gorales, de Červený Kláštor a Lesnica (unos 9 km), con vuelta a pie o en bici por el sendero del río. El monasterio cartujo de Červený Kláštor, del siglo XIV, es hoy museo. Las balsas salen del 15 de abril al 31 de octubre.",
+    "sk-poloniny": "Hayedos vírgenes en el extremo nordeste de Eslovaquia, en la frontera con Polonia y Ucrania: Stužica forma parte del sitio UNESCO de los hayedos primarios de los Cárpatos, y es el único lugar del país con bisontes en libertad. Desde Nová Sedlica se sube al Kremenec (1.221 m), donde se juntan las tres fronteras, y los pueblos rusinos conservan iglesias de madera. Prácticamente solo se llega en coche; luce sobre todo en otoño.",
+    "si-logarska-dolina": "Valle glaciar de los Alpes de Kamnik-Savinja, cerrado por paredes calizas de más de 2.000 m, con granjas alpinas y, al fondo, la Rinka, una de las cascadas de caída libre más altas del país. El sendero del valle llega a la cascada y sigue hasta Okrešelj; al lado está Matkov kot, mucho menos visitado. Solo se llega en coche o en bici, y los coches pagan peaje de entrada.",
+    "hu-kiskunsag": "La puszta de Bugac, la mayor de las siete zonas del parque nacional y reserva de la biosfera UNESCO: estepa arenosa con dunas, pastizales y bosquetes de enebro. Desde la entrada se va a pie o en carro hasta el museo de los pastores y la yeguada, con espectáculos de jinetes húngaros de primavera a otoño. Las csárdas sirven gulyás de caldero y vino de Kunság; la base es Kecskemét.",
+    "cz-praga": "Mil años de arquitectura casi intacta en un centro Patrimonio Mundial: el Castillo con la catedral de San Vito, el Puente de Carlos, la Ciudad Vieja con su reloj astronómico, Malá Strana y el barrio judío de Josefov. Es también la capital de la cerveza de tanque y de la nueva cocina checa, con tres restaurantes con estrella Michelin. Del aeropuerto al centro se va en el bus Airport Express; ojo con los carteristas en tranvías y zonas turísticas.",
+    "cz-cesky-krumlov": "Pequeña ciudad medieval en un meandro del Moldava, Patrimonio Mundial, presidida por un castillo que conserva uno de los pocos teatros barrocos con su maquinaria original. Conviene dormir allí para ver las calles sin los grupos de excursión, y en verano se puede bajar el Moldava en canoa desde Vyšší Brod. El teatro y la visita principal del castillo abren de abril a octubre.",
+    "cz-kutna-hora": "La antigua ciudad de la plata, Patrimonio Mundial, tiene en Santa Bárbara una obra maestra del gótico tardío y en Sedlec la catedral gótico-barroca de Santini y el osario decorado con los huesos de miles de personas. Hay tren cada hora desde Praga (aprox. 1 h). Las entradas al osario tienen hora y cupo: mejor comprarlas en línea.",
+    "cz-olomouc": "Antigua capital de Moravia y sede arzobispal, con la Columna de la Santísima Trinidad, de 35 m y Patrimonio Mundial, seis fuentes barrocas y la catedral de San Wenceslao, sin las multitudes de Praga. Es la tierra del tvarůžky, un queso curado de olor intenso, y tiene un restaurante con estrella Michelin, Entrée. El Pendolino la une con Praga en unas 2 h 15.",
+    "cz-karlovy-vary": "El gran balneario de Bohemia, parte de las Grandes Ciudades Balneario de Europa (Patrimonio Mundial): columnatas como la Mlýnská y la del Vřídlo, donde se bebe el agua termal con obleas de balneario, y hoteles de los siglos XVIII al XX. El Museo Jan Becher cuenta la historia de la Becherovka y termina con cata. Un sendero por el bosque sube al mirador de Diana, sobre el valle del Teplá.",
+    "cz-telc": "Plaza triangular rodeada de casas renacentistas con soportales y frontones de colores, Patrimonio Mundial desde 1992, con un castillo renacentista al lado y estanques alrededor. Es un pueblo pequeño y tranquilo, y dormir allí permite verlo vacío. No tiene línea principal de tren; en coche se combina fácil con Třebíč.",
+    "cz-karlstejn": "Castillo gótico fundado por Carlos IV para guardar las joyas de la corona; su capilla de la Santa Cruz conserva los paneles del maestro Teodorico. Es la excursión más fácil desde Praga: tren de cercanías cada 30 minutos y media hora de subida a pie. La capilla solo se visita con reserva y cierra de mediados de diciembre a abril; cerca, junto a las cuevas de Koněprusy, está Papilio, con dos estrellas Michelin.",
+    "cz-lednice-valtice": "Unos 200 km² de paisaje diseñado por los Liechtenstein, Patrimonio Mundial: el castillo neogótico de Lednice con su minarete, el palacio barroco de Valtice y templetes románticos entre estanques y bosques de ribera. En las bodegas del castillo de Valtice se catan los vinos ganadores del Salón de los Vinos, el principal concurso del país. Se recorre mejor en bici; los castillos abren de abril a octubre.",
+    "cz-mikulov": "Capital del vino de Moravia, con el castillo de los Dietrichstein sobre los tejados y uno de los barrios judíos más importantes de la región, con un cementerio de unas 4.000 lápidas. Alrededor, las colinas calizas de Pálava, reserva de la biosfera, se suben a pie o se recorren en bici entre bodegas de blancos aromáticos. En vendimia se bebe burčák, y Aqualand Moravia queda a 13 km.",
+    "cz-brno": "La segunda ciudad checa tiene una obra clave de la arquitectura moderna, la Villa Tugendhat de Mies van der Rohe, Patrimonio Mundial, además de la fortaleza de Špilberk, el Museo Mendel y los subterráneos bajo el mercado. Su escena de cafés y bares de vino es la puerta de la Moravia vinícola, y el Karst de Moravia queda a unos 25 km. Trenes directos cada hora desde Praga y Viena.",
+    "cz-plzen": "Cuna de la cerveza pilsner, nacida aquí en 1842: la visita a la cervecería Pilsner Urquell, de unos 100 minutos, termina en las bodegas históricas con cerveza sin filtrar de barrica. La ciudad suma la Gran Sinagoga, la mayor del país, y la catedral gótica de San Bartolomé en la plaza. Tren directo desde Praga en 1 h 30; desde abril de 2026 la visita no es accesible en silla de ruedas por obras.",
+    "cz-ceske-svycarsko": "Parque nacional de arenisca junto al Elba, con Pravčická brána, el mayor arco natural de piedra de Europa, y las gargantas del Kamenice, que se recorren en barca desde Hřensko de abril a octubre. Tras el incendio de 2022 parte de los senderos sigue cerrada y la garganta Edmundova estaba en obras: conviene consultar las rutas abiertas en la web del parque. Se llega en tren a Děčín y bus a Hřensko.",
+    "cz-trebon": "Pueblo renacentista amurallado en el centro de Třeboňsko, reserva de la biosfera de estanques del siglo XVI como el Rožmberk, el mayor del país, que se recorren en bici por rutas llanas. Es la capital de la carpa checa: en otoño se hace la pesca tradicional de los estanques, y Šupina a Šupinka tiene Bib Gourmand. Suma un balneario de turba y la cervecería Regent.",
+    "cz-terezin": "Fortaleza del siglo XVIII que los nazis convirtieron en gueto y campo de tránsito: la Pequeña Fortaleza, prisión de la Gestapo, el crematorio y el Museo del Gueto, con los dibujos y poemas de los niños, forman un memorial que pide al menos cuatro horas. Está a 1 h de Praga en el bus 413 desde Letňany. El Museo del Gueto cierra desde el 2 de noviembre de 2026 por una renovación.",
+    "cz-moravsky-kras": "Más de mil cuevas al norte de Brno: en las de Punkva se baja al fondo de la sima de Macocha, de unos 139 m, y se sigue en barca por un río subterráneo, con teleférico al mirador de arriba. Hay cupos limitados y algunas horas solo se venden en línea, así que conviene reservar. Temporada de abril a octubre; se llega en tren a Blansko y bus a Skalní mlýn.",
+    "cz-krkonose-snezka": "El parque nacional más antiguo del país, con tundra alpina en las crestas, circos glaciares y el Sněžka (1.603 m), techo de Chequia, al que se sube a pie desde Pec pod Sněžkou o en teleférico. Špindlerův Mlýn, a 9 km, es la principal estación de esquí checa, y su pista de trineo de 1.400 m funciona todo el año. El teleférico depende del tiempo y tiene parada técnica en otoño.",
+    "cz-ceske-budejovice": "La capital del sur de Bohemia tiene una de las mayores plazas de Europa, con la fuente de Sansón y la Torre Negra, y la cervecería Budvar, con visitas guiadas diarias y cerveza sin filtrar del tanque. A 10 km, el castillo de Hluboká, reconstruido por los Schwarzenberg en neogótico inspirado en Windsor, conserva sus interiores y un parque inglés junto al Moldava. Tren directo desde Praga en 2 h 30; buena base para Český Krumlov.",
+    "cz-sumava": "El mayor parque nacional checo: bosques de montaña, turberas y lagos glaciares como el Černé jezero, el mayor lago natural del país, junto a la frontera bávara. El valle del Vydra, de Čeňkova pila a Antýgl, es un paseo fácil de unos 7 km, y en invierno hay esquí de fondo. Los buses verdes del parque circulan los fines de semana de mayo a octubre y a diario en verano.",
+    "sk-bratislava": "Capital compacta junto al Danubio: el casco antiguo restaurado, el castillo sobre el río y la catedral de San Martín, donde se coronaron los reyes de Hungría durante casi tres siglos. A 10 km, en bus urbano, están las ruinas de Devín sobre la confluencia del Morava, y hacia el norte empieza la ruta del vino de los Pequeños Cárpatos. Cuidado con las bebidas adulteradas y los precios inflados en algunos bares del casco antiguo.",
+    "sk-altos-tatras": "La cordillera alpina más pequeña de Europa, con lagos glaciares y cumbres de más de 2.600 m: la ruta de Štrbské Pleso a Popradské Pleso (10 km, unas 3 h) es el clásico, y Tatranská Lomnica tiene la estación de esquí más alta del país y el alpine coaster Tatrabob. El tren eléctrico de los Tatras une los pueblos desde Poprad. Los senderos altos cierran del 1 de noviembre al 15 de junio.",
+    "sk-spis-levoca": "El castillo de Spiš, uno de los mayores conjuntos fortificados de Europa Central, y Levoča, a 14 km, cuya iglesia de Santiago guarda el retablo gótico de madera del maestro Pablo, el más alto del mundo, comparten inscripción como Patrimonio Mundial con la Spišská Kapitula y Žehra. En coche se ven en un día. El castillo cierra de mediados de noviembre a marzo.",
+    "sk-banska-stiavnica": "La ciudad minera más antigua de Eslovaquia, Patrimonio Mundial, en cuesta dentro de una caldera volcánica: casas de mineros, el Castillo Viejo y el Nuevo, un Calvario barroco y museos de minería. Alrededor quedan los tajchy, estanques mineros de los siglos XVII y XVIII donde en verano se nada, como el Počúvadlo, al pie del Sitno. Mejor de mayo a octubre.",
+    "sk-kosice": "La segunda ciudad eslovaca tiene la mayor reserva de monumentos urbanos del país, en torno a la catedral de Santa Isabel, la mayor iglesia de Eslovaquia, con un altar gótico de 1474-1477. Es la ciudad grande más cercana al Tokaj eslovaco. Tiene aeropuerto internacional y tren directo desde Bratislava (unas 5 h).",
+    "sk-slovensky-raj": "Gargantas calizas con cascadas que se remontan por escaleras de madera y hierro, cadenas y pasarelas: la de Suchá Belá, desde Podlesok, es una circular de unas 4 h, siempre de abajo arriba. A unos 10 km está la cueva de hielo de Dobšiná, Patrimonio Mundial y bajo cero todo el año; solo abre en verano y en 2026 figuraba cerrada por obras, así que hay que confirmarlo antes. Las gargantas cierran con crecidas y piden calzado de montaña.",
+    "sk-castillo-orava": "Castillo del siglo XIII escalonado sobre una roca encima del río Orava, con museo de historia y etnografía; fue escenario de Nosferatu (1922). Se llega en tren regional a Oravský Podzámok, al pie del castillo, y se puede bajar el Orava en balsa. Orava es la tierra del oravský korbáčik, un queso de tiras trenzadas.",
+    "sk-bojnice": "Castillo medieval que los Pálffy transformaron a finales del siglo XIX en un castillo romántico de torres y almenas inspirado en los del Loira, con museo y un festival de fantasmas. Al lado están el zoo y el balneario. Abre todo el año, aunque de noviembre a marzo solo de miércoles a domingo.",
+    "sk-bardejov": "Ciudad amurallada de una antigua ruta comercial, Patrimonio Mundial, con una plaza de casas burguesas, la iglesia gótica de San Egidio y un pequeño barrio judío. Alrededor están las iglesias de madera de los Cárpatos, también UNESCO, como la de Hervartov; hace falta coche y a menudo abren con la llave del guarda. El balneario de Bardejovské Kúpele queda entre bosques a pocos kilómetros.",
+    "sk-demanovska": "Valle kárstico de los Bajos Tatras con la cueva de la Libertad, la más visitada del país, y la cueva de hielo de Demänovská, ambas junto a la carretera. Al fondo, Jasná es la mayor estación de esquí de Eslovaquia, y desde el Chopok (2.024 m) sale la travesía al Ďumbier. El Aquapark Tatralandia, con agua termal, está a 13 km; las cuevas tienen cupos y pases a horas fijas.",
+    "sk-piestany": "El balneario más conocido de Eslovaquia, con aguas termales, la Casa de Baños Napoleón y edificios de principios del siglo XX en una isla del Váh. Está a menos de 90 minutos de Bratislava en tren y la isla queda a pie de la estación. Sus baños abren todo el año.",
+    "sk-zdiar": "Pueblo goral al pie de los Tatras Belianske, con casas de madera pintadas protegidas como reserva de arquitectura popular y una casa museo. Desde aquí sube el sendero de Monkova dolina al Široké sedlo (1.825 m), abierto del 15 de junio al 31 de octubre y con un desvío por el Veľký Grúň tras un desprendimiento. La estación de Tatranská Lomnica y el Tatrabob están a 12 km.",
+    "sk-tokaj": "La parte eslovaca del Tokaj: siete pueblos con bodegas excavadas a mano en la roca volcánica, a 8-16 m de profundidad, donde envejece el Tokajský výber. Las más visitadas están en Malá Tŕňa, con la bodega histórica de Tokaj & Co, de los siglos XV y XVI, y en Veľká Tŕňa y Viničky. Hace falta coche desde Košice (aprox. 1 h 15) y cita previa en las bodegas.",
+    "hu-budapest": "Las dos orillas del Danubio son Patrimonio Mundial: el Parlamento, el barrio del Castillo de Buda con la iglesia de Matías y la avenida Andrássy con el metro más antiguo del continente, además de baños termales como el Széchenyi, que se usan también en invierno. Es la mejor mesa del país, del Gran Mercado Central a Stand, con dos estrellas Michelin, con cafés históricos y ruin pubs. El bus 100E une el aeropuerto con el centro las 24 horas.",
+    "hu-szentendre": "Pueblo barroco fundado por refugiados serbios, con iglesias ortodoxas, calles empedradas y galerías de su colonia de artistas; sobre el pueblo, el Skanzen es el gran museo etnográfico al aire libre del país. Es la primera parada del Recodo del Danubio, a 40 minutos de Budapest en el tren HÉV o, de abril a septiembre, en barco. Las pistas de trineo de Visegrád quedan a 15 km.",
+    "hu-visegrad": "Desde la ciudadela del siglo XIII, que guardó la Santa Corona, se ve el Danubio girar entre los montes de Visegrád y Börzsöny; abajo quedan las ruinas del Palacio Real renacentista del rey Matías. En la colina de Nagyvillám hay un alpine coaster de unos 570 m y una pista de trineo clásica. En temporada se llega en barco desde Budapest; el resto del año, en bus desde Szentendre o en tren a Nagymaros y transbordador.",
+    "hu-esztergom": "Antigua capital real y sede del primado de Hungría: la basílica sobre el Danubio es el mayor edificio religioso del país, con un tesoro de orfebrería, y al lado está el Castillo Real donde nació San Esteban. El puente María Valeria cruza a Eslovaquia, y el restaurante 42 tiene una de las pocas estrellas Michelin fuera de Budapest. Tren directo desde Budapest-Nyugati en 1 h 30.",
+    "hu-eger": "Ciudad barroca con el castillo que resistió el asedio otomano de 1552, el minarete otomano más septentrional de Europa y el Liceo con su observatorio. A un paseo del centro, el Valle de la Bella Mujer reúne unas 200 bodegas excavadas en la toba donde se cata el Egri Bikavér (Sangre de Toro). Tren directo desde Budapest en unas 2 h.",
+    "hu-pecs": "Ciudad universitaria del sur con la necrópolis paleocristiana de Sopianae, Patrimonio Mundial, cuyas cámaras del siglo IV conservan pinturas murales; la mezquita de Gazi Kasim Pachá preside la plaza mayor y el barrio cultural Zsolnay ocupa la antigua fábrica de cerámica. En la ladera del Mecsek, a 2 km, está el alpine coaster Erdei Bob. Es la base para la región vinícola de Villány.",
+    "hu-balaton": "El mayor lago de Europa Central y el gran destino de baño de Hungría, de junio a agosto. En la península volcánica de Tihany, con lavanda y antiguos géiseres, está la abadía de 1055 cuya carta fundacional contiene las primeras palabras escritas en húngaro; en la orilla norte, los cerros de Badacsony dan blancos volcánicos como el kéknyelű. Se llega en tren desde Budapest, y el ferri Szántód–Tihany cruza todo el año.",
+    "hu-tokaj": "Una de las regiones vinícolas históricas del mundo, Patrimonio Mundial desde 2002: la cuna del Tokaji aszú, uno de los vinos dulces más antiguos, con laberintos de bodegas excavadas en Tolcsva y Sárospatak y grandes productores en Mád y Tállya. La vendimia del aszú, en octubre y noviembre, es el mejor momento. Para moverse entre bodegas hace falta coche o tour.",
+    "hu-hortobagy": "La mayor estepa natural de Europa Central, primer parque nacional de Hungría y Patrimonio Mundial por su pastoreo tradicional: vacas grises, ovejas racka, caballos y el puente de los Nueve Ojos junto a una csárda histórica. En otoño pasan miles de grullas. Se llega en tren o bus desde Debrecen, y la puszta se recorre en carro desde la yeguada de Máta.",
+    "hu-godollo": "Uno de los mayores palacios barrocos de Hungría, regalo de coronación a Francisco José y Sisí, que lo usaron como residencia de verano; conserva el único teatro barroco reconstruido del país. Se llega en 45 minutos con el tren HÉV desde Örs vezér tere, que para frente al palacio. El circuito del Hungaroring está a 8 km.",
+    "hu-bukk-lillafured": "Meseta kárstica de los montes Bükk, uno de los primeros parques nacionales del país: el valle de Szalajka sube desde Szilvásvárad hasta la cascada del Velo, en escalones de toba, y un tren de vía estrecha llega a Lillafüred, con su Palacio Hotel neorrenacentista. En Miskolc, a 12 km, está el castillo de Diósgyőr. En los valles se come trucha de los arroyos de montaña.",
+    "hu-sopron": "Ciudad real medieval junto a la frontera austriaca, con casi todo el casco protegido y la Torre del Fuego, de 58 m, sobre los restos de la muralla romana. Es la capital del kékfrankos y la base para el lago Fertő y el palacio Esterházy de Fertőd. Tren directo desde Budapest (2 h 30) o desde Viena (aprox. 1 h).",
+    "hu-heviz": "El mayor lago termal natural donde se puede nadar, cubierto de nenúfares, a 33-35 °C en verano y abierto todo el año. A 6 km, Keszthely tiene el palacio Festetics, con una biblioteca aristocrática intacta de más de 80.000 volúmenes, y la orilla oeste del Balaton. No hay tren a Hévíz: se va en tren a Keszthely y bus.",
+    "hu-holloko": "Aldea palóc de casas encaladas, Patrimonio Mundial desde 1987, bajo las ruinas de un castillo medieval; sigue habitada y conserva tradiciones como su Pascua, que llena el pueblo. Está a unas 2 h de Budapest en bus o 1 h 30 en coche. Desde la aldea, un sendero de la reserva paisajística sube al castillo.",
+    "hu-aggtelek": "Más de 700 cuevas en un sitio natural UNESCO compartido con Eslovaquia; la de Baradla, la mayor de Hungría, tiene enormes salas de estalactitas y sigue al otro lado de la frontera como Domica. Hay recorridos guiados de 1 a 5 horas desde Aggtelek y Jósvafő todo el año. El transporte público es escaso: mejor en coche, a unas 3 h de Budapest.",
+    "hu-pannonhalma": "Abadía benedictina fundada en 996 y en uso desde hace más de mil años, Patrimonio Mundial: basílica medieval, una gran biblioteca y la primera escuela del país. Desde 2003 tiene una bodega moderna que se visita y elabora los blancos de clima fresco del distrito. Bus desde Győr en unos 30 minutos.",
+    "si-ljubljana": "Capital pequeña y peatonal que Jože Plečnik transformó en el periodo de entreguerras: el Triple Puente, el mercado central y la Biblioteca Nacional son Patrimonio Mundial. El castillo domina el casco barroco y las terrazas a orillas del Ljubljanica, y los viernes de primavera a otoño la Odprta kuhna reúne a cocineros de todo el país. En invierno, el Krvavec, a 27 km, tiene bus de esquí los fines de semana.",
+    "si-bled": "Lago glaciar con la única isla natural de Eslovenia, una iglesia barroca en ella y un castillo sobre un acantilado; la vuelta al lago son 6 km y a la isla se llega en barca. A 4 km, la garganta de Vintgar se recorre por pasarelas (de abril a octubre, con entrada por franja horaria), y en la colina de Straža hay tobogán de verano. Hay que probar la kremšnita, la tarta de crema creada aquí en 1953.",
+    "si-bohinj": "El mayor lago natural de Eslovenia, sin urbanizar y dentro del Parque Nacional del Triglav: unos 550 escalones suben a la cascada Savica, y el teleférico del Vogel lleva a 1.535 m, con esquí en invierno. En Stara Fužina, el museo de los pastores alpinos explica el mohant, un queso con denominación de origen. Es más tranquilo que Bled, a media hora en coche.",
+    "si-piran": "El pueblo más bonito de la costa eslovena: calles venecianas, la plaza Tartini y la iglesia de San Jorge sobre el mar, y cerca las salinas de Sečovlje, donde la sal se sigue cosechando a mano. Un sendero costero lleva a Strunjan, con el acantilado de flysch más alto del Adriático. El casco está cerrado al tráfico: se aparca en Fornače y se sube en lanzadera.",
+    "si-skocjan": "El río Reka corre por uno de los mayores cañones subterráneos del mundo, Patrimonio Mundial desde 1986, que se cruza por el puente de Cerkvenik. A 8 km, la yeguada de Lipica cría caballos lipizanos desde 1580, y los pueblos del Karst sirven teran y jamón kraški pršut. Las visitas son solo guiadas: conviene comprar la entrada en línea con unos días de antelación.",
+    "si-postojna-predjama": "La única cueva kárstica del mundo con tren: recorre unos 2 km hasta grandes salas de concreciones, y en el vivario se ve el proteo, un anfibio ciego. A 9 km, el castillo de Predjama, encajado en una pared de roca de 123 m, lleva más de 700 años ligado a la leyenda del caballero Erazem. Abren todo el año; la entrada combinada cuesta 49,90 € y conviene llegar 30 minutos antes del pase.",
+    "si-triglav-vrsic": "El único parque nacional de Eslovenia, en los Alpes Julianos, con el Triglav (2.864 m) y el valle de los Lagos del Triglav, una circular de 6-7 horas desde la cascada Savica. La carretera del paso de Vršič (1.611 m), con la capilla rusa levantada por prisioneros de guerra en 1916, une Kranjska Gora con el valle del Soča. El paso puede cerrar en invierno; la alta montaña es de junio a septiembre.",
+    "si-soca-bovec": "Río alpino de color esmeralda que baja del Triglav entre gargantas y pozas hasta Bovec, capital eslovena del rafting, el kayak y el barranquismo, de marzo a octubre. En Kobarid están el museo del frente del Isonzo y Hiša Franko, de Ana Roš, el único tres estrellas Michelin del país. El agua es muy fría: solo con operadores con licencia.",
+    "si-maribor": "Capital vinícola de la Estiria eslovena: en el barrio de Lent crece la Vieja Vid, de más de 400 años, la más antigua del mundo que sigue dando fruto, y bajo la ciudad están las bodegas de Vinag, de 1847. El Pohorje, a 4 km, tiene el tobogán PohorJet, bike park y una de las mayores estaciones de esquí del país. Tren directo desde Ljubljana en unas 2 h.",
+    "si-ptuj": "Considerada la ciudad más antigua de Eslovenia, con restos de la Poetovio romana, un casco medieval y un castillo museo; su carnaval Kurentovanje, con las máscaras de los kurenti, es patrimonio inmaterial UNESCO y se celebra en febrero. Bajo el convento de los minoritas está la bodega más antigua del país, con un vino de 1917. Alrededor quedan las colinas vinícolas de Haloze y Jeruzalem.",
+    "si-goriska-brda": "La región vinícola más conocida de Eslovenia, pegada al Collio italiano: blancos y vinos naranja de rebula, y cada vez más pinot noir, en bodegas familiares de pueblos de colina como Šmartno, fortificado, y Dobrovo, con su castillo. Se recorre en bici, y en mayo y junio es temporada de cerezas. Hace falta coche desde Nova Gorica, a unos 20 minutos.",
+    "si-izola": "Pueblo pesquero de calles venecianas, con el palacio barroco Besenghi degli Ughi y tabernas de sardinas en el puerto; Time Out lo eligió el destino más infravalorado de Europa. Es menos concurrido que Piran, a 7 km, y la vía ciclista Parenzana lleva a los acantilados de Strunjan. Baño de junio a septiembre.",
+    "si-kranjska-gora": "Puerta norte del Parque Nacional del Triglav: el lago Jasna, al pie del paso de Vršič, la reserva de Zelenci, donde nace el Sava, y el valle de Planica, con la Planica Zipline, la tirolina más empinada del mundo. Junto al lago, Milka tiene dos estrellas Michelin. En invierno es estación de esquí; en verano, base de senderismo."
+  },
+  "notas": {
+    "grupo_a": {
+      "grupo_a_DE_PL": {
+        "guias_busqueda": "35 WebSearch para los 22 lugares nuevos de DE y PL con guías 0 (incluido pl-krzemionki). Solo se citan URL que salieron en los resultados; no se usan foros, revendedores ni rankings de prensa como guía. Escala de criterios.json sin bajar umbral: 2 = una guía (aunque tenga varias páginas o sea top pick en ella).",
+        "guias_en_0_tras_buscar": {
+          "de-phantasialand": "3 búsquedas (LP, Fodor's, Rough Guides, Time Out): ninguna guía; solo rankings de parques, blogs y operadores. Queda 0 (global 2,9).",
+          "de-heide-park": "2 búsquedas (LP, Rough Guides, Time Out): sin guía. Queda 0.",
+          "pl-energylandia": "3 búsquedas (LP, Time Out, Rough Guides): sin guía; el ranking de Euronews (n.º 1 de Europa en 2026) no es guía. Queda 0.",
+          "de-goslar": "3 búsquedas (LP, Fodor's, Rick Steves): sin página de guía en los resultados. Queda 0 (global 2,4); probablemente está en las guías impresas, pero no se pudo citar.",
+          "pl-krzemionki": "1 búsqueda (LP, Rough Guides, Bradt): sin guía. Queda 0 y sigue descartado (global 1,8)."
+        },
+        "guias_dudosas": {
+          "pl-pieniny": "La ficha de Lonely Planet solo apareció en nonprod.lonelyplanet.com (copia no productiva). Se cita esa URL; conviene sustituirla por la canónica lonelyplanet.com/points-of-interest/pieniny-national-park/1609355 si el revisor la verifica.",
+          "pl-wolin": "La ficha de Lonely Planet solo apareció en copias (imagizer y nonprod); se cita la de imagizer. Misma recomendación: canónica /points-of-interest/wolin-national-park/1424798.",
+          "de-deidesheim": "La página de Frommer's (Driving Tours in Worms, por la Ruta del Vino) salió en la búsqueda de Deidesheim, pero no se leyó su texto (fodors.com no está permitido para WebFetch en esta sesión y no se intentó con frommers.com). Conviene que el revisor confirme que nombra Deidesheim.",
+          "de-dessau": "Lonely Planet la eligió para Best in Travel 2027 (única alemana), pero es una sola guía: queda 2.",
+          "de-europa-park": "Dos páginas de Fodor's (Rust y el top 10 de parques de Europa, donde abre la lista): una guía, 2."
+        },
+        "fusiones": {
+          "de-baiersbronn -> de-selva-negra": "Baiersbronn (a unos 42 km de Triberg) está dentro de la Selva Negra y su naturaleza es la del Parque Nacional de la Selva Negra, que la ficha de la región ya usa (Lotharpfad, Ruhestein). Se fusiona para no duplicar la región en el mapa; la Schwarzwaldstube entra en el por_que de la Selva Negra. Logística y coordenadas de Triberg.",
+          "de-phantasialand / de-colonia": "No se fusionan: 17 km (más de 15) y un parque temático es un destino distinto de la ciudad; Colonia conserva adrenalina 4 por tenerlo en su radio.",
+          "pl-pieniny / sk-pieniny": "No se fusionan: países distintos.",
+          "de-goslar / de-harz": "No se fusionan: unos 17 km entre el casco de Goslar y el Brocken, y son ciudad frente a parque nacional."
+        },
+        "categorias": "Se añade playa a de-sylt, de-rugen, pl-wolin, pl-slowinski y pl-gdansk (Sopot), todos con playas de arena en el Báltico o el mar del Norte. Los parques temáticos y el Nürburgring quedan solo como adrenalina: no son ciudad ni pueblo.",
+        "lugares": "de-muritz pasa a «Parque Nacional de Müritz» (las coordenadas están en Waren, no en Serrahn). Región de de-deidesheim y de-baiersbronn normalizada al Land (Renania-Palatinado, Baden-Wurtemberg). Coordenadas de DE y PL revisadas: coherentes con el nombre; no hizo falta corregir ninguna.",
+        "busquedas_usadas": 35
+      }
+    },
+    "grupo_b": {
+      "guias_busqueda": "35 WebSearch (máximo 35) para los 20 lugares nuevos con guías 0 y los 3 descartados (cz-podyji, hu-kiskunsag, si-cerknica). Solo se citan URL vistas en los resultados. Escala oficial: 2 = una guía con ficha propia (Lonely Planet o ficha de ViaMichelin), 1 = mención menor fuera de las guías de la lista. No se citan las páginas nonprod.lonelyplanet.com (servidor de desarrollo) ni foros, operadores, Wikivoyage o blogs.",
+      "guias_detalle": {
+        "cz-litomysl": "Ficha de ViaMichelin («Well worth the diversion», ★★, no ★★★). Sin LP, Rough Guides ni Fodor's en 3 búsquedas. 2.",
+        "cz-kromeriz": "Dos fichas de Lonely Planet (palacio arzobispal y Jardín de Flores); no se confirmó la etiqueta Top Choice. 2.",
+        "cz-trebic": "Solo ficha de ViaMichelin; LP y Rough Guides no aparecen en 2 búsquedas. 2.",
+        "sk-vlkolinec": "Lonely Planet lo marca Top Choice, pero es una sola guía (sin Rough Guides). 2.",
+        "sk-trencin": "Ficha de Lonely Planet del castillo. 2.",
+        "cz-ceske-budejovice": "Ficha de Lonely Planet de la cervecería Budvar. 2 (con la fusión se conserva el 2 de Hluboká, Fodor's Choice).",
+        "si-vipava": "Página de destino y artículo de Lonely Planet; Lonely Planet Best in Europe 2018 (puesto 9) consta solo por notas de prensa de slovenia.info. Condé Nast solo por la web del turismo local, sin confirmar. National Geographic: solo contenido pagado, no cuenta. 2.",
+        "cz-adrspach-teplice": "Ficha de ViaMichelin («Well worth the diversion»). 2.",
+        "sk-pieniny": "Ficha de Lonely Planet (lonelyplanet.com/pois/1609355). 2.",
+        "si-logarska-dolina": "Dos fichas de Lonely Planet (Logarska Dolina Country Park y Matkov Kot). 2.",
+        "hu-kiskunsag": "Ficha de ViaMichelin de Bugac. 2: con guías 2 pasa de global 1.8 a 2.6 y deja de estar descartado (necesita por_que, incluido).",
+        "si-idrija": "Lonely Planet solo aparece en nonprod.lonelyplanet.com (no se cita); queda la ficha de In Your Pocket (Ljubljana), mención menor fuera de la lista. 1.",
+        "hu-villany": "Solo la ficha de AAA TripCanvas, mención menor; LP, Rough Guides, Fodor's y ViaMichelin no aparecen en 2 búsquedas. 1.",
+        "en_0_tras_buscar": "hu-hungaroring (1 búsqueda: solo resultados de librerías y Rome2rio), cz-aqualand-moravia (1), hu-fertod (3: Britannica, Euronews, Wikivoyage, no guías), cz-zatec (2), sk-malokarpatska (2: Slovak Spectator, operadores), cz-cesky-raj (1), sk-mala-fatra (1), sk-poloniny (1), cz-podyji (1) y si-cerknica (1). cz-podyji y si-cerknica siguen descartados (global 1.8)."
+      },
+      "fusiones": {
+        "cz-hluboka -> cz-ceske-budejovice": "El castillo está a 9 km de la ciudad (regla del monumento a < 15 km). Global estimado 2.9 (guías 2, cultura 3, gastronomía 3, adrenalina 3, logística 5 del destino).",
+        "sk-dobsinska -> sk-slovensky-raj": "La cueva de hielo está a 10 km, dentro del propio Parque Nacional Paraíso Eslovaco. Global 3.5 sin cambios; se pierde la logística 2 de la cueva (cerrada por obras en 2026), que queda dicha en por_que."
+      },
+      "sin_fusion": {
+        "cz-aqualand-moravia / cz-mikulov": "12,6 km, pero el agente de adrenalina lo marcó destino_propio (parque acuático): va aparte, como los parques de francia-alpes. Mikulov ya lo tiene en adrenalina_cerca y su adrenalina 4 viene de él.",
+        "hu-hungaroring / hu-budapest o hu-godollo": "18,4 km de Budapest (fuera de 15 km) y 8 km de Gödöllő, pero es destino_propio de adrenalina; fusionarlo con el palacio saltaría el tope de 2 de adrenalina para monumentos. Va aparte con guías 0 (global 2.3).",
+        "sk-malokarpatska / sk-bratislava": "Pezinok está a 20 km del centro de Bratislava y Modra a unos 28 km; solo Svätý Jur queda a unos 12 km. La ruta pasa de 15 km: no se fusiona.",
+        "cz-lednice-valtice / cz-mikulov": "12,3 km, pero son destinos distintos (paisaje UNESCO de 200 km² frente a pueblo del vino) y guías-expertas los puntuó por separado.",
+        "si-piran / si-izola": "7,2 km, dos pueblos distintos, no un monumento de la ciudad; Izola tiene su propia fuente (Time Out).",
+        "si-triglav-vrsic / si-kranjska-gora": "6,6 km entre el paso de Vršič y el pueblo; parque nacional frente a estación de esquí con Milka (2 estrellas) y Planica. Se mantienen aparte."
+      },
+      "categorias": "ciudad para hu-szentendre, hu-visegrad y sk-zdiar (solo quedaban como adrenalina). playa para hu-balaton (destino de baño, como at-worthersee). hu-kiskunsag no tiene temático ≥ 3.5 ni es ciudad: el script usará naturaleza (3) como último recurso y avisará; es lo correcto para un parque. hu-hungaroring y cz-aqualand-moravia quedan solo como adrenalina (no son pueblos). Prueba en seco (copia en el scratchpad): el script avisa también de cz-terezin, sk-castillo-orava, sk-bojnice y hu-godollo (monumentos, cultura 3) y de hu-bukk-lillafured (naturaleza 3); se dejan con su temático máximo porque no son ciudades ni playas. Resultado en seco del grupo b: 80 lugares (CZ 25, HU 20, SK 19, SI 16), 2 fusiones, descartados cz-podyji y si-cerknica.",
+      "coordenadas": "Revisadas las 81 coordenadas del grupo b y las de hu-kiskunsag: todas coherentes con el nombre; no hacen falta correcciones.",
+      "por_que": "80 textos: los 79 lugares que quedan del volcado tras las 2 fusiones más hu-kiskunsag. No se escriben para cz-podyji ni si-cerknica (descartados)."
+    }
+  },
+  "paises": [
+    "CZ",
+    "SK",
+    "HU",
+    "SI"
+  ]
+}
